@@ -5,11 +5,12 @@ country: fr
 insurer_slug: maif
 name: MAIF
 website: https://www.maif.fr
-products_count: 65
+products_count: 69
 branches_covered:
 - assurance-vie
 - auto
 - autres
+- credit-caution
 - decennale
 - edpm
 - emprunteur
@@ -39,7 +40,7 @@ generated: true
 
 ## Résumé
 
-**MAIF** - [https://www.maif.fr](https://www.maif.fr). 65 document(s) across 17 branch(es).
+**MAIF** - [https://www.maif.fr](https://www.maif.fr). 69 document(s) across 18 branch(es).
 
 ## Produits par branche
 
@@ -71,6 +72,12 @@ generated: true
 - [Barème de frais - Tarifs](../products/maif/Bar%C3%A8me%20de%20frais%20-%20Tarifs.md) - Conditions tarifaires (03/2026)
 - [Barème de frais applicables à compter du 01-07-2024 pour les Associations et les Collectivités (Associations et Collecti](../products/maif/Bar%C3%A8me%20de%20frais%20applicables%20%C3%A0%20compter%20du%2001-07-2024%20pour%20les%20Associations%20et%20les%20Collectivit%C3%A9s%20%28Associations%20et%20Collecti.md) - Conditions tarifaires (07/2024)
 - [Notice juridique sur l'assurance à distance - Doc](../products/maif/Notice%20juridique%20sur%20l%27assurance%20%C3%A0%20distance%20-%20Doc.md) - Document (06/2026) · réf. 2113NJ
+
+### Crédit et caution
+- [Assurance Loyers Impayés - Doc](../products/maif/Assurance%20Loyers%20Impay%C3%A9s%20-%20Doc.md) - Document
+- [Assurance Loyers Impayés - SADA Assurances (porteur du risque)](../products/maif/Assurance%20Loyers%20Impay%C3%A9s%20-%20SADA%20Assurances%20%28porteur%20du%20risque%29.md) - Conditions générales (Mars 2023) · réf. CG SADA GLI _V1-SA_MAIF-01/07/2021 – Mars 2023
+- [Assurance Loyers Impayés - WAKAM (porteur du risque)](../products/maif/Assurance%20Loyers%20Impay%C3%A9s%20-%20WAKAM%20%28porteur%20du%20risque%29.md) - Conditions générales (Septembre 2025) · réf. CGWAKAMGLIMF_092025
+- [Assurance Loyers Impayés MF (SADA Assurances) - IPID](../products/maif/Assurance%20Loyers%20Impay%C3%A9s%20MF%20%28SADA%20Assurances%29%20-%20IPID.md) - IPID / Fiche d'information (Mars 2023) · réf. Réf. CG SADA GLI _V1-SA_MF-01/07/2021 – Mars 2023
 
 ### [Assurance construction](../branches/Assurance%20construction.md)
 - [Dommages-Ouvrage Associations et Collectivités - IPID](../products/maif/Dommages-Ouvrage%20Associations%20et%20Collectivit%C3%A9s%20-%20IPID.md) - IPID / Fiche d'information (08/2025) · réf. IPID DO A&C

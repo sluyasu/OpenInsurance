@@ -5,13 +5,14 @@ country: fr
 insurer_slug: matmut
 name: Matmut
 website: https://www.matmut.fr
-products_count: 176
+products_count: 178
 branches_covered:
 - animaux
 - assurance-vie
 - auto
 - autres
 - chasse
+- credit-caution
 - edpm
 - emprunteur
 - gav
@@ -42,7 +43,7 @@ generated: true
 
 ## Résumé
 
-**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 176 document(s) across 20 branch(es).
+**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 178 document(s) across 21 branch(es).
 
 ## Produits par branche
 
@@ -108,6 +109,10 @@ generated: true
 ### [Chasse](../branches/Chasse.md)
 - [Chasse](../products/matmut/Chasse%20%28Matmut%29.md) - Conditions générales (CG CHASSE – 04/26 (mention de pied de page 37 ; aucune autre date d'édition n'est imprimée)) · réf. CG CHASSE – 04/26
 - [Contrat « Chasse » - IPID](../products/matmut/Contrat%20%C2%AB%20Chasse%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (04/26) · réf. IPID.CHASSE. 04/26
+
+### Crédit et caution
+- [Assurance Loyers Impayés](../products/matmut/Assurance%20Loyers%20Impay%C3%A9s.md) - Conditions générales (10/24) · réf. CG LOYERS IMP - 10/24
+- [Contrat « Assurance Loyers Impayés » - IPID](../products/matmut/Contrat%20%C2%AB%20Assurance%20Loyers%20Impay%C3%A9s%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (2024-10) · réf. IPID.ALI  – 10/24
 
 ### [EDPM et mobilités douces](../branches/EDPM%20et%20mobilit%C3%A9s%20douces.md)
 - [2R Mobilité](../products/matmut/2R%20Mobilit%C3%A9.md) - Conditions générales (07/25) · réf. CG EDPM 07/25

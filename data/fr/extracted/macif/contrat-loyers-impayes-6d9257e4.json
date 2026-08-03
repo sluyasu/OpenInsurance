@@ -1,0 +1,930 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "macif",
+  "insurer_name": "Macif",
+  "product_name": "Contrat Loyers impayés",
+  "branch": "credit-caution",
+  "branch_code": null,
+  "document_type": "conditions_generales",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "Le contrat s’adresse au bailleur : « La personne physique ou morale, propriétaire (ou usufruitier) de locaux à usage exclusif d’habitation ou mixte (habitation/professionnel), destinés à la location. » Le souscripteur peut aussi être « la personne physique ou morale […] agissant pour le compte du Propriétaire assuré qui lui a donné mandat » (gestionnaire locatif). Certaines dispositions distinguent le cas où « Vous êtes une personne physique […] pour des risques autres que professionnels ». Le document ne se range dans aucune des catégories du schéma, et le champ target_audience est donc laissé à null.",
+  "reference": "HAB/GLI/05 - 06/23 - NM17",
+  "edition_date": "Version 06/2023 (page 5 : « Version juin 2023 »)",
+  "product_family": "Contrat Loyers impayés",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/CG_GLI.pdf",
+  "source_pdf": "contrat-loyers-impayes-6d9257e4.pdf",
+  "source_sha256": "4bedc824abdda89e2383669165fce6f1adf6ab90e70267dd4367b8e91ff3c41d",
+  "source_pages": 32,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Conditions générales du Contrat Loyers impayés de la Macif (version juin 2023), assurance souscrite par le bailleur d’un bien immobilier loué à usage d’habitation principale ou mixte dont le loyer, charges et taxes comprises, n’excède pas 2 500 € par mois. Trois garanties principales : Loyers impayés et Contentieux locatif (remboursement des loyers, charges, taxes et indemnités d’occupation, et prise en charge des honoraires d’avocat et d’huissier), Dégradations immobilières (coût des travaux de remise en état fixés à dire d’expert, sous vétusté plafonnée à 50 %) et Protection juridique du bailleur. Une garantie optionnelle, Inoccupation anticipée du bien assuré, indemnise de façon dégressive la vacance qui suit le départ du locataire dans six cas énumérés. Les plafonds sont renvoyés aux conditions particulières ; l’indemnisation intervient sous une franchise absolue égale au dépôt de garantie, et la garantie s’exerce exclusivement en France métropolitaine.",
+  "definitions": [
+    {
+      "term": "Assuré, ci-après dénommé le Propriétaire assuré",
+      "definition": "La personne physique ou morale, propriétaire (ou usufruitier) de locaux à usage exclusif d’habitation ou mixte (habitation/professionnel), destinés à la location.",
+      "page": 7
+    },
+    {
+      "term": "Souscripteur, ci-après dénommé Vous",
+      "definition": "La personne physique ou morale, propriétaire (ou usufruitier) des locaux donnés en location et objet du contrat, telle que définie aux conditions particulières, ou la personne physique ou morale, définie sous ce nom aux conditions particulières, agissant pour le compte du Propriétaire assuré qui lui a donné mandat.",
+      "page": 7
+    },
+    {
+      "term": "Assureur, ci-après dénommé Nous ou l’Assureur",
+      "definition": "MACIF - MUTUELLE ASSURANCE DES COMMERÇANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE. Société d’assurance mutuelle à cotisations variables. Entreprise régie par le Code des assurances. Siège social : 1 rue Jacques Vandier - 79000 Niort.",
+      "page": 7
+    },
+    {
+      "term": "Bien immobilier",
+      "definition": "Le bien immobilier mentionné aux conditions particulières du contrat, donné en location à un locataire désigné auxdites conditions particulières.",
+      "page": 7
+    },
+    {
+      "term": "Délai de carence",
+      "definition": "Période pendant laquelle la garantie n’est pas acquise.",
+      "page": 7
+    },
+    {
+      "term": "Incident de paiement",
+      "definition": "Non-paiement de 2 termes consécutifs de loyers, en tout ou partie, constaté le 45e jour, suivant la date d’exigibilité du premier terme.",
+      "page": 7
+    },
+    {
+      "term": "Sinistre",
+      "definition": "Il y a sinistre lorsque : En garantie Loyers impayés : il y a non-paiement de 2 termes consécutifs de loyers à leur échéance, constaté le 45e jour, suivant la date d’exigibilité du premier terme. En garantie Dégradations immobilières : des dégradations immobilières imputables au locataire et causées durant sa période d’occupation, sont constatées par comparaison entre les états des lieux d’entrée et de sortie établis contradictoirement, ou à défaut par constat d’huissier de justice. En garantie Protection juridique du bailleur : il y a un refus opposé à une réclamation dont le Propriétaire assuré est l’auteur ou le destinataire à l’occasion d’un litige avec le locataire qui découlerait de l’exécution du contrat de location du bien immobilier bénéficiant de la garantie. En garantie Inoccupation anticipée du bien assuré : le Propriétaire assuré subit des pertes financières du fait de la non-location de son bien suite au départ de son locataire dans une des situations prévues au présent contrat.",
+      "page": 7
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Garantie Loyers impayés et Contentieux locatif — A. Au titre des Loyers impayés",
+      "description": "Le remboursement au Propriétaire assuré du montant des loyers impayés par le locataire ainsi que les charges et taxes lui incombant en vertu d’un contrat de bail répondant aux conditions légales en vigueur, ainsi que les indemnités d’occupation afférentes à ce bien, jusqu’à la récupération officielle des locaux, dans les conditions et limites du présent contrat.",
+      "is_optional": false,
+      "territorial_scope": "La garantie du présent contrat s’exerce exclusivement en France métropolitaine, qu’il s’agisse de la situation géographique des biens immobiliers ou des actions en demande et en défense consécutives à un litige avec le locataire. (Article 16 - Territorialité)",
+      "limits": "Notre engagement financier correspond à un plafond de garantie par sinistre, stipulé aux conditions particulières. Il se poursuit jusqu’au départ du locataire et à la reprise officielle des locaux dans les conditions et limites du contrat.",
+      "sub_limits": [
+        "Notre premier règlement interviendra, au terme du 4e mois suivant le premier impayé, mais prendra en compte les impayés dès le premier mois, dans les conditions du contrat.",
+        "Nous indemniserons ensuite trimestriellement le Propriétaire assuré, jusqu’à la reprise officielle des locaux dans la limite du plafond de garantie mentionné aux conditions particulières si nécessaire.",
+        "Notre indemnisation sera basée sur le montant du loyer déclaré, charges et taxes comprises, ayant servi au calcul de la cotisation.",
+        "Pour les indemnités d’occupation, quel que soit le montant fixé par le tribunal (qu’il soit supérieur, ou inférieur ou égal au montant du loyer), nous indemniserons le Propriétaire assuré à concurrence du montant du loyer qui nous aura été déclaré et qui aura servi au calcul de la cotisation."
+      ],
+      "deductible": "Notre indemnisation intervient sous déduction d’une franchise absolue, c’est-à-dire une somme restant à la charge du Propriétaire, fixée à l’équivalent du dépôt de garantie perçu à l’entrée du locataire sur la base de : 2 mois de loyers pour les baux souscrits jusqu’au 09/02/2008 ; 1 mois de loyer pour les baux souscrits après le 09/02/2008. Cette franchise absolue sera déduite en fin de sinistre que le dépôt de garantie ait été effectivement perçu ou non par le Propriétaire à l’entrée du locataire.",
+      "conditions": [
+        "Rubrique « Les garanties principales » du chapitre 01.",
+        "Le présent contrat s’applique à la location d’un bien immobilier, meublé ou non, désigné aux conditions particulières, à usage d’habitation principale ou mixte (habitation/professionnel) dont le bail est établi conformément à la législation en vigueur, et dont le loyer, charges et taxes comprises, n’excède pas 2 500 € par mois. (Article 1)",
+        "Nos règlements interviendront déduction faite de tous acomptes que le locataire pourrait verser directement entre vos mains ou celles du Propriétaire assuré sans que ce dernier soit tenu de nous les reverser.",
+        "Si après nous avoir adressé la déclaration de sinistre vous ou le Propriétaire assuré percevez des fonds de la part du locataire ou des règlements faits pour son compte, il conviendra de nous les reverser dans le mois de leur encaissement, dans la limite des indemnités que nous aurons déjà versées.",
+        "Un sinistre portant sur la garantie Loyers impayés et Contentieux locatif, pris en charge pendant la validité du contrat, sera indemnisé jusqu’à son terme, même au-delà de la date de résiliation dudit contrat.",
+        "Si au cours de la procédure d’expulsion, le concours de la force publique est expressément refusé ou s’il n’est pas accordé, la garantie « Loyers impayés » sera alors suspendue et nous n’indemnisons plus le Propriétaire assuré. Le règlement des loyers reprendra à la date d’octroi du concours de la force publique."
+      ],
+      "page": 12
+    },
+    {
+      "name": "Garantie Loyers impayés et Contentieux locatif — B. Au titre du Contentieux locatif",
+      "description": "Les honoraires d’avocat et d’huissier de justice, ainsi que les frais de procédures judiciaires taxables prévus à l’article 695 du Code de procédure civile, exposés pour parvenir au recouvrement des loyers charges et taxes, ou à l’expulsion du locataire, dans la limite fixée aux conditions particulières. Sont notamment pris en charge au titre du « Contentieux locatif » : le coût du premier commandement délivré au locataire, ainsi que les mesures conservatoires et leur validation.",
+      "is_optional": false,
+      "territorial_scope": "La garantie du présent contrat s’exerce exclusivement en France métropolitaine, qu’il s’agisse de la situation géographique des biens immobiliers ou des actions en demande et en défense consécutives à un litige avec le locataire. (Article 16 - Territorialité)",
+      "limits": "dans la limite fixée aux conditions particulières ; plafond de garantie par sinistre stipulé aux conditions particulières",
+      "sub_limits": [
+        "le coût du premier commandement délivré au locataire",
+        "les mesures conservatoires et leur validation"
+      ],
+      "deductible": "Notre indemnisation intervient sous déduction d’une franchise absolue, c’est-à-dire une somme restant à la charge du Propriétaire, fixée à l’équivalent du dépôt de garantie perçu à l’entrée du locataire sur la base de : 2 mois de loyers pour les baux souscrits jusqu’au 09/02/2008 ; 1 mois de loyer pour les baux souscrits après le 09/02/2008. Cette franchise absolue sera déduite en fin de sinistre que le dépôt de garantie ait été effectivement perçu ou non par le Propriétaire à l’entrée du locataire.",
+      "conditions": [
+        "Rubrique « Les garanties principales » du chapitre 01.",
+        "Le présent contrat s’applique à la location d’un bien immobilier, meublé ou non, désigné aux conditions particulières, à usage d’habitation principale ou mixte (habitation/professionnel) dont le bail est établi conformément à la législation en vigueur, et dont le loyer, charges et taxes comprises, n’excède pas 2 500 € par mois. (Article 1)",
+        "Si au cours de la procédure d’expulsion, le concours de la force publique est expressément refusé ou s’il n’est pas accordé, nous nous chargeons dans la limite du plafond de garantie mentionné aux conditions particulières des démarches (recours gracieux ou mise en cause de la responsabilité de l’État devant le tribunal administratif), en vue de permettre au Propriétaire assuré d’obtenir l’indemnisation de l’État."
+      ],
+      "page": 12
+    },
+    {
+      "name": "Garantie Dégradations immobilières",
+      "description": "Nous nous engageons à garantir dans les conditions et limites prévues au contrat le coût des travaux de remise en état fixés à dire d’expert, suite à des dégradations immobilières, causées par le locataire (ou tous les occupants de son chef), et constatées à son départ par comparaison de l’état des lieux d’entrée et de sortie établis contradictoirement. En l’absence d’état des lieux de sortie contradictoire, vous ferez établir un constat par huissier de justice, le coût de cette formalité restant à notre charge, si elle est rendue nécessaire du fait du locataire.",
+      "is_optional": false,
+      "territorial_scope": "La garantie du présent contrat s’exerce exclusivement en France métropolitaine, qu’il s’agisse de la situation géographique des biens immobiliers ou des actions en demande et en défense consécutives à un litige avec le locataire. (Article 16 - Territorialité)",
+      "limits": "Notre engagement financier correspond à un plafond de garantie par sinistre, stipulé aux conditions particulières.",
+      "sub_limits": [
+        "Le taux de vétusté, appliqué au montant des dégradations immobilières retenues, est fixé contractuellement comme suit, sans pouvoir dépasser 50 % : pour les embellissements (papier peint, revêtements muraux, moquette, parquets stratifiés), le taux de vétusté retenu est de 8 % par an ; pour les autres dégradations immobilières (hors embellissements), le taux de vétusté retenu est de 3 % par an.",
+        "Il ne sera pas appliqué de vétusté pour les biens immobiliers construits depuis moins de 2 ans à la date de leur libération par le locataire, sur production du procès-verbal de réception du bien concerné ; ni pour les biens immobiliers qui ont été totalement remis à neuf depuis moins de 2 ans à la date de libération des lieux par le locataire, sur production des factures de remise en état ou d’un état des lieux contradictoire d’entrée du locataire faisant état d’une remise à neuf du bien.",
+        "Indemnisation sur la base des conclusions d’expertise hors TVA si les travaux n’ont pas été réalisés, ou s’ils sont réalisés par un non-professionnel (le Propriétaire ou un particulier).",
+        "Indemnisation sur la base des conclusions d’expertise TTC, sur production de la facture acquittée des travaux conformes aux devis, s’ils sont réalisés par un professionnel."
+      ],
+      "deductible": "Notre indemnisation intervient sous déduction d’une franchise absolue, c’est-à-dire une somme restant à la charge du Propriétaire, fixée à l’équivalent du dépôt de garantie perçu à l’entrée du locataire sur la base de : 2 mois de loyers pour les baux souscrits jusqu’au 09/02/2008 ; 1 mois de loyer pour les baux souscrits après le 09/02/2008. Cette franchise absolue sera déduite en fin de sinistre que le dépôt de garantie ait été effectivement perçu ou non par le Propriétaire à l’entrée du locataire. En outre, la franchise ne sera pas appliquée au titre d’un sinistre « Dégradations immobilières » si elle a déjà été prise en considération dans le cadre de la gestion d’un sinistre « Loyers impayés » concernant le même locataire.",
+      "conditions": [
+        "Rubrique « Les garanties principales » du chapitre 01.",
+        "Le présent contrat s’applique à la location d’un bien immobilier, meublé ou non, désigné aux conditions particulières, à usage d’habitation principale ou mixte (habitation/professionnel) dont le bail est établi conformément à la législation en vigueur, et dont le loyer, charges et taxes comprises, n’excède pas 2 500 € par mois. (Article 1)",
+        "L’état des lieux contradictoire ou le constat d’huissier doit impérativement être régularisé avant l’entrée d’un nouveau locataire, et au plus tard dans les 15 jours suivants la sortie du locataire.",
+        "À défaut d’avoir établi ou fait établir contradictoirement les états les lieux ou le constat d’entrée et de sortie, nous serons dégagés de toutes obligations de paiement et de recours du fait des dégradations immobilières.",
+        "Lorsqu’un locataire était déjà en place lors de la mise en garantie du bien immobilier, celle-ci ne sera acquise que pour les dommages causés postérieurement à sa date de prise d’effet.",
+        "En aucun cas vous ne devez faire exécuter des travaux sans notre accord.",
+        "Le point de départ pour le calcul de la vétusté est fixé à la date de dernière réfection du bien dûment justifiée par la production de factures de remise en état. À défaut de pouvoir produire les justificatifs nécessaires, il sera fait application de la vétusté maximum.",
+        "Nous apprécions les sinistres de manière indépendante par type de garantie pour un même locataire."
+      ],
+      "page": 15
+    },
+    {
+      "name": "Garantie Protection juridique du bailleur",
+      "description": "Nous assumons à nos frais en tant que mandataire du Propriétaire assuré, dans les conditions et limites prévues au contrat soit à l’amiable, soit devant toute juridiction en France métropolitaine, les diligences et actions rendues nécessaires, à la suite d’un litige avec le locataire qui découlerait du contrat de location des locaux bénéficiant de la garantie. La garantie couvre les honoraires d’avocat, d’huissier de justice et autres dépens dans la limite du montant défini conditions particulières, par sinistre. Nous intervenons en demande : quand le Propriétaire assuré entend obtenir réparation d’un préjudice certain, trouvant son origine dans l’exécution du contrat de location du bien assuré ; et en défense : quand le Propriétaire assuré fait l’objet d’une réclamation devant les juridictions civiles à l’occasion de toute contestation ayant son origine dans l’exécution du contrat de location du bien assuré.",
+      "is_optional": false,
+      "territorial_scope": "La garantie du présent contrat s’exerce exclusivement en France métropolitaine, qu’il s’agisse de la situation géographique des biens immobiliers ou des actions en demande et en défense consécutives à un litige avec le locataire. (Article 16 - Territorialité)",
+      "limits": "Notre engagement financier correspond à un plafond de garantie par sinistre, stipulé aux conditions particulières. La garantie couvre les honoraires d’avocat, d’huissier de justice et autres dépens dans la limite du montant défini conditions particulières, par sinistre.",
+      "sub_limits": [
+        "Nous n’intervenons pas pour tout litige ou somme dont le montant serait inférieur à un mois du dernier loyer déclaré, charges comprises, avec un minimum de 230 €. Toutefois, si l’action est initiée par le locataire, ce seuil ne s’appliquera pas."
+      ],
+      "deductible": null,
+      "conditions": [
+        "Rubrique « Les garanties principales » du chapitre 01.",
+        "Le présent contrat s’applique à la location d’un bien immobilier, meublé ou non, désigné aux conditions particulières, à usage d’habitation principale ou mixte (habitation/professionnel) dont le bail est établi conformément à la législation en vigueur, et dont le loyer, charges et taxes comprises, n’excède pas 2 500 € par mois. (Article 1)",
+        "L’origine du sinistre est déterminée, non par l’engagement d’une action en justice, mais par la survenance de faits ou la commission d’actes donnant naissance à des droits pouvant engendrer des réclamations ou contestations futures.",
+        "Les actions garanties, qui doivent résulter de l’application des règles de droit, ne devront pas être atteintes par la prescription.",
+        "La gestion des litiges relevant de la garantie Protection juridique du bailleur est assurée par un service distinct dont l’adresse vous sera communiquée dès réception de votre demande de mise en jeu de la garantie.",
+        "Lorsqu’il sera fait appel à un avocat, le Propriétaire assuré en aura le libre choix. La prise en charge des frais et honoraires se fera dans la limite fixée aux conditions particulières.",
+        "Si le Propriétaire assuré est informé que la partie adverse est défendue par un avocat, nous devrons le faire assister ou représenter dans les mêmes conditions.",
+        "Nous prenons en charge les frais et honoraires d’un mandataire saisi avec notre accord, ainsi que les frais d’expertise judiciaire et dépens, dans la limite fixée aux conditions particulières.",
+        "Le Propriétaire assuré assisté par l’avocat saisi, assure la direction du procès en concertation avec nos services qui doivent être tenus informés au préalable des diligences envisagées et être avisés régulièrement de l’état de la procédure.",
+        "En cas de transaction, vous-même et le Propriétaire assuré vous engagez à nous soumettre la teneur du projet de protocole afin que nous puissions donner notre accord exprès sur le mode de répartition des frais et honoraires, sous peine de déchéance de garantie comme indiqué à l’article 23.",
+        "Arbitrage : en cas de désaccord entre le Propriétaire assuré et nous quant aux mesures à prendre pour régler un différend (à l’exclusion de discussions quant à l’interprétation ou l’application des garanties prévues au contrat), la difficulté sera soumise à l’appréciation d’une tierce personne. Les frais exposés pour la mise en œuvre de cette faculté restent à notre charge."
+      ],
+      "page": 17
+    },
+    {
+      "name": "Garantie Inoccupation anticipée du bien assuré (garantie optionnelle)",
+      "description": "Si mention est faite aux conditions particulières de la souscription de la présente garantie, la garantie Loyers impayés pourra s’étendre au titre de la garantie Inoccupation anticipée du bien assuré à la couverture des pertes financières subies par le Propriétaire assuré, résultant de la non-location de son bien suite au départ de son locataire dans un des cas suivants : n° 1 - par suite d’une expulsion consécutive à une action engagée dans le cadre de la garantie Loyers impayés ; n° 2 - en cas de départ furtif du locataire (sans que le locataire vous ait informé de sa volonté de quitter les lieux) ; n° 3 - en cas de départ négocié du locataire avec notre accord qu’il y ait ou non des loyers impayés ; n° 4 - lorsque la garantie Dégradations immobilières est mise en jeu, et qu’elle est acquise pour un sinistre ; n° 5 - en cas de décès du locataire ; n° 6 - en cas de congé avec préavis réduit prévu par la loi.",
+      "is_optional": true,
+      "territorial_scope": "La garantie du présent contrat s’exerce exclusivement en France métropolitaine, qu’il s’agisse de la situation géographique des biens immobiliers ou des actions en demande et en défense consécutives à un litige avec le locataire. (Article 16 - Territorialité)",
+      "limits": "Par sinistre, l’indemnité est plafonnée, comme suit : pour les cas n° 1 à 5 inclus, l’indemnité est limitée à un maximum de 3 mois de loyer de référence, avec application d’une dégressivité : prise en charge du loyer à hauteur de 80 % pour le premier mois, 70 % pour le 2nd mois et 50 % le 3e mois ; pour le cas n° 6, l’indemnité est limitée à un maximum de 2 mois de loyer de référence, avec application d’une dégressivité : prise en charge du loyer à hauteur 80 % pour le premier mois, 70 % pour le 2nd mois.",
+      "sub_limits": [
+        "cas n° 1 à 5 : maximum de 3 mois de loyer de référence — 80 % le premier mois, 70 % le 2nd mois, 50 % le 3e mois",
+        "cas n° 6 : maximum de 2 mois de loyer de référence — 80 % le premier mois, 70 % le 2nd mois",
+        "Dans le cas n° 6, l’indemnité n’ira pas au-delà de la reconstitution d’un préavis « normal de 3 mois » (soit 2 mois maximum d’indemnisation compte tenu du préavis d’un mois minimum donné par le locataire) calculé à partir de la date de réception de la lettre de congé par vos soins."
+      ],
+      "deductible": null,
+      "conditions": [
+        "Rubrique « La garantie optionnelle » du chapitre 01.",
+        "Si mention est faite aux conditions particulières de la souscription de la présente garantie.",
+        "L’indemnisation est calculée sur la base d’un loyer de référence correspondant au montant du loyer, charges et taxes comprises, que vous nous aurez déclaré et sur la base duquel aura été effectué le calcul de la cotisation.",
+        "Dans tous les cas, l’indemnité est déterminée, proportionnellement au nombre de jours compris entre les dates de point de départ et de fin indiquées à l’article 14 ; elle est versée en une seule fois à la clôture du sinistre.",
+        "Le point de départ pour le calcul de cette indemnité sera la date de reprise légale des locaux (remise des clés par le locataire ou état des lieux, procès-verbal de reprise des lieux par huissier de justice).",
+        "Cette indemnité prendra fin à la date de la signature d’un nouveau bail, quelle que soit la date effective de sa prise d’effet ; si le bail est signé après sa date d’effet, la garantie cessera à la date d’effet du bail ; dans le cas n° 4, la période indemnisée correspondra à la durée technique de remise en état à dire d’expert.",
+        "Si au départ du locataire le bien nécessite des réparations pour pouvoir être reloué, l’indemnité au titre de la garantie Inoccupation anticipée ne sera acquise que si la garantie Dégradations immobilières est acquise dans le cadre d’un sinistre portant sur la même location et à condition que les travaux soient effectués par des personnes qualifiées.",
+        "Dans les 6 cas mentionnés ci-dessus, nous nous réservons la possibilité de vous réclamer à l’occasion du sinistre, la justification des démarches et diligences effectuées par vous ou le Propriétaire assuré pour relouer, dès que vous avez eu connaissance du départ du locataire."
+      ],
+      "page": 19
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Garages isolés",
+      "description": "garages isolés ; — Rubrique « Les garanties du présent contrat ne s’appliquent pas aux : » (Article 1)",
+      "applies_to": "all",
+      "page": 11
+    },
+    {
+      "name": "Locaux faisant l’objet d’un bail commercial, rural, professionnel ou verbal",
+      "description": "locaux faisant l’objet d’un bail : commercial, rural, professionnel, verbal — Rubrique « Les garanties du présent contrat ne s’appliquent pas aux : » (Article 1)",
+      "applies_to": "all",
+      "page": 11
+    },
+    {
+      "name": "Locaux faisant l’objet d’un bail conclu avec un proche du propriétaire",
+      "description": "locaux faisant l’objet d’un bail conclu entre le propriétaire et son conjoint (marié ou pacsé), leurs ascendants, descendants ou collatéraux — Rubrique « Les garanties du présent contrat ne s’appliquent pas aux : » (Article 1)",
+      "applies_to": "all",
+      "page": 11
+    },
+    {
+      "name": "Locaux faisant l’objet d’un bail d’une durée inférieure à 12 mois",
+      "description": "locaux faisant l’objet d’un bail dont la durée est inférieure à 12 mois ; — Rubrique « Les garanties du présent contrat ne s’appliquent pas aux : » (Article 1)",
+      "applies_to": "all",
+      "page": 11
+    },
+    {
+      "name": "Locaux assurés ou ayant été assurés dans le cadre d’un contrat PASS-GRL ou GRL, ou d’un dispositif d’État (ou VISALE)",
+      "description": "locaux assurés ou ayant été assurés dans le cadre d’un contrat PASS-GRL ou GRL (Garantie des Risques Locatifs) et tout dispositif d’État (ou VISALE) ; — Rubrique « Les garanties du présent contrat ne s’appliquent pas aux : » (Article 1)",
+      "applies_to": "all",
+      "page": 11
+    },
+    {
+      "name": "Locations saisonnières, hôtelières ou médicalisées",
+      "description": "locations saisonnières, hôtelières ou médicalisées ; — Rubrique « Les garanties du présent contrat ne s’appliquent pas aux : » (Article 1)",
+      "applies_to": "all",
+      "page": 11
+    },
+    {
+      "name": "Locaux à vocation sociale et logements d’établissements publics ou d’investisseurs institutionnels",
+      "description": "locaux à vocation sociale et logements appartenant à des établissements publics ou à des investisseurs institutionnels ; — Rubrique « Les garanties du présent contrat ne s’appliquent pas aux : » (Article 1)",
+      "applies_to": "all",
+      "page": 11
+    },
+    {
+      "name": "Logements de fonction",
+      "description": "logements de fonction ; — Rubrique « Les garanties du présent contrat ne s’appliquent pas aux : » (Article 1)",
+      "applies_to": "all",
+      "page": 11
+    },
+    {
+      "name": "Logements faisant l’objet d’une sous-location",
+      "description": "logements faisant l’objet d’une sous-location ; — Rubrique « Les garanties du présent contrat ne s’appliquent pas aux : » (Article 1)",
+      "applies_to": "all",
+      "page": 11
+    },
+    {
+      "name": "Habitations louées à titre de résidence secondaire",
+      "description": "habitations louées à titre de résidence secondaire ; — Rubrique « Les garanties du présent contrat ne s’appliquent pas aux : » (Article 1)",
+      "applies_to": "all",
+      "page": 11
+    },
+    {
+      "name": "Chambres louées dans la résidence principale ou secondaire du propriétaire",
+      "description": "chambres louées situées dans la résidence principale ou secondaire du propriétaire ; — Rubrique « Les garanties du présent contrat ne s’appliquent pas aux : » (Article 1)",
+      "applies_to": "all",
+      "page": 11
+    },
+    {
+      "name": "Logements conventionnés",
+      "description": "logements conventionnés ; — Rubrique « Les garanties du présent contrat ne s’appliquent pas aux : » (Article 1)",
+      "applies_to": "all",
+      "page": 11
+    },
+    {
+      "name": "Locaux frappés d’un état d’insalubrité",
+      "description": "locaux pour lesquels un état d’insalubrité a été constaté par les autorités administratives compétentes en vertu des articles L. 1331-26 à L. 1331-31 du Code de la santé publique — Rubrique « Les garanties du présent contrat ne s’appliquent pas aux : » (Article 1)",
+      "applies_to": "all",
+      "page": 11
+    },
+    {
+      "name": "Locaux en état de péril",
+      "description": "locaux en état de péril en vertu des articles L. 511-1 à L. 511-7 du Code de la construction et de l’habitation — Rubrique « Les garanties du présent contrat ne s’appliquent pas aux : » (Article 1)",
+      "applies_to": "all",
+      "page": 11
+    },
+    {
+      "name": "Locaux ne répondant pas à la définition du logement décent",
+      "description": "locaux ne répondant pas à la définition du logement décent résultant du décret n° 2002-120 du 30 janvier 2002 — Rubrique « Les garanties du présent contrat ne s’appliquent pas aux : » (Article 1)",
+      "applies_to": "all",
+      "page": 11
+    },
+    {
+      "name": "Locaux faisant l’objet d’une convention d’occupation précaire",
+      "description": "locaux faisant l’objet d’une convention d’occupation précaire, quelle qu’en soit sa durée. — Rubrique « Les garanties du présent contrat ne s’appliquent pas aux : » (Article 1)",
+      "applies_to": "all",
+      "page": 11
+    },
+    {
+      "name": "Pertes pécuniaires dues au non-versement de fonds par le mandataire",
+      "description": "les pertes pécuniaires subies par le Propriétaire assuré, du fait du non-versement de fonds, effets, ou valeurs détenus par son mandataire dans le cadre de la gestion de son bien — Article 5 - Exclusions propres à la garantie Loyers impayés et Contentieux locatif",
+      "applies_to": "Garantie Loyers impayés et Contentieux locatif",
+      "page": 14
+    },
+    {
+      "name": "Frais de lettres de mise en demeure",
+      "description": "les frais de lettres de mise en demeure — Article 5 - Exclusions propres à la garantie Loyers impayés et Contentieux locatif",
+      "applies_to": "Garantie Loyers impayés et Contentieux locatif",
+      "page": 14
+    },
+    {
+      "name": "Consignation des loyers",
+      "description": "la consignation des loyers — Article 5 - Exclusions propres à la garantie Loyers impayés et Contentieux locatif",
+      "applies_to": "Garantie Loyers impayés et Contentieux locatif",
+      "page": 14
+    },
+    {
+      "name": "Frais de garde meubles (Loyers impayés)",
+      "description": "les frais de garde meubles — Article 5 - Exclusions propres à la garantie Loyers impayés et Contentieux locatif",
+      "applies_to": "Garantie Loyers impayés et Contentieux locatif",
+      "page": 14
+    },
+    {
+      "name": "Honoraires de résultat de l’avocat (Loyers impayés)",
+      "description": "les honoraires de résultat de l’avocat — Article 5 - Exclusions propres à la garantie Loyers impayés et Contentieux locatif",
+      "applies_to": "Garantie Loyers impayés et Contentieux locatif",
+      "page": 14
+    },
+    {
+      "name": "Frais de déplacements de l’avocat (Loyers impayés)",
+      "description": "les frais de déplacements de l’avocat — Article 5 - Exclusions propres à la garantie Loyers impayés et Contentieux locatif",
+      "applies_to": "Garantie Loyers impayés et Contentieux locatif",
+      "page": 14
+    },
+    {
+      "name": "Frais et honoraires de l’avocat postulant (Loyers impayés)",
+      "description": "les frais et honoraires de l’avocat postulant. — Article 5 - Exclusions propres à la garantie Loyers impayés et Contentieux locatif",
+      "applies_to": "Garantie Loyers impayés et Contentieux locatif",
+      "page": 14
+    },
+    {
+      "name": "Dommages aux aménagements extérieurs, espaces verts, clôtures, terrasses, piscines, saunas, spa",
+      "description": "les dommages causés aux aménagements extérieurs, aux espaces verts, arbres et autres plantations, aux éléments de clôture et de fermeture de terrains privatifs, aux terrasses, aux piscines, saunas, spa — Article 9 - Exclusions propres à la garantie Dégradations immobilières",
+      "applies_to": "Garantie Dégradations immobilières",
+      "page": 16
+    },
+    {
+      "name": "Dommages aux biens mobiliers, éléments de cuisine intégrée et meubles meublants",
+      "description": "les dommages causés aux biens mobiliers même fixés ou scellés, aux éléments de cuisine intégrée, et aux meubles meublants — Article 9 - Exclusions propres à la garantie Dégradations immobilières",
+      "applies_to": "Garantie Dégradations immobilières",
+      "page": 16
+    },
+    {
+      "name": "Frais de nettoyage",
+      "description": "les frais de nettoyage — Article 9 - Exclusions propres à la garantie Dégradations immobilières",
+      "applies_to": "Garantie Dégradations immobilières",
+      "page": 16
+    },
+    {
+      "name": "Changement de serrures",
+      "description": "le changement de serrures, sauf ouverture forcée rendue nécessaire pour l’exécution d’un jugement ou d’un commandement d’huissier de justice — Article 9 - Exclusions propres à la garantie Dégradations immobilières",
+      "applies_to": "Garantie Dégradations immobilières",
+      "page": 16
+    },
+    {
+      "name": "Dommages aux biens immobiliers classés",
+      "description": "les dommages causés aux biens immobiliers classés — Article 9 - Exclusions propres à la garantie Dégradations immobilières",
+      "applies_to": "Garantie Dégradations immobilières",
+      "page": 16
+    },
+    {
+      "name": "Dommages matériels dans les locaux sous arrêté de péril ou d’insalubrité",
+      "description": "les dommages matériels dans les locaux faisant l’objet d’un arrêté de péril ou d’insalubrité — Article 9 - Exclusions propres à la garantie Dégradations immobilières",
+      "applies_to": "Garantie Dégradations immobilières",
+      "page": 16
+    },
+    {
+      "name": "Dommages matériels causés par la transformation des locaux",
+      "description": "les dommages matériels causés par la transformation des locaux, suite à des travaux autorisés ou effectués par le Propriétaire assuré — Article 9 - Exclusions propres à la garantie Dégradations immobilières",
+      "applies_to": "Garantie Dégradations immobilières",
+      "page": 16
+    },
+    {
+      "name": "Dommages relevant de l’assurance obligatoire du locataire",
+      "description": "les dommages relevant des risques pour lequel le locataire a obligation de s’assurer en application du § G de l’article 7 de la loi n° 89/462 du 6 juillet 1989 — Article 9 - Exclusions propres à la garantie Dégradations immobilières",
+      "applies_to": "Garantie Dégradations immobilières",
+      "page": 16
+    },
+    {
+      "name": "Dommages survenus en l’absence d’état des lieux opposable au locataire",
+      "description": "les dommages survenus en l’absence d’état des lieux d’entrée et/ou de sortie opposable au locataire (établi contradictoirement ou en cas d’impossibilité, par huissier de justice) — Article 9 - Exclusions propres à la garantie Dégradations immobilières",
+      "applies_to": "Garantie Dégradations immobilières",
+      "page": 16
+    },
+    {
+      "name": "Embellissements après plus de 9 années d’occupation par un même locataire",
+      "description": "les embellissements si les locaux ont été occupés plus de 9 années par un même locataire. Cette durée étant appréciée à la libération effective des locaux. — Article 9 - Exclusions propres à la garantie Dégradations immobilières",
+      "applies_to": "Garantie Dégradations immobilières",
+      "page": 16
+    },
+    {
+      "name": "Litiges avec des tiers au contrat de location, notamment avec la copropriété",
+      "description": "les litiges avec des tiers au contrat de location, et notamment avec la copropriété — Article 13 - Exclusions propres à la garantie Protection juridique du bailleur",
+      "applies_to": "Garantie Protection juridique du bailleur",
+      "page": 18
+    },
+    {
+      "name": "Litiges couverts par une assurance de responsabilité civile",
+      "description": "les litiges impliquant la défense des intérêts du Propriétaire assuré au plan judiciaire quand ces intérêts sont couverts par une assurance de responsabilité civile — Article 13 - Exclusions propres à la garantie Protection juridique du bailleur",
+      "applies_to": "Garantie Protection juridique du bailleur",
+      "page": 18
+    },
+    {
+      "name": "Amendes et condamnations prononcées contre le Propriétaire assuré",
+      "description": "les amendes et condamnations éventuelles prononcées à l’encontre du Propriétaire assuré tant en principal, qu’en dommages et intérêts et frais irrépétibles — Article 13 - Exclusions propres à la garantie Protection juridique du bailleur",
+      "applies_to": "Garantie Protection juridique du bailleur",
+      "page": 18
+    },
+    {
+      "name": "Condamnations au titre de l’article 700 CPC et assimilés",
+      "description": "les condamnations au titre des articles 700 du Code de procédure civile, 475-1 et 375 du Code de procédure pénale ou L. 761-1 du Code de justice administrative — Article 13 - Exclusions propres à la garantie Protection juridique du bailleur",
+      "applies_to": "Garantie Protection juridique du bailleur",
+      "page": 18
+    },
+    {
+      "name": "Honoraires de résultats de l’avocat (Protection juridique)",
+      "description": "les honoraires de résultats de l’avocat — Article 13 - Exclusions propres à la garantie Protection juridique du bailleur",
+      "applies_to": "Garantie Protection juridique du bailleur",
+      "page": 18
+    },
+    {
+      "name": "Frais de déplacements de l’avocat (Protection juridique)",
+      "description": "les frais de déplacements de l’avocat — Article 13 - Exclusions propres à la garantie Protection juridique du bailleur",
+      "applies_to": "Garantie Protection juridique du bailleur",
+      "page": 18
+    },
+    {
+      "name": "Frais et honoraires de l’avocat postulant (Protection juridique)",
+      "description": "les frais et honoraires de l’avocat postulant — Article 13 - Exclusions propres à la garantie Protection juridique du bailleur",
+      "applies_to": "Garantie Protection juridique du bailleur",
+      "page": 18
+    },
+    {
+      "name": "Frais et honoraires d’expert non désigné judiciairement",
+      "description": "les frais et honoraires d’expert, s’il n’est pas désigné judiciairement — Article 13 - Exclusions propres à la garantie Protection juridique du bailleur",
+      "applies_to": "Garantie Protection juridique du bailleur",
+      "page": 18
+    },
+    {
+      "name": "Frais de signification d’actes d’administration tels que les congés",
+      "description": "les frais de signification d’actes d’administration tels que les congés — Article 13 - Exclusions propres à la garantie Protection juridique du bailleur",
+      "applies_to": "Garantie Protection juridique du bailleur",
+      "page": 18
+    },
+    {
+      "name": "Frais de garde meubles (Protection juridique)",
+      "description": "les frais de garde meubles. — Article 13 - Exclusions propres à la garantie Protection juridique du bailleur",
+      "applies_to": "Garantie Protection juridique du bailleur",
+      "page": 18
+    },
+    {
+      "name": "Frais et honoraires antérieurs à la déclaration",
+      "description": "Les frais et honoraires correspondant à des consultations ou des actes de procédure engagés antérieurement à la déclaration sont exclus, sauf si le Propriétaire assuré peut justifier d’une urgence à les avoir engagés. Dans ce cas, ces frais et honoraires seront pris en charge dans la limite fixée aux conditions particulières. (Article 12)",
+      "applies_to": "Garantie Protection juridique du bailleur",
+      "page": 18
+    },
+    {
+      "name": "Seuil d’intervention en Protection juridique",
+      "description": "Nous n’intervenons pas pour tout litige ou somme dont le montant serait inférieur à un mois du dernier loyer déclaré, charges comprises, avec un minimum de 230 €. Toutefois, si l’action est initiée par le locataire, ce seuil ne s’appliquera pas. (Article 12)",
+      "applies_to": "Garantie Protection juridique du bailleur",
+      "page": 17
+    },
+    {
+      "name": "Suspension de recouvrement ou délais octroyés par mesure légale, judiciaire ou administrative",
+      "description": "en cas de suspension de recouvrement des loyers ou de délais octroyés pour libérer les lieux par mesures légales, réglementaires, judiciaires, administratives et cela qu’il s’agisse de dispense ou de report total, partiel, définitif ou temporaire du paiement des loyers par le locataire ou touchant à l’occupation des locaux, notre garantie est suspendue — Article 21 - Exclusions générales",
+      "applies_to": "all",
+      "page": 27
+    },
+    {
+      "name": "Non-paiement à la suite d’une action concertée de plusieurs locataires",
+      "description": "en cas de non-paiement du loyer, charges et taxes par le locataire, à la suite d’une action concertée de plusieurs locataires occupant le même ensemble immobilier — Article 21 - Exclusions générales",
+      "applies_to": "all",
+      "page": 27
+    },
+    {
+      "name": "Cataclysme, catastrophe naturelle, tempête, ouragan, cyclone, glissement de terrain",
+      "description": "en cas de survenance d’un cataclysme, d’une catastrophe naturelle, d’une tempête, d’un ouragan, d’un cyclone, d’un glissement de terrain et affectant l’objet du contrat — Article 21 - Exclusions générales",
+      "applies_to": "all",
+      "page": 27
+    },
+    {
+      "name": "Explosion, dégagement de chaleur, irradiation, radioactivité",
+      "description": "en cas de sinistre dû aux effets directs ou indirects d’explosion, de dégagement de chaleur, d’irradiation provenant de transmutation de noyau d’atome, de la radioactivité — Article 21 - Exclusions générales",
+      "applies_to": "all",
+      "page": 27
+    },
+    {
+      "name": "Non-respect par le Propriétaire ou son mandataire de ses obligations envers le locataire",
+      "description": "en cas de non-respect par le Propriétaire ou par son mandataire, des obligations légales ou contractuelles à l’égard du locataire. — Article 21 - Exclusions générales",
+      "applies_to": "all",
+      "page": 27
+    },
+    {
+      "name": "Sinistre Dégradations immobilières survenu après la résiliation du contrat",
+      "description": "Un sinistre « Dégradations immobilières » survenu après la résiliation du contrat ne sera pas garanti, même si d’autres sinistres sont en cours pour le même locataire. (Article 8)",
+      "applies_to": "Garantie Dégradations immobilières",
+      "page": 15
+    },
+    {
+      "name": "Sinistre dont le fait générateur est hors période de validité du contrat",
+      "description": "Tout sinistre dont le fait générateur surviendrait avant la date de prise d’effet du contrat et celle du paiement de la première cotisation ou pendant la suspension, comme après la date de résiliation effective dudit contrat, ne serait pas garanti. (Article 20)",
+      "applies_to": "all",
+      "page": 26
+    }
+  ],
+  "deductibles": {
+    "standard": "Franchise absolue égale à l’équivalent du dépôt de garantie perçu à l’entrée du locataire, sur la base de 2 mois de loyers pour les baux souscrits jusqu’au 09/02/2008 et de 1 mois de loyer pour les baux souscrits après le 09/02/2008. Cette franchise absolue sera déduite en fin de sinistre que le dépôt de garantie ait été effectivement perçu ou non par le Propriétaire à l’entrée du locataire.",
+    "variable": null,
+    "per_coverage": {
+      "Garantie Loyers impayés et Contentieux locatif": "Franchise absolue égale au dépôt de garantie (2 mois de loyers pour les baux souscrits jusqu’au 09/02/2008 ; 1 mois de loyer pour les baux souscrits après le 09/02/2008) — article 4.",
+      "Garantie Dégradations immobilières": "Même franchise absolue (article 8). En outre, la franchise ne sera pas appliquée au titre d’un sinistre « Dégradations immobilières » si elle a déjà été prise en considération dans le cadre de la gestion d’un sinistre « Loyers impayés » concernant le même locataire. S’y ajoute la vétusté : 8 % par an pour les embellissements, 3 % par an pour les autres dégradations, sans pouvoir dépasser 50 %.",
+      "Garantie Protection juridique du bailleur": "Pas de franchise, mais un seuil d’intervention : nous n’intervenons pas pour tout litige ou somme dont le montant serait inférieur à un mois du dernier loyer déclaré, charges comprises, avec un minimum de 230 € ; ce seuil ne s’applique pas si l’action est initiée par le locataire (article 12).",
+      "Garantie Inoccupation anticipée du bien assuré": "Pas de franchise énoncée ; l’indemnité est dégressive (80 % / 70 % / 50 %) et plafonnée à 3 mois de loyer de référence (cas n° 1 à 5) ou 2 mois (cas n° 6)."
+    },
+    "page": 14
+  },
+  "waiting_periods": [
+    {
+      "coverage": "Toutes garanties — locataire déjà dans les lieux depuis plus de 2 mois",
+      "duration": "4 mois",
+      "description": "Lorsque la garantie est délivrée pour une location avec un locataire déjà dans les lieux depuis plus de 2 mois à la date de la demande de souscription, il sera fait application d’un délai de carence absolu de 4 mois à compter de la date de mise en garantie. Ainsi, tout sinistre prenant naissance au cours de cette période ne saurait être pris en charge et ce, dans sa totalité, même si les impayés se poursuivent au-delà de cette période. Toutefois, il ne sera pas fait application de ce délai de carence si le propriétaire nous justifie de ce qu’il bénéficiait jusqu’à la prise d’effet de nos garanties, d’un contrat « Loyers impayés » pour le même risque et atteste que son locataire n’a pas connu d’incident au cours des 6 derniers mois et qu’il est totalement à jour de ses paiements à la date de prise d’effet de nos garanties.",
+      "page": 27
+    },
+    {
+      "coverage": "Garantie Dégradations immobilières",
+      "duration": null,
+      "description": "Lorsqu’un locataire était déjà en place lors de la mise en garantie du bien immobilier, celle-ci ne sera acquise que pour les dommages causés postérieurement à sa date de prise d’effet.",
+      "page": 15
+    },
+    {
+      "coverage": "Garantie Loyers impayés et Contentieux locatif",
+      "duration": "4e mois",
+      "description": "Notre premier règlement interviendra, au terme du 4e mois suivant le premier impayé, mais prendra en compte les impayés dès le premier mois, dans les conditions du contrat.",
+      "page": 13
+    }
+  ],
+  "obligations": [
+    {
+      "name": "Établir un bail conforme et un état des lieux d’entrée",
+      "description": "Vous devez lors de l’entrée dans les lieux du locataire : établir un bail conforme à la législation en vigueur à la date de signature du bail, au nom de chaque conjoint, concubin ou colocataires et recueillir la signature de chacun, comportant une clause résolutoire de plein droit, et en cas de colocation comportant une clause de solidarité entre tous les colocataires ; dresser un état des lieux d’entrée contradictoire ; percevoir un dépôt de garantie dans les conditions fixées par la loi.",
+      "timing": "À l’entrée dans les lieux du locataire (article 19)",
+      "sanction": "Déchéance de garantie (article 23) si vous ne remplissez pas les obligations mises à votre charge en votre qualité de souscripteur, et notamment celles prévues à l’article 19.",
+      "page": 25
+    },
+    {
+      "name": "Contrôler la solvabilité du locataire et constituer son dossier",
+      "description": "Avant la signature du bail vous devez contrôler que le locataire est en mesure d’assumer ses obligations. Vous devez obtenir de sa part : une pièce d’identité en cours de validité du (des) locataire(s) ; des justificatifs de solvabilité (salariés ou fonctionnaires : contrat de travail ou, à défaut, attestation de l’employeur datant de moins d’un mois indiquant la nature du contrat de travail, la rémunération, la date d’entrée en fonction et la date à laquelle s’est achevée la période d’essai, bulletins de salaire des 3 derniers mois, dernier avis d’imposition ; non-salariés — artisans, commerçants, travailleurs indépendants, professions libérales : attestation de ressources pour l’exercice en cours délivrées par un comptable, dernier avis d’imposition, justification d’inscription au registre du commerce et des sociétés ou au répertoire des métiers de moins de 3 mois, certificat d’identification de l’INSEE de moins de 3 mois, copie de la carte professionnelle en cours de validité ; retraités : justificatif de versement des indemnités retraites perçues lors des 3 derniers mois ou notification des droits faite par la (les) caisse(s) de retraite, dernier avis d’imposition ; titulaires d’une allocation Adulte Handicapé : justificatif de versement des allocations perçues lors des 3 derniers mois ou un justificatif de l’ouverture des droits, établis par l’organisme payeur, dernier avis d’imposition). Vous avez l’obligation non seulement de recueillir les documents énumérés mais encore d’en vérifier la cohérence.",
+      "timing": "Avant la signature du bail (article 19)",
+      "sanction": "Déchéance de garantie (article 23). En cas de déclaration de sinistre, les éléments déclarés font l’objet d’une vérification systématique ; si des divergences apparaissent, nous sommes en droit de refuser de couvrir le risque déclaré conformément aux articles L. 113-8 et L. 113-9 du Code des assurances.",
+      "page": 26
+    },
+    {
+      "name": "Respecter le ratio de solvabilité",
+      "description": "Vous devez vérifier que le montant mensuel du loyer, charges et taxes comprises, n’excède pas 37 % des revenus mensuels nets du locataire et de son conjoint ou concubin ou colocataire. Cette limite est ramenée à 33 % si le locataire, son conjoint ou concubin ou colocataire occupe un emploi en contrat à durée déterminée, en intérim ou est intermittent du spectacle. Les éléments recueillis forment le dossier de solvabilité du locataire qui nous est soumis pour agrément. Une fois l’agrément validé, vous pouvez poursuivre la souscription du contrat. Ne sont pas pris en considération dans ce calcul : les revenus provenant de l’étranger, les primes occasionnelles, allocations ou prestations en tous genres (exception faite de l’allocation Adulte Handicapé), les pensions alimentaires.",
+      "timing": "À la souscription (article 19)",
+      "sanction": "Refus de couvrir le risque déclaré ; déchéance de garantie.",
+      "page": 26
+    },
+    {
+      "name": "Suivre la procédure de relance avant déclaration de sinistre",
+      "description": "Pour le contentieux locatif lié au non-paiement des loyers, charges et taxes par le locataire, vous-même ou le Propriétaire assuré devrez appliquer la procédure suivante. J = date d’exigibilité du loyer telle que prévue au bail ; J + 15 jours : envoi d’une lettre simple de relance au locataire ; J + 30 jours : envoi d’une lettre recommandée avec accusé de réception au locataire le mettant en demeure de payer sous 8 jours à compter de sa réception ; J + 70 jours : demande à l’huissier de justice de délivrer au locataire un commandement avec rappel des mentions légales obligatoires ; Commandement + 35 jours maximum : envoi de la déclaration de sinistre à l’assureur à l’adresse du Centre de gestion figurant sur vos conditions particulières.",
+      "timing": "En cas d’impayé (article 3)",
+      "sanction": "À défaut, nous pourrons appliquer une déchéance de garantie dans les conditions de l’article 23. Les sinistres déclarés entre le 36e jour et le 315e jour après la délivrance du commandement se verront appliquer une déchéance partielle de garantie, égale au montant du loyer et des charges correspondant à la période écoulée entre le 36e jour et la date de réception de la déclaration. Au-delà de 315 jours, déchéance totale de garantie.",
+      "page": 12
+    },
+    {
+      "name": "Informer l’assureur en cours de sinistre",
+      "description": "Vous ou le Propriétaire assuré nous informerez, dès que vous en avez connaissance, de toutes modifications concernant la situation du locataire et nous communiquerez les éléments nouveaux qui influeraient sur le traitement ou l’issue du dossier en cours, notamment : les changements d’employeur ou de comptes bancaires, les acomptes perçus directement, le départ du locataire, sa nouvelle adresse si elle est connue, la date de récupération des locaux, l’acquittement de la dette par le locataire. Vous ou le Propriétaire assuré nous enverrez en fin de trimestre un état du compte du locataire faisant ressortir la dette réelle actualisée.",
+      "timing": "En cours de sinistre (article 3)",
+      "sanction": "Déchéance de garantie (article 23).",
+      "page": 13
+    },
+    {
+      "name": "Reverser les fonds perçus du locataire",
+      "description": "Si après nous avoir adressé la déclaration de sinistre vous ou le Propriétaire assuré percevez des fonds de la part du locataire ou des règlements faits pour son compte, il conviendra de nous les reverser dans le mois de leur encaissement, dans la limite des indemnités que nous aurons déjà versées.",
+      "timing": "Dans le mois de l’encaissement (articles 4 et 8)",
+      "sanction": null,
+      "page": 13
+    },
+    {
+      "name": "Déclarer exactement le risque et ses modifications",
+      "description": "Le contrat est conclu sur la base de vos déclarations figurant sur la proposition d’assurance qui doit être exactement et entièrement remplie et dûment signée. Vous-même ou le Propriétaire assuré avez l’obligation de nous déclarer toute modification de loyers, charges et taxes, la cotisation du contrat étant modifiée en conséquence. Si les risques garantis par le présent contrat sont ou viennent à être couverts par un autre contrat d’assurance, vous-même ou le Propriétaire assuré devez nous le déclarer.",
+      "timing": "À la souscription et en cours de contrat (article 17)",
+      "sanction": "Toute réticence ou déclaration intentionnellement fausse, toute omission ou déclaration inexacte entraînent selon le cas l’application des sanctions prévues aux articles L. 113-8 et L. 113-9 du Code des assurances ; pour les assurances multiples, les sanctions de l’article L. 121-3 du Code des assurances.",
+      "page": 23
+    },
+    {
+      "name": "Ne pas transiger avec le locataire sans accord préalable",
+      "description": "Si une convention ou une transaction intervient entre vous-même ou le Propriétaire assuré et le locataire débiteur, sans notre accord préalable, le Propriétaire assuré sera déchu de tout droit à indemnité sur le sinistre en cause. En cas de transaction, vous-même et le Propriétaire assuré vous engagez à nous soumettre la teneur du projet de protocole afin que nous puissions donner notre accord exprès sur le mode de répartition des frais et honoraires.",
+      "timing": "Pendant le sinistre (articles 12 et 23)",
+      "sanction": "Déchéance de garantie.",
+      "page": 28
+    },
+    {
+      "name": "Permettre l’exercice du recours",
+      "description": "Le Propriétaire assuré ou vous-même vous engagez à nous permettre d’exercer utilement le recours pour les sommes que nous aurons réglées et notamment en nous transmettant immédiatement toutes correspondances, actes de procédures, jugements et en déférant à toute convocation d’avocat, d’expert ou en vue d’une comparution personnelle devant le tribunal. De même, le Propriétaire assuré ou vous-même ne pourrez vous opposer, en cas de non-paiement des loyers, charges et taxes, par le locataire, à ce que nous poursuivions la résiliation du bail, même en cas de paiement en cours de procédure.",
+      "timing": "Après indemnisation (article 26)",
+      "sanction": "Si du fait du Propriétaire assuré ou de vous-même la subrogation ne peut plus s’opérer en notre faveur, nous sommes déchargés de nos obligations dans la mesure où aurait pu s’exercer la subrogation. Si par sa négligence ou son manque de coopération le Propriétaire assuré ou vous-même ne nous permettez pas d’exercer notre recours contre le locataire défaillant, il serait tenu de restituer l’intégralité des sommes perçues à titre d’indemnité. À défaut, la garantie ne serait pas acquise en cas de nouvel incident de paiement du fait du même locataire.",
+      "page": 29
+    },
+    {
+      "name": "Ne pas faire exécuter de travaux sans accord",
+      "description": "En aucun cas vous ne devez faire exécuter des travaux sans notre accord.",
+      "timing": "En cas de dégradations immobilières (article 7)",
+      "sanction": null,
+      "page": 15
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Loyers impayés — démarches préalables : J + 15 jours",
+      "description": "Envoi d’une lettre simple de relance au locataire (J = date d’exigibilité du loyer telle que prévue au bail).",
+      "deadline": "J + 15 jours",
+      "page": 12
+    },
+    {
+      "step": "Loyers impayés — démarches préalables : J + 30 jours",
+      "description": "Envoi d’une lettre recommandée avec accusé de réception au locataire le mettant en demeure de payer sous 8 jours à compter de sa réception.",
+      "deadline": "J + 30 jours",
+      "page": 12
+    },
+    {
+      "step": "Loyers impayés — démarches préalables : J + 70 jours",
+      "description": "Demande à l’huissier de justice de délivrer au locataire un commandement avec rappel des mentions légales obligatoires.",
+      "deadline": "J + 70 jours",
+      "page": 12
+    },
+    {
+      "step": "Loyers impayés — déclaration du sinistre",
+      "description": "Envoi de la déclaration de sinistre à l’assureur à l’adresse du Centre de gestion figurant sur vos conditions particulières. La déclaration comprendra : le numéro du contrat et de l’adhésion éventuelle ; le nom, le prénom, l’état civil (date et lieu de naissance) et l’adresse du Propriétaire assuré ; la copie complète du bail répondant aux dispositions légales en vigueur ; le décompte exact des sommes dues ; la copie des courriers de rappel et de mise en demeure ; le commandement de payer ; tous les documents ou informations utiles à l’instruction de l’affaire ; les pièces nécessaires au contrôle de la garantie, notamment le dossier de solvabilité du locataire ; le nom et les coordonnées de l’avocat que vous souhaitez voir missionner, ou, à défaut, une demande écrite de proposition d’avocat par la Macif.",
+      "deadline": "Commandement + 35 jours maximum",
+      "page": 12
+    },
+    {
+      "step": "Dégradations immobilières — constitution du dossier",
+      "description": "En cas de dégradations immobilières, vous-même ou le Propriétaire assuré adresserez, soit au Centre de gestion dont l’adresse figure sur vos conditions particulières, soit par le biais de votre Espace Personnel, un dossier complet comprenant : le numéro du contrat et de l’adhésion éventuelle ; le nom, le prénom, l’état civil et l’adresse du Propriétaire assuré ; la copie complète du bail ; les états des lieux d’entrée et de sortie établis contradictoirement ; les factures des derniers travaux de réfection du bien immobilier, ou le procès verbal de réception de ce bien immobilier s’il était neuf ; le compte final sous déduction du dépôt de garantie ; un devis détaillé des réparations ; les pièces nécessaires au contrôle de la garantie, notamment le dossier de solvabilité ; la nouvelle adresse du locataire si elle est connue ; la copie de la lettre de mise en demeure adressée au locataire d’avoir à faire exécuter les travaux de remise en état.",
+      "deadline": "dans le mois du départ du locataire",
+      "page": 15
+    },
+    {
+      "step": "Dégradations immobilières — expertise",
+      "description": "À réception du dossier complet, nous le soumettons à notre expert-conseil qui procède alors à une évaluation des dommages sur pièces. Toutefois, dans certains cas, nous nous réservons la possibilité de faire réaliser une expertise sur place. À réception du rapport d’expertise nous faisons une proposition d’indemnisation. Si vous n’êtes pas d’accord avec les conclusions de notre expert, vous désignerez votre propre expert qui procédera alors avec le nôtre à une nouvelle expertise. À défaut d’accord entre eux, ils en désigneront un troisième, tous les 3 opérant en commun à la majorité des voix. Chacune des parties paie les frais et honoraires de son propre expert et, s’il y a lieu, la moitié de ceux du troisième et des frais de sa nomination. Toutefois, si vous obteniez entière satisfaction, nous nous engageons à vous rembourser ces frais et honoraires.",
+      "deadline": "nomination du troisième expert par le Président du tribunal judiciaire 15 jours au moins après l’envoi à l’autre partie d’une lettre recommandée de mise en demeure avec accusé de réception",
+      "page": 15
+    },
+    {
+      "step": "Dégradations immobilières — état des lieux de sortie",
+      "description": "L’état des lieux contradictoire ou le constat d’huissier doit impérativement être régularisé avant l’entrée d’un nouveau locataire.",
+      "deadline": "au plus tard dans les 15 jours suivants la sortie du locataire",
+      "page": 15
+    },
+    {
+      "step": "Protection juridique — déclaration",
+      "description": "Vous-même ou le Propriétaire assuré devez, dès que vous en avez connaissance et avant toute initiative de votre part, sauf cas d’urgence ou de force majeure, déclarer le sinistre, soit au Centre de gestion dont l’adresse figure sur vos conditions particulières, soit par le biais de votre Espace Personnel, avec un dossier complet (numéro du contrat, identité et adresse du Propriétaire assuré, copie complète du bail, décompte exact de la créance, copie des courriers de rappel et de mise en demeure, tous documents utiles, pièces nécessaires au contrôle de la garantie dont le dossier de solvabilité, nom et coordonnées de l’avocat souhaité ou demande écrite de proposition d’avocat par la Macif).",
+      "deadline": "dès que vous en avez connaissance et avant toute initiative de votre part",
+      "page": 17
+    },
+    {
+      "step": "Reversement des fonds perçus par l’Assureur",
+      "description": "Le paiement des indemnités que nous pouvons obtenir, au titre du recours contre le locataire, sera effectué dans les 30 jours de l’encaissement effectif des fonds, sous déduction des indemnités déjà versées par nous, au titre du même sinistre.",
+      "deadline": "30 jours de l’encaissement effectif des fonds",
+      "page": 13
+    },
+    {
+      "step": "Réclamation",
+      "description": "En cas de mécontentement à l’occasion de la souscription ou de la gestion du présent contrat ou du règlement des sinistres, vous pouvez contacter votre interlocuteur habituel. S’il n’est pas en mesure de vous répondre, il vous invitera à formuler une réclamation écrite à l’adresse qu’il vous communiquera ou via notre site internet www.macif.fr, rubrique « nous contacter » ou « urgence et contact » puis « faire une réclamation ».",
+      "deadline": "accusé de réception dans un délai maximum de 10 jours ouvrables suivant l’envoi ; réponse dans le délai maximum de 2 mois",
+      "page": 29
+    },
+    {
+      "step": "Médiation",
+      "description": "Si votre mécontentement persiste à l’issue de ces 2 mois, et que votre réclamation entre dans son champ de compétence, vous pouvez alors saisir la Médiation de l’assurance par courrier à l’adresse : TSA 50110 - 75441 Paris cedex 09 ou par internet sur www.mediation-assurance.org.",
+      "deadline": "saisine dans un délai maximum d’un an à compter de la réclamation écrite",
+      "page": 29
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat est formé dès notre accord réciproque. Sa date de prise d’effet est stipulée aux conditions particulières. Notre obligation de garantie demeure toutefois liée au paiement de la première cotisation. Le contrat est souscrit, sauf indication contraire aux conditions particulières, pour une durée d’un an renouvelable par tacite reconduction. Il est à son expiration reconduit automatiquement d’année en année, sauf dénonciation par l’une ou l’autre des parties. Si le contrat n’est pas assorti d’une tacite reconduction, il expirera sans autre avis à la fin de la période de garantie stipulée aux conditions particulières.",
+    "tacit_renewal": true,
+    "notice_period": "À chaque échéance selon l’article L. 113-2 du Code des assurances, moyennant préavis de 2 mois. Le délai de préavis court à partir de la date figurant sur le cachet de la poste (article L. 113-12 du Code des assurances). Vous êtes une personne physique : lorsque l’avis d’échéance annuelle est adressé moins de 15 jours avant la date limite d’exercice de votre droit de résiliation ou lorsqu’il est adressé après cette date, vous bénéficiez d’un délai de 20 jours à compter de la date d’envoi de cet avis d’échéance pour dénoncer la reconduction de vos contrats souscrits pour des risques autres que professionnels.",
+    "methods": [
+      "soit par l’envoi d’un courrier postal ou électronique à la Macif",
+      "soit par acte extrajudiciaire",
+      "soit en effectuant une déclaration auprès d’un de nos conseillers",
+      "soit par voie électronique",
+      "Lorsque la résiliation est effectuée par Nous, la lettre recommandée est adressée à votre dernière adresse connue."
+    ],
+    "special_rights": [
+      "1/ Par Vous ou par Nous — à chaque échéance selon l’article L. 113-2 du Code des assurances, moyennant préavis de 2 mois.",
+      "2/ Par l’héritier ou par Nous — en cas de décès du Propriétaire assuré, l’assurance continue de plein droit au profit de vos héritiers, à charge pour eux d’exécuter les obligations auxquelles vous étiez tenu. Nous disposons d’un délai de 3 mois pour résilier le contrat à compter du moment où vos héritiers ont demandé son transfert à leur nom. La résiliation prend effet immédiatement lorsqu’elle est à l’initiative de vos héritiers et 10 jours après sa notification lorsqu’elle est à notre initiative.",
+      "3/ Par Nous — en cas de non-paiement de la cotisation : le contrat est suspendu 30 jours après la date d’envoi de la lettre de mise en demeure et résilié 10 jours plus tard.",
+      "3/ Par Nous — en cas d’aggravation du risque : le contrat est résilié après un délai de 10 jours suivant la dénonciation du contrat par la Macif, ou de 30 jours à partir de la date d’envoi de la lettre par laquelle nous vous proposons une nouvelle cotisation prenant en compte cette aggravation dès lors que vous n’avez pas donné suite à cette proposition ou l’avez expressément refusée.",
+      "3/ Par Nous — après sinistre : le contrat est résilié à l’expiration d’un délai d’un mois après la date d’envoi de la lettre recommandée.",
+      "3/ Par Nous — en cas d’omission ou d’inexactitude, non intentionnelle, dans la déclaration du risque à la souscription ou en cours de contrat : le contrat est résilié à l’expiration d’un délai de 10 jours après la date d’envoi de la lettre recommandée.",
+      "4/ Par Vous — vous êtes une personne physique et vous avez souscrit votre contrat pour des risques autres que professionnels : ce contrat peut être résilié à tout moment à l’expiration d’un délai d’un an à compter de la première souscription.",
+      "4/ Par Vous — si Nous résilions un autre de vos contrats après sinistre, la demande doit être faite dans le mois qui suit ; la résiliation prend effet à l’expiration d’un délai d’un mois.",
+      "4/ Par Vous — en cas de révision du taux de cotisation : vous aurez le droit de résilier le contrat dans les 30 jours qui suivent la connaissance de la majoration ; cette résiliation prendra effet à l’expiration d’un délai d’un mois. Une augmentation des impôts et taxes n’est pas considérée comme une majoration donnant droit à la possibilité de résilier votre contrat.",
+      "4/ Par Vous — en cas de transfert du portefeuille de la Macif à une autre société d’assurance : votre demande doit être faite dans le mois qui suit la publication de l’avis de transfert au Journal Officiel et la résiliation prend effet à l’expiration d’un délai d’un mois.",
+      "5/ Par les personnes autorisées en cas de redressement judiciaire ou liquidation judiciaire : le contrat est résilié soit à réception par nos services de la notification de résiliation, soit par ordonnance du juge commissaire, soit de plein droit si notre mise en demeure de prendre parti sur la poursuite du contrat est restée plus d’un mois sans réponse.",
+      "6/ De plein droit — en cas de retrait de notre agrément en tant qu’Assureur : le 40e jour à midi à compter de la publication au Journal Officiel de la décision de retrait.",
+      "6/ De plein droit — en cas de perte totale du bien assuré due à un événement non garanti : dès la survenance de l’événement.",
+      "6/ De plein droit — en cas de réquisition du bien assuré dans les cas et conditions prévus par la législation en vigueur : à compter de la date de dépossession.",
+      "6/ De plein droit — au départ du locataire mentionné aux conditions particulières du contrat : le contrat prendra fin automatiquement dès la libération officielle des locaux avec remise des clés par le locataire (vous devrez nous confirmer la date de départ et nous adresser copie de la lettre de dédite du locataire et/ou copie de l’état des lieux de sortie contradictoire), ou dès la reprise des lieux effectuée par huissier.",
+      "7/ Par Nous ou le nouveau propriétaire — en cas d’aliénation du bien immobilier désigné aux conditions particulières : le contrat est résilié après un délai de 10 jours.",
+      "Droit de renonciation de 14 jours calendaires révolus en cas de vente à distance (article L. 112-2-1 du Code des assurances) et en cas de démarchage à domicile (article L. 112-9 du Code des assurances)."
+    ],
+    "page": 24
+  },
+  "prescription_period": {
+    "description": "La prescription est le délai au-delà duquel une action n’est plus recevable. Toutes les actions dérivant d’un contrat d’assurance sont prescrites par 2 ans à compter de l’évènement qui y donne naissance. Toutefois, ce délai ne court : en cas de réticence, omission, déclaration fausse ou inexacte sur le risque couru, que du jour où l’assureur en a eu connaissance ; en cas de sinistre, que du jour où les intéressés en ont eu connaissance, s’ils prouvent qu’ils l’ont ignoré jusque-là. Quand l’action de l’assuré contre l’assureur a pour cause le recours d’un tiers, le délai de la prescription ne court que du jour où ce tiers a exercé une action en justice contre l’assuré ou a été indemnisé par ce dernier. La prescription est interrompue par une des causes ordinaires d’interruption de la prescription (reconnaissance par le débiteur du droit de celui contre lequel il prescrivait, demande en justice y compris en référé, mesure conservatoire prise en application du Code des procédures civiles d’exécution ou acte d’exécution forcée) et par la désignation d’experts à la suite d’un sinistre. L’interruption de la prescription de l’action peut, en outre, résulter de l’envoi d’une lettre recommandée ou d’un envoi recommandé électronique, avec accusé de réception adressée par l’assureur à l’assuré en ce qui concerne l’action en paiement de la cotisation et par l’assuré à l’assureur en ce qui concerne le règlement de l’indemnité. (Article 24)",
+    "page": 28
+  },
+  "premium": {
+    "notes": [
+      "Le mode de calcul de la cotisation annuelle et frais accessoires est fixé au présent contrat suivant un pourcentage du montant des loyers annuels prévisionnels, charges et taxes incluses.",
+      "À chaque renouvellement du contrat, la cotisation sera réajustée au montant le plus élevé obtenu : soit en fonction de l’application du taux prévu aux conditions particulières, au montant actualisé des loyers, charges et taxes déclarés ; soit en fonction de l’application d’un taux majoré en raison de la charge des sinistres.",
+      "Le Conseil d’Administration peut décider de procéder à une ristourne ou un rappel de cotisation au titre de l’exercice considéré. Dans le cadre d’un rappel, le maximum de cotisation auquel vous pourriez être tenu est de une fois et demie le montant de la cotisation normale. Dès lors, le montant du rappel de cotisation ne peut être supérieur à la moitié de la cotisation normale.",
+      "La cotisation est due pour une année entière, à la souscription puis à chaque renouvellement d’un contrat ou d’une adhésion.",
+      "La cotisation annuelle et les frais accessoires dont le montant est stipulé au contrat, ainsi que les impôts et taxes sur les contrats d’assurance sont payables au siège de l’Assureur. La date de paiement est celle indiquée aux conditions particulières.",
+      "Les conditions du règlement de la cotisation ainsi que les suites du non-paiement sont régies par l’article L. 113-3 du Code des assurances.",
+      "À défaut de paiement de la cotisation dans les 10 jours suivant son échéance, nous sommes en droit de vous adresser, à votre dernier domicile connu, une lettre recommandée de mise en demeure qui entraînera (sauf si entre-temps la cotisation a été réglée) : la suspension de vos garanties 30 jours après l’envoi de cette lettre ; la résiliation de votre contrat 10 jours après la suspension, ceci indépendamment de notre droit de poursuivre l’exécution du contrat en justice.",
+      "En cas de suspension de garantie, le contrat non résilié reprend ses effets le lendemain à midi du jour où nous avons reçu le règlement de l’intégralité des sommes dont vous nous êtes redevable y compris les frais d’impayés et de recouvrement.",
+      "Si le non-paiement a entraîné la résiliation de votre contrat, vous nous devez : la part de cotisation jusqu’à la date de résiliation, et une pénalité correspondant au montant de la cotisation pour la période comprise entre la date de résiliation et celle de l’échéance suivante, sans excéder la moitié de la cotisation annuelle.",
+      "Vous-même ou le Propriétaire assuré avez l’obligation de nous déclarer toute modification de loyers, charges et taxes, la cotisation du contrat étant modifiée en conséquence, sous peine des sanctions prévues à l’article L. 113-9 du Code des assurances."
+    ],
+    "indexation": "À chaque renouvellement, la cotisation est réajustée au montant le plus élevé obtenu soit par application du taux prévu aux conditions particulières au montant actualisé des loyers, charges et taxes déclarés, soit par application d’un taux majoré en raison de la charge des sinistres. En cas de révision du taux de cotisation, la cotisation est modifiée dans la même proportion à l’échéance annuelle anniversaire qui suit cette modification.",
+    "page": 27
+  },
+  "special_conditions": [
+    {
+      "name": "Composition du contrat",
+      "description": "Votre contrat est constitué des conditions générales et des conditions particulières. Les conditions générales énoncent toutes les garanties proposées et décrivent leur étendue, leur montant et leur application. Les conditions particulières personnalisent le contrat et figurent dans un document séparé.",
+      "page": 3
+    },
+    {
+      "name": "Droit applicable et dispositions Alsace-Moselle",
+      "description": "Votre contrat est régi par le Code des assurances. Pour les risques définis à l’article L. 191-2 du Code des assurances et relevant des dispositions particulières aux départements du Bas-Rhin, du Haut-Rhin et de la Moselle : sont applicables les articles impératifs L. 191-5 (déchéance en cas d’inexécution du contrat) et L. 191-6 (résiliation par l’assuré après sinistre) ; n’est pas applicable l’article L. 191-7 auquel il est dérogé expressément.",
+      "page": 3
+    },
+    {
+      "name": "Autorité de contrôle",
+      "description": "La Macif est soumise au contrôle de l’ACPR (Autorité de contrôle prudentiel et de résolution) 4 place de Budapest - CS 92459 - 75436 Paris cedex 09.",
+      "page": 3
+    },
+    {
+      "name": "« Mon rendez-vous juridique »",
+      "description": "En cas de sinistre, si vous avez besoin d’une assistance pour les démarches à accomplir, le site « Mon Rendez-vous juridique » vous permet de prendre rendez-vous par téléphone avec un juriste du service d’Informations juridiques. Le site est accessible par le biais de votre Espace Personnel.",
+      "page": 3
+    },
+    {
+      "name": "Protection des données personnelles",
+      "description": "Retrouvez toutes les précisions sur la protection de vos données personnelles sur notre site internet www.macif.fr",
+      "page": 3
+    },
+    {
+      "name": "Nature de la location assurable (article 1)",
+      "description": "Le présent contrat s’applique à la location d’un bien immobilier, meublé ou non, désigné aux conditions particulières, à usage d’habitation principale ou mixte (habitation/professionnel) dont le bail est établi conformément à la législation en vigueur, et dont le loyer, charges et taxes comprises, n’excède pas 2 500 € par mois. Si de nouvelles dispositions législatives, en cours de bail, imposaient la modification du contrat de location, la garantie ne serait maintenue que si le contrat était rendu conforme à la loi.",
+      "page": 11
+    },
+    {
+      "name": "Déchéance de garantie (article 23)",
+      "description": "Le Propriétaire assuré sera déchu de tout droit à indemnité sur le sinistre en cause : si vous effectuez une déclaration tardive, sauf cas fortuit ou de force majeure, si vous ne vous conformez pas aux délais prévus à l’article 3, ou ne produisez pas les pièces mentionnées dans le même article et qu’il en résulte pour nous un préjudice ; pour la garantie Dégradations immobilières, si aucun état des lieux de sortie contradictoire ou par huissier de justice n’a été effectué ; si vous ne remplissez pas les obligations mises à votre charge en votre qualité de souscripteur du présent contrat et notamment celles prévues à l’article 19 ; si une convention ou une transaction intervient entre vous-même ou le Propriétaire assuré et le locataire débiteur, sans notre accord préalable. Enfin, toute fausse déclaration sur la nature, les causes, les circonstances ainsi que les conséquences du sinistre ou toute utilisation de moyens frauduleux ou de documents inexacts vous priverait de tout droit à garantie, pour ce sinistre, si votre mauvaise foi est établie, et vous exposerait à des poursuites pénales.",
+      "page": 28
+    },
+    {
+      "name": "Déchéance partielle ou totale en cas de déclaration tardive (article 3)",
+      "description": "Les sinistres qui seront déclarés entre le 36e jour et le 315e jour après la délivrance du commandement selon les modalités indiquées se verront appliquer une déchéance partielle de garantie, égale au montant du loyer et des charges correspondant à la période écoulée entre le 36e jour et la date de réception de la déclaration. En cas de déclaration de sinistre au-delà de 315 jours après la délivrance du commandement, il sera fait application d’une déchéance totale de garantie telle que prévue à l’article 23.",
+      "page": 13
+    },
+    {
+      "name": "Assurances multiples (article 25)",
+      "description": "En cas d’assurances multiples, couvrant tout ou partie des garanties données par le présent contrat, le Propriétaire assuré aura le choix de l’Assureur qu’il chargera de régler le sinistre, sauf le recours de ce dernier contre les autres Assureurs en remboursement de leur part, conformément aux dispositions de l’article L. 121-4 du Code des assurances.",
+      "page": 28
+    },
+    {
+      "name": "Subrogation (article 26)",
+      "description": "Nous sommes subrogés dans les termes de l’article L. 121-12 du Code des assurances, et si nécessaire en application des dispositions de l’article 1346 du Code civil jusqu’à concurrence des indemnités que nous avons payées, au titre de la garantie, dans les droits et actions du Propriétaire assuré, contre le ou les locataires défaillants. Dès lors que nous exposons des frais externes, nous sommes susceptibles de récupérer une partie ou la totalité des sommes que nous avons déboursées pour le compte de l’assuré. Si des frais et honoraires sont restés à la charge du Propriétaire assuré, sous réserve qu’ils soient justifiés, nous nous engageons à ce que le Propriétaire assuré soit dédommagé en priorité sur les sommes allouées au titre des articles précités ; le cas échéant, le solde nous revient.",
+      "page": 28
+    },
+    {
+      "name": "Droit de renonciation en cas de vente à distance (article 17)",
+      "description": "Vous êtes une personne physique et vous avez souscrit votre contrat d’assurance à distance, vous disposez d’un droit de renonciation de 14 jours calendaires révolus à compter de sa conclusion (ou de la réception des conditions particulières si cette date est postérieure). Vous pouvez l’exercer en envoyant une lettre recommandée ou par envoi recommandé électronique, avec accusé de réception, à l’adresse indiquée à l’en-tête de vos conditions particulières, selon le modèle donné par l’article L. 112-2-1 du Code des assurances. Conséquences : si votre contrat n’a pas pris effet lors de la renonciation, il sera annulé et nous vous rembourserons dans les 30 jours toutes les sommes perçues ; si votre contrat a pris effet à votre demande expresse avant la date de renonciation, nous vous remboursons dans les 30 jours les sommes perçues en-dehors de la partie de cotisation afférente à la période de garantie effective.",
+      "page": 23
+    },
+    {
+      "name": "Droit de renonciation en cas de démarchage à domicile (article 17)",
+      "description": "Toute personne physique qui fait l’objet d’un démarchage à son domicile, à sa résidence ou à son lieu de travail, même à sa demande, et qui signe dans ce cadre une proposition d’assurance ou un contrat à des fins qui n’entrent pas dans le cadre de son activité commerciale ou professionnelle, a la faculté d’y renoncer par lettre recommandée avec demande d’avis de réception pendant le délai de 14 jours calendaires révolus à compter du jour de la conclusion du contrat, sans avoir à justifier de motifs ni à supporter de pénalités (article L. 112-9 du Code des assurances). Ce droit ne peut être exercé si vous avez connaissance de l’existence d’un sinistre survenu pendant ce délai et mettant en jeu une garantie du présent contrat.",
+      "page": 23
+    },
+    {
+      "name": "Restitution de cotisation en cas de résiliation en cours de période",
+      "description": "Dans tous les cas de résiliation au cours d’une période d’assurance, nous devons vous restituer la portion de cotisation correspondant à la période où nous ne vous assurons plus sauf : en cas de non-paiement de cotisation où vous nous devez, à titre d’indemnité, une somme égale, au maximum, à la moitié de la dernière cotisation annuelle échue ; en cas de nullité du contrat.",
+      "page": 25
+    },
+    {
+      "name": "Mentions légales",
+      "description": "MACIF - MUTUELLE ASSURANCE DES COMMERÇANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE. Société d’assurance mutuelle à cotisations variables. Entreprise régie par le Code des assurances. Siège social : 1 rue Jacques Vandier - 79000 Niort. HAB/GLI/05 - 06/23 - NM17. L’identifiant unique de Macif délivré par l’éco-organisme Citéo est le FR231772_03LPC.",
+      "page": 32
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Votre contrat est constitué des conditions générales et des conditions particulières.",
+      "context": "Composition du contrat",
+      "page": 3
+    },
+    {
+      "quote": "Assuré ci-après dénommé le Propriétaire assuré\nLa personne physique ou morale, propriétaire ( ou usufruitier ) de locaux à usage exclusif d’habitation ou mixte \n( habitation / professionnel ), destinés à la location.",
+      "context": "Définition du Propriétaire assuré",
+      "page": 7
+    },
+    {
+      "quote": "Non-paiement de 2 termes consécutifs de loyers, en tout ou partie, constaté le 45e jour, suivant la date d’exigibilité du \npremier terme.",
+      "context": "Définition de l’incident de paiement",
+      "page": 7
+    },
+    {
+      "quote": "Période pendant laquelle la garantie n’est pas acquise.",
+      "context": "Définition du délai de carence",
+      "page": 7
+    },
+    {
+      "quote": "Le présent contrat s’applique à la location d’un bien immobilier, meublé ou non, désigné aux conditions particulières, \nà usage d’habitation principale ou mixte ( habitation / professionnel ) dont le bail est établi conformément à la législation \nen vigueur, et dont le loyer, charges et taxes comprises, n’excède pas 2 500 € par mois.",
+      "context": "Article 1 — champ d’application et plafond de loyer",
+      "page": 11
+    },
+    {
+      "quote": "Si de nouvelles dispositions législatives, en cours de bail, imposaient la modification du contrat de location, la garantie \nne serait maintenue que si le contrat était rendu conforme à la loi.",
+      "context": "Article 1 — maintien de la garantie en cas de changement législatif",
+      "page": 11
+    },
+    {
+      "quote": "Le remboursement au Propriétaire assuré du montant des loyers impayés par le locataire ainsi que les charges et taxes \nlui incombant en vertu d’un contrat de bail répondant aux conditions légales en vigueur, ainsi que les indemnités \nd’occupation afférentes à ce bien, jusqu’à la récupération officielle des locaux, dans les conditions et limites du présent \ncontrat.",
+      "context": "Article 2 A — étendue de la garantie Loyers impayés",
+      "page": 12
+    },
+    {
+      "quote": "Les honoraires d’avocat et d’huissier de justice, ainsi que les frais de procédures judiciaires taxables prévus à l’article \n695 du Code de procédure civile, exposés pour parvenir au recouvrement des loyers charges et taxes, ou à l’expulsion \ndu locataire, dans la limite fixée aux conditions particulières.",
+      "context": "Article 2 B — étendue de la garantie Contentieux locatif",
+      "page": 12
+    },
+    {
+      "quote": "Notre premier règlement interviendra, au terme du 4e mois suivant le premier impayé, mais prendra en compte les \nimpayés dès le premier mois, dans les conditions du contrat.",
+      "context": "Article 4 — premier règlement au terme du 4e mois",
+      "page": 13
+    },
+    {
+      "quote": "Notre indemnisation intervient sous déduction d’une franchise absolue, c’est-à-dire une somme restant à la charge du \nPropriétaire, fixée à l’équivalent du dépôt de garantie perçu à l’entrée du locataire sur la base de :\n\t\n→2 mois de loyers pour les baux souscrits jusqu’au 09/02/2008 ;\n\t\n→1 mois de loyer pour les baux souscrits après le 09/02/2008.",
+      "context": "Article 4 — franchise absolue",
+      "page": 14
+    },
+    {
+      "quote": "Nous nous engageons à garantir dans les conditions et limites prévues au contrat le coût des travaux de remise en état \nfixés à dire d’expert, suite à des dégradations immobilières, causées par le locataire ( ou tous les occupants de son chef ), \net constatées à son départ par comparaison de l’état des lieux d’entrée et de sortie établis contradictoirement.",
+      "context": "Article 6 — étendue de la garantie Dégradations immobilières",
+      "page": 15
+    },
+    {
+      "quote": "survenu après la résiliation du contrat ne sera pas garanti, même si \nd’autres sinistres sont en cours pour le même locataire.",
+      "context": "Article 8 — non-garantie après résiliation",
+      "page": 15
+    },
+    {
+      "quote": "Le taux de vétusté, appliqué au montant des dégradations immobilières retenues, est fixé contractuellement comme \nsuit, sans pouvoir dépasser 50 % :\n\t\n→pour les embellissements ( papier peint, revêtements muraux, moquette, parquets stratifiés ), le taux de vétusté \nretenu est de 8 % par an,\n\t\n→pour les autres dégradations immobilières ( hors embellissements ), le taux de vétusté retenu est de 3 % par an.",
+      "context": "Article 8 — taux de vétusté",
+      "page": 16
+    },
+    {
+      "quote": "Nous assumons à nos frais en tant que mandataire du Propriétaire assuré, dans les conditions et limites prévues au \ncontrat soit à l’amiable, soit devant toute juridiction en France métropolitaine, les diligences et actions rendues nécessaires, \nà la suite d’un litige avec le locataire qui découlerait du contrat de location des locaux bénéficiant de la garantie.",
+      "context": "Article 10 — étendue de la garantie Protection juridique",
+      "page": 17
+    },
+    {
+      "quote": "Nous n’intervenons pas pour tout litige ou somme dont le montant serait inférieur à un mois du dernier loyer \ndéclaré, charges comprises, avec un minimum de 230 €. Toutefois, si l’action est initiée par le locataire, ce \nseuil ne s’appliquera pas.",
+      "context": "Article 12 — seuil d’intervention de 230 €",
+      "page": 17
+    },
+    {
+      "quote": "Si mention est faite aux conditions particulières de la souscription de la présente garantie, la garantie Loyers impayés \npourra s’étendre au titre de la garantie Inoccupation anticipée du bien assuré à la couverture des pertes financières \nsubies par le Propriétaire assuré, résultant de la non-location de son bien suite au départ de son locataire dans un des \ncas suivants",
+      "context": "Article 14 — caractère optionnel de la garantie Inoccupation anticipée",
+      "page": 19
+    },
+    {
+      "quote": "Par sinistre, l’indemnité est plafonnée, comme suit",
+      "context": "Article 15 — chapeau du plafond d’indemnité",
+      "page": 19
+    },
+    {
+      "quote": "La garantie du présent contrat s’exerce exclusivement en France métropolitaine, qu’il s’agisse de la situation géographique \ndes biens immobiliers ou des actions en demande et en défense consécutives à un litige avec le locataire.",
+      "context": "Article 16 — territorialité",
+      "page": 23
+    },
+    {
+      "quote": "Le contrat est souscrit, sauf indication contraire aux conditions particulières, pour une durée d’un an renouvelable par \ntacite reconduction. Il est à son expiration reconduit automatiquement d’année en année, sauf dénonciation par l’une \nou l’autre des parties.",
+      "context": "Article 17 — durée et tacite reconduction",
+      "page": 23
+    },
+    {
+      "quote": "Vous êtes une personne physique et vous avez souscrit votre contrat pour des risques autres que professionnels : \nce contrat peut être résilié à tout moment à l’expiration d’un délai d’un an à compter de la première souscription.",
+      "context": "Article 18 — résiliation infra-annuelle (loi Hamon)",
+      "page": 25
+    },
+    {
+      "quote": "Vous devez vérifier que le montant mensuel du loyer, charges et taxes comprises, n’excède pas 37 % des revenus \nmensuels nets du locataire et de son conjoint ou concubin ou colocataire. Cette limite est ramenée à 33 % si le locataire, \nson conjoint ou concubin ou colocataire occupe un emploi en contrat à durée déterminée, en intérim ou est intermittent \ndu spectacle.",
+      "context": "Article 19 — ratio de solvabilité du locataire",
+      "page": 26
+    },
+    {
+      "quote": "Lorsque la garantie est délivrée pour une location avec un locataire déjà dans les lieux depuis plus de 2 mois à la date \nde la demande de souscription, il sera fait application d’un délai de carence absolu de 4 mois à compter de la date \nde mise en garantie.",
+      "context": "Article 20 — délai de carence absolu de 4 mois",
+      "page": 27
+    },
+    {
+      "quote": "Les présentes exclusions s’appliquent en sus des exclusions propres à chaque garantie. La garantie ne saurait \nêtre acquise dans les cas suivants",
+      "context": "Article 21 — chapeau des exclusions générales",
+      "page": 27
+    },
+    {
+      "quote": "Le mode de calcul de la cotisation annuelle et frais accessoires est fixé au présent contrat suivant un pourcentage du \nmontant des loyers annuels prévisionnels, charges et taxes incluses.",
+      "context": "Article 22 — calcul de la cotisation",
+      "page": 27
+    },
+    {
+      "quote": "Toutes les actions dérivant d’un contrat d’assurance sont prescrites par 2 ans à compter de l’évènement qui y donne \nnaissance.",
+      "context": "Article 24 — prescription biennale",
+      "page": 28
+    }
+  ],
+  "gaps": [
+    "VÉRIFICATION D’INVERSION DE COLONNES — NÉGATIVE. Test automatique sur les 32 pages (get_text(\"blocks\"), corps de page, seuil de colonne x = 295) : AUCUN bloc de la moitié droite n’est émis avant un bloc de la moitié gauche appartenant à la même bande verticale. Le document est en réalité composé sur une seule colonne de texte courant (x ≈ 45–560) ; les seuls éléments situés à droite sont le folio de pied de page et le bandeau vertical Citéo de la page 32. Les seuls écarts d’ordre relevés sont le sommaire de la page 5, dont les entrées existent en double dans la couche texte (une version à points de conduite et une version tabulée) et s’entrelacent, et la page 32 où le bandeau Citéo est émis après les mentions légales.",
+    "SOMMAIRE DÉDOUBLÉ (page 5). Chaque ligne du sommaire figure DEUX FOIS dans la couche texte : une fois avec des points de conduite (« Article 1 - Nature de la location … page 9 ») et une fois sous forme tabulée (« Article 1 - Nature de la location faisant l’objet du contrat \\t page \\t 9 »). De même les titres « 01 - Présentation des garanties », « Les garanties principales », « La garantie optionnelle » et « 02 - Dispositions générales » apparaissent en double. Le sommaire n’a pas été transcrit et aucune citation ne le traverse.",
+    "FOLIOS ≠ NUMÉROS DE PAGE PDF — DÉCALAGE CONSTANT DE −2. Le folio imprimé vaut la page PDF moins deux sur tout le document (l’article 1 est en page PDF 11 et porte le folio 9 ; l’article 21 est en page PDF 27 et porte le folio 25). Le décalage a été vérifié par ancrage sur plusieurs pages et il est constant ; les pages 9 et 21 (intercalaires de chapitre) ne portent pas de folio mais n’interrompent pas la numérotation. Tous les champs page[] citent le numéro de page PDF. Le sommaire de la page 5, lui, renvoie aux folios : « Article 21 - Exclusions générales … page 25 » désigne la page PDF 27.",
+    "PAGES SANS TEXTE : les pages PDF 2 et 31 sont entièrement vides. Les pages 4, 6, 8, 10, 20, 22 et 30 ne portent que le pied de page « Contrat Loyers impayés - Version 06/2023 » et son folio. Les pages 9 et 21 ne portent que le titre d’un intercalaire (« Présentation des garanties 01 », « Dispositions générales 02 »).",
+    "BRANCHE — DIVERGENCE ENTRE LA MÉTADONNÉE DE TÂCHE ET LA TAXONOMIE DU PAYS. La tâche impose branch = habitation (valeur reprise telle quelle, conformément à la règle de recopie des métadonnées et par cohérence avec les 66 extractions déjà placées pour cet assureur, dont aucune ne s’écarte de la branche de son prompt). Or sources/fr/_country.yml range explicitement « loyers impayés » et « gli » parmi les alias de la branche credit-caution (« Crédit et caution », code 14/15), et non de habitation. La métadonnée semble avoir été déduite du chemin du fichier source (conditions_generales_habitation/CG_GLI.pdf) ; la référence interne du document est d’ailleurs « HAB/GLI/05 ». Le point est signalé ici pour qu’un relecteur puisse trancher.",
+    "PLAFONDS DE GARANTIE NON CHIFFRÉS. Les quatre garanties renvoient leur plafond aux conditions particulières, non jointes (« Notre engagement financier correspond à un plafond de garantie par sinistre, stipulé aux conditions particulières »). Les seuls montants chiffrés du document sont : le plafond d’éligibilité du loyer, « 2 500 € par mois » (article 1, page 11), et le seuil d’intervention de la protection juridique, « un minimum de 230 € » (article 12, page 17). Ce sont les deux seules occurrences du glyphe € dans tout le document, et toutes deux utilisent une espace fine insécable U+202F devant le symbole ; elles sont citées verbatim.",
+    "La liste de l’article 1 (« Les garanties du présent contrat ne s’appliquent pas aux : ») est composée de 11 puces de premier niveau dont deux sont de simples chapeaux (« locaux faisant l’objet d’un bail : » et « locaux : »), suivis respectivement de 3 et de 4 sous-puces. Elle a donc été transcrite en 16 entrées d’exclusions[] (9 puces autonomes + 3 types de bail + 4 états des locaux), vérifié sur un rendu de la page 11.",
+    "Les items de l’article 5 (7 exclusions), de l’article 9 (10 exclusions), de l’article 13 (10 exclusions) et de l’article 21 (5 exclusions générales) ont été transcrits intégralement, un par un. S’y ajoutent quatre non-garanties énoncées hors des articles d’exclusions : le seuil d’intervention de l’article 12, les frais antérieurs à la déclaration de l’article 12, la non-garantie du sinistre Dégradations immobilières survenu après résiliation (article 8) et la condition d’origine du sinistre pendant la période de validité du contrat (article 20).",
+    "La couche texte insère une espace de part et d’autre des parenthèses (« ( habitation / professionnel ) ») et utilise des guillemets typographiques avec espaces (« “ Contentieux locatif ” »). Les champs structurés normalisent légèrement ces espaces pour la lisibilité ; les key_quotes, elles, sont des portions exactes de la couche texte et les conservent.",
+    "Le contrat mentionne un service « Mon rendez-vous juridique » (page 3) sans en préciser les limites ni le rattacher à une garantie ; il est enregistré dans special_conditions[] et non dans coverages[]."
+  ]
+}

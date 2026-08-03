@@ -5,13 +5,14 @@ country: fr
 insurer_slug: macif
 name: Macif
 website: https://www.macif.fr
-products_count: 106
+products_count: 110
 branches_covered:
 - animaux
 - assurance-vie
 - auto
 - autres
 - chasse
+- credit-caution
 - emprunteur
 - gav
 - habitation
@@ -40,7 +41,7 @@ generated: true
 
 ## Résumé
 
-**Macif** - [https://www.macif.fr](https://www.macif.fr). 106 document(s) across 18 branch(es).
+**Macif** - [https://www.macif.fr](https://www.macif.fr). 110 document(s) across 19 branch(es).
 
 ## Produits par branche
 
@@ -86,6 +87,10 @@ generated: true
 - [Contrat d'assurance Chasse - IPID](../products/macif/Contrat%20d%27assurance%20Chasse%20-%20IPID.md) - IPID / Fiche d'information (10/18) · réf. CHASSE 10/18
 - [Multirisque Chasse — Contrat d'assurance chasse](../products/macif/Multirisque%20Chasse%20%E2%80%94%20Contrat%20d%27assurance%20chasse.md) - Conditions générales (décembre 2012) · réf. LOIS/CHA/05 - 12/12 - NM12
 
+### Crédit et caution
+- [Contrat Loyers impayés](../products/macif/Contrat%20Loyers%20impay%C3%A9s.md) - Conditions générales (Version 06/2023 (page 5 : « Version juin 2023 »)) · réf. HAB/GLI/05 - 06/23 - NM17
+- [Contrat Loyers impayés - IPID](../products/macif/Contrat%20Loyers%20impay%C3%A9s%20-%20IPID.md) - IPID / Fiche d'information (2020-03) · réf. HAB GLI 03/20
+
 ### [Assurance emprunteur](../branches/Assurance%20emprunteur.md)
 - [Assurance Découvert Autorisé - Doc](../products/macif/Assurance%20D%C3%A9couvert%20Autoris%C3%A9%20-%20Doc.md) - Document
 - [Assurance Découvert Autorisé - IPID](../products/macif/Assurance%20D%C3%A9couvert%20Autoris%C3%A9%20-%20IPID.md) - IPID / Fiche d'information (12/20) · réf. DIPA ASSURANCE DÉCOUVERT 12/20
@@ -113,6 +118,7 @@ generated: true
 - [Contrat Macif Habitation - Formule Construction - IPID](../products/macif/Contrat%20Macif%20Habitation%20-%20Formule%20Construction%20-%20IPID.md) - IPID / Fiche d'information (2025-06) · réf. MACIF HAB MC 06/25
 - [Contrat Macif Habitation - Formules Économique, Équilibrée, Confort (Résidence secondaire) - IPID](../products/macif/Contrat%20Macif%20Habitation%20-%20Formules%20%C3%89conomique%2C%20%C3%89quilibr%C3%A9e%2C%20Confort%20%28R%C3%A9sidence%20secondaire%29%20-%20IPID.md) - IPID / Fiche d'information (06/25) · réf. MACIF HAB RS 06/25
 - [Contrat Macif Habitation - Formules Économique, Équilibrée, Confort (Assurance multirisques habitation - Résidence princ](../products/macif/Contrat%20Macif%20Habitation%20-%20Formules%20%C3%89conomique%2C%20%C3%89quilibr%C3%A9e%2C%20Confort%20%28Assurance%20multirisques%20habitation%20-%20R%C3%A9sidence%20princ.md) - IPID / Fiche d'information (06/25) · réf. MACIF HAB RP 06/25
+- [Contrat PREM'S - Assurance logement - Assurance personnelle - IPID](../products/macif/Contrat%20PREM%27S%20-%20Assurance%20logement%20-%20Assurance%20personnelle%20-%20IPID.md) - IPID / Fiche d'information (2018-10) · réf. HAB-PREMS 10/18
 - [Contrat Prem's - Assurance Logement - Assurance Personnelle](../products/macif/Contrat%20Prem%27s%20-%20Assurance%20Logement%20-%20Assurance%20Personnelle.md) - Conditions générales (Avril 2015) · réf. HAB/PREMS/05 - 04/15 - N093
 - [Contrat Sociétaire Non Occupant](../products/macif/Contrat%20Soci%C3%A9taire%20Non%20Occupant.md) - Conditions générales (avril 2015) · réf. HAB/SNO/05 - 04/15 - N086
 - [Contrat Sociétaire Non Occupant - Annexe spéciale Bâtiments en cours de construction](../products/macif/Contrat%20Soci%C3%A9taire%20Non%20Occupant%20-%20Annexe%20sp%C3%A9ciale%20B%C3%A2timents%20en%20cours%20de%20construction.md) - Conditions générales · réf. HAB/SNOBCC/07-01/08-N065
@@ -129,6 +135,7 @@ generated: true
 ### [Deux-roues, quads et voiturettes](../branches/Deux-roues%2C%20quads%20et%20voiturettes.md)
 - [Contrat Deux Roues](../products/macif/Contrat%20Deux%20Roues.md) - Conditions générales (2018-11-25) · réf. VEH/MOTO/05-25/11/18-N760
 - [Contrat Macif Deux-roues Pros - IPID](../products/macif/Contrat%20Macif%20Deux-roues%20Pros%20-%20IPID.md) - IPID / Fiche d'information (06/22) · réf. VEH MOTO PROS - 06/22
+- [Macif Deux-roues](../products/macif/Macif%20Deux-roues.md) - Conditions générales (05/2026) · réf. VEH/MOTO PART/05 - 05/26 - N436
 
 ### [Multirisque professionnelle](../branches/Multirisque%20professionnelle.md)
 - [Contrat Multigarantie Activité Professionnelle - IPID](../products/macif/Contrat%20Multigarantie%20Activit%C3%A9%20Professionnelle%20-%20IPID.md) - IPID / Fiche d'information (06/23) · réf. ACTP/MAP

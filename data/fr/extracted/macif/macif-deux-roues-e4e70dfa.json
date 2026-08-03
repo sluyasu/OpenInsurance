@@ -1,0 +1,1586 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "macif",
+  "insurer_name": "Macif",
+  "product_name": "Macif Deux-roues",
+  "branch": "moto",
+  "branch_code": null,
+  "document_type": "conditions_generales",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "Le document s'adresse au « sociétaire* », défini comme le « Souscripteur* du contrat qui répond aux conditions d'admission fixées à l'article 6 des statuts de la Macif ». Les usages du véhicule (partie 29) précisent que les usages « privé - trajet/travail » et « privé - déplacements professionnels réguliers » « ne peu[ven]t pas être accordé[s] aux travailleurs indépendants », et la résiliation infra-annuelle vise « une personne physique [ayant] souscrit le contrat pour des risques autres que professionnels ». Aucune catégorie du schéma n'est nommée par le document.",
+  "reference": "VEH/MOTO PART/05 - 05/26 - N436",
+  "edition_date": "05/2026",
+  "product_family": "Macif Deux-roues",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_vehicules/CG-Moto.pdf",
+  "source_pdf": "macif-deux-roues-e4e70dfa.pdf",
+  "source_sha256": "c2ea6cfa71189c65708b95e428eb4bf52230390f6cdfe965c0f4b9a1911c6f57",
+  "source_pages": 68,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Conditions générales du contrat Macif Deux-roues, version 05/2026, assurance de véhicules terrestres à moteur de type cyclomoteur, motocyclette, tricycle ou quad, ainsi que du side-car ou de la remorque attelé(e). Le contrat est proposé en trois formules - Économique, Élargie et Protectrice - la garantie « Responsabilité civile », l'« Assistance générale » et les garanties « Défense et Recours » étant incluses dans les trois. Selon la formule, il peut également couvrir les dommages par accident et actes de vandalisme, l'incendie et les attentats, le vol, le bris d'optiques de phare, les événements climatiques, les catastrophes naturelles et technologiques, les frais de remorquage, l'insolvabilité du tiers responsable et l'équipement du motard ; les accessoires, le véhicule de prêt et l'assistance panne 0 km sont proposés en option. Le document décrit également les exclusions communes, la territorialité, la procédure de sinistre, l'indemnisation, le bonus-malus, la résiliation et la prescription.",
+  "definitions": [
+    {
+      "term": "Acquisition - Prix d'acquisition",
+      "definition": "Prix effectivement payé pour l'achat du véhicule* assuré, c'est-à-dire déduction faite, par exemple, d'une remise éventuelle, et à l'exception de tous les frais annexes liés à la mise à disposition du véhicule* tels, par exemple, les frais d'établissement du certificat d'immatriculation du véhicule* ou encore les frais de carburant.",
+      "page": 60
+    },
+    {
+      "term": "Airbag - Gilet airbag",
+      "definition": "Gilet/veste airbag agréé SRA ayant moins de 10 ans au jour du sinistre*, du conducteur et du ou des passagers, conçu pour la pratique de la moto.",
+      "page": 60
+    },
+    {
+      "term": "Année - Année d'assurance",
+      "definition": "Période d'assurance qui court du 1er avril au 31 mars de l'année suivante.",
+      "page": 60
+    },
+    {
+      "term": "Assuré",
+      "definition": "En fonction des garanties souscrites, ont la qualité d'assuré : le souscripteur* et le propriétaire du véhicule* pour toutes les garanties ; le conducteur autorisé, gardien du véhicule*, pour la « Responsabilité civile » et pour « Équipement du motard, Assistance générale, Assistance panne 0 km, Défense et Recours » ; les passagers du véhicule* pour la « Responsabilité civile » et pour « Équipement du motard, Assistance générale, Assistance panne 0 km, Défense et Recours », le Recours étant réservé aux passagers membres de la famille (partie 16). N'ont pas la qualité d'assuré les personnes à qui le véhicule* est confié en raison de leurs fonctions : garagistes, personnes pratiquant la vente, le courtage, la réparation, le dépannage ou assurant le contrôle de son bon fonctionnement ainsi que leurs préposés.",
+      "page": 60
+    },
+    {
+      "term": "Avis - Avis d'échéance",
+      "definition": "Document par lequel vous êtes informé chaque année notamment du montant de votre cotisation et de ses modalités de paiement.",
+      "page": 61
+    },
+    {
+      "term": "Casque",
+      "definition": "Casque du conducteur et du ou des passagers, conçu et homologué pour l'utilisation du véhicule* selon la réglementation en vigueur.",
+      "page": 61
+    },
+    {
+      "term": "Déchéance",
+      "definition": "Perte d'un droit à garantie, en raison du non-respect par l'assuré des obligations contractuelles.",
+      "page": 61
+    },
+    {
+      "term": "Échéance",
+      "definition": "Date à laquelle le contrat se renouvelle automatiquement chaque année. L'échéance de ce contrat est le 1er avril.",
+      "page": 61
+    },
+    {
+      "term": "Écologique - Préjudice écologique",
+      "definition": "Atteinte non négligeable aux éléments ou aux fonctions des écosystèmes ou aux bénéfices collectifs tirés par l'homme de l'environnement.",
+      "page": 61
+    },
+    {
+      "term": "Franchise",
+      "definition": "Montant déduit de l'indemnité et restant à la charge de l'assuré*. Ce montant est indiqué dans les conditions particulières.",
+      "page": 61
+    },
+    {
+      "term": "Gant",
+      "definition": "Gants du conducteur et du ou des passagers, homologués CE pour l'utilisation du véhicule* selon la réglementation en vigueur.",
+      "page": 61
+    },
+    {
+      "term": "Garanti - Événement garanti",
+      "definition": "Il s'agit d'un événement qui répond aux conditions nécessaires à la mise en jeu d'une des garanties souscrites suivantes : « Dommages par accident et actes de vandalisme », « Incendie, explosion, attentats et actes de terrorisme », « Vol », « Bris d'optiques de phare », « Événements climatiques, tempête, grêle », « Catastrophes naturelles », « Catastrophes technologique », telles que définies aux parties 2 à 8.",
+      "page": 61
+    },
+    {
+      "term": "Isolé - Vol isolé",
+      "definition": "Vol du casque*, des gants* et du gilet airbag* (partie 4) ou de l'équipement du motard (partie 11), dans le top-case, le coffre ou les sacoches rigides, fixés au véhicule* et fermés à clé, sans vol du véhicule* lui-même. Il s'agit également du vol d'un ou des accessoires (partie 12) sans vol du véhicule* lui-même.",
+      "page": 62
+    },
+    {
+      "term": "Nullité - Nullité du contrat",
+      "definition": "Le contrat d'assurance est nul en cas de réticence ou de fausse déclaration intentionnelle de la part de l'assuré*, quand cette réticence ou cette fausse déclaration change l'objet du risque ou en diminue l'opinion pour l'assureur, alors même que le risque omis ou dénaturé par l'assuré* a été sans influence sur le sinistre*. Le contrat est censé n'avoir jamais existé et les cotisations restent acquises à la Macif à titre de dommages et intérêts. De même, la Macif est en droit de réclamer le remboursement des indemnités déjà versées.",
+      "page": 62
+    },
+    {
+      "term": "Principal - Conducteur principal",
+      "definition": "Conducteur qui utilise régulièrement le véhicule*. Le conducteur principal est désigné comme tel dans les conditions particulières.",
+      "page": 62
+    },
+    {
+      "term": "Réduction - Réduction des indemnités",
+      "definition": "Mesure appliquée à un assuré en raison d'une omission ou d'une déclaration inexacte du risque, non intentionnelle, qui n'a pas permis d'appliquer la cotisation correspondant au risque réel. Cette réduction est proportionnelle à la cotisation effectivement payée par rapport à celle qui était normalement due.",
+      "page": 62
+    },
+    {
+      "term": "Remplacement - Valeur de remplacement",
+      "definition": "Somme fixée par expertise pour pouvoir acheter un véhicule de même type dans un semblable état d'entretien et de fonctionnement.",
+      "page": 62
+    },
+    {
+      "term": "Sinistre",
+      "definition": "C'est la réalisation et toutes les conséquences d'un même événement de nature à entraîner la garantie de la Macif. Constitue un seul et même sinistre l'ensemble des réclamations qui en résultent. La garantie de la Macif s'applique à des événements survenus pendant la période de validité du contrat, c'est-à-dire après sa prise d'effet et avant sa résiliation ou sa suspension.",
+      "page": 62
+    },
+    {
+      "term": "Sociétaire",
+      "definition": "Souscripteur* du contrat qui répond aux conditions d'admission fixées à l'article 6 des statuts de la Macif et désigné par « vous » dans le contrat. En revanche, toute personne imposée par le Bureau central de tarification, en application de l'article L212-1 du Code des assurances, est simplement souscripteur* du contrat, sans avoir le statut de sociétaire avec les droits qui s'y attachent.",
+      "page": 62
+    },
+    {
+      "term": "Souscripteur",
+      "definition": "Cocontractant de la Macif désigné aux conditions particulières. Il est tenu, notamment, en contrepartie des garanties, au paiement des cotisations. Cette personne n'est pas obligatoirement le propriétaire du véhicule*.",
+      "page": 62
+    },
+    {
+      "term": "Tiers",
+      "definition": "Toute personne autre que l'assuré*.",
+      "page": 63
+    },
+    {
+      "term": "Totale - Perte totale",
+      "definition": "Il y a perte totale du véhicule* lorsque celui-ci est déclaré économiquement non réparable (montant des réparations supérieur à la valeur vénale du véhicule* avant le sinistre*) ou techniquement irréparable par l'expert, ou volé et non retrouvé dans les 30 jours suivant la déclaration du vol.",
+      "page": 63
+    },
+    {
+      "term": "Véhicule",
+      "definition": "C'est le véhicule terrestre à moteur (de type cyclomoteur, motocyclette, tricycle, quad) désigné aux conditions particulières, équipé des éléments livrés de série ou en option par le constructeur, et des éléments complémentaires suivants : le top-case, les sacoches rigides, les pare-cylindres et pare-carters, la batterie du véhicule électrique et son câble de rechargement, les systèmes de protection antivol, les aménagements pour les handicapés. Il s'agit aussi du side-car ou de la remorque construit(e) en vue d'être attelé(e) à ce type de véhicule et dont le poids total en charge n'excède pas 50 % du poids à vide du véhicule tracteur. En cas de transfert du contrat sur un nouveau véhicule, les garanties souscrites pour l'ancien véhicule assuré en instance de vente restent acquises gratuitement jusqu'au jour de sa vente, pendant une période maximale de 30 jours, sous réserve que le contrat du nouveau véhicule soit toujours en vigueur.",
+      "page": 63
+    },
+    {
+      "term": "Vétusté",
+      "definition": "Dépréciation d'un bien due à son utilisation ou à son ancienneté qui entraîne la diminution de sa valeur marchande. Elle peut être déterminée si nécessaire par expertise.",
+      "page": 63
+    }
+  ],
+  "coverages": [
+    {
+      "name": "1 - Responsabilité civile",
+      "description": "La garantie « Responsabilité civile » répond à l'obligation légale d'assurance des véhicules terrestres à moteur pour les dommages causés aux tiers*. Sont garanties les conséquences pécuniaires de la responsabilité civile que vous-même ou toute personne ayant la qualité d'assuré* pouvez encourir à l'égard des tiers*, y compris à l'égard des passagers transportés dans le véhicule*, en raison des dommages corporels ou matériels qu'ils ont subis et dans la réalisation desquels le véhicule* est impliqué à la suite d'un accident, d'un incendie ou d'une explosion causé par ce véhicule*, les accessoires ou produits servant à son utilisation, les objets ou substances qu'il transporte, ou de la chute de ces accessoires, objets, substances et produits. La garantie est étendue à la responsabilité civile du propriétaire ou du locataire du véhicule* en raison des dommages corporels ou matériels causés au conducteur autorisé à la suite d'un accident imputable au vice ou au défaut d'entretien du véhicule*, et à celle de l'employeur du souscripteur* dans la mesure où sa responsabilité serait recherchée à la suite d'un dommage causé aux tiers* et résultant d'un événement couvert (à défaut d'intervention de l'assurance de l'employeur). La garantie est également acquise lorsque la responsabilité civile de l'assuré* est engagée en cas de sinistre* ou à l'occasion d'une panne du véhicule*, lorsqu'il bénéficie d'une aide bénévole, pour les dommages subis par les personnes apportant cette aide ainsi que pour les dommages causés aux tiers par ces mêmes personnes, et lorsqu'il apporte son aide bénévole avec le véhicule* pour les dommages causés à l'assisté ainsi qu'aux autres tiers*.",
+      "is_optional": false,
+      "territorial_scope": "En France métropolitaine ainsi que dans les DROM (Guadeloupe, Guyane, Martinique, Mayotte, La Réunion) ; dans l'ensemble des territoires des États membres de l'Union européenne, ainsi qu'en Andorre, Bosnie-Herzégovine, Islande, Liechtenstein, Monaco, Monténégro, Norvège, Royaume-Uni, Saint-Marin, Serbie, Suisse, Vatican ; dans les autres pays mentionnés et non rayés sur la carte internationale d'assurance automobile (partie 19)",
+      "limits": "Dommages corporels et dommages immatériels consécutifs à ces dommages corporels : sans limitation de somme. Dommages matériels et dommages immatériels consécutifs à ces dommages matériels : 100 millions d'euros dont 1 300 000 euros pour le préjudice écologique*.",
+      "sub_limits": [
+        "Dommages corporels et dommages immatériels consécutifs : sans limitation de somme",
+        "Dommages matériels et dommages immatériels consécutifs : 100 millions d'euros",
+        "dont 1 300 000 euros pour le préjudice écologique*"
+      ],
+      "deductible": "Le montant de la franchise* appliquée en cas de sinistre* est mentionné dans vos conditions particulières. Franchise supplémentaire en cas de prêt de guidon (partie 30.1).",
+      "conditions": [
+        "Vous bénéficiez de cette garantie quelle que soit la formule souscrite",
+        "Formule Économique : incluse ; Élargie : incluse ; Protectrice : incluse",
+        "Garantie déclenchée par le fait à l'origine des dommages, dès lors que ce fait survient entre la prise d'effet initiale de la garantie et sa date de résiliation ou d'expiration (article L124-5 alinéa 3 du Code des assurances)"
+      ],
+      "page": 14
+    },
+    {
+      "name": "2 - Dommages par accident et actes de vandalisme",
+      "description": "Sont garantis les dommages subis par le véhicule*, alors qu'il était sous votre garde ou celle d'une personne autorisée par vous, lorsque ces dommages résultent d'un choc avec un corps fixe ou mobile (exemples : arbre, rocher, voiture, cycliste, piéton, animal), du versement ou du renversement du véhicule*, de sa chute accidentelle dans un cours d'eau ou une étendue d'eau, de la chute de son chargement, de projections ou retombées de substances, ou d'un acte de vandalisme. Sont également garantis le casque*, les gants* et le gilet airbag* dès lors qu'ils sont endommagés en même temps que le véhicule* dans ces circonstances, ainsi que les dommages mécaniques ou électriques subis par le véhicule* en stationnement lorsqu'ils sont causés par un animal (exemple : câble ou durite du moteur grignoté par un rongeur). La garantie est également accordée lorsque le véhicule* est transporté par voie fluviale, maritime, ferroviaire ou terrestre, si ce transport est effectué par un transporteur professionnel entre des pays où la Macif accorde ses garanties.",
+      "is_optional": null,
+      "territorial_scope": "En France métropolitaine ainsi que dans les DROM (Guadeloupe, Guyane, Martinique, Mayotte, La Réunion) ; dans l'ensemble des territoires des États membres de l'Union européenne, ainsi qu'en Andorre, Bosnie-Herzégovine, Islande, Liechtenstein, Monaco, Monténégro, Norvège, Royaume-Uni, Saint-Marin, Serbie, Suisse, Vatican ; dans les autres pays mentionnés et non rayés sur la carte internationale d'assurance automobile (partie 19)",
+      "limits": "Véhicule* endommagé partiellement : coût des réparations ou de remplacement des pièces détériorées dans la limite de la valeur de remplacement* du véhicule*. Perte totale* du véhicule* : prix d'acquisition* du véhicule* pendant les 6 mois suivant sa date de 1re immatriculation (sauf pour les véhicules* en LOA ou LDD : valeur de remplacement*) ; au-delà de ces 6 mois, valeur de remplacement*.",
+      "sub_limits": [
+        "Indemnisation au minimum de 400 € pour les cylindrées supérieures à 80 cm cubes et inférieures ou égales à 450 cm cubes",
+        "Indemnisation au minimum de 800 € pour les cylindrées supérieures à 450 cm cubes",
+        "Si le contrat a plus de 5 ans : 600 € pour les cylindrées supérieures à 80 cm cubes et inférieures ou égales à 450 cm cubes",
+        "Si le contrat a plus de 5 ans : 1 200 € pour les cylindrées supérieures à 450 cm cubes",
+        "Side-car ou remorque : valeur de remplacement*",
+        "Casque*, gants* et gilet airbag* : valeur d'achat ; pour le casque*, indemnisation minimum de 80 €, portée à 120 € si le contrat a plus de 5 ans"
+      ],
+      "deductible": "Franchise indiquée dans les conditions particulières. Franchise supplémentaire de prêt de guidon (partie 30.1) applicable en priorité sur cette garantie.",
+      "conditions": [
+        "Vous bénéficiez de cette garantie si elle est mentionnée en tant que garantie souscrite dans vos conditions particulières.",
+        "Formule Économique : non disponible ; Élargie : non disponible ; Protectrice : incluse"
+      ],
+      "page": 16
+    },
+    {
+      "name": "3 - Incendie, explosion, attentats et actes de terrorisme",
+      "description": "Sont garantis les dommages subis par le véhicule* lorsqu'ils résultent d'un incendie, d'une combustion spontanée, de la chute de la foudre ou d'une explosion ; les dommages subis par le véhicule* et causés par une émeute ou un mouvement populaire ; la réparation des dommages matériels directs, y compris les frais de décontamination, et la réparation des dommages immatériels consécutifs, causés au véhicule* par un attentat ou un acte de terrorisme (définis par les articles 412-1, 421-1 et 421-2 du Code pénal) subi sur le territoire national, dans les limites de franchise* et de plafond fixés au contrat ; le casque*, les gants* et le gilet airbag* endommagés en même temps que le véhicule* ; les dommages subis par les faisceaux électriques à la suite d'un court-circuit et n'ayant pas pour origine un branchement ou un montage défectueux ; les frais de recharge des extincteurs utilisés pour lutter contre l'incendie.",
+      "is_optional": null,
+      "territorial_scope": "En France métropolitaine ainsi que dans les DROM (Guadeloupe, Guyane, Martinique, Mayotte, La Réunion) ; dans l'ensemble des territoires des États membres de l'Union européenne, ainsi qu'en Andorre, Bosnie-Herzégovine, Islande, Liechtenstein, Monaco, Monténégro, Norvège, Royaume-Uni, Saint-Marin, Serbie, Suisse, Vatican ; dans les autres pays mentionnés et non rayés sur la carte internationale d'assurance automobile (partie 19)",
+      "limits": "Véhicule* endommagé partiellement : coût des réparations ou de remplacement des pièces détériorées dans la limite de la valeur de remplacement* du véhicule*. Perte totale* : prix d'acquisition* pendant les 6 mois suivant la 1re immatriculation, puis valeur de remplacement*.",
+      "sub_limits": [
+        "Minimum 400 € (cylindrées > 80 cm3 et <= 450 cm3) / 800 € (> 450 cm3), portés à 600 € / 1 200 € si le contrat a plus de 5 ans",
+        "Casque*, gants* et gilet airbag* : valeur d'achat (casque : minimum 80 €, 120 € si contrat de plus de 5 ans)"
+      ],
+      "deductible": "Franchise indiquée dans les conditions particulières",
+      "conditions": [
+        "Vous bénéficiez de cette garantie si elle est mentionnée en tant que garantie souscrite dans vos conditions particulières.",
+        "Formule Économique : non disponible ; Élargie : incluse ; Protectrice : incluse",
+        "Attentat ou acte de terrorisme : garantie limitée au territoire national"
+      ],
+      "page": 17
+    },
+    {
+      "name": "4 - Vol",
+      "description": "Sont garantis le vol du véhicule* commis par effraction du véhicule*, y compris électronique, de nature à permettre sa mise en route et sa circulation, par menace ou violence à l'encontre de son propriétaire ou gardien, par effraction d'un garage privatif clos et fermé à clé, ou par vol des clés du véhicule* par effraction d'un local ou bâtiment clos et fermé à clé ; le vol du casque*, des gants* et du gilet airbag* remisés dans le top-case, le coffre ou les sacoches rigides fixés au véhicule* et verrouillés, lorsque ce vol est commis en même temps que celui du véhicule* ; l'appropriation du véhicule* par un acheteur contre remise d'un chèque volé ou d'un faux chèque de banque ; les dommages subis par le véhicule* lors d'une tentative de vol commise par effraction, y compris électronique ; le vol ou la tentative de vol des éléments composant le véhicule* ainsi que les dommages subis à cette occasion ; les frais engagés pour le remplacement à l'identique des systèmes de verrouillage et de protection antivol du véhicule* suite au vol ou à la perte des clés ; le vol isolé* ou la tentative de vol isolé* du casque*, des gants* et du gilet airbag* remisés dans le top-case, le coffre ou les sacoches rigides fixés au véhicule* et verrouillés, ainsi que les dommages dus à l'effraction subis par le top-case, le coffre ou les sacoches rigides à cette occasion.",
+      "is_optional": null,
+      "territorial_scope": "En France métropolitaine ainsi que dans les DROM (Guadeloupe, Guyane, Martinique, Mayotte, La Réunion) ; dans l'ensemble des territoires des États membres de l'Union européenne, ainsi qu'en Andorre, Bosnie-Herzégovine, Islande, Liechtenstein, Monaco, Monténégro, Norvège, Royaume-Uni, Saint-Marin, Serbie, Suisse, Vatican ; dans les autres pays mentionnés et non rayés sur la carte internationale d'assurance automobile (partie 19)",
+      "limits": "Véhicule* endommagé partiellement : coût des réparations dans la limite de la valeur de remplacement*. Perte totale* : prix d'acquisition* pendant les 6 mois suivant la 1re immatriculation, puis valeur de remplacement*. Vol ou perte des clés (partie 4) : frais engagés dans la limite de 800 €.",
+      "sub_limits": [
+        "Vol ou perte des clés : frais engagés dans la limite de 800 €",
+        "Minimum 400 € (cylindrées > 80 cm3 et <= 450 cm3) / 800 € (> 450 cm3), portés à 600 € / 1 200 € si le contrat a plus de 5 ans",
+        "Casque*, gants* et gilet airbag* : valeur d'achat (casque : minimum 80 €, 120 € si contrat de plus de 5 ans)"
+      ],
+      "deductible": "Franchise indiquée dans les conditions particulières",
+      "conditions": [
+        "Vous bénéficiez de cette garantie si elle est mentionnée en tant que garantie souscrite dans vos conditions particulières.",
+        "Formule Économique : non disponible ; Élargie : incluse ; Protectrice : incluse",
+        "L'indemnisation des frais de remplacement des systèmes de verrouillage et de protection antivol ne peut intervenir qu'une seule fois par année* d'assurance",
+        "L'indemnisation du vol isolé* du casque, des gants et du gilet airbag ne peut intervenir qu'une seule fois par année* d'assurance",
+        "Le bénéfice de la garantie « Vol » est subordonné aux dispositions précisées dans les conditions particulières et notamment à la présence sur le véhicule* d'un système de protection antivol en fonctionnement (partie 30.2)",
+        "En cas de découverte du véhicule volé avant paiement de l'indemnité, vous en reprenez possession ; la Macif indemnise les détériorations et les frais de récupération engagés avec son accord. Si le véhicule est retrouvé après paiement de l'indemnité, la Macif en devient propriétaire.",
+        "Si le véhicule* est retrouvé et que l'expertise atteste qu'il n'a pas subi d'effraction, y compris électronique, de nature à permettre sa mise en route et sa circulation, la garantie « Vol » n'est pas acquise et l'indemnité déjà versée doit être remboursée moyennant restitution du véhicule*"
+      ],
+      "page": 18
+    },
+    {
+      "name": "5 - Bris d'optiques de phare",
+      "description": "Est garanti le remplacement ou la réparation, en cas de bris, des éléments du véhicule* suivants : projecteurs avant, c'est-à-dire phares et antibrouillards avant, et feux diurnes avant.",
+      "is_optional": null,
+      "territorial_scope": "En France métropolitaine ainsi que dans les DROM (Guadeloupe, Guyane, Martinique, Mayotte, La Réunion) ; dans l'ensemble des territoires des États membres de l'Union européenne, ainsi qu'en Andorre, Bosnie-Herzégovine, Islande, Liechtenstein, Monaco, Monténégro, Norvège, Royaume-Uni, Saint-Marin, Serbie, Suisse, Vatican ; dans les autres pays mentionnés et non rayés sur la carte internationale d'assurance automobile (partie 19)",
+      "limits": "Coût moyen de la réparation calculé au regard des tarifs pratiqués par les professionnels, ou coût du remplacement à l'identique, dans la limite du prix des pièces fixé par le constructeur du véhicule* et du coût de la main d'œuvre, calculé selon la durée nécessaire fixée par le constructeur et le taux horaire moyen pratiqué localement.",
+      "sub_limits": [],
+      "deductible": "Franchise indiquée dans les conditions particulières",
+      "conditions": [
+        "Vous bénéficiez de cette garantie si elle est mentionnée en tant que garantie souscrite dans vos conditions particulières.",
+        "Formule Économique : non disponible ; Élargie : incluse ; Protectrice : incluse",
+        "L'indemnité ne sera versée que sur présentation de la facture acquittée des travaux de réparation ou de remplacement effectués avec notre accord"
+      ],
+      "page": 19
+    },
+    {
+      "name": "6 - Événements climatiques, tempête, grêle",
+      "description": "Sont garantis les dommages causés au véhicule* par le vent soufflant en tempête, c'est-à-dire lorsque l'intensité du phénomène est telle qu'il détruit ou détériore plusieurs bâtiments ou véhicules dans la commune de survenance du sinistre* ou dans les communes avoisinantes ; la grêle ; un glissement de terrain ou une coulée de boue ; une inondation due à un débordement de source, cours d'eau, étendue d'eau, à un ruissellement d'eau de pluie ou à un refoulement d'égout ; le poids de la neige ou une avalanche. Sont également garantis le casque*, les gants* et le gilet airbag* endommagés en même temps que le véhicule* dans ces circonstances.",
+      "is_optional": null,
+      "territorial_scope": "En France métropolitaine ainsi que dans les DROM (Guadeloupe, Guyane, Martinique, Mayotte, La Réunion) ; dans l'ensemble des territoires des États membres de l'Union européenne, ainsi qu'en Andorre, Bosnie-Herzégovine, Islande, Liechtenstein, Monaco, Monténégro, Norvège, Royaume-Uni, Saint-Marin, Serbie, Suisse, Vatican ; dans les autres pays mentionnés et non rayés sur la carte internationale d'assurance automobile (partie 19)",
+      "limits": "Véhicule* endommagé partiellement : coût des réparations dans la limite de la valeur de remplacement*. Perte totale* : prix d'acquisition* pendant les 6 mois suivant la 1re immatriculation, puis valeur de remplacement*.",
+      "sub_limits": [
+        "Casque*, gants* et gilet airbag* : valeur d'achat (casque : minimum 80 €, 120 € si contrat de plus de 5 ans)"
+      ],
+      "deductible": "Franchise indiquée dans les conditions particulières",
+      "conditions": [
+        "Vous bénéficiez de cette garantie si elle est mentionnée en tant que garantie souscrite dans vos conditions particulières.",
+        "Formule Économique : non disponible ; Élargie : incluse ; Protectrice : incluse"
+      ],
+      "page": 20
+    },
+    {
+      "name": "7 - Catastrophes naturelles",
+      "description": "Sont garantis les dommages matériels directs subis par le véhicule* causés de façon déterminante par l'intensité anormale d'un élément naturel lorsque les mesures habituelles à prendre pour prévenir ces dommages n'ont pu empêcher leur survenance ou n'ont pu être prises. L'état de catastrophe naturelle doit être constaté par un arrêté interministériel publié au Journal Officiel de la République française. Sont également garantis le casque*, les gants* et le gilet airbag* endommagés en même temps que le véhicule*.",
+      "is_optional": null,
+      "territorial_scope": "En France métropolitaine ainsi que dans les DROM (Guadeloupe, Guyane, Martinique, Mayotte, La Réunion)",
+      "limits": "Véhicule* endommagé partiellement : coût des réparations dans la limite de la valeur de remplacement*. Perte totale* : prix d'acquisition* pendant les 6 mois suivant la 1re immatriculation, puis valeur de remplacement*.",
+      "sub_limits": [],
+      "deductible": "Franchise* légale : pour les véhicules terrestres à moteur, le montant de la franchise* est de 380 € pour chaque véhicule endommagé. Toutefois, pour les véhicules terrestres à moteur à usage professionnel, la franchise* prévue par le contrat sera appliquée si celle-ci est supérieure. En cas de modification par arrêté ministériel des montants de franchise*, ces montants seront réputés modifiés dès l'entrée en vigueur de cet arrêté.",
+      "conditions": [
+        "Vous bénéficiez de cette garantie si elle est mentionnée en tant que garantie souscrite dans vos conditions particulières.",
+        "Formule Économique : non disponible ; Élargie : incluse ; Protectrice : incluse",
+        "L'état de catastrophe naturelle doit être constaté par un arrêté interministériel publié au Journal Officiel",
+        "Vous vous interdisez de contracter une assurance pour la portion du risque constituée par la franchise*"
+      ],
+      "page": 20
+    },
+    {
+      "name": "8 - Catastrophes technologiques",
+      "description": "Sont garantis les dommages matériels directs subis par le véhicule* et provoqués par un accident visé par la loi du 30 juillet 2003 relative à l'état de catastrophe technologique. L'état de catastrophe technologique doit être constaté par un arrêté interministériel publié au Journal Officiel de la République française. Sont également garantis le casque*, les gants* et le gilet airbag* endommagés en même temps que le véhicule*.",
+      "is_optional": null,
+      "territorial_scope": "En France métropolitaine ainsi que dans les DROM (Guadeloupe, Guyane, Martinique, Mayotte, La Réunion)",
+      "limits": "Véhicule* endommagé partiellement : coût des réparations dans la limite de la valeur de remplacement*. Perte totale* : prix d'acquisition* pendant les 6 mois suivant la 1re immatriculation, puis valeur de remplacement*.",
+      "sub_limits": [],
+      "deductible": "Franchise indiquée dans les conditions particulières",
+      "conditions": [
+        "Vous bénéficiez de cette garantie si elle est mentionnée en tant que garantie souscrite dans vos conditions particulières.",
+        "Formule Économique : non disponible ; Élargie : incluse ; Protectrice : incluse",
+        "Le délai maximum de règlement est de 3 mois à compter de la date de remise de l'état estimatif des biens endommagés ou de la date de publication de l'arrêté interministériel lorsque celle-ci est postérieure"
+      ],
+      "page": 21
+    },
+    {
+      "name": "9 - Frais de remorquage et frais annexes",
+      "description": "En cas de dommages subis par le véhicule* à la suite d'un événement répondant aux conditions nécessaires à la mise en jeu d'une garantie souscrite et définie aux parties 2 « Dommages par accident et actes de vandalisme », 3 « Incendie, explosion, attentats et actes de terrorisme », 4 « Vol », 6 « Événements climatiques, tempête, grêle », sont garantis les frais de remorquage jusqu'au garage qualifié le plus proche et les frais engagés avec notre accord pour la récupération du véhicule* réparé, ainsi que, en cas de mise en fourrière du véhicule*, les frais d'enlèvement et de garde jusqu'à la date à laquelle vous avez connaissance du lieu du dépôt et les dommages éventuels subis par le véhicule* lors de la mise en fourrière.",
+      "is_optional": null,
+      "territorial_scope": "La garantie est accordée en France métropolitaine.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Franchise indiquée dans les conditions particulières",
+      "conditions": [
+        "Vous bénéficiez de cette garantie si elle est mentionnée en tant que garantie souscrite dans vos conditions particulières.",
+        "Formule Économique : non disponible ; Élargie : incluse ; Protectrice : incluse",
+        "En cas de remorquage ou de mise en fourrière, fournir les factures justifiant les frais engagés",
+        "Demander notre accord lorsqu'il s'agit d'engager des frais de garage ou pour récupérer le véhicule* réparé",
+        "Prendre toute disposition nécessaire pour récupérer le véhicule* en fourrière, dès que vous avez connaissance du lieu du dépôt"
+      ],
+      "page": 22
+    },
+    {
+      "name": "10 - Insolvabilité du tiers responsable",
+      "description": "En cas de dommages matériels occasionnés au véhicule* par un tiers* responsable formellement identifié mais non assuré et insolvable, la Macif rembourse le montant de la franchise* resté à votre charge après son intervention au titre d'une garantie contractuelle (partie 2 « Dommages par accident et actes de vandalisme », partie 3 « Incendie, explosion, attentats et actes de terrorisme », partie 4 « Vol » ou partie 5 « Bris d'optiques de phare »).",
+      "is_optional": null,
+      "territorial_scope": "En France métropolitaine ainsi que dans les DROM (Guadeloupe, Guyane, Martinique, Mayotte, La Réunion) ; dans l'ensemble des territoires des États membres de l'Union européenne, ainsi qu'en Andorre, Bosnie-Herzégovine, Islande, Liechtenstein, Monaco, Monténégro, Norvège, Royaume-Uni, Saint-Marin, Serbie, Suisse, Vatican ; dans les autres pays mentionnés et non rayés sur la carte internationale d'assurance automobile (partie 19)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Vous bénéficiez de cette garantie si elle est mentionnée en tant que garantie souscrite dans vos conditions particulières.",
+        "Formule Économique : non disponible ; Élargie : incluse ; Protectrice : incluse",
+        "Le tiers* responsable doit être formellement identifié, non assuré et insolvable"
+      ],
+      "page": 23
+    },
+    {
+      "name": "11 - Équipement du motard",
+      "description": "Est garanti l'équipement du motard, spécialement conçu pour la pratique du deux-roues, c'est-à-dire les bottes, la combinaison, le pantalon, le blouson et la protection dorsale, en cas de dommages subis lors d'un événement garanti par les parties 2, 3, 5, 6, 7 ou 8 ; en cas de vol de cet équipement remisé dans le top-case, le coffre ou les sacoches rigides fixés au véhicule* et verrouillés, lorsque ce vol est commis en même temps que celui du véhicule* dans les circonstances garanties à la partie 4 « Vol » ; et en cas de vol isolé* ou de tentative de vol isolé* de cet équipement remisé dans le top-case, le coffre ou les sacoches rigides fixés au véhicule* et verrouillés, les dommages dus à l'effraction subis par le top-case, le coffre ou les sacoches rigides à cette occasion étant également garantis.",
+      "is_optional": null,
+      "territorial_scope": "En France métropolitaine ainsi que dans les DROM (Guadeloupe, Guyane, Martinique, Mayotte, La Réunion) ; dans l'ensemble des territoires des États membres de l'Union européenne, ainsi qu'en Andorre, Bosnie-Herzégovine, Islande, Liechtenstein, Monaco, Monténégro, Norvège, Royaume-Uni, Saint-Marin, Serbie, Suisse, Vatican ; dans les autres pays mentionnés et non rayés sur la carte internationale d'assurance automobile (partie 19)",
+      "limits": "Dommages partiels : coût des réparations dans la limite de la valeur de remplacement vétusté* déduite. Destruction totale ou vol : valeur de remplacement vétusté* de 10 % par an déduite, avec un maximum de 50 %, et dans la limite des plafonds indiqués dans les conditions particulières.",
+      "sub_limits": [
+        "Vétusté de 10 % par an déduite, avec un maximum de 50 %",
+        "dans la limite des plafonds indiqués dans les conditions particulières"
+      ],
+      "deductible": "Franchise indiquée dans les conditions particulières",
+      "conditions": [
+        "Vous bénéficiez de cette garantie si elle est mentionnée en tant que garantie souscrite dans vos conditions particulières.",
+        "Formule Économique : non disponible ; Élargie : incluse ; Protectrice : incluse",
+        "En cas de vol isolé* ou tentative de vol isolé*, cette indemnisation ne peut intervenir qu'une seule fois par année* d'assurance",
+        "Les exclusions spécifiques à chaque événement garanti* s'appliquent"
+      ],
+      "page": 23
+    },
+    {
+      "name": "12 - Accessoires",
+      "description": "Sont garantis les accessoires, c'est-à-dire les équipements moto fixés au véhicule* qui n'entrent pas dans la définition de celui-ci (exemples : les jantes, le pot d'échappement, les sacoches souples, le saute-vent, les poignées chauffantes, achetés chez un accessoiriste, la selle réalisée par un sellier-garnisseur, la peinture personnalisée), en cas de dommages subis lors d'un événement garanti*, et en cas de vol isolé* ou tentative de vol isolé* de ces accessoires.",
+      "is_optional": true,
+      "territorial_scope": "En France métropolitaine ainsi que dans les DROM (Guadeloupe, Guyane, Martinique, Mayotte, La Réunion) ; dans l'ensemble des territoires des États membres de l'Union européenne, ainsi qu'en Andorre, Bosnie-Herzégovine, Islande, Liechtenstein, Monaco, Monténégro, Norvège, Royaume-Uni, Saint-Marin, Serbie, Suisse, Vatican ; dans les autres pays mentionnés et non rayés sur la carte internationale d'assurance automobile (partie 19)",
+      "limits": "Dommages partiels : coût des réparations dans la limite de la valeur de remplacement vétusté* déduite. Destruction totale ou vol : valeur de remplacement vétusté* déduite, et dans la limite des plafonds indiqués dans les conditions particulières.",
+      "sub_limits": [
+        "dans la limite des plafonds indiqués dans les conditions particulières"
+      ],
+      "deductible": "Franchise indiquée dans les conditions particulières",
+      "conditions": [
+        "Vous bénéficiez de cette garantie si elle est mentionnée en tant que garantie souscrite dans vos conditions particulières.",
+        "Formule Économique : non disponible ; Élargie : en option ; Protectrice : en option",
+        "Les exclusions spécifiques à chaque événement garanti* s'appliquent"
+      ],
+      "page": 24
+    },
+    {
+      "name": "13 - Véhicule de prêt",
+      "description": "Est garantie la mise à disposition d'un véhicule de prêt en cas d'indisponibilité prolongée de votre propre véhicule* consécutive à un événement accidentel, un vol ou une panne. La garantie est mise en jeu lorsqu'il est nécessaire d'immobiliser le véhicule* plus de 24 heures pour réparation par un professionnel et lorsque la durée de ces réparations excède 3 heures de main d'œuvre (barème constructeur), ou en cas de vol du véhicule*. Le véhicule de prêt est un véhicule de location deux-roues équivalent au véhicule* assuré sous réserve de disponibilité dans un rayon de 50 km, ou un véhicule de catégorie B. La garantie « Véhicule de prêt » est un service Macif Assistance.",
+      "is_optional": true,
+      "territorial_scope": "En France métropolitaine ainsi que dans les DROM (Guadeloupe, Guyane, Martinique, Mayotte, La Réunion) ; dans l'ensemble des territoires des États membres de l'Union européenne, ainsi qu'en Andorre, Bosnie-Herzégovine, Islande, Liechtenstein, Monaco, Monténégro, Norvège, Royaume-Uni, Saint-Marin, Serbie, Suisse, Vatican ; dans les autres pays mentionnés et non rayés sur la carte internationale d'assurance automobile (partie 19)",
+      "limits": "Durée maximale de mise à disposition : 15 jours consécutifs en cas d'événement accidentel (sauf vol total), 30 jours consécutifs en cas de vol total, 7 jours consécutifs en cas de panne. Si exceptionnellement Macif Assistance n'est pas en mesure de mettre en œuvre la garantie, une indemnité forfaitaire de 40 € par jour est versée jusqu'à la mise à disposition d'un véhicule.",
+      "sub_limits": [
+        "15 jours consécutifs en cas d'événement accidentel (sauf vol total)",
+        "30 jours consécutifs en cas de vol total",
+        "7 jours consécutifs en cas de panne",
+        "Indemnité forfaitaire de substitution : 40 € par jour"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Vous bénéficiez de cette garantie si elle est mentionnée en tant que garantie souscrite dans vos conditions particulières.",
+        "Formule Économique : en option ; Élargie : en option ; Protectrice : en option",
+        "La garantie ne concerne pas les véhicules* dont la vitesse maximale ne dépasse pas 45 km/h et équipés d'un moteur d'une puissance inférieure ou égale à 4 kW, et, s'il est à combustion interne, d'une cylindrée ne dépassant pas 50 cm cubes",
+        "Respecter les conditions générales édictées par les sociétés de location de véhicules : notamment être âgé d'au moins 21 ans, être titulaire d'un permis de conduire valide depuis plus de 1 an, verser la caution demandée",
+        "Le véhicule de prêt doit être restitué à l'agence de location qui l'a fourni",
+        "En cas de panne couverte au titre d'une garantie légale constructeur, Macif Assistance intervient en complément des prestations d'assistance dues par le constructeur"
+      ],
+      "page": 24
+    },
+    {
+      "name": "14 - Assistance générale",
+      "description": "Garantie d'assistance au véhicule et aux personnes transportées. Tout assuré* voyageant à bord du véhicule* peut bénéficier des garanties à l'occasion d'un déplacement garanti et pour un événement directement lié à l'utilisation dudit véhicule* : accident corporel, décès du conducteur et/ou de ses passagers ; accident du véhicule*, incendie, vol, tentative de vol ou acte de vandalisme, panne, vol ou perte des clés, rendant impossible l'utilisation du véhicule*. L'assistance au véhicule joue en cas d'accident, incendie, vol, tentative de vol ou acte de vandalisme, vol ou perte des clés immobilisant le véhicule*, sans franchise kilométrique ; en cas de panne (exemples : panne mécanique ou électronique, panne de carburant ou d'énergie électrique, crevaison d'une roue), lorsque cette panne survient à plus de 50 km de votre domicile.",
+      "is_optional": false,
+      "territorial_scope": "Dans les pays dans lesquels s'appliquent les garanties d'assurance couvrant le véhicule* (partie 19) et dans les limites suivantes : en France métropolitaine, Andorre, Monaco et DROM quels que soient la durée et le motif du déplacement ; dans les autres territoires et pays couverts, à l'occasion d'un déplacement à but touristique, humanitaire, d'études universitaires, de stages effectués dans le cadre de ces études ou de séjours au pair, d'une durée maximale de 1 an, ainsi que dans le cadre d'un déplacement professionnel d'une durée inférieure à 3 mois",
+      "limits": "Dans la limite des éventuels montants figurant aux parties 14 à 15.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Vous bénéficiez de cette garantie si elle est mentionnée en tant que garantie souscrite dans vos conditions particulières.",
+        "Formule Économique : incluse ; Élargie : incluse ; Protectrice : incluse",
+        "L'assuré* doit demander l'accord de Macif Assistance avant d'engager des frais",
+        "Les prestations sont mises en œuvre par les entités du groupe IMA, INTER MUTUELLES ASSISTANCE",
+        "Les frais de réparation du véhicule* (pièces et main d'œuvre) et le carburant sont à la charge de l'assuré*",
+        "Les garanties d'assistance aux personnes transportées blessées sont acquises en cas d'accident corporel survenu à plus de 50 km du domicile de l'assuré* dès lors qu'une assistance au véhicule* a été mise en œuvre"
+      ],
+      "page": 26
+    },
+    {
+      "name": "14.1.1 - Dépannage ou remorquage du véhicule (Assistance générale)",
+      "description": "Macif Assistance organise et prend en charge le dépannage du véhicule* ou, en cas d'impossibilité, son remorquage jusqu'au garage le plus proche. Si la réparation est impossible dans de bonnes conditions de délai et/ou de qualité dans le garage proche de l'événement : remorquage, depuis ce garage, jusqu'à un garage qualifié apte à le faire.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "à concurrence de 180 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Prestation de la garantie 14 - Assistance générale",
+        "En cas d'immobilisation du véhicule*"
+      ],
+      "page": 27
+    },
+    {
+      "name": "14.1.1 - Frais d'hébergement des personnes transportées (Assistance générale)",
+      "description": "Macif Assistance organise et prend en charge les frais d'hébergement des personnes transportées par le véhicule* attendant sur place la réparation du véhicule* immobilisé, ou le rapatriement à leur domicile.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "à concurrence de 50 € par jour et par personne dans la limite de 5 jours",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Prestation de la garantie 14 - Assistance générale",
+        "En cas d'immobilisation du véhicule*"
+      ],
+      "page": 27
+    },
+    {
+      "name": "14.1.1 - Envoi de pièces détachées et rapatriement du véhicule à l'étranger (Assistance générale)",
+      "description": "À l'étranger : Macif Assistance organise et prend en charge l'envoi de pièces détachées indisponibles sur place et nécessaires à la réparation du véhicule*. Si le véhicule* est jugé irréparable sur place mais réparable en France dans les limites de sa valeur de remplacement*, Macif Assistance organise et prend en charge le rapatriement du véhicule* et, dans l'attente, prend en charge le gardiennage.",
+      "is_optional": false,
+      "territorial_scope": "À l'étranger",
+      "limits": "dans les limites de la valeur de remplacement* du véhicule*",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Prestation de la garantie 14 - Assistance générale",
+        "En cas d'immobilisation du véhicule*"
+      ],
+      "page": 27
+    },
+    {
+      "name": "14.1.1 - Récupération du véhicule réparé (Assistance générale)",
+      "description": "Lorsque le véhicule* est réparé, Macif Assistance organise et prend en charge : le transport aller simple entre votre domicile (ou votre lieu de séjour si distance inférieure ou équivalente) et le lieu d'immobilisation du véhicule*, soit en train première classe, soit en avion classe économique si le trajet en train est supérieur à 8 heures (les taxis de liaison sont également pris en charge) ; ou les frais de carburant et de péage du voyage en véhicule, sur présentation des justificatifs des frais engagés et de la copie du certificat d'immatriculation du véhicule utilisé ; ou un taxi à la double condition de l'impossibilité de mise en œuvre d'un des moyens de transport précédents et d'une distance à parcourir inférieure à 100 km ; ou les frais de covoiturage sur présentation des justificatifs de paiement de la plateforme de covoiturage.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Prestation de la garantie 14 - Assistance générale",
+        "Taxi : seulement si les autres moyens sont impossibles et si la distance à parcourir est inférieure à 100 km"
+      ],
+      "page": 27
+    },
+    {
+      "name": "14.1.1 - Prise en charge des remorques (Assistance générale)",
+      "description": "En cas d'immobilisation ou de vol du véhicule* tracteur, Macif Assistance organise et prend en charge la conduite du véhicule tracté dans un camping ou dans un lieu de gardiennage situé à proximité, ainsi que les éventuels frais de gardiennage. Si cette immobilisation dure plus de 3 jours, Macif Assistance organise et prend en charge le rapatriement du véhicule tracté, avec tous les bagages qu'il contient, à votre domicile, ou, au choix de l'assuré* et dans la limite du coût de ce rapatriement, la conduite au lieu de destination de l'assuré*.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Prestation de la garantie 14 - Assistance générale",
+        "Lorsque ce transport est effectué hors de la présence de l'assuré*, les denrées périssables et les objets fragiles ou de valeur devront être retirés du véhicule tracté ; avant prise en charge, une liste des objets transportés devra être remise à Macif Assistance"
+      ],
+      "page": 27
+    },
+    {
+      "name": "14.1.2 - Envoi d'un chauffeur (Assistance générale)",
+      "description": "En cas d'indisponibilité du conducteur du véhicule* blessé ou malade, Macif Assistance organise et prend en charge le déplacement d'un chauffeur pour rapatrier le véhicule* à votre domicile s'il n'y a pas d'autre conducteur apte à le faire.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Prestation de la garantie 14 - Assistance générale",
+        "S'il n'y a pas d'autre conducteur apte à le faire"
+      ],
+      "page": 28
+    },
+    {
+      "name": "14.2.1 - Rapatriement sanitaire (Assistance générale)",
+      "description": "Macif Assistance organise et prend en charge le rapatriement sanitaire du blessé (sur avis du corps médical et en cas de nécessité médicalement établie) à son domicile ou dans un hôpital adapté proche de son domicile, avec, dans la mesure du possible, un accompagnant.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Prestation de la garantie 14 - Assistance générale",
+        "Sur avis du corps médical et en cas de nécessité médicalement établie",
+        "Acquise en cas d'accident corporel survenu à plus de 50 km du domicile de l'assuré* dès lors qu'une assistance au véhicule* a été mise en œuvre"
+      ],
+      "page": 28
+    },
+    {
+      "name": "14.2.1 - Attente sur place d'un accompagnant (Assistance générale)",
+      "description": "Macif Assistance prend en charge les frais d'hébergement d'une personne attendant sur place le rapatriement lorsque le blessé, non transportable, doit rester hospitalisé au-delà de la date initialement prévue pour son retour.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "à concurrence de 50 € par jour dans la limite de 7 jours",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Prestation de la garantie 14 - Assistance générale"
+      ],
+      "page": 28
+    },
+    {
+      "name": "14.2.1 - Voyage aller-retour et hébergement d'un proche (Assistance générale)",
+      "description": "Macif Assistance organise et prend en charge le transport aller-retour d'un proche en cas d'hospitalisation de plus de 7 jours du blessé (cette durée minimale n'existe pas pour les mineurs de moins de 15 ans) et participe à ses frais d'hébergement.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "participation aux frais d'hébergement à concurrence de 50 € par jour dans la limite de 7 jours",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Prestation de la garantie 14 - Assistance générale",
+        "Hospitalisation de plus de 7 jours du blessé ; cette durée minimale n'existe pas pour les mineurs de moins de 15 ans",
+        "En l'absence d'accompagnant sur place"
+      ],
+      "page": 28
+    },
+    {
+      "name": "14.2.1 - Frais médicaux et d'hospitalisation à l'étranger (Assistance générale)",
+      "description": "Sous réserve que le blessé soit assuré social en France, Macif Assistance prend en charge les frais médicaux et d'hospitalisation engagés sur place à l'étranger.",
+      "is_optional": false,
+      "territorial_scope": "À l'étranger",
+      "limits": "à concurrence de 80 000 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Prestation de la garantie 14 - Assistance générale",
+        "Sous réserve que le blessé soit assuré social en France",
+        "Les soins doivent avoir été prescrits en accord avec les médecins de Macif Assistance et seront limités à la période pendant laquelle ils jugeront le patient intransportable",
+        "Les frais pris en charge par les organismes sociaux français ont un caractère d'avance dans l'attente de leur remboursement ; l'assuré* s'engage à effectuer dès son retour en France toute démarche nécessaire au recouvrement, à transmettre les décomptes originaux et à reverser les sommes perçues à Macif Assistance",
+        "Ces dispositions ne sont pas applicables aux frais engagés dans les principautés d'Andorre et de Monaco lorsque les organismes sociaux dont relève l'assuré* ont conclu un accord avec ces pays et si l'assuré* est pris en charge dans les mêmes conditions qu'en France"
+      ],
+      "page": 28
+    },
+    {
+      "name": "14.2.1 - Recherche et expédition de médicaments et d'appareillages (Assistance générale)",
+      "description": "Macif Assistance organise et prend en charge l'expédition des médicaments (prescrits ou leurs équivalents) indispensables à la santé de l'assuré*, à défaut de pouvoir se les procurer sur le lieu de séjour, et dans la mesure où le délai d'acheminement est compatible avec la nature du problème. Macif Assistance organise et prend en charge, lorsque nécessaire, l'expédition de lunettes, lentilles de contact, appareillages médicaux et prothèses.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Prestation de la garantie 14 - Assistance générale",
+        "Le coût de ces médicaments et matériels reste à la charge de l'assuré*, Macif Assistance pouvant en avancer le montant si nécessaire"
+      ],
+      "page": 28
+    },
+    {
+      "name": "14.2.1 - Transport sanitaire des autres assurés (Assistance générale)",
+      "description": "Macif Assistance organise et prend en charge le retour des autres assurés* à leur domicile lorsque le transport sanitaire d'un assuré* blessé est décidé, si le moyen de retour prévu initialement ne peut être utilisé. En remplacement du retour au domicile et dans la limite du coût de cette mise en œuvre, les assurés* peuvent choisir l'acheminement vers leur lieu de destination.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "dans la limite du coût de la mise en œuvre du retour au domicile",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Prestation de la garantie 14 - Assistance générale"
+      ],
+      "page": 28
+    },
+    {
+      "name": "14.2.1 - Rapatriement des enfants de moins de 15 ans ou des personnes handicapées (Assistance générale)",
+      "description": "Macif Assistance organise et prend en charge le voyage aller et retour d'un proche, ou d'une personne habilitée par la famille, pour accompagner un enfant de moins de 15 ans ou une personne handicapée faisant l'objet d'un rapatriement. Lorsque le voyage d'un proche est impossible, Macif Assistance fait accompagner l'enfant ou la personne handicapée par une personne qualifiée.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Prestation de la garantie 14 - Assistance générale"
+      ],
+      "page": 28
+    },
+    {
+      "name": "14.2.2 - Transport du corps en cas de décès d'un assuré (Assistance générale)",
+      "description": "En cas de décès d'un assuré*, Macif Assistance organise et prend en charge le transport du corps jusqu'au lieu des obsèques, d'inhumation ou de crémation en France métropolitaine, Andorre, Monaco ou DROM (Guadeloupe, Guyane, Martinique, Mayotte, La Réunion).",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine, Andorre, Monaco ou DROM (Guadeloupe, Guyane, Martinique, Mayotte, La Réunion)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Prestation de la garantie 14 - Assistance générale"
+      ],
+      "page": 29
+    },
+    {
+      "name": "14.3 - Renseignements pratiques (Assistance générale)",
+      "description": "Macif Assistance peut communiquer des renseignements pratiques, de caractère général, relatifs à l'organisation des voyages (exemples : formalités administratives, liaisons téléphoniques, caractéristiques économiques et climatiques).",
+      "is_optional": false,
+      "territorial_scope": "En cas de voyage à l'étranger",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Prestation de la garantie 14 - Assistance générale - Services complémentaires et avances de fonds en cas de voyage à l'étranger"
+      ],
+      "page": 29
+    },
+    {
+      "name": "14.3 - Avance de fonds (Assistance générale)",
+      "description": "Macif Assistance peut, contre reconnaissance de dette, consentir à l'assuré* une avance de fonds, remboursable dans le délai maximal de 1 mois à compter du jour de l'avance, pour lui permettre de faire face à une dépense découlant d'une difficulté grave et de caractère imprévu.",
+      "is_optional": false,
+      "territorial_scope": "En cas de voyage à l'étranger",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Prestation de la garantie 14 - Assistance générale",
+        "Contre reconnaissance de dette",
+        "Remboursable dans le délai maximal de 1 mois à compter du jour de l'avance"
+      ],
+      "page": 29
+    },
+    {
+      "name": "14.3 - Frais de justice à l'étranger (Assistance générale)",
+      "description": "Macif Assistance avance les honoraires d'avocat et frais de justice que l'assuré* peut être amené à supporter à l'occasion d'une action en défense devant une juridiction étrangère, en cas d'événement garanti*.",
+      "is_optional": false,
+      "territorial_scope": "À l'étranger",
+      "limits": "dans la limite de 2 000 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Prestation de la garantie 14 - Assistance générale",
+        "Cette avance est remboursable dès le retour de l'assuré* à domicile, dans un délai de 1 mois"
+      ],
+      "page": 29
+    },
+    {
+      "name": "14.3 - Caution pénale à l'étranger (Assistance générale)",
+      "description": "Macif Assistance effectue le dépôt des cautions pénales ou douanières en cas d'incarcération de l'assuré* ou lorsque celui-ci est menacé de l'être.",
+      "is_optional": false,
+      "territorial_scope": "À l'étranger",
+      "limits": "dans la limite de 10 000 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Prestation de la garantie 14 - Assistance générale",
+        "Ce dépôt de caution a le caractère d'une avance ; il devra être intégralement remboursé à Macif Assistance dans un délai de 1 mois suivant son versement"
+      ],
+      "page": 29
+    },
+    {
+      "name": "14.3 - Vol, perte ou destruction de documents (Assistance générale)",
+      "description": "En cas de vol, de perte ou de destruction de papiers d'identité, de documents bancaires ou de titres de transport, Macif Assistance conseille l'assuré* sur les démarches à accomplir (exemples : dépôt de plainte, oppositions, documents équivalents, démarches à effectuer pour renouveler les documents) et peut, contre reconnaissance de dette, effectuer l'avance de fonds nécessaire au retour au domicile.",
+      "is_optional": false,
+      "territorial_scope": "En cas de voyage à l'étranger",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Prestation de la garantie 14 - Assistance générale",
+        "Contre reconnaissance de dette pour l'avance de fonds"
+      ],
+      "page": 29
+    },
+    {
+      "name": "15 - Assistance panne 0 km",
+      "description": "La garantie « Assistance panne 0 km » permet d'être dépanné même à son domicile. Les garanties « Assistance au véhicule » (partie 14.1) et « Assistance aux personnes transportées » (partie 14.2) sont accordées sans franchise kilométrique en cas de panne (exemples : panne mécanique ou électronique, panne de carburant ou d'énergie électrique, crevaison d'une roue du véhicule*). Pour les véhicules fonctionnant exclusivement au moyen de l'énergie électrique, en cas de panne d'énergie, l'assuré bénéficie également de l'envoi sur place d'un dépanneur pour remorquer le véhicule* vers son point de rechargement habituel dans la limite d'un rayon de 50 km autour du lieu de survenance de la panne, et de l'organisation et de la prise en charge des frais de déplacement du conducteur et des passagers, en taxi vers la destination de leur choix, dans la limite d'un rayon de 50 km autour du lieu de survenance de la panne. En cas de mise en fourrière du véhicule*, Macif Assistance organise l'acheminement du lieu d'enlèvement du véhicule*, ou à proximité, jusqu'à la fourrière et prend en charge les frais d'acheminement correspondants.",
+      "is_optional": true,
+      "territorial_scope": "En France métropolitaine ainsi que dans les DROM (Guadeloupe, Guyane, Martinique, Mayotte, La Réunion) ; dans l'ensemble des territoires des États membres de l'Union européenne, ainsi qu'en Andorre, Bosnie-Herzégovine, Islande, Liechtenstein, Monaco, Monténégro, Norvège, Royaume-Uni, Saint-Marin, Serbie, Suisse, Vatican ; dans les autres pays mentionnés et non rayés sur la carte internationale d'assurance automobile (partie 19)",
+      "limits": "Remorquage vers le point de rechargement habituel et déplacement en taxi : dans la limite d'un rayon de 50 km autour du lieu de survenance de la panne.",
+      "sub_limits": [
+        "Acheminement jusqu'à la fourrière : prestation accordée en France métropolitaine et limitée à une seule prise en charge par année* d'assurance"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Vous bénéficiez de cette garantie si elle est mentionnée en tant que garantie souscrite dans vos conditions particulières.",
+        "Formule Économique : en option ; Élargie : en option ; Protectrice : en option",
+        "La garantie ne concerne pas les véhicules* dont la vitesse maximale ne dépasse pas 45 km/h et équipés d'un moteur d'une puissance inférieure ou égale à 4 kW, et, s'il est à combustion interne, d'une cylindrée ne dépassant pas 50 cm cubes",
+        "Les frais de réparation du véhicule* (pièces et main d'œuvre) et le carburant sont à la charge de l'assuré*",
+        "L'assuré* doit demander l'accord de Macif Assistance avant d'engager des frais"
+      ],
+      "page": 29
+    },
+    {
+      "name": "16.1 - Défense",
+      "description": "La Macif assume à ses frais la défense de l'assuré*, tant à l'amiable que devant toute juridiction (exemples : juridiction civile, pénale, administrative), en raison d'une action susceptible de mettre en jeu la garantie « Responsabilité civile » (partie 1). La Macif assume la direction du procès et a le libre exercice des voies de recours, sauf en ce qui concerne la défense pénale (partie 16.4).",
+      "is_optional": false,
+      "territorial_scope": "Dans les pays indiqués dans la partie 19 « Territorialité des garanties ». Les garanties « Défense » et « Recours » ne sont jamais acquises en Albanie, Bosnie-Herzégovine, Moldavie, Monténégro, République de Macédoine du Nord, Serbie, Turquie et Ukraine.",
+      "limits": "Frais et honoraires, dans la limite des plafonds de remboursement par juridiction figurant au tableau de la partie 16.4 et sans pouvoir excéder 20 000 € au total par sinistre*. Montant global maximum TTC garanti par sinistre* des frais et honoraires de toute nature : 20 000 € avec application des sous-plafonds.",
+      "sub_limits": [
+        "Consultation juridique : 300 €",
+        "Assistance à une mesure d'instruction ou d'expertise matérielle/médicale : 350 €",
+        "Assistance à expertise judiciaire (dires consécutifs compris) : 400 €",
+        "Rédaction d'un dire sans assistance à expertise judiciaire : 250 €",
+        "Assistance à conciliation /médiation /procédure participative /Audience de Règlement Amiable (ARA) : 400 €",
+        "Déclaration de créance : 250 €",
+        "Juridiction statuant en référé (par ordonnance) : 500 €",
+        "Ordonnance/injonction du Président du tribunal judiciaire / 1er Président de la cour d'appel : 500 €",
+        "Incidents d'instance et demandes incidentes : 500 €",
+        "Juge de l'exécution (ordonnance) : 500 €",
+        "Juge de l'exécution (jugement) : 800 €",
+        "Honoraires de transaction (menée par un avocat avec protocole signé) : 900 €",
+        "Commission de Conciliation et d'Indemnisation (CCI) : 400 €",
+        "Office National d'Indemnisation des Accidents Médicaux (ONIAM) : 800 €",
+        "Commission d'Indemnisation des Victimes d'Infractions (CIVI)/Service d'Aide au Recouvrement des Victimes d'Infractions (SARVI) : 700 €",
+        "Honoraires d'intervention en phase amiable / Démarches amiables sans transaction : 400 €",
+        "Autre juridiction non expressément prévue : 600 €",
+        "Procédures civiles - Tribunal judiciaire/césure : 1 000 €",
+        "Procédures civiles - Tribunal de commerce : 1 000 €",
+        "Procédures civiles - Jugement du Président du tribunal judiciaire : 800 €",
+        "Procédures civiles - Appel d'une ordonnance de référé : 600 €",
+        "Procédures civiles - Cour d'appel : 1 200 €",
+        "Procédures civiles - Cour de cassation (consultation juridique comprise) : 2 000 €",
+        "Procédures administratives - Recours gracieux : 600 €",
+        "Procédures administratives - Tribunal administratif : 1 000 €",
+        "Procédures administratives - Cour administrative d'appel : 1 200 €",
+        "Procédures administratives - Conseil d'État (consultation juridique comprise) : 2 000 €",
+        "Procédures pénales - Tribunal correctionnel : 1 000 €",
+        "Procédures pénales - Tribunal pour enfants : 1 000 €",
+        "Procédures pénales - Tribunal de police : 700 €",
+        "Procédures pénales - Cour d'appel : 1 200 €",
+        "Procédures pénales - Médiation pénale : 600 €",
+        "Procédures pénales - Composition pénale/Comparution sur Reconnaissance Préalable de Culpabilité (CRPC) : 700 €",
+        "Procédures pénales - Rédaction d'une plainte avec constitution de partie civile : 300 €",
+        "Procédures pénales - Mesure d'instruction pénale (confrontation, audition, démarches auprès du parquet …) : 300 €",
+        "Procédures pénales - Cour d'assises (par affaire, instance d'appel comprise) : 4 500 €",
+        "Procédures pénales - Cour de cassation (consultation juridique comprise) : 2 000 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Vous bénéficiez de ces garanties si elles sont mentionnées en tant que garanties souscrites dans vos conditions particulières",
+        "Formule Économique : incluse ; Élargie : incluse ; Protectrice : incluse",
+        "L'assuré* a le libre choix de son avocat pour toute action en justice qui relève de la défense pénale ou de la garantie « Recours », y compris en phase amiable",
+        "L'assuré* doit communiquer l'intégralité des documents et pièces de procédure concernant son dossier",
+        "Ces montants s'appliquent, par assimilation, dans les pays étrangers où les garanties « Défense » et « Recours » sont acquises",
+        "En cas de désaccord sur les mesures à prendre, arbitrage possible par une tierce personne désignée d'un commun accord ou par le Président du tribunal judiciaire (partie 16.4.3)"
+      ],
+      "page": 31
+    },
+    {
+      "name": "16.2 - Recours",
+      "description": "La Macif exerce une réclamation auprès d'un tiers* responsable en vue d'obtenir la réparation du préjudice subi par l'assuré* et consécutif à un événement prévu au titre du contrat. Ce préjudice doit résulter des dommages matériels subis par le véhicule*, ses accessoires, les objets qui y sont transportés ainsi que par le casque*, les gants*, le gilet airbag* et l'équipement du motard ; ou des dommages corporels subis par l'assuré* et/ou par les passagers membres de sa famille, à savoir son conjoint ou concubin, ainsi que leurs ascendants et descendants et toute personne à leur charge. La Macif exerce en priorité un recours amiable ; à défaut d'un accord, elle intervient sur le plan judiciaire si le préjudice non indemnisé est supérieur à 762 €.",
+      "is_optional": false,
+      "territorial_scope": "Dans les pays indiqués dans la partie 19 « Territorialité des garanties ». Les garanties « Défense » et « Recours » ne sont jamais acquises en Albanie, Bosnie-Herzégovine, Moldavie, Monténégro, République de Macédoine du Nord, Serbie, Turquie et Ukraine.",
+      "limits": "Frais et honoraires, dans la limite des plafonds de remboursement par juridiction figurant au tableau de la partie 16.4 et sans pouvoir excéder 20 000 € au total par sinistre*.",
+      "sub_limits": [
+        "Seuil d'intervention judiciaire : préjudice non indemnisé supérieur à 762 €",
+        "Montant global maximum TTC garanti par sinistre* des frais et honoraires de toute nature : 20 000 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Vous bénéficiez de ces garanties si elles sont mentionnées en tant que garanties souscrites dans vos conditions particulières",
+        "Formule Économique : incluse ; Élargie : incluse ; Protectrice : incluse",
+        "Recours amiable exercé en priorité ; intervention judiciaire seulement si le préjudice non indemnisé est supérieur à 762 €",
+        "L'assuré* doit communiquer l'intégralité des documents et pièces de procédure concernant son dossier",
+        "Libre choix du défenseur par l'assuré*, y compris en phase amiable (partie 16.4.1)"
+      ],
+      "page": 32
+    },
+    {
+      "name": "Assistance constat amiable",
+      "description": "Quelle que soit la formule choisie, l'assuré bénéficie d'informations et de conseils pour la rédaction d'un constat amiable à la suite d'un accident matériel de la circulation. Cette assistance est apportée par le centre téléphonique Macif.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Quelle que soit la formule choisie"
+      ],
+      "page": 40
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Responsabilité civile - Les dommages subis par le conducteur du véhicule et par les salariés, préposés ou copréposés de l'assuré",
+      "description": "Ce qui est exclu : Les dommages subis par le conducteur du véhicule*, et, pendant leur service, par les salariés, préposés ou copréposés de l'assuré* responsable du sinistre* lorsque celui-ci est survenu sur une voie non ouverte à la circulation publique (toutefois cette exclusion ne s'applique pas aux recours que la Sécurité sociale peut être fondée à exercer contre l'assuré* pour les dommages causés à ces personnes suite à une faute intentionnelle du conducteur salarié de l'assuré*).",
+      "applies_to": "1 - Responsabilité civile",
+      "page": 14
+    },
+    {
+      "name": "Responsabilité civile - Les dommages subis par les passagers transportés dans des conditions de sécurité insuffisantes",
+      "description": "Ce qui est exclu : Les dommages subis par les passagers qui ne sont pas transportés dans les conditions suffisantes de sécurité telles que prévues par l'article A211-3 du Code des assurances.",
+      "applies_to": "1 - Responsabilité civile",
+      "page": 14
+    },
+    {
+      "name": "Responsabilité civile - Les dommages causés aux parties privatives des immeubles, choses ou animaux loués ou confiés au conducteur",
+      "description": "Ce qui est exclu : Les dommages causés par le véhicule* aux parties privatives des immeubles, choses ou animaux, loués ou confiés au conducteur ; toutefois les dégâts d'incendie ou d'explosion causés par le véhicule* à un immeuble loué ou confié à l'assuré* et dans lequel ce véhicule* est garé, sont garantis.",
+      "applies_to": "1 - Responsabilité civile",
+      "page": 14
+    },
+    {
+      "name": "Responsabilité civile - Les dommages causés aux objets transportés",
+      "description": "Ce qui est exclu : Les dommages causés aux objets transportés par le véhicule* à l'exception de la détérioration des vêtements des personnes transportées, conséquence d'un accident corporel.",
+      "applies_to": "1 - Responsabilité civile",
+      "page": 14
+    },
+    {
+      "name": "Responsabilité civile - Les dommages subis par les auteurs, coauteurs ou complices du vol du véhicule",
+      "description": "Ce qui est exclu : Les dommages subis par les auteurs, coauteurs ou complices du vol du véhicule*.",
+      "applies_to": "1 - Responsabilité civile",
+      "page": 14
+    },
+    {
+      "name": "Responsabilité civile - Exclusion liée à l'absence de permis de conduire",
+      "description": "La garantie « Responsabilité civile » n'est pas acquise lorsque, au moment du sinistre*, le conducteur du véhicule* n'a pas l'âge requis ou n'est pas titulaire des certificats en état de validité exigés par la réglementation en vigueur pour la conduite du véhicule*. Toutefois, cette exclusion ne s'applique pas en cas de vol, de violence ou d'utilisation du véhicule* à l'insu de l'assuré*, ni si le certificat déclaré à la Macif, lors de la souscription ou du renouvellement du contrat, n'est pas valide en raison du lieu ou de la durée de résidence de son titulaire, ou du non-respect des conditions restrictives d'utilisation portées sur le certificat autres que celles relatives à la catégorie du véhicule*.",
+      "applies_to": "1 - Responsabilité civile",
+      "page": 15
+    },
+    {
+      "name": "Dommages par accident - Les dommages survenus lors d'un tremblement de terre ou autre cataclysme",
+      "description": "Ce qui est exclu : Les dommages subis par le véhicule* lors d'un tremblement de terre ou autre cataclysme. Ils peuvent être garantis par la partie 7.",
+      "applies_to": "2 - Dommages par accident et actes de vandalisme",
+      "page": 16
+    },
+    {
+      "name": "Dommages par accident - Les dommages par la grêle, la tempête ou un autre événement climatique",
+      "description": "Ce qui est exclu : Les dommages subis par le véhicule* par les effets de la grêle, de la tempête ou d'un autre événement climatique prévu à la partie 6.",
+      "applies_to": "2 - Dommages par accident et actes de vandalisme",
+      "page": 16
+    },
+    {
+      "name": "Dommages par accident - Les dommages survenus lors de l'utilisation sur un circuit fermé ou sur un circuit de vitesse",
+      "description": "Ce qui est exclu : Les dommages subis par le véhicule* lors de son utilisation sur un circuit fermé ou sur un circuit de vitesse.",
+      "applies_to": "2 - Dommages par accident et actes de vandalisme",
+      "page": 16
+    },
+    {
+      "name": "Dommages par accident - Le vol et la tentative de vol",
+      "description": "Ce qui est exclu : Le vol et la tentative de vol. Ils peuvent être garantis par la partie 4.",
+      "applies_to": "2 - Dommages par accident et actes de vandalisme",
+      "page": 16
+    },
+    {
+      "name": "Dommages par accident - Les actes de vandalisme ou de malveillance commis par les préposés de l'assuré",
+      "description": "Ce qui est exclu : Les actes de vandalisme ou de malveillance commis directement ou avec leur complicité par les préposés de l'assuré* pendant leur service ou lorsque le véhicule* est laissé à leur disposition en dehors de leur temps de travail.",
+      "applies_to": "2 - Dommages par accident et actes de vandalisme",
+      "page": 16
+    },
+    {
+      "name": "Dommages par accident - Les actes de vandalisme ou de malveillance commis par les proches de l'assuré",
+      "description": "Ce qui est exclu : Les actes de vandalisme ou de malveillance commis directement ou avec leur complicité par les conjoint, concubin, ascendants et descendants de l'assuré* ainsi que par des personnes habitant sous son toit.",
+      "applies_to": "2 - Dommages par accident et actes de vandalisme",
+      "page": 16
+    },
+    {
+      "name": "Dommages par accident - Les dommages causés par un attentat, un acte de terrorisme, une émeute ou un mouvement populaire",
+      "description": "Ce qui est exclu : Les dommages causés par un attentat, un acte de terrorisme, une émeute ou un mouvement populaire. Ils peuvent être garantis par la partie 3.",
+      "applies_to": "2 - Dommages par accident et actes de vandalisme",
+      "page": 16
+    },
+    {
+      "name": "Dommages par accident - Les dommages résultant de l'utilisation du véhicule sans prise en compte des voyants d'alerte",
+      "description": "Ce qui est exclu : Les dommages résultant de l'utilisation du véhicule* par l'assuré* sans prise en compte des voyants d'alerte de dysfonctionnement du véhicule*.",
+      "applies_to": "2 - Dommages par accident et actes de vandalisme",
+      "page": 16
+    },
+    {
+      "name": "Dommages par accident - Exclusion liée à une infraction : absence de permis de conduire",
+      "description": "La garantie n'est pas acquise lorsque au moment du sinistre* le conducteur du véhicule* n'a pas l'âge requis ou n'est pas titulaire des certificats en état de validité exigés par la réglementation en vigueur pour la conduite du véhicule*.",
+      "applies_to": "2 - Dommages par accident et actes de vandalisme",
+      "page": 17
+    },
+    {
+      "name": "Dommages par accident - Exclusion liée à une infraction : état alcoolique",
+      "description": "La garantie n'est pas acquise lorsque au moment du sinistre* le conducteur du véhicule* se trouve sous l'empire d'un état alcoolique caractérisé par un taux d'alcoolémie supérieur à la limite fixée par le Code de la route ou se trouve en état d'ivresse manifeste constaté par les forces de l'ordre. Ces dispositions s'appliquent également lorsque l'infraction a été constatée à l'étranger conformément au droit du pays.",
+      "applies_to": "2 - Dommages par accident et actes de vandalisme",
+      "page": 17
+    },
+    {
+      "name": "Dommages par accident - Exclusion liée à une infraction : usage de stupéfiants",
+      "description": "La garantie n'est pas acquise lorsque il est établi, par un dépistage effectué dans les conditions fixées par le Code de la route, que le conducteur du véhicule* a fait usage de substances ou plantes classées comme stupéfiants par la réglementation en vigueur. Ces dispositions s'appliquent également lorsque l'infraction a été constatée à l'étranger conformément au droit du pays.",
+      "applies_to": "2 - Dommages par accident et actes de vandalisme",
+      "page": 17
+    },
+    {
+      "name": "Dommages par accident - Exclusion liée à une infraction : refus de dépistage",
+      "description": "La garantie n'est pas acquise lorsque le conducteur du véhicule* refuse de se soumettre aux épreuves de dépistage d'alcoolémie ou d'usage de substances ou plantes classées comme stupéfiants pratiquées par les forces de l'ordre après l'accident. Ces dispositions s'appliquent également lorsque l'infraction a été constatée à l'étranger conformément au droit du pays.",
+      "applies_to": "2 - Dommages par accident et actes de vandalisme",
+      "page": 17
+    },
+    {
+      "name": "Incendie, explosion, attentats et actes de terrorisme - Les dommages survenus lorsque l'incendie est consécutif à un événement relevant de la partie 2 ou à un vol",
+      "description": "Ce qui est exclu : Les dommages survenus lorsque l'incendie est consécutif à un événement qui relève de la partie 2, ou à un vol ou une tentative de vol du véhicule*. Ils peuvent être garantis par la partie 4.",
+      "applies_to": "3 - Incendie, explosion, attentats et actes de terrorisme",
+      "page": 17
+    },
+    {
+      "name": "Incendie, explosion, attentats et actes de terrorisme - Les dommages causés aux appareils électriques résultant de leur seul fonctionnement",
+      "description": "Ce qui est exclu : Les dommages causés aux appareils électriques et résultant de leur seul fonctionnement.",
+      "applies_to": "3 - Incendie, explosion, attentats et actes de terrorisme",
+      "page": 17
+    },
+    {
+      "name": "Vol - Le vol alors que le système de protection antivol exigé n'est pas en fonctionnement",
+      "description": "Ce qui est exclu : Le vol du véhicule* alors que le système de protection antivol exigé dans les conditions particulières (Disposition spéciale Mesures de protection - Conditions de la garantie Vol) n'est pas en fonctionnement.",
+      "applies_to": "4 - Vol",
+      "page": 18
+    },
+    {
+      "name": "Vol - Le vol alors qu'une clé est sur le véhicule ou dans le top-case, le coffre ou une sacoche",
+      "description": "Ce qui est exclu : Le vol du véhicule* alors qu'une clé du véhicule* est sur celui-ci ou à l'intérieur du top-case, du coffre, ou d'une sacoche, même fermé(e) à clé (sauf vol du véhicule* commis par effraction d'un garage privatif, clos et fermé à clé).",
+      "applies_to": "4 - Vol",
+      "page": 18
+    },
+    {
+      "name": "Vol - Le paiement du véhicule avec un règlement sans provision",
+      "description": "Ce qui est exclu : Le paiement du véhicule* avec un règlement sans provision.",
+      "applies_to": "4 - Vol",
+      "page": 18
+    },
+    {
+      "name": "Vol - Le vol commis par les préposés de l'assuré",
+      "description": "Ce qui est exclu : Le vol commis directement ou avec leur complicité par les préposés de l'assuré* pendant leur service ou lorsque le véhicule* est laissé à leur disposition en dehors de leur temps de travail.",
+      "applies_to": "4 - Vol",
+      "page": 18
+    },
+    {
+      "name": "Vol - Le vol commis par les proches de l'assuré",
+      "description": "Ce qui est exclu : Le vol commis directement ou avec leur complicité par les conjoint, concubin, ascendants et descendants de l'assuré* ainsi que par des personnes habitant sous son toit.",
+      "applies_to": "4 - Vol",
+      "page": 18
+    },
+    {
+      "name": "Vol - Les actes de vandalisme",
+      "description": "Ce qui est exclu : Les actes de vandalisme. Ils peuvent être garantis par la partie 2.",
+      "applies_to": "4 - Vol",
+      "page": 18
+    },
+    {
+      "name": "Vol - Garantie non acquise si l'expertise n'atteste pas d'effraction",
+      "description": "Si le véhicule* est retrouvé et que l'expertise atteste que le véhicule* n'a pas subi d'effraction, y compris électronique, de nature à permettre sa mise en route et sa circulation alors qu'il s'agit de la condition de garantie, la garantie « Vol » n'est pas acquise. Vous devrez alors nous rembourser l'indemnité déjà versée, moyennant restitution du véhicule* retrouvé.",
+      "applies_to": "4 - Vol",
+      "page": 19
+    },
+    {
+      "name": "Événements climatiques, tempête, grêle - Les dommages lors d'un tremblement de terre ou autre cataclysme",
+      "description": "Ce qui est exclu : Les dommages subis par le véhicule* lors d'un tremblement de terre ou autre cataclysme. Ils peuvent être garantis par la partie 7.",
+      "applies_to": "6 - Événements climatiques, tempête, grêle",
+      "page": 20
+    },
+    {
+      "name": "Véhicule de prêt - Le prêt d'un véhicule en cas d'indisponibilité consécutive à un dommage exclu",
+      "description": "Ce qui est exclu : Le prêt d'un véhicule en cas d'indisponibilité du véhicule* consécutive à un dommage mentionné dans la partie 18 « Exclusions communes à toutes les garanties ».",
+      "applies_to": "13 - Véhicule de prêt",
+      "page": 25
+    },
+    {
+      "name": "Véhicule de prêt - Les frais de carburant du véhicule prêté",
+      "description": "Ce qui est exclu : Les frais de carburant pour alimenter le véhicule prêté.",
+      "applies_to": "13 - Véhicule de prêt",
+      "page": 25
+    },
+    {
+      "name": "Véhicule de prêt - Les frais de location engagés de votre propre initiative ou au-delà de la prise en charge",
+      "description": "Ce qui est exclu : Les frais de location d'un véhicule engagés de votre propre initiative ou au-delà de la prise en charge de Macif Assistance.",
+      "applies_to": "13 - Véhicule de prêt",
+      "page": 25
+    },
+    {
+      "name": "Véhicule de prêt et Assistance panne 0 km - Véhicules de 45 km/h et moins",
+      "description": "La garantie « Véhicule de prêt » et la garantie « Assistance panne 0 km » ne concernent pas les véhicules* dont la vitesse maximale ne dépasse pas 45 km/h et équipés d'un moteur d'une puissance inférieure ou égale à 4 kW, et, s'il est à combustion interne, d'une cylindrée ne dépassant pas 50 cm cubes.",
+      "applies_to": "13 - Véhicule de prêt ; 15 - Assistance panne 0 km",
+      "page": 25
+    },
+    {
+      "name": "Assistance - Non-intervention en cas de force majeure ou d'événement politique",
+      "description": "Aucune responsabilité ne peut être recherchée si les prestations ne peuvent être mises en œuvre en raison d'un cas de force majeure ou d'une guerre civile ou étrangère, d'une révolution, d'un mouvement populaire, d'une émeute, d'une grève, d'une saisie ou contrainte par la force publique, d'une interdiction officielle, d'une piraterie, d'une explosion d'engin, d'effets nucléaires ou radioactifs, d'un empêchement climatique.",
+      "applies_to": "14 - Assistance générale",
+      "page": 26
+    },
+    {
+      "name": "Assistance - Non-substitution aux organismes locaux d'urgence",
+      "description": "Macif Assistance ne peut intervenir que dans la limite des accords donnés par les autorités locales, et ne peut en aucun cas se substituer aux organismes locaux d'urgence, ni prendre en charge les frais ainsi engagés.",
+      "applies_to": "14 - Assistance générale",
+      "page": 26
+    },
+    {
+      "name": "Assistance - Prestation consécutive à un crime ou un délit intentionnel",
+      "description": "Macif Assistance n'est pas tenue d'intervenir lorsque la prestation d'assistance est consécutive à la violation, par l'assuré*, des lois ou règlements, constituant un crime ou un délit intentionnel. (Partie 15 : Macif Assistance n'est pas tenue d'intervenir dans les cas où l'assuré* aurait commis de façon volontaire une infraction à la législation locale en vigueur.)",
+      "applies_to": "14 - Assistance générale ; 15 - Assistance panne 0 km",
+      "page": 26
+    },
+    {
+      "name": "Assistance - Dépenses qui auraient été engagées de toute façon",
+      "description": "Les dépenses qui auraient été engagées de toute façon, même en l'absence de l'événement considéré, sont à la charge de l'assuré*.",
+      "applies_to": "14 - Assistance générale ; 15 - Assistance panne 0 km",
+      "page": 26
+    },
+    {
+      "name": "Assistance - Caution pénale : atteinte volontaire à l'ordre public et infractions assimilées",
+      "description": "Cette garantie n'intervient pas en cas d'atteinte volontaire à l'ordre public, à la vie d'autrui ou à son intégrité physique, en cas de trafic de stupéfiants ou de drogues, de participation à des luttes ou rixes, de participation à des mouvements politiques, d'infraction à la législation douanière.",
+      "applies_to": "14.3 - Caution pénale à l'étranger (Assistance générale)",
+      "page": 29
+    },
+    {
+      "name": "Défense - Les amendes, condamnations pénales et peines de substitution",
+      "description": "Ce qui est exclu : Les amendes, condamnations pénales et toutes peines de substitution.",
+      "applies_to": "16.1 - Défense",
+      "page": 31
+    },
+    {
+      "name": "Défense - L'assistance devant la commission de suspension du permis de conduire",
+      "description": "Ce qui est exclu : L'assistance devant la commission de suspension du permis de conduire.",
+      "applies_to": "16.1 - Défense",
+      "page": 31
+    },
+    {
+      "name": "Défense - La défense pénale pour délit de fuite",
+      "description": "Ce qui est exclu : La défense pénale pour délit de fuite.",
+      "applies_to": "16.1 - Défense",
+      "page": 31
+    },
+    {
+      "name": "Défense et Recours - Exclusion commune : absence de permis de conduire",
+      "description": "Les garanties « Défense » et « Recours » ne sont pas acquises lorsque au moment du sinistre* le conducteur du véhicule* n'a pas l'âge requis ou n'est pas titulaire des certificats en état de validité exigés par la réglementation en vigueur pour la conduite du véhicule*. Toutefois, cette exclusion ne s'applique pas si le certificat déclaré à la Macif, lors de la souscription ou du renouvellement du contrat, n'est pas valide en raison du lieu ou de la durée de résidence de son titulaire, ou du non-respect des conditions restrictives d'utilisation portées sur le certificat autres que celles relatives à la catégorie du véhicule*.",
+      "applies_to": "16.1 - Défense ; 16.2 - Recours",
+      "page": 32
+    },
+    {
+      "name": "Défense et Recours - Exclusion commune : état alcoolique",
+      "description": "Les garanties « Défense » et « Recours » ne sont pas acquises lorsque au moment du sinistre* le conducteur du véhicule* se trouve sous l'empire d'un état alcoolique caractérisé par un taux d'alcoolémie supérieur à la limite fixée par le Code de la route ou se trouve en état d'ivresse manifeste constaté par les forces de l'ordre.",
+      "applies_to": "16.1 - Défense ; 16.2 - Recours",
+      "page": 32
+    },
+    {
+      "name": "Défense et Recours - Exclusion commune : usage de stupéfiants",
+      "description": "Les garanties « Défense » et « Recours » ne sont pas acquises lorsqu'il est établi, par un dépistage effectué dans les conditions fixées par le Code de la route, que le conducteur du véhicule* a fait usage de substances ou plantes classées comme stupéfiants par la réglementation en vigueur.",
+      "applies_to": "16.1 - Défense ; 16.2 - Recours",
+      "page": 32
+    },
+    {
+      "name": "Défense et Recours - Exclusion commune : refus de dépistage",
+      "description": "Les garanties « Défense » et « Recours » ne sont pas acquises lorsque le conducteur du véhicule* refuse de se soumettre aux épreuves de dépistage d'alcoolémie ou d'usage de substances ou plantes classées comme stupéfiants pratiquées par les forces de l'ordre après l'accident. Ces dispositions s'appliquent également lorsque l'infraction a été constatée à l'étranger conformément au droit du pays.",
+      "applies_to": "16.1 - Défense ; 16.2 - Recours",
+      "page": 32
+    },
+    {
+      "name": "Défense et Recours - Frais et honoraires engagés avant la déclaration de sinistre",
+      "description": "Ce qui est exclu : Les frais et honoraires correspondant à des consultations ou des actes de procédure engagés antérieurement à la déclaration de sinistre* sont exclus, sauf si l'assuré* peut justifier d'une urgence à les avoir engagés. Dans ce cas, ces frais et honoraires seront pris en charge dans les limites indiquées à la partie 16.5 « Montants maximums garantis ».",
+      "applies_to": "16.1 - Défense ; 16.2 - Recours",
+      "page": 33
+    },
+    {
+      "name": "Défense et Recours - Les honoraires de résultat de l'avocat",
+      "description": "Ce qui est exclu : Les honoraires de résultat de l'avocat.",
+      "applies_to": "16.1 - Défense ; 16.2 - Recours",
+      "page": 35
+    },
+    {
+      "name": "Défense et Recours - Territoires où les garanties ne sont jamais acquises",
+      "description": "Les garanties « Défense » (partie 16.1) et « Recours » (partie 16.2) ne sont jamais acquises en Albanie, Bosnie-Herzégovine, Moldavie, Monténégro, République de Macédoine du Nord, Serbie, Turquie et Ukraine.",
+      "applies_to": "16.1 - Défense ; 16.2 - Recours",
+      "page": 39
+    },
+    {
+      "name": "Exclusion commune - Faute intentionnelle ou dolosive de l'assuré",
+      "description": "Ne sont jamais garantis : Les dommages résultant d'une faute intentionnelle de l'assuré* (c'est-à-dire commise avec la volonté de causer ces dommages tels qu'ils sont survenus), ou d'une faute dolosive de l'assuré* (c'est-à-dire commise en ayant conscience que ces dommages allaient inévitablement survenir).",
+      "applies_to": "all",
+      "page": 38
+    },
+    {
+      "name": "Exclusion commune - Armes et engins nucléaires, combustible nucléaire, rayonnements ionisants",
+      "description": "Ne sont jamais garantis : Les dommages ou l'aggravation des dommages causés par des armes ou engins destinés à exploser par modification de structure du noyau de l'atome ou par tout combustible nucléaire, produit ou déchet radioactif ou par toute autre source de rayonnements ionisants et qui engagent la responsabilité exclusive d'un exploitant d'installation nucléaire.",
+      "applies_to": "all",
+      "page": 38
+    },
+    {
+      "name": "Exclusion commune - Guerre étrangère ou civile, émeutes ou mouvements populaires",
+      "description": "Ne sont jamais garantis : Les dommages occasionnés par la guerre étrangère ou civile, par des émeutes ou mouvements populaires (sauf application de la partie 3 pour les attentats et actes de terrorisme).",
+      "applies_to": "all",
+      "page": 38
+    },
+    {
+      "name": "Exclusion commune - Dommages causés aux marchandises transportées",
+      "description": "Ne sont jamais garantis : Les dommages causés aux marchandises transportées par le véhicule*.",
+      "applies_to": "all",
+      "page": 38
+    },
+    {
+      "name": "Exclusion commune - Épreuves, courses ou compétitions soumises à autorisation préalable",
+      "description": "Ne sont jamais garantis : Les dommages survenus au cours d'épreuves, courses ou compétitions (ou leurs essais), soumises par la réglementation en vigueur à l'autorisation préalable des pouvoirs publics lorsque l'assuré* participe en tant que concurrent, organisateur ou préposé de l'un d'eux. Cette exclusion ne dispense pas de l'obligation d'assurance ; un contrat spécifique doit être souscrit.",
+      "applies_to": "all",
+      "page": 38
+    },
+    {
+      "name": "Exclusion commune - Transport de sources de rayonnements ionisants",
+      "description": "Ne sont jamais garantis : Les dommages causés ou subis par le véhicule* lorsqu'il transporte des sources de rayonnements ionisants destinées à être utilisées hors d'une installation nucléaire, dès lors que ces sources ont provoqué ou aggravé le sinistre*. Cette exclusion ne dispense pas de l'obligation d'assurance ; un contrat spécifique doit être souscrit.",
+      "applies_to": "all",
+      "page": 38
+    },
+    {
+      "name": "Exclusion commune - Transport de matières inflammables, explosives, corrosives ou comburantes",
+      "description": "Ne sont jamais garantis : Les dommages causés ou subis par le véhicule* lorsqu'il transporte des matières inflammables, explosives, corrosives ou comburantes et à l'occasion desquels ces matières ont provoqué ou aggravé le sinistre* (sauf disposition contraire prévue dans les conditions particulières ou transports d'huiles, d'essences minérales ou de produits similaires, ne dépassant pas 500 kg ou 600 litres, y compris l'approvisionnement de carburant liquide ou gazeux nécessaire au moteur). Cette exclusion ne dispense pas de l'obligation d'assurance ; un contrat spécifique doit être souscrit.",
+      "applies_to": "all",
+      "page": 38
+    },
+    {
+      "name": "Perte de garantie - Fausse déclaration sur le sinistre",
+      "description": "Toute fausse déclaration sur la nature, les causes, les circonstances ou les conséquences du sinistre*, ainsi que toute utilisation de moyens frauduleux ou de documents inexacts, prive l'assuré* de tout droit à garantie pour ce sinistre* si sa mauvaise foi est établie, et l'expose à des poursuites pénales.",
+      "applies_to": "all",
+      "page": 42
+    },
+    {
+      "name": "Perte de garantie - Non-respect des délais de déclaration du sinistre",
+      "description": "En cas de non-respect des délais de déclaration du sinistre*, et si cette omission ou ce retard nous a causé un préjudice, l'assuré* peut perdre le bénéfice des garanties de ce contrat pour ce sinistre*. Pour les risques relevant des dispositions particulières aux départements du Bas-Rhin, du Haut-Rhin et de la Moselle visés à l'article L191-2 du Code des assurances, l'assuré* n'encourt ces sanctions qu'en cas de faute lourde ou d'inexécution intentionnelle de sa part.",
+      "applies_to": "all",
+      "page": 42
+    },
+    {
+      "name": "Perte de garantie - Réparation ou remplacement réalisé sans accord préalable",
+      "description": "La réparation ou le remplacement réalisé sans notre accord préalable vous fait perdre le bénéfice des garanties.",
+      "applies_to": "all",
+      "page": 42
+    },
+    {
+      "name": "Non-garantie - Véhicule assuré par l'employeur",
+      "description": "Le véhicule* est assuré par l'employeur pour tous les déplacements professionnels. Dans le cadre d'une utilisation professionnelle, c'est l'assureur de l'employeur de l'assuré* qui prend en charge les conséquences du sinistre*, notre garantie étant alors exclue.",
+      "applies_to": "all",
+      "page": 50
+    },
+    {
+      "name": "Non-garantie - Modification de la puissance, de la vitesse ou de la cylindrée d'un cyclomoteur",
+      "description": "Vous avez assuré un cyclomoteur : ne modifiez en aucun cas la puissance, la vitesse ou la cylindrée du véhicule* (à l'aide d'un kit de gonflage, d'une modification de l'échappement ou du carburateur…). De tels dispositifs sont légalement interdits. Au terme de votre contrat d'assurance vous encourez une non garantie en cas de sinistre*.",
+      "applies_to": "all",
+      "page": 48
+    },
+    {
+      "name": "Non-garantie - Débridage d'une motocyclette non déclaré",
+      "description": "Si vous avez assuré une motocyclette équipée d'un système de freinage antiblocage de roues (ABS), le débridage de celle-ci peut être effectué dans les conditions fixées par l'arrêté du 13 avril 2016. Dans ce cas, vous devez nous le déclarer en fournissant le nouveau certificat d'immatriculation du véhicule* transformé, et éventuellement le permis de conduire du conducteur principal*. Si ces obligations ne sont pas respectées, vous encourez une non garantie en cas de sinistre*.",
+      "applies_to": "all",
+      "page": 48
+    },
+    {
+      "name": "Non-qualité d'assuré - Professionnels à qui le véhicule est confié",
+      "description": "N'ont pas la qualité d'assuré, les personnes à qui le véhicule* est confié en raison de leurs fonctions : garagistes, personnes pratiquant la vente, le courtage, la réparation, le dépannage ou assurant le contrôle de son bon fonctionnement ainsi que leurs préposés.",
+      "applies_to": "all",
+      "page": 61
+    }
+  ],
+  "deductibles": {
+    "standard": "Le montant de la franchise* appliquée en cas de sinistre* est mentionné dans vos conditions particulières. Franchise : montant déduit de l'indemnité et restant à la charge de l'assuré*.",
+    "variable": "Franchise supplémentaire « prêt de guidon » (partie 30.1) : lorsque le véhicule* est prêté à un conducteur non désigné au contrat et que celui-ci est responsable de l'accident, une franchise spécifique, dont le montant est indiqué dans les conditions particulières, s'applique sur la totalité des indemnités responsabilité civile et dommages par accident. Elle s'applique en priorité sur la garantie « Dommages par accident et actes de vandalisme » lorsqu'elle est mise en jeu et à défaut, ou en complément, sur la garantie « Responsabilité civile ». Elle s'ajoute à la franchise* normale. Elle s'applique totalement ou partiellement selon la part de responsabilité du conducteur. Elle ne s'applique pas si le conducteur, au moment de l'accident, est le souscripteur* ou son conjoint, ni si le véhicule* est un cyclomoteur conduit au moment de l'accident par un autre membre de la famille du souscripteur*, vivant sous le même toit.",
+    "per_coverage": {
+      "7 - Catastrophes naturelles": "Franchise* légale : 380 € pour chaque véhicule endommagé. Toutefois, pour les véhicules terrestres à moteur à usage professionnel, la franchise* prévue par le contrat sera appliquée si celle-ci est supérieure. En cas de modification par arrêté ministériel, ces montants seront réputés modifiés dès l'entrée en vigueur de cet arrêté. L'assuré s'interdit de contracter une assurance pour la portion du risque constituée par la franchise*.",
+      "10 - Insolvabilité du tiers responsable": "Remboursement du montant de la franchise* resté à la charge de l'assuré après intervention au titre des parties 2, 3, 4 ou 5, lorsque le tiers* responsable est formellement identifié mais non assuré et insolvable"
+    },
+    "page": 37
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Déclarations à la souscription du contrat",
+      "description": "Vos déclarations constituent les bases de notre accord, ce qui signifie qu'elles doivent être complètes, précises et sincères. Vous devez répondre de manière exacte à toutes les questions posées lors de la souscription du contrat. Ces questions concernent notamment les caractéristiques et l'usage du véhicule à assurer et vos antécédents d'assurance.",
+      "timing": "À la souscription du contrat",
+      "sanction": "Toute fausse déclaration intentionnelle, omission ou déclaration inexacte des circonstances du risque entraîne l'application des sanctions prévues par le Code des assurances : la réduction* des indemnités dues en cas de sinistre* si vous êtes de bonne foi (article L113-9), la nullité* du contrat si votre mauvaise foi est établie (article L113-8).",
+      "page": 47
+    },
+    {
+      "name": "Déclarations en cours de contrat",
+      "description": "Vous devez nous déclarer dans les 15 jours, à partir du moment où vous en avez eu connaissance, tous les changements qui modifient les renseignements que vous nous avez fournis lors de la souscription (exemples : usage du véhicule*, conducteur principal*, lieu de stationnement). Cette déclaration doit nous être adressée par lettre recommandée ou par envoi recommandé électronique. Suite à votre déclaration, nous pourrons soit résilier votre contrat, soit vous proposer un nouveau montant de cotisation.",
+      "timing": "En cours de contrat - dans les 15 jours à partir du moment où vous en avez eu connaissance",
+      "sanction": "Réduction* des indemnités en cas de bonne foi (article L113-9) ; nullité* du contrat si la mauvaise foi est établie (article L113-8)",
+      "page": 47
+    },
+    {
+      "name": "Déclarer l'usage du véhicule",
+      "description": "Vous devez nous déclarer l'usage fait du véhicule*, tant au moment de la souscription ou de la modification du contrat, qu'à l'occasion d'un changement d'utilisation en cours de contrat (exemple : changement d'activité professionnelle). Les utilisations prévues sont : usage uniquement privé (29.1) ; usage privé - trajet/travail - déplacements professionnels ponctuels (29.2) ; usage privé - déplacements professionnels réguliers (29.3).",
+      "timing": "À la souscription, à la modification et lors d'un changement d'utilisation",
+      "sanction": "Toute fausse déclaration intentionnelle, omission ou déclaration inexacte des circonstances du risque entraîne la réduction* des indemnités (article L113-9) ou la nullité* du contrat (article L113-8)",
+      "page": 48
+    },
+    {
+      "name": "Informer du transfert de propriété du véhicule",
+      "description": "En cas de transfert de propriété du véhicule* : vous devez nous informer immédiatement de la date de cession du véhicule*. Le contrat est suspendu automatiquement à partir du lendemain à 0 heure du jour de la cession.",
+      "timing": "Immédiatement",
+      "sanction": "Suspension automatique du contrat le lendemain de la cession à 0 heure",
+      "page": 48
+    },
+    {
+      "name": "Aviser du transfert de propriété en cas de décès du souscripteur",
+      "description": "En cas de décès du souscripteur*, propriétaire du véhicule*, l'assurance continue de plein droit au profit de l'héritier, à charge pour celui-ci d'exécuter toutes les obligations dont le souscripteur* était tenu. L'héritier doit nous aviser dans les 15 jours du transfert de propriété du véhicule* à son nom.",
+      "timing": "Dans les 15 jours",
+      "sanction": "Si un sinistre* survenait après le transfert de propriété et avant que nous en ayons connaissance, nous pourrions invoquer la nullité* du contrat ou la réduction* des indemnités",
+      "page": 48
+    },
+    {
+      "name": "Respecter les dispositions spéciales",
+      "description": "Les dispositions spéciales (partie 30) sont applicables dans la mesure où elles sont mentionnées dans vos conditions particulières.",
+      "timing": "En cours de contrat",
+      "sanction": "Le non-respect des dispositions spéciales établies d'après vos déclarations pourra nous amener, suivant le cas, à invoquer la nullité* du contrat ou la réduction* des indemnités dues en cas de sinistre*",
+      "page": 49
+    },
+    {
+      "name": "Maintenir le système de protection antivol en fonctionnement",
+      "description": "Le bénéfice de la garantie « Vol » est subordonné aux dispositions précisées dans vos conditions particulières et notamment à la présence sur le véhicule* d'un système de protection antivol en fonctionnement.",
+      "timing": "En permanence",
+      "sanction": "Exclusion du vol du véhicule* commis alors que le système de protection antivol exigé n'est pas en fonctionnement",
+      "page": 50
+    },
+    {
+      "name": "Attendre l'accord de la Macif avant réparation ou remplacement",
+      "description": "Vous devez attendre notre accord avant toute réparation ou remplacement des éléments endommagés. Nous devons pouvoir constater la réalité, les causes et l'étendue du sinistre*.",
+      "timing": "En cas de sinistre, avant toute réparation",
+      "sanction": "La réparation ou le remplacement réalisé sans notre accord préalable vous fait perdre le bénéfice des garanties",
+      "page": 40
+    },
+    {
+      "name": "Conserver les justificatifs",
+      "description": "Vous devez conserver soigneusement toutes les factures concernant le véhicule*, ses accessoires, votre casque*, vos gants*, votre gilet airbag*, votre équipement (bottes, combinaison, pantalon, blouson et protection dorsale) qu'il s'agisse de factures d'achat, d'entretien ou de réparation. Elles serviront, en cas de sinistre*, à justifier de l'existence ou de la valeur de ces biens.",
+      "timing": "En permanence",
+      "sanction": null,
+      "page": 43
+    },
+    {
+      "name": "Ne pas transiger sans l'accord de la Macif",
+      "description": "Nous seuls avons le droit, dans la limite de notre garantie, de transiger avec les personnes lésées. Aucune reconnaissance de responsabilité, aucune transaction, intervenue sans notre accord, ne nous est opposable. La reconnaissance d'un fait ne peut être assimilée à la reconnaissance d'une responsabilité.",
+      "timing": "En cas de sinistre",
+      "sanction": "La transaction ou la reconnaissance de responsabilité intervenue sans notre accord ne nous est pas opposable",
+      "page": 42
+    },
+    {
+      "name": "Informer en cas de cumul d'assurance",
+      "description": "Si vous êtes couvert pour les mêmes garanties auprès d'autres assureurs, vous devez nous en informer et nous indiquer leurs coordonnées ainsi que l'étendue des garanties. Vous pouvez obtenir l'indemnisation de vos dommages en vous adressant à l'assureur de votre choix.",
+      "timing": "En cours de contrat",
+      "sanction": "Quand plusieurs assurances contre un même risque sont contractées de manière dolosive ou frauduleuse, nous avons la faculté de considérer que le contrat n'a jamais existé et de demander des dommages et intérêts",
+      "page": 45
+    },
+    {
+      "name": "Préserver le recours de la Macif contre le tiers responsable",
+      "description": "La subrogation est la substitution de l'assureur à l'assuré* dans l'exercice de ses droits. Si un tiers* est responsable des dommages, la Macif bénéficie des droits et actions de l'assuré* pour récupérer auprès du tiers* ou de son assureur tout ou partie du montant de l'indemnité versée.",
+      "timing": "En cas de sinistre",
+      "sanction": "Si par le fait de l'assuré* nous ne pouvons plus exercer de recours, l'indemnisation sera diminuée des sommes qui ne peuvent plus être récupérées",
+      "page": 45
+    },
+    {
+      "name": "Demander l'accord de Macif Assistance avant d'engager des frais",
+      "description": "L'assuré* doit demander l'accord de Macif Assistance avant d'engager des frais.",
+      "timing": "Avant d'engager des frais d'assistance",
+      "sanction": null,
+      "page": 26
+    },
+    {
+      "name": "Communiquer les pièces de procédure (Défense et Recours)",
+      "description": "L'assuré* doit nous communiquer l'intégralité des documents et pièces de procédure concernant son dossier (exemples : refus à une réclamation, convocation à expertise, citation, avis à victime, assignation).",
+      "timing": "En cas de sinistre relevant des garanties Défense et Recours",
+      "sanction": null,
+      "page": 31
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Contacter l'assistance",
+      "description": "Dans le cadre de la garantie « Assistance générale », vous pouvez contacter Macif Assistance 24 heures sur 24 et tous les jours de l'année, par téléphone en France, au + 33 5 49 774 774 depuis l'étranger, ou par SMS au 06 71 17 27 77 pour les personnes sourdes et malentendantes. Les prestations Macif Assistance sont mises en œuvre par les entités du groupe IMA, INTER MUTUELLES ASSISTANCE.",
+      "deadline": null,
+      "page": 40
+    },
+    {
+      "step": "Déclarer le sinistre",
+      "description": "Vous pouvez déclarer votre sinistre* par l'envoi d'un courrier postal à la Macif, en vous rendant dans une agence Macif, par téléphone, ou dans votre espace personnel sur le site internet macif.fr ou sur l'application mobile Macif. Rédigez, si cela est possible, un constat amiable.",
+      "deadline": "5 jours ouvrés à partir du moment où vous en avez connaissance pour tout événement (sauf vol et catastrophe naturelle) ; 2 jours ouvrés pour un vol ; 30 jours suivant la publication de l'arrêté interministériel constatant l'état de catastrophe naturelle",
+      "page": 40
+    },
+    {
+      "step": "Transmettre les renseignements de la déclaration",
+      "description": "Votre déclaration doit contenir les date, heure et lieu précis du sinistre*, les causes et circonstances du sinistre*, les conséquences matérielles et corporelles du sinistre*, et les coordonnées des personnes lésées, des témoins et du ou des responsables éventuels. Vous devez préciser si les services de police ou de gendarmerie sont intervenus et indiquer où le véhicule* endommagé peut être expertisé.",
+      "deadline": null,
+      "page": 41
+    },
+    {
+      "step": "Adresser les pièces de procédure",
+      "description": "En cas de poursuites judiciaires, vous devez nous adresser immédiatement toute pièce de procédure (exemples : avis à victime ou à plaignant, assignation) que vous pourriez recevoir et nous transmettre tout document ou renseignement en rapport avec le déroulement de l'enquête.",
+      "deadline": "immédiatement",
+      "page": 41
+    },
+    {
+      "step": "Déposer plainte en cas de vol, vandalisme, attentat ou émeute",
+      "description": "En cas de vol, de tentative de vol, d'acte de vandalisme, d'attentat ou d'acte de terrorisme, d'émeute ou de mouvement populaire, vous devez prévenir immédiatement la police ou la gendarmerie, déposer plainte et nous adresser le récépissé de ce dépôt de plainte.",
+      "deadline": "immédiatement",
+      "page": 41
+    },
+    {
+      "step": "Aviser de la découverte du véhicule volé",
+      "description": "En cas de découverte du véhicule* volé, vous devez nous en aviser dans les 8 jours.",
+      "deadline": "dans les 8 jours",
+      "page": 41
+    },
+    {
+      "step": "Fournir les justificatifs",
+      "description": "Vous devez nous fournir la facture d'achat du véhicule* en cas de perte totale* lorsque le sinistre* survient dans les 6 mois suivant la date de 1re immatriculation ; les factures d'achat du casque*, des gants* et du gilet airbag*, volés ou détériorés ; les factures des éléments, des accessoires, de l'équipement du motard, volés ou détériorés ; les justificatifs des éventuels frais engagés pour le remplacement des systèmes de verrouillage et de protection antivol en cas de perte ou de vol des clés. De façon générale, vous devez nous transmettre tout document demandé concernant le sinistre*.",
+      "deadline": null,
+      "page": 41
+    },
+    {
+      "step": "Détermination des dommages et expertise",
+      "description": "Les dommages sont déterminés d'un commun accord ou, si la Macif l'estime nécessaire, à partir du chiffrage de l'expert missionné. Pour les sinistres* « Vol », l'offre de règlement est adressée à l'issue d'un délai de 30 jours à compter de la déclaration de vol. Pour les sinistres* « Catastrophes naturelles », la proposition d'indemnisation ou de réparation en nature est adressée dans un délai de 1 mois à compter soit de la réception de l'état estimatif transmis en l'absence d'expertise, soit de la réception du rapport d'expertise définitif.",
+      "deadline": "30 jours pour l'offre de règlement Vol ; 1 mois pour la proposition Catastrophes naturelles",
+      "page": 43
+    },
+    {
+      "step": "Expertise contradictoire en cas de désaccord",
+      "description": "Si vous n'êtes pas d'accord avec notre proposition d'indemnisation ou les conclusions de notre expert, vous désignerez votre propre expert qui procédera avec celui désigné par la Macif à une expertise commune. À défaut d'accord entre eux, ils en désigneront un 3e, tous les 3 opérant en commun à la majorité des voix. En cas d'impossibilité, la nomination de ce 3e expert est faite par le Président du tribunal judiciaire du lieu où le sinistre* s'est produit, sur simple demande de la partie la plus diligente, 15 jours au moins après l'envoi à l'autre partie d'une lettre recommandée de mise en demeure avec accusé de réception. Chacune des parties paie les frais et honoraires de son propre expert et, s'il y a lieu, la moitié de ceux du 3e et des frais de sa nomination. Toutefois, si vous obtenez une solution plus favorable que celle proposée par notre expert, la Macif rembourse l'ensemble de ces frais et honoraires.",
+      "deadline": "15 jours au moins après la mise en demeure pour la nomination judiciaire du 3e expert",
+      "page": 43
+    },
+    {
+      "step": "Paiement de l'indemnité",
+      "description": "En l'absence d'opposition de créanciers ou d'organismes financiers, la Macif s'engage à régler lorsque tous les éléments nécessaires lui ont été communiqués et dans les 2 jours ouvrés suivant l'accord amiable ou la décision judiciaire exécutoire. Pour les sinistres* « Catastrophes naturelles », à compter de la réception de l'accord sur la proposition d'indemnisation, la Macif dispose d'un délai de 21 jours pour verser l'indemnité ou d'un délai de 1 mois pour missionner l'entreprise de réparation ; à défaut, et sauf cas fortuit ou de force majeure, l'indemnité est augmentée des intérêts au taux légal. Pour les sinistres* « Catastrophes technologiques », le délai maximum de règlement est de 3 mois. Dans le cas d'un sinistre* « Bris d'optiques de phare », l'indemnité n'est versée que sur présentation de la facture acquittée des travaux effectués avec notre accord.",
+      "deadline": "2 jours ouvrés suivant l'accord amiable ou la décision judiciaire exécutoire ; 21 jours (catastrophes naturelles) ; 3 mois (catastrophes technologiques)",
+      "page": 44
+    },
+    {
+      "step": "Réclamation et médiation",
+      "description": "En cas de mécontentement à l'occasion d'un sinistre*, vous pouvez adresser une réclamation selon les modalités énoncées à la partie 36 « Modalités de réclamation et médiation ».",
+      "deadline": null,
+      "page": 42
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat prend effet à la date indiquée dans vos conditions particulières délivrées lors de la souscription. Le contrat est conclu jusqu'à l'échéance* suivante ; à l'expiration de cette période, il est renouvelé automatiquement par période annuelle. L'échéance du contrat est le 1er avril ; l'année d'assurance court du 1er avril au 31 mars de l'année suivante.",
+    "tacit_renewal": true,
+    "notice_period": "1 mois avant l'échéance du 1er avril (la demande de résiliation doit être effectuée au plus tard le dernier jour du mois de février ; la résiliation intervient le 31 mars à minuit)",
+    "methods": [
+      "par l'envoi d'un courrier postal à la Macif",
+      "par l'envoi d'un courrier électronique à la Macif",
+      "en effectuant une déclaration en agence",
+      "en appelant un de nos conseillers",
+      "à partir de votre espace personnel sur notre site internet macif.fr ou sur l'application mobile Macif",
+      "De notre côté, nous pouvons résilier le contrat uniquement par lettre recommandée adressée à votre dernier domicile connu"
+    ],
+    "special_rights": [
+      "Droit de renonciation de 14 jours calendaires révolus en cas de démarchage à domicile (personne physique, à des fins non professionnelles) ; ce délai court à partir du jour de la conclusion du contrat ; pas de renonciation possible si l'assuré a connaissance d'un sinistre survenu pendant ce délai",
+      "En cas de vente à distance, l'assuré ne dispose pas du droit de renonciation de 14 jours prévu par l'article L112-2-1 du Code des assurances",
+      "Résiliation à l'échéance (1er avril) si le contrat a été souscrit depuis au moins 1 an, avec un préavis de 1 mois",
+      "En cas de retard ou d'absence d'envoi de l'avis* d'échéance : délai de 20 jours à compter de la date d'envoi de l'avis pour dénoncer la reconduction (risques autres que professionnels) ; si aucun avis n'a été adressé, résiliation possible à tout moment",
+      "Résiliation à tout moment à l'expiration d'un délai de 1 an à compter de la première souscription, pour une personne physique ayant souscrit le contrat pour des risques autres que professionnels ; la résiliation doit être faite par l'intermédiaire du nouvel assureur et intervient 1 mois après réception de la demande",
+      "En cas de cession du véhicule* : contrat suspendu automatiquement à partir du lendemain à 0 heure du jour de la cession ; résiliation possible moyennant un préavis de 10 jours ; à défaut de remise en vigueur ou de résiliation, résiliation de plein droit à l'expiration d'un délai de 6 mois à compter de la cession",
+      "En cas de changement de domicile, de situation matrimoniale, de régime matrimonial, de profession, de retraite professionnelle ou de cessation d'activité professionnelle : demande dans les 3 mois à partir de la date du changement, résiliation 1 mois après réception",
+      "En cas de diminution du risque assuré lorsque la Macif ne consent pas à une réduction de cotisation : résiliation 30 jours après la dénonciation du contrat",
+      "En cas de résiliation par la Macif d'un autre contrat après sinistre* : demande dans le mois qui suit la notification, résiliation 1 mois à compter de la notification à la Macif",
+      "En cas de majoration de la cotisation ou des franchises* (hors hausse résultant de l'application du coefficient bonus malus et hors hausse décidée par les pouvoirs publics) : demande dans les 30 jours suivant la date à laquelle vous en avez eu connaissance, résiliation 1 mois à compter de la notification",
+      "En cas de transfert du portefeuille de la Macif à une autre société d'assurance : demande dans le délai de 1 mois à compter de la publication au Journal officiel de la décision d'approbation",
+      "En cas de sauvegarde, redressement ou liquidation judiciaire du souscripteur* : résiliation à réception de la notification, par ordonnance du juge commissaire, ou automatiquement si la mise en demeure de prendre parti est restée plus de 1 mois sans réponse",
+      "En cas de décès du souscripteur* : l'assurance continue automatiquement au profit de l'héritier, qui peut demander la résiliation ; la Macif dispose de 3 mois pour résilier à partir du jour où l'héritier a demandé le transfert du contrat à son nom, la résiliation prenant effet 10 jours après notification",
+      "En cas de perte totale* du véhicule* résultant d'un événement non garanti : résiliation automatique dès la survenance de l'événement",
+      "En cas de réquisition du véhicule* : résiliation automatique à compter de la date de dépossession",
+      "En cas de retrait de l'agrément ou de liquidation judiciaire de la Macif : résiliation automatique le 40e jour à midi à compter de la publication au Journal officiel de la décision de retrait",
+      "En cas de perte totale* du véhicule* avec refus de la proposition d'indemnisation (article L211-1-1 du Code des assurances), la demande de résiliation est conditionnée à la fourniture d'une copie du certificat de destruction, d'une copie du second rapport de l'expert certifiant que le véhicule est en état de circuler, ou d'un justificatif d'assurance auprès d'un nouvel assureur",
+      "Dans tous les cas de résiliation au cours d'une période d'assurance, la Macif restitue la portion de cotisation correspondant à la période non assurée, sauf en cas de non-paiement de cotisation (pénalité égale à la cotisation courant jusqu'à l'échéance suivante, sans excéder la moitié de la cotisation annuelle) et en cas de nullité* du contrat. En cas de résiliation pour votre compte par votre nouvel assureur, la portion de cotisation est restituée dans un délai de 30 jours."
+    ],
+    "page": 46
+  },
+  "prescription_period": {
+    "description": "La prescription est le délai au-delà duquel une action n'est plus recevable. Conformément à l'article L114-3 du Code des assurances, « par dérogation à l'article 2254 du Code civil, les parties au contrat d'assurance ne peuvent, même d'un commun accord, ni modifier la durée de prescription, ni ajouter aux causes de suspension ou d'interruption de celle-ci ». Le Code des assurances dispose à l'article L114-1 : « Toutes actions dérivant d'un contrat d'assurance sont prescrites par deux ans à compter de l'événement qui y donne naissance ».",
+    "page": 57
+  },
+  "premium": {
+    "notes": [
+      "La cotisation est calculée chaque année sur la base des tarifs retenus par le Conseil d'Administration de la Macif, en fonction des caractéristiques du risque assuré et des garanties souscrites.",
+      "La cotisation est variable, c'est-à-dire que le Conseil d'Administration peut décider de procéder à un remboursement partiel ou à un rappel de cotisation, au titre de l'exercice considéré. Dans le cadre d'un rappel, le maximum de cotisation que vous devrez payer est de 1 fois et demie le montant de la cotisation normale.",
+      "Un coefficient bonus malus est appliqué (partie 32).",
+      "Modification de la cotisation et des franchises : partie 33.",
+      "Le défaut de paiement de la cotisation peut entraîner la suspension des garanties puis la résiliation du contrat ; en cas de résiliation pour non-paiement, l'assuré doit à titre de pénalité une somme correspondant au montant de la cotisation pour la période comprise entre la date de résiliation et celle de l'échéance* suivante, sans excéder la moitié de la cotisation annuelle."
+    ],
+    "indexation": null,
+    "page": 50
+  },
+  "special_conditions": [
+    {
+      "name": "Documents constituant le contrat",
+      "description": "Votre contrat est constitué des conditions générales et des conditions particulières. Les conditions générales décrivent les garanties et leur étendue et précisent le fonctionnement du contrat. Les conditions particulières figurent dans un document séparé ; elles personnalisent le contrat en fonction de votre situation et prennent en compte les informations concernant le véhicule assuré : ses caractéristiques, son immatriculation, son usage et le conducteur déclaré.",
+      "page": 6
+    },
+    {
+      "name": "Présentation des formules de garanties - légende du tableau",
+      "description": "Ce tableau est à votre disposition pour connaître les formules proposées et les garanties qui leur sont attachées. Légende : une coche indique les garanties et services automatiquement inclus dans la formule ; la mention « option » indique les garanties facultatives en option dans la formule ; un tiret indique les garanties non disponibles dans la formule. Les trois formules sont Économique, Élargie et Protectrice.",
+      "page": 12
+    },
+    {
+      "name": "Formule Économique - composition",
+      "description": "Garanties automatiquement incluses : Responsabilité civile, Assistance générale, Défense et Recours. En option : Véhicule de prêt, Assistance panne 0 km. Non disponibles : Dommages par accident et actes de vandalisme, Incendie explosion attentats et actes de terrorisme, Vol, Bris d'optiques de phare, Événements climatiques tempête grêle, Catastrophes naturelles, Catastrophes technologiques, Frais de remorquage et frais annexes, Insolvabilité du tiers responsable, Équipement du motard, Accessoires.",
+      "page": 12
+    },
+    {
+      "name": "Formule Élargie - composition",
+      "description": "Garanties automatiquement incluses : Responsabilité civile, Incendie explosion attentats et actes de terrorisme, Vol, Bris d'optiques de phare, Événements climatiques tempête grêle, Catastrophes naturelles, Catastrophes technologiques, Frais de remorquage et frais annexes, Insolvabilité du tiers responsable, Équipement du motard, Assistance générale, Défense et Recours. En option : Accessoires, Véhicule de prêt, Assistance panne 0 km. Non disponible : Dommages par accident et actes de vandalisme.",
+      "page": 12
+    },
+    {
+      "name": "Formule Protectrice - composition",
+      "description": "Garanties automatiquement incluses : Responsabilité civile, Dommages par accident et actes de vandalisme, Incendie explosion attentats et actes de terrorisme, Vol, Bris d'optiques de phare, Événements climatiques tempête grêle, Catastrophes naturelles, Catastrophes technologiques, Frais de remorquage et frais annexes, Insolvabilité du tiers responsable, Équipement du motard, Assistance générale, Défense et Recours. En option : Accessoires, Véhicule de prêt, Assistance panne 0 km.",
+      "page": 12
+    },
+    {
+      "name": "Véhicule assuré",
+      "description": "C'est le véhicule terrestre à moteur (de type cyclomoteur, motocyclette, tricycle, quad) désigné aux conditions particulières, équipé des éléments livrés de série ou en option par le constructeur et des éléments complémentaires suivants : le top-case, les sacoches rigides, les pare-cylindres et pare-carters, la batterie du véhicule électrique et son câble de rechargement, les systèmes de protection antivol, les aménagements pour les handicapés. Il s'agit aussi du side-car ou de la remorque construit(e) en vue d'être attelé(e) à ce type de véhicule et dont le poids total en charge n'excède pas 50 % du poids à vide du véhicule tracteur. En cas de transfert du contrat sur un nouveau véhicule, les garanties souscrites pour l'ancien véhicule assuré en instance de vente restent acquises gratuitement jusqu'au jour de sa vente, pendant une période maximale de 30 jours, sous réserve que le contrat du nouveau véhicule soit toujours en vigueur.",
+      "page": 13
+    },
+    {
+      "name": "Préservation des droits des victimes",
+      "description": "Si la Macif invoque une exception de garantie légale ou contractuelle, elle présente néanmoins une offre d'indemnité aux personnes lésées (articles L211-8 à L211-17 du Code des assurances). Ne sont pas opposables aux victimes ou à leurs ayants droit : les franchises* prévues dans les conditions particulières, les déchéances*, la suspension de la garantie pour non-paiement de la cotisation, la nullité* du contrat prévue par l'article L113-8 et la réduction* de l'indemnité prévue par l'article L113-9, et les exclusions de garanties suivantes : le défaut ou l'absence de validité du permis de conduire, le transport de matières inflammables, explosives, corrosives ou comburantes, le transport des passagers dans des conditions de sécurité insuffisantes, le transport de sources de rayonnements ionisants, les épreuves, courses, compétitions ou leurs essais. La Macif procède au paiement de l'indemnité pour le compte de qui cette offre a été faite (article L211-20) puis exerce une action en remboursement contre ce dernier.",
+      "page": 15
+    },
+    {
+      "name": "Responsabilité civile du gardien ou conducteur non autorisé",
+      "description": "Le contrat couvre la responsabilité civile du gardien ou conducteur non autorisé. Toutefois, dans ce cas, la Macif demande au responsable de l'accident de lui rembourser les indemnités versées aux victimes.",
+      "page": 61
+    },
+    {
+      "name": "Libre choix du réparateur",
+      "description": "En cas de dommage garanti par votre contrat, vous avez la faculté de choisir le réparateur professionnel auquel vous souhaitez recourir. Si vous le désirez, vous pouvez faire appel à un garage sélectionné par la Macif, dans ce cas vous n'avez pas d'avance de frais à faire, l'indemnité est versée directement au garage déduction faite de la franchise* éventuelle. La Macif tient à votre disposition la liste de ses garages agréés.",
+      "page": 42
+    },
+    {
+      "name": "Dispositif de géolocalisation en cas de vol",
+      "description": "Si votre véhicule est équipé d'un dispositif de géolocalisation, certaines de vos données seront transmises au GIE ARGOS dans le cadre de la mise en œuvre du dispositif Argos Tracking. Ce dispositif permet de collecter et traiter les données de votre véhicule en cas de vol en vue de sa récupération. Vous disposez de droits d'accès, de rectification, d'effacement, de limitation et d'opposition.",
+      "page": 42
+    },
+    {
+      "name": "Usage uniquement privé (29.1)",
+      "description": "Le véhicule* est exclusivement utilisé dans le cadre de la vie privée. Il n'est pas utilisé pour des déplacements de nature professionnelle, ni des trajets du domicile au lieu de travail, même de façon occasionnelle. Cet usage est particulièrement adapté aux retraités.",
+      "page": 49
+    },
+    {
+      "name": "Usage privé - trajet/travail - déplacements professionnels ponctuels (29.2)",
+      "description": "Cet usage ne peut pas être accordé aux travailleurs indépendants. Le véhicule* est utilisé pour les déplacements de la vie privée, les trajets aller-retour du domicile au lieu unique de travail ou à plusieurs lieux de travail et les déplacements effectués ponctuellement dans le cadre d'une activité professionnelle. Il n'est pas utilisé pour des déplacements professionnels réguliers, ni le transport à titre onéreux de personnes ou de marchandises pour le compte de tiers, même de façon occasionnelle, ni pour des tournées de visites de clientèle, d'agences, de dépôts, de succursales, de chantiers.",
+      "page": 49
+    },
+    {
+      "name": "Usage privé - déplacements professionnels réguliers (29.3)",
+      "description": "Cet usage ne peut pas être accordé aux travailleurs indépendants. Le véhicule* est utilisé pour les déplacements de la vie privée, les trajets aller-retour du domicile au lieu de travail et les déplacements professionnels tels les tournées de visites de clientèle, d'agences, de dépôts, de succursales, de chantiers, ainsi que le transport privé de produits ou de marchandises lié à la profession. Il n'est pas utilisé pour le transport à titre onéreux de personnes ou de marchandises pour le compte de tiers, même de façon occasionnelle.",
+      "page": 49
+    },
+    {
+      "name": "Couverture commune à tous les usages",
+      "description": "Tous ces usages couvrent également les déplacements liés à l'exercice bénévole d'un mandat électif ou d'une activité associative ou syndicale, et le transport bénévole de passagers même si ceux-ci participent aux frais de route (exemple : covoiturage).",
+      "page": 49
+    },
+    {
+      "name": "Disposition spéciale 30.3 - Véhicule sans utilisation sur les voies ouvertes à la circulation publique",
+      "description": "Le véhicule* ne circule jamais sur les voies ouvertes à la circulation publique.",
+      "page": 50
+    },
+    {
+      "name": "Cas particulier des véhicules en LOA ou LLD",
+      "description": "En cas de perte totale* du véhicule* à la suite d'un événement garanti*, la Macif indemnise en priorité la société de location, propriétaire du véhicule*, sur la base de sa créance et dans la limite de la valeur de remplacement* du véhicule*. Si un solde est disponible, il vous est versé.",
+      "page": 44
+    },
+    {
+      "name": "Cas particulier des pièces remplacées",
+      "description": "Les pièces détériorées et remplacées dans le cadre d'un événement garanti* deviennent la propriété de la Macif dans le cadre d'un délaissement sur simple demande de sa part.",
+      "page": 44
+    },
+    {
+      "name": "Dispositions particulières au Bas-Rhin, Haut-Rhin et Moselle",
+      "description": "Pour les risques relevant des dispositions particulières aux départements du Bas-Rhin, du Haut-Rhin et de la Moselle visés à l'article L191-2 du Code des assurances, les dispositions de l'article L191-7 relatives aux intérêts et à la provision dus sur l'indemnité ne sont pas applicables, l'article L192-2 n'est pas applicable en cas de cession du véhicule, et l'assuré* n'encourt les sanctions liées au non-respect de ses obligations qu'en cas de faute lourde ou d'inexécution intentionnelle de sa part.",
+      "page": 44
+    },
+    {
+      "name": "Prestataire d'assistance",
+      "description": "Les prestations Macif Assistance sont mises en œuvre par les entités du groupe IMA, INTER MUTUELLES ASSISTANCE S A, Société anonyme à Directoire et Conseil de Surveillance, au capital de 55 382 784 euros, RCS Niort 320 281 025, siège social : 118 avenue de Paris - CS 40000 - 79033 Niort cedex 9.",
+      "page": 24
+    },
+    {
+      "name": "Identité du porteur de risque",
+      "description": "MACIF - MUTUELLE ASSURANCE DES COMMERCANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L'INDUSTRIE ET DU COMMERCE. Société d'assurance mutuelle à cotisations variables. Entreprise régie par le Code des assurances. Siège social : 1 rue Jacques Vandié - 79000 Niort. (Le pied de page imprime « Vandié » ; les autres documents Macif du corpus impriment « Vandier ».)",
+      "page": 68
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "La garantie « Responsabilité civile » répond à l’obligation légale d’assurance des véhicules terrestres à moteur pour \nles dommages causé",
+      "context": "Partie 1 - Responsabilité civile : objet de la garantie obligatoire",
+      "page": 14
+    },
+    {
+      "quote": "Les conséquences pécuniaires de la responsabilité \ncivile que vous-même ou toute personne ayant la qualité \nd’assuré* pouvez encourir à l’égard des tiers*, y compris à \nl’égard des passagers transportés dans le",
+      "context": "Partie 1 - Ce qui est garanti",
+      "page": 14
+    },
+    {
+      "quote": "Les dommages subis par les auteurs, coauteurs \nou complices du vol",
+      "context": "Partie 1 - Ce qui est exclu",
+      "page": 14
+    },
+    {
+      "quote": "La garantie « Responsabilité civile » n’est pas acquise lorsque, au moment du sinistre*, le conducteur \ndu véhicule* n’a pas l’âge requis ou n’est pas titulaire des certificat",
+      "context": "Partie 1 - Exclusion liée à l'absence de permis de conduire",
+      "page": 15
+    },
+    {
+      "quote": "Les dommages subis par le véhicule*, alors qu’il était \nsous votre garde ou celle d’une personne autorisée par \nvous, lorsque ces dommages résultent : \n  \n– d’un choc avec un corps fixe ou m",
+      "context": "Partie 2 - Ce qui est garanti",
+      "page": 16
+    },
+    {
+      "quote": "Le vol du véhicule* commis par : \n  \n– effraction du véhicule*, y compris électronique, de \nnature à permettre sa mise en route et sa circulation, \n  \n– menace",
+      "context": "Partie 4 - Ce qui est garanti",
+      "page": 18
+    },
+    {
+      "quote": "Pour les véhicules terrestres à moteur, le montant de la franchise* est de 380 € pour chaque véhicule \nendommagé. Toutefois, pour",
+      "context": "Partie 7 - Franchise légale catastrophes naturelles",
+      "page": 21
+    },
+    {
+      "quote": "Nous exerçons en priorité un recours amiable. À défaut \nd’un accord, nous intervenons sur le plan judiciaire s",
+      "context": "Partie 16.2 - Seuil d'intervention judiciaire du Recours",
+      "page": 32
+    },
+    {
+      "quote": "Dommages corporels et dommages immatériels \nconsécutifs à ces dommages corporels : sans \nlimitation de somme.\n•\nDommages matériels et dommages immatériels \nconsécutifs à ces d",
+      "context": "Partie 17 - Plafonds de la Responsabilité civile",
+      "page": 36
+    },
+    {
+      "quote": "Les dommages résultant d’une faute intentionnelle de l’assuré* (c’est-à-dire commise avec la \nvolonté de causer ces dommages tels qu’ils sont survenus), ou d’une faute dolosive de l’assuré* \n(c’est-à-dire",
+      "context": "Partie 18 - Exclusion commune : faute intentionnelle ou dolosive",
+      "page": 38
+    },
+    {
+      "quote": "Les dommages occasionnés par la guerre étrangère ou civile, par des émeutes ou mouvements \npopulaires (sauf application de la part",
+      "context": "Partie 18 - Exclusion commune : guerre, émeutes, mouvements populaires",
+      "page": 38
+    },
+    {
+      "quote": "Les garanties « Défense » (partie 16.1) et « Recours » (partie 16.2) ne sont jamais acquises en \nAlbanie, Bosnie-Herzégovine, Moldavie, Monténégro, République de Macédoine du Nord, Serbie,",
+      "context": "Partie 19 - Pays où Défense et Recours ne sont jamais acquises",
+      "page": 39
+    },
+    {
+      "quote": "Vous devez nous déclarer le sinistre* dès que vous en avez connaissance et au plus tard dans les 5 jours ouv",
+      "context": "Partie 21.1 - Délais de déclaration du sinistre",
+      "page": 41
+    },
+    {
+      "quote": "Le contrat est conclu jusqu’à l’échéance* suivante. À l’expiration de cette période, il est renouvelé \nautomatiquement par pé",
+      "context": "Partie 27.2 - Durée et reconduction du contrat",
+      "page": 46
+    },
+    {
+      "quote": "Toutes actions dérivant d’un contrat d’assurance sont prescrites par deux ans à compter de l’événeme",
+      "context": "Partie 35.1 - Délai de prescription (article L114-1 du Code des assurances)",
+      "page": 58
+    },
+    {
+      "quote": "Ce tableau est à votre disposition pour connaître les formules proposées et les garanties qui leur sont a",
+      "context": "Partie « Présentation des formules de garanties »",
+      "page": 12
+    },
+    {
+      "quote": "Les prestations Macif Assistance sont mises en œuvre par les entités du groupe IMA, \nINTER MUTUELLES ASSISTANCE S A, Soc",
+      "context": "Prestataire d'assistance (assisteur, distinct du porteur de risque)",
+      "page": 24
+    },
+    {
+      "quote": "Montant global maximum TTC garanti par sinistre* des frais et honoraires de toute nature\n2",
+      "context": "Partie 16.5 - Plafond global Défense et Recours",
+      "page": 34
+    }
+  ],
+  "gaps": [
+    "TABLEAU DES FORMULES (page 12) RECONSTRUIT DEPUIS UNE COUCHE TEXTE INVISIBLE, ET LES COMPTES FERMENT. Le tableau « Présentation des formules de garanties » est imprimé avec trois symboles (coche, mention « option », tiret) dont seule la mention « option » est du texte visible. Chaque cellule à coche ou à tiret porte en revanche un mot caché de 0,10 pt - « oui » ou « non » - en Montserrat-Regular, placé aux abscisses de colonne x0 = 330,5 (Économique), 425,2 (Élargie), 519,9 (Protectrice). Arithmétique : 16 lignes de garantie x 3 colonnes = 48 cellules = 28 « oui » + 12 « non » + 8 « option » visibles. Le compte ferme exactement. Vérifié sur rendu à 3,2x : la couche invisible correspond cellule par cellule aux symboles imprimés (coche = oui, tiret = non). Ces faits sont dans is_optional et conditions, jamais dans key_quotes.",
+    "La légende du tableau de la page 12 est illisible en texte : les trois symboles (coche verte, « option », tiret) sont tous rendus par le MÊME caractère « ޙ » en Montserrat-Bold. Le texte plat donne donc trois lignes de légende dont le symbole ne se distingue pas. La correspondance a été établie sur rendu. Le même caractère « ޙ » sert aussi de puce aux blocs de coordonnées Macif Assistance dans tout le document.",
+    "CONTRÔLE DE L'INVERSION DE COLONNES : effectué sur toutes les pages, résultat NÉGATIF pour les encadrés de garantie, avec un marqueur discriminant. Les encadrés « Ce qui est garanti : » (titre à x0 55,3) et « Ce qui est exclu : » (titre à x0 334,5) portent des marqueurs DIFFÉRENTS : les items garantis sont précédés d'une puce « • » en Montserrat-Regular de 0,10 pt à x0 45,4 (colonne gauche), les items exclus d'une puce « ● » en ZapfDingbatsITC de 5,50 pt à x0 314,6 (colonne droite). Total sur le document : 145 puces « • » et 86 puces « ● ». Sur les pages à deux colonnes, aucun marqueur ne se trouve du mauvais côté ; le marqueur et l'abscisse concordent, et l'ordre du texte plat est correct (garanti avant exclu). La seule anomalie de l'ordre plat est que les intitulés « Ce qui est garanti : » et « Ce qui est exclu : » sont émis APRÈS le contenu de leur encadré.",
+    "MAIS le marqueur « ● » (ZapfDingbatsITC 5,5 pt) ne suffit pas seul à établir la polarité : il sert aussi, en pleine largeur à x0 59,5 / 69,4 / 75,1, à des listes qui ne sont pas des exclusions - notamment l'encadré « À SAVOIR » de la page 15 sur les droits des victimes, les listes d'usage du véhicule (page 48) et les sanctions de fausse déclaration (pages 48-49). Sur ces listes, la polarité a été établie au niveau 3 de la hiérarchie, par la phrase d'attaque, et non par le marqueur ni par la colonne. C'est signalé même si le contrôle géométrique des encadrés est revenu négatif.",
+    "L'ordre de lecture du texte plat place systématiquement le titre de section (« Quelle garantie est accordée en cas de dommages causés aux tiers ? », « Que faire en cas de sinistre ? ») et les libellés « Ce qui est garanti : » / « Ce qui est exclu : » / « Encadré. Attention » à la FIN de la page plutôt qu'à leur position imprimée. Sans conséquence sur les rattachements, mais une lecture séquentielle attribuerait mal les intitulés.",
+    "Le texte plat contient 10 caractères de contrôle U+0007, sur les pages 7, 10, 11, 29, 42 et 52. Ils ne signalent PAS du texte vectorisé perdu : ils suivent immédiatement une puce (« • », « ■ ») et sont suivis du texte de l'item, qui est bien présent. Il s'agit d'un artefact de composition (caractère d'indentation) et non d'un contenu manquant.",
+    "Espaces typographiques particuliers dans la couche texte, à connaître pour toute citation : 691 U+2008 (espace ponctuation, avant les « : » et à l'intérieur des guillemets « »), 43 U+00A0 et 9 U+202F dans les montants et les unités. Les key_quotes ont été découpées programmatiquement dans le texte du PDF et les conservent verbatim.",
+    "Le glyphe € est présent dans la couche texte (56 occurrences) : contrairement à d'autres contrats Macif du corpus, l'unité monétaire a survécu à l'extraction et les montants tabulés sont complets.",
+    "PORTEUR DE RISQUE : la Macif. Le document nomme aussi, avec sa forme juridique complète, « INTER MUTUELLES ASSISTANCE S A, Société anonyme à Directoire et Conseil de Surveillance, au capital de 55 382 784 euros, RCS Niort 320 281 025 » (pages 24, 26, 40). C'est l'ASSISTEUR (les prestations Macif Assistance sont mises en œuvre par les entités du groupe IMA), et non le porteur de risque. C'est la seule raison sociale complète du document, alors que la Macif n'est identifiée en pied de page que par sa dénomination et sa forme (« Société d'assurance mutuelle à cotisations variables. Entreprise régie par le Code des assurances »). Le GIE ARGOS (page 42) est un prestataire de géolocalisation, également distinct du porteur.",
+    "insurer_name : les métadonnées de la tâche fournissent « Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce) », qui est une mention légale et non un nom. La valeur retenue est « Macif ».",
+    "DIVERGENCE ENTRE LE DOCUMENT ET SES SIBLINGS : le pied de page 68 imprime « Siège social : 1 rue Jacques Vandié - 79000 Niort », alors que les autres documents Macif du corpus impriment « Vandier ». La forme du document est conservée telle quelle dans special_conditions et signalée ici plutôt que corrigée.",
+    "target_audience laissé à null. Le document ne rattache le produit à aucune catégorie du schéma. Les seuls éléments proches - « cet usage ne peut pas être accordé aux travailleurs indépendants » (parties 29.2 et 29.3) et « une personne physique [ayant] souscrit le contrat pour des risques autres que professionnels » (résiliation infra-annuelle) - sont des restrictions d'usage et de droit de résiliation, pas une désignation d'audience. Le libellé est reporté dans target_audience_note.",
+    "PROFONDEUR PAR SECTION. Transcrites de façon exhaustive au niveau de l'item : les 16 garanties du tableau des formules et leurs encadrés « Ce qui est garanti / Ce qui est exclu » (parties 1 à 16), les prestations d'assistance des parties 14.1 à 14.3 (chacune enregistrée comme une garantie distincte avec son plafond), le tableau des montants maximums garantis (partie 17), les exclusions communes (partie 18), la territorialité (partie 19), les 38 sous-plafonds de la protection juridique (partie 16.5), la déclaration de sinistre (partie 21), l'expertise et l'indemnisation (parties 23 à 26), la durée et la résiliation (parties 27 et 34), les déclarations et sanctions (partie 28), les usages du véhicule (partie 29), les dispositions spéciales (partie 30) et les 24 définitions (pages 60 à 63).",
+    "PRISES AU NIVEAU DE LA RÈGLE, non transcrites item par item : la partie 32 « Coefficient bonus malus » (pages 51-52), dont le mécanisme de calcul et le barème détaillé ne sont résumés que par la mention d'un coefficient dans premium ; la partie 33 « Modification de la cotisation et des franchises » (page 53) ; la partie 36 « Modalités de réclamation et médiation » (page 59) ; la partie 31.2 sur les modalités de paiement de la cotisation ; et le détail des 8 conseils de rédaction du constat amiable de la partie « Bien comprendre le contrat » (pages 6 à 11). Un lecteur qui a besoin du barème bonus-malus doit ouvrir les pages 51 à 53 du PDF.",
+    "Les pages 64 à 68 ne portent quasiment aucun texte (pages de fin et mentions légales) : la page 68 porte la mention légale du porteur de risque et la référence du document.",
+    "Les montants et plafonds sont ceux imprimés, verbatim. Le contrat renvoie à plusieurs reprises aux conditions particulières pour le montant de la franchise et pour certains plafonds (Accessoires, Équipement du motard) : ces valeurs ne figurent pas dans les conditions générales et ne peuvent donc pas être extraites de ce document."
+  ]
+}

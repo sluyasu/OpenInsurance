@@ -1,0 +1,840 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "macif",
+  "insurer_name": "Macif",
+  "product_name": "Contrat PREM'S - Assurance logement - Assurance personnelle",
+  "branch": "habitation",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": "particuliers",
+  "target_audience_note": "Le bandeau de tête intitule le document « Assurance multirisques étudiants » et le contrat garantit « l'assuré étudiant, apprenti ou travailleur saisonnier ». Le document ne reprend aucune des catégories du schéma ; « particuliers » est retenu au vu de ces qualités personnelles (étudiant, apprenti, travailleur saisonnier) et de la couverture de la vie privée.",
+  "reference": "HAB-PREMS 10/18",
+  "edition_date": "2018-10",
+  "product_family": "PREM'S",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_habitation_prems.pdf",
+  "source_pdf": "contrat-prems-assurance-logement-assurance-personnelle-622126c5.pdf",
+  "source_sha256": "320fecc58e7c448bcaab4cb2dff97629870b4a368730dbb338a395097bc742d0",
+  "source_pages": 2,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d'information sur le produit d'assurance (DIPA/IPID) du contrat PREM'S - Assurance logement - Assurance personnelle, présenté en tête comme une « Assurance multirisques étudiants ». La compagnie désignée est « Macif - France - Société d'assurance mutuelle à cotisations variables - SIREN n° 781 452 511 ». Le contrat garantit l'assuré étudiant, apprenti ou travailleur saisonnier contre les conséquences d'évènements mettant en cause sa responsabilité civile et le protège en cas d'accidents corporels survenus au cours de sa vie privée ; il peut également couvrir le logement dont l'assuré est locataire ou occupant. L'assurance du logement porte sur les biens immobiliers et mobiliers (dans la limite de 7000 euros) et sur douze évènements ; l'assurance personnelle comprend la responsabilité civile (50 millions d'euros dont 10 millions pour les dommages matériels et immatériels consécutifs), la défense et le recours, l'individuelle accident, les frais d'obsèques (4 574 euros), un capital « spécial coup dur » de 3 049 euros et des services d'assistance.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Le logement",
+      "description": "Le logement (chambre, studio, appartement de 1 ou 2 pièces).",
+      "is_optional": null,
+      "territorial_scope": "à l'adresse du risque, en France métropolitaine (Protection des biens assurés - Responsabilité de locataire ou d'occupant - Assistance habitation)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Garantie figurant sous « L'ASSURANCE DU LOGEMENT », précédée d'un tiret et non d'une coche verte, contrairement aux garanties de « L'ASSURANCE PERSONNELLE ». Le document précise seulement que « Les garanties précédées d'une coche sont systématiquement prévues au contrat » et que « Ce contrat peut également couvrir le logement dont l'assuré est locataire ou occupant » : il ne qualifie pas expressément cette garantie d'optionnelle.",
+        "Figure sous « Les biens immobiliers assurés »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Les annexes du logement",
+      "description": "Ses annexes (garage, cave) figurant dans le bail.",
+      "is_optional": null,
+      "territorial_scope": "à l'adresse du risque, en France métropolitaine (Protection des biens assurés - Responsabilité de locataire ou d'occupant - Assistance habitation)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Garantie figurant sous « L'ASSURANCE DU LOGEMENT », précédée d'un tiret et non d'une coche verte, contrairement aux garanties de « L'ASSURANCE PERSONNELLE ». Le document précise seulement que « Les garanties précédées d'une coche sont systématiquement prévues au contrat » et que « Ce contrat peut également couvrir le logement dont l'assuré est locataire ou occupant » : il ne qualifie pas expressément cette garantie d'optionnelle.",
+        "Figure sous « Les biens immobiliers assurés ».",
+        "Les annexes doivent figurer dans le bail."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Les biens mobiliers de l'assuré",
+      "description": "Les biens mobiliers appartenant à l'assuré ou dont il a la garde, contenus dans le logement.",
+      "is_optional": null,
+      "territorial_scope": "à l'adresse du risque, en France métropolitaine (Protection des biens assurés - Responsabilité de locataire ou d'occupant - Assistance habitation)",
+      "limits": "dans la limite de 7000 euros",
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Garantie figurant sous « L'ASSURANCE DU LOGEMENT », précédée d'un tiret et non d'une coche verte, contrairement aux garanties de « L'ASSURANCE PERSONNELLE ». Le document précise seulement que « Les garanties précédées d'une coche sont systématiquement prévues au contrat » et que « Ce contrat peut également couvrir le logement dont l'assuré est locataire ou occupant » : il ne qualifie pas expressément cette garantie d'optionnelle.",
+        "Figure sous « Les biens mobiliers assurés (dans la limite de 7000 euros) »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Les biens mobiliers emportés en voyage, stage ou vacances",
+      "description": "Les biens mobiliers assurés emportés lors d'un voyage, d'un stage ou de vacances, de moins de 90 jours, situés dans un bâtiment, un mobil home, une caravane.",
+      "is_optional": null,
+      "territorial_scope": "Biens de l'assuré lors d'un voyage ou d'un stage : dans le monde entier",
+      "limits": "dans la limite de 7000 euros",
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Garantie figurant sous « L'ASSURANCE DU LOGEMENT », précédée d'un tiret et non d'une coche verte, contrairement aux garanties de « L'ASSURANCE PERSONNELLE ». Le document précise seulement que « Les garanties précédées d'une coche sont systématiquement prévues au contrat » et que « Ce contrat peut également couvrir le logement dont l'assuré est locataire ou occupant » : il ne qualifie pas expressément cette garantie d'optionnelle.",
+        "Figure sous « Les biens mobiliers assurés (dans la limite de 7000 euros) ».",
+        "Voyage, stage ou vacances de moins de 90 jours."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Les biens mobiliers du cooccupant",
+      "description": "Les biens mobiliers appartenant au cooccupant désigné au contrat.",
+      "is_optional": null,
+      "territorial_scope": "à l'adresse du risque, en France métropolitaine (Protection des biens assurés - Responsabilité de locataire ou d'occupant - Assistance habitation)",
+      "limits": "dans la limite de 7000 euros",
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Garantie figurant sous « L'ASSURANCE DU LOGEMENT », précédée d'un tiret et non d'une coche verte, contrairement aux garanties de « L'ASSURANCE PERSONNELLE ». Le document précise seulement que « Les garanties précédées d'une coche sont systématiquement prévues au contrat » et que « Ce contrat peut également couvrir le logement dont l'assuré est locataire ou occupant » : il ne qualifie pas expressément cette garantie d'optionnelle.",
+        "Figure sous « Les biens mobiliers assurés (dans la limite de 7000 euros) ».",
+        "Le cooccupant doit être désigné au contrat."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Responsabilité de l'assuré locataire ou occupant",
+      "description": "La responsabilité de l'assuré locataire (ou occupant), et celle de son colocataire (ou cooccupant) désigné au contrat, à l'égard du propriétaire et des tiers en raison de dommages consécutifs à un incendie, une explosion ou un dégât des eaux.",
+      "is_optional": null,
+      "territorial_scope": "à l'adresse du risque, en France métropolitaine (Protection des biens assurés - Responsabilité de locataire ou d'occupant - Assistance habitation)",
+      "limits": "dans la limite de 100 millions d'euros",
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Garantie figurant sous « L'ASSURANCE DU LOGEMENT », précédée d'un tiret et non d'une coche verte, contrairement aux garanties de « L'ASSURANCE PERSONNELLE ». Le document précise seulement que « Les garanties précédées d'une coche sont systématiquement prévues au contrat » et que « Ce contrat peut également couvrir le logement dont l'assuré est locataire ou occupant » : il ne qualifie pas expressément cette garantie d'optionnelle.",
+        "Figure sous « Les évènements assurés ».",
+        "Le colocataire (ou cooccupant) doit être désigné au contrat."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Incendie, explosion, implosion, foudre, fumées",
+      "description": "L'incendie, l'explosion ou l'implosion, la chute ou l'explosion de la foudre, les fumées.",
+      "is_optional": null,
+      "territorial_scope": "à l'adresse du risque, en France métropolitaine (Protection des biens assurés - Responsabilité de locataire ou d'occupant - Assistance habitation)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Garantie figurant sous « L'ASSURANCE DU LOGEMENT », précédée d'un tiret et non d'une coche verte, contrairement aux garanties de « L'ASSURANCE PERSONNELLE ». Le document précise seulement que « Les garanties précédées d'une coche sont systématiquement prévues au contrat » et que « Ce contrat peut également couvrir le logement dont l'assuré est locataire ou occupant » : il ne qualifie pas expressément cette garantie d'optionnelle.",
+        "Figure sous « Les évènements assurés »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Vol et vandalisme",
+      "description": "Le vol ou les actes de vandalisme.",
+      "is_optional": null,
+      "territorial_scope": "à l'adresse du risque, en France métropolitaine (Protection des biens assurés - Responsabilité de locataire ou d'occupant - Assistance habitation)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Garantie figurant sous « L'ASSURANCE DU LOGEMENT », précédée d'un tiret et non d'une coche verte, contrairement aux garanties de « L'ASSURANCE PERSONNELLE ». Le document précise seulement que « Les garanties précédées d'une coche sont systématiquement prévues au contrat » et que « Ce contrat peut également couvrir le logement dont l'assuré est locataire ou occupant » : il ne qualifie pas expressément cette garantie d'optionnelle.",
+        "Figure sous « Les évènements assurés »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Dégât des eaux",
+      "description": "Le dégât des eaux.",
+      "is_optional": null,
+      "territorial_scope": "à l'adresse du risque, en France métropolitaine (Protection des biens assurés - Responsabilité de locataire ou d'occupant - Assistance habitation)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Garantie figurant sous « L'ASSURANCE DU LOGEMENT », précédée d'un tiret et non d'une coche verte, contrairement aux garanties de « L'ASSURANCE PERSONNELLE ». Le document précise seulement que « Les garanties précédées d'une coche sont systématiquement prévues au contrat » et que « Ce contrat peut également couvrir le logement dont l'assuré est locataire ou occupant » : il ne qualifie pas expressément cette garantie d'optionnelle.",
+        "Figure sous « Les évènements assurés »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Bris des vitres",
+      "description": "Le bris des vitres.",
+      "is_optional": null,
+      "territorial_scope": "à l'adresse du risque, en France métropolitaine (Protection des biens assurés - Responsabilité de locataire ou d'occupant - Assistance habitation)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Garantie figurant sous « L'ASSURANCE DU LOGEMENT », précédée d'un tiret et non d'une coche verte, contrairement aux garanties de « L'ASSURANCE PERSONNELLE ». Le document précise seulement que « Les garanties précédées d'une coche sont systématiquement prévues au contrat » et que « Ce contrat peut également couvrir le logement dont l'assuré est locataire ou occupant » : il ne qualifie pas expressément cette garantie d'optionnelle.",
+        "Figure sous « Les évènements assurés »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Tempête, grêle, poids de la neige, inondations",
+      "description": "La tempête, la grêle, le poids de la neige, les inondations.",
+      "is_optional": null,
+      "territorial_scope": "à l'adresse du risque, en France métropolitaine (Protection des biens assurés - Responsabilité de locataire ou d'occupant - Assistance habitation)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Garantie figurant sous « L'ASSURANCE DU LOGEMENT », précédée d'un tiret et non d'une coche verte, contrairement aux garanties de « L'ASSURANCE PERSONNELLE ». Le document précise seulement que « Les garanties précédées d'une coche sont systématiquement prévues au contrat » et que « Ce contrat peut également couvrir le logement dont l'assuré est locataire ou occupant » : il ne qualifie pas expressément cette garantie d'optionnelle.",
+        "Figure sous « Les évènements assurés »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Catastrophes naturelles et technologiques",
+      "description": "Les catastrophes naturelles et technologiques.",
+      "is_optional": null,
+      "territorial_scope": "à l'adresse du risque, en France métropolitaine (Protection des biens assurés - Responsabilité de locataire ou d'occupant - Assistance habitation)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Garantie figurant sous « L'ASSURANCE DU LOGEMENT », précédée d'un tiret et non d'une coche verte, contrairement aux garanties de « L'ASSURANCE PERSONNELLE ». Le document précise seulement que « Les garanties précédées d'une coche sont systématiquement prévues au contrat » et que « Ce contrat peut également couvrir le logement dont l'assuré est locataire ou occupant » : il ne qualifie pas expressément cette garantie d'optionnelle.",
+        "Figure sous « Les évènements assurés »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Émeutes et mouvements populaires",
+      "description": "Les émeutes et mouvements populaires.",
+      "is_optional": null,
+      "territorial_scope": "à l'adresse du risque, en France métropolitaine (Protection des biens assurés - Responsabilité de locataire ou d'occupant - Assistance habitation)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Garantie figurant sous « L'ASSURANCE DU LOGEMENT », précédée d'un tiret et non d'une coche verte, contrairement aux garanties de « L'ASSURANCE PERSONNELLE ». Le document précise seulement que « Les garanties précédées d'une coche sont systématiquement prévues au contrat » et que « Ce contrat peut également couvrir le logement dont l'assuré est locataire ou occupant » : il ne qualifie pas expressément cette garantie d'optionnelle.",
+        "Figure sous « Les évènements assurés »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Attentats et actes de terrorisme",
+      "description": "Les attentats et actes de terrorisme.",
+      "is_optional": null,
+      "territorial_scope": "à l'adresse du risque, en France métropolitaine (Protection des biens assurés - Responsabilité de locataire ou d'occupant - Assistance habitation)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Garantie figurant sous « L'ASSURANCE DU LOGEMENT », précédée d'un tiret et non d'une coche verte, contrairement aux garanties de « L'ASSURANCE PERSONNELLE ». Le document précise seulement que « Les garanties précédées d'une coche sont systématiquement prévues au contrat » et que « Ce contrat peut également couvrir le logement dont l'assuré est locataire ou occupant » : il ne qualifie pas expressément cette garantie d'optionnelle.",
+        "Figure sous « Les évènements assurés »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Perte d'usage du logement et frais annexes",
+      "description": "En cas d'évènement garanti, la perte d'usage du logement et les frais annexes.",
+      "is_optional": null,
+      "territorial_scope": "à l'adresse du risque, en France métropolitaine (Protection des biens assurés - Responsabilité de locataire ou d'occupant - Assistance habitation)",
+      "limits": "dans la limite de 3 mois de loyers (perte d'usage du logement)",
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Garantie figurant sous « L'ASSURANCE DU LOGEMENT », précédée d'un tiret et non d'une coche verte, contrairement aux garanties de « L'ASSURANCE PERSONNELLE ». Le document précise seulement que « Les garanties précédées d'une coche sont systématiquement prévues au contrat » et que « Ce contrat peut également couvrir le logement dont l'assuré est locataire ou occupant » : il ne qualifie pas expressément cette garantie d'optionnelle.",
+        "Figure sous « Les évènements assurés ».",
+        "Suppose un évènement garanti."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance habitation",
+      "description": "L'assistance habitation en cas de sinistre (ex : incendie) ou d'évènement perturbateur imprévu survenu au domicile (ex : perte de clef ou panne de chaudière).",
+      "is_optional": null,
+      "territorial_scope": "à l'adresse du risque, en France métropolitaine (Protection des biens assurés - Responsabilité de locataire ou d'occupant - Assistance habitation)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Garantie figurant sous « L'ASSURANCE DU LOGEMENT », précédée d'un tiret et non d'une coche verte, contrairement aux garanties de « L'ASSURANCE PERSONNELLE ». Le document précise seulement que « Les garanties précédées d'une coche sont systématiquement prévues au contrat » et que « Ce contrat peut également couvrir le logement dont l'assuré est locataire ou occupant » : il ne qualifie pas expressément cette garantie d'optionnelle.",
+        "Figure sous « Les évènements assurés »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Responsabilité d'occupant d'une location saisonnière",
+      "description": "La responsabilité d'occupant d'une location saisonnière de moins de 90 jours.",
+      "is_optional": null,
+      "territorial_scope": "en France, pays de l'Union Européenne, Andorre, Liechtenstein, Monaco, Norvège, Saint-Marin, Suisse, Vatican, départements, régions et collectivités d'Outre-mer",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Garantie figurant sous « L'ASSURANCE DU LOGEMENT », précédée d'un tiret et non d'une coche verte, contrairement aux garanties de « L'ASSURANCE PERSONNELLE ». Le document précise seulement que « Les garanties précédées d'une coche sont systématiquement prévues au contrat » et que « Ce contrat peut également couvrir le logement dont l'assuré est locataire ou occupant » : il ne qualifie pas expressément cette garantie d'optionnelle.",
+        "Figure sous « Les évènements assurés ».",
+        "Location saisonnière de moins de 90 jours."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Responsabilité civile personnelle",
+      "description": "La responsabilité civile personnelle.",
+      "is_optional": false,
+      "territorial_scope": "en France, pays de l'Union Européenne, Andorre, Liechtenstein, Monaco, Norvège, Saint-Marin, Suisse, Vatican, départements, régions et collectivité d'Outre-mer ; dans les autres pays du monde pour des séjours de moins d'un an",
+      "limits": "dans la limite de 50 millions d'euros dont 10 millions pour les dommages matériels et immatériels consécutifs",
+      "sub_limits": [
+        "10 millions d'euros pour les dommages matériels et immatériels consécutifs"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Garantie précédée d'une coche verte : systématiquement prévue au contrat."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Défense et recours",
+      "description": "La défense et le recours.",
+      "is_optional": false,
+      "territorial_scope": "en France, pays de l'Union Européenne, Andorre, Liechtenstein, Monaco, Norvège, Saint-Marin, Suisse, Vatican, départements, régions et collectivité d'Outre-mer ; dans les autres pays du monde pour des séjours de moins d'un an",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie précédée d'une coche verte : systématiquement prévue au contrat.",
+        "Recours : en France, pays de l'Union Européenne, Andorre, Liechtenstein, Monaco, Norvège, Saint-Marin, Suisse, Vatican, départements, régions et collectivités d'Outre-mer ; dans les autres pays du monde pour des séjours de moins d'un an et uniquement pour les recours amiables.",
+        "Les recours amiables et judiciaires sont exercés pour les préjudices de montants supérieurs aux seuils d'intervention."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Information juridique sur appel téléphonique",
+      "description": "L'information juridique sur appel téléphonique.",
+      "is_optional": false,
+      "territorial_scope": "en France, pays de l'Union Européenne, Andorre, Liechtenstein, Monaco, Norvège, Saint-Marin, Suisse, Vatican, départements, régions et collectivité d'Outre-mer ; dans les autres pays du monde pour des séjours de moins d'un an",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie précédée d'une coche verte : systématiquement prévue au contrat."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Individuelle accident (dommages corporels de l'assuré)",
+      "description": "Les dommages corporels subis par l'assuré lors d'un accident survenu dans le cadre de la vie privée, universitaire, scolaire (y compris accidents de la circulation) ou dans le cadre d'une activité sportive.",
+      "is_optional": false,
+      "territorial_scope": "en France, pays de l'Union Européenne, Andorre, Liechtenstein, Monaco, Norvège, Saint-Marin, Suisse, Vatican, départements, régions et collectivité d'Outre-mer ; dans les autres pays du monde pour des séjours de moins d'un an",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie précédée d'une coche verte : systématiquement prévue au contrat.",
+        "L'indemnisation des dommages corporels intervient pour un taux d'invalidité supérieur à 10 % et en fonction de celui-ci."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Frais d'obsèques en cas de décès accidentel",
+      "description": "Les frais d'obsèques en cas de décès accidentel de l'assuré.",
+      "is_optional": false,
+      "territorial_scope": "en France, pays de l'Union Européenne, Andorre, Liechtenstein, Monaco, Norvège, Saint-Marin, Suisse, Vatican, départements, régions et collectivité d'Outre-mer ; dans les autres pays du monde pour des séjours de moins d'un an",
+      "limits": "dans la limite de 4 574 euros",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie précédée d'une coche verte : systématiquement prévue au contrat."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Capital « spécial coup dur »",
+      "description": "Un capital « spécial coup dur » si l'assuré perd une année d'études en raison d'un évènement majeur survenu en période d'examen final.",
+      "is_optional": false,
+      "territorial_scope": "en France, pays de l'Union Européenne, Andorre, Liechtenstein, Monaco, Norvège, Saint-Marin, Suisse, Vatican, départements, régions et collectivité d'Outre-mer ; dans les autres pays du monde pour des séjours de moins d'un an",
+      "limits": "3 049 euros",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie précédée d'une coche verte : systématiquement prévue au contrat."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance en cas de blessure, maladie ou décès",
+      "description": "L'assistance en cas de blessure, maladie ou décès.",
+      "is_optional": false,
+      "territorial_scope": "en France, pays de l'Union Européenne, Andorre, Liechtenstein, Monaco, Norvège, Saint-Marin, Suisse, Vatican, départements, régions et collectivité d'Outre-mer ; dans les autres pays du monde pour des séjours de moins d'un an",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie précédée d'une coche verte : systématiquement prévue au contrat.",
+        "Garantie précédée d'une coche verte : systématiquement prévue au contrat.",
+        "Figure sous « Les services d'assistance lors des déplacements de l'assuré »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance en cas de décès d'un ascendant, d'un frère ou d'une sœur",
+      "description": "L'assistance en cas de décès d'un ascendant en ligne directe, d'un frère ou d'une sœur.",
+      "is_optional": false,
+      "territorial_scope": "en France, pays de l'Union Européenne, Andorre, Liechtenstein, Monaco, Norvège, Saint-Marin, Suisse, Vatican, départements, régions et collectivité d'Outre-mer ; dans les autres pays du monde pour des séjours de moins d'un an",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie précédée d'une coche verte : systématiquement prévue au contrat.",
+        "Figure sous « Les services d'assistance lors des déplacements de l'assuré »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance en cas de vol ou perte de papiers d'identité ou d'argent",
+      "description": "L'assistance en cas de vol ou perte de papiers d'identité ou d'argent.",
+      "is_optional": false,
+      "territorial_scope": "en France, pays de l'Union Européenne, Andorre, Liechtenstein, Monaco, Norvège, Saint-Marin, Suisse, Vatican, départements, régions et collectivité d'Outre-mer ; dans les autres pays du monde pour des séjours de moins d'un an",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie précédée d'une coche verte : systématiquement prévue au contrat.",
+        "Figure sous « Les services d'assistance lors des déplacements de l'assuré »."
+      ],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Véhicules à moteur et remorques",
+      "description": "Les véhicules à moteur et leurs remorques.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Bateaux ou planches à voile",
+      "description": "Les bateaux ou planches à voile.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Biens professionnels",
+      "description": "Les biens professionnels.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Animaux",
+      "description": "Les animaux.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Fonds, titres et valeurs",
+      "description": "Les fonds (espèces, chèques, cartes de crédit, cartes bancaires), les titres ou valeurs (chèques restaurant, cartes d'abonnement, carte de téléphone, tickets ou titres de transport) et, d'une façon générale, tout document représentatif d'une valeur monétaire ou d'un mode de paiement.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Bijoux",
+      "description": "Les bijoux.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dommages corporels relevant des accidents du travail",
+      "description": "Les dommages corporels pris en charge au titre de la législation sur les accidents du travail.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dommages intentionnels ou faute dolosive",
+      "description": "Les dommages causés ou provoqués intentionnellement par l'assuré ou avec sa complicité, ou résultant de sa faute dolosive.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Guerre étrangère ou civile",
+      "description": "Les dommages résultant de la guerre étrangère ou civile.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Origine nucléaire ou rayonnement ionisant",
+      "description": "Les dommages d'origine nucléaire ou causés par toute source de rayonnement ionisant.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dommages immatériels non consécutifs",
+      "description": "Les dommages immatériels non consécutifs à un dommage matériel ou corporel garanti causés aux tiers.",
+      "applies_to": "Les exclusions spécifiques à certaines garanties",
+      "page": 1
+    },
+    {
+      "name": "Dommages causés aux tiers par un véhicule, une embarcation ou un aéronef",
+      "description": "Les dommages causés aux tiers par un véhicule terrestre à moteur, une embarcation à voile ou à moteur, un aéronef.",
+      "applies_to": "Les exclusions spécifiques à certaines garanties",
+      "page": 1
+    },
+    {
+      "name": "Dommages aux biens confiés",
+      "description": "La responsabilité de l'assuré pour les dommages causés aux biens qui lui sont confiés.",
+      "applies_to": "Les exclusions spécifiques à certaines garanties",
+      "page": 1
+    },
+    {
+      "name": "Dommages corporels : suicide, stupéfiants, alcool, rixes, sports à risque",
+      "description": "Les dommages corporels consécutifs à un accident résultant d'une tentative de suicide, de mutilations volontaires, de l'usage de stupéfiants ou d'un état alcoolique, de la participation à des mouvements populaires, émeutes, paris, défis, duels, rixes ou actes intentionnels, de la pratique d'un sport aérien, d'acrobaties ou de tentatives de record avec un véhicule à moteur.",
+      "applies_to": "Les exclusions spécifiques à certaines garanties",
+      "page": 1
+    },
+    {
+      "name": "Vols et vandalisme facilités par le non-respect des mesures de sécurité",
+      "description": "Les vols et actes de vandalisme permis ou facilités par le non-respect des mesures de sécurité (sauf cas fortuit ou de force majeure).",
+      "applies_to": "Et en assurance logement",
+      "page": 1
+    },
+    {
+      "name": "Dégâts des eaux ou du gel sans mesures de prévention",
+      "description": "Les dégâts des eaux ou du gel survenus alors que les mesures de prévention n'ont pas été mises en œuvre (sauf cas de force majeure ou s'il est prouvé que cette négligence n'a eu aucune influence sur la réalisation du sinistre).",
+      "applies_to": "Et en assurance logement",
+      "page": 1
+    },
+    {
+      "name": "Vol de biens entreposés en bungalow, mobile home ou caravane",
+      "description": "En voyage, en stage ou vacances, le vol des biens entreposés dans les bungalow, mobile home ou caravane.",
+      "applies_to": "Et en assurance logement",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Aucun montant n'est indiqué.",
+    "variable": "Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+    "per_coverage": null,
+    "page": 1
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "À la souscription du contrat",
+      "description": "Répondre exactement à toutes les questions posées pour identifier la nature du risque à assurer.",
+      "timing": "À la souscription du contrat",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "En cours de contrat",
+      "description": "Déclarer toute modification et tout changement dans la situation personnelle de l'assuré.",
+      "timing": "En cours de contrat",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "Conservation des justificatifs",
+      "description": "Conserver tout document permettant de prouver l'existence et la valeur des biens.",
+      "timing": null,
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "En cas de sinistre - limiter le sinistre",
+      "description": "Prendre toutes les dispositions nécessaires pour stopper l'évolution du sinistre, sauver tous les biens qui peuvent l'être.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "En cas de sinistre - déclaration",
+      "description": "Déclarer le sinistre à l'assureur à partir du moment où l'assuré en a connaissance et au plus tard dans les 5 jours ouvrés, dans les 2 jours ouvrés pour un vol.",
+      "timing": "au plus tard dans les 5 jours ouvrés ; dans les 2 jours ouvrés pour un vol",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "En cas de sinistre - dégâts matériels",
+      "description": "S'il s'agit de dégâts matériels, indiquer les date, heure du sinistre, les causes, circonstances et conséquences du sinistre tant pour l'assuré que pour des voisins ou des tiers.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "En cas de sinistre - dommages corporels",
+      "description": "S'il s'agit de dommages corporels, compléter ces informations en mentionnant les coordonnées des personnes blessées ou des organismes en cause (école, centre d'apprentissage…), la nature et la gravité des blessures.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "En cas de vol - plainte",
+      "description": "En cas de vol, prévenir la police ou la gendarmerie dans les 24 heures et déposer une plainte.",
+      "timing": "dans les 24 heures",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "En cas de sinistre - autres assureurs",
+      "description": "Transmettre les coordonnées des éventuels assureurs couvrant le même risque.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "En cas de sinistre - pièces de procédure",
+      "description": "Transmettre immédiatement toute pièce de procédure (avis à victime, assignation...).",
+      "timing": "immédiatement",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie.",
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Limiter le sinistre",
+      "description": "Prendre toutes les dispositions nécessaires pour stopper l'évolution du sinistre, sauver tous les biens qui peuvent l'être.",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Déclarer le sinistre",
+      "description": "Déclarer le sinistre à l'assureur à partir du moment où l'assuré en a connaissance.",
+      "deadline": "au plus tard dans les 5 jours ouvrés, dans les 2 jours ouvrés pour un vol",
+      "page": 2
+    },
+    {
+      "step": "Décrire les dégâts matériels",
+      "description": "S'il s'agit de dégâts matériels, indiquer les date, heure du sinistre, les causes, circonstances et conséquences du sinistre tant pour l'assuré que pour des voisins ou des tiers.",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Décrire les dommages corporels",
+      "description": "S'il s'agit de dommages corporels, compléter ces informations en mentionnant les coordonnées des personnes blessées ou des organismes en cause (école, centre d'apprentissage…), la nature et la gravité des blessures.",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Déposer plainte en cas de vol",
+      "description": "En cas de vol, prévenir la police ou la gendarmerie et déposer une plainte.",
+      "deadline": "dans les 24 heures",
+      "page": 2
+    },
+    {
+      "step": "Signaler les autres assureurs",
+      "description": "Transmettre les coordonnées des éventuels assureurs couvrant le même risque.",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Transmettre les pièces de procédure",
+      "description": "Transmettre toute pièce de procédure (avis à victime, assignation...).",
+      "deadline": "immédiatement",
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "La couverture commence à partir de la date convenue d'un commun accord et dure jusqu'à la date d'échéance principale. Le contrat peut être au choix reconduit automatiquement chaque année ou reconduit à l'initiative de l'assuré.",
+    "tacit_renewal": null,
+    "notice_period": "un mois (résiliation à l'échéance principale d'un contrat à tacite reconduction)",
+    "methods": [
+      "Soit par l'envoi d'une lettre recommandée",
+      "Soit en effectuant une déclaration auprès d'un conseiller de l'assureur"
+    ],
+    "special_rights": [
+      "si la situation personnelle ou professionnelle de l'assuré change dans certaines conditions",
+      "si la Macif résilie un autre contrat de l'assuré après sinistre",
+      "s'il s'agit d'un contrat à tacite reconduction : à l'échéance principale avec un préavis d'un mois, ou à tout moment au-delà d'un délai d'un an à compter de la première souscription",
+      "Lorsque le contrat a été souscrit à distance ou à la suite d'un démarchage à domicile, l'assuré dispose d'un droit de renonciation."
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "La cotisation est payable d'avance à la souscription puis à chaque date d'échéance.",
+      "Elle est exigible annuellement.",
+      "Le défaut de paiement pourra entraîner la résiliation du contrat.",
+      "Les paiements peuvent être effectués par prélèvement automatique, carte bancaire, chèque, TIP SEPA ou mandat."
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "LES PRINCIPALES RESTRICTIONS - seuils d'intervention (recours)",
+      "description": "Les recours amiables et judiciaires sont exercés pour les préjudices de montants supérieurs aux seuils d'intervention. Le document ne chiffre pas ces seuils.",
+      "page": 1
+    },
+    {
+      "name": "LES PRINCIPALES RESTRICTIONS - taux d'invalidité",
+      "description": "L'indemnisation des dommages corporels intervient pour un taux d'invalidité supérieur à 10 % et en fonction de celui-ci.",
+      "page": 1
+    },
+    {
+      "name": "LES PRINCIPALES RESTRICTIONS (Et en assurance logement) - franchise",
+      "description": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise).",
+      "page": 1
+    },
+    {
+      "name": "LES PRINCIPALES RESTRICTIONS (Et en assurance logement) - franchise catastrophes naturelles",
+      "description": "Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "page": 1
+    },
+    {
+      "name": "Plafonds de garantie",
+      "description": "Les biens et évènements assurés peuvent être soumis à des plafonds de garantie. Seuls certains d'entre eux sont mentionnés ci-après (7000 euros pour les biens mobiliers, 100 millions d'euros pour la responsabilité de locataire ou d'occupant, 3 mois de loyers pour la perte d'usage, 50 millions d'euros dont 10 millions pour la responsabilité civile personnelle, 4 574 euros pour les frais d'obsèques, 3 049 euros pour le capital « spécial coup dur »).",
+      "page": 1
+    },
+    {
+      "name": "Porteur du risque",
+      "description": "Le document désigne comme « Compagnie » : Macif - France - Société d'assurance mutuelle à cotisations variables - SIREN n° 781 452 511. Le pied de page ajoute : « Macif. Entreprise régie par le Code des assurances. Siège social : 1 rue Jacques Vandier - 79000 Niort. » Aucune autre entité (gestionnaire, assisteur, courtier) n'est nommée, y compris pour les garanties d'assistance.",
+      "page": 1
+    },
+    {
+      "name": "Portée du document",
+      "description": "Ce document d'information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte les besoins et demandes spécifiques du souscripteur ; l'information complète figure dans la documentation pré contractuelle et contractuelle.",
+      "page": 1
+    },
+    {
+      "name": "Droit de renonciation",
+      "description": "Lorsque le contrat a été souscrit à distance ou à la suite d'un démarchage à domicile, l'assuré dispose d'un droit de renonciation.",
+      "page": 2
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Compagnie : Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511",
+      "page": 1,
+      "context": "Identification du porteur de risque (bandeau de tête)"
+    },
+    {
+      "quote": "Produit : Contrat PREM’S - Assurance logement - Assurance personnelle",
+      "page": 1,
+      "context": "Nom du produit"
+    },
+    {
+      "quote": "Ce contrat d’assurance garantit l’assuré étudiant, apprenti ou travailleur saisonnier, contre les conséquences d’évènements mettant en cause sa responsabilité civile, \net le protège en cas d’accidents corporels survenus au cours de sa vie privée. Ce contrat peut également couvrir le logement dont l’assuré est locataire ou occupant.",
+      "page": 1,
+      "context": "De quel type d'assurance s'agit-il ? - objet du contrat"
+    },
+    {
+      "quote": "Les biens et évènements assurés peuvent être soumis à des plafonds \nde garantie. Seuls certains d’entre eux sont mentionnés ci-après.",
+      "page": 1,
+      "context": "Plafonds de garantie (colonne gauche)"
+    },
+    {
+      "quote": "Les biens mobiliers assurés (dans la limite de 7000 euros)",
+      "page": 1,
+      "context": "Plafond des biens mobiliers (colonne gauche)"
+    },
+    {
+      "quote": "La responsabilité de l’assuré locataire (ou occupant) , et celle de \nson colocataire (ou cooccupant) désigné au contrat, à l’égard du \npropriétaire et des tiers en raison de dommages consécutifs à un \nincendie, une explosion ou un dégât des eaux (dans la limite de 100 \nmillions d’euros)",
+      "page": 1,
+      "context": "Responsabilité de locataire ou d'occupant et son plafond (colonne gauche)"
+    },
+    {
+      "quote": "En cas d’évènement garanti, la perte d’usage du logement (dans la \nlimite de 3 mois de loyers) et les frais annexes",
+      "page": 1,
+      "context": "Perte d'usage du logement (colonne gauche)"
+    },
+    {
+      "quote": "responsabilité civile personnelle (dans la limite de 50 millions \nd’euros dont 10 millions pour les dommages matériels et immatériels \nconsécutifs)",
+      "page": 1,
+      "context": "Plafond de la responsabilité civile personnelle (colonne gauche, coche verte)"
+    },
+    {
+      "quote": "es frais d’obsèques en cas de décès accidentel de l’assuré (dans la \nlimite de 4 574 euros)",
+      "page": 1,
+      "context": "Frais d'obsèques (colonne gauche, coche verte)"
+    },
+    {
+      "quote": "capital “spécial coup dur” de 3 049 euros si l’assuré perd une \nannée d’études en raison d’un évènement majeur survenu en période \nd’examen fnal",
+      "page": 1,
+      "context": "Capital « spécial coup dur » (colonne gauche, coche verte ; le calque texte perd la ligature fi de « final »)"
+    },
+    {
+      "quote": "Les garanties précédées d’une coche   sont systématiquement \nprévues au contrat.",
+      "page": 1,
+      "context": "Légende de la coche verte (colonne gauche)"
+    },
+    {
+      "quote": "Les fonds (espèces, chèques, cartes de crédit, cartes bancaires), les titres \nou valeurs (chèques restaurant, cartes d’abonnement, carte de téléphone, \ntickets ou titres de transport) et, d’une façon générale, tout document \nreprésentatif d’une valeur monétaire ou d’un mode de paiement",
+      "page": 1,
+      "context": "Qu'est-ce qui n'est pas assuré ? (croix rouge, colonne droite)"
+    },
+    {
+      "quote": "Les dommages causés ou provoqués intentionnellement par l’assuré \nou avec sa complicité, ou résultant de sa faute dolosive",
+      "page": 1,
+      "context": "Exclusion commune à toutes les garanties"
+    },
+    {
+      "quote": "Les dommages résultant de la guerre étrangère ou civile",
+      "page": 1,
+      "context": "Exclusion commune à toutes les garanties"
+    },
+    {
+      "quote": "Les dommages corporels consécutifs à un accident résultant \nd’une tentative de suicide, de mutilations volontaires, de l’usage \nde stupéfants ou d’un état alcoolique, de la participation à des \nmouvements populaires, émeutes, paris, défs, duels, rixes ou actes \nintentionnels, de la pratique d’un sport aérien, d’acrobaties ou de \ntentatives de record avec un véhicule à moteur",
+      "page": 1,
+      "context": "Exclusion spécifique (le calque texte perd les ligatures : « stupéfants », « défs »)"
+    },
+    {
+      "quote": "Les recours amiables et judiciaires sont exercés pour les préjudices de \nmontants supérieurs aux seuils d’intervention",
+      "page": 1,
+      "context": "LES PRINCIPALES RESTRICTIONS"
+    },
+    {
+      "quote": "L’indemnisation des dommages corporels intervient pour un taux \nd’invalidité supérieur à 10 % et en fonction de celui-ci",
+      "page": 1,
+      "context": "LES PRINCIPALES RESTRICTIONS - taux d'invalidité"
+    },
+    {
+      "quote": "En cas de sinistre une somme peut rester à la charge de l’assuré \n(franchise) \n Les indemnisations au titre des catastrophes naturelles supportent une\nfranchise légale et inassurable",
+      "page": 1,
+      "context": "LES PRINCIPALES RESTRICTIONS (Et en assurance logement) - franchises"
+    },
+    {
+      "quote": "HAB-PREMS 10/18 - Macif. Entreprise régie par le Code des assurances. Siège social : 1 rue Jacques Vandier - 79000 Niort.",
+      "page": 1,
+      "context": "Référence d'édition et siège social (pied de page, texte pivoté)"
+    },
+    {
+      "quote": "Protection des biens assurés - Responsabilité de locataire ou d’occupant - Assistance habitation : à l’adresse du risque, en France métropolitaine",
+      "page": 2,
+      "context": "Où suis-je couvert(e) ? - assurance logement"
+    },
+    {
+      "quote": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie :",
+      "page": 2,
+      "context": "Sanction attachée aux obligations de l'assuré"
+    },
+    {
+      "quote": "déclarer le sinistre à l’assureur à partir du moment où l’assuré en a connaissance et au plus tard dans les 5 jours ouvrés, dans les 2 jours ouvrés pour un \nvol",
+      "page": 2,
+      "context": "Délais de déclaration de sinistre"
+    },
+    {
+      "quote": "La cotisation est payable d’avance à la souscription puis à chaque date d’échéance. Elle est exigible annuellement. Le défaut de paiement  pourra \nentraîner  la résiliation du contrat. \nLes paiements peuvent être efectués par prélèvement automatique, carte bancaire, chèque, TIP SEPA ou mandat.",
+      "page": 2,
+      "context": "Modalités de paiement de la cotisation"
+    },
+    {
+      "quote": "La couverture commence à partir de la date convenue d’un commun accord et dure jusqu’à la date d’échéance principale. Le contrat peut être au choix \nreconduit automatiquement chaque année ou reconduit à l’initiative de l’assuré.",
+      "page": 2,
+      "context": "Durée et reconduction du contrat"
+    },
+    {
+      "quote": "Soit par l’envoi d’une lettre recommandée, soit en efectuant une déclaration auprès d’un conseiller de l’assureur : \n- si la situation personnelle ou professionnelle de l’assuré change dans certaines conditions \n- si la Macif résilie un autre contrat de l’assuré après sinistre \n- s’il s’agit d’un contrat à tacite reconduction : à l’échéance principale avec un préavis d’un mois, ou à tout moment au-delà d’un délai d’un an à compter \nde la première souscription",
+      "page": 2,
+      "context": "Modalités et cas de résiliation"
+    }
+  ],
+  "gaps": [
+    "INVERSION DE COLONNES CONFIRMEE (page 1). Le texte plat émet la colonne de DROITE avant la colonne de GAUCHE, et de façon fragmentée : deux items de l'encadré « Qu'est-ce qui n'est pas assuré ? » (les fonds/titres, les accidents du travail) puis treize items d'exclusions et de restrictions sortent en tête de page, avant le bandeau de tête (y 27 à 150) et avant tout le contenu couvert de la colonne gauche ; les cinq autres items « n'est pas assuré » (véhicules, bateaux, biens professionnels, animaux, bijoux) sortent au contraire APRES la légende de la coche verte. Lu à plat, le titre « Qu'est-ce qui n'est pas assuré ? » précède immédiatement les garanties couvertes et cinq items non assurés se retrouvent collés à la liste des garanties. Rattachement reconstruit par marqueur puis par abscisse, vérifié sur rendu.",
+    "INVERSION VERTICALE dans la colonne de droite (page 1) : les titres « Y a-t-il des exclusions à la couverture ? » (y 348,4), « LES PRINCIPALES EXCLUSIONS » (y 376,6), « Les exclusions communes à toutes les garanties » (y 389,4), « Les exclusions spécifiques à certaines garanties » (y 452,2), « Et en assurance logement » (y 589,2 et y 743,4) et « LES PRINCIPALES RESTRICTIONS » (y 687,7) sont émis APRES les items qu'ils coiffent - sauf « Les dommages résultant de la guerre étrangère ou civile » (y 419,7), seul item émis à sa place au milieu des titres. Titres réattachés par ordonnée.",
+    "INVERSION VERTICALE en page 2 : « POUR L'ASSURANCE LOGEMENT » (y 65,0) sort avant le titre « Où suis-je couvert(e) ? » (y 36,9), et le bloc « Comment puis-je résilier le contrat ? » (y 579,2) est émis avant « Quand et comment effectuer les paiements ? » (y 413,0) et « Quand commence la couverture et quand prend-elle fin ? » (y 496,1). Ordre imprimé rétabli : couverture géographique, obligations, paiements, début/fin, résiliation.",
+    "MARQUEURS = IMAGES BITMAP, invisibles à get_text et à get_drawings ; comptés via les blocs image de get_text('dict'), placés par coordonnée, polarité vérifiée sur un rendu à 4x. Colonne gauche : coche verte (bitmap 86x95, x0 29,6) x9 aux ordonnées 602,9 / 632,9 / 642,9 / 658,9 / 688,9 / 708,9 / 751,7 / 761,7 / 781,7, plus une dixième dans la légende (x0 166,7). Colonne droite : croix rouge (bitmap 82x83, x0 307,2) x7 ; point d'exclamation rouge (bitmap 32x119, x0 308,1) x14. Page 2 : 5 coches (bitmap 112x112, x0 29,3) pour les 5 énoncés de couverture géographique.",
+    "ARITHMETIQUE DES MARQUEURS (page 1), fermée exactement. Colonne droite : 7 croix + 14 « ! » = 21 marqueurs pour 21 items = 7 items « Qu'est-ce qui n'est pas assuré ? » + 3 « exclusions communes à toutes les garanties » + 4 « exclusions spécifiques à certaines garanties » + 3 « Et en assurance logement » + 2 « LES PRINCIPALES RESTRICTIONS » + 2 « LES PRINCIPALES RESTRICTIONS / Et en assurance logement ». Les 17 entrées d'exclusions[] correspondent aux 7 + 3 + 4 + 3 ; les 4 restrictions sont portées par deductibles et special_conditions. Colonne gauche : 9 coches pour les 9 garanties de « L'ASSURANCE PERSONNELLE ».",
+    "AUCUNE COCHE SUR « L'ASSURANCE DU LOGEMENT » : les 17 garanties de cette section sont précédées d'un tiret et d'aucun bitmap, vérifié sur rendu (aucun bloc image dans la colonne gauche au-dessus de y 602,9). La légende dit seulement que « Les garanties précédées d'une coche sont systématiquement prévues au contrat » ; elle ne dit pas que les autres sont optionnelles. L'introduction ajoute « Ce contrat peut également couvrir le logement dont l'assuré est locataire ou occupant ». is_optional est donc laissé à null pour ces 17 garanties et à false pour les 9 garanties cochées, le fait étant reporté dans conditions[] plutôt que déduit.",
+    "CALQUE TEXTE DEFECTUEUX : les ligatures fi / ff / fl sont perdues. Le calque donne « spécifques », « fgurant », « confés », « stupéfants », « défs », « infuence », « fnal », « identifer », « modifcation », « efectuer », « efectués », « efectuant », « fn » là où le rendu imprime « spécifiques », « figurant », « confiés », « stupéfiants », « défis », « influence », « final », « identifier », « modification », « effectuer », « effectués », « effectuant », « fin ». Les champs structurés suivent l'imprimé ; les key_quotes suivent le calque texte et conservent la forme défectueuse.",
+    "Le calque texte coupe aussi des mots en début de ligne : « La\\n  responsabilité », « L\\n’information », « L\\nes dommages », « Un\\n \\n capital », « Resp\\n \\nonsabilité », « Biens\\n \\n de l'assuré », « Rec\\n \\nours ». Les citations ont été découpées autour de ces coupures.",
+    "Aucune définition contractuelle (glossaire) dans ce DIPA : definitions[] est vide, ce qui est normal pour ce format.",
+    "Aucun délai de carence ni délai de prescription n'est mentionné : waiting_periods[] est vide et prescription_period est null.",
+    "duration_and_cancellation.tacit_renewal laissé à null : le document indique que « Le contrat peut être au choix reconduit automatiquement chaque année ou reconduit à l'initiative de l'assuré », donc la tacite reconduction est une option et non un état de fait ; la rubrique résiliation vise d'ailleurs le cas « s'il s'agit d'un contrat à tacite reconduction ».",
+    "Le siège social imprimé ici (« 1 rue Jacques Vandier - 79000 Niort ») diffère de celui d'autres documents Macif du même corpus (« 2 et 4, rue de Pied de Fond 79000 Niort ») ; reproduit verbatim, sans correction.",
+    "Les seuils d'intervention des recours ne sont pas chiffrés ; la franchise « une somme peut rester à la charge de l'assuré » n'est pas chiffrée non plus.",
+    "Aucune troncature : le texte du prompt couvre les 2 pages du PDF et a été recoupé avec une extraction PyMuPDF page.get_text('text') indépendante."
+  ]
+}

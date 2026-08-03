@@ -1,0 +1,446 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "macif",
+  "insurer_name": "Macif",
+  "product_name": "Contrat Loyers impayés",
+  "branch": "credit-caution",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "Le document ne nomme aucune catégorie de public. Il s'adresse à « l'assuré propriétaire d'un bien immobilier, meublé ou non, à usage exclusif de résidence principale ou mixte (habitation/professionnel) donné en location », et la rubrique résiliation vise « une personne physique », sans que le document qualifie l'audience.",
+  "reference": "HAB GLI 03/20",
+  "edition_date": "2020-03",
+  "product_family": "Loyers impayés",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_loyer_impaye.pdf",
+  "source_pdf": "contrat-loyers-impayes-9c2663c1.pdf",
+  "source_sha256": "50d4ccdbb13f4187f70813592c3a7c6db68f7c94fe9e43e3da1d43eda21e221b",
+  "source_pages": 2,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d'information sur le produit d'assurance (DIPA/IPID) du contrat Loyers impayés de la Macif, porté par « Macif - France - Société d'assurance mutuelle à cotisations variables - SIREN n° 781 452 511 ». Le contrat garantit à l'assuré propriétaire d'un bien immobilier, meublé ou non, à usage exclusif de résidence principale ou mixte (habitation/professionnel) donné en location, le paiement des loyers impayés et des dégradations immobilières du fait du locataire, et lui offre une protection juridique pour ses litiges avec son locataire en lien avec l'exécution du contrat de bail. Trois garanties de base (Loyers impayés et Contentieux locatif, Dégradations immobilières, Protection juridique du bailleur) et une garantie optionnelle (Inoccupation anticipée du bien assuré) ; la couverture s'exerce en France.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Loyers impayés et Contentieux locatif",
+      "description": "Remboursement du montant des loyers, charges et taxes impayés par le locataire ; frais de procédures judiciaires (honoraires avocat, huissier, dépens) exposés pour le recouvrement des loyers, charges et taxes, ou pour l'expulsion du locataire.",
+      "is_optional": false,
+      "territorial_scope": "En France",
+      "limits": "Les événements assurés sont soumis à des plafonds de garantie mentionnés aux conditions particulières.",
+      "sub_limits": [],
+      "deductible": "L'indemnisation intervient sous déduction d'une somme restant à la charge de l'assuré (franchise) fixée à l'équivalent du dépôt de garantie.",
+      "conditions": [
+        "Garantie de base : précédée d'une coche, elle est systématiquement prévue au contrat.",
+        "Déclaration du sinistre au plus tard dans les 35 jours suivant la délivrance du commandement de payer au locataire."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Dégradations immobilières",
+      "description": "Paiement des travaux de remise en état suite à des dégradations des biens immobiliers causées par le locataire et constatées à son départ par comparaison des états des lieux d'entrée et de sortie établis contradictoirement ou par huissier.",
+      "is_optional": false,
+      "territorial_scope": "En France",
+      "limits": "Les événements assurés sont soumis à des plafonds de garantie mentionnés aux conditions particulières.",
+      "sub_limits": [],
+      "deductible": "L'indemnisation intervient sous déduction d'une somme restant à la charge de l'assuré (franchise) fixée à l'équivalent du dépôt de garantie.",
+      "conditions": [
+        "Garantie de base : précédée d'une coche, elle est systématiquement prévue au contrat.",
+        "Dégradations constatées au départ du locataire par comparaison des états des lieux d'entrée et de sortie établis contradictoirement ou par huissier.",
+        "Déclaration du sinistre dans le mois qui suit le départ du locataire."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Protection juridique du bailleur",
+      "description": "Prise en charge soit à l'amiable, soit devant une juridiction française des actions rendues nécessaires à la suite d'un litige avec le locataire qui découle du contrat de location (honoraires d'avocat, d'huissier, dépens).",
+      "is_optional": false,
+      "territorial_scope": "En France ; actions portées, le cas échéant, devant une juridiction française.",
+      "limits": "Les événements assurés sont soumis à des plafonds de garantie mentionnés aux conditions particulières.",
+      "sub_limits": [],
+      "deductible": "L'indemnisation intervient sous déduction d'une somme restant à la charge de l'assuré (franchise) fixée à l'équivalent du dépôt de garantie.",
+      "conditions": [
+        "Garantie de base : précédée d'une coche, elle est systématiquement prévue au contrat.",
+        "Le litige doit découler du contrat de location et opposer l'assuré à son locataire."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Inoccupation anticipée du bien assuré",
+      "description": "Pertes financières résultant de la non-location du bien suite au départ anticipé du locataire, ou suite aux travaux de remise en état pris en charge au titre des Dégradations immobilières.",
+      "is_optional": true,
+      "territorial_scope": "En France",
+      "limits": "Les événements assurés sont soumis à des plafonds de garantie mentionnés aux conditions particulières.",
+      "sub_limits": [],
+      "deductible": "L'indemnisation intervient sous déduction d'une somme restant à la charge de l'assuré (franchise) fixée à l'équivalent du dépôt de garantie.",
+      "conditions": [
+        "Seule garantie figurant sous l'intitulé « LA GARANTIE OPTIONNELLE » ; elle n'est pas précédée d'une coche verte, contrairement aux trois garanties de base."
+      ],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Loyers supérieurs à 2 500 euros par mois",
+      "description": "Les loyers supérieurs à 2 500 euros par mois charges et taxes comprises.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Bail d'une durée inférieure à 12 mois",
+      "description": "Les locaux faisant l'objet d'un bail dont la durée est inférieure à 12 mois.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Locaux et baux hors champ du contrat",
+      "description": "Les locations des garages isolés, les baux commerciaux, ruraux, professionnels, verbaux, précaires, les locations saisonnières, hôtelières ou médicalisées, les logements de fonction, les logements faisant l'objet d'une sous-location, les chambres louées situées dans la résidence principale ou secondaire du propriétaire, les locaux ne présentant pas les normes légales d'habitabilité, les habitations louées à titre de résidences secondaires.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Suspension de recouvrement ou délais légaux pour libérer les lieux",
+      "description": "En cas de suspension de recouvrement des loyers ou délais octroyés pour libérer les lieux par mesures légales, règlementaires, judiciaires, administratives.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Action concertée de plusieurs locataires",
+      "description": "En cas de non-paiement du loyer, charges et taxes par le locataire, à la suite d'une action concertée de plusieurs locataires occupant le même ensemble immobilier.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Cataclysme, catastrophe naturelle, ouragan, cyclone, glissement de terrain",
+      "description": "En cas de survenance d'un cataclysme, d'une catastrophe naturelle, d'un ouragan, d'un cyclone, d'un glissement de terrain affectant le bien loué.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dommages d'origine nucléaire",
+      "description": "Les dommages d'origine nucléaire.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Non-respect par le propriétaire de ses obligations envers le locataire",
+      "description": "En cas de non-respect par le propriétaire ou par son mandataire, des obligations légales ou contractuelle à l'égard du locataire.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Frais et honoraires non pris en charge",
+      "description": "Les frais de mise en demeure, la consignation des loyers, les frais de garde meubles, les honoraires de résultats de l'avocat, les frais de déplacement de l'avocat, les honoraires supplémentaires, les frais et honoraires de l'avocat postulant.",
+      "applies_to": "Les exclusions spécifiques à certaines garanties",
+      "page": 1
+    },
+    {
+      "name": "Dommages aux aménagements extérieurs",
+      "description": "Les dommages causés aux aménagements extérieurs, aux espaces verts, arbres et autres plantations, aux éléments de clôture et de fermeture de terrains privatifs, aux terrasses, aux piscines, saunas, jacuzzis.",
+      "applies_to": "Les exclusions spécifiques à certaines garanties",
+      "page": 1
+    },
+    {
+      "name": "Dommages aux biens mobiliers",
+      "description": "Les dommages causés aux biens mobiliers même fixés ou scellés, aux éléments de cuisine intégrée, et aux meubles meublants.",
+      "applies_to": "Les exclusions spécifiques à certaines garanties",
+      "page": 1
+    },
+    {
+      "name": "Frais de nettoyage",
+      "description": "Les frais de nettoyage.",
+      "applies_to": "Les exclusions spécifiques à certaines garanties",
+      "page": 1
+    },
+    {
+      "name": "Changement de serrures",
+      "description": "Le changement de serrures, sauf ouverture forcée rendue nécessaire pour l'exécution d'un jugement ou d'un commandement d'huissier.",
+      "applies_to": "Les exclusions spécifiques à certaines garanties",
+      "page": 1
+    },
+    {
+      "name": "Biens immobiliers classés ou frappés d'un arrêté de mise en péril ou d'insalubrité",
+      "description": "Les dommages causés aux biens immobiliers classés ou faisant l'objet d'un arrêté de mise en péril ou d'insalubrité.",
+      "applies_to": "Les exclusions spécifiques à certaines garanties",
+      "page": 1
+    },
+    {
+      "name": "Défaut d'entretien ou usure normale",
+      "description": "Le défaut d'entretien ou l'usure normale des biens immobiliers et embellissements.",
+      "applies_to": "Les exclusions spécifiques à certaines garanties",
+      "page": 1
+    },
+    {
+      "name": "Risques que le locataire doit assurer",
+      "description": "Les dommages relevant des risques pour lequel le locataire doit s'assurer : dégâts des eaux, incendies, explosions.",
+      "applies_to": "Les exclusions spécifiques à certaines garanties",
+      "page": 1
+    },
+    {
+      "name": "Embellissements après plus de 9 années d'occupation",
+      "description": "Les embellissements si les locaux ont été occupés plus de 9 années par un même locataire.",
+      "applies_to": "Les exclusions spécifiques à certaines garanties",
+      "page": 1
+    },
+    {
+      "name": "Litiges couverts par une assurance de responsabilité civile",
+      "description": "Les litiges impliquant la défense des intérêts du Propriétaire assuré au plan judiciaire quand ces intérêts sont couverts par une assurance de responsabilité civile.",
+      "applies_to": "Les exclusions spécifiques à certaines garanties",
+      "page": 1
+    },
+    {
+      "name": "Amendes et condamnations",
+      "description": "Les amendes et condamnations éventuelles prononcées à l'encontre de l'assuré.",
+      "applies_to": "Les exclusions spécifiques à certaines garanties",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": "L'indemnisation intervient sous déduction d'une somme restant à la charge de l'assuré (franchise) fixée à l'équivalent du dépôt de garantie.",
+    "variable": null,
+    "per_coverage": null,
+    "page": 1
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Avant la signature d'un nouveau bail",
+      "description": "Contrôler que le locataire est en mesure de remplir ses obligations en obtenant les documents dont la liste est fixée au contrat.",
+      "timing": "Avant la signature d'un nouveau bail",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "Lors de l'entrée dans les lieux du locataire",
+      "description": "Établir un bail, dresser un état des lieux contradictoire et percevoir un dépôt de garantie, dans les conditions fixées par la loi.",
+      "timing": "Lors de l'entrée dans les lieux du locataire",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "A la souscription du contrat d'assurance",
+      "description": "Répondre exactement à toutes les questions posées pour identifier la nature du risque à assurer et fournir les justificatifs.",
+      "timing": "A la souscription du contrat d'assurance",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "En cours de contrat",
+      "description": "Déclarer, à partir du moment où l'assuré en a connaissance, toutes les circonstances nouvelles et tous les changements qui modifient les renseignements fournis lors de la souscription et qui sont de nature à aggraver le risque assuré ou à en créer un nouveau.",
+      "timing": "En cours de contrat, à partir du moment où l'assuré en a connaissance",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "En cas de sinistre - déclaration",
+      "description": "Déclarer le sinistre à l'assureur à partir du moment où l'assuré en a connaissance et au plus tard, dans les 35 jours suivant la délivrance du commandement de payer au locataire pour la garantie Loyers impayés, et dans le mois qui suit le départ du locataire pour la garantie Dégradations immobilières.",
+      "timing": "au plus tard dans les 35 jours suivant la délivrance du commandement de payer (Loyers impayés) ; dans le mois qui suit le départ du locataire (Dégradations immobilières)",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "En cas de sinistre - pièces justificatives",
+      "description": "Transmettre l'ensemble des pièces nécessaires à l'assureur pour la gestion du sinistre.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "En cas de sinistre - autres assureurs",
+      "description": "Transmettre les coordonnées des éventuels assureurs couvrant le même risque.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie.",
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclarer le sinistre à l'assureur",
+      "description": "Déclarer le sinistre à l'assureur à partir du moment où l'assuré en a connaissance.",
+      "deadline": "Au plus tard dans les 35 jours suivant la délivrance du commandement de payer au locataire pour la garantie Loyers impayés, et dans le mois qui suit le départ du locataire pour la garantie Dégradations immobilières.",
+      "page": 2
+    },
+    {
+      "step": "Transmettre les pièces",
+      "description": "Transmettre l'ensemble des pièces nécessaires à l'assureur pour la gestion du sinistre.",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Signaler les autres assureurs",
+      "description": "Transmettre les coordonnées des éventuels assureurs couvrant le même risque.",
+      "deadline": null,
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "La couverture commence à partir de la date convenue d'un commun accord et dure jusqu'à la date d'échéance principale. Le contrat est souscrit, sauf indication contraire aux Conditions Particulières, pour une durée d'un an renouvelable automatiquement.",
+    "tacit_renewal": true,
+    "notice_period": "deux mois (résiliation à l'échéance principale)",
+    "methods": [
+      "Par lettre ou tout autre support durable"
+    ],
+    "special_rights": [
+      "à l'échéance principale, avec un préavis de deux mois",
+      "si la Macif résilie un autre contrat de l'assuré après sinistre",
+      "en cas d'augmentation de la cotisation",
+      "au départ du locataire mentionné aux conditions particulières",
+      "Lorsque le contrat a été souscrit par une personne physique, à distance ou à la suite d'un démarchage à domicile, l'assuré dispose d'un droit de renonciation."
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "La cotisation est payable d'avance à la souscription puis à chaque date d'échéance.",
+      "Elle est exigible annuellement.",
+      "Le défaut de paiement dans les 10 jours à compter de la date d'échéance pourra entraîner, après une mise en demeure, la suspension des garanties puis la résiliation du contrat.",
+      "Les paiements sont effectués par chèque ou carte bancaire."
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "LES PRINCIPALES RESTRICTIONS - franchise",
+      "description": "L'indemnisation intervient sous déduction d'une somme restant à la charge de l'assuré (franchise) fixée à l'équivalent du dépôt de garantie.",
+      "page": 1
+    },
+    {
+      "name": "Plafonds de garantie",
+      "description": "Les événements assurés sont soumis à des plafonds de garantie mentionnés aux conditions particulières. Aucun montant de plafond n'est chiffré dans le document.",
+      "page": 1
+    },
+    {
+      "name": "Porteur du risque",
+      "description": "Le document désigne comme « Compagnie » : Macif - France - Société d'assurance mutuelle à cotisations variables - SIREN n° 781 452 511. Le bas de page ajoute : « Macif. Entreprise régie par le Code des assurances. Siège social : 2 et 4, rue de Pied de Fond 79000 Niort. » Aucune autre entité (gestionnaire, assisteur, courtier) n'est nommée.",
+      "page": 1
+    },
+    {
+      "name": "Portée du document",
+      "description": "Ce document d'information présente un résumé des principales garanties et exclusions du produit. Il ne prend pas en compte les besoins et demandes spécifiques du souscripteur ; l'information complète figure dans la documentation pré contractuelle et contractuelle.",
+      "page": 1
+    },
+    {
+      "name": "Droit de renonciation",
+      "description": "Lorsque le contrat a été souscrit par une personne physique, à distance ou à la suite d'un démarchage à domicile, l'assuré dispose d'un droit de renonciation.",
+      "page": 2
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Compagnie : Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511",
+      "page": 1,
+      "context": "Identification du porteur de risque (bandeau de tête)"
+    },
+    {
+      "quote": "Ce contrat d’assurance garantit à l’assuré propriétaire d’un bien immobilier, meublé ou non, à usage exclusif de résidence principale ou mixte (habitation/ \nprofessionnel) donné en location,  le paiement des loyers impayés et des dégradations immobilières du fait du locataire. Ce contrat ofre également une protection \njuridique à l’assuré pour ses litiges avec son locataire en lien avec l’exécution du contrat de bail.",
+      "page": 1,
+      "context": "De quel type d'assurance s'agit-il ? - objet du contrat"
+    },
+    {
+      "quote": "Les  événements assurés sont soumis à des plafonds de garantie \nmentionnés aux conditions particulières.",
+      "page": 1,
+      "context": "Plafonds de garantie renvoyés aux conditions particulières"
+    },
+    {
+      "quote": "L oyers impayés et Contentieux locatif : \n- r emboursement du montant des loyers, charges et taxes impayés par \nle locataire  \n- fr ais de procédures judiciaires (honoraires avocat, huissier, dépens) \nexposés pour le recouvrement des loyers, charges et taxes, ou pour \nl’expulsion du locataire",
+      "page": 1,
+      "context": "Garantie de base 1 (colonne gauche, coche verte)"
+    },
+    {
+      "quote": "D égradations immobilières : paiement des travaux de remise en état \nsuite à des dégradations des biens immobiliers causées par le  locataire \net constatées à son départ par comparaison des états des lieux d’entrée \net de sortie établis contradictoirement ou par huissier",
+      "page": 1,
+      "context": "Garantie de base 2 (colonne gauche, coche verte)"
+    },
+    {
+      "quote": "P rotection juridique du bailleur : prise en charge soit à l’amiable, soit \ndevant une juridiction française des actions rendues nécessaires à la suite \nd’un litige avec le locataire qui découle du contrat de location (honoraires \nd’avocat, d’huissier, dépens)",
+      "page": 1,
+      "context": "Garantie de base 3 (colonne gauche, coche verte)"
+    },
+    {
+      "quote": "Inoccupation anticipée du bien assuré : pertes fnancières résultant de \nla non-location du bien suite au départ  anticipé du locataire, ou suite \naux travaux de remise en état pris en charge au titre des Dégradations \nimmobilières",
+      "page": 1,
+      "context": "LA GARANTIE OPTIONNELLE (colonne gauche, sans coche)"
+    },
+    {
+      "quote": "Les garanties précédées d’une coche",
+      "page": 1,
+      "context": "Légende de la coche verte (colonne gauche)"
+    },
+    {
+      "quote": "Les loyers supérieurs à 2 500 euros par mois charges et taxes comprises",
+      "page": 1,
+      "context": "Qu'est-ce qui n'est pas assuré ? - item 1 (croix rouge, colonne droite)"
+    },
+    {
+      "quote": "Les locations des garages isolés, les baux commerciaux, ruraux, profes-\nsionnels, verbaux, précaires, les locations saisonnières, hôtelières ou \nmédicalisées, les logements de fonction, les logements faisant l’objet \nd’une sous-location, les chambres louées situées dans la résidence prin-\ncipale ou secondaire du propriétaire, les locaux ne présentant pas les \nnormes légales d’habitabilité, les habitations louées à titre de résidences \nsecondaires",
+      "page": 1,
+      "context": "Qu'est-ce qui n'est pas assuré ? - item 3 (croix rouge, colonne droite)"
+    },
+    {
+      "quote": "En cas de survenance d’un cataclysme, d’une catastrophe naturelle, d’un \nouragan, d’un cyclone, d’un glissement de terrain afectant le bien loué",
+      "page": 1,
+      "context": "Exclusion commune - le calque texte perd la ligature ff (« afectant » pour « affectant »)"
+    },
+    {
+      "quote": "Les dommages relevant des risques pour lequel le locataire doit s’assurer : \ndégâts des eaux, incendies, explosions",
+      "page": 1,
+      "context": "Exclusion spécifique"
+    },
+    {
+      "quote": "L’indemnisation intervient sous déduction d’une somme restant à la \ncharge de l’assuré (franchise) fxée à l’équivalent du dépôt de garantie",
+      "page": 1,
+      "context": "LES PRINCIPALES RESTRICTIONS - franchise (« fxée » = « fixée », ligature fi perdue)"
+    },
+    {
+      "quote": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie :",
+      "page": 2,
+      "context": "Sanction attachée aux obligations de l'assuré"
+    },
+    {
+      "quote": "er le sinistre à l’assureur à partir du moment où l’assuré en a connaissance et au plus tard, dans les 35 jours suivant la délivrance du commandement \nde payer au locataire pour la garantie Loyers impayés, et dans le mois qui suit le départ du locataire pour la garantie Dégradations immobilières",
+      "page": 2,
+      "context": "Délais de déclaration de sinistre (le calque texte coupe le mot « déclarer »)"
+    },
+    {
+      "quote": "La cotisation est payable d’avance à la souscription puis à chaque date d’échéance. Elle est exigible annuellement. Le défaut de paiement dans les 10 jours \nà compter de la date d’échéance pourra entraîner, après une mise en demeure, la suspension des garanties puis la résiliation du contrat.",
+      "page": 2,
+      "context": "Modalités de paiement de la cotisation"
+    },
+    {
+      "quote": "La couverture commence à partir de la date convenue d’un commun accord et dure jusqu’à la date d’échéance principale. Le contrat est souscrit, sauf \nindication contraire aux Conditions Particulières, pour une durée d’un an renouvelable automatiquement. Il est à son expiration reconduit d’année en \nannée, sauf si l’une des parties décide d’y mettre fn dans les délais et conditions prévus au contrat.",
+      "page": 2,
+      "context": "Durée et reconduction du contrat"
+    },
+    {
+      "quote": "Lorsque le contrat a été souscrit par une personne physique, à distance ou à la suite d’un démarchage à domicile, l’assuré dispose d’un droit de renonciation.",
+      "page": 2,
+      "context": "Droit de renonciation"
+    },
+    {
+      "quote": "HAB GLI 03/20- Macif. Entreprise régie par le Code des assurances. Siège social : 2 et 4, rue de Pied de Fond 79000 Niort.",
+      "page": 1,
+      "context": "Référence d'édition et siège social (pied de page, texte pivoté)"
+    }
+  ],
+  "gaps": [
+    "INVERSION DE COLONNES CONFIRMEE (page 1). Le texte plat de la page 1 émet la colonne de DROITE avant la colonne de GAUCHE : les vingt items des encadrés « Qu'est-ce qui n'est pas assuré ? » et « Y a-t-il des exclusions à la couverture ? » (y 216 à 790) sortent en premier, puis le bandeau de tête (y 27 à 160), puis les deux titres d'encadrés côte à côte, puis seulement les garanties couvertes de la colonne gauche (y 216 à 497). Lu à plat, le titre « Qu'est-ce qui n'est pas assuré ? » précède immédiatement les trois garanties de base couvertes, ce qui inverse leur sens. Le rattachement a été reconstruit par marqueur puis par abscisse sur un rendu.",
+    "INVERSION VERTICALE dans la colonne de droite (page 1) : les titres de section « Y a-t-il des exclusions à la couverture ? » (y 330,9), « LES PRINCIPALES EXCLUSIONS » (y 359,0), « Les exclusions communes à toutes les garanties » (y 371,9) et « Les exclusions spécifiques à certaines garanties » (y 497,4) sont émis APRES les items qu'ils coiffent. Les titres ont été réattachés à leurs items par ordonnée.",
+    "INVERSION VERTICALE en page 2 : le bloc « Comment puis-je résilier le contrat ? » (y 472) est émis avant « Quand et comment effectuer les paiements ? » (y 296) et « Quand commence la couverture et quand prend-elle fin ? » (y 379). Sans conséquence sur les rattachements, l'ordre imprimé étant : couverture géographique, obligations, paiements, début/fin, résiliation.",
+    "MARQUEURS = IMAGES BITMAP, invisibles à get_text et à get_drawings. Ils ont été comptés via les blocs image de get_text('dict') et placés par coordonnée, puis leur polarité vérifiée sur un rendu à 4x et 6x. Colonne gauche : coche verte (bitmap 11x12, x0 29,6) x3 aux ordonnées 264,2 / 324,2 / 364,2, plus une quatrième dans la légende (x0 164,4). Colonne droite : croix rouge (bitmap 10x10, x0 307,2) x3 aux ordonnées 219,3 / 229,3 / 239,3 ; point d'exclamation rouge (bitmap 4x15, x0 308,1) x17.",
+    "ARITHMETIQUE DES MARQUEURS (page 1), fermée exactement. Colonne droite : 3 croix + 17 « ! » = 20 marqueurs, pour 20 items = 3 items « Qu'est-ce qui n'est pas assuré ? » + 5 « exclusions communes à toutes les garanties » + 11 « exclusions spécifiques à certaines garanties » + 1 « LES PRINCIPALES RESTRICTIONS ». Colonne gauche : 3 coches pour les 3 garanties de base ; la garantie optionnelle « Inoccupation anticipée du bien assuré » porte un tiret et aucune coche, ce que confirme la légende « Les garanties précédées d'une coche sont systématiquement prévues au contrat ». Les 19 entrées d'exclusions[] correspondent aux 3 + 5 + 11 ; la restriction (franchise) est portée par deductibles et special_conditions plutôt que par exclusions[].",
+    "CALQUE TEXTE DEFECTUEUX : les ligatures fi / ff / fl sont perdues. Le calque donne « afectant », « fxée », « fxées », « fxés », « spécifques », « ofre », « fnancières », « efectuer », « efectués », « fn », « justifcatifs », « identifer », « modifent » là où le rendu imprime « affectant », « fixée », « fixées », « fixés », « spécifiques », « offre », « financières », « effectuer », « effectués », « fin », « justificatifs », « identifier », « modifient ». Vérifié sur rendu à 6x et 7x. Les champs structurés suivent l'imprimé ; les key_quotes suivent le calque texte et conservent donc la forme défectueuse (« afectant », « fxée »).",
+    "Le calque texte coupe aussi des mots en début de ligne : « L\\noyers », « D\\négradations », « P\\nrotection », « déclar\\ner », « à l\\n'échéance », « si la M\\nacif », « au dépar\\nt », « tr\\nansmettre ». Les citations ont été découpées autour de ces coupures.",
+    "Aucune définition contractuelle (glossaire) dans ce DIPA : definitions[] est vide, ce qui est normal pour ce format.",
+    "Aucun délai de carence ni délai de prescription n'est mentionné : waiting_periods[] est vide et prescription_period est null.",
+    "Aucun montant de plafond n'est chiffré : le document renvoie aux conditions particulières. Le seul montant chiffré du document est le seuil d'exclusion « 2 500 euros par mois charges et taxes comprises ».",
+    "target_audience laissé à null : le document ne nomme aucune des catégories du schéma. Son propre libellé est reporté dans target_audience_note.",
+    "Aucune troncature : le texte du prompt couvre les 2 pages du PDF et a été recoupé avec une extraction PyMuPDF page.get_text('text') indépendante."
+  ]
+}
