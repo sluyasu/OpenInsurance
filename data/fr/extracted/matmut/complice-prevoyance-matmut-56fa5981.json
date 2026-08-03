@@ -1,0 +1,580 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "matmut",
+  "insurer_name": "Matmut",
+  "product_name": "Complice Prévoyance Matmut",
+  "branch": "prevoyance",
+  "branch_code": null,
+  "document_type": "conditions_generales",
+  "language": "fr",
+  "target_audience": "particuliers",
+  "target_audience_note": "L’adhérent/assuré doit « avoir la qualité de membre participant ou membre honoraire au titre des statuts de Matmut Mutualité », « résider en France métropolitaine ou Monaco », « être âgé de 18 ans au moins, ne pas avoir atteint son 65e anniversaire, et avoir la capacité à contracter » (article 6). Il s’agit d’une personne physique.",
+  "reference": "VP.10 - 03/25",
+  "edition_date": "03/25",
+  "product_family": "Complice Prévoyance Matmut",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.matmut.fr/services-en-ligne/doc/IPID/Notice-CPM.pdf",
+  "source_pdf": "complice-prevoyance-matmut-56fa5981.pdf",
+  "source_sha256": "788bf35785e342a1783afc0760b83b56cbc6515595ce90ea638883a35110ea96",
+  "source_pages": 16,
+  "fetched_at": "2026-07-30",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Notice d’information du contrat Complice Prévoyance Matmut, contrat collectif d’assurance sur la vie à adhésion facultative souscrit par Matmut Mutualité au profit de ses membres auprès de Matmut Vie, société d’assurance vie du Groupe Matmut. C’est un contrat temporaire Décès à fonds perdus comportant en sus une garantie Perte Totale et Irréversible d’Autonomie (PTIA) : il garantit le versement d’un capital forfaitaire au bénéficiaire désigné en cas de décès avant le 31 décembre suivant le 75e anniversaire de l’adhérent, ou par anticipation à l’assuré en cas de PTIA survenue avant son 65e anniversaire. Le capital souscrit va de 20 000 € à 200 000 €. Le contrat ne comporte ni valeur de réduction, ni valeur de rachat, ni taux garanti, ni garantie de fidélité. La notice décrit le lexique, la territorialité, les exclusions, les critères d’adhésion et les formalités médicales, la clause bénéficiaire, les cotisations, la durée et la fin de l’adhésion, la renonciation, l’évolution des garanties, le règlement des prestations, les conséquences des fausses déclarations, la fiscalité et les dispositions diverses.",
+  "definitions": [
+    {
+      "term": "Adhérent/assuré",
+      "definition": "Personne physique qui adhère au présent contrat d’assurance et s’engage à payer les cotisations. Elle est désignée sur le bulletin d’adhésion ou certificat d’adhésion sur la tête de laquelle repose les risques garantis.",
+      "page": 4
+    },
+    {
+      "term": "Âge",
+      "definition": "Le calcul de l’âge se fait toujours par différence de millésime entre l’année d’assurance considérée et l’année de naissance. Par exemple, en 2025, une personne née en 2005 aura 2025 – 2005 = 20 ans.",
+      "page": 4
+    },
+    {
+      "term": "Avenant",
+      "definition": "On désigne par avenant, toute modification apportée au contrat initial.",
+      "page": 4
+    },
+    {
+      "term": "AVQ",
+      "definition": "Activités de la vie quotidienne. Les AVQ sont au nombre de 6 : la toilette (aptitude à se laver dans la baignoire ou la douche, y compris l’entrée ou la sortie, ou à se laver par d’autres moyens) ; l’habillage (aptitude à mettre, enlever, attacher et détacher tous ses vêtements et, le cas échéant, tous appareils orthopédiques, membres artificiels ou autres appareils chirurgicaux) ; l’alimentation (aptitude à s’alimenter avec des plats préparés et mis à disposition) ; la continence (aptitude à utiliser les toilettes ou à éliminer ses urines et ses selles, y compris avec l’aide de protection ou de dispositifs chirurgicaux si nécessaire) ; le déplacement (aptitude à se déplacer à l’intérieur de son logement, sur des surfaces sans obstacles) ; les transferts (aptitude à passer du lit à une chaise ou à un fauteuil roulant, ou inversement).",
+      "page": 4
+    },
+    {
+      "term": "Bénéficiaire(s)",
+      "definition": "Désigne la (les) personne(s) physique(s) ou morale(s), mentionnée(s) sur le certificat d’adhésion ou désignée(s) ultérieurement par l’assuré sous réserve que cette désignation ait été portée à la connaissance de l’assureur.",
+      "page": 4
+    },
+    {
+      "term": "Consolidation",
+      "definition": "Moment où les lésions se sont fixées et ont pris un caractère permanent tel qu’un traitement n’est plus nécessaire, si ce n’est pour éviter une aggravation.",
+      "page": 4
+    },
+    {
+      "term": "Force majeure",
+      "definition": "Désigne la force majeure telle que définie à l’article 1218 du Code civil.",
+      "page": 4
+    },
+    {
+      "term": "Sinistre",
+      "definition": "Survenance d’une maladie ou d’un accident mettant en jeu au moins une des garanties du contrat dès lors que le contrat est en cours.",
+      "page": 4
+    },
+    {
+      "term": "Situation familiale",
+      "definition": "Conjoint : personne avec laquelle l’adhérent/assuré est marié. Partenaire de pacs : personne liée à l’adhérent/assuré par un pacte civil de solidarité. Enfants à charge : les enfants fiscalement à charge de l’assuré ou les enfants dont la filiation est reconnue avec l’assuré, âgés de moins de 25 ans ; les enfants (qui ne font pas de déclaration fiscale personnelle) d’un assuré divorcé confiés à la garde de l’ex-conjoint et pour lesquels l’assuré doit payer une pension alimentaire par décision de justice tant que dure l’obligation alimentaire. La situation de famille prise en considération par l’assureur est obligatoirement celle, dûment justifiée, à la date du sinistre.",
+      "page": 4
+    },
+    {
+      "term": "PTIA (perte totale et irréversible d’autonomie)",
+      "definition": "La PTIA désigne la perte totale et irréversible d’autonomie, c’est-à-dire l’état dans lequel est un assuré lorsqu’il est reconnu par un médecin-expert désigné par l’assureur, totalement et définitivement incapable de se livrer à aucune occupation ou aucun travail lui procurant gain ou profit. En outre, son état doit nécessiter de manière permanente l’assistance viagère d’une tierce personne pour l’accomplissement des actes ordinaires de la vie (se laver, s’habiller, se nourrir, se déplacer). L’assureur n’est pas lié par le classement effectué par le régime obligatoire de l’assuré et reste libre de faire évaluer l’état de PTIA de ce dernier par un médecin de son choix.",
+      "page": 5
+    },
+    {
+      "term": "Réclamation",
+      "definition": "Constitue une réclamation, l’expression de votre mécontentement ou de votre insatisfaction à notre égard. Une demande de service ou de prestation, une demande d’information ou une demande d’avis n’est pas considérée comme une réclamation.",
+      "page": 12
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Garantie Décès",
+      "description": "En cas de décès de l’adhérent/assuré avant le 31 décembre suivant son 75e anniversaire, l’assureur procède au versement du capital souscrit aux bénéficiaires désignés. Le montant du capital et les bénéficiaires désignés figurent sur le certificat d’adhésion au contrat ou sur le dernier avenant, en cas de modification ultérieure de la clause bénéficiaire.",
+      "is_optional": false,
+      "territorial_scope": "La garantie s’exerce en France et dans les principautés de Monaco et d’Andorre. Toutefois, elle est acquise dans le monde entier, pendant les douze premiers mois du séjour hors de France ; et pour tous les séjours, quelle qu’en soit la durée, effectués à la demande de l’employeur de l’adhérent/assuré pour l’exécution d’une mission temporaire dans les pays de l’Espace économique européen et dans les pays suivants : Suisse, Saint-Marin, Vatican et Royaume-Uni.",
+      "limits": "Le montant du capital décès souscrit lors de l’adhésion ne peut être inférieur à 20 000 € et est plafonnée à 200 000 €",
+      "sub_limits": [
+        "Avance : le bénéficiaire a la possibilité de demander le versement d’une somme forfaitaire de 5 000 € à titre d’avance sur le capital garanti en cas de décès"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Décès survenu avant le 31 décembre suivant le 75e anniversaire de l’adhérent/assuré.",
+        "Avance de 5 000 € : être conjoint ou partenaire de pacs ou enfant mineur ou majeur de moins de 25 ans fiscalement à charge de l’adhérent/assuré, et décès survenu en France. Après instruction du dossier, si la garantie est acquise l’avance est déduite du capital garanti ; si la garantie n’est pas acquise, l’assureur se réserve le droit de récupérer l’avance indûment versées.",
+        "Il s’agit d’un contrat temporaire Décès dit à fond perdu : les cotisations sont acquises à l’assureur (hors période de renonciation) afin de couvrir le risque garanti. Il n’y a pas de provision mathématiques sur ce type de contrat, qui ne comporte donc ni valeur de réduction, ni valeur de rachat, ni taux garanti, ni garantie de fidélité."
+      ],
+      "page": 5
+    },
+    {
+      "name": "Garantie Perte Totale et Irréversible d’Autonomie (PTIA)",
+      "description": "L’assuré atteint d’une PTIA avant le jour de son 65e anniversaire reçoit par anticipation le capital décès toutes causes prévu au certificat d’adhésion. L’assureur règle le capital prévu au certificat d’adhésion, ce qui met fin à la garantie décès toutes causes.",
+      "is_optional": false,
+      "territorial_scope": "La garantie s’exerce en France et dans les principautés de Monaco et d’Andorre. Toutefois, elle est acquise dans le monde entier, pendant les douze premiers mois du séjour hors de France ; et pour tous les séjours, quelle qu’en soit la durée, effectués à la demande de l’employeur de l’adhérent/assuré pour l’exécution d’une mission temporaire dans les pays de l’Espace économique européen et dans les pays suivants : Suisse, Saint-Marin, Vatican et Royaume-Uni.",
+      "limits": "Capital décès toutes causes prévu au certificat d’adhésion (capital souscrit compris entre 20 000 € et 200 000 €), versé par anticipation",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "PTIA survenue avant le jour du 65e anniversaire de l’assuré.",
+        "L’assureur n’est pas lié par le classement effectué par le régime obligatoire de l’assuré et reste libre de faire évaluer l’état de PTIA par un médecin de son choix.",
+        "Le règlement du capital met fin à la garantie décès toutes causes."
+      ],
+      "page": 5
+    },
+    {
+      "name": "Augmentation de capital liée à des événements de la vie (sans formalité médicale)",
+      "description": "L’adhérent/assuré a la possibilité de majorer les garanties Décès/PTIA sans aucune formalité médicale, en cas de mariage, de pacs, de naissance ou d’adoption, dans les six mois qui suivent l’évènement. Il devra remplir une demande d’augmentation de capital pour ce motif et joindre une copie de l’acte d’état civil correspondant à l’évènement. Un avenant mentionnant la date d’effet de la modification sera formalisé.",
+      "is_optional": true,
+      "territorial_scope": "La garantie s’exerce en France et dans les principautés de Monaco et d’Andorre. Toutefois, elle est acquise dans le monde entier, pendant les douze premiers mois du séjour hors de France ; et pour tous les séjours, quelle qu’en soit la durée, effectués à la demande de l’employeur de l’adhérent/assuré pour l’exécution d’une mission temporaire dans les pays de l’Espace économique européen et dans les pays suivants : Suisse, Saint-Marin, Vatican et Royaume-Uni.",
+      "limits": "Dans la limite de 20 % du capital garanti atteint au moment de l’évènement et avec un plafond global de capital maximum couvert de 200 000 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Demande à formuler dans les six mois qui suivent l’événement.",
+        "L’augmentation de capital garanti entraînera une augmentation de la cotisation, dont le montant dû jusqu’à la prochaine échéance annuelle figurera sur l’avenant réalisé."
+      ],
+      "page": 9
+    },
+    {
+      "name": "Augmentation du capital garanti sur demande (avec formalités médicales)",
+      "description": "L’adhérent/assuré peut, à tout moment, avant ses 65 ans, demander à augmenter le montant du capital garanti. Il devra remplir une demande de modification de contrat et satisfaire aux formalités médicales applicables. Sous réserve de l’acceptation de la demande par le médecin conseil et par Matmut Vie, un avenant sera formalisé.",
+      "is_optional": true,
+      "territorial_scope": "La garantie s’exerce en France et dans les principautés de Monaco et d’Andorre. Toutefois, elle est acquise dans le monde entier, pendant les douze premiers mois du séjour hors de France ; et pour tous les séjours, quelle qu’en soit la durée, effectués à la demande de l’employeur de l’adhérent/assuré pour l’exécution d’une mission temporaire dans les pays de l’Espace économique européen et dans les pays suivants : Suisse, Saint-Marin, Vatican et Royaume-Uni.",
+      "limits": "Dans la limite d’un capital global assuré de 200 000 € ; la majoration minimale est de 4 000 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Demande possible à tout moment avant les 65 ans de l’adhérent/assuré.",
+        "L’augmentation de capital garanti entraînera une augmentation de la cotisation dont le montant figurera sur l’avenant au contrat."
+      ],
+      "page": 9
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Explosion, dégagement de chaleur, irradiation provenant de la transmutation de noyaux",
+      "description": "N’ouvrent jamais droit à la mise en jeu des garanties, les sinistres résultant et/ou provenant d’explosion de dégagement de chaleur d’irradiation provenant de la transmutation de noyaux.",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Radiations provoquées par l’accélération artificielle de particules ou combustibles nucléaires",
+      "description": "N’ouvrent jamais droit à la mise en jeu des garanties, les sinistres résultant et/ou provenant de radiations provoquées par l’accélération artificielle de particules ou émises par des combustibles nucléaires ou des produits ou déchets radioactifs.",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Guerre civile ou étrangère, conflits à caractère militaire",
+      "description": "N’ouvrent jamais droit à la mise en jeu des garanties, les sinistres résultant et/ou provenant de guerre civile ou étrangère ou de conflits à caractère militaire.",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Défi, pari, lutte ou rixe",
+      "description": "N’ouvrent jamais droit à la mise en jeu des garanties, les sinistres résultant et/ou provenant de la participation volontaire de l’assuré à un défi, un pari, une lutte ou une rixe.",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Insurrection, émeute, complot, mouvement populaire, attentat, acte de terrorisme ou sabotage",
+      "description": "N’ouvrent jamais droit à la mise en jeu des garanties, les sinistres résultant et/ou provenant directement ou indirectement d’insurrection, d’émeute, de complot, de mouvement populaire, d’attentat, d’acte de terrorisme ou de sabotage auxquels l’assuré participe.",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Manipulation volontaire de matériels de guerre, d’armes à feu ou d’explosifs",
+      "description": "N’ouvrent jamais droit à la mise en jeu des garanties, les sinistres résultant et/ou provenant de la manipulation volontaire par l’assuré de matériels de guerre, d’armes à feu ou d’explosifs dont la détention est interdite.",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Acte illicite constituant un crime ou un délit intentionnel",
+      "description": "N’ouvrent jamais droit à la mise en jeu des garanties, les sinistres résultant et/ou provenant de la participation de l’assuré ou du bénéficiaire de l’indemnité à un acte illicite constituant un crime ou un délit intentionnel au sens des dispositions de l’article 121-3 alinéas 1 et 2 du Code pénal.",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Pratique de sports aériens",
+      "description": "N’ouvrent jamais droit à la mise en jeu des garanties, les sinistres résultant et/ou provenant de la pratique de sports aériens.",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Pratique d’un sport à titre professionnel",
+      "description": "N’ouvrent jamais droit à la mise en jeu des garanties, les sinistres résultant et/ou provenant de la pratique par l’assuré d’un sport à titre professionnel.",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Suicide dans les douze premiers mois",
+      "description": "N’ouvrent jamais droit à la mise en jeu des garanties, les sinistres résultant et/ou provenant du suicide de l’adhérent/assuré qu’elle qu’en soit la cause, dans les douze mois suivants la date d’effet de l’adhésion, de la remise en vigueur de celle-ci ou toute augmentation de garantie.",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Tentative de suicide ou fait intentionnel dans les douze premiers mois",
+      "description": "N’ouvrent jamais droit à la mise en jeu des garanties, les suites et conséquences d’une tentative de suicide, ou de tout fait intentionnel de la part de l’adhérent/assuré ayant pour but de porter atteinte à son intégrité physique dans les douze mois suivants la date d’effet de l’adhésion, de la remise en vigueur de celle-ci ou toute augmentation de garantie.",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Meurtre de l’assuré par un bénéficiaire",
+      "description": "N’ouvrent jamais droit à la mise en jeu des garanties, les sinistres résultant et/ou provenant du meurtre de l’adhérent/assuré par un bénéficiaire pour la part qui lui revient.",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Affections antérieures non déclarées",
+      "description": "N’ouvrent jamais droit à la mise en jeu des garanties, les suites et conséquences des affections, accidents ou de maladies dont la première constations médicale est antérieure à la date d’effet de l’adhésion, de sa remise en vigueur, ou de toute augmentation de garanties, sauf si elles ont été déclarées à cette occasion et qu’elles n’ont pas été spécifiquement exclues des garanties par l’assureur.",
+      "applies_to": "all",
+      "page": 6
+    },
+    {
+      "name": "Imprégnation alcoolique",
+      "description": "Sont également exclus le décès ou la PTIA alors que l’adhérent/assuré était sous emprise d’imprégnation alcoolique caractérisé par un taux d’alcoolémie supérieur à la limite fixée par le Code de la route, ou par la législation du pays où a eu lieu l’accident si le taux d’alcool maximum autorisé par cette réglementation locale est plus faible. Cette exclusion n’est pas opposable en cas de décès si les bénéficiaires désignés sont le conjoint ou le partenaire de pacs ou les enfants de l’adhérent/assuré (mineurs, et majeurs de moins de 25 ans fiscalement à charge).",
+      "applies_to": "all",
+      "page": 6
+    },
+    {
+      "name": "Stupéfiants",
+      "description": "Sont également exclus le décès ou la PTIA liés à la consommation par l’adhérent/assuré de substances classées comme stupéfiants par l’arrêté du 22 février 1990 (NOR : SPSM9000498A), sauf si ces substances ont été prescrites par une autorité médicale et qu’elles ont été consommées dans la limite des doses ainsi prescrites. Cette exclusion n’est pas opposable en cas de décès si les bénéficiaires désignés sont le conjoint ou le partenaire de pacs ou les enfants de l’adhérent/assuré.",
+      "applies_to": "all",
+      "page": 6
+    },
+    {
+      "name": "Psychotropes",
+      "description": "Sont également exclus le décès ou la PTIA liés à la consommation par l’adhérent/assuré de substances classées comme psychotropes par l’arrêté du 22 février 1990 (NOR : SPSM9000500A), sauf si ces substances ont été prescrites par une autorité médicale et qu’elles ont été consommées dans la limite des doses ainsi prescrites. Cette exclusion n’est pas opposable en cas de décès si les bénéficiaires désignés sont le conjoint ou le partenaire de pacs ou les enfants de l’adhérent/assuré.",
+      "applies_to": "all",
+      "page": 6
+    },
+    {
+      "name": "Pathologie constatée entre la déclaration de santé et l’adhésion",
+      "description": "Une pathologie constatée entre la date de signature de la déclaration de santé ou du questionnaire médical et la date effective de l’adhésion est exclue de la garantie.",
+      "applies_to": "all",
+      "page": 6
+    },
+    {
+      "name": "Nullité en cas de réticence ou fausse déclaration intentionnelle",
+      "description": "En application de l’article L113-8 du Code des assurances, indépendamment des causes ordinaires de nullité, et sous réserve des dispositions de l’article L132-26 du Code des assurances, le contrat d’assurance est nul en cas de réticence ou de fausse déclaration intentionnelle de la part de l’assuré, quand cette réticence ou cette fausse déclaration change l’objet du risque ou en diminue notre opinion, alors même que le risque omis ou dénaturé de sa part a été sans influence sur le sinistre. Les cotisations payées demeurent alors acquises à Matmut Vie, qui a droit au paiement de toutes les cotisations échues à titre de dommages et intérêts.",
+      "applies_to": "all",
+      "page": 10
+    },
+    {
+      "name": "Réduction proportionnelle en cas d’omission ou fausse déclaration non intentionnelle",
+      "description": "L’omission ou la déclaration inexacte dont la mauvaise foi n’est pas établie n’entraîne pas la nullité du contrat. Si elle est constatée avant tout sinistre, l’assureur a le droit soit de maintenir le contrat moyennant une augmentation de cotisation, soit de résilier le contrat dix jours après notification par lettre recommandée. Dans le cas où la constatation n’a lieu qu’après un sinistre, l’indemnité est réduite en proportion du taux des cotisations payées par rapport au taux des cotisations qui auraient été dues.",
+      "applies_to": "all",
+      "page": 11
+    },
+    {
+      "name": "Déchéance lors du sinistre",
+      "description": "Toute réticence à un contrôle, à une expertise médicale ou toute déclaration intentionnellement fausse lors du sinistre, de la part de l’adhérent/assuré ou de celle de ses bénéficiaires, de même que la production de documents inexacts et mensongers quant à l’état civil de l’assuré, la date, les circonstances, les origines de son décès ou de la PTIA, font perdre tout droit à prestations pour la garantie concernée et entrainent l’exclusion de l’assuré et la fin du contrat. Les cotisations réglées restent acquises à Matmut Vie.",
+      "applies_to": "all",
+      "page": 11
+    },
+    {
+      "name": "Refus de se soumettre au contrôle médical",
+      "description": "En cas de refus de l’assuré, celui-ci peut être mis en demeure par lettre recommandée d’avoir à se soumettre au contrôle. Si dans un délai de dix jours, le cachet de la poste faisant foi, cette lettre recommandée reste sans réponse de la part de l’assuré (sauf cas fortuit ou cas de force majeure) ou si celui-ci maintient son refus sans justification valable, l’assureur est autorisé de plein droit à interrompre ou refuser le versement des prestations.",
+      "applies_to": "all",
+      "page": 10
+    },
+    {
+      "name": "Séjour à l’étranger de plus de douze mois",
+      "description": "L’adhésion prend fin en cas de séjour à l’étranger d’une durée continue excédant douze mois.",
+      "applies_to": "all",
+      "page": 8
+    }
+  ],
+  "deductibles": null,
+  "waiting_periods": [
+    {
+      "coverage": "Garanties Décès et PTIA — suicide et tentative de suicide",
+      "duration": "Douze mois",
+      "page": 5,
+      "description": "Le suicide de l’adhérent/assuré quelle qu’en soit la cause, ainsi que les suites et conséquences d’une tentative de suicide ou de tout fait intentionnel ayant pour but de porter atteinte à son intégrité physique, n’ouvrent jamais droit à la mise en jeu des garanties dans les douze mois suivants la date d’effet de l’adhésion, de la remise en vigueur de celle-ci ou de toute augmentation de garantie."
+    },
+    {
+      "coverage": "Renonciation",
+      "duration": "30 jours calendaires révolus",
+      "page": 8,
+      "description": "L’adhérent/assuré peut renoncer à son adhésion dans un délai de 30 jours calendaires révolus à compter de la date à laquelle il a été informé que l’adhésion au contrat est conclue (date de remise ou de réception du certificat d’adhésion). Ce délai expire le dernier jour à 24 heures sans prorogation si ce jour d’expiration correspond à un samedi, un dimanche ou un jour férié."
+    },
+    {
+      "coverage": "Augmentation de capital liée à un événement de la vie",
+      "duration": "Six mois",
+      "page": 9,
+      "description": "La majoration des garanties Décès/PTIA sans formalité médicale doit être demandée dans les six mois qui suivent l’événement (mariage, pacs, naissance ou adoption)."
+    }
+  ],
+  "obligations": [
+    {
+      "name": "Remplir et signer la demande d’adhésion et fournir les pièces",
+      "description": "Pour souscrire, l’adhérent/assuré doit remplir et signer personnellement la demande d’adhésion, indiquer le capital souhaité, désigner le ou les bénéficiaires en cas de décès et préciser le mode de paiement de ses cotisations ; fournir une copie de sa pièce d’identité en cours de validité accompagnée le cas échéant d’une carte de séjour ; remplir un mandat de prélèvement SEPA et fournir un relevé d’identité bancaire d’un compte ouvert en France à son nom (ou payer la première cotisation depuis un compte bancaire ouvert en France dont il est titulaire ou co-titulaire en cas de paiement par chèque) ; remplir la déclaration de santé et, si nécessaire, un questionnaire médical.",
+      "timing": "À la souscription (article 6)",
+      "sanction": null,
+      "page": 6
+    },
+    {
+      "name": "Informer de toute modification de son état de santé avant l’acceptation",
+      "description": "Le proposant devra informer l’assureur de toute modification de son état de santé survenue entre la demande d’assurance et l’acceptation de l’adhésion. Ces modifications doivent être prises en compte pour l’étude de la demande d’assurance.",
+      "timing": "Entre la demande d’assurance et l’acceptation de l’adhésion",
+      "sanction": "Une pathologie constatée entre la date de signature de la déclaration de santé ou du questionnaire médical et la date effective de l’adhésion est exclue de la garantie.",
+      "page": 6
+    },
+    {
+      "name": "Signaler tout changement d’état civil ou d’adresse",
+      "description": "Les droits de l’adhérent/assuré peuvent évoluer si sa situation familiale change. L’adhérent/assuré doit signaler par courrier tout changement d’état civil et tout changement d’adresse.",
+      "timing": "En cours d’adhésion (article 15)",
+      "sanction": null,
+      "page": 9
+    },
+    {
+      "name": "Mettre à jour ses coordonnées pour prévenir les contrats non réclamés",
+      "description": "Pour faciliter les échanges avec l’adhérent/assuré et prévenir l’existence de contrats d’assurance vie non réclamés, l’adhérent/assuré s’engage à informer l’assureur en cas de changement de nom, d’adresse ou de coordonnées bancaires en cours d’adhésion.",
+      "timing": "En cours d’adhésion (article 36)",
+      "sanction": null,
+      "page": 15
+    },
+    {
+      "name": "Se soumettre au contrôle médical",
+      "description": "L’assureur se réserve le droit de faire visiter par le médecin de son choix tout assuré malade ou accidenté, ce qui est accepté par l’assuré ; cette acceptation est une condition essentielle et déterminante au consentement de l’assureur pour délivrer cette garantie. Le médecin traitant de l’intéressé a la faculté d’assister à la visite du médecin délégué par l’assureur. Les médecins et représentants de l’assureur doivent avoir libre accès auprès de l’assuré afin de contrôler son état de santé.",
+      "timing": "Lors de l’instruction d’un sinistre (article 21)",
+      "sanction": "En cas de refus maintenu sans justification valable ou d’absence de réponse à la mise en demeure dans un délai de dix jours, l’assureur est autorisé de plein droit à interrompre ou refuser le versement des prestations.",
+      "page": 10
+    },
+    {
+      "name": "Informer l’assureur de la PTIA dès sa constatation médicale",
+      "description": "L’adhérent/assuré, ou un de ses proches s’il n’est pas en mesure de le faire, doit informer Matmut Vie dès que cette perte totale et irréversible d’autonomie aura été médicalement constatée.",
+      "timing": "Dès la constatation médicale (article 20)",
+      "sanction": null,
+      "page": 10
+    },
+    {
+      "name": "Rembourser l’avance en cas de refus de prise en charge",
+      "description": "Le versement de l’avance de 5 000 € ne préjuge pas de la décision finale de Matmut Vie résultant de l’examen de la cause du décès. En cas de refus de prise en charge du sinistre par Matmut Vie, cette avance devra lui être remboursée.",
+      "timing": "Après instruction du dossier",
+      "sanction": null,
+      "page": 10
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclaration du décès et pièces à fournir",
+      "description": "Outre les obligations de recherches par l’assureur, le ou les bénéficiaires peuvent informer l’assureur du décès de l’adhérent/assuré dans les plus brefs délais et faire parvenir : dans tous les cas, l’acte de décès, la copie de documents officiels justifiant des droits et de leur qualité de bénéficiaires (copie livret de famille, dévolution successorale), une copie d’un justificatif d’identité valide, une fiche de renseignements établie par Matmut Vie à retourner complétée et signée, toute pièce exigée par la réglementation fiscale en vigueur au jour du décès ; selon l’instruction, toute pièce relatant les circonstances du décès et toutes pièces médicales complémentaires demandées par le service médical. Le règlement du capital est subordonné à la production de ces documents.",
+      "deadline": "Le paiement du capital revenant à chaque bénéficiaire intervient dans le mois qui suit la réception du dossier complet",
+      "page": 9
+    },
+    {
+      "step": "Demande de l’avance sur capital décès",
+      "description": "Pour le règlement de l’avance de 5 000 € visée à l’article 4, il convient en outre de joindre un certificat médical précisant que le décès n’est pas consécutif à un évènement exclu du contrat.",
+      "deadline": null,
+      "page": 9
+    },
+    {
+      "step": "Déclaration de la PTIA",
+      "description": "Le capital garanti sera réglé sur présentation de l’imprimé de « déclaration PTIA » à retourner à l’attention du médecin conseil mandaté par l’assureur sous pli confidentiel, dûment complété et signé par l’assuré, à défaut par son représentant légal ; et, le cas échéant, de toute pièce supplémentaire que l’assureur jugerait nécessaire à l’instruction du dossier.",
+      "deadline": "Le capital est versé dans un délai de 30 jours après réception du dossier complet et accord du médecin conseil de Matmut Vie",
+      "page": 10
+    },
+    {
+      "step": "Contrôle médical et arbitrage",
+      "description": "Lors de l’ouverture de la demande de prestations, l’assureur se réserve le droit de réclamer tous documents et renseignements médicaux nécessaires ; des visites médicales, contrôles, enquêtes et expertises médicales pourront être diligentées par Matmut Vie. Les décisions prises par les organismes sociaux dont dépend l’assuré ne sont pas opposables à l’assureur. En cas de désaccord sur l’état de santé de l’assuré, il peut être procédé à une expertise amiable et contradictoire entre le médecin de l’assureur et celui de l’assuré ; si ces deux médecins ne peuvent se mettre d’accord, les parties en choisissent un troisième pour les départager et, à défaut d’entente, la désignation est faite par le président du tribunal judiciaire du lieu du domicile de l’assuré. Les parties prennent en charge les honoraires du médecin qu’elles ont choisi et supportent par moitié ceux du troisième.",
+      "deadline": null,
+      "page": 10
+    },
+    {
+      "step": "Réclamation — premier niveau",
+      "description": "En cas de désaccord à l’occasion de la distribution, de la gestion du contrat ou du règlement d’un sinistre, il faut d’abord s’adresser à l’agence ou au service à l’origine du désaccord. Un courrier est adressé dans les 10 jours ouvrables suivant l’envoi de la réclamation, faisant part de la position retenue ou avisant du délai dans lequel la décision sera communiquée.",
+      "deadline": "Position définitive au plus tard dans le délai de deux mois à compter de l’envoi de la réclamation initiale",
+      "page": 12
+    },
+    {
+      "step": "Réclamation — service « Réclamations » du groupe",
+      "description": "Si la réponse ne donne pas satisfaction, ou en l’absence de réponse dans le délai de deux mois, le service « Réclamations » du groupe peut être saisi par mail (service.reclamations@matmut.fr) ou par courrier 66, rue de Sotteville 76030 Rouen CEDEX 01.",
+      "deadline": "Position dans un délai de 30 jours",
+      "page": 12
+    },
+    {
+      "step": "Médiation de l’assurance",
+      "description": "Le médiateur de l’assurance peut être saisi en déposant la demande sur www.mediation-assurance.org ou en écrivant à La médiation de l’assurance - TSA 50110 - 75441 Paris CEDEX 09. L’avis du médiateur ne lie ni l’assuré ni l’assureur.",
+      "deadline": "La charte du médiateur prévoit que sa réponse intervient dans un délai de 90 jours ; la demande doit obligatoirement intervenir dans le délai d’un an à compter de la réclamation initiale et ne faire l’objet d’aucune action contentieuse",
+      "page": 13
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "La durée du contrat est d’un an. La première année, elle correspond à la période comprise entre sa date d’effet et sa date d’échéance annuelle, indiquées au certificat d’adhésion. Le contrat prend effet après acceptation par Matmut Vie, à la date indiquée sur le certificat d’adhésion, sous réserve du règlement de la première cotisation.",
+    "tacit_renewal": true,
+    "notice_period": "Le contrat collectif peut être résilié par l’une ou l’autre des parties moyennant l’envoi d’une lettre recommandée avec avis de réception, au minimum un mois avant l’échéance principale fixée au 1er janvier.",
+    "methods": [
+      "Résiliation de l’adhésion à tout moment par lettre recommandée, datée et signée, accompagnée d’un justificatif d’identité en cours de validité, envoyée à Matmut Vie, 66, rue de Sotteville 76100 Rouen ; la résiliation prend effet le dernier jour du mois de réception de la demande.",
+      "Renonciation par lettre recommandée avec accusé de réception électronique à matmutvie@matmut.fr, adressée à Matmut Vie, 66, rue de Sotteville 76030 Rouen CEDEX 1, sur le modèle fourni dans la notice."
+    ],
+    "special_rights": [
+      "À l’échéance, le contrat se renouvelle par tacite reconduction d’année en année, jusqu’à l’échéance annuelle qui suit le 75e anniversaire de l’adhérent/assuré.",
+      "L’adhésion prend fin : en cas de perte totale et irréversible d’autonomie, lorsque le capital garanti a été intégralement versé ; en cas de décès de l’adhérent/assuré ; en cas de non-paiement de la cotisation, 40 jours après l’envoi de la lettre recommandée de mise en demeure ; au moment du sinistre ; à la date d’effet de la résiliation du contrat ; en cas de séjour à l’étranger d’une durée continue excédant douze mois.",
+      "La garantie Décès prend fin à la date d’échéance annuelle qui suit le 75e anniversaire de l’adhérent/assuré. La garantie PTIA aura pris fin à la date d’échéance annuelle qui aura suivi le 65e anniversaire de l’adhérent/assuré.",
+      "Renonciation : dans un délai de 30 jours calendaires révolus à compter de la date à laquelle l’adhérent a été informé que l’adhésion est conclue. Matmut Vie s’engage à rembourser l’intégralité des sommes versées, sous réserve de leur encaissement effectif, dans un délai de 30 jours calendaires révolus suivant la réception de la lettre recommandée ou de l’envoi recommandé électronique. Les garanties Décès et PTIA cessent à la date d’envoi de la lettre.",
+      "L’adhérent/assuré dispose d’un délai de réflexion de 30 jours, à compter de la remise ou de la réception du certificat d’adhésion, pour renoncer à la souscription du contrat.",
+      "En cas de résiliation du contrat collectif, que celle-ci soit à l’initiative de Matmut Mutualité ou de Matmut Vie, les adhésions en vigueur ne seront pas remises en cause : aucune nouvelle adhésion ne sera plus acceptée et Matmut Vie s’engage à maintenir les adhésions existantes et les droits acquis en vigueur.",
+      "En cas de liquidation ou de dissolution de Matmut Mutualité, conformément à l’article L. 141-6 du Code des assurances, le contrat se poursuivra de plein droit entre Matmut Vie et les personnes antérieurement adhérentes au contrat.",
+      "En application de l’article L. 141-4 du Code des assurances, l’adhérent/assuré est informé des modifications apportées par avenant au contrat collectif au moins trois mois avant la date prévue pour leur entrée en vigueur."
+    ],
+    "page": 8
+  },
+  "prescription_period": {
+    "description": "Toutes actions dérivant d’un contrat d’assurance sont prescrites par deux ans à compter de l’événement qui y donne naissance. Toutefois, ce délai ne court pas : en cas de réticence, omission, déclaration fausse ou inexacte sur le risque couru, que du jour où l’assureur en a eu connaissance ; en cas de sinistre, que du jour où les intéressés en ont eu connaissance, s’ils prouvent qu’ils l’ont ignoré jusque-là. Quand l’action de l’assuré contre l’assureur a pour cause le recours d’un tiers, le délai ne court que du jour où ce tiers a exercé une action en justice contre l’assuré ou a été indemnisé par ce dernier. La prescription est portée à dix ans dans les contrats d’assurance sur la vie lorsque le bénéficiaire est une personne distincte du souscripteur et, dans les contrats d’assurance contre les accidents atteignant les personnes, lorsque les bénéficiaires sont les ayants droit de l’assuré décédé. Pour les contrats d’assurance sur la vie, les actions du bénéficiaire sont prescrites au plus tard trente ans à compter du décès de l’assuré. Conformément à l’article L 192-1 du Code des assurances, si le souscripteur a sa résidence principale dans les départements du Bas-Rhin, du Haut-Rhin et de la Moselle, le délai prévu à l’article L114-1 alinéa 1er est porté à 5 ans en matière d’assurance sur la vie. La prescription peut être interrompue par l’une des causes ordinaires (articles 2240, 2241 et 2244 du Code civil), par la désignation d’un expert à la suite d’un sinistre, et par l’envoi d’une lettre recommandée ou d’un envoi recommandé électronique avec accusé de réception. Les parties ne peuvent, même d’un commun accord, ni modifier la durée de la prescription, ni ajouter aux causes de suspension ou d’interruption de celle-ci.",
+    "page": 12
+  },
+  "premium": {
+    "notes": [
+      "La cotisation due au titre du contrat est calculée en fonction du capital choisi, de l’âge de l’assuré, du tarif en vigueur à la date d’effet du contrat et de la surprime éventuelle appliquée (article 9).",
+      "Les cotisations sont payables, au choix de l’adhérent/assuré, mensuellement ou semestriellement par prélèvement automatique, ou semestriellement par chèque, pendant toute la durée de l’adhésion. Les prélèvements mensuels sont réalisés chaque mois à la date indiquée sur le certificat d’adhésion, sauf la première cotisation qui est prélevée immédiatement après l’adhésion (article 11).",
+      "Montant de la première cotisation : si le contrat prend effet entre le 1er et le 15 du mois, il est déterminé au prorata du nombre de jours pour la période allant de la date d’effet au dernier jour du mois ; si le contrat prend effet entre le 16 et le dernier jour du mois, au prorata pour la période allant de la date d’effet au dernier jour du mois suivant.",
+      "En cas de sinistre PTIA, le paiement des cotisations est dû jusqu’au paiement du sinistre par l’assureur, qui met fin au contrat ; la reconnaissance de l’état de PTIA à une date antérieure donne droit au remboursement des cotisations payées entre cette date et la date de règlement. En cas de sinistre Décès, jusqu’à la réception par l’assureur du certificat de décès.",
+      "Défaut de paiement : en cas de non-paiement de la cotisation dans les 10 jours suivant l’échéance, une lettre recommandée de mise en demeure est adressée à l’adhérent/assuré ; la garantie prend fin automatiquement 40 jours après l’envoi de cette lettre (article 12).",
+      "Une diminution de capital garanti entraîne une baisse de la cotisation dont le montant figurera sur l’avenant ; le seuil de garantie ne peut être inférieur à 20 000 € et la diminution de capital ne peut être inférieure à 4 000 € (article 18)."
+    ],
+    "indexation": "La cotisation évolue chaque année en fonction de l’âge de l’adhérent/assuré, à l’échéance annuelle du contrat fixée au 1er janvier. Elle peut également évoluer en fonction des motifs que l’adhérent/assuré aura apporté à ses garanties, ainsi qu’en fonction de motifs législatifs ou réglementaires ou des résultats techniques des garanties Décès/PTIA. Chaque année, l’assuré reçoit une lettre d’information annuelle avec le montant du capital et le montant de sa cotisation mensuelle (article 10).",
+    "page": 7
+  },
+  "special_conditions": [
+    {
+      "name": "Nature du contrat et parties",
+      "description": "Complice Prévoyance Matmut est un contrat collectif d’assurance sur la vie à adhésion facultative, souscrit par Matmut Mutualité - 66, rue de Sotteville 76100 Rouen (le souscripteur), au profit de ses membres, auprès de la société d’assurance vie Matmut Vie - 66, rue de Sotteville 76100 Rouen, filiale du Groupe Matmut, entreprise régie par le Code des assurances (l’assureur). Le contrat est régi par le Code des assurances, rédigé en français et régi par la loi française. C’est un contrat temporaire Décès comportant en sus une garantie Perte Totale et Irréversible d’Autonomie (PTIA).",
+      "page": 3
+    },
+    {
+      "name": "Clause bénéficiaire",
+      "description": "La clause bénéficiaire permet de désigner la ou les personne(s) qui sera (seront) bénéficiaire(s) du capital forfaitaire en cas de décès. Les bénéficiaires peuvent être désignés nominativement (nom de naissance, suivi le cas échéant du nom d’usage, prénoms, date et lieu de naissance et adresse) ou selon leur qualité (conjoint, enfants, père, mère). L’assuré peut à tout moment modifier son choix (sous réserve le cas échéant de l’accord du bénéficiaire acceptant) ; cette modification doit être obligatoirement constatée par avenant. Toutefois, la désignation du bénéficiaire peut faire l’objet d’un acte sous seing privé ou d’un acte authentique. Lorsque le bénéficiaire a accepté le bénéfice du contrat, l’adhérent/assuré ne peut pas, sans son accord, modifier la clause bénéficiaire ou diminuer le capital garanti.",
+      "page": 6
+    },
+    {
+      "name": "Suites données à la demande d’assurance",
+      "description": "Après étude de la demande d’assurance, Matmut Vie pourra : accepter les garanties sans réserve et valider le contrat ; différer sa décision dans l’attente de renseignements et/ou éléments complémentaires demandés par le service médical ; accepter la demande moyennant le paiement d’une surprime (ou sur cotisation), une proposition tarifaire étant envoyée au proposant qui reste libre de l’accepter ou pas ; refuser ou ajourner la demande.",
+      "page": 6
+    },
+    {
+      "name": "Contenu du certificat d’adhésion",
+      "description": "Le certificat d’adhésion mentionne l’identité complète et les coordonnées de l’adhérent/assuré, la date de prise d’effet du contrat, la clause bénéficiaire, le montant du capital garanti, la date d’échéance annuelle, le tableau des cotisations dues jusqu’au 75 ans de l’adhérent/assuré, et précise les modalités de paiement des cotisations.",
+      "page": 7
+    },
+    {
+      "name": "Fiscalité (en l’état actuel de la réglementation)",
+      "description": "En cas de perte totale et irréversible d’autonomie, le capital versé à l’assuré est exonéré d’impôt sur le revenu. En cas de décès, sauf cas d’exonérations spécifiques, notamment lorsque le bénéficiaire est désigné à titre onéreux, le ou les bénéficiaires désignés sont imposés, après application d’un abattement : aux droits de succession sur les primes versées après le 70e anniversaire de l’assuré en application de l’article 757 B du Code général des impôts ; à une taxe spécifique sur les capitaux résultant des primes versées avant le 70e anniversaire de l’adhérent/assuré, en application de l’article 990 I du Code général des impôts.",
+      "page": 11
+    },
+    {
+      "name": "Fonctionnement du contrat collectif",
+      "description": "Le contrat collectif Complice Prévoyance Matmut est souscrit pour une durée d’un an et est renouvelable annuellement par tacite reconduction. Le contrat collectif CPM+ est disponible sur simple demande auprès de Matmut Vie. Les droits et obligations de l’adhérent/assuré peuvent être modifiés par des avenants conclus entre Matmut Vie et Matmut Mutualité.",
+      "page": 11
+    },
+    {
+      "name": "Commercialisation à distance",
+      "description": "L’offre de commercialisation à distance du Complice Prévoyance Matmut est régie par l’article L. 112-2-1 du Code des assurances.",
+      "page": 11
+    },
+    {
+      "name": "Durée de validité des informations et langue",
+      "description": "La durée de validité des informations communiquées à l’adhérent/assuré correspond à la durée du contrat Complice Prévoyance Matmut, sous réserve d’éventuelles modifications du contrat collectif et des évolutions législatives, réglementaires et fiscales. La langue utilisée pendant la durée du contrat est la langue française. La loi applicable au contrat est la loi française.",
+      "page": 11
+    },
+    {
+      "name": "Information annuelle",
+      "description": "L’assureur s’engage à communiquer chaque année une information indiquant notamment le montant de la cotisation annuelle, le capital et les garanties souscrites et les bénéficiaires désignés.",
+      "page": 12
+    },
+    {
+      "name": "Fonds de garantie",
+      "description": "En application de l’article L. 423-1 du Code des assurances, Matmut Vie adhère à un fonds de garantie destiné à préserver les droits des adhérents/assurés et bénéficiaires de ses contrats d’assurance vie.",
+      "page": 15
+    },
+    {
+      "name": "Protection des données personnelles",
+      "description": "Les sociétés du Groupe Matmut collectent et traitent les données personnelles dans le respect du RGPD du 27 avril 2016 et de la loi du 6 janvier 1978 modifiée. La charte détaille les finalités, les catégories de données, les fondements juridiques, les destinataires, les durées de conservation (prospection commerciale : 3 ans à compter du dernier contact émanant du prospect ; contrat d’assurance Vie : 10-30 ans suite au décès de l’assuré selon les cas et les contrats ; lutte contre le blanchiment : 5 ans ; lutte contre la fraude : 5 ans ; cookies : 13 mois), les lieux d’hébergement, les mesures de sécurité et les droits des personnes. Contacts : dpd@matmut.fr ou Matmut à l’attention du délégué à la protection des données, 66 rue de Sotteville 76100 Rouen. Réclamation possible auprès de la CNIL.",
+      "page": 13
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Complice Prévoyance Matmut est un contrat collectif d’assurance sur la vie à adhésion facultative, souscrit par :\n• Matmut Mutualité - 66, rue de Sotteville 76100 Rouen (le souscripteur), au profit de ses membres, auprès de :\n- \u0007la société d’assurance vie, Matmut Vie - 66, rue de Sotteville 76100 Rouen, filiale du Groupe Matmut, entreprise régie par le Code \ndes assurances (l’assureur).",
+      "page": 3,
+      "context": "Souscripteur et assureur du contrat collectif"
+    },
+    {
+      "quote": "Le contrat Complice Prévoyance Matmut a pour objet de garantir, durant la période d’adhésion, le versement :\n• \u0007d’un capital forfaitaire souscrit au bénéficiaire désigné, en cas de décès avant le 31 décembre suivant le 75e anniversaire de l’adhé-\nrent/assuré ou de perte totale et irréversible d’autonomie avant le 31 décembre suivant le 65e anniversaire de l’adhérent/assuré, \nquelle qu’en soit la cause sauf exclusions prévues à l’article 5.",
+      "page": 4,
+      "context": "Objet du contrat (article 1)"
+    },
+    {
+      "quote": "Il s’agit d’un contrat temporaire Décès dit à fond perdu, ce qui signifie que les cotisations sont acquises à l’assureur (hors période \nde renonciation) afin de couvrir le risque garanti.\nDe ce fait, il n’y a pas de provision mathématiques sur ce type de contrat, qui ne comporte donc ni valeur de réduction, ni valeur de \nrachat, ni taux garanti, ni garantie de fidélité.",
+      "page": 4,
+      "context": "Nature du contrat : fonds perdus, ni rachat ni réduction"
+    },
+    {
+      "quote": "La garantie s’exerce en France et dans les principautés de Monaco et d’Andorre.\nToutefois, elle est acquise :\n• \u0007dans le monde entier, pendant les douze premiers mois du séjour hors de France ;\n• \u0007pour tous les séjours, quelle qu’en soit la durée, effectués à la demande de l’employeur de l’adhérent/assuré pour l’exécution \nd’une mission temporaire dans les pays de l’Espace économique européen et dans les pays suivants : Suisse, Saint-Marin, Vatican \net Royaume-Uni.",
+      "page": 5,
+      "context": "Territorialité (article 3)"
+    },
+    {
+      "quote": "Le montant du capital décès souscrit lors de l’adhésion ne peut être inférieur à 20 000 € et est plafonnée à 200 000 €.",
+      "page": 5,
+      "context": "Plancher et plafond du capital décès"
+    },
+    {
+      "quote": "La PTIA désigne la perte totale et irréversible d’autonomie, c’est-à-dire l’état dans lequel est un assuré lorsqu’il est reconnu par un \nmédecin-expert désigné par l’assureur, totalement et définitivement incapable de se livrer à aucune occupation ou aucun travail lui \nprocurant gain ou profit. En outre, son état doit nécessiter de manière permanente l’assistance viagère d’une tierce personne pour \nl’accomplissement des actes ordinaires de la vie (se laver, s’habiller, se nourrir, se déplacer). L’assureur n’est pas lié par le classement \neffectué par le régime obligatoire de l’assuré et reste libre de faire évaluer l’état de PTIA de ce dernier par un médecin de son choix.",
+      "page": 5,
+      "context": "Définition de la PTIA (article 4.2)"
+    },
+    {
+      "quote": "Les garanties sont accordées sous réserve des exclusions de garanties suivantes :\nExclusions applicables à l’ensemble des garanties\nN’ouvrent jamais droit à la mise en jeu des garanties, les sinistres résultant et/ou provenant :",
+      "page": 5,
+      "context": "Chapeau des exclusions (article 5)"
+    },
+    {
+      "quote": "Ces trois exclusions ne sont pas opposables en cas de décès si les bénéficiaires désignés sont le conjoint ou le partenaire de pacs \nou les enfants de l’adhérent/assuré (mineurs, et majeurs de moins de 25 ans fiscalement à charge).",
+      "page": 6,
+      "context": "Inopposabilité de trois exclusions au conjoint et aux enfants"
+    },
+    {
+      "quote": "L’adhérent/assuré doit :\n• \u0007avoir la qualité de membre participant ou membre honoraire au titre des statuts de Matmut Mutualité ;\n• \u0007résider en France métropolitaine ou Monaco ;\n• \u0007être âgé de 18 ans au moins, ne pas avoir atteint son 65e anniversaire, et avoir la capacité à contracter (ne pas faire l’objet d’une \nmesure de tutelle/curatelle, remplir les formalités médicales nécessaires).",
+      "page": 6,
+      "context": "Critères d’adhésion (article 6)"
+    },
+    {
+      "quote": "La durée du contrat est d’un an. La première année, elle correspond à la période comprise entre sa date d’effet et sa date \nd’échéance annuelle, indiquées au certificat d’adhésion.\nÀ cette échéance, le contrat se renouvelle par tacite reconduction d’année en année, jusqu’à l’échéance annuelle qui suit le \n75e anniversaire de l’adhérent/assuré.",
+      "page": 8,
+      "context": "Durée de l’adhésion (Titre IV)"
+    },
+    {
+      "quote": "Toutes actions dérivant d’un contrat d’assurance sont prescrites par deux ans à compter de l’événement qui y donne naissance.\nToutefois, ce délai ne court pas :\n1. \u0007en cas de réticence, omission, déclaration fausse ou inexacte sur le risque couru, que du jour où l’assureur en a eu connaissance ;\n2. \u0007en cas de sinistre, que du jour où les intéressés en ont eu connaissance, s’ils prouvent qu’ils l’ont ignoré jusque-là.\nQuand l’action de l’assuré contre l’assureur a pour cause le recours d’un tiers, le délai de la prescription ne court que du jour où \nce tiers a exercé une action en justice contre l’assuré ou a été indemnisé par ce dernier.\nLa prescription est portée à dix ans dans les contrats d’assurance sur la vie lorsque le bénéficiaire est une personne distincte du \nsouscripteur et, dans les contrats d’assurance contre les accidents atteignant les personnes, lorsque les bénéficiaires sont les \nayants droit de l’assuré décédé.\nPour les contrats d’assurance sur la vie, nonobstant les dispositions du 2, les actions du bénéficiaire sont prescrites au plus tard \ntrente ans à compter du décès de l’assuré.",
+      "page": 12,
+      "context": "Prescription (article 30)"
+    },
+    {
+      "quote": "L’organisme chargé du contrôle de Matmut Vie est l’Autorité de contrôle prudentiel et de résolution (ACPR) située 4, rue de \nBudapest - CS 92459 - 75436 Paris CEDEX 09.",
+      "page": 15,
+      "context": "Autorité de contrôle (article 33)"
+    },
+    {
+      "quote": "VP.10 - 03/25",
+      "page": 15,
+      "context": "Référence interne et date d’édition"
+    },
+    {
+      "quote": "Matmut Vie \nSociété Anonyme au capital de 35 887 500 € \nEntreprise régie par le Code des assurances.\nSiège social : 66, rue de Sotteville \n76030 Rouen CEDEX",
+      "page": 16,
+      "context": "Bloc d’identité de l’assureur (dos de couverture)"
+    },
+    {
+      "quote": "Matmut Mutualité \nMutuelle soumise aux dispositions du Livre II \ndu Code de la mutualité, immatriculée au \nrépertoire SIRENE sous le numéro 775 701 485",
+      "page": 16,
+      "context": "Bloc d’identité du souscripteur (dos de couverture)"
+    }
+  ],
+  "gaps": [
+    "PORTEUR DU RISQUE clairement désigné par le verbe et par la qualification : « Complice Prévoyance Matmut est un contrat collectif d’assurance sur la vie à adhésion facultative, souscrit par : Matmut Mutualité […] (le souscripteur), au profit de ses membres, auprès de : la société d’assurance vie, Matmut Vie […] (l’assureur) » (page 3). `insurer_name` porte donc Matmut Vie. Matmut Mutualité est le SOUSCRIPTEUR du contrat collectif, pas l’assureur — c’est pourtant elle qui porte le seul numéro d’immatriculation du document.",
+    "Trois personnes morales distinctes du groupe apparaissent, de régimes différents : Matmut Vie (société anonyme au capital de 35 887 500 €, entreprise régie par le Code des assurances) ; Matmut Mutualité (mutuelle soumise aux dispositions du Livre II du Code de la mutualité, immatriculée au répertoire SIRENE sous le numéro 775 701 485) ; et « le Groupe Matmut » cité comme ensemble. Le dos de couverture (page 16) n’imprime AUCUN numéro d’immatriculation pour Matmut Vie — ni RCS, ni SIREN — alors qu’il en imprime un pour Matmut Mutualité. Le Siren 775 701 477 figurant dans les métadonnées de la tâche (celui de la société d’assurance mutuelle Matmut) n’apparaît nulle part dans ce document et n’a pas été repris.",
+    "Contrôle d’inversion de colonnes effectué par document : les 16 pages sont en A4 portrait à UNE seule colonne de corps (abscisse de début x0 ≈ 36,9 pt). Le contrôle automatique signale un « ordre inversé » sur toutes les pages paires, mais la vérification bloc par bloc montre qu’il s’agit uniquement du bloc de pied de page (folio + mention « Notice d’information », x0 = 446,2, y = 795,6) émis avant le corps. Aucun contenu de garantie ni d’exclusion n’est concerné : contrôle NÉGATIF.",
+    "Le lexique (article 2) annonce que « Les termes définis sont repérables dans les pages suivantes grâce au symbole. » — le symbole lui-même est absent de la phrase dans la couche texte. Huit caractères de la zone à usage privé (PUA) subsistent ailleurs dans le document ; ce sont ces marqueurs de renvoi au lexique. Ils sont conservés tels quels dans les citations.",
+    "115 caractères U+0007 sont présents, systématiquement après une puce « • ». Vingt mots sont coupés par un trait d’union en fin de ligne. Les citations ont été découpées programmatiquement en tenant compte de ces artefacts.",
+    "Coquilles reproduites sans correction : « Critères et conitions d’adhésion » au sommaire (page 2), « perte totale et irreversible » (page 2), « il n’y a pas de provision mathématiques » (page 4), « designer le ou les bénéficiaires » (page 6), « la première constations médicale » (page 6), « du suicide de l’adhérent/assuré qu’elle qu’en soit la cause » (page 5), « l’avance indûment versées » (page 5), « Les garanties Décès et PTIA cesse » (page 8), « est plafonnée à 200 000 € » (page 5), « 4, rue de Budapest » pour l’adresse de l’ACPR (page 15, les autres documents du même éditeur impriment « place de Budapest »), « 5 ans à compte de la cessation » (page 14).",
+    "L’article 25 mentionne « Le contrat collectif CPM+ », sigle non défini ailleurs dans le document ; il est reproduit verbatim.",
+    "Le contrat ne comporte aucune franchise (deductibles null) : c’est un contrat de prévoyance à capital forfaitaire.",
+    "Le tarif n’est pas chiffré : la cotisation « est calculée en fonction du capital choisi, de l’âge de l’assuré, du tarif en vigueur à la date d’effet du contrat » et son montant « figure sur le certificat d’adhésion », non joint.",
+    "L’extraction du texte a été refaite indépendamment avec page.get_text(\"text\") de PyMuPDF sur le fichier local : les 16 pages ressortent identiques au texte du prompt (0 page divergente). Le prompt n’était pas tronqué.",
+    "Porteur de risque: ce document nomme « Matmut Vie », qui n'est pas l'entite dont la bibliotheque publique l'a fourni (Matmut). Le champ insurer_name porte le proprietaire de la bibliotheque, pour le regroupement des pages; la lecture du document est celle-ci. A verifier contre le registre du superviseur avant d'en tirer qui porte le risque."
+  ]
+}

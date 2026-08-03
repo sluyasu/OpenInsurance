@@ -1,0 +1,1256 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "macif",
+  "insurer_name": "Macif",
+  "product_name": "GARANTIE AUTONOMIE ET DÉPENDANCE",
+  "branch": "prevoyance",
+  "branch_code": null,
+  "document_type": "conditions_generales",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "Le document couvre simultanément deux publics et deux montages juridiques : « Pour les particuliers, l’offre GARANTIE AUTONOMIE ET DÉPENDANCE prend la forme d’un contrat individuel, régi par un Règlement mutualiste (PARTIE 1). Pour les travailleurs indépendants (professionnels indépendants et leur conjoint collaborateur, ainsi que les dirigeants non salariés relevant de l’article 62 du Code général des impôts), l’offre […] prend la forme de contrats collectifs à adhésion facultative souscrits par l’Association pour la Promotion de la Prévoyance Individuelle et Collective (APPIC) au profit de ses membres […] (PARTIE 2). » (page 2). Conditions d’assurance communes : « résider en France métropolitaine ou séjourner à l’étranger pour une durée continue n’excédant pas 12 mois ; être âgé de 40 ans à 70 ans inclus au moment de la souscription » (page 5).",
+  "reference": "U776 - UNI/PREI/AUT DEP/05 - 01/26",
+  "edition_date": "2026-01-01",
+  "product_family": "Garantie Autonomie et Dépendance",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/Reglement_Mutualiste_garantie_autonomie_et_dependance.pdf",
+  "source_pdf": "garantie-autonomie-et-dependance-b48f2e0f.pdf",
+  "source_sha256": "74f8f467395996e35067fc20b2bb32162b5741064ac3b9502edbff4e92678cbb",
+  "source_pages": 29,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Règlement mutualiste et notice d’information détaillée du contrat GARANTIE AUTONOMIE ET DÉPENDANCE, garanties en vigueur au 1er janvier 2026. Le produit couvre la perte d’autonomie évaluée sur la grille AGGIR : un capital premiers frais forfaitaire de 4 000 € versé une seule fois dès un classement en GIR 1 à 4, et une rente dépendance mensuelle versée en cas de classement en GIR 1 à 3, dont le montant dépend de l’une des six formules souscrites (ESSENTIELLE, ESSENTIELLE +, MÉDIANE, CONFORT, CONFORT +, ÉTABLISSEMENT) et du lieu de vie (Rente Domicile ou Rente Établissement). S’y ajoutent des garanties d’assistance accessibles dès l’adhésion, en cas de dépendance et au profit des aidants. Le document se compose de deux parties : le règlement mutualiste du contrat individuel (particuliers) et la notice d’information des deux contrats collectifs à adhésion facultative souscrits par l’APPIC pour les travailleurs indépendants (cadre loi Madelin).",
+  "definitions": [
+    {
+      "term": "ACCIDENT",
+      "definition": "Atteinte corporelle non intentionnelle de la part de l’assuré, conséquence directe et certaine de l’action soudaine et imprévisible d’une cause extérieure.",
+      "page": 27
+    },
+    {
+      "term": "ADHÉRENT",
+      "definition": "Personne physique qui souscrit le contrat et fait acte d’adhésion à la Mutuelle et qui, à ce titre, est tenue au paiement des cotisations.",
+      "page": 27
+    },
+    {
+      "term": "AGGIR",
+      "definition": "Il s’agit de l’acronyme de « autonomie gérontologique groupes Iso-ressources ». La grille AGGIR est un outil, utilisé en France, permettant d’évaluer le degré de dépendance ou d’autonomie des personnes dans l’accomplissement des actes de la vie quotidienne.",
+      "page": 27
+    },
+    {
+      "term": "AIDANT",
+      "definition": "Personne qui vient en aide pour partie ou totalement, à titre non professionnel, à un proche en perte d’autonomie, pour les activités de la vie quotidienne. Peuvent avoir la qualité d’aidant au titre du contrat Garantie Autonomie et Dépendance : l’assuré, aidant d’un proche ainsi que l’aidant de l’assuré.",
+      "page": 27
+    },
+    {
+      "term": "ASSURÉ",
+      "definition": "Personne physique, nommément désignée dans la demande d’assurance, sur qui reposent les garanties.",
+      "page": 27
+    },
+    {
+      "term": "CONJOINT",
+      "definition": "Personne unie à l’adhérent par les liens du mariage, selon les termes du Code civil. Sont assimilés au conjoint : le concubin ou le partenaire lié par un pacte civil de solidarité (PACS), selon les dispositions du Code civil. Le conjoint, ou la personne assimilée, doit en outre vivre en couple avec l’adhérent, sous le même toit, de façon constante c’est-à-dire sans être séparé de corps ou de fait.",
+      "page": 27
+    },
+    {
+      "term": "DÉLAI D’ATTENTE",
+      "definition": "Période suivant la prise d’effet du contrat ou l’augmentation des garanties pendant laquelle l’état de dépendance de l’assuré ne donnera définitivement lieu à aucune prestation.",
+      "page": 27
+    },
+    {
+      "term": "DOMICILE",
+      "definition": "Lieu de résidence de l’assuré à l’exception des Établissements d’Hébergement pour Personnes Agées Dépendantes (EHPAD) et des Unités de Soins de Longue Durée (USLD).",
+      "page": 27
+    },
+    {
+      "term": "ÉCHÉANCE PRINCIPALE",
+      "definition": "Date à laquelle la cotisation annuelle est exigée par la Mutuelle. Chaque échéance détermine le point de départ d’une période d’assurance.",
+      "page": 27
+    },
+    {
+      "term": "ÉTABLISSEMENT",
+      "definition": "Structure d’hébergement et de soins ayant le qualificatif d’Établissement d’Hébergement pour Personnes Agées Dépendantes (EHPAD) ou d’Unité de Soins de Longue Durée (USLD).",
+      "page": 27
+    },
+    {
+      "term": "FRANCHISE",
+      "definition": "Période de dépendance non indemnisée.",
+      "page": 27
+    },
+    {
+      "term": "GIR",
+      "definition": "Les degrés de perte d’autonomie sont classés en 6 groupes dits « Iso-ressources » (GIR). GIR 1 : personne confinée au lit ou au fauteuil, dont les fonctions mentales sont gravement altérées et qui nécessite une présence indispensable et continue d’intervenants ; ou personne en fin de vie. GIR 2 : personne confinée au lit ou au fauteuil, dont les fonctions mentales ne sont pas totalement altérées et dont l’état exige une prise en charge pour la plupart des activités de la vie courante ; ou personne dont les fonctions mentales sont altérées, mais qui est capable de se déplacer et qui nécessite une surveillance permanente. GIR 3 : personne ayant conservé son autonomie mentale, partiellement son autonomie locomotrice, mais qui a besoin quotidiennement et plusieurs fois par jour d’une aide pour les soins corporels. GIR 4 : personne n’assumant pas seule ses transferts mais qui, une fois levée, peut se déplacer à l’intérieur de son logement, et qui a besoin d’aides pour la toilette et l’habillage ; ou personne n’ayant pas de problèmes locomoteurs mais qui doit être aidée pour les soins corporels et les repas. GIR 5 : personne ayant seulement besoin d’une aide ponctuelle pour la toilette, la préparation des repas et le ménage. GIR 6 : personne encore autonome pour les actes essentiels de la vie courante. Seuls les GIR 1 à 4 ouvrent droit à l’Allocation Personnalisée d’Autonomie (APA).",
+      "page": 27
+    },
+    {
+      "term": "HOSPITALISATION (pour les garanties d’assistance uniquement)",
+      "definition": "Tout séjour dans un établissement hospitalier public ou privé incluant au moins une nuit, à l’exclusion des structures de soins telles que les centres de convalescence, les centres de rééducation et les centres de cures thermale.",
+      "page": 28
+    },
+    {
+      "term": "HOSPITALISATION PROGRAMMÉE (pour les garanties d’assistance uniquement)",
+      "definition": "Hospitalisation dont l’assuré a connaissance depuis plus de 7 jours.",
+      "page": 28
+    },
+    {
+      "term": "IMMOBILISATION TEMPORAIRE (pour les garanties d’assistance uniquement)",
+      "definition": "Impossibilité de poursuivre ses activités quotidiennes du fait d’un accident ou d’une maladie subite, cet événement entraînant une hospitalisation ou une immobilisation au domicile privé non programmée.",
+      "page": 28
+    },
+    {
+      "term": "MALADIE",
+      "definition": "Toute altération de l’état de santé constatée par un médecin et n’ayant pas d’origine accidentelle.",
+      "page": 28
+    },
+    {
+      "term": "PRESCRIPTION",
+      "definition": "Délai au-delà duquel toute demande relative au contrat d’assurance n’est plus recevable.",
+      "page": 28
+    },
+    {
+      "term": "VALEUR DE RÉDUCTION",
+      "definition": "Montant de la garantie recalculé lorsque l’adhérent a interrompu le paiement des cotisations et que plus de 8 ans de cotisations ont été versées.",
+      "page": 28
+    },
+    {
+      "term": "« vous » et « nous »",
+      "definition": "Pour une meilleure lecture du contrat GARANTIE AUTONOMIE ET DÉPENDANCE, le « vous » doit être compris comme l’assuré et le « nous » comme Macif Santé Prévoyance.",
+      "page": 2
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Capital premiers frais",
+      "description": "Lorsque l’assuré est reconnu en situation de dépendance, dans les conditions prévues à l’article « L’évaluation de l’état de dépendance », avec un classement en GIR compris entre 1 et 4, la mutuelle lui verse un capital forfaitaire de 4 000 € afin de prendre en charge les premiers frais liés à la dépendance (aménagement du domicile, achats d’aides techniques, frais de déménagement, dépôt de garantie demandé lors de l’accueil en établissement …). Ce capital est versé quelle que soit la formule de garantie souscrite, que l’assuré reste à domicile ou qu’il soit accueilli en établissement.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assurance sont accordées en France (départements et régions d’outre-mer compris) et lors des déplacements de l’assuré dans l’Union Européenne ainsi qu’en Suisse, Royaume-Uni, Liechtenstein, Saint-Marin, Saint-Siège, Monaco et Andorre. Elles sont étendues aux déplacements d’une durée continue inférieure à 12 mois dans les autres pays mais l’indemnisation ne débutera qu’après la première constatation médicale en France et application, le cas échéant, de la franchise (page 8).",
+      "limits": "Capital forfaitaire de 4 000 €",
+      "sub_limits": [],
+      "deductible": "Sans franchise : « un capital premier frais versé dès le niveau de GIR 4 sans franchise » (page 2).",
+      "conditions": [
+        "Classement en GIR compris entre 1 et 4.",
+        "Il est versé, une seule fois, dans un délai maximal de deux mois après réception de l’ensemble des justificatifs prévus au chapitre « Formalités en cas de sinistre ».",
+        "Le versement du Capital premier frais ne peut être renouvelé en cas d’aggravation de l’état de dépendance de l’assuré ou de changement de formule, en cours de vie du contrat.",
+        "Pour les travailleurs indépendants, la garantie Capital Premiers Frais n’entre pas dans le champ d’application de la loi Madelin ; les cotisations dues à ce titre ne sont pas déductibles du bénéfice imposable (page 25)."
+      ],
+      "page": 8
+    },
+    {
+      "name": "Rente dépendance",
+      "description": "Lorsque l’assuré est reconnu en situation de dépendance, conformément aux conditions prévues à l’article « L’évaluation de l’état de dépendance », avec un classement en GIR compris entre 1 et 3, la mutuelle lui verse une rente dépendance. Le montant dépend de la formule de garantie souscrite et du lieu de résidence de l’assuré : s’il reste à son domicile, il perçoit la Rente Domicile ; s’il est accueilli en établissement, il perçoit la Rente Établissement. Le certificat individuel de garantie précise la formule de garantie souscrite et les montants de rente correspondants. La rente est payable mensuellement à terme échu et versée jusqu’au décès de l’assuré.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assurance sont accordées en France (départements et régions d’outre-mer compris) et lors des déplacements de l’assuré dans l’Union Européenne ainsi qu’en Suisse, Royaume-Uni, Liechtenstein, Saint-Marin, Saint-Siège, Monaco et Andorre. Elles sont étendues aux déplacements d’une durée continue inférieure à 12 mois dans les autres pays mais l’indemnisation ne débutera qu’après la première constatation médicale en France et application, le cas échéant, de la franchise (page 8).",
+      "limits": "Montant mensuel selon la formule souscrite et le lieu de vie (page 6) : Formule ESSENTIELLE — Rente Établissement 450 € ou Rente Domicile 250 € ; Formule ESSENTIELLE + — 600 € ou 350 € ; Formule MÉDIANE — 750 € ou 450 € ; Formule CONFORT — 1 000 € ou 600 € ; Formule CONFORT + — 1 650 € ou 1 000 € ; Formule ÉTABLISSEMENT — rente de 750 € versée uniquement lorsque l’assuré est accueilli en établissement.",
+      "sub_limits": [
+        "Formule ESSENTIELLE : Rente Établissement 450 € ou Rente Domicile 250 €",
+        "Formule ESSENTIELLE + : Rente Établissement 600 € ou Rente Domicile 350 €",
+        "Formule MÉDIANE : Rente Établissement 750 € ou Rente Domicile 450 €",
+        "Formule CONFORT : Rente Établissement 1 000 € ou Rente Domicile 600 €",
+        "Formule CONFORT + : Rente Établissement 1 650 € ou Rente Domicile 1 000 €",
+        "Formule ÉTABLISSEMENT : rente de 750 €, versée uniquement lorsque l’assuré est accueilli en établissement"
+      ],
+      "deductible": "La rente dépendance est versée après une franchise de 90 jours à compter de la date de reconnaissance de la dépendance (page 8).",
+      "conditions": [
+        "Classement en GIR compris entre 1 et 3.",
+        "La rente est versée dans un délai maximal de deux mois après réception de l’ensemble des justificatifs prévus au chapitre « Formalités en cas de sinistre ».",
+        "Dans le cadre de la formule Établissement, l’assuré dépendant perçoit la rente uniquement lorsqu’il est accueilli en établissement.",
+        "Pour les travailleurs indépendants adhérant via l’APPIC, la cotisation de la garantie Rente dépendance est déductible dans le cadre de la loi Madelin (contrat collectif n°218.001-A, page 24) ; en contrepartie la rente servie est imposable (page 24)."
+      ],
+      "page": 8
+    },
+    {
+      "name": "Assistance - Présence d’un proche au chevet (hospitalisation ou immobilisation temporaire)",
+      "description": "En cas d’hospitalisation imprévue ou programmée d’une durée supérieure à 48 heures, ou d’immobilisation imprévue au domicile d’une durée supérieure à 5 jours : organisation et prise en charge du déplacement aller-retour d’un proche en France métropolitaine et de 2 nuits d’hébergement.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assistance sont accordées en France (hors Départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco (page 16).",
+      "limits": "2 nuits d’hébergement dans la limite de 50 € par nuit",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Hospitalisation imprévue ou programmée d’une durée supérieure à 48 heures, ou immobilisation imprévue au domicile d’une durée supérieure à 5 jours.",
+        "En cas d’hospitalisation programmée, le nombre d’interventions est limité à 2 par année civile.",
+        "Garanties accessibles sur une durée maximum d’un mois."
+      ],
+      "page": 10
+    },
+    {
+      "name": "Assistance - Intervention d’une aide à domicile (hospitalisation ou immobilisation temporaire)",
+      "description": "Dès le premier jour de l’immobilisation ou au retour au domicile privé, mise à disposition d’une aide à domicile ayant pour mission de réaliser des tâches quotidiennes telles que du ménage, la préparation des repas, la vaisselle, le repassage et les courses de proximité.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assistance sont accordées en France (hors Départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco (page 16).",
+      "limits": "Minimum de 2 heures par intervention dans la limite de 30 heures, réparties sur une période maximale d’un mois à compter de la mise en œuvre de la prestation",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Cette garantie est accessible du lundi au vendredi.",
+        "En cas d’hospitalisation programmée, le nombre d’interventions est limité à 2 par année civile."
+      ],
+      "page": 10
+    },
+    {
+      "name": "Assistance - Transfert et garde des animaux domestiques",
+      "description": "Organisation et prise en charge du transport et/ou hébergement des animaux domestiques vivant au domicile privé.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assistance sont accordées en France (hors Départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco (page 16).",
+      "limits": "Période maximale d’un mois à compter de la mise en œuvre de la prestation",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Cette garantie s’applique uniquement pour les chiens (sauf catégorie un et 2), les chats ainsi que les Nouveaux Animaux de Compagnie (lapins, oiseaux, furets, tortues et rongeurs)."
+      ],
+      "page": 10
+    },
+    {
+      "name": "Assistance - Prise en charge des enfants ou petits-enfants",
+      "description": "En cas d’hospitalisation imprévue ou programmée de plus de 24 heures, ou d’immobilisation imprévue au domicile d’une durée supérieure à 5 jours : organisation et prise en charge d’une des prestations suivantes — déplacement aller-retour d’un proche en France métropolitaine pour garder les enfants ou petits-enfants ; OU déplacement aller-retour des enfants ou petits-enfants et de l’adulte qui les accompagne au domicile d’un proche en France métropolitaine (en cas d’absence d’accompagnateur, l’accompagnement est assuré par un prestataire conventionné) ; OU, lorsqu’aucun proche ne peut se rendre disponible, conduite aller-retour à l’école par un prestataire 2 fois par jour. Si aucune de ces solutions ne convient, organisation et prise en charge de la garde des enfants ou petits-enfants chez un intervenant spécialisé ou au domicile. Cette garantie peut être complétée par l’accompagnement aller-retour des enfants ou petits-enfants à l’école.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assistance sont accordées en France (hors Départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco (page 16).",
+      "limits": "Conduite à l’école : 2 fois par jour dans la limite de 5 jours répartis sur une période maximale d’un mois. Garde : dans la limite de 30 heures réparties sur une période maximale d’un mois à compter de la mise en œuvre de la prestation.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Enfants ou petits-enfants vivant au domicile privé et âgés de moins de 16 ans.",
+        "Hospitalisation imprévue ou programmée de plus de 24 heures, ou immobilisation imprévue au domicile d’une durée supérieure à 5 jours."
+      ],
+      "page": 10
+    },
+    {
+      "name": "Assistance - Prise en charge des ascendants vivant au domicile privé",
+      "description": "Organisation et prise en charge du déplacement aller-retour d’un proche OU du transfert chez un proche en France métropolitaine. Si cette solution ne convient pas, organisation et prise en charge de la garde à domicile.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assistance sont accordées en France (hors Départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco (page 16).",
+      "limits": "Garde à domicile dans la limite de 30 heures réparties sur une période maximale d’un mois à compter de la mise en œuvre de la prestation",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Cette garantie est accessible du lundi au vendredi."
+      ],
+      "page": 11
+    },
+    {
+      "name": "Assistance - Livraison de médicaments (dès l’adhésion)",
+      "description": "Recherche des médicaments prescrits par le médecin traitant à la pharmacie la plus proche du domicile et leur livraison au domicile lorsque ni l’aidant, ni les proches ne sont en mesure de s’en charger.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assistance sont accordées en France (hors Départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco (page 16).",
+      "limits": "Dans la limite de une livraison par événement. Le prix des médicaments demeure à la charge de l’assuré.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 11
+    },
+    {
+      "name": "Assistance - Informations et conseils médicaux (à tout moment, hors urgence médicale)",
+      "description": "Informations liées à la perte d’autonomie (attitudes préventives pour prévenir les chutes, informations sur les risques médicaux …), aux voyages, vaccins, hygiène, alimentation, et aux loisirs (attitude préventive face à la reprise d’une activité sportive, ou la pratique de sports à risques).",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assistance sont accordées en France (hors Départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco (page 16).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Ces conseils ne pourront pas être considérés comme des consultations médicales."
+      ],
+      "page": 11
+    },
+    {
+      "name": "Assistance - Informations juridiques",
+      "description": "Informations ciblées sur la santé, la famille, le droit du travail, la retraite, la perte d’autonomie (tutelle, curatelle, allocation personnalisée d’autonomie …).",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assistance sont accordées en France (hors Départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco (page 16).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 11
+    },
+    {
+      "name": "Assistance - Aide à la recherche d’un médecin, d’une infirmière ou d’un intervenant paramédical",
+      "description": "Aide à la recherche d’un médecin, d’une infirmière ou d’un intervenant paramédical.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assistance sont accordées en France (hors Départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco (page 16).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 11
+    },
+    {
+      "name": "Assistance - Garantie panne domestique",
+      "description": "Organisation et prise en charge du déplacement d’un prestataire agréé, au domicile de l’assuré, dans les secteurs d’activité suivants : chauffage, couverture, électricité, maçonnerie, menuiserie, nettoyage, plomberie, serrurerie vitrerie.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assistance sont accordées en France (hors Départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco (page 16).",
+      "limits": "La prise en charge est limitée à la première heure de main d’œuvre du prestataire. Le coût des travaux complémentaires, main d’œuvre et fournitures demeure à la charge de l’assuré.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 11
+    },
+    {
+      "name": "Assistance - Programme prévention santé « Ma santé au quotidien »",
+      "description": "L’assuré bénéficie d’un accès personnel au site https://macif.ima-sante.com sur lequel il peut trouver des conseils nutritionnels et des informations générales relatives à la santé (suivi des examens médicaux et dépistages …).",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assistance sont accordées en France (hors Départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco (page 16).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 11
+    },
+    {
+      "name": "Assistance - Programme prévention santé « Le service Bien-être »",
+      "description": "À la suite d’une auto-évaluation réalisée sur le site https://macif.ima-sante.com, l’assuré peut bénéficier, en fonction de son profil, d’entretiens avec un infirmier ou une infirmière qui lui fournira des conseils adaptés et personnalisés pour améliorer son bien-être et sa santé au quotidien (l’alimentation, le stress, l’arrêt du tabac, la reprise d’une activité sportive …).",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assistance sont accordées en France (hors Départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco (page 16).",
+      "limits": "4 entretiens sur 6 mois",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 11
+    },
+    {
+      "name": "Assistance psychologique (dès l’adhésion)",
+      "description": "En cas de fragilité, l’assuré peut bénéficier d’un soutien psychologique : organisation et prise en charge, selon la situation, de 1 à 5 entretiens téléphoniques avec un psychologue clinicien et, si nécessaire, de 1 à 3 entretiens en face à face avec un psychologue clinicien.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assistance sont accordées en France (hors Départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco (page 16).",
+      "limits": "1 à 5 entretiens téléphoniques et, si nécessaire, 1 à 3 entretiens en face à face",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Les entretiens doivent être exécutés dans un délai de 12 mois à compter de la date de survenance de l’événement."
+      ],
+      "page": 11
+    },
+    {
+      "name": "Assistance - Le bilan personnalisé",
+      "description": "Diagnostic de la situation avec un travailleur social : le travailleur social réalise, par téléphone, un diagnostic de la situation de l’assuré (identification de ses besoins, de son cadre de vie, repérage des points de vigilance), lui propose ensuite un plan d’actions adapté (solutions d’organisation du quotidien, informations sur les éventuels financements …) et peut enfin lui proposer des services d’accompagnement. Suivi du plan d’actions : si nécessaire, l’assuré bénéficie d’un suivi téléphonique sur 6 mois comprenant une aide à la coordination pour la mise en place du plan d’actions et un suivi dans le temps des actions mises en œuvre avec, si besoin, un réajustement de l’organisation.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assistance sont accordées en France (hors Départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco (page 16).",
+      "limits": "L’assuré peut bénéficier de 2 bilans personnalisés maximum pendant toute la durée de son contrat ; suivi téléphonique sur 6 mois",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Il peut en demander le bénéfice à tout moment : dès la souscription pour améliorer ses conditions de vie au quotidien et prévenir la perte d’autonomie ; à la suite d’un accident, d’une maladie ou d’une hospitalisation pour faciliter le retour à domicile ; lorsqu’il se retrouve en situation de perte d’autonomie pour permettre le maintien à domicile.",
+        "Le bilan personnalisé et les services d’accompagnement peuvent être mis en place au profit de l’assuré mais également au profit d’un proche dont l’assuré est l’aidant."
+      ],
+      "page": 12
+    },
+    {
+      "name": "Assistance - Service d’accompagnement Mobilité",
+      "description": "L’assuré bénéficie d’un accompagnement individuel et personnalisé pour la pratique d’une activité physique adaptée : bilan de 1h30 à son domicile ; accès illimité à des cours collectifs d’activité physique adaptée pendant un trimestre.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assistance sont accordées en France (hors Départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco (page 16).",
+      "limits": "Un bilan par bénéficiaire dans les 12 mois suivant la réalisation du bilan personnalisé",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "En fonction des besoins de l’assuré, recensés dans le bilan personnalisé, le travailleur social lui propose de bénéficier de 2 services d’accompagnement parmi les 4 proposés."
+      ],
+      "page": 12
+    },
+    {
+      "name": "Assistance - Service d’accompagnement Aménagement de l’habitat",
+      "description": "Un ergothérapeute évalue par téléphone la situation de l’assuré dans son lieu de vie et lui propose des solutions d’aménagement pour faciliter son maintien à domicile.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assistance sont accordées en France (hors Départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco (page 16).",
+      "limits": "Un bilan dans les 12 mois suivant la réalisation du bilan personnalisé",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "2 services d’accompagnement au choix parmi les 4 proposés, en fonction des besoins recensés dans le bilan personnalisé."
+      ],
+      "page": 12
+    },
+    {
+      "name": "Assistance - Service d’accompagnement Nutrition prévention santé",
+      "description": "L’assuré bénéficie de conseils téléphoniques fournis par un(e) diététicien(ne) pour prévenir les risques liés à l’alimentation (dénutrition, problème de déglutition, de mastication …) et les déséquilibres alimentaires.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assistance sont accordées en France (hors Départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco (page 16).",
+      "limits": "Un entretien téléphonique dans les 12 mois suivant la réalisation du bilan personnalisé",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "2 services d’accompagnement au choix parmi les 4 proposés, en fonction des besoins recensés dans le bilan personnalisé."
+      ],
+      "page": 12
+    },
+    {
+      "name": "Assistance - Service d’accompagnement budgétaire",
+      "description": "L’assuré bénéficie de conseils téléphoniques fournis par un conseiller en économie sociale et familiale : informations sur les méthodes de gestion de budget, sur les dispositifs et aides spécifiques.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assistance sont accordées en France (hors Départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco (page 16).",
+      "limits": "6 entretiens téléphoniques dans les 12 mois suivant la réalisation du bilan personnalisé",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "2 services d’accompagnement au choix parmi les 4 proposés, en fonction des besoins recensés dans le bilan personnalisé."
+      ],
+      "page": 12
+    },
+    {
+      "name": "Assistance dépendance - Aide aux démarches administratives",
+      "description": "Afin d’aider l’assuré ou son aidant dans la rédaction des documents administratifs liés à la perte d’autonomie, mise à disposition d’un intervenant à domicile.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assistance sont accordées en France (hors Départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco (page 16).",
+      "limits": "Dans la limite de 4 heures, à raison de 2 heures minimum par intervention",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Pour bénéficier de ces garanties, l’assuré ou le proche dont il est l’aidant doit être susceptible de percevoir l’une des aides suivantes : l’Allocation Personnalisée d’Autonomie (APA) au titre d’un classement GIR 1 à 4 ; la Prestation de Compensation du Handicap (PCH) ; l’Allocation d’Éducation pour l’Enfant Handicapé (AEEH) pour les catégories 2 à 6 ; l’Allocation pour Adultes Handicapés (AAH)."
+      ],
+      "page": 13
+    },
+    {
+      "name": "Assistance dépendance - Bilan social et aide à la décision",
+      "description": "L’assuré ou son aidant peut bénéficier d’un bilan social réalisé par un travailleur social qui se décompose en 4 étapes : déterminer les besoins de l’assuré ; proposer des solutions d’organisation du quotidien (exemple : aménagement du logement, recours à l’accueil temporaire) ; donner des indications pour trouver d’éventuels financements ; accompagner l’aidant dans son appréciation de ses capacités à faire face à son engagement en analysant les impacts sur sa vie sociale, professionnelle et économique.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assistance sont accordées en France (hors Départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco (page 16).",
+      "limits": "Un bilan social par an",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Cette garantie est accessible du lundi au vendredi de 8h30 à 17h."
+      ],
+      "page": 13
+    },
+    {
+      "name": "Assistance dépendance - Assistance psychologique",
+      "description": "Organisation et prise en charge, selon la situation, de 1 à 5 entretiens téléphoniques avec un psychologue clinicien et, si nécessaire, de 1 à 3 entretiens en face à face. L’assistance psychologique peut être exécutée au profit de l’assuré ou de son aidant.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assistance sont accordées en France (hors Départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco (page 16).",
+      "limits": "1 à 5 entretiens téléphoniques et, si nécessaire, 1 à 3 entretiens en face à face",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Les entretiens doivent être exécutés dans un délai de 12 mois à compter de la date de survenance de l’événement."
+      ],
+      "page": 13
+    },
+    {
+      "name": "Assistance dépendance - Aide au maintien à domicile : bilan de l’habitat",
+      "description": "Un ergothérapeute se déplace au domicile de l’assuré afin d’évaluer sa situation dans son lieu de vie. Si nécessaire, il lui propose des solutions d’aménagement pour faciliter son maintien à domicile. Si des aménagements importants sont nécessaires, l’ergothérapeute peut mettre l’assuré en relation avec des entreprises susceptibles de réaliser ces aménagements. Le coût des travaux n’est pas pris en charge.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assistance sont accordées en France (hors Départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco (page 16).",
+      "limits": "Limitée à un dossier par événement ; doit être exécutée dans les 24 mois suivant l’événement",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "L’Aide au maintien à domicile ne bénéficie qu’à l’assuré (page 13)."
+      ],
+      "page": 13
+    },
+    {
+      "name": "Assistance dépendance - Aide au maintien à domicile : téléassistance",
+      "description": "L’assuré peut bénéficier de la prise en charge de l’installation d’un dispositif de téléassistance à son domicile et des 3 premiers mois d’abonnement.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assistance sont accordées en France (hors Départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco (page 16).",
+      "limits": "Installation et 3 premiers mois d’abonnement ; doit être exécutée dans les 24 mois suivant l’événement",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "L’Aide au maintien à domicile ne bénéficie qu’à l’assuré (page 13)."
+      ],
+      "page": 13
+    },
+    {
+      "name": "Assistance dépendance - Enveloppe « Services »",
+      "description": "En cas de perte d’autonomie de l’assuré, celui-ci peut demander à bénéficier d’une enveloppe de services de 50 unités. Services pouvant être mis en œuvre au domicile : aide à domicile (minimum de 2 heures par intervention) ; auxiliaire de vie ; présence d’un proche ; transfert chez un proche ; livraison de médicaments ; portage des repas ; livraison de courses ; coiffure à domicile ; portage d’espèces.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assistance sont accordées en France (hors Départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco (page 16).",
+      "limits": "Enveloppe de 50 unités, mise en œuvre sur une période maximale de 12 mois à compter de la mise en jeu de la garantie",
+      "sub_limits": [
+        "aide à domicile : 1 heure = 1 unité",
+        "auxiliaire de vie : 1 heure = 2 unités",
+        "présence d’un proche : 1 aller-retour + hébergement = 10 unités (hébergement dans la limite de 2 nuits, petits-déjeuners inclus à concurrence de 50 € par nuit)",
+        "transfert chez un proche : 1 aller-retour + hébergement = 10 unités (hébergement dans la limite de 2 nuits, petits-déjeuners inclus à concurrence de 50 € par nuit)",
+        "livraison de médicaments : 1 livraison = 4 unités (le coût des médicaments reste à la charge de l’assuré)",
+        "portage de repas : 1 livraison = 2 unités (dans la limite d’une livraison d’un pack de repas par semaine, le coût du repas reste à la charge de l’assuré)",
+        "livraison de courses : 1 livraison = 6 unités (le coût des courses reste à la charge de l’assuré)",
+        "coiffure à domicile : 1 déplacement = 1 unité (le coût de la prestation reste à la charge de l’assuré)",
+        "portage d’espèces : 1 déplacement = 4 unités"
+      ],
+      "deductible": null,
+      "conditions": [
+        "L’enveloppe « Services » ne bénéficie qu’à l’assuré (page 13)."
+      ],
+      "page": 14
+    },
+    {
+      "name": "Assistance - Soutien en cas d’accueil en établissement : déménagement et nettoyage du logement quitté",
+      "description": "Mise en relation avec une entreprise de déménagement ou une société de garde-meuble (le prix du déménagement reste à la charge de l’assuré) ; organisation et prise en charge du nettoyage du logement quitté.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assistance sont accordées en France (hors Départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco (page 16).",
+      "limits": "Nettoyage du logement quitté dans la limite de 500 € dans les 24 mois suivant le déménagement",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 14
+    },
+    {
+      "name": "Assistance - Soutien en cas d’accueil en établissement : aide à la mobilité de l’aidant ou d’un proche",
+      "description": "Organisation et prise en charge de trajets aller-retour domicile/établissement, afin de garder le lien.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assistance sont accordées en France (hors Départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco (page 16).",
+      "limits": "Dans la limite de 500 €, de 5 trajets aller-retour domicile/établissement dans les 12 mois suivant l’entrée en établissement",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 14
+    },
+    {
+      "name": "Assistance aidants - Répit de l’aidant : intervention d’une aide à domicile ou d’une auxiliaire de vie",
+      "description": "En cas de fatigue physique ou morale justifiée par une prescription médicale : mise à disposition d’une auxiliaire de vie pour la garde de jour de la personne dépendante, du lundi au vendredi, de 8h à 20h ; OU mise à disposition d’une aide à domicile ayant pour mission de réaliser des tâches quotidiennes telles que du ménage, la préparation des repas, la vaisselle, le repassage et les courses de proximité.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assistance sont accordées en France (hors Départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco (page 16).",
+      "limits": "Minimum de 2 heures par intervention dans la limite de 40 heures, réparties sur une période maximale de 12 mois à compter de la mise en œuvre de la prestation",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Fatigue physique ou morale justifiée par une prescription médicale ; dans la limite d’un répit par an."
+      ],
+      "page": 15
+    },
+    {
+      "name": "Assistance aidants - Répit de l’aidant : venue d’un proche ou transfert chez un proche",
+      "description": "Organisation et prise en charge du transport aller-retour d’un proche en France métropolitaine ; OU du transport aller-retour non médicalisé de la personne dépendante chez un proche en France métropolitaine. Si cela est nécessaire, le transport d’un accompagnant est également pris en charge.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assistance sont accordées en France (hors Départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco (page 16).",
+      "limits": "Un transfert par an, dans la limite de 200 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Dans la limite d’un répit par an."
+      ],
+      "page": 15
+    },
+    {
+      "name": "Assistance aidants - Répit de l’aidant : les autres prestations",
+      "description": "Livraison de médicaments ; livraison des courses (transport aller-retour au centre commercial le plus proche ou prise en charge des frais de livraison d’une commande) ; portage de repas (livraison d’un pack de repas, composé de 5 ou 7 jours de repas, à définir à la commande) ; portage d’espèces (transport aller-retour jusqu’à la banque de la personne dépendante ou portage d’espèces au domicile par un prestataire agréé contre reconnaissance de dette) ; coiffure à domicile (déplacement d’un coiffeur au domicile).",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assistance sont accordées en France (hors Départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco (page 16).",
+      "limits": "Chaque prestation dans la limite de 2 livraisons/déplacements sur une période maximale de 12 mois",
+      "sub_limits": [
+        "livraison de médicaments : 2 livraisons sur une période maximale de 12 mois suivant l’événement ; le coût des médicaments reste à la charge de la personne dépendante",
+        "livraison des courses : 2 livraisons sur une période maximale de 12 mois ; le coût des courses reste à la charge de la personne dépendante",
+        "portage de repas : 2 livraisons sur une période maximale de 12 mois ; le prix des repas reste à la charge de la personne dépendante",
+        "portage d’espèces : maximum 150 € au domicile, dans la limite de 2 aller-retour ou de 2 portage sur une période maximale de 12 mois",
+        "coiffure à domicile : 2 déplacements sur une période maximale de 12 mois ; le coût de la prestation reste à la charge de la personne dépendante"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Dans la limite d’un répit par an."
+      ],
+      "page": 15
+    },
+    {
+      "name": "Assistance aidants - Indisponibilité de l’aidant : intervention d’une aide à domicile ou d’une auxiliaire de vie",
+      "description": "En cas d’hospitalisation de plus de 2 jours ou d’une immobilisation imprévue au domicile de plus de 5 jours de l’aidant : mise à disposition d’une auxiliaire de vie pour la garde de jour de la personne dépendante, du lundi au vendredi, de 8h à 20h ; OU mise à disposition d’une aide à domicile ayant pour mission de réaliser des tâches quotidiennes telles que du ménage, la préparation des repas, la vaisselle, le repassage et les courses de proximité.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assistance sont accordées en France (hors Départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco (page 16).",
+      "limits": "Minimum de 2 heures par intervention dans la limite de 30 heures, réparties sur une période maximale d’un mois à compter de la mise en œuvre de la prestation",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Hospitalisation de l’aidant de plus de 2 jours ou immobilisation imprévue au domicile de plus de 5 jours."
+      ],
+      "page": 15
+    },
+    {
+      "name": "Assistance aidants - Indisponibilité de l’aidant : venue d’un proche ou transfert chez un proche",
+      "description": "Organisation et prise en charge du transport aller-retour d’un proche en France métropolitaine ; OU du transport aller-retour non médicalisé de la personne dépendante chez un proche en France métropolitaine. Si cela est nécessaire, le transport d’un accompagnant est également pris en charge.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assistance sont accordées en France (hors Départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco (page 16).",
+      "limits": "Un transfert par an, dans la limite de 200 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Hospitalisation de l’aidant de plus de 2 jours ou immobilisation imprévue au domicile de plus de 5 jours."
+      ],
+      "page": 15
+    },
+    {
+      "name": "Assistance aidants - Indisponibilité de l’aidant : mise en relation avec des services de proximité",
+      "description": "Mise en relation avec des services de proximité : auxiliaire de vie, aide à domicile, portage de repas …",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assistance sont accordées en France (hors Départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco (page 16).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 15
+    },
+    {
+      "name": "Assistance aidants - Aide aux démarches administratives",
+      "description": "Afin d’aider l’aidant dans la rédaction des documents administratifs liés à la perte d’autonomie, mise à disposition d’un intervenant à domicile.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assistance sont accordées en France (hors Départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco (page 16).",
+      "limits": "Dans la limite de 4 heures, à raison de 2 heures minimum par intervention",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 16
+    },
+    {
+      "name": "Assistance aidants - Bilan social et aide à la décision",
+      "description": "L’assuré peut bénéficier d’un bilan social réalisé par un travailleur social qui se décompose en 4 étapes : déterminer les besoins de l’assuré ; proposer des solutions d’organisation du quotidien (exemple : aménagement du logement, recours à l’accueil temporaire) ; donner des indications pour trouver d’éventuels financements ; accompagner l’aidant dans son appréciation de ses capacités à faire face à son engagement en analysant les impacts sur sa vie sociale, professionnelle et économique.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assistance sont accordées en France (hors Départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco (page 16).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Cette garantie est accessible du lundi au vendredi de 8h30 à 17h."
+      ],
+      "page": 16
+    },
+    {
+      "name": "Assistance aidants - Assistance psychologique",
+      "description": "Organisation et prise en charge, selon la situation, de 1 à 5 entretiens téléphoniques avec un psychologue clinicien et, si nécessaire, de 1 à 3 entretiens en face à face avec un psychologue clinicien.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assistance sont accordées en France (hors Départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco (page 16).",
+      "limits": "1 à 5 entretiens téléphoniques et, si nécessaire, 1 à 3 entretiens en face à face",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Les entretiens doivent être exécutés dans un délai de 12 mois à compter de la date de survenance de l’événement."
+      ],
+      "page": 16
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Risque nucléaire",
+      "description": "Sont exclues les conséquences directes et indirectes d’explosions, de dégagements de chaleur ou de l’irradiation provenant de la transmutation de noyaux d’atomes ou de la radioactivité.",
+      "applies_to": "Garanties d’assurance (Capital premiers frais et Rente dépendance)",
+      "page": 9
+    },
+    {
+      "name": "Guerre civile ou étrangère, conflits à caractère militaire",
+      "description": "Sont exclues les conséquences résultant de la guerre civile ou étrangère ou de conflits à caractère militaire.",
+      "applies_to": "Garanties d’assurance (Capital premiers frais et Rente dépendance)",
+      "page": 9
+    },
+    {
+      "name": "Terrorisme, attentats, sabotages, émeutes, troubles civils ou mouvements populaires",
+      "description": "Sont exclues les conséquences résultant du terrorisme, attentats, sabotages, émeutes, troubles civils ou mouvements populaires.",
+      "applies_to": "Garanties d’assurance (Capital premiers frais et Rente dépendance)",
+      "page": 9
+    },
+    {
+      "name": "Paris, défis, duels, rixes",
+      "description": "Sont exclues les conséquences résultant de la participation à des paris, défis, duels, rixes sauf en cas de légitime défense.",
+      "applies_to": "Garanties d’assurance (Capital premiers frais et Rente dépendance)",
+      "page": 9
+    },
+    {
+      "name": "Participation à un délit intentionnel ou à un crime",
+      "description": "Sont exclues les conséquences résultant de la participation à un délit intentionnel ou à un crime.",
+      "applies_to": "Garanties d’assurance (Capital premiers frais et Rente dépendance)",
+      "page": 9
+    },
+    {
+      "name": "Mutilations volontaires",
+      "description": "Sont exclues les conséquences résultant de mutilations volontaires (sous réserve que la mutuelle en apporte la preuve).",
+      "applies_to": "Garanties d’assurance (Capital premiers frais et Rente dépendance)",
+      "page": 9
+    },
+    {
+      "name": "Acrobaties, tentatives de records ou sports avec véhicule ou engin à moteur",
+      "description": "Sont exclues les conséquences résultant de la participation à des acrobaties, à des tentatives de records ou à des sports, lorsqu’elle nécessite l’utilisation d’un véhicule ou engin à moteur.",
+      "applies_to": "Garanties d’assurance (Capital premiers frais et Rente dépendance)",
+      "page": 9
+    },
+    {
+      "name": "Pratique de sports listés",
+      "description": "Sont exclues les conséquences résultant de la pratique des sports suivants : sports de haute montagne, saut à l’élastique ou pendulaire, l’escalade, le VTT extrême, la plongée subaquatique, la spéléologie, les sports équestres, les sports de combat, le bobsleigh, le nautisme et la voile.",
+      "applies_to": "Garanties d’assurance (Capital premiers frais et Rente dépendance)",
+      "page": 9
+    },
+    {
+      "name": "Conduite d’un véhicule terrestre à moteur sous l’empire d’un état alcoolique",
+      "description": "Sont exclues les conséquences des accidents survenus alors que l’assuré conduit un véhicule terrestre à moteur sous l’empire d’un état alcoolique dont le seuil est fixé par l’article R.234 - 1 du Code de la route.",
+      "applies_to": "Garanties d’assurance (Capital premiers frais et Rente dépendance)",
+      "page": 9
+    },
+    {
+      "name": "Stupéfiants ou psychotropes hors prescription médicale",
+      "description": "Sont exclues les conséquences des accidents ou pathologies liés à l’utilisation de substances classées par le Code de la santé publique comme stupéfiants ou psychotropes en dehors d’une prescription médicale ou d’une absorption accidentelle.",
+      "applies_to": "Garanties d’assurance (Capital premiers frais et Rente dépendance)",
+      "page": 9
+    },
+    {
+      "name": "Tentatives de suicide dans les 12 mois suivant la prise d’effet du contrat",
+      "description": "Sont exclues les conséquences des tentatives de suicide dans les 12 mois qui suivent la prise d’effet du contrat. Cette exclusion s’applique également en cas d’augmentation des garanties (pour le différentiel des garanties).",
+      "applies_to": "Garanties d’assurance (Capital premiers frais et Rente dépendance)",
+      "page": 9
+    },
+    {
+      "name": "Dépendance survenue pendant le délai d’attente",
+      "description": "En cas de dépendance de l’assuré pendant le délai d’attente, les garanties du contrat prennent fin et la mutuelle rembourse les cotisations versées (diminuées des éventuels frais de fractionnement) sauf en cas de fausse déclaration intentionnelle lors de l’adhésion, ou lorsque l’état de dépendance est la conséquence d’un événement listé à l’article « Exclusions des garanties d’assurance ». Le lexique précise que le délai d’attente est la « période suivant la prise d’effet du contrat ou l’augmentation des garanties pendant laquelle l’état de dépendance de l’assuré ne donnera définitivement lieu à aucune prestation ».",
+      "applies_to": "Garanties d’assurance (Capital premiers frais et Rente dépendance)",
+      "page": 9
+    },
+    {
+      "name": "Hospitalisations liées à la chirurgie plastique esthétique",
+      "description": "Ne donnent pas lieu à l’application des garanties d’assistance les hospitalisations liées à des soins de chirurgie plastique entrepris pour des raisons exclusivement esthétiques, ainsi que leurs conséquences, en dehors de toute intervention à la suite de blessures, malformations ou lésions liées à des maladies.",
+      "applies_to": "Garanties d’assistance",
+      "page": 16
+    },
+    {
+      "name": "Hospitalisations liées au changement de sexe, à la stérilisation et aux traitements sexuels",
+      "description": "Ne donnent pas lieu à l’application des garanties d’assistance les hospitalisations liées au changement de sexe, à la stérilisation, les traitements pour transformations, dysfonctionnements ou insuffisances sexuelles, ainsi que leurs conséquences.",
+      "applies_to": "Garanties d’assistance",
+      "page": 16
+    },
+    {
+      "name": "Hospitalisations et immobilisations résultant de l’usage de drogues ou de stupéfiants",
+      "description": "Ne donnent pas lieu à l’application des garanties d’assistance les hospitalisations et immobilisations à domicile résultant de l’usage de drogues ou de stupéfiants non ordonnés médicalement.",
+      "applies_to": "Garanties d’assistance",
+      "page": 16
+    },
+    {
+      "name": "Hospitalisations et immobilisations résultant de la consommation d’alcool",
+      "description": "Ne donnent pas lieu à l’application des garanties d’assistance les hospitalisations et immobilisations à domicile résultant de la consommation d’alcool.",
+      "applies_to": "Garanties d’assistance",
+      "page": 16
+    },
+    {
+      "name": "Hospitalisations et immobilisations résultant de l’action volontaire du bénéficiaire",
+      "description": "Ne donnent pas lieu à l’application des garanties d’assistance les hospitalisations et immobilisations à domicile résultant de l’action volontaire du bénéficiaire : suicide, tentative de suicide ou mutilation volontaire.",
+      "applies_to": "Garanties d’assistance",
+      "page": 16
+    },
+    {
+      "name": "Infractions volontaires à la législation en vigueur",
+      "description": "« Sous réserve d’en rapporter la preuve, IMA ne sera pas tenue d’intervenir dans les cas où l’assuré aurait commis de façon volontaire des infractions à la législation en vigueur. »",
+      "applies_to": "Garanties d’assistance",
+      "page": 16
+    },
+    {
+      "name": "Dépenses engagées de sa propre initiative",
+      "description": "« IMA Assurances ne participera pas après coup aux dépenses que le bénéficiaire des garanties aurait engagées de sa propre initiative. » Les garanties d’assistance sont mises en œuvre par IMA Assurances ou en accord préalable avec elle et ne doivent pas se substituer aux interventions des services publics, ni aux prestations dues par les organismes sociaux et les employeurs.",
+      "applies_to": "Garanties d’assistance",
+      "page": 18
+    },
+    {
+      "name": "Force majeure et événements assimilés (garanties d’assistance)",
+      "description": "« IMA Assurances ne sera pas tenue responsable des manquements ou contretemps à l’exécution de ses obligations qui résulteraient de cas de force majeure ou des événements suivants : pandémie, guerre civile ou étrangère, révolution, mouvement populaire, émeute, grève, saisie ou contrainte par la force publique, interdiction officielle, piraterie, explosion d’engins, effets nucléaires ou radioactifs, empêchements climatiques. »",
+      "applies_to": "Garanties d’assistance",
+      "page": 18
+    },
+    {
+      "name": "Refus de se soumettre à l’expertise médicale",
+      "description": "« Les prestations ne sont pas dues si l’assuré refuse de se soumettre à l’expertise ou si l’expertise révèle que les conditions prévues par les garanties ne sont pas réunies. Néanmoins cette procédure n’interdit pas à l’assuré de faire valoir ses droits devant les juridictions compétentes. »",
+      "applies_to": "Garanties d’assurance (Capital premiers frais et Rente dépendance)",
+      "page": 17
+    },
+    {
+      "name": "Déchéance des garanties en cas de fraude",
+      "description": "« Toute réticence à un contrôle, à une expertise médicale ou toute déclaration intentionnellement fausse lors du sinistre de la part de l’assuré ou de ses ayants droit, de même que la production de documents inexacts ou mensongers quant à son état civil, la date, les circonstances, les origines de la dépendance font perdre tout droit à prestations pour la ou les garanties concernées et peuvent entraîner votre radiation et la fin du contrat, au jour de la première fausse déclaration. » La mutuelle est alors en droit de réclamer le remboursement des prestations versées à tort.",
+      "applies_to": "all",
+      "page": 19
+    },
+    {
+      "name": "Nullité du contrat pour fausse déclaration intentionnelle à l’adhésion",
+      "description": "En cas de réticence ou de fausse déclaration intentionnelle, la mutuelle peut soulever la nullité du contrat dans les conditions prévues à l’article L.221 - 14 du Code de la mutualité. Dans ce cas, le contrat est considéré comme n’ayant jamais existé : l’assuré ne percevra aucune prestation en cas de sinistre et la mutuelle conservera les cotisations déjà payées à titre de dédommagement.",
+      "applies_to": "all",
+      "page": 19
+    }
+  ],
+  "deductibles": {
+    "standard": "Franchise de 90 jours à compter de la date de reconnaissance de la dépendance sur la Rente dépendance (page 8). Le lexique définit la franchise comme la « période de dépendance non indemnisée » (page 27).",
+    "variable": null,
+    "per_coverage": {
+      "Rente dépendance": "Franchise de 90 jours à compter de la date de reconnaissance de la dépendance.",
+      "Capital premiers frais": "Sans franchise : « un capital premier frais versé dès le niveau de GIR 4 sans franchise » (page 2)."
+    },
+    "page": 8
+  },
+  "waiting_periods": [
+    {
+      "coverage": "Garanties d’assurance (Capital premiers frais et Rente dépendance)",
+      "duration": "3 ANS",
+      "description": "3 ANS, en cas de dépendance de l’assuré consécutive à une maladie neurologique médicalement constatée parmi la liste suivante : l’atrophie multisystématisée, l’épilepsie, la chorée de Huntington, la dégénérescence ou démence fronto-temporale, la maladie à corps de Lewy, la maladie d’Alzheimer, les dystonies, la maladie de Charcot ou sclérose latérale amyotrophique (SLA), la maladie de Parkinson, la sclérose en plaques, le syndrome cérébelleux.",
+      "page": 9
+    },
+    {
+      "coverage": "Garanties d’assurance (Capital premiers frais et Rente dépendance)",
+      "duration": "3 ANS",
+      "description": "3 ANS, en cas de dépendance de l’assuré consécutive à une maladie psychique médicalement constatée parmi la liste suivante : la dépression, réactionnelle ou non, les troubles anxio dépressifs et névrotiques, les troubles du sommeil (hypersomnie ou insomnie), le burnout, l’épuisement, le syndrome de fatigue chronique, les troubles de l’humeur, les troubles du comportement et de la personnalité, l’anorexie, les TOC (Trouble Obsessionnel Compulsif), la fibromyalgie, la douleur chronique sans cause connue (Syndrome Douloureux Régional Complexe ou SDRC), les manifestations somatiques ainsi que celles liées au stress, les psychoses aiguës ou chroniques, les troubles bipolaires.",
+      "page": 9
+    },
+    {
+      "coverage": "Garanties d’assurance (Capital premiers frais et Rente dépendance)",
+      "duration": "UN AN",
+      "description": "UN AN, en cas de dépendance de l’assuré consécutive à une maladie quelle qu’en soit l’origine ou la nature.",
+      "page": 9
+    },
+    {
+      "coverage": "Garanties d’assurance (Capital premiers frais et Rente dépendance)",
+      "duration": "Applicable à l’adhésion et en cas d’augmentation des garanties",
+      "description": "Ce délai s’applique lors de l’adhésion et en cas d’augmentation des garanties (pour le différentiel de garantie). En cas de dépendance de l’assuré pendant le délai d’attente, les garanties du contrat prennent fin et la mutuelle rembourse les cotisations versées (diminuées des éventuels frais de fractionnement), sauf en cas de fausse déclaration intentionnelle lors de l’adhésion ou lorsque l’état de dépendance est la conséquence d’un événement listé à l’article « Exclusions des garanties d’assurance ».",
+      "page": 9
+    }
+  ],
+  "obligations": [
+    {
+      "name": "Informer de toute modification de l’état de santé avant acceptation",
+      "description": "L’assuré doit informer la mutuelle de toute modification de son état de santé survenue entre la demande d’assurance et l’acceptation de cette demande, justifiée par l’envoi du certificat individuel de garantie. Ces modifications doivent être prises en compte pour l’étude de la demande d’assurance.",
+      "timing": "Entre la demande d’assurance et son acceptation",
+      "sanction": "Les conséquences engendrées par une déclaration inexacte sont prévues à l’article « Conséquences en cas de fausse déclaration ».",
+      "page": 5
+    },
+    {
+      "name": "Formalités d’adhésion",
+      "description": "Après avoir déterminé la formule de garantie répondant le mieux aux besoins de l’assuré, l’adhérent doit compléter, signer et dater la demande d’assurance et fournir une copie de sa pièce d’identité en cours de validité. En cas de paiement par prélèvement, il doit également remplir un mandat de prélèvement SEPA et fournir un relevé d’identité bancaire. L’assuré doit remplir la déclaration de santé et, si nécessaire, un questionnaire médical, puis dater et signer la demande d’assurance.",
+      "timing": "À l’adhésion",
+      "sanction": null,
+      "page": 5
+    },
+    {
+      "name": "Exactitude de la déclaration de santé et du questionnaire médical",
+      "description": "Lors de l’adhésion, l’assuré remplit une déclaration de santé et, si nécessaire, un questionnaire médical. Ces deux documents sont très importants et doivent être complétés avec exactitude. Les déclarations relatives à l’état civil de l’assuré, son état de santé et le cas échéant ses antécédents médicaux servent de base à l’assurance.",
+      "timing": "À l’adhésion",
+      "sanction": "En cas de réticence ou de fausse déclaration intentionnelle : nullité du contrat (article L.221 - 14 du Code de la mutualité), aucune prestation et conservation des cotisations par la mutuelle. En cas d’omission ou de déclaration inexacte non intentionnelle sans mauvaise foi établie (article L.221 - 15) : si aucun sinistre n’a eu lieu, proposition de nouvelles conditions d’assurance, le refus entraînant la résiliation ; si un sinistre a déjà eu lieu, l’indemnisation est réduite proportionnellement à la cotisation effectivement payée par rapport à la cotisation due.",
+      "page": 19
+    },
+    {
+      "name": "Vérifier le certificat individuel de garantie",
+      "description": "Une fois la demande d’assurance acceptée, la mutuelle adresse au souscripteur (adhérent) un certificat individuel de garantie reprenant l’intégralité des garanties souscrites. Il est important de vérifier que toutes les données figurant dans ce document sont exactes.",
+      "timing": "À la réception du certificat individuel de garantie",
+      "sanction": null,
+      "page": 3
+    },
+    {
+      "name": "Informer de tout changement de nom, d’adresse ou de coordonnées bancaires",
+      "description": "En cas de changement de nom, d’adresse ou de coordonnées bancaires, il est nécessaire d’en informer la mutuelle afin de faciliter les échanges.",
+      "timing": "En cours de contrat",
+      "sanction": null,
+      "page": 3
+    },
+    {
+      "name": "Se soumettre à l’expertise médicale",
+      "description": "La mutuelle peut faire procéder, à tout moment, par un médecin-expert qu’elle désigne, à une expertise médicale relative à la demande ou au maintien des prestations. L’expertise médicale a lieu en France métropolitaine. La mutuelle peut également diligenter une enquête sur les origines de la dépendance de l’assuré.",
+      "timing": "À tout moment",
+      "sanction": "Les prestations ne sont pas dues si l’assuré refuse de se soumettre à l’expertise. Sauf cas de force majeure, si l’assuré ne se présente pas pour l’expertise à la date convenue, il devra régler les frais facturés par l’expert.",
+      "page": 17
+    },
+    {
+      "name": "Payer les cotisations",
+      "description": "La cotisation est annuelle et payable d’avance. Elle peut être réglée par chèque (uniquement pour le paiement annuel et semestriel) ou par mandat de prélèvement SEPA. Le fractionnement du paiement (semestriel ou mensuel) peut être demandé ; des frais de fractionnement sont alors appliqués.",
+      "timing": "Annuellement à l’échéance principale, ou selon le fractionnement choisi",
+      "sanction": "À défaut de paiement d’une cotisation ou d’une fraction de cotisation dans un délai de 10 jours suivant la date d’échéance, envoi d’une lettre recommandée de mise en demeure précisant que les garanties du contrat seront résiliées 40 jours après l’envoi de cette lettre si la cotisation reste impayée.",
+      "page": 20
+    },
+    {
+      "name": "Informer la mutuelle de la perte de la qualité de travailleur indépendant",
+      "description": "Si l’adhérent perd la qualité de travailleur indépendant, il doit en informer la mutuelle dans les meilleurs délais.",
+      "timing": "En cours de contrat",
+      "sanction": "L’adhérent ne pourra plus bénéficier du régime fiscal de la loi Madelin.",
+      "page": 25
+    },
+    {
+      "name": "Être à jour des cotisations aux régimes obligatoires (loi Madelin)",
+      "description": "Pour bénéficier du cadre fiscal de la loi Madelin, l’adhérent doit être à jour, pendant toute la durée de son adhésion, du paiement des cotisations aux régimes obligatoires d’assurance maladie et d’assurance vieillesse de Sécurité sociale, et être adhérent à l’APPIC.",
+      "timing": "Pendant toute la durée de l’adhésion",
+      "sanction": "Perte du bénéfice de la déduction fiscale.",
+      "page": 25
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Justificatifs à fournir pour les garanties d’assurance",
+      "description": "Pour percevoir le Capital premiers frais et la Rente dépendance, l’assuré doit adresser à la mutuelle le justificatif de placement en GIR 1 à 4 délivré par le Conseil départemental du lieu de résidence, dans le cadre d’une demande d’Allocation Personnalisée d’Autonomie (APA), exception faite des assurés de moins de 60 ans ne remplissant pas les conditions d’attribution de l’APA. Dans tous les cas, l’assuré doit également adresser : l’attestation médicale dûment complétée par son médecin traitant précisant la maladie à l’origine de la dépendance et sa date de première constatation ou la date et la nature de l’accident ayant entraîné la dépendance, ainsi que les éventuels antécédents médicaux ; une copie de sa pièce d’identité en cours de validité ; si nécessaire et en fonction des circonstances, le compte-rendu d’hospitalisation et le procès-verbal de gendarmerie. Les documents doivent être envoyés sous pli confidentiel à : Macif - Service Médical - CS 69109 - 79061 Niort cedex 9.",
+      "deadline": null,
+      "page": 17
+    },
+    {
+      "step": "Évaluation de l’état de dépendance",
+      "description": "L’état et le niveau de dépendance de l’assuré sont évalués, par le médecin-conseil de la mutuelle, sur la base de la grille AGGIR (Autonomie Gérontologique Groupe Iso-Ressources) visée à l’article L.232 - 2 et décrite en annexe 2.1 et 2.2 du Code de l’action sociale et des familles, et des documents administratifs et médicaux listés à l’article « Les formalités des garanties d’assurance ». La grille AGGIR comprend 6 niveaux déterminés (dits « groupes Iso-ressources » ou GIR) permettant d’évaluer le degré de dépendance ou d’autonomie des personnes dans l’accomplissement des actes de la vie quotidienne.",
+      "deadline": null,
+      "page": 17
+    },
+    {
+      "step": "Enquête et expertise médicale",
+      "description": "La mutuelle peut faire procéder à tout moment, par un médecin-expert qu’elle désigne, à une expertise médicale relative à la demande ou au maintien des prestations, en France métropolitaine. La mission confiée au médecin-expert est de : décrire l’état de santé actuel et passé de l’assuré ; préciser les causes médicales de la dépendance ; vérifier que les déclarations de santé de l’assuré au jour de l’adhésion étaient bien en cohérence avec son état de santé à cette date ; vérifier que l’assuré remplit bien, médicalement, les conditions prévues contractuellement ; fixer la date d’entrée définitive en dépendance. L’assuré peut se faire assister par son propre médecin-expert, dont les frais restent à sa charge exclusive.",
+      "deadline": null,
+      "page": 17
+    },
+    {
+      "step": "Expertise d’arbitrage en cas de désaccord médical",
+      "description": "En cas de désaccord de l’assuré, motivé par un certificat médical, sur les conclusions de la mission, une expertise d’arbitrage immédiate est organisée. Le médecin arbitre est choisi par l’assuré ou son représentant, sur une liste de 3 noms proposés par la mutuelle. À défaut d’entente, il est choisi, à la requête de la partie la plus diligente, par le président du Tribunal de grande instance dans le ressort duquel se trouve le domicile déclaré de l’assuré, l’autre partie ayant été convoquée par lettre recommandée. Lors de l’expertise arbitrale, chacune des parties peut se faire représenter par le médecin de son choix, dont les frais d’honoraires restent à sa charge. Les frais de l’expertise arbitrale sont supportés par moitié entre l’assuré et la mutuelle.",
+      "deadline": null,
+      "page": 17
+    },
+    {
+      "step": "Versement du Capital premiers frais et de la Rente dépendance",
+      "description": "Le Capital premiers frais est versé, une seule fois, dans un délai maximal de deux mois après réception de l’ensemble des justificatifs. La Rente dépendance est versée après une franchise de 90 jours à compter de la date de reconnaissance de la dépendance, puis dans un délai maximal de deux mois après réception de l’ensemble des justificatifs. La rente est payable mensuellement à terme échu, jusqu’au décès de l’assuré.",
+      "deadline": "délai maximal de deux mois après réception de l’ensemble des justificatifs",
+      "page": 8
+    },
+    {
+      "step": "Mise en œuvre des garanties d’assistance en cas de dépendance",
+      "description": "L’assuré dispose d’un délai d’un an à compter de la perte d’autonomie ou de l’aggravation de la perte d’autonomie pour demander la mise en œuvre des garanties. Cette mise en œuvre est soumise à l’envoi à IMA Assurances d’un justificatif de la perte d’autonomie de la personne dépendante (justificatif de perception de l’AEEH, de la PCH, de l’AAH ou de l’APA). Les autres garanties d’assistance peuvent être mises en place sur simple demande de l’assuré ou de son aidant.",
+      "deadline": "un an à compter de la perte d’autonomie ou de son aggravation",
+      "page": 18
+    },
+    {
+      "step": "Mise en œuvre des garanties d’assistance en cas d’immobilisation temporaire ou d’indisponibilité de l’aidant",
+      "description": "Sauf cas de force majeure, l’assuré dispose d’un délai de 30 jours à compter de l’événement générateur pour contacter IMA Assurances et demander la mise en œuvre des garanties. Pour les garanties Aide à domicile, le délai de demande d’assistance est de 7 JOURS à compter de l’événement générateur (l’immobilisation au domicile ou la sortie d’une hospitalisation) ; passé ce délai, un décompte est effectué sur le plafond accordé (de 30 jours) et la garantie est mise en place au prorata des jours restants. Le nombre d’heures de prestations octroyé est apprécié par IMA Assurances en fonction de la nature et de la gravité de l’événement ainsi que de la gêne et du préjudice occasionnés aux proches, sur la base d’éléments objectifs : taille du logement, composition du foyer familial, existence d’aides familiales ou extra-familiales, présence de personnes dépendantes au sein du foyer, degré d’autonomie. IMA Assurances se réserve le droit de demander la justification médicale de l’événement.",
+      "deadline": "30 jours à compter de l’événement générateur ; 7 JOURS pour les garanties Aide à domicile",
+      "page": 18
+    },
+    {
+      "step": "Modalités des transports d’assistance",
+      "description": "Les transports de personnes prévus dans les garanties d’assistance s’effectuent en taxi, train 1re classe ou avion classe économique.",
+      "deadline": null,
+      "page": 18
+    },
+    {
+      "step": "Réclamation - garanties d’assurance",
+      "description": "Pour exprimer une insatisfaction, le conseiller est l’interlocuteur privilégié. Si la réponse apportée ne satisfait pas, la réclamation écrite est adressée au Service Qualité à l’adresse TSA 57273 - 79060 Niort cedex ou via le site internet www.macif.fr. La mutuelle accuse réception de la réclamation et y répond dans les meilleurs délais et dans un délai maximum de 2 mois.",
+      "deadline": "réponse dans un délai maximum de 2 mois",
+      "page": 21
+    },
+    {
+      "step": "Réclamation - garanties d’assistance",
+      "description": "Une réclamation est une déclaration actant d’un mécontentement concernant les garanties d’assistance mises en œuvre, ou la relation avec IMA Assurances au cours de cette mise en œuvre (une demande de service ou de prestation, une demande d’information, de clarification ou une demande d’avis n’est pas une réclamation). Les bénéficiaires peuvent contacter le Service Consommateur d’IMA Assurances par courriel depuis le site www.ima.eu - Réclamations, ou par courrier au 118 avenue de Paris - CS 40000 - 79003 Niort Cedex 9. Le Service Consommateur s’engage à accuser réception de la réclamation dans les dix jours ouvrables suivant son envoi et à y apporter une réponse dans un délai de deux mois maximum.",
+      "deadline": "accusé de réception sous dix jours ouvrables ; réponse sous deux mois maximum",
+      "page": 21
+    },
+    {
+      "step": "Médiation externe",
+      "description": "Si le mécontentement persiste après épuisement de la procédure interne de réclamation ou à l’issue du délai réglementaire de deux mois, l’adhérent peut saisir la Médiation de l’assurance par courrier à l’adresse TSA 50110 - 75441 Paris cedex 09, ou par internet sur www.mediation-assurance.org.",
+      "deadline": "saisine dans un délai maximum d’un an à compter de la réclamation écrite",
+      "page": 21
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "« La première période d’assurance se termine à la date indiquée au certificat individuel de garantie. Le contrat se renouvelle ensuite par tacite reconduction chaque année le 1er avril, à la date d’échéance annuelle, pour une durée d’un an, sous réserve des dispositions figurant à l’article “Résiliation du contrat”. »",
+    "tacit_renewal": true,
+    "notice_period": null,
+    "methods": [
+      "Résiliation par l’adhérent à tout moment, par lettre ou tout autre moyen prévu à l’article L.221 - 10 - 3 du Code de la mutualité, et notamment : par voie électronique via l’Espace Assurance sur www.macif.fr ; par lettre à Macif - Pôle Service et Relation Clients - CS 69109 - 79061 Niort cedex 9 ; par courrier électronique à contrat_prevoyance@macif.fr ; par déclaration en point d’accueil physique Macif ou au siège social de Macif Santé Prévoyance ; par acte extrajudiciaire. La résiliation prend effet à la date de réception de la demande.",
+      "Renonciation dans les 30 jours calendaires révolus suivant la réception du certificat individuel de garantie, par lettre ou tout autre moyen prévu à l’article L.221 - 10 - 3 du Code de la mutualité, selon un modèle de demande fourni. Les cotisations payées sont intégralement remboursées à l’adhérent dans un délai de 30 jours à compter de la réception de la demande."
+    ],
+    "special_rights": [
+      "En cas de modification des garanties par la mutuelle ou d’augmentation des cotisations, le contrat peut être résilié dans les mêmes conditions.",
+      "Effet de la valeur de réduction : si la valeur de réduction est acquise, le montant des garanties est réduit en fonction du règlement général du produit Autonomie et Dépendance mais les garanties d’assistance prennent fin ; si elle n’est pas acquise, le contrat est résilié à la date de réception du courrier de résiliation.",
+      "Résiliation par la mutuelle : en cas de non-paiement d’une cotisation ou d’une fraction de cotisation ; en cas de fausse déclaration non intentionnelle si l’adhérent refuse les nouvelles conditions d’assurance proposées (article L.221 - 15 du Code de la mutualité) ; en cas de fausse déclaration au moment du sinistre (article « Déchéance des garanties en cas de fraude »).",
+      "Dans tous les cas, les garanties cessent de plein droit : survenance de l’état de dépendance pendant le délai d’attente ; séjour à l’étranger de l’assuré d’une durée continue excédant 12 mois ; décès de l’assuré.",
+      "Modification du contrat : la modification des garanties peut être demandée à tout moment ; le changement prend effet à l’échéance principale suivant la date de l’acceptation de la demande. S’il s’agit d’une augmentation de garanties, de nouvelles formalités médicales sont exigées et un nouveau délai d’attente est appliqué pour la différence de garantie."
+    ],
+    "page": 20
+  },
+  "prescription_period": {
+    "description": "« La prescription est le délai au-delà duquel une action n’est plus recevable. » L’article L.221 - 11 du Code de la mutualité, reproduit dans le document, dispose que toutes actions dérivant des opérations régies par le présent titre sont prescrites par deux ans à compter de l’événement qui y donne naissance ; ce délai ne court, en cas de réticence, omission, déclaration fausse ou inexacte sur le risque couru, que du jour où la mutuelle ou l’union en a eu connaissance, et en cas de réalisation du risque, que du jour où les intéressés en ont eu connaissance s’ils prouvent qu’ils l’ont ignoré jusque-là. Quand l’action a pour cause le recours d’un tiers, le délai ne court que du jour où ce tiers a exercé une action en justice ou a été indemnisé. Dans le cadre des opérations collectives mentionnées au III de l’article L.221 - 2, la prescription est portée à cinq ans en ce qui concerne l’incapacité de travail. Elle est portée à dix ans lorsque le bénéficiaire n’est pas le membre participant et, dans les opérations relatives aux accidents atteignant les personnes, lorsque les bénéficiaires sont les ayants droit du membre participant décédé. Pour les contrats d’assurance sur la vie, les actions du bénéficiaire sont prescrites au plus tard trente ans à compter du décès du membre participant. L’article L.221 - 12 - 1 précise que les parties ne peuvent, même d’un commun accord, ni modifier la durée de la prescription, ni ajouter aux causes de suspension ou d’interruption. L’interruption résulte des causes ordinaires (articles 2240 à 2246 du Code civil, reproduits), de la désignation d’experts à la suite de la réalisation d’un risque, et de l’envoi d’une lettre recommandée ou d’un envoi recommandé électronique avec accusé de réception (article L.221 - 12). Le lexique définit la prescription comme le « délai au-delà duquel toute demande relative au contrat d’assurance n’est plus recevable » (page 28).",
+    "page": 21
+  },
+  "premium": {
+    "notes": [
+      "Le montant de la cotisation est calculé en fonction de la formule de garantie choisie, de l’âge de l’assuré et de ses déclarations lors de l’adhésion et en cours de vie du contrat (page 20).",
+      "La page de présentation commerciale annonce « Un tarif qui n’évolue pas avec l’âge » (page 3).",
+      "La cotisation est annuelle et payable d’avance ; règlement par chèque (uniquement pour le paiement annuel et semestriel) ou par mandat de prélèvement SEPA. Le fractionnement (semestriel ou mensuel) peut être demandé, avec application de frais de fractionnement (page 20).",
+      "Le changement du montant des cotisations est notifié à l’adhérent et prend effet à l’échéance principale (page 20).",
+      "« Dès que l’assuré est reconnu en situation de dépendance avec un classement en GIR compris entre 1 et 4, plus aucune cotisation n’est due au titre du contrat. » (pages 8 et 20).",
+      "En cas d’adhésion à deux (conjoints ou toutes personnes ayant un lien familial entre elles) : réduction permanente de 10 % sur les cotisations des deux contrats GARANTIE AUTONOMIE ET DÉPENDANCE (page 3).",
+      "En cas d’acceptation de la demande moyennant surcotisation si les déclarations de l’assuré ne correspondent pas aux normes d’acceptation de risques de la mutuelle (page 5).",
+      "Les honoraires liés aux examens médicaux demandés par le service médical sont remboursés sur présentation de la note d’honoraire dans la limite de 120 € (page 5).",
+      "À défaut de paiement d’une cotisation ou d’une fraction de cotisation dans un délai de 10 jours suivant la date d’échéance : lettre recommandée de mise en demeure ; les garanties du contrat seront résiliées 40 jours après l’envoi de cette lettre si la cotisation reste impayée (page 20).",
+      "Valeur de réduction : montant de la garantie recalculé lorsque l’adhérent a interrompu le paiement des cotisations et que plus de 8 ans de cotisations ont été versées (page 28). Si la valeur de réduction est acquise, le contrat n’est pas résilié mais les garanties d’assurance sont réduites et les garanties d’assistance prennent fin (page 21).",
+      "Pour les travailleurs indépendants adhérant via l’APPIC : les cotisations du contrat collectif n°218.001-A (garantie Rente dépendance) sont déductibles dans le cadre de la loi Madelin du 11/02/1994 (article 154 bis du Code général des impôts) ; celles du contrat collectif n°218.001-B (Capital Premiers frais et garanties d’assistance) ne le sont pas. En contrepartie de la déduction, la rente servie est imposable. Une attestation annuelle de cotisations est adressée à l’adhérent (pages 24-25).",
+      "Aucun montant de cotisation n’est chiffré dans le document."
+    ],
+    "indexation": "Pour tenir compte de l’évolution du coût de la vie, les garanties peuvent être revalorisées, à l’échéance principale, en fonction d’un taux fixé par Macif Santé Prévoyance et dans la limite des disponibilités du fonds de revalorisation du présent contrat. L’abandon de ce système de revalorisation n’est pas possible. La revalorisation des prestations entraîne automatiquement la revalorisation, dans la même proportion, de la cotisation. Par ailleurs, le montant de la cotisation peut être révisé par la Mutuelle, notamment en cas d’évolution législative ou réglementaire, du taux technique ou si l’équilibre du contrat le nécessite. En cas de cumul de la revalorisation automatique et de la révision de la cotisation, l’augmentation de la cotisation sera proportionnellement plus importante que l’augmentation des garanties. Le fonctionnement du fonds de revalorisation est décrit dans le règlement général du produit autonomie et dépendance.",
+    "page": 20
+  },
+  "special_conditions": [
+    {
+      "name": "Porteurs du risque et rôles",
+      "description": "Colophon (page 29) : « Le contrat GARANTIE AUTONOMIE ET DÉPENDANCE, distribué par la Macif, est assuré par MACIF SANTÉ PRÉVOYANCE, mutuelle régie par le Livre II du Code de la mutualité et adhérente à la Mutualité Française. SIREN 779 558 501. Siège social : 1 rue Jacques Vandier - 79000 Niort. » ; « Les garanties Macif Assistance sont assurées par IMA Assurances - Société anonyme au capital de 157 000 000 € entièrement libéré. Entreprise régie par le Code des assurances - N° SIREN : 481 511 632 RCS Niort. » ; « APPIC - Association pour la Promotion de la Prévoyance Individuelle et Collective régie par la loi de 1901 » (souscripteur des contrats collectifs de la partie 2) ; « MACIF - MUTUELLE ASSURANCE DES COMMERÇANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE. Société d’assurance mutuelle à cotisations variables », citée comme distributeur. La page 4 précise que Macif Santé Prévoyance est soumise « au contrôle de l’Autorité de Contrôle Prudentiel et de Résolution - 4 place de Budapest - CS 92459 - 75436 Paris cedex 09 ».",
+      "page": 29
+    },
+    {
+      "name": "Deux montages juridiques dans un seul document",
+      "description": "PARTIE 1 - Règlement mutualiste : pour les particuliers, l’offre prend la forme d’un contrat individuel régi par le règlement mutualiste. PARTIE 2 - Notice d’information détaillée : pour les travailleurs indépendants (professionnels indépendants et leur conjoint collaborateur, ainsi que les dirigeants non salariés relevant de l’article 62 du Code général des impôts), l’offre prend la forme de deux contrats collectifs à adhésion facultative souscrits par l’APPIC auprès de Macif Santé Prévoyance : le contrat n°218.001-A (garantie Rente dépendance, cotisation déductible loi Madelin) et le contrat n°218.001-B (garantie Capital Premiers frais et garanties d’assistance, cotisations non déductibles). Les contrats peuvent être modifiés par un avenant signé entre l’APPIC et Macif Santé Prévoyance ; l’adhérent est informé de ces modifications. La partie 2 renvoie pour l’essentiel au règlement mutualiste (présentation des garanties, rente dépendance, capital premiers frais, territorialité, exclusions, délais d’attente, formalités en cas de sinistre, vie du contrat, garanties d’assistance) en précisant que les dispositions sont identiques.",
+      "page": 2
+    },
+    {
+      "name": "Régime juridique et langue",
+      "description": "Le contrat est régi par la loi française et la langue utilisée entre la mutuelle et l’adhérent pendant toute la vie du contrat est le français. Les statuts de Macif Santé Prévoyance sont consultables sur le site Internet www.macif.fr. Les contrats collectifs de la partie 2 sont régis par le Code de la mutualité et la langue utilisée pendant toute la vie des contrats est le français.",
+      "page": 4
+    },
+    {
+      "name": "Qui peut adhérer et pour qui",
+      "description": "L’adhérent peut adhérer au contrat à son profit (il est alors l’assuré) mais également au profit de son conjoint ou d’un membre de sa famille, qui devient alors l’assuré. Au jour de la demande d’assurance, l’assuré doit résider en France métropolitaine ou séjourner à l’étranger pour une durée continue n’excédant pas 12 mois, et être âgé de 40 ans à 70 ans inclus au moment de la souscription. Lorsque l’adhérent souscrit pour son conjoint ou un membre de sa famille, il doit lui-même résider en France métropolitaine ou séjourner à l’étranger pour une durée continue n’excédant pas 12 mois et être âgé de plus de 18 ans. L’âge est calculé par différence de millésime entre l’année de souscription et l’année de naissance (exemple donné : pour une personne née en 1967, l’âge retenu en 2026 est 2026 − 1967 = 59 ans).",
+      "page": 5
+    },
+    {
+      "name": "Suites de la demande d’assurance",
+      "description": "Après étude de la demande d’assurance, la mutuelle peut : accepter les garanties sans réserve ; différer sa décision dans l’attente d’examens ou de renseignements complémentaires demandés par son service médical (éléments à retourner sous pli confidentiel ; les honoraires liés aux examens médicaux sont remboursés sur présentation de la note d’honoraire dans la limite de 120 €) ; accepter la demande moyennant le paiement d’une surcotisation si les déclarations de l’assuré ne correspondent pas aux normes d’acceptation de risques ; refuser ou ajourner la demande d’assurance. L’acceptation de l’adhésion est justifiée par l’envoi d’un certificat individuel de garantie décrivant les conditions d’assurance.",
+      "page": 5
+    },
+    {
+      "name": "Prise d’effet du contrat",
+      "description": "Si la demande d’assurance est acceptée sans réserve, le contrat prend effet à la date figurant sur cette demande ; cette date ne peut en aucun cas être antérieure à la remise de la demande d’assurance à un représentant de Macif Santé Prévoyance ou à sa date d’envoi, le cachet de la Poste faisant foi. Si la demande fait l’objet d’une étude par le service médical, le contrat prend effet au plus tôt à la date d’acceptation par ce service. Dans tous les cas, la date d’effet du contrat est indiquée dans le certificat individuel de garantie.",
+      "page": 5
+    },
+    {
+      "name": "Six formules de garanties",
+      "description": "L’offre s’adapte aux besoins de l’assuré avec 6 formules de garanties au choix, au moment de l’adhésion : ESSENTIELLE, ESSENTIELLE +, MÉDIANE, CONFORT, CONFORT +, et ÉTABLISSEMENT (qui prévoit le versement d’une rente uniquement lorsque l’assuré est accueilli en établissement). Pour chacune des formules, le niveau de rente diffère en fonction du lieu de vie (à domicile ou en établissement).",
+      "page": 6
+    },
+    {
+      "name": "Architecture de l’offre d’assistance en trois temps",
+      "description": "L’offre d’assistance est conçue pour accompagner l’assuré tout au long de son parcours de vie et s’articule en trois temps. Temps 1, dès la souscription du contrat : des services d’assistance pour prévenir et retarder l’entrée en dépendance et accompagner l’assuré lorsqu’il est aidant (programme global de prévention santé, information et conseil, accompagnement pendant les moments de fragilité). Temps 2, lors de l’entrée en dépendance : des services d’assistance pour permettre à l’assuré de rester à domicile en autonomie le plus longtemps possible et accompagner son aidant (sécurisation de l’habitat avec bilan de l’habitat réalisé avec l’aide d’un ergothérapeute et service de téléassistance, accompagnement administratif et social, enveloppe de services en cas de perte d’autonomie). Temps 3, lors du passage en établissement : des services d’assistance pour accompagner au mieux l’assuré et ses proches (aide au déménagement, nettoyage du logement quitté, aide à la mobilité de l’aidant ou d’un proche).",
+      "page": 7
+    },
+    {
+      "name": "Subrogation",
+      "description": "Si un assuré est victime d’une atteinte à son intégrité physique causée par un tiers, la mutuelle peut récupérer auprès de ce tiers les sommes qu’elle a payées, conformément à l’article L.224 - 9 du Code de la mutualité ; elle est alors subrogée dans les droits et actions de l’assuré ou de ses ayants droit. IMA Assurances est également subrogée dans ces droits pour les garanties d’assistance qu’elle assure.",
+      "page": 22
+    },
+    {
+      "name": "Protection des données personnelles (garanties d’assistance « Ma santé au quotidien » et « Le service Bien-être »)",
+      "description": "Les données recueillies font l’objet de traitements par IMA Assurances, responsable de traitements, pour la passation, la gestion et l’exécution des contrats d’assurance ainsi qu’à des fins de gestion commerciale. Elles peuvent être transmises aux entités du groupe IMA et notamment à ses partenaires aux mêmes fins. Elles sont aussi traitées pour la lutte contre le blanchiment d’argent et le financement du terrorisme, et font l’objet d’un traitement de lutte contre la fraude pouvant conduire à une inscription sur une liste de personnes présentant un risque de fraude. L’adhérent dispose de droits d’accès, de rectification, d’effacement, de limitation, d’opposition, le cas échéant de portabilité, et peut définir des directives relatives à la conservation, à l’effacement et à la communication de ses données après son décès, retirer son consentement, et introduire une réclamation auprès de la CNIL (www.cnil.fr). Les demandes s’exercent par email à dpo@ima.eu ou auprès d’IMA Assurances - Délégué à la Protection des Données Personnelles - Direction des Affaires Juridiques - 118 avenue de Paris - CS 40000 - 79033 Niort cedex 9.",
+      "page": 23
+    },
+    {
+      "name": "Accessibilité et contacts",
+      "description": "Point d’accueil téléphonique 0 800 39 39 51, du lundi au vendredi de 9h à 18h, pour toutes questions liées au contrat. Les personnes sourdes ou malentendantes peuvent bénéficier d’un service adapté en LSF, LPC ou Tchat sur macif.fr (rubrique « urgence et contact ») ; les personnes aveugles ou malvoyantes peuvent bénéficier de l’envoi de leur courrier en caractères agrandis, braille et audio, sur macif.fr ou auprès de Handi Cap Zéro. Plus de 450 points d’accueil. Macif Assistance est joignable 24h sur 24.",
+      "page": 2
+    },
+    {
+      "name": "Données de contexte citées par le document",
+      "description": "Encadré « LE SAVIEZ-VOUS ? » : « En cas de maintien à domicile, le reste à charge moyen mensuel d’une personne dépendante est compris entre 570 € à 800 € » ; « En cas de placement en établissement, le reste à charge moyen mensuel d’une personne dépendante est compris entre 1 500 € à 2 300 € » ; « La durée moyenne de dépendance est de 4 ans ». Source citée : Argus de l’assurance - novembre 2017.",
+      "page": 3
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Le contrat GARANTIE AUTONOMIE ET DÉPENDANCE, distribué par la Macif, est assuré par MACIF SANTÉ PRÉVOYANCE, mutuelle régie par \nle Livre II du Code de la mutualité et adhérente à la Mutualité Française. SIREN 779 558 501.",
+      "context": "Colophon - distributeur et porteur de risque",
+      "page": 29
+    },
+    {
+      "quote": "Les garanties Macif Assistance sont assurées par IMA Assurances - Société anonyme au capital de 157 000 000 € entièrement libéré. Entreprise régie par le \nCode des assurances - N° SIREN : 481 511 632 RCS Niort.",
+      "context": "Colophon - porteur des garanties d’assistance",
+      "page": 29
+    },
+    {
+      "quote": "Le contrat GARANTIE AUTONOMIE ET \nDÉPENDANCE est un contrat individuel, \nrégi par le présent règlement mutualiste \net assuré par Macif Santé Prévoyance, \nmutuelle soumise aux dispositions \ndu Livre II du Code de la mutualité et \nau contrôle de l’Autorité de Contrôle \nPrudentiel et de Résolution - 4 place \nde Budapest - CS 92459 - 75436 Paris \ncedex 09.",
+      "context": "Nature du contrat et assureur (page de sommaire)",
+      "page": 4
+    },
+    {
+      "quote": "Les garanties Macif Assistance pré­\nvues au contrat sont assurées par \nIMA Assurances, entreprise soumise \nau Code des assurances.",
+      "context": "Garanties d’assistance assurées par IMA Assurances",
+      "page": 4
+    },
+    {
+      "quote": "Pour les particuliers, l’offre GARANTIE AUTONOMIE ET \nDÉPENDANCE prend la forme d’un contrat individuel, \nrégi par un Règlement mutualiste (PARTIE 1 ).\nPour les travailleurs indépendants (professionnels \nindépendants et leur conjoint collaborateur, ainsi que les \ndirigeants non salariés relevant de l’article 62 du Code \ngénéral des impôts), l’offre GARANTIE AUTONOMIE \nET DÉPENDANCE prend la forme de contrats collectifs \nà adhésion facultative souscrits par l’Association pour \nla Promotion de la Prévoyance Individuelle et Collective \n(APPIC) au profit de ses membres. Les dispositions de \nces contrats collectifs sont reprises dans une Notice \nd’information détaillée (PARTIE 2).",
+      "context": "Deux formes du produit : règlement mutualiste (particuliers) et contrats collectifs APPIC (travailleurs indépendants)",
+      "page": 2
+    },
+    {
+      "quote": "Au jour de la demande d’assurance, l’assuré doit remplir \nles conditions suivantes :\n•\t\u0007résider en France métropolitaine ou séjourner à \nl’étranger pour une durée continue n’excédant pas \n12 mois ;\n•\t\u0007être âgé de 40 ans à 70 ans inclus au moment de la \nsouscription.",
+      "context": "Conditions d’assurance - âge et résidence",
+      "page": 5
+    },
+    {
+      "quote": "Les honoraires liés aux examens \nmédicaux seront remboursés sur présentation de la \nnote d’honoraire dans la limite de 120",
+      "context": "Remboursement des honoraires d’examens médicaux",
+      "page": 5
+    },
+    {
+      "quote": "Lorsque l’assuré est reconnu en situation de dépendance, \ndans les conditions prévues à l’article “L’évaluation de l’état \nde dépendance”, avec un classement en GIR compris \nentre 1 et 4, nous lui versons un capital forfaitaire de \n4 000 € afin de prendre en charge les premiers frais liés \nà la dépendance (aménagement du domicile, achats \nd’aides techniques, frais de déménagement, dépôt de \ngarantie demandé lors de l’accueil en établissement",
+      "context": "Capital premiers frais - GIR 1 à 4, 4 000 €",
+      "page": 8
+    },
+    {
+      "quote": "Ce capital est versé quelle que soit la formule de \ngarantie souscrite, que l’assuré reste à domicile ou \nqu’il soit accueilli en établissement.",
+      "context": "Capital premiers frais - toutes formules",
+      "page": 8
+    },
+    {
+      "quote": "Le versement du Capital premier frais ne peut être \nrenouvelé en cas d’aggravation de l’état de dépendance \nde l’assuré ou de changement de formule, en cours de \nvie du contrat.",
+      "context": "Capital premiers frais - non renouvelable",
+      "page": 8
+    },
+    {
+      "quote": "La rente dépendance est versée après une franchise de \n90 jours à compter de la date de reconnaissance de la \ndépendance.",
+      "context": "Franchise de 90 jours sur la rente dépendance",
+      "page": 8
+    },
+    {
+      "quote": "La rente est payable mensuellement à terme échu. Elle \nest versée jusqu’au décès de l’assuré.",
+      "context": "Modalités de versement de la rente dépendance",
+      "page": 8
+    },
+    {
+      "quote": "Les garanties d’assurance sont accordées en France \n(départements et régions d’outre-mer compris) et lors des \ndéplacements de l’assuré dans l’Union Européenne ainsi \nqu’en Suisse, Royaume-Uni, Liechtenstein, Saint-Marin, \nSaint-Siège, Monaco et Andorre.",
+      "context": "Territorialité des garanties d’assurance",
+      "page": 8
+    },
+    {
+      "quote": "Elles sont étendues aux déplacements d’une durée \ncontinue inférieure à 12 mois dans les autres pays \nmais l’indemnisation ne débutera qu’après la première \nconstatation médicale en France et application, le cas \néchéant, de la franchise.",
+      "context": "Extension territoriale et point de départ de l’indemnisation",
+      "page": 8
+    },
+    {
+      "quote": "Nous appliquons un délai d’attente de :\n•\t\u00073 ANS, en cas de dépendance de l’assuré consé­-\ncutive à une maladie neurologique médicale­\nment constatée parmi la liste suivante : l’atro­\nphie multisystématisée, l’épilepsie, la chorée \nde Huntington, la dégénérescence ou démence \nfronto-temporale, la maladie à corps de Lewy, la \nmaladie d’Alzheimer, les dystonies, la maladie de \nCharcot ou sclérose latérale amyotrophique (SLA), \nla maladie de Parkinson, la sclérose en plaques, \nle syndrome cérébelleux",
+      "context": "Délai d’attente de 3 ans - maladies neurologiques",
+      "page": 9
+    },
+    {
+      "quote": "en cas de dépendance de l’assuré consé­\ncutive à une maladie quelle qu’en soit l’origine \nou la nature.",
+      "context": "Délai d’attente d’un an - maladie quelle qu’en soit l’origine",
+      "page": 9
+    },
+    {
+      "quote": "En cas de dépendance de l’assuré pendant le délai \nd’attente, les garanties du contrat prennent fin et nous \nvous remboursons les cotisations versées (diminuées \ndes éventuels frais de fractionnement) sauf :\n•\t\u0007en cas de fausse déclaration intentionnelle lors \nde l’adhésion ;\n•\t\u0007lorsque l’état de dépendance est la conséquence \nd’un événement listé à l’article “Exclusions des \ngaranties d’assurance”.",
+      "context": "Conséquence de la dépendance survenue pendant le délai d’attente",
+      "page": 9
+    },
+    {
+      "quote": "Les garanties sont accordées sous réserve des limitations \net restrictions de garanties suivantes",
+      "context": "Chapeau des exclusions des garanties d’assurance",
+      "page": 9
+    },
+    {
+      "quote": "les conséquences directes et indirectes d’ex­\nplosions, de dégagements de chaleur ou de \nl’irradiation provenant de la trans mutation de \nnoyaux d’atomes ou de la radioactivité",
+      "context": "Exclusion - risque nucléaire",
+      "page": 9
+    },
+    {
+      "quote": "de la pratique des sports suivants : sports \nde haute montagne, saut à l’élastique ou \npendulaire, l’escalade, le VTT extrême, la \nplongée subaquatique, la spéléologie, les \nsports équestres, les sports de combat, le \nbobsleigh, le nautisme et la voile",
+      "context": "Exclusion - sports listés",
+      "page": 9
+    },
+    {
+      "quote": "les conséquences des tentatives de suicide \ndans les 12 mois qui suivent la prise d’effet du \ncontrat. Cette exclusion s’applique également \nen cas d’augmentation des garanties (pour le \ndifférentiel des garanties).",
+      "context": "Exclusion - tentatives de suicide dans les 12 mois",
+      "page": 9
+    },
+    {
+      "quote": "les conséquences des accidents survenus alors \nque l’assuré conduit un véhicule terrestre à \nmoteur sous l’empire d’un état alcoolique dont \nle seuil est fixé par l’article R.234 - 1 du Code \nde la route",
+      "context": "Exclusion - conduite sous l’empire d’un état alcoolique",
+      "page": 9
+    },
+    {
+      "quote": "En cas de perte d’autonomie de l’assuré, celui-ci peut \ndemander à bénéficier d’une enveloppe de services \nde 50 unités.",
+      "context": "Enveloppe “Services” de 50 unités",
+      "page": 14
+    },
+    {
+      "quote": "Ne donnent pas lieu à l’application des garanties \nd’assistance :\n•\t\u0007les hospitalisations :\n\t– \u0007liées à des soins de chirurgie plastique entrepris \npour des raisons exclusivement esthétiques, \nainsi que leurs conséquences, en dehors de \ntoute intervention à la suite de blessures, \nmalformations ou lésions liées à des maladies ;\n\t– \u0007liées au changement de sexe, à la stérilisation, \nles traitements pour transformations, dys­\nfonctionnements ou insuffisances sexuelles, \nainsi que leurs conséquences ;\n•\t\u0007les hospitalisations et immobilisations à domicile \nrésultant de :\n\t– \u0007l’usage de drogues ou de stupéfiants non \nordonnés médicalement ;\n\t– \u0007la consommation d’alcool ;\n\t– \u0007l’action volontaire du bénéficiaire : suicide, \ntentative de suicide ou mutilation volontaire.",
+      "context": "Exclusions des garanties d’assistance",
+      "page": 16
+    },
+    {
+      "quote": "Les garanties d’assistance sont accordées en France \n(hors Départements et régions d’outre-mer) y compris \nAndorre et Principauté de Monaco.",
+      "context": "Territorialité des garanties d’assistance",
+      "page": 16
+    },
+    {
+      "quote": "Les prestations ne sont pas dues si l’assuré refuse de \nse soumettre à l’expertise ou si l’expertise révèle que \nles conditions prévues par les garanties ne sont pas \nréunies.",
+      "context": "Refus d’expertise médicale",
+      "page": 17
+    },
+    {
+      "quote": "L’état et le niveau de dépendance de l’assuré est évalué, \npar notre médecin-conseil, sur la base de la grille AGGIR",
+      "context": "Évaluation de l’état de dépendance sur la grille AGGIR",
+      "page": 17
+    },
+    {
+      "quote": "L’assuré dispose d’un délai d’un an à compter de la perte \nd’autonomie ou de l’aggravation de la perte d’autonomie \npour demander la mise en œuvre des garanties.",
+      "context": "Délai d’un an pour demander la mise en œuvre des garanties d’assistance dépendance",
+      "page": 18
+    },
+    {
+      "quote": "Toute réticence à un contrôle, à une expertise \nmédicale ou toute déclaration intentionnellement \nfausse lors du sinistre de la part de l’assuré ou de \nses ayants droit, de même que la production de \ndocuments inexacts ou mensongers quant à son \nétat civil, la date, les circonstances, les origines de \nla dépendance font perdre tout droit à prestations \npour la ou les garanties concernées et peuvent \nentraîner votre radiation et la fin du contrat, au \njour de la première fausse déclaration.",
+      "context": "Déchéance des garanties en cas de fraude",
+      "page": 19
+    },
+    {
+      "quote": "en cas de réticence ou de fausse déclaration \nintentionnelle, nous pouvons soulever la nullité du \ncontrat dans les conditions prévues à l’article L.221 - 14 \ndu Code de la mutualité. Dans ce cas, le contrat sera \nconsidéré comme n’ayant jamais existé : l’assuré ne \npercevra aucune prestation en cas de sinistre et nous \nconserverons les cotisations que vous avez déjà payées \nà titre de dédommagement.",
+      "context": "Nullité du contrat pour fausse déclaration intentionnelle",
+      "page": 19
+    },
+    {
+      "quote": "La première période d’assurance se termine \nà la date indiquée au certificat individuel de \ngarantie. Le contrat se renouvelle ensuite par \ntacite reconduction chaque année le 1erer avril, \nà la date d’échéance annuelle, pour une durée \nd’un an, sous réserve des dispositions figurant \nà l’article “Résiliation du contrat”.",
+      "context": "Durée du contrat et tacite reconduction",
+      "page": 20
+    },
+    {
+      "quote": "La réception du certificat individuel de garantie vous \ninformant de la prise d’effet du contrat marque le point \nde départ du délai de renonciation. Dans les 30 jours \ncalendaires révolus suivants, vous pouvez renoncer au \ncontrat GARANTIE AUTONOMIE ET DÉPENDANCE en \nnous adressant votre demande par lettre ou tout autre \nmoyen prévu à l’article L.221 - 10 - 3 du Code de la mutualité \net notamment",
+      "context": "Délai de renonciation de 30 jours",
+      "page": 20
+    },
+    {
+      "quote": "Dès que l’assuré est reconnu en \nsituation de dépendance avec un \nclassement en GIR compris entre 1 et \n4, plus aucune cotisation n’est due au \ntitre du contrat.",
+      "context": "Exonération de cotisation à partir du GIR 4",
+      "page": 20
+    },
+    {
+      "quote": "La cotisation est annuelle et payable d’avance. Vous \npouvez régler la cotisation par chèque (uniquement \npour le paiement annuel et semestriel) ou par mandat \nde prélèvement SEPA.",
+      "context": "Modalités de paiement de la cotisation",
+      "page": 20
+    },
+    {
+      "quote": "À défaut de paiement d’une cotisation ou d’une fraction \nde cotisation, dans un délai de 10 jours suivant la date \nd’échéance, et indépendamment de notre droit de pour­\nsuivre l’exécution de l’engagement contractuel en justice, \nnous adressons, au dernier domicile connu de l’adhérent, \nune lettre recommandée de mise en demeure précisant \nque les garanties du contrat seront résiliées 40 jours après \nl’envoi de cette lettre, si la cotisation reste impayée.",
+      "context": "Sanction du non-paiement de cotisation",
+      "page": 20
+    },
+    {
+      "quote": "Vous pouvez résilier le contrat GARANTIE AUTONOMIE \nET DÉPENDANCE à tout moment, en nous adressant \nvotre demande par lettre ou tout autre moyen prévu à \nl’article L.221 - 10 - 3 du Code de la mutualité et notamment",
+      "context": "Résiliation à tout moment par l’adhérent",
+      "page": 21
+    },
+    {
+      "quote": "Dans tous les cas, les garanties cessent de plein droit :\n•\t\u0007survenance de l’état de dépendance pendant le délai \nd’attente ;\n•\t\u0007séjour à l’étranger de l’assuré d’une durée continue \nexcédant 12 mois ;\n•\t\u0007décès de l’assuré.",
+      "context": "Cessation de plein droit des garanties",
+      "page": 21
+    },
+    {
+      "quote": "Dans le cadre des opérations collectives mention­\nnées au III de l’article L.221 - 2, la prescription est \nportée à cinq ans en ce qui concerne l’incapacité \nde travail.",
+      "context": "Prescription portée à cinq ans pour l’incapacité de travail",
+      "page": 22
+    },
+    {
+      "quote": "Le contrat collectif à adhésion facultative \nn°218.001-A qui comprend une garantie Rente \ndépendance dont la cotisation est déductible \ndans le cadre de la loi Madelin, du 11/02/1994, \nrelative à l’initiative et à l’entreprise individuelle \n(article 154 bis du Code général des impôts).",
+      "context": "Contrat collectif APPIC n°218.001-A (loi Madelin)",
+      "page": 24
+    },
+    {
+      "quote": "DÉLAI D’ATTENTE : période suivant la prise d’effet \ndu contrat ou l’augmentation des garanties pendant \nlaquelle l’état de dépendance de l’assuré ne donnera \ndéfinitivement lieu à aucune prestation.",
+      "context": "Lexique - délai d’attente",
+      "page": 27
+    },
+    {
+      "quote": "VALEUR DE RÉDUCTION : Montant de la garantie \nrecalculé lorsque l’adhérent a interrompu le paiement \ndes cotisations et que plus de 8 ans de cotisations ont \nété versées.",
+      "context": "Lexique - valeur de réduction",
+      "page": 28
+    }
+  ],
+  "gaps": [
+    "Porteurs du risque, lus au verbe (page 29) : « Le contrat GARANTIE AUTONOMIE ET DÉPENDANCE, distribué par la Macif, est assuré par MACIF SANTÉ PRÉVOYANCE » (SIREN 779 558 501) et « Les garanties Macif Assistance sont assurées par IMA Assurances » (N° SIREN 481 511 632 RCS Niort). La MACIF elle-même — nommée en toutes lettres avec sa forme juridique (« Société d’assurance mutuelle à cotisations variables ») dans le même colophon — est DISTRIBUTEUR, pas porteur : une heuristique « nom + forme juridique » aurait retenu la mauvaise entité. L’APPIC est le souscripteur des deux contrats collectifs de la partie 2, pas un porteur. Les numéros d’immatriculation sont relevés tels quels, sans conclusion sur l’identité des personnes morales.",
+    "CONTRÔLE D’INVERSION DE COLONNES : POSITIF ET SÉVÈRE. Mesuré bloc par bloc sur les 29 pages (colonne gauche x0 ≈ 34-101 pt, colonne droite x0 ≈ 303-425 pt ; gouttière mesurée : x0 minimal de la colonne droite = 296,5 pt, donc coupure vers x ≈ 296 pt et non au milieu de la page A4). Le texte plat émet la colonne DROITE avant la colonne GAUCHE sur 12 pages : 4, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19 et 20. Huit autres pages (2, 3, 5, 6, 7, 8, 10, 24, 25, 26) alternent plusieurs fois. Le rattachement a été rebâti sur les coordonnées de chaque bloc (colonne puis ordonnée) et non sur l’ordre du texte plat.",
+    "CONSÉQUENCE MESURÉE DE CETTE INVERSION, page 15 : lue à plat, la page fait apparaître « INDISPONIBILITÉ DE L’AIDANT » AVANT « RÉPIT DE L’AIDANT », alors que l’imprimé place RÉPIT en haut de la colonne gauche et INDISPONIBILITÉ en milieu de colonne droite. Les deux blocs portent la MÊME prestation (« Intervention d’une aide à domicile ou d’une auxiliaire de vie ») avec des LIMITES DIFFÉRENTES : Répit de l’aidant = « dans la limite de 40 heures, réparties sur une période maximale de 12 mois » ; Indisponibilité de l’aidant = « dans la limite de 30 heures, réparties sur une période maximale d’un mois ». Une lecture séquentielle croise les deux limites sans que rien n’ait l’air faux. Le rattachement retenu ici suit la géométrie. De même, les bullets « portage d’espèces » et « coiffure à domicile » qui ouvrent la page 15 dans le texte plat appartiennent en réalité à la liste « Les autres prestations » du RÉPIT DE L’AIDANT (continuation de la colonne gauche en haut de la colonne droite), et non à INDISPONIBILITÉ DE L’AIDANT.",
+    "Le calque texte est un calque d’accessibilité qui diverge de l’imprimé. Divergences mesurées : les encadrés sont balisés « Encadré. » / « Encadré Bon à savoir. » / « Hors d’encadré. », balises qui ne sont pas imprimées ; la mention « Référence du document : » qui précède le code de référence n’est pas imprimée non plus (vérifié sur un rendu 5× de la page 29) ; des abréviations sont épelées lettre à lettre (« A E E H » pour AEEH, « A A H » pour AAH, « I A D », « h t t p s:// », « www.ima.e u », « n°218 . 001 - B » avec espaces fines U+200A alors que la page imprime « n°218.001-B », vérifié au rendu sur son jumeau « n°218.001-A ») ; les exposants sont doublés (« 1erer », « 1rere ») ; certains blocs de texte sont réémis 2 à 5 fois (les six lignes de montants de rente de la page 6, « UN AN,UN AN,UN AN, » page 9, plusieurs fins de phrase). Les champs structurés suivent la forme IMPRIMÉE ; les key_quotes suivent le calque texte, qui est l’objet vérifié par verify_grounding.",
+    "Montants : le glyphe € sort correctement du calque texte (71 occurrences) mais avec des espaces atypiques — U+2008 (espace ponctuation) devant « € » et devant « : » et « ; » (315 occurrences dans le document), U+2009 dans « 157 000 000 € », U+00A0 dans « 779 558 501 ». Divergence supplémentaire vérifiée sur un rendu 3× de la page 6 : le graphique imprime « 1 000 € » et « 1 650 € » avec une espace de millier, alors que le texte alternatif du calque écrit « 1000 € » et « 1650 € ». Les champs structurés reprennent la forme imprimée (« 1 000 € », « 1 650 € ») ; aucune citation ne contient ces montants.",
+    "Matrice des six formules (page 6) : les montants de rente sont portés par un graphique en barres. Ils sont néanmoins présents dans le calque texte, sous forme de phrases d’alternative textuelle (« En Formule MÉDIANE : une Rente Établissement de 750 € ou une Rente Domicile de 450 € »), répétées 2 à 5 fois chacune. La lecture a été confirmée sur un rendu 3× de la page : six formules, deux niveaux chacune sauf ÉTABLISSEMENT qui n’en a qu’un. Les six lignes ferment exactement avec les six formules énumérées dans l’encadré de la même page.",
+    "Comptes de puces (U+0007) fermés sur les deux sections d’exclusion. Page 9 : 17 U+0007 = 5 items du délai d’attente (3 niveaux de délai + les 2 exceptions au remboursement des cotisations) + 5 puces de premier niveau des exclusions + 7 tirets de second niveau. Les 11 exclusions distinctes des garanties d’assurance sont toutes transcrites (les 2 puces « les conséquences résultant : » n’étant que des chapeaux). Page 16 : 13 U+0007 = 2 chapeaux + 5 tirets d’exclusion d’assistance + 4 « Étape » du bilan social + 2 puces d’assistance psychologique ; les 5 exclusions d’assistance + la réserve générale d’IMA sont transcrites.",
+    "Territorialité asymétrique, à ne pas confondre : les garanties d’ASSURANCE sont accordées « en France (départements et régions d’outre-mer compris) » et dans une liste de pays européens, tandis que les garanties d’ASSISTANCE sont accordées « en France (hors Départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco ». Les deux formulations sont conservées verbatim dans les champs `territorial_scope` correspondants.",
+    "Délais d’attente : le document énonce trois délais, tous conditionnés à une MALADIE (3 ans neurologique, 3 ans psychique, un an « quelle qu’en soit l’origine ou la nature »). Il ne dit rien d’un délai d’attente en cas de dépendance consécutive à un ACCIDENT. Aucune inférence n’a été faite : aucun délai « accident » n’est enregistré, et l’absence est signalée ici.",
+    "`target_audience` laissé à null : le document couvre simultanément les PARTICULIERS (contrat individuel, règlement mutualiste, partie 1) et les TRAVAILLEURS INDÉPENDANTS (contrats collectifs à adhésion facultative souscrits par l’APPIC, partie 2, cadre loi Madelin). L’énumération du schéma est à valeur unique et ne peut porter les deux ; choisir l’une aurait produit une valeur indiscernable d’une lecture. Le libellé du document est conservé dans `target_audience_note`.",
+    "Aucun montant de cotisation, aucun tarif ni aucune grille d’âge ne figure dans le document : seules les modalités de calcul et de révision sont décrites. À signaler une tension apparente, laissée telle quelle : la page 3 annonce « Un tarif qui n’évolue pas avec l’âge » alors que la page 20 indique que « Le montant de la cotisation est calculé en fonction de la formule de garantie choisie, de l’âge de l’assuré et de ses déclarations lors de l’adhésion et en cours de vie du contrat ». Les deux formulations sont enregistrées dans `premium.notes` sans arbitrage.",
+    "Le document n’énonce pas explicitement le caractère facultatif ou inclus des garanties d’assistance par rapport aux garanties d’assurance : il dit « Quelle que soit la formule de garantie souscrite, l’assuré bénéficie de garanties d’assistance » (page 10) et « Vous bénéficiez de l’intégralité des garanties d’assistance décrites dans le règlement mutualiste » (page 26). `is_optional` = false a donc été retenu pour toutes les garanties d’assistance sur ce fondement textuel, et non par déduction. Les six formules ne sont pas des options de garanties distinctes mais des niveaux de rente : elles sont enregistrées dans `sub_limits` de la Rente dépendance et dans `special_conditions`, pas comme coverages séparées.",
+    "Folios : le folio imprimé en pied de page est ÉGAL au numéro de page PDF sur ce document (page 5 porte « 05 », page 20 porte « 20 », page 27 porte « 27 »), décalage 0 — vérifié par recherche d’ancre. Le sommaire (page 4) renvoie à des folios (« L’ADHÉSION 05 », « LES GARANTIES MACIF ASSISTANCE 10 / 16 », « LEXIQUE 27 / 28 ») : conservés verbatim, non convertis. Toutes les valeurs de `page` citent le marqueur [[page N]].",
+    "Le prompt n’a pas été tronqué (85 248 caractères pour un budget de 240 000). Le texte des 29 pages a néanmoins été ré-extrait indépendamment du PDF local avec page.get_text(\"text\") : la comparaison est identique caractère par caractère avec le texte du prompt, aux seuls marqueurs [[page N]] injectés par le harness près.",
+    "Trois césures par trait d’union réel en fin de ligne subsistent dans le calque texte (par exemple « consé-\\ncutive » page 9, « justi-\\nfiée » page 5) : les citations ont été tranchées de manière à ne pas les traverser, sauf lorsque la citation les inclut telles quelles.",
+    "Le document renvoie à deux textes qui ne sont pas joints : le « règlement général du produit autonomie et dépendance » (fonctionnement du fonds de revalorisation et calcul de la valeur de réduction, pages 20-21) et les statuts de Macif Santé Prévoyance et de l’APPIC. Le certificat individuel de garantie, qui porte la formule souscrite, les montants de rente et la date d’effet, n’est pas non plus joint."
+  ]
+}

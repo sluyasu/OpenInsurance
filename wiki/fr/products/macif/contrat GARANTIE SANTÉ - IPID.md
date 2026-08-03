@@ -839,6 +839,7 @@ Plafonds par niveau d’« Équipements » ; les garanties exprimées en euros c
 - Édition courante de ce produit.
 - [contrat GARANTIE SANTÉ - IPID](contrat%20GARANTIE%20SANT%C3%89%20-%20IPID%20%282%29.md) - IPID / Fiche d'information, éd. 09/2019
 - [Garantie Santé](Garantie%20Sant%C3%A9.md) - Conditions générales, éd. 2023-01
+- [Garantie Santé - Fiche](Garantie%20Sant%C3%A9%20-%20Fiche.md) - Fiche produit, éd. 2022-01-01
 
 ## Source & fidélité
 

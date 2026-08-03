@@ -168,6 +168,10 @@ Garantie optionnelle proposée « en fonction de l'âge de l'enfant » : « Domm
 - Aucune troncature : le texte du prompt correspond caractère pour caractère au texte réextrait du PDF local pour les 2 pages (vérifié).
 - Provenance de edition_date: cette date ne vient pas du texte du document mais du manifeste, ou elle avait ete deduite lors de la decouverte. A verifier contre le document avant d'y appuyer une comparaison d'editions.
 
+## Documents liés
+
+- [TEMPO ENFANTS](TEMPO%20ENFANTS.md) - Conditions générales, éd. 05/26
+
 ## Source & fidélité
 
 - Source : [https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/HAB11015.PDF](https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/HAB11015.PDF) - téléchargé le 2026-08-01 - 2 pages

@@ -1,0 +1,400 @@
+---
+type: product
+domain: insurance
+country: fr
+insurer: '[[Macif]]'
+insurer_slug: macif
+branch: sante
+product_name: Garantie Santé
+document_type: product_sheet
+target_audience: null
+target_audience_note: 'Le document n’énonce aucun public cible. Il précise seulement
+  le régime de rattachement — chaque grille est intitulée « Garantie Santé Macif -
+  formule … - régime général » — et l’hypothèse de calcul : « Les exemples de remboursements
+  sont donnés pour un assuré sans taux de prise en charge particulier et respectant
+  le parcours de soins coordonnés » (note 1).'
+reference: null
+edition_date: '2022-01-01'
+lang: fr
+tags:
+- insurance/fr/sante
+- product
+- insurer/macif
+aliases:
+- Garantie Santé
+source_url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/Exemples-remboursements-GS.pdf
+source_pages: 22
+fetched_at: '2026-08-01'
+extraction_model: claude-code-subagent:scale
+prompt_version: '1.1'
+product_family: garantie-sante
+variant: null
+edition_status: null
+edition_age_years: 4
+superseded: null
+extends: null
+freshness: '2026-08-01'
+status: ready
+generated: true
+---
+
+<!-- GENERATED - do not edit. Fix data/<cc>/extracted/ and run `make build`. -->
+
+## Résumé
+
+Fiche « Exemples de remboursement au 01/01/2022 » du contrat d’assurance santé responsable Garantie Santé, établie pour le régime général. Le document est constitué de onze grilles identiques, une par formule (Economique 0, Economique 1, Economique 2, Equilibrée 1, Equilibrée 2, Equilibrée 3, Excellence 3, Excellence 4, Protectrice 2, Protectrice 3, Protectrice 4), chacune tenant sur deux pages. Chaque grille compare, poste par poste et sur cinq colonnes, le tarif le plus souvent facturé ou tarif réglementé, la base de remboursement de la Sécurité sociale, le remboursement de l’assurance maladie obligatoire, le remboursement Garantie Santé Macif de la formule concernée et le reste à charge, pour les postes Hospitalisation, Soins courants, Dentaire, Optique et Aides auditives. Il ne contient ni conditions générales, ni exclusions contractuelles, ni tarifs de cotisation.
+
+- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit · Édition : 2022-01-01
+
+## Définitions
+
+| Terme | Définition | Page |
+|---|---|---|
+| Contrat responsable | « Les contrats sont dits “responsables” quand ils respectent des obligations fixées par la règlementation, notamment des minimums et maximums de remboursement ainsi que des interdictions de prise en charge. Pour aller plus loin, consulter le Glossaire de l’assurance complémentaire santé. » (note 2) | p. 2 |
+| BR - Base de remboursement de la Sécurité sociale | « La BR est un tarif de “référence” fixé pour chaque acte, chaque produit, chaque dispositif médical. L’assurance maladie obligatoire ne rembourse dans la plupart des cas qu’un % de la BR, à un taux différent selon les actes, produits de santé, dispositifs médicaux, le complément étant apporté par l’assurance maladie complémentaire. » (note 3) | p. 2 |
+| PLV | « Prix limite de vente. » (note 4) | p. 2 |
+| AMO | Remboursement assurance maladie obligatoire (intitulé de la troisième colonne de valeurs de la grille). | p. 1 |
+| Reste à charge | Intitulé de la cinquième et dernière colonne de valeurs de la grille : ce qui reste à la charge de l’assuré après remboursement de l’assurance maladie obligatoire et de la Garantie Santé Macif. | p. 1 |
+| OPTAM / OPTAM-CO | Le document distingue les « Honoraires médecins adhérents OPTAM ou OPTAM-CO » (« Dépassements maîtrisés ») des « Honoraires médecins secteur 2 (non adhérents OPTAM ou OPTAM-CO) » (« Honoraires libres ») et des « Honoraires médecins secteur 1 (généralistes ou spécialistes) » (« Tarif de convention »). Le sigle n’est pas développé dans le document. | p. 1 |
+| Hypothèses des exemples | « Les exemples de remboursements sont donnés pour un assuré sans taux de prise en charge particulier et respectant le parcours de soins coordonnés. » (note 1) | p. 2 |
+
+## Garanties
+
+### Hospitalisation - Forfait journalier hospitalier (hébergement) - p. 1
+Poste « Forfait journalier hospitalier (hébergement) » (Hospitalisation). Tarif le plus souvent facturé ou tarif réglementé : 20 € (15 € en service psychiatrique). Base de remboursement de la Sécurité sociale (BR) : 0 €. Remboursement assurance maladie obligatoire (AMO) : 0 €.
+- Limite : Remboursement Garantie Santé Macif, identique pour les onze formules : 20 € (15 €). Reste à charge : 0 €.
+  - Condition : Valeurs relevées sur les onze grilles du document (formules Economique 0, Economique 1, Economique 2, Equilibrée 1, Equilibrée 2, Equilibrée 3, Excellence 3, Excellence 4, Protectrice 2, Protectrice 3, Protectrice 4), exemples au 01/01/2022, régime général.
+
+### Hospitalisation - Chambre particulière (sur demande du patient) - p. 1
+Poste « Chambre particulière (sur demande du patient) » (Hospitalisation). Tarif le plus souvent facturé ou tarif réglementé : NC. Base de remboursement de la Sécurité sociale (BR) : Non remboursé. Remboursement assurance maladie obligatoire (AMO) : Non remboursé.
+- Limite : Remboursement Garantie Santé Macif variable selon la formule (voir sub_limits).
+  - Sous-limite : Formule Economique 0 - Remboursement Garantie Santé Macif : Non remboursé par ce contrat ; Reste à charge : Selon contrat
+  - Sous-limite : Formule Economique 1 - Remboursement Garantie Santé Macif : Non remboursé par ce contrat ; Reste à charge : Selon contrat
+  - Sous-limite : Formule Economique 2 - Remboursement Garantie Santé Macif : Non remboursé par ce contrat ; Reste à charge : Selon contrat
+  - Sous-limite : Formule Equilibrée 1 - Remboursement Garantie Santé Macif : 50 € ; Reste à charge : Sous réserve d'une hospitalisation d'au moins une nuit. Limité à 90 jours par an
+  - Sous-limite : Formule Equilibrée 2 - Remboursement Garantie Santé Macif : 50 € ; Reste à charge : Sous réserve d'une hospitalisation d'au moins une nuit. Limité à 90 jours par an
+  - Sous-limite : Formule Equilibrée 3 - Remboursement Garantie Santé Macif : 50 € ; Reste à charge : Sous réserve d'une hospitalisation d'au moins une nuit. Limité à 90 jours par an
+  - Sous-limite : Formule Excellence 3 - Remboursement Garantie Santé Macif : 70 € ; Reste à charge : Sous réserve d'une hospitalisation d'au moins une nuit. Limité à 90 jours par an
+  - Sous-limite : Formule Excellence 4 - Remboursement Garantie Santé Macif : 70 € ; Reste à charge : Sous réserve d'une hospitalisation d'au moins une nuit. Limité à 90 jours par an
+  - Sous-limite : Formule Protectrice 2 - Remboursement Garantie Santé Macif : 60 € ; Reste à charge : Sous réserve d'une hospitalisation d'au moins une nuit. Limité à 90 jours par an
+  - Sous-limite : Formule Protectrice 3 - Remboursement Garantie Santé Macif : 60 € ; Reste à charge : Sous réserve d'une hospitalisation d'au moins une nuit. Limité à 90 jours par an
+  - Sous-limite : Formule Protectrice 4 - Remboursement Garantie Santé Macif : 60 € ; Reste à charge : Sous réserve d'une hospitalisation d'au moins une nuit. Limité à 90 jours par an
+  - Condition : Valeurs relevées sur les onze grilles du document (formules Economique 0, Economique 1, Economique 2, Equilibrée 1, Equilibrée 2, Equilibrée 3, Excellence 3, Excellence 4, Protectrice 2, Protectrice 3, Protectrice 4), exemples au 01/01/2022, régime général.
+
+### Hospitalisation / Séjour avec actes lourds - Frais de séjour - p. 1
+Poste « Frais de séjour » (Hospitalisation / Séjour avec actes lourds). Tarif le plus souvent facturé ou tarif réglementé : Différent selon public/privé. Base de remboursement de la Sécurité sociale (BR) : BR. Remboursement assurance maladie obligatoire (AMO) : BR – 24 €.
+- Limite : Remboursement Garantie Santé Macif, identique pour les onze formules : 24 €. Reste à charge : 0 €.
+  - Sous-limite : Exemple « Frais de séjour en secteur privé » : tarif le plus souvent facturé Tarif moyen de 745,54 € ; BR 745,54 € ; remboursement AMO 721,54 € ; remboursement Garantie Santé Macif (identique pour les onze formules) 24 € ; reste à charge 0 €
+  - Condition : « L’hôpital public inclut la rémunération des praticiens dans les frais de séjour, alors que leurs honoraires sont facturés séparément dans le secteur privé. »
+  - Condition : Exemple retenu : « Exemple d’une opération chirurgicale de la cataracte, en secteur privé ».
+  - Condition : Valeurs relevées sur les onze grilles du document (formules Economique 0, Economique 1, Economique 2, Equilibrée 1, Equilibrée 2, Equilibrée 3, Excellence 3, Excellence 4, Protectrice 2, Protectrice 3, Protectrice 4), exemples au 01/01/2022, régime général.
+
+### Hospitalisation / Séjour avec actes lourds - Honoraires médecins adhérents OPTAM ou OPTAM-CO - p. 1
+Poste « Honoraires médecins adhérents OPTAM ou OPTAM-CO » (Hospitalisation / Séjour avec actes lourds). Tarif le plus souvent facturé ou tarif réglementé : Dépassements maîtrisés. Base de remboursement de la Sécurité sociale (BR) : BR. Remboursement assurance maladie obligatoire (AMO) : 100 % BR.
+- Limite : Remboursement Garantie Santé Macif, identique pour les onze formules : Dépassements si prévu au contrat. Reste à charge : Selon contrat.
+  - Sous-limite : Exemple « Opération en secteur privé : honoraires du chirurgien (tarif moyen 355 €) » : tarif le plus souvent facturé Tarif moyen de 355 € ; BR 271,70 € ; remboursement AMO 271,70 €
+  - Sous-limite :     Formule Economique 0 - remboursement Garantie Santé Macif 0,00 € ; reste à charge 83,30 €
+  - Sous-limite :     Formule Economique 1 - remboursement Garantie Santé Macif 0,00 € ; reste à charge 83,30 €
+  - Sous-limite :     Formule Economique 2 - remboursement Garantie Santé Macif 0,00 € ; reste à charge 83,30 €
+  - Sous-limite :     Formule Equilibrée 1 - remboursement Garantie Santé Macif 83,30 € ; reste à charge 0 €
+  - Sous-limite :     Formule Equilibrée 2 - remboursement Garantie Santé Macif 83,30 € ; reste à charge 0 €
+  - Sous-limite :     Formule Equilibrée 3 - remboursement Garantie Santé Macif 83,30 € ; reste à charge 0 €
+  - Sous-limite :     Formule Excellence 3 - remboursement Garantie Santé Macif 83,30 € ; reste à charge 0 €
+  - Sous-limite :     Formule Excellence 4 - remboursement Garantie Santé Macif 83,30 € ; reste à charge 0 €
+  - Sous-limite :     Formule Protectrice 2 - remboursement Garantie Santé Macif 83,30 € ; reste à charge 0 €
+  - Sous-limite :     Formule Protectrice 3 - remboursement Garantie Santé Macif 83,30 € ; reste à charge 0 €
+  - Sous-limite :     Formule Protectrice 4 - remboursement Garantie Santé Macif 83,30 € ; reste à charge 0 €
+  - Condition : « L’hôpital public inclut la rémunération des praticiens dans les frais de séjour, alors que leurs honoraires sont facturés séparément dans le secteur privé. »
+  - Condition : Exemple retenu : « Exemple d’une opération chirurgicale de la cataracte, en secteur privé ».
+  - Condition : Valeurs relevées sur les onze grilles du document (formules Economique 0, Economique 1, Economique 2, Equilibrée 1, Equilibrée 2, Equilibrée 3, Excellence 3, Excellence 4, Protectrice 2, Protectrice 3, Protectrice 4), exemples au 01/01/2022, régime général.
+
+### Hospitalisation / Séjour avec actes lourds - Honoraires médecins secteur 2 (non adhérents OPTAM ou OPTAM-CO) - p. 1
+Poste « Honoraires médecins secteur 2 (non adhérents OPTAM ou OPTAM-CO) » (Hospitalisation / Séjour avec actes lourds). Tarif le plus souvent facturé ou tarif réglementé : Honoraires libres. Base de remboursement de la Sécurité sociale (BR) : BR. Remboursement assurance maladie obligatoire (AMO) : 100 % BR.
+- Limite : Remboursement Garantie Santé Macif, identique pour les onze formules : Dépassements si prévu au contrat (remboursement des dépassements plafonné à 100% BR). Reste à charge : Selon contrat.
+  - Sous-limite : Exemple « Opération en secteur privé : honoraires du chirurgien (tarif moyen 447 €) » : tarif le plus souvent facturé Tarif moyen de 447 € ; BR 271,70 € ; remboursement AMO 271,70 €
+  - Sous-limite :     Formule Economique 0 - remboursement Garantie Santé Macif 0,00 € ; reste à charge 175,30 €
+  - Sous-limite :     Formule Economique 1 - remboursement Garantie Santé Macif 0,00 € ; reste à charge 175,30 €
+  - Sous-limite :     Formule Economique 2 - remboursement Garantie Santé Macif 0,00 € ; reste à charge 175,30 €
+  - Sous-limite :     Formule Equilibrée 1 - remboursement Garantie Santé Macif 135,85 € ; reste à charge 39,45 €
+  - Sous-limite :     Formule Equilibrée 2 - remboursement Garantie Santé Macif 135,85 € ; reste à charge 39,45 €
+  - Sous-limite :     Formule Equilibrée 3 - remboursement Garantie Santé Macif 135,85 € ; reste à charge 39,45 €
+  - Sous-limite :     Formule Excellence 3 - remboursement Garantie Santé Macif 175,30 € ; reste à charge 0 €
+  - Sous-limite :     Formule Excellence 4 - remboursement Garantie Santé Macif 175,30 € ; reste à charge 0 €
+  - Sous-limite :     Formule Protectrice 2 - remboursement Garantie Santé Macif 175,30 € ; reste à charge 0 €
+  - Sous-limite :     Formule Protectrice 3 - remboursement Garantie Santé Macif 175,30 € ; reste à charge 0 €
+  - Sous-limite :     Formule Protectrice 4 - remboursement Garantie Santé Macif 175,30 € ; reste à charge 0 €
+  - Condition : « L’hôpital public inclut la rémunération des praticiens dans les frais de séjour, alors que leurs honoraires sont facturés séparément dans le secteur privé. »
+  - Condition : Exemple retenu : « Exemple d’une opération chirurgicale de la cataracte, en secteur privé ».
+  - Condition : Valeurs relevées sur les onze grilles du document (formules Economique 0, Economique 1, Economique 2, Equilibrée 1, Equilibrée 2, Equilibrée 3, Excellence 3, Excellence 4, Protectrice 2, Protectrice 3, Protectrice 4), exemples au 01/01/2022, régime général.
+
+### Hospitalisation / Séjour sans actes lourds - Frais de séjour - p. 1
+Poste « Frais de séjour » (Hospitalisation / Séjour sans actes lourds). Tarif le plus souvent facturé ou tarif réglementé : Différent selon public/privé. Base de remboursement de la Sécurité sociale (BR) : BR. Remboursement assurance maladie obligatoire (AMO) : 80 % BR.
+- Limite : Remboursement Garantie Santé Macif, identique pour les onze formules : 20 % BR. Reste à charge : 0 €.
+  - Sous-limite : Exemple « Frais de séjour en secteur public » : tarif le plus souvent facturé Tarif moyen de 3 270,12 € ; BR 3 270,12 € ; remboursement AMO 2 616,10 € ; remboursement Garantie Santé Macif (identique pour les onze formules) 654,02 € ; reste à charge 0 €
+  - Condition : « L’hôpital public inclut la rémunération des praticiens dans les frais de séjour, alors que leurs honoraires sont facturés séparément dans le secteur privé. »
+  - Condition : Exemple retenu : « Exemple d’un suivi d’une pneumonie ou pleurésie pour un patient de plus de 17 ans, en hôpital public ».
+  - Condition : Valeurs relevées sur les onze grilles du document (formules Economique 0, Economique 1, Economique 2, Equilibrée 1, Equilibrée 2, Equilibrée 3, Excellence 3, Excellence 4, Protectrice 2, Protectrice 3, Protectrice 4), exemples au 01/01/2022, régime général.
+
+### Soins courants - Honoraires médecins secteur 1 (généralistes ou spécialistes) - p. 1
+Poste « Honoraires médecins secteur 1 (généralistes ou spécialistes) » (Soins courants). Tarif le plus souvent facturé ou tarif réglementé : Tarif de convention. Base de remboursement de la Sécurité sociale (BR) : BR. Remboursement assurance maladie obligatoire (AMO) : 70 % BR – 1 €.
+- Limite : Remboursement Garantie Santé Macif, identique pour les onze formules : 30 % BR. Reste à charge : 1 € de participation forfaitaire plus dépassement selon contrat.
+  - Sous-limite : Exemple « Ex : Consultation médecin traitant généraliste pour un patient de + de 18 ans » : tarif le plus souvent facturé 25 € ; BR 25 € ; remboursement AMO 16,50 € ; remboursement Garantie Santé Macif (identique pour les onze formules) 7,50 € ; reste à charge 1 € de participation forfaitaire
+  - Sous-limite : Exemple « Ex : Consultation pédiatre pour enfant de moins de 6 ans » : tarif le plus souvent facturé 32,00 € ; BR 32,00 € ; remboursement AMO 22,40 € ; remboursement Garantie Santé Macif (identique pour les onze formules) 9,60 € ; reste à charge 0 €
+  - Sous-limite : Exemple « Ex : Consultation médecin spécialiste pour un patient de plus de 18 ans (gynécologie, ophtalmologie, dermatologie, etc.) » : tarif le plus souvent facturé None ; BR None ; remboursement AMO None ; remboursement Garantie Santé Macif (identique pour les onze formules) 9,00 € ; reste à charge 1 € de participation forfaitaire
+  - Condition : Valeurs relevées sur les onze grilles du document (formules Economique 0, Economique 1, Economique 2, Equilibrée 1, Equilibrée 2, Equilibrée 3, Excellence 3, Excellence 4, Protectrice 2, Protectrice 3, Protectrice 4), exemples au 01/01/2022, régime général.
+
+### Soins courants - Honoraires médecins adhérents OPTAM ou OPTAM-CO - p. 1
+Poste « Honoraires médecins adhérents OPTAM ou OPTAM-CO » (Soins courants). Tarif le plus souvent facturé ou tarif réglementé : Dépassements maitrisés. Base de remboursement de la Sécurité sociale (BR) : BR. Remboursement assurance maladie obligatoire (AMO) : 70 % BR – 1 €.
+- Limite : Remboursement Garantie Santé Macif, identique pour les onze formules : 30 % BR + dépassements si prévu au contrat. Reste à charge : 1 € de participation forfaitaire plus dépassement selon contrat.
+  - Sous-limite : Exemple « Ex : Consultation pédiatre pour enfant de moins de 6 ans » : tarif le plus souvent facturé 32,00 € ; BR 32,00 € ; remboursement AMO 22,40 € ; remboursement Garantie Santé Macif (identique pour les onze formules) 9,60 € ; reste à charge 0 €
+  - Sous-limite : Exemple « Ex : Consultation médecin spécialiste pour un patient de plus de 18 ans (gynécologie, ophtalmologie, dermatologie, etc.) » : tarif le plus souvent facturé 44,00 € ; BR 30,00 € ; remboursement AMO 20,00 €
+  - Sous-limite :     Formule Economique 0 - remboursement Garantie Santé Macif 9,00 € ; reste à charge 15,00 €
+  - Sous-limite :     Formule Economique 1 - remboursement Garantie Santé Macif 9,00 € ; reste à charge 15,00 €
+  - Sous-limite :     Formule Economique 2 - remboursement Garantie Santé Macif 9,00 € ; reste à charge 15,00 €
+  - Sous-limite :     Formule Equilibrée 1 - remboursement Garantie Santé Macif 23,00 € ; reste à charge 1 € de participation forfaitaire
+  - Sous-limite :     Formule Equilibrée 2 - remboursement Garantie Santé Macif 23,00 € ; reste à charge 1 € de participation forfaitaire
+  - Sous-limite :     Formule Equilibrée 3 - remboursement Garantie Santé Macif 23,00 € ; reste à charge 1 € de participation forfaitaire
+  - Sous-limite :     Formule Excellence 3 - remboursement Garantie Santé Macif 23,00 € ; reste à charge 1 € de participation forfaitaire
+  - Sous-limite :     Formule Excellence 4 - remboursement Garantie Santé Macif 23,00 € ; reste à charge 1 € de participation forfaitaire
+  - Sous-limite :     Formule Protectrice 2 - remboursement Garantie Santé Macif 23,00 € ; reste à charge 1 € de participation forfaitaire
+  - Sous-limite :     Formule Protectrice 3 - remboursement Garantie Santé Macif 23,00 € ; reste à charge 1 € de participation forfaitaire
+  - Sous-limite :     Formule Protectrice 4 - remboursement Garantie Santé Macif 23,00 € ; reste à charge 1 € de participation forfaitaire
+  - Condition : Valeurs relevées sur les onze grilles du document (formules Economique 0, Economique 1, Economique 2, Equilibrée 1, Equilibrée 2, Equilibrée 3, Excellence 3, Excellence 4, Protectrice 2, Protectrice 3, Protectrice 4), exemples au 01/01/2022, régime général.
+
+### Soins courants - Honoraires médecins secteur 2 (non adhérents OPTAM ou OPTAM-CO) - p. 1
+Poste « Honoraires médecins secteur 2 (non adhérents OPTAM ou OPTAM-CO) » (Soins courants). Tarif le plus souvent facturé ou tarif réglementé : Honoraires libres. Base de remboursement de la Sécurité sociale (BR) : BR. Remboursement assurance maladie obligatoire (AMO) : 70 % BR – 1 €.
+- Limite : Remboursement Garantie Santé Macif, identique pour les onze formules : 30 % BR + dépassements si prévu au contrat (remboursement des dépassements plafonné à 100% BR). Reste à charge : 1 € de participation forfaitaire plus dépassement selon contrat.
+  - Sous-limite : Exemple « Ex : Consultation pédiatre pour enfant de 2 à 16 ans » : tarif le plus souvent facturé 55,00 € ; BR 23,00 € ; remboursement AMO 16,10 €
+  - Sous-limite :     Formule Economique 0 - remboursement Garantie Santé Macif 6,90 € ; reste à charge 32,00 €
+  - Sous-limite :     Formule Economique 1 - remboursement Garantie Santé Macif 6,90 € ; reste à charge 32,00 €
+  - Sous-limite :     Formule Economique 2 - remboursement Garantie Santé Macif 6,90 € ; reste à charge 32,00 €
+  - Sous-limite :     Formule Equilibrée 1 - remboursement Garantie Santé Macif 18,40 € ; reste à charge 20,50 €
+  - Sous-limite :     Formule Equilibrée 2 - remboursement Garantie Santé Macif 18,40 € ; reste à charge 20,50 €
+  - Sous-limite :     Formule Equilibrée 3 - remboursement Garantie Santé Macif 18,40 € ; reste à charge 20,50 €
+  - Sous-limite :     Formule Excellence 3 - remboursement Garantie Santé Macif 29,90 € ; reste à charge 9,00 €
+  - Sous-limite :     Formule Excellence 4 - remboursement Garantie Santé Macif 29,90 € ; reste à charge 9,00 €
+  - Sous-limite :     Formule Protectrice 2 - remboursement Garantie Santé Macif 29,90 € ; reste à charge 9,00 €
+  - Sous-limite :     Formule Protectrice 3 - remboursement Garantie Santé Macif 29,90 € ; reste à charge 9,00 €
+  - Sous-limite :     Formule Protectrice 4 - remboursement Garantie Santé Macif 29,90 € ; reste à charge 9,00 €
+  - Sous-limite : Exemple « Ex : Consultation médecin spécialiste pour un patient de plus de 18 ans (gynécologie, ophtalmologie, dermatologie, etc.) » : tarif le plus souvent facturé 57,00 € ; BR 23,00 € ; remboursement AMO 15,10 €
+  - Sous-limite :     Formule Economique 0 - remboursement Garantie Santé Macif 6,90 € ; reste à charge 35,00 €
+  - Sous-limite :     Formule Economique 1 - remboursement Garantie Santé Macif 6,90 € ; reste à charge 35,00 €
+  - Sous-limite :     Formule Economique 2 - remboursement Garantie Santé Macif 6,90 € ; reste à charge 35,00 €
+  - Sous-limite :     Formule Equilibrée 1 - remboursement Garantie Santé Macif 18,40 € ; reste à charge 23,50 €
+  - Sous-limite :     Formule Equilibrée 2 - remboursement Garantie Santé Macif 18,40 € ; reste à charge 23,50 €
+  - Sous-limite :     Formule Equilibrée 3 - remboursement Garantie Santé Macif 18,40 € ; reste à charge 23,50 €
+  - Sous-limite :     Formule Excellence 3 - remboursement Garantie Santé Macif 29,90 € ; reste à charge 12,00 €
+  - Sous-limite :     Formule Excellence 4 - remboursement Garantie Santé Macif 29,90 € ; reste à charge 12,00 €
+  - Sous-limite :     Formule Protectrice 2 - remboursement Garantie Santé Macif 29,90 € ; reste à charge 12,00 €
+  - Sous-limite :     Formule Protectrice 3 - remboursement Garantie Santé Macif 29,90 € ; reste à charge 12,00 €
+  - Sous-limite :     Formule Protectrice 4 - remboursement Garantie Santé Macif 29,90 € ; reste à charge 12,00 €
+  - Condition : Valeurs relevées sur les onze grilles du document (formules Economique 0, Economique 1, Economique 2, Equilibrée 1, Equilibrée 2, Equilibrée 3, Excellence 3, Excellence 4, Protectrice 2, Protectrice 3, Protectrice 4), exemples au 01/01/2022, régime général.
+
+### Soins courants - Matériel médical - p. 1
+Poste « Matériel médical » (Soins courants). Tarif le plus souvent facturé ou tarif réglementé : Tarif moyen facturé. Base de remboursement de la Sécurité sociale (BR) : BR. Remboursement assurance maladie obligatoire (AMO) : 60 % BR.
+- Limite : Remboursement Garantie Santé Macif, identique pour les onze formules : 40 % BR + dépassements si prévu au contrat. Reste à charge : Selon contrat.
+  - Sous-limite : Exemple « Ex : Achat d’une paire de béquilles » : tarif le plus souvent facturé 25,80 € ; BR 24,40 € ; remboursement AMO 14,64 €
+  - Sous-limite :     Formule Economique 0 - remboursement Garantie Santé Macif 9,76 € ; reste à charge 1,40 €
+  - Sous-limite :     Formule Economique 1 - remboursement Garantie Santé Macif 11,16 € ; reste à charge 0,00 €
+  - Sous-limite :     Formule Economique 2 - remboursement Garantie Santé Macif 11,16 € ; reste à charge 0,00 €
+  - Sous-limite :     Formule Equilibrée 1 - remboursement Garantie Santé Macif 11,16 € ; reste à charge 0,00 €
+  - Sous-limite :     Formule Equilibrée 2 - remboursement Garantie Santé Macif 11,16 € ; reste à charge 0,00 €
+  - Sous-limite :     Formule Equilibrée 3 - remboursement Garantie Santé Macif 11,16 € ; reste à charge 0,00 €
+  - Sous-limite :     Formule Excellence 3 - remboursement Garantie Santé Macif 11,16 € ; reste à charge 0,00 €
+  - Sous-limite :     Formule Excellence 4 - remboursement Garantie Santé Macif 11,16 € ; reste à charge 0,00 €
+  - Sous-limite :     Formule Protectrice 2 - remboursement Garantie Santé Macif 11,16 € ; reste à charge 0,00 €
+  - Sous-limite :     Formule Protectrice 3 - remboursement Garantie Santé Macif 11,16 € ; reste à charge 0,00 €
+  - Sous-limite :     Formule Protectrice 4 - remboursement Garantie Santé Macif 11,16 € ; reste à charge 0,00 €
+  - Condition : Valeurs relevées sur les onze grilles du document (formules Economique 0, Economique 1, Economique 2, Equilibrée 1, Equilibrée 2, Equilibrée 3, Excellence 3, Excellence 4, Protectrice 2, Protectrice 3, Protectrice 4), exemples au 01/01/2022, régime général.
+
+### Dentaire - Soins et prothèses 100 % santé - p. 1
+Poste « Soins et prothèses 100 % santé » (Dentaire). Tarif le plus souvent facturé ou tarif réglementé : Prix moyen national. Base de remboursement de la Sécurité sociale (BR) : BR. Remboursement assurance maladie obligatoire (AMO) : 70 % BR.
+- Limite : Remboursement Garantie Santé Macif, identique pour les onze formules : 30 % BR + dépassements dans la limite du plafond des honoraires. Reste à charge : 0 €.
+  - Sous-limite : Exemple « Ex : pose d’une couronne céramo-métallique sur incisives, canines et premières prémolaires » : tarif le plus souvent facturé 500,00 € ; BR 120,00 € ; remboursement AMO 84,00 € ; remboursement Garantie Santé Macif (identique pour les onze formules) 416,00 € ; reste à charge 0 €
+  - Condition : Valeurs relevées sur les onze grilles du document (formules Economique 0, Economique 1, Economique 2, Equilibrée 1, Equilibrée 2, Equilibrée 3, Excellence 3, Excellence 4, Protectrice 2, Protectrice 3, Protectrice 4), exemples au 01/01/2022, régime général.
+
+### Dentaire - Soins (hors 100 % santé) - p. 1
+Poste « Soins (hors 100 % santé) » (Dentaire). Tarif le plus souvent facturé ou tarif réglementé : Tarif de convention. Base de remboursement de la Sécurité sociale (BR) : BR. Remboursement assurance maladie obligatoire (AMO) : 70 % BR.
+- Limite : Remboursement Garantie Santé Macif, identique pour les onze formules : 30 % BR + dépassements si prévu au contrat. Reste à charge : Selon contrat.
+  - Sous-limite : Exemple « Ex : détartrage » : tarif le plus souvent facturé 43,38 € ; BR 43,38 € ; remboursement AMO 30,36 € ; remboursement Garantie Santé Macif (identique pour les onze formules) 13,02 € ; reste à charge 0 €
+  - Condition : Valeurs relevées sur les onze grilles du document (formules Economique 0, Economique 1, Economique 2, Equilibrée 1, Equilibrée 2, Equilibrée 3, Excellence 3, Excellence 4, Protectrice 2, Protectrice 3, Protectrice 4), exemples au 01/01/2022, régime général.
+
+### Dentaire - Prothèses (hors 100 % santé) - p. 1
+Poste « Prothèses (hors 100 % santé) » (Dentaire). Tarif le plus souvent facturé ou tarif réglementé : Prix moyen national. Base de remboursement de la Sécurité sociale (BR) : BR. Remboursement assurance maladie obligatoire (AMO) : 70 % BR.
+- Limite : Remboursement Garantie Santé Macif, identique pour les onze formules : 30 % BR + dépassements si prévu au contrat. Reste à charge : Selon contrat.
+  - Sous-limite : Exemple « Ex : couronne céramométallique sur molaires » : tarif le plus souvent facturé 537,48 € ; BR 120,00 € ; remboursement AMO 84,00 €
+  - Sous-limite :     Formule Economique 0 - remboursement Garantie Santé Macif 36,00 € ; reste à charge 417,48 €
+  - Sous-limite :     Formule Economique 1 - remboursement Garantie Santé Macif 90,00 € ; reste à charge 363,48 €
+  - Sous-limite :     Formule Economique 2 - remboursement Garantie Santé Macif 175,00 € ; reste à charge 278,48 €
+  - Sous-limite :     Formule Equilibrée 1 - remboursement Garantie Santé Macif 90,00 € ; reste à charge 363,48 €
+  - Sous-limite :     Formule Equilibrée 2 - remboursement Garantie Santé Macif 175,00 € ; reste à charge 278,48 €
+  - Sous-limite :     Formule Equilibrée 3 - remboursement Garantie Santé Macif 260,00 € ; reste à charge 193,48 €
+  - Sous-limite :     Formule Excellence 3 - remboursement Garantie Santé Macif 260,00 € ; reste à charge 193,48 €
+  - Sous-limite :     Formule Excellence 4 - remboursement Garantie Santé Macif 345,00 € ; reste à charge 108,48 €
+  - Sous-limite :     Formule Protectrice 2 - remboursement Garantie Santé Macif 175,00 € ; reste à charge 278,48 €
+  - Sous-limite :     Formule Protectrice 3 - remboursement Garantie Santé Macif 260,00 € ; reste à charge 193,48 €
+  - Sous-limite :     Formule Protectrice 4 - remboursement Garantie Santé Macif 345,00 € ; reste à charge 108,48 €
+  - Condition : Valeurs relevées sur les onze grilles du document (formules Economique 0, Economique 1, Economique 2, Equilibrée 1, Equilibrée 2, Equilibrée 3, Excellence 3, Excellence 4, Protectrice 2, Protectrice 3, Protectrice 4), exemples au 01/01/2022, régime général.
+
+### Dentaire - Orthodontie (moins de 16 ans) - p. 1
+Poste « Orthodontie (moins de 16 ans) » (Dentaire). Tarif le plus souvent facturé ou tarif réglementé : Prix moyen national. Base de remboursement de la Sécurité sociale (BR) : BR. Remboursement assurance maladie obligatoire (AMO) : 100 % BR.
+- Limite : Remboursement Garantie Santé Macif, identique pour les onze formules : Dépassement si prévu au contrat. Reste à charge : Selon contrat.
+  - Sous-limite : Exemple « Ex : traitement par semestre (6 semestres max.) » : tarif le plus souvent facturé 720,00 € ; BR 193,50 € ; remboursement AMO 193,50 €
+  - Sous-limite :     Formule Economique 0 - remboursement Garantie Santé Macif 0,00 € ; reste à charge 526,50 €
+  - Sous-limite :     Formule Economique 1 - remboursement Garantie Santé Macif 100,00 € ; reste à charge 426,50 €
+  - Sous-limite :     Formule Economique 2 - remboursement Garantie Santé Macif 250,00 € ; reste à charge 276,50 €
+  - Sous-limite :     Formule Equilibrée 1 - remboursement Garantie Santé Macif 100,00 € ; reste à charge 426,50 €
+  - Sous-limite :     Formule Equilibrée 2 - remboursement Garantie Santé Macif 250,00 € ; reste à charge 276,50 €
+  - Sous-limite :     Formule Equilibrée 3 - remboursement Garantie Santé Macif 400,00 € ; reste à charge 126,50 €
+  - Sous-limite :     Formule Excellence 3 - remboursement Garantie Santé Macif 400,00 € ; reste à charge 126,50 €
+  - Sous-limite :     Formule Excellence 4 - remboursement Garantie Santé Macif 526,50 € ; reste à charge 0,00 €
+  - Sous-limite :     Formule Protectrice 2 - remboursement Garantie Santé Macif 250,00 € ; reste à charge 276,50 €
+  - Sous-limite :     Formule Protectrice 3 - remboursement Garantie Santé Macif 400,00 € ; reste à charge 126,50 €
+  - Sous-limite :     Formule Protectrice 4 - remboursement Garantie Santé Macif 526,50 € ; reste à charge 0,00 €
+  - Condition : Valeurs relevées sur les onze grilles du document (formules Economique 0, Economique 1, Economique 2, Equilibrée 1, Equilibrée 2, Equilibrée 3, Excellence 3, Excellence 4, Protectrice 2, Protectrice 3, Protectrice 4), exemples au 01/01/2022, régime général.
+
+### Optique - Équipement 100 % santé - p. 2
+Poste « Équipement 100 % santé » (Optique). Tarif le plus souvent facturé ou tarif réglementé : Prix moyen national. Base de remboursement de la Sécurité sociale (BR) : BR. Remboursement assurance maladie obligatoire (AMO) : 60 % BR.
+- Limite : Remboursement Garantie Santé Macif, identique pour les onze formules : 40 % BR + dépassements dans la limite des PLV (4). Reste à charge : 0 €.
+  - Sous-limite : Exemple « Ex : verres simples et monture » : tarif le plus souvent facturé 41 € (par verre) + 30 € (monture) ; BR 12,75 € par verre + 9 € ; remboursement AMO 7,65 € par verre + 5,40 € ; remboursement Garantie Santé Macif (identique pour les onze formules) 33,35 € (par verre) + 24,60 € (monture) ; reste à charge 0 €
+  - Sous-limite : Exemple « Ex : verres progressifs et monture » : tarif le plus souvent facturé 90 € (par verre) + 30 € (monture) ; BR 27 € par verre + 9 € ; remboursement AMO 16,20 € par verre + 5,40 € ; remboursement Garantie Santé Macif (identique pour les onze formules) 73,80 € (par verre) + 24,60 € (monture) ; reste à charge 0 €
+  - Condition : Valeurs relevées sur les onze grilles du document (formules Economique 0, Economique 1, Economique 2, Equilibrée 1, Equilibrée 2, Equilibrée 3, Excellence 3, Excellence 4, Protectrice 2, Protectrice 3, Protectrice 4), exemples au 01/01/2022, régime général.
+
+### Optique - Équipement (hors 100 % santé) - p. 2
+Poste « Équipement (hors 100 % santé) » (Optique). Tarif le plus souvent facturé ou tarif réglementé : Prix moyen national. Base de remboursement de la Sécurité sociale (BR) : BR. Remboursement assurance maladie obligatoire (AMO) : 60 % BR.
+- Limite : Remboursement Garantie Santé Macif, identique pour les onze formules : 40 % BR + dépassements si prévu au contrat, dans la limite des plafonds réglementaires. Reste à charge : Selon contrat.
+  - Sous-limite : Exemple « Ex : verres simples et monture » : tarif le plus souvent facturé 100 € (par verre) + 139 € (monture) ; BR 0,05 € par verre + 0,05 € ; remboursement AMO 0,03 € par verre + 0,03 €
+  - Sous-limite :     Formule Economique 0 - remboursement Garantie Santé Macif 0,02 € (par verre) + 0,02 € (monture) ; reste à charge 99,95 € (par verre) + 138,95 € (monture)
+  - Sous-limite :     Formule Economique 1 - remboursement Garantie Santé Macif 30 € (par verre) + 30 € (monture) ; reste à charge 248,91 €
+  - Sous-limite :     Formule Economique 2 - remboursement Garantie Santé Macif 50 € (par verre) + 60 € (monture) ; reste à charge 178,91 €
+  - Sous-limite :     Formule Equilibrée 1 - remboursement Garantie Santé Macif 30 € (par verre) + 30 € (monture) ; reste à charge 248,91 €
+  - Sous-limite :     Formule Equilibrée 2 - remboursement Garantie Santé Macif 50 € (par verre) + 60 € (monture) ; reste à charge 178,91 €
+  - Sous-limite :     Formule Equilibrée 3 - remboursement Garantie Santé Macif 70 € (par verre) + 90 € (monture) ; reste à charge 108,91 €
+  - Sous-limite :     Formule Excellence 3 - remboursement Garantie Santé Macif 70 € (par verre) + 90 € (monture) ; reste à charge 108,91 €
+  - Sous-limite :     Formule Excellence 4 - remboursement Garantie Santé Macif 90 € (par verre) + 99,97 € (monture) ; reste à charge 58,94 €
+  - Sous-limite :     Formule Protectrice 2 - remboursement Garantie Santé Macif 50 € (par verre) + 60 € (monture) ; reste à charge 178,91 €
+  - Sous-limite :     Formule Protectrice 3 - remboursement Garantie Santé Macif 70 € (par verre) + 90 € (monture) ; reste à charge 108,91 €
+  - Sous-limite :     Formule Protectrice 4 - remboursement Garantie Santé Macif 90 € (par verre) + 99,97 € (monture) ; reste à charge 58,94 €
+  - Sous-limite : Exemple « Ex : verres progressifs et monture » : tarif le plus souvent facturé 231 € (par verre) + 139 € (monture) ; BR 0,05 € par verre + 0,05 € ; remboursement AMO 0,03 € par verre + 0,03 €
+  - Sous-limite :     Formule Economique 0 - remboursement Garantie Santé Macif 0,02 € (par verre) + 0,02 € (monture) ; reste à charge 230,95 € (par verre) + 138,95 € (monture)
+  - Sous-limite :     Formule Economique 1 - remboursement Garantie Santé Macif 85 € (par verre) + 30 € (monture) ; reste à charge 400,91 €
+  - Sous-limite :     Formule Economique 2 - remboursement Garantie Santé Macif 100 € (par verre) + 60 € (monture) ; reste à charge 340,91 €
+  - Sous-limite :     Formule Equilibrée 1 - remboursement Garantie Santé Macif 85 € (par verre) + 30 € (monture) ; reste à charge 400,91 €
+  - Sous-limite :     Formule Equilibrée 2 - remboursement Garantie Santé Macif 100 € (par verre) + 60 € (monture) ; reste à charge 340,91 €
+  - Sous-limite :     Formule Equilibrée 3 - remboursement Garantie Santé Macif 115 € (par verre) + 90 € (monture) ; reste à charge 280,91 €
+  - Sous-limite :     Formule Excellence 3 - remboursement Garantie Santé Macif 115 € (par verre) + 90 € (monture) ; reste à charge 280,91 €
+  - Sous-limite :     Formule Excellence 4 - remboursement Garantie Santé Macif 135 € (par verre) + 99,97 € (monture) ; reste à charge 230,94 €
+  - Sous-limite :     Formule Protectrice 2 - remboursement Garantie Santé Macif 100 € (par verre) + 60 € (monture) ; reste à charge 340,91 €
+  - Sous-limite :     Formule Protectrice 3 - remboursement Garantie Santé Macif 115 € (par verre) + 90 € (monture) ; reste à charge 280,91 €
+  - Sous-limite :     Formule Protectrice 4 - remboursement Garantie Santé Macif 135 € (par verre) + 99,97 € (monture) ; reste à charge 230,94 €
+  - Condition : Valeurs relevées sur les onze grilles du document (formules Economique 0, Economique 1, Economique 2, Equilibrée 1, Equilibrée 2, Equilibrée 3, Excellence 3, Excellence 4, Protectrice 2, Protectrice 3, Protectrice 4), exemples au 01/01/2022, régime général.
+
+### Optique - Lentilles - p. 2
+Poste « Lentilles » (Optique). Tarif le plus souvent facturé ou tarif réglementé : Prix moyen national. Base de remboursement de la Sécurité sociale (BR) : Pas de prise en charge (dans le cas général). Remboursement assurance maladie obligatoire (AMO) : Pas de prise en charge (dans le cas général).
+- Limite : Remboursement Garantie Santé Macif, identique pour les onze formules : Prise en charge si prévu au contrat. Reste à charge : Selon contrat.
+  - Sous-limite : Exemple « Forfait annuel » : tarif le plus souvent facturé NC ; BR Non remboursé (dans le cas général) ; remboursement AMO Non remboursé (dans le cas général)
+  - Sous-limite :     Formule Economique 0 - remboursement Garantie Santé Macif Non remboursé (dans le cas général) ; reste à charge Selon contrat
+  - Sous-limite :     Formule Economique 1 - remboursement Garantie Santé Macif 40 € ; reste à charge Forfait annuel
+  - Sous-limite :     Formule Economique 2 - remboursement Garantie Santé Macif 80 € ; reste à charge Forfait annuel
+  - Sous-limite :     Formule Equilibrée 1 - remboursement Garantie Santé Macif 40 € ; reste à charge Forfait annuel
+  - Sous-limite :     Formule Equilibrée 2 - remboursement Garantie Santé Macif 80 € ; reste à charge Forfait annuel
+  - Sous-limite :     Formule Equilibrée 3 - remboursement Garantie Santé Macif 120 € ; reste à charge Forfait annuel
+  - Sous-limite :     Formule Excellence 3 - remboursement Garantie Santé Macif 120 € ; reste à charge Forfait annuel
+  - Sous-limite :     Formule Excellence 4 - remboursement Garantie Santé Macif 160 € ; reste à charge Forfait annuel
+  - Sous-limite :     Formule Protectrice 2 - remboursement Garantie Santé Macif 80 € ; reste à charge Forfait annuel
+  - Sous-limite :     Formule Protectrice 3 - remboursement Garantie Santé Macif 120 € ; reste à charge Forfait annuel
+  - Sous-limite :     Formule Protectrice 4 - remboursement Garantie Santé Macif 160 € ; reste à charge Forfait annuel
+  - Condition : Valeurs relevées sur les onze grilles du document (formules Economique 0, Economique 1, Economique 2, Equilibrée 1, Equilibrée 2, Equilibrée 3, Excellence 3, Excellence 4, Protectrice 2, Protectrice 3, Protectrice 4), exemples au 01/01/2022, régime général.
+
+### Optique - Chirurgie réfractive - p. 2
+Poste « Chirurgie réfractive » (Optique). Tarif le plus souvent facturé ou tarif réglementé : Prix moyen national. Base de remboursement de la Sécurité sociale (BR) : Non remboursé. Remboursement assurance maladie obligatoire (AMO) : Non remboursé.
+- Limite : Remboursement Garantie Santé Macif, identique pour les onze formules : Prise en charge si prévu au contrat. Reste à charge : Selon contrat.
+  - Sous-limite : Exemple « Ex : opération correctrice de la myopie » : tarif le plus souvent facturé NC ; BR Non remboursé ; remboursement AMO Non remboursé
+  - Sous-limite :     Formule Economique 0 - remboursement Garantie Santé Macif Non remboursé par ce contrat ; reste à charge Selon contrat
+  - Sous-limite :     Formule Economique 1 - remboursement Garantie Santé Macif Non remboursé par ce contrat ; reste à charge Selon contrat
+  - Sous-limite :     Formule Economique 2 - remboursement Garantie Santé Macif Non remboursé par ce contrat ; reste à charge Selon contrat
+  - Sous-limite :     Formule Equilibrée 1 - remboursement Garantie Santé Macif Non remboursé par ce contrat ; reste à charge Selon contrat
+  - Sous-limite :     Formule Equilibrée 2 - remboursement Garantie Santé Macif Non remboursé par ce contrat ; reste à charge Selon contrat
+  - Sous-limite :     Formule Equilibrée 3 - remboursement Garantie Santé Macif 300 € ; reste à charge Forfait par œil et par an
+  - Sous-limite :     Formule Excellence 3 - remboursement Garantie Santé Macif 300 € ; reste à charge Forfait par œil et par an
+  - Sous-limite :     Formule Excellence 4 - remboursement Garantie Santé Macif 400 € ; reste à charge Forfait par œil et par an
+  - Sous-limite :     Formule Protectrice 2 - remboursement Garantie Santé Macif Non remboursé par ce contrat ; reste à charge Selon contrat
+  - Sous-limite :     Formule Protectrice 3 - remboursement Garantie Santé Macif 300 € ; reste à charge Forfait par œil et par an
+  - Sous-limite :     Formule Protectrice 4 - remboursement Garantie Santé Macif 400 € ; reste à charge Forfait par œil et par an
+  - Condition : Valeurs relevées sur les onze grilles du document (formules Economique 0, Economique 1, Economique 2, Equilibrée 1, Equilibrée 2, Equilibrée 3, Excellence 3, Excellence 4, Protectrice 2, Protectrice 3, Protectrice 4), exemples au 01/01/2022, régime général.
+
+### Aides auditives - Équipement 100 % santé - p. 2
+Poste « Équipement 100 % santé » (Aides auditives). Tarif le plus souvent facturé ou tarif réglementé : Prix moyen national. Base de remboursement de la Sécurité sociale (BR) : BR. Remboursement assurance maladie obligatoire (AMO) : 60 % BR.
+- Limite : Remboursement Garantie Santé Macif, identique pour les onze formules : 40 % BR + dépassements dans la limite des PLV (4). Reste à charge : 0 €.
+  - Sous-limite : Exemple « Par oreille pour un patient de plus de 20 ans » : tarif le plus souvent facturé 950 € ; BR 400 € ; remboursement AMO 240 € ; remboursement Garantie Santé Macif (identique pour les onze formules) 710 € ; reste à charge 0 €
+  - Condition : Valeurs relevées sur les onze grilles du document (formules Economique 0, Economique 1, Economique 2, Equilibrée 1, Equilibrée 2, Equilibrée 3, Excellence 3, Excellence 4, Protectrice 2, Protectrice 3, Protectrice 4), exemples au 01/01/2022, régime général.
+
+### Aides auditives - Équipement (hors 100 % santé) - p. 2
+Poste « Équipement (hors 100 % santé) » (Aides auditives). Tarif le plus souvent facturé ou tarif réglementé : Prix moyen national. Base de remboursement de la Sécurité sociale (BR) : BR. Remboursement assurance maladie obligatoire (AMO) : 60 % BR.
+- Limite : Remboursement Garantie Santé Macif, identique pour les onze formules : 40 % BR + dépassements si prévu au contrat, dans la limite des plafonds réglementaires. Reste à charge : Selon contrat.
+  - Sous-limite : Exemple « Par oreille pour un patient de plus de 20 ans » : tarif le plus souvent facturé 1 476 € ; BR 400 € ; remboursement AMO 240 €
+  - Sous-limite :     Formule Economique 0 - remboursement Garantie Santé Macif 160 € ; reste à charge 1 076 €
+  - Sous-limite :     Formule Economique 1 - remboursement Garantie Santé Macif 310 € ; reste à charge 926 €
+  - Sous-limite :     Formule Economique 2 - remboursement Garantie Santé Macif 460 € ; reste à charge 776 €
+  - Sous-limite :     Formule Equilibrée 1 - remboursement Garantie Santé Macif 310 € ; reste à charge 926 €
+  - Sous-limite :     Formule Equilibrée 2 - remboursement Garantie Santé Macif 460 € ; reste à charge 776 €
+  - Sous-limite :     Formule Equilibrée 3 - remboursement Garantie Santé Macif 610 € ; reste à charge 626 €
+  - Sous-limite :     Formule Excellence 3 - remboursement Garantie Santé Macif 610 € ; reste à charge 626 €
+  - Sous-limite :     Formule Excellence 4 - remboursement Garantie Santé Macif 760 € ; reste à charge 476 €
+  - Sous-limite :     Formule Protectrice 2 - remboursement Garantie Santé Macif 460 € ; reste à charge 776 €
+  - Sous-limite :     Formule Protectrice 3 - remboursement Garantie Santé Macif 610 € ; reste à charge 626 €
+  - Sous-limite :     Formule Protectrice 4 - remboursement Garantie Santé Macif 760 € ; reste à charge 476 €
+  - Condition : Valeurs relevées sur les onze grilles du document (formules Economique 0, Economique 1, Economique 2, Equilibrée 1, Equilibrée 2, Equilibrée 3, Excellence 3, Excellence 4, Protectrice 2, Protectrice 3, Protectrice 4), exemples au 01/01/2022, régime général.
+
+## Exclusions
+
+| Exclusion | Description | S'applique à | Page |
+|---|---|---|---|
+| Chambre particulière - non remboursée par les formules Economique 0, Economique 1 et Economique 2 | Ligne « Chambre particulière (sur demande du patient) » : tarif « NC », base de remboursement de la Sécurité sociale « Non remboursé », remboursement de l’assurance maladie obligatoire « Non remboursé ». La colonne « Remboursement Garantie Santé Macif » porte « Non remboursé par ce contrat » pour les formules Economique 0, Economique 1 et Economique 2, avec un reste à charge « Selon contrat ». Les autres formules prévoient un forfait (50 € pour Equilibrée 1, 2 et 3 ; 60 € pour Protectrice 2, 3 et 4 ; 70 € pour Excellence 3 et 4), « Sous réserve d’une hospitalisation d’au moins une nuit. Limité à 90 jours par an ». | Hospitalisation - Chambre particulière (sur demande du patient) | p. 1 |
+| Chirurgie réfractive - non remboursée par six des onze formules | Ligne « Chirurgie réfractive » / exemple « Ex : opération correctrice de la myopie » : tarif « NC », base de remboursement « Non remboursé », remboursement de l’assurance maladie obligatoire « Non remboursé ». La colonne « Remboursement Garantie Santé Macif » porte « Non remboursé par ce contrat » pour les formules Economique 0, Economique 1, Economique 2, Equilibrée 1, Equilibrée 2 et Protectrice 2, avec un reste à charge « Selon contrat ». Les formules Equilibrée 3, Excellence 3 et Protectrice 3 versent 300 € et les formules Excellence 4 et Protectrice 4 versent 400 €, « Forfait par œil et par an ». | Optique - Chirurgie réfractive | p. 2 |
+| Lentilles - forfait annuel non remboursé par la formule Economique 0 | Ligne « Lentilles » / « Forfait annuel » : tarif « NC », base de remboursement et remboursement de l’assurance maladie obligatoire « Non remboursé (dans le cas général) ». La colonne « Remboursement Garantie Santé Macif » porte « Non remboursé (dans le cas général) » pour la formule Economique 0, avec un reste à charge « Selon contrat ». Les autres formules versent un forfait annuel de 40 € (Economique 1, Equilibrée 1), 80 € (Economique 2, Equilibrée 2, Protectrice 2), 120 € (Equilibrée 3, Excellence 3, Protectrice 3) ou 160 € (Excellence 4, Protectrice 4). | Optique - Lentilles | p. 2 |
+| Lentilles - pas de prise en charge par l’assurance maladie obligatoire | Pour le poste « Lentilles », la base de remboursement de la Sécurité sociale et le remboursement de l’assurance maladie obligatoire sont l’un et l’autre indiqués « Pas de prise en charge (dans le cas général) ». | Optique - Lentilles | p. 2 |
+| Chirurgie réfractive - pas de prise en charge par l’assurance maladie obligatoire | Pour le poste « Chirurgie réfractive », la base de remboursement de la Sécurité sociale et le remboursement de l’assurance maladie obligatoire sont l’un et l’autre indiqués « Non remboursé ». | Optique - Chirurgie réfractive | p. 2 |
+| Plafonnement du remboursement des dépassements des médecins de secteur 2 à 100 % de la BR | Pour les « Honoraires médecins secteur 2 (non adhérents OPTAM ou OPTAM-CO) », la colonne « Remboursement Garantie Santé Macif » précise, en hospitalisation, « Dépassements si prévu au contrat (remboursement des dépassements plafonné à 100% BR) » et, en soins courants, « 30 % BR + dépassements si prévu au contrat (remboursement des dépassements plafonné à 100% BR) ». Ce plafonnement est identique sur les onze formules. | Honoraires médecins secteur 2 (non adhérents OPTAM ou OPTAM-CO) | p. 1 |
+| Participation forfaitaire de 1 € laissée à la charge de l’assuré | Pour les honoraires de médecins en soins courants, la colonne « Remboursement assurance maladie obligatoire » porte « 70 % BR – 1 € » et la colonne « Reste à charge » porte « 1 € de participation forfaitaire » ou « 1 € de participation forfaitaire plus dépassement selon contrat ». Cette participation apparaît sur les onze formules. | Soins courants - honoraires médecins | p. 1 |
+| Postes dont le remboursement est renvoyé au contrat | Plusieurs lignes indiquent, dans la colonne « Remboursement Garantie Santé Macif », « Dépassements si prévu au contrat », « Dépassement si prévu au contrat » ou « Prise en charge si prévu au contrat », et dans la colonne « Reste à charge » « Selon contrat » : honoraires des médecins adhérents OPTAM ou OPTAM-CO et de secteur 2 en hospitalisation, matériel médical, soins dentaires hors 100 % santé, prothèses dentaires hors 100 % santé, orthodontie, lentilles et chirurgie réfractive. Le document ne chiffre pas ces prises en charge et renvoie aux documents contractuels. | all | p. 1 |
+
+## Conditions particulières
+
+- Le document est composé de onze grilles de deux pages, une par formule : Economique 0 (pages 1-2), Economique 1 (pages 3-4), Economique 2 (pages 5-6), Equilibrée 1 (pages 7-8), Equilibrée 2 (pages 9-10), Equilibrée 3 (pages 11-12), Excellence 3 (pages 13-14), Excellence 4 (pages 15-16), Protectrice 2 (pages 17-18), Protectrice 3 (pages 19-20) et Protectrice 4 (pages 21-22). Chaque grille porte le même titre « Garantie Santé Macif - formule … - régime général » et le même sous-titre « Exemples de remboursement(1) au 01/01/2022 », et les mêmes 44 lignes réparties en cinq postes (Hospitalisation, Soins courants, Dentaire, Optique, Aides auditives). p. 1
+- Chaque grille porte six colonnes : « Contrat d’assurance santé responsable (2) » (libellé de la ligne), « Tarif le plus souvent facturé ou tarif réglementé », « Base de remboursement de la Sécurité sociale (BR) (3) », « Remboursement assurance maladie obligatoire (AMO) », « Remboursement Garantie Santé Macif — Formule … » et « Reste à charge ». Les en-têtes ne sont imprimés que sur la première page de chaque grille ; la seconde page poursuit le tableau sans les répéter. p. 1
+- La page 9 porte le titre « Garantie Santé Macif - formule Equilibrée 2 - régime général » alors que l’en-tête de sa cinquième colonne porte « Remboursement Garantie Santé Macif / Formule Economique 0 ». Les deux mentions sont bien imprimées sur la page (vérifié sur un rendu 4×). Les valeurs de cette grille sont celles d’Equilibrée 2 et non celles d’Economique 0 (par exemple chambre particulière 50 € contre « Non remboursé par ce contrat », forfait lentilles 80 € contre « Non remboursé (dans le cas général) »). Aucune correction n’a été appliquée : les deux libellés sont enregistrés tels quels et la contradiction est signalée. p. 9
+- « Ce document présente des exemples de remboursements en euros par l’assurance maladie et par votre contrat complémentaire santé, parmi les cas les plus fréquents et selon le niveau de couverture choisi. Ils ne correspondent pas forcément à vos besoins ou à votre situation mais, ils vous permettent de comprendre, choisir ou comparer les tableaux de garantie. Ils ne peuvent se substituer aux documents contractuels qui seuls engagent l’organisme de complémentaire santé. Ils ont été construits sur la base des données communiquées par l’assurance maladie obligatoire et en s’appuyant sur le Glossaire de l’assurance complémentaire santé édicté par l’Unocam. (https://unocam.fr/ressources/documents-a-telecharger/) » p. 2
+- Colophon répété au bas de la seconde page de chaque grille : « Le contrat Garantie Santé, distribué par la Macif, est assuré par Apivia Macif Mutuelle, mutuelle régie par le Livre II du Code de la mutualité et adhérente à la Mutualité Française. SIREN 779 558 501. Siège social : 17-21 place Etienne Pernet - 75015 PARIS cedex 15. » ; « Les garanties d’assistance sont assurées par IMA Assurances : Société anonyme au capital de 7 000 000 € entièrement libéré. Entreprise régie par le Code des assurances. RCS Niort 481 511 632. Siège social : 118, av. de Paris – CS 40000 – 79033 Niort Cedex 9. » ; « MACIF - MUTUELLE ASSURANCE DES COMMERÇANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE. Société d’assurance mutuelle à cotisations variables. Entreprise régie par le Code des assurances. Siège social : 2 et 4, rue de Pied de Fond - 79000 Niort. » p. 2
+- Le document distingue systématiquement, en dentaire, en optique et en aides auditives, les postes « 100 % santé » (dont le reste à charge est de « 0 € » sur les onze formules) et les postes « hors 100 % santé » (dont le remboursement et le reste à charge varient selon la formule). p. 1
+
+## Lacunes d'extraction
+
+- Porteurs du risque, lus au verbe (colophon, page 2 et bas de chaque page paire) : « Le contrat Garantie Santé, distribué par la Macif, est assuré par Apivia Macif Mutuelle » (SIREN 779 558 501) et « Les garanties d’assistance sont assurées par IMA Assurances » (RCS Niort 481 511 632). La MACIF, nommée en toutes lettres avec sa forme juridique (« Société d’assurance mutuelle à cotisations variables ») dans le même colophon, est DISTRIBUTEUR et non porteur. À signaler : le porteur nommé ici est « Apivia Macif Mutuelle » avec le SIREN 779 558 501, le MÊME numéro d’immatriculation que « Macif Santé Prévoyance » cité dans d’autres documents du corpus. Les deux dénominations et le numéro sont relevés tels quels, sans conclusion sur l’identité de la personne morale.
+- CAPITAL SOCIAL D’IMA ASSURANCES : ce document (édition 01/2022) imprime « Société anonyme au capital de 7 000 000 € entièrement libéré », là où d’autres documents Macif du corpus impriment 157 000 000 €. La valeur de CE document est conservée verbatim, sans arbitrage ni report d’un document sur l’autre.
+- PIÈGE DE GRILLE MESURÉ ET CONFIRMÉ AU RENDU : la page 9 imprime le titre « Garantie Santé Macif - formule Equilibrée 2 - régime général » ET l’en-tête de colonne « Remboursement Garantie Santé Macif / Formule Economique 0 ». Les deux sont réellement imprimés (rendu 4× de la bande d’en-tête). Sur les dix autres grilles, le titre et l’en-tête de la 5e colonne concordent. Les valeurs de la grille des pages 9-10 sont bien celles d’Equilibrée 2 (chambre particulière 50 €, forfait lentilles 80 €, couronne sur molaires 175,00 €), et non celles d’Economique 0 (respectivement « Non remboursé par ce contrat », « Non remboursé (dans le cas général) », 36,00 €). La grille est donc rattachée à Equilibrée 2, et la contradiction est enregistrée dans special_conditions et ici. Les en-têtes ont été relus sur CHAQUE page et jamais hérités de la page précédente.
+- MÉTHODE DE LECTURE DU TABLEAU. Les 22 pages portent /Rotate 90 : dans l’espace non tourné, une ligne imprimée est une bande verticale étroite et une colonne imprimée est une bande horizontale. La grille a donc été reconstruite sur les coordonnées des spans : regroupement par abscisse (une ligne = une bande de x large de ~7 pt), puis affectation de chaque span à la colonne dont le centre en y est le plus proche, les six centres étant relus sur la ligne d’en-tête DE CHAQUE PAGE de tête de grille (les décalages varient d’une grille à l’autre : yc de la colonne libellé = 729,3 pt page 1, 725,7 pt pages 3 à 21, mais 737,6 pt page 9). Les lignes repliées sur plusieurs bandes ont été refusionnées sur la bande la plus proche. CONTRÔLE ARITHMÉTIQUE : les 11 grilles donnent exactement 44 lignes de données chacune, dans le même ordre, soit 44 × 11 = 484 lignes et 484 × 5 = 2 420 cellules de valeur ; aucune grille n’en a une de plus ou de moins. Les colonnes 1 à 3 (tarif, BR, AMO) sont identiques d’une formule à l’autre sur les 44 lignes, ce qui est cohérent puisqu’elles ne dépendent pas de la formule.
+- UNITÉS VÉRIFIÉES : contrairement à d’autres documents Macif du corpus, le glyphe € survit à l’extraction sur ce document (1 662 occurrences pour 22 pages, soit 50 à 104 par page). Chaque montant tabulé porte donc son unité dans le calque texte, et aucun symbole n’a eu à être restauré. Les valeurs sans unité relevées dans la grille sont des taux (« 70 % BR », « 30 % BR »), des mentions « BR », « NC », « Non remboursé » ou « Selon contrat » — jamais des montants amputés de leur symbole.
+- Six cellules dont le libellé imprimé est réparti sur plusieurs lignes repliées n’ont pas été restituées dans le bon ordre par la reconstruction géométrique. Leur texte imprimé a été restauré depuis le texte plat de la page, où les lignes de la cellule se suivent : « Dépassements si prévu au contrat (remboursement des dépassements plafonné à 100% BR) » (hospitalisation, secteur 2), « 30 % BR + dépassements si prévu au contrat (remboursement des dépassements plafonné à 100% BR) » (soins courants, secteur 2), « 40 % BR + dépassements si prévu au contrat » (matériel médical), « 40 % BR + dépassements si prévu au contrat, dans la limite des plafonds réglementaires » (optique et aides auditives hors 100 % santé). Sur une ligne (consultation de spécialiste, secteur 1), le calque texte réémet le montant deux fois sur cinq grilles (« 9,00 €9 00 €», « 9 00 €9,00 € ») : la valeur imprimée retenue est « 9,00 € », identique sur les onze formules.
+- Le calque texte porte, au bas de chaque page paire, une douzaine de fragments d’une lettre (« p », « g », « q ») superposés au paragraphe d’avertissement : ce sont des résidus non imprimés. Ils ont été écartés du tableau par un filtre explicite et ne figurent dans aucune citation.
+- Le calque texte réémet certaines lignes en double, surtout les libellés d’exemple de consultation de spécialiste (« Ex : Consultation médecin spécialiste pour un patient de plus de 18 ans (gynécologie » suivi de « ophtalmologie, dermatologie, etc.) », parfois précédés de fragments comme « (gyg, » ou « (éli »). Les libellés retenus dans les champs structurés sont la forme imprimée complète ; les citations ont été tranchées de façon à ne jamais traverser une de ces répétitions.
+- CE DOCUMENT N’EST PAS UN CONTRAT. Il ne contient ni définitions contractuelles complètes, ni conditions générales, ni obligations de l’assuré, ni procédure de sinistre, ni durée/résiliation, ni prescription, ni tarif de cotisation. Les champs correspondants du schéma sont donc laissés vides ou à null : `deductibles`, `duration_and_cancellation`, `prescription_period`, `premium` = null ; `waiting_periods`, `obligations`, `claims_procedure` = tableaux vides. Le document le dit lui-même : les exemples « ne peuvent se substituer aux documents contractuels qui seuls engagent l’organisme de complémentaire santé ».
+- Les `exclusions` enregistrées ne sont pas des exclusions contractuelles au sens d’une clause d’exclusion : ce document n’en comporte aucune. Ce sont les postes que la grille déclare non remboursés (« Non remboursé par ce contrat », « Non remboursé (dans le cas général) », « Pas de prise en charge (dans le cas général) »), les plafonnements qu’elle imprime (dépassements des médecins de secteur 2 plafonnés à 100 % BR, participation forfaitaire de 1 €) et les postes dont la prise en charge est renvoyée au contrat. La nature de ces items est précisée dans chaque description.
+- `is_optional` est laissé à null sur toutes les garanties : le document présente onze formules parallèles et ne dit nulle part qu’un poste serait une option souscriptible séparément.
+- `reference` = null : aucune référence de document n’est imprimée. `target_audience` = null : le document ne nomme aucun public ; il précise seulement « régime général » dans le titre de chaque grille et l’hypothèse « un assuré sans taux de prise en charge particulier et respectant le parcours de soins coordonnés ». `edition_date` = 2022-01-01, converti depuis la mention imprimée « Exemples de remboursement(1) au 01/01/2022 », qui figure sur les onze grilles ; c’est la seule date du document.
+- `product_name` = « Garantie Santé », la dénomination du colophon (« Le contrat Garantie Santé, distribué par la Macif »). Les titres de page impriment la forme « Garantie Santé Macif - formule … - régime général ».
+- Le prompt n’a pas été tronqué (99 066 caractères pour un budget de 240 000). Le texte des 22 pages a néanmoins été ré-extrait indépendamment du PDF local avec page.get_text("text") : la comparaison est identique caractère par caractère avec le texte du prompt, aux seuls marqueurs [page N] injectés par le harness près.
+- Ordre de lecture du texte plat : sur chaque page de tête de grille, les bandeaux de section (« Hospitalisation », « Soins courants », « Dentaire ») et les sous-titres (« Séjour avec actes lourds », « Séjour sans actes lourds », les notes « L’hôpital public inclut … » et « Exemple d’une opération chirurgicale de la cataracte … ») sont émis EN FIN DE PAGE, après toutes les lignes de données, alors qu’ils sont imprimés au-dessus des lignes qu’ils introduisent. Une lecture séquentielle du texte plat rattacherait donc ces intitulés aux mauvaises lignes. Le rattachement retenu ici suit les coordonnées.
+- Aucun numéro de folio n’est imprimé sur les pages de ce document ; toutes les valeurs de `page` citent le marqueur [page N] du PDF. Les 44 lignes de la grille existant à l’identique sur les onze formules, les `coverages` citent la page de la première grille (1 ou 2) et énumèrent les onze formules dans `sub_limits`.
+
+## Documents liés
+
+- [contrat GARANTIE SANTÉ - IPID](contrat%20GARANTIE%20SANT%C3%89%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/2022
+- [contrat GARANTIE SANTÉ - IPID](contrat%20GARANTIE%20SANT%C3%89%20-%20IPID%20%282%29.md) - IPID / Fiche d'information, éd. 09/2019
+- [Garantie Santé](Garantie%20Sant%C3%A9.md) - Conditions générales, éd. 2023-01
+
+## Source & fidélité
+
+- Source : [https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/Exemples-remboursements-GS.pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/Exemples-remboursements-GS.pdf) - téléchargé le 2026-08-01 - 22 pages
+- Extraction : claude-code-subagent:scale · prompt v1.1
+- ⚠️ Ceci n'est pas le document officiel de l'assureur et peut contenir des erreurs d'extraction. Information, non un conseil - vérifiez toujours par rapport au document source.

@@ -250,6 +250,10 @@ Tiers payant. (Service systématiquement prévu, précédé d'une coche verte. L
 - Coquilles de l'assureur conservées telles quelles : le titre de rubrique « Quelles sont mes obligations » est imprimé sans point d'interrogation, et la phrase « sauf résiliation par l'une des parties dans les cas et conditions fixé au contrat » comporte un accord fautif.
 - Le document mentionne des « éventuels bénéficiaires » couverts en plus de l'assuré sans définir qui ils sont ni comment ils sont rattachés au contrat ; les obligations à la souscription évoquent « l'attestation de carte vitale de chaque assuré », ce qui suppose plusieurs assurés, mais aucune définition d'ayant droit n'est fournie.
 
+## Documents liés
+
+- [Macif Santé des Territoriaux - Fiche](Macif%20Sant%C3%A9%20des%20Territoriaux%20-%20Fiche.md) - Fiche produit, éd. 06/26
+
 ## Source & fidélité
 
 - Source : [https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_MSDT.pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_MSDT.pdf) - téléchargé le 2026-08-01 - 2 pages

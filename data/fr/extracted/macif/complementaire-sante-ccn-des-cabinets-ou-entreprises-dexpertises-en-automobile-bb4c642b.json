@@ -1,0 +1,1007 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "macif",
+  "insurer_name": "Macif",
+  "product_name": "Complémentaire santé CCN des cabinets ou entreprises d'expertises en automobile",
+  "branch": "sante",
+  "branch_code": null,
+  "document_type": "conditions_generales",
+  "language": "fr",
+  "target_audience": "entreprises",
+  "target_audience_note": "« Contrat collectif à adhésion obligatoire » (page 1). « Entreprise souscriptrice : entreprise ayant souscrit le contrat collectif à adhésion obligatoire au profit de ses salariés » (page 3). « Votre structure relève de la Convention Collective Nationale des cabinets ou entreprises d'expertises en automobile du 20 novembre 1996, étendue par arrêté du 8 avril 1998 » (page 3). « Sont affiliés à titre obligatoire au présent contrat, les salariés dont l'entreprise relève de la Convention collective nationale des cabinets ou entreprises d'expertises en automobile » (page 4). Le souscripteur est donc l'entreprise ; les assurés sont ses salariés et leurs ayants droit, à qui la notice est remise.",
+  "reference": "NID/CS CCN Expert Auto/GA - 01/26",
+  "edition_date": "2026-01",
+  "product_family": "Complémentaire santé CCN cabinets ou entreprises d'expertises en automobile",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/NID_EXPERTS_AUTO_Sante.pdf",
+  "source_pdf": "complementaire-sante-ccn-des-cabinets-ou-entreprises-dexpertises-en-automobile-bb4c642b.pdf",
+  "source_sha256": "9f1f8606d17cdafed4bf3643b69a086bd39205941c7af1bd5d427dec29be44d4",
+  "source_pages": 20,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Notice d'information du contrat collectif à adhésion obligatoire « Complémentaire santé CCN des cabinets ou entreprises d'expertises en automobile », en vigueur au 01/01/2026. Le contrat rembourse tout ou partie des frais de santé en complément des prestations en nature de la Sécurité sociale, ainsi que certains frais médicaux non remboursés par elle et expressément prévus au tableau de garanties ; il respecte le cahier des charges du contrat responsable et intègre le dispositif 100 % Santé en optique, dentaire et aides auditives. Il est souscrit par l'entreprise relevant de la Convention Collective Nationale des cabinets ou entreprises d'expertises en automobile du 20 novembre 1996 au profit de ses salariés et de leurs ayants droit, avec trois formules au choix de l'entreprise (Essentielle, Confort, Excellence) et des options facultatives à la charge du salarié. Le contrat est assuré par Macif Santé Prévoyance (mutuelle du Livre II du Code de la mutualité, SIREN 779 558 501) et distribué par la Macif ; les garanties d'assistance sont assurées par IMA Assurances.",
+  "definitions": [
+    {
+      "term": "Assuré",
+      "definition": "Personne physique nommément désignée dans le bulletin d'affiliation ou d'adhésion sur qui reposent les garanties.",
+      "page": 3
+    },
+    {
+      "term": "Entreprise souscriptrice",
+      "definition": "Entreprise ayant souscrit le contrat collectif à adhésion obligatoire au profit de ses salariés.",
+      "page": 3
+    },
+    {
+      "term": "Options facultatives",
+      "definition": "Ce terme désigne les options souscrites par l'entreprise auprès de Macif Santé Prévoyance dans le cadre du contrat obligatoire et ayant pour objet de proposer au participant des garanties complémentaires tant pour lui-même que pour ses éventuels ayants droit. Ces garanties s'ajoutent à celle du contrat obligatoire souscrit par l'entreprise. La cotisation liées aux options est à la charge exclusive du salarié et est prélevée directement sur son compte bancaire.",
+      "page": 3
+    },
+    {
+      "term": "Participant",
+      "definition": "Salarié défini au contrat obligatoirement affilié au contrat collectif obligatoire.",
+      "page": 3
+    },
+    {
+      "term": "Régime souscrit à titre obligatoire",
+      "definition": "Ce terme désigne le contrat collectif à adhésion obligatoire souscrit par l'entreprise auprès de l'organisme assureur et ayant pour objet d'accorder aux participants : le remboursement de tout ou partie des frais de santé en complément des prestations en nature de la Sécurité sociale ; le remboursement de certains frais médicaux, expressément prévu dans le tableau de garanties, n'ayant pas donné lieu à un remboursement de la Sécurité sociale.",
+      "page": 3
+    },
+    {
+      "term": "BASE DE REMBOURSEMENT DE LA SÉCURITÉ SOCIALE",
+      "definition": "Assiette servant au calcul des prestations en nature de l'Assurance maladie de la Sécurité sociale. Selon le type d'acte et la nomenclature auxquels elle se rattache, cette base de remboursement peut être constituée du : tarif d'autorité (tarif utilisé par la Sécurité sociale comme base de remboursement lorsque le professionnel de santé consulté n'est pas conventionné ; ce tarif est très inférieur au tarif de convention) ; tarif de convention (base de remboursement des soins et honoraires des professionnels de santé conventionnés) ; tarif de responsabilité (base de remboursement pour les produits pharmaceutiques, les fournitures et les appareillages) ; tarif forfaitaire de responsabilité (base de remboursement pour l'original d'un médicament ainsi que pour les médicaments génériques qui y sont rattachés).",
+      "page": 18
+    },
+    {
+      "term": "CONJOINT",
+      "definition": "Personne unie à l'adhérent par les liens du mariage, selon les termes du Code civil. Sont assimilés au conjoint : le concubin et le partenaire lié par un pacte civil de solidarité (PACS), selon les dispositions du Code civil. Le conjoint, ou la personne assimilée, doit en outre vivre en couple avec l'adhérent, sous le même toit, de façon constante c'est-à-dire sans être séparé de corps ou de fait.",
+      "page": 18
+    },
+    {
+      "term": "DISPOSITIFS DE PRATIQUE TARIFAIRE MAÎTRISÉE",
+      "definition": "Dispositifs mis en place entre l'Assurance maladie et les syndicats de médecins dans lesquels les médecins adhérents s'engagent notamment à limiter leurs dépassements d'honoraires. Il existe deux dispositifs : l'Option de Pratique Tarifaire Maîtrisée (OPTAM) et l'Option de Pratique Tarifaire Maîtrisée Anesthésie, Chirurgie et Obstétrique (OPTAM-ACO). Le contrat responsable prévoit une meilleure prise en charge lorsque vous consultez un médecin adhérent à ces dispositifs.",
+      "page": 18
+    },
+    {
+      "term": "FORFAIT JOURNALIER HOSPITALIER",
+      "definition": "Montant forfaitaire restant à la charge de l'assuré en cas d'hospitalisation. Il correspond aux “frais d'hébergement et d'entretien” entraînés par l'hospitalisation.",
+      "page": 18
+    },
+    {
+      "term": "FRANCHISE ANNUELLE",
+      "definition": "Somme laissée à la charge de l'assuré et qui s'applique sur les médicaments, les actes paramédicaux et les transports sanitaires.",
+      "page": 18
+    },
+    {
+      "term": "HONORAIRES PARAMÉDICAUX",
+      "definition": "Entrent dans cette catégorie les honoraires des infirmiers(ères), masseurs-kinésithérapeutes, orthophonistes, orthoptistes, pédicures-podologues pris en charge par le Régime obligatoire.",
+      "page": 18
+    },
+    {
+      "term": "LISTE DES PRODUITS ET DES PRESTATIONS (LPP)",
+      "definition": "Liste établie par décret définissant l'ensemble des produits et des prestations remboursables par l'assurance maladie et fixant leur base de remboursement par le Régime obligatoire.",
+      "page": 18
+    },
+    {
+      "term": "MÉDECIN TRAITANT",
+      "definition": "Médecin spécialiste ou généraliste, librement choisi par l'assuré âgé de 16 ans au moins pour assurer la coordination de ses soins. L'assuré doit avoir déclaré son médecin traitant auprès de son régime d'assurance maladie obligatoire afin de bénéficier du taux maximal de remboursement de la Sécurité sociale.",
+      "page": 18
+    },
+    {
+      "term": "PARCOURS DE SOINS",
+      "definition": "Désigne le parcours de soins coordonnés défini par la loi, obligeant les assurés sociaux à consulter leur médecin traitant avant tout autre médecin sous peine de majoration du ticket modérateur par le Régime obligatoire et de non remboursement des éventuels dépassements d'honoraires par la mutuelle.",
+      "page": 18
+    },
+    {
+      "term": "PARTICIPATION FORFAITAIRE",
+      "definition": "Somme qui reste à la charge de l'assuré et qui concerne les actes et consultations médicaux réalisés par un médecin en ville, dans un établissement ou un centre de santé (hors hospitalisation) et les actes de biologie médicale et de radiologie.",
+      "page": 18
+    },
+    {
+      "term": "PLAFOND MENSUEL DE LA SÉCURITÉ SOCIALE (PMSS)",
+      "definition": "Les cotisations sont exprimées en pourcentage du plafond mensuel de la Sécurité sociale. Le PMSS est utilisé pour le calcul de certaines cotisations sociales et de certaines prestations de Sécurité sociale.",
+      "page": 18
+    },
+    {
+      "term": "PRESTATIONS",
+      "definition": "Versement des sommes ou mise en place de services garantis à l'assuré.",
+      "page": 18
+    },
+    {
+      "term": "PRIX LIMITE DE VENTE",
+      "definition": "Correspond au prix de vente maximum, fixé par le Comité économique des produits de santé, au-delà duquel le produit ne pourra être facturé s'il entre dans l'un des paniers dit “100 % Santé”.",
+      "page": 18
+    },
+    {
+      "term": "RÉGIME OBLIGATOIRE (RO)",
+      "definition": "Régime d'assurance maladie français, communément dénommé “Sécurité sociale”, qui intervient obligatoirement avant la mutuelle pour rembourser une part des frais de santé.",
+      "page": 19
+    },
+    {
+      "term": "SÉCURITÉ SOCIALE",
+      "definition": "Régime d'assurance maladie français, communément dénommé “Sécurité sociale”, qui intervient obligatoirement avant l'organisme assureur pour rembourser une part des frais de santé.",
+      "page": 19
+    },
+    {
+      "term": "TICKET MODÉRATEUR",
+      "definition": "Dans le parcours de soins, différence entre la Base de Remboursement de la Sécurité sociale et le montant remboursé par la Sécurité sociale. La participation forfaitaire n'entre pas en compte dans le calcul de cette différence. L'application par le Régime obligatoire de la majoration de la participation de l'assuré, lorsque l'acte est réalisé hors parcours de soins, n'affecte pas le calcul et la valeur du Ticket modérateur.",
+      "page": 19
+    },
+    {
+      "term": "TIERS PAYANT",
+      "definition": "Sur présentation de sa carte de Tiers Payant, l'assuré peut bénéficier d'une dispense d'avance de tout ou partie de ses frais de santé. Le professionnel de santé ou l'établissement de soins est directement remboursé par la mutuelle.",
+      "page": 19
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Objet du contrat — remboursement des frais de santé",
+      "description": "Le contrat, souscrit par l'entreprise dénommée “entreprise souscriptrice”, a pour objet : le remboursement de tout ou partie des frais de santé en complément des prestations en nature de la Sécurité sociale ; le remboursement de certains frais médicaux, expressément prévus dans le tableau de garanties, n'ayant pas donné lieu à un remboursement de la Sécurité sociale. Le contrat permet également de bénéficier de garanties d'assistance. Sont couverts tous les actes et frais courants, sur la période de garantie ayant fait l'objet d'un remboursement et d'un décompte individualisé du régime de base de la Sécurité sociale, au titre de la législation “maladie”, “accidents du travail/maladie professionnelle” et “maternité”, ainsi que les actes et frais non pris en charge par ce dernier, expressément mentionnés dans le tableau de garanties figurant au contrat.",
+      "is_optional": false,
+      "territorial_scope": "Le contrat intervient pour les soins effectués en France (départements et régions d'outre-mer inclus). Il intervient également pour les soins effectués dans le monde entier, selon les garanties prévues à la formule de prestations souscrite, sous réserve qu'ils soient pris en charge par la Sécurité sociale. Les remboursements sont effectués en France et en euros.",
+      "limits": "Les prestations sont limitées aux frais réels dûment justifiés, restant à charge du bénéficiaire après intervention du régime de base et/ou d'éventuels organismes complémentaires. Les bases de remboursements sont fixées dans la formule de prestations présentée au contrat.",
+      "sub_limits": [
+        "Conformément à l'article 9 de la Loi dite Evin du 31 décembre 1989, les remboursements ou les indemnisations de frais occasionnés par une maladie, une maternité ou un accident ne peuvent excéder le montant des frais restant à la charge du participant ou de l'ayant droit après les remboursements de toute nature auxquels il a droit."
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le contrat respecte les conditions du cahier des charges des contrats responsables définies aux articles R.871-1 et R.871-2 du Code de la sécurité sociale, notamment modifié par la réforme dite “100 % Santé”.",
+        "Quelle que soit la date d'apparition de la maladie ou de l'accident, les frais engagés doivent correspondre à des soins reçus postérieurement à la date d'effet du contrat et à l'affiliation du participant ou d'admission de l'ayant droit, et en tout état de cause avant la date de cessation de l'assurance."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Hospitalisation",
+      "description": "La prise en charge des dépassements d'honoraires chirurgicaux et médicaux diffère selon que le médecin consulté est adhérent à un dispositif de pratique tarifaire maîtrisée ou non. La garantie “hospitalisation” couvre intégralement la prise en charge du Forfait Patient Urgences (forfait laissé à la charge des assurés pour tout passage aux urgences non suivi d'une hospitalisation). La prise en charge de la chambre particulière et du lit d'accompagnant est accordée en cas d'hospitalisation d'au moins une nuit.",
+      "is_optional": false,
+      "territorial_scope": "Le contrat intervient pour les soins effectués en France (départements et régions d'outre-mer inclus). Il intervient également pour les soins effectués dans le monde entier, selon les garanties prévues à la formule de prestations souscrite, sous réserve qu'ils soient pris en charge par la Sécurité sociale. Les remboursements sont effectués en France et en euros.",
+      "limits": "Notre prise en charge s'effectue dans les conditions définies au tableau de garanties (tableau non reproduit dans cette notice : il figure au contrat / aux conditions particulières).",
+      "sub_limits": [
+        "Forfait Patient Urgences : intégralement pris en charge.",
+        "Chambre particulière et lit d'accompagnant : accordés en cas d'hospitalisation d'au moins une nuit."
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le niveau de prise en charge dépend de la formule retenue (Essentielle, Confort ou Excellence) et figure au tableau de garanties, non reproduit dans la notice."
+      ],
+      "page": 9
+    },
+    {
+      "name": "Forfait médecines douces",
+      "description": "Le forfait prévu est un forfait unique annuel par bénéficiaire pour l'ensemble des spécialités mentionnées.",
+      "is_optional": false,
+      "territorial_scope": "Le contrat intervient pour les soins effectués en France (départements et régions d'outre-mer inclus). Il intervient également pour les soins effectués dans le monde entier, selon les garanties prévues à la formule de prestations souscrite, sous réserve qu'ils soient pris en charge par la Sécurité sociale. Les remboursements sont effectués en France et en euros.",
+      "limits": "Notre prise en charge s'effectue dans les conditions définies au tableau de garanties (tableau non reproduit dans cette notice : il figure au contrat / aux conditions particulières).",
+      "sub_limits": [
+        "Forfait unique annuel par bénéficiaire, pour l'ensemble des spécialités mentionnées."
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 10
+    },
+    {
+      "name": "Soins courants",
+      "description": "La prise en charge des dépassements d'honoraires diffère selon que le médecin consulté est adhérent à un dispositif de pratique tarifaire maîtrisée ou non. Lorsque les remboursements sont exprimés en euros, le forfait garanti est annuel (par année civile). Le contrat prend en charge les vaccins prescrits non pris en charge par le régime Obligatoire. Le contrat permet la prise en charge de 100 % de la participation laissée à la charge des assurés pour les séances de psychologie remboursées par le Régime obligatoire. Le contrat prend également en charge les véhicules pour handicapés physiques en location de courte durée (inscrits au titre IV de la LPP) ainsi que les prothèses capillaires de classe II : dans ce cas, l'intégralité de la dépense exposée par l'assuré est couverte, à hauteur des prix limites de vente fixés par la liste des produits et prestations (LPP), déduction faite de la part prise en charge par le Régime obligatoire.",
+      "is_optional": false,
+      "territorial_scope": "Le contrat intervient pour les soins effectués en France (départements et régions d'outre-mer inclus). Il intervient également pour les soins effectués dans le monde entier, selon les garanties prévues à la formule de prestations souscrite, sous réserve qu'ils soient pris en charge par la Sécurité sociale. Les remboursements sont effectués en France et en euros.",
+      "limits": "Notre prise en charge s'effectue dans les conditions définies au tableau de garanties (tableau non reproduit dans cette notice : il figure au contrat / aux conditions particulières).",
+      "sub_limits": [
+        "Séances de psychologie : 100 % de la participation laissée à la charge des assurés, dans la limite de 8 séances par an.",
+        "Véhicules pour handicapés physiques en location de courte durée et prothèses capillaires de classe II : intégralité de la dépense à hauteur des prix limites de vente fixés par la LPP, déduction faite de la part du Régime obligatoire.",
+        "Lorsque les remboursements sont exprimés en euros, le forfait garanti est annuel (par année civile)."
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 10
+    },
+    {
+      "name": "Optique — Les équipements 100 % Santé (monture et verres, classe A)",
+      "description": "Conformément à la réglementation, la catégorie des équipements 100 % Santé (dits de classe A) propose un choix de : montures respectant les normes européennes, avec un prix inférieur ou égal à 30 € (chaque opticien aura au minimum 17 modèles différents de montures adultes et 10 modèles différents de montures enfants “100 % Santé”, en 2 coloris différents) ; verres traitant l'ensemble des troubles visuels ; amincissement des verres en fonction du trouble, durcissement des verres pour éviter les rayures, traitement anti-reflet obligatoires. Lorsque l'équipement entre dans la catégorie des équipements 100 % Santé (classe A), l'organisme assureur prend en charge l'intégralité de la dépense exposée par l'assuré à hauteur des prix limites de vente des montures et des verres (de classe A) fixés par la liste des produits et prestations (LPP), déduction faite de la part prise en charge par le Régime obligatoire.",
+      "is_optional": false,
+      "territorial_scope": "Le contrat intervient pour les soins effectués en France (départements et régions d'outre-mer inclus). Il intervient également pour les soins effectués dans le monde entier, selon les garanties prévues à la formule de prestations souscrite, sous réserve qu'ils soient pris en charge par la Sécurité sociale. Les remboursements sont effectués en France et en euros.",
+      "limits": "Intégralité de la dépense exposée par l'assuré, à hauteur des prix limites de vente fixés par la LPP, déduction faite de la part prise en charge par le Régime obligatoire (reste à charge zéro).",
+      "sub_limits": [
+        "Montures 100 % Santé : prix inférieur ou égal à 30 €.",
+        "Lorsque l'équipement 100 % Santé comporte deux verres différents (indice de réfraction différent ou type de verres différents), la prestation d'appairage est intégralement prise en charge à hauteur du prix limite de vente, déduction faite de la part prise en charge par le Régime obligatoire.",
+        "Un équipement est constitué d'une monture et de deux verres ; pour toutes les formules, le nombre d'équipements (2 verres + 1 monture) est limité à 1 équipement par période de deux ans."
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 10
+    },
+    {
+      "name": "Optique — Les autres équipements pris en charge par le Régime obligatoire (verres et montures, classe B)",
+      "description": "Cette catégorie concerne les équipements de classe B, correspondant aux produits dont les prix de vente sont libres. Pour ces équipements Optique (monture, verres simples, complexes et hyper complexes), la prise en charge s'effectue dans les conditions définies au tableau de garanties et couvre systématiquement le ticket modérateur. La notice détaille la classification des verres simples, complexes et hyper complexes selon la sphère et le cylindre en dioptries.",
+      "is_optional": false,
+      "territorial_scope": "Le contrat intervient pour les soins effectués en France (départements et régions d'outre-mer inclus). Il intervient également pour les soins effectués dans le monde entier, selon les garanties prévues à la formule de prestations souscrite, sous réserve qu'ils soient pris en charge par la Sécurité sociale. Les remboursements sont effectués en France et en euros.",
+      "limits": "Notre prise en charge s'effectue dans les conditions définies au tableau de garanties (tableau non reproduit dans cette notice : il figure au contrat / aux conditions particulières).",
+      "sub_limits": [
+        "Couvre systématiquement le ticket modérateur.",
+        "Verres simples : verres unifocaux sphériques dont la sphère est comprise entre − 6,00 et + 6,00 dioptries ; verres unifocaux sphéro-cylindriques dont la sphère est comprise entre − 6,00 et 0 dioptries et dont le cylindre est inférieur ou égal à + 4,00 dioptries ; verres unifocaux sphéro-cylindriques dont la sphère est positive et dont la somme S (sphère + cylindre) est inférieure ou égale à 6,00 dioptries.",
+        "Verres complexes : verres unifocaux sphériques dont la sphère est hors zone de − 6,00 à + 6,00 dioptries ; verres unifocaux sphéro-cylindriques dont la sphère est comprise entre − 6,00 et 0 dioptries et dont le cylindre est supérieur à + 4,00 dioptries ; verres unifocaux sphéro-cylindriques dont la sphère est inférieure à − 6,00 dioptries et dont le cylindre est supérieur ou égal à 0,25 dioptrie ; verres unifocaux sphéro-cylindriques dont la sphère est positive et dont la somme S est supérieure à 6,00 dioptries ; verres multifocaux ou progressifs sphériques dont la sphère est comprise entre − 4,00 et + 4,00 dioptries ; verres multifocaux ou progressifs sphéro-cylindriques dont la sphère est comprise entre − 8,00 et 0,00 dioptries et dont le cylindre est inférieur ou égal à + 4,00 dioptries ; verres multifocaux ou progressifs sphéro-cylindriques dont la sphère est positive et dont la somme S est inférieure ou égale à 8,00 dioptries.",
+        "Verres hyper complexes : les autres verres multifocaux ou progressifs.",
+        "Nombre d'équipements (2 verres + 1 monture) limité à 1 par période de deux ans."
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 10
+    },
+    {
+      "name": "Optique — Verres de freination de la myopie",
+      "description": "Pour les enfants de plus de 5 ans et de moins de 16 ans, les verres de freination de la myopie inscrits au titre II de la liste des produits et prestations (LPP) sont également garantis.",
+      "is_optional": false,
+      "territorial_scope": "Le contrat intervient pour les soins effectués en France (départements et régions d'outre-mer inclus). Il intervient également pour les soins effectués dans le monde entier, selon les garanties prévues à la formule de prestations souscrite, sous réserve qu'ils soient pris en charge par la Sécurité sociale. Les remboursements sont effectués en France et en euros.",
+      "limits": "Le remboursement des verres de freination de la myopie ne peut aller au-delà du prix limite de vente, y compris la prise en charge du régime obligatoire.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Enfants de plus de 5 ans et de moins de 16 ans.",
+        "Pour le traitement de la myopie forte (≥ − 6 dioptries) et/ou très évolutive (≥ − 0,5 dioptrie par an).",
+        "En cas de prescription explicite sur l'ordonnance par l'ophtalmologue."
+      ],
+      "page": 10
+    },
+    {
+      "name": "Optique — Lentilles remboursées ou non par le Régime obligatoire",
+      "description": "La prise en charge s'effectue dans les conditions définies au tableau de garanties.",
+      "is_optional": false,
+      "territorial_scope": "Le contrat intervient pour les soins effectués en France (départements et régions d'outre-mer inclus). Il intervient également pour les soins effectués dans le monde entier, selon les garanties prévues à la formule de prestations souscrite, sous réserve qu'ils soient pris en charge par la Sécurité sociale. Les remboursements sont effectués en France et en euros.",
+      "limits": "Notre prise en charge s'effectue dans les conditions définies au tableau de garanties (tableau non reproduit dans cette notice : il figure au contrat / aux conditions particulières).",
+      "sub_limits": [
+        "Le forfait garanti est annuel (par année civile)."
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 11
+    },
+    {
+      "name": "Optique — Chirurgie réfractive",
+      "description": "La prise en charge s'effectue dans les conditions définies au tableau de garanties.",
+      "is_optional": false,
+      "territorial_scope": "Le contrat intervient pour les soins effectués en France (départements et régions d'outre-mer inclus). Il intervient également pour les soins effectués dans le monde entier, selon les garanties prévues à la formule de prestations souscrite, sous réserve qu'ils soient pris en charge par la Sécurité sociale. Les remboursements sont effectués en France et en euros.",
+      "limits": "Notre prise en charge s'effectue dans les conditions définies au tableau de garanties (tableau non reproduit dans cette notice : il figure au contrat / aux conditions particulières).",
+      "sub_limits": [
+        "Le forfait garanti est annuel (par année civile) et global."
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 11
+    },
+    {
+      "name": "Dentaire — Les prothèses 100 % Santé",
+      "description": "Conformément à la réglementation, la catégorie des actes prothétiques 100 % Santé propose un large choix de prothèses fixes ou mobiles : couronnes céramiques monolithiques (autre que zircones) et céramo-métalliques sur les dents visibles (incisive, canines et 1re prémolaire) ; couronnes céramiques monolithiques zircones ; couronnes métalliques toute localisation ; Inlay-core et couronnes transitoires liées aux couronnes définitives du panier 100 % Santé ; bridges céramo-métalliques (incisive) ; bridges métalliques toute localisation ; prothèses amovibles à base résine. Lorsque l'acte prothétique entre dans la catégorie 100 % Santé, l'organisme assureur prend en charge l'intégralité de la dépense exposée par l'assuré, dans la limite des honoraires de facturation fixés réglementairement et déduction faite de la part prise en charge par le Régime obligatoire.",
+      "is_optional": false,
+      "territorial_scope": "Le contrat intervient pour les soins effectués en France (départements et régions d'outre-mer inclus). Il intervient également pour les soins effectués dans le monde entier, selon les garanties prévues à la formule de prestations souscrite, sous réserve qu'ils soient pris en charge par la Sécurité sociale. Les remboursements sont effectués en France et en euros.",
+      "limits": "Intégralité de la dépense exposée par l'assuré, dans la limite des honoraires de facturation fixés réglementairement, déduction faite de la part prise en charge par le Régime obligatoire (reste à charge zéro).",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Dans cette catégorie, la qualité esthétique est adaptée à la localisation de la dent (aspect dents blanches pour les dents du sourire et aspect métal pour les dents du fond)."
+      ],
+      "page": 11
+    },
+    {
+      "name": "Dentaire — Les soins dentaires (hors inlay et onlay)",
+      "description": "La prise en charge s'effectue dans les conditions définies au tableau de garanties.",
+      "is_optional": false,
+      "territorial_scope": "Le contrat intervient pour les soins effectués en France (départements et régions d'outre-mer inclus). Il intervient également pour les soins effectués dans le monde entier, selon les garanties prévues à la formule de prestations souscrite, sous réserve qu'ils soient pris en charge par la Sécurité sociale. Les remboursements sont effectués en France et en euros.",
+      "limits": "Notre prise en charge s'effectue dans les conditions définies au tableau de garanties (tableau non reproduit dans cette notice : il figure au contrat / aux conditions particulières).",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 11
+    },
+    {
+      "name": "Dentaire — Les prothèses dentaires remboursées ou non par le Régime obligatoire",
+      "description": "Cette catégorie concerne les actes prothétiques à tarifs maîtrisés (praticiens contraints à des honoraires limites de facturation, incluant les prothèses plus techniques) et les actes prothétiques à tarifs libres (honoraires convenus librement entre le praticien et l'assuré, incluant notamment les prothèses amovibles sur implant et certains bridges). La prise en charge s'effectue dans les conditions définies au tableau de garanties.",
+      "is_optional": false,
+      "territorial_scope": "Le contrat intervient pour les soins effectués en France (départements et régions d'outre-mer inclus). Il intervient également pour les soins effectués dans le monde entier, selon les garanties prévues à la formule de prestations souscrite, sous réserve qu'ils soient pris en charge par la Sécurité sociale. Les remboursements sont effectués en France et en euros.",
+      "limits": "Notre prise en charge s'effectue dans les conditions définies au tableau de garanties (tableau non reproduit dans cette notice : il figure au contrat / aux conditions particulières).",
+      "sub_limits": [
+        "Pour les prothèses à tarifs maîtrisés, la prise en charge ne pourra être supérieure aux honoraires limites de facturation auxquels est soumis le praticien."
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 11
+    },
+    {
+      "name": "Dentaire — Inlay-onlay remboursés par le Régime obligatoire",
+      "description": "La prise en charge s'effectue dans les conditions définies au tableau de garanties.",
+      "is_optional": false,
+      "territorial_scope": "Le contrat intervient pour les soins effectués en France (départements et régions d'outre-mer inclus). Il intervient également pour les soins effectués dans le monde entier, selon les garanties prévues à la formule de prestations souscrite, sous réserve qu'ils soient pris en charge par la Sécurité sociale. Les remboursements sont effectués en France et en euros.",
+      "limits": "Notre prise en charge s'effectue dans les conditions définies au tableau de garanties (tableau non reproduit dans cette notice : il figure au contrat / aux conditions particulières).",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 12
+    },
+    {
+      "name": "Dentaire — L'orthodontie remboursée ou non par le Régime obligatoire",
+      "description": "La prise en charge s'effectue dans les conditions définies au tableau de garanties.",
+      "is_optional": false,
+      "territorial_scope": "Le contrat intervient pour les soins effectués en France (départements et régions d'outre-mer inclus). Il intervient également pour les soins effectués dans le monde entier, selon les garanties prévues à la formule de prestations souscrite, sous réserve qu'ils soient pris en charge par la Sécurité sociale. Les remboursements sont effectués en France et en euros.",
+      "limits": "Notre prise en charge s'effectue dans les conditions définies au tableau de garanties (tableau non reproduit dans cette notice : il figure au contrat / aux conditions particulières).",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "L'orthodontie non remboursée est prise en charge au titre du contrat sous réserve d'être inscrite à la nomenclature de la CCAM (Classification Commune des Actes Médicaux)."
+      ],
+      "page": 12
+    },
+    {
+      "name": "Dentaire — L'implantologie",
+      "description": "Le forfait garanti est annuel (par année civile).",
+      "is_optional": false,
+      "territorial_scope": "Le contrat intervient pour les soins effectués en France (départements et régions d'outre-mer inclus). Il intervient également pour les soins effectués dans le monde entier, selon les garanties prévues à la formule de prestations souscrite, sous réserve qu'ils soient pris en charge par la Sécurité sociale. Les remboursements sont effectués en France et en euros.",
+      "limits": "Notre prise en charge s'effectue dans les conditions définies au tableau de garanties (tableau non reproduit dans cette notice : il figure au contrat / aux conditions particulières).",
+      "sub_limits": [
+        "Le forfait garanti est annuel (par année civile)."
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les implants dentaires sont pris en charge au titre du contrat sous réserve d'être inscrits à la nomenclature de la CCAM (Classification Commune des Actes Médicaux)."
+      ],
+      "page": 12
+    },
+    {
+      "name": "Dentaire — La parodontologie remboursée ou non par le Régime obligatoire",
+      "description": "La prise en charge s'effectue dans les conditions définies au tableau de garanties.",
+      "is_optional": false,
+      "territorial_scope": "Le contrat intervient pour les soins effectués en France (départements et régions d'outre-mer inclus). Il intervient également pour les soins effectués dans le monde entier, selon les garanties prévues à la formule de prestations souscrite, sous réserve qu'ils soient pris en charge par la Sécurité sociale. Les remboursements sont effectués en France et en euros.",
+      "limits": "Notre prise en charge s'effectue dans les conditions définies au tableau de garanties (tableau non reproduit dans cette notice : il figure au contrat / aux conditions particulières).",
+      "sub_limits": [
+        "Le forfait garanti pour la parodontologie non remboursée par le Régime obligatoire est annuel (par année civile)."
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 12
+    },
+    {
+      "name": "Aides auditives — Les équipements 100 % Santé (classe 1)",
+      "description": "Conformément à la réglementation, la catégorie des aides auditives 100 % Santé (dites de classe 1) propose : tous les types d'aides auditives (contour d'oreille classique, contour à écouteur déporté, intra-auriculaire) ; au moins 12 canaux de réglages (ou dispositif de qualité équivalente) pour assurer une adéquation de la correction au trouble auditif et système permettant l'amplification des sons extérieurs restituée à hauteur d'au moins 30 décibels ; 4 ans de garantie ; au moins 3 des options suivantes : système anti-acouphène, connectivité sans fil, réducteur de bruits de vent, synchronisation binaurale, directivité microphonique adaptative, bande passante élargie 6000 Hz, fonction apprentissage de sonie, système anti-réverbération. Lorsque l'équipement entre dans la catégorie des aides auditives 100 % Santé (classe 1), l'organisme assureur prend en charge l'intégralité de la dépense exposée par l'assuré à hauteur des prix limites de vente des aides auditives (de classe 1) fixés par la LPP, déduction faite de la part prise en charge par le Régime obligatoire.",
+      "is_optional": false,
+      "territorial_scope": "Le contrat intervient pour les soins effectués en France (départements et régions d'outre-mer inclus). Il intervient également pour les soins effectués dans le monde entier, selon les garanties prévues à la formule de prestations souscrite, sous réserve qu'ils soient pris en charge par la Sécurité sociale. Les remboursements sont effectués en France et en euros.",
+      "limits": "Intégralité de la dépense exposée par l'assuré, à hauteur des prix limites de vente fixés par la LPP, déduction faite de la part prise en charge par le Régime obligatoire (reste à charge zéro).",
+      "sub_limits": [
+        "Le cahier des charges du contrat responsable limite le nombre d'équipement (1 appareil acoustique) à 1 équipement par oreille tous les 4 ans."
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 12
+    },
+    {
+      "name": "Aides auditives — Les autres prothèses auditives remboursées par le Régime obligatoire (classe II)",
+      "description": "Les aides auditives remboursées par le Régime obligatoire sont prises en charge dans les conditions définies au tableau de garanties. Cette catégorie concerne les aides auditives de classe II, dont les prix de vente sont libres.",
+      "is_optional": false,
+      "territorial_scope": "Le contrat intervient pour les soins effectués en France (départements et régions d'outre-mer inclus). Il intervient également pour les soins effectués dans le monde entier, selon les garanties prévues à la formule de prestations souscrite, sous réserve qu'ils soient pris en charge par la Sécurité sociale. Les remboursements sont effectués en France et en euros.",
+      "limits": "Pour toutes les formules, et conformément au cahier des charges du contrat responsable, la prise en charge ne peut pas dépasser la somme de 1 700 euros maximum par aide auditive, incluant la part des dépenses prises en charge par le Régime obligatoire.",
+      "sub_limits": [
+        "1 équipement par oreille tous les 4 ans.",
+        "Le remboursement de l'ensemble de ces prestations est soumis à leur prise en charge par le Régime obligatoire."
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 12
+    },
+    {
+      "name": "Actes de prévention",
+      "description": "Le contrat prend en charge l'ensemble des actes de prévention remboursés par la Sécurité sociale et listés par l'arrêté du 8 juin 2006.",
+      "is_optional": false,
+      "territorial_scope": "Le contrat intervient pour les soins effectués en France (départements et régions d'outre-mer inclus). Il intervient également pour les soins effectués dans le monde entier, selon les garanties prévues à la formule de prestations souscrite, sous réserve qu'ils soient pris en charge par la Sécurité sociale. Les remboursements sont effectués en France et en euros.",
+      "limits": "Notre prise en charge s'effectue dans les conditions définies au tableau de garanties (tableau non reproduit dans cette notice : il figure au contrat / aux conditions particulières).",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 12
+    },
+    {
+      "name": "Cure thermale",
+      "description": "Le remboursement des frais de cures thermale est soumis au remboursement des honoraires de médecine thermale par le Régime obligatoire. Les forfaits garantis sont annuels (par année civile).",
+      "is_optional": false,
+      "territorial_scope": "Le contrat intervient pour les soins effectués en France (départements et régions d'outre-mer inclus). Il intervient également pour les soins effectués dans le monde entier, selon les garanties prévues à la formule de prestations souscrite, sous réserve qu'ils soient pris en charge par la Sécurité sociale. Les remboursements sont effectués en France et en euros.",
+      "limits": "Notre prise en charge s'effectue dans les conditions définies au tableau de garanties (tableau non reproduit dans cette notice : il figure au contrat / aux conditions particulières).",
+      "sub_limits": [
+        "Les forfaits garantis sont annuels (par année civile)."
+      ],
+      "deductible": null,
+      "conditions": [
+        "Soumis au remboursement des honoraires de médecine thermale par le Régime obligatoire."
+      ],
+      "page": 12
+    },
+    {
+      "name": "Garanties d'assistance",
+      "description": "Le participant et ses éventuels ayants droit bénéficient de garanties d'assistance, assurées par IMA Assurances et définies dans le livret d'assistance. Le livret d'assistance constitue une annexe à la notice d'information avec laquelle il forme un tout indivisible.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garanties assurées par IMA Assurances, société anonyme au capital de 157 000 000 € entièrement libéré, entreprise régie par le Code des assurances, RCS Niort 481 511 632.",
+        "Le détail des prestations figure dans le livret d'assistance, annexe non jointe à cette notice."
+      ],
+      "page": 9
+    },
+    {
+      "name": "Options facultatives (garanties complémentaires au choix du salarié)",
+      "description": "Lorsque l'entreprise souscriptrice a choisi l'une des 2 formules suivantes : Essentielle ou Confort, le participant peut alors améliorer ses garanties en adhérant à l'une des options. Cette formule vaut tant pour lui-même que pour ses éventuels ayants droit dès lors que la garantie leur est étendue. Les garanties de l'option interviennent sous déduction des garanties déjà accordées dans le cadre du régime de base mis en place par l'employeur et sous déduction des remboursements du régime de Sécurité sociale dans la limite des frais réellement engagés par les bénéficiaires.",
+      "is_optional": true,
+      "territorial_scope": "Le contrat intervient pour les soins effectués en France (départements et régions d'outre-mer inclus). Il intervient également pour les soins effectués dans le monde entier, selon les garanties prévues à la formule de prestations souscrite, sous réserve qu'ils soient pris en charge par la Sécurité sociale. Les remboursements sont effectués en France et en euros.",
+      "limits": "Notre prise en charge s'effectue dans les conditions définies au tableau de garanties (tableau non reproduit dans cette notice : il figure au contrat / aux conditions particulières).",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Disponible uniquement lorsque l'entreprise souscriptrice a choisi la formule Essentielle ou Confort.",
+        "La cotisation liée aux options est à la charge exclusive du salarié et est prélevée directement sur son compte bancaire.",
+        "Le participant peut demander la modification de son option à la hausse ou à la baisse sous réserve qu'il bénéficie de sa formule de prestations depuis plus de 12 mois.",
+        "Le participant peut à tout moment mettre fin à son option facultative, après expiration d'un délai de 12 mois à compter de la souscription de sa formule actuelle de garanties ; l'option prend fin le dernier jour du mois qui suit la réception de la demande."
+      ],
+      "page": 13
+    },
+    {
+      "name": "Extension facultative de la couverture à l'ayant droit non couvert à titre obligatoire",
+      "description": "En cas de couverture facultative du conjoint, partenaire de PACS ou concubin actif, c'est-à-dire exerçant une activité professionnelle, la cotisation correspondante est alors exclusivement à la charge du participant. Celui-ci définit les modalités de règlement dans le bulletin d'affiliation.",
+      "is_optional": true,
+      "territorial_scope": "Le contrat intervient pour les soins effectués en France (départements et régions d'outre-mer inclus). Il intervient également pour les soins effectués dans le monde entier, selon les garanties prévues à la formule de prestations souscrite, sous réserve qu'ils soient pris en charge par la Sécurité sociale. Les remboursements sont effectués en France et en euros.",
+      "limits": "Notre prise en charge s'effectue dans les conditions définies au tableau de garanties (tableau non reproduit dans cette notice : il figure au contrat / aux conditions particulières).",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Cotisation exclusivement à la charge du participant.",
+        "Le participant peut demander la radiation de l'assurance de ses ayants droit ; celle-ci est alors définitive, la garantie prenant fin le dernier jour du mois de réception de la demande."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Tiers payant",
+      "description": "Il est remis à chaque participant une ou plusieurs cartes de tiers payant portant mention de ses éventuels ayants droit et des actes ou prestations pouvant se voir appliquer le tiers payant. En application de l'article L.871-1 du Code de la sécurité sociale, le participant et ses ayants droit bénéficient du tiers payant sur les prestations prévues au titre du cahier des charges des contrats responsables, au moins à hauteur des tarifs de responsabilité.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Ces cartes restent la propriété de l'organisme assureur.",
+        "Le participant ou l'entreprise souscriptrice devra retourner la carte de tiers payant dans le délai de quinze jours suivant le départ du participant, la démission du régime ou la résiliation du contrat. Les prestations indûment versées seront récupérées par tous moyens auprès des salariés concernés."
+      ],
+      "page": 14
+    },
+    {
+      "name": "Réseau de soins partenaire et services associés",
+      "description": "Le membre participant et ses ayants droit bénéficient de divers avantages et services permettant d'optimiser leurs dépenses de santé, et notamment l'accès à un réseau de soins partenaire : aide pour l'analyse des devis de soins ; plusieurs applications web et notamment un service de téléconsultation ; tarifs négociés auprès de nombreux professionnels de santé (opticiens, chirurgiens-dentistes, centres auditifs, diététiciens …). Le membre participant conserve, dans tous les cas, la liberté de choix de son professionnel de santé.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Le réseau de soins est opéré par Carte Blanche Partenaires - SAS au capital de 100 000 € - RCS Paris 379 301 518 (colophon p. 20).",
+        "Le service de téléconsultation est délivré par MédecinDirect, marque de la société Teladoc Health France, SAS au capital de 128 300 €, RCS Paris 508 346 673 (colophon p. 20)."
+      ],
+      "page": 14
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Participations forfaitaires (contrat responsable)",
+      "description": "En application des articles L.871-1 et R.871-1 et R.871-2 du Code de la sécurité sociale définissant le “contrat responsable”, le contrat ne prend pas en charge les participations forfaitaires mentionnées au II de l'article L.160-13 du Code de la sécurité sociale.",
+      "applies_to": "all",
+      "page": 12
+    },
+    {
+      "name": "Franchise forfaitaire annuelle (contrat responsable)",
+      "description": "Le contrat ne prend pas en charge la franchise forfaitaire annuelle mentionnée au III de l'article L.160-13 du Code de la sécurité sociale.",
+      "applies_to": "all",
+      "page": 13
+    },
+    {
+      "name": "Majoration du ticket modérateur hors parcours de soins",
+      "description": "Le contrat ne prend pas en charge la majoration de la participation appliquée par le Régime obligatoire à l'assuré (ticket modérateur) lorsqu'il ne respecte pas le parcours de soins coordonnés. Cette majoration peut être appliquée par le Régime obligatoire dans les cas suivants : il n'a pas choisi son médecin traitant (article L.162-5-3 alinéa 5 du Code de la sécurité sociale) ; il consulte un autre médecin sans prescription dudit médecin traitant (article L.162-5-3 alinéa 5 du Code de la sécurité sociale) ; il refuse, lors d'une consultation ou d'une hospitalisation, au professionnel de santé auquel il a recours, l'accès à son dossier médical personnel ou à sa mise à jour (article L.1111-15 du Code de la santé publique).",
+      "applies_to": "all",
+      "page": 13
+    },
+    {
+      "name": "Dépassements d'honoraires hors parcours de soins",
+      "description": "Le contrat ne prend pas en charge tous les dépassements d'honoraires pratiqués par les médecins lorsque l'assuré ne respecte pas le parcours de soins.",
+      "applies_to": "all",
+      "page": 13
+    },
+    {
+      "name": "Actes non pris en charge par le Régime obligatoire",
+      "description": "Sont également exclus tous les actes non pris en charge par le régime obligatoire sauf mentions prévues dans la formule de prestations choisie.",
+      "applies_to": "all",
+      "page": 13
+    },
+    {
+      "name": "Hospitalisation en long séjour, sections de cure médicales, logements-foyers, hospices",
+      "description": "Sont également exclus les frais au titre de l'hospitalisation dans les centres hospitaliers de long séjour relevant des centres hospitaliers, dans les sections de cure médicales des maisons de retraite, des logements-foyers ou des hospices.",
+      "applies_to": "Hospitalisation",
+      "page": 13
+    },
+    {
+      "name": "Limite du nombre d'équipements optiques",
+      "description": "Un équipement est constitué d'une monture et de deux verres. Pour toutes les formules, le nombre d'équipements (2 verres + 1 monture) est limité à 1 équipement par période de deux ans, à l'exception des cas pour lesquels un renouvellement anticipé est prévu à l'article L.165-1 du Code de la sécurité sociale et notamment pour les enfants de moins de 16 ans ou en cas de renouvellement justifié par une évolution de la vue : dans ces cas, le nombre d'équipements est limité à 1 tous les ans. Pour les enfants jusqu'à 6 ans, le renouvellement est possible au terme d'une période de seulement 6 mois mais uniquement en cas de mauvaise adaptation de la monture à la morphologie du visage de l'enfant entraînant une perte d'efficacité du verre correcteur. Dans tous les cas, le point de départ de la période est la date de l'équipement (ou du dernier élément constituant l'équipement complet) ; en cas de renouvellement séparé des composantes de l'équipement, le délai de renouvellement s'apprécie distinctement pour chaque élément.",
+      "applies_to": "Optique",
+      "page": 11
+    },
+    {
+      "name": "Limite du nombre d'aides auditives",
+      "description": "Le cahier des charges du contrat responsable limite le nombre d'équipement (1 appareil acoustique) à 1 équipement par oreille tous les 4 ans. Pour chaque assuré, le point de départ de la période correspond à la date de l'équipement.",
+      "applies_to": "Aides auditives",
+      "page": 12
+    },
+    {
+      "name": "Plafond des aides auditives de classe II",
+      "description": "Pour toutes les formules, et conformément au cahier des charges du contrat responsable, la prise en charge ne peut pas dépasser la somme de 1 700 euros maximum par aide auditive, incluant la part des dépenses prises en charge par le Régime obligatoire.",
+      "applies_to": "Aides auditives — classe II",
+      "page": 12
+    },
+    {
+      "name": "Aides auditives non prises en charge par le Régime obligatoire",
+      "description": "Le remboursement de l'ensemble de ces prestations est soumis à leur prise en charge par le Régime obligatoire.",
+      "applies_to": "Aides auditives",
+      "page": 12
+    },
+    {
+      "name": "Orthodontie non remboursée et implants non inscrits à la CCAM",
+      "description": "L'orthodontie non remboursée et les implants dentaires sont pris en charge au titre du contrat sous réserve d'être inscrits à la nomenclature de la CCAM (Classification Commune des Actes Médicaux).",
+      "applies_to": "Dentaire — orthodontie et implantologie",
+      "page": 12
+    },
+    {
+      "name": "Verres de freination de la myopie au-delà du prix limite de vente",
+      "description": "Le remboursement des verres de freination de la myopie ne peut aller au-delà du prix limite de vente, y compris la prise en charge du régime obligatoire.",
+      "applies_to": "Optique — verres de freination de la myopie",
+      "page": 10
+    },
+    {
+      "name": "Cure thermale sans remboursement des honoraires de médecine thermale",
+      "description": "Le remboursement des frais de cures thermale est soumis au remboursement des honoraires de médecine thermale par le Régime obligatoire.",
+      "applies_to": "Cure thermale",
+      "page": 12
+    },
+    {
+      "name": "Frais dépassant le reste à charge (Loi Evin, article 9)",
+      "description": "Conformément aux dispositions de l'article 9 de la Loi dite Evin du 31 décembre 1989, les remboursements ou les indemnisations de frais occasionnés par une maladie, une maternité ou un accident ne peuvent excéder le montant des frais restant à la charge du participant ou de l'ayant droit après les remboursements de toute nature auxquels il a droit. Les prestations sont limitées aux frais réels dûment justifiés, restant à charge du bénéficiaire après intervention du régime de base et/ou d'éventuels organismes complémentaires.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Soins reçus hors période de garantie",
+      "description": "Quelle que soit la date d'apparition de la maladie ou de l'accident, les frais engagés doivent correspondre à des soins reçus postérieurement à la date d'effet du contrat et à l'affiliation du participant ou d'admission de l'ayant droit, et en tout état de cause avant la date de cessation de l'assurance.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Demande de prestations présentée au-delà de 2 ans",
+      "description": "Pour être recevable, toute demande de prestations doit être présentée dans les 2 ans suivant la date de remboursement par le Régime obligatoire, ou la date de réception du ticket modérateur, ou la date de l'événement à indemniser, ou la date de facturation. Au-delà de ce délai, la prestation ne sera pas versée.",
+      "applies_to": "all",
+      "page": 14
+    },
+    {
+      "name": "Déchéance des garanties en cas de fraude",
+      "description": "Toute réticence à une expertise médicale ou toute fraude ou tentative de fraude caractérisée en vue de tirer un profit illégitime du contrat font perdre tout droit à prestations pour la ou les garanties concernées. Votre organisme assureur sera alors en droit de réclamer le remboursement des prestations versées à tort.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Soins hors de France non pris en charge par la Sécurité sociale",
+      "description": "Le contrat intervient pour les soins effectués en France (départements et régions d'outre-mer inclus). Il intervient également pour les soins effectués dans le monde entier, selon les garanties prévues à la formule de prestations souscrite, sous réserve qu'ils soient pris en charge par la Sécurité sociale. Les remboursements sont effectués en France et en euros.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Limitations et exclusions prévues aux conditions générales",
+      "description": "Ces remboursements sont accordés sous réserve des limitations de garanties et exclusions prévues aux conditions générales.",
+      "applies_to": "all",
+      "page": 4
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": null,
+    "per_coverage": null,
+    "page": null
+  },
+  "waiting_periods": [
+    {
+      "coverage": "Assurance individuelle (Loi Evin, décès du participant, résiliation du contrat)",
+      "duration": "aucun",
+      "description": "Cette assurance est accordée sans questionnaire médical ni application d'un délai d'attente. L'assurance individuelle est accordée sans questionnaire médical ni application de stage lorsque le régime souscrit est au plus équivalent à celui du contrat.",
+      "page": 16
+    },
+    {
+      "coverage": "Optique — renouvellement de l'équipement",
+      "duration": "2 ans (1 an ou 6 mois dans les cas prévus)",
+      "description": "Le nombre d'équipements (2 verres + 1 monture) est limité à 1 équipement par période de deux ans, ramené à 1 par an dans les cas de renouvellement anticipé prévus à l'article L.165-1 du Code de la sécurité sociale (enfants de moins de 16 ans, évolution de la vue) et à 6 mois pour les enfants jusqu'à 6 ans en cas de mauvaise adaptation de la monture.",
+      "page": 11
+    },
+    {
+      "coverage": "Aides auditives — renouvellement de l'équipement",
+      "duration": "4 ans",
+      "description": "Le cahier des charges du contrat responsable limite le nombre d'équipement (1 appareil acoustique) à 1 équipement par oreille tous les 4 ans.",
+      "page": 12
+    },
+    {
+      "coverage": "Options facultatives — modification ou résiliation",
+      "duration": "12 mois",
+      "description": "Le participant peut demander la modification de son option à la hausse ou à la baisse sous réserve qu'il bénéficie de sa formule de prestations depuis plus de 12 mois, et peut y mettre fin après expiration d'un délai de 12 mois à compter de la souscription de sa formule actuelle de garanties.",
+      "page": 13
+    }
+  ],
+  "obligations": [
+    {
+      "name": "Fournir le bulletin d'affiliation et ses pièces (entrée dans l'assurance)",
+      "timing": "À l'affiliation",
+      "description": "L'entreprise souscriptrice doit fournir à l'organisme assureur, pour chaque participant entré dans l'assurance, le bulletin d'affiliation dûment complété et cosigné par le participant et l'entreprise souscriptrice. Ce bulletin doit être accompagné : pour le participant, de la copie de l'attestation d'assuré social qui accompagne la Carte Vitale ainsi que d'un relevé d'identité bancaire ; pour les ayants droit assurés sociaux, de la copie de l'attestation papier d'assuré social et, selon le cas, de la copie du livret de famille (conjoint), de la copie du PACS (partenaire de PACS), de l'attestation sur l'honneur de vie commune (concubin), de l'avis d'imposition sur le revenu (conjoint, concubin ou partenaire de PACS non rémunéré), du justificatif de scolarité et le cas échéant de l'attestation d'inscription à France Travail ou de la copie du contrat (enfants), du justificatif de la perception de l'allocation pour personne handicapée (enfants handicapés), de la copie du livret de famille (ayant droit non encore scolarisé).",
+      "sanction": "Chaque participant doit compléter et signer un bulletin d'affiliation afin de pouvoir bénéficier des garanties du présent contrat.",
+      "page": 5
+    },
+    {
+      "name": "Renouveler annuellement les pièces exigées pour les enfants assurés sociaux",
+      "timing": "Annuellement",
+      "description": "Les pièces exigées pour les enfants assurés sociaux sont à renouveler annuellement. L'organisme assureur se réserve le droit de demander au participant, à tout moment, de lui adresser les justificatifs de la qualité d'ayant droit des personnes couvertes par son adhésion.",
+      "sanction": null,
+      "page": 5
+    },
+    {
+      "name": "Déclarer toute modification de situation",
+      "timing": "En cours de contrat",
+      "description": "Toute modification de la situation du participant ou de ses ayants droit doit faire l'objet d'une information immédiate à l'employeur et de la fourniture des documents adéquats. S'agissant de l'ajout d'un ayant droit nouveau-né, la copie de la page correspondante du livret de famille ou un extrait de l'acte de naissance doit être transmis. S'agissant de la radiation d'un ayant droit, l'éventuelle carte de tiers payant doit être restituée sans délai.",
+      "sanction": null,
+      "page": 5
+    },
+    {
+      "name": "Déclarer la sortie de l'assurance",
+      "timing": "À la sortie",
+      "description": "Toute sortie de l'assurance d'un participant (démission, licenciement, décès …) doit faire l'objet d'une information dans le cadre de la déclaration sociale nominative (DSN) par l'employeur. Toute sortie de l'assurance d'un ayant droit doit faire l'objet d'une information immédiate à Macif Santé Prévoyance par le participant. En cas de décès d'un participant, l'entreprise souscriptrice doit en informer l'organisme assureur dans les deux mois suivant le décès.",
+      "sanction": "À défaut, l'organisme assureur se retournera contre le participant pour récupérer toutes les prestations indûment perçues.",
+      "page": 5
+    },
+    {
+      "name": "Restituer la carte de tiers payant",
+      "timing": "À la cessation de l'assurance",
+      "description": "En cas de cessation de l'assurance, le participant ou l'ayant droit doit restituer sa carte de tiers payant au centre de gestion. Le participant ou l'entreprise souscriptrice devra retourner la carte de tiers payant dans le délai de quinze jours suivant le départ du participant, la démission du régime ou la résiliation du contrat.",
+      "sanction": "Les prestations indûment versées seront récupérées par tous moyens auprès des salariés concernés.",
+      "page": 5
+    },
+    {
+      "name": "Payer la cotisation (entreprise souscriptrice)",
+      "timing": "En cours de contrat",
+      "description": "Les moyens de paiement sont établis par l'entreprise souscriptrice, seule responsable du paiement de la totalité des cotisations du contrat obligatoire, y compris la part salariale précomptée sur le salaire du participant.",
+      "sanction": "À défaut de paiement d'une cotisation dans les dix jours de son échéance, et indépendamment du droit pour l'organisme assureur d'appliquer des majorations de retard à la charge exclusive de l'entreprise souscriptrice et de poursuivre en justice l'exécution du contrat collectif, la garantie ne peut être suspendue que trente jours après la mise en demeure de l'entreprise souscriptrice. L'organisme assureur a le droit de résilier le contrat collectif dix jours après ce délai de trente jours.",
+      "page": 6
+    },
+    {
+      "name": "Payer la cotisation des ayants droit couverts à titre facultatif (participant)",
+      "timing": "En cours de contrat",
+      "description": "En cas de couverture facultative du conjoint, partenaire de PACS ou concubin actif, la cotisation correspondante est exclusivement à la charge du participant. Le règlement peut se faire par mandat de prélèvement SEPA (mensuel, trimestriel, semestriel ou annuel) ou par chèque en paiement annuel. Les cotisations sont payables d'avance par le participant.",
+      "sanction": "À défaut de paiement dans les dix jours de son échéance, l'organisme assureur adresse au participant, à son dernier domicile connu, une lettre recommandée de mise en demeure l'informant que l'affiliation de ses ayants droit sera résiliée 40 jours après l'envoi de cette lettre, si la cotisation reste impayée.",
+      "page": 6
+    },
+    {
+      "name": "Se soumettre à l'expertise médicale",
+      "timing": "Au règlement des prestations",
+      "description": "L'organisme assureur peut avoir recours à une expertise médicale effectuée par tout professionnel de santé de son choix, dont les honoraires sont à sa charge, pour vérifier s'il y a abus ou fraude.",
+      "sanction": "Toute réticence à une expertise médicale ou toute fraude ou tentative de fraude caractérisée en vue de tirer un profit illégitime du contrat font perdre tout droit à prestations pour la ou les garanties concernées.",
+      "page": 14
+    },
+    {
+      "name": "Remettre la notice d'information au participant (entreprise souscriptrice)",
+      "timing": "En permanence",
+      "description": "L'entreprise souscriptrice est tenue de remettre à chaque participant la notice d'information visée à l'article L.221-6 du Code de la mutualité, établie par l'organisme assureur, et d'informer les participants des éventuelles modifications apportées à leurs droits et obligations. Elle s'engage également à remettre à chaque participant une copie des statuts de l'organisme assureur et le document d'information sur le produit d'assurance (DIPA).",
+      "sanction": "La preuve de la remise au participant de la notice d'information, des statuts, du document d'information sur le produit d'assurance et de l'information relative aux éventuelles modifications incombe à l'entreprise souscriptrice.",
+      "page": 8
+    },
+    {
+      "name": "Justifier des conditions de la portabilité",
+      "timing": "À la cessation du contrat de travail et pendant le maintien",
+      "description": "L'ancien salarié doit justifier auprès de l'organisme assureur, lors de la cessation du contrat de travail et au cours de la période de maintien des garanties, du fait qu'il remplisse les conditions du dispositif de portabilité.",
+      "sanction": "En l'absence de fourniture du justificatif notamment de l'ouverture des droits à l'assurance chômage, le participant ne pourra pas bénéficier du maintien ou de la poursuite du maintien de la portabilité des droits.",
+      "page": 15
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Règlement des prestations par télétransmission ou sur pièces",
+      "description": "Le règlement des prestations qui ne sont pas servies directement aux professionnels de santé suivant les accords de tiers payant s'effectue par virement sur le compte bancaire du participant : soit en relation directe avec le régime obligatoire par le biais de la télétransmission ; soit sur présentation des pièces justificatives originales.",
+      "deadline": null,
+      "page": 14
+    },
+    {
+      "step": "Pièces justificatives — soins remboursés par le Régime obligatoire",
+      "description": "L'original du décompte de la Sécurité sociale dans le cas où cette dernière n'aurait pu procéder à sa télétransmission au centre de gestion de l'organisme assureur ; lorsque les frais sont supérieurs au tarif retenu par la Sécurité sociale pour le calcul de sa prestation, l'original de la facture détaillée (acte par acte) et acquittée.",
+      "deadline": null,
+      "page": 14
+    },
+    {
+      "step": "Pièces justificatives — soins non remboursés par le Régime obligatoire",
+      "description": "L'original de la prescription médicale ; l'original de la facture détaillée (acte par acte) et acquittée.",
+      "deadline": null,
+      "page": 14
+    },
+    {
+      "step": "Pièces justificatives — hospitalisation",
+      "description": "Le bulletin d'hospitalisation ; l'original de la facture détaillée (acte par acte) et acquittée.",
+      "deadline": null,
+      "page": 14
+    },
+    {
+      "step": "Pièces justificatives — renouvellement anticipé d'un équipement optique",
+      "description": "Soit une nouvelle prescription médicale portant une correction différente de la précédente ; soit l'adaptation, par l'opticien-lunetier, de la prescription médicale lors d'un renouvellement de délivrance, comme l'y autorise l'article D.4362-12-1 du Code de la santé publique.",
+      "deadline": null,
+      "page": 14
+    },
+    {
+      "step": "Pièces justificatives — assurances cumulatives",
+      "description": "Le décompte original de remboursement de l'autre organisme assureur accompagné d'une copie du décompte du régime obligatoire.",
+      "deadline": null,
+      "page": 14
+    },
+    {
+      "step": "Pièces justificatives — soins à l'étranger",
+      "description": "Le décompte du régime obligatoire de Sécurité sociale française ainsi que la facture des soins détaillée et traduite en français précisant la nature et le montant de chaque dépense engagée.",
+      "deadline": null,
+      "page": 14
+    },
+    {
+      "step": "Délai de présentation de la demande",
+      "description": "Pour être recevable, toute demande de prestations doit être présentée dans les 2 ans suivant la date de remboursement par le Régime obligatoire, ou la date de réception du ticket modérateur, ou la date de l'événement à indemniser, ou la date de facturation. Au-delà de ce délai, la prestation ne sera pas versée.",
+      "deadline": "2 ans",
+      "page": 14
+    },
+    {
+      "step": "Délai de règlement",
+      "description": "Le règlement des prestations est effectué à compter de la réception de l'ensemble des justificatifs demandés, que ces derniers soient parvenus par voie postale ou électronique.",
+      "deadline": "dans un délai de deux jours ouvrés",
+      "page": 14
+    },
+    {
+      "step": "Réclamation",
+      "description": "Votre conseiller est votre meilleur interlocuteur. Si la réponse apportée ne vous satisfait pas, adressez votre réclamation écrite au Service Qualité : TSA 27270 - 79060 Niort cedex, ou via www.macif.fr.",
+      "deadline": "réponse dans les meilleurs délais et dans un délai maximum de 2 mois",
+      "page": 8
+    },
+    {
+      "step": "Médiation",
+      "description": "Si votre mécontentement persiste après épuisement de la procédure interne de réclamation ou à l'issue du délai réglementaire de deux mois, vous pouvez saisir la Médiation de l'assurance : Médiation de l'assurance - TSA 50110 - 75441 Paris cedex 09, ou par internet sur www.mediation-assurance.org.",
+      "deadline": "dans un délai maximum d'un an à compter de votre réclamation écrite auprès de nos services",
+      "page": 8
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "L'affiliation du participant prend effet dès la date d'appartenance au groupe assuré mentionnée au contrat, et au plus tôt à la date d'effet du contrat, sauf mise en jeu d'une dispense d'affiliation. L'assurance prend fin à la date de cessation de l'appartenance au groupe assuré ou, en cas de maintien des droits au titre du dispositif de portabilité, le dernier jour du mois au cours duquel prend fin la période de portabilité. Le participant cesse de bénéficier des garanties à la date du décès du salarié ou, le cas échéant, à l'expiration de la période de maintien de douze (12) mois au profit des ayants droit du salarié décédé. En tout état de cause, l'assurance cesse en cas de résiliation du présent contrat.",
+    "tacit_renewal": null,
+    "notice_period": "Maintien Loi Evin : résiliation à l'échéance annuelle moyennant un préavis de 2 mois, ou à tout moment après expiration d'un délai d'un an à compter de la première souscription.",
+    "methods": [
+      "par courrier postal à l'adresse figurant sur la carte de tiers payant",
+      "par courrier électronique à l'adresse : santecollective@macif.fr",
+      "par déclaration au siège social de votre organisme assureur",
+      "par acte extrajudiciaire"
+    ],
+    "special_rights": [
+      "L'organisme assureur a le droit de résilier le contrat collectif dix jours après le délai de trente jours suivant la mise en demeure de l'entreprise souscriptrice pour non paiement des cotisations.",
+      "Le participant peut se substituer à l'entreprise souscriptrice pour le paiement des cotisations afin d'éviter la résiliation du contrat collectif.",
+      "Le maintien Loi Evin cesse au plus tard : dès la date à laquelle l'intéressé cesse de percevoir la rente d'incapacité permanente ou d'invalidité ou les allocations de chômage ; en cas de non-paiement des cotisations ; en cas de décès de l'ancien salarié ; à la date d'effet de la résiliation.",
+      "L'organisme assureur confirmera par écrit avoir reçu la demande de résiliation.",
+      "En cas de résiliation du contrat collectif et de non-remplacement par un autre contrat d'assurance de groupe, tout participant peut souscrire une assurance individuelle dans les DEUX MOIS (de date à date) qui suivent ; le dépassement de ce délai entraîne forclusion définitive."
+    ],
+    "page": 4
+  },
+  "prescription_period": {
+    "description": "La prescription est le délai au-delà duquel une action n'est plus recevable. Le Code de la mutualité dispose dans son article L.221-11 que toutes actions dérivant des opérations régies par le présent titre sont prescrites par deux ans à compter de l'événement qui y donne naissance. Ce délai ne court qu'à compter du jour où la mutuelle a eu connaissance d'une réticence, omission, déclaration fausse ou inexacte sur le risque couru, ou du jour où les intéressés ont eu connaissance de la réalisation du risque s'ils prouvent qu'ils l'ont ignoré jusque-là. Dans le cadre des opérations collectives mentionnées au III de l'article L.221-2, la prescription est portée à cinq ans en ce qui concerne l'incapacité de travail. Elle est portée à dix ans lorsque le bénéficiaire n'est pas le membre participant et, dans les opérations relatives aux accidents atteignant les personnes, lorsque les bénéficiaires sont les ayants droit du membre participant décédé. Pour les contrats d'assurance sur la vie, les actions du bénéficiaire sont prescrites au plus tard trente ans à compter du décès du membre participant. L'article L.221-12-1 précise que les parties ne peuvent, même d'un commun accord, ni modifier la durée de la prescription, ni ajouter aux causes de suspension ou d'interruption de celle-ci. L'interruption de la prescription est régie par l'article L.221-12 du Code de la mutualité et par les articles 2240 à 2246 du Code civil, reproduits dans la notice aux pages 7 et 8.",
+    "page": 7
+  },
+  "premium": {
+    "notes": [
+      "La cotisation est fixée au contrat.",
+      "La cotisation supplémentaire du conjoint, partenaire de PACS ou concubin affilié à titre facultatif (celui ou celle exerçant une activité professionnelle rémunérée) est mentionnée au bulletin d'affiliation. Elle est à la charge exclusive du participant.",
+      "Une part de la cotisation est affectée à un fonds de solidarité afin de mettre en œuvre le Haut Degré de Solidarité prévu par la branche.",
+      "La tarification du contrat est établie sur la base de la législation de l'assurance maladie et de la réglementation fiscale et sociale en vigueur au moment de sa conclusion ; elle sera revue en cas de changement de ces textes.",
+      "Elle pourra évoluer, le cas échéant, en fonction des résultats constatés et des perspectives d'évolutions de la sinistralité du produit. En tout état de cause, les cotisations évolueront dans les conditions et limites mentionnées à l'accord de branche.",
+      "Les moyens de paiement sont établis par l'entreprise souscriptrice, seule responsable du paiement de la totalité des cotisations du contrat obligatoire, y compris la part salariale précomptée sur le salaire du participant.",
+      "Pour les ayants droit couverts à titre facultatif, le règlement peut se faire par mandat de prélèvement SEPA (mensuel, trimestriel, semestriel ou annuel) ou par chèque en paiement annuel ; les cotisations sont payables d'avance par le participant.",
+      "La cotisation de l'option facultative est payable mensuellement d'avance ; le règlement peut se faire par prélèvement ou, à défaut, par chèque.",
+      "En cas de suspension du contrat de travail pour invalidité ouvrant droit à une pension d'invalidité au titre du régime de prévoyance, seule la quote-part salariale de la cotisation totale, représentant 50 % de celle-ci, est due.",
+      "Maintien Loi Evin : la cotisation respecte les plafonds prévus par le décret du 21 mars 2017, pris en application de l'article 4 de la Loi Evin du 31 décembre 1989 ; à compter de la quatrième année, elle évoluera en fonction des résultats techniques constatés et des perspectives d'évolution de la sinistralité du contrat."
+    ],
+    "indexation": "La cotisation est indexée chaque année, au 1er janvier, en fonction de l'évolution du Plafond Mensuel de la Sécurité sociale.",
+    "page": 5
+  },
+  "special_conditions": [
+    {
+      "name": "Préambule — régime de branche et organisme assureur",
+      "description": "Votre structure relève de la Convention Collective Nationale des cabinets ou entreprises d'expertises en automobile du 20 novembre 1996, étendue par arrêté du 8 avril 1998. Les partenaires sociaux ont, dans le cadre de l'accord signé le 6 novembre 2015 et de ses avenants ultérieurs, instauré un régime de branche “Frais de santé” applicable à l'ensemble des salariés des cabinets ou entreprises entrant dans le champ d'application de cette Convention. Macif Santé Prévoyance, mutuelle régie par le livre II du Code de la mutualité, immatriculée au répertoire SIRENE sous le n° 779 558 501, siège social 1 rue Jacques Vandier - 79000 Niort, fait partie des organismes recommandés par la branche des Experts en automobiles. Macif Santé Prévoyance est soumise au contrôle de l'Autorité de Contrôle Prudentiel et de Résolution (ACPR), 4 place de Budapest - CS 92459 - 75436 Paris cedex 09. La notice d'information est établie par l'organisme assureur conformément aux dispositions légales applicables en la matière ; elle vous est remise par votre employeur. Ce contrat est régi par le Code de la mutualité et est soumis à la loi française. La langue utilisée est le français.",
+      "page": 3
+    },
+    {
+      "name": "Porteurs du risque et prestataires (colophon)",
+      "description": "Le contrat Complémentaire Santé CCN des Cabinets ou Entreprises d'expertises en automobile, distribué par la Macif, est assuré par Macif Santé Prévoyance, mutuelle régie par le Livre II du Code de la mutualité et adhérente à la Mutualité Française, SIREN 779 558 501, siège social 1 rue Jacques Vandier - 79000 Niort. Les garanties d'assistance sont assurées par IMA Assurances - SA au capital de 157 000 000 € entièrement libéré, entreprise régie par le Code des assurances, RCS Niort 481 511 632. Le réseau de soins est opéré par Carte Blanche Partenaires - SAS au capital de 100 000 € - RCS Paris 379 301 518 - Code APE 8899 B. Le service de téléconsultation est délivré par MédecinDirect, marque de la société Teladoc Health France, SAS au capital de 128 300 €, RCS Paris 508 346 673. La MACIF (Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce, société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances) est le distributeur.",
+      "page": 20
+    },
+    {
+      "name": "Personnel garanti et affiliation",
+      "description": "Sont affiliés à titre obligatoire au présent contrat les salariés dont l'entreprise relève de la Convention collective nationale des cabinets ou entreprises d'expertises en automobile, et appartenant à la catégorie mentionnée aux conditions particulières. Ils doivent être affiliés à un régime obligatoire français de Sécurité sociale. L'affiliation du participant prend effet dès la date d'appartenance au groupe assuré mentionnée au contrat, et au plus tôt à la date d'effet du contrat, sauf mise en jeu d'une dispense d'affiliation. À la fin de la mise en jeu d'une dispense d'affiliation ou lorsque le salarié qui a renoncé au régime décide de le rejoindre, l'affiliation prend effet à la date mentionnée au bulletin d'affiliation.",
+      "page": 4
+    },
+    {
+      "name": "Ayants droit à adhésion obligatoire",
+      "description": "L'affiliation des ayants droit du participant est obligatoire lorsqu'il s'agit des personnes suivantes : le conjoint assuré social dès lors qu'il est en mesure de prouver qu'il n'exerce pas d'activité professionnelle et ne perçoit aucun revenu à ce titre (salaires, revenus de remplacement …), l'organisme assureur se réservant le droit de demander tout justificatif y compris l'avis d'imposition ; les enfants à charge du salarié au sens du Code de la sécurité sociale ; les enfants du participant et/ou de son conjoint s'ils sont effectivement à charge du participant et satisfont à l'une des conditions suivantes : jusqu'au 31 décembre qui suit leur 20e anniversaire, sans condition ; ou jusqu'au 31 décembre qui suit leur 28e anniversaire s'ils sont étudiants de l'enseignement secondaire ou supérieur et, s'ils sont titulaires d'un contrat de travail ou d'un contrat d'alternance (ou de professionnalisation, d'apprentissage, de qualification), sous réserve qu'ils justifient ne bénéficier d'aucune couverture maladie complémentaire dans le cadre de cette activité ; ou jusqu'au 31 décembre qui suit leur 28e anniversaire s'ils sont à la recherche d'un emploi ; ou en situation de handicap avec un taux d'incapacité supérieur ou égal à 80 % reconnu par le régime de base d'assurance maladie.",
+      "page": 4
+    },
+    {
+      "name": "Date d'admission et cessation de l'assurance des ayants droit",
+      "description": "L'admission à l'assurance des ayants droit prend effet à la date d'affiliation du participant, si la demande a lieu en même temps que l'affiliation. Lorsque la demande est postérieure et fait suite à un mariage, la conclusion d'un PACS, un concubinage, la naissance ou l'adoption d'un enfant, l'admission a lieu dès la date de l'événement si la demande est reçue dans les 30 jours qui suivent. Dans tous les autres cas, l'admission a lieu au 1er jour du mois qui suit la date de réception de la demande. La qualité d'ayant droit se poursuit jusqu'au 1er jour du trimestre civil au titre duquel les ayants droit ne remplissent plus les conditions pour être à charge. En tout état de cause, les ayants droit cessent de bénéficier des garanties le jour où le participant n'en bénéficie plus.",
+      "page": 4
+    },
+    {
+      "name": "Formules de garanties au choix de l'entreprise",
+      "description": "L'entreprise souscriptrice a le choix entre trois formules de garantie : Essentielle, Confort et Excellence. La formule retenue est fixée aux conditions particulières et s'applique aux participants ainsi qu'à ses éventuels ayants droit. L'entreprise souscriptrice peut ultérieurement demander à changer de formule de garanties.",
+      "page": 13
+    },
+    {
+      "name": "Prise d'effet, modification et cessation des options facultatives",
+      "description": "La prise d'effet de l'option pour le participant et ses éventuels ayants droit est mentionnée sur le bulletin d'affiliation et a lieu au plus tôt : dès l'admission à l'assurance, lorsque la demande est concomitante ; dès la date de modification de la situation de famille (mariage, conclusion d'un PACS, concubinage, naissance ou adoption d'un enfant), lorsque la demande est reçue dans les trente jours qui suivent ; dans tous les autres cas, au premier jour du mois qui suit la réception de la demande. L'option est également résiliée : en cas de résiliation par l'entreprise souscriptrice du contrat collectif ; à la fin du mois au cours duquel le participant n'appartient plus à la catégorie de personnel visée par les conditions particulières ; en cas de non paiement des cotisations. La cotisation de l'option est payable mensuellement d'avance ; à défaut de paiement dans un délai de 10 jours suivant l'échéance, Macif Santé Prévoyance adresse une lettre recommandée de mise en demeure informant que les garanties de l'option seront résiliées 40 jours après l'envoi de cette lettre.",
+      "page": 13
+    },
+    {
+      "name": "Maintien d'assurance en cas de suspension du contrat de travail donnant lieu à rémunération",
+      "description": "Les garanties sont maintenues au profit des salariés dont le contrat de travail est suspendu, et le cas échéant de leurs ayants droit, pour la période au titre de laquelle ils bénéficient : d'un maintien total ou partiel de salaire ; d'indemnités journalières complémentaires financées au moins pour partie par l'employeur ; d'un revenu de remplacement versé par l'employeur (notamment activité partielle ou activité partielle de longue durée, congé rémunéré de reclassement ou de mobilité). La cotisation continue d'être due par l'entreprise. En cas de suspension pour cause d'invalidité d'origine professionnelle ou non ouvrant droit au versement d'une pension d'invalidité au titre du régime de prévoyance, le salarié bénéficie d'un maintien intégral de ses garanties pendant la durée de suspension du contrat ; seule la quote-part salariale de la cotisation totale, représentant 50 % de celle-ci, est due et est précomptée sur le compte bancaire du participant.",
+      "page": 6
+    },
+    {
+      "name": "Maintien d'assurance en cas de suspension du contrat de travail ne donnant pas lieu à rémunération",
+      "description": "La couverture frais de santé est maintenue si le contrat de travail est suspendu sans maintien partiel ou total de salaire, sous réserve que le participant en manifeste expressément la volonté auprès de l'organisme assureur par courrier dans le mois qui précède la suspension de son contrat de travail. La cotisation du contrat à adhésion obligatoire est alors à sa charge exclusive (celle prévue pour le personnel en activité). Le maintien cesse notamment à la date de fin de suspension du contrat de travail et, en tout état de cause, en cas de résiliation du contrat collectif.",
+      "page": 15
+    },
+    {
+      "name": "Maintien d'assurance dans le cadre du dispositif dit de “portabilité”",
+      "description": "L'article L.911-8 du Code de la sécurité sociale prévoit le maintien des garanties collectives au profit des anciens salariés. Ce maintien s'effectue à titre gratuit. En bénéficient les anciens salariés qui, à la date de cessation de leur contrat de travail, appartiennent à la catégorie de personnel bénéficiaire des garanties, sous réserve que leurs droits aient été ouverts pendant l'exécution de leur contrat de travail et que la cessation ne soit pas consécutive à une faute lourde et ouvre droit à une prise en charge par le régime d'assurance chômage. La garantie prend effet le lendemain du jour de la cessation du contrat de travail. Le maintien s'applique pendant la durée d'indemnisation chômage, dans la limite de la durée du dernier contrat de travail, appréciée en mois entier arrondie au nombre supérieur, sans pouvoir excéder 12 mois. Il cesse : à la date à laquelle l'ancien salarié ne perçoit plus d'allocations chômage (sauf interruption due au versement de prestations en espèces par la Sécurité sociale) ; à la date de reprise d'une activité professionnelle ; à la date de liquidation de la retraite ; au terme du délai de maintien ; à la date d'effet de la résiliation du contrat collectif.",
+      "page": 15
+    },
+    {
+      "name": "Maintien de la couverture dans le cadre de la Loi Evin",
+      "description": "Conformément aux dispositions prévues dans la convention collective nationale, l'organisme assureur propose le maintien des garanties de complémentaire santé aux ayants droit du salarié décédé et, sous certaines conditions, aux salariés dont le contrat de travail est rompu. L'assurance est maintenue à titre gratuit pendant une durée d'un an (de date à date) aux ayants droit à charge d'un salarié décédé qui bénéficiaient du régime au jour du décès, sous réserve qu'ils en fassent la demande dans les six mois suivant le décès ; l'organisme assureur adresse une proposition dans les 2 mois suivant le décès. L'ancien salarié peut souscrire une assurance individuelle s'il perçoit de la Sécurité sociale une rente d'incapacité ou d'invalidité, ou s'il est privé d'emploi et perçoit un revenu de remplacement, ou s'il perçoit une pension de retraite ; la demande doit être faite dans les 6 mois qui suivent la rupture du contrat de travail ou la fin du maintien au titre de la portabilité. Cette assurance est accordée sans questionnaire médical ni application d'un délai d'attente. La cotisation respecte les plafonds prévus par le décret du 21 mars 2017, pris en application de l'article 4 de la Loi Evin du 31 décembre 1989 ; à compter de la quatrième année, elle évoluera en fonction des résultats techniques constatés et des perspectives d'évolution de la sinistralité du contrat.",
+      "page": 16
+    },
+    {
+      "name": "Assurance individuelle",
+      "description": "Une assurance individuelle peut être souscrite auprès de l'organisme assureur, sans questionnaire médical ni application de stage lorsque le régime souscrit est au plus équivalent à celui du contrat, dans les cas suivants : en cas de résiliation du contrat collectif et de non-remplacement par un autre contrat d'assurance de groupe, tout participant à la date de résiliation peut souscrire une assurance individuelle dans les DEUX MOIS (de date à date) qui suivent ; en cas de décès d'un participant, tout ayant droit peut souscrire une assurance individuelle dans les SIX MOIS (de date à date) qui suivent la date du décès (ou, pour les ayants droit ayant bénéficié du maintien de l'assurance, dans les DEUX MOIS qui suivent la fin dudit maintien). Le dépassement de ces délais entraîne forclusion définitive.",
+      "page": 17
+    },
+    {
+      "name": "Révision du contrat",
+      "description": "Lorsqu'une disposition législative, réglementaire ou conventionnelle vient à modifier les conditions préexistantes de l'assurance ou la portée des engagements de l'organisme assureur, ce dernier procède à la révision des conditions de l'assurance.",
+      "page": 8
+    },
+    {
+      "name": "Subrogation",
+      "description": "L'organisme assureur est subrogé dans les droits et actions du participant ou de ses ayants droit contre le tiers responsable conformément à l'article L.224-9 du Code de la mutualité. Il peut poursuivre le remboursement des dépenses qu'il a exposées à due concurrence de la part d'indemnité mise à la charge du tiers qui répare l'atteinte à l'intégrité physique de la victime.",
+      "page": 7
+    },
+    {
+      "name": "Autorité de contrôle",
+      "description": "Votre organisme assureur est soumis au contrôle de l'Autorité de Contrôle Prudentiel et de Résolution : 4 place de Budapest - CS 92459 - 75436 Paris cedex 09.",
+      "page": 8
+    },
+    {
+      "name": "Dispositif 100 % Santé",
+      "description": "Le dispositif dit “100 % Santé” a pour objectif de proposer un ensemble de prestations d'optique, d'aides auditives et de prothèses dentaires, remboursées intégralement par le Régime obligatoire et les organismes de complémentaire santé proposant une offre répondant au cahier des charges du contrat responsable. Ce panier de prestations est fixé par la réglementation. Les assurés sont libres de choisir entre les prestations proposées par l'offre 100 % Santé et les autres prestations. Pour les prestations appartenant à l'offre 100 % Santé, la dépense de l'assuré lui sera intégralement remboursée : grâce à son contrat, il n'aura donc aucun reste à charge. Les prestations en dehors de l'offre 100 % Santé restent prises en charge au titre du présent contrat et conformément au tableau de garanties.",
+      "page": 9
+    },
+    {
+      "name": "Non paiement de la cotisation par l'entreprise — conséquences pour le participant",
+      "description": "Le participant est informé qu'à l'expiration du délai de trente jours suivant la mise en demeure, le défaut de paiement de la cotisation par l'entreprise souscriptrice est susceptible d'entraîner la résiliation du contrat collectif, sauf s'il entreprend de se substituer à l'entreprise souscriptrice pour le paiement des cotisations. Le contrat collectif non résilié reprend effet à midi le lendemain du jour où ont été payées à l'organisme assureur les cotisations arriérées et celles venues à échéance pendant la période de suspension ainsi que, éventuellement, les frais de poursuite et de recouvrement. La garantie subsiste en cas de procédure de sauvegarde ou de redressement ou de liquidation judiciaire de l'entreprise souscriptrice ; en cas de résiliation du contrat en application de l'article L.622-13 du Code de commerce, la portion de cotisation afférente au temps pendant lequel l'organisme assureur ne couvre plus le risque est restituée au débiteur.",
+      "page": 6
+    },
+    {
+      "name": "Haut Degré de Solidarité",
+      "description": "Une part de la cotisation est affectée à un fonds de solidarité afin de mettre en œuvre le Haut Degré de Solidarité prévu par la branche.",
+      "page": 5
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Macif \nSanté Prévoyance, mutuelle régie par le livre II",
+      "context": "Porteur du risque — forme juridique",
+      "page": 3
+    },
+    {
+      "quote": "fait partie \ndes organismes recommandés par\nla branche des Experts en automobiles.",
+      "context": "Régime de branche recommandé",
+      "page": 3
+    },
+    {
+      "quote": "La notice d’information est établie par \nl'organisme assureur conformément aux \ndispositions légales applicables en la matière.",
+      "context": "Auteur de la notice",
+      "page": 3
+    },
+    {
+      "quote": "Entreprise ayant souscrit le contrat collectif à adhésion \nobligatoire au profit de ses salariés.",
+      "context": "Définition de l'entreprise souscriptrice",
+      "page": 3
+    },
+    {
+      "quote": "Sont affiliés à titre obligatoire au présent contrat, les sala­\nriés dont l'entreprise relève de la Convention collective \nnationale des cabinets ou entreprises d'expertises en \nautomobile, et appartenant à la catégorie mentionnée \naux conditions particulières.",
+      "context": "Affiliation obligatoire",
+      "page": 4
+    },
+    {
+      "quote": "Les prestations sont limitées aux frais réels dûment \njustifiés, restant à charge du bénéficiaire après \nintervention du régime de base et/ou d’éventuels \norganismes complémentaires.",
+      "context": "Limitation aux frais réels",
+      "page": 9
+    },
+    {
+      "quote": "Le contrat intervient pour les soins effectués en France \n(départements et régions d’outre-mer inclus).",
+      "context": "Lieu des soins",
+      "page": 9
+    },
+    {
+      "quote": "Le participant et ses éventuels ayants droit bénéficient \nde garanties d’assistance, assurées par IMA Assurances \net définies dans le livret d’assistance.",
+      "context": "Garanties d'assistance",
+      "page": 9
+    },
+    {
+      "quote": "Les garanties d’assistance \nsont assurées par IMA Assurances, société anonyme au \ncapital de 157 000 000 € entièrement libéré. Entreprise \nrégie par le Code des assurances. RCS Niort 481 511 632.",
+      "context": "Assistance — porteur du risque",
+      "page": 9
+    },
+    {
+      "quote": "notre prise \nen charge ne peut pas dépasser la somme de 1 700 \neuros maximum par aide auditive, incluant la part des \ndépenses prises en charge par le Régime obligatoire.",
+      "context": "Plafond aides auditives classe II",
+      "page": 12
+    },
+    {
+      "quote": "En application des articles L.871 - 1 et R.871 - 1 et \nR.871 - 2 du Code de la sécurité sociale définissant \nle “contrat responsable”, le contrat ne prend pas \nen charge :",
+      "context": "Chapeau des exclusions",
+      "page": 12
+    },
+    {
+      "quote": "tous les actes non pris en charge par le régime \nobligatoire sauf mentions prévues dans la",
+      "context": "Exclusion des actes non pris en charge",
+      "page": 13
+    },
+    {
+      "quote": "L’entreprise souscriptrice a le choix entre trois formules \nde garantie : Essentielle, Confort et Excellence.",
+      "context": "Formules",
+      "page": 13
+    },
+    {
+      "quote": "Pour être recevable, toute demande de prestations \ndoit être présentée dans les 2 ans suivant la date de \nremboursement par le Régime obligatoire",
+      "context": "Délai de présentation des demandes",
+      "page": 14
+    },
+    {
+      "quote": "Nous effectuerons le règlement des prestations \ndans un délai de deux jours ouvrés.",
+      "context": "Délai de règlement",
+      "page": 14
+    },
+    {
+      "quote": "distribué par la Macif, est \nassuré par Macif Santé Prévoyance, mutuelle régie par le Livre II du Code de la mutualité et adhérente à la Mutualité Française. \nSIREN 779 558 501.",
+      "context": "Colophon — distributeur et porteur du risque",
+      "page": 20
+    }
+  ],
+  "gaps": [
+    "LE TABLEAU DE GARANTIES N'EST PAS DANS CE DOCUMENT. La notice renvoie douze fois au « tableau de garanties » (« Notre prise en charge s'effectue dans les conditions définies au tableau de garanties ») sans jamais le reproduire : il figure au contrat / aux conditions particulières. Conséquence directe : cette notice ne porte AUCUN taux ni montant de remboursement par acte. Les seuls montants chiffrés du document sont le plafond réglementaire des aides auditives de classe II (1 700 euros maximum par aide auditive), le prix plafond des montures 100 % Santé (30 €), les 8 séances de psychologie par an, les capitaux sociaux des sociétés au colophon, et les durées de renouvellement (2 ans en optique, 4 ans en audio). Les trois formules (Essentielle, Confort, Excellence) et les options facultatives sont nommées mais leurs niveaux de garantie ne sont pas décrits. Le champ limits de chaque garantie porte donc ce renvoi plutôt qu'un chiffre inventé.",
+    "CALQUE TEXTE À REMÉDIATION D'ACCESSIBILITÉ. Le calque texte contient des ANNOTATIONS QUI NE SONT PAS IMPRIMÉES : les mots « Encadré. », « Hors d'encadré. » et « Titre niveau 4, » balisent le début et la fin des encadrés de couleur (7 occurrences, pages 10, 11 et 12). Vérifié sur un rendu 3,2× de la page 10 : la page imprime un encadré jaune sans aucun de ces mots. Ils sont exclus des champs structurés et les citations ont été choisies pour ne pas les traverser.",
+    "Le sommaire de la page 2 est TRIPLÉ dans le calque texte : « Partie 1 - DISPOSITIONS GÉNÉRALES, page 4 » y apparaît trois fois de suite suivi d'un fragment de queue, et de même pour les cinq intitulés de partie et pour l'entrée 23. La page imprime chaque ligne une seule fois. Les intitulés ont été repris une fois chacun.",
+    "Les exposants ordinaux sortent DOUBLÉS du calque texte : le calque porte « 20ee anniversaire », « 28ee anniversaire », « 1erer jour », « 1erer janvier », « 1rere prémolaire » là où la page imprime « 20e », « 28e », « 1er », « 1re ». Vérifié sur un rendu 3,2× de la page 4. Les champs structurés suivent la FORME IMPRIMÉE ; les citations ont été découpées de façon à ne traverser aucun de ces exposants.",
+    "Espaces fines U+200A à l'intérieur des sigles : le calque porte « R O », « S A S », « S A », « T S A », « G A » là où la page imprime « RO », « SAS », « SA », « TSA », « GA ». Les champs structurés (dont reference : « NID/CS CCN Expert Auto/GA - 01/26 ») suivent la forme imprimée. Autres caractères invisibles conservés tels quels dans les citations, qui sont des tranches programmatiques du calque : 71 espaces fines U+200A, 177 espaces U+2008 (dans les montants et les renvois d'articles du type « L.221 - 11 »), 15 espaces insécables, 49 traits d'union conditionnels U+00AD, 595 apostrophes courbes. Aucune décomposition NFD, aucun glyphe de zone privée.",
+    "Inversion de colonnes : POSITIVE sur 4 des 20 pages. Le texte plat émet la colonne de droite avant la colonne de gauche aux pages 3, 4, 12 et 13. Page 3, le bloc DÉFINITIONS (colonne de droite) précède le PRÉAMBULE (colonne de gauche), alors que le titre fusionné « DÉFINITIONSPRÉAMBULE » suggère l'ordre inverse. Page 12, l'article 18 « EXCLUSIONS DE GARANTIES » (colonne de droite, bas de page) est émis avant les garanties dentaires et auditives de la colonne de gauche, et sa liste d'exclusions se poursuit page 13 dans la colonne de GAUCHE alors que la page 13 émet elle aussi sa colonne de droite en premier : lue à plat, la liste des exclusions du contrat responsable est coupée en deux et séparée par du texte sans rapport. Le rattachement a été reconstruit par coordonnées, bloc par bloc. Coupure de colonnes mesurée sur ce document : abscisse maximale de fin de colonne gauche 286,1 pt, abscisse minimale de début de colonne droite 290,4 pt ; découpage appliqué à x = 287 pt.",
+    "Le folio imprimé en pied de page est ÉGAL au numéro de page PDF (folio 2 sur la page 2 … folio 19 sur la page 19 ; la page 20 est le colophon, sans folio) : décalage 0, vérifié par ancrage. Le sommaire de la page 2 renvoie à des folios (« page 3 », « page 4 », « page 9 », « page 12 », « page 14 », « page 15 », « page 18 ») qui coïncident donc avec les pages PDF. Ce décalage nul est propre à CE document.",
+    "Porteur du risque, lu au verbe : « Le contrat Complémentaire Santé CCN des Cabinets ou Entreprises d'expertises en automobile, distribué par la Macif, est assuré par Macif Santé Prévoyance, mutuelle régie par le Livre II du Code de la mutualité et adhérente à la Mutualité Française. SIREN 779 558 501 » (page 20). Le préambule (page 3) nomme la même entité comme « mutuelle régie par le livre II du Code de la mutualité - immatriculée au répertoire SIRENE sous le n° 779 558 501 » et précise qu'elle « fait partie des organismes recommandés par la branche des Experts en automobiles ». La MACIF (société d'assurance mutuelle à cotisations variables, Code des assurances) est DISTRIBUTEUR, pas porteur. Les garanties d'assistance sont portées par IMA Assurances (société anonyme, RCS Niort 481 511 632). Deux prestataires nommés au colophon NE PORTENT AUCUN RISQUE et ne doivent pas être pris pour l'assureur : Carte Blanche Partenaires (SAS, RCS Paris 379 301 518), opérateur du réseau de soins, et Teladoc Health France (SAS, RCS Paris 508 346 673), fournisseur du service de téléconsultation MédecinDirect sous la marque MédecinDirect.",
+    "Le corps de la notice ne nomme jamais l'assureur : il dit « votre organisme assureur » (25 occurrences) ou « l'organisme assureur ». Seuls le préambule de la page 3, deux mentions ponctuelles (pages 3 et 13) et le colophon de la page 20 donnent la dénomination Macif Santé Prévoyance. Une lecture qui n'irait pas jusqu'au colophon ne saurait pas qui porte le risque.",
+    "Le document ne comporte AUCUNE franchise contractuelle : le champ deductibles est laissé à null (tous ses sous-champs sont null). Le mot « franchise » n'y apparaît que pour désigner la franchise forfaitaire annuelle de la Sécurité sociale, qui est une exclusion du contrat responsable et non une franchise du contrat, et pour la définition du lexique « FRANCHISE ANNUELLE : somme laissée à la charge de l'assuré et qui s'applique sur les médicaments, les actes paramédicaux et les transports sanitaires ».",
+    "Le livret d'assistance, « annexe à la notice d'information avec laquelle il forme un tout indivisible » (page 9), n'est PAS joint à ce PDF. Les prestations d'assistance assurées par IMA Assurances sont donc mentionnées sans être décrites : une seule garantie générique a été enregistrée, sans plafond ni condition, plutôt que d'inventer un contenu.",
+    "target_audience porté à « entreprises » : le souscripteur est l'entreprise relevant de la CCN des cabinets ou entreprises d'expertises en automobile. La notice est cependant REMISE AU SALARIÉ participant et rédigée à son adresse (« vous »), si bien que le document a deux destinataires que l'énumération à valeur unique du schéma ne peut pas porter simultanément. Le libellé exact des deux rôles figure dans target_audience_note.",
+    "Le texte du prompt n'était pas tronqué (73 743 caractères pour un budget de 240 000). Les 20 pages du PDF local ont malgré tout été ré-extraites avec page.get_text(\"text\") et comparées page par page au texte du prompt : identiques caractère pour caractère sur les 20 pages.",
+    "Profondeur : la partie 2 (articles 16 à 19) et la partie 5 (lexique) ont été transcrites de façon exhaustive, garantie par garantie et terme par terme. Les articles 7 (non paiement), 9 (prescription), 20 (pièces justificatives), 23 à 26 (maintien des garanties) le sont également. Les articles 2240 à 2246 du Code civil reproduits aux pages 7 et 8 au titre de l'interruption de la prescription sont résumés dans prescription_period plutôt que recopiés intégralement.",
+    "Réservation raw/bb4c642b.claimed posée avant le travail ; aucun raw/bb4c642b.json concurrent n'existait au moment de l'écriture finale."
+  ]
+}

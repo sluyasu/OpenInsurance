@@ -183,6 +183,7 @@ Si la demande fait l'objet d'une étude par le service médical de l'assureur, l
 ## Documents liés
 
 - [contrat GARANTIE DÉCÈS (Décès, invalidité et arrêt de travail temporaire) - IPID](contrat%20GARANTIE%20D%C3%89C%C3%88S%20%28D%C3%A9c%C3%A8s%2C%20invalidit%C3%A9%20et%20arr%C3%AAt%20de%20travail%20temporaire%29%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/26
+- [GARANTIE DÉCÈS (Capital forfaitaire)](GARANTIE%20D%C3%89C%C3%88S%20%28Capital%20forfaitaire%29.md) - Conditions générales, éd. 2026-01
 
 ## Source & fidélité
 

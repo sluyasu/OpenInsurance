@@ -156,6 +156,10 @@ trente jours consécutifs.
 - L'ordre de lecture de la couche texte de la page 1 ne suit pas l'ordre visuel : le bandeau de titre, la clause « Compagnie », la mention « Produit : Promut » et la référence sortent après les rubriques de garanties et d'exclusions. Le contenu est complet ; seule la séquence diffère.
 - Aucune troncature : le document fait 2 pages et le texte du prompt est complet. Le texte a été ré-extrait localement avec page.get_text("text") (PyMuPDF) depuis data/fr/pdfs/smacl/protection-juridique/promut-45bab267.pdf : il ressort identique au texte du prompt une fois les marqueurs [page N] retirés (seul un saut de ligne de séparation diffère).
 
+## Documents liés
+
+- [PROMUT](PROMUT.md) - Conditions générales, éd. 05/2025
+
 ## Source & fidélité
 
 - Source : [https://www.smacl.fr/files/documents/document-information-protection-fonctionelle-agents-elus.pdf](https://www.smacl.fr/files/documents/document-information-protection-fonctionelle-agents-elus.pdf) - téléchargé le 2026-08-01 - 2 pages

@@ -1,0 +1,982 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "macif",
+  "insurer_name": "Macif",
+  "product_name": "Contrat Multigarantie Vie privée Responsabilité civile",
+  "branch": "rc-privee",
+  "branch_code": null,
+  "document_type": "conditions_generales",
+  "language": "fr",
+  "target_audience": "particuliers",
+  "target_audience_note": "Le document ne nomme pas de catégorie de public mais s'adresse au « Sociétaire » (« C'est la personne physique qui répond aux conditions d'admission fixées à l'article 6 des statuts de la Macif »), couvre « les dommages causés à des tiers au cours de la vie privée » et exclut expressément « les dommages résultant d'une activité professionnelle ou d'un travail illicite ». La faculté de résiliation annuelle vise « une personne physique [ayant] souscrit votre contrat pour des risques autres que professionnels ».",
+  "reference": "HAB/MVP RC/05 - 05/18 - N756",
+  "edition_date": "Mai 2018",
+  "product_family": "Multigarantie vie privée - Responsabilité civile",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/CG_MVPRC.pdf",
+  "source_pdf": "contrat-multigarantie-vie-privee-responsabilite-civile-aa7bc598.pdf",
+  "source_sha256": "fea9158db82bca15c18516add1c2fec49e18478610d41112d084f1678f9c2fb9",
+  "source_pages": 36,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Conditions générales du contrat Multigarantie vie privée - Responsabilité civile de la Macif (édition mai 2018). Le contrat garantit les conséquences pécuniaires de la responsabilité civile que le sociétaire et les membres de son foyer ayant la qualité d'assuré peuvent encourir à l'égard des tiers pour les dommages causés au cours de la vie privée, y compris du fait des enfants, d'un employé de maison, des biens mobiliers, de certains engins à moteur de faible vitesse, des drones de loisir, des animaux domestiques et de la pratique d'activités sportives, à hauteur de 100 millions d'euros pour les dommages corporels et de 10 millions d'euros pour les dommages matériels et immatériels consécutifs. Neuf extensions sont accordées (actes volontaires de l'enfant mineur, conduite à l'insu, recours d'organismes sociaux, secours bénévole, aide bénévole, baby-sitting, accueil à domicile, accueil temporaire d'enfants de nationalité étrangère, activité d'assistant maternel agréé), ainsi que la responsabilité d'occupant d'une location saisonnière lors d'un voyage ou d'une villégiature de moins de 90 jours consécutifs. Le contrat comporte également une protection des droits de l'assuré en défense et en recours, plafonnée par juridiction et à 16 000 € par sinistre, et un service d'informations juridiques limité à cinq sollicitations par année d'assurance.",
+  "definitions": [
+    {
+      "term": "Accident (événement accidentel)",
+      "definition": "C'est un événement non intentionnel qui est à la fois : soudain et imprévu ; extérieur à la victime et à la chose endommagée ; la cause de dommages corporels ou matériels.",
+      "page": 7
+    },
+    {
+      "term": "Activités scolaires et périscolaires",
+      "definition": "Il s'agit des activités obligatoires ou facultatives liées à la scolarisation de l'enfant de la maternelle à la terminale qu'elles soient créées au sein même de l'établissement fréquenté ou organisées par les enseignants et se déroulant sous leur contrôle, à l'extérieur de l'établissement.",
+      "page": 7
+    },
+    {
+      "term": "Année d'assurance",
+      "definition": "C'est la période d'assurance qui court du 1er avril au 31 mars de l'année suivante.",
+      "page": 7
+    },
+    {
+      "term": "Avis d'échéance",
+      "definition": "C'est le document par lequel vous êtes informé du montant de votre cotisation et de la date à laquelle elle doit être payée.",
+      "page": 7
+    },
+    {
+      "term": "Dommages immatériels consécutifs",
+      "definition": "Il s'agit de dommages autres que corporels ou matériels consistant en frais et pertes pécuniaires de toute nature et qui sont la conséquence directe d'un dommage corporel ou matériel garanti.",
+      "page": 7
+    },
+    {
+      "term": "Drone de loisir",
+      "definition": "Il s'agit d'un aéromodèle utilisé à des fins de loisir (hors compétition), ne nécessitant aucune autorisation de vol et qui est : soit télépiloté en vue de son télépilote et de masse inférieure ou égale à 4 kg ; soit télépiloté et de masse inférieure ou égale à 2 kg, évoluant hors vue de son télépilote, à une distance horizontale maximale de 200 mètres de ce télépilote et à une hauteur maximale de 50 mètres, en présence d'une seconde personne en vue de cet aéronef et chargée de veiller à la sécurité du vol en informant le télépilote de dangers éventuels ; soit non télépiloté et de masse inférieure à 1 kilogramme qui, une fois lancé, vole de manière autonome en suivant les mouvements de l'atmosphère et dont le vol ne dure pas plus de 8 minutes.",
+      "page": 7
+    },
+    {
+      "term": "Echéance",
+      "definition": "C'est la date à laquelle vous devez régler votre cotisation. Elle détermine le point de départ d'une période d'assurance. A la Macif, l'échéance principale est au 1er avril.",
+      "page": 7
+    },
+    {
+      "term": "Evénement",
+      "definition": "C'est un fait dommageable qui porte atteinte à un bien, une personne ou un droit.",
+      "page": 7
+    },
+    {
+      "term": "Franchise",
+      "definition": "C'est le montant déduit de l'indemnité et restant à votre charge.",
+      "page": 8
+    },
+    {
+      "term": "Litige",
+      "definition": "C'est une situation conflictuelle opposant l'assuré à un tiers et le conduisant à faire valoir un droit, à résister à une prétention, à défendre un intérêt garanti par voie amiable ou judiciaire.",
+      "page": 8
+    },
+    {
+      "term": "Nullité du contrat",
+      "definition": "C'est la sanction appliquée à un assuré qui fait une fausse déclaration à la Macif dans l'intention de la tromper. Le contrat est censé n'avoir jamais existé et les cotisations restent acquises à la Macif à titre de dommages-intérêts. De même, celle-ci est en droit de réclamer le remboursement d'indemnités déjà versées.",
+      "page": 8
+    },
+    {
+      "term": "Prescription",
+      "definition": "C'est le délai au-delà duquel une réclamation n'est plus recevable.",
+      "page": 8
+    },
+    {
+      "term": "Sinistre",
+      "definition": "C'est la réalisation de toutes les conséquences d'un même fait dommageable susceptible d'entraîner la garantie de la Macif. Constitue un seul et même sinistre l'ensemble des réclamations qui en résultent. La garantie de la Macif s'applique à des faits dommageables survenus pendant la période de validité du contrat, c'est-à-dire après sa prise d'effet et avant sa réalisation ou sa suspension.",
+      "page": 8
+    },
+    {
+      "term": "Sociétaire",
+      "definition": "C'est la personne physique qui répond aux conditions d'admission fixées à l'article 6 des statuts de la Macif, lesquels définissent l'objet et le fonctionnement de cette dernière.",
+      "page": 8
+    },
+    {
+      "term": "Souscripteur",
+      "definition": "C'est la personne qui, en concluant le contrat, est tenue à des obligations envers la Macif, notamment au paiement des cotisations, en contrepartie des garanties accordées.",
+      "page": 8
+    },
+    {
+      "term": "Subrogation",
+      "definition": "C'est la substitution de l'assureur à l'assuré dans l'exercice de ses droits. Par exemple, la Macif après avoir versé une indemnité à son assuré en demande le remboursement au responsable du sinistre.",
+      "page": 8
+    },
+    {
+      "term": "« vous » / « nous »",
+      "definition": "Le terme « vous » lorsqu'il est employé, signifie vous-même en votre qualité de sociétaire ; le terme « nous » représente la Macif.",
+      "page": 7
+    },
+    {
+      "term": "Qualité d'assuré",
+      "definition": "Vous-même en tant que sociétaire*, ainsi que : votre conjoint dont vous n'êtes ni divorcé, ni séparé de corps ou la personne avec laquelle vous vivez en couple (concubin notoire, partenaire lié avec vous par un pacte civil de solidarité : PACS), et ce, dans la mesure où vous vivez sous le même toit, de façon constante et notoire ; les enfants du couple (ou de l'un des deux), sans enfant, âgés de moins de 25 ans, et vivant au domicile familial ou poursuivant leurs études ; les ascendants du couple ainsi que leur conjoint, vivant en permanence au domicile ; toute personne vivant en permanence au domicile dont vous, votre conjoint, votre concubin ou partenaire, avez la tutelle ou la curatelle.",
+      "page": 12
+    },
+    {
+      "term": "Qualité de tiers",
+      "definition": "Toute personne autre que : l'assuré défini ci-dessus ; les ascendants et descendants de l'assuré, ainsi que leur conjoint ou la personne avec laquelle ils vivent en couple ; les préposés et salariés de l'assuré lorsqu'ils sont dans l'exercice de leurs fonctions.",
+      "page": 12
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Article 1 - Votre responsabilité civile vie privée",
+      "description": "Les conséquences pécuniaires de la responsabilité civile que vous-même ou toute personne ayant la qualité d'assuré pouvez encourir à l'égard des tiers pour les dommages qu'ils ont subis, soit de votre propre fait, soit du fait : de vos enfants, y compris lors de leurs activités scolaires*, périscolaires* et extrascolaires, ou à l'occasion d'un stage de formation ; d'une personne que vous employez à votre domicile, dans l'exercice de ses fonctions (une femme de ménage par exemple) ; des biens mobiliers dont vous avez la propriété, la garde à titre gratuit ou l'usage ; de l'utilisation dans un lieu privé de microtracteurs et tondeuses autoportées, de karts et jouets à moteur dont la vitesse maximale annoncée par le constructeur ne peut excéder 6 km/h ainsi que sur la voie publique de fauteuils, même à moteur, de handicapés ; de l'utilisation de drones de loisir* (ou aéromodèles) dès lors qu'ils évoluent dans le respect de la réglementation, dans les zones autorisées, et dans tous les cas, hors zones suivantes : centrales nucléaires, centrales thermiques et autres installations classées pour la protection de l'environnement, gares, ports, aérodromes, aéroports, aérogares, sites militaires ; de vos animaux domestiques dont vous êtes propriétaire ou gardien dans le cadre de votre vie privée (sont garantis les frais de visites sanitaires engagés à la suite de morsures causées par ces animaux domestiques assurés) ; de la pratique d'activités sportives, y compris la planche à voile et le surf.",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine ; pays de l'Union Européenne, Andorre, Liechtenstein, Monaco, Norvège, Saint-Marin, Suisse, Vatican, départements, régions et collectivités d'Outre-Mer ; monde entier (séjours de moins d'un an). (Tableau « Où s'exercent vos garanties ? », page 21.)",
+      "limits": "100 millions d'euros en cas de seuls dommages corporels ; 100 millions d'euros en cas de dommages matériels, immatériels consécutifs* et corporels confondus, dont au maximum 10 millions d'euros pour les dommages matériels et immatériels consécutifs* ; 10 millions d'euros en cas de seuls dommages matériels et immatériels consécutifs*",
+      "sub_limits": [
+        "En cas de seuls dommages corporels : 100 millions d'euros",
+        "En cas de dommages matériels, immatériels consécutifs* et corporels confondus : 100 millions d'euros",
+        "Dont au maximum pour les dommages matériels et immatériels consécutifs* : 10 millions d'euros",
+        "En cas de seuls dommages matériels et immatériels consécutifs* : 10 millions d'euros"
+      ],
+      "deductible": "Le montant de la franchise* appliquée dans le cadre de la responsabilité civile est mentionné dans vos conditions particulières. Cette franchise* n'est pas applicable à : votre responsabilité civile vie privée pour les dommages corporels (article 1) ; votre responsabilité civile vie privée pour les dommages causés par vos enfants scolarisés de la maternelle à la terminale lors de leurs activités scolaires et périscolaires* (article 1) ; votre responsabilité d'occupant d'une location saisonnière (article 2).",
+      "conditions": [
+        "La garantie déclenchée par le fait dommageable couvre l'assuré contre les conséquences pécuniaires des sinistres*, dès lors que le fait dommageable survient entre la prise d'effet initiale de la garantie et sa date de résiliation ou d'expiration, quelle que soit la date des autres éléments constitutifs du sinistre*.",
+        "Lorsque la responsabilité de l'assuré se trouve engagée solidairement ou in solidum, nous ne garantissons à l'égard des tiers que les conséquences pécuniaires de sa propre part de responsabilité dans ses rapports avec le ou les co-obligés lorsqu'elle est déterminée, ou les conséquences pécuniaires de sa responsabilité à part égale avec le ou les co-obligés, lorsque sa part n'est pas déterminée.",
+        "Les drones de loisir ne sont garantis que s'ils évoluent dans le respect de la réglementation et dans les zones autorisées."
+      ],
+      "page": 13
+    },
+    {
+      "name": "Extension - Les actes volontaires",
+      "description": "Votre responsabilité en tant que chef de famille pour les dommages causés intentionnellement à des tiers par votre enfant mineur, sans que vous-même n'ayez été retenu comme auteur ou complice.",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine ; pays de l'Union Européenne, Andorre, Liechtenstein, Monaco, Norvège, Saint-Marin, Suisse, Vatican, départements, régions et collectivités d'Outre-Mer ; monde entier (séjours de moins d'un an). (Tableau « Où s'exercent vos garanties ? », page 21.)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Le montant de la franchise* appliquée dans le cadre de la responsabilité civile est mentionné dans vos conditions particulières. Cette franchise* n'est pas applicable à : votre responsabilité civile vie privée pour les dommages corporels (article 1) ; votre responsabilité civile vie privée pour les dommages causés par vos enfants scolarisés de la maternelle à la terminale lors de leurs activités scolaires et périscolaires* (article 1) ; votre responsabilité d'occupant d'une location saisonnière (article 2).",
+      "conditions": [
+        "Extension de la garantie Responsabilité civile vie privée (article 1), accordée « par extension et sous réserve des exclusions figurant à la page précédente »."
+      ],
+      "page": 14
+    },
+    {
+      "name": "Extension - La conduite à l'insu",
+      "description": "Votre responsabilité pour les dommages causés à des tiers par votre enfant mineur ou par une personne dont vous êtes civilement responsable lors de l'utilisation à votre insu, et à l'insu de son gardien ou propriétaire, d'un véhicule dont vous n'avez ni la propriété, ni la garde.",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine ; pays de l'Union Européenne, Andorre, Liechtenstein, Monaco, Norvège, Saint-Marin, Suisse, Vatican, départements, régions et collectivités d'Outre-Mer ; monde entier (séjours de moins d'un an). (Tableau « Où s'exercent vos garanties ? », page 21.)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Le montant de la franchise* appliquée dans le cadre de la responsabilité civile est mentionné dans vos conditions particulières. Cette franchise* n'est pas applicable à : votre responsabilité civile vie privée pour les dommages corporels (article 1) ; votre responsabilité civile vie privée pour les dommages causés par vos enfants scolarisés de la maternelle à la terminale lors de leurs activités scolaires et périscolaires* (article 1) ; votre responsabilité d'occupant d'une location saisonnière (article 2).",
+      "conditions": [
+        "Extension de la garantie Responsabilité civile vie privée (article 1), accordée « par extension et sous réserve des exclusions figurant à la page précédente »."
+      ],
+      "page": 14
+    },
+    {
+      "name": "Extension - Le recours d'organismes sociaux",
+      "description": "Le recours exercé contre vous-même par un organisme de prévoyance ou la Sécurité Sociale, pour les dommages corporels subis par des personnes n'ayant pas la qualité de tiers au sens du présent contrat, lorsque leur assujettissement ne dépend pas de leur lien de parenté avec l'assuré.",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine ; pays de l'Union Européenne, Andorre, Liechtenstein, Monaco, Norvège, Saint-Marin, Suisse, Vatican, départements, régions et collectivités d'Outre-Mer ; monde entier (séjours de moins d'un an). (Tableau « Où s'exercent vos garanties ? », page 21.)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Le montant de la franchise* appliquée dans le cadre de la responsabilité civile est mentionné dans vos conditions particulières. Cette franchise* n'est pas applicable à : votre responsabilité civile vie privée pour les dommages corporels (article 1) ; votre responsabilité civile vie privée pour les dommages causés par vos enfants scolarisés de la maternelle à la terminale lors de leurs activités scolaires et périscolaires* (article 1) ; votre responsabilité d'occupant d'une location saisonnière (article 2).",
+      "conditions": [
+        "Extension de la garantie Responsabilité civile vie privée (article 1), accordée « par extension et sous réserve des exclusions figurant à la page précédente »."
+      ],
+      "page": 14
+    },
+    {
+      "name": "Extension - Le secours bénévole",
+      "description": "Les dommages, à la suite d'un événement accidentel* : subis par un tiers vous portant bénévolement secours ; causés à un tiers auquel vous portez bénévolement secours.",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine ; pays de l'Union Européenne, Andorre, Liechtenstein, Monaco, Norvège, Saint-Marin, Suisse, Vatican, départements, régions et collectivités d'Outre-Mer ; monde entier (séjours de moins d'un an). (Tableau « Où s'exercent vos garanties ? », page 21.)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Le montant de la franchise* appliquée dans le cadre de la responsabilité civile est mentionné dans vos conditions particulières. Cette franchise* n'est pas applicable à : votre responsabilité civile vie privée pour les dommages corporels (article 1) ; votre responsabilité civile vie privée pour les dommages causés par vos enfants scolarisés de la maternelle à la terminale lors de leurs activités scolaires et périscolaires* (article 1) ; votre responsabilité d'occupant d'une location saisonnière (article 2).",
+      "conditions": [
+        "Extension de la garantie Responsabilité civile vie privée (article 1), accordée « par extension et sous réserve des exclusions figurant à la page précédente ».",
+        "À la suite d'un événement accidentel*."
+      ],
+      "page": 14
+    },
+    {
+      "name": "Extension - L'aide bénévole",
+      "description": "Dans le cadre de travaux domestiques : pour les dommages que celle-ci cause à un tiers lors de l'aide qu'elle vous apporte ; pour les dommages corporels qu'elle subit, si elle a la qualité de tiers, lors de l'aide qu'elle vous apporte ; pour les dommages que vous causez, en votre qualité d'aide bénévole, au bénéficiaire de votre aide s'il a la qualité de tiers et dès lors qu'il n'est pas personnellement garanti.",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine ; pays de l'Union Européenne, Andorre, Liechtenstein, Monaco, Norvège, Saint-Marin, Suisse, Vatican, départements, régions et collectivités d'Outre-Mer ; monde entier (séjours de moins d'un an). (Tableau « Où s'exercent vos garanties ? », page 21.)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Le montant de la franchise* appliquée dans le cadre de la responsabilité civile est mentionné dans vos conditions particulières. Cette franchise* n'est pas applicable à : votre responsabilité civile vie privée pour les dommages corporels (article 1) ; votre responsabilité civile vie privée pour les dommages causés par vos enfants scolarisés de la maternelle à la terminale lors de leurs activités scolaires et périscolaires* (article 1) ; votre responsabilité d'occupant d'une location saisonnière (article 2).",
+      "conditions": [
+        "Extension de la garantie Responsabilité civile vie privée (article 1), accordée « par extension et sous réserve des exclusions figurant à la page précédente ».",
+        "Dans le cadre de travaux domestiques."
+      ],
+      "page": 14
+    },
+    {
+      "name": "Extension - Le baby-sitting",
+      "description": "Votre responsabilité du fait de la pratique occasionnelle de la garde d'enfants par vous-même ou un enfant assuré, à votre domicile ou au domicile du tiers.",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine ; pays de l'Union Européenne, Andorre, Liechtenstein, Monaco, Norvège, Saint-Marin, Suisse, Vatican, départements, régions et collectivités d'Outre-Mer ; monde entier (séjours de moins d'un an). (Tableau « Où s'exercent vos garanties ? », page 21.)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Le montant de la franchise* appliquée dans le cadre de la responsabilité civile est mentionné dans vos conditions particulières. Cette franchise* n'est pas applicable à : votre responsabilité civile vie privée pour les dommages corporels (article 1) ; votre responsabilité civile vie privée pour les dommages causés par vos enfants scolarisés de la maternelle à la terminale lors de leurs activités scolaires et périscolaires* (article 1) ; votre responsabilité d'occupant d'une location saisonnière (article 2).",
+      "conditions": [
+        "Extension de la garantie Responsabilité civile vie privée (article 1), accordée « par extension et sous réserve des exclusions figurant à la page précédente ».",
+        "Pratique occasionnelle de la garde d'enfants."
+      ],
+      "page": 14
+    },
+    {
+      "name": "Extension - L'accueil à domicile",
+      "description": "Les conséquences pécuniaires de votre responsabilité civile en raison des dommages subis par les personnes âgées ou handicapées que vous accueillez dans le cadre de la loi du 17 janvier 2002.",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine ; pays de l'Union Européenne, Andorre, Liechtenstein, Monaco, Norvège, Saint-Marin, Suisse, Vatican, départements, régions et collectivités d'Outre-Mer ; monde entier (séjours de moins d'un an). (Tableau « Où s'exercent vos garanties ? », page 21.)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Le montant de la franchise* appliquée dans le cadre de la responsabilité civile est mentionné dans vos conditions particulières. Cette franchise* n'est pas applicable à : votre responsabilité civile vie privée pour les dommages corporels (article 1) ; votre responsabilité civile vie privée pour les dommages causés par vos enfants scolarisés de la maternelle à la terminale lors de leurs activités scolaires et périscolaires* (article 1) ; votre responsabilité d'occupant d'une location saisonnière (article 2).",
+      "conditions": [
+        "Extension de la garantie Responsabilité civile vie privée (article 1), accordée « par extension et sous réserve des exclusions figurant à la page précédente ».",
+        "Accueil réalisé dans le cadre de la loi du 17 janvier 2002."
+      ],
+      "page": 14
+    },
+    {
+      "name": "Extension - L'accueil temporaire d'enfants de nationalité étrangère",
+      "description": "La responsabilité civile personnelle des mineurs accueillis pendant toute la durée du séjour au foyer de l'assuré, dans les limites de la garantie accordée pour les enfants dont le souscripteur* est civilement responsable.",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine ; pays de l'Union Européenne, Andorre, Liechtenstein, Monaco, Norvège, Saint-Marin, Suisse, Vatican, départements, régions et collectivités d'Outre-Mer ; monde entier (séjours de moins d'un an). (Tableau « Où s'exercent vos garanties ? », page 21.)",
+      "limits": "Dans les limites de la garantie accordée pour les enfants dont le souscripteur* est civilement responsable",
+      "sub_limits": [],
+      "deductible": "Le montant de la franchise* appliquée dans le cadre de la responsabilité civile est mentionné dans vos conditions particulières. Cette franchise* n'est pas applicable à : votre responsabilité civile vie privée pour les dommages corporels (article 1) ; votre responsabilité civile vie privée pour les dommages causés par vos enfants scolarisés de la maternelle à la terminale lors de leurs activités scolaires et périscolaires* (article 1) ; votre responsabilité d'occupant d'une location saisonnière (article 2).",
+      "conditions": [
+        "Extension de la garantie Responsabilité civile vie privée (article 1), accordée « par extension et sous réserve des exclusions figurant à la page précédente »."
+      ],
+      "page": 14
+    },
+    {
+      "name": "Extension - L'activité d'assistant maternel agréé exercée à votre domicile",
+      "description": "La responsabilité civile que vous pouvez encourir en votre qualité d'assistant maternel agréé, selon les dispositions du Code de l'action sociale et des familles, pour les dommages subis par l'enfant ou causés par l'enfant à un tiers.",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine ; pays de l'Union Européenne, Andorre, Liechtenstein, Monaco, Norvège, Saint-Marin, Suisse, Vatican, départements, régions et collectivités d'Outre-Mer ; monde entier (séjours de moins d'un an). (Tableau « Où s'exercent vos garanties ? », page 21.)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Le montant de la franchise* appliquée dans le cadre de la responsabilité civile est mentionné dans vos conditions particulières. Cette franchise* n'est pas applicable à : votre responsabilité civile vie privée pour les dommages corporels (article 1) ; votre responsabilité civile vie privée pour les dommages causés par vos enfants scolarisés de la maternelle à la terminale lors de leurs activités scolaires et périscolaires* (article 1) ; votre responsabilité d'occupant d'une location saisonnière (article 2).",
+      "conditions": [
+        "Extension de la garantie Responsabilité civile vie privée (article 1), accordée « par extension et sous réserve des exclusions figurant à la page précédente ».",
+        "Qualité d'assistant maternel agréé, selon les dispositions du Code de l'action sociale et des familles.",
+        "Activité exercée à votre domicile."
+      ],
+      "page": 14
+    },
+    {
+      "name": "Article 2 - Responsabilité d'occupant d'une location saisonnière (incendie, explosion, dégât des eaux)",
+      "description": "A l'occasion d'un voyage ou d'une villégiature d'une durée inférieure à 90 jours consécutifs : votre responsabilité d'occupant d'une location saisonnière à l'égard du propriétaire ou des voisins et des tiers en cas d'incendie, d'explosion et de dégât des eaux pour les dommages matériels et immatériels consécutifs* subis par les biens leur appartenant ou dont ils ont la garde. Les dommages corporels subis par le propriétaire, les voisins et les tiers sont garantis au titre de l'article 1.",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine ; pays de l'Union Européenne, Andorre, Liechtenstein, Monaco, Norvège, Saint-Marin, Suisse, Vatican, départements, régions et collectivités d'Outre-Mer. La garantie n'est PAS marquée dans la colonne « Monde entier (séjours de moins d'un an) » du tableau de la page 21.",
+      "limits": "100 millions d'euros au total (Responsabilité d'occupant d'une location saisonnière à l'égard du propriétaire et/ou à l'égard des voisins et des tiers : pour les dommages matériels et immatériels consécutifs*)",
+      "sub_limits": [],
+      "deductible": "Le montant de la franchise* appliquée dans le cadre de la responsabilité civile est mentionné dans vos conditions particulières. Cette franchise* n'est pas applicable à : votre responsabilité civile vie privée pour les dommages corporels (article 1) ; votre responsabilité civile vie privée pour les dommages causés par vos enfants scolarisés de la maternelle à la terminale lors de leurs activités scolaires et périscolaires* (article 1) ; votre responsabilité d'occupant d'une location saisonnière (article 2).",
+      "conditions": [
+        "A l'occasion d'un voyage ou d'une villégiature d'une durée inférieure à 90 jours consécutifs.",
+        "Garantie accordée « outre la RC vie privée » (tableau des montants maximums garantis, page 11)."
+      ],
+      "page": 14
+    },
+    {
+      "name": "Article 2 - Responsabilité d'occupant d'une location saisonnière (bris de glace)",
+      "description": "A l'occasion d'un voyage ou d'une villégiature d'une durée inférieure à 90 jours consécutifs : votre responsabilité d'occupant d'une location saisonnière à l'égard du propriétaire en cas de bris de glace.",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine ; pays de l'Union Européenne, Andorre, Liechtenstein, Monaco, Norvège, Saint-Marin, Suisse, Vatican, départements, régions et collectivités d'Outre-Mer. La garantie n'est PAS marquée dans la colonne « Monde entier (séjours de moins d'un an) » du tableau de la page 21.",
+      "limits": "100 millions d'euros au total pour la responsabilité d'occupant d'une location saisonnière",
+      "sub_limits": [],
+      "deductible": "Le montant de la franchise* appliquée dans le cadre de la responsabilité civile est mentionné dans vos conditions particulières. Cette franchise* n'est pas applicable à : votre responsabilité civile vie privée pour les dommages corporels (article 1) ; votre responsabilité civile vie privée pour les dommages causés par vos enfants scolarisés de la maternelle à la terminale lors de leurs activités scolaires et périscolaires* (article 1) ; votre responsabilité d'occupant d'une location saisonnière (article 2).",
+      "conditions": [
+        "A l'occasion d'un voyage ou d'une villégiature d'une durée inférieure à 90 jours consécutifs."
+      ],
+      "page": 14
+    },
+    {
+      "name": "Article 3 - Votre défense",
+      "description": "Nous assumons à nos frais votre défense tant à l'amiable que devant toute juridiction civile, pénale ou administrative en raison d'action mettant en cause votre responsabilité assurée par ce contrat ; nous assumons dans le cadre de la garantie Défense la direction du procès. Nous avons le libre exercice des voies de recours sauf en ce qui concerne votre défense pénale.",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine ; pays de l'Union Européenne, Andorre, Liechtenstein, Monaco, Norvège, Saint-Marin, Suisse, Vatican, départements, régions et collectivités d'Outre-Mer ; monde entier (séjours de moins d'un an). (Tableau « Où s'exercent vos garanties ? », page 21.)",
+      "limits": "Dans les limites des montants indiqués dans le tableau des plafonds de remboursement ; plafond de garantie par sinistre : 16 000 €",
+      "sub_limits": [
+        "Consultation écrite : 250 €",
+        "Assistance à une mesure d'instruction ou d'expertise (expertise matérielle ou médicale) + CRCI (Commission régionale de conciliation et d'indemnisation) : 300 €",
+        "Ordonnance de référé - du juge de la mise en état - du juge de l'exécution : 400 € par ordonnance",
+        "Tribunal d'instance : 550 €",
+        "Tribunal de police sans constitution de partie civile : 550 €",
+        "Tribunal pour enfants : 550 €",
+        "Appel d'une ordonnance de référé : 550 €",
+        "Autres juridictions de 1re instance non expressément prévues : 550 €",
+        "Tribunal de police avec constitution de partie civile : 600 €",
+        "Médiation pénale : 600 €",
+        "CIVI (Commission d'indemnisation des victimes d'infraction) : 600 €",
+        "Tribunal correctionnel sans constitution de partie civile : 700 €",
+        "Tribunal correctionnel avec constitution de partie civile : 750 €",
+        "Tribunal de grande instance : 800 €",
+        "Tribunal administratif : 800 €",
+        "Cour d'appel : 800 €",
+        "Cour de Cassation - Conseil d'Etat : 2 000 €",
+        "Cour d'assises : 4 500 € par affaire jugée",
+        "Honoraires de transaction (menée à son terme par l'intermédiaire d'un avocat et ayant abouti à la signature d'un protocole par les parties) : honoraires correspondant à une affaire jugée devant la juridiction compétente dans les limites des présents plafonds",
+        "Honoraires d'intervention en phase amiable sans transaction : 300 €",
+        "Plafond de garantie (par sinistre) : les frais et honoraires de toute nature y compris les frais de déplacement et de séjour en cas de sinistre à l'étranger : 16 000 €"
+      ],
+      "deductible": "Sans franchise mentionnée",
+      "conditions": [
+        "Libre choix du défenseur par l'assuré : pour toute action en justice qui relève de la défense pénale découlant d'une responsabilité garantie au titre de ce contrat (assuré poursuivi devant les juridictions pénales) et de la garantie Recours, y compris en phase amiable, pour le préjudice non indemnisé, l'assuré a le libre choix de son avocat. Si l'assuré souhaite que la Macif lui propose le nom d'un avocat, il doit en faire la demande par écrit. Ce principe du libre choix de l'avocat ne s'applique pas lorsque le recours est exercé en même temps dans votre intérêt et dans celui de la Macif.",
+        "Nous prenons en charge les frais et honoraires d'un mandataire saisi avec notre accord dans les limites indiquées dans le tableau des plafonds de remboursement.",
+        "La prise en charge des frais et honoraires se fera dans les limites indiquées dans le tableau des plafonds de remboursement et sous réserve des exclusions des articles 3 et 4.",
+        "Arbitrage : en cas de désaccord entre la Macif et l'assuré sur les mesures à prendre, ce différend peut être soumis à l'appréciation d'une tierce personne désignée d'un commun accord par les parties ou, à défaut, par le Président du tribunal de grande instance statuant en référé. Les frais exposés pour la mise en oeuvre de cette faculté sont à la charge de la Macif ; toutefois, le Président du tribunal saisi peut en décider autrement si l'assuré a usé de cette faculté dans des conditions abusives. Si l'assuré engage à ses frais une procédure contentieuse et obtient une solution plus favorable que celle proposée par la Macif ou la tierce personne arbitre, la Macif l'indemnise des frais de procédure dans les limites indiquées dans le tableau des plafonds de remboursement.",
+        "Subrogation : dès lors que la Macif expose des frais externes, elle est susceptible de récupérer une partie ou la totalité des sommes qu'elle a déboursées pour le compte de l'assuré. La Macif est subrogée dans les conditions prévues à l'article L. 121-12 du Code des assurances. Si des frais et honoraires sont restés à la charge de l'assuré, sous réserve qu'ils soient justifiés, la Macif s'engage à ce que l'assuré soit dédommagé en priorité sur les sommes allouées au titre des dépens, de l'article 700 du Code de procédure civile, des articles 475-1 et 375 du Code de procédure pénale ou de l'article L. 761-1 du Code de justice administrative ; le cas échéant, le solde revient à la Macif.",
+        "Ces montants s'appliquent, par assimilation, dans les pays étrangers où la garantie Protection des droits de l'assuré est acquise.",
+        "Dans tous les cas, que ce soit dans le cadre de la garantie Défense (article 3) ou dans le cadre de la garantie Recours (article 4), vous devez nous communiquer l'intégralité des documents et pièces de procédure concernant votre dossier (par exemple un refus à une réclamation, une convocation à expertise, une citation, un avis à victime, une assignation...)."
+      ],
+      "page": 15
+    },
+    {
+      "name": "Article 4 - Votre recours",
+      "description": "Nous exerçons une réclamation auprès d'un tiers responsable en vue d'obtenir la réparation du préjudice de l'assuré et nous prenons en charge les frais correspondants. Ce préjudice doit résulter de dommages corporels subis par l'assuré au cours de sa vie privée ; les dommages matériels concomitants à ces dommages corporels feront également l'objet du recours. Nous exerçons en priorité un recours amiable.",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine ; pays de l'Union Européenne, Andorre, Liechtenstein, Monaco, Norvège, Saint-Marin, Suisse, Vatican, départements, régions et collectivités d'Outre-Mer ; monde entier (séjours de moins d'un an), la marque du monde entier portant la mention imprimée « (amiable) ». (Tableau page 21.)",
+      "limits": "Dans les limites des montants indiqués dans le tableau des plafonds de remboursement ; plafond de garantie par sinistre : 16 000 €",
+      "sub_limits": [
+        "Consultation écrite : 250 €",
+        "Assistance à une mesure d'instruction ou d'expertise (expertise matérielle ou médicale) + CRCI (Commission régionale de conciliation et d'indemnisation) : 300 €",
+        "Ordonnance de référé - du juge de la mise en état - du juge de l'exécution : 400 € par ordonnance",
+        "Tribunal d'instance : 550 €",
+        "Tribunal de police sans constitution de partie civile : 550 €",
+        "Tribunal pour enfants : 550 €",
+        "Appel d'une ordonnance de référé : 550 €",
+        "Autres juridictions de 1re instance non expressément prévues : 550 €",
+        "Tribunal de police avec constitution de partie civile : 600 €",
+        "Médiation pénale : 600 €",
+        "CIVI (Commission d'indemnisation des victimes d'infraction) : 600 €",
+        "Tribunal correctionnel sans constitution de partie civile : 700 €",
+        "Tribunal correctionnel avec constitution de partie civile : 750 €",
+        "Tribunal de grande instance : 800 €",
+        "Tribunal administratif : 800 €",
+        "Cour d'appel : 800 €",
+        "Cour de Cassation - Conseil d'Etat : 2 000 €",
+        "Cour d'assises : 4 500 € par affaire jugée",
+        "Honoraires de transaction (menée à son terme par l'intermédiaire d'un avocat et ayant abouti à la signature d'un protocole par les parties) : honoraires correspondant à une affaire jugée devant la juridiction compétente dans les limites des présents plafonds",
+        "Honoraires d'intervention en phase amiable sans transaction : 300 €",
+        "Plafond de garantie (par sinistre) : les frais et honoraires de toute nature y compris les frais de déplacement et de séjour en cas de sinistre à l'étranger : 16 000 €"
+      ],
+      "deductible": "Sans franchise mentionnée",
+      "conditions": [
+        "Libre choix du défenseur par l'assuré : pour toute action en justice qui relève de la défense pénale découlant d'une responsabilité garantie au titre de ce contrat (assuré poursuivi devant les juridictions pénales) et de la garantie Recours, y compris en phase amiable, pour le préjudice non indemnisé, l'assuré a le libre choix de son avocat. Si l'assuré souhaite que la Macif lui propose le nom d'un avocat, il doit en faire la demande par écrit. Ce principe du libre choix de l'avocat ne s'applique pas lorsque le recours est exercé en même temps dans votre intérêt et dans celui de la Macif.",
+        "Nous prenons en charge les frais et honoraires d'un mandataire saisi avec notre accord dans les limites indiquées dans le tableau des plafonds de remboursement.",
+        "La prise en charge des frais et honoraires se fera dans les limites indiquées dans le tableau des plafonds de remboursement et sous réserve des exclusions des articles 3 et 4.",
+        "Arbitrage : en cas de désaccord entre la Macif et l'assuré sur les mesures à prendre, ce différend peut être soumis à l'appréciation d'une tierce personne désignée d'un commun accord par les parties ou, à défaut, par le Président du tribunal de grande instance statuant en référé. Les frais exposés pour la mise en oeuvre de cette faculté sont à la charge de la Macif ; toutefois, le Président du tribunal saisi peut en décider autrement si l'assuré a usé de cette faculté dans des conditions abusives. Si l'assuré engage à ses frais une procédure contentieuse et obtient une solution plus favorable que celle proposée par la Macif ou la tierce personne arbitre, la Macif l'indemnise des frais de procédure dans les limites indiquées dans le tableau des plafonds de remboursement.",
+        "Subrogation : dès lors que la Macif expose des frais externes, elle est susceptible de récupérer une partie ou la totalité des sommes qu'elle a déboursées pour le compte de l'assuré. La Macif est subrogée dans les conditions prévues à l'article L. 121-12 du Code des assurances. Si des frais et honoraires sont restés à la charge de l'assuré, sous réserve qu'ils soient justifiés, la Macif s'engage à ce que l'assuré soit dédommagé en priorité sur les sommes allouées au titre des dépens, de l'article 700 du Code de procédure civile, des articles 475-1 et 375 du Code de procédure pénale ou de l'article L. 761-1 du Code de justice administrative ; le cas échéant, le solde revient à la Macif.",
+        "Ces montants s'appliquent, par assimilation, dans les pays étrangers où la garantie Protection des droits de l'assuré est acquise.",
+        "Dans tous les cas, que ce soit dans le cadre de la garantie Défense (article 3) ou dans le cadre de la garantie Recours (article 4), vous devez nous communiquer l'intégralité des documents et pièces de procédure concernant votre dossier (par exemple un refus à une réclamation, une convocation à expertise, une citation, un avis à victime, une assignation...).",
+        "A défaut d'accord, nous n'intervenons sur le plan judiciaire que si le préjudice non indemnisé est supérieur à 750 euros.",
+        "Nous ne sommes pas tenus d'exercer un recours amiable si le préjudice non indemnisé est inférieur à 300 euros.",
+        "Hors de France métropolitaine et hors des pays de l'Union Européenne et assimilés, la garantie Recours n'est marquée dans le tableau de la page 21 qu'avec la mention « (amiable) »."
+      ],
+      "page": 15
+    },
+    {
+      "name": "Service d'informations juridiques",
+      "description": "Un service d'informations juridiques a été spécialement conçu pour donner à chacun, sans supplément de cotisation, l'information dont il peut avoir besoin à un moment donné en matière fiscale, de voisinage, de droit de la consommation, de la famille, etc… et ce sur simple appel téléphonique au numéro cristal 09 69 39 49 95 (appel non surtaxé).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Ce service est limité à cinq sollicitations par année d'assurance*",
+      "sub_limits": [],
+      "deductible": "Sans supplément de cotisation",
+      "conditions": [
+        "Sur simple appel téléphonique au numéro cristal 09 69 39 49 95 (appel non surtaxé)."
+      ],
+      "page": 4
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Dommages immatériels non consécutifs",
+      "description": "Les dommages immatériels non consécutifs à un dommage matériel ou corporel garanti.",
+      "applies_to": "Article 1 - Votre responsabilité civile vie privée",
+      "page": 13
+    },
+    {
+      "name": "Activité professionnelle ou travail illicite",
+      "description": "Les dommages résultant d'une activité professionnelle ou d'un travail illicite (clandestin ou « au noir »), y compris lorsque ces dommages sont causés par les animaux utilisés à cette fin (gardiennage par exemple).",
+      "applies_to": "Article 1 - Votre responsabilité civile vie privée",
+      "page": 13
+    },
+    {
+      "name": "Véhicules terrestres à moteur, embarcations et appareils de navigation aérienne",
+      "description": "Les dommages causés ou subis par un véhicule terrestre à moteur et ses remorques, une embarcation à voile (y compris le kitesurf ou flysurf) ou à moteur ou un appareil de navigation aérienne, lorsque l'assuré en a la propriété, la conduite ou la garde.",
+      "applies_to": "Article 1 - Votre responsabilité civile vie privée",
+      "page": 13
+    },
+    {
+      "name": "Biens et animaux dont l'assuré a la propriété, la garde ou l'usage",
+      "description": "Les dommages subis par les biens mobiliers, immobiliers, et par les animaux, dont l'assuré est propriétaire, locataire, ou dont il a la garde ou l'usage (sauf si ces biens sont confiés aux enfants assurés par le maître de stage au cours ou à l'occasion d'un stage en entreprise, la garantie étant subordonnée à la signature d'une convention de stage).",
+      "applies_to": "Article 1 - Votre responsabilité civile vie privée",
+      "page": 13
+    },
+    {
+      "name": "Biens vendus par l'assuré",
+      "description": "Les dommages causés ou subis par un bien mobilier ou immobilier que l'assuré a vendu.",
+      "applies_to": "Article 1 - Votre responsabilité civile vie privée",
+      "page": 13
+    },
+    {
+      "name": "Responsabilité d'incendie, explosion, fumées et dégâts des eaux du locataire ou propriétaire",
+      "description": "Les conséquences de la responsabilité que l'assuré peut encourir à l'égard de son propriétaire, de ses voisins et autres tiers, en raison de dommages corporels, matériels et immatériels, résultant d'un incendie, d'une explosion, de fumées ou d'un dégât des eaux survenus dans un immeuble dont il est locataire, occupant ou propriétaire (les dommages corporels survenus à l'occasion d'un voyage ou d'une villégiature d'une durée inférieure à 90 jours visés à l'article 2 restent garantis).",
+      "applies_to": "Article 1 - Votre responsabilité civile vie privée",
+      "page": 13
+    },
+    {
+      "name": "Dommages causés par un immeuble",
+      "description": "Les dommages corporels, matériels et immatériels causés par un immeuble dont l'assuré a la propriété ou la garde.",
+      "applies_to": "Article 1 - Votre responsabilité civile vie privée",
+      "page": 13
+    },
+    {
+      "name": "Animaux interdits et chiens de 1re et 2e catégorie",
+      "description": "Les dommages causés par les animaux dont l'élevage, la reproduction, la détention et l'importation sont interdits en France et par les chiens ou chiots de 1re et 2e catégorie dès lors que leurs propriétaires ou détenteurs n'ont pas respecté l'ensemble des obligations imposées par la loi (articles L. 211-12 et suivants du Code rural).",
+      "applies_to": "Article 1 - Votre responsabilité civile vie privée",
+      "page": 13
+    },
+    {
+      "name": "Chasse",
+      "description": "Les dommages résultant de la pratique de la chasse y compris les dommages causés par les chiens en action de chasse.",
+      "applies_to": "Article 1 - Votre responsabilité civile vie privée",
+      "page": 13
+    },
+    {
+      "name": "Travaux de rénovation, construction, démolition et terrassement",
+      "description": "Les dommages provoqués lors de travaux de rénovation, réhabilitation, construction, démolition, touchant à l'ossature d'un immeuble, ainsi que par tous travaux de terrassement, effectués par vous-même, des préposés occasionnels ou toute autre personne vous apportant son aide.",
+      "applies_to": "Article 1 - Votre responsabilité civile vie privée",
+      "page": 13
+    },
+    {
+      "name": "Activité sportive en club ou association déjà assuré",
+      "description": "Les dommages résultant de la pratique d'une activité sportive dans un club ou une association affilié(e) à une fédération ayant assuré en responsabilité civile ses adhérents.",
+      "applies_to": "Article 1 - Votre responsabilité civile vie privée",
+      "page": 13
+    },
+    {
+      "name": "Honoraires d'évaluation comportementale des chiens « mordeurs »",
+      "description": "Sont garantis les frais de visites sanitaires engagés à la suite de morsures causées par ces animaux domestiques assurés, à l'exception des honoraires de vétérinaires chargés de l'évaluation comportementale des chiens « mordeurs ». (Restriction imprimée dans la colonne « Ce qui est garanti » : ici la polarité vient de la phrase, pas de la colonne.)",
+      "applies_to": "Article 1 - Votre responsabilité civile vie privée",
+      "page": 13
+    },
+    {
+      "name": "Responsabilité professionnelle de l'assuré",
+      "description": "Les conséquences de la responsabilité professionnelle de l'assuré.",
+      "applies_to": "Article 3 - Votre défense",
+      "page": 15
+    },
+    {
+      "name": "Condamnations pénales",
+      "description": "Les condamnations pénales.",
+      "applies_to": "Article 3 - Votre défense",
+      "page": 15
+    },
+    {
+      "name": "Frais engagés à la seule initiative de l'assuré",
+      "description": "Les frais engagés à votre seule initiative.",
+      "applies_to": "Article 3 - Votre défense",
+      "page": 15
+    },
+    {
+      "name": "Litiges entre l'assuré et la Macif",
+      "description": "Les litiges* pouvant survenir entre l'assuré et la Macif.",
+      "applies_to": "Article 4 - Votre recours",
+      "page": 15
+    },
+    {
+      "name": "Recours pour travaux illicites",
+      "description": "Les recours pour des travaux effectués de façon illicite (travail clandestin ou « au noir »).",
+      "applies_to": "Article 4 - Votre recours",
+      "page": 15
+    },
+    {
+      "name": "Recours pour dommages liés à un véhicule terrestre à moteur de l'assuré",
+      "description": "Les recours pour des dommages subis par l'assuré lorsqu'il utilise un véhicule terrestre à moteur dont il a la propriété, la conduite ou la garde.",
+      "applies_to": "Article 4 - Votre recours",
+      "page": 15
+    },
+    {
+      "name": "Recours contre une personne ayant la qualité d'assuré",
+      "description": "Les recours pour les dommages subis par l'assuré et causés par une personne ayant elle-même la qualité d'assuré au titre de ce contrat.",
+      "applies_to": "Article 4 - Votre recours",
+      "page": 15
+    },
+    {
+      "name": "Recours pour dommages d'origine médicale ou paramédicale",
+      "description": "Les recours pour des dommages occasionnés par un acte médical ou paramédical pratiqué sur l'assuré.",
+      "applies_to": "Article 4 - Votre recours",
+      "page": 15
+    },
+    {
+      "name": "Frais et honoraires antérieurs à la déclaration de sinistre",
+      "description": "Les frais et honoraires correspondant à des consultations ou des actes de procédure engagés antérieurement à la déclaration de sinistre* sont exclus, sauf si vous pouvez justifier d'une urgence à les avoir engagés. Dans ce cas, ces frais et honoraires seront pris en charge dans les limites indiquées dans le tableau des plafonds de remboursement.",
+      "applies_to": "Protection des droits de l'assuré (articles 3 et 4)",
+      "page": 16
+    },
+    {
+      "name": "Exclusion commune - dommages intentionnels ou faute dolosive",
+      "description": "Sont toujours exclus au titre de ce contrat les dommages de toute nature intentionnellement causés ou provoqués par l'assuré ou avec sa complicité, ou résultant de sa faute dolosive.",
+      "applies_to": "all",
+      "page": 21
+    },
+    {
+      "name": "Exclusion commune - acte illicite constituant un crime ou un délit intentionnel",
+      "description": "Sont toujours exclus les dommages de toute nature résultant de la participation active de l'assuré à un acte illicite constituant un crime ou un délit intentionnel.",
+      "applies_to": "all",
+      "page": 21
+    },
+    {
+      "name": "Exclusion commune - rixe, pari, défi",
+      "description": "Sont toujours exclus les dommages de toute nature liés à la participation de l'assuré à une rixe, un pari, un défi.",
+      "applies_to": "all",
+      "page": 21
+    },
+    {
+      "name": "Exclusion commune - guerre étrangère ou civile",
+      "description": "Sont toujours exclus les dommages de toute nature résultant de la guerre étrangère ou civile.",
+      "applies_to": "all",
+      "page": 21
+    },
+    {
+      "name": "Exclusion commune - risque nucléaire et rayonnements ionisants",
+      "description": "Sont toujours exclus les dommages de toute nature d'origine nucléaire ou causés par toute source de rayonnement ionisant.",
+      "applies_to": "all",
+      "page": 21
+    },
+    {
+      "name": "Exclusion commune - véhicules à moteur soumis à l'obligation d'assurance",
+      "description": "Sont toujours exclus les dommages de toute nature causés ou subis par les véhicules à moteur soumis à l'obligation d'assurance appartenant ou confiés à l'assuré et leurs matériels attelés.",
+      "applies_to": "all",
+      "page": 21
+    },
+    {
+      "name": "Exclusion commune - amiante",
+      "description": "Sont toujours exclus les dommages de toute nature causés directement ou indirectement par de l'amiante.",
+      "applies_to": "all",
+      "page": 21
+    },
+    {
+      "name": "Exclusion commune - amendes",
+      "description": "Sont toujours exclues les amendes, y compris celles assimilées à des réparations civiles.",
+      "applies_to": "all",
+      "page": 21
+    },
+    {
+      "name": "Perte du bénéfice des garanties en cas de déclaration tardive",
+      "description": "En cas de non-respect des délais pour la déclaration de sinistre*, et si cette omission ou ce retard nous a causé un préjudice, vous pouvez perdre le bénéfice des garanties de ce contrat pour ce sinistre*.",
+      "applies_to": "all",
+      "page": 25
+    },
+    {
+      "name": "Fausses déclarations",
+      "description": "Toute fausse déclaration sur la nature, les causes, les circonstances ainsi que les conséquences du sinistre* ou toute utilisation de moyens frauduleux ou de documents inexacts vous priverait de tout droit à garantie, pour ce sinistre*, et vous exposerait à des poursuites pénales.",
+      "applies_to": "all",
+      "page": 25
+    },
+    {
+      "name": "Non-respect des autres obligations",
+      "description": "Si vous ne remplissez pas en tout ou partie vos autres obligations, nous pouvons vous réclamer une indemnité correspondant au préjudice que nous avons subi du fait de ce manquement.",
+      "applies_to": "all",
+      "page": 25
+    },
+    {
+      "name": "Nullité du contrat",
+      "description": "C'est la sanction appliquée à un assuré qui fait une fausse déclaration à la Macif dans l'intention de la tromper. Le contrat est censé n'avoir jamais existé et les cotisations restent acquises à la Macif à titre de dommages-intérêts. De même, celle-ci est en droit de réclamer le remboursement d'indemnités déjà versées.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Responsabilité solidaire ou in solidum - limitation à la part propre",
+      "description": "Lorsque la responsabilité de l'assuré se trouve engagée solidairement ou in solidum, nous ne garantissons à l'égard des tiers que les conséquences pécuniaires de sa propre part de responsabilité dans ses rapports avec le ou les co-obligés lorsqu'elle est déterminée, ou les conséquences pécuniaires de sa responsabilité à part égale avec le ou les co-obligés, lorsque sa part n'est pas déterminée.",
+      "applies_to": "all",
+      "page": 12
+    },
+    {
+      "name": "Territorialité - responsabilité d'occupant d'une location saisonnière hors zone couverte",
+      "description": "Dans le tableau « Où s'exercent vos garanties ? » (page 21), la « Responsabilité d'occupant d'une location saisonnière » ne porte de marque que dans les colonnes « France métropolitaine » et « Pays de l'Union Européenne, Andorre, Liechtenstein, Monaco, Norvège, Saint-Marin, Suisse, Vatican, départements, régions et collectivités d'Outre-Mer » : elle n'est pas marquée dans la colonne « Monde entier (séjours de moins d'un an) ».",
+      "applies_to": "Article 2 - Responsabilité d'occupant d'une location saisonnière",
+      "page": 21
+    }
+  ],
+  "deductibles": {
+    "standard": "Le montant de la franchise* appliquée dans le cadre de la responsabilité civile est mentionné dans vos conditions particulières (montant non imprimé dans les conditions générales).",
+    "variable": "Cette franchise* n'est pas applicable à : votre responsabilité civile vie privée pour les dommages corporels (article 1) ; votre responsabilité civile vie privée pour les dommages causés par vos enfants scolarisés de la maternelle à la terminale lors de leurs activités scolaires et périscolaires* (article 1) ; votre responsabilité d'occupant d'une location saisonnière (article 2).",
+    "per_coverage": {
+      "Article 1 - Votre responsabilité civile vie privée (dommages corporels)": "Franchise non applicable",
+      "Article 1 - Votre responsabilité civile vie privée (dommages causés par les enfants scolarisés lors des activités scolaires et périscolaires)": "Franchise non applicable",
+      "Article 2 - Responsabilité d'occupant d'une location saisonnière": "Franchise non applicable",
+      "Autres cas de responsabilité civile": "Franchise dont le montant est mentionné dans les conditions particulières"
+    },
+    "page": 11
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Répondre exactement aux questions à la souscription",
+      "description": "Que vous répondiez exactement à toutes les questions posées lors de la proposition d'assurance. Ainsi vous devez nous indiquer : vos antécédents d'assurance (les sinistres déclarés au cours des deux dernières années et si votre contrat a été résilié par votre précédent assureur et pour quel motif) ; les coordonnées des autres assureurs vous couvrant pour les mêmes garanties.",
+      "timing": "A la souscription du contrat",
+      "sanction": "Toute inexactitude intentionnelle ou non, toute omission peut nous amener, suivant le cas, à invoquer la nullité du contrat* ou la réduction des indemnités dues en cas de sinistre*.",
+      "page": 23
+    },
+    {
+      "name": "Déclarer les circonstances nouvelles dans les quinze jours",
+      "description": "Que vous nous déclariez dans les quinze jours, par lettre recommandée ou par une déclaration auprès d'un conseiller Macif, à partir du moment où vous en avez eu connaissance, toutes les circonstances nouvelles et tous les changements (d'adresse, de situation familiale) qui modifient les renseignements que vous nous avez fournis lors de la souscription et qui sont de nature à créer un risque nouveau nécessitant une adaptation de votre contrat.",
+      "timing": "En cours de contrat, dans les quinze jours",
+      "sanction": "Toute inexactitude intentionnelle ou non, toute omission peut nous amener, suivant le cas, à invoquer la nullité du contrat* ou la réduction des indemnités dues en cas de sinistre*. La Macif peut également résilier le contrat en cas d'aggravation du risque assuré, ou en cas d'omission ou d'inexactitude dans la déclaration du risque.",
+      "page": 23
+    },
+    {
+      "name": "Limiter les conséquences du sinistre et préserver les recours",
+      "description": "En premier lieu, prendre toutes les dispositions nécessaires pour limiter les conséquences du sinistre* et veiller à préserver toutes les possibilités de recours éventuels.",
+      "timing": "En cas de sinistre",
+      "sanction": "Si vous ne remplissez pas en tout ou partie vos autres obligations, nous pouvons vous réclamer une indemnité correspondant au préjudice que nous avons subi du fait de ce manquement.",
+      "page": 25
+    },
+    {
+      "name": "Déclarer le sinistre dans les cinq jours ouvrés",
+      "description": "Nous le déclarer à partir du moment où vous en avez eu connaissance et au plus tard dans les cinq jours ouvrés. Nous indiquer, dans cette déclaration, les date, heure du sinistre*, les causes connues ou supposées ainsi que ses conséquences et les coordonnées des personnes lésées, des témoins et du ou des responsables éventuels.",
+      "timing": "Au plus tard dans les cinq jours ouvrés",
+      "sanction": "En cas de non-respect des délais pour la déclaration de sinistre*, et si cette omission ou ce retard nous a causé un préjudice, vous pouvez perdre le bénéfice des garanties de ce contrat pour ce sinistre*.",
+      "page": 25
+    },
+    {
+      "name": "Formalités en cas d'émeute ou de mouvement populaire",
+      "description": "En cas d'émeute ou de mouvement populaire, accomplir les formalités auprès des autorités en vue d'obtenir l'indemnisation prévue par la législation.",
+      "timing": "En cas de sinistre",
+      "sanction": null,
+      "page": 25
+    },
+    {
+      "name": "Déclarer le sinistre aux autres assureurs",
+      "description": "Si vous êtes couvert pour les mêmes garanties auprès d'autres assureurs, vous leur déclarerez ce sinistre* également tout en nous indiquant leurs coordonnées. Vous pourrez obtenir l'indemnisation de vos dommages en vous adressant à l'assureur de votre choix.",
+      "timing": "En cas de sinistre",
+      "sanction": null,
+      "page": 25
+    },
+    {
+      "name": "Transmettre immédiatement les pièces de procédure",
+      "description": "En cas de poursuites judiciaires, vous nous transmettrez immédiatement toute pièce de procédure (avis à victime, assignation…) qui vous serait remise ou adressée et, de façon plus générale, tout document que vous serez amené à recevoir concernant le sinistre*. Enfin, vous nous transmettrez tout document que nous serions amenés à vous demander pour la gestion du dossier.",
+      "timing": "Immédiatement, en cas de poursuites judiciaires",
+      "sanction": "Si vous ne remplissez pas en tout ou partie vos autres obligations, nous pouvons vous réclamer une indemnité correspondant au préjudice que nous avons subi du fait de ce manquement.",
+      "page": 25
+    },
+    {
+      "name": "Ne pas reconnaître de responsabilité ni transiger",
+      "description": "Nous avons seuls le droit, dans la limite de notre garantie, de transiger avec les personnes lésées. Aucune reconnaissance de responsabilité, aucune transaction intervenant en dehors de nous nous est opposable ; ne sont pas considérés comme une reconnaissance de responsabilité l'aveu d'un fait matériel ou le seul fait d'avoir procuré à la victime un secours urgent, lorsqu'il s'agit d'un acte d'assistance que toute personne a le devoir légal ou moral d'accomplir.",
+      "timing": "En cas de sinistre",
+      "sanction": "La reconnaissance ou la transaction intervenue en dehors de la Macif ne lui est pas opposable.",
+      "page": 25
+    },
+    {
+      "name": "Communiquer les pièces de procédure (Défense et Recours)",
+      "description": "Dans tous les cas, que ce soit dans le cadre de la garantie Défense (article 3) ou dans le cadre de la garantie Recours (article 4), vous devez nous communiquer l'intégralité des documents et pièces de procédure concernant votre dossier (par exemple un refus à une réclamation, une convocation à expertise, une citation, un avis à victime, une assignation...).",
+      "timing": "En cours de procédure",
+      "sanction": null,
+      "page": 15
+    },
+    {
+      "name": "Payer la cotisation",
+      "description": "Elle est exigible en principe annuellement et d'avance à la date d'échéance*. Toutefois, un paiement fractionné peut vous être accordé.",
+      "timing": "Annuellement et d'avance à la date d'échéance",
+      "sanction": "A défaut de paiement d'une cotisation (ou d'une fraction de cotisation) dans les dix jours suivant son échéance*, une lettre recommandée de mise en demeure entraîne la suspension des garanties trente jours après son envoi puis la résiliation du contrat dix jours après la suspension. Lorsque la résiliation est la conséquence du non-paiement, vous devez la part de cotisation jusqu'à la date de résiliation et une indemnité égale, au maximum, à la moitié de la dernière cotisation annuelle échue.",
+      "page": 24
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Limiter les conséquences du sinistre",
+      "description": "En premier lieu, prendre toutes les dispositions nécessaires pour limiter les conséquences du sinistre* et veiller à préserver toutes les possibilités de recours éventuels.",
+      "deadline": null,
+      "page": 25
+    },
+    {
+      "step": "Déclarer le sinistre",
+      "description": "Nous le déclarer à partir du moment où vous en avez eu connaissance et au plus tard dans les cinq jours ouvrés, en indiquant les date, heure du sinistre*, les causes connues ou supposées ainsi que ses conséquences et les coordonnées des personnes lésées, des témoins et du ou des responsables éventuels.",
+      "deadline": "Au plus tard dans les cinq jours ouvrés",
+      "page": 25
+    },
+    {
+      "step": "Transmettre les pièces de procédure",
+      "description": "En cas de poursuites judiciaires, transmettre immédiatement toute pièce de procédure (avis à victime, assignation…) et tout document reçu concernant le sinistre*, puis tout document demandé par la Macif pour la gestion du dossier.",
+      "deadline": "Immédiatement",
+      "page": 25
+    },
+    {
+      "step": "Recours : étude préalable puis phase amiable",
+      "description": "Schéma chronologique relatif à l'article 4 : votre déclaration ; notre étude préalable (appréciation de l'étendue et de la réalité de vos droits et de vos obligations) - phase conseil ; recherche en priorité d'une solution amiable - phase amiable ; règlement amiable ou, à défaut de solution amiable, décision d'un commun accord d'engager une action en justice - phase judiciaire. En cas de désaccord entre vous et la Macif sur les mesures à prendre : arbitrage par une tierce personne désignée d'un commun accord ou par le Président du tribunal de grande instance (en référé), puis choix d'une action en justice ou action en justice déconseillée. Si l'action en justice est engagée d'un commun accord, nous prenons en charge les frais et honoraires selon les plafonds prévus. Si vous engagez néanmoins une action après un avis contraire : si vous gagnez, la Macif indemnise les frais de procédure dans les limites des plafonds ; si vous perdez, vous supportez seul les frais et honoraires.",
+      "deadline": null,
+      "page": 17
+    },
+    {
+      "step": "Réclamation puis médiation",
+      "description": "En cas de désaccord entre vous et la Macif à l'occasion de la gestion du présent contrat ou des règlements des sinistres*, vous devez d'abord faire valoir votre réclamation auprès du service concerné. Si cette démarche ne permet pas d'y mettre un terme, vous avez la possibilité de vous adresser à la Commission de recours interne dont nous vous communiquerons les coordonnées sur simple demande. Si ce désaccord devait persister, vous pouvez alors saisir La Médiation de l'Assurance : adresse TSA 50110 75441 Paris Cedex 09 ; internet http://www.mediation-assurance.org",
+      "deadline": null,
+      "page": 20
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat est formé dès notre accord réciproque. Il prend effet à partir de la date indiquée dans les conditions particulières ; il en est de même pour toute modification du contrat. Toute demande de modification non refusée par la Macif dans les dix jours de sa réception ou de sa déclaration auprès d'un conseiller peut être considérée comme acceptée. Sa durée court de la date d'effet jusqu'à l'échéance* principale suivante ; à l'expiration de cette période, il est renouvelé automatiquement par période annuelle.",
+    "tacit_renewal": true,
+    "notice_period": "Résiliation à l'échéance* principale, au 31 mars, avec préavis d'un mois pour le sociétaire et de deux mois pour la Macif. Lorsque l'avis d'échéance* annuelle est adressé moins de 15 jours avant la date limite d'exercice du droit de résiliation ou après cette date, le sociétaire bénéficie d'un délai de 20 jours à compter de la date d'envoi de cet avis d'échéance* (le cachet de la poste faisant foi) pour dénoncer la reconduction des contrats souscrits pour des risques autres que professionnels. Droit de renonciation de 14 jours calendaires révolus en cas de vente à distance et en cas de démarchage à domicile.",
+    "methods": [
+      "Pour vous : soit par l'envoi d'une lettre recommandée (le délai de préavis étant décompté à partir de la date d'envoi, le cachet de la poste faisant foi) ; soit en effectuant une déclaration auprès d'un conseiller de la Macif.",
+      "Pour nous : par lettre recommandée adressée à votre dernier domicile connu.",
+      "Par vous ou la Macif, à l'échéance* principale : au 31 mars avec préavis d'un mois pour vous-même, de deux mois pour la Macif.",
+      "Par vous ou la Macif, en cas de changement de domicile, de situation ou de régime matrimonial, de profession ou en cas de retraite professionnelle lorsque le contrat a pour objet la garantie de risques en relation directe avec la situation antérieure et qui ne se retrouvent pas dans la situation nouvelle : demande de résiliation dans les trois mois (pour vous à partir de la date de ce changement, pour nous à partir de la date à laquelle nous en avons eu connaissance) ; la résiliation intervient un mois après.",
+      "Par vous, en cas de diminution du risque assuré lorsque la Macif ne consent pas à une réduction du montant de la cotisation : le contrat est résilié à l'expiration d'un délai d'un mois à compter de la dénonciation de l'assuré.",
+      "Par vous, en cas de résiliation par la Macif d'un autre contrat après sinistre* : demande dans le mois qui suit la notification de la résiliation du contrat sinistré, la résiliation prenant effet un mois à dater de la notification à la Macif.",
+      "Par vous, en cas de majoration de la cotisation hors taxes ou des franchises* : demande dans les trente jours suivant la date à laquelle vous en avez eu connaissance, la résiliation prenant effet à l'expiration d'un délai d'un mois.",
+      "Par vous, personne physique ayant souscrit le contrat pour des risques autres que professionnels : le contrat peut être résilié à l'expiration d'un délai d'un an à compter de la première souscription ; la résiliation prend effet un mois après que la Macif en a reçu notification par lettre ou tout autre support durable.",
+      "Par vous, en cas de transfert du portefeuille de la Macif à une autre société d'assurance : demande dans le mois qui suit la publication de l'avis de transfert au Journal Officiel, la résiliation prenant effet à l'expiration d'un délai d'un mois.",
+      "Par la Macif, en cas de non-paiement des cotisations : le contrat est suspendu trente jours après la date d'envoi de la lettre de mise en demeure et résilié dix jours plus tard.",
+      "Par la Macif, en cas d'aggravation du risque assuré : le contrat est résilié après un délai de dix jours suivant la dénonciation du contrat par la Macif, ou de trente jours à partir de la date d'envoi de la lettre proposant une nouvelle cotisation prenant en compte cette aggravation dès lors que vous n'avez pas donné suite à cette proposition ou l'avez expressément refusée.",
+      "Par la Macif, en cas d'omission ou d'inexactitude dans la déclaration du risque à la souscription ou en cours de contrat : le contrat est résilié après un délai de dix jours.",
+      "Par la Macif, après un sinistre* : le contrat est résilié un mois après la date d'envoi de la lettre recommandée ; vous avez alors la possibilité de résilier vos autres contrats.",
+      "Par la Macif, en cas de perte de la qualité de sociétaire* : le contrat est résilié après un délai de dix jours.",
+      "Par l'administrateur, le souscripteur autorisé par le mandataire judiciaire ou le liquidateur, selon les cas, en cas de sauvegarde, de redressement ou liquidation judiciaire du souscripteur* : le contrat est résilié soit à réception par nos services de la notification de résiliation, soit par ordonnance du juge commissaire, soit de plein droit si notre mise en demeure de prendre parti sur la poursuite du contrat est restée plus d'un mois sans réponse.",
+      "Automatiquement, en cas de retrait de l'agrément de la Macif : le quarantième jour à midi à compter de la publication au Journal Officiel de la décision de retrait.",
+      "Renonciation en cas de vente à distance : 14 jours calendaires révolus à compter de la conclusion (ou de la réception des conditions particulières si cette date est postérieure), par lettre recommandée selon le modèle imprimé au contrat. Conséquences : si le contrat n'a pas pris effet, il est annulé et toutes les sommes perçues sont remboursées dans les 30 jours ; s'il a pris effet à votre demande expresse, les sommes perçues sont remboursées dans les 30 jours en dehors de la partie de cotisation afférente à la période de garantie effective.",
+      "Renonciation en cas de démarchage à domicile : 14 jours calendaires révolus à compter du jour de la conclusion du contrat, par lettre recommandée avec demande d'avis de réception, sans avoir à justifier de motifs ni à supporter de pénalités. Conséquences : résiliation à compter de la date de réception de la lettre recommandée ; la partie de cotisation correspondant à la période pendant laquelle la garantie a joué reste acquise à la Macif ; toute autre somme perçue en sus est remboursée dans les 30 jours."
+    ],
+    "special_rights": [
+      "Le droit de renonciation en cas de démarchage à domicile ne peut être exercé si vous avez connaissance de l'existence d'un sinistre* survenu pendant ce délai et mettant en jeu une garantie du présent contrat.",
+      "L'intégralité de la cotisation reste due si un sinistre* mettant en jeu la garantie du contrat et dont vous n'aviez pas connaissance est survenu pendant le délai de renonciation.",
+      "En cas de majoration de la cotisation hors taxes ou des franchises*, vous pouvez résilier votre contrat ; à défaut, les nouvelles conditions sont considérées comme acceptées à compter de la date d'échéance*.",
+      "Dans tous les cas de résiliation au cours d'une période d'assurance, la Macif doit restituer la portion de cotisation correspondant à la période où elle n'assure plus, sauf en cas de non-paiement de cotisation (où une indemnité égale, au maximum, à la moitié de la dernière cotisation annuelle échue lui est due) et en cas de nullité* du contrat."
+    ],
+    "page": 29
+  },
+  "prescription_period": {
+    "description": "Toutes les actions dérivant d'un contrat d'assurance sont prescrites par deux ans à compter de l'évènement qui y donne naissance. Toutefois, ce délai ne court : en cas de réticence, omission, déclaration fausse ou inexacte sur le risque couru, que du jour où l'assureur en a eu connaissance ; en cas de sinistre*, que du jour où les intéressés en ont eu connaissance, s'ils prouvent qu'ils l'ont ignoré jusque-là. Quand l'action de l'assuré contre l'assureur a pour cause le recours d'un tiers, le délai de la prescription* ne court que du jour où ce tiers a exercé une action en justice contre l'assuré ou a été indemnisé par ce dernier. La prescription* est interrompue par une des causes ordinaires d'interruption de la prescription* (reconnaissance par le débiteur du droit de celui contre lequel il prescrivait, demande en justice même en référé, mesure conservatoire prise en application du Code des procédures civiles d'exécution ou acte d'exécution forcée) et par la désignation d'experts à la suite d'un sinistre*. L'interruption de la prescription* de l'action peut, en outre, résulter de l'envoi d'une lettre recommandée avec accusé de réception adressée par l'assureur à l'assuré en ce qui concerne l'action en paiement de la cotisation et par l'assuré à l'assureur en ce qui concerne le règlement de l'indemnité.",
+    "page": 26
+  },
+  "premium": {
+    "notes": [
+      "Votre cotisation est la contrepartie des garanties qui vous protègent. Nous l'avons établie en fonction des caractéristiques de votre risque.",
+      "Elle est variable. Le conseil d'administration peut décider de procéder à une ristourne ou un rappel de cotisation au titre de l'exercice considéré. Dans le cadre d'un rappel, le maximum de cotisation auquel vous pourriez être tenu est de une fois et demie le montant de la cotisation normale. Dès lors, le montant du rappel de cotisation ne peut être supérieur à la moitié de la cotisation normale.",
+      "La cotisation appelée comprend les impôts, taxes et frais accessoires, dont vous retrouverez le détail dans vos conditions particulières.",
+      "Elle est exigible en principe annuellement et d'avance à la date d'échéance*. Toutefois, un paiement fractionné peut vous être accordé.",
+      "A défaut de paiement d'une cotisation (ou d'une fraction de cotisation) dans les dix jours suivant son échéance*, nous sommes en droit de vous adresser, à votre dernier domicile connu, une lettre recommandée de mise en demeure qui entraînera (sauf si entre temps la cotisation a été réglée) : la suspension de vos garanties trente jours après l'envoi de cette lettre ; la résiliation de votre contrat dix jours après la suspension, ceci indépendamment du droit de poursuivre l'exécution du contrat en justice.",
+      "Si votre cotisation annuelle a été fractionnée, la suspension de garantie pour non-paiement d'une des fractions de cette cotisation produit ses effets jusqu'à l'expiration de la période annuelle d'assurance et rend immédiatement exigibles les autres fractions de cotisation.",
+      "Lorsque la résiliation est la conséquence du non-paiement de vos cotisations, vous nous devez : la part de cotisation jusqu'à la date de résiliation ; une indemnité égale, au maximum, à la moitié de la dernière cotisation annuelle échue.",
+      "Si nous sommes amenés à majorer la cotisation hors taxes ou les franchises*, nous vous informons par l'avis d'échéance* ou par courrier. En cas de désaccord de votre part, vous pouvez résilier votre contrat ; à défaut, les nouvelles conditions sont considérées comme acceptées à compter de la date d'échéance*.",
+      "A la Macif, l'échéance principale est au 1er avril ; l'année d'assurance court du 1er avril au 31 mars de l'année suivante."
+    ],
+    "indexation": null,
+    "page": 24
+  },
+  "special_conditions": [
+    {
+      "name": "Composition du contrat",
+      "description": "Votre contrat est constitué des conditions générales et des conditions particulières. Les conditions générales énoncent les garanties proposées et décrivent leur étendue et leurs montants ; elles précisent aussi le fonctionnement de votre contrat. Les conditions particulières personnalisent le contrat en fonction de votre situation personnelle, d'après les renseignements fournis ; ces conditions particulières figurent dans un document séparé.",
+      "page": 4
+    },
+    {
+      "name": "Cadre juridique et autorité de contrôle",
+      "description": "Votre contrat est régi par le Code des assurances et est soumis à l'Autorité de contrôle prudentiel et de résolution (l'ACPR) : 61 rue Taitbout, 75436 Paris Cedex 9.",
+      "page": 4
+    },
+    {
+      "name": "Loi « Informatique et Libertés »",
+      "description": "Les données recueillies feront l'objet d'un traitement automatisé par la Macif, responsable de traitement, pour la passation, la gestion et l'exécution des contrats d'assurance et à des fins de prospection et gestion commerciales. Elles pourront être transmises aux sociétés du Groupe Macif et à ses partenaires aux mêmes fins, y compris en dehors de l'Union Européenne. Elles font également l'objet de traitements de lutte contre le blanchiment d'argent et le financement du terrorisme, et contre la fraude à l'assurance par la Macif ainsi que les entités du Groupe Macif, et pourront être transmises aux entités et personnes désignées par la réglementation. La lutte contre la fraude à l'assurance peut conduire à une inscription sur une liste de personnes présentant un risque de fraude. Vous disposez d'un droit d'opposition, d'accès et de rectification auprès de la Direction Générale de la Macif, 2 et 4 rue de Pied de Fond 79037 Niort Cedex 9. Nous vous informons que vous pouvez vous inscrire sur la liste d'opposition au démarchage téléphonique.",
+      "page": 4
+    },
+    {
+      "name": "Étendue territoriale des garanties",
+      "description": "Tableau « Où s'exercent vos garanties ? » (page 21) : Responsabilité civile vie privée = France métropolitaine, pays de l'Union Européenne / Andorre / Liechtenstein / Monaco / Norvège / Saint-Marin / Suisse / Vatican / départements, régions et collectivités d'Outre-Mer, et monde entier (séjours de moins d'un an) ; Responsabilité d'occupant d'une location saisonnière = France métropolitaine et pays de l'Union Européenne et assimilés seulement ; Défense = les trois zones ; Recours = les trois zones, la zone « Monde entier » portant la mention imprimée « (amiable) ».",
+      "page": 21
+    },
+    {
+      "name": "Limite de garantie en cas de responsabilité solidaire ou in solidum",
+      "description": "Lorsque la responsabilité de l'assuré se trouve engagée solidairement ou in solidum, nous ne garantissons à l'égard des tiers que les conséquences pécuniaires de sa propre part de responsabilité dans ses rapports avec le ou les co-obligés lorsqu'elle est déterminée, ou les conséquences pécuniaires de sa responsabilité à part égale avec le ou les co-obligés, lorsque sa part n'est pas déterminée.",
+      "page": 12
+    },
+    {
+      "name": "Schéma chronologique relatif à l'article 4",
+      "description": "Le document imprime un schéma en trois phases : phase conseil (votre déclaration, notre étude préalable - appréciation de l'étendue et de la réalité de vos droits et de vos obligations) ; phase amiable (recherche en priorité d'une solution amiable, aboutissant à un règlement amiable ou, à défaut de solution amiable, à la décision d'un commun accord d'engager une action en justice) ; phase judiciaire (action en justice, la Macif prenant en charge les frais et honoraires selon les plafonds prévus). En cas de désaccord entre vous et la Macif sur les mesures à prendre : arbitrage par une tierce personne désignée d'un commun accord ou par le Président du tribunal de grande instance (en référé), débouchant sur le choix d'une action en justice ou sur une action en justice déconseillée ; si vous engagez néanmoins une action et gagnez, la Macif intervient, si vous perdez, vous supportez seul les frais et honoraires.",
+      "page": 17
+    },
+    {
+      "name": "Porteur du risque",
+      "description": "MACIF - MUTUELLE ASSURANCE DES COMMERCANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L'INDUSTRIE ET DU COMMERCE. Société d'assurance mutuelle à cotisations variables. Entreprise régie par le Code des assurances. Siège social : 1 rue Jacques Vandier - 79000 Niort.",
+      "page": 36
+    },
+    {
+      "name": "Identifiant éco-organisme",
+      "description": "L'identifiant unique de Macif délivré par l'éco-organisme Citéo est le FR231772_03LPC",
+      "page": 36
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Votre contrat est régi par le Code des assurances et est soumis à l’Autorité de contrôle prudentiel et de résolution (l’ACPR) : 61 rue Taitbout, 75436 Paris Cedex 9.",
+      "page": 4,
+      "context": "Cadre juridique et autorité de contrôle"
+    },
+    {
+      "quote": "Un service d’informations juridiques a été spécialement conçu pour donner à chacun, sans supplément de cotisation, l’information dont il peut avoir besoin à un moment donné en matière fiscale, de voisinage, de droit de la consommation, de la famille, etc… et ce sur simple appel téléphonique au numéro cristal 09 69 39 49 95 (appel non surtaxé). Ce service est limité à cinq sollicitations par année d’assurance*.",
+      "page": 4,
+      "context": "Service d'informations juridiques"
+    },
+    {
+      "quote": "Le montant de la franchise* appliquée dans le cadre de la responsabilité civile est mentionné dans vos conditions particulières. Cette franchise* n’est pas applicable à : -  votre responsabilité civile vie privée pour les dommages corporels (article 1) ; -  votre responsabilité civile vie privée pour les dommages causés par vos enfants scolarisés de la maternelle à la terminale lors de leurs activités scolaires et périscolaires* (article 1) ; -  votre responsabilité d’occupant d’une location saisonnière (article 2).",
+      "page": 11,
+      "context": "Franchise applicable à la responsabilité civile"
+    },
+    {
+      "quote": "Nous intervenons pour prendre en charge les conséquences pécuniaires d’un dommage que vous pourriez causer à un tiers dans le cadre des activités de la vie privée ou pour protéger vos droits, dans les conditions définies aux articles suivants.",
+      "page": 12,
+      "context": "Étendue générale des garanties"
+    },
+    {
+      "quote": "Lorsque la responsabilité de l’assuré se trouve engagée solidairement ou in solidum, nous ne garantissons à l’égard des tiers que les conséquences pécuniaires de sa propre part de responsabilité dans ses rapports avec le ou les co-obligés lorsqu’elle est déterminée, ou les conséquences pécuniaires de sa responsabilité à part égale avec le ou les co-obligés, lorsque sa part n’est pas déterminée.",
+      "page": 12,
+      "context": "Limite de garantie en cas de responsabilité solidaire ou in solidum"
+    },
+    {
+      "quote": "La garantie déclenchée par le fait dommageable couvre l’assuré contre les conséquences pécuniaires des sinistres*, dès lors que le fait dommageable survient entre la prise d’effet initiale de la garantie et sa date de résiliation ou d’expiration, quelle que soit la date des autres éléments constitutifs du sinistre*.",
+      "page": 13,
+      "context": "Art. 1 - Garantie dans le temps (base fait dommageable)"
+    },
+    {
+      "quote": "Les conséquences pécuniaires de la responsabilité civile que vous-même ou toute personne ayant la qualité d’assuré pouvez encourir à l’égard des tiers pour les dommages qu’ils ont subis, soit de votre propre fait, soit du fait :",
+      "page": 13,
+      "context": "Art. 1 - Ce qui est garanti (colonne gauche)"
+    },
+    {
+      "quote": "les dommages immatériels non consécutifs à un dommage matériel ou corporel garanti ;",
+      "page": 13,
+      "context": "Art. 1 - Exclusion des dommages immatériels non consécutifs"
+    },
+    {
+      "quote": "les dommages causés ou subis par un véhicule terrestre à moteur et ses remorques, une embarcation à voile (y compris le kitesurf ou flysurf) ou à moteur ou un appareil de navigation aérienne, lorsque l’assuré en a la propriété, la conduite ou la garde ;",
+      "page": 13,
+      "context": "Art. 1 - Exclusion véhicules, embarcations et appareils de navigation aérienne"
+    },
+    {
+      "quote": "les dommages résultant de la pratique de la chasse y compris les dommages causés par les chiens en action de chasse ;",
+      "page": 13,
+      "context": "Art. 1 - Exclusion chasse"
+    },
+    {
+      "quote": "Les actes volontaires, c’est-à-dire votre responsabilité en tant que chef de famille pour les dommages causés intentionnellement à des tiers par votre enfant mineur, sans que vous-même n’ayez été retenu comme auteur ou complice.",
+      "page": 14,
+      "context": "Art. 1 - Extension actes volontaires"
+    },
+    {
+      "quote": "A l’occasion d’un voyage ou d’une villégiature d’une durée inférieure à 90 jours consécutifs : Votre responsabilité d’occupant d’une location saisonnière à l’égard du propriétaire ou des voisins et des tiers en cas d’incendie, d’explosion et de dégât des eaux pour les dommages matériels et immatériels consécutifs* subis par les biens leur appartenant ou dont ils ont la garde. Les dommages corporels subis par le propriétaire, les voisins et les tiers sont garantis au titre de l’article 1. Votre responsabilité d’occupant d’une location saisonnière à l’égard du propriétaire en cas de bris de glace.",
+      "page": 14,
+      "context": "Art. 2 - Voyage ou villégiature"
+    },
+    {
+      "quote": "nous assumons à nos frais votre défense tant à l’amiable que devant toute juridiction civile, pénale ou administrative en raison d’action mettant en cause votre responsabilité assurée par ce contrat ;",
+      "page": 15,
+      "context": "Art. 3 - Défense : ce qui est garanti"
+    },
+    {
+      "quote": "nous exerçons une réclamation auprès d’un tiers responsable en vue d’obtenir la réparation du préjudice de l’assuré et nous prenons en charge les frais correspondants.",
+      "page": 15,
+      "context": "Art. 4 - Recours : ce qui est garanti"
+    },
+    {
+      "quote": "A défaut d’accord, nous n’intervenons sur le plan judiciaire que si le préjudice non indemnisé est supérieur à 750 euros. Nous ne sommes pas tenus d’exercer un recours amiable si le préjudice non indemnisé est inférieur à 300 euros.",
+      "page": 15,
+      "context": "Art. 4 - Seuils d'intervention amiable et judiciaire"
+    },
+    {
+      "quote": "Les frais et honoraires correspondant à des consultations ou des actes de procédure engagés antérieurement à la déclaration de sinistre* sont exclus, sauf si vous pouvez justifier d’une urgence à les avoir engagés.",
+      "page": 16,
+      "context": "Frais et honoraires antérieurs à la déclaration de sinistre"
+    },
+    {
+      "quote": "Outre les exclusions spécifiques évoquées dans chacune des garanties, sont toujours exclus au titre de ce contrat :",
+      "page": 21,
+      "context": "Exclusions communes : phrase d'attaque"
+    },
+    {
+      "quote": "Les amendes, y compris celles assimilées à des réparations civiles.",
+      "page": 21,
+      "context": "Exclusion commune des amendes"
+    },
+    {
+      "quote": "En cas de désaccord entre vous et la Macif à l’occasion de la gestion du présent contrat ou des règlements des sinistres*, vous devez d’abord faire valoir votre réclamation auprès du service concerné. Si cette démarche ne permet pas d’y mettre un terme, vous avez la possibilité de vous adresser à la Commission de recours interne dont nous vous communiquerons les coordonnées sur simple demande. Si ce désaccord devait persister, vous pouvez alors saisir La Médiation de l’Assurance : - Adresse : TSA 50110 75441 Paris Cedex 09 ; - Internet : http://www.mediation-assurance.org",
+      "page": 20,
+      "context": "Médiation"
+    },
+    {
+      "quote": "Les bases de notre accord reposent sur vos déclarations. Aussi, toute inexactitude intentionnelle ou non, toute omission peut nous amener, suivant le cas, à invoquer la nullité du contrat* ou la réduction des indemnités dues en cas de sinistre*.",
+      "page": 23,
+      "context": "Portée des déclarations"
+    },
+    {
+      "quote": "Elle est exigible en principe annuellement et d’avance à la date d’échéance*. Toutefois, un paiement fractionné peut vous être accordé.",
+      "page": 24,
+      "context": "Exigibilité de la cotisation"
+    },
+    {
+      "quote": "A défaut de paiement d’une cotisation (ou d’une fraction de cotisation) dans les dix jours suivant son échéance*, nous sommes en droit de vous adresser, à votre dernier domicile connu, une lettre recommandée de mise en demeure qui entraînera (sauf si entre temps la cotisation a été réglée) : la suspension de vos garanties trente jours après l’envoi de cette lettre ; la résiliation de votre contrat dix jours après la suspension, ceci indépendamment du droit de poursuivre l’exécution du contrat en justice.",
+      "page": 24,
+      "context": "Conséquences du non-paiement"
+    },
+    {
+      "quote": "Nous le déclarer à partir du moment où vous en avez eu connaissance et au plus tard dans les cinq jours ouvrés.",
+      "page": 25,
+      "context": "Délai de déclaration de sinistre"
+    },
+    {
+      "quote": "Toute fausse déclaration sur la nature, les causes, les circonstances ainsi que les conséquences du sinistre* ou toute utilisation de moyens frauduleux ou de documents inexacts vous priverait de tout droit à garantie, pour ce sinistre*, et vous exposerait à des poursuites pénales.",
+      "page": 25,
+      "context": "Sanction des fausses déclarations"
+    },
+    {
+      "quote": "Toutes les actions dérivant d’un contrat d’assurance sont prescrites par deux ans à compter de l’évènement qui y donne naissance.",
+      "page": 26,
+      "context": "Prescription"
+    },
+    {
+      "quote": "De la date d’effet jusqu’à l’échéance* principale suivante. A l’expiration de cette période, il est renouvelé automatiquement par période annuelle, sauf si nous décidons l’un ou l’autre d’y mettre fin dans les délais et conditions prévus ci-après (la fin du contrat).",
+      "page": 29,
+      "context": "Durée et reconduction du contrat"
+    },
+    {
+      "quote": "Si nous sommes amenés à majorer la cotisation hors taxes ou les franchises*, nous vous informons par l’avis d’échéance* ou par courrier. En cas de désaccord de votre part, vous pouvez résilier votre contrat dans les délais et conditions prévus ci-dessous (la fin du contrat). A défaut, les nouvelles conditions sont considérées comme acceptées à compter de la date d’échéance*.",
+      "page": 30,
+      "context": "Modification de la cotisation et des franchises"
+    },
+    {
+      "quote": "MACIF - MUTUELLE ASSURANCE DES COMMERCANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE. Société d’assurance mutuelle à cotisations variables. Entreprise régie par le Code des assurances. Siège social : 1 rue Jacques Vandier - 79000 Niort.",
+      "page": 36,
+      "context": "Colophon - porteur du risque"
+    },
+    {
+      "quote": "Il a pour mission essentielle de vous protéger dans le cadre de la responsabilité civile pour les dommages causés à des tiers au cours de la vie privée, que ce soit au quotidien ou à l’occasion d’un voyage ou d’une villégiature, y compris, dans ce contexte, pour les dégâts causés par exemple au propriétaire de votre location saisonnière.",
+      "page": 3,
+      "context": "Objet du contrat (lettre de présentation)"
+    }
+  ],
+  "gaps": [
+    "Le texte du prompt n'était pas tronqué (64 597 caractères) : la relecture du PDF local (data/fr/pdfs/macif/rc-privee/contrat-multigarantie-vie-privee-responsabilite-civile-aa7bc598.pdf) avec le même appel page.get_text(\"text\") que le harness restitue le même texte page à page. Les pages 2, 10, 22, 28, 33, 34 et 35 sont vides ou ne portent qu'un folio (pages blanches et intercalaires de partie), ce ne sont pas des pages perdues.",
+    "PORTEUR DU RISQUE : le seul nom accompagné d'une forme juridique est au colophon de la page 36 — « MACIF - MUTUELLE ASSURANCE DES COMMERCANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L'INDUSTRIE ET DU COMMERCE. Société d'assurance mutuelle à cotisations variables. Entreprise régie par le Code des assurances. Siège social : 1 rue Jacques Vandier - 79000 Niort. » C'est bien le porteur : le lexique de la page 7 pose que « le terme “nous” représente la Macif » et toutes les garanties sont rédigées à la première personne (« nous assumons à nos frais votre défense »). Aucun tiers gestionnaire, assisteur ou courtier n'est nommé dans ce document. Aucun numéro d'immatriculation (RCS, SIREN, ORIAS) n'est imprimé ; seul figure « L'identifiant unique de Macif délivré par l'éco-organisme Citéo est le FR231772_03LPC », qui n'est pas un numéro d'immatriculation d'entreprise et n'a pas été utilisé comme tel.",
+    "INVERSION ET ENTRELACEMENT DE COLONNES, CONTRÔLE FAIT ET POSITIF. Sur la page 13 (article 1), PyMuPDF FUSIONNE dans un même bloc des lignes appartenant AUX DEUX colonnes : le bloc de bbox x0 45,4 -> x1 544,1 à y 567,1 contient à la fois l'exclusion « les dommages corporels, matériels et immatériels causés par un immeuble… » (colonne droite) et la garantie « de vos animaux domestiques… » (colonne gauche). Un découpage au niveau des BLOCS attribuerait donc l'exclusion à la colonne gauche. Le rattachement a été refait AU NIVEAU DE LA LIGNE, sur l'abscisse propre de chaque ligne, et vérifié ligne à ligne. Dans le texte plat, l'ordre est bien entrelacé au niveau des blocs : gauche, puis droite, puis gauche (animaux domestiques, activités sportives), puis droite (animaux interdits, chasse, travaux, club sportif).",
+    "LA COUPURE ENTRE COLONNES A ÉTÉ MESURÉE, PAS SUPPOSÉE : dans la zone à deux colonnes, la plus grande abscisse de fin des lignes de gauche est 293,4 pt et la plus petite abscisse de début des lignes de droite est 313,2 pt ; la coupure retenue est x = 303 pt sur une A4 de 595 pt. Les en-têtes « Ce qui est garanti : » et « Ce qui est exclu : » sont, eux, émis DANS UN SEUL BLOC (x0 45,4 -> x1 388,3, pages 13 et 15) : dans le texte plat ils ne délimitent donc plus rien, et la polarité vient exclusivement des abscisses.",
+    "TABLEAU « OÙ S'EXERCENT VOS GARANTIES ? » (page 21) : LA MATRICE N'EXISTE PAS DANS LE CALQUE TEXTE. Les marques sont des tracés vectoriels. Reconstruction par coordonnées : 15 disques de 5,7 x 5,7 pt (remplissage RGB 0,342/0,341/0,338), dont 11 dans la grille et 4 servant de puces d'intitulés à x ~ 48. Abscisses de colonnes : 249,4 (« France métropolitaine »), 378,4 (« Pays de l'Union Européenne, Andorre, Liechtenstein, Monaco, Norvège, Saint-Marin, Suisse, Vatican, départements, régions et collectivités d'Outre-Mer »), 504,6 (« Monde entier (séjours de moins d'un an) »). L'ARITHMÉTIQUE FERME : 4 lignes x 3 colonnes = 12 cellules = 11 marques + 1 blanc, le blanc étant « Responsabilité d'occupant d'une location saisonnière » x « Monde entier ». Lecture vérifiée sur un rendu à 3x. Le seul texte de la grille est la mention « (amiable) » accolée à la marque « Monde entier » de la ligne Recours. Ces faits sont dans les champs structurés et jamais dans key_quotes.",
+    "NOTE SUR LA COULEUR DES MARQUEURS : ces disques sont gris 0,342 alors que le même gabarit Macif emploie ailleurs des disques de dimensions identiques (5,7 pt) en gris 0,113. Le tri a donc été fait sur la FORME et les DIMENSIONS, pas sur la couleur, puis confirmé au rendu.",
+    "POLARITÉ TIRÉE DE LA PHRASE ET NON DE LA COLONNE, UN CAS : dans la colonne « Ce qui est garanti » de l'article 1 (page 13) figure une restriction — « Sont garantis les frais de visites sanitaires engagés à la suite de morsures causées par ces animaux domestiques assurés, à l'exception des honoraires de vétérinaires chargés de l'évaluation comportementale des chiens “mordeurs” ». Elle est enregistrée comme exclusion, et sa description dit d'où vient la polarité.",
+    "Calque texte : 15 caractères de contrôle U+0007, chacun suivant immédiatement une espace demi-cadratin U+2002 tenant lieu de puce (séquence « \\u2002 \\x07 ») ; ils ne remplacent aucun contenu et ne sont donc PAS le signal de texte vectorisé. 259 U+2002, 42 U+2003, 3 U+2005 et 1 U+202F servent d'espaces de composition. Les puces elles-mêmes sont des tracés vectoriels et ne produisent aucun texte. Les 29 citations ont été découpées programmatiquement dans le calque, contournent tous les U+0007 et ont été vérifiées avec norm()/nospace() de pipeline/verify_grounding.py : 29 sur 29 grondées, aucune ne contient de caractère de contrôle ni de glyphe de zone à usage privé.",
+    "Le glyphe € sort correctement (20 occurrences, toutes dans le tableau des plafonds de la page 18) : aucun montant n'a perdu son unité. Les montants maximums de la page 11 sont, eux, écrits en toutes lettres (« 100 millions d'euros », « 10 millions d'euros »), de même que les seuils de l'article 4 (« 750 euros », « 300 euros ») ; ils sont repris tels quels.",
+    "DÉCALAGE FOLIO / PAGE PDF = -2, VÉRIFIÉ PAR ANCRAGE : folio 11 sur la page PDF 13, folio 13 sur la page 15, folio 19 sur la page 21, folio 24 sur la page 26. Le sommaire des pages 5 et 6 renvoie donc à des FOLIOS (« page 9 », « page 11 », « page 16 », « page 19 »…) et non à des pages PDF ; ces renvois sont conservés verbatim sans conversion. Tous les champs page de cette extraction citent le numéro de page PDF ([[page N]]).",
+    "Le contrat ne prévoit AUCUN délai d'attente : waiting_periods est un tableau vide. Les seuls seuils temporels sont la durée de moins de 90 jours consécutifs du voyage ou de la villégiature (article 2), le délai de renonciation de 14 jours et les délais de déclaration.",
+    "premium : le document décrit le mécanisme (cotisation variable, ristourne ou rappel plafonné à une fois et demie la cotisation normale, impôts et taxes inclus, fractionnement possible) mais n'imprime aucun barème ni montant : ceux-ci figurent aux conditions particulières, non fournies. Le montant de la franchise de responsabilité civile est lui aussi renvoyé aux conditions particulières.",
+    "Le schéma chronologique de la page 17 est une figure : son calque texte ne restitue que des étiquettes détachées, sans les flèches ni la hiérarchie. Il a été restitué en prose dans special_conditions à partir de ces étiquettes et de leur position ; aucune étape n'a été inventée, mais l'ordre de branchement reconstitué reste une lecture de la figure et non une citation.",
+    "Les tableaux de résiliation des pages 31 et 32 (« Par qui ? / Dans quels cas ? / Quand ? ») ont été transcrits ligne par ligne dans duration_and_cancellation.methods ; chaque ligne y garde son cas et son délai propres.",
+    "target_audience : renseigné à « particuliers ». Le document n'emploie pas ce mot mais réserve le contrat au sociétaire personne physique, couvre la « vie privée » et exclut l'activité professionnelle ; sa formulation exacte est reportée dans target_audience_note.",
+    "Le service d'informations juridiques (page 4) est enregistré comme garantie parce que le document le décrit comme une prestation accordée « sans supplément de cotisation » avec une limite chiffrée (cinq sollicitations par année d'assurance). Il ne figure toutefois ni dans le tableau des montants maximums garantis (page 11), ni dans le tableau territorial (page 21) : son étendue territoriale est laissée à null.",
+    "edition_date : le document imprime « Mai 2018 » sous la lettre de présentation (page 3) et le code « HAB/MVP RC/05 - 05/18 - N756 » au colophon (page 36) ; les deux concordent et le manifest porte 2018-05. Le contrat cite l'ACPR, le tribunal de grande instance et le tribunal d'instance : cette édition est antérieure à la réforme de l'organisation judiciaire, ce qui est signalé sans être corrigé."
+  ]
+}

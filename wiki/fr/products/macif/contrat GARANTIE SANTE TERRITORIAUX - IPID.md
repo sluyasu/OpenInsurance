@@ -489,6 +489,7 @@ Service systématiquement prévu au contrat : cautionnement de prêt pour les fo
 ## Documents liés
 
 - [Garantie Santé Territoriaux - Fiche](Garantie%20Sant%C3%A9%20Territoriaux%20-%20Fiche.md) - Fiche produit, éd. 10.01.2022
+- [Garantie Santé Territoriaux](Garantie%20Sant%C3%A9%20Territoriaux.md) - Conditions générales, éd. Janvier 2022
 
 ## Source & fidélité
 

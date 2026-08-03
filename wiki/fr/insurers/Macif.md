@@ -5,7 +5,7 @@ country: fr
 insurer_slug: macif
 name: Macif
 website: https://www.macif.fr
-products_count: 130
+products_count: 149
 branches_covered:
 - animaux
 - assurance-vie
@@ -26,6 +26,7 @@ branches_covered:
 - rc-professionnelle
 - retraite
 - sante
+- scolaire
 - voyage
 tags:
 - insurance/fr
@@ -42,7 +43,7 @@ generated: true
 
 ## Résumé
 
-**Macif** - [https://www.macif.fr](https://www.macif.fr). 130 document(s) across 20 branch(es).
+**Macif** - [https://www.macif.fr](https://www.macif.fr). 149 document(s) across 21 branch(es).
 
 ## Produits par branche
 
@@ -115,6 +116,7 @@ generated: true
 - [Contrat Habitation - Formule Protectrice - Résidence principale](../products/macif/Contrat%20Habitation%20-%20Formule%20Protectrice%20-%20R%C3%A9sidence%20principale.md) - Conditions générales (Avril 2024) · réf. HAB/PROT RP/05 - 04/24 - N752
 - [Contrat Habitation - Formule Protectrice - Résidence principale - IPID](../products/macif/Contrat%20Habitation%20-%20Formule%20Protectrice%20-%20R%C3%A9sidence%20principale%20-%20IPID.md) - IPID / Fiche d'information (04/24) · réf. HAB-PROT-RP 04/24
 - [Contrat Habitation - Formule Protectrice - Résidence principale](../products/macif/Contrat%20Habitation%20-%20Formule%20Protectrice%20-%20R%C3%A9sidence%20principale%20%282%29.md) - Conditions générales (Avril 2024) · réf. HAB/PROT RP/05 - 04/24 - N752
+- [Contrat Habitation - Formule Protectrice - Résidence secondaire](../products/macif/Contrat%20Habitation%20-%20Formule%20Protectrice%20-%20R%C3%A9sidence%20secondaire.md) - Conditions générales (Avril 2024) · réf. HAB/PROT RS/05 - 04/24 - N753
 - [Contrat Habitation - Formule Protectrice - Résidence secondaire - IPID](../products/macif/Contrat%20Habitation%20-%20Formule%20Protectrice%20-%20R%C3%A9sidence%20secondaire%20-%20IPID.md) - IPID / Fiche d'information (04/24) · réf. HAB-PROT-RS 04/24
 - [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire - IPID](../products/macif/Contrat%20Habitation%20-%20Formule%20%C3%89conomique%20-%20R%C3%A9sidence%20principale%20-%20R%C3%A9sidence%20secondaire%20-%20IPID.md) - IPID / Fiche d'information (04/24) · réf. HAB-ECO 04/24
 - [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire](../products/macif/Contrat%20Habitation%20-%20Formule%20%C3%89conomique%20-%20R%C3%A9sidence%20principale%20-%20R%C3%A9sidence%20secondaire.md) - Conditions générales (Avril 2024)
@@ -156,10 +158,15 @@ generated: true
 ### [Obsèques](../branches/Obs%C3%A8ques.md)
 - [Garantie Obsèques - Doc](../products/macif/Garantie%20Obs%C3%A8ques%20-%20Doc.md) - Document
 - [Garantie Obsèques - IPID](../products/macif/Garantie%20Obs%C3%A8ques%20-%20IPID.md) - IPID / Fiche d'information (1er juillet 2026) · réf. DIC Garantie Obsèques - 07/26
+- [Garantie Obsèques - Fiche](../products/macif/Garantie%20Obs%C3%A8ques%20-%20Fiche.md) - Fiche produit (Garanties en vigueur au 1er juillet 2026) · réf. SYNTHÈSE GO DEMAT - 07/26
 - [contrat GARANTIE OBSÈQUES - IPID](../products/macif/contrat%20GARANTIE%20OBS%C3%88QUES%20-%20IPID.md) - IPID / Fiche d'information (01/26) · réf. DIPA GARANTIE OBSÈQUES - 01/26
 
 ### [Prévoyance](../branches/Pr%C3%A9voyance.md)
+- [GARANTIE AUTONOMIE ET DÉPENDANCE](../products/macif/GARANTIE%20AUTONOMIE%20ET%20D%C3%89PENDANCE.md) - Conditions générales (2026-01-01) · réf. U776 - UNI/PREI/AUT DEP/05 - 01/26
+- [GARANTIE DÉCÈS (Capital forfaitaire)](../products/macif/GARANTIE%20D%C3%89C%C3%88S%20%28Capital%20forfaitaire%29.md) - Conditions générales (2026-01) · réf. U203 - UNI/PREI/DEC CF/05 - 01/26
+- [PRÉVOYANCE CCN CABINETS D'EXPERTS-COMPTABLES ET COMMISSAIRES AUX COMPTES](../products/macif/PR%C3%89VOYANCE%20CCN%20CABINETS%20D%27EXPERTS-COMPTABLES%20ET%20COMMISSAIRES%20AUX%20COMPTES.md) - Conditions générales (2026-01) · réf. NID CCN CEC/CC - 01/26
 - [Prévoyance CCN Cabinets d'experts comptables et commissaires aux comptes (IDCC 787) - IPID](../products/macif/Pr%C3%A9voyance%20CCN%20Cabinets%20d%27experts%20comptables%20et%20commissaires%20aux%20comptes%20%28IDCC%20787%29%20-%20IPID.md) - IPID / Fiche d'information (01/26) · réf. DIPA  EXPERTS COMPTABLES - 01/26
+- [Prévoyance CCN cabinets d'experts comptables et commissaires aux comptes (IDCC 787)](../products/macif/Pr%C3%A9voyance%20CCN%20cabinets%20d%27experts%20comptables%20et%20commissaires%20aux%20comptes%20%28IDCC%20787%29.md) - Conditions générales (2026-01-01) · réf. CG CCN CEC/CC - 01/26
 - [contrat GARANTIE AUTONOMIE ET DÉPENDANCE - IPID](../products/macif/contrat%20GARANTIE%20AUTONOMIE%20ET%20D%C3%89PENDANCE%20-%20IPID.md) - IPID / Fiche d'information (01/26) · réf. DIPA GARANTIE AUTONOMIE ET DÉPENDANCE - 01/26
 - [contrat GARANTIE DÉCÈS (Décès, invalidité et arrêt de travail temporaire) - IPID](../products/macif/contrat%20GARANTIE%20D%C3%89C%C3%88S%20%28D%C3%A9c%C3%A8s%2C%20invalidit%C3%A9%20et%20arr%C3%AAt%20de%20travail%20temporaire%29%20-%20IPID.md) - IPID / Fiche d'information (01/26) · réf. DIPA GARANTIE DÉCÈS - 01/26
 - [contrat GARANTIE DÉCÈS Capital forfaitaire - IPID](../products/macif/contrat%20GARANTIE%20D%C3%89C%C3%88S%20Capital%20forfaitaire%20-%20IPID.md) - IPID / Fiche d'information (01/26) · réf. DIPA GARANTIE DÉCÈS CAPITAL FORFAITAIRE - 01/26
@@ -171,6 +178,7 @@ generated: true
 ### [Responsabilité civile vie privée](../branches/Responsabilit%C3%A9%20civile%20vie%20priv%C3%A9e.md)
 - [Contrat Macif Habitation - Formule Responsabilité civile - IPID](../products/macif/Contrat%20Macif%20Habitation%20-%20Formule%20Responsabilit%C3%A9%20civile%20-%20IPID.md) - IPID / Fiche d'information (06/25) · réf. MACIF HAB RC 06/25
 - [Contrat Multigarantie Vie Privée - Responsabilité Civile - IPID](../products/macif/Contrat%20Multigarantie%20Vie%20Priv%C3%A9e%20-%20Responsabilit%C3%A9%20Civile%20-%20IPID.md) - IPID / Fiche d'information (10/18) · réf. HAB MVP RC 10/18
+- [Contrat Multigarantie Vie privée Responsabilité civile](../products/macif/Contrat%20Multigarantie%20Vie%20priv%C3%A9e%20Responsabilit%C3%A9%20civile.md) - Conditions générales (Mai 2018) · réf. HAB/MVP RC/05 - 05/18 - N756
 
 ### [RC professionnelle](../branches/RC%20professionnelle.md)
 - [Contrat Auto-Micro Entrepreneur](../products/macif/Contrat%20Auto-Micro%20Entrepreneur.md) - Conditions générales (2012-12) · réf. PRO / AUTOE / 05 - 12 / 12 - NM00
@@ -183,11 +191,16 @@ generated: true
 ### [Complémentaire santé](../branches/Compl%C3%A9mentaire%20sant%C3%A9.md)
 - [CONTRAT MACIF SANTÉ DES TERRITORIAUX - IPID](../products/macif/CONTRAT%20MACIF%20SANT%C3%89%20DES%20TERRITORIAUX%20-%20IPID.md) - IPID / Fiche d'information (2026-06)
 - [Complémentaire Santé CCN des Cabinets ou Entreprises d'expertise en automobile - Fiche](../products/macif/Compl%C3%A9mentaire%20Sant%C3%A9%20CCN%20des%20Cabinets%20ou%20Entreprises%20d%27expertise%20en%20automobile%20-%20Fiche.md) - Fiche produit (Garanties en vigueur au 1er janvier 2026)
+- [Complémentaire santé CCN des cabinets ou entreprises d'expertises en automobile](../products/macif/Compl%C3%A9mentaire%20sant%C3%A9%20CCN%20des%20cabinets%20ou%20entreprises%20d%27expertises%20en%20automobile.md) - Conditions générales (2026-01) · réf. NID/CS CCN Expert Auto/GA - 01/26
 - [Complémentaire santé de la Branche de l'Aide, de l'Accompagnement des Soins et des Services à Domicile (Régime Général) ](../products/macif/Compl%C3%A9mentaire%20sant%C3%A9%20de%20la%20Branche%20de%20l%27Aide%2C%20de%20l%27Accompagnement%20des%20Soins%20et%20des%20Services%20%C3%A0%20Domicile%20%28R%C3%A9gime%20G%C3%A9n%C3%A9ral%29%20.md) - Fiche produit (01/2023) · réf. Santé Branche de l'Aide, de l'Accompagnement, des Soins et des Services à Domicile - Encart tarifaire RG - 01/2023
+- [Contrat COMPLÉMENTAIRE SANTÉ BRANCHE DE L'AIDE, DE L'ACCOMPAGNEMENT, DES SOINS ET DES SERVICES À DOMICILE (BAD) - IPID](../products/macif/Contrat%20COMPL%C3%89MENTAIRE%20SANT%C3%89%20BRANCHE%20DE%20L%27AIDE%2C%20DE%20L%27ACCOMPAGNEMENT%2C%20DES%20SOINS%20ET%20DES%20SERVICES%20%C3%80%20DOMICILE%20%28BAD%29%20-%20IPID.md) - IPID / Fiche d'information (01/19) · réf. DIPA BAD 01/19
 - [GARANTIE HOSPITALISATION - IPID](../products/macif/GARANTIE%20HOSPITALISATION%20-%20IPID.md) - IPID / Fiche d'information (01/2022) · réf. DIPA GARANTIE HOSPITALISATION 01/2022
 - [Garantie Santé](../products/macif/Garantie%20Sant%C3%A9.md) - Conditions générales (2023-01) · réf. UNI/PREI/GS/05 01/23
+- [Garantie Santé - Fiche](../products/macif/Garantie%20Sant%C3%A9%20-%20Fiche.md) - Fiche produit (2022-01-01)
 - [Garantie Santé Territoriaux - Fiche](../products/macif/Garantie%20Sant%C3%A9%20Territoriaux%20-%20Fiche.md) - Fiche produit (10.01.2022)
+- [Garantie Santé Territoriaux](../products/macif/Garantie%20Sant%C3%A9%20Territoriaux.md) - Conditions générales (Janvier 2022)
 - [MACIF HOSPITALISATION](../products/macif/MACIF%20HOSPITALISATION%20%282%29.md) - Conditions générales (01/24) · réf. U??? - UNI/PREI/MH/05 - 01/24
+- [MACIF MUTUELLE SANTÉ](../products/macif/MACIF%20MUTUELLE%20SANT%C3%89.md) - Conditions générales (06/2026 (Garanties en vigueur au 1er juin 2026)) · réf. U616 - UNI/PREI/MMS/05 - 06/26
 - [Macif Hospitalisation](../products/macif/Macif%20Hospitalisation.md) - Conditions générales (01/26) · réf. U022 - UNI/PREI/MH/05 - 01/26
 - [Macif Mutuelle Entreprises](../products/macif/Macif%20Mutuelle%20Entreprises.md) - Conditions générales (2025-01) · réf. CG M M E - 01/25
 - [Macif Mutuelle Entreprises - Fiche](../products/macif/Macif%20Mutuelle%20Entreprises%20-%20Fiche.md) - Fiche produit (01/26) · réf. TG MME - 01/26
@@ -200,8 +213,10 @@ generated: true
 - [Macif Mutuelle Entreprises - Formule Etendue - Régime Général - Fiche](../products/macif/Macif%20Mutuelle%20Entreprises%20-%20Formule%20Etendue%20-%20R%C3%A9gime%20G%C3%A9n%C3%A9ral%20-%20Fiche.md) - Fiche produit (2026-01)
 - [Macif Mutuelle Entreprises - Formule Excellence - Régime Général - Fiche](../products/macif/Macif%20Mutuelle%20Entreprises%20-%20Formule%20Excellence%20-%20R%C3%A9gime%20G%C3%A9n%C3%A9ral%20-%20Fiche.md) - Fiche produit (au 1er janvier 2026)
 - [Macif Mutuelle Santé - Fiche](../products/macif/Macif%20Mutuelle%20Sant%C3%A9%20-%20Fiche.md) - Fiche produit (Garanties en vigueur au 1er janvier 2026) · réf. TG MACIF MUTUELLE SANTÉ - 01/26
-- [Macif Mutuelle Santé](../products/macif/Macif%20Mutuelle%20Sant%C3%A9.md) - Conditions générales (01/24) · réf. UNI/PREI/MMS/05 01/24
+- [Macif Mutuelle Santé - Fiche](../products/macif/Macif%20Mutuelle%20Sant%C3%A9%20-%20Fiche%20%282%29.md) - Fiche produit (06/26) · réf. TG MACIF MUTUELLE SANTÉ - 06/26
+- [Macif Mutuelle Santé](../products/macif/Macif%20Mutuelle%20Sant%C3%A9%20%282%29.md) - Conditions générales (01/24) · réf. UNI/PREI/MMS/05 01/24
 - [Macif Mutuelle Santé - Macif Hospitalisation - Fiche](../products/macif/Macif%20Mutuelle%20Sant%C3%A9%20-%20Macif%20Hospitalisation%20-%20Fiche.md) - Fiche produit (01/06/2026)
+- [Macif Santé des Territoriaux - Fiche](../products/macif/Macif%20Sant%C3%A9%20des%20Territoriaux%20-%20Fiche.md) - Fiche produit (06/26) · réf. TG MACIF SANTÉ DES TERRITORIAUX - 06/26
 - [Régime conventionnel Frais de santé - CCN BAD (Branche de l'aide, de l'accompagnement, des soins et des services à domic](../products/macif/R%C3%A9gime%20conventionnel%20Frais%20de%20sant%C3%A9%20-%20CCN%20BAD%20%28Branche%20de%20l%27aide%2C%20de%20l%27accompagnement%2C%20des%20soins%20et%20des%20services%20%C3%A0%20domic.md) - Conditions générales (V01.01.2023)
 - [contrat COMPLÉMENTAIRE SANTÉ CCN DES CABINETS OU ENTREPRISES D'EXPERTISES EN AUTOMOBILE - IPID](../products/macif/contrat%20COMPL%C3%89MENTAIRE%20SANT%C3%89%20CCN%20DES%20CABINETS%20OU%20ENTREPRISES%20D%27EXPERTISES%20EN%20AUTOMOBILE%20-%20IPID.md) - IPID / Fiche d'information (01/25) · réf. DIPA/CS CCN Expert Auto/GA - 01/25
 - [contrat GARANTIE SANTE TERRITORIAUX - IPID](../products/macif/contrat%20GARANTIE%20SANTE%20TERRITORIAUX%20-%20IPID.md) - IPID / Fiche d'information (01/2022) · réf. DIPA GST 01/2022
@@ -212,9 +227,16 @@ generated: true
 - [contrat MACIF MUTUELLE SANTÉ - IPID](../products/macif/contrat%20MACIF%20MUTUELLE%20SANT%C3%89%20-%20IPID.md) - IPID / Fiche d'information (01/26) · réf. DIPA  MACIF MUTUELLE SANTÉ - 01/26
 - [contrat MACIF MUTUELLE SANTÉ - IPID](../products/macif/contrat%20MACIF%20MUTUELLE%20SANT%C3%89%20-%20IPID%20%282%29.md) - IPID / Fiche d'information (10/22) · réf. DIPA  MACIF MUTUELLE SANTÉ - 10/22
 
+### [Scolaire et extrascolaire](../branches/Scolaire%20et%20extrascolaire.md)
+- [Extension de l'assurance scolaire](../products/macif/Extension%20de%20l%27assurance%20scolaire.md) - Conditions générales (mai 2013) · réf. PREI/EAS/05 - 05/13 N094
+
 ### [Voyage et assistance](../branches/Voyage%20et%20assistance.md)
+- [ASSURANCE INDIVIDUELLE ACCIDENT VOYAGE CARTE VISA DEPLACEMENT PRIVE](../products/macif/ASSURANCE%20INDIVIDUELLE%20ACCIDENT%20VOYAGE%20CARTE%20VISA%20DEPLACEMENT%20PRIVE.md) - Conditions générales (2017-01) · réf. Contrat n° 8314/0005
+- [ASSURANCE INDIVIDUELLE ACCIDENT VOYAGE CARTE VISA Electron DEPLACEMENT PRIVE](../products/macif/ASSURANCE%20INDIVIDUELLE%20ACCIDENT%20VOYAGE%20CARTE%20VISA%20Electron%20DEPLACEMENT%20PRIVE.md) - Conditions générales (2017-01) · réf. Contrat n° 8314/4007
 - [Assistance médicale « Carte Visa Classic » (Assistance médicale - Contrat Etranger)](../products/macif/Assistance%20m%C3%A9dicale%20%C2%AB%20Carte%20Visa%20Classic%20%C2%BB%20%28Assistance%20m%C3%A9dicale%20-%20Contrat%20Etranger%29.md) - Conditions générales (01/01/2021) · réf. Notice d'Information n° 922091 - « Notice d'Information valant Convention d'assistance - Carte Visa Classic n°922091 - 01/01/2021 » (en-tête courant de chaque page)
+- [Assistance médicale « Carte Visa Electron » - Déplacement privé (Notice d'Information valant Convention d'assistance n° ](../products/macif/Assistance%20m%C3%A9dicale%20%C2%AB%20Carte%20Visa%20Electron%20%C2%BB%20-%20D%C3%A9placement%20priv%C3%A9%20%28Notice%20d%27Information%20valant%20Convention%20d%27assistance%20n%C2%B0%20.md) - Conditions générales (Valable du 01/01/2017 au 31/12/2019) · réf. N° 922.093 (« Notice d'Information n° 922.093 », page de garde)
 - [CARTE VISA Premier](../products/macif/CARTE%20VISA%20Premier.md) - Conditions générales · réf. CONTRAT n° 5073788704
+- [Notice d'Information valant Convention d'assistance - Carte Visa Electron n°922093](../products/macif/Notice%20d%27Information%20valant%20Convention%20d%27assistance%20-%20Carte%20Visa%20Electron%20n%C2%B0922093.md) - Conditions générales (01/01/2021) · réf. N° 922093
 
 ## Source
 

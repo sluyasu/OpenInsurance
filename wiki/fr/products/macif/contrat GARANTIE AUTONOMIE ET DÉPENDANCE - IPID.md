@@ -212,6 +212,10 @@ Des garanties d'assistance dédiées aux aidants (intervention d'une aide à dom
 - ÉDITION : une seule ligne d'édition, « DIPA GARANTIE AUTONOMIE ET DÉPENDANCE - 01/26 », présente à la fois dans le chapeau (« Référence du document : … ») et imprimée verticalement en marge droite de la page 1 ; une seule chaîne de forme date dans le document, donc pas de bandeau fantôme.
 - Le texte du prompt n'était pas tronqué (2 pages, 10 650 caractères). Les citations ont été découpées programmatiquement dans le texte ré-extrait du PDF local avec `page.get_text("text")`, page par page, donc sans marqueur `[page N]` et sans caractère U+0007. Deux citations ont été volontairement arrêtées avant une zone corrompue du calque : celle du porteur s'arrête après le numéro d'identification, celle du délai d'attente neurologique s'arrête à « la maladie de Charcot ».
 
+## Documents liés
+
+- [GARANTIE AUTONOMIE ET DÉPENDANCE](GARANTIE%20AUTONOMIE%20ET%20D%C3%89PENDANCE.md) - Conditions générales, éd. 2026-01-01
+
 ## Source & fidélité
 
 - Source : [https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_garantie_autonomie_et_dependance.pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_garantie_autonomie_et_dependance.pdf) - téléchargé le 2026-08-01 - 2 pages

@@ -195,6 +195,10 @@ Rubrique « GARANTIES D'ASSISTANCE », citée sans détail dans ce document : au
 - Prompt non tronqué : 20 160 caractères, très en deçà du plafond de 240 000. Les 2 pages du texte du prompt ont été vérifiées identiques octet pour octet à page.get_text("text") du PDF local data/fr/pdfs/macif/prevoyance/prevoyance-ccn-cabinets-dexperts-comptables-et-commissaires-aux-comptes-idcc-787-e847be36.pdf.
 - Porteur de risque: ce document nomme « Macif Santé Prévoyance », qui n'est pas l'entite dont la bibliotheque publique l'a fourni (Macif). Le champ insurer_name porte le proprietaire de la bibliotheque, pour le regroupement des pages; la lecture du document est celle-ci. A verifier contre le registre du superviseur avant d'en tirer qui porte le risque.
 
+## Documents liés
+
+- [PRÉVOYANCE CCN CABINETS D'EXPERTS-COMPTABLES ET COMMISSAIRES AUX COMPTES](PR%C3%89VOYANCE%20CCN%20CABINETS%20D%27EXPERTS-COMPTABLES%20ET%20COMMISSAIRES%20AUX%20COMPTES.md) - Conditions générales, éd. 2026-01
+
 ## Source & fidélité
 
 - Source : [https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_experts_comptables.pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_experts_comptables.pdf) - téléchargé le 2026-08-01 - 2 pages

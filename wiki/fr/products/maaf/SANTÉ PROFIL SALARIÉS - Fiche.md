@@ -207,6 +207,7 @@ Prix moyen national. Base de remboursement : BR. Remboursement de l'assurance ma
 ## Documents liés
 
 - [Assurance SANTÉ PROFIL SALARIÉS](Assurance%20SANT%C3%89%20PROFIL%20SALARI%C3%89S.md) - Conditions générales, éd. 10.2025
+- [SANTÉ PROFIL SALARIÉS](SANT%C3%89%20PROFIL%20SALARI%C3%89S.md) - Conditions générales, éd. 10.2025
 
 ## Source & fidélité
 

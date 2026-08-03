@@ -5,7 +5,7 @@ country: fr
 insurer_slug: smacl
 name: SMACL Assurances
 website: https://www.smacl.fr
-products_count: 104
+products_count: 108
 branches_covered:
 - auto
 - autres
@@ -37,7 +37,7 @@ generated: true
 
 ## Résumé
 
-**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 104 document(s) across 15 branch(es).
+**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 108 document(s) across 15 branch(es).
 
 ## Produits par branche
 
@@ -84,6 +84,7 @@ generated: true
 
 ### [Assurance construction](../branches/Assurance%20construction.md)
 - [Dommages ouvrage - IPID](../products/smacl/Dommages%20ouvrage%20-%20IPID.md) - IPID / Fiche d'information (01/2024) · réf. CONSTRUCTION_DIPA_DO_SA_01(06_2021)
+- [Dommages ouvrage (SMACL Assurances SA)](../products/smacl/Dommages%20ouvrage%20%28SMACL%20Assurances%20SA%29.md) - Conditions générales (01/2024) · réf. CONSTRUCTION_CG_DO_SA_06(02_2023)
 - [Tous risques chantier - IPID](../products/smacl/Tous%20risques%20chantier%20-%20IPID.md) - IPID / Fiche d'information (01/2024) · réf. CONSTRUCTION_DIPA_TRC_SA_01(06_2021)
 - [Tous risques chantier](../products/smacl/Tous%20risques%20chantier.md) - Conditions générales (11/2022) · réf. CONSTRUCTION_CG_TRC_SA_07(02_2023)
 
@@ -118,6 +119,7 @@ generated: true
 - [Votre barème de remboursement des honoraires d'expert d'assuré en Dommages aux biens - Tarifs](../products/smacl/Votre%20bar%C3%A8me%20de%20remboursement%20des%20honoraires%20d%27expert%20d%27assur%C3%A9%20en%20Dommages%20aux%20biens%20-%20Tarifs.md) - Conditions tarifaires (01/2024) · réf. BAREME_EXPERT_ASSURE_DAB_(10-2012)
 
 ### [Navigation de plaisance](../branches/Navigation%20de%20plaisance.md)
+- [Assurance navigation de plaisance (SAM (société d'assurance mutuelle))](../products/smacl/Assurance%20navigation%20de%20plaisance%20%28SAM%20%28soci%C3%A9t%C3%A9%20d%27assurance%20mutuelle%29%29.md) - Conditions générales (01/2024) · réf. NAVIMUT_CG_NAVIMUT_05(02_2023)
 - [Assurance navigation de plaisance](../products/smacl/Assurance%20navigation%20de%20plaisance.md) - Conditions générales (12/2023) · réf. NAVIMUT_CG_NAVIMUT_SA_05(02_2023)
 - [Convention Assistance Navigation de plaisance](../products/smacl/Convention%20Assistance%20Navigation%20de%20plaisance.md) - Conditions générales (01/2024) · réf. NAVIMUT_CA_NAVIMUT_SA_02(01_2017)
 
@@ -136,6 +138,7 @@ generated: true
 ### [Protection juridique](../branches/Protection%20juridique.md)
 - [Assurance Protection fonctionnelle des agents et des élus - IPID](../products/smacl/Assurance%20Protection%20fonctionnelle%20des%20agents%20et%20des%20%C3%A9lus%20-%20IPID.md) - IPID / Fiche d'information (03/2020) · réf. PROMUT_DIPA_PROMUT_02 (03_2020)
 - [Assurance des associations - protection juridique des associations - IPID](../products/smacl/Assurance%20des%20associations%20-%20protection%20juridique%20des%20associations%20-%20IPID.md) - IPID / Fiche d'information (11/2022) · réf. ADA_DIPA_PJ_02(07_2020)
+- [Assurance protection juridique des associations](../products/smacl/Assurance%20protection%20juridique%20des%20associations.md) - Conditions générales (01/2024) · réf. ADA_CG_PJASSO_03(02_2023)
 - [Convention Information juridique – Particuliers (SMACL Assurances (société d'assurance mutuelle)) - Doc](../products/smacl/Convention%20Information%20juridique%20%E2%80%93%20Particuliers%20%28SMACL%20Assurances%20%28soci%C3%A9t%C3%A9%20d%27assurance%20mutuelle%29%29%20-%20Doc.md) - Document (01/2024) · réf. CONVENTION_IJ_PARTICULIER_02(02_2023)_TEL
 - [Convention Information juridique – Particuliers (SMACL Assurances SA (société anonyme)) - Doc](../products/smacl/Convention%20Information%20juridique%20%E2%80%93%20Particuliers%20%28SMACL%20Assurances%20SA%20%28soci%C3%A9t%C3%A9%20anonyme%29%29%20-%20Doc.md) - Document (01/2024) · réf. CONVENTION_IJ_PARTICULIER_SA_02(02_2023)_TEL
 - [Information juridique Associations - Doc](../products/smacl/Information%20juridique%20Associations%20-%20Doc.md) - Document (01/2024) · réf. CONVENTION_IJ_ASSOCIATIONS_02(02_2023)
@@ -147,6 +150,7 @@ generated: true
 - [JURIS-ASSO - Assurance Protection juridique des associations](../products/smacl/JURIS-ASSO%20-%20Assurance%20Protection%20juridique%20des%20associations.md) - Conditions générales (01/2024)
 - [Juripacte - IPID](../products/smacl/Juripacte%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. JURIPACTE_DIPA_PJ_01(06/2021)
 - [Juris-Asso - IPID](../products/smacl/Juris-Asso%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. JURISASSO_DIPA_PJ_01(03_2019)
+- [PROMUT](../products/smacl/PROMUT.md) - Conditions générales (05/2025) · réf. PROMUT_CG_PROMUT_07(02_2023)
 - [Protection juridique (Particuliers)](../products/smacl/Protection%20juridique%20%28Particuliers%29.md) - Conditions générales (11/2022) · réf. PP_CG_PJ_ 03(02_2023)
 - [Vos plafonds contractuels de prise en charge - Protection juridique - Tarifs](../products/smacl/Vos%20plafonds%20contractuels%20de%20prise%20en%20charge%20-%20Protection%20juridique%20-%20Tarifs.md) - Conditions tarifaires (08/2022) · réf. PLAFONDS_HONORAIRES_AVOCATS_PM_PJ_01(01_2012)
 - [Votre barème de prise en charge - Garantie protection juridique - Tarifs](../products/smacl/Votre%20bar%C3%A8me%20de%20prise%20en%20charge%20-%20Garantie%20protection%20juridique%20-%20Tarifs.md) - Conditions tarifaires (07/2025) · réf. PP_BAREME_PJ_01(10_2015)

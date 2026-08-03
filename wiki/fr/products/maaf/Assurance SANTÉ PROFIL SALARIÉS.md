@@ -27,7 +27,7 @@ extraction_model: claude-code-subagent:scale
 prompt_version: '1.1'
 product_family: sante-profil-salaries
 variant: null
-edition_status: null
+edition_status: current
 edition_age_years: 1
 superseded: null
 extends: null
@@ -388,7 +388,9 @@ Un réseau de professionnels de santé qui se sont engagés contractuellement su
 
 ## Documents liés
 
+- Édition courante de ce produit.
 - [SANTÉ PROFIL SALARIÉS - Fiche](SANT%C3%89%20PROFIL%20SALARI%C3%89S%20-%20Fiche.md) - Fiche produit, éd. 1er janvier 2026
+- [SANTÉ PROFIL SALARIÉS](SANT%C3%89%20PROFIL%20SALARI%C3%89S.md) - Conditions générales, éd. 10.2025
 
 ## Source & fidélité
 

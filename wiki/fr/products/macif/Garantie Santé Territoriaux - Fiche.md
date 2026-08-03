@@ -534,6 +534,7 @@ Il s'agit du délai au-delà duquel toute demande relative au contrat d'assuranc
 ## Documents liés
 
 - [contrat GARANTIE SANTE TERRITORIAUX - IPID](contrat%20GARANTIE%20SANTE%20TERRITORIAUX%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/2022
+- [Garantie Santé Territoriaux](Garantie%20Sant%C3%A9%20Territoriaux.md) - Conditions générales, éd. Janvier 2022
 
 ## Source & fidélité
 

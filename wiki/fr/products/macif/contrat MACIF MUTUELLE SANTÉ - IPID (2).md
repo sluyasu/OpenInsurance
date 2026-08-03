@@ -297,7 +297,9 @@ rencés ANSM »), conservée. Espaces fines U+2009 dans « 100 € / enfant ». 
 - ⚠️ Édition remplacée par une version plus récente : [contrat MACIF MUTUELLE SANTÉ - IPID](contrat%20MACIF%20MUTUELLE%20SANT%C3%89%20-%20IPID.md)
 - [contrat MACIF MUTUELLE SANTÉ - IPID](contrat%20MACIF%20MUTUELLE%20SANT%C3%89%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/26
 - [Macif Mutuelle Santé - Fiche](Macif%20Mutuelle%20Sant%C3%A9%20-%20Fiche.md) - Fiche produit, éd. Garanties en vigueur au 1er janvier 2026
-- [Macif Mutuelle Santé](Macif%20Mutuelle%20Sant%C3%A9.md) - Conditions générales, éd. 01/24
+- [MACIF MUTUELLE SANTÉ](MACIF%20MUTUELLE%20SANT%C3%89.md) - Conditions générales, éd. 06/2026 (Garanties en vigueur au 1er juin 2026)
+- [Macif Mutuelle Santé - Fiche](Macif%20Mutuelle%20Sant%C3%A9%20-%20Fiche%20%282%29.md) - Fiche produit, éd. 06/26
+- [Macif Mutuelle Santé](Macif%20Mutuelle%20Sant%C3%A9%20%282%29.md) - Conditions générales, éd. 01/24
 - [Macif Mutuelle Santé - Macif Hospitalisation - Fiche](Macif%20Mutuelle%20Sant%C3%A9%20-%20Macif%20Hospitalisation%20-%20Fiche.md) - Fiche produit, éd. 01/06/2026
 
 ## Source & fidélité

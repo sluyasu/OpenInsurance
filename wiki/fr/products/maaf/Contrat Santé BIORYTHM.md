@@ -719,6 +719,7 @@ Conformément à l'article L.221-11 du Code de la mutualité, toute action déri
 
 ## Documents liés
 
+- [ASSURANCE SANTÉ BIORYTHM (Niveaux 1 à 4) - Fiche](ASSURANCE%20SANT%C3%89%20BIORYTHM%20%28Niveaux%201%20%C3%A0%204%29%20-%20Fiche.md) - Fiche produit, éd. Prestations en vigueur au 01/12/2025
 - [BIORYTHM - Fiche](BIORYTHM%20-%20Fiche.md) - Fiche produit
 
 ## Source & fidélité

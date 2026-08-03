@@ -591,6 +591,7 @@ Pour les “autres prothèses remboursées par le RO*” et “l’orthodontie�
 - ⚠️ Édition remplacée par une version plus récente : [contrat GARANTIE SANTÉ - IPID](contrat%20GARANTIE%20SANT%C3%89%20-%20IPID.md)
 - [contrat GARANTIE SANTÉ - IPID](contrat%20GARANTIE%20SANT%C3%89%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/2022
 - [Garantie Santé](Garantie%20Sant%C3%A9.md) - Conditions générales, éd. 2023-01
+- [Garantie Santé - Fiche](Garantie%20Sant%C3%A9%20-%20Fiche.md) - Fiche produit, éd. 2022-01-01
 
 ## Source & fidélité
 

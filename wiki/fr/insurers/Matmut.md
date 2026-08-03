@@ -5,7 +5,7 @@ country: fr
 insurer_slug: matmut
 name: Matmut
 website: https://www.matmut.fr
-products_count: 185
+products_count: 190
 branches_covered:
 - animaux
 - assurance-vie
@@ -43,7 +43,7 @@ generated: true
 
 ## Résumé
 
-**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 185 document(s) across 21 branch(es).
+**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 190 document(s) across 21 branch(es).
 
 ## Produits par branche
 
@@ -146,6 +146,7 @@ generated: true
 - [Contrat « Multigaranties Résidence principale » - IPID](../products/matmut/Contrat%20%C2%AB%20Multigaranties%20R%C3%A9sidence%20principale%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (12-23) · réf. IPID.RP–12-23
 - [Contrat « Multigaranties Résidence secondaire » - IPID](../products/matmut/Contrat%20%C2%AB%20Multigaranties%20R%C3%A9sidence%20secondaire%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (12-23) · réf. IPID.RS – 12-23
 - [Contrat « Multigaranties Terrain-Bâtiment non habitable » - IPID](../products/matmut/Contrat%20%C2%AB%20Multigaranties%20Terrain-B%C3%A2timent%20non%20habitable%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (05/24) · réf. IPID.TBNH – 05/24
+- [Habitation Initiale & Co Propriétaire Non Occupant](../products/matmut/Habitation%20Initiale%20%26%20Co%20Propri%C3%A9taire%20Non%20Occupant.md) - Conditions générales (12/23) · réf. CG PNO INIT & CO- 12/23
 - [Habitation Initiale & Co Résidence Principale](../products/matmut/Habitation%20Initiale%20%26%20Co%20R%C3%A9sidence%20Principale.md) - Conditions générales (12/23) · réf. CG MGAR RP INIT & CO – 12/23
 - [Habitation Initiale & Co Résidence Secondaire](../products/matmut/Habitation%20Initiale%20%26%20Co%20R%C3%A9sidence%20Secondaire.md) - Conditions générales (12/23) · réf. CG RS INIT & CO – 12/23
 - [Habitation Matmut Étudiants](../products/matmut/Habitation%20Matmut%20%C3%89tudiants.md) - Conditions générales · réf. CG HAB ETUD – 05/24
@@ -205,6 +206,7 @@ generated: true
 
 ### [Prévoyance](../branches/Pr%C3%A9voyance.md)
 - [Complice Prévoyance Matmut - IPID](../products/matmut/Complice%20Pr%C3%A9voyance%20Matmut%20-%20IPID.md) - IPID / Fiche d'information (10/25) · réf. IPID.CPM
+- [Complice Prévoyance Matmut](../products/matmut/Complice%20Pr%C3%A9voyance%20Matmut.md) - Conditions générales (03/25) · réf. VP.10 - 03/25
 - [Ma Prévoyance Pro (Travailleurs non-salariés (TNS)) - Fiche](../products/matmut/Ma%20Pr%C3%A9voyance%20Pro%20%28Travailleurs%20non-salari%C3%A9s%20%28TNS%29%29%20-%20Fiche.md) - Fiche produit (01/25) · réf. MV.PREV.PRO.TAB.TNS – 01/25
 
 ### [Protection juridique](../branches/Protection%20juridique.md)
@@ -222,8 +224,11 @@ generated: true
 - [Bien à l'hôpital - Fiche](../products/matmut/Bien%20%C3%A0%20l%27h%C3%B4pital%20-%20Fiche.md) - Fiche produit (09/25) · réf. FICHE.HOP.MOM – 09/25
 - [CONTRAT COLLECTIF FRAIS DE SANTÉ - RÉGIME OBLIGATOIRE](../products/matmut/CONTRAT%20COLLECTIF%20FRAIS%20DE%20SANT%C3%89%20-%20R%C3%89GIME%20OBLIGATOIRE.md) - Conditions générales (Janvier 2023)
 - [Conditions Générales — Régime conventionnel de frais de santé à adhésion obligatoire, Convention Collective Nationale de](../products/matmut/Conditions%20G%C3%A9n%C3%A9rales%20%E2%80%94%20R%C3%A9gime%20conventionnel%20de%20frais%20de%20sant%C3%A9%20%C3%A0%20adh%C3%A9sion%20obligatoire%2C%20Convention%20Collective%20Nationale%20de.md) - Conditions générales (12-2024 (référence de pied de page « CG Oblig-ALISFA-FM-12-2024 ») ; le tableau des garanties de l'ANNEXE II porte la mention « En vigueur au 01/01/2025 ») · réf. CG Oblig-ALISFA-FM-12-2024 – SP24/FCR0570
+- [Convention Collective Nationale des établissements privés d'hospitalisation, de soins, de cure et de garde à but non luc](../products/matmut/Convention%20Collective%20Nationale%20des%20%C3%A9tablissements%20priv%C3%A9s%20d%27hospitalisation%2C%20de%20soins%2C%20de%20cure%20et%20de%20garde%20%C3%A0%20but%20non%20luc.md) - Conditions générales (Juillet 2024) · réf. IDCC N°29 — CCN du 31 octobre 1951 — Régime facultatif
 - [Matmut-Smac Catégories A, B et C](../products/matmut/Matmut-Smac%20Cat%C3%A9gories%20A%2C%20B%20et%20C.md) - Conditions générales (10/25) · réf. CONTRAT MATMUT/SMAC CAT ABC –10/25
+- [Notice Assistance Matmut — Assistance Santé de la Mutuelle Ociane Matmut](../products/matmut/Notice%20Assistance%20Matmut%20%E2%80%94%20Assistance%20Sant%C3%A9%20de%20la%20Mutuelle%20Ociane%20Matmut.md) - Conditions générales (12/25) · réf. NOTICE.ASSIST.MOM - 12/25
 - [Notice d'information — Régime de frais de santé, contrat collectif, Accord interbranche du 2 octobre 2019 (CCN du 15 mar](../products/matmut/Notice%20d%27information%20%E2%80%94%20R%C3%A9gime%20de%20frais%20de%20sant%C3%A9%2C%20contrat%20collectif%2C%20Accord%20interbranche%20du%202%20octobre%202019%20%28CCN%20du%2015%20mar.md) - Conditions générales (ÉDITION 2023 (couverture) ; « janvier 2023 » en pied de page ; « Notice d'information Base obligatoire option 2 - CCN 66-CHRS - Janvier 2023 » en 4e de couverture) · réf. Accord interbranche CCN 66 - CHRS • Notice d'information base obligatoire et option 2 - janvier 2023
+- [Notice d'information Salarié du contrat collectif Santé à adhésion obligatoire (Notice salarié)](../products/matmut/Notice%20d%27information%20Salari%C3%A9%20du%20contrat%20collectif%20Sant%C3%A9%20%C3%A0%20adh%C3%A9sion%20obligatoire%20%28Notice%20salari%C3%A9%29.md) - Conditions générales (Édition janvier 2026) · réf. MOM. NI. CT. COLLEC - 01/26
 - [Ociane Santé Pro - Fiche](../products/matmut/Ociane%20Sant%C3%A9%20Pro%20-%20Fiche.md) - Fiche produit (10/25) · réf. SANTE PRO-0925
 - [Ociane Santé Pro - Niveaux 1 à 6 - IPID](../products/matmut/Ociane%20Sant%C3%A9%20Pro%20-%20Niveaux%201%20%C3%A0%206%20-%20IPID.md) - IPID / Fiche d'information (0925 (référence bas de page « IPID.MOM.SANTE PRO – 0925 »)) · réf. IPID.MOM.SANTE PRO – 0925
 - [Régime complémentaire santé – Ensemble du personnel (CCN du 31 octobre 1951, IDCC N°29)](../products/matmut/R%C3%A9gime%20compl%C3%A9mentaire%20sant%C3%A9%20%E2%80%93%20Ensemble%20du%20personnel%20%28CCN%20du%2031%20octobre%201951%2C%20IDCC%20N%C2%B029%29.md) - Conditions générales (Juillet 2024) · réf. Notice d'information – Régime complémentaire santé – Ensemble du personnel – CCN du 31 octobre 1951 (IDCC N°29)

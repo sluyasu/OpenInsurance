@@ -147,6 +147,7 @@ En cas de décès du donataire, le contrat est interrompu et le capital décès 
 ## Documents liés
 
 - Extension / option du produit : **Notice d'information du contrat Winalto**
+- [Winalto](Winalto.md) - Conditions générales, éd. 01/26
 
 ## Source & fidélité
 

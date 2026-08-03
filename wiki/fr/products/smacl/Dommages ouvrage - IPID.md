@@ -149,6 +149,10 @@ Garantie optionnelle : dommages immatériels après la réception des travaux et
 - Le document ne contient ni définitions contractuelles, ni franchises chiffrées, ni délais de carence, ni clause de prescription : c'est un DIPA réglementaire de deux pages qui renvoie explicitement à « la documentation précontractuelle et contractuelle » pour l'information complète. Ces sections sont laissées vides ou à null et non déduites. Le délai de déclaration de sinistre est mentionné (« dans les conditions et délais impartis ») sans être chiffré.
 - Le document imprime « cout » sans accent circonflexe à deux endroits (« en fonction du cout des opérations », « cout de construction définitif ») alors qu'il imprime « coût » ailleurs. Conservé verbatim, non corrigé.
 
+## Documents liés
+
+- [Dommages ouvrage (SMACL Assurances SA)](Dommages%20ouvrage%20%28SMACL%20Assurances%20SA%29.md) - Conditions générales, éd. 01/2024
+
 ## Source & fidélité
 
 - Source : [https://www.smacl.fr/files/documents/document-information-dommages-ouvrage-collectivites.pdf](https://www.smacl.fr/files/documents/document-information-dommages-ouvrage-collectivites.pdf) - téléchargé le 2026-08-01 - 2 pages

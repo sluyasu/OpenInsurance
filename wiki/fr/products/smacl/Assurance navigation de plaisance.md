@@ -407,6 +407,10 @@ Conformément à l’article L.114-1 du Code, toutes actions dérivant d’un co
 - La convention d’assistance navigation (garantie mise en œuvre par Inter Mutuelle Assistance GIE) n’est pas jointe : le contrat renvoie à « la convention assistance navigation en vigueur à la date de souscription », dont le détail des prestations n’est donc pas extractible depuis ce document.
 - Aucun délai de carence (waiting_period) n’est mentionné dans le document ; le tableau est vide à dessein.
 
+## Documents liés
+
+- [Assurance navigation de plaisance (SAM (société d'assurance mutuelle))](Assurance%20navigation%20de%20plaisance%20%28SAM%20%28soci%C3%A9t%C3%A9%20d%27assurance%20mutuelle%29%29.md) - Conditions générales, éd. 01/2024
+
 ## Source & fidélité
 
 - Source : [https://www.smacl.fr/files/documents/cg-navigation-de-plaisance.pdf](https://www.smacl.fr/files/documents/cg-navigation-de-plaisance.pdf) - téléchargé le 2026-08-01 - 24 pages

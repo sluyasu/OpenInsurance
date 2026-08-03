@@ -1,0 +1,1448 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "macif",
+  "insurer_name": "Macif",
+  "product_name": "Contrat COMPLÉMENTAIRE SANTÉ BRANCHE DE L’AIDE, DE L’ACCOMPAGNEMENT, DES SOINS ET DES SERVICES À DOMICILE (BAD)",
+  "branch": "sante",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": "entreprises",
+  "target_audience_note": "« Le contrat collectif à adhésion obligatoire […] souscrit par l’employeur au profit de ses salariés » : le souscripteur est l’entreprise relevant de la Convention Collective Nationale de la Branche de l’aide, de l’accompagnement, des soins et des services à domicile ; les assurés sont ses salariés.",
+  "reference": "DIPA BAD 01/19",
+  "edition_date": "01/19",
+  "product_family": "Complémentaire santé Branche de l’Aide, de l’Accompagnement, des Soins et des Services à Domicile (BAD)",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_sante_collective_aide_a_domicile.pdf",
+  "source_pdf": "contrat-complementaire-sante-branche-de-laide-de-laccompagnement-d063262a.pdf",
+  "source_sha256": "68e30a1a8757f77aa2feaf1fc84bb39c05f7bf59423be40c8330b75262e485b5",
+  "source_pages": 3,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d’information sur le produit d’assurance (DIPA) du contrat collectif à adhésion obligatoire Complémentaire santé de la Branche de l’Aide, de l’Accompagnement, des Soins et des Services à Domicile (BAD), souscrit par l’employeur au profit de ses salariés. Le contrat a pour objet le remboursement de tout ou partie des frais de santé restant à la charge des assurés en cas d’accident, de maladie ou de maternité, en complément de la Sécurité sociale française. Le salarié peut étendre la couverture à ses ayants droit et adhérer à des options facultatives. Le document porte en dernière page le tableau des garanties en vigueur au 1er janvier 2019, à trois formules (BASE PRIME, CONFORT, CONFORT+) déclinées en secteur conventionné et secteur non conventionné. Le produit respecte les conditions légales des contrats responsables.",
+  "definitions": [
+    {
+      "term": "BR",
+      "definition": "Base de Remboursement de la Sécurité sociale",
+      "page": 3
+    },
+    {
+      "term": "RSS",
+      "definition": "Remboursement Sécurité sociale",
+      "page": 3
+    },
+    {
+      "term": "FR",
+      "definition": "Frais réels",
+      "page": 3
+    },
+    {
+      "term": "PMSS",
+      "definition": "Plafond Mensuel de la Sécurité sociale",
+      "page": 3
+    },
+    {
+      "term": "OPTAM",
+      "definition": "Option pratique tarifaire maîtrisée",
+      "page": 3
+    },
+    {
+      "term": "OPTAM-CO",
+      "definition": "Option pratique tarifaire maîtrisée – Chirurgien obstétricien",
+      "page": 3
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Hospitalisation médicale, chirurgicale et maternité",
+      "description": "Hospitalisation médicale, chirurgicale et maternité : frais de séjour, actes de chirurgie, actes d’anesthésie, actes techniques médicaux, actes d’obstétrique, chambre particulière (hors maternité), transport remboursé par la Sécurité sociale, forfait hospitalier et forfait actes lourds.",
+      "is_optional": false,
+      "territorial_scope": "France et étranger",
+      "limits": "Les montants des prestations sont soumis à des plafonds qui varient en fonction du niveau de garantie choisi et qui figurent dans les tableaux de garanties. Ils ne peuvent être plus élevés que les dépenses engagées.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie précédée d’une coche verte : systématiquement prévue au contrat (section LES GARANTIES SYSTÉMATIQUEMENT PRÉVUES).",
+        "Certaines sommes peuvent rester à la charge de l’assuré."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Frais médicaux et soins courants remboursés par la Sécurité sociale",
+      "description": "Frais médicaux et soins courants remboursés par la Sécurité sociale : consultations et visites de médecins, actes de chirurgie, actes techniques médicaux, actes d’imagerie médicale, actes d’échographie, auxilliaires médicaux, analyses et examens de laboratoires, actes médicaux supérieurs à 120€, actes de prévention.",
+      "is_optional": false,
+      "territorial_scope": "France et étranger",
+      "limits": "Les montants des prestations sont soumis à des plafonds qui varient en fonction du niveau de garantie choisi et qui figurent dans les tableaux de garanties. Ils ne peuvent être plus élevés que les dépenses engagées.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie précédée d’une coche verte : systématiquement prévue au contrat (section LES GARANTIES SYSTÉMATIQUEMENT PRÉVUES).",
+        "Certaines sommes peuvent rester à la charge de l’assuré."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Pharmacie",
+      "description": "Pharmacie : pharmacie remboursée par la Sécurité sociale, vaccins anti-grippe, contraception prescrite.",
+      "is_optional": false,
+      "territorial_scope": "France et étranger",
+      "limits": "Les montants des prestations sont soumis à des plafonds qui varient en fonction du niveau de garantie choisi et qui figurent dans les tableaux de garanties. Ils ne peuvent être plus élevés que les dépenses engagées.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie précédée d’une coche verte : systématiquement prévue au contrat (section LES GARANTIES SYSTÉMATIQUEMENT PRÉVUES).",
+        "Certaines sommes peuvent rester à la charge de l’assuré."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Dentaire remboursé par la Sécurité sociale",
+      "description": "Dentaire remboursé par la Sécurité sociale : soins dentaires (hors inlay et onlay), inlay simple et onlay et soins avec dépassement, prothèses dentaires (incisives, canines, prémolaires), prothèses dentaires (molaires - dents de fond de bouche), inlay-cores avec et sans clavette, orthodontie.",
+      "is_optional": false,
+      "territorial_scope": "France et étranger",
+      "limits": "Les montants des prestations sont soumis à des plafonds qui varient en fonction du niveau de garantie choisi et qui figurent dans les tableaux de garanties. Ils ne peuvent être plus élevés que les dépenses engagées.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie précédée d’une coche verte : systématiquement prévue au contrat (section LES GARANTIES SYSTÉMATIQUEMENT PRÉVUES).",
+        "Certaines sommes peuvent rester à la charge de l’assuré."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Orthopédie et autres prothèses remboursées par la Sécurité sociale",
+      "description": "Orthopédie et autres prothèses remboursées par la Sécurité sociale : prothèses auditives (y compris piles), orthopédie et autres prothèses (hors auditives et dentaires).",
+      "is_optional": false,
+      "territorial_scope": "France et étranger",
+      "limits": "Les montants des prestations sont soumis à des plafonds qui varient en fonction du niveau de garantie choisi et qui figurent dans les tableaux de garanties. Ils ne peuvent être plus élevés que les dépenses engagées.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie précédée d’une coche verte : systématiquement prévue au contrat (section LES GARANTIES SYSTÉMATIQUEMENT PRÉVUES).",
+        "Certaines sommes peuvent rester à la charge de l’assuré."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Optique",
+      "description": "Optique : lunettes (verres et monture), lentilles de contact, chirurgie réfractive de l’œil.",
+      "is_optional": false,
+      "territorial_scope": "France et étranger",
+      "limits": "Les montants des prestations sont soumis à des plafonds qui varient en fonction du niveau de garantie choisi et qui figurent dans les tableaux de garanties. Ils ne peuvent être plus élevés que les dépenses engagées.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie précédée d’une coche verte : systématiquement prévue au contrat (section LES GARANTIES SYSTÉMATIQUEMENT PRÉVUES).",
+        "Certaines sommes peuvent rester à la charge de l’assuré."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Cures thermales acceptées par la Sécurité sociale",
+      "description": "Cures thermales acceptées par la Sécurité sociale : frais de traitement et honoraires.",
+      "is_optional": false,
+      "territorial_scope": "France et étranger",
+      "limits": "Les montants des prestations sont soumis à des plafonds qui varient en fonction du niveau de garantie choisi et qui figurent dans les tableaux de garanties. Ils ne peuvent être plus élevés que les dépenses engagées.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie précédée d’une coche verte : systématiquement prévue au contrat (section LES GARANTIES SYSTÉMATIQUEMENT PRÉVUES).",
+        "Certaines sommes peuvent rester à la charge de l’assuré."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Maternité",
+      "description": "Maternité : naissance d’un enfant déclaré, chambre particulière.",
+      "is_optional": false,
+      "territorial_scope": "France et étranger",
+      "limits": "Les montants des prestations sont soumis à des plafonds qui varient en fonction du niveau de garantie choisi et qui figurent dans les tableaux de garanties. Ils ne peuvent être plus élevés que les dépenses engagées.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie précédée d’une coche verte : systématiquement prévue au contrat (section LES GARANTIES SYSTÉMATIQUEMENT PRÉVUES).",
+        "Certaines sommes peuvent rester à la charge de l’assuré."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Frais d’accompagnement d’un enfant à charge de moins de 16 ans",
+      "description": "Frais d’accompagnement d’un enfant à charge de moins de 16 ans (sur présentation d’un justificatif.)",
+      "is_optional": true,
+      "territorial_scope": "France et étranger",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "LES GARANTIES OPTIONNELLES (selon la formule souscrite). Imprimée avec un simple tiret et non avec une coche verte, contrairement aux garanties systématiquement prévues.",
+        "En complément du contrat de base souscrit par l’employeur, le salarié peut faire le choix d’améliorer sa garantie en adhérant à l’une des options facultatives pour lui-même et ses éventuels ayants droit affiliés."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Parodontologie, prothèses dentaires et orthodontie non remboursées par la Sécurité sociale",
+      "description": "Parodontologie, prothèses dentaires et orthodontie non remboursées par la Sécurité sociale",
+      "is_optional": true,
+      "territorial_scope": "France et étranger",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "LES GARANTIES OPTIONNELLES (selon la formule souscrite). Imprimée avec un simple tiret et non avec une coche verte, contrairement aux garanties systématiquement prévues.",
+        "En complément du contrat de base souscrit par l’employeur, le salarié peut faire le choix d’améliorer sa garantie en adhérant à l’une des options facultatives pour lui-même et ses éventuels ayants droit affiliés."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Cures thermales",
+      "description": "Cures thermales (frais de séjour, voyage et hébergement.)",
+      "is_optional": true,
+      "territorial_scope": "France et étranger",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "LES GARANTIES OPTIONNELLES (selon la formule souscrite). Imprimée avec un simple tiret et non avec une coche verte, contrairement aux garanties systématiquement prévues.",
+        "En complément du contrat de base souscrit par l’employeur, le salarié peut faire le choix d’améliorer sa garantie en adhérant à l’une des options facultatives pour lui-même et ses éventuels ayants droit affiliés."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Ostéopathie",
+      "description": "Ostéopathie (auprès d’un praticien adhérent d’une association agréée.)",
+      "is_optional": true,
+      "territorial_scope": "France et étranger",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "LES GARANTIES OPTIONNELLES (selon la formule souscrite). Imprimée avec un simple tiret et non avec une coche verte, contrairement aux garanties systématiquement prévues.",
+        "En complément du contrat de base souscrit par l’employeur, le salarié peut faire le choix d’améliorer sa garantie en adhérant à l’une des options facultatives pour lui-même et ses éventuels ayants droit affiliés."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance en cas d’hospitalisation ou d’immobilisation à domicile",
+      "description": "Assistance en cas d’hospitalisation ou d’immobilisation à domicile.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "L’ASSISTANCE SYSTÉMATIQUEMENT PRÉVUE — précédée d’une coche verte.",
+        "Les prestations d’assistance sont assurées par IMA Assurances - Société anonyme au capital de 7 000 000 € entièrement libéré - Entreprise régie par le Code des assurances. SIREN 481 511 632 RCS Niort."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance en cas de naissance ou d’adoption, de pathologies lourdes et en cas d’obsèques",
+      "description": "Assistance en cas de naissance ou d’adoption, de pathologies lourdes et en cas d’obsèques.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "L’ASSISTANCE SYSTÉMATIQUEMENT PRÉVUE — précédée d’une coche verte.",
+        "Les prestations d’assistance sont assurées par IMA Assurances - Société anonyme au capital de 7 000 000 € entièrement libéré - Entreprise régie par le Code des assurances. SIREN 481 511 632 RCS Niort."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance dédiée aux aidants",
+      "description": "Assistance dédiée aux aidants.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "L’ASSISTANCE SYSTÉMATIQUEMENT PRÉVUE — précédée d’une coche verte.",
+        "Les prestations d’assistance sont assurées par IMA Assurances - Société anonyme au capital de 7 000 000 € entièrement libéré - Entreprise régie par le Code des assurances. SIREN 481 511 632 RCS Niort."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Réseaux de soins ITELYS",
+      "description": "Réseaux de soins ITELYS.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "LES SERVICES SYSTÉMATIQUEMENT PRÉVUS — précédé d’une coche verte."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Tiers payant",
+      "description": "Tiers payant.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "LES SERVICES SYSTÉMATIQUEMENT PRÉVUS — précédé d’une coche verte."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Frais de séjour pris en charge par la Sécurité sociale",
+      "description": "Tableau de garanties, section « HOSPITALISATION MÉDICALE, CHIRURGICALE ET MATERNITÉ ». Secteur conventionné BASE PRIME : 150% BR ; Secteur NON conventionné BASE PRIME : 80% FR limité à 150% BR ; Secteur conventionné CONFORT : 250% BR ; Secteur NON conventionné CONFORT : 80% FR limité à 250% BR ; Secteur conventionné CONFORT+ : 350% BR ; Secteur NON conventionné CONFORT + : 80% FR limité à 350% BR.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "Secteur conventionné BASE PRIME : 150% BR ; Secteur NON conventionné BASE PRIME : 80% FR limité à 150% BR ; Secteur conventionné CONFORT : 250% BR ; Secteur NON conventionné CONFORT : 80% FR limité à 250% BR ; Secteur conventionné CONFORT+ : 350% BR ; Secteur NON conventionné CONFORT + : 80% FR limité à 350% BR",
+      "sub_limits": [
+        "Secteur conventionné BASE PRIME : 150% BR",
+        "Secteur NON conventionné BASE PRIME : 80% FR limité à 150% BR",
+        "Secteur conventionné CONFORT : 250% BR",
+        "Secteur NON conventionné CONFORT : 80% FR limité à 250% BR",
+        "Secteur conventionné CONFORT+ : 350% BR",
+        "Secteur NON conventionné CONFORT + : 80% FR limité à 350% BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Actes de chirurgie (ADC), Actes d’anesthésie (ADA), Actes techniques médicaux (ATM), Actes d’obstétrique (ACO) — adhérents à un dispositif de pratique tarifaire maîtrisée",
+      "description": "Tableau de garanties, section « HOSPITALISATION MÉDICALE, CHIRURGICALE ET MATERNITÉ ». Secteur conventionné BASE PRIME : 150% BR ; Secteur NON conventionné BASE PRIME : 80% FR limité à 150% BR ; Secteur conventionné CONFORT : 175% BR ; Secteur NON conventionné CONFORT : 80% FR limité à 175% BR ; Secteur conventionné CONFORT+ : 200% BR ; Secteur NON conventionné CONFORT + : 80% FR limité à 200% BR.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "Secteur conventionné BASE PRIME : 150% BR ; Secteur NON conventionné BASE PRIME : 80% FR limité à 150% BR ; Secteur conventionné CONFORT : 175% BR ; Secteur NON conventionné CONFORT : 80% FR limité à 175% BR ; Secteur conventionné CONFORT+ : 200% BR ; Secteur NON conventionné CONFORT + : 80% FR limité à 200% BR",
+      "sub_limits": [
+        "Secteur conventionné BASE PRIME : 150% BR",
+        "Secteur NON conventionné BASE PRIME : 80% FR limité à 150% BR",
+        "Secteur conventionné CONFORT : 175% BR",
+        "Secteur NON conventionné CONFORT : 80% FR limité à 175% BR",
+        "Secteur conventionné CONFORT+ : 200% BR",
+        "Secteur NON conventionné CONFORT + : 80% FR limité à 200% BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Actes de chirurgie (ADC), Actes d’anesthésie (ADA), Actes techniques médicaux (ATM), Actes d’obstétrique (ACO) — non adhérents à un dispositif de pratique tarifaire maîtrisée",
+      "description": "Tableau de garanties, section « HOSPITALISATION MÉDICALE, CHIRURGICALE ET MATERNITÉ ». Secteur conventionné BASE PRIME : 130% BR ; Secteur NON conventionné BASE PRIME : 80% FR limité à 130% BR ; Secteur conventionné CONFORT : 155% BR ; Secteur NON conventionné CONFORT : 80% FR limité à 155% BR ; Secteur conventionné CONFORT+ : 180% BR ; Secteur NON conventionné CONFORT + : 80% FR limité à 180% BR.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "Secteur conventionné BASE PRIME : 130% BR ; Secteur NON conventionné BASE PRIME : 80% FR limité à 130% BR ; Secteur conventionné CONFORT : 155% BR ; Secteur NON conventionné CONFORT : 80% FR limité à 155% BR ; Secteur conventionné CONFORT+ : 180% BR ; Secteur NON conventionné CONFORT + : 80% FR limité à 180% BR",
+      "sub_limits": [
+        "Secteur conventionné BASE PRIME : 130% BR",
+        "Secteur NON conventionné BASE PRIME : 80% FR limité à 130% BR",
+        "Secteur conventionné CONFORT : 155% BR",
+        "Secteur NON conventionné CONFORT : 80% FR limité à 155% BR",
+        "Secteur conventionné CONFORT+ : 180% BR",
+        "Secteur NON conventionné CONFORT + : 80% FR limité à 180% BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Chambre particulière hors maternité limitée à 1 an (par jour)",
+      "description": "Tableau de garanties, section « HOSPITALISATION MÉDICALE, CHIRURGICALE ET MATERNITÉ ». BASE PRIME (secteurs conventionné et NON conventionné confondus) : 1,5% PMSS ; CONFORT (secteurs conventionné et NON conventionné confondus) : 2,5% PMSS ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 3,5% PMSS.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "BASE PRIME (secteurs conventionné et NON conventionné confondus) : 1,5% PMSS ; CONFORT (secteurs conventionné et NON conventionné confondus) : 2,5% PMSS ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 3,5% PMSS",
+      "sub_limits": [
+        "BASE PRIME (secteurs conventionné et NON conventionné confondus) : 1,5% PMSS",
+        "CONFORT (secteurs conventionné et NON conventionné confondus) : 2,5% PMSS",
+        "CONFORT+ (secteurs conventionné et NON conventionné confondus) : 3,5% PMSS"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Frais d’accompagnement d’un enfant à charge de moins de 16 ans (sur présentation d’un justificatif)",
+      "description": "Tableau de garanties, section « HOSPITALISATION MÉDICALE, CHIRURGICALE ET MATERNITÉ ». BASE PRIME (secteurs conventionné et NON conventionné confondus) : Néant ; CONFORT (secteurs conventionné et NON conventionné confondus) : 2% PMSS ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 2% PMSS.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "BASE PRIME (secteurs conventionné et NON conventionné confondus) : Néant ; CONFORT (secteurs conventionné et NON conventionné confondus) : 2% PMSS ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 2% PMSS",
+      "sub_limits": [
+        "BASE PRIME (secteurs conventionné et NON conventionné confondus) : Néant",
+        "CONFORT (secteurs conventionné et NON conventionné confondus) : 2% PMSS",
+        "CONFORT+ (secteurs conventionné et NON conventionné confondus) : 2% PMSS"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Transport remboursé par la Sécurité sociale",
+      "description": "Tableau de garanties, section « HOSPITALISATION MÉDICALE, CHIRURGICALE ET MATERNITÉ ». BASE PRIME (secteurs conventionné et NON conventionné confondus) : 100% BR ; CONFORT (secteurs conventionné et NON conventionné confondus) : 100% BR ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 100% BR.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "BASE PRIME (secteurs conventionné et NON conventionné confondus) : 100% BR ; CONFORT (secteurs conventionné et NON conventionné confondus) : 100% BR ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 100% BR",
+      "sub_limits": [
+        "BASE PRIME (secteurs conventionné et NON conventionné confondus) : 100% BR",
+        "CONFORT (secteurs conventionné et NON conventionné confondus) : 100% BR",
+        "CONFORT+ (secteurs conventionné et NON conventionné confondus) : 100% BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Forfait hospitalier engagé et Forfait actes lourds",
+      "description": "Tableau de garanties, section « HOSPITALISATION MÉDICALE, CHIRURGICALE ET MATERNITÉ ». BASE PRIME (secteurs conventionné et NON conventionné confondus) : 100% FR ; CONFORT (secteurs conventionné et NON conventionné confondus) : 100% FR ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 100% FR.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "BASE PRIME (secteurs conventionné et NON conventionné confondus) : 100% FR ; CONFORT (secteurs conventionné et NON conventionné confondus) : 100% FR ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 100% FR",
+      "sub_limits": [
+        "BASE PRIME (secteurs conventionné et NON conventionné confondus) : 100% FR",
+        "CONFORT (secteurs conventionné et NON conventionné confondus) : 100% FR",
+        "CONFORT+ (secteurs conventionné et NON conventionné confondus) : 100% FR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Consultations et visites de médecins généralistes — adhérents et non adhérents à un dispositif de pratique tarifaire maîtrisée",
+      "description": "Tableau de garanties, section « FRAIS MÉDICAUX – SOINS COURANTS ». Secteur conventionné BASE PRIME : 100% BR ; Secteur conventionné CONFORT : 100% BR ; Secteur conventionné CONFORT+ : 100% BR ; Secteur NON conventionné BASE PRIME / CONFORT / CONFORT + : 80% FR limité à 100% BR.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "Secteur conventionné BASE PRIME : 100% BR ; Secteur conventionné CONFORT : 100% BR ; Secteur conventionné CONFORT+ : 100% BR ; Secteur NON conventionné BASE PRIME / CONFORT / CONFORT + : 80% FR limité à 100% BR",
+      "sub_limits": [
+        "Secteur conventionné BASE PRIME : 100% BR",
+        "Secteur conventionné CONFORT : 100% BR",
+        "Secteur conventionné CONFORT+ : 100% BR",
+        "Secteur NON conventionné BASE PRIME / CONFORT / CONFORT + : 80% FR limité à 100% BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Secteur NON conventionné (BASE PRIME, CONFORT et CONFORT+) : 80% FR limité à 100% BR — cellule unique fusionnée verticalement sur toute la section FRAIS MÉDICAUX – SOINS COURANTS, vérifiée au rendu.",
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Consultations et visites de médecins spécialistes — adhérents à un dispositif de pratique tarifaire maîtrisée",
+      "description": "Tableau de garanties, section « FRAIS MÉDICAUX – SOINS COURANTS ». Secteur conventionné BASE PRIME : 150% BR ; Secteur conventionné CONFORT : 175% BR ; Secteur conventionné CONFORT+ : 200% BR ; Secteur NON conventionné BASE PRIME / CONFORT / CONFORT + : 80% FR limité à 100% BR.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "Secteur conventionné BASE PRIME : 150% BR ; Secteur conventionné CONFORT : 175% BR ; Secteur conventionné CONFORT+ : 200% BR ; Secteur NON conventionné BASE PRIME / CONFORT / CONFORT + : 80% FR limité à 100% BR",
+      "sub_limits": [
+        "Secteur conventionné BASE PRIME : 150% BR",
+        "Secteur conventionné CONFORT : 175% BR",
+        "Secteur conventionné CONFORT+ : 200% BR",
+        "Secteur NON conventionné BASE PRIME / CONFORT / CONFORT + : 80% FR limité à 100% BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Secteur NON conventionné (BASE PRIME, CONFORT et CONFORT+) : 80% FR limité à 100% BR — cellule unique fusionnée verticalement sur toute la section FRAIS MÉDICAUX – SOINS COURANTS, vérifiée au rendu.",
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Consultations et visites de médecins spécialistes — non adhérents à un dispositif de pratique tarifaire maîtrisée",
+      "description": "Tableau de garanties, section « FRAIS MÉDICAUX – SOINS COURANTS ». Secteur conventionné BASE PRIME : 130% BR ; Secteur conventionné CONFORT : 155% BR ; Secteur conventionné CONFORT+ : 180% BR ; Secteur NON conventionné BASE PRIME / CONFORT / CONFORT + : 80% FR limité à 100% BR.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "Secteur conventionné BASE PRIME : 130% BR ; Secteur conventionné CONFORT : 155% BR ; Secteur conventionné CONFORT+ : 180% BR ; Secteur NON conventionné BASE PRIME / CONFORT / CONFORT + : 80% FR limité à 100% BR",
+      "sub_limits": [
+        "Secteur conventionné BASE PRIME : 130% BR",
+        "Secteur conventionné CONFORT : 155% BR",
+        "Secteur conventionné CONFORT+ : 180% BR",
+        "Secteur NON conventionné BASE PRIME / CONFORT / CONFORT + : 80% FR limité à 100% BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Secteur NON conventionné (BASE PRIME, CONFORT et CONFORT+) : 80% FR limité à 100% BR — cellule unique fusionnée verticalement sur toute la section FRAIS MÉDICAUX – SOINS COURANTS, vérifiée au rendu.",
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Hors parcours de soins (généralistes et spécialistes) — adhérents et non adhérents à un dispositif de pratique tarifaire maîtrisée",
+      "description": "Tableau de garanties, section « FRAIS MÉDICAUX – SOINS COURANTS ». Secteur conventionné BASE PRIME : 100% BR ; Secteur conventionné CONFORT : 100% BR ; Secteur conventionné CONFORT+ : 100% BR ; Secteur NON conventionné BASE PRIME / CONFORT / CONFORT + : 80% FR limité à 100% BR.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "Secteur conventionné BASE PRIME : 100% BR ; Secteur conventionné CONFORT : 100% BR ; Secteur conventionné CONFORT+ : 100% BR ; Secteur NON conventionné BASE PRIME / CONFORT / CONFORT + : 80% FR limité à 100% BR",
+      "sub_limits": [
+        "Secteur conventionné BASE PRIME : 100% BR",
+        "Secteur conventionné CONFORT : 100% BR",
+        "Secteur conventionné CONFORT+ : 100% BR",
+        "Secteur NON conventionné BASE PRIME / CONFORT / CONFORT + : 80% FR limité à 100% BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Secteur NON conventionné (BASE PRIME, CONFORT et CONFORT+) : 80% FR limité à 100% BR — cellule unique fusionnée verticalement sur toute la section FRAIS MÉDICAUX – SOINS COURANTS, vérifiée au rendu.",
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Actes de chirurgie (ADC), Actes techniques médicaux (ATM) — adhérents et non adhérents à un dispositif de pratique tarifaire maîtrisée",
+      "description": "Tableau de garanties, section « FRAIS MÉDICAUX – SOINS COURANTS ». Secteur conventionné BASE PRIME : 100% BR ; Secteur conventionné CONFORT : 100% BR ; Secteur conventionné CONFORT+ : 100% BR ; Secteur NON conventionné BASE PRIME / CONFORT / CONFORT + : 80% FR limité à 100% BR.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "Secteur conventionné BASE PRIME : 100% BR ; Secteur conventionné CONFORT : 100% BR ; Secteur conventionné CONFORT+ : 100% BR ; Secteur NON conventionné BASE PRIME / CONFORT / CONFORT + : 80% FR limité à 100% BR",
+      "sub_limits": [
+        "Secteur conventionné BASE PRIME : 100% BR",
+        "Secteur conventionné CONFORT : 100% BR",
+        "Secteur conventionné CONFORT+ : 100% BR",
+        "Secteur NON conventionné BASE PRIME / CONFORT / CONFORT + : 80% FR limité à 100% BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Secteur NON conventionné (BASE PRIME, CONFORT et CONFORT+) : 80% FR limité à 100% BR — cellule unique fusionnée verticalement sur toute la section FRAIS MÉDICAUX – SOINS COURANTS, vérifiée au rendu.",
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Actes d’imagerie médicale (ADI), Actes d’échographie (ADE) — adhérents et non adhérents à un dispositif de pratique tarifaire maîtrisée",
+      "description": "Tableau de garanties, section « FRAIS MÉDICAUX – SOINS COURANTS ». Secteur conventionné BASE PRIME : 100% BR ; Secteur conventionné CONFORT : 100% BR ; Secteur conventionné CONFORT+ : 100% BR ; Secteur NON conventionné BASE PRIME / CONFORT / CONFORT + : 80% FR limité à 100% BR.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "Secteur conventionné BASE PRIME : 100% BR ; Secteur conventionné CONFORT : 100% BR ; Secteur conventionné CONFORT+ : 100% BR ; Secteur NON conventionné BASE PRIME / CONFORT / CONFORT + : 80% FR limité à 100% BR",
+      "sub_limits": [
+        "Secteur conventionné BASE PRIME : 100% BR",
+        "Secteur conventionné CONFORT : 100% BR",
+        "Secteur conventionné CONFORT+ : 100% BR",
+        "Secteur NON conventionné BASE PRIME / CONFORT / CONFORT + : 80% FR limité à 100% BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Secteur NON conventionné (BASE PRIME, CONFORT et CONFORT+) : 80% FR limité à 100% BR — cellule unique fusionnée verticalement sur toute la section FRAIS MÉDICAUX – SOINS COURANTS, vérifiée au rendu.",
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Auxiliaires médicaux",
+      "description": "Tableau de garanties, section « FRAIS MÉDICAUX – SOINS COURANTS ». Secteur conventionné BASE PRIME : 100% BR ; Secteur conventionné CONFORT : 100% BR ; Secteur conventionné CONFORT+ : 100% BR ; Secteur NON conventionné BASE PRIME / CONFORT / CONFORT + : 80% FR limité à 100% BR.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "Secteur conventionné BASE PRIME : 100% BR ; Secteur conventionné CONFORT : 100% BR ; Secteur conventionné CONFORT+ : 100% BR ; Secteur NON conventionné BASE PRIME / CONFORT / CONFORT + : 80% FR limité à 100% BR",
+      "sub_limits": [
+        "Secteur conventionné BASE PRIME : 100% BR",
+        "Secteur conventionné CONFORT : 100% BR",
+        "Secteur conventionné CONFORT+ : 100% BR",
+        "Secteur NON conventionné BASE PRIME / CONFORT / CONFORT + : 80% FR limité à 100% BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Secteur NON conventionné (BASE PRIME, CONFORT et CONFORT+) : 80% FR limité à 100% BR — cellule unique fusionnée verticalement sur toute la section FRAIS MÉDICAUX – SOINS COURANTS, vérifiée au rendu.",
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Analyses et examens de laboratoires",
+      "description": "Tableau de garanties, section « FRAIS MÉDICAUX – SOINS COURANTS ». Secteur conventionné BASE PRIME : 100% BR ; Secteur conventionné CONFORT : 100% BR ; Secteur conventionné CONFORT+ : 100% BR ; Secteur NON conventionné BASE PRIME / CONFORT / CONFORT + : 80% FR limité à 100% BR.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "Secteur conventionné BASE PRIME : 100% BR ; Secteur conventionné CONFORT : 100% BR ; Secteur conventionné CONFORT+ : 100% BR ; Secteur NON conventionné BASE PRIME / CONFORT / CONFORT + : 80% FR limité à 100% BR",
+      "sub_limits": [
+        "Secteur conventionné BASE PRIME : 100% BR",
+        "Secteur conventionné CONFORT : 100% BR",
+        "Secteur conventionné CONFORT+ : 100% BR",
+        "Secteur NON conventionné BASE PRIME / CONFORT / CONFORT + : 80% FR limité à 100% BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Secteur NON conventionné (BASE PRIME, CONFORT et CONFORT+) : 80% FR limité à 100% BR — cellule unique fusionnée verticalement sur toute la section FRAIS MÉDICAUX – SOINS COURANTS, vérifiée au rendu.",
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Actes médicaux > à 120 euros",
+      "description": "Tableau de garanties, section « FRAIS MÉDICAUX – SOINS COURANTS ». BASE PRIME (secteurs conventionné et NON conventionné confondus) : 18 € ; CONFORT (secteurs conventionné et NON conventionné confondus) : 18 € ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 18 €.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "BASE PRIME (secteurs conventionné et NON conventionné confondus) : 18 € ; CONFORT (secteurs conventionné et NON conventionné confondus) : 18 € ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 18 €",
+      "sub_limits": [
+        "BASE PRIME (secteurs conventionné et NON conventionné confondus) : 18 €",
+        "CONFORT (secteurs conventionné et NON conventionné confondus) : 18 €",
+        "CONFORT+ (secteurs conventionné et NON conventionné confondus) : 18 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Pharmacie remboursée par la Sécurité sociale",
+      "description": "Tableau de garanties, section « PHARMACIE REMBOURSÉE PAR LA SÉCURITE SOCIALE ». BASE PRIME (secteurs conventionné et NON conventionné confondus) : 100% BR ; CONFORT (secteurs conventionné et NON conventionné confondus) : 100% BR ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 100% BR.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "BASE PRIME (secteurs conventionné et NON conventionné confondus) : 100% BR ; CONFORT (secteurs conventionné et NON conventionné confondus) : 100% BR ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 100% BR",
+      "sub_limits": [
+        "BASE PRIME (secteurs conventionné et NON conventionné confondus) : 100% BR",
+        "CONFORT (secteurs conventionné et NON conventionné confondus) : 100% BR",
+        "CONFORT+ (secteurs conventionné et NON conventionné confondus) : 100% BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Vaccins anti-grippe",
+      "description": "Tableau de garanties, section « PHARMACIE NON REMBOURSÉE PAR LA SÉCURITE SOCIALE ». BASE PRIME (secteurs conventionné et NON conventionné confondus) : 100% FR ; CONFORT (secteurs conventionné et NON conventionné confondus) : 100% FR ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 100% FR.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "BASE PRIME (secteurs conventionné et NON conventionné confondus) : 100% FR ; CONFORT (secteurs conventionné et NON conventionné confondus) : 100% FR ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 100% FR",
+      "sub_limits": [
+        "BASE PRIME (secteurs conventionné et NON conventionné confondus) : 100% FR",
+        "CONFORT (secteurs conventionné et NON conventionné confondus) : 100% FR",
+        "CONFORT+ (secteurs conventionné et NON conventionné confondus) : 100% FR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Contraception prescrite / par année civile, par bénéficiaire",
+      "description": "Tableau de garanties, section « PHARMACIE NON REMBOURSÉE PAR LA SÉCURITE SOCIALE ». BASE PRIME (secteurs conventionné et NON conventionné confondus) : Crédit 2,5% PMSS ; CONFORT (secteurs conventionné et NON conventionné confondus) : Crédit 2,5% PMSS ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : Crédit 3,5% PMSS.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "BASE PRIME (secteurs conventionné et NON conventionné confondus) : Crédit 2,5% PMSS ; CONFORT (secteurs conventionné et NON conventionné confondus) : Crédit 2,5% PMSS ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : Crédit 3,5% PMSS",
+      "sub_limits": [
+        "BASE PRIME (secteurs conventionné et NON conventionné confondus) : Crédit 2,5% PMSS",
+        "CONFORT (secteurs conventionné et NON conventionné confondus) : Crédit 2,5% PMSS",
+        "CONFORT+ (secteurs conventionné et NON conventionné confondus) : Crédit 3,5% PMSS"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Soins dentaires (hors inlay et onlay)",
+      "description": "Tableau de garanties, section « DENTAIRE REMBOURSÉ PAR LA SÉCURITE SOCIALE ». BASE PRIME (secteurs conventionné et NON conventionné confondus) : 100% BR ; CONFORT (secteurs conventionné et NON conventionné confondus) : 100% BR ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 100% BR.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "BASE PRIME (secteurs conventionné et NON conventionné confondus) : 100% BR ; CONFORT (secteurs conventionné et NON conventionné confondus) : 100% BR ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 100% BR",
+      "sub_limits": [
+        "BASE PRIME (secteurs conventionné et NON conventionné confondus) : 100% BR",
+        "CONFORT (secteurs conventionné et NON conventionné confondus) : 100% BR",
+        "CONFORT+ (secteurs conventionné et NON conventionné confondus) : 100% BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Inlay simple et onlay et soins avec dépassement",
+      "description": "Tableau de garanties, section « DENTAIRE REMBOURSÉ PAR LA SÉCURITE SOCIALE ». BASE PRIME (secteurs conventionné et NON conventionné confondus) : 110% BR ; CONFORT (secteurs conventionné et NON conventionné confondus) : 130% BR ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 160% BR.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "BASE PRIME (secteurs conventionné et NON conventionné confondus) : 110% BR ; CONFORT (secteurs conventionné et NON conventionné confondus) : 130% BR ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 160% BR",
+      "sub_limits": [
+        "BASE PRIME (secteurs conventionné et NON conventionné confondus) : 110% BR",
+        "CONFORT (secteurs conventionné et NON conventionné confondus) : 130% BR",
+        "CONFORT+ (secteurs conventionné et NON conventionné confondus) : 160% BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Prothèses dentaires (incisives, canines et prémolaires)",
+      "description": "Tableau de garanties, section « DENTAIRE REMBOURSÉ PAR LA SÉCURITE SOCIALE ». BASE PRIME (secteurs conventionné et NON conventionné confondus) : 300% BR ; CONFORT (secteurs conventionné et NON conventionné confondus) : 350% BR ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 400% BR.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "BASE PRIME (secteurs conventionné et NON conventionné confondus) : 300% BR ; CONFORT (secteurs conventionné et NON conventionné confondus) : 350% BR ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 400% BR",
+      "sub_limits": [
+        "BASE PRIME (secteurs conventionné et NON conventionné confondus) : 300% BR",
+        "CONFORT (secteurs conventionné et NON conventionné confondus) : 350% BR",
+        "CONFORT+ (secteurs conventionné et NON conventionné confondus) : 400% BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Prothèses dentaires (molaires - dents de fond de bouche)",
+      "description": "Tableau de garanties, section « DENTAIRE REMBOURSÉ PAR LA SÉCURITE SOCIALE ». BASE PRIME (secteurs conventionné et NON conventionné confondus) : 200% BR ; CONFORT (secteurs conventionné et NON conventionné confondus) : 250% BR ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 300% BR.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "BASE PRIME (secteurs conventionné et NON conventionné confondus) : 200% BR ; CONFORT (secteurs conventionné et NON conventionné confondus) : 250% BR ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 300% BR",
+      "sub_limits": [
+        "BASE PRIME (secteurs conventionné et NON conventionné confondus) : 200% BR",
+        "CONFORT (secteurs conventionné et NON conventionné confondus) : 250% BR",
+        "CONFORT+ (secteurs conventionné et NON conventionné confondus) : 300% BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Inlay-cores avec et sans clavette",
+      "description": "Tableau de garanties, section « DENTAIRE REMBOURSÉ PAR LA SÉCURITE SOCIALE ». BASE PRIME (secteurs conventionné et NON conventionné confondus) : 125% BR ; CONFORT (secteurs conventionné et NON conventionné confondus) : 130% BR ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 160% BR.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "BASE PRIME (secteurs conventionné et NON conventionné confondus) : 125% BR ; CONFORT (secteurs conventionné et NON conventionné confondus) : 130% BR ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 160% BR",
+      "sub_limits": [
+        "BASE PRIME (secteurs conventionné et NON conventionné confondus) : 125% BR",
+        "CONFORT (secteurs conventionné et NON conventionné confondus) : 130% BR",
+        "CONFORT+ (secteurs conventionné et NON conventionné confondus) : 160% BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Orthodontie",
+      "description": "Tableau de garanties, section « DENTAIRE REMBOURSÉ PAR LA SÉCURITE SOCIALE ». BASE PRIME (secteurs conventionné et NON conventionné confondus) : 275% BR ; CONFORT (secteurs conventionné et NON conventionné confondus) : 300% BR ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 325% BR.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "BASE PRIME (secteurs conventionné et NON conventionné confondus) : 275% BR ; CONFORT (secteurs conventionné et NON conventionné confondus) : 300% BR ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 325% BR",
+      "sub_limits": [
+        "BASE PRIME (secteurs conventionné et NON conventionné confondus) : 275% BR",
+        "CONFORT (secteurs conventionné et NON conventionné confondus) : 300% BR",
+        "CONFORT+ (secteurs conventionné et NON conventionné confondus) : 325% BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Parodontologie, prothèses dentaires, orthodontie / par année civile, par bénéficiaire",
+      "description": "Tableau de garanties, section « DENTAIRE NON REMBOURSÉ PAR LA SÉCURITE SOCIALE ». BASE PRIME (secteurs conventionné et NON conventionné confondus) : Néant ; CONFORT (secteurs conventionné et NON conventionné confondus) : Crédit 300 € ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : Crédit 600 €.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "BASE PRIME (secteurs conventionné et NON conventionné confondus) : Néant ; CONFORT (secteurs conventionné et NON conventionné confondus) : Crédit 300 € ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : Crédit 600 €",
+      "sub_limits": [
+        "BASE PRIME (secteurs conventionné et NON conventionné confondus) : Néant",
+        "CONFORT (secteurs conventionné et NON conventionné confondus) : Crédit 300 €",
+        "CONFORT+ (secteurs conventionné et NON conventionné confondus) : Crédit 600 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Prothèses auditives (y compris piles) / par année civile, par bénéficiaire",
+      "description": "Tableau de garanties, section « ORTHOPÉDIE / AUTRES PROTHÈSES (pris en charge par la Sécurite Sociale) ». BASE PRIME (secteurs conventionné et NON conventionné confondus) : 100% BR + crédit 5% PMSS ; CONFORT (secteurs conventionné et NON conventionné confondus) : 100% BR + crédit 15% PMSS ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 100% BR + crédit 25% PMSS.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "BASE PRIME (secteurs conventionné et NON conventionné confondus) : 100% BR + crédit 5% PMSS ; CONFORT (secteurs conventionné et NON conventionné confondus) : 100% BR + crédit 15% PMSS ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 100% BR + crédit 25% PMSS",
+      "sub_limits": [
+        "BASE PRIME (secteurs conventionné et NON conventionné confondus) : 100% BR + crédit 5% PMSS",
+        "CONFORT (secteurs conventionné et NON conventionné confondus) : 100% BR + crédit 15% PMSS",
+        "CONFORT+ (secteurs conventionné et NON conventionné confondus) : 100% BR + crédit 25% PMSS"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Orthopédie et autres prothèses (hors prothèses auditives et dentaires)",
+      "description": "Tableau de garanties, section « ORTHOPÉDIE / AUTRES PROTHÈSES (pris en charge par la Sécurite Sociale) ». BASE PRIME (secteurs conventionné et NON conventionné confondus) : 100% BR ; CONFORT (secteurs conventionné et NON conventionné confondus) : 100% BR ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 150% BR.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "BASE PRIME (secteurs conventionné et NON conventionné confondus) : 100% BR ; CONFORT (secteurs conventionné et NON conventionné confondus) : 100% BR ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 150% BR",
+      "sub_limits": [
+        "BASE PRIME (secteurs conventionné et NON conventionné confondus) : 100% BR",
+        "CONFORT (secteurs conventionné et NON conventionné confondus) : 100% BR",
+        "CONFORT+ (secteurs conventionné et NON conventionné confondus) : 150% BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Monture adulte",
+      "description": "Tableau de garanties, section « OPTIQUE ». BASE PRIME (secteurs conventionné et NON conventionné confondus) : RSS + forfait 90 € ; CONFORT (secteurs conventionné et NON conventionné confondus) : RSS + forfait 115 € ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : RSS + forfait 125 €.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "BASE PRIME (secteurs conventionné et NON conventionné confondus) : RSS + forfait 90 € ; CONFORT (secteurs conventionné et NON conventionné confondus) : RSS + forfait 115 € ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : RSS + forfait 125 €",
+      "sub_limits": [
+        "BASE PRIME (secteurs conventionné et NON conventionné confondus) : RSS + forfait 90 €",
+        "CONFORT (secteurs conventionné et NON conventionné confondus) : RSS + forfait 115 €",
+        "CONFORT+ (secteurs conventionné et NON conventionné confondus) : RSS + forfait 125 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le nombre d’équipement (2 verres + 1 monture) est limité à 1 équipement tous les 2 ans par bénéficiaire sauf pour les enfants de moins de 18 ans ou en cas de renouvellement justifié par une évolution de la vue où le nombre d’équipement est limité à 1 tous les ans.",
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Monture enfant",
+      "description": "Tableau de garanties, section « OPTIQUE ». BASE PRIME (secteurs conventionné et NON conventionné confondus) : RSS + forfait 50 € ; CONFORT (secteurs conventionné et NON conventionné confondus) : RSS + forfait 75 € ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : RSS + forfait 75 €.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "BASE PRIME (secteurs conventionné et NON conventionné confondus) : RSS + forfait 50 € ; CONFORT (secteurs conventionné et NON conventionné confondus) : RSS + forfait 75 € ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : RSS + forfait 75 €",
+      "sub_limits": [
+        "BASE PRIME (secteurs conventionné et NON conventionné confondus) : RSS + forfait 50 €",
+        "CONFORT (secteurs conventionné et NON conventionné confondus) : RSS + forfait 75 €",
+        "CONFORT+ (secteurs conventionné et NON conventionné confondus) : RSS + forfait 75 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le nombre d’équipement (2 verres + 1 monture) est limité à 1 équipement tous les 2 ans par bénéficiaire sauf pour les enfants de moins de 18 ans ou en cas de renouvellement justifié par une évolution de la vue où le nombre d’équipement est limité à 1 tous les ans.",
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Verres / Montant remboursé par verre en fonction du type de verre",
+      "description": "Tableau de garanties, section « OPTIQUE ». BASE PRIME (secteurs conventionné et NON conventionné confondus) : RSS + Montant indiqué au contrat ; CONFORT (secteurs conventionné et NON conventionné confondus) : RSS + Montant indiqué au contrat ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : RSS + Montant indiqué au contrat.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "BASE PRIME (secteurs conventionné et NON conventionné confondus) : RSS + Montant indiqué au contrat ; CONFORT (secteurs conventionné et NON conventionné confondus) : RSS + Montant indiqué au contrat ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : RSS + Montant indiqué au contrat",
+      "sub_limits": [
+        "BASE PRIME (secteurs conventionné et NON conventionné confondus) : RSS + Montant indiqué au contrat",
+        "CONFORT (secteurs conventionné et NON conventionné confondus) : RSS + Montant indiqué au contrat",
+        "CONFORT+ (secteurs conventionné et NON conventionné confondus) : RSS + Montant indiqué au contrat"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le nombre d’équipement (2 verres + 1 monture) est limité à 1 équipement tous les 2 ans par bénéficiaire sauf pour les enfants de moins de 18 ans ou en cas de renouvellement justifié par une évolution de la vue où le nombre d’équipement est limité à 1 tous les ans.",
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Lentilles remboursées par la Sécurité sociale",
+      "description": "Tableau de garanties, section « OPTIQUE ». BASE PRIME (secteurs conventionné et NON conventionné confondus) : 2% PMSS ; CONFORT (secteurs conventionné et NON conventionné confondus) : 3% PMSS ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 4% PMSS.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "BASE PRIME (secteurs conventionné et NON conventionné confondus) : 2% PMSS ; CONFORT (secteurs conventionné et NON conventionné confondus) : 3% PMSS ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 4% PMSS",
+      "sub_limits": [
+        "BASE PRIME (secteurs conventionné et NON conventionné confondus) : 2% PMSS",
+        "CONFORT (secteurs conventionné et NON conventionné confondus) : 3% PMSS",
+        "CONFORT+ (secteurs conventionné et NON conventionné confondus) : 4% PMSS"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le nombre d’équipement (2 verres + 1 monture) est limité à 1 équipement tous les 2 ans par bénéficiaire sauf pour les enfants de moins de 18 ans ou en cas de renouvellement justifié par une évolution de la vue où le nombre d’équipement est limité à 1 tous les ans.",
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Lentilles non remboursées par la Sécurité sociale (y compris lentilles jetables), par année civile",
+      "description": "Tableau de garanties, section « OPTIQUE ». BASE PRIME (secteurs conventionné et NON conventionné confondus) : Crédit 2% PMSS ; CONFORT (secteurs conventionné et NON conventionné confondus) : Crédit 3% PMSS ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : Crédit 4% PMSS.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "BASE PRIME (secteurs conventionné et NON conventionné confondus) : Crédit 2% PMSS ; CONFORT (secteurs conventionné et NON conventionné confondus) : Crédit 3% PMSS ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : Crédit 4% PMSS",
+      "sub_limits": [
+        "BASE PRIME (secteurs conventionné et NON conventionné confondus) : Crédit 2% PMSS",
+        "CONFORT (secteurs conventionné et NON conventionné confondus) : Crédit 3% PMSS",
+        "CONFORT+ (secteurs conventionné et NON conventionné confondus) : Crédit 4% PMSS"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le nombre d’équipement (2 verres + 1 monture) est limité à 1 équipement tous les 2 ans par bénéficiaire sauf pour les enfants de moins de 18 ans ou en cas de renouvellement justifié par une évolution de la vue où le nombre d’équipement est limité à 1 tous les ans.",
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Chirurgie réfractive (myopie) / par année civile, par œil",
+      "description": "Tableau de garanties, section « OPTIQUE ». BASE PRIME (secteurs conventionné et NON conventionné confondus) : Crédit 200 € ; CONFORT (secteurs conventionné et NON conventionné confondus) : Crédit 300 € ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : Crédit 400 €.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "BASE PRIME (secteurs conventionné et NON conventionné confondus) : Crédit 200 € ; CONFORT (secteurs conventionné et NON conventionné confondus) : Crédit 300 € ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : Crédit 400 €",
+      "sub_limits": [
+        "BASE PRIME (secteurs conventionné et NON conventionné confondus) : Crédit 200 €",
+        "CONFORT (secteurs conventionné et NON conventionné confondus) : Crédit 300 €",
+        "CONFORT+ (secteurs conventionné et NON conventionné confondus) : Crédit 400 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le nombre d’équipement (2 verres + 1 monture) est limité à 1 équipement tous les 2 ans par bénéficiaire sauf pour les enfants de moins de 18 ans ou en cas de renouvellement justifié par une évolution de la vue où le nombre d’équipement est limité à 1 tous les ans.",
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Frais de traitement et honoraires",
+      "description": "Tableau de garanties, section « CURES THERMALES (acceptées par la Sécurite Sociale) ». BASE PRIME (secteurs conventionné et NON conventionné confondus) : 100% BR ; CONFORT (secteurs conventionné et NON conventionné confondus) : 100% BR ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 100% BR.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "BASE PRIME (secteurs conventionné et NON conventionné confondus) : 100% BR ; CONFORT (secteurs conventionné et NON conventionné confondus) : 100% BR ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 100% BR",
+      "sub_limits": [
+        "BASE PRIME (secteurs conventionné et NON conventionné confondus) : 100% BR",
+        "CONFORT (secteurs conventionné et NON conventionné confondus) : 100% BR",
+        "CONFORT+ (secteurs conventionné et NON conventionné confondus) : 100% BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Frais de séjour, voyage et d’hébergement",
+      "description": "Tableau de garanties, section « CURES THERMALES (acceptées par la Sécurite Sociale) ». BASE PRIME (secteurs conventionné et NON conventionné confondus) : Néant ; CONFORT (secteurs conventionné et NON conventionné confondus) : Forfait de 10% PMSS ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : Forfait de 10% PMSS.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "BASE PRIME (secteurs conventionné et NON conventionné confondus) : Néant ; CONFORT (secteurs conventionné et NON conventionné confondus) : Forfait de 10% PMSS ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : Forfait de 10% PMSS",
+      "sub_limits": [
+        "BASE PRIME (secteurs conventionné et NON conventionné confondus) : Néant",
+        "CONFORT (secteurs conventionné et NON conventionné confondus) : Forfait de 10% PMSS",
+        "CONFORT+ (secteurs conventionné et NON conventionné confondus) : Forfait de 10% PMSS"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Naissance d’un enfant déclaré",
+      "description": "Tableau de garanties, section « MATERNITÉ ». BASE PRIME (secteurs conventionné et NON conventionné confondus) : Forfait de 5% PMSS ; CONFORT (secteurs conventionné et NON conventionné confondus) : Forfait de 10% PMSS ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : Forfait de 10% PMSS.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "BASE PRIME (secteurs conventionné et NON conventionné confondus) : Forfait de 5% PMSS ; CONFORT (secteurs conventionné et NON conventionné confondus) : Forfait de 10% PMSS ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : Forfait de 10% PMSS",
+      "sub_limits": [
+        "BASE PRIME (secteurs conventionné et NON conventionné confondus) : Forfait de 5% PMSS",
+        "CONFORT (secteurs conventionné et NON conventionné confondus) : Forfait de 10% PMSS",
+        "CONFORT+ (secteurs conventionné et NON conventionné confondus) : Forfait de 10% PMSS"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Chambre particulière maternité /jour (dans la limite de 6 jours). Au-delà de 6 jours, il sera fait application de l’indemnisation prévue au titre du poste chambre particulière en hospitalisation médicale, chirurgicale, maternité.",
+      "description": "Tableau de garanties, section « MATERNITÉ ». BASE PRIME (secteurs conventionné et NON conventionné confondus) : 2% PMSS ; CONFORT (secteurs conventionné et NON conventionné confondus) : 3% du PMSS ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 4% du PMSS.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "BASE PRIME (secteurs conventionné et NON conventionné confondus) : 2% PMSS ; CONFORT (secteurs conventionné et NON conventionné confondus) : 3% du PMSS ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 4% du PMSS",
+      "sub_limits": [
+        "BASE PRIME (secteurs conventionné et NON conventionné confondus) : 2% PMSS",
+        "CONFORT (secteurs conventionné et NON conventionné confondus) : 3% du PMSS",
+        "CONFORT+ (secteurs conventionné et NON conventionné confondus) : 4% du PMSS"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Ostéopathie (intervention dans le cadre d’un praticien inscrit auprès d’une association agréée)",
+      "description": "Tableau de garanties, section « ACTES HORS NOMENCLATURE ». BASE PRIME (secteurs conventionné et NON conventionné confondus) : Néant ; CONFORT (secteurs conventionné et NON conventionné confondus) : Néant ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 20 € par acte dans la limite de 5 actes.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "BASE PRIME (secteurs conventionné et NON conventionné confondus) : Néant ; CONFORT (secteurs conventionné et NON conventionné confondus) : Néant ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 20 € par acte dans la limite de 5 actes",
+      "sub_limits": [
+        "BASE PRIME (secteurs conventionné et NON conventionné confondus) : Néant",
+        "CONFORT (secteurs conventionné et NON conventionné confondus) : Néant",
+        "CONFORT+ (secteurs conventionné et NON conventionné confondus) : 20 € par acte dans la limite de 5 actes"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Ensemble des actes de prévention visés par l’arrêté du 8.06.2006",
+      "description": "Tableau de garanties, section « ACTES DE PRÉVENTION ». BASE PRIME (secteurs conventionné et NON conventionné confondus) : 100% BR ; CONFORT (secteurs conventionné et NON conventionné confondus) : 100% BR ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 100% BR.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "BASE PRIME (secteurs conventionné et NON conventionné confondus) : 100% BR ; CONFORT (secteurs conventionné et NON conventionné confondus) : 100% BR ; CONFORT+ (secteurs conventionné et NON conventionné confondus) : 100% BR",
+      "sub_limits": [
+        "BASE PRIME (secteurs conventionné et NON conventionné confondus) : 100% BR",
+        "CONFORT (secteurs conventionné et NON conventionné confondus) : 100% BR",
+        "CONFORT+ (secteurs conventionné et NON conventionné confondus) : 100% BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins.",
+        "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale en vigueur.",
+        "Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite des frais réels dûment justifiés, engagés par le bénéficiaire."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Étendue territoriale de la couverture",
+      "description": "Les assurés sont couverts en France et à l’étranger.",
+      "is_optional": false,
+      "territorial_scope": "France et étranger",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Pour les soins dispensés à l’étranger, le remboursement par l’assureur se fait en France et en euros sous réserve qu’ils soient pris en charge par le Régime obligatoire de la Sécurité sociale française et selon la formule de garanties souscrite, quelle que soit la dépense engagée."
+      ],
+      "page": 2
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Soins reçus hors période de validité du contrat",
+      "description": "Les soins reçus en dehors de la période de validité du contrat.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Frais non pris en charge par l’assurance maladie",
+      "description": "Les frais non pris en charge par l’assurance maladie et non pris en charge au titre du tableau de garanties.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Indemnités journalières",
+      "description": "Les indemnités journalières versées en complément de la Sécurité sociale en cas d’arrêt de travail.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Séjours en unité de soins longue durée ou en établissement médico-social",
+      "description": "Les dépenses de soins afférentes aux séjours dans une unité de soins longue durée ou dans les établissements médico-sociaux tels que les établissements d’hébergement pour personnes âgées (EHPAD).",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Franchises médicales (exclusion du contrat responsable)",
+      "description": "Les franchises médicales sur les médicaments, les actes paramédicaux et les transports.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Participation forfaitaire d’un euro (exclusion du contrat responsable)",
+      "description": "La participation forfaitaire d’un euro sur les consultations et actes médicaux, examens radiologiques et analyses de laboratoire.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Majoration du ticket modérateur hors parcours de soins (exclusion du contrat responsable)",
+      "description": "La majoration du ticket modérateur lorsque l’assuré ne respecte pas le parcours de soins.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dépassements d’honoraires hors parcours de soins (exclusion du contrat responsable)",
+      "description": "Les dépassements d’honoraires pratiqués par les médecins, lorsque l’assuré ne respecte pas le parcours de soins.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Actes non pris en charge par le régime obligatoire (exclusion du contrat)",
+      "description": "Tous les actes non pris en charge par le régime obligatoire sauf dérogations prévues au tableau de garanties.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Restriction — Pharmacie : tarif forfaitaire de responsabilité",
+      "description": "Pharmacie : pour les médicaments figurant dans un groupe générique prévu au code de la santé publique et ayant fait l’objet d’un remboursement par la Sécurité sociale sur la base du tarif forfaitaire de responsabilité applicable à ce groupe de médicaments, le remboursement complémentaire effectué par l’organisme assureur se fera également sur la base du tarif forfaitaire de responsabilité applicable à ce groupe de médicaments.",
+      "applies_to": "Pharmacie",
+      "page": 1
+    },
+    {
+      "name": "Restriction — Maternité limitée à l’intervention chirurgicale",
+      "description": "Maternité : la garantie prévue au risque hospitalisation chirurgicale s’applique dans l’hypothèse d’une intervention chirurgicale (césarienne).",
+      "applies_to": "Maternité",
+      "page": 1
+    },
+    {
+      "name": "Restriction — Optique : fréquence de renouvellement",
+      "description": "Optique : remboursement limité à un équipement (monture + 2 verres) tous les deux ans sauf évolution de la vue et enfants mineurs (un remboursement tous les ans).",
+      "applies_to": "Optique",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": null,
+    "per_coverage": null,
+    "page": null
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Signature des conditions particulières",
+      "description": "l’employeur doit signer les conditions particulières",
+      "timing": "À la souscription",
+      "sanction": "Sous peine de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Remise du bulletin d’affiliation et de la notice",
+      "description": "l’employeur doit faire signer au salarié le bulletin individuel d’affiliation et doit lui remettre la notice d’information contre récépissé",
+      "timing": "À la souscription",
+      "sanction": "Sous peine de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Bulletin d’affiliation du salarié",
+      "description": "le salarié doit remplir avec exactitude et signer le bulletin d’affiliation accompagné des justificatifs demandés, en faisant le choix, le cas échéant, d’une option facultative, sauf mise en jeu d’un cas de dispense d’affiliation",
+      "timing": "À la souscription",
+      "sanction": "Sous peine de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Paiement de la cotisation par l’employeur",
+      "description": "l’employeur doit payer la cotisation du contrat obligatoire, l’éventuelle part restant à la charge du salarié est précomptée sur la fiche de paye. La cotisation des ayants droit non couverts à titre obligatoire ainsi que celle des formules améliorées sont à la charge du salarié",
+      "timing": "Durant le contrat",
+      "sanction": "Sous peine de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Information de l’assureur et déclaration sociale nominative (employeur)",
+      "description": "l’employeur doit informer l’assureur de tout changement de situation et doit lui produire la déclaration sociale nominative (DSN)",
+      "timing": "Durant le contrat",
+      "sanction": "Sous peine de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Information de l’assureur sur tout changement de situation (salarié)",
+      "description": "le salarié doit informer l’assureur de tout changement de situation (ex. : coordonnées bancaires, situation familiale, etc.)",
+      "timing": "Durant le contrat",
+      "sanction": "Sous peine de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Maintien de la couverture en cas de suspension du contrat de travail",
+      "description": "le salarié doit, en cas de suspension du contrat de travail sans maintien partiel ou total de salaire, manifester auprès de l’assureur sa volonté de maintenir sa couverture frais de santé dans le mois qui précède cette suspension",
+      "timing": "Durant le contrat — dans le mois qui précède la suspension",
+      "sanction": "Sous peine de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Justification des conditions de la portabilité",
+      "description": "le salarié doit, en cas de maintien des garanties au titre du mécanisme de portabilité, justifier auprès de l’assureur, lors de la cessation du contrat de travail et au cours de la période de maintien des garanties, du fait qu’il remplisse les conditions mentionnées dans la note d’information détaillée",
+      "timing": "Durant le contrat",
+      "sanction": "Sous peine de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Justificatifs annuels de la qualité d’ayant droit",
+      "description": "le salarié doit fournir chaque année les pièces justificatives de la qualité d’ayant droit des enfants assurés sociaux",
+      "timing": "Durant le contrat",
+      "sanction": "Sous peine de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Envoi des demandes de remboursement",
+      "description": "le salarié doit faire parvenir les demandes de remboursement à l’assureur dans un délai maximum de 2 ans suivant la date de remboursement des soins de la Sécurité sociale ou suivant la date des soins pour les frais non remboursés",
+      "timing": "En cas de sinistre — délai maximum de 2 ans",
+      "sanction": "Sous peine de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Fourniture des justificatifs de paiement",
+      "description": "le salarié doit fournir tout document justificatif nécessaire au paiement des prestations prévues au contrat",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de non garantie",
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Envoi de la demande de remboursement",
+      "description": "Le salarié doit faire parvenir les demandes de remboursement à l’assureur.",
+      "deadline": "délai maximum de 2 ans suivant la date de remboursement des soins de la Sécurité sociale ou suivant la date des soins pour les frais non remboursés",
+      "page": 2
+    },
+    {
+      "step": "Fourniture des justificatifs",
+      "description": "Le salarié doit fournir tout document justificatif nécessaire au paiement des prestations prévues au contrat.",
+      "deadline": null,
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Pour l’employeur : le contrat collectif prend effet à la date fixée aux conditions particulières. Le contrat est conclu pour une période allant jusqu’au 31 décembre de l’année en cours.",
+    "tacit_renewal": true,
+    "notice_period": "L’entreprise souscriptrice peut résilier le contrat collectif obligatoire au moins deux mois avant son échéance annuelle.",
+    "methods": [
+      "par lettre recommandée, le cachet de la poste faisant foi",
+      "La résiliation du contrat est effective le 31 décembre de l’année de dénonciation à minuit."
+    ],
+    "special_rights": [
+      "Il se renouvelle ensuite annuellement par tacite reconduction au 1er janvier de chaque année, sauf résiliation par l’une des parties dans les cas et conditions fixées au contrat.",
+      "Le salarié est tenu d’être affilié au contrat collectif, sauf mise en jeu d’un cas de dispense d’affiliation prévu par la règlementation.",
+      "Le salarié affilié qui a souscrit une formule de garanties supérieure à celle souscrite par l’entreprise peut y mettre fin ; le salarié affilié et ses éventuels ayants droit demeurent affiliés à la couverture obligatoire de l’entreprise souscriptrice.",
+      "Les garanties cessent pour le salarié : soit à l’expiration du mois au cours duquel prend fin l’appartenance au groupe assuré ; soit à la date à laquelle prend fin la période de portabilité ; soit à la date de résiliation du contrat collectif à adhésion obligatoire par l’entreprise souscriptrice ou l’assureur."
+    ],
+    "page": 2
+  },
+  "prescription_period": {
+    "description": null,
+    "page": null
+  },
+  "premium": {
+    "notes": [
+      "La cotisation du contrat obligatoire, fixée aux conditions particulières, est mensuelle et payable à terme échu.",
+      "L’entreprise souscriptrice peut la régler trimestriellement, par chèque ou mandat de prélèvement SEPA, selon les modalités prévues au contrat.",
+      "L’entreprise peut également opter pour le dispositif Titre Emploi Service Entreprise (TESE).",
+      "Le salarié assume la charge financière et le paiement de la cotisation afférente à la couverture facultative de ses éventuels ayants droit affiliés ainsi que celle afférente aux formules améliorées ; le règlement s’opère par mandat de prélèvement SEPA et la cotisation est payable d’avance mensuellement ou trimestriellement.",
+      "En tout état de cause, le paiement de la cotisation est exigible dans les 10 jours de son échéance."
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Porteur du risque",
+      "description": "Ce contrat est assuré par Macif-Mutualité - Mutuelle régie par le Livre II du Code de la mutualité, adhérente à la Mutualité Française. SIREN 779 558 501. Siège social : Carré Haussmann - 22-28 rue Joubert - 75435 Paris cedex 9. Mutuelle soumise au contrôle de l’Autorité de Contrôle Prudentiel et de Résolution - 61 rue Taitbout - 75436 Paris cedex 9.",
+      "page": 3
+    },
+    {
+      "name": "Porteur du risque des prestations d’assistance",
+      "description": "Les prestations d’assistance sont assurées par IMA Assurances - Société anonyme au capital de 7 000 000 € entièrement libéré - Entreprise régie par le Code des assurances. SIREN 481 511 632 RCS Niort. Siège social : 118 avenue de Paris - 79000 Niort.",
+      "page": 3
+    },
+    {
+      "name": "Contrat responsable",
+      "description": "Le produit respecte les conditions légales des contrats responsables.",
+      "page": 1
+    },
+    {
+      "name": "Extension aux ayants droit et options facultatives",
+      "description": "Le salarié affilié a la possibilité d’étendre sa couverture santé à ses ayants droit. En complément du contrat de base souscrit par l’employeur, le salarié peut faire le choix d’améliorer sa garantie en adhérant à l’une des options facultatives pour lui-même et ses éventuels ayants droit affiliés.",
+      "page": 1
+    },
+    {
+      "name": "Prise d’effet pour le salarié",
+      "description": "Pour le salarié, le contrat collectif à adhésion obligatoire prend effet : soit, au plus tôt, à la date d’effet du contrat ; soit à la date d’appartenance au groupe assuré ; soit à la date mentionnée au bulletin d’affiliation, en cas d’affiliation faisant suite à la fin d’une dispense d’affiliation.",
+      "page": 2
+    },
+    {
+      "name": "Prise d’effet et cessation d’une formule supérieure choisie par le salarié",
+      "description": "Lorsque le salarié souscrit une formule de garanties supérieure à celle de l’entreprise, elle prend effet soit dès l’admission à l’assurance lorsque la demande est concomitante, soit à la date d’un des évènements définis au contrat si la demande d’affiliation est faite dans les 30 jours à compter de la survenance de l’évènement, soit, dans tous les autres cas, au premier jour du mois qui suit la réception de la demande ; elle cesse à la date de dénonciation de la formule optionnelle, à la date de résiliation du contrat collectif, à la fin du mois au cours duquel le salarié n’appartient plus à la catégorie de personnel visée, ou en cas de non paiement des cotisations.",
+      "page": 2
+    },
+    {
+      "name": "Plafonds et reste à charge",
+      "description": "Les montants des prestations sont soumis à des plafonds qui varient en fonction du niveau de garantie choisi et qui figurent dans les tableaux de garanties. Ils ne peuvent être plus élevés que les dépenses engagées. Certaines sommes peuvent rester à la charge de l’assuré.",
+      "page": 1
+    },
+    {
+      "name": "Remboursement des soins dispensés à l’étranger",
+      "description": "Pour les soins dispensés à l’étranger, le remboursement par l’assureur se fait en France et en euros sous réserve qu’ils soient pris en charge par le Régime obligatoire de la Sécurité sociale française et selon la formule de garanties souscrite, quelle que soit la dépense engagée.",
+      "page": 2
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Le contrat collectif à adhésion obligatoire Complémentaire santé Branche de l’Aide, de l’Accompagnement, des Soins et des Services à Domicile (BAD), souscrit par \nl’employeur au profit de ses salariés, a pour objet le remboursement de tout ou partie des frais de santé restant à leur charge, en cas d’accident, de maladie ou de \nmaternité. Ces garanties interviennent en complément de la Sécurité sociale française sauf exceptions prévues au tableau de garanties. Le salarié affilié a la possibilité \nd’étendre sa couverture santé à ses ayants droit. En complément du contrat de base souscrit par l’employeur, le salarié peut faire le choix d’améliorer sa garantie en \nadhérant à l’une des options facultatives pour lui-même et ses éventuels ayants droit affiliés. Le produit respecte les conditions légales des contrats responsables.",
+      "context": "Objet du contrat, souscripteur et bénéficiaires.",
+      "page": 1
+    },
+    {
+      "quote": "Les montants des prestations sont soumis à des plafonds qui varient en \nfonction du niveau de garantie choisi et qui figurent dans les tableaux \nde garanties. Ils ne peuvent être plus élevés que les dépenses engagées. \nCertaines sommes peuvent rester à la charge de l’assuré.",
+      "context": "Mécanisme des plafonds et reste à charge.",
+      "page": 1
+    },
+    {
+      "quote": "Les garanties ou services précédés d’une coche verte   sont systéma-\ntiquement prévus au contrat.",
+      "context": "La légende qui donne la polarité des marqueurs : les items cochés sont systématiquement prévus.",
+      "page": 1
+    },
+    {
+      "quote": "Tous les actes non pris en charge par le régime obligatoire sauf déro-\ngations prévues au tableau de garanties.",
+      "context": "La principale exclusion du contrat lui-même.",
+      "page": 1
+    },
+    {
+      "quote": "Optique : remboursement limité à un équipement (monture + 2 verres) \ntous les deux ans sauf évolution de la vue et enfants mineurs (un \nremboursement tous les ans).",
+      "context": "Restriction de fréquence sur l’équipement optique.",
+      "page": 1
+    },
+    {
+      "quote": "Ce contrat est assuré par Macif-Mutualité, mutuelle enregistrée en France et régie par le Livre II\ndu Code de la mutualité. SIREN n° 779 558 501",
+      "context": "Porteur du risque nommé en page 1, avec son numéro d’immatriculation.",
+      "page": 1
+    },
+    {
+      "quote": "La cotisation du contrat obligatoire, fixée aux conditions particulières, est mensuelle et payable à terme échu.",
+      "context": "Périodicité de la cotisation.",
+      "page": 2
+    },
+    {
+      "quote": "le salarié doit, en cas de suspension du contrat de travail sans maintien partiel ou total de salaire, manifester auprès de l’assureur sa volonté de maintenir \nsa couverture frais de santé dans le mois qui précède cette suspension ;",
+      "context": "Obligation du salarié en cas de suspension du contrat de travail.",
+      "page": 2
+    },
+    {
+      "quote": "l’employeur doit informer l’assureur de tout changement de situation et doit lui produire la déclaration sociale nominative (DSN) ;",
+      "context": "Obligation déclarative de l’employeur pendant le contrat.",
+      "page": 2
+    },
+    {
+      "quote": "En tout état de cause, le paiement de la cotisation est exigible dans les 10 jours de son échéance.",
+      "context": "Exigibilité de la cotisation.",
+      "page": 2
+    },
+    {
+      "quote": "L’entreprise souscriptrice peut résilier le contrat collectif obligatoire au moins deux mois avant son échéance annuelle, par lettre recommandée, le cachet \nde la poste faisant foi. La résiliation du contrat est effective le 31 décembre de l’année de dénonciation à minuit.",
+      "context": "Modalités et délai de résiliation par l’entreprise.",
+      "page": 2
+    },
+    {
+      "quote": "Les assurés sont couverts en France et à l’étranger. \n\t\u0007Pour les soins dispensés à l’étranger, le remboursement par l’assureur se fait en France et en euros sous réserve qu’ils soient pris en charge par le Régime \nobligatoire de la Sécurité sociale française et selon la formule de garanties souscrite, quelle que soit la dépense engagée.",
+      "context": "Étendue territoriale et traitement des soins à l’étranger.",
+      "page": 2
+    },
+    {
+      "quote": "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins. Ces remboursements sont effectués en excluant \nla participation forfaitaire et la franchise annuelle de l’assuré qui restent à sa charge, conformément à la loi. Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de \nremboursement de la Sécurité sociale en vigueur. Les garanties ci-dessous s’entendent y compris les prestations versées par le Régime obligatoire de la Sécurité sociale, dans la limite \ndes frais réels dûment justifiés, engagés par le bénéficiaire.",
+      "context": "Règles de lecture du tableau de garanties de la page 3.",
+      "page": 3
+    },
+    {
+      "quote": "Ce contrat est assuré par Macif-Mutualité - Mutuelle régie par le Livre II du Code de la mutualité, adhérente à la Mutualité Française. SIREN 779 558 501. Siège social : Carré Haussmann - 22-28 rue \nJoubert - 75435 Paris cedex 9. Mutuelle soumise au contrôle de l’Autorité de Contrôle Prudentiel et de Résolution - 61 rue Taitbout - 75436 Paris cedex 9.",
+      "context": "Porteur du risque, avec SIREN et autorité de contrôle.",
+      "page": 3
+    },
+    {
+      "quote": "Les prestations d’assistance sont assurées par IMA Assurances - Société anonyme au capital de 7 000 000 € entièrement libéré - Entreprise régie par le Code des assurances. SIREN 481 511 632 \nRCS Niort. Siège social : 118 avenue de Paris - 79000 Niort.",
+      "context": "Second porteur du risque, pour les seules prestations d’assistance.",
+      "page": 3
+    },
+    {
+      "quote": "BR = Base de Remboursement de la Sécurité sociale / RSS = Remboursement Sécurité sociale / FR = Frais réels / PMSS = Plafond Mensuel de la Sécurité sociale / OPTAM = Option pratique tarifaire maîtrisée /  \nOPTAM-CO = Option pratique tarifaire maîtrisée – Chirurgien obstétricien.",
+      "context": "Légende des sigles employés dans le tableau.",
+      "page": 3
+    }
+  ],
+  "gaps": [
+    "POLARITÉ TRANCHÉE AU RENDU, ET NON AU CALQUE TEXTE. Les marqueurs de ce DIPA sont des IMAGES bitmap : ni texte, ni tracés vectoriels. get_text() et get_drawings() ne les voient pas. Trois familles, distinguées par leurs dimensions puis confirmées sur un rendu à 9× : coche verte 5,1 × 5,7 pt à x ≈ 29,6 (couvert) ; croix rouge 4,9 × 5,0 pt à x ≈ 307,2 (non assuré) ; « ! » orange 1,9 × 7,1 pt à x ≈ 308,1 (exclusion ou restriction). Les comptes ferment sur la page 1 : 26 images = 13 coches + 4 croix + 8 « ! » + 1 coche isolée à l’intérieur de la phrase de légende (x = 229,7).",
+    "LE COMPTAGE PAR U+0007 AURAIT ÉTÉ FAUX DANS LES DEUX SENS, mesuré sur ce document. Deux items PORTENT un marqueur imprimé SANS aucun U+0007 : « Assistance dédiée aux aidants. » (coche verte, image à y = 700,7) et « Les soins reçus en dehors de la période de validité du contrat. » (croix rouge, image à y = 277,3) — un comptage par calque les aurait perdus, dont une exclusion. À l’inverse, 7 lignes portent un U+0007 SANS aucune image : les 2 garanties optionnelles cochées de la page 1 et les 5 obligations de la page 2, toutes imprimées avec un simple tiret « - ». Vérifié au rendu.",
+    "Les 4 GARANTIES OPTIONNELLES de la page 1 sont imprimées avec un tiret et non avec une coche verte — c’est ce qui les distingue visuellement des garanties systématiquement prévues, et non leur position en colonne. is_optional = true leur est appliqué, ainsi qu’aux 4 lignes du tableau de la page 3 qui portent exactement les mêmes intitulés (frais d’accompagnement d’un enfant, parodontologie/prothèses/orthodontie non remboursées, cures thermales frais de séjour, ostéopathie). is_optional est laissé à null sur les autres lignes du tableau, que le tableau ne qualifie pas.",
+    "CELLULE FUSIONNÉE VERTICALEMENT, page 3 : dans la section « FRAIS MÉDICAUX – SOINS COURANTS », la colonne « Secteur NON conventionné » ne contient QU’UNE seule valeur, « 80% FR limité à 100% BR », dans une cellule haute qui couvre les huit lignes de la section (des consultations de généralistes jusqu’aux analyses de laboratoire). Le texte plat l’émet juste après la ligne « Consultations et visites de médecins généralistes », ce qui la rattacherait à cette seule ligne ; sa position réelle (y ≈ 297-304) la placerait, en lecture par proximité, sur la ligne « Hors parcours de soins ». Les deux lectures sont fausses : vérifié au rendu, la valeur s’applique aux huit lignes, et elle leur a été affectée à toutes.",
+    "CELLULES FUSIONNÉES HORIZONTALEMENT, page 3 : le tableau a six sous-colonnes (3 formules BASE PRIME / CONFORT / CONFORT+ × 2 secteurs conventionné / NON conventionné), mais la majorité des lignes ne portent que trois valeurs, centrées sur le bloc de la formule et donc valables pour les deux secteurs. L’affectation a été faite en comparant l’abscisse du centre de chaque cellule aux centres des six sous-colonnes ET aux centres des trois blocs, relevés sur l’en-tête de la page 3 ; la valeur la plus proche l’emporte. Comptes : 87 cellules fusionnées, 48 cellules par sous-colonne. Une lecture à plat aurait attribué les lignes à trois valeurs aux trois PREMIÈRES sous-colonnes, donc au seul secteur conventionné.",
+    "Le texte du prompt a été vérifié identique, caractère pour caractère, à ma propre extraction page.get_text(\"text\") du PDF local (19 573 caractères de part et d’autre). Aucune troncature.",
+    "PORTEUR DU RISQUE : le document le dit deux fois par un verbe, « Ce contrat est assuré par Macif-Mutualité », mutuelle du Livre II du Code de la mutualité, SIREN 779 558 501 ; et « Les prestations d’assistance sont assurées par IMA Assurances », SIREN 481 511 632 RCS Niort. Deux porteurs distincts selon la garantie. Le SIREN 779 558 501 est le point d’identification : la dénomination portée ici, « Macif-Mutualité », diffère de celles rencontrées ailleurs dans le corpus pour ce même numéro. Rien n’est conclu au-delà de ce que ce document imprime.",
+    "La page 1 et la page 3 donnent la même adresse d’assureur sous deux formes différentes : la page 1 écrit « Macif-Mutualité, mutuelle enregistrée en France et régie par le Livre II du Code de la mutualité. SIREN n° 779 558 501 » sans siège social ; la page 3 ajoute « adhérente à la Mutualité Française », le siège Carré Haussmann - 22-28 rue Joubert - 75435 Paris cedex 9 et l’ACPR. Les deux sont enregistrées, aucune n’a été préférée à l’autre.",
+    "DOUBLE NIVEAU DE GRANULARITÉ ASSUMÉ : les garanties sont listées deux fois par le document lui-même — en résumé sur la page 1 (encadré « Qu’est-ce qui est assuré ? », sans montants) et en détail sur la page 3 (tableau des garanties, avec les montants par formule). Les deux jeux sont conservés : 17 garanties de la page 1 (8 systématiques, 4 optionnelles, 3 assistance, 2 services), 40 lignes du tableau de la page 3, plus l’étendue territoriale de la page 2. Fusionner les deux aurait perdu soit la qualification « systématiquement prévue / optionnelle », soit les montants.",
+    "Le tableau de la page 3 comporte une ligne de section « ASSISTANCE » sans aucune valeur en face : le tableau ne chiffre pas les prestations d’assistance, qui ne sont décrites que sur la page 1. Aucune valeur n’a été inventée pour cette ligne.",
+    "edition_date = 01/19, lu sur la référence « DIPA BAD 01/19 » imprimée en pages 1 et 3, et cohérent avec « (Garanties en vigueur au 1er janvier 2019) » de la page 3. Une seule ligne d’édition, sans doublon fantôme superposé dans le calque.",
+    "prescription_period laissé vide : le DIPA n’énonce aucun délai de prescription. Le délai de 2 ans qu’il mentionne est le délai d’envoi des demandes de remboursement, enregistré en obligation et en étape de sinistre, pas une prescription.",
+    "deductibles laissé vide : le document ne fixe aucune franchise contractuelle. Les franchises médicales et la participation forfaitaire d’un euro qu’il cite sont des sommes légales laissées à la charge de l’assuré, enregistrées en exclusions du contrat responsable.",
+    "target_audience = entreprises : le contrat est « souscrit par l’employeur au profit de ses salariés ». Le champ désigne donc le souscripteur ; les bénéficiaires sont les salariés de la branche BAD, ce qui est précisé dans target_audience_note.",
+    "Auto-contrôle des champs non lus dans le document, effectué avant de finir : source_url avait été RECONSTRUIT de mémoire au lieu d’être recopié depuis le prompt, et se trouvait faux (mauvais répertoire). Il a été réécrit caractère pour caractère depuis le prompt, puis tous les champs de métadonnées (country, insurer_slug, insurer_name, branch, language, document_type, source_pages, prompt_version, schema_version) ont été recomparés au prompt : concordance complète."
+  ]
+}

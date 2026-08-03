@@ -197,6 +197,7 @@ Lorsque la demande fait l'objet d'une étude par le service médical de l'assure
 ## Documents liés
 
 - [contrat GARANTIE DÉCÈS Capital forfaitaire - IPID](contrat%20GARANTIE%20D%C3%89C%C3%88S%20Capital%20forfaitaire%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/26
+- [GARANTIE DÉCÈS (Capital forfaitaire)](GARANTIE%20D%C3%89C%C3%88S%20%28Capital%20forfaitaire%29.md) - Conditions générales, éd. 2026-01
 
 ## Source & fidélité
 

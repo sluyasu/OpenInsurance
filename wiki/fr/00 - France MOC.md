@@ -127,11 +127,11 @@ né d'un contrat que le classement en [[EDPM et mobilités douces]] aurait mal d
 - [Gan Assurances](insurers/Gan%20Assurances.md) (50 documents)
 - [Groupama](insurers/Groupama.md) (31 documents)
 - [Luko](insurers/Luko.md) (14 documents)
-- [MAAF](insurers/MAAF.md) (79 documents)
-- [Macif](insurers/Macif.md) (130 documents)
+- [MAAF](insurers/MAAF.md) (92 documents)
+- [Macif](insurers/Macif.md) (149 documents)
 - [MAIF](insurers/MAIF.md) (69 documents)
-- [Matmut](insurers/Matmut.md) (185 documents)
-- [SMACL Assurances](insurers/SMACL%20Assurances.md) (104 documents)
+- [Matmut](insurers/Matmut.md) (190 documents)
+- [SMACL Assurances](insurers/SMACL%20Assurances.md) (108 documents)
 - [Thélem assurances](insurers/Th%C3%A9lem%20assurances.md) (45 documents)
 <!-- END GENERATED -->
 

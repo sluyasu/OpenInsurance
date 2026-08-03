@@ -1,0 +1,770 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "smacl",
+  "insurer_name": "SMACL Assurances",
+  "product_name": "Dommages ouvrage",
+  "branch": "decennale",
+  "branch_code": null,
+  "document_type": "conditions_generales",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "La couverture (page 1) porte simultanément « Collectvités » et « Associatons » (couche texte : la ligature « ti » perd son i ; le rendu imprime « Collectivités » et « Associations »). L'énumération à valeur unique du schéma ne peut pas porter les deux, d'où target_audience null. L'assuré est « Le souscripteur et les propriétaires successifs de l'ouvrage au bénéfice desquels est souscrit le contrat » (art. 1.1) et l'adresse de contact de la quatrième de couverture est construction@smacl.fr.",
+  "reference": "CONSTRUCTION_CG_DO_SA_06(02_2023)",
+  "edition_date": "01/2024",
+  "product_family": "Dommages ouvrage",
+  "variant": "SMACL Assurances SA",
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.smacl.fr/files/documents/cg-dommages-ouvrage.pdf",
+  "source_pdf": "dommages-ouvrage-587e02f0.pdf",
+  "source_sha256": "02e29e8ec6457754ca85f2ecb9e78f9d3f304736fd2befa473a81cb99ca7ea81",
+  "source_pages": 16,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Conditions générales du contrat Dommages ouvrage de SMACL Assurances SA, assurance de dommages obligatoire prévue par l'article L.242-1 du Code des assurances, souscrite par un maître d'ouvrage pour une opération de construction désignée aux conditions particulières. La garantie de base paie, en dehors de toute recherche de responsabilité, les travaux de réparation des dommages de nature décennale affectant l'ouvrage réalisé et les existants totalement incorporés. Trois garanties facultatives peuvent être adjointes aux conditions particulières : éléments d'équipement dissociables (art. 1792-3 du Code civil), dommages immatériels après réception et dommages aux existants non totalement incorporés, chacune limitée à 20 % du montant de la garantie de base. Le contrat fixe les délais légaux d'instruction du sinistre (60 jours pour la décision sur le principe de la garantie, 90 jours pour l'offre d'indemnité).",
+  "definitions": [
+    {
+      "term": "Assuré",
+      "definition": "Le souscripteur et les propriétaires successifs de l'ouvrage au bénéfice desquels est souscrit le contrat.",
+      "page": 3
+    },
+    {
+      "term": "Assureur",
+      "definition": "SMACL Assurances SA, ci-après dénommée SMACL Assurances.",
+      "page": 3
+    },
+    {
+      "term": "Contrôleur technique",
+      "definition": "La personne désignée aux conditions particulières, agréée ou exerçant dans les conditions prévues par l'article L.111-25 du Code de la construction et de l'habitation, qui est appelée à intervenir à la demande du maître d'ouvrage, pour effectuer le contrôle technique des études et des travaux ayant pour objet la réalisation de l'opération de construction.",
+      "page": 3
+    },
+    {
+      "term": "Coût total de la construction",
+      "definition": "Montant définitif des dépenses de l'ensemble des travaux afférents à la réalisation de l'opération de construction, toutes révisions, honoraires et taxes, et, s'il y a lieu, travaux supplémentaires compris. Ce coût intègre la valeur de reconstruction des existants totalement incorporés dans l'ouvrage neuf et qui en deviennent techniquement indivisibles au sens du II de l'article L.243-1-1 du Code des assurances. En aucun cas, ce coût ne peut toutefois comprendre les primes ou bonifications accordées par le maître d'ouvrage au titre d'une exécution plus rapide que celle prévue contractuellement pour l'exécution des travaux, ni se trouver amputé des pénalités pour retard infligées à l'entrepreneur responsable d'un dépassement du délai contractuel d'exécution.",
+      "page": 3
+    },
+    {
+      "term": "Dommages immatériels",
+      "definition": "Tout préjudice pécuniaire résultant de la privation d'un droit, de l'interruption d'un service rendu par les biens assurés par le contrat ou de la perte d'un bénéfice, à l'exclusion de tout préjudice dérivant d'un accident corporel.",
+      "page": 3
+    },
+    {
+      "term": "Dommages matériels",
+      "definition": "Toute détérioration ou destruction d'une chose ou substance.",
+      "page": 3
+    },
+    {
+      "term": "Éléments d'équipement",
+      "definition": "Élément d'un ouvrage assurant une fonction autre que de viabilité, de fondation, d'ossature, de clos ou de couvert. Un élément d'équipement est considéré comme indissociable de l'ouvrage lorsque sa dépose, son démontage ou remplacement ne peut s'effectuer sans détérioration ou enlèvement de matière de cet ouvrage. Dans les autres cas, l'élément d'équipement est considéré comme dissociable de l'ouvrage. Ne font pas partie des éléments d'équipement : les appareils et équipements ménagers ou domestiques, même s'ils sont fournis au titre du contrat de construction ou de vente du bâtiment ; les équipements, y compris leurs accessoires, dont la fonction exclusive est de permettre l'exercice d'une activité professionnelle dans l'ouvrage.",
+      "page": 3
+    },
+    {
+      "term": "Éléments pouvant entraîner la responsabilité solidaire (EPERS)",
+      "definition": "Il s'agit d'un ouvrage ou d'une partie d'ouvrage ou d'un élément d'équipement conçu et produit pour satisfaire, en état de service, à des exigences précises et déterminées à l'avance. Le fabricant d'un EPERS est solidairement responsable des obligations à la charge du réalisateur qui a mis en œuvre, sans modification et conformément aux règles édictées par le fabricant, l'ouvrage, la partie d'ouvrage ou l'élément d'équipement considéré.",
+      "page": 3
+    },
+    {
+      "term": "Existants",
+      "definition": "Les parties anciennes de la construction existant avant l'ouverture du chantier sur, sous ou dans laquelle sont exécutés les travaux. Ne font pas partie des existants : les appareils et équipements ménagers ou domestiques, même s'ils ont été à l'origine fournis au titre du contrat de construction ou de vente du bâtiment ; les équipements, y compris leurs accessoires, dont la fonction exclusive est de permettre l'exercice d'une activité professionnelle dans l'ouvrage.",
+      "page": 3
+    },
+    {
+      "term": "Interruption de la prescription",
+      "definition": "Interruption du délai non encore écoulé, faisant courir un nouveau délai de même durée que l'ancien.",
+      "page": 3
+    },
+    {
+      "term": "Indice",
+      "definition": "INDEX BÂTIMENT NATIONAL BT 01 tel que publié au Journal officiel ayant pour valeur celle connue à la date des évènements justifiant l'utilisation de cet index.",
+      "page": 3
+    },
+    {
+      "term": "Maître d'ouvrage",
+      "definition": "La personne, physique ou morale, désignée aux conditions particulières, qui a conclu avec les réalisateurs les contrats de louage d'ouvrage afférents à la conception et à l'exécution de l'opération de construction.",
+      "page": 3
+    },
+    {
+      "term": "Opération de construction",
+      "definition": "L'ensemble des travaux de construction afférents aux ouvrages et éléments d'équipement, ainsi que tous autres travaux accessoires nécessaires à la desserte des ouvrages, dont la désignation figure aux conditions particulières. L'opération de construction ne comprend en aucun cas les couches d'usure des chaussées et des voies piétonnières.",
+      "page": 3
+    },
+    {
+      "term": "Prescription",
+      "definition": "Perte / extinction d'un droit lorsque celui-ci n'a pas été exercé pendant un délai déterminé.",
+      "page": 3
+    },
+    {
+      "term": "Réalisateurs",
+      "definition": "L'ensemble des constructeurs désignés aux conditions particulières ou dont l'identité est portée ultérieurement à la connaissance de l'assureur, qui sont mentionnés au 1° de l'article 1792-1 du Code civil et sont liés, à ce titre, au maître de l'ouvrage par un contrat de louage d'ouvrage en qualité de concepteur ou de conseil (architecte, technicien ou autre) ou en qualité d'entrepreneur, et qui participent à la réalisation de l'opération de construction.",
+      "page": 4
+    },
+    {
+      "term": "Réception",
+      "definition": "L'acte par lequel le maître d'ouvrage accepte, avec ou sans réserves, les travaux exécutés dans les conditions fixées par l'article 1792-6 du Code civil. La date de réception, prononcée avec ou sans réserves, constitue le point de départ des responsabilités et des garanties définies par les articles 1792, 1792-2 et 1792-3 du Code civil.",
+      "page": 4
+    },
+    {
+      "term": "Sinistre",
+      "definition": "La survenance de dommages, soit au sens de l'article L.242-1 du Code des assurances, soit au sens de l'article 3.2 ci-après pour les éléments d'équipement relevant de l'article 1792-3 du Code civil, ayant pour effet d'entraîner la garantie de SMACL Assurances. Constituent un seul et même sinistre les dommages résultant d'une même cause initiale.",
+      "page": 4
+    },
+    {
+      "term": "Souscripteur",
+      "definition": "La personne, physique ou morale, désignée aux conditions particulières qui fait réaliser des travaux de construction et qui souscrit l'assurance de dommages prévue par l'article L.242-1 du Code des assurances, tant pour son propre compte que pour celui des propriétaires successifs.",
+      "page": 4
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Article 2 - Objet des garanties",
+      "description": "« Le présent contrat s'applique à l'opération de construction désignée aux conditions particulières. »",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Le contrat est constitué par les présentes conditions générales et les conditions particulières annexées (chapitre 1)."
+      ],
+      "page": 4
+    },
+    {
+      "name": "3.1 - Garantie des risques visés à l'article L.242-1 du Code des assurances",
+      "description": "Le contrat a pour objet de garantir, en dehors de toute recherche de responsabilité, le paiement des travaux de réparation des dommages à l'ouvrage réalisé ainsi qu'aux ouvrages existants, totalement incorporés dans l'ouvrage neuf et qui en deviennent techniquement indivisibles au sens du II de l'article L.243-1-1 du Code des assurances. La garantie couvre les dommages, même résultant d'un vice du sol, de la nature de ceux dont sont responsables les constructeurs, au sens de l'article 1792-1 du Code civil, les fabricants et les importateurs ou le contrôleur technique, et qui : compromettent la solidité des ouvrages constitutifs de l'opération de construction ; affectent lesdits ouvrages dans l'un de leurs éléments constitutifs ou l'un de leurs éléments d'équipement, les rendant impropres à leur destination ; affectent la solidité de l'un des éléments d'équipement indissociables des ouvrages de viabilité, de fondation, d'ossature, de clos ou de couvert, au sens de l'article 1792-2 du Code civil. Les travaux de réparation des dommages comprennent également les travaux de démolition, déblaiement, dépose ou démontage, éventuellement nécessaires.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Pour les constructions destinées à un usage autre que l'habitation, la garantie est limitée au montant du coût total de construction déclaré aux conditions particulières, revalorisé selon les modalités prévues aux articles 5.1.2.1 et 5.1.2.2 (art. 5.1.2).",
+      "sub_limits": [
+        "Avant réception (5.1.2.1) : « Au coût total de construction prévisionnel déclaré à la souscription du contrat et revalorisé en fonction de l'évolution de l'indice entre cette date de souscription et la date de réparation du sinistre, sans pouvoir excéder le coût total des travaux effectivement exécutés au jour du sinistre. »",
+        "Après réception, avant déclaration du coût définitif (5.1.2.2) : montant limité au coût total de construction prévisionnel déclaré à la souscription, revalorisé en fonction de l'évolution de l'indice entre cette date et la date de réparation du sinistre.",
+        "Après déclaration du coût total de construction définitif (5.1.2.2) : montant limité au coût total de construction définitif revalorisé en fonction de l'évolution de l'indice, entre la date de la réception et la date de la réparation du sinistre.",
+        "Cas de l'article 12.3.3 (estimation prévisionnelle) : montant limité à celui de cette estimation prévisionnelle revalorisé en fonction de l'évolution de l'indice entre la date de la réception et la date de la réparation du sinistre."
+      ],
+      "deductible": null,
+      "conditions": [
+        "5.1.1 - La garantie couvre le coût de l'ensemble des travaux afférents à la remise en état des ouvrages ou éléments d'équipement de l'opération de construction endommagés à la suite d'un sinistre, ainsi que des ouvrages existants totalement incorporés dans l'ouvrage neuf et qui en deviennent techniquement indivisibles.",
+        "5.1.3 - Reconstitution de garantie : « La garantie peut être reconstituée après sinistre, moyennant complément de cotisation, selon des modalités fixées aux conditions particulières. »"
+      ],
+      "page": 4
+    },
+    {
+      "name": "3.2.1 - Garantie des éléments d'équipement dissociables (article 1792-3 du Code civil)",
+      "description": "« Le présent contrat garantit les dommages matériels survenus après réception et entraînant la mise en jeu de la garantie de bon fonctionnement visée à l'article 1792-3 du Code civil lorsqu'ils rendent les éléments d'équipement inaptes à remplir les fonctions qui leur sont dévolues. »",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "« Le montant de la garantie est limité à 20 % de celui défini à l'article 5.1.2.2, sans pouvoir excéder la somme fixée aux conditions particulières. » (art. 5.2)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie facultative : « Les garanties facultatives suivantes seront acquises à l'assuré sous réserve d'acceptation de sa part et de mention par SMACL Assurances desdites garanties aux conditions particulières. » (art. 3.2)"
+      ],
+      "page": 4
+    },
+    {
+      "name": "3.2.2 - Garantie des dommages immatériels après réception",
+      "description": "« Le présent contrat garantit les dommages immatériels subis par le ou les propriétaires de la construction et/ou les occupants, résultant directement d'un dommage survenu après réception et garanti au titre du présent contrat. »",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "« Le montant de la garantie est limité à 20 % de celui défini à l'article 5.1.2.2, sans pouvoir excéder la somme fixée aux conditions particulières. » (art. 5.3)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie facultative acquise sous réserve d'acceptation de l'assuré et de mention aux conditions particulières (art. 3.2).",
+        "La garantie prend effet à la date de réception des travaux et sa durée est identique à celle des garanties prévues aux articles 3.1, 3.2.1 et 3.2.3 auxquelles elle se rapporte (art. 4.3)."
+      ],
+      "page": 4
+    },
+    {
+      "name": "3.2.3 - Garantie des dommages aux existants",
+      "description": "Le contrat garantit les dommages matériels subis par les existants non totalement incorporés dans l'ouvrage neuf, s'il est établi que ces dommages sont la conséquence directe de l'exécution des travaux neufs réalisés dans le cadre de l'opération de construction et non celle des propres défauts des parties pré-existantes, et nuisent à la solidité de la construction ou la rendent impropre à sa destination. La garantie couvre les coûts afférents à la remise en état des existants.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "« Le montant de la garantie est limité à 20 % de celui défini à l'article 5.1.2.2, sans pouvoir excéder la somme fixée aux conditions particulières, revalorisée en fonction de l'évolution de l'indice entre la date de réception et la date de réparation du sinistre. » (art. 5.4)",
+      "sub_limits": [
+        "La garantie peut être reconstituée après sinistre, moyennant complément de cotisation, selon les modalités fixées aux conditions particulières (art. 5.4)."
+      ],
+      "deductible": null,
+      "conditions": [
+        "« Cette garantie ne peut être accordée que sous réserve d'un examen préalable des existants effectué par un contrôleur technique agréé (contrôle dit de compatibilité), afin de vérifier si l'état des existants est compatible avec le programme des travaux neufs. La délivrance de la garantie n'interviendra qu'après examen de l'avis du contrôleur technique. »",
+        "« Toutefois, pour les travaux ne modifiant pas les structures porteuses horizontales et/ou verticales des existants, la garantie pourra, le cas échéant, être accordée sans contrôle de compatibilité, sauf si SMACL Assurances l'estime indispensable. »",
+        "Garantie facultative acquise sous réserve d'acceptation de l'assuré et de mention aux conditions particulières (art. 3.2)."
+      ],
+      "page": 5
+    },
+    {
+      "name": "Article 9 - Garanties après résiliation du contrat",
+      "description": "« Après résiliation du contrat, en application des articles 8.1.1 et 8.3, et lorsqu'il y aura eu paiement partiel de la cotisation, toute personne y ayant intérêt pourra, par le paiement du solde de la cotisation due, rétablir les garanties intégrales du présent contrat. Ledit paiement devra avoir lieu nécessairement avant tout sinistre. »",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Le paiement du solde doit avoir lieu nécessairement avant tout sinistre."
+      ],
+      "page": 7
+    },
+    {
+      "name": "Indemnité au titre des mesures conservatoires (art. 15.1.1)",
+      "description": "Si SMACL Assurances ne conteste pas la mise en jeu des garanties du contrat, la notification de sa décision comporte l'indication du montant de l'indemnité destinée à couvrir les dépenses correspondant à l'exécution des mesures conservatoires nécessaires à la non-aggravation des dommages. Cette indemnité tient compte, s'il y a lieu, des dépenses qui ont pu être précédemment engagées par l'assuré lui-même au titre des mesures conservatoires mentionnées à l'article 14.3.1.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Les délais visés à l'article 15 ne s'imposent à SMACL Assurances que pour la garantie définie aux articles 3.1 et 3.2.3."
+      ],
+      "page": 11
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "6.1.1 - Fait intentionnel ou dol du souscripteur ou de l'assuré",
+      "description": "Les garanties visées à l'article 3 du contrat ne s'appliquent pas aux dommages résultant exclusivement « du fait intentionnel ou du dol du souscripteur ou de l'assuré ».",
+      "applies_to": "Toutes les garanties de l'article 3",
+      "page": 6
+    },
+    {
+      "name": "6.1.2 - Effets de l'usure normale, du défaut d'entretien ou de l'usage anormal",
+      "description": "Les garanties visées à l'article 3 du contrat ne s'appliquent pas aux dommages résultant exclusivement « des effets de l'usure normale, du défaut d'entretien ou de l'usage anormal ».",
+      "applies_to": "Toutes les garanties de l'article 3",
+      "page": 6
+    },
+    {
+      "name": "6.1.3 - Cause étrangère",
+      "description": "Les garanties visées à l'article 3 du contrat ne s'appliquent pas aux dommages résultant exclusivement « de la cause étrangère ».",
+      "applies_to": "Toutes les garanties de l'article 3",
+      "page": 6
+    },
+    {
+      "name": "6.2.1 - Économies abusives imposées aux constructeurs",
+      "description": "Sont en outre exclus des garanties définies à l'article 3.2, lorsque l'assuré, au jour du sinistre, est le souscripteur, les dommages résultant « d'économies abusives imposées aux constructeurs dans le choix des matériaux et/ou procédés de construction et qui sont à l'origine des dommages ».",
+      "applies_to": "Garanties facultatives de l'article 3.2 (3.2.1, 3.2.2, 3.2.3), lorsque l'assuré est le souscripteur au jour du sinistre",
+      "page": 6
+    },
+    {
+      "name": "6.2.2 - Non-prise en compte des réserves techniques du contrôleur technique et des constructeurs",
+      "description": "Sont en outre exclus des garanties définies à l'article 3.2, lorsque l'assuré, au jour du sinistre, est le souscripteur, les dommages résultant « de la non-prise en compte, par le souscripteur, de réserves techniques notifiées et transmises en temps opportun et au plus tard dix (10) jours avant la réception des travaux, au maître d'ouvrage, par les constructeurs au sens de l'article 1792.1 du Code civil, les sous-traitants, les fabricants, les négociants et les importateurs, ainsi que le contrôleur technique ».",
+      "applies_to": "Garanties facultatives de l'article 3.2 (3.2.1, 3.2.2, 3.2.3), lorsque l'assuré est le souscripteur au jour du sinistre",
+      "page": 6
+    },
+    {
+      "name": "Exclusion définitionnelle - appareils et équipements ménagers ou domestiques (éléments d'équipement)",
+      "description": "« Ne font pas partie des éléments d'équipement : les appareils et équipements ménagers ou domestiques, même s'ils sont fournis au titre du contrat de construction ou de vente du bâtiment » (art. 1.7).",
+      "applies_to": "Garanties portant sur les éléments d'équipement (3.1, 3.2.1)",
+      "page": 3
+    },
+    {
+      "name": "Exclusion définitionnelle - équipements à usage exclusivement professionnel (éléments d'équipement)",
+      "description": "« Ne font pas partie des éléments d'équipement : les équipements, y compris leurs accessoires, dont la fonction exclusive est de permettre l'exercice d'une activité professionnelle dans l'ouvrage » (art. 1.7).",
+      "applies_to": "Garanties portant sur les éléments d'équipement (3.1, 3.2.1)",
+      "page": 3
+    },
+    {
+      "name": "Exclusion définitionnelle - appareils et équipements ménagers ou domestiques (existants)",
+      "description": "« Ne font pas partie des existants : les appareils et équipements ménagers ou domestiques, même s'ils ont été à l'origine fournis au titre du contrat de construction ou de vente du bâtiment » (art. 1.9).",
+      "applies_to": "Garanties portant sur les existants (3.1, 3.2.3)",
+      "page": 3
+    },
+    {
+      "name": "Exclusion définitionnelle - équipements à usage exclusivement professionnel (existants)",
+      "description": "« Ne font pas partie des existants : les équipements, y compris leurs accessoires, dont la fonction exclusive est de permettre l'exercice d'une activité professionnelle dans l'ouvrage » (art. 1.9).",
+      "applies_to": "Garanties portant sur les existants (3.1, 3.2.3)",
+      "page": 3
+    },
+    {
+      "name": "Exclusion définitionnelle - couches d'usure des chaussées et des voies piétonnières",
+      "description": "« L'opération de construction ne comprend en aucun cas les couches d'usure des chaussées et des voies piétonnières. » (art. 1.13 - définition de l'opération de construction).",
+      "applies_to": "all",
+      "page": 3
+    },
+    {
+      "name": "Déchéance pour fausse déclaration sur le sinistre (art. 13.2)",
+      "description": "« L'assuré est déchu de son droit à garantie pour un sinistre en cas de fausse déclaration faite sciemment sur la date, la nature, les causes, les circonstances ou les conséquences apparentes de celui-ci, ou s'il emploie sciemment, comme justification, des moyens frauduleux ou des documents mensongers. »",
+      "applies_to": "all",
+      "page": 10
+    },
+    {
+      "name": "Perte de garantie lorsque la subrogation ne peut plus s'opérer (art. 17.1)",
+      "description": "« Si la subrogation ne peut plus, du fait de l'assuré, s'opérer en faveur de SMACL Assurances, la garantie de celle-ci cesse d'être engagée dans la mesure même où aurait pu s'exercer la subrogation. »",
+      "applies_to": "all",
+      "page": 12
+    },
+    {
+      "name": "Sanctions internationales - suspension de l'obligation de couverture (art. 25.3.1)",
+      "description": "« L'exécution de l'obligation de l'assureur de couvrir un risque en application du présent contrat d'assurance est suspendue, de plein droit et sans formalité, dans la mesure où elle contreviendrait à une ou plusieurs mesures de sanctions internationales. » « Aucun sinistre survenu pendant la période de suspension mentionnée ci-dessus ne pourra donner lieu à garantie. »",
+      "applies_to": "all",
+      "page": 15
+    },
+    {
+      "name": "Sanctions internationales - suspension de l'obligation de payer ou de fournir une prestation (art. 25.3.2)",
+      "description": "« L'exécution de l'obligation de l'assureur de payer une somme d'argent ou de fournir une prestation en application du présent contrat d'assurance est suspendue, de plein droit et sans formalité, dans la mesure où elle contreviendrait à une ou plusieurs mesures de sanctions internationales. » Cette suspension s'applique à toute obligation de paiement d'une somme d'argent ou de fournir une prestation, notamment dans le cadre d'un sinistre ou dans le cadre d'un remboursement total ou partiel de prime.",
+      "applies_to": "all",
+      "page": 15
+    },
+    {
+      "name": "Nullité pour réticence ou fausse déclaration intentionnelle (art. 11.1)",
+      "description": "« Toute réticence ou fausse déclaration intentionnelle de la part de l'assuré, soit à la souscription du contrat, soit à l'occasion d'une aggravation du risque, entraîne la nullité du présent contrat dans les conditions prévues à l'article L.113-8 du Code des assurances, les fractions de cotisation payées demeurant acquises à SMACL Assurances qui a droit au paiement de toutes fractions de cotisation échues à titre de dommages-intérêts. »",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Réduction proportionnelle d'indemnité pour omission ou déclaration inexacte constatée après sinistre (art. 11.2)",
+      "description": "Toute omission ou déclaration inexacte de la part de l'assuré, lorsque sa mauvaise foi n'est pas établie, n'entraîne pas la nullité mais, « dans le cas où la constatation n'a lieu qu'après un sinistre, l'indemnité est réduite en proportion de la cotisation payée par rapport à la cotisation qui aurait été due si le risque avait été complètement et exactement déclaré ».",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Suspension de garantie pour non-paiement de cotisation (art. 12.4)",
+      "description": "À défaut de paiement d'une cotisation, ou d'une fraction de cotisation dans les dix (10) jours de son échéance, SMACL Assurances peut suspendre la garantie trente (30) jours après l'envoi d'une lettre recommandée mettant en demeure le souscripteur de payer la cotisation échue. « À défaut de paiement dans les trente (30) jours suivant la date d'envoi de la lettre recommandée de mise en demeure, la garantie sera suspendue à l'issue de ce délai. »",
+      "applies_to": "all",
+      "page": 10
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": null,
+    "per_coverage": null,
+    "page": 7
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Déclaration du risque à la souscription",
+      "description": "« Le contrat est établi d'après les déclarations de l'assuré et la cotisation fixée en conséquence. L'assuré doit déclarer exactement à SMACL Assurances [...] tous les éléments et circonstances connus de lui qui sont de nature à faire apprécier par SMACL Assurances les risques qu'elle prend à sa charge. » Il doit notamment répondre, de façon complète et précise, à chacune des questions figurant dans la fiche de renseignements. Lors de la souscription : déclarer tous les éléments caractéristiques du risque tels qu'ils sont définis dans la proposition d'assurance (art. 10.1.1).",
+      "timing": "À la souscription",
+      "sanction": "Nullité du contrat (art. L.113-8) en cas de réticence ou fausse déclaration intentionnelle ; réduction proportionnelle d'indemnité ou résiliation (art. L.113-9) en cas d'omission ou déclaration inexacte de bonne foi (art. 11).",
+      "page": 8
+    },
+    {
+      "name": "Déclaration des modifications du risque en cours de contrat (art. 10.1.2)",
+      "description": "Pendant la durée du contrat : déclarer « toute modification des éléments caractéristiques du risque tels qu'ils sont définis tant dans la proposition d'assurance qu'aux conditions particulières et, éventuellement, dans la note de couverture ».",
+      "timing": "Pendant la durée du contrat",
+      "sanction": "Sanctions de l'article 11 ; SMACL Assurances peut résilier moyennant préavis de dix (10) jours par lettre recommandée ou proposer un nouveau taux de cotisation (art. 11).",
+      "page": 8
+    },
+    {
+      "name": "Déclarer toute augmentation d'au moins 20 % du coût total de construction prévisionnel (art. 10.2.1)",
+      "description": "En cours de réalisation des travaux et jusqu'à leur réception, l'assuré s'engage à « Déclarer à SMACL Assurances toute augmentation d'au moins 20 % du coût total de construction prévisionnel déclaré, due à une modification du programme initial ».",
+      "timing": "En cours de réalisation des travaux et jusqu'à leur réception",
+      "sanction": null,
+      "page": 8
+    },
+    {
+      "name": "Communiquer les avis, observations ou réserves du contrôleur technique (art. 10.2.2)",
+      "description": "Communiquer les avis, observations ou réserves du contrôleur technique, simultanément, tant à SMACL Assurances qu'au réalisateur concerné, et ne pas s'opposer à ce que SMACL Assurances puisse, à ses frais, demander au contrôleur technique, sous couvert du maître d'ouvrage, les informations complémentaires dont elle estimerait avoir besoin pour l'appréciation des risques assurés. Dans le cas où il n'est pas lui-même le maître d'ouvrage, l'assuré s'engage à obtenir de celui-ci que les avis, observations et réserves soient pareillement communiqués.",
+      "timing": "En cours de réalisation des travaux et jusqu'à leur réception",
+      "sanction": null,
+      "page": 8
+    },
+    {
+      "name": "Déclarer tout arrêt des travaux devant excéder trente (30) jours consécutifs (art. 10.2.3)",
+      "description": "« Cette déclaration devra préciser l'état d'avancement du chantier, les mesures prises ou à prendre et les protections exécutées ou à exécuter pour éviter les désordres ou dégradations à la construction du fait de l'arrêt des travaux ainsi que la date prévue de reprise de l'activité du chantier. »",
+      "timing": "En cours de réalisation des travaux et jusqu'à leur réception",
+      "sanction": null,
+      "page": 8
+    },
+    {
+      "name": "Fournir la preuve des contrats d'assurance de responsabilité décennale des réalisateurs (art. 10.3.1)",
+      "description": "Fournir à SMACL Assurances, sur sa demande, la preuve de l'existence des contrats d'assurance de responsabilité décennale souscrits par les réalisateurs et le contrôleur technique.",
+      "timing": "Sur demande de SMACL Assurances",
+      "sanction": null,
+      "page": 8
+    },
+    {
+      "name": "Déclarer la réception des travaux et remettre les procès-verbaux (art. 10.3.2)",
+      "description": "Déclarer à SMACL Assurances la réception des travaux et lui remettre, dans le délai de quarante-cinq (45) jours à compter de son prononcé, le ou les procès-verbaux (y compris les listes de réserves) correspondant(s) ainsi que le relevé des observations ou réserves demeurées non levées du contrôleur technique.",
+      "timing": "Dans les quarante-cinq (45) jours du prononcé de la réception",
+      "sanction": null,
+      "page": 8
+    },
+    {
+      "name": "Notifier le constat d'exécution des travaux de parfait achèvement (art. 10.3., numéroté ainsi dans le document)",
+      "description": "Notifier à SMACL Assurances, dans le délai de quarante-cinq (45) jours à compter de leur achèvement, le constat de l'exécution de l'ensemble des travaux éventuellement effectués au titre de la garantie de parfait achèvement, au sens de l'article 1792.6 du Code civil, ainsi que le relevé des observations ou réserves demeurées non levées du contrôleur technique.",
+      "timing": "Dans les quarante-cinq (45) jours de l'achèvement des travaux",
+      "sanction": null,
+      "page": 8
+    },
+    {
+      "name": "Constituer et conserver un dossier technique (art. 10.3.4)",
+      "description": "Constituer un dossier technique comportant au moins les plans et descriptifs de l'ensemble des travaux effectivement réalisés, dans le délai maximum de quarante-cinq (45) jours à compter de leur achèvement, le conserver et le tenir à la disposition de SMACL Assurances ou de l'expert visé à l'article 14.",
+      "timing": "Dans les quarante-cinq (45) jours de l'achèvement des travaux",
+      "sanction": "« La mise à disposition tardive ou la non-production de ce dossier, interdisant pratiquement à l'expert d'établir son rapport dans les délais fixés à l'article 15, permettra à SMACL Assurances d'invoquer les dispositions visées à l'article 15.2.3. »",
+      "page": 8
+    },
+    {
+      "name": "Déclarer le coût total de construction définitif (art. 10.3.5 et 12.3.2)",
+      "description": "Déclarer à SMACL Assurances, suivant les modalités fixées à l'article 12.3.2, le coût total de construction définitif dans les quarante-cinq (45) jours de l'arrêté des comptes définitifs de la construction. La déclaration doit être faite par écrit, soit contre récépissé, soit par lettre recommandée avec demande d'avis de réception, et comporter le coût total de construction définitif, par montants des travaux afférents aux différents corps d'état, des honoraires des réalisateurs, les travaux supplémentaires éventuels étant décomptés à part ; elle précisera en outre le montant des matériaux et fournitures mis en œuvre non compris dans les montants ci-dessus et, s'il y a lieu, le montant des honoraires du contrôleur technique, ainsi que les nom, adresse et nature de la mission de chacun des constructeurs.",
+      "timing": "Dans les quarante-cinq (45) jours de l'arrêté des comptes définitifs",
+      "sanction": "« La non-fourniture, dans les délais prescrits, du coût de construction définitif donne droit à SMACL Assurances, après expiration d'un délai de dix (10) jours fixé par lettre recommandée à l'assuré, d'exiger le paiement d'une cotisation égale à 25 % de la cotisation provisoire prévue aux conditions particulières. »",
+      "page": 9
+    },
+    {
+      "name": "Déclarer le coût total de construction prévisionnel à la souscription (art. 12.3.1)",
+      "description": "L'assuré s'engage à déclarer à SMACL Assurances, à la souscription du contrat, le coût total de construction prévisionnel.",
+      "timing": "À la souscription",
+      "sanction": null,
+      "page": 9
+    },
+    {
+      "name": "Déclarer l'estimation prévisionnelle si le coût définitif n'est pas établi dans les douze (12) mois (art. 12.3.3)",
+      "description": "Si, dans un délai de douze (12) mois à compter de la réception, l'assuré n'est pas en mesure d'établir le coût total de construction définitif, il déclare : les raisons pour lesquelles ce coût total n'a pu être établi ; le délai prévisible nécessaire à son établissement ; son estimation prévisionnelle en fonction des éléments connus. Cette déclaration doit être faite par écrit, soit contre récépissé, soit par lettre recommandée avec demande d'avis de réception.",
+      "timing": "Dans les douze (12) mois de la réception",
+      "sanction": "Cotisation égale à 25 % de la cotisation provisoire (art. 12.3.3).",
+      "page": 9
+    },
+    {
+      "name": "Déclarer les assurances cumulatives (art. 18)",
+      "description": "« Au cas où l'assuré aurait souscrit auprès d'un ou plusieurs autres assureurs une assurance pour un même intérêt, contre un même risque, il doit en donner immédiatement connaissance à chaque assureur concerné. L'assuré doit, lors de cette communication, faire connaître le nom de l'assureur avec lequel une autre assurance a été contractée et indiquer la somme assurée. »",
+      "timing": "Immédiatement",
+      "sanction": "« Quand plusieurs assurances contre un même risque sont contractées de manière dolosive ou frauduleuse, les sanctions prévues à l'article L.121-3, 1er alinéa, sont applicables. »",
+      "page": 13
+    },
+    {
+      "name": "Autoriser l'accès au chantier et aux lieux du sinistre (art. 17.2.1)",
+      "description": "Autoriser SMACL Assurances à accéder à tout moment au chantier pendant la période d'exécution des travaux de construction, jusqu'à l'expiration du délai de garantie de parfait achèvement au sens de l'article 1792-6 du Code civil, et prendre les dispositions nécessaires dans les contrats et marchés à passer avec les réalisateurs ayant la responsabilité de la garde du chantier. En cas de sinistre survenant au-delà de la date d'expiration de la garantie de parfait achèvement, l'assuré s'engage à accorder à SMACL Assurances toutes facilités pour accéder aux lieux du sinistre.",
+      "timing": "Pendant l'exécution des travaux et en cas de sinistre",
+      "sanction": null,
+      "page": 13
+    },
+    {
+      "name": "Autoriser les assureurs des réalisateurs et l'expert à accéder aux lieux et à investiguer (art. 17.2.2 et 17.2.3)",
+      "description": "En cas de sinistre, autoriser les assureurs couvrant la responsabilité décennale des réalisateurs, des fabricants au sens de l'article 1792-4 du Code civil et du contrôleur technique, à accéder aux lieux du sinistre sur l'invitation qui leur en est faite par l'expert ; et autoriser l'expert à pratiquer les investigations qui lui apparaîtraient nécessaires en vue de l'établissement, à l'intention de SMACL Assurances, d'un rapport complémentaire.",
+      "timing": "En cas de sinistre",
+      "sanction": null,
+      "page": 13
+    },
+    {
+      "name": "Autoriser le constat de l'état d'exécution des travaux de réparation (art. 16.4)",
+      "description": "« L'assuré s'engage à autoriser SMACL Assurances à constater l'état d'exécution des travaux de réparation des dommages ayant fait l'objet d'une avance ou d'une indemnisation en cas de sinistre. »",
+      "timing": "Après indemnisation",
+      "sanction": null,
+      "page": 12
+    },
+    {
+      "name": "Remettre les documents d'identité et d'information (lutte contre le blanchiment, art. 21.2)",
+      "description": "« le souscripteur ou l'assuré s'engage à remettre à SMACL Assurances tout document d'identité et d'information sur sa/leurs situation(s) professionnelle(s), patrimoniale(s), financière(s) ou personnelle(s) ainsi que tout document d'identité sur ses/leurs représentants et bénéficiaires effectifs éventuels. »",
+      "timing": "Sur demande",
+      "sanction": "Retards ou refus d'exécution des garanties prévues au contrat d'assurance (art. 21.2).",
+      "page": 14
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclarer le sinistre (art. 13.1)",
+      "description": "En cas de sinistre susceptible de mettre en jeu les garanties du contrat, l'assuré est tenu d'en faire la déclaration à SMACL Assurances par écrit, soit contre récépissé, soit par lettre recommandée avec demande d'avis de réception. La déclaration est réputée constituée dès qu'elle comporte au moins : le numéro du contrat d'assurance et, le cas échéant, celui de l'avenant ; le nom du propriétaire de la construction endommagée ; l'adresse de la construction endommagée ; la date de réception ou, à défaut, la date de la première occupation des locaux ; la date d'apparition des dommages ainsi que leur description et localisation ; si la déclaration survient pendant la période de parfait achèvement au sens de l'article 1792-6 du Code civil, la copie de la mise en demeure effectuée au titre de la garantie de parfait achèvement.",
+      "deadline": "Au plus tard dans les douze (12) jours suivant celui où il en a eu connaissance",
+      "page": 10
+    },
+    {
+      "step": "Réponse de SMACL Assurances sur le caractère constitué de la déclaration",
+      "description": "« À compter de la réception de la déclaration de sinistre, SMACL Assurances dispose d'un délai de dix (10) jours pour signifier à l'assuré que la déclaration n'est pas réputée constituée et réclamer les renseignements manquants susvisés. » Les délais prévus par l'article L.242-1 du Code des assurances et mentionnés par les articles 15.1.1 et 15.2.1 commencent à courir du jour où la déclaration de sinistre réputée constituée est reçue par SMACL Assurances.",
+      "deadline": "Dix (10) jours à compter de la réception de la déclaration",
+      "page": 10
+    },
+    {
+      "step": "Expertise (art. 14)",
+      "description": "Les dommages sont constatés, décrits et évalués par les soins d'un expert, personne physique ou morale, désigné par SMACL Assurances. Seuls les dommages dûment déclarés selon les modalités fixées à l'article 13.1 font l'objet d'une mission d'expertise. L'expert peut faire l'objet d'une récusation dans les huit (8) jours de la notification à l'assuré de sa désignation ; en cas de seconde récusation par l'assuré, SMACL Assurances fait désigner l'expert par le juge des référés. Les opérations de l'expert revêtent le caractère contradictoire ; l'assuré peut se faire assister ou représenter et ses observations éventuelles sont consignées dans le rapport. Lors de la première demande de récusation, les délais d'instruction et de règlement sont augmentés de dix (10) jours ; en cas de désignation par le juge des référés, de trente (30) jours.",
+      "deadline": "Récusation de l'expert dans les huit (8) jours de la notification de sa désignation",
+      "page": 10
+    },
+    {
+      "step": "Cas où SMACL Assurances n'est pas tenue de recourir à une expertise (art. 14.3.3)",
+      "description": "SMACL Assurances n'est pas tenue de recourir à une expertise lorsque, au vu de la déclaration de sinistre, elle évalue le dommage à un montant inférieur à 1 800 €  TTC, ou lorsque la mise en jeu de la garantie est manifestement injustifiée. Elle notifie alors son offre d'indemnité ou sa décision de refus de garantie dans le délai de quinze (15) jours à compter de la réception de la déclaration de sinistre réputée constituée. En cas de contestation de l'assuré, celui-ci peut obtenir la désignation d'un expert ; la notification reproduit de façon apparente cette faculté.",
+      "deadline": "Quinze (15) jours à compter de la réception de la déclaration réputée constituée",
+      "page": 11
+    },
+    {
+      "step": "Rapport préliminaire et décision sur le principe de la garantie (art. 15.1.1)",
+      "description": "Dans un délai maximum de soixante (60) jours courant à compter de la réception de la déclaration de sinistre réputée constituée, SMACL Assurances, sur le vu du rapport préliminaire établi par l'expert, notifie à l'assuré sa décision quant au principe de la mise en jeu des garanties du contrat, par écrit, soit contre récépissé, soit par lettre recommandée avec demande d'avis de réception. Toute décision négative ayant pour effet de rejeter la demande d'indemnisation doit être expressément motivée.",
+      "deadline": "Soixante (60) jours",
+      "page": 11
+    },
+    {
+      "step": "Sanction du non-respect du délai de 60 jours (art. 15.1.3)",
+      "description": "Faute pour SMACL Assurances de respecter le délai fixé à l'article 15.1.1, et sur simple notification faite par écrit, la garantie définie à l'article 3.1 joue pour ce qui concerne le sinistre déclaré, et l'assuré est autorisé à engager les dépenses correspondant à l'exécution des mesures conservatoires nécessaires à la non-aggravation des dommages, dans la limite de l'estimation portée dans le rapport préliminaire de l'expert. Si, dans le même délai, l'assuré n'a pu avoir connaissance du rapport préliminaire, il est autorisé à engager les dépenses en cause dans la limite de l'estimation qu'il a pu en faire lui-même.",
+      "deadline": null,
+      "page": 11
+    },
+    {
+      "step": "Offre d'indemnité (art. 15.2.1)",
+      "description": "Dans un délai maximum de quatre-vingt-dix (90) jours courant à compter de la réception de la déclaration de sinistre réputée constituée, SMACL Assurances présente une offre d'indemnité, revêtant le cas échéant un caractère provisionnel et destinée au paiement des travaux de réparation des dommages. La proposition fait l'objet d'une actualisation ou d'une révision de prix en fonction de l'évolution de l'indice entre la date de détermination de l'indemnité et celle de l'exécution des travaux ; elle est obligatoirement ventilée entre les différents postes de dépenses et comprend, outre les dépenses de travaux, les frais annexes (honoraires, essais, analyses) ainsi que les taxes applicables.",
+      "deadline": "Quatre-vingt-dix (90) jours",
+      "page": 12
+    },
+    {
+      "step": "Délai supplémentaire en cas de difficultés exceptionnelles (art. 15.2.3)",
+      "description": "Dans les cas de difficultés exceptionnelles dues à la nature ou à l'importance du sinistre, SMACL Assurances peut, en même temps qu'elle notifie son accord sur le principe de la mise en jeu de la garantie, proposer à l'assuré la fixation d'un délai supplémentaire pour l'établissement de son offre d'indemnité. La proposition doit être motivée et se fonder exclusivement sur des considérations de caractère technique ; ce délai est subordonné à l'acceptation expresse de l'assuré.",
+      "deadline": "Ne pourra excéder cent-trente-cinq (135) jours",
+      "page": 12
+    },
+    {
+      "step": "Règlement de l'indemnité (art. 16.1)",
+      "description": "« En cas d'acceptation par l'assuré de l'offre qui lui est faite, le règlement de l'indemnité par SMACL Assurances intervient dans un délai maximum de quinze (15) jours. »",
+      "deadline": "Quinze (15) jours",
+      "page": 12
+    },
+    {
+      "step": "Avance en cas de désaccord sur l'offre (art. 16.2)",
+      "description": "L'assuré qui a fait connaître qu'il n'acquiesce pas aux propositions de règlement, s'il estime ne pas devoir différer l'exécution des travaux, reçoit sur sa demande une avance au moins égale aux trois quarts du montant de l'indemnité qui lui a été notifié. Cette avance, forfaitaire et non revalorisable, à valoir sur le montant définitif, est versée en une seule fois dans un délai maximum de quinze (15) jours courant à compter de la réception de la demande. Si l'assuré n'a pas reçu les sommes dans ce délai, il est autorisé à engager les dépenses afférentes aux travaux de réparation qu'il entreprend, dans la limite des propositions d'indemnisation précédemment notifiées.",
+      "deadline": "Quinze (15) jours à compter de la réception de la demande",
+      "page": 12
+    },
+    {
+      "step": "Sanction du non-respect du délai d'offre ou d'une offre manifestement insuffisante (art. 16.3)",
+      "description": "« Lorsque SMACL Assurances ne respecte pas le délai fixé à l'article 15.2.1, [...] ou si elle propose une offre d'indemnité manifestement insuffisante, l'assuré peut, après l'avoir notifié à SMACL Assurances, engager les dépenses nécessaires à la réparation des dommages. L'indemnité versée par SMACL Assurances est alors majorée de plein droit d'un intérêt égal au double de l'intérêt légal. »",
+      "deadline": null,
+      "page": 12
+    },
+    {
+      "step": "Réclamation (art. 22)",
+      "description": "Pour toute réclamation : envoi du formulaire disponible sur https://www.smacl.fr/reclamations ; ou courrier postal à SMACL Assurances SA, Direction Marchés-Réclamations, 141, avenue Salvador-Allende, CS 20000, 79031 NIORT CEDEX 9 (réclamation relative à la gestion du contrat) ; ou à SMACL Assurances SA, Direction Indemnisations-Réclamations, TSA 67211, CS 20000, 79060 NIORT CEDEX 9 (réclamation relative à la gestion d'un sinistre). Accusé de réception dans les dix (10) jours ouvrables et réponse dans un délai de deux (2) mois.",
+      "deadline": "Accusé de réception sous dix (10) jours ouvrables ; réponse sous deux (2) mois",
+      "page": 15
+    },
+    {
+      "step": "Médiation (art. 23)",
+      "description": "Le Médiateur de l'Assurance peut être saisi sans délai si la réponse écrite ne donne pas satisfaction, ou en l'absence de réponse à l'issue d'un délai de deux (2) mois après l'envoi de la réclamation écrite ; par internet www.mediation-assurance.org ou par courrier adressé à La Médiation de l'Assurance, TSA 50110, 75441 PARIS CEDEX 09.",
+      "deadline": "Sans délai, ou à l'issue de deux (2) mois sans réponse",
+      "page": 15
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat est formé dès l'accord des parties ; la police, signée par elles, constate leur engagement réciproque. « La garantie est acquise à compter de la date d'effet indiquée aux conditions particulières, sauf si elles prévoient que la prise d'effet est subordonnée au paiement de la première cotisation. » (art. 7). La période de garantie de la garantie de base (art. 3.1) est précisée aux conditions particulières ; elle commence au plus tôt à l'expiration du délai de garantie de parfait achèvement défini à l'article 1792-6 du Code civil et prend fin à l'expiration d'une période de dix (10) ans à compter de la réception des travaux (art. 4.1.1). La garantie de l'article 3.2.1 prend fin à l'expiration d'une période de 2 ans à compter de la réception (art. 4.2.1). La garantie de l'article 3.2.2 prend effet à la date de réception et sa durée est identique à celle des garanties 3.1, 3.2.1 et 3.2.3 auxquelles elle se rapporte (art. 4.3). La garantie de l'article 3.2.3 prend effet à la réception et s'achève à l'expiration d'un délai de dix (10) ans à compter de cette même réception (art. 4.4).",
+    "tacit_renewal": null,
+    "notice_period": "Résiliation par SMACL Assurances pour omission ou inexactitude constatée avant tout sinistre : effet dix (10) jours après notification par lettre recommandée (art. 8.1.3). Résiliation par le souscripteur en cas de diminution du risque non suivie d'une diminution des cotisations : effet trente (30) jours après la dénonciation (art. 8.2.1). Résiliation après résiliation d'un autre contrat par SMACL Assurances : le souscripteur dispose d'un (1) mois à compter de la notification, et la résiliation prend effet un (1) mois à compter de la date de notification à SMACL Assurances (art. 8.2.2).",
+    "methods": [
+      "soit par lettre ou tout autre support durable",
+      "soit par déclaration faite au siège social ou chez le représentant de l'assureur",
+      "soit par acte extrajudiciaire",
+      "soit, lorsque l'assureur propose la conclusion de contrat par un mode de communication à distance, par le même mode de communication",
+      "soit par tout autre moyen prévu par le contrat",
+      "Le destinataire confirme par écrit la réception de la notification. La résiliation par SMACL Assurances doit être motivée et notifiée au souscripteur par lettre recommandée adressée à son dernier domicile connu."
+    ],
+    "special_rights": [
+      "Par SMACL Assurances (8.1.1) : en cas de non-paiement des cotisations - le souscripteur doit entièrement à SMACL Assurances, à titre d'indemnité, le restant de cotisation ou des fractions de cotisation de l'année en cours.",
+      "Par SMACL Assurances (8.1.2) : en cas d'aggravation du risque (article L.113-4 du Code).",
+      "Par SMACL Assurances (8.1.3) : en cas d'omission ou d'inexactitude, constatée avant tout sinistre, dans la déclaration du risque à la souscription ou en cours de contrat.",
+      "Par le souscripteur (8.2.1) : en cas de diminution du risque ou de disparition des circonstances aggravantes mentionnées aux conditions particulières, si SMACL Assurances ne consent pas à la diminution des cotisations correspondantes.",
+      "Par le souscripteur (8.2.2) : en cas de résiliation par SMACL Assurances d'un autre contrat du souscripteur après sinistre (article R.113-10 du Code).",
+      "Par le souscripteur (8.2.3) : « En cas d'augmentation des cotisations ou des franchises applicables aux risques garantis. »",
+      "De plein droit (8.3.1) : en cas de dissolution de SMACL Assurances, la cessation du contrat prenant de plein droit effet le quarantième (40e) jour à midi, à compter de la publication au Journal officiel de la décision de l'Autorité de contrôle prudentiel et de résolution prononçant la dissolution.",
+      "De plein droit (8.3.2) : en cas de liquidation judiciaire de l'assureur (article L.113-6 du Code).",
+      "De plein droit (8.3.3) : en cas de perte totale de la chose assurée résultant d'un évènement non prévu par le contrat (article L.121-9 du Code).",
+      "De plein droit (8.3.4) : en cas de réquisition des biens visés par l'assurance dans les cas et conditions prévus par la réglementation en vigueur (articles L.160-6 à L.160-8 du Code).",
+      "Restitution de cotisation : « Dans tous les cas de résiliation, au cours d'une période d'assurance, excepté le cas de résiliation pour non-paiement des cotisations (article 12.4 des présentes conditions générales), SMACL Assurances doit restituer au souscripteur la portion de cotisation afférente à la période pendant laquelle les risques ne sont plus garantis ; période calculée à compter de la date d'effet de la résiliation. »"
+    ],
+    "page": 7
+  },
+  "prescription_period": {
+    "description": "Conformément à l'article L.114-1 du Code, toutes actions dérivant d'un contrat d'assurance sont prescrites par deux (2) ans à compter de l'événement qui y donne naissance. Par exception : les actions relatives à des dommages résultant de mouvements de terrain consécutifs à la sécheresse-réhydratation des sols, reconnus comme une catastrophe naturelle dans les conditions prévues à l'article L.125-1, sont prescrites par cinq (5) ans ; la prescription est portée à dix (10) ans dans les contrats d'assurance contre les accidents atteignant les personnes, lorsque les bénéficiaires sont les ayants droit de l'assuré décédé. Le délai ne court, en cas de réticence, omission, déclaration fausse ou inexacte sur le risque couru, que du jour où l'assureur en a eu connaissance ; en cas de sinistre, que du jour où les intéressés en ont eu connaissance, s'ils prouvent qu'ils l'ont ignoré jusque-là. Quand l'action de l'assuré contre l'assureur a pour cause le recours d'un tiers, le délai ne court que du jour où ce tiers a exercé une action en justice contre l'assuré ou a été indemnisé par ce dernier. La prescription peut être interrompue par les causes ordinaires (demande en justice même en référé, mesure conservatoire ou acte d'exécution forcée, reconnaissance par l'assureur du droit à garantie ou reconnaissance de dette de l'assuré) et par la désignation d'experts à la suite d'un sinistre ou l'envoi d'une lettre recommandée ou d'un envoi recommandé électronique avec accusé de réception relatif au paiement de la cotisation ou au règlement de l'indemnité.",
+    "page": 13
+  },
+  "premium": {
+    "notes": [
+      "12.1 - Calcul : « La cotisation est calculée, par application du ou des taux prévus aux conditions particulières, sur le coût total de construction présumé définitif, ou sur le coût total de construction définitif. »",
+      "12.1 - Assiette : « N'entrent pas dans ce coût les appareils et équipements ménagers ou domestiques, même s'ils sont fournis en exécution du contrat de construction ou de vente du bâtiment, ni les équipements, y compris leurs accessoires, dont la fonction exclusive est de permettre l'exercice d'une activité professionnelle dans l'ouvrage. »",
+      "12.2 - La cotisation est unique et comprend : la cotisation provisoire calculée et payable suivant les modalités et aux dates prévues aux conditions particulières (12.2.1) ; le cas échéant, l'ajustement de cotisation résultant de l'estimation prévisionnelle du coût total de construction définitif, payable à la déclaration dudit coût (12.2.2) ; l'ajustement de cotisation résultant du coût total de construction définitif, payable à la déclaration dudit coût (12.2.3).",
+      "12.2 - Les frais accessoires, dont le montant est fixé aux conditions particulières, ainsi que les impôts et taxes sur les contrats d'assurance sont à la charge de l'assuré ; la cotisation, les fractions, ajustements, frais et taxes sont payables au siège de SMACL Assurances.",
+      "12.3.3 - « La non-fourniture, dans les délais prescrits, du coût de construction définitif donne droit à SMACL Assurances, après expiration d'un délai de dix (10) jours fixé par lettre recommandée à l'assuré, d'exiger le paiement d'une cotisation égale à 25 % de la cotisation provisoire prévue aux conditions particulières. »",
+      "12.4 - Non-paiement : suspension de la garantie trente (30) jours après l'envoi d'une lettre recommandée de mise en demeure, résiliation possible dix (10) jours après l'expiration de ce délai de trente (30) jours ; la suspension ou la résiliation ne dispense pas le souscripteur de payer les cotisations échues. En cas de fractionnement, tout impayé ou retard entraîne de plein droit l'exigibilité immédiate de la totalité des fractions dues au titre de l'année d'assurance en cours.",
+      "Reconstitution de garantie après sinistre moyennant complément de cotisation (art. 5.1.3 et 5.4)."
+    ],
+    "indexation": "Les montants de garantie sont revalorisés en fonction de l'évolution de l'indice, défini à l'article 1.11 comme l'« INDEX BÂTIMENT NATIONAL BT 01 tel que publié au Journal officiel ayant pour valeur celle connue à la date des évènements justifiant l'utilisation de cet index ».",
+    "page": 9
+  },
+  "special_conditions": [
+    {
+      "name": "Article 18 - Assurances cumulatives (article L.121-4 du Code des assurances)",
+      "description": "Quand plusieurs assurances contre un même risque sont contractées sans fraude, chacune d'elles produit ses effets dans les limites des garanties du contrat et dans le respect des dispositions de l'article L.121-1, quelle que soit la date à laquelle l'assurance aura été souscrite. Dans ces limites, le bénéficiaire du contrat peut obtenir l'indemnisation de ses dommages en s'adressant à l'assureur de son choix. Dans les rapports entre assureurs, la contribution de chacun d'eux est déterminée en appliquant au montant du dommage le rapport existant entre l'indemnité qu'il aurait versée s'il avait été seul et le montant cumulé des indemnités qui auraient été à la charge de chaque assureur s'il avait été seul.",
+      "page": 13
+    },
+    {
+      "name": "Article 17 - Subrogation",
+      "description": "Conformément à l'article L.121-12 du Code des assurances, SMACL Assurances est subrogée jusqu'à concurrence de l'indemnité payée par elle, dans les droits et actions de l'assuré contre tous responsables du sinistre. SMACL Assurances a seule le droit, dans la limite de sa garantie, de transiger avec les personnes responsables. « L'assuré qui a été indemnisé par SMACL Assurances au titre du présent contrat et également par le(s) tiers responsables(s), pour un même préjudice, de façon amiable ou par voie judiciaire sera tenu de restituer à SMACL Assurances les indemnités versées par elle. » SMACL Assurances est tenue de notifier à l'assuré la position définitive qu'elle estime devoir prendre, sur le vu du rapport complémentaire visé à l'article 17.2.3, en ce qui concerne l'exercice de son droit de subrogation.",
+      "page": 12
+    },
+    {
+      "name": "Article 20 - Protection des données personnelles",
+      "description": "« SMACL Assurances et SMACL Assurances SA, en qualité de responsables conjoints du traitement, recueillent et traitent des données à caractère personnel concernant les représentants et correspondants du souscripteur, les représentants de ses adhérents, ainsi que les bénéficiaires des garanties souscrites et, le cas échéant, leurs ayants droit. » Le traitement est nécessaire pour la passation, la gestion et l'exécution du contrat d'assurance (base légale : exécution du contrat) ; pour les données de santé, la base légale est le consentement du déclarant. Les données sont traitées et hébergées au sein de l'Espace économique européen ; certains réassureurs peuvent être situés hors de l'EEE avec des garanties appropriées. Droits exerçables par mail à protectiondesdonnees@smacl.fr ou par courrier à SMACL Assurances SA Délégué à la Protection des Données, 141 avenue Salvador-Allende, CS 20000, 79031 NIORT CEDEX 9 ; réclamation possible auprès de la CNIL sur www.cnil.fr.",
+      "page": 14
+    },
+    {
+      "name": "Article 21 - Lutte contre la fraude, le blanchiment d'argent et le financement du terrorisme",
+      "description": "SMACL Assurances met en œuvre un dispositif de lutte contre la fraude « pouvant conduire à l'inscription du souscripteur et/ou de l'assuré sur une liste de personnes présentant un risque de fraude ainsi qu'à l'adoption de décisions produisant des effets juridiques (non indemnisation, action en justice, etc.) ». Au titre de la lutte contre le blanchiment, elle procède à l'identification du souscripteur et/ou de l'assuré et met en place un dispositif d'analyse et de surveillance des opérations ; des mesures de vigilance complémentaires s'appliquent aux personnes politiquement exposées définies à l'article R.561-18 du Code monétaire et financier. Elle est tenue de déclarer à Tracfin les opérations suspectes et peut être obligée d'appliquer des mesures pouvant conduire à des retards ou des refus d'exécution des garanties.",
+      "page": 14
+    },
+    {
+      "name": "Article 24 - Contrôle de l'assureur",
+      "description": "« L'autorité chargée du contrôle de l'assureur, tel que défini par le présent contrat, est l'Autorité de contrôle prudentiel et de résolution (ACPR) - 4, Place de Budapest, CS 92459, 75436 PARIS Cedex 9. »",
+      "page": 15
+    },
+    {
+      "name": "Article 25 - Sanctions internationales (définition)",
+      "description": "On entend par « mesures de sanctions internationales » toutes mesures restrictives financières ou commerciales décidées par un État ou une organisation internationale / supranationale, tels que la France, l'Union européenne, les États-Unis d'Amérique, le Royaume-Uni, ou l'Organisation des nations unies (ONU), à l'encontre d'autres États, de territoires, de personnes physiques, de personnes morales ou d'entités de droit public ou de droit privé. Ces mesures peuvent notamment prendre les formes suivantes : interdictions ou restrictions d'importations ou d'exportations (embargos) ; confiscations, saisies, gels de biens ou d'avoir ; interdictions ou restrictions de certaines activités industrielles, commerciales ou de services en particulier financiers dont assurantiels.",
+      "page": 15
+    },
+    {
+      "name": "Identité de l'assureur et du groupe (colophon, page 16)",
+      "description": "« SMACL ASSURANCES SA - Société anonyme au capital de 138 801 048 euros, entreprise régie par le Code des assurances, RCS Niort n°833 817 224. Siège social : 141, avenue Salvador-Allende - CS 20000 - 79031 NIORT CEDEX 9. » Coordonnées imprimées : 05 49 33 82 70 (du lundi au jeudi de 8 h 30 à 18 h et le vendredi de 8 h 30 à 17 h), construction@smacl.fr, 05 49 32 56 56 (prix d'un appel local), espace assuré smacl.fr.",
+      "page": 16
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Le contrat Dommages ouvrage est régi par le Code des \nassurances et permet à l'assuré de satisfaire à l’assurance \nde dommages prévue par les articles L.242-1 et A.243-1 \ndu Code des assurances et leurs textes subséquents.",
+      "context": "Objet et fondement légal du contrat (chapitre 1)",
+      "page": 3
+    },
+    {
+      "quote": "1.2 - Assureur \nSMACL Assurances SA, ci-après dénommée SMACL \nAssurances.",
+      "context": "Article 1.2 - l'assureur nommé par le contrat est la société anonyme",
+      "page": 3
+    },
+    {
+      "quote": "Le présent contrat a pour objet de garantir, en dehors de \ntoute recherche de responsabilité, le paiement des travaux \nde réparation des dommages à l’ouvrage réalisé ainsi qu’aux \nouvrages existants, totalement incorporés dans l’ouvrage \nneuf et qui en deviennent techniquement indivisibles au sens \ndu II de l’article L.243-1-1 du Code des assurances.\nLa garantie couvre les dommages, même résultant d’un \nvice du sol, de la nature de ceux dont sont responsables les \nconstructeurs, au sens de l’article 1792-1 du Code civil, les \nfabricants et les importateurs ou le contrôleur technique, \net qui : \n• \u0007compromettent la solidité des ouvrages constitutifs \nde l’opération de construction ; \n• \u0007affectent lesdits ouvrages dans l’un de leurs éléments \nconstitutifs ou l’un de leurs éléments d’équipement, \nles rendant impropres à leur destination ; \n• \u0007affectent la solidité de l’un des éléments d’équipement \nindissociables des ouvrages de viabilité, de fondation, \nd’ossature, de clos ou de couvert, au sens de l’article \n1792-2 du Code civil.",
+      "context": "Article 3.1 - objet de la garantie obligatoire dommages ouvrage",
+      "page": 4
+    },
+    {
+      "quote": "Les garanties facultatives suivantes seront acquises \nà l'assuré sous réserve d'acceptation de sa part et de \nmention par SMACL Assurances desdites garanties aux \nconditions particulières. \n",
+      "context": "Article 3.2 - conditions d'acquisition des garanties facultatives",
+      "page": 4
+    },
+    {
+      "quote": "Le présent contrat garantit les dommages matériels \nsurvenus après réception et  entraînant la mise en jeu de \nla garantie de bon fonctionnement visée à l’article 1792-3 \ndu Code civil lorsqu’ils rendent les éléments d’équipement \ninaptes à remplir les fonctions qui leur sont dévolues.",
+      "context": "Article 3.2.1 - garantie des éléments d'équipement dissociables",
+      "page": 4
+    },
+    {
+      "quote": "Le présent contrat garantit les dommages immatériels \nsubis par le ou les propriétaires de la construction et/ou les \noccupants, résultant directement d’un dommage survenu \naprès réception et garanti au titre du présent contrat. \n",
+      "context": "Article 3.2.2 - garantie des dommages immatériels après réception",
+      "page": 4
+    },
+    {
+      "quote": "Le présent contrat garantit les dommages matériels \nsubis par les existants non totalement incorporés dans \nl’ouvrage neuf, s’il est établi que ces dommages : \n• \u0007sont la conséquence directe de l’exécution des \ntravaux neufs réalisés dans le cadre de l’opération \nde construction et non celle des propres défauts des \nparties pré-existantes ; \n• \u0007et nuisent à la solidité de la construction ou la rendent \nimpropre à sa destination.",
+      "context": "Article 3.2.3 - garantie des dommages aux existants",
+      "page": 5
+    },
+    {
+      "quote": "Cette garantie ne peut être accordée que sous réserve d’un \nexamen préalable des existants effectué par un contrôleur \ntechnique agréé (contrôle dit de compatibilité), afin \nde vérifier si l’état des existants est compatible avec le \nprogramme des travaux neufs. La délivrance de la garantie \nn’interviendra qu’après examen de l’avis du contrôleur \ntechnique. Toutefois, pour les travaux ne modifiant pas \nles structures porteuses horizontales et/ou verticales des \nexistants, la garantie pourra, le cas échéant, être accordée \nsans contrôle de compatibilité, sauf si SMACL Assurances \nl’estime indispensable.",
+      "context": "Article 3.2.3 - contrôle de compatibilité préalable des existants",
+      "page": 5
+    },
+    {
+      "quote": "4.1.1 - La période de garantie est précisée aux \nconditions particulières. Elle  commence au plus \ntôt, sous réserve des dispositions de l’article 4.1.2, à \nl’expiration du délai de garantie de parfait achèvement \ndéfinie à l’article 1792-6 du Code civil. Elle prend fin à \nl’expiration d’une période de dix (10) ans à compter de \nla réception des travaux.",
+      "context": "Article 4.1.1 - durée de dix (10) ans de la garantie de base",
+      "page": 5
+    },
+    {
+      "quote": "4.2.1 - La période de garantie commence au plus \ntôt, sous réserve des dispositions de  l’article 4.2.2, à \nl’expiration du délai de garantie de parfait achèvement \ndéfinie à l’article 1792-6 du Code civil. Elle prend fin \nà l’expiration d’une période de 2 ans à compter de la \nréception des travaux.",
+      "context": "Article 4.2.1 - durée de 2 ans de la garantie des éléments d'équipement dissociables",
+      "page": 5
+    },
+    {
+      "quote": "5.2 - Pour la garantie définie à l'article 3.2.1\nLe montant de la garantie est limité à 20 % de celui défini \nà l’article 5.1.2.2, sans pouvoir excéder la somme fixée aux \nconditions particulières.",
+      "context": "Article 5.2 - plafond de 20 % pour la garantie 3.2.1",
+      "page": 6
+    },
+    {
+      "quote": "6.1 - Les garanties visées à l'article 3 du présent \ncontrat ne s'appliquent pas aux dommages \nrésultant exclusivement :\n6.1.1 - du fait intentionnel ou du dol du souscripteur \nou de l’assuré ;\n6.1.2 - des effets de l’usure normale, du défaut \nd’entretien ou de l’usage anormal ;\n6.1.3 - de la cause étrangère.",
+      "context": "Article 6.1 - exclusions applicables à toutes les garanties",
+      "page": 6
+    },
+    {
+      "quote": "6.2 - Sont en outre exclus des garanties définies \nà l’article 3.2, lorsque l’assuré, au jour du sinistre, \nest le souscripteur, les dommages résultant :\n6.2.1 - d’économies \nabusives \nimposées \naux \nconstructeurs dans le choix des  matériaux et/ou \nprocédés de construction et qui sont à l’origine des \ndommages ;\n6.2.2 - de la non-prise en compte, par le souscripteur, \nde réserves techniques notifiées et transmises en \ntemps opportun et au plus tard dix (10) jours avant \nla réception des travaux, au maître d’ouvrage, par \nles constructeurs au sens de l’article 1792.1 du Code \ncivil, les sous-traitants, les fabricants, les négociants \net les importateurs, ainsi que le contrôleur technique.",
+      "context": "Article 6.2 - exclusions propres aux garanties facultatives lorsque l'assuré est le souscripteur",
+      "page": 6
+    },
+    {
+      "quote": "Lorsque le souscripteur a le droit de résilier le contrat, la \nnotification de la résiliation peut être effectuée, à son choix :\n1.\t soit par lettre ou tout autre support durable ;\n2.\t \u0007soit par déclaration faite au siège social ou chez le \nreprésentant de l'assureur;\n3.\t soit par acte extrajudiciaire ;\n4.\t\u0007soit, lorsque l'assureur propose la conclusion de contrat \npar un mode de communication à distance, par le \nmême mode de communication ;\n5.\t soit par tout autre moyen prévu par le contrat.",
+      "context": "Article 8 - modalités de notification de la résiliation",
+      "page": 7
+    },
+    {
+      "quote": "10.2.1 - Déclarer à SMACL Assurances toute augmen-\ntation d’au moins 20 % du coût total de construction \nprévisionnel déclaré, due à une modification du pro-\ngramme initial.",
+      "context": "Article 10.2.1 - obligation de déclarer une hausse d'au moins 20 % du coût prévisionnel",
+      "page": 8
+    },
+    {
+      "quote": "La non-fourniture, dans les délais prescrits, du coût de \nconstruction définitif donne droit à SMACL Assurances, \naprès expiration d’un délai de dix (10) jours fixé par lettre \nrecommandée à l'assuré, d’exiger le paiement d’une \ncotisation égale à 25 % de la cotisation provisoire prévue \naux conditions particulières.",
+      "context": "Article 12.3.3 - sanction du défaut de déclaration du coût définitif",
+      "page": 9
+    },
+    {
+      "quote": "13.1 - En cas de sinistre susceptible de mettre en jeu \nles garanties du contrat, l’assuré est tenu d’en faire la \ndéclaration à SMACL Assurances au plus tard dans les \ndouze (12) jours suivant celui où il en a eu connaissance, par \nécrit, soit contre récépissé, soit par lettre recommandée \navec demande d’avis de réception.",
+      "context": "Article 13.1 - délai de déclaration du sinistre",
+      "page": 10
+    },
+    {
+      "quote": "elle évalue le dommage à un montant inférieur à \n1 800 €  TTC ;",
+      "context": "Article 14.3.3 - seuil en deçà duquel SMACL Assurances n'est pas tenue de recourir à une expertise",
+      "page": 11
+    },
+    {
+      "quote": "15.1.1 - Dans un délai maximum de soixante (60) jours \ncourant à compter de la réception de la déclaration de \nsinistre réputée constituée, SMACL Assurances, sauf si \nelle a fait application des dispositions de l’article 14.3.3, \nsur le vu du rapport préliminaire établi par l’expert, \nnotifie à l'assuré sa décision quant au principe de la mise \nen jeu des garanties du contrat.",
+      "context": "Article 15.1.1 - délai de 60 jours pour la décision sur le principe de la garantie",
+      "page": 11
+    },
+    {
+      "quote": "15.2.1 - Dans un délai maximum de quatre-vingt-\ndix (90) jours courant à compter de la réception de \nla déclaration de sinistre réputée constituée, SMACL \nAssurances, sauf si elle a fait application de l’article \n14.3.3, présente une offre d’indemnité, revêtant, le \ncas échéant, un caractère provisionnel et destinée au \npaiement des travaux de réparation des dommages. \n",
+      "context": "Article 15.2.1 - délai de 90 jours pour l'offre d'indemnité",
+      "page": 12
+    },
+    {
+      "quote": "Ce délai supplémentaire est subordonné à \nl’acceptation expresse de l’assuré et ne pourra excéder \ncent-trente-cinq (135) jours.",
+      "context": "Article 15.2.3 - plafond du délai supplémentaire",
+      "page": 12
+    },
+    {
+      "quote": "16.1 - En cas d’acceptation par l’assuré de l’offre qui lui est \nfaite, le règlement de l’indemnité par SMACL Assurances \nintervient dans un délai maximum de quinze (15) jours.",
+      "context": "Article 16.1 - délai de règlement de l'indemnité",
+      "page": 12
+    },
+    {
+      "quote": "L’indemnité versée par SMACL Assurances est alors \nmajorée de plein droit d’un intérêt égal au double de \nl’intérêt légal.",
+      "context": "Article 16.3 - majoration au double de l'intérêt légal",
+      "page": 12
+    },
+    {
+      "quote": "Conformément à l’article L.114-1 du Code, toutes actions \ndérivant d’un contrat d’assurance sont prescrites par deux \n(2) ans à compter de l’événement qui y donne naissance. \n",
+      "context": "Article 19 - prescription biennale",
+      "page": 13
+    },
+    {
+      "quote": "SMACL Assurances et SMACL Assurances SA, en qualité \nde responsables conjoints du traitement, recueillent et \ntraitent des données à caractère personnel concernant \nles représentants et correspondants du souscripteur, les \nreprésentants de ses adhérents, ainsi que les bénéficiaires des \ngaranties souscrites et, le cas échéant, leurs ayants droit.",
+      "context": "Article 20 - les deux personnes morales sont responsables conjoints du traitement des données",
+      "page": 14
+    },
+    {
+      "quote": "SMACL ASSURANCES SA - Société anonyme au capital de 138 801 048 euros, entreprise régie par le Code des\nassurances, RCS Niort n°833 817 224. Siège social : 141, avenue Salvador-Allende - CS 20000 - 79031 NIORT CEDEX 9.",
+      "context": "Colophon page 16 - identité et immatriculation de l'assureur",
+      "page": 16
+    },
+    {
+      "quote": "CONSTRUCTION_CG_DO_SA_06(02_2023)",
+      "context": "Code de référence imprimé au bas du sommaire",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "PORTEUR DU RISQUE : la société anonyme. L'article 1.2 définit « Assureur : SMACL Assurances SA, ci-après dénommée SMACL Assurances » (page 3) et le colophon de la page 16 imprime « SMACL ASSURANCES SA - Société anonyme au capital de 138 801 048 euros, entreprise régie par le Code des assurances, RCS Niort n°833 817 224 ». Aucune autre personne morale n'est nommée comme porteur du risque. Le code de référence du document contient d'ailleurs le segment « _SA_ » (CONSTRUCTION_CG_DO_SA_06(02_2023)), d'où variant = « SMACL Assurances SA ».",
+    "L'article 20 (protection des données, page 14) nomme SMACL Assurances ET SMACL Assurances SA « en qualité de responsables conjoints du traitement ». C'est un rôle RGPD, pas une répartition du risque : rien dans le document n'attribue une garantie à la société d'assurance mutuelle. Les deux mentions sont conservées verbatim (citation p. 14) sans arbitrage.",
+    "EDITION : deux dates concurrentes, toutes deux imprimées. La ligne d'édition du colophon (page 16) porte « 01/2024 » — vérifiée sur un rendu à 10x de la bande y 798-818, où elle est bien imprimée et unique dans la couche texte (pas de bandeau fantôme). Le code de référence du sommaire (page 2) porte « (02_2023) », et le manifeste indique 2023-02. edition_date suit la ligne d'édition imprimée = 01/2024 ; le code de référence est conservé dans `reference`.",
+    "DÉFAUT DE COUCHE TEXTE (SMACL) : la ligature « ti » perd son i. La couche texte donne « Collectvités », « Associatons », « Concepton », « Directon », « communicaton » ; le rendu imprime les formes correctes. Aucune citation n'a été prise sur un mot mutilé. Le défaut n'a PAS été réparé dans les citations.",
+    "SOMMAIRE INUTILISABLE : la page 2 contient 3 541 caractères U+FFFD (points de conduite du sommaire) sur l'ensemble du document, et 73 U+0007 après les puces (tabulations, pas des items perdus). Le sommaire n'a servi qu'à cartographier les articles, jamais de source de contenu.",
+    "CONTRÔLE D'INVERSION DE COLONNES : NÉGATIF sur ce document, vérifié page par page. Mise en page à deux colonnes (colonne gauche x0 = 56,7 pt, colonne droite x0 = 291-293 pt ; la coupure réelle mesurée se situe entre 285,6 et 291,0 pt, PAS au milieu de la page A4 à 297 pt). L'ordre du texte plat est : bloc du folio (imprimé en bas à droite, x0 ≈ 292), puis toute la colonne gauche de haut en bas, puis toute la colonne droite. Aucun entrelacement, aucun bloc mal rattaché.",
+    "MARQUEURS : ce document n'utilise pas de puces colorées pour distinguer garanties et exclusions — les exclusions sont numérotées (6.1.1 à 6.2.2) à l'intérieur d'un article intitulé « Exclusions ». Aucun tableau de garanties, aucune matrice de formules, aucun tracé vectoriel porteur de sens (les tracés des pages 1 et 16 sont des éléments de gabarit et le logo). Aucune image dans le document.",
+    "FOLIOS : le folio imprimé coïncide avec le numéro de page PDF pour les pages 3 à 15 (vérifié : la page PDF 3 imprime « 3 », la page 6 imprime « 6 »). Les pages 1, 2 et 16 ne portent pas de folio. Tous les champs `page` citent néanmoins le marqueur [[page N]].",
+    "TYPOGRAPHIE DU DOCUMENT NON CORRIGÉE : l'article 10.3 de la page 8 numérote « 10.3. - Lui notifier, dans le délai de quarante-cinq (45) jours... » là où la séquence attend 10.3.3 (entre 10.3.2 et 10.3.4). L'obligation correspondante est enregistrée avec la numérotation telle qu'imprimée. De même l'article 16.2 renvoie « selon les modalités définies à l'article 14.2.1 », article qui n'existe pas dans ce contrat (l'article 14 s'arrête à 14.3.3) ; renvoi conservé verbatim, non corrigé.",
+    "FRANCHISES : le document ne chiffre aucune franchise. La seule mention est indirecte — l'article 8.2.3 ouvre au souscripteur un droit de résiliation « En cas d'augmentation des cotisations ou des franchises applicables aux risques garantis » (page 7). Les montants relèvent des conditions particulières, non fournies. `deductibles` est donc laissé à null sur ses trois champs, avec la page 7 pour référence.",
+    "MONTANTS RENVOYÉS AUX CONDITIONS PARTICULIÈRES : les plafonds de garantie sont exprimés en pourcentage (20 %) ou par renvoi au coût total de construction déclaré et à « la somme fixée aux conditions particulières ». Le seul montant en euros de tout le contrat est le seuil de dispense d'expertise de l'article 14.3.3, « 1 800 €  TTC » (page 11), reproduit verbatim avec ses espaces insécables et sa double espace. Le glyphe € est bien présent dans la couche texte de ce document.",
+    "TARGET_AUDIENCE : laissé à null. La couverture porte simultanément « Collectivités » et « Associations » (deux publics), ce que l'énumération à valeur unique du schéma ne peut pas représenter ; le libellé du document est conservé dans target_audience_note. Le contrat lui-même ne restreint pas le souscripteur à l'une ou l'autre catégorie : il vise « La personne, physique ou morale, désignée aux conditions particulières qui fait réaliser des travaux de construction » (art. 1.18).",
+    "AUCUN TIERS GESTIONNAIRE OU ASSISTEUR : recherche explicite négative dans tout le document pour IMA, SMACL Assistance, MUTEX, MAIF VIE et pour les verbes « porté par », « garanti par ». L'expert chargé du constat des dommages est « désigné par SMACL Assurances » (art. 14.1) sans être nommé. Aucune entité tierce ne porte de garantie ici.",
+    "Le document ne prévoit ni délai de carence ni période d'attente : `waiting_periods` est vide à juste titre (contrat à cotisation unique attaché à une opération de construction, dont les points de départ sont fixés par l'article 4)."
+  ]
+}

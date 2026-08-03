@@ -1,0 +1,1833 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "macif",
+  "insurer_name": "Macif",
+  "product_name": "Macif Mutuelle Santé",
+  "branch": "sante",
+  "branch_code": null,
+  "document_type": "product_sheet",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": null,
+  "reference": "TG MACIF MUTUELLE SANTÉ - 06/26",
+  "edition_date": "06/26",
+  "product_family": "Macif Mutuelle Santé",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/TableauGaranties_assurance_sante.pdf",
+  "source_pdf": "macif-mutuelle-sante-tableaugaranties-assurance-sante-e5f6ca7f.pdf",
+  "source_sha256": "ad0ae4095d246f580787a518524f5102ac007cbfe3a19cb490c2bb5114d3e87a",
+  "source_pages": 2,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Tableau de garanties du contrat de complémentaire santé Macif Mutuelle Santé, garanties en vigueur au 1er juin 2026. La couverture se compose de deux grilles distinctes : une grille « SOINS » à six formules (PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE, EXCELLENCE) couvrant l’hospitalisation, la prime naissance, les soins courants et la prévention/mieux-être, et une grille « ÉQUIPEMENTS » à cinq niveaux (0, 1, 2, 3, EXCELLENCE) couvrant le dentaire, l’optique, les aides auditives, l’appareillage et les cures thermales. Les remboursements en pourcentage s’entendent par rapport aux bases de remboursement de la Sécurité sociale, remboursement de celle-ci inclus ; ceux exprimés en euros correspondent au remboursement de la mutuelle seule. Macif Mutuelle Santé est un contrat responsable au sens de l’article L. 871-1 du Code de la sécurité sociale, distribué par la Macif et assuré par Macif Santé Prévoyance.",
+  "definitions": [
+    {
+      "term": "Dispositif de pratique tarifaire maîtrisée",
+      "definition": "OPTAM pour les médecins de secteur 2 qui choisissent d’y adhérer et OPTAM-ACO pour l’Anesthésie, Chirurgie et Obstétrique",
+      "page": 1
+    },
+    {
+      "term": "A N S M",
+      "definition": "Agence Nationale de Sécurité du Médicament et des produits de santé",
+      "page": 1
+    },
+    {
+      "term": "R O",
+      "definition": "Régime obligatoire",
+      "page": 1
+    },
+    {
+      "term": "LPP",
+      "definition": "Liste des Produits et Prestations",
+      "page": 1
+    },
+    {
+      "term": "Honoraires paramédicaux",
+      "definition": "Entrent dans cette catégorie les honoraires des infirmiers(ères), masseurs-kinésithérapeutes, orthophonistes, orthoptistes, pédicures-podologues pris en charge par le Régime obligatoire. Les sages femmes sont assimilées à cette catégorie.",
+      "page": 1
+    },
+    {
+      "term": "Chirurgie réfractive de l’œil",
+      "definition": "Ensemble des techniques de chirurgie qui permettent de corriger des troubles de la vue comme la myopie, l’hypermétropie, l’astigmatisme et la presbytie. Forfait par œil et par année civile.",
+      "page": 2
+    },
+    {
+      "term": "Appareils de basse vision",
+      "definition": "Aides visuelles pour les personnes dont l’acuité visuelle avec correction est inférieure à 4/10e.",
+      "page": 2
+    },
+    {
+      "term": "Matériel médical",
+      "definition": "Hors titre IV de la LPP, objets contraceptifs, basse vision, aides auditives et prothèses capillaires de classe II.",
+      "page": 2
+    },
+    {
+      "term": "Équipements et prothèses 100 % Santé",
+      "definition": "Tels que définis réglementairement ; pris en charge dans les limites et conditions de la réglementation en vigueur.",
+      "page": 2
+    },
+    {
+      "term": "Contrat responsable",
+      "definition": "Macif Mutuelle Santé est un contrat responsable au sens de l’article L. 871 - 1 du Code de la sécurité sociale.",
+      "page": 2
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Honoraires (chirurgicaux et médicaux) – médecins non adhérents à un dispositif de pratique tarifaire maîtrisée",
+      "description": "Ligne du tableau de garanties, section « None ». Remboursement par formule “SOINS” : PRIMO : 100 % ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 100 % ; ÉQUILIBRÉE : 125 % ; ÉTENDUE * : 175 % ; EXCELLENCE * : 200 %.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "PRIMO : 100 % ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 100 % ; ÉQUILIBRÉE : 125 % ; ÉTENDUE * : 175 % ; EXCELLENCE * : 200 %",
+      "sub_limits": [
+        "PRIMO : 100 %",
+        "ÉCONOMIQUE : 100 %",
+        "ESSENTIELLE : 100 %",
+        "ÉQUILIBRÉE : 125 %",
+        "ÉTENDUE * : 175 %",
+        "EXCELLENCE * : 200 %"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 1, dont les colonnes sont les 6 formules “SOINS” (PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE, EXCELLENCE)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Honoraires (chirurgicaux et médicaux) – médecins adhérents à un dispositif de pratique tarifaire maîtrisée",
+      "description": "Ligne du tableau de garanties, section « None ». Remboursement par formule “SOINS” : PRIMO : 100 % ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 125 % ; ÉQUILIBRÉE : 150 % ; ÉTENDUE * : 200 % ; EXCELLENCE * : 250 %.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "PRIMO : 100 % ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 125 % ; ÉQUILIBRÉE : 150 % ; ÉTENDUE * : 200 % ; EXCELLENCE * : 250 %",
+      "sub_limits": [
+        "PRIMO : 100 %",
+        "ÉCONOMIQUE : 100 %",
+        "ESSENTIELLE : 125 %",
+        "ÉQUILIBRÉE : 150 %",
+        "ÉTENDUE * : 200 %",
+        "EXCELLENCE * : 250 %"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 1, dont les colonnes sont les 6 formules “SOINS” (PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE, EXCELLENCE)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Radiologie – médecins non adhérents à un dispositif de pratique tarifaire maîtrisée",
+      "description": "Ligne du tableau de garanties, section « None ». Remboursement par formule “SOINS” : PRIMO : 100 % ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 100 % ; ÉQUILIBRÉE : 125 % ; ÉTENDUE * : 175 % ; EXCELLENCE * : 200 %.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "PRIMO : 100 % ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 100 % ; ÉQUILIBRÉE : 125 % ; ÉTENDUE * : 175 % ; EXCELLENCE * : 200 %",
+      "sub_limits": [
+        "PRIMO : 100 %",
+        "ÉCONOMIQUE : 100 %",
+        "ESSENTIELLE : 100 %",
+        "ÉQUILIBRÉE : 125 %",
+        "ÉTENDUE * : 175 %",
+        "EXCELLENCE * : 200 %"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 1, dont les colonnes sont les 6 formules “SOINS” (PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE, EXCELLENCE)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Radiologie – médecins adhérents à un dispositif de pratique tarifaire maîtrisée",
+      "description": "Ligne du tableau de garanties, section « None ». Remboursement par formule “SOINS” : PRIMO : 100 % ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 125 % ; ÉQUILIBRÉE : 150 % ; ÉTENDUE * : 200 % ; EXCELLENCE * : 250 %.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "PRIMO : 100 % ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 125 % ; ÉQUILIBRÉE : 150 % ; ÉTENDUE * : 200 % ; EXCELLENCE * : 250 %",
+      "sub_limits": [
+        "PRIMO : 100 %",
+        "ÉCONOMIQUE : 100 %",
+        "ESSENTIELLE : 125 %",
+        "ÉQUILIBRÉE : 150 %",
+        "ÉTENDUE * : 200 %",
+        "EXCELLENCE * : 250 %"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 1, dont les colonnes sont les 6 formules “SOINS” (PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE, EXCELLENCE)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Honoraires paramédicaux (2)",
+      "description": "Ligne du tableau de garanties, section « None ». Remboursement par formule “SOINS” : PRIMO : 100 % ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 100 % ; ÉQUILIBRÉE : 125 % ; ÉTENDUE * : 175 % ; EXCELLENCE * : 200 %.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "PRIMO : 100 % ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 100 % ; ÉQUILIBRÉE : 125 % ; ÉTENDUE * : 175 % ; EXCELLENCE * : 200 %",
+      "sub_limits": [
+        "PRIMO : 100 %",
+        "ÉCONOMIQUE : 100 %",
+        "ESSENTIELLE : 100 %",
+        "ÉQUILIBRÉE : 125 %",
+        "ÉTENDUE * : 175 %",
+        "EXCELLENCE * : 200 %"
+      ],
+      "deductible": null,
+      "conditions": [
+        "(2) Entrent dans cette catégorie les honoraires des infirmiers(ères), masseurs-kinésithérapeutes, orthophonistes, orthoptistes, pédicures-podologues pris en charge par le Régime obligatoire. Les sages femmes sont assimilées à cette catégorie.",
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 1, dont les colonnes sont les 6 formules “SOINS” (PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE, EXCELLENCE)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Analyses et examens de laboratoire",
+      "description": "Ligne du tableau de garanties, section « None ». Remboursement par formule “SOINS” : PRIMO : 100 % ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 100 % ; ÉQUILIBRÉE : 125 % ; ÉTENDUE * : 175 % ; EXCELLENCE * : 200 %.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "PRIMO : 100 % ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 100 % ; ÉQUILIBRÉE : 125 % ; ÉTENDUE * : 175 % ; EXCELLENCE * : 200 %",
+      "sub_limits": [
+        "PRIMO : 100 %",
+        "ÉCONOMIQUE : 100 %",
+        "ESSENTIELLE : 100 %",
+        "ÉQUILIBRÉE : 125 %",
+        "ÉTENDUE * : 175 %",
+        "EXCELLENCE * : 200 %"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 1, dont les colonnes sont les 6 formules “SOINS” (PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE, EXCELLENCE)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Participation forfaitaire sur les actes techniques égaux ou supérieurs à 120 €",
+      "description": "Ligne du tableau de garanties, section « None ». Remboursement par formule “SOINS” : PRIMO : Remboursement intégral ; ÉCONOMIQUE : Remboursement intégral ; ESSENTIELLE : Remboursement intégral ; ÉQUILIBRÉE : Remboursement intégral ; ÉTENDUE * : Remboursement intégral ; EXCELLENCE * : Remboursement intégral.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "PRIMO : Remboursement intégral ; ÉCONOMIQUE : Remboursement intégral ; ESSENTIELLE : Remboursement intégral ; ÉQUILIBRÉE : Remboursement intégral ; ÉTENDUE * : Remboursement intégral ; EXCELLENCE * : Remboursement intégral",
+      "sub_limits": [
+        "PRIMO : Remboursement intégral",
+        "ÉCONOMIQUE : Remboursement intégral",
+        "ESSENTIELLE : Remboursement intégral",
+        "ÉQUILIBRÉE : Remboursement intégral",
+        "ÉTENDUE * : Remboursement intégral",
+        "EXCELLENCE * : Remboursement intégral"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 1, dont les colonnes sont les 6 formules “SOINS” (PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE, EXCELLENCE)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Forfait journalier hospitalier",
+      "description": "Ligne du tableau de garanties, section « None ». Remboursement par formule “SOINS” : PRIMO : Remboursement intégral ; ÉCONOMIQUE : Remboursement intégral ; ESSENTIELLE : Remboursement intégral ; ÉQUILIBRÉE : Remboursement intégral ; ÉTENDUE * : Remboursement intégral ; EXCELLENCE * : Remboursement intégral.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "PRIMO : Remboursement intégral ; ÉCONOMIQUE : Remboursement intégral ; ESSENTIELLE : Remboursement intégral ; ÉQUILIBRÉE : Remboursement intégral ; ÉTENDUE * : Remboursement intégral ; EXCELLENCE * : Remboursement intégral",
+      "sub_limits": [
+        "PRIMO : Remboursement intégral",
+        "ÉCONOMIQUE : Remboursement intégral",
+        "ESSENTIELLE : Remboursement intégral",
+        "ÉQUILIBRÉE : Remboursement intégral",
+        "ÉTENDUE * : Remboursement intégral",
+        "EXCELLENCE * : Remboursement intégral"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 1, dont les colonnes sont les 6 formules “SOINS” (PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE, EXCELLENCE)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Forfait patient urgences",
+      "description": "Ligne du tableau de garanties, section « None ». Remboursement par formule “SOINS” : PRIMO : Remboursement intégral ; ÉCONOMIQUE : Remboursement intégral ; ESSENTIELLE : Remboursement intégral ; ÉQUILIBRÉE : Remboursement intégral ; ÉTENDUE * : Remboursement intégral ; EXCELLENCE * : Remboursement intégral.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "PRIMO : Remboursement intégral ; ÉCONOMIQUE : Remboursement intégral ; ESSENTIELLE : Remboursement intégral ; ÉQUILIBRÉE : Remboursement intégral ; ÉTENDUE * : Remboursement intégral ; EXCELLENCE * : Remboursement intégral",
+      "sub_limits": [
+        "PRIMO : Remboursement intégral",
+        "ÉCONOMIQUE : Remboursement intégral",
+        "ESSENTIELLE : Remboursement intégral",
+        "ÉQUILIBRÉE : Remboursement intégral",
+        "ÉTENDUE * : Remboursement intégral",
+        "EXCELLENCE * : Remboursement intégral"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 1, dont les colonnes sont les 6 formules “SOINS” (PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE, EXCELLENCE)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Frais de transport",
+      "description": "Ligne du tableau de garanties, section « None ». Remboursement par formule “SOINS” : PRIMO : 100 % ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 100 % ; ÉQUILIBRÉE : 100 % ; ÉTENDUE * : 100 % ; EXCELLENCE * : 100 %.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "PRIMO : 100 % ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 100 % ; ÉQUILIBRÉE : 100 % ; ÉTENDUE * : 100 % ; EXCELLENCE * : 100 %",
+      "sub_limits": [
+        "PRIMO : 100 %",
+        "ÉCONOMIQUE : 100 %",
+        "ESSENTIELLE : 100 %",
+        "ÉQUILIBRÉE : 100 %",
+        "ÉTENDUE * : 100 %",
+        "EXCELLENCE * : 100 %"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 1, dont les colonnes sont les 6 formules “SOINS” (PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE, EXCELLENCE)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Frais de séjour",
+      "description": "Ligne du tableau de garanties, section « None ». Remboursement par formule “SOINS” : PRIMO : 100 % ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 100 % ; ÉQUILIBRÉE : 100 % ; ÉTENDUE * : 100 % ; EXCELLENCE * : 100 %.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "PRIMO : 100 % ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 100 % ; ÉQUILIBRÉE : 100 % ; ÉTENDUE * : 100 % ; EXCELLENCE * : 100 %",
+      "sub_limits": [
+        "PRIMO : 100 %",
+        "ÉCONOMIQUE : 100 %",
+        "ESSENTIELLE : 100 %",
+        "ÉQUILIBRÉE : 100 %",
+        "ÉTENDUE * : 100 %",
+        "EXCELLENCE * : 100 %"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 1, dont les colonnes sont les 6 formules “SOINS” (PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE, EXCELLENCE)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Chambre particulière – médecine, chirurgie, obstétrique, maternité",
+      "description": "Ligne du tableau de garanties, section « None ». Remboursement par formule “SOINS” : PRIMO : - ; ÉCONOMIQUE : - ; ESSENTIELLE : 30 € par nuit ; ÉQUILIBRÉE : 50 € par nuit ; ÉTENDUE * : 70 € par nuit ; EXCELLENCE * : 80 € par nuit.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "PRIMO : - ; ÉCONOMIQUE : - ; ESSENTIELLE : 30 € par nuit ; ÉQUILIBRÉE : 50 € par nuit ; ÉTENDUE * : 70 € par nuit ; EXCELLENCE * : 80 € par nuit",
+      "sub_limits": [
+        "PRIMO : -",
+        "ÉCONOMIQUE : -",
+        "ESSENTIELLE : 30 € par nuit",
+        "ÉQUILIBRÉE : 50 € par nuit",
+        "ÉTENDUE * : 70 € par nuit",
+        "EXCELLENCE * : 80 € par nuit"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 1, dont les colonnes sont les 6 formules “SOINS” (PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE, EXCELLENCE)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Chambre particulière – soins de suite et de réadaptation, psychiatrie",
+      "description": "Ligne du tableau de garanties, section « None ». Remboursement par formule “SOINS” : PRIMO : - ; ÉCONOMIQUE : - ; ESSENTIELLE : 30 € par nuit (limité à 60 nuits par an) (3) ; ÉQUILIBRÉE : 50 € par nuit (limité à 60 nuits par an) (3) ; ÉTENDUE * : 70 € par nuit (limité à 60 nuits par an) (3) ; EXCELLENCE * : 80 € par nuit (limité à 60 nuits par an) (3).",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "PRIMO : - ; ÉCONOMIQUE : - ; ESSENTIELLE : 30 € par nuit (limité à 60 nuits par an) (3) ; ÉQUILIBRÉE : 50 € par nuit (limité à 60 nuits par an) (3) ; ÉTENDUE * : 70 € par nuit (limité à 60 nuits par an) (3) ; EXCELLENCE * : 80 € par nuit (limité à 60 nuits par an) (3)",
+      "sub_limits": [
+        "PRIMO : -",
+        "ÉCONOMIQUE : -",
+        "ESSENTIELLE : 30 € par nuit (limité à 60 nuits par an) (3)",
+        "ÉQUILIBRÉE : 50 € par nuit (limité à 60 nuits par an) (3)",
+        "ÉTENDUE * : 70 € par nuit (limité à 60 nuits par an) (3)",
+        "EXCELLENCE * : 80 € par nuit (limité à 60 nuits par an) (3)"
+      ],
+      "deductible": null,
+      "conditions": [
+        "(3) Les forfaits chambre particulière et chambre accompagnant garantis pour une hospitalisation en soins de suite, réadaptation et psychiatrie sont chacun versés dans la limite globale de 60 nuits par an. Les prestations versées au cours de l’année au titre de la chambre particulière et de la chambre accompagnant pour les séjours en Médecine, Chirurgie, Obstétrique et Maternité sont comptabilisées dans cette limite globale annuelle et viennent donc en déduction.",
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 1, dont les colonnes sont les 6 formules “SOINS” (PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE, EXCELLENCE)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Chambre d’accompagnant avec nuitée (lit et frais de repas) – médecine, chirurgie, obstétrique, maternité",
+      "description": "Ligne du tableau de garanties, section « None ». Remboursement par formule “SOINS” : PRIMO : - ; ÉCONOMIQUE : - ; ESSENTIELLE : 10 € par nuit ; ÉQUILIBRÉE : 20 € par nuit ; ÉTENDUE * : 25 € par nuit ; EXCELLENCE * : 30 € par nuit.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "PRIMO : - ; ÉCONOMIQUE : - ; ESSENTIELLE : 10 € par nuit ; ÉQUILIBRÉE : 20 € par nuit ; ÉTENDUE * : 25 € par nuit ; EXCELLENCE * : 30 € par nuit",
+      "sub_limits": [
+        "PRIMO : -",
+        "ÉCONOMIQUE : -",
+        "ESSENTIELLE : 10 € par nuit",
+        "ÉQUILIBRÉE : 20 € par nuit",
+        "ÉTENDUE * : 25 € par nuit",
+        "EXCELLENCE * : 30 € par nuit"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 1, dont les colonnes sont les 6 formules “SOINS” (PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE, EXCELLENCE)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Chambre d’accompagnant avec nuitée (lit et frais de repas) – soins de suite et de réadaptation, psychiatrie",
+      "description": "Ligne du tableau de garanties, section « None ». Remboursement par formule “SOINS” : PRIMO : - ; ÉCONOMIQUE : - ; ESSENTIELLE : 10 € par nuit (3) ; ÉQUILIBRÉE : 20 € par nuit (3) ; ÉTENDUE * : 25 € par nuit (3) ; EXCELLENCE * : 30 € par nuit (3).",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "PRIMO : - ; ÉCONOMIQUE : - ; ESSENTIELLE : 10 € par nuit (3) ; ÉQUILIBRÉE : 20 € par nuit (3) ; ÉTENDUE * : 25 € par nuit (3) ; EXCELLENCE * : 30 € par nuit (3)",
+      "sub_limits": [
+        "PRIMO : -",
+        "ÉCONOMIQUE : -",
+        "ESSENTIELLE : 10 € par nuit (3)",
+        "ÉQUILIBRÉE : 20 € par nuit (3)",
+        "ÉTENDUE * : 25 € par nuit (3)",
+        "EXCELLENCE * : 30 € par nuit (3)"
+      ],
+      "deductible": null,
+      "conditions": [
+        "(3) Les forfaits chambre particulière et chambre accompagnant garantis pour une hospitalisation en soins de suite, réadaptation et psychiatrie sont chacun versés dans la limite globale de 60 nuits par an.",
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 1, dont les colonnes sont les 6 formules “SOINS” (PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE, EXCELLENCE)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Chambre particulière ambulatoire",
+      "description": "Ligne du tableau de garanties, section « None ». Remboursement par formule “SOINS” : PRIMO : - ; ÉCONOMIQUE : - ; ESSENTIELLE : 10 € par jour ; ÉQUILIBRÉE : 15 € par jour ; ÉTENDUE * : 20 € par jour ; EXCELLENCE * : 25 € par jour.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "PRIMO : - ; ÉCONOMIQUE : - ; ESSENTIELLE : 10 € par jour ; ÉQUILIBRÉE : 15 € par jour ; ÉTENDUE * : 20 € par jour ; EXCELLENCE * : 25 € par jour",
+      "sub_limits": [
+        "PRIMO : -",
+        "ÉCONOMIQUE : -",
+        "ESSENTIELLE : 10 € par jour",
+        "ÉQUILIBRÉE : 15 € par jour",
+        "ÉTENDUE * : 20 € par jour",
+        "EXCELLENCE * : 25 € par jour"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 1, dont les colonnes sont les 6 formules “SOINS” (PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE, EXCELLENCE)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Honoraires chirurgicaux, médicaux, paramédicaux, radiologie, analyses et examens de laboratoire en cas d'hospitalisation à l'étranger",
+      "description": "Ligne du tableau de garanties, section « None ». Remboursement par formule “SOINS” : PRIMO : 100 % ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 100 % ; ÉQUILIBRÉE : 100 % ; ÉTENDUE * : 120 % ; EXCELLENCE * : 140 %.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "PRIMO : 100 % ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 100 % ; ÉQUILIBRÉE : 100 % ; ÉTENDUE * : 120 % ; EXCELLENCE * : 140 %",
+      "sub_limits": [
+        "PRIMO : 100 %",
+        "ÉCONOMIQUE : 100 %",
+        "ESSENTIELLE : 100 %",
+        "ÉQUILIBRÉE : 100 %",
+        "ÉTENDUE * : 120 %",
+        "EXCELLENCE * : 140 %"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 1, dont les colonnes sont les 6 formules “SOINS” (PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE, EXCELLENCE)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Prime naissance",
+      "description": "Ligne du tableau de garanties, section « PRIME NAISSANCE ». Remboursement par formule “SOINS” : PRIMO : 100 € par enfant ; ÉCONOMIQUE : 100 € par enfant ; ESSENTIELLE : 100 € par enfant ; ÉQUILIBRÉE : 100 € par enfant ; ÉTENDUE * : 100 € par enfant ; EXCELLENCE * : 100 € par enfant.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "PRIMO : 100 € par enfant ; ÉCONOMIQUE : 100 € par enfant ; ESSENTIELLE : 100 € par enfant ; ÉQUILIBRÉE : 100 € par enfant ; ÉTENDUE * : 100 € par enfant ; EXCELLENCE * : 100 € par enfant",
+      "sub_limits": [
+        "PRIMO : 100 € par enfant",
+        "ÉCONOMIQUE : 100 € par enfant",
+        "ESSENTIELLE : 100 € par enfant",
+        "ÉQUILIBRÉE : 100 € par enfant",
+        "ÉTENDUE * : 100 € par enfant",
+        "EXCELLENCE * : 100 € par enfant"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 1, dont les colonnes sont les 6 formules “SOINS” (PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE, EXCELLENCE)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Honoraires médicaux - Consultations médecine générale et spécialiste – médecins non adhérents à un dispositif de pratique tarifaire maîtrisée",
+      "description": "Ligne du tableau de garanties, section « SOINS COURANTS ». Remboursement par formule “SOINS” : PRIMO : 100 % ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 100 % ; ÉQUILIBRÉE : 125 % ; ÉTENDUE * : 175 % ; EXCELLENCE * : 200 %.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "PRIMO : 100 % ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 100 % ; ÉQUILIBRÉE : 125 % ; ÉTENDUE * : 175 % ; EXCELLENCE * : 200 %",
+      "sub_limits": [
+        "PRIMO : 100 %",
+        "ÉCONOMIQUE : 100 %",
+        "ESSENTIELLE : 100 %",
+        "ÉQUILIBRÉE : 125 %",
+        "ÉTENDUE * : 175 %",
+        "EXCELLENCE * : 200 %"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 1, dont les colonnes sont les 6 formules “SOINS” (PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE, EXCELLENCE)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Honoraires médicaux - Consultations médecine générale et spécialiste – médecins adhérents à un dispositif de pratique tarifaire maîtrisée",
+      "description": "Ligne du tableau de garanties, section « SOINS COURANTS ». Remboursement par formule “SOINS” : PRIMO : 100 % ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 125 % ; ÉQUILIBRÉE : 150 % ; ÉTENDUE * : 200 % ; EXCELLENCE * : 250 %.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "PRIMO : 100 % ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 125 % ; ÉQUILIBRÉE : 150 % ; ÉTENDUE * : 200 % ; EXCELLENCE * : 250 %",
+      "sub_limits": [
+        "PRIMO : 100 %",
+        "ÉCONOMIQUE : 100 %",
+        "ESSENTIELLE : 125 %",
+        "ÉQUILIBRÉE : 150 %",
+        "ÉTENDUE * : 200 %",
+        "EXCELLENCE * : 250 %"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 1, dont les colonnes sont les 6 formules “SOINS” (PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE, EXCELLENCE)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Radiologie – médecins non adhérents à un dispositif de pratique tarifaire maîtrisée",
+      "description": "Ligne du tableau de garanties, section « SOINS COURANTS ». Remboursement par formule “SOINS” : PRIMO : 100 % ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 100 % ; ÉQUILIBRÉE : 125 % ; ÉTENDUE * : 175 % ; EXCELLENCE * : 200 %.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "PRIMO : 100 % ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 100 % ; ÉQUILIBRÉE : 125 % ; ÉTENDUE * : 175 % ; EXCELLENCE * : 200 %",
+      "sub_limits": [
+        "PRIMO : 100 %",
+        "ÉCONOMIQUE : 100 %",
+        "ESSENTIELLE : 100 %",
+        "ÉQUILIBRÉE : 125 %",
+        "ÉTENDUE * : 175 %",
+        "EXCELLENCE * : 200 %"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 1, dont les colonnes sont les 6 formules “SOINS” (PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE, EXCELLENCE)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Radiologie – médecins adhérents à un dispositif de pratique tarifaire maîtrisée",
+      "description": "Ligne du tableau de garanties, section « SOINS COURANTS ». Remboursement par formule “SOINS” : PRIMO : 100 % ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 125 % ; ÉQUILIBRÉE : 150 % ; ÉTENDUE * : 200 % ; EXCELLENCE * : 250 %.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "PRIMO : 100 % ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 125 % ; ÉQUILIBRÉE : 150 % ; ÉTENDUE * : 200 % ; EXCELLENCE * : 250 %",
+      "sub_limits": [
+        "PRIMO : 100 %",
+        "ÉCONOMIQUE : 100 %",
+        "ESSENTIELLE : 125 %",
+        "ÉQUILIBRÉE : 150 %",
+        "ÉTENDUE * : 200 %",
+        "EXCELLENCE * : 250 %"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 1, dont les colonnes sont les 6 formules “SOINS” (PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE, EXCELLENCE)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Consultations de psychologues remboursées par le Régime obligatoire",
+      "description": "Ligne du tableau de garanties, section « SOINS COURANTS ». Remboursement par formule “SOINS” : PRIMO : 100 % ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 100 % ; ÉQUILIBRÉE : 100 % ; ÉTENDUE * : 100 % ; EXCELLENCE * : 100 %.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "PRIMO : 100 % ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 100 % ; ÉQUILIBRÉE : 100 % ; ÉTENDUE * : 100 % ; EXCELLENCE * : 100 %",
+      "sub_limits": [
+        "PRIMO : 100 %",
+        "ÉCONOMIQUE : 100 %",
+        "ESSENTIELLE : 100 %",
+        "ÉQUILIBRÉE : 100 %",
+        "ÉTENDUE * : 100 %",
+        "EXCELLENCE * : 100 %"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 1, dont les colonnes sont les 6 formules “SOINS” (PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE, EXCELLENCE)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Honoraires paramédicaux (2)",
+      "description": "Ligne du tableau de garanties, section « SOINS COURANTS ». Remboursement par formule “SOINS” : PRIMO : 100 % ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 100 % ; ÉQUILIBRÉE : 125 % ; ÉTENDUE * : 175 % ; EXCELLENCE * : 200 %.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "PRIMO : 100 % ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 100 % ; ÉQUILIBRÉE : 125 % ; ÉTENDUE * : 175 % ; EXCELLENCE * : 200 %",
+      "sub_limits": [
+        "PRIMO : 100 %",
+        "ÉCONOMIQUE : 100 %",
+        "ESSENTIELLE : 100 %",
+        "ÉQUILIBRÉE : 125 %",
+        "ÉTENDUE * : 175 %",
+        "EXCELLENCE * : 200 %"
+      ],
+      "deductible": null,
+      "conditions": [
+        "(2) Entrent dans cette catégorie les honoraires des infirmiers(ères), masseurs-kinésithérapeutes, orthophonistes, orthoptistes, pédicures-podologues pris en charge par le Régime obligatoire. Les sages femmes sont assimilées à cette catégorie.",
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 1, dont les colonnes sont les 6 formules “SOINS” (PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE, EXCELLENCE)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Analyses et examens de laboratoire",
+      "description": "Ligne du tableau de garanties, section « SOINS COURANTS ». Remboursement par formule “SOINS” : PRIMO : 100 % ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 100 % ; ÉQUILIBRÉE : 125 % ; ÉTENDUE * : 175 % ; EXCELLENCE * : 200 %.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "PRIMO : 100 % ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 100 % ; ÉQUILIBRÉE : 125 % ; ÉTENDUE * : 175 % ; EXCELLENCE * : 200 %",
+      "sub_limits": [
+        "PRIMO : 100 %",
+        "ÉCONOMIQUE : 100 %",
+        "ESSENTIELLE : 100 %",
+        "ÉQUILIBRÉE : 125 %",
+        "ÉTENDUE * : 175 %",
+        "EXCELLENCE * : 200 %"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 1, dont les colonnes sont les 6 formules “SOINS” (PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE, EXCELLENCE)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Médicaments et honoraires de dispensation – pharmacie remboursée à 65 % par le R O",
+      "description": "Ligne du tableau de garanties, section « SOINS COURANTS ». Remboursement par formule “SOINS” : PRIMO : 100 % ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 100 % ; ÉQUILIBRÉE : 100 % ; ÉTENDUE * : 100 % ; EXCELLENCE * : 100 %.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "PRIMO : 100 % ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 100 % ; ÉQUILIBRÉE : 100 % ; ÉTENDUE * : 100 % ; EXCELLENCE * : 100 %",
+      "sub_limits": [
+        "PRIMO : 100 %",
+        "ÉCONOMIQUE : 100 %",
+        "ESSENTIELLE : 100 %",
+        "ÉQUILIBRÉE : 100 %",
+        "ÉTENDUE * : 100 %",
+        "EXCELLENCE * : 100 %"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 1, dont les colonnes sont les 6 formules “SOINS” (PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE, EXCELLENCE)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Médicaments et honoraires de dispensation – pharmacie remboursée à 30 % par le R O",
+      "description": "Ligne du tableau de garanties, section « SOINS COURANTS ». Remboursement par formule “SOINS” : PRIMO : 30 % (4) ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 100 % ; ÉQUILIBRÉE : 100 % ; ÉTENDUE * : 100 % ; EXCELLENCE * : 100 %.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "PRIMO : 30 % (4) ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 100 % ; ÉQUILIBRÉE : 100 % ; ÉTENDUE * : 100 % ; EXCELLENCE * : 100 %",
+      "sub_limits": [
+        "PRIMO : 30 % (4)",
+        "ÉCONOMIQUE : 100 %",
+        "ESSENTIELLE : 100 %",
+        "ÉQUILIBRÉE : 100 %",
+        "ÉTENDUE * : 100 %",
+        "EXCELLENCE * : 100 %"
+      ],
+      "deductible": null,
+      "conditions": [
+        "(4) Remboursement par le Régime obligatoire uniquement (formule PRIMO).",
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 1, dont les colonnes sont les 6 formules “SOINS” (PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE, EXCELLENCE)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Médicaments et honoraires de dispensation – pharmacie remboursée à 15 % par le R O",
+      "description": "Ligne du tableau de garanties, section « SOINS COURANTS ». Remboursement par formule “SOINS” : PRIMO : 15 % (4) ; ÉCONOMIQUE : 15 % (4) ; ESSENTIELLE : 100 % ; ÉQUILIBRÉE : 100 % ; ÉTENDUE * : 100 % ; EXCELLENCE * : 100 %.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "PRIMO : 15 % (4) ; ÉCONOMIQUE : 15 % (4) ; ESSENTIELLE : 100 % ; ÉQUILIBRÉE : 100 % ; ÉTENDUE * : 100 % ; EXCELLENCE * : 100 %",
+      "sub_limits": [
+        "PRIMO : 15 % (4)",
+        "ÉCONOMIQUE : 15 % (4)",
+        "ESSENTIELLE : 100 %",
+        "ÉQUILIBRÉE : 100 %",
+        "ÉTENDUE * : 100 %",
+        "EXCELLENCE * : 100 %"
+      ],
+      "deductible": null,
+      "conditions": [
+        "(4) Remboursement par le Régime obligatoire uniquement (formules PRIMO et ÉCONOMIQUE).",
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 1, dont les colonnes sont les 6 formules “SOINS” (PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE, EXCELLENCE)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Transport hors hospitalisation",
+      "description": "Ligne du tableau de garanties, section « SOINS COURANTS ». Remboursement par formule “SOINS” : PRIMO : 100 % ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 100 % ; ÉQUILIBRÉE : 100 % ; ÉTENDUE * : 100 % ; EXCELLENCE * : 100 %.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "PRIMO : 100 % ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 100 % ; ÉQUILIBRÉE : 100 % ; ÉTENDUE * : 100 % ; EXCELLENCE * : 100 %",
+      "sub_limits": [
+        "PRIMO : 100 %",
+        "ÉCONOMIQUE : 100 %",
+        "ESSENTIELLE : 100 %",
+        "ÉQUILIBRÉE : 100 %",
+        "ÉTENDUE * : 100 %",
+        "EXCELLENCE * : 100 %"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 1, dont les colonnes sont les 6 formules “SOINS” (PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE, EXCELLENCE)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Honoraires médicaux, paramédicaux, radiologie, analyses et examens de laboratoire en cas de soins courants à l'étranger",
+      "description": "Ligne du tableau de garanties, section « SOINS COURANTS ». Remboursement par formule “SOINS” : PRIMO : 100 % ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 100 % ; ÉQUILIBRÉE : 100 % ; ÉTENDUE * : 120 % ; EXCELLENCE * : 140 %.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "PRIMO : 100 % ; ÉCONOMIQUE : 100 % ; ESSENTIELLE : 100 % ; ÉQUILIBRÉE : 100 % ; ÉTENDUE * : 120 % ; EXCELLENCE * : 140 %",
+      "sub_limits": [
+        "PRIMO : 100 %",
+        "ÉCONOMIQUE : 100 %",
+        "ESSENTIELLE : 100 %",
+        "ÉQUILIBRÉE : 100 %",
+        "ÉTENDUE * : 120 %",
+        "EXCELLENCE * : 140 %"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 1, dont les colonnes sont les 6 formules “SOINS” (PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE, EXCELLENCE)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Séances Mieux-être (5) – \u0007ostéopathe, acupuncteur, diététicien, chiropracteur, pédicure, podologue, psychologue (non remboursé par le R O), sophrologue, hypnothérapeute",
+      "description": "Ligne du tableau de garanties, section « PRÉVENTION ET MIEUX-ÊTRE ». Remboursement par formule “SOINS” : PRIMO : - ; ÉCONOMIQUE : - ; ESSENTIELLE : 25 € par séance 2 séances par année civile ; ÉQUILIBRÉE : 35 € par séance 3 séances par année civile ; ÉTENDUE * : 45 € par séance 3 séances par année civile ; EXCELLENCE * : 45 € par séance 4 séances par année civile.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "PRIMO : - ; ÉCONOMIQUE : - ; ESSENTIELLE : 25 € par séance 2 séances par année civile ; ÉQUILIBRÉE : 35 € par séance 3 séances par année civile ; ÉTENDUE * : 45 € par séance 3 séances par année civile ; EXCELLENCE * : 45 € par séance 4 séances par année civile",
+      "sub_limits": [
+        "PRIMO : -",
+        "ÉCONOMIQUE : -",
+        "ESSENTIELLE : 25 € par séance 2 séances par année civile",
+        "ÉQUILIBRÉE : 35 € par séance 3 séances par année civile",
+        "ÉTENDUE * : 45 € par séance 3 séances par année civile",
+        "EXCELLENCE * : 45 € par séance 4 séances par année civile"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 1, dont les colonnes sont les 6 formules “SOINS” (PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE, EXCELLENCE)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Pharmacie non remboursée – contraception, tests de grossesse et d’ovulation, autotest V I H – matériel de surveillance de l’hypertension artérielle – vaccins prescrits et non remboursés par le Régime obligatoire (dont vaccin antigrippal) – homéopathie, médicaments prescrits ou référencés A N S M",
+      "description": "Ligne du tableau de garanties, section « PRÉVENTION ET MIEUX-ÊTRE ». Remboursement par formule “SOINS” : PRIMO : 20 € par an Prestations limitées à : vaccin anti grippal, contraception, autotest V I H ; ÉCONOMIQUE : 20 € par an Prestations limitées à : vaccin anti grippal, contraception, autotest V I H ; ESSENTIELLE : 30 € par an ; ÉQUILIBRÉE : 40 € par an ; ÉTENDUE * : 60 € par an ; EXCELLENCE * : 80 € par an.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "PRIMO : 20 € par an Prestations limitées à : vaccin anti grippal, contraception, autotest V I H ; ÉCONOMIQUE : 20 € par an Prestations limitées à : vaccin anti grippal, contraception, autotest V I H ; ESSENTIELLE : 30 € par an ; ÉQUILIBRÉE : 40 € par an ; ÉTENDUE * : 60 € par an ; EXCELLENCE * : 80 € par an",
+      "sub_limits": [
+        "PRIMO : 20 € par an Prestations limitées à : vaccin anti grippal, contraception, autotest V I H",
+        "ÉCONOMIQUE : 20 € par an Prestations limitées à : vaccin anti grippal, contraception, autotest V I H",
+        "ESSENTIELLE : 30 € par an",
+        "ÉQUILIBRÉE : 40 € par an",
+        "ÉTENDUE * : 60 € par an",
+        "EXCELLENCE * : 80 € par an"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 1, dont les colonnes sont les 6 formules “SOINS” (PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE, EXCELLENCE)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Actes et soins dentaires",
+      "description": "Ligne du tableau de garanties, section « DENTAIRE ». Remboursement par niveau “ÉQUIPEMENTS” : 0 : 100 % ; 1 : 100 % ; 2 : 100 % ; 3 * : 100 % ; EXCELLENCE * : 100 %.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "0 : 100 % ; 1 : 100 % ; 2 : 100 % ; 3 * : 100 % ; EXCELLENCE * : 100 %",
+      "sub_limits": [
+        "0 : 100 %",
+        "1 : 100 %",
+        "2 : 100 %",
+        "3 * : 100 %",
+        "EXCELLENCE * : 100 %"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 2, dont les colonnes sont les 5 niveaux “ÉQUIPEMENTS” (0, 1, 2, 3, EXCELLENCE)."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Soins d’obturation Inlay / Onlay / Overlay",
+      "description": "Ligne du tableau de garanties, section « DENTAIRE ». Remboursement par niveau “ÉQUIPEMENTS” : 0 : 100 % ; 1 : 100 % ; 2 : 125 % + 100 € ; 3 * : 125 % + 150 € ; EXCELLENCE * : 125 % + 200 €.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "0 : 100 % ; 1 : 100 % ; 2 : 125 % + 100 € ; 3 * : 125 % + 150 € ; EXCELLENCE * : 125 % + 200 €",
+      "sub_limits": [
+        "0 : 100 %",
+        "1 : 100 %",
+        "2 : 125 % + 100 €",
+        "3 * : 125 % + 150 €",
+        "EXCELLENCE * : 125 % + 200 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Pour les soins d’obturation Inlay / Onlay / Overlay, les autres prothèses dentaires remboursées par le R O, l’orthodontie remboursée ou non par le R O, les implants dentaires, la parodontie, un plafond annuel global s’applique (9). (9) Pour ces garanties, lorsque le plafond est atteint, une prise en charge minimale de 125 % de la base de remboursement (y compris le remboursement du Régime obligatoire) est assurée.",
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 2, dont les colonnes sont les 5 niveaux “ÉQUIPEMENTS” (0, 1, 2, 3, EXCELLENCE)."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Prothèses dentaires 100 % Santé (6)",
+      "description": "Ligne du tableau de garanties, section « DENTAIRE ». Remboursement par niveau “ÉQUIPEMENTS” : 0 : Remboursement intégral (7) ; 1 : Remboursement intégral (7) ; 2 : Remboursement intégral (7) ; 3 * : Remboursement intégral (7) ; EXCELLENCE * : Remboursement intégral (7).",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "0 : Remboursement intégral (7) ; 1 : Remboursement intégral (7) ; 2 : Remboursement intégral (7) ; 3 * : Remboursement intégral (7) ; EXCELLENCE * : Remboursement intégral (7)",
+      "sub_limits": [
+        "0 : Remboursement intégral (7)",
+        "1 : Remboursement intégral (7)",
+        "2 : Remboursement intégral (7)",
+        "3 * : Remboursement intégral (7)",
+        "EXCELLENCE * : Remboursement intégral (7)"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 2, dont les colonnes sont les 5 niveaux “ÉQUIPEMENTS” (0, 1, 2, 3, EXCELLENCE)."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Autres prothèses dentaires remboursées par le R O – couronnes dentaires transitoires",
+      "description": "Ligne du tableau de garanties, section « DENTAIRE ». Remboursement par niveau “ÉQUIPEMENTS” : 0 : 100 % ; 1 : 100 % ; 2 : 20 € par couronne transitoire ; 3 * : 35 € par couronne transitoire ; EXCELLENCE * : 50 € par couronne transitoire.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "0 : 100 % ; 1 : 100 % ; 2 : 20 € par couronne transitoire ; 3 * : 35 € par couronne transitoire ; EXCELLENCE * : 50 € par couronne transitoire",
+      "sub_limits": [
+        "0 : 100 %",
+        "1 : 100 %",
+        "2 : 20 € par couronne transitoire",
+        "3 * : 35 € par couronne transitoire",
+        "EXCELLENCE * : 50 € par couronne transitoire"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Pour les soins d’obturation Inlay / Onlay / Overlay, les autres prothèses dentaires remboursées par le R O, l’orthodontie remboursée ou non par le R O, les implants dentaires, la parodontie, un plafond annuel global s’applique (9). (9) Pour ces garanties, lorsque le plafond est atteint, une prise en charge minimale de 125 % de la base de remboursement (y compris le remboursement du Régime obligatoire) est assurée.",
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 2, dont les colonnes sont les 5 niveaux “ÉQUIPEMENTS” (0, 1, 2, 3, EXCELLENCE)."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Autres prothèses dentaires remboursées par le R O – couronnes dentaires",
+      "description": "Ligne du tableau de garanties, section « DENTAIRE ». Remboursement par niveau “ÉQUIPEMENTS” : 0 : 100 % ; 1 : 100 % ; 2 : 200 € par couronne ; 3 * : 300 € par couronne ; EXCELLENCE * : 400 € par couronne.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "0 : 100 % ; 1 : 100 % ; 2 : 200 € par couronne ; 3 * : 300 € par couronne ; EXCELLENCE * : 400 € par couronne",
+      "sub_limits": [
+        "0 : 100 %",
+        "1 : 100 %",
+        "2 : 200 € par couronne",
+        "3 * : 300 € par couronne",
+        "EXCELLENCE * : 400 € par couronne"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Pour les soins d’obturation Inlay / Onlay / Overlay, les autres prothèses dentaires remboursées par le R O, l’orthodontie remboursée ou non par le R O, les implants dentaires, la parodontie, un plafond annuel global s’applique (9). (9) Pour ces garanties, lorsque le plafond est atteint, une prise en charge minimale de 125 % de la base de remboursement (y compris le remboursement du Régime obligatoire) est assurée.",
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 2, dont les colonnes sont les 5 niveaux “ÉQUIPEMENTS” (0, 1, 2, 3, EXCELLENCE)."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Autres prothèses dentaires remboursées par le R O – bridge (3 à 5 dents)",
+      "description": "Ligne du tableau de garanties, section « DENTAIRE ». Remboursement par niveau “ÉQUIPEMENTS” : 0 : 100 % ; 1 : 100 % ; 2 : 400 € par bridge ; 3 * : 650 € par bridge ; EXCELLENCE * : 900 € par bridge.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "0 : 100 % ; 1 : 100 % ; 2 : 400 € par bridge ; 3 * : 650 € par bridge ; EXCELLENCE * : 900 € par bridge",
+      "sub_limits": [
+        "0 : 100 %",
+        "1 : 100 %",
+        "2 : 400 € par bridge",
+        "3 * : 650 € par bridge",
+        "EXCELLENCE * : 900 € par bridge"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Pour les soins d’obturation Inlay / Onlay / Overlay, les autres prothèses dentaires remboursées par le R O, l’orthodontie remboursée ou non par le R O, les implants dentaires, la parodontie, un plafond annuel global s’applique (9). (9) Pour ces garanties, lorsque le plafond est atteint, une prise en charge minimale de 125 % de la base de remboursement (y compris le remboursement du Régime obligatoire) est assurée.",
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 2, dont les colonnes sont les 5 niveaux “ÉQUIPEMENTS” (0, 1, 2, 3, EXCELLENCE)."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Autres prothèses dentaires remboursées par le R O – appareil dentaire amovible (1 à 3 dents)",
+      "description": "Ligne du tableau de garanties, section « DENTAIRE ». Remboursement par niveau “ÉQUIPEMENTS” : 0 : 100 % ; 1 : 100 % ; 2 : 200 € par appareil ; 3 * : 300 € par appareil ; EXCELLENCE * : 400 € par appareil.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "0 : 100 % ; 1 : 100 % ; 2 : 200 € par appareil ; 3 * : 300 € par appareil ; EXCELLENCE * : 400 € par appareil",
+      "sub_limits": [
+        "0 : 100 %",
+        "1 : 100 %",
+        "2 : 200 € par appareil",
+        "3 * : 300 € par appareil",
+        "EXCELLENCE * : 400 € par appareil"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Pour les soins d’obturation Inlay / Onlay / Overlay, les autres prothèses dentaires remboursées par le R O, l’orthodontie remboursée ou non par le R O, les implants dentaires, la parodontie, un plafond annuel global s’applique (9). (9) Pour ces garanties, lorsque le plafond est atteint, une prise en charge minimale de 125 % de la base de remboursement (y compris le remboursement du Régime obligatoire) est assurée.",
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 2, dont les colonnes sont les 5 niveaux “ÉQUIPEMENTS” (0, 1, 2, 3, EXCELLENCE)."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Autres prothèses dentaires remboursées par le R O – Inlay-core",
+      "description": "Ligne du tableau de garanties, section « DENTAIRE ». Remboursement par niveau “ÉQUIPEMENTS” : 0 : 100 % ; 1 : 100 % ; 2 : 60 € par Inlay-core ; 3 * : 90 € par Inlay-core ; EXCELLENCE * : 120 € par Inlay-core.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "0 : 100 % ; 1 : 100 % ; 2 : 60 € par Inlay-core ; 3 * : 90 € par Inlay-core ; EXCELLENCE * : 120 € par Inlay-core",
+      "sub_limits": [
+        "0 : 100 %",
+        "1 : 100 %",
+        "2 : 60 € par Inlay-core",
+        "3 * : 90 € par Inlay-core",
+        "EXCELLENCE * : 120 € par Inlay-core"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Pour les soins d’obturation Inlay / Onlay / Overlay, les autres prothèses dentaires remboursées par le R O, l’orthodontie remboursée ou non par le R O, les implants dentaires, la parodontie, un plafond annuel global s’applique (9). (9) Pour ces garanties, lorsque le plafond est atteint, une prise en charge minimale de 125 % de la base de remboursement (y compris le remboursement du Régime obligatoire) est assurée.",
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 2, dont les colonnes sont les 5 niveaux “ÉQUIPEMENTS” (0, 1, 2, 3, EXCELLENCE)."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Autres prothèses dentaires remboursées par le R O – dent supplémentaire ou réparation sur bridge et appareil dentaire amovible",
+      "description": "Ligne du tableau de garanties, section « DENTAIRE ». Remboursement par niveau “ÉQUIPEMENTS” : 0 : 100 % ; 1 : 100 % ; 2 : 15 € par dent ou réparation ; 3 * : 25 € par dent ou réparation ; EXCELLENCE * : 35 € par dent ou réparation.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "0 : 100 % ; 1 : 100 % ; 2 : 15 € par dent ou réparation ; 3 * : 25 € par dent ou réparation ; EXCELLENCE * : 35 € par dent ou réparation",
+      "sub_limits": [
+        "0 : 100 %",
+        "1 : 100 %",
+        "2 : 15 € par dent ou réparation",
+        "3 * : 25 € par dent ou réparation",
+        "EXCELLENCE * : 35 € par dent ou réparation"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Pour les soins d’obturation Inlay / Onlay / Overlay, les autres prothèses dentaires remboursées par le R O, l’orthodontie remboursée ou non par le R O, les implants dentaires, la parodontie, un plafond annuel global s’applique (9). (9) Pour ces garanties, lorsque le plafond est atteint, une prise en charge minimale de 125 % de la base de remboursement (y compris le remboursement du Régime obligatoire) est assurée.",
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 2, dont les colonnes sont les 5 niveaux “ÉQUIPEMENTS” (0, 1, 2, 3, EXCELLENCE)."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Orthodontie remboursée par le R O (8)",
+      "description": "Ligne du tableau de garanties, section « DENTAIRE ». Remboursement par niveau “ÉQUIPEMENTS” : 0 : 100 % ; 1 : 100 € par semestre ; 2 : 200 € par semestre ; 3 * : 350 € par semestre ; EXCELLENCE * : 450 € par semestre.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "0 : 100 % ; 1 : 100 € par semestre ; 2 : 200 € par semestre ; 3 * : 350 € par semestre ; EXCELLENCE * : 450 € par semestre",
+      "sub_limits": [
+        "0 : 100 %",
+        "1 : 100 € par semestre",
+        "2 : 200 € par semestre",
+        "3 * : 350 € par semestre",
+        "EXCELLENCE * : 450 € par semestre"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Pour les soins d’obturation Inlay / Onlay / Overlay, les autres prothèses dentaires remboursées par le R O, l’orthodontie remboursée ou non par le R O, les implants dentaires, la parodontie, un plafond annuel global s’applique (9). (9) Pour ces garanties, lorsque le plafond est atteint, une prise en charge minimale de 125 % de la base de remboursement (y compris le remboursement du Régime obligatoire) est assurée.",
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 2, dont les colonnes sont les 5 niveaux “ÉQUIPEMENTS” (0, 1, 2, 3, EXCELLENCE)."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Orthodontie non remboursée par le R O (8)",
+      "description": "Ligne du tableau de garanties, section « DENTAIRE ». Remboursement par niveau “ÉQUIPEMENTS” : 0 : - ; 1 : - ; 2 : 100 € par semestre ; 3 * : 150 € par semestre ; EXCELLENCE * : 200 € par semestre.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "0 : - ; 1 : - ; 2 : 100 € par semestre ; 3 * : 150 € par semestre ; EXCELLENCE * : 200 € par semestre",
+      "sub_limits": [
+        "0 : -",
+        "1 : -",
+        "2 : 100 € par semestre",
+        "3 * : 150 € par semestre",
+        "EXCELLENCE * : 200 € par semestre"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Pour les soins d’obturation Inlay / Onlay / Overlay, les autres prothèses dentaires remboursées par le R O, l’orthodontie remboursée ou non par le R O, les implants dentaires, la parodontie, un plafond annuel global s’applique (9). (9) Pour ces garanties, lorsque le plafond est atteint, une prise en charge minimale de 125 % de la base de remboursement (y compris le remboursement du Régime obligatoire) est assurée.",
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 2, dont les colonnes sont les 5 niveaux “ÉQUIPEMENTS” (0, 1, 2, 3, EXCELLENCE)."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Implants dentaires",
+      "description": "Ligne du tableau de garanties, section « DENTAIRE ». Remboursement par niveau “ÉQUIPEMENTS” : 0 : - ; 1 : - ; 2 : 250 € ; 3 * : 350 € ; EXCELLENCE * : 450 €.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "0 : - ; 1 : - ; 2 : 250 € ; 3 * : 350 € ; EXCELLENCE * : 450 €",
+      "sub_limits": [
+        "0 : -",
+        "1 : -",
+        "2 : 250 €",
+        "3 * : 350 €",
+        "EXCELLENCE * : 450 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Pour les soins d’obturation Inlay / Onlay / Overlay, les autres prothèses dentaires remboursées par le R O, l’orthodontie remboursée ou non par le R O, les implants dentaires, la parodontie, un plafond annuel global s’applique (9). (9) Pour ces garanties, lorsque le plafond est atteint, une prise en charge minimale de 125 % de la base de remboursement (y compris le remboursement du Régime obligatoire) est assurée.",
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 2, dont les colonnes sont les 5 niveaux “ÉQUIPEMENTS” (0, 1, 2, 3, EXCELLENCE)."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Parodontie non remboursée par le R O",
+      "description": "Ligne du tableau de garanties, section « DENTAIRE ». Remboursement par niveau “ÉQUIPEMENTS” : 0 : - ; 1 : - ; 2 : 150 € ; 3 * : 200 € ; EXCELLENCE * : 250 €.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "0 : - ; 1 : - ; 2 : 150 € ; 3 * : 200 € ; EXCELLENCE * : 250 €",
+      "sub_limits": [
+        "0 : -",
+        "1 : -",
+        "2 : 150 €",
+        "3 * : 200 €",
+        "EXCELLENCE * : 250 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Pour les soins d’obturation Inlay / Onlay / Overlay, les autres prothèses dentaires remboursées par le R O, l’orthodontie remboursée ou non par le R O, les implants dentaires, la parodontie, un plafond annuel global s’applique (9). (9) Pour ces garanties, lorsque le plafond est atteint, une prise en charge minimale de 125 % de la base de remboursement (y compris le remboursement du Régime obligatoire) est assurée.",
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 2, dont les colonnes sont les 5 niveaux “ÉQUIPEMENTS” (0, 1, 2, 3, EXCELLENCE)."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Autres prothèses dentaires remboursées par le R O – année 1 (jusqu’à la fin du 12e mois d’affiliation de l’assuré)",
+      "description": "Ligne du tableau de garanties, section « DENTAIRE ». Remboursement par niveau “ÉQUIPEMENTS” : 0 : - ; 1 : - ; 2 : 500 € ; 3 * : 750 € ; EXCELLENCE * : 1 000 €.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "0 : - ; 1 : - ; 2 : 500 € ; 3 * : 750 € ; EXCELLENCE * : 1 000 €",
+      "sub_limits": [
+        "0 : -",
+        "1 : -",
+        "2 : 500 €",
+        "3 * : 750 €",
+        "EXCELLENCE * : 1 000 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Pour les soins d’obturation Inlay / Onlay / Overlay, les autres prothèses dentaires remboursées par le R O, l’orthodontie remboursée ou non par le R O, les implants dentaires, la parodontie, un plafond annuel global s’applique (9). (9) Pour ces garanties, lorsque le plafond est atteint, une prise en charge minimale de 125 % de la base de remboursement (y compris le remboursement du Régime obligatoire) est assurée.",
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 2, dont les colonnes sont les 5 niveaux “ÉQUIPEMENTS” (0, 1, 2, 3, EXCELLENCE)."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Autres prothèses dentaires remboursées par le R O – année 2 (jusqu’à la fin du 24e mois d’affiliation de l’assuré)",
+      "description": "Ligne du tableau de garanties, section « DENTAIRE ». Remboursement par niveau “ÉQUIPEMENTS” : 0 : - ; 1 : - ; 2 : 1 000 € ; 3 * : 1 250 € ; EXCELLENCE * : 1 500 €.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "0 : - ; 1 : - ; 2 : 1 000 € ; 3 * : 1 250 € ; EXCELLENCE * : 1 500 €",
+      "sub_limits": [
+        "0 : -",
+        "1 : -",
+        "2 : 1 000 €",
+        "3 * : 1 250 €",
+        "EXCELLENCE * : 1 500 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Pour les soins d’obturation Inlay / Onlay / Overlay, les autres prothèses dentaires remboursées par le R O, l’orthodontie remboursée ou non par le R O, les implants dentaires, la parodontie, un plafond annuel global s’applique (9). (9) Pour ces garanties, lorsque le plafond est atteint, une prise en charge minimale de 125 % de la base de remboursement (y compris le remboursement du Régime obligatoire) est assurée.",
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 2, dont les colonnes sont les 5 niveaux “ÉQUIPEMENTS” (0, 1, 2, 3, EXCELLENCE)."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Autres prothèses dentaires remboursées par le R O – année 3 (jusqu’à la fin du 36e mois d’affiliation de l’assuré)",
+      "description": "Ligne du tableau de garanties, section « DENTAIRE ». Remboursement par niveau “ÉQUIPEMENTS” : 0 : - ; 1 : - ; 2 : 1 500 € ; 3 * : 1 750 € ; EXCELLENCE * : 2 000 €.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "0 : - ; 1 : - ; 2 : 1 500 € ; 3 * : 1 750 € ; EXCELLENCE * : 2 000 €",
+      "sub_limits": [
+        "0 : -",
+        "1 : -",
+        "2 : 1 500 €",
+        "3 * : 1 750 €",
+        "EXCELLENCE * : 2 000 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Pour les soins d’obturation Inlay / Onlay / Overlay, les autres prothèses dentaires remboursées par le R O, l’orthodontie remboursée ou non par le R O, les implants dentaires, la parodontie, un plafond annuel global s’applique (9). (9) Pour ces garanties, lorsque le plafond est atteint, une prise en charge minimale de 125 % de la base de remboursement (y compris le remboursement du Régime obligatoire) est assurée.",
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 2, dont les colonnes sont les 5 niveaux “ÉQUIPEMENTS” (0, 1, 2, 3, EXCELLENCE)."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Équipements 100 % Santé (monture et verres) (6)",
+      "description": "Ligne du tableau de garanties, section « OPTIQUE ». Remboursement par niveau “ÉQUIPEMENTS” : 0 : Remboursement intégral (7) ; 1 : Remboursement intégral (7) ; 2 : Remboursement intégral (7) ; 3 * : Remboursement intégral (7) ; EXCELLENCE * : Remboursement intégral (7).",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "0 : Remboursement intégral (7) ; 1 : Remboursement intégral (7) ; 2 : Remboursement intégral (7) ; 3 * : Remboursement intégral (7) ; EXCELLENCE * : Remboursement intégral (7)",
+      "sub_limits": [
+        "0 : Remboursement intégral (7)",
+        "1 : Remboursement intégral (7)",
+        "2 : Remboursement intégral (7)",
+        "3 * : Remboursement intégral (7)",
+        "EXCELLENCE * : Remboursement intégral (7)"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le nombre d’équipement optique (2 verres + 1 monture) est limité à 1 équipement par période de 2 ans, à l’exception des cas pour lesquels un renouvellement anticipé est possible règlementairement. Pour chaque assuré, le point de départ de la période correspond à la date de l’équipement.",
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 2, dont les colonnes sont les 5 niveaux “ÉQUIPEMENTS” (0, 1, 2, 3, EXCELLENCE)."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Autres montures et verres remboursés par le R O – monture adulte et enfant",
+      "description": "Ligne du tableau de garanties, section « OPTIQUE ». Remboursement par niveau “ÉQUIPEMENTS” : 0 : 100 % ; 1 : 60 € ; 2 : 60 € ; 3 * : 100 € (10) ; EXCELLENCE * : 100 € (10).",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "0 : 100 % ; 1 : 60 € ; 2 : 60 € ; 3 * : 100 € (10) ; EXCELLENCE * : 100 € (10)",
+      "sub_limits": [
+        "0 : 100 %",
+        "1 : 60 €",
+        "2 : 60 €",
+        "3 * : 100 € (10)",
+        "EXCELLENCE * : 100 € (10)"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le nombre d’équipement optique (2 verres + 1 monture) est limité à 1 équipement par période de 2 ans, à l’exception des cas pour lesquels un renouvellement anticipé est possible règlementairement. Pour chaque assuré, le point de départ de la période correspond à la date de l’équipement.",
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 2, dont les colonnes sont les 5 niveaux “ÉQUIPEMENTS” (0, 1, 2, 3, EXCELLENCE)."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Autres montures et verres remboursés par le R O – verre correction simple (l’unité)",
+      "description": "Ligne du tableau de garanties, section « OPTIQUE ». Remboursement par niveau “ÉQUIPEMENTS” : 0 : 100 % ; 1 : 20 € ; 2 : 50 € ; 3 * : 70 € ; EXCELLENCE * : 100 €.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "0 : 100 % ; 1 : 20 € ; 2 : 50 € ; 3 * : 70 € ; EXCELLENCE * : 100 €",
+      "sub_limits": [
+        "0 : 100 %",
+        "1 : 20 €",
+        "2 : 50 €",
+        "3 * : 70 €",
+        "EXCELLENCE * : 100 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le nombre d’équipement optique (2 verres + 1 monture) est limité à 1 équipement par période de 2 ans, à l’exception des cas pour lesquels un renouvellement anticipé est possible règlementairement. Pour chaque assuré, le point de départ de la période correspond à la date de l’équipement.",
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 2, dont les colonnes sont les 5 niveaux “ÉQUIPEMENTS” (0, 1, 2, 3, EXCELLENCE)."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Autres montures et verres remboursés par le R O – verre correction complexe (l’unité)",
+      "description": "Ligne du tableau de garanties, section « OPTIQUE ». Remboursement par niveau “ÉQUIPEMENTS” : 0 : 100 % ; 1 : 70 € ; 2 : 100 € ; 3 * : 140 € ; EXCELLENCE * : 200 €.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "0 : 100 % ; 1 : 70 € ; 2 : 100 € ; 3 * : 140 € ; EXCELLENCE * : 200 €",
+      "sub_limits": [
+        "0 : 100 %",
+        "1 : 70 €",
+        "2 : 100 €",
+        "3 * : 140 €",
+        "EXCELLENCE * : 200 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le nombre d’équipement optique (2 verres + 1 monture) est limité à 1 équipement par période de 2 ans, à l’exception des cas pour lesquels un renouvellement anticipé est possible règlementairement. Pour chaque assuré, le point de départ de la période correspond à la date de l’équipement.",
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 2, dont les colonnes sont les 5 niveaux “ÉQUIPEMENTS” (0, 1, 2, 3, EXCELLENCE)."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Autres montures et verres remboursés par le R O + renfort si verre hypercomplexe (l’unité)",
+      "description": "Ligne du tableau de garanties, section « OPTIQUE ». Remboursement par niveau “ÉQUIPEMENTS” : 0 : - ; 1 : - ; 2 : 30 € ; 3 * : 40 € ; EXCELLENCE * : 50 €.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "0 : - ; 1 : - ; 2 : 30 € ; 3 * : 40 € ; EXCELLENCE * : 50 €",
+      "sub_limits": [
+        "0 : -",
+        "1 : -",
+        "2 : 30 €",
+        "3 * : 40 €",
+        "EXCELLENCE * : 50 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le nombre d’équipement optique (2 verres + 1 monture) est limité à 1 équipement par période de 2 ans, à l’exception des cas pour lesquels un renouvellement anticipé est possible règlementairement. Pour chaque assuré, le point de départ de la période correspond à la date de l’équipement.",
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 2, dont les colonnes sont les 5 niveaux “ÉQUIPEMENTS” (0, 1, 2, 3, EXCELLENCE)."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Lentilles de contact",
+      "description": "Ligne du tableau de garanties, section « OPTIQUE ». Remboursement par niveau “ÉQUIPEMENTS” : 0 : 100 % (11) ; 1 : 80 € ; 2 : 130 € ; 3 * : 180 € ; EXCELLENCE * : 230 €.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "0 : 100 % (11) ; 1 : 80 € ; 2 : 130 € ; 3 * : 180 € ; EXCELLENCE * : 230 €",
+      "sub_limits": [
+        "0 : 100 % (11)",
+        "1 : 80 €",
+        "2 : 130 €",
+        "3 * : 180 €",
+        "EXCELLENCE * : 230 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 2, dont les colonnes sont les 5 niveaux “ÉQUIPEMENTS” (0, 1, 2, 3, EXCELLENCE)."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Chirurgie réfractive de l’œil (12)",
+      "description": "Ligne du tableau de garanties, section « OPTIQUE ». Remboursement par niveau “ÉQUIPEMENTS” : 0 : - ; 1 : - ; 2 : - ; 3 * : 300 € ; EXCELLENCE * : 400 €.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "0 : - ; 1 : - ; 2 : - ; 3 * : 300 € ; EXCELLENCE * : 400 €",
+      "sub_limits": [
+        "0 : -",
+        "1 : -",
+        "2 : -",
+        "3 * : 300 €",
+        "EXCELLENCE * : 400 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 2, dont les colonnes sont les 5 niveaux “ÉQUIPEMENTS” (0, 1, 2, 3, EXCELLENCE)."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Équipements 100 % Santé (6)",
+      "description": "Ligne du tableau de garanties, section « AIDES AUDITIVES ». Remboursement par niveau “ÉQUIPEMENTS” : 0 : Remboursement intégral (7) ; 1 : Remboursement intégral (7) ; 2 : Remboursement intégral (7) ; 3 * : Remboursement intégral (7) ; EXCELLENCE * : Remboursement intégral (7).",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "0 : Remboursement intégral (7) ; 1 : Remboursement intégral (7) ; 2 : Remboursement intégral (7) ; 3 * : Remboursement intégral (7) ; EXCELLENCE * : Remboursement intégral (7)",
+      "sub_limits": [
+        "0 : Remboursement intégral (7)",
+        "1 : Remboursement intégral (7)",
+        "2 : Remboursement intégral (7)",
+        "3 * : Remboursement intégral (7)",
+        "EXCELLENCE * : Remboursement intégral (7)"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 2, dont les colonnes sont les 5 niveaux “ÉQUIPEMENTS” (0, 1, 2, 3, EXCELLENCE)."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Autres aides auditives remboursées par le R O – appareil acoustique (> 20 ans)",
+      "description": "Ligne du tableau de garanties, section « AIDES AUDITIVES ». Remboursement par niveau “ÉQUIPEMENTS” : 0 : 100 % ; 1 : 100 % ; 2 : 450 € par appareil ; 3 * : 600 € par appareil ; EXCELLENCE * : 750 € par appareil.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "0 : 100 % ; 1 : 100 % ; 2 : 450 € par appareil ; 3 * : 600 € par appareil ; EXCELLENCE * : 750 € par appareil",
+      "sub_limits": [
+        "0 : 100 %",
+        "1 : 100 %",
+        "2 : 450 € par appareil",
+        "3 * : 600 € par appareil",
+        "EXCELLENCE * : 750 € par appareil"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le nombre d’équipement (1 appareil acoustique) est limité à 1 équipement par oreille et par période de 4 ans. Pour chaque assuré, le point de départ de la période correspond à la date de l’équipement. Pour les assurés du Régime Alsace-Moselle, le montant forfaitaire remboursé par la mutuelle au titre de la garantie “Autres aides auditives remboursées par le R O / appareil acoustique (≤ 20 ans)” ne peut être supérieur à 440 € par appareil, afin de respecter les plafonds de remboursement prévus par le contrat responsable.",
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 2, dont les colonnes sont les 5 niveaux “ÉQUIPEMENTS” (0, 1, 2, 3, EXCELLENCE)."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Autres aides auditives remboursées par le R O – appareil acoustique (≤ 20 ans)",
+      "description": "Ligne du tableau de garanties, section « AIDES AUDITIVES ». Remboursement par niveau “ÉQUIPEMENTS” : 0 : 100 % ; 1 : 100 % ; 2 : 650 € par appareil ; 3 * : 750 € par appareil ; EXCELLENCE * : 850 € par appareil.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "0 : 100 % ; 1 : 100 % ; 2 : 650 € par appareil ; 3 * : 750 € par appareil ; EXCELLENCE * : 850 € par appareil",
+      "sub_limits": [
+        "0 : 100 %",
+        "1 : 100 %",
+        "2 : 650 € par appareil",
+        "3 * : 750 € par appareil",
+        "EXCELLENCE * : 850 € par appareil"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le nombre d’équipement (1 appareil acoustique) est limité à 1 équipement par oreille et par période de 4 ans. Pour chaque assuré, le point de départ de la période correspond à la date de l’équipement. Pour les assurés du Régime Alsace-Moselle, le montant forfaitaire remboursé par la mutuelle au titre de la garantie “Autres aides auditives remboursées par le R O / appareil acoustique (≤ 20 ans)” ne peut être supérieur à 440 € par appareil, afin de respecter les plafonds de remboursement prévus par le contrat responsable.",
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 2, dont les colonnes sont les 5 niveaux “ÉQUIPEMENTS” (0, 1, 2, 3, EXCELLENCE)."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Entretien, piles et accessoires remboursés par le R O",
+      "description": "Ligne du tableau de garanties, section « AIDES AUDITIVES ». Remboursement par niveau “ÉQUIPEMENTS” : 0 : 100 % ; 1 : 30 € ; 2 : 40 € ; 3 * : 50 € ; EXCELLENCE * : 60 €.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "0 : 100 % ; 1 : 30 € ; 2 : 40 € ; 3 * : 50 € ; EXCELLENCE * : 60 €",
+      "sub_limits": [
+        "0 : 100 %",
+        "1 : 30 €",
+        "2 : 40 €",
+        "3 * : 50 €",
+        "EXCELLENCE * : 60 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 2, dont les colonnes sont les 5 niveaux “ÉQUIPEMENTS” (0, 1, 2, 3, EXCELLENCE)."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Matériel médical (13)",
+      "description": "Ligne du tableau de garanties, section « APPAREILLAGE ». Remboursement par niveau “ÉQUIPEMENTS” : 0 : 100 % ; 1 : 100 % ; 2 : 150 % ; 3 * : 200 % ; EXCELLENCE * : 250 %.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "0 : 100 % ; 1 : 100 % ; 2 : 150 % ; 3 * : 200 % ; EXCELLENCE * : 250 %",
+      "sub_limits": [
+        "0 : 100 %",
+        "1 : 100 %",
+        "2 : 150 %",
+        "3 * : 200 %",
+        "EXCELLENCE * : 250 %"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 2, dont les colonnes sont les 5 niveaux “ÉQUIPEMENTS” (0, 1, 2, 3, EXCELLENCE)."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Appareils de basse vision (14)",
+      "description": "Ligne du tableau de garanties, section « APPAREILLAGE ». Remboursement par niveau “ÉQUIPEMENTS” : 0 : 100 % ; 1 : 100 % + 250 € ; 2 : 100 % + 250 € ; 3 * : 100 % + 250 € ; EXCELLENCE * : 100 % + 250 €.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "0 : 100 % ; 1 : 100 % + 250 € ; 2 : 100 % + 250 € ; 3 * : 100 % + 250 € ; EXCELLENCE * : 100 % + 250 €",
+      "sub_limits": [
+        "0 : 100 %",
+        "1 : 100 % + 250 €",
+        "2 : 100 % + 250 €",
+        "3 * : 100 % + 250 €",
+        "EXCELLENCE * : 100 % + 250 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 2, dont les colonnes sont les 5 niveaux “ÉQUIPEMENTS” (0, 1, 2, 3, EXCELLENCE)."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Véhicules pour handicapés physiques en location de courte durée inscrits au titre IV de la LPP",
+      "description": "Ligne du tableau de garanties, section « APPAREILLAGE ». Remboursement par niveau “ÉQUIPEMENTS” : 0 : Remboursement intégral (7) ; 1 : Remboursement intégral (7) ; 2 : Remboursement intégral (7) ; 3 * : Remboursement intégral (7) ; EXCELLENCE * : Remboursement intégral (7).",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "0 : Remboursement intégral (7) ; 1 : Remboursement intégral (7) ; 2 : Remboursement intégral (7) ; 3 * : Remboursement intégral (7) ; EXCELLENCE * : Remboursement intégral (7)",
+      "sub_limits": [
+        "0 : Remboursement intégral (7)",
+        "1 : Remboursement intégral (7)",
+        "2 : Remboursement intégral (7)",
+        "3 * : Remboursement intégral (7)",
+        "EXCELLENCE * : Remboursement intégral (7)"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 2, dont les colonnes sont les 5 niveaux “ÉQUIPEMENTS” (0, 1, 2, 3, EXCELLENCE)."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Prothèses capillaires de classe II",
+      "description": "Ligne du tableau de garanties, section « APPAREILLAGE ». Remboursement par niveau “ÉQUIPEMENTS” : 0 : Remboursement intégral (7) ; 1 : Remboursement intégral (7) ; 2 : Remboursement intégral (7) ; 3 * : Remboursement intégral (7) ; EXCELLENCE * : Remboursement intégral (7).",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "0 : Remboursement intégral (7) ; 1 : Remboursement intégral (7) ; 2 : Remboursement intégral (7) ; 3 * : Remboursement intégral (7) ; EXCELLENCE * : Remboursement intégral (7)",
+      "sub_limits": [
+        "0 : Remboursement intégral (7)",
+        "1 : Remboursement intégral (7)",
+        "2 : Remboursement intégral (7)",
+        "3 * : Remboursement intégral (7)",
+        "EXCELLENCE * : Remboursement intégral (7)"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 2, dont les colonnes sont les 5 niveaux “ÉQUIPEMENTS” (0, 1, 2, 3, EXCELLENCE)."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Soins, transport, et hébergement",
+      "description": "Ligne du tableau de garanties, section « CURES THERMALES REMBOURSÉES PAR LE RÉGIME OBLIGATOIRE ». Remboursement par niveau “ÉQUIPEMENTS” : 0 : - ; 1 : 100 % ; 2 : 100 % + 100 € ; 3 * : 100 % + 200 € ; EXCELLENCE * : 100 % + 300 €.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "0 : - ; 1 : 100 % ; 2 : 100 % + 100 € ; 3 * : 100 % + 200 € ; EXCELLENCE * : 100 % + 300 €",
+      "sub_limits": [
+        "0 : -",
+        "1 : 100 %",
+        "2 : 100 % + 100 €",
+        "3 * : 100 % + 200 €",
+        "EXCELLENCE * : 100 % + 300 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+        "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+        "Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+        "Les forfaits s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+        "Montants lus dans la grille de la page 2, dont les colonnes sont les 5 niveaux “ÉQUIPEMENTS” (0, 1, 2, 3, EXCELLENCE)."
+      ],
+      "page": 2
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Séjours en établissements médico-sociaux",
+      "description": "Sont exclus les séjours en établissements médico-sociaux (tels que notamment les maisons d’accueil spécialisées, les centres médico-éducatifs, les instituts psychopédagogiques, les centres de rééducation professionnelle).",
+      "applies_to": "HOSPITALISATION (y compris ambulatoire)",
+      "page": 1
+    },
+    {
+      "name": "Séjours en établissements pour personnes âgées ou dépendantes",
+      "description": "Sont exclus les séjours en établissements pour personnes âgées ou dépendantes (tels que notamment les EHPAD et les maisons de retraite).",
+      "applies_to": "HOSPITALISATION (y compris ambulatoire)",
+      "page": 1
+    },
+    {
+      "name": "Séjours en ateliers thérapeutiques",
+      "description": "Sont exclus les séjours en ateliers thérapeutiques.",
+      "applies_to": "HOSPITALISATION (y compris ambulatoire)",
+      "page": 1
+    },
+    {
+      "name": "Longs séjours",
+      "description": "Sont exclus les hospitalisations et séjours en établissements, centres ou services dits de longs séjours.",
+      "applies_to": "HOSPITALISATION (y compris ambulatoire)",
+      "page": 1
+    },
+    {
+      "name": "Absence d’intervention du Régime obligatoire",
+      "description": "Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Participation forfaitaire et franchise annuelle de l’assuré",
+      "description": "Ces remboursements sont effectués en excluant la participation forfaitaire et la franchise annuelle de l’assuré qui restent à sa charge et dans la limite des dépenses engagées par l’assuré.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dépassements d’honoraires hors parcours de soins",
+      "description": "Pour les actes hors parcours de soins, les remboursements de la mutuelle sont identiques en montant à ceux effectués dans le cadre du parcours de soins à l’exception des dépassements d’honoraires qui ne sont pas pris en charge.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dépenses supérieures aux dépenses engagées",
+      "description": "Les remboursements sont effectués dans la limite des dépenses engagées par l’assuré.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Lentilles de contact non prises en charge par le Régime obligatoire",
+      "description": "(11) Uniquement les lentilles prises en charge par le Régime obligatoire — pour le niveau ÉQUIPEMENTS 0, dont la garantie « Lentilles de contact » est fixée à 100 % (11).",
+      "applies_to": "Lentilles de contact",
+      "page": 2
+    },
+    {
+      "name": "Matériel médical — postes exclus de la garantie",
+      "description": "(13) Hors titre IV de la LPP, objets contraceptifs, basse vision, aides auditives et prothèses capillaires de classe II.",
+      "applies_to": "Matériel médical (13)",
+      "page": 2
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": null,
+    "per_coverage": null,
+    "page": null
+  },
+  "waiting_periods": [
+    {
+      "coverage": "Formules ÉTENDUE et EXCELLENCE (grille SOINS) et niveaux 3 et EXCELLENCE (grille ÉQUIPEMENTS)",
+      "duration": "3 mois suivant la prise d’effet du contrat",
+      "description": "Sur les formules identifiées (marquées d’un astérisque), votre Demande d’assurance peut faire mention de l’application d’un délai d’attente. Dans ce cas, vous bénéficiez, pendant 3 mois suivant la prise d’effet du contrat, des garanties de la formule ÉQUILIBRÉE 2.",
+      "page": 2
+    }
+  ],
+  "obligations": [],
+  "claims_procedure": [],
+  "duration_and_cancellation": {
+    "duration": null,
+    "tacit_renewal": null,
+    "notice_period": null,
+    "methods": null,
+    "special_rights": null,
+    "page": null
+  },
+  "prescription_period": {
+    "description": null,
+    "page": null
+  },
+  "premium": {
+    "notes": [],
+    "indexation": null,
+    "page": null
+  },
+  "special_conditions": [
+    {
+      "name": "Structure de la garantie en deux grilles distinctes",
+      "description": "La couverture combine une formule « SOINS » (6 formules : PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE, EXCELLENCE, page 1) et un niveau « ÉQUIPEMENTS » (5 niveaux : 0, 1, 2, 3, EXCELLENCE, page 2). Le renvoi du bas de page 2 désigne une combinaison des deux (« la formule ÉQUILIBRÉE 2 »).",
+      "page": 1
+    },
+    {
+      "name": "Base de calcul des remboursements",
+      "description": "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement. Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+      "page": 1
+    },
+    {
+      "name": "Parcours de soins",
+      "description": "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins. Pour les actes hors parcours de soins, les remboursements de la mutuelle sont identiques en montant à ceux effectués dans le cadre du parcours de soins à l’exception des dépassements d’honoraires qui ne sont pas pris en charge.",
+      "page": 1
+    },
+    {
+      "name": "Périodicité des forfaits",
+      "description": "Les remboursements, forfaits, limites, plafonds et délais d’attente s’entendent par assuré. Sauf exceptions mentionnées dans le tableau, les forfaits sont annuels et la référence est l’année civile.",
+      "page": 1
+    },
+    {
+      "name": "Plafond annuel global dentaire progressif",
+      "description": "Pour les soins d’obturation Inlay / Onlay / Overlay, les autres prothèses dentaires remboursées par le R O, l’orthodontie remboursée ou non par le R O, les implants dentaires et la parodontie, un plafond annuel global s’applique, croissant sur les trois premières années d’affiliation (année 1 jusqu’à la fin du 12e mois, année 2 jusqu’à la fin du 24e mois, année 3 jusqu’à la fin du 36e mois). Lorsque le plafond est atteint, une prise en charge minimale de 125 % de la base de remboursement (y compris le remboursement du Régime obligatoire) est assurée.",
+      "page": 2
+    },
+    {
+      "name": "Fréquence de renouvellement de l’équipement optique",
+      "description": "Le nombre d’équipement optique (2 verres + 1 monture) est limité à 1 équipement par période de 2 ans, à l’exception des cas pour lesquels un renouvellement anticipé est possible règlementairement. Pour chaque assuré, le point de départ de la période correspond à la date de l’équipement.",
+      "page": 2
+    },
+    {
+      "name": "Fréquence de renouvellement des aides auditives et plafond Alsace-Moselle",
+      "description": "Le nombre d’équipement (1 appareil acoustique) est limité à 1 équipement par oreille et par période de 4 ans. Pour chaque assuré, le point de départ de la période correspond à la date de l’équipement. Pour les assurés du Régime Alsace-Moselle, le montant forfaitaire remboursé par la mutuelle au titre de la garantie “Autres aides auditives remboursées par le R O / appareil acoustique (≤ 20 ans)” ne peut être supérieur à 440 € par appareil, afin de respecter les plafonds de remboursement prévus par le contrat responsable.",
+      "page": 2
+    },
+    {
+      "name": "Porteur du risque et distributeur",
+      "description": "Le contrat Macif Mutuelle Santé, distribué par la Macif, est assuré par Macif Santé Prévoyance, mutuelle régie par le Livre II du Code de la mutualité et adhérente à la Mutualité Française. SIREN 779 558 501. Siège social : 1 rue Jacques Vandier - 79000 Niort.",
+      "page": 2
+    },
+    {
+      "name": "Autres entités mentionnées au colophon",
+      "description": "Le colophon nomme également IMA Assurances - Société anonyme au capital de 157 000 000 € entièrement libéré, entreprise régie par le Code des assurances, RCS Niort 481 511 632, et MACIF, société d’assurance mutuelle à cotisations variables régie par le Code des assurances. Le document n’attribue aucun rôle à IMA Assurances au titre de ce tableau de garanties.",
+      "page": 2
+    },
+    {
+      "name": "Contrat responsable",
+      "description": "Les garanties sont accordées dans les conditions et limites prévues au contrat. Macif Mutuelle Santé est un contrat responsable au sens de l’article L. 871 - 1 du Code de la sécurité sociale.",
+      "page": 2
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "LES FORMULES “SOINS” PROPOSÉES :\nPRIMO\nÉCONOMIQUE\nESSENTIELLE\nÉQUILIBRÉE\nÉTENDUE *\nEXCELLENCE *",
+      "context": "Les six formules « SOINS » lues sur la page 1 elle-même (en-têtes de colonnes).",
+      "page": 1
+    },
+    {
+      "quote": "(1) Sont exclus les séjours en établissements médico-sociaux (tels que notamment les maisons d’accueil spécialisées, les centres médico-éducatifs, les instituts psychopédagogiques, les centres de rééducation professionnelle), les séjours en établissements pour personnes âgées ou dépendantes (tels que notamment les EHPAD et les maisons \nde retraite), les séjours en ateliers thérapeutiques, les hospitalisations et séjours en établissements, centres ou services dits de longs séjours.",
+      "context": "La seule liste d’exclusions du document, en note (1) de la section HOSPITALISATION.",
+      "page": 1
+    },
+    {
+      "quote": "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement. Ces garanties sont accordées sous réserve d’une intervention du Régime obligatoire. Les remboursements exprimés en euros \ncorrespondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale, sauf disposition contraire mentionnée dans le tableau de garanties.",
+      "context": "Base de calcul des remboursements et condition d’intervention du Régime obligatoire.",
+      "page": 1
+    },
+    {
+      "quote": "Pour les actes hors parcours \nde soins, les remboursements de la mutuelle sont identiques en montant à ceux effectués dans le cadre du parcours de soins à l’exception des dépassements d’honoraires qui ne sont pas pris en charge.",
+      "context": "Traitement des actes hors parcours de soins.",
+      "page": 1
+    },
+    {
+      "quote": "Dispositif de pratique tarifaire maîtrisée : OPTAM pour les médecins de secteur 2 qui choisissent d’y adhérer et OPTAM-ACO pour l’Anesthésie, Chirurgie et Obstétrique / A N S M : Agence Nationale de Sécurité du Médicament et des produits de santé / R O : Régime obligatoire / LPP : Liste des Produits et Prestations",
+      "context": "Définitions des sigles employés dans la grille.",
+      "page": 1
+    },
+    {
+      "quote": "LES NIVEAUX “ÉQUIPEMENTS” PROPOSÉS :\n0\n1\n2\n3 *\nEXCELLENCE *",
+      "context": "Les cinq niveaux « ÉQUIPEMENTS » lus sur la page 2 elle-même : grille différente de celle de la page 1.",
+      "page": 2
+    },
+    {
+      "quote": "(9) Pour ces garanties, lorsque le plafond est atteint, une prise en charge minimale de 125 % de la base de remboursement (y \ncompris le remboursement du Régime obligatoire) est assurée.",
+      "context": "Prise en charge minimale une fois le plafond annuel global dentaire atteint.",
+      "page": 2
+    },
+    {
+      "quote": "Le nombre d’équipement optique (2 verres + 1 monture) est limité à 1 équipement par période de 2 ans, à l’exception des cas pour lesquels un renouvellement anticipé est possible règlementairement. Pour chaque assuré, le point de départ de la période correspond à la date de l’équipement.",
+      "context": "Fréquence de renouvellement de l’équipement optique.",
+      "page": 2
+    },
+    {
+      "quote": "Pour les assurés du Régime Alsace-Moselle, le montant forfaitaire remboursé par la mutuelle au \ntitre de la garantie “Autres aides auditives remboursées par le R O / appareil acoustique (≤ 20 ans)” ne peut être supérieur à 440 € par appareil, afin de respecter les plafonds de remboursement prévus par le contrat responsable.",
+      "context": "Plafond spécifique Alsace-Moselle sur les aides auditives.",
+      "page": 2
+    },
+    {
+      "quote": "Le contrat Macif Mutuelle Santé, distribué par la Macif, est assuré par Macif Santé Prévoyance, mutuelle régie par le Livre II du Code de la mutualité et adhérente à la Mutualité Française. SIREN 779 558 501. Siège social : 1 rue Jacques Vandier - 79000 Niort.",
+      "context": "Identification du porteur du risque : la Macif distribue, Macif Santé Prévoyance assure.",
+      "page": 2
+    },
+    {
+      "quote": "* Sur les formules identifiées, votre Demande d’assurance peut faire mention de l’application d’un délai d’attente. Dans ce cas, vous bénéficiez, pendant 3 mois suivant la prise d’effet du contrat, des garanties de la formule ÉQUILIBRÉE 2.",
+      "context": "Délai d’attente de 3 mois applicable aux formules et niveaux marqués d’un astérisque.",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "PIÈGE DE GRILLE, contrôlé : la page 1 et la page 2 ne portent PAS la même grille. La page 1 a 6 colonnes, les formules « SOINS » (PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE *, EXCELLENCE *) ; la page 2 a 5 colonnes, les niveaux « ÉQUIPEMENTS » (0, 1, 2, 3 *, EXCELLENCE *). Les en-têtes ont été relus sur chaque page et jamais hérités. Reporter ceux de la page 1 sur la page 2 décalerait toutes les garanties dentaires, optiques et auditives d’une colonne.",
+    "Rattachement des cellules reconstruit par coordonnées (PyMuPDF get_text(\"dict\")), pas par ordre du texte plat : chaque cellule est affectée à la colonne dont le centre x est le plus proche, les centres étant relevés sur les en-têtes de LA page concernée. Les comptes ferment exactement : page 1, 32 lignes de garantie × 6 colonnes ; page 2, 32 lignes × 5 colonnes ; soit 64 garanties. Aucune collision de colonne subsistante — les deux « collisions » détectées (Séances Mieux-être, Pharmacie non remboursée) sont des cellules sur deux lignes, réunies avant comptage, de même que la ligne de continuation « à 60 nuits par an) (3) » de la chambre particulière en SSR/psychiatrie.",
+    "Contrôle d’inversion de colonnes : NÉGATIF sur ce document. L’ordre d’émission du texte plat correspond à l’ordre gauche→droite des colonnes, vérifié ligne à ligne sur les deux pages. Le contrôle a bien eu lieu sur CE document et non par généralisation sur l’éditeur.",
+    "Le texte du prompt a été vérifié identique, caractère pour caractère, à ma propre extraction page.get_text(\"text\") du PDF local (15 784 caractères de part et d’autre). Aucune troncature : le document fait 2 pages.",
+    "Le glyphe € est bien présent dans le calque texte de ce document (121 occurrences) : les montants tabulés conservent leur unité, contrairement à d’autres contrats Macif du corpus. Vérifié.",
+    "Un unique caractère U+0007 subsiste dans le calque texte, à l’intérieur du libellé « – ostéopathe, acupuncteur, diététicien… » de la ligne Séances Mieux-être (page 1). Il est conservé tel quel dans le nom de la garantie car il fait partie de la tranche exacte du calque ; il ne signale ici aucun contenu vectorisé manquant (la ligne porte bien ses 6 cellules).",
+    "Hasards typographiques relevés et respectés dans les citations : espaces insécables U+00A0 (321), espaces fines U+2009 (10) et ultrafines U+200A (32) — notamment dans « R O », « V I H », « A N S M », « 3 * » et « EXCELLENCE * » de la page 2, alors que la page 1 écrit « EXCELLENCE * » avec une espace ordinaire ; apostrophes courbes U+2019 (61) mêlées à 3 apostrophes ASCII ; 30 coupures de mot par trait d’union en fin de ligne. Toutes les citations ont été tranchées programmatiquement dans le calque texte, jamais retapées.",
+    "target_audience laissé à null : le document ne désigne aucune cible (ni particuliers, ni entreprises, ni collectivités). Il ne se déduit pas du type de produit.",
+    "PORTEUR DU RISQUE : le document l’énonce par un verbe, « est assuré par Macif Santé Prévoyance, mutuelle régie par le Livre II du Code de la mutualité », SIREN 779 558 501 — la Macif n’étant que distributeur (« distribué par la Macif »). insurer_slug/insurer_name restent ceux fournis par la tâche (macif) ; la divergence est signalée ici. IMA Assurances (RCS Niort 481 511 632) et MACIF figurent aussi au colophon mais AUCUN rôle ne leur est attribué dans ce document : rien n’est conclu à leur sujet.",
+    "is_optional laissé à null sur les 64 garanties : le tableau ne distingue pas garanties incluses et garanties en option — il affiche un montant, un pourcentage ou un tiret par formule/niveau. Un tiret « - » est l’absence de prestation pour cette formule, pas une exclusion ; il est restitué tel quel dans les sub_limits.",
+    "Aucune section « durée / résiliation », « procédure de sinistre », « prescription », « obligations de l’assuré » ni « cotisation » dans ce document : c’est un tableau de garanties de 2 pages. Ces objets sont donc laissés vides, et non omis par manque de lecture.",
+    "deductibles laissé vide : le document ne fixe aucune franchise contractuelle. Il mentionne seulement que la participation forfaitaire et la franchise annuelle légales de l’assuré restent à sa charge, ce qui est enregistré en exclusion et non en franchise du contrat.",
+    "Le pied de page porte une seule ligne d’édition, « TG MACIF MUTUELLE SANTÉ - 06/26 », sans doublon fantôme superposé ; elle concorde avec le bandeau « Garanties en vigueur au 1er juin 2026 » imprimé en tête des deux pages. edition_date = 06/26.",
+    "Le renvoi du bas de page 2 mentionne « la formule ÉQUILIBRÉE 2 », qui combine une formule SOINS (ÉQUILIBRÉE) et un niveau ÉQUIPEMENTS (2). Le schéma n’ayant qu’un champ variant à valeur unique et le document ne décrivant pas une variante mais l’ensemble des combinaisons, variant est laissé à null."
+  ]
+}
