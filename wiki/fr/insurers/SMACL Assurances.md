@@ -5,7 +5,7 @@ country: fr
 insurer_slug: smacl
 name: SMACL Assurances
 website: https://www.smacl.fr
-products_count: 81
+products_count: 84
 branches_covered:
 - auto
 - autres
@@ -35,7 +35,7 @@ generated: true
 
 ## Résumé
 
-**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 81 document(s) across 13 branch(es).
+**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 84 document(s) across 13 branch(es).
 
 ## Produits par branche
 
@@ -46,6 +46,7 @@ generated: true
 - [Assistance aux véhicules](../products/smacl/Assistance%20aux%20v%C3%A9hicules.md) - Conditions générales (11/2022) · réf. PM_CA_VAM_03(02_2023)
 - [Assurance auto](../products/smacl/Assurance%20auto%20%28SMACL%20Assurances%29.md) - Conditions générales (07/2023) · réf. PP_CG_VAM_07(02_2023)
 - [Assurance des Véhicules des collectivités territoriales - IPID](../products/smacl/Assurance%20des%20V%C3%A9hicules%20des%20collectivit%C3%A9s%20territoriales%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. ALEASSUR_DIPA_VAM_03(09_2022)
+- [Assurance du conducteur](../products/smacl/Assurance%20du%20conducteur.md) - Conditions générales (11/2022) · réf. PP_CG_CAC_05(02_2023)
 - [Assurance véhicules des associations et des entreprises de l'économie sociale et solidaire - IPID](../products/smacl/Assurance%20v%C3%A9hicules%20des%20associations%20et%20des%20entreprises%20de%20l%27%C3%A9conomie%20sociale%20et%20solidaire%20-%20IPID.md) - IPID / Fiche d'information (02/2024) · réf. CONVERGENCE_DIPA_VAM_SA_03(09_2022)
 - [Assurance véhicules à moteur des associations - IPID](../products/smacl/Assurance%20v%C3%A9hicules%20%C3%A0%20moteur%20des%20associations%20-%20IPID.md) - IPID / Fiche d'information (02/2024) · réf. ADA_DIPA_VAM_SA_02(07_2020)
 - [CONVERGENCE - Auto collaborateurs - Garantie en substitution au contrat personnel (Associatons)](../products/smacl/CONVERGENCE%20-%20Auto%20collaborateurs%20-%20Garantie%20en%20substitution%20au%20contrat%20personnel%20%28Associatons%29.md) - Conditions générales (04/2025) · réf. CONVERGENCE_CS_ACSUBS_SA_02(04_2016)
@@ -60,11 +61,13 @@ generated: true
 - [Votre convention Diagnostic devis et diagnostic réparation (CAISSE RÉGIONALE DE CRÉDIT AGRICOLE) - Doc](../products/smacl/Votre%20convention%20Diagnostic%20devis%20et%20diagnostic%20r%C3%A9paration%20%28CAISSE%20R%C3%89GIONALE%20DE%20CR%C3%89DIT%20AGRICOLE%29%20-%20Doc.md) - Document (01/2024) · réf. CONVENTION_DIAG_PP_ CA_01(06_2016)
 - [Votre convention Diagnostic devis et diagnostic réparations automobile - Doc](../products/smacl/Votre%20convention%20Diagnostic%20devis%20et%20diagnostic%20r%C3%A9parations%20automobile%20-%20Doc.md) - Document (01/2024) · réf. CONVENTION_DIAG_PM_01(09_2016)
 - [Votre convention d'assistance - Flottes entreprises véhicules légers](../products/smacl/Votre%20convention%20d%27assistance%20-%20Flottes%20entreprises%20v%C3%A9hicules%20l%C3%A9gers.md) - Conditions générales (07/2025) · réf. ENTREPRISE_CA_ASSISTANCEVL_02(01_2021)
+- [Votre convention d'assistance Flottes entreprises poids lourds](../products/smacl/Votre%20convention%20d%27assistance%20Flottes%20entreprises%20poids%20lourds.md) - Conditions générales (07/2025) · réf. ENTREPRISE_CA_ASSISTANCEPL_02(01_2021)
 
 ### [Autres](../branches/Autres.md)
 - [ALÉASSUR - Annulation de manifestation](../products/smacl/AL%C3%89ASSUR%20-%20Annulation%20de%20manifestation.md) - Conditions générales (01/2024) · réf. ALEASSUR CS ANNUL MANIF - MOD 04 (06-2018)
 - [ALÉASSUR Protection financière](../products/smacl/AL%C3%89ASSUR%20Protection%20financi%C3%A8re.md) - Conditions générales (01/2024) · réf. ALEASSUR_CS_PF_01(03_2016)
 - [CONVERGENCE - Annulation de manifestation (conventions spéciales)](../products/smacl/CONVERGENCE%20-%20Annulation%20de%20manifestation%20%28conventions%20sp%C3%A9ciales%29.md) - Conditions générales (01/2024) · réf. CONVERGENCE_CS_MANIF_SA_04(06_2018)
+- [CONVERGENCE - Protection financière](../products/smacl/CONVERGENCE%20-%20Protection%20financi%C3%A8re.md) - Conditions générales (01/2024) · réf. CONVERGENCE_CS_PF_SA_05(05_2016)
 - [Convergence - Annulation de manifestation - IPID](../products/smacl/Convergence%20-%20Annulation%20de%20manifestation%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. CONVERGENCE_DIPA_MANIF_SA_03(09_2022)
 - [Votre droit de renonciation (hors contrat « Assurance Auto ») - Doc](../products/smacl/Votre%20droit%20de%20renonciation%20%28hors%20contrat%20%C2%AB%20Assurance%20Auto%20%C2%BB%29%20-%20Doc.md) - Document (09/2025)
 

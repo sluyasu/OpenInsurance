@@ -1,0 +1,871 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "smacl",
+  "insurer_name": "SMACL Assurances",
+  "product_name": "Assurance du conducteur",
+  "branch": "auto",
+  "branch_code": null,
+  "document_type": "conditions_generales",
+  "language": "fr",
+  "target_audience": "particuliers",
+  "target_audience_note": "Couverture : « Particuliers » (la couche texte donne « Partculiers », ligature perdue - voir gaps) ; dos de couverture : « particuliers@smacl.fr ». Article 3 : « Le présent contrat peut être souscrit par toute personne physique dont au moins un véhicule terrestre à moteur est assuré par SMACL Assurances. » À signaler : l'article 28 (protection des données) parle en revanche des « représentants et correspondants de la personne morale souscriptrice » - contradiction relevée dans gaps.",
+  "reference": "PP_CG_CAC_05(02_2023)",
+  "edition_date": "11/2022",
+  "product_family": "Assurance du conducteur",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.smacl.fr/files/documents/cg-assurance-du-conducteur.pdf",
+  "source_pdf": "assurance-du-conducteur-6173088c.pdf",
+  "source_sha256": "01d2b76bf72b25e477bd2b2bf58ed80ea23754a9395aee3c088e3296ab5161b1",
+  "source_pages": 16,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Conditions générales du contrat « Assurance du conducteur » de SMACL Assurances SA, destiné aux particuliers dont au moins un véhicule terrestre à moteur est assuré par SMACL Assurances. En cas d'accident corporel de la circulation, le contrat indemnise le préjudice corporel subi par le conducteur assuré (dépenses de santé, frais divers, pertes de gains, déficit fonctionnel permanent et tierce personne, préjudice esthétique permanent, souffrances endurées, préjudice d'agrément, frais de logement et de véhicule adaptés, assistance psychologique) ou le préjudice des bénéficiaires en cas de décès (frais d'obsèques, capital décès de 50 000 euros). La limite contractuelle d'indemnité maximale par sinistre est de 1 million d'euros tous postes de préjudice confondus. Le contrat se substitue intégralement à la garantie protection du conducteur du contrat Assurance automobile et ne peut se cumuler avec elle.",
+  "definitions": [
+    {
+      "term": "Article 3 - Définition du souscripteur",
+      "definition": "Le présent contrat peut être souscrit par toute personne physique dont au moins un véhicule terrestre à moteur est assuré par SMACL Assurances.",
+      "page": 5
+    },
+    {
+      "term": "Article 4 - Définition du conducteur assuré",
+      "definition": "4.1. En cas d'usage d'un véhicule terrestre à moteur assuré à SMACL Assurances, a la qualité d'assuré lorsqu'elle conduit le véhicule : toute personne autorisée par le souscripteur ou le propriétaire du véhicule à l'exclusion des professionnels de la réparation, de la vente et du contrôle de l'automobile. 4.2. En cas d'usage avec l'autorisation de son propriétaire, d'un véhicule non assuré à SMACL Assurances, n'appartenant pas au souscripteur, à son conjoint non divorcé ni séparé de corps ou son concubin notoire ou lié par un pacte civil de solidarité (PACS), à ses/leurs enfants fiscalement à charge, et ne faisant pas l'objet d'un contrat de crédit-bail au nom de ces mêmes personnes, ont la qualité d'assuré lorsqu'ils conduisent le véhicule : le souscripteur, son conjoint non divorcé ni séparé de corps ou son concubin, ses/leurs enfants fiscalement à charge. Dans le texte ci-après, par assuré, on entend « le conducteur assuré » tel que défini à l'article 4.",
+      "page": 5
+    },
+    {
+      "term": "Article 5 - Définition du bénéficiaire en cas de décès de l'assuré",
+      "definition": "5.1. Pour les frais d'obsèques : toute personne justifiant le paiement des frais d'obsèques dans la limite du montant de la garantie prévue à l'article 15 ci-après. 5.2. Pour le capital décès : son conjoint non divorcé ni séparé de corps ou, à défaut, son concubin notoire ou lié par un pacte civil de solidarité (PACS), à défaut ses/leurs enfants, ou, à défaut, les autres héritiers dans l'ordre successoral, dans la limite du capital fixé à l'article 16 ci-après.",
+      "page": 6
+    },
+    {
+      "term": "Année d'assurance",
+      "definition": "La période comprise entre la date d'effet du contrat et celle de la première échéance annuelle, puis la période comprise entre deux échéances annuelles consécutives.",
+      "page": 6
+    },
+    {
+      "term": "Assureur",
+      "definition": "SMACL Assurances SA.",
+      "page": 6
+    },
+    {
+      "term": "Atteinte permanente à l'intégrité physique et psychique (invalidité)",
+      "definition": "Perte définitive partielle ou totale de la capacité fonctionnelle entraînant un déficit fonctionnel permanent. Cet état est évalué par un médecin expert par référence au barème de droit commun.",
+      "page": 6
+    },
+    {
+      "term": "Consolidation",
+      "definition": "Moment où l'état de la victime devient stationnaire et n'est plus susceptible d'une évolution par l'effet d'un traitement actif et où la lésion prend un caractère permanent. C'est le point de départ pour fixer les séquelles définitives.",
+      "page": 6
+    },
+    {
+      "term": "Héritiers",
+      "definition": "Personnes physiques telles que prévues selon les règles du droit successoral en vigueur à la date de l'accident, qui ont qualité pour recevoir le patrimoine du défunt.",
+      "page": 6
+    },
+    {
+      "term": "Interruption de la prescription",
+      "definition": "Interruption du délai non encore écoulé, faisant courir un nouveau délai de même durée que l'ancien.",
+      "page": 6
+    },
+    {
+      "term": "Prescription",
+      "definition": "Perte / extinction d'un droit lorsque celui-ci n'a pas été exercé pendant un délai déterminé.",
+      "page": 6
+    },
+    {
+      "term": "Prestation à caractère indemnitaire",
+      "definition": "Prestation ou indemnisation déterminée en fonction du préjudice réellement subi. Elle ne peut excéder le montant de ce dernier. Elle est calculée en fonction de la situation de l'assuré au moment de la survenance de l'évènement (âge, profession, revenus, situation de famille, etc.).",
+      "page": 6
+    },
+    {
+      "term": "Seuil d'intervention",
+      "definition": "Valeur plancher en deçà de laquelle les garanties ne sont pas acquises.",
+      "page": 6
+    },
+    {
+      "term": "Sinistre",
+      "definition": "Toutes les conséquences dommageables d'un même évènement ou fait générateur susceptible d'entraîner la garantie de SMACL Assurances au titre du présent contrat.",
+      "page": 6
+    },
+    {
+      "term": "Tierce personne",
+      "definition": "Aide indispensable, médicalement évaluée en temps (ex. : pendant 15 jours) et en durée (ex. : 1 heure/jour) pour assister la victime, lorsque le déficit fonctionnel permanent qui subsiste après la consolidation l'oblige à avoir recours à une aide humaine pour effectuer les actes essentiels de la vie courante.",
+      "page": 6
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Article 1 - Indemnisation du préjudice corporel",
+      "description": "En cas d'accident corporel de la circulation résultant de l'usage d'un véhicule terrestre à moteur soumis à l'obligation d'assurance, à l'exclusion des véhicules de transport public de personnes, la garantie a pour objet d'indemniser le préjudice corporel subi par le conducteur en cas de blessures, ou le préjudice subi par les bénéficiaires désignés à l'article 5 en cas de décès du conducteur. SMACL Assurances versera les indemnités dues dès lors qu'elle sera en mesure de vérifier les conditions d'application de la garantie.",
+      "is_optional": false,
+      "territorial_scope": "Article 7 - En cas d'usage d'un véhicule assuré par SMACL Assurances, la garantie s'exerce en France métropolitaine, dans les départements et régions d'outre-mer, dans les pays de la Communauté économique européenne, à Monaco et Andorre, ainsi que dans les pays dont la mention n'a pas été rayée au recto de la carte internationale d'assurance, dite « carte verte », délivrée par SMACL Assurances. En cas d'usage d'un véhicule non assuré par SMACL Assurances, la garantie n'est accordée dans les pays visés au présent article que lors de séjours touristiques de moins de deux mois consécutifs.",
+      "limits": "La limite contractuelle d'indemnité maximale par sinistre est fixée à 1 million d'euros tous postes de préjudice confondus sans toutefois déroger aux sous-limites par garantie précisées ci-après. Tableau récapitulatif : « Tous dommages confondus (sans pouvoir dépasser les sous-limites suivantes) : 1 000 000 € ».",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Seuls les postes de préjudice limitativement énumérés en Partie 2 sont garantis lorsqu'ils sont directement imputables à un accident garanti.",
+        "Les indemnités garanties ne peuvent se cumuler au profit d'une même personne ni avec des prestations à caractère indemnitaire qui lui seraient dues par la Sécurité sociale ou tout autre régime de prévoyance collective ou au titre d'un statut ou d'une convention collective, ni avec d'autres indemnités qui, réparant les mêmes postes de préjudice, lui seraient dues par SMACL Assurances.",
+        "Elles ne sont pas dues lorsque l'accident engage la responsabilité d'un tiers, sous réserve des dispositions prévues à l'article 2.",
+        "Article 6 - Usage du véhicule : 6.1. Si le véhicule est assuré à SMACL Assurances, la garantie est acquise 6.1.1. au souscripteur, à son conjoint non divorcé ni séparé de corps ou son concubin notoire ou lié par un PACS, à ses/leurs enfants : en toutes circonstances, quel que soit l'usage du véhicule déclaré au contrat ; 6.1.2. au conducteur défini à l'article 4.1. : lorsque le véhicule est utilisé pour un usage conforme à celui déclaré au contrat garantissant ledit véhicule. 6.2. Si le véhicule n'est pas assuré à SMACL Assurances, la garantie est acquise au souscripteur, à son conjoint non divorcé ni séparé de corps ou son concubin notoire ou lié par un PACS, à ses/leurs enfants fiscalement à charge : en toutes circonstances, quel que soit l'usage du véhicule déclaré au contrat."
+      ],
+      "page": 5
+    },
+    {
+      "name": "Article 2 - Avance sur recours",
+      "description": "2.1. Principe de l'avance : dans le cas où la responsabilité d'un tiers est totalement ou partiellement engagée, SMACL Assurances exerce un recours contre celui-ci. Les indemnités dues au titre de l'article 1 sont versées à titre d'avance sur la réparation attendue de ce tiers ou de son assureur ou de tout autre organisme assimilé à l'assureur qui se substitue à lui dans le délai de 3 mois après la survenance de l'accident : 2.1.1. lorsque le montant du préjudice peut être fixé, après envoi des pièces justificatives ; 2.1.2. lorsque le montant du préjudice ne peut être fixé, SMACL Assurances verse une indemnité estimative à titre de provision. À la date de fixation définitive de l'indemnité mise à la charge du tiers responsable, les comptes seront apurés de telle sorte que, toutes sources d'indemnisation confondues, la réparation du préjudice subi par le conducteur ou le bénéficiaire soit au moins égale à l'indemnité garantie.",
+      "is_optional": false,
+      "territorial_scope": "Article 7 - En cas d'usage d'un véhicule assuré par SMACL Assurances, la garantie s'exerce en France métropolitaine, dans les départements et régions d'outre-mer, dans les pays de la Communauté économique européenne, à Monaco et Andorre, ainsi que dans les pays dont la mention n'a pas été rayée au recto de la carte internationale d'assurance, dite « carte verte », délivrée par SMACL Assurances. En cas d'usage d'un véhicule non assuré par SMACL Assurances, la garantie n'est accordée dans les pays visés au présent article que lors de séjours touristiques de moins de deux mois consécutifs.",
+      "limits": "2.2. Limites de récupération de l'avance : la récupération des sommes avancées au conducteur ou au bénéficiaire a pour limite l'indemnité mise à la charge du tiers. Lorsque l'avance versée par SMACL Assurances est supérieure à l'indemnité mise à la charge du tiers, la différence reste acquise au conducteur ou au bénéficiaire.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "2.3. Obligations du conducteur ou du bénéficiaire : si, après règlement de l'avance, SMACL Assurances a été déchargée de l'exercice de son recours par le conducteur ou le bénéficiaire, celui-ci doit l'inviter à participer à la transaction avec le tiers responsable en cas de règlement amiable ou l'appeler à la procédure en cas de règlement judiciaire.",
+        "Le conducteur ou le bénéficiaire qui n'aura pas rempli cette obligation sera déchu de la garantie et SMACL Assurances sera fondée à lui réclamer le remboursement de la totalité de l'avance consentie."
+      ],
+      "page": 5
+    },
+    {
+      "name": "Article 8.1 - Dépenses de santé actuelles",
+      "description": "SMACL Assurances garantit exclusivement le remboursement des dépenses de santé actuelles : médecine, chirurgie, pharmacie, hospitalisation, prothèse, soins rendus nécessaires par l'accident, jusqu'à la date de consolidation des blessures. La garantie est accordée sur justificatifs à hauteur des frais réels engagés par l'assuré et restant à sa charge après intervention des organismes sociaux ou assimilés.",
+      "is_optional": false,
+      "territorial_scope": "Article 7 - En cas d'usage d'un véhicule assuré par SMACL Assurances, la garantie s'exerce en France métropolitaine, dans les départements et régions d'outre-mer, dans les pays de la Communauté économique européenne, à Monaco et Andorre, ainsi que dans les pays dont la mention n'a pas été rayée au recto de la carte internationale d'assurance, dite « carte verte », délivrée par SMACL Assurances. En cas d'usage d'un véhicule non assuré par SMACL Assurances, la garantie n'est accordée dans les pays visés au présent article que lors de séjours touristiques de moins de deux mois consécutifs.",
+      "limits": "Frais réels (tableau récapitulatif des garanties)",
+      "sub_limits": [],
+      "deductible": "Sans franchise",
+      "conditions": [
+        "sur justificatifs",
+        "à hauteur des frais réels engagés par l'assuré et restant à sa charge après intervention des organismes sociaux ou assimilés"
+      ],
+      "page": 7
+    },
+    {
+      "name": "Article 8.2 - Frais divers",
+      "description": "Il s'agit exclusivement des frais susceptibles d'être exposés temporairement par la victime directe avant la consolidation de ses blessures tels que les frais de garde d'enfants, frais de transport, assistance temporaire d'une tierce personne.",
+      "is_optional": false,
+      "territorial_scope": "Article 7 - En cas d'usage d'un véhicule assuré par SMACL Assurances, la garantie s'exerce en France métropolitaine, dans les départements et régions d'outre-mer, dans les pays de la Communauté économique européenne, à Monaco et Andorre, ainsi que dans les pays dont la mention n'a pas été rayée au recto de la carte internationale d'assurance, dite « carte verte », délivrée par SMACL Assurances. En cas d'usage d'un véhicule non assuré par SMACL Assurances, la garantie n'est accordée dans les pays visés au présent article que lors de séjours touristiques de moins de deux mois consécutifs.",
+      "limits": "La garantie est accordée dans la limite d'un plafond contractuel de 5 000 euros.",
+      "sub_limits": [],
+      "deductible": "Sans franchise",
+      "conditions": [
+        "Sont exclus de cette garantie les frais et honoraires d'assistance ou de conseil (tels que médecins, avocats, mandataires).",
+        "Ces dépenses, frais et pertes sont ceux restés à la charge de l'assuré après intervention de la Sécurité sociale ou de tout autre régime de prévoyance collective y compris les sociétés régies par le Code de la mutualité ou de l'employeur."
+      ],
+      "page": 7
+    },
+    {
+      "name": "Article 8.3 - Pertes de gains professionnels actuels",
+      "description": "Il s'agit de pertes de salaires, de rémunérations et de revenus salariaux, artisanaux ou libéraux, pendant la période d'arrêt d'activité professionnelle imputable, définis médicalement.",
+      "is_optional": false,
+      "territorial_scope": "Article 7 - En cas d'usage d'un véhicule assuré par SMACL Assurances, la garantie s'exerce en France métropolitaine, dans les départements et régions d'outre-mer, dans les pays de la Communauté économique européenne, à Monaco et Andorre, ainsi que dans les pays dont la mention n'a pas été rayée au recto de la carte internationale d'assurance, dite « carte verte », délivrée par SMACL Assurances. En cas d'usage d'un véhicule non assuré par SMACL Assurances, la garantie n'est accordée dans les pays visés au présent article que lors de séjours touristiques de moins de deux mois consécutifs.",
+      "limits": "La garantie est accordée dans la limite d'un plafond contractuel de 10 000 euros.",
+      "sub_limits": [],
+      "deductible": "Sans franchise",
+      "conditions": [
+        "Ces dépenses, frais et pertes sont ceux restés à la charge de l'assuré après intervention de la Sécurité sociale ou de tout autre régime de prévoyance collective y compris les sociétés régies par le Code de la mutualité ou de l'employeur."
+      ],
+      "page": 7
+    },
+    {
+      "name": "Article 9 - Déficit fonctionnel permanent et tierce personne",
+      "description": "Lorsque les blessures subies par l'assuré au cours de l'accident laissent subsister des séquelles, SMACL Assurances garantit le versement d'une indemnité en cas d'invalidité de l'assuré. 9.1. Fixation du taux d'invalidité : le taux d'invalidité subsistant après consolidation des blessures est fixé par un médecin expert désigné par SMACL Assurances. L'expert se réfère au barème fonctionnel indicatif des incapacités en droit commun publié dans la revue « Le concours médical ». Le médecin expert détermine si l'assuré a besoin, en cas d'invalidité, de l'assistance constante ou à temps partiel d'une tierce personne. Lors de l'expertise, l'assuré peut se faire assister, à ses frais, par un médecin de son choix. 9.2.1. Lorsque le taux d'invalidité subsistant après consolidation est supérieur à 5 %, l'indemnité est égale au produit du taux constaté à la date de consolidation de l'état de santé de la victime par la valeur du point indiquée au tableau n° 1 en annexe. L'âge pris en considération est celui de l'assuré à la date de consolidation des blessures. Lorsque le recours à l'assistance d'une tierce personne est reconnu nécessaire au moins 3 heures par jour, par le médecin expert, l'indemnité due au titre du déficit fonctionnel permanent est majorée de 2 % par heure de tierce personne nécessaire par jour ; la majoration de 2 % est alors applicable dès la première heure. 9.2.3. Aggravation : en cas d'aggravation du taux d'invalidité déjà indemnisée, la valeur du point à prendre en considération pour l'indemnisation du supplément du déficit fonctionnel permanent est celle correspondant au nouveau taux d'invalidité ; l'indemnité est égale au produit du taux propre à l'aggravation avec la valeur du point définie comme ci-dessus.",
+      "is_optional": false,
+      "territorial_scope": "Article 7 - En cas d'usage d'un véhicule assuré par SMACL Assurances, la garantie s'exerce en France métropolitaine, dans les départements et régions d'outre-mer, dans les pays de la Communauté économique européenne, à Monaco et Andorre, ainsi que dans les pays dont la mention n'a pas été rayée au recto de la carte internationale d'assurance, dite « carte verte », délivrée par SMACL Assurances. En cas d'usage d'un véhicule non assuré par SMACL Assurances, la garantie n'est accordée dans les pays visés au présent article que lors de séjours touristiques de moins de deux mois consécutifs.",
+      "limits": "À hauteur de la limite contractuelle « Tous dommages confondus » (1 000 000 € par sinistre). Valeur du point selon le tableau n° 1 en annexe.",
+      "sub_limits": [
+        "Tableau n°1 - Valeur du point pour la détermination du déficit fonctionnel permanent (article 9.2.1.). Colonnes par tranche d'âge à la date de consolidation : Moins de 20 ans / 20 à 39 ans / 40 à 49 ans / 50 à 59 ans / 60 à 69 ans / 70 ans et plus. Taux d'invalidité 0 à 5 % : Moins de 20 ans = Néant, 20 à 39 ans = Néant, 40 à 49 ans = Néant, 50 à 59 ans = Néant, 60 à 69 ans = Néant, 70 ans et plus = Néant ; Taux d'invalidité 6 % : Moins de 20 ans = 1 005 €, 20 à 39 ans = 1 001 €, 40 à 49 ans = 936 €, 50 à 59 ans = 888 €, 60 à 69 ans = 783 €, 70 ans et plus = 663 € ; Taux d'invalidité 7 % : Moins de 20 ans = 1 055 €, 20 à 39 ans = 1 060 €, 40 à 49 ans = 989 €, 50 à 59 ans = 937 €, 60 à 69 ans = 811 €, 70 ans et plus = 674 € ; Taux d'invalidité 8 % : Moins de 20 ans = 1 103 €, 20 à 39 ans = 1 118 €, 40 à 49 ans = 1 042 €, 50 à 59 ans = 985 €, 60 à 69 ans = 838 €, 70 ans et plus = 685 € ; Taux d'invalidité 9 % : Moins de 20 ans = 1 151 €, 20 à 39 ans = 1 176 €, 40 à 49 ans = 1 094 €, 50 à 59 ans = 1 033 €, 60 à 69 ans = 865 €, 70 ans et plus = 697 € ; Taux d'invalidité 10 % : Moins de 20 ans = 1 290 €, 20 à 39 ans = 1 200 €, 40 à 49 ans = 1 150 €, 50 à 59 ans = 1 050 €, 60 à 69 ans = 900 €, 70 ans et plus = 825 € ; Taux d'invalidité 11 à 15% : Moins de 20 ans = 1 480 €, 20 à 39 ans = 1 360 €, 40 à 49 ans = 1 200 €, 50 à 59 ans = 1 100 €, 60 à 69 ans = 1 000 €, 70 ans et plus = 900 € ; Taux d'invalidité 16 à 20 % : Moins de 20 ans = 1 670 €, 20 à 39 ans = 1 540 €, 40 à 49 ans = 1 350 €, 50 à 59 ans = 1 275 €, 60 à 69 ans = 1 100 €, 70 ans et plus = 975 € ; Taux d'invalidité 21 à 25 % : Moins de 20 ans = 1 860 €, 20 à 39 ans = 1 720 €, 40 à 49 ans = 1 500 €, 50 à 59 ans = 1 350 €, 60 à 69 ans = 1 200 €, 70 ans et plus = 1 050 € ; Taux d'invalidité 26 à 30 % : Moins de 20 ans = 2 050 €, 20 à 39 ans = 1 900 €, 40 à 49 ans = 1 650 €, 50 à 59 ans = 1 475 €, 60 à 69 ans = 1 300 €, 70 ans et plus = 1 125 € ; Taux d'invalidité 31 à 35 % : Moins de 20 ans = 2 240 €, 20 à 39 ans = 2 080 €, 40 à 49 ans = 1 800 €, 50 à 59 ans = 1 600 €, 60 à 69 ans = 1 400 €, 70 ans et plus = 1 200 € ; Taux d'invalidité 36 à 40 % : Moins de 20 ans = 2 430 €, 20 à 39 ans = 2 260 €, 40 à 49 ans = 1 950 €, 50 à 59 ans = 1 725 €, 60 à 69 ans = 1 500 €, 70 ans et plus = 1 275 € ; Taux d'invalidité 41 à 45 % : Moins de 20 ans = 2 620 €, 20 à 39 ans = 2 440 €, 40 à 49 ans = 2 100 €, 50 à 59 ans = 1 850 €, 60 à 69 ans = 1 600 €, 70 ans et plus = 1 350 € ; Taux d'invalidité 46 à 50 % : Moins de 20 ans = 2 810 €, 20 à 39 ans = 2 620 €, 40 à 49 ans = 2 250 €, 50 à 59 ans = 1 975 €, 60 à 69 ans = 1 700 €, 70 ans et plus = 1 425 € ; Taux d'invalidité 51 à 55 % : Moins de 20 ans = 3 000 €, 20 à 39 ans = 2 800 €, 40 à 49 ans = 2 400 €, 50 à 59 ans = 2 100 €, 60 à 69 ans = 1 800 €, 70 ans et plus = 1 500 € ; Taux d'invalidité 56 à 60 % : Moins de 20 ans = 3 190 €, 20 à 39 ans = 2 980 €, 40 à 49 ans = 2 550 €, 50 à 59 ans = 2 225 €, 60 à 69 ans = 1 900 €, 70 ans et plus = 1 575 € ; Taux d'invalidité 61 à 65 % : Moins de 20 ans = 3 380 €, 20 à 39 ans = 3 160 €, 40 à 49 ans = 2 700 €, 50 à 59 ans = 2 350 €, 60 à 69 ans = 2 000 €, 70 ans et plus = 1 650 € ; Taux d'invalidité 66 à 70 % : Moins de 20 ans = 3 570 €, 20 à 39 ans = 3 340 €, 40 à 49 ans = 2 850 €, 50 à 59 ans = 2 475 €, 60 à 69 ans = 2 100 €, 70 ans et plus = 1 725 € ; Taux d'invalidité 71 à 75 % : Moins de 20 ans = 3 760 €, 20 à 39 ans = 3 520 €, 40 à 49 ans = 3 000 €, 50 à 59 ans = 2 600 €, 60 à 69 ans = 2 200 €, 70 ans et plus = 1 800 € ; Taux d'invalidité 76 à 80 % : Moins de 20 ans = 3 950 €, 20 à 39 ans = 3 700 €, 40 à 49 ans = 3 150 €, 50 à 59 ans = 2 725 €, 60 à 69 ans = 2 300 €, 70 ans et plus = 1 875 € ; Taux d'invalidité 81 à 85 % : Moins de 20 ans = 4 140 €, 20 à 39 ans = 3 880 €, 40 à 49 ans = 3 300 €, 50 à 59 ans = 2 850 €, 60 à 69 ans = 2 400 €, 70 ans et plus = 1 950 € ; Taux d'invalidité 86 à 90 % : Moins de 20 ans = 4 330 €, 20 à 39 ans = 4 060 €, 40 à 49 ans = 3 450 €, 50 à 59 ans = 2 975 €, 60 à 69 ans = 2 500 €, 70 ans et plus = 2 025 € ; Taux d'invalidité 91 à 95 % : Moins de 20 ans = 4 520 €, 20 à 39 ans = 4 240 €, 40 à 49 ans = 3 600 €, 50 à 59 ans = 3 100 €, 60 à 69 ans = 2 600 €, 70 ans et plus = 2 100 € ; Taux d'invalidité 96 à 100 % : Moins de 20 ans = 4 710 €, 20 à 39 ans = 4 420 €, 40 à 49 ans = 3 750 €, 50 à 59 ans = 3 225 €, 60 à 69 ans = 2 700 €, 70 ans et plus = 2 175 €"
+      ],
+      "deductible": "Indemnité versée à partir de 6 % d'invalidité. Aucune indemnité n'est versée lorsque le taux d'invalidité est inférieur à 6 %.",
+      "conditions": [
+        "Le taux d'invalidité est fixé par un médecin expert désigné par SMACL Assurances, par référence au barème fonctionnel indicatif des incapacités en droit commun publié dans la revue « Le concours médical ».",
+        "Majoration de 2 % par heure de tierce personne nécessaire par jour, lorsque le recours à une tierce personne est reconnu nécessaire au moins 3 heures par jour.",
+        "9.2.2. Non-cumul avec les prestations sociales, statutaires ou collectives : l'indemnité ne se cumule pas avec les prestations à caractère indemnitaire perçues ou à percevoir par l'assuré de la Sécurité sociale ou de tout autre régime de prévoyance collective ou au titre d'un statut ou d'une convention collective. Ces prestations viendront en déduction de l'indemnité due par SMACL Assurances qui versera, s'il y a lieu, le complément à l'assuré. Ce complément ne peut être révisé en cas de modification des prestations postérieures à son versement."
+      ],
+      "page": 7
+    },
+    {
+      "name": "Article 10 - Préjudice esthétique permanent",
+      "description": "Cette garantie est de nature à réparer l'altération de l'apparence physique de la victime imputable à l'accident. SMACL Assurances garantit le versement d'une indemnité réparant le préjudice esthétique permanent constaté sur la victime, et ce, même si aucun taux d'invalidité n'est retenu. 10.1. Le médecin expert désigné par SMACL Assurances qualifie le préjudice esthétique permanent par référence à une échelle de gravité de 1 à 7 : 1 (très léger) ; 1,5 (très léger à léger) ; 2 (léger) ; 2,5 (léger à modéré) ; 3 (modéré) ; 3,5 (modéré à moyen) ; 4 (moyen) ; 4,5 (moyen à assez important) ; 5 (assez important) ; 5,5 (assez important à important) ; 6 (important) ; 6,5 (important à très important) ; 7 (très important). 10.2. Lorsque le préjudice esthétique permanent a donné lieu à une qualification supérieure ou égale à modéré (degré 3 dans l'échelle de gravité de 1 à 7), il sera versé à l'assuré une indemnité déterminée en application des éléments figurant au tableau n° 2 en annexe.",
+      "is_optional": false,
+      "territorial_scope": "Article 7 - En cas d'usage d'un véhicule assuré par SMACL Assurances, la garantie s'exerce en France métropolitaine, dans les départements et régions d'outre-mer, dans les pays de la Communauté économique européenne, à Monaco et Andorre, ainsi que dans les pays dont la mention n'a pas été rayée au recto de la carte internationale d'assurance, dite « carte verte », délivrée par SMACL Assurances. En cas d'usage d'un véhicule non assuré par SMACL Assurances, la garantie n'est accordée dans les pays visés au présent article que lors de séjours touristiques de moins de deux mois consécutifs.",
+      "limits": "Dans la limite de 30 000 € (tableau récapitulatif des garanties).",
+      "sub_limits": [
+        "Tableau n°2 - Indemnisation du préjudice esthétique permanent et/ou des souffrances endurées selon leur qualification à la date de consolidation des blessures (articles 10.2 et 11.3 des conditions générales). Niveau de gravité / Montant en euros : 1  (très léger) = Néant ; 1,5  (très léger à léger) = Néant ; 2  (léger) = Néant ; 2,5  (léger à modéré) = Néant ; 3  (modéré) = 4 000 € ; 3,5  (modéré à moyen) = 6 000 € ; 4  (moyen) = 8 000 € ; 4,5  (moyen à assez important) = 11 500 € ; 5  (assez important) = 15 000 € ; 5,5  (assez important à important) = 20 000 € ; 6  (important) = 25 000 € ; 6,5  (important à très important) = 27 500 € ; 7  (très important) = 30 000 €."
+      ],
+      "deductible": "Indemnité versée à partir d'un préjudice qualifié à 3/7 sur l'échelle de gravité contractuelle. Aucune indemnité n'est versée lorsque le préjudice est qualifié de 1 à 2,5 (de très léger à léger à modéré).",
+      "conditions": [
+        "même si aucun taux d'invalidité n'est retenu"
+      ],
+      "page": 7
+    },
+    {
+      "name": "Article 11 - Souffrances endurées",
+      "description": "Les souffrances endurées correspondent aux souffrances physiques ou morales supportées par la victime. SMACL Assurances garantit le versement d'une indemnité, et ce, même si aucun taux d'invalidité n'est retenu. 11.1. Fixation des bases médicales : le médecin expert désigné par SMACL Assurances qualifie [le préjudice, selon la lettre du document « le préjudice esthétique permanent » - voir gaps] par référence à une échelle de gravité de 1 à 7 : 1 (très léger) ; 1,5 (très léger à léger) ; 2 (léger) ; 2,5 (léger à modéré) ; 3 (modéré) ; 3,5 (modéré à moyen) ; 4 (moyen) ; 4,5 (moyen à assez important) ; 5 (assez important) ; 5,5 (assez important à important) ; 6 (important) ; 6,5 (important à très important) ; 7 (très important). 11.2. Lorsque les souffrances endurées sont qualifiées de 3 à 7, le montant de l'indemnité est déterminé selon le tableau n° 2 en annexe.",
+      "is_optional": false,
+      "territorial_scope": "Article 7 - En cas d'usage d'un véhicule assuré par SMACL Assurances, la garantie s'exerce en France métropolitaine, dans les départements et régions d'outre-mer, dans les pays de la Communauté économique européenne, à Monaco et Andorre, ainsi que dans les pays dont la mention n'a pas été rayée au recto de la carte internationale d'assurance, dite « carte verte », délivrée par SMACL Assurances. En cas d'usage d'un véhicule non assuré par SMACL Assurances, la garantie n'est accordée dans les pays visés au présent article que lors de séjours touristiques de moins de deux mois consécutifs.",
+      "limits": "Dans la limite de 30 000 € (tableau récapitulatif des garanties).",
+      "sub_limits": [
+        "Tableau n°2 - Indemnisation du préjudice esthétique permanent et/ou des souffrances endurées selon leur qualification à la date de consolidation des blessures (articles 10.2 et 11.3 des conditions générales). Niveau de gravité / Montant en euros : 1  (très léger) = Néant ; 1,5  (très léger à léger) = Néant ; 2  (léger) = Néant ; 2,5  (léger à modéré) = Néant ; 3  (modéré) = 4 000 € ; 3,5  (modéré à moyen) = 6 000 € ; 4  (moyen) = 8 000 € ; 4,5  (moyen à assez important) = 11 500 € ; 5  (assez important) = 15 000 € ; 5,5  (assez important à important) = 20 000 € ; 6  (important) = 25 000 € ; 6,5  (important à très important) = 27 500 € ; 7  (très important) = 30 000 €."
+      ],
+      "deductible": "Indemnité versée à partir d'un préjudice qualifié à 3/7 sur l'échelle de gravité contractuelle. Aucune indemnité n'est versée lorsque le préjudice est qualifié de 1 à 2,5 (de très léger à léger à modéré).",
+      "conditions": [
+        "même si aucun taux d'invalidité n'est retenu"
+      ],
+      "page": 8
+    },
+    {
+      "name": "Article 12 - Préjudice d'agrément",
+      "description": "12.1. Cette garantie vise exclusivement à réparer le préjudice d'agrément lié à l'impossibilité pour la victime de pratiquer régulièrement une activité spécifique sportive ou de loisirs. Le préjudice d'agrément devra être notifié dans le rapport d'expertise médicale et être justifié par la production de pièces fournies par la victime, confirmant la pratique régulière de l'activité antérieurement à l'accident (licence sportive, attestation, témoignages, etc.). 12.2. Le montant de l'indemnité est déterminé selon le tableau n° 3 en annexe.",
+      "is_optional": false,
+      "territorial_scope": "Article 7 - En cas d'usage d'un véhicule assuré par SMACL Assurances, la garantie s'exerce en France métropolitaine, dans les départements et régions d'outre-mer, dans les pays de la Communauté économique européenne, à Monaco et Andorre, ainsi que dans les pays dont la mention n'a pas été rayée au recto de la carte internationale d'assurance, dite « carte verte », délivrée par SMACL Assurances. En cas d'usage d'un véhicule non assuré par SMACL Assurances, la garantie n'est accordée dans les pays visés au présent article que lors de séjours touristiques de moins de deux mois consécutifs.",
+      "limits": "Dans la limite de 15 000 € (tableau récapitulatif des garanties).",
+      "sub_limits": [
+        "Tableau n°3 - Indemnisation du préjudice d'agrément à la date de consolidation des blessures (article 12 des conditions générales). Taux d'invalidité / Préjudice d'agrément en euros : 0 à 9 % = Néant ; 10 à 20 % = 1 000 € ; 21 à 30 % = 3 000 € ; 31 à 50 % = 5 000 € ; 51 à 75 % = 10 000 € ; 76 à 100 % = 15 000 €."
+      ],
+      "deductible": "Indemnité versée à partir de 10 % d'invalidité. Aucune indemnité ne sera versée dès lors que le taux d'invalidité sera inférieur à 10 %.",
+      "conditions": [
+        "Les éléments relatifs à l'existence du préjudice d'agrément devront être notifiés dans le rapport d'expertise médicale et être justifiés par la production de pièces fournies par la victime (licence sportive, attestation, témoignages, etc.)."
+      ],
+      "page": 8
+    },
+    {
+      "name": "Article 13 - Frais de logement adapté et frais de véhicule adapté",
+      "description": "Frais de logement adapté : les frais que doit débourser la victime directe à la suite du dommage pour adapter de manière permanente son logement à son handicap. Frais de véhicule adapté : cette garantie comprend les dépenses nécessaires pour procéder à l'adaptation d'un ou de plusieurs véhicules aux besoins de la victime atteinte d'un handicap permanent. 13.2. L'ensemble de ces frais doit être lié à un préjudice permanent. Ces frais devront être validés par voie d'expertise et justifiés par la production de factures acquittées.",
+      "is_optional": false,
+      "territorial_scope": "Article 7 - En cas d'usage d'un véhicule assuré par SMACL Assurances, la garantie s'exerce en France métropolitaine, dans les départements et régions d'outre-mer, dans les pays de la Communauté économique européenne, à Monaco et Andorre, ainsi que dans les pays dont la mention n'a pas été rayée au recto de la carte internationale d'assurance, dite « carte verte », délivrée par SMACL Assurances. En cas d'usage d'un véhicule non assuré par SMACL Assurances, la garantie n'est accordée dans les pays visés au présent article que lors de séjours touristiques de moins de deux mois consécutifs.",
+      "limits": "La garantie est délivrée dans la limite de 10 000 euros.",
+      "sub_limits": [],
+      "deductible": "Indemnité versée à partir de 10 % d'invalidité. Aucune indemnité ne sera versée dès lors que le taux d'invalidité sera inférieur à 10 %.",
+      "conditions": [
+        "L'ensemble des frais doit être lié à un préjudice permanent.",
+        "Ces frais devront être validés par voie d'expertise et justifiés par la production de factures acquittées."
+      ],
+      "page": 8
+    },
+    {
+      "name": "Article 14 - Assistance psychologique",
+      "description": "Suite à un accident corporel de la circulation lié à l'utilisation d'un véhicule occasionnant des blessures au conducteur assuré, SMACL Assistance prendra en charge selon les cas : de un à cinq entretiens téléphoniques individuels avec un psychologue clinicien ; et si nécessaire, de un à trois entretiens en face à face avec un psychologue clinicien.",
+      "is_optional": false,
+      "territorial_scope": "Article 7 - En cas d'usage d'un véhicule assuré par SMACL Assurances, la garantie s'exerce en France métropolitaine, dans les départements et régions d'outre-mer, dans les pays de la Communauté économique européenne, à Monaco et Andorre, ainsi que dans les pays dont la mention n'a pas été rayée au recto de la carte internationale d'assurance, dite « carte verte », délivrée par SMACL Assurances. En cas d'usage d'un véhicule non assuré par SMACL Assurances, la garantie n'est accordée dans les pays visés au présent article que lors de séjours touristiques de moins de deux mois consécutifs.",
+      "limits": "De 1 à 5 entretiens téléphoniques individuels avec un psychologue et, si nécessaire, de 1 à 3 entretiens en face à face avec un psychologue (tableau récapitulatif des garanties).",
+      "sub_limits": [],
+      "deductible": "Sans franchise",
+      "conditions": [
+        "Les garanties devront être exécutées dans un délai d'un an à compter de la survenance de l'accident.",
+        "Prestation prise en charge par SMACL Assistance et non par SMACL Assurances (formulation du document - voir gaps)."
+      ],
+      "page": 8
+    },
+    {
+      "name": "Article 15 - Frais d'obsèques",
+      "description": "La garantie a pour objet de compenser les frais d'obsèques engagés par la famille, et/ou à défaut par les proches de la victime directe, suite au décès accidentel du conducteur lié à l'utilisation d'un véhicule terrestre à moteur. La garantie est délivrée sur justificatifs des frais réels engagés.",
+      "is_optional": false,
+      "territorial_scope": "Article 7 - En cas d'usage d'un véhicule assuré par SMACL Assurances, la garantie s'exerce en France métropolitaine, dans les départements et régions d'outre-mer, dans les pays de la Communauté économique européenne, à Monaco et Andorre, ainsi que dans les pays dont la mention n'a pas été rayée au recto de la carte internationale d'assurance, dite « carte verte », délivrée par SMACL Assurances. En cas d'usage d'un véhicule non assuré par SMACL Assurances, la garantie n'est accordée dans les pays visés au présent article que lors de séjours touristiques de moins de deux mois consécutifs.",
+      "limits": "dans la limite d'un plafond de 3 000 euros",
+      "sub_limits": [],
+      "deductible": "Sans franchise",
+      "conditions": [
+        "sur justificatifs des frais réels engagés",
+        "En cas de pluralité de bénéficiaires tels que définis à l'article 5.1 et de dépassement du plafond de garantie, SMACL Assurances interviendra au prorata des frais engagés."
+      ],
+      "page": 9
+    },
+    {
+      "name": "Article 16 - Capital décès",
+      "description": "La garantie a pour objet le versement d'un capital forfaitaire aux bénéficiaires définis à l'article 5.2 des présentes conditions générales. Cette prestation restera acquise aux bénéficiaires quelles que soient les prestations servies par les organismes sociaux ou autres régimes de prévoyance ou autres conventions collectives.",
+      "is_optional": false,
+      "territorial_scope": "Article 7 - En cas d'usage d'un véhicule assuré par SMACL Assurances, la garantie s'exerce en France métropolitaine, dans les départements et régions d'outre-mer, dans les pays de la Communauté économique européenne, à Monaco et Andorre, ainsi que dans les pays dont la mention n'a pas été rayée au recto de la carte internationale d'assurance, dite « carte verte », délivrée par SMACL Assurances. En cas d'usage d'un véhicule non assuré par SMACL Assurances, la garantie n'est accordée dans les pays visés au présent article que lors de séjours touristiques de moins de deux mois consécutifs.",
+      "limits": "Le montant global de l'indemnité est de 50 000 euros quel que soit le nombre de bénéficiaires.",
+      "sub_limits": [],
+      "deductible": "Sans franchise",
+      "conditions": [
+        "Le capital garanti est versé à réception des pièces suivantes : un extrait de l'acte de décès ; une copie du livret de famille ; le cas échéant, tout document prouvant la qualité de concubin (taxe d'habitation, déclaration de revenus, factures établies aux deux noms, etc.) ; le cas échéant, tout document prouvant la qualité d'héritier (acte notarié, etc.).",
+        "Le versement du capital est conditionné à la réception de l'éventuel procès-verbal de gendarmerie ou de police établi à la suite de l'accident.",
+        "Article 17 - Non-cumul : lorsque, postérieurement au versement de l'indemnité due pour le déficit fonctionnel permanent, l'assuré décède des suites de l'accident, les indemnités dues au titre du décès ne sont versées que déduction faite des sommes déjà réglées par SMACL Assurances au titre du déficit fonctionnel permanent."
+      ],
+      "page": 9
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "18.1 - Guerre civile, émeutes, mouvements populaires, guerre étrangère",
+      "description": "SMACL Assurances ne garantit pas les dommages provenant de guerre civile, émeutes et mouvements populaires (il appartient à SMACL Assurances de prouver que le sinistre résulte de ces évènements) ou guerre étrangère (il appartient à l'assuré ou aux bénéficiaires de prouver que le sinistre résulte d'un autre fait que la guerre étrangère).",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "18.2 - Ouragans, cyclones, tornades, tremblements de terre, éruptions volcaniques, raz-de-marée",
+      "description": "SMACL Assurances ne garantit pas les dommages résultant d'ouragans, cyclones, tornades, de tremblements de terre, d'éruptions volcaniques et de raz-de-marée.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "18.3 - Risques nucléaires et radioactifs",
+      "description": "SMACL Assurances ne garantit pas les dommages dus aux effets directs ou indirects d'explosions, de dégagements de chaleur, d'irradiations provenant de transmutation de noyaux d'atomes ou de la radioactivité ainsi que les sinistres dus aux effets de radiation provoqués par l'accélération artificielle de particules.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "18.4 - Compétitions soumises à autorisation préalable et circuits fermés de vitesse",
+      "description": "SMACL Assurances ne garantit pas les dommages survenus à l'occasion de la participation de l'assuré à des compétitions soumises par la réglementation en vigueur à l'autorisation préalable des pouvoirs publics et à leurs essais, ou à l'occasion de la conduite d'un véhicule assuré sur un circuit fermé de vitesse.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "18.5 - Conducteur sans l'âge requis, sans permis ou sans certificat de capacité valide",
+      "description": "SMACL Assurances ne garantit pas les dommages survenus alors que le conducteur du véhicule n'a pas l'âge requis ou n'est pas titulaire de la licence, du permis ou des certificats de capacité exigés par la législation en vigueur et en état de validité. Toutefois, la présente exclusion est sans effet lorsque le conducteur est détenteur d'un permis de conduire sans validité pour des raisons tenant au lieu ou à la durée de la résidence ou lorsque les conditions restrictives d'utilisation, autres que celles relatives aux catégories de véhicules portées sur le permis, n'ont pas été respectées. Il en est de même en cas d'apprentissage anticipé de la conduite ou de conduite supervisée ou encadrée sous réserve de respect de la réglementation en vigueur prescrite par les pouvoirs publics.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "18.6 - Faute intentionnelle ou dolosive de l'assuré",
+      "description": "SMACL Assurances ne garantit pas les dommages résultant d'une faute intentionnelle ou dolosive de l'assuré.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "18.7 - Suicide ou tentative de suicide",
+      "description": "SMACL Assurances ne garantit pas les dommages résultant d'un suicide ou d'une tentative de suicide.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "18.8 - Délit de fuite ou refus d'obtempérer",
+      "description": "SMACL Assurances ne garantit pas les dommages survenus à l'occasion d'un délit de fuite du conducteur ou de son refus d'obtempérer.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "18.9 - État alcoolique, emprise de stupéfiants, refus de dépistage",
+      "description": "SMACL Assurances ne garantit pas les dommages survenus lorsqu'au moment du sinistre, le conducteur se trouve sous l'empire d'un état alcoolique caractérisé par une concentration d'alcool supérieure au taux légal en vigueur fixé par les articles L.234-1 et R.234-1 du Code de la route, ou sous l'emprise de stupéfiants au sens de l'article L.235-1 du même code, ou refuse de se soumettre aux tests de dépistage.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Article 1 - Véhicules de transport public de personnes",
+      "description": "La garantie porte sur l'accident corporel de la circulation résultant de l'usage d'un véhicule terrestre à moteur soumis à l'obligation d'assurance, à l'exclusion des véhicules de transport public de personnes.",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Article 1 - Non-cumul avec les prestations sociales et les autres indemnités",
+      "description": "Les indemnités garanties ne peuvent se cumuler au profit d'une même personne ni avec des prestations à caractère indemnitaire qui lui seraient dues par la Sécurité sociale ou tout autre régime de prévoyance collective ou au titre d'un statut ou d'une convention collective, ni avec d'autres indemnités qui, réparant les mêmes postes de préjudice, lui seraient dues par SMACL Assurances.",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Article 1 - Indemnités non dues lorsque la responsabilité d'un tiers est engagée",
+      "description": "Les indemnités ne sont pas dues lorsque l'accident engage la responsabilité d'un tiers, sous réserve des dispositions prévues à l'article 2 (avance sur recours).",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Préambule - Non-cumul avec la garantie protection du conducteur du contrat Assurance automobile",
+      "description": "Le contrat Assurance du conducteur se substitue intégralement aux dispositions intégrées dans le contrat Assurance automobile concernant la garantie protection du conducteur. Ce contrat Assurance du conducteur ne peut se cumuler avec la garantie protection du conducteur intégrée dans le contrat Assurance automobile au bénéfice du conducteur victime d'un accident.",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Article 4.1 - Professionnels de la réparation, de la vente et du contrôle de l'automobile",
+      "description": "A la qualité d'assuré toute personne autorisée par le souscripteur ou le propriétaire du véhicule à l'exclusion des professionnels de la réparation, de la vente et du contrôle de l'automobile.",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Partie 2 - Postes de préjudice non énumérés",
+      "description": "Seuls les postes de préjudice limitativement énumérés ci-dessous sont garantis lorsqu'ils sont directement imputables à un accident garanti.",
+      "applies_to": "all",
+      "page": 7
+    },
+    {
+      "name": "Article 8.2 - Frais et honoraires d'assistance ou de conseil",
+      "description": "Sont exclus de cette garantie les frais et honoraires d'assistance ou de conseil (tels que médecins, avocats, mandataires).",
+      "applies_to": "Article 8.2 - Frais divers",
+      "page": 7
+    },
+    {
+      "name": "Article 9.2.1 - Taux d'invalidité inférieur à 6 %",
+      "description": "Aucune indemnité n'est versée lorsque le taux d'invalidité est inférieur à 6 %.",
+      "applies_to": "Article 9 - Déficit fonctionnel permanent et tierce personne",
+      "page": 7
+    },
+    {
+      "name": "Article 9.2.2 - Non-cumul avec les prestations sociales, statutaires ou collectives",
+      "description": "L'indemnité, telle qu'elle est fixée à l'article 9.2.1., ne se cumule pas avec les prestations à caractère indemnitaire perçues ou à percevoir par l'assuré de la Sécurité sociale ou de tout autre régime de prévoyance collective ou au titre d'un statut ou d'une convention collective. Elles viendront en déduction de l'indemnité due par SMACL Assurances qui versera, s'il y a lieu, le complément à l'assuré.",
+      "applies_to": "Article 9 - Déficit fonctionnel permanent et tierce personne",
+      "page": 7
+    },
+    {
+      "name": "Article 10.2 - Préjudice esthétique qualifié de 1 à 2,5",
+      "description": "Aucune indemnité n'est versée lorsque le préjudice est qualifié de 1 à 2,5 (de très léger à léger à modéré).",
+      "applies_to": "Article 10 - Préjudice esthétique permanent",
+      "page": 8
+    },
+    {
+      "name": "Article 11.2 - Souffrances endurées qualifiées de 1 à 2,5",
+      "description": "Aucune indemnité n'est versée lorsque le préjudice est qualifié de 1 à 2,5 (de très léger à léger à modéré).",
+      "applies_to": "Article 11 - Souffrances endurées",
+      "page": 8
+    },
+    {
+      "name": "Article 12.2 - Taux d'invalidité inférieur à 10 % (préjudice d'agrément)",
+      "description": "Aucune indemnité ne sera versée dès lors que le taux d'invalidité sera inférieur à 10 %.",
+      "applies_to": "Article 12 - Préjudice d'agrément",
+      "page": 8
+    },
+    {
+      "name": "Article 13.2 - Taux d'invalidité inférieur à 10 % (logement et véhicule adaptés)",
+      "description": "Aucune indemnité ne sera versée dès lors que le taux d'invalidité sera inférieur à 10 %.",
+      "applies_to": "Article 13 - Frais de logement adapté et frais de véhicule adapté",
+      "page": 8
+    },
+    {
+      "name": "Article 17 - Non-cumul des indemnités dues au titre du déficit fonctionnel permanent et au titre du décès",
+      "description": "Lorsque, postérieurement au versement de l'indemnité due pour le déficit fonctionnel permanent, l'assuré décède des suites de l'accident, les indemnités dues au titre du décès ne sont versées que déduction faite des sommes déjà réglées par SMACL Assurances au titre du déficit fonctionnel permanent.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Article 19 - Déchéance en cas de déclaration tardive ou de fausse déclaration",
+      "description": "L'assuré ou le bénéficiaire qui ne déclare pas le sinistre dans le délai de cinq jours sera déchu du droit à garantie dans la mesure où ce manquement cause un préjudice à SMACL Assurances. Est passible de la même sanction, l'assuré ou le bénéficiaire qui fait de fausses déclarations intentionnelles sur la date, les circonstances ou les conséquences d'un évènement garanti.",
+      "applies_to": "all",
+      "page": 10
+    },
+    {
+      "name": "Article 21 - Frais d'expertise du médecin choisi par l'assuré",
+      "description": "Les frais d'expertise du médecin choisi par l'assuré resteront à sa charge. Les honoraires du troisième expert seront pris en charge par moitié par SMACL Assurances et par moitié par l'assuré.",
+      "applies_to": "all",
+      "page": 10
+    },
+    {
+      "name": "Article 22 - Subrogation rendue impossible du fait de l'assuré",
+      "description": "Si la subrogation ne peut plus, du fait de l'assuré, s'opérer en faveur de SMACL Assurances, la garantie de celle-ci cesse d'être engagée dans la mesure même où aurait pu s'exercer la subrogation.",
+      "applies_to": "all",
+      "page": 10
+    },
+    {
+      "name": "Article 7 - Usage d'un véhicule non assuré par SMACL Assurances hors séjour touristique de moins de deux mois",
+      "description": "En cas d'usage d'un véhicule non assuré par SMACL Assurances, la garantie n'est accordée dans les pays visés au présent article que lors de séjours touristiques de moins de deux mois consécutifs.",
+      "applies_to": "all",
+      "page": 6
+    }
+  ],
+  "deductibles": {
+    "standard": "Tableau récapitulatif des garanties : « Sans franchise » pour les dépenses de santé actuelles, les frais divers, les pertes de gains professionnels actuels, l'assistance psychologique, les frais d'obsèques et le capital décès.",
+    "variable": null,
+    "per_coverage": {
+      "Déficit fonctionnel permanent et tierce personne": "Indemnité versée à partir de 6 % d'invalidité",
+      "Préjudice esthétique permanent": "Indemnité versée à partir d'un préjudice qualifié à 3/7 sur l'échelle de gravité contractuelle",
+      "Souffrances endurées": "Indemnité versée à partir d'un préjudice qualifié à 3/7 sur l'échelle de gravité contractuelle",
+      "Préjudice d'agrément": "Indemnité versée à partir de 10 % d'invalidité",
+      "Frais de logement adapté et frais de véhicule adapté": "Indemnité versée à partir de 10 % d'invalidité",
+      "Frais et perte avant consolidation": "Sans franchise",
+      "Assistance psychologique": "Sans franchise",
+      "Frais d'obsèques": "Sans franchise",
+      "Capital décès": "Sans franchise"
+    },
+    "page": 15
+  },
+  "waiting_periods": [
+    {
+      "coverage": "Article 14 - Assistance psychologique",
+      "duration": "dans un délai d'un an à compter de la survenance de l'accident",
+      "description": "Les garanties devront être exécutées dans un délai d'un an à compter de la survenance de l'accident.",
+      "page": 8
+    }
+  ],
+  "obligations": [
+    {
+      "name": "Déclarer le sinistre dans les cinq jours",
+      "description": "Sauf cas fortuit ou de force majeure, l'assuré ou le bénéficiaire est tenu de déclarer tout évènement susceptible de mettre en jeu la garantie, dans les cinq jours de la date à laquelle il en a eu connaissance.",
+      "timing": "En cas de sinistre",
+      "sanction": "Déchéance du droit à garantie dans la mesure où ce manquement cause un préjudice à SMACL Assurances",
+      "page": 10
+    },
+    {
+      "name": "Ne pas faire de fausses déclarations intentionnelles",
+      "description": "Est passible de la même sanction, l'assuré ou le bénéficiaire qui fait de fausses déclarations intentionnelles sur la date, les circonstances ou les conséquences d'un évènement garanti.",
+      "timing": "En cas de sinistre",
+      "sanction": "Déchéance du droit à garantie",
+      "page": 10
+    },
+    {
+      "name": "Déclarer les autres assurances",
+      "description": "Conformément à l'article L.121-4 du Code, si les risques garantis par le présent contrat sont couverts par une autre assurance, l'assuré doit en faire la déclaration à SMACL Assurances, en lui indiquant le nom de la compagnie, le numéro de contrat, la nature et le montant de la garantie. L'assuré pourra obtenir l'indemnisation de ses dommages en s'adressant à l'assureur de son choix.",
+      "timing": "En cours de contrat",
+      "sanction": null,
+      "page": 10
+    },
+    {
+      "name": "Communiquer les prestations sociales perçues",
+      "description": "Ces prestations seront portées à la connaissance de SMACL Assurances par l'assuré dès qu'elles lui seront notifiées par l'organisme débiteur et auront été acceptées par lui.",
+      "timing": "En cas de sinistre",
+      "sanction": "Déduction de l'indemnité due",
+      "page": 7
+    },
+    {
+      "name": "Appeler SMACL Assurances à la transaction ou à la procédure après une avance sur recours",
+      "description": "Si, après règlement de l'avance, SMACL Assurances a été déchargée de l'exercice de son recours par le conducteur ou le bénéficiaire, celui-ci doit l'inviter à participer à la transaction avec le tiers responsable en cas de règlement amiable ou l'appeler à la procédure en cas de règlement judiciaire.",
+      "timing": "Après le règlement de l'avance",
+      "sanction": "Déchéance de la garantie et remboursement de la totalité de l'avance consentie",
+      "page": 5
+    },
+    {
+      "name": "Restituer les indemnités en cas de double indemnisation",
+      "description": "L'assuré qui a été indemnisé par SMACL Assurances au titre du présent contrat et également par le ou les tiers responsables, pour un même préjudice, de façon amiable ou par voie judiciaire sera tenu de restituer à SMACL Assurances les indemnités versées par elle.",
+      "timing": "Après indemnisation",
+      "sanction": null,
+      "page": 10
+    },
+    {
+      "name": "Payer la cotisation annuelle",
+      "description": "La cotisation annuelle est exigible par SMACL Assurances à la date d'échéance mentionnée aux conditions particulières.",
+      "timing": "À l'échéance annuelle",
+      "sanction": "Suspension de la garantie trente (30) jours après l'envoi d'une lettre recommandée de mise en demeure, puis résiliation possible dix (10) jours après ce délai",
+      "page": 12
+    },
+    {
+      "name": "Remettre les documents d'identité au titre de la lutte anti-blanchiment",
+      "description": "Le souscripteur ou l'assuré s'engage à remettre à SMACL Assurances tout document d'identité et d'information sur sa/leurs situation(s) professionnelle(s), patrimoniale(s), financière(s) ou personnelle(s) ainsi que tout document d'identité sur ses/leurs bénéficiaires effectifs éventuels.",
+      "timing": "Sur demande",
+      "sanction": "Retards ou refus d'exécution des garanties prévues au contrat d'assurance",
+      "page": 13
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclaration du sinistre",
+      "description": "Sauf cas fortuit ou de force majeure, l'assuré ou le bénéficiaire est tenu de déclarer tout évènement susceptible de mettre en jeu la garantie, dans les cinq jours de la date à laquelle il en a eu connaissance.",
+      "deadline": "dans les cinq jours de la date à laquelle il en a eu connaissance",
+      "page": 10
+    },
+    {
+      "step": "Transmission des pièces",
+      "description": "À réception de la déclaration, SMACL Assurances demandera à l'assuré ou au bénéficiaire les pièces nécessaires à l'instruction du dossier.",
+      "deadline": null,
+      "page": 10
+    },
+    {
+      "step": "Expertise médicale",
+      "description": "Le taux d'invalidité subsistant après consolidation des blessures est fixé par un médecin expert désigné par SMACL Assurances. Lors de l'expertise, l'assuré peut se faire assister, à ses frais, par un médecin de son choix.",
+      "deadline": null,
+      "page": 7
+    },
+    {
+      "step": "Tierce expertise en cas de désaccord",
+      "description": "En cas de désaccord de l'assuré sur les bases médicales fixées par le médecin désigné par SMACL Assurances, une expertise sera organisée entre ce dernier et un expert désigné par l'assuré sur présentation d'un certificat médical argumenté. Les frais d'expertise du médecin choisi par l'assuré resteront à sa charge. Si les experts ne sont pas d'accord, ils s'adjoignent un troisième expert. Les trois experts opèrent à la majorité des voix. Les honoraires du troisième expert seront pris en charge par moitié par SMACL Assurances et par moitié par l'assuré. Faute par l'une des parties de nommer son expert ou arbitre ou par les deux experts ou arbitres de s'entendre sur le choix d'un troisième, la désignation est effectuée par ordonnance du président du tribunal judiciaire du domicile de l'assuré, saisi par simple requête signée des deux parties ou d'une seulement, l'autre ayant été convoquée par lettre recommandée.",
+      "deadline": null,
+      "page": 10
+    },
+    {
+      "step": "Pièces à fournir pour le capital décès",
+      "description": "Le capital garanti est versé à réception des pièces suivantes : un extrait de l'acte de décès ; une copie du livret de famille ; le cas échéant, tout document prouvant la qualité de concubin ; le cas échéant, tout document prouvant la qualité d'héritier. Le versement du capital est conditionné à la réception de l'éventuel procès-verbal de gendarmerie ou de police établi à la suite de l'accident.",
+      "deadline": null,
+      "page": 9
+    },
+    {
+      "step": "Réclamation",
+      "description": "Pour toute réclamation : par l'envoi du formulaire disponible sur https://www.smacl.fr/reclamations, ou par courrier postal à SMACL Assurances SA, Direction Marchés-Réclamations, 141, avenue Salvador-Allende, CS 20000, 79031 NIORT CEDEX 9 (gestion du contrat) ou à SMACL Assurances SA, Direction Indemnisations-Réclamations, TSA 67211, CS 20000, 79060 NIORT CEDEX 9 (gestion d'un sinistre). Accusé de réception dans les dix (10) jours ouvrables et réponse dans un délai de deux (2) mois.",
+      "deadline": "accusé de réception sous dix (10) jours ouvrables ; réponse sous deux (2) mois",
+      "page": 13
+    },
+    {
+      "step": "Médiation",
+      "description": "Vous pouvez saisir le Médiateur de l'Assurance : sans délai si notre réponse écrite ne vous apporte pas satisfaction ; en l'absence de réponse de notre part, à l'issue d'un délai de deux mois après l'envoi de votre réclamation écrite. Saisine par internet www.mediation-assurance.org ou par courrier à La Médiation de l'Assurance, TSA 50110, 75441 PARIS CEDEX 09.",
+      "deadline": "sans délai après une réponse insatisfaisante ; à l'issue de deux mois en l'absence de réponse",
+      "page": 13
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Article 24 - Le contrat est formé dès l'accord des parties. La police, signée par elles, constate leur engagement réciproque. La garantie est acquise à compter de la date indiquée aux conditions particulières. Article 25 - À l'exception de la première période d'assurance qui s'étend jusqu'au 31 décembre de l'année suivant celle au cours de laquelle le contrat prend effet, l'année d'assurance commence le 1er janvier et s'achève le 31 décembre. L'échéance annuelle est fixée au 1er janvier.",
+    "tacit_renewal": true,
+    "notice_period": "Préavis de deux mois pour SMACL Assurances et de deux mois pour l'assuré, avant la date d'échéance annuelle. Lorsque le souscripteur résilie par lettre recommandée, le délai de préavis de deux mois est décompté à partir de la date d'envoi, le cachet de la poste faisant foi.",
+    "methods": [
+      "par lettre ou tout autre support durable",
+      "par déclaration faite au siège social ou chez le représentant de l'assureur",
+      "par acte extrajudiciaire",
+      "lorsque l'assureur propose la conclusion de contrat par un mode de communication à distance, par le même mode de communication",
+      "par tout autre moyen prévu par le contrat",
+      "Le destinataire confirme par écrit la réception de la notification.",
+      "La résiliation par SMACL Assurances doit être motivée et notifiée au souscripteur par lettre recommandée adressée à son dernier domicile connu."
+    ],
+    "special_rights": [
+      "26.1.1. Par le souscripteur ou ses ayants droits, en cas de décès du souscripteur.",
+      "26.1.2. En cas de résiliation par SMACL Assurances d'un autre contrat du souscripteur après sinistre (article R.113-10 du Code). Le souscripteur dispose alors d'un mois à compter de la notification par SMACL Assurances de cette résiliation pour exercer à son tour sa faculté de résilier l'ensemble de ses contrats. La résiliation par le souscripteur prend effet un mois à compter de la date de notification à SMACL Assurances.",
+      "26.1.3. En cas de résiliation du dernier contrat Assurance automobile souscrit par le souscripteur auprès de SMACL Assurances, la résiliation intervenant à la même date que celle du véhicule.",
+      "26.1.4. En cas d'application de la loi Chatel (article L.113-15-1 du Code) dans un délai de 20 jours à compter de la date d'envoi de l'avis d'échéance, le cachet de la poste faisant foi.",
+      "26.2.1. Par SMACL Assurances, en cas de non-paiement des cotisations (article L.113-3 du Code visé à l'article 27.2). Le souscripteur doit alors entièrement à SMACL Assurances, à titre d'indemnité, le restant de cotisation ou des fractions de cotisation de l'année en cours.",
+      "26.2.2. Par SMACL Assurances, en cas d'aggravation du risque (article L.113-4 du Code).",
+      "26.2.3. Par SMACL Assurances, en cas d'omission ou d'inexactitude, constatée avant tout sinistre, dans la déclaration du risque à la souscription ou en cours de contrat. La résiliation prend effet 10 jours après notification adressée à l'assuré par lettre recommandée (article L.113-9 alinéa 2 du Code).",
+      "26.2.4. Par SMACL Assurances, après sinistre : la résiliation ne peut prendre effet qu'à l'expiration d'un délai d'un mois à dater de la notification à l'assuré (article R.113-10 du Code).",
+      "26.3. De plein droit, en cas de dissolution de SMACL Assurances, la cessation du contrat prenant de plein droit effet le quarantième (40e) jour à midi, à compter de la publication au Journal officiel de la décision de l'Autorité de contrôle prudentiel et de résolution prononçant la dissolution (article L.326-12 du Code).",
+      "26.3. De plein droit, en cas de liquidation judiciaire de l'assureur (article L.113-6 du Code).",
+      "26.3. De plein droit, en cas de perte totale de la chose assurée résultant d'un évènement non prévu par le contrat (article L.121-9 du Code).",
+      "26.3. De plein droit, en cas de réquisition des biens visés par l'assurance dans les cas et conditions prévus par la réglementation en vigueur (articles L.160-6 à L.160-8 du Code).",
+      "Dans tous les cas de résiliation, au cours d'une période d'assurance, excepté le cas de résiliation pour non-paiement des cotisations, SMACL Assurances doit restituer au souscripteur la portion de cotisation afférente à la période pendant laquelle les risques ne sont plus garantis ; période calculée à compter de la date d'effet de la résiliation."
+    ],
+    "page": 11
+  },
+  "prescription_period": {
+    "description": "Article 23 - Conformément à l'article L.114-1 du Code, toutes actions dérivant d'un contrat d'assurance sont prescrites par deux (2) ans à compter de l'événement qui y donne naissance. Par exception : les actions relatives à des dommages résultant de mouvements de terrain consécutifs à la sécheresse-réhydratation des sols, reconnus comme une catastrophe naturelle dans les conditions prévues à l'article L. 125-1, sont prescrites par cinq (5) ans à compter de l'événement qui y donne naissance ; la prescription est portée à dix (10) ans dans les contrats d'assurance contre les accidents atteignant les personnes, lorsque les bénéficiaires sont les ayants droit de l'assuré décédé. Toutefois, ce délai ne court : en cas de réticence, omission, déclaration fausse ou inexacte sur le risque couru, que du jour où l'assureur en a eu connaissance ; en cas de sinistre, que du jour où les intéressés en ont eu connaissance, s'ils prouvent qu'ils l'ont ignoré jusque-là. Quand l'action de l'assuré contre l'assureur a pour cause le recours d'un tiers, le délai de la prescription ne court que du jour où ce tiers a exercé une action en justice contre l'assuré ou a été indemnisé par ce dernier. Conformément à l'article L. 114-2 du Code, la prescription peut être interrompue par une des causes ordinaires d'interruption que sont : la demande en justice, même en référé, même portée devant une juridiction incompétente ou annulée par l'effet d'un vice de procédure (article 2241 du Code civil) - l'interruption résultant de la demande en justice produit ses effets jusqu'à l'extinction de l'instance (article 2242 du Code civil), en revanche l'interruption est non avenue si le demandeur se désiste de sa demande ou laisse périmer l'instance, ou si sa demande est définitivement rejetée (article 2243 du Code civil) ; une mesure conservatoire prise en application du Code des procédures civiles d'exécution ou un acte d'exécution forcée (article 2244 du Code civil) ; la reconnaissance par l'assureur du droit à garantie de l'assuré, ou la reconnaissance de dette de l'assuré envers l'assureur (article 2240 du Code civil). Elle peut également être interrompue dans les cas ci-après : la désignation d'experts à la suite d'un sinistre ; l'envoi d'une lettre recommandée ou d'un envoi recommandé électronique, avec accusé de réception, adressés par SMACL Assurances au souscripteur en ce qui concerne le paiement de la cotisation ou par l'assuré à SMACL Assurances en ce qui concerne le règlement de l'indemnité.",
+    "page": 10
+  },
+  "premium": {
+    "notes": [
+      "27.1. Le montant de la cotisation annuelle ainsi que les frais et taxes y afférents sont portés à la connaissance du souscripteur au moyen d'un avis d'échéance. Cet avis reproduit le montant de la cotisation déterminé conformément aux tarifs établis pour l'exercice considéré.",
+      "La cotisation annuelle est exigible par SMACL Assurances à la date d'échéance mentionnée aux conditions particulières.",
+      "27.2. Conformément à l'article L.113-3 du Code, à défaut de paiement d'une cotisation, ou d'une fraction de cotisation dans les dix (10) jours de son échéance (sauf disposition contractuelle plus favorable), SMACL Assurances peut, indépendamment de son droit de poursuivre l'exécution du contrat en justice, suspendre la garantie trente (30) jours après l'envoi d'une lettre recommandée mettant en demeure le souscripteur de payer la cotisation échue.",
+      "Cette lettre recommandée, adressée au dernier domicile connu du souscripteur, indiquera qu'elle est envoyée à titre de mise en demeure, rappellera le montant et la date d'échéance de la cotisation et reproduira l'article L.113-3 du Code.",
+      "À défaut de paiement dans les trente (30) jours suivant la date d'envoi de la lettre recommandée de mise en demeure, la garantie sera suspendue à l'issue de ce délai.",
+      "SMACL Assurances a le droit de résilier le contrat dix (10) jours après l'expiration du délai de trente (30) jours visé ci-dessus, par notification faite au souscripteur, soit dans la lettre recommandée de mise en demeure, soit par une nouvelle lettre recommandée.",
+      "La suspension de la garantie ou la résiliation pour non-paiement de la cotisation ne dispense pas le souscripteur de l'obligation de payer les cotisations échues.",
+      "Lorsque le paiement de la cotisation est fractionné, tout impayé ou retard de paiement d'une des fractions entraînera, de plein droit, l'exigibilité immédiate de la totalité des fractions de la cotisation dues au titre de l'année d'assurance en cours."
+    ],
+    "indexation": null,
+    "page": 12
+  },
+  "special_conditions": [
+    {
+      "name": "Préambule - textes applicables et substitution à la garantie protection du conducteur",
+      "description": "Le présent contrat est régi par le Code des assurances ci-après dénommé « le Code » ainsi que par les présentes conditions générales et par les conditions particulières. Le contrat Assurance du conducteur se substitue intégralement aux dispositions intégrées dans le contrat Assurance automobile concernant la garantie protection du conducteur. Ce contrat Assurance du conducteur ne peut se cumuler avec la garantie protection du conducteur intégrée dans le contrat Assurance automobile au bénéfice du conducteur victime d'un accident.",
+      "page": 5
+    },
+    {
+      "name": "Article 6 - Usage du véhicule",
+      "description": "6.1. Si le véhicule est assuré à SMACL Assurances, la garantie est acquise : 6.1.1. au souscripteur, à son conjoint non divorcé ni séparé de corps ou son concubin notoire ou lié par un pacte civil de solidarité (PACS), à ses/leurs enfants : en toutes circonstances, quel que soit l'usage du véhicule déclaré au contrat ; 6.1.2. au conducteur défini à l'article 4.1. : lorsque le véhicule est utilisé pour un usage conforme à celui déclaré au contrat garantissant ledit véhicule. 6.2. Si le véhicule n'est pas assuré à SMACL Assurances, la garantie est acquise au souscripteur, à son conjoint non divorcé ni séparé de corps ou son concubin notoire ou lié par un pacte civil de solidarité (PACS), à ses/leurs enfants fiscalement à charge : en toutes circonstances, quel que soit l'usage du véhicule déclaré au contrat.",
+      "page": 6
+    },
+    {
+      "name": "Article 7 - Territorialité de la garantie",
+      "description": "Article 7 - En cas d'usage d'un véhicule assuré par SMACL Assurances, la garantie s'exerce en France métropolitaine, dans les départements et régions d'outre-mer, dans les pays de la Communauté économique européenne, à Monaco et Andorre, ainsi que dans les pays dont la mention n'a pas été rayée au recto de la carte internationale d'assurance, dite « carte verte », délivrée par SMACL Assurances. En cas d'usage d'un véhicule non assuré par SMACL Assurances, la garantie n'est accordée dans les pays visés au présent article que lors de séjours touristiques de moins de deux mois consécutifs.",
+      "page": 6
+    },
+    {
+      "name": "Limite contractuelle d'indemnité",
+      "description": "La limite contractuelle d'indemnité maximale par sinistre est fixée à 1 million d'euros tous postes de préjudice confondus sans toutefois déroger aux sous-limites par garantie précisées ci-après. Tableau récapitulatif : « Tous dommages confondus (sans pouvoir dépasser les sous-limites suivantes) : 1 000 000 € ».",
+      "page": 7
+    },
+    {
+      "name": "Tableau n°1 - Valeur du point pour la détermination du déficit fonctionnel permanent",
+      "description": "L'âge à prendre en considération est celui de l'assuré à la date de consolidation. De même, la valeur du point de l'invalidité est celle qui résulte du tableau en vigueur à la date de consolidation de la victime. Tableau n°1 - Valeur du point pour la détermination du déficit fonctionnel permanent (article 9.2.1.). Colonnes par tranche d'âge à la date de consolidation : Moins de 20 ans / 20 à 39 ans / 40 à 49 ans / 50 à 59 ans / 60 à 69 ans / 70 ans et plus. Taux d'invalidité 0 à 5 % : Moins de 20 ans = Néant, 20 à 39 ans = Néant, 40 à 49 ans = Néant, 50 à 59 ans = Néant, 60 à 69 ans = Néant, 70 ans et plus = Néant ; Taux d'invalidité 6 % : Moins de 20 ans = 1 005 €, 20 à 39 ans = 1 001 €, 40 à 49 ans = 936 €, 50 à 59 ans = 888 €, 60 à 69 ans = 783 €, 70 ans et plus = 663 € ; Taux d'invalidité 7 % : Moins de 20 ans = 1 055 €, 20 à 39 ans = 1 060 €, 40 à 49 ans = 989 €, 50 à 59 ans = 937 €, 60 à 69 ans = 811 €, 70 ans et plus = 674 € ; Taux d'invalidité 8 % : Moins de 20 ans = 1 103 €, 20 à 39 ans = 1 118 €, 40 à 49 ans = 1 042 €, 50 à 59 ans = 985 €, 60 à 69 ans = 838 €, 70 ans et plus = 685 € ; Taux d'invalidité 9 % : Moins de 20 ans = 1 151 €, 20 à 39 ans = 1 176 €, 40 à 49 ans = 1 094 €, 50 à 59 ans = 1 033 €, 60 à 69 ans = 865 €, 70 ans et plus = 697 € ; Taux d'invalidité 10 % : Moins de 20 ans = 1 290 €, 20 à 39 ans = 1 200 €, 40 à 49 ans = 1 150 €, 50 à 59 ans = 1 050 €, 60 à 69 ans = 900 €, 70 ans et plus = 825 € ; Taux d'invalidité 11 à 15% : Moins de 20 ans = 1 480 €, 20 à 39 ans = 1 360 €, 40 à 49 ans = 1 200 €, 50 à 59 ans = 1 100 €, 60 à 69 ans = 1 000 €, 70 ans et plus = 900 € ; Taux d'invalidité 16 à 20 % : Moins de 20 ans = 1 670 €, 20 à 39 ans = 1 540 €, 40 à 49 ans = 1 350 €, 50 à 59 ans = 1 275 €, 60 à 69 ans = 1 100 €, 70 ans et plus = 975 € ; Taux d'invalidité 21 à 25 % : Moins de 20 ans = 1 860 €, 20 à 39 ans = 1 720 €, 40 à 49 ans = 1 500 €, 50 à 59 ans = 1 350 €, 60 à 69 ans = 1 200 €, 70 ans et plus = 1 050 € ; Taux d'invalidité 26 à 30 % : Moins de 20 ans = 2 050 €, 20 à 39 ans = 1 900 €, 40 à 49 ans = 1 650 €, 50 à 59 ans = 1 475 €, 60 à 69 ans = 1 300 €, 70 ans et plus = 1 125 € ; Taux d'invalidité 31 à 35 % : Moins de 20 ans = 2 240 €, 20 à 39 ans = 2 080 €, 40 à 49 ans = 1 800 €, 50 à 59 ans = 1 600 €, 60 à 69 ans = 1 400 €, 70 ans et plus = 1 200 € ; Taux d'invalidité 36 à 40 % : Moins de 20 ans = 2 430 €, 20 à 39 ans = 2 260 €, 40 à 49 ans = 1 950 €, 50 à 59 ans = 1 725 €, 60 à 69 ans = 1 500 €, 70 ans et plus = 1 275 € ; Taux d'invalidité 41 à 45 % : Moins de 20 ans = 2 620 €, 20 à 39 ans = 2 440 €, 40 à 49 ans = 2 100 €, 50 à 59 ans = 1 850 €, 60 à 69 ans = 1 600 €, 70 ans et plus = 1 350 € ; Taux d'invalidité 46 à 50 % : Moins de 20 ans = 2 810 €, 20 à 39 ans = 2 620 €, 40 à 49 ans = 2 250 €, 50 à 59 ans = 1 975 €, 60 à 69 ans = 1 700 €, 70 ans et plus = 1 425 € ; Taux d'invalidité 51 à 55 % : Moins de 20 ans = 3 000 €, 20 à 39 ans = 2 800 €, 40 à 49 ans = 2 400 €, 50 à 59 ans = 2 100 €, 60 à 69 ans = 1 800 €, 70 ans et plus = 1 500 € ; Taux d'invalidité 56 à 60 % : Moins de 20 ans = 3 190 €, 20 à 39 ans = 2 980 €, 40 à 49 ans = 2 550 €, 50 à 59 ans = 2 225 €, 60 à 69 ans = 1 900 €, 70 ans et plus = 1 575 € ; Taux d'invalidité 61 à 65 % : Moins de 20 ans = 3 380 €, 20 à 39 ans = 3 160 €, 40 à 49 ans = 2 700 €, 50 à 59 ans = 2 350 €, 60 à 69 ans = 2 000 €, 70 ans et plus = 1 650 € ; Taux d'invalidité 66 à 70 % : Moins de 20 ans = 3 570 €, 20 à 39 ans = 3 340 €, 40 à 49 ans = 2 850 €, 50 à 59 ans = 2 475 €, 60 à 69 ans = 2 100 €, 70 ans et plus = 1 725 € ; Taux d'invalidité 71 à 75 % : Moins de 20 ans = 3 760 €, 20 à 39 ans = 3 520 €, 40 à 49 ans = 3 000 €, 50 à 59 ans = 2 600 €, 60 à 69 ans = 2 200 €, 70 ans et plus = 1 800 € ; Taux d'invalidité 76 à 80 % : Moins de 20 ans = 3 950 €, 20 à 39 ans = 3 700 €, 40 à 49 ans = 3 150 €, 50 à 59 ans = 2 725 €, 60 à 69 ans = 2 300 €, 70 ans et plus = 1 875 € ; Taux d'invalidité 81 à 85 % : Moins de 20 ans = 4 140 €, 20 à 39 ans = 3 880 €, 40 à 49 ans = 3 300 €, 50 à 59 ans = 2 850 €, 60 à 69 ans = 2 400 €, 70 ans et plus = 1 950 € ; Taux d'invalidité 86 à 90 % : Moins de 20 ans = 4 330 €, 20 à 39 ans = 4 060 €, 40 à 49 ans = 3 450 €, 50 à 59 ans = 2 975 €, 60 à 69 ans = 2 500 €, 70 ans et plus = 2 025 € ; Taux d'invalidité 91 à 95 % : Moins de 20 ans = 4 520 €, 20 à 39 ans = 4 240 €, 40 à 49 ans = 3 600 €, 50 à 59 ans = 3 100 €, 60 à 69 ans = 2 600 €, 70 ans et plus = 2 100 € ; Taux d'invalidité 96 à 100 % : Moins de 20 ans = 4 710 €, 20 à 39 ans = 4 420 €, 40 à 49 ans = 3 750 €, 50 à 59 ans = 3 225 €, 60 à 69 ans = 2 700 €, 70 ans et plus = 2 175 €",
+      "page": 14
+    },
+    {
+      "name": "Tableau n°2 - Indemnisation du préjudice esthétique permanent et/ou des souffrances endurées",
+      "description": "Tableau n°2 - Indemnisation du préjudice esthétique permanent et/ou des souffrances endurées selon leur qualification à la date de consolidation des blessures (articles 10.2 et 11.3 des conditions générales). Niveau de gravité / Montant en euros : 1  (très léger) = Néant ; 1,5  (très léger à léger) = Néant ; 2  (léger) = Néant ; 2,5  (léger à modéré) = Néant ; 3  (modéré) = 4 000 € ; 3,5  (modéré à moyen) = 6 000 € ; 4  (moyen) = 8 000 € ; 4,5  (moyen à assez important) = 11 500 € ; 5  (assez important) = 15 000 € ; 5,5  (assez important à important) = 20 000 € ; 6  (important) = 25 000 € ; 6,5  (important à très important) = 27 500 € ; 7  (très important) = 30 000 €.",
+      "page": 14
+    },
+    {
+      "name": "Tableau n°3 - Indemnisation du préjudice d'agrément",
+      "description": "Tableau n°3 - Indemnisation du préjudice d'agrément à la date de consolidation des blessures (article 12 des conditions générales). Taux d'invalidité / Préjudice d'agrément en euros : 0 à 9 % = Néant ; 10 à 20 % = 1 000 € ; 21 à 30 % = 3 000 € ; 31 à 50 % = 5 000 € ; 51 à 75 % = 10 000 € ; 76 à 100 % = 15 000 €.",
+      "page": 15
+    },
+    {
+      "name": "Tableau récapitulatif des garanties",
+      "description": "Garanties / Plafond des garanties par sinistre / Franchises. Tous dommages confondus (sans pouvoir dépasser les sous-limites suivantes) : 1 000 000 €. En cas de blessures du conducteur - Frais et perte avant consolidation : Dépenses de santé actuelles = Frais réels, Frais divers = 5 000 €, Pertes de gains professionnels actuels = 10 000 €, franchise : Sans franchise. Déficit fonctionnel permanent et tierce personne = À hauteur de la limite contractuelle « Tous dommages confondus », franchise : Indemnité versée à partir de 6 % d'invalidité. Préjudice esthétique permanent = Dans la limite de 30 000 €, franchise : Indemnité versée à partir d'un préjudice qualifié à 3/7 sur l'échelle de gravité contractuelle. Souffrances endurées = Dans la limite de 30 000 €, franchise : Indemnité versée à partir d'un préjudice qualifié à 3/7 sur l'échelle de gravité contractuelle. Préjudice d'agrément = Dans la limite de 15 000 €, franchise : Indemnité versée à partir de 10 % d'invalidité. Frais de logement adapté et frais de véhicule adapté = Dans la limite de 10 000 €, franchise : Indemnité versée à partir de 10 % d'invalidité. Assistance psychologique = De 1 à 5 entretiens téléphoniques individuels avec un psychologue et, si nécessaire, de 1 à 3 entretiens en face à face avec un psychologue, franchise : Sans franchise. En cas de décès du conducteur - Frais d'obsèques = 3 000 €, Sans franchise. Capital décès = 50 000 €, Sans franchise.",
+      "page": 15
+    },
+    {
+      "name": "Article 22 - Subrogation",
+      "description": "Conformément aux articles L.131-2 et L.211-25 du Code, SMACL Assurances est subrogée jusqu'à concurrence des sommes payées par elle, dans les droits et actions de l'assuré contre tout responsable. Cette subrogation s'étend aux sommes allouées en vertu des articles 700 du CPC (Code de procédure civile), ou 475-1 du CPP (Code de procédure pénale), au titre des frais et dépens tels que précisés à l'article 695 du CPC et aux articles équivalents du CPP, ainsi qu'au titre des frais non compris dans les dépens. SMACL Assurances a seule le droit, dans la limite de sa garantie, de transiger avec les personnes responsables.",
+      "page": 10
+    },
+    {
+      "name": "Article 28 - Protection des données personnelles",
+      "description": "SMACL Assurances et SMACL Assurances SA, en qualité de responsables conjoint de traitement, recueillent et utilisent les données personnelles des représentants et correspondants de la personne morale souscriptrice, ainsi que des assurés, dans le cadre de la gestion et de l'exécution du contrat. Ces données sont destinées aux services habilités des assureurs, à leurs prestataires et réassureurs, ainsi qu'aux organismes sociaux, professionnels ou autres organismes d'assurance impliqués dans la gestion du sinistre. Les données relatives à l'état de santé peuvent être collectées et traitées pour la mise en œuvre des garanties. Les données sont conservées pendant la durée de la vie du contrat et de règlement des sinistres, augmentée des délais de prescription légale. Les droits d'accès, de rectification, d'opposition, de portabilité et de suppression s'exercent auprès de SMACL Assurances SA - Délégué à la protection des données - 141, avenue Salvador-Allende - CS 20000 - 79031 NIORT CEDEX 9 ou par email à protectiondesdonnees@smacl.fr. Information détaillée : espace « Données personnelles » sur smacl.fr (https://www.smacl.fr/donnees-personnelles).",
+      "page": 12
+    },
+    {
+      "name": "Article 29 - Lutte contre la fraude, le blanchiment d'argent et le financement du terrorisme",
+      "description": "29.1. Lutte contre la fraude : SMACL Assurances met en œuvre, dans le respect de la réglementation en vigueur, un dispositif de lutte contre la fraude pouvant conduire à l'inscription du souscripteur et/ou de l'assuré sur une liste de personnes présentant un risque de fraude ainsi qu'à l'adoption de décisions produisant des effets juridiques (non indemnisation, action en justice, etc.). 29.2. Lutte contre le blanchiment des capitaux et le financement du terrorisme : SMACL Assurances est tenue de procéder à l'identification de l'identité du souscripteur et/ou de l'assuré et, le cas échéant, de ses/leurs bénéficiaires effectifs. En cas de soupçon ou de détection d'une opération suspecte ou inhabituelle, SMACL Assurances doit procéder à la vérification des éléments d'identification et exercer une vigilance constante ; des mesures de vigilance complémentaires s'appliquent aux personnes politiquement exposées définies à l'article R.561-18 du Code monétaire et financier. SMACL Assurances est également tenue de déclarer à Tracfin les opérations portant sur des sommes dont elle sait, soupçonne ou a de bonnes raisons de soupçonner qu'elles proviennent d'une infraction passible d'une peine privative de liberté supérieure à un an ou sont liées au financement du terrorisme. SMACL Assurances peut aussi être obligée d'appliquer certaines mesures déterminées par les autorités publiques, susceptibles de conduire à des retards ou des refus d'exécution des garanties prévues au contrat d'assurance.",
+      "page": 13
+    },
+    {
+      "name": "Article 32 - Contrôle de l'assureur",
+      "description": "L'autorité chargée du contrôle de l'assureur tel que défini par le présent contrat, est l'Autorité de contrôle prudentiel et de résolution (ACPR), 4, Place de Budapest, CS 92459, 75436 PARIS Cedex 9.",
+      "page": 13
+    },
+    {
+      "name": "Porteur du risque - dénomination sociale complète (dos de couverture)",
+      "description": "SMACL ASSURANCES SA - Société anonyme au capital de 260 071 379,48 euros, entreprise régie par le Code des assurances, RCS Niort n° 833817224. Siège social : 141, avenue Salvador-Allende - CS 20000 - 79031 NIORT CEDEX 9.",
+      "page": 16
+    },
+    {
+      "name": "Coordonnées de l'assureur",
+      "description": "Nous sommes à votre écoute : 05 49 32 20 96 (prix d'un appel local), du lundi au vendredi de 8 h 30 à 18 h 00. Espace assuré smacl.fr. 141, avenue Salvador-Allende, CS 20000 - 79031 NIORT CEDEX 9. particuliers@smacl.fr - 05 49 32 56 56 (prix d'un appel local).",
+      "page": 16
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Le contrat Assurance du conducteur se substitue \nintégralement aux dispositions intégrées dans le \ncontrat Assurance automobile concernant la garantie \nprotection du conducteur. Ce contrat Assurance \ndu conducteur ne peut se cumuler avec la garantie \nprotection du conducteur intégrée dans le contrat \nAssurance automobile au bénéfice du conducteur \nvictime d’un accident.",
+      "context": "Préambule - substitution et non-cumul avec la garantie protection du conducteur",
+      "page": 5
+    },
+    {
+      "quote": "En cas d’accident corporel de la circulation résultant \nde l’usage d’un véhicule terrestre à moteur soumis à \nl’obligation d’assurance, à l’exclusion des véhicules de \ntransport public de personnes, la garantie a pour objet \nd’indemniser le préjudice corporel subi par le conducteur en \ncas de blessures, ou le préjudice subi par les bénéficiaires \ndésignés à l’article 5 en cas de décès du conducteur.",
+      "context": "Article 1 - objet de la garantie",
+      "page": 5
+    },
+    {
+      "quote": "Les indemnités garanties ne peuvent se cumuler au profit \nd’une même personne ni avec des prestations à caractère \nindemnitaire qui lui seraient dues par la Sécurité sociale \nou tout autre régime de prévoyance collective ou au \ntitre d’un statut ou d’une convention collective, ni avec \nd’autres indemnités qui, réparant les mêmes postes de \npréjudice, lui seraient dues par SMACL Assurances.",
+      "context": "Article 1 - non-cumul des indemnités",
+      "page": 5
+    },
+    {
+      "quote": "Le présent contrat peut être souscrit par toute personne \nphysique dont au moins un véhicule terrestre à moteur \nest assuré par SMACL Assurances.",
+      "context": "Article 3 - définition du souscripteur (personne physique)",
+      "page": 5
+    },
+    {
+      "quote": "SMACL Assurances SA.",
+      "context": "Définitions complémentaires - « Assureur : SMACL Assurances SA. »",
+      "page": 6
+    },
+    {
+      "quote": "Valeur plancher en deçà de laquelle les garanties ne sont \npas acquises.",
+      "context": "Définitions complémentaires - seuil d'intervention",
+      "page": 6
+    },
+    {
+      "quote": "En cas d’usage d’un véhicule non assuré par SMACL \nAssurances, la garantie n’est accordée dans les pays \nvisés au présent article que lors de séjours touristiques \nde moins de deux mois consécutifs.",
+      "context": "Article 7 - territorialité pour un véhicule non assuré par SMACL Assurances",
+      "page": 6
+    },
+    {
+      "quote": "Seuls les postes de préjudice limitativement énumérés \nci-dessous sont garantis lorsqu’ils sont directement \nimputables à un accident garanti.",
+      "context": "Partie 2 - caractère limitatif des postes de préjudice garantis",
+      "page": 7
+    },
+    {
+      "quote": "La limite contractuelle d’indemnité maximale par sinistre \nest fixée à 1 million d’euros tous postes de préjudice \nconfondus sans toutefois déroger aux sous-limites par \ngarantie précisées ci-après.",
+      "context": "Partie 2 - limite contractuelle de 1 million d'euros par sinistre",
+      "page": 7
+    },
+    {
+      "quote": "La garantie est accordée dans la limite d’un plafond \ncontractuel de 5 000 euros.",
+      "context": "Article 8.2 - plafond des frais divers",
+      "page": 7
+    },
+    {
+      "quote": "Sont exclus de cette garantie les frais et honoraires \nd’assistance ou de conseil (tels que médecins, avocats, \nmandataires).",
+      "context": "Article 8.2 - exclusion des frais et honoraires d'assistance ou de conseil",
+      "page": 7
+    },
+    {
+      "quote": "Lorsque le taux d’invalidité subsistant après consolidation \nest supérieur à 5 %, l’indemnité est égale au produit du \ntaux constaté à la date de consolidation de l’état de santé \nde la victime par la valeur du point indiquée au tableau n° 1 \nen annexe. L’âge pris en considération est celui de l’assuré \nà la date de consolidation des blessures.",
+      "context": "Article 9.2.1 - calcul de l'indemnité du déficit fonctionnel permanent",
+      "page": 7
+    },
+    {
+      "quote": "Aucune indemnité n’est versée lorsque le taux d’invalidité \nest inférieur à 6 %.",
+      "context": "Article 9.2.1 - seuil de 6 % d'invalidité",
+      "page": 7
+    },
+    {
+      "quote": "Lorsque le recours à l’assistance d’une tierce personne \nest reconnu nécessaire au moins 3 heures par jour, par \nle médecin expert, l’indemnité due au titre du déficit \nfonctionnel permanent est majorée de 2 % par heure de \ntierce personne nécessaire par jour. La majoration de 2 % \nest alors applicable dès la première heure.",
+      "context": "Article 9.2.1 - majoration pour tierce personne",
+      "page": 7
+    },
+    {
+      "quote": "Lorsque le préjudice esthétique permanent a donné lieu à \nune qualification supérieure ou égale à modéré (degré 3 \ndans l’échelle de gravité de 1 à 7), il sera versé à l’assuré \nune indemnité déterminée en application des éléments \nfigurant au tableau n° 2 en annexe.",
+      "context": "Article 10.2 - indemnisation du préjudice esthétique permanent",
+      "page": 8
+    },
+    {
+      "quote": "Lorsque les souffrances endurées sont qualifiées de 3 à 7, \nle montant de l’indemnité est déterminé selon le tableau \nn° 2 en annexe.",
+      "context": "Article 11.2 - indemnisation des souffrances endurées",
+      "page": 8
+    },
+    {
+      "quote": "Cette garantie vise exclusivement à réparer le préjudice \nd’agrément lié à l’impossibilité pour la victime de \npratiquer régulièrement une activité spécifique sportive \nou de loisirs.",
+      "context": "Article 12.1 - définition du préjudice d'agrément",
+      "page": 8
+    },
+    {
+      "quote": "Suite à un accident corporel de la circulation lié à \nl’utilisation d’un véhicule occasionnant des blessures au \nconducteur assuré, SMACL Assistance prendra en charge",
+      "context": "Article 14 - assistance psychologique prise en charge par SMACL Assistance",
+      "page": 8
+    },
+    {
+      "quote": "La garantie est délivrée sur justificatifs des frais réels \nengagés dans la limite d’un plafond de 3 000 euros.",
+      "context": "Article 15 - plafond des frais d'obsèques",
+      "page": 9
+    },
+    {
+      "quote": "Le montant global de l’indemnité est de 50 000 euros quel \nque soit le nombre de bénéficiaires.",
+      "context": "Article 16 - capital décès",
+      "page": 9
+    },
+    {
+      "quote": "SMACL Assurances ne garantit pas les dommages :",
+      "context": "Article 18 - chapeau des exclusions",
+      "page": 9
+    },
+    {
+      "quote": "Survenus alors que le conducteur du véhicule \nn’a pas l’âge requis ou n’est pas titulaire de la licence, \ndu permis ou des certificats de capacité exigés par la \nlégislation en vigueur et en état de validité.",
+      "context": "Article 18.5 - exclusion défaut de permis",
+      "page": 9
+    },
+    {
+      "quote": "Survenus lorsqu’au moment du sinistre, le \nconducteur se trouve sous l’empire d’un état alcoolique \ncaractérisé par une concentration d’alcool supérieure \nau taux légal en vigueur fixé par les articles L.234-1 \net R.234-1 du Code de la route, ou sous l’emprise de \nstupéfiants au sens de l’article L.235-1 du même code, \nou refuse de se soumettre aux tests de dépistage.",
+      "context": "Article 18.9 - exclusion alcool et stupéfiants",
+      "page": 9
+    },
+    {
+      "quote": "Sauf cas fortuit ou de force majeure, l’assuré ou le \nbénéficiaire est tenu de déclarer tout évènement \nsusceptible de mettre en jeu la garantie, dans les cinq jours \nde la date à laquelle il en a eu connaissance.",
+      "context": "Article 19 - délai de déclaration du sinistre de cinq jours",
+      "page": 10
+    },
+    {
+      "quote": "Conformément à l’article L.114-1 du Code, toutes actions \ndérivant d’un contrat d’assurance sont prescrites par deux \n(2) ans à compter de l’événement qui y donne naissance.",
+      "context": "Article 23 - prescription biennale",
+      "page": 10
+    },
+    {
+      "quote": "Le contrat est reconduit automatiquement par tacite \nreconduction, par période annuelle, sauf dénonciation \nannuelle par l’une ou l’autre des parties dans les formes \net conditions prévues à l’article 26, moyennant un préavis \nde deux mois pour SMACL Assurances et de deux mois \npour l’assuré, avant la date d’échéance annuelle.",
+      "context": "Article 25 - tacite reconduction et préavis",
+      "page": 11
+    },
+    {
+      "quote": "Conformément à l’article L.113-3 du Code, à défaut de \npaiement d’une cotisation, ou d’une fraction de cotisation \ndans les dix (10) jours de son échéance (sauf disposition \ncontractuelle plus favorable), SMACL Assurances peut, \nindépendamment de son droit de poursuivre l’exécution \ndu contrat en justice, suspendre la garantie trente (30) \njours après l’envoi d’une lettre recommandée mettant en \ndemeure le souscripteur de payer la cotisation échue.",
+      "context": "Article 27.2 - suspension de garantie pour non-paiement",
+      "page": 12
+    },
+    {
+      "quote": "L’autorité chargée du contrôle de l’assureur tel que défini \npar le présent contrat, est l’Autorité de contrôle prudentiel \net de résolution (ACPR), 4, Place de Budapest, CS 92459, \n75436 PARIS Cedex 9.",
+      "context": "Article 32 - autorité de contrôle (ACPR)",
+      "page": 13
+    },
+    {
+      "quote": "L’âge à prendre en considération est celui de l’assuré à la date de consolidation. De même, la valeur du point de l’invalidité \nest celle qui résulte du tableau en vigueur à la date de consolidation de la victime.",
+      "context": "Tableau n°1 - règle d'application de la valeur du point",
+      "page": 14
+    },
+    {
+      "quote": "SMACL ASSURANCES SA - Société anonyme au capital de 260 071 379,48 euros, entreprise régie par le Code des\nassurances, RCS Niort n° 833817224.",
+      "context": "Dénomination sociale complète imprimée au dos de couverture",
+      "page": 16
+    }
+  ],
+  "gaps": [
+    "PORTEUR DE RISQUE : le document le nomme par une définition explicite, section « C - DÉFINITIONS COMPLÉMENTAIRES » page 6 : « Assureur : SMACL Assurances SA. » Le dos de couverture confirme : « SMACL ASSURANCES SA - Société anonyme au capital de 260 071 379,48 euros, entreprise régie par le Code des assurances, RCS Niort n° 833817224. » À SIGNALER AU RELECTEUR : ce n'est pas la même personne morale que dans la convention d'assistance aux véhicules du même assureur, qui définit « Assureur : SMACL Assurances » et porte au dos « SMACL ASSURANCES - Société d'assurance mutuelle à cotisations fixes … RCS Niort n° 301 309 605 ». Deux entités, deux numéros RCS ; la lecture repose ici sur la définition imprimée, pas sur une heuristique de forme juridique. Le corps du contrat écrit partout « SMACL Assurances » sans « SA », et l'article 28 nomme les deux entités côte à côte (« SMACL Assurances et SMACL Assurances SA, en qualité de responsables conjoint de traitement »), ce qui prouve qu'elles sont distinctes. insurer_name conserve la forme canonique « SMACL Assurances » (métadonnées de la tâche et convention du corpus) ; la dénomination sociale complète est préservée dans special_conditions, dans les key_quotes et ici.",
+    "UNE GARANTIE EST PORTÉE PAR UN AUTRE INTERVENANT : l'article 14 (Assistance psychologique) énonce que « SMACL Assistance prendra en charge » les entretiens avec un psychologue clinicien - toutes les autres garanties sont servies par SMACL Assurances. La formulation du document est conservée telle quelle et signalée dans les conditions de cette garantie. Aucun gestionnaire de sinistres, courtier ou mandataire tiers n'est nommé par ailleurs.",
+    "Vérification de l'inversion de colonnes (piège mesuré sur ce corpus) : NÉGATIVE sur le corps du contrat, comptes fermés. Les pages 5 à 13 sont sur deux colonnes ; le contrôle automatique donne exactement UN basculement de colonne par page (colonne gauche complète de haut en bas, puis colonne droite), l'ordre vertical étant respecté à l'intérieur de chaque colonne ; le seul élément hors séquence est le folio du pied de page.",
+    "TABLEAUX ANNEXES - reconstruits par coordonnées, pas lus dans l'ordre du texte plat. Les pages 14 et 15 ne sont pas sur deux colonnes mais portent quatre tableaux, et le contrôle automatique y relève 8 et 23 basculements : le texte plat y émet les valeurs colonne par colonne, séparées de leurs libellés de ligne. Chaque tableau a donc été reconstruit en regroupant les lignes par ordonnée et les cellules par abscisse de centre. Tableau n°1 (valeur du point) : 7 colonnes détectées aux abscisses de centre 87 / 159 / 227 / 296 / 368 / 430 / 504, soit la colonne des taux d'invalidité et 6 colonnes d'âge ; 24 lignes de taux ; arithmétique fermée à 24 × 6 = 144 cellules, toutes remplies (6 « Néant » sur la ligne 0 à 5 % et 138 montants). Tableau n°2 : 13 lignes × 1 colonne de montants, 4 « Néant » et 9 montants. Tableau n°3 : 6 lignes, 1 « Néant » et 5 montants. Tableau récapitulatif : 3 colonnes (Garanties / Plafond des garanties par sinistre / Franchises) aux abscisses de centre 118 / 306 / 462. La lecture géométrique concorde avec l'ordre du texte plat dans les quatre cas - c'est un résultat de contrôle, pas une correction. Aucune valeur n'a été rattachée à la mauvaise tranche d'âge ni au mauvais poste de préjudice.",
+    "Défaut de la couche texte à conserver, NON corrigé : la ligature « ti » disparaît dans deux polices. La couverture (p. 1) donne « Partculiers » pour Particuliers ; le dos de couverture (p. 16) donne « partculiers@smacl.fr », « Concepton », « Directon » et « communicaton ». Le corps du document n'est pas touché. Les champs structurés suivent la page imprimée ; aucune key_quote ne traverse un mot mutilé.",
+    "Le sommaire (pages 3 et 4) est inutilisable comme source de citation : ses points de conduite produisent 6 257 caractères U+FFFD dans la couche texte. Aucune key_quote n'y a été prise ; son contenu (intitulés et folios des parties 1 à 4 et des tableaux annexes) a été relevé dans les champs structurés. Autres artefacts évités dans les citations : 72 caractères de contrôle U+0007 après les puces, 123 espaces demi-cadratin U+2002, 15 espaces insécables, 5 espaces fines insécables U+202F.",
+    "COQUILLES DE L'ASSUREUR, conservées telles quelles et signalées. (1) L'article 13 numérote sa première sous-partie « 12.1. - Définition » alors que la seconde est « 13.2. - Détermination de l'indemnité » : la sous-partie 12.1 existe donc deux fois dans le document, sous l'article 12 et sous l'article 13. (2) L'article 11.1 (Souffrances endurées) écrit « Le médecin expert désigné par SMACL Assurances qualifie LE PRÉJUDICE ESTHÉTIQUE PERMANENT par référence à une échelle de gravité de 1 à 7 », reprise mot pour mot de l'article 10.1 ; le contexte et l'article 11.2 montrent qu'il s'agit des souffrances endurées. Le texte du document est conservé, l'anomalie est signalée dans la description. (3) La légende du tableau n°2 renvoie aux « articles 10.2 et 11.3 des conditions générales » alors que l'article 11 ne comporte que 11.1 et 11.2. (4) L'article 28 écrit « ainsi l'assuré » pour « ainsi que l'assuré ». Aucune de ces coquilles n'a été réparée dans une citation.",
+    "CONTRADICTION INTERNE À SIGNALER sur le public visé : la couverture, l'article 3 et le dos de couverture décrivent un contrat de particulier (« Particuliers », « toute personne physique », « particuliers@smacl.fr »), tandis que l'article 28 (protection des données) parle des « représentants et correspondants de la personne morale souscriptrice ». Les deux formulations sont conservées verbatim ; target_audience retient « particuliers », sur la foi de la couverture et de l'article 3.",
+    "Deux formulations du seuil d'invalidité coexistent sans se contredire arithmétiquement, et les deux sont conservées : l'article 9.2.1 dit d'abord « Lorsque le taux d'invalidité subsistant après consolidation est supérieur à 5 % » puis « Aucune indemnité n'est versée lorsque le taux d'invalidité est inférieur à 6 % » ; le tableau n°1 porte « 0 à 5 % : Néant » et le tableau récapitulatif « Indemnité versée à partir de 6 % d'invalidité ».",
+    "Deux dates figurent sur le document : la référence en pied de sommaire porte « PP_CG_CAC_05(02_2023) » et le dos de couverture « 11/2022 - Conception : Direction de la marque et de la communication SMACL Assurances ». La ligne d'édition imprimée est ici ANTÉRIEURE à la date du code de référence. edition_date retient « 11/2022 », la ligne d'édition imprimée, conformément à la convention du reste du corpus SMACL ; le manifeste du dépôt annonce 2023-02, soit la date du code de référence.",
+    "Le symbole € survit à l'extraction : 161 occurrences, correspondant à toutes les valeurs des quatre tableaux annexes et du tableau récapitulatif. Aucun montant n'a perdu son unité. À noter que le corps du contrat écrit les plafonds en toutes lettres (« 5 000 euros », « 10 000 euros », « 3 000 euros », « 50 000 euros », « 1 million d'euros ») tandis que les tableaux les écrivent avec le symbole (« 5 000 € », « 1 000 000 € ») : les deux graphies sont reprises verbatim là où elles figurent.",
+    "La page 2 est entièrement vide (0 span, 0 dessin, 0 image) : page blanche, pas un défaut d'extraction. La page 15 porte deux fois le folio « 15 » dans la couche texte, à deux ordonnées différentes ; cela ne change rien à la numérotation. Les pages 1 et 16 (couverture et dos) contiennent des blocs image sans texte extractible ; leur contenu textuel a été relevé en entier. Sur la page 16, le bloc de coordonnées entrelace les deux colonnes (5 basculements) mais ne contient ni garantie ni exclusion.",
+    "is_extension : false. Le document se présente comme un contrat autonome (« Le présent contrat », conditions générales et conditions particulières propres, cotisation annuelle, durée et résiliation propres). Il suppose néanmoins qu'au moins un véhicule du souscripteur soit assuré par SMACL Assurances (article 3), se substitue à la garantie protection du conducteur du contrat Assurance automobile (préambule) et se résilie de plein droit à la résiliation du dernier contrat Assurance automobile (article 26.1.3). Ces dépendances sont enregistrées dans special_conditions et duration_and_cancellation plutôt que par is_extension.",
+    "Folios : les numéros imprimés en pied de page coïncident ici avec les marqueurs [[page N]] - aucun décalage, et les renvois du sommaire concordent (Partie 1 → 5, Partie 2 → 7, Partie 3 → 10, Partie 4 → 11, Tableaux annexes → 14). Vérifié par recherche d'ancre : chaque citation et chaque bloc structuré a été localisé dans le bloc [[page N]] qui le contient réellement.",
+    "Profondeur d'extraction, section par section : la Partie 1 (préambule, articles 1 à 7 et définitions complémentaires), la Partie 2 (articles 8 à 18, y compris les 9 exclusions de l'article 18), la Partie 3 (articles 19 à 23) et la Partie 4 (articles 24 à 32) ont été transcrites de façon exhaustive, ainsi que les quatre tableaux annexes cellule par cellule. Les 144 valeurs du tableau n°1 figurent dans sub_limits de la garantie « Déficit fonctionnel permanent et tierce personne » et dans special_conditions."
+  ]
+}

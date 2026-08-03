@@ -279,7 +279,9 @@ Mise à disposition d'un véhicule de remplacement pour les véhicules de moins 
 
 ## Documents liés
 
+- Extension liée : [Votre convention d'assistance Flottes entreprises poids lourds](Votre%20convention%20d%27assistance%20Flottes%20entreprises%20poids%20lourds.md)
 - [Flotte entreprises](Flotte%20entreprises.md) - Conditions générales, éd. 05/2025
+- [Votre convention d'assistance Flottes entreprises poids lourds](Votre%20convention%20d%27assistance%20Flottes%20entreprises%20poids%20lourds.md) - Conditions générales, éd. 07/2025
 
 ## Source & fidélité
 

@@ -1,0 +1,288 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "lu",
+  "insurer_slug": "baloise",
+  "insurer_name": "Baloise Luxembourg",
+  "product_name": "Assurance Solde Restant Dû",
+  "branch": "solde-restant-du",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "Le document ne désigne aucune catégorie de public. Il décrit son objet comme « rembourser le capital assuré du prêt hypothécaire en cas de décès prématuré ou invalidité de l'assuré » et ne parle que de « l'assuré » et du « preneur d'assurance ».",
+  "reference": null,
+  "edition_date": null,
+  "product_family": "Assurance Solde Restant Dû",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.baloise.lu/dam/baloise-lu/1890/particulier/documents/fiches/fiche-ipid/fr/IPID-SRD-LUFR-02-22.pdf",
+  "source_pdf": "solde-restant-du-21e07aef.pdf",
+  "source_sha256": "a1da74afd1cfa630288640f035cdd0cdde359c09ba84116f26e0ff40f1e747ce",
+  "source_pages": 2,
+  "fetched_at": "2026-08-03",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Fiche IPID de l'assurance solde restant dû adossée à un prêt hypothécaire, émise par Baloise Vie Luxembourg S.A. — l'entité nommée en tête des deux pages sous la mention « Compagnie : ». La garantie principale est le décès : au décès d'un des assurés, l'assurance rembourse le capital restant dû à la date du décès, le capital assuré étant décrit comme dégressif en fonction de la durée du contrat. Une garantie Invalidité Totale Permanente est proposée en couverture complémentaire selon le choix du client. Le document liste quatre exclusions propres à la garantie décès et neuf propres à la garantie invalidité, et indique que les garanties sont valables dans le monde entier.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Garantie principale - Décès",
+      "description": "En cas de décès d'un des assurés, l'assurance rembourse le capital restant dû à la date du décès. L'assurance peut couvrir un seul assuré ou deux assurés.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties accordées par la Compagnie sont valables dans le monde entier.",
+      "limits": "le capital restant dû à la date du décès",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "L'assurance peut couvrir un seul assuré ou deux assurés.",
+        "Il s'agit d'une assurance d'une durée limitée qui garantit le paiement d'un capital lors du décès de l'assuré si celui-ci décède avant le terme du contrat.",
+        "Le capital assuré est dégressif en fonction de la durée du contrat."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Garantie Invalidité Totale Permanente",
+      "description": "En cas d'invalidité totale et permanente d'un des assurés, l'assurance rembourse le capital restant dû.",
+      "is_optional": true,
+      "territorial_scope": "Les garanties accordées par la Compagnie sont valables dans le monde entier.",
+      "limits": "le capital restant dû",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Imprimée sous le titre « Couvertures complémentaires selon le choix du client : »."
+      ],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Le suicide de l'assuré survenu moins d'un an après la conclusion du contrat",
+      "description": "Le suicide de l'assuré survenu moins d'un an après la conclusion du contrat",
+      "applies_to": "Garantie principale - Décès",
+      "page": 1
+    },
+    {
+      "name": "L'euthanasie ou l'assistance au suicide de l'assuré",
+      "description": "L'euthanasie ou l'assistance au suicide de l'assuré",
+      "applies_to": "Garantie principale - Décès",
+      "page": 1
+    },
+    {
+      "name": "Guerre",
+      "description": "Guerre",
+      "applies_to": "Garantie principale - Décès",
+      "page": 1
+    },
+    {
+      "name": "Le fait intentionnel de l'assuré",
+      "description": "Le fait intentionnel de l'assuré",
+      "applies_to": "Garantie principale - Décès",
+      "page": 1
+    },
+    {
+      "name": "Une maladie ou un accident datant d'avant la date de prise d'effet de l'Assurance Complémentaire d'Invalidité",
+      "description": "Une maladie ou un accident datant d'avant la date de prise d'effet de l'Assurance Complémentaire d'Invalidité",
+      "applies_to": "Garantie Invalidité Totale Permanente",
+      "page": 1
+    },
+    {
+      "name": "Une tentative de suicide de l'assuré",
+      "description": "Une tentative de suicide de l'assuré",
+      "applies_to": "Garantie Invalidité Totale Permanente",
+      "page": 1
+    },
+    {
+      "name": "Un acte intentionnel de l'assuré",
+      "description": "Un acte intentionnel de l'assuré",
+      "applies_to": "Garantie Invalidité Totale Permanente",
+      "page": 1
+    },
+    {
+      "name": "La participation volontaire de l'assuré à un délit, crime ou une rixe",
+      "description": "La participation volontaire de l'assuré à un délit, crime ou une rixe",
+      "applies_to": "Garantie Invalidité Totale Permanente",
+      "page": 1
+    },
+    {
+      "name": "Guerre, guerre civile, grèves, attentats, émeutes, actes de terrorisme ou sabotage",
+      "description": "Guerre, guerre civile, grèves, attentats, émeutes, actes de terrorisme ou sabotage",
+      "applies_to": "Garantie Invalidité Totale Permanente",
+      "page": 1
+    },
+    {
+      "name": "L'alcoolisme, la toxicomanie, l'usage abusif de médicaments",
+      "description": "L'alcoolisme, la toxicomanie, l'usage abusif de médicaments",
+      "applies_to": "Garantie Invalidité Totale Permanente",
+      "page": 1
+    },
+    {
+      "name": "Accidents survenus en état d'intoxication à l'alcool, d'ivresse",
+      "description": "Accidents survenus en état d'intoxication à l'alcool, d'ivresse",
+      "applies_to": "Garantie Invalidité Totale Permanente",
+      "page": 1
+    },
+    {
+      "name": "Réactions nucléaires, radioactivité et radiations ionisantes",
+      "description": "Réactions nucléaires, radioactivité et radiations ionisantes",
+      "applies_to": "Garantie Invalidité Totale Permanente",
+      "page": 1
+    },
+    {
+      "name": "Accidents dus à des cataclysmes",
+      "description": "Accidents dus à des cataclysmes.",
+      "applies_to": "Garantie Invalidité Totale Permanente",
+      "page": 1
+    }
+  ],
+  "deductibles": null,
+  "waiting_periods": [
+    {
+      "coverage": "Garantie principale - Décès",
+      "duration": "moins d'un an après la conclusion du contrat",
+      "description": "Le document ne comporte pas de rubrique « délai d'attente ». La seule restriction temporelle qu'il énonce est formulée comme une exclusion de la garantie décès : « Le suicide de l'assuré survenu moins d'un an après la conclusion du contrat ». Elle est également enregistrée telle quelle dans exclusions.",
+      "page": 1
+    }
+  ],
+  "obligations": [
+    {
+      "name": "Déclaration du risque à la souscription",
+      "description": "Déclarer exactement toutes les circonstances et tous les éléments permettant d'apprécier le risque.",
+      "timing": "À la souscription du contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Déclaration des circonstances nouvelles en cours de contrat",
+      "description": "Déclarer les circonstances nouvelles ou les modifications de circonstances qui sont de nature à entraîner une aggravation sensible et durable du risque assuré, notamment celles portant sur : le changement d'activité professionnelle de l'assuré ; le transfert de la résidence du preneur d'assurance et de l'assuré vers un pays hors de l'Union Européenne ; le changement des activités sportives ou de loisirs pratiqués par l'assuré.",
+      "timing": "En cours de contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Pièces à communiquer en cas de décès",
+      "description": "En cas de décès de l'assuré, communiquer à la compagnie : un extrait de l'acte de décès de l'assuré ; un certificat d'un médecin établissant les circonstances et la cause du décès.",
+      "timing": "En cas de sinistre",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Pièces à communiquer en cas d'invalidité permanente totale",
+      "description": "En cas d'invalidité permanente totale de l'assuré : communiquer à la compagnie un certificat médical, avec mention de la date de début et de la cause de l'invalidité et de la nature de l'affection.",
+      "timing": "En cas de sinistre",
+      "sanction": null,
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Décès de l'assuré",
+      "description": "Communiquer à la compagnie un extrait de l'acte de décès de l'assuré et un certificat d'un médecin établissant les circonstances et la cause du décès.",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Invalidité permanente totale de l'assuré",
+      "description": "Communiquer à la compagnie un certificat médical, avec mention de la date de début et de la cause de l'invalidité et de la nature de l'affection.",
+      "deadline": null,
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Les dates d'effet et de terme de la couverture décès et éventuellement des couvertures optionnelles sont indiquées dans les conditions particulières du contrat d'assurance. Le document qualifie par ailleurs le produit d'« assurance d'une durée limitée ».",
+    "tacit_renewal": null,
+    "notice_period": null,
+    "methods": [
+      "La renonciation du contrat se fait soit par l'envoi à Baloise Vie Luxembourg S.A. d'une lettre recommandée par laquelle le preneur se libère pour l'avenir de toute obligation découlant du contrat."
+    ],
+    "special_rights": [
+      "Si vous souhaitez renoncer à votre contrat, vous devez le notifier un délai de 30 jours à compter du moment où vous êtes informé de la conclusion de celui-ci."
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "Vous devez payer la prime, vous recevez pour cela une invitation à payer selon le mode de paiement choisi."
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Entité qui porte le risque",
+      "description": "Le document nomme lui-même son porteur : la ligne d'identification en tête des deux pages porte « Compagnie : Baloise Vie Luxembourg S.A. ». La même entité est désignée en page 2 comme destinataire de la lettre recommandée de renonciation. Aucun autre intervenant (gestionnaire, courtier, assisteur) n'est nommé dans le document.",
+      "page": 1
+    },
+    {
+      "name": "Dégressivité du capital assuré",
+      "description": "Le document énonce que « Le capital assuré est dégressif en fonction de la durée du contrat » et que la prestation due au décès est « le capital restant dû à la date du décès ». Il n'emploie ni le terme « tableau d'amortissement » ni « plan d'amortissement » et ne rattache pas explicitement la dégressivité à l'échéancier du prêt.",
+      "page": 1
+    },
+    {
+      "name": "Portée du document",
+      "description": "Ce document est une fiche généralisée (et non personnalisée) résumant les informations précontractuelles et contractuelles, non exhaustives de votre police d'assurance. Les informations complètes, concernant ce produit, vous seront fournies dans d'autres documents.",
+      "page": 1
+    },
+    {
+      "name": "Disponibilité des conditions générales",
+      "description": "Les conditions générales concernant ce produit sont disponibles sur demande du client ou sur le site www.baloise.lu",
+      "page": 2
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Compagnie : Baloise Vie Luxembourg S.A.",
+      "context": "Ligne d'identification imprimée en tête des deux pages : entité qui porte le risque",
+      "page": 1
+    },
+    {
+      "quote": "Le but de l’assurance solde restant dû est de rembourser le capital assuré du prêt hypothécaire en cas de décès prématuré ou invalidité de \nl’assuré. Il s’agit d’une assurance d’une durée limitée qui garantit le paiement d’un capital lors du décès de l’assuré si celui-ci décède avant \nle terme du contrat. Le capital assuré est dégressif en fonction de la durée du contrat.",
+      "context": "Objet du produit et dégressivité du capital assuré",
+      "page": 1
+    },
+    {
+      "quote": "En cas de décès d’un des assurés, l’assurance \nrembourse le capital restant dû à la date  \ndu décès. L’assurance peut couvrir un seul  \nassuré ou deux assurés.",
+      "context": "Garantie principale - Décès",
+      "page": 1
+    },
+    {
+      "quote": "En cas d’invalidité totale et permanente  \nd’un des assurés, l’assurance rembourse  \nle capital restant dû.",
+      "context": "Garantie Invalidité Totale Permanente, imprimée sous « Couvertures complémentaires selon le choix du client »",
+      "page": 1
+    },
+    {
+      "quote": "Le suicide de l’assuré survenu moins d’un an  \naprès la conclusion du contrat",
+      "context": "Exclusion de la garantie principale - Décès",
+      "page": 1
+    },
+    {
+      "quote": "Une maladie ou un accident datant d’avant  \nla date de prise d’effet de l’Assurance \nComplémentaire d’Invalidité",
+      "context": "Exclusion de la garantie invalidité ; seul endroit où le document emploie le nom « Assurance Complémentaire d'Invalidité »",
+      "page": 1
+    },
+    {
+      "quote": "Les garanties accordées par la Compagnie sont valables dans le monde entier.",
+      "context": "Portée territoriale",
+      "page": 1
+    },
+    {
+      "quote": "Si vous souhaitez renoncer à votre contrat, vous devez le notifier un délai de 30 jours à compter du moment où vous êtes \ninformé de la conclusion de celui-ci. La renonciation du contrat se fait soit par l’envoi à Baloise Vie Luxembourg S.A. d’une \nlettre recommandée par laquelle le preneur se libère pour l’avenir de toute obligation découlant du contrat.",
+      "context": "Renonciation : délai de 30 jours et entité destinataire de la lettre recommandée",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "PORTEUR DU RISQUE — ÉTABLI, ET LU DANS LE DOCUMENT. Le document nomme lui-même son porteur : « Compagnie : Baloise Vie Luxembourg S.A. », ligne d'identification imprimée en tête de la page 1 ET de la page 2. La même entité est nommée une troisième fois en page 2 comme destinataire de la lettre recommandée de renonciation. Aucun autre intervenant n'est nommé nulle part dans le document (ni gestionnaire de sinistres, ni courtier, ni distributeur, ni assisteur), de sorte qu'il n'y a ici aucun risque de confondre le porteur avec un tiers. Le nom est retenu tel qu'imprimé (« Baloise Vie Luxembourg S.A. ») et non tel que la casse du registre l'écrit.",
+    "CAPITAL ASSURÉ ET TABLEAU D'AMORTISSEMENT — RÉPONSE PARTIELLE, À NE PAS SUR-INTERPRÉTER. Le document établit la dégressivité et l'indexation sur l'encours : « Le capital assuré est dégressif en fonction de la durée du contrat » et, pour la prestation décès, « l'assurance rembourse le capital restant dû à la date du décès ». En revanche il n'emploie NI « tableau d'amortissement » NI « plan d'amortissement » NI « échéancier », et il rattache la dégressivité à la durée DU CONTRAT, non explicitement à l'échéancier du prêt. Le lien avec le prêt n'est posé qu'à travers l'objet du produit (« rembourser le capital assuré du prêt hypothécaire »). Autrement dit : le critère qui sépare cette branche de la prévoyance est vérifié en substance (capital dégressif, prestation égale au capital restant dû à la date du sinistre) mais le document ne dit pas que la dégressivité SUIT le tableau d'amortissement. Les deux formulations sont conservées verbatim dans coverages, special_conditions et key_quotes ; aucune n'a été résolue en l'autre.",
+    "DATE D'ÉDITION ABSENTE. Aucune date d'édition, aucun numéro de référence, aucun folio n'est imprimé nulle part dans le document. Vérifié deux fois : (a) le texte extrait s'arrête en page 2 à y=611,5 pt sur la ligne « Les conditions générales… » et il n'y a aucun autre span en dessous ; (b) la bande basse de la page 2 (y 600-841 pt, hauteur de page 841,89 pt) a été rendue à 8× et est vierge sous cette ligne. Le nom de fichier de la source contient « 02-22 » mais la date N'A PAS été déduite du nom de fichier : edition_date reste null. Idem pour reference.",
+    "MARQUEURS DE POLARITÉ — IMAGES BITMAP, MÉTHODE ET COMPTES. Les puces des encadrés ne sont ni du texte ni des tracés vectoriels : ce sont 16 images placées, invisibles à get_text ET à get_drawings. Relevées par get_text('dict') puis couleur dominante échantillonnée sur un rendu 10× de chaque bbox. Trois familles, et elles ferment exactement (2 + 13 + 1 = 16 images) : (1) 2 coches VERTES RGB(57,181,73), 7,16 × 7,94 pt, x0=65,1 — sur les deux garanties couvertes ; (2) 13 croix ROUGES RGB(235,28,35), 7,16 × 7,22 pt, x0=348,1 — sur les treize exclusions ; (3) 1 marqueur BLEU RGB(40,56,145), 7,16 × 7,94 pt, x0=65,1 y0=702,4 — sur la ligne de portée territoriale. Le marqueur et l'abscisse concordent partout : aucun débordement d'encadré dans la colonne voisine sur ce document, et aucune inversion de rubrique. La polarité a donc été tranchée sur le MARQUEUR (couleur + dimensions), l'abscisse ne servant que de confirmation. Ces faits ne peuvent pas figurer dans key_quotes puisqu'ils ne sont pas du texte.",
+    "OPTIONNALITÉ — LUE DANS LA PROSE, PAS DANS LE MARQUEUR. La coche verte est identique (même image, mêmes dimensions, même couleur) sur la garantie principale et sur la garantie complémentaire : le marqueur ne distingue PAS l'inclus de l'optionnel, il ne porte que la polarité couvert/exclu. is_optional=true pour l'Invalidité Totale Permanente vient exclusivement du titre imprimé au-dessus d'elle, « Couvertures complémentaires selon le choix du client : », et is_optional=false pour le décès du titre « Garantie principale - Décès ».",
+    "INCOHÉRENCE DE DÉNOMINATION INTERNE. La couverture complémentaire est titrée « Garantie Invalidité Totale Permanente » dans l'encadré des garanties, mais l'encadré des exclusions la désigne comme « l'Assurance Complémentaire d'Invalidité ». Les deux dénominations sont conservées telles qu'imprimées, sans harmonisation.",
+    "DÉFAUTS DE RÉDACTION DE LA SOURCE, CONSERVÉS. Deux passages de la clause de renonciation (page 2) sont fautifs dans le document : « vous devez le notifier un délai de 30 jours » (préposition manquante) et « La renonciation du contrat se fait soit par l'envoi… » où le « soit » n'a pas de seconde branche — le document n'énonce donc qu'un seul mode de renonciation alors que sa syntaxe en annonce plusieurs. Reproduits verbatim, non corrigés.",
+    "RUBRIQUES ABSENTES DU DOCUMENT (aucune n'a été comblée) : aucune section de définitions ; aucune franchise ni deductible (deductibles=null) ; aucun délai de prescription (prescription_period=null) ; aucune mention de reconduction tacite (tacit_renewal=null — le document ne dit rien, ce qui n'est pas la même chose qu'une absence de reconduction, et il qualifie par ailleurs le produit d'« assurance d'une durée limitée ») ; aucune indexation de prime ; aucun montant, plafond, pourcentage ni sous-limite chiffré nulle part dans le document — la seule « limite » est qualitative, « le capital restant dû ». Aucune catégorie de public n'est énoncée, d'où target_audience=null malgré un produit adossé à un prêt hypothécaire.",
+    "DÉLAI D'ATTENTE — REQUALIFICATION SIGNALÉE. Le document n'a pas de rubrique « délai d'attente ». L'entrée de waiting_periods reprend la seule restriction temporelle du document, qui y est imprimée comme une EXCLUSION de la garantie décès (« Le suicide de l'assuré survenu moins d'un an après la conclusion du contrat »). Elle figure aussi, inchangée, dans exclusions : c'est un doublon volontaire et signalé, pas une invention.",
+    "FIDÉLITÉ DE LA SOURCE VÉRIFIÉE. Document de 2 pages, intégralement présent dans le prompt : aucune troncature. Le texte a été ré-extrait indépendamment du PDF local avec l'appel identique page.get_text('text') via PyMuPDF ; les deux pages ressortent BYTE-IDENTIQUES au texte du prompt (2233 et 2083 caractères après strip). Aucun glyphe de zone privée, aucun soft hyphen, aucune espace de largeur nulle, aucun caractère de contrôle, aucun texte hors-page (0 glyphe off-canvas), aucune ligature perdue. Seule particularité : 62 apostrophes courbes U+2019, présentes dans les citations telles quelles. Les 8 key_quotes ont été DÉCOUPÉES programmatiquement comme spans exacts du texte du PDF, puis re-vérifiées comme sous-chaînes exactes à la fois du PDF et du texte du prompt, et leur page confirmée par recherche d'ancre contre les marqueurs [[page N]]."
+  ]
+}

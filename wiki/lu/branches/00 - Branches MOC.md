@@ -5,7 +5,7 @@ country: lu
 tags:
 - insurance/lu
 - moc
-date: '2026-08-02'
+date: '2026-08-03'
 status: ready
 generated: true
 ---
@@ -16,7 +16,11 @@ generated: true
 
 Liste générée des produits par branche. Les fiches conceptuelles de branche sont rédigées à la main dans ce dossier.
 
-### [Assurance auto](Assurance%20auto.md) (11)
+### [Assurance auto](Assurance%20auto.md) (15)
+- [Drive - IPID - EN](../products/baloise/Drive%20-%20IPID%20-%20EN.md) - [Baloise Luxembourg](../insurers/Baloise%20Luxembourg.md)
+- [Drive - IPID](../products/baloise/Drive%20-%20IPID.md) - [Baloise Luxembourg](../insurers/Baloise%20Luxembourg.md)
+- [Drive - IPID - DE](../products/baloise/Drive%20-%20IPID%20-%20DE.md) - [Baloise Luxembourg](../insurers/Baloise%20Luxembourg.md)
+- [Drive Flottes - IPID](../products/baloise/Drive%20Flottes%20-%20IPID.md) - [Baloise Luxembourg](../insurers/Baloise%20Luxembourg.md)
 - [easyPROTECT PRO-Auto (Vehicles other than cars and motorhomes) - IPID - EN](../products/lalux/easyPROTECT%20PRO-Auto%20%28Vehicles%20other%20than%20cars%20and%20motorhomes%29%20-%20IPID%20-%20EN.md) - [lalux](../insurers/lalux.md)
 - [easyPROTECT PRO-Auto (cars and motorhomes vehicle types) - IPID - EN](../products/lalux/easyPROTECT%20PRO-Auto%20%28cars%20and%20motorhomes%20vehicle%20types%29%20-%20IPID%20-%20EN.md) - [lalux](../insurers/lalux.md)
 - [easyPROTECT PRO-Auto (Andere Fahrzeuge als PKW und Wohnmobile) - IPID - DE](../products/lalux/easyPROTECT%20PRO-Auto%20%28Andere%20Fahrzeuge%20als%20PKW%20und%20Wohnmobile%29%20-%20IPID%20-%20DE.md) - [lalux](../insurers/lalux.md)
@@ -29,7 +33,8 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [easyPROTECT-PRO - Auto (Véhicules autres que voitures ou camping cars) - IPID](../products/lalux/easyPROTECT-PRO%20-%20Auto%20%28V%C3%A9hicules%20autres%20que%20voitures%20ou%20camping%20cars%29%20-%20IPID.md) - [lalux](../insurers/lalux.md)
 - [easyPROTECT-PRO - Auto (Auto — Véhicules de type voiture ou camping car) - IPID](../products/lalux/easyPROTECT-PRO%20-%20Auto%20%28Auto%20%E2%80%94%20V%C3%A9hicules%20de%20type%20voiture%20ou%20camping%20car%29%20-%20IPID.md) - [lalux](../insurers/lalux.md)
 
-### [Assurance habitation](Assurance%20habitation.md) (3)
+### [Assurance habitation](Assurance%20habitation.md) (4)
+- [Home - IPID](../products/baloise/Home%20-%20IPID.md) - [Baloise Luxembourg](../insurers/Baloise%20Luxembourg.md)
 - [easyPROTECT Habitation - IPID](../products/lalux/easyPROTECT%20Habitation%20-%20IPID.md) - [lalux](../insurers/lalux.md)
 - [easyPROTECT Haus und Wohnung - IPID - DE](../products/lalux/easyPROTECT%20Haus%20und%20Wohnung%20-%20IPID%20-%20DE.md) - [lalux](../insurers/lalux.md)
 - [easyPROTECT-Home - IPID - EN](../products/lalux/easyPROTECT-Home%20-%20IPID%20-%20EN.md) - [lalux](../insurers/lalux.md)
@@ -45,7 +50,8 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 ### [Protection juridique](Protection%20juridique.md) (1)
 - [Assurance Protection Juridique Auto Intégrale - Assurance Protection Juridique Familiale Intégrale - IPID](../products/lalux/Assurance%20Protection%20Juridique%20Auto%20Int%C3%A9grale%20-%20Assurance%20Protection%20Juridique%20Familiale%20Int%C3%A9grale%20-%20IPID.md) - [lalux](../insurers/lalux.md)
 
-### [Assurance accidents](Assurance%20accidents.md) (6)
+### [Assurance accidents](Assurance%20accidents.md) (7)
+- [B-Safe - IPID](../products/baloise/B-Safe%20-%20IPID.md) - [Baloise Luxembourg](../insurers/Baloise%20Luxembourg.md)
 - [easyPROTECT PRO – Accident entreprise - IPID](../products/lalux/easyPROTECT%20PRO%20%E2%80%93%20Accident%20entreprise%20-%20IPID.md) - [lalux](../insurers/lalux.md)
 - [easyPROTECT PRO – Company accident insurance - IPID - EN](../products/lalux/easyPROTECT%20PRO%20%E2%80%93%20Company%20accident%20insurance%20-%20IPID%20-%20EN.md) - [lalux](../insurers/lalux.md)
 - [easyPROTECT PRO – Unfallversicherung für Betriebspersonal (Unfallversicherung für Betriebspersonal - Betriebsunfall) - I](../products/lalux/easyPROTECT%20PRO%20%E2%80%93%20Unfallversicherung%20f%C3%BCr%20Betriebspersonal%20%28Unfallversicherung%20f%C3%BCr%20Betriebspersonal%20-%20Betriebsunfall%29%20-%20I.md) - [lalux](../insurers/lalux.md)
@@ -78,11 +84,14 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 ### [Prévoyance et décès](Pr%C3%A9voyance%20et%20d%C3%A9c%C3%A8s.md) (1)
 - [lalux-Security – Assurance décès à capital constant - IPID](../products/lalux/lalux-Security%20%E2%80%93%20Assurance%20d%C3%A9c%C3%A8s%20%C3%A0%20capital%20constant%20-%20IPID.md) - [lalux](../insurers/lalux.md)
 
-### Assurance solde restant dû (2)
+### Assurance solde restant dû (3)
+- [Assurance Solde Restant Dû - IPID](../products/baloise/Assurance%20Solde%20Restant%20D%C3%BB%20-%20IPID.md) - [Baloise Luxembourg](../insurers/Baloise%20Luxembourg.md)
 - [Assurance Solde Restant Dû – Assurance hypothécaire - IPID](../products/lalux/Assurance%20Solde%20Restant%20D%C3%BB%20%E2%80%93%20Assurance%20hypoth%C3%A9caire%20-%20IPID.md) - [lalux](../insurers/lalux.md)
 - [Outstanding balance insurance - Mortgage insurance - IPID - EN](../products/lalux/Outstanding%20balance%20insurance%20-%20Mortgage%20insurance%20-%20IPID%20-%20EN.md) - [lalux](../insurers/lalux.md)
 
-### [Assurances constructions](Assurances%20constructions.md) (11)
+### [Assurances constructions](Assurances%20constructions.md) (13)
+- [Assurance Contrôle - IPID](../products/baloise/Assurance%20Contr%C3%B4le%20-%20IPID.md) - [Baloise Luxembourg](../insurers/Baloise%20Luxembourg.md)
+- [Tous risques chantier - IPID](../products/baloise/Tous%20risques%20chantier%20-%20IPID.md) - [Baloise Luxembourg](../insurers/Baloise%20Luxembourg.md)
 - [APROBAT - Bauleistungsversicherung (Abschnitt 2 - Haftpflichtversicherung) - IPID - DE](../products/lalux/APROBAT%20-%20Bauleistungsversicherung%20%28Abschnitt%202%20-%20Haftpflichtversicherung%29%20-%20IPID%20-%20DE.md) - [lalux](../insurers/lalux.md)
 - [APROBAT - Comprehensive construction site insurance (Section 2 – Liability insurance) - IPID - EN](../products/lalux/APROBAT%20-%20Comprehensive%20construction%20site%20insurance%20%28Section%202%20%E2%80%93%20Liability%20insurance%29%20-%20IPID%20-%20EN.md) - [lalux](../insurers/lalux.md)
 - [APROBAT - Decennial civil liability - IPID - EN](../products/lalux/APROBAT%20-%20Decennial%20civil%20liability%20-%20IPID%20-%20EN.md) - [lalux](../insurers/lalux.md)
@@ -95,7 +104,8 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Assurance R.C. RC décennale et biennale (APROBAT)](../products/lalux/Assurance%20R.C.%20RC%20d%C3%A9cennale%20et%20biennale%20%28APROBAT%29.md) - [lalux](../insurers/lalux.md)
 - [Zehn- und Zweijahreshaftpflichtversicherung - DE](../products/lalux/Zehn-%20und%20Zweijahreshaftpflichtversicherung%20-%20DE.md) - [lalux](../insurers/lalux.md)
 
-### [RC professionnelle](RC%20professionnelle.md) (9)
+### [RC professionnelle](RC%20professionnelle.md) (10)
+- [Responsabilité Professionnelle des Agents de Voyages - IPID](../products/baloise/Responsabilit%C3%A9%20Professionnelle%20des%20Agents%20de%20Voyages%20-%20IPID.md) - [Baloise Luxembourg](../insurers/Baloise%20Luxembourg.md)
 - [APROBAT - Professional liability for architects and consulting engineers - IPID - EN](../products/lalux/APROBAT%20-%20Professional%20liability%20for%20architects%20and%20consulting%20engineers%20-%20IPID%20-%20EN.md) - [lalux](../insurers/lalux.md)
 - [APROBAT - RC Professionnelle des Agents Immobiliers, Administrateurs de Biens et Syndics de Copropriété - IPID](../products/lalux/APROBAT%20-%20RC%20Professionnelle%20des%20Agents%20Immobiliers%2C%20Administrateurs%20de%20Biens%20et%20Syndics%20de%20Copropri%C3%A9t%C3%A9%20-%20IPID.md) - [lalux](../insurers/lalux.md)
 - [APROBAT - RC professionnelle pour Architectes et Ingénieurs-Conseils - IPID](../products/lalux/APROBAT%20-%20RC%20professionnelle%20pour%20Architectes%20et%20Ing%C3%A9nieurs-Conseils%20-%20IPID.md) - [lalux](../insurers/lalux.md)
@@ -106,12 +116,18 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [easyPROTECT PRO – Civil liability insurance - IPID - EN](../products/lalux/easyPROTECT%20PRO%20%E2%80%93%20Civil%20liability%20insurance%20-%20IPID%20-%20EN.md) - [lalux](../insurers/lalux.md)
 - [easyPROTECT PRO-Haftpflichtversicherung - IPID - DE](../products/lalux/easyPROTECT%20PRO-Haftpflichtversicherung%20-%20IPID%20-%20DE.md) - [lalux](../insurers/lalux.md)
 
-### [Multirisque professionnelle](Multirisque%20professionnelle.md) (3)
+### [Multirisque professionnelle](Multirisque%20professionnelle.md) (8)
+- [Business - IPID](../products/baloise/Business%20-%20IPID.md) - [Baloise Luxembourg](../insurers/Baloise%20Luxembourg.md)
+- [Business - IPID - DE](../products/baloise/Business%20-%20IPID%20-%20DE.md) - [Baloise Luxembourg](../insurers/Baloise%20Luxembourg.md)
+- [Tous risques objets de valeur - IPID](../products/baloise/Tous%20risques%20objets%20de%20valeur%20-%20IPID.md) - [Baloise Luxembourg](../insurers/Baloise%20Luxembourg.md)
+- [Tous risques sauf - IPID](../products/baloise/Tous%20risques%20sauf%20-%20IPID.md) - [Baloise Luxembourg](../insurers/Baloise%20Luxembourg.md)
+- [Transport – Ad Valorem - IPID](../products/baloise/Transport%20%E2%80%93%20Ad%20Valorem%20-%20IPID.md) - [Baloise Luxembourg](../insurers/Baloise%20Luxembourg.md)
 - [easyPROTECT PRO (Sachversicherungen) - IPID - DE](../products/lalux/easyPROTECT%20PRO%20%28Sachversicherungen%29%20-%20IPID%20-%20DE.md) - [lalux](../insurers/lalux.md)
 - [easyPROTECT PRO – Assurance de choses - IPID](../products/lalux/easyPROTECT%20PRO%20%E2%80%93%20Assurance%20de%20choses%20-%20IPID.md) - [lalux](../insurers/lalux.md)
 - [easyPROTECT PRO – Property insurance - IPID - EN](../products/lalux/easyPROTECT%20PRO%20%E2%80%93%20Property%20insurance%20-%20IPID%20-%20EN.md) - [lalux](../insurers/lalux.md)
 
-### [Autres](Autres.md) (19)
+### [Autres](Autres.md) (20)
+- [Transport – CMR - IPID](../products/baloise/Transport%20%E2%80%93%20CMR%20-%20IPID.md) - [Baloise Luxembourg](../insurers/Baloise%20Luxembourg.md)
 - [Alle Risiken - LINEHEART (Alle Risiken (DE)) - IPID - DE](../products/lalux/Alle%20Risiken%20-%20LINEHEART%20%28Alle%20Risiken%20%28DE%29%29%20-%20IPID%20-%20DE.md) - [lalux](../insurers/lalux.md)
 - [Alle Risiken - ORANGE - IPID - DE](../products/lalux/Alle%20Risiken%20-%20ORANGE%20-%20IPID%20-%20DE.md) - [lalux](../insurers/lalux.md)
 - [Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance (VISA INFINITE) - IPID](../products/lalux/Assurance%20Cartes%20de%20cr%C3%A9dit%20SPUERKEESS%20%E2%80%93%20Assistance%20et%20hors%20Assistance%20%28VISA%20INFINITE%29%20-%20IPID.md) - [lalux](../insurers/lalux.md)

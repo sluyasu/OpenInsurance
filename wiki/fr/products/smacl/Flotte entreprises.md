@@ -521,7 +521,9 @@ Article 45 : conformément à l’article L.114-1 du Code, toutes actions dériv
 
 ## Documents liés
 
+- Extension liée : [Votre convention d'assistance Flottes entreprises poids lourds](Votre%20convention%20d%27assistance%20Flottes%20entreprises%20poids%20lourds.md)
 - [Flotte entreprises - IPID](Flotte%20entreprises%20-%20IPID.md) - IPID / Fiche d'information, éd. 02/2024
+- [Votre convention d'assistance Flottes entreprises poids lourds](Votre%20convention%20d%27assistance%20Flottes%20entreprises%20poids%20lourds.md) - Conditions générales, éd. 07/2025
 
 ## Source & fidélité
 

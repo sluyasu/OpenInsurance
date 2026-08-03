@@ -239,6 +239,10 @@ Pour le souscripteur personne morale : l'assistance au véhicule sans franchise 
 - Aucun texte vectorisé et aucune perte de ligature fi/ff/fl sur ce document ; aucune coupure de mot par trait d'union en fin de ligne.
 - Le siège social est imprimé « 1 rue Jacques Vandier 79000 Niort » sur ce document ; la coquille éventuelle de l'assureur n'a pas été corrigée. Le document imprime également « Les événements climatiques » et « La tempête, la grêle » comme deux garanties distinctes, ce qui a été conservé sans fusion.
 
+## Documents liés
+
+- [Contrat Automobile - Voitures particulières, fourgons et fourgonnettes (Voitures particulières, fourgons et fourgonnette](Contrat%20Automobile%20-%20Voitures%20particuli%C3%A8res%2C%20fourgons%20et%20fourgonnettes%20%28Voitures%20particuli%C3%A8res%2C%20fourgons%20et%20fourgonnette.md) - Conditions générales, éd. avril 2015
+
 ## Source & fidélité
 
 - Source : [https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_auto.pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_auto.pdf) - téléchargé le 2026-08-01 - 2 pages

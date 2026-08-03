@@ -5,7 +5,7 @@ country: fr
 insurer_slug: matmut
 name: Matmut
 website: https://www.matmut.fr
-products_count: 170
+products_count: 174
 branches_covered:
 - animaux
 - assurance-vie
@@ -42,7 +42,7 @@ generated: true
 
 ## Résumé
 
-**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 170 document(s) across 20 branch(es).
+**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 174 document(s) across 20 branch(es).
 
 ## Produits par branche
 
@@ -130,6 +130,8 @@ generated: true
 - [Contrat Multigaranties des copropriétés - IPID](../products/matmut/Contrat%20Multigaranties%20des%20copropri%C3%A9t%C3%A9s%20-%20IPID.md) - IPID / Fiche d'information (11/25) · réf. IPID.IME.COPRO - 11/25
 - [Contrat Multigaranties des risques immobiliers - IPID](../products/matmut/Contrat%20Multigaranties%20des%20risques%20immobiliers%20-%20IPID.md) - IPID / Fiche d'information (11/25) · réf. IPID.IME.PNO.PNE
 - [Contrat « Assurance Loyers Impayés » - IPID](../products/matmut/Contrat%20%C2%AB%20Assurance%20Loyers%20Impay%C3%A9s%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (2024-10) · réf. IPID.ALI  – 10/24
+- [Contrat « Habitation Initiale & Co Propriétaire non occupant » - IPID](../products/matmut/Contrat%20%C2%AB%20Habitation%20Initiale%20%26%20Co%20Propri%C3%A9taire%20non%20occupant%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (12-23) · réf. IPID.PNO Initiale & CO – 12-23
+- [Contrat « Habitation Initiale & Co Résidence secondaire » - IPID](../products/matmut/Contrat%20%C2%AB%20Habitation%20Initiale%20%26%20Co%20R%C3%A9sidence%20secondaire%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (12-23) · réf. IPID.RS Initiale &CO – 12-23
 - [Contrat « Habitation Matmut Étudiants et Matmut-Smac » - IPID](../products/matmut/Contrat%20%C2%AB%20Habitation%20Matmut%20%C3%89tudiants%20et%20Matmut-Smac%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (2024-05) · réf. IPID.HAB.ETUD – 05/24
 - [Contrat « Mobile-home » Formule Nature - IPID](../products/matmut/Contrat%20%C2%AB%20Mobile-home%20%C2%BB%20Formule%20Nature%20-%20IPID.md) - IPID / Fiche d'information (05/24) · réf. IPID.MH – 05/24
 - [Contrat « Multigaranties Hébergement » - IPID](../products/matmut/Contrat%20%C2%AB%20Multigaranties%20H%C3%A9bergement%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (05/24) · réf. IPID. HEB – 05/24
@@ -146,6 +148,7 @@ generated: true
 - [Habitation Résidence principale](../products/matmut/Habitation%20R%C3%A9sidence%20principale.md) - Conditions générales (2023-12) · réf. CG RP - 12/23
 - [Habitation Résidence principale - Jeunes - Contrat d'assurance Multigaranties](../products/matmut/Habitation%20R%C3%A9sidence%20principale%20-%20Jeunes%20-%20Contrat%20d%27assurance%20Multigaranties.md) - Conditions générales (05/24) · réf. CG Habitation Jeunes - 05/24
 - [Habitation Résidence secondaire](../products/matmut/Habitation%20R%C3%A9sidence%20secondaire.md) - Conditions générales (12/23) · réf. CG RS – 12/23
+- [Hébergement](../products/matmut/H%C3%A9bergement.md) - Conditions générales (05/24) · réf. CG HEB – 05/24
 - [Matmut Mobile-home formule Nature](../products/matmut/Matmut%20Mobile-home%20formule%20Nature.md) - Conditions générales (05/24) · réf. CG MGAR MH Nature – 05/24
 - [Terrain - Bâtiment non habitable — Contrat d'assurance Multigaranties](../products/matmut/Terrain%20-%20B%C3%A2timent%20non%20habitable%20%E2%80%94%20Contrat%20d%27assurance%20Multigaranties.md) - Conditions générales (05/24) · réf. CG TBNH – 05/24
 
@@ -158,6 +161,7 @@ generated: true
 - [Bonus Booster Matmut (Gammes Multirisques 4 roues Référence, Essentiel et 2R Rider) - Tarifs](../products/matmut/Bonus%20Booster%20Matmut%20%28Gammes%20Multirisques%204%20roues%20R%C3%A9f%C3%A9rence%2C%20Essentiel%20et%202R%20Rider%29%20-%20Tarifs.md) - Conditions tarifaires (2026-01) · réf. BONUS.B – 01/26
 - [Bonus Booster Nouveau Contrat Matmut (usages Actif ou Sérénité) - Tarifs](../products/matmut/Bonus%20Booster%20Nouveau%20Contrat%20Matmut%20%28usages%20Actif%20ou%20S%C3%A9r%C3%A9nit%C3%A9%29%20-%20Tarifs.md) - Conditions tarifaires (01/26) · réf. BONUS.B.NC.PV 2R RIDER – 01/26
 - [Bonus Booster Nouveau Contrat Matmut (usage Intensif) - Tarifs](../products/matmut/Bonus%20Booster%20Nouveau%20Contrat%20Matmut%20%28usage%20Intensif%29%20-%20Tarifs.md) - Conditions tarifaires (01/26) · réf. BONUS.B.NC.PRO 2R RIDER – 01/26
+- [Conditions de la réduction Âge du véhicule (Gammes 4 roues Référence, Essentiel et 2R Rider) - Tarifs](../products/matmut/Conditions%20de%20la%20r%C3%A9duction%20%C3%82ge%20du%20v%C3%A9hicule%20%28Gammes%204%20roues%20R%C3%A9f%C3%A9rence%2C%20Essentiel%20et%202R%20Rider%29%20-%20Tarifs.md) - Conditions tarifaires (01/26) · réf. REDUC.AGE VEH – 01/26
 - [Conditions de la réduction Âge du véhicule — Contrat 2 roues Initiale & Co - Tarifs](../products/matmut/Conditions%20de%20la%20r%C3%A9duction%20%C3%82ge%20du%20v%C3%A9hicule%20%E2%80%94%20Contrat%202%20roues%20Initiale%20%26%20Co%20-%20Tarifs.md) - Conditions tarifaires (01-26) · réf. REDUC.AGE VEH 2R INIT & CO – 01-26
 - [Conditions de l'Avantage Bonus Matmut (Gammes Multirisques 4 roues Référence, Essentiel et 2R Rider) - Tarifs](../products/matmut/Conditions%20de%20l%27Avantage%20Bonus%20Matmut%20%28Gammes%20Multirisques%204%20roues%20R%C3%A9f%C3%A9rence%2C%20Essentiel%20et%202R%20Rider%29%20-%20Tarifs.md) - Conditions tarifaires (01/26) · réf. BONUS – 01/26
 - [Conditions de l'Avantage Motard Professionnel de la Fonction Publique - Tarifs](../products/matmut/Conditions%20de%20l%27Avantage%20Motard%20Professionnel%20de%20la%20Fonction%20Publique%20-%20Tarifs.md) - Conditions tarifaires (01/26) · réf. AVANTAGE.MOP – 01/26

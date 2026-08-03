@@ -230,6 +230,7 @@ Le recours de l'assuré et sa protection juridique en cas de dommages subis par 
 
 ## Documents liés
 
+- [Sociétaire non occupant - Appartement ou maison particulière - Résidence secondaire - IPID](Soci%C3%A9taire%20non%20occupant%20-%20Appartement%20ou%20maison%20particuli%C3%A8re%20-%20R%C3%A9sidence%20secondaire%20-%20IPID.md) - IPID / Fiche d'information, éd. 10/18
 - [Sociétaire non occupant - Bâtiment en cours de construction - IPID](Soci%C3%A9taire%20non%20occupant%20-%20B%C3%A2timent%20en%20cours%20de%20construction%20-%20IPID.md) - IPID / Fiche d'information, éd. 10/18
 - [Sociétaire non occupant - Immeubles en copropriété - IPID](Soci%C3%A9taire%20non%20occupant%20-%20Immeubles%20en%20copropri%C3%A9t%C3%A9%20-%20IPID.md) - IPID / Fiche d'information, éd. 10/18
 
