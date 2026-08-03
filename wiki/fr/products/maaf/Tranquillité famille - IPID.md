@@ -191,6 +191,10 @@ Selon la formule de garantie choisie, le contrat peut également couvrir les acc
 - Le texte du prompt n'était pas tronqué (document de 2 pages).
 - Provenance de edition_date: cette date ne vient pas du texte du document mais du manifeste, ou elle avait ete deduite lors de la decouverte. A verifier contre le document avant d'y appuyer une comparaison d'editions.
 
+## Documents liés
+
+- [CONTRAT TRANQUILLITÉ FAMILLE](CONTRAT%20TRANQUILLIT%C3%89%20FAMILLE.md) - Conditions générales, éd. 03/26
+
 ## Source & fidélité
 
 - Source : [https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/PRE11004.PDF](https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/PRE11004.PDF) - téléchargé le 2026-08-01 - 2 pages

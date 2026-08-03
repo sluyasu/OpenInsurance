@@ -204,7 +204,6 @@ Versicherungsschutz für Waren und Geräte gegen Sachschäden, die während des 
 ## Documents liés
 
 - [easyPROTECT PRO – Assurance de choses - IPID](easyPROTECT%20PRO%20%E2%80%93%20Assurance%20de%20choses%20-%20IPID.md) - IPID / Fiche d'information
-- [easyPROTECT PRO – Property insurance - IPID - EN](easyPROTECT%20PRO%20%E2%80%93%20Property%20insurance%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 
 ## Source & fidélité
 

@@ -5,7 +5,7 @@ country: fr
 insurer_slug: matmut
 name: Matmut
 website: https://www.matmut.fr
-products_count: 167
+products_count: 168
 branches_covered:
 - animaux
 - assurance-vie
@@ -42,7 +42,7 @@ generated: true
 
 ## Résumé
 
-**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 167 document(s) across 20 branch(es).
+**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 168 document(s) across 20 branch(es).
 
 ## Produits par branche
 
@@ -103,6 +103,7 @@ generated: true
 
 ### [Autres](../branches/Autres.md)
 - [Statuts - Doc](../products/matmut/Statuts%20-%20Doc.md) - Document (06/21) · réf. STATUTS.MATMUT
+- [Statuts Matmut Mutualité - Doc](../products/matmut/Statuts%20Matmut%20Mutualit%C3%A9%20-%20Doc.md) - Document (2021-06) · réf. STATUTS.MM - 06/21
 
 ### [Chasse](../branches/Chasse.md)
 - [Chasse](../products/matmut/Chasse%20%28Matmut%29.md) - Conditions générales (CG CHASSE – 04/26 (mention de pied de page 37 ; aucune autre date d'édition n'est imprimée)) · réf. CG CHASSE – 04/26

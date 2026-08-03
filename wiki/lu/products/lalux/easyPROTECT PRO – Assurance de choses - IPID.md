@@ -209,7 +209,6 @@ couverture des marchandises et matériaux contre les dommages matériels survena
 ## Documents liés
 
 - [easyPROTECT PRO (Sachversicherungen) - IPID - DE](easyPROTECT%20PRO%20%28Sachversicherungen%29%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
-- [easyPROTECT PRO – Property insurance - IPID - EN](easyPROTECT%20PRO%20%E2%80%93%20Property%20insurance%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 
 ## Source & fidélité
 

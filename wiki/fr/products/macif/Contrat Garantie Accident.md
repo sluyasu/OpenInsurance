@@ -558,6 +558,7 @@ Il s'agit du délai au-delà duquel une action n'est plus recevable. Conforméme
 
 - Édition courante de ce produit.
 - [Contrat Garantie Accident - IPID](Contrat%20Garantie%20Accident%20-%20IPID.md) - IPID / Fiche d'information, éd. 29/01/26
+- [Contrat Garantie Accident](Contrat%20Garantie%20Accident%20%283%29.md) - Conditions générales, éd. Avril 2021
 - [Contrat Garantie Accident](Contrat%20Garantie%20Accident%20%282%29.md) - Conditions générales, éd. janvier 2018
 - [Garantie Accident](Garantie%20Accident.md) - Conditions générales, éd. Avril 2021
 

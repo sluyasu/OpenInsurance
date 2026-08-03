@@ -5,7 +5,7 @@ country: fr
 insurer_slug: smacl
 name: SMACL Assurances
 website: https://www.smacl.fr
-products_count: 78
+products_count: 79
 branches_covered:
 - auto
 - autres
@@ -35,7 +35,7 @@ generated: true
 
 ## Résumé
 
-**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 78 document(s) across 13 branch(es).
+**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 79 document(s) across 13 branch(es).
 
 ## Produits par branche
 
@@ -53,6 +53,7 @@ generated: true
 - [Convergence Auto collaborateurs - garantie en substitution - IPID](../products/smacl/Convergence%20Auto%20collaborateurs%20-%20garantie%20en%20substitution%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. CONVERGENCE_DIPA_ACSUBST_SA_03(09_2022)
 - [Flotte entreprises](../products/smacl/Flotte%20entreprises.md) - Conditions générales (05/2025) · réf. ENTREPRISE_CG_FLOTTE_05(02_2023)
 - [Flotte entreprises - IPID](../products/smacl/Flotte%20entreprises%20-%20IPID.md) - IPID / Fiche d'information (02/2024) · réf. ENTREPRISE_DIPA_FLOTTE_03(06_2021)
+- [Rachat de franchise](../products/smacl/Rachat%20de%20franchise.md) - Conditions générales (11/2022) · réf. PP_CG_RachatFranchise_03(02_2023)
 - [Territorialité des garanties - Contrat Véhicules à moteur - Doc](../products/smacl/Territorialit%C3%A9%20des%20garanties%20-%20Contrat%20V%C3%A9hicules%20%C3%A0%20moteur%20-%20Doc.md) - Document (01/01/2026) · réf. FICHE_TERRITORIALITE_01(12_2025)
 - [Vos conventions spéciales CONVERGENCE - Véhicules à moteur](../products/smacl/Vos%20conventions%20sp%C3%A9ciales%20CONVERGENCE%20-%20V%C3%A9hicules%20%C3%A0%20moteur.md) - Conditions générales (01/2024) · réf. CONVERGENCE_CS_VAM_SA_07(08_2016)
 - [Votre convention Diagnostic devis et diagnostic réparation (CAISSE RÉGIONALE DE CRÉDIT AGRICOLE) - Doc](../products/smacl/Votre%20convention%20Diagnostic%20devis%20et%20diagnostic%20r%C3%A9paration%20%28CAISSE%20R%C3%89GIONALE%20DE%20CR%C3%89DIT%20AGRICOLE%29%20-%20Doc.md) - Document (01/2024) · réf. CONVENTION_DIAG_PP_ CA_01(06_2016)

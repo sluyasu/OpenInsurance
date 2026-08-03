@@ -466,6 +466,7 @@ Toutes les actions dérivant d'un contrat d'assurance sont prescrites par deux a
 
 - ⚠️ Édition remplacée par une version plus récente : [Contrat Garantie Accident](Contrat%20Garantie%20Accident.md)
 - [Contrat Garantie Accident - IPID](Contrat%20Garantie%20Accident%20-%20IPID.md) - IPID / Fiche d'information, éd. 29/01/26
+- [Contrat Garantie Accident](Contrat%20Garantie%20Accident%20%283%29.md) - Conditions générales, éd. Avril 2021
 - [Contrat Garantie Accident](Contrat%20Garantie%20Accident.md) - Conditions générales, éd. 29 janvier 2026
 - [Garantie Accident](Garantie%20Accident.md) - Conditions générales, éd. Avril 2021
 

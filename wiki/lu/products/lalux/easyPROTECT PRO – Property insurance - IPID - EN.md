@@ -29,7 +29,7 @@ source_pages: 2
 fetched_at: '2026-08-02'
 extraction_model: claude-code-subagent:scale
 prompt_version: '1.1'
-product_family: easyprotect-pro
+product_family: easyprotect-pro-property-insurance
 variant: null
 edition_status: null
 edition_age_years: null
@@ -206,11 +206,7 @@ Transport: coverage of goods and materials against material damage occurring dur
 - All three boxes close with the printed note "Non-exhaustive list". The extraction is complete with respect to the document, but the document declares its own lists incomplete; the full guarantee-by-guarantee exclusions are in the general and/or special conditions, which are not part of this file.
 - is_optional is null for all twelve guarantees: the document lists them under "Guarantees offered" with a green tick each but never says which are included by default and which must be taken out. Three of them state a dependency instead ("Self-propelled land vehicles: if fire, theft or climate risks are insured", "Interruption of activity/operations: if the interruption is caused by a loss insured with fire, water damage or climate risks cover", and the Travel territorial extension "when the 'Fire', 'Water damage' and 'Climate risk' insurance is taken out"), which is recorded in conditions.
 - Text-layer artefacts: narrow spaces U+2009 before question marks and colons in headings ("What is insured ?", "Product :"), curly apostrophes and curly double quotes (U+2019, U+201C/U+201D) inside sentences, and a leading tab left by each bitmap bullet. key_quotes are exact slices of this text layer (cut from the PDF, never retyped) and carry these characters; description fields were lightly cleaned (line breaks to spaces).
-
-## Documents liés
-
-- [easyPROTECT PRO – Assurance de choses - IPID](easyPROTECT%20PRO%20%E2%80%93%20Assurance%20de%20choses%20-%20IPID.md) - IPID / Fiche d'information
-- [easyPROTECT PRO (Sachversicherungen) - IPID - DE](easyPROTECT%20PRO%20%28Sachversicherungen%29%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
+- product_family: the document prints two designations - the banner "easyPROTECT PRO – Property insurance" and the product line "LALUX Assurances - Product : easyPROTECT PRO". product_family takes the fuller banner form rather than the bare range name "easyPROTECT PRO", so that other products sold under the same range are not merged into this family. No edition date and no distribution variant appear in either designation, so variant is null.
 
 ## Source & fidélité
 

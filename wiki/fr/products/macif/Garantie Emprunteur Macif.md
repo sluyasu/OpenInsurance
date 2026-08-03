@@ -251,6 +251,7 @@ Toute action liée à l'exécution du présent contrat est prescrite dans un dé
 - Les montants de garantie (capital assuré, mensualités garanties, quotité, franchise) ne sont pas chiffrés dans ce document : il renvoie systématiquement au certificat d'adhésion et, le cas échéant, aux conditions particulières. Les seuls montants chiffrés du contrat sont le plafond Aide à la Famille (1500 € par mois, 14 mois renouvelables une fois) et le plafond de l'exception suicide (120000 €).
 - Le texte du prompt n'était pas tronqué (6 pages sur 6). L'extraction a été refaite depuis le PDF local avec page.get_text("text") : les 6 pages ressortent identiques caractère pour caractère au texte du prompt.
 - Les articles 6.2 (réclamations et médiation) et 6.4 (données personnelles) sont portés respectivement dans claims_procedure et — pour la partie RGPD, qui n'est pas une disposition d'assurance — non transcrits : le contenu de 6.4 décrit le traitement des données par Apivia Macif Mutuelle et les droits d'accès/rectification, sans effet sur les garanties. Signalé ici pour qu'un lecteur sache que l'omission est délibérée et non un défaut d'extraction.
+- Porteur de risque: ce document nomme « Apivia Macif Mutuelle », qui n'est pas l'entite dont la bibliotheque publique l'a fourni (Macif). Le champ insurer_name porte le proprietaire de la bibliotheque, pour le regroupement des pages; la lecture du document est celle-ci. A verifier contre le registre du superviseur avant d'en tirer qui porte le risque.
 
 ## Source & fidélité
 

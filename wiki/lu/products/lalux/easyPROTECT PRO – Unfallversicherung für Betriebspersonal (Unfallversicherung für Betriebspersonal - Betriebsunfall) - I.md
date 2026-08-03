@@ -58,7 +58,7 @@ Informationsdokument über das Versicherungsprodukt (IPID) zur Unfallversicherun
 ### Betriebsunfall - p. 1
 Die Versicherungsgesellschaft garantiert die Zahlung der in den Besonderen Bedingungen vereinbarten Leistungen, wenn der Versicherte während der Vertragslaufzeit Opfer eines Unfalls ist (Ereignis, das unabhängig vom Willen des Versicherten eintritt und plötzlich und gewaltsam von außen auf den Körper des Versicherten einwirkt und entweder dessen Tod, oder einen ärztlich festgestellten Körperschaden verursacht). Dieser Versicherungsschutz gilt sowohl für den Unternehmensleiter als auch die Beschäftigten.
 - Optionnelle : non · Portée : Die Versicherung gilt in ganz Europa. Darüber hinaus gilt sie weltweit bei Aufenthalten außerhalb Europas, die nicht mehr als drei Monate dauern. · Limite : die in den Besonderen Bedingungen vereinbarten Leistungen
-  - Condition : Der Versicherte ist während der Vertragslaufzeit Opfer eines Unfalls.
+  - Condition : wenn der Versicherte während der Vertragslaufzeit Opfer eines Unfalls ist
 
 ### Als Unfall betrachtet: Körperschäden durch Blitz oder Stromschlag - p. 1
 Körperschäden, die durch Blitz oder Stromschlag verursacht werden.

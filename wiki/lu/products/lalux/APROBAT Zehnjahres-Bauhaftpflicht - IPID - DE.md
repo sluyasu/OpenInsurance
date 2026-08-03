@@ -25,7 +25,7 @@ source_pages: 2
 fetched_at: '2026-08-02'
 extraction_model: claude-code-subagent:scale
 prompt_version: '1.1'
-product_family: aprobat
+product_family: aprobat-zehnjahres-bauhaftpflicht
 variant: null
 edition_status: null
 edition_age_years: null
@@ -147,12 +147,7 @@ Im Kasten "Was ist versichert ?" unter "Umfang des Versicherungsschutzes": "Übe
 - Beide Ausschlusskästen schließen mit dem gedruckten Vermerk "Nicht vollständige Liste". Die Extraktion ist gegenüber dem Dokument vollständig, das Dokument selbst ist es nach eigener Aussage nicht.
 - Verjährung (prescription_period) wird im Dokument nicht erwähnt; das Feld bleibt null.
 - Text-Layer-Artefakte: schmale Leerzeichen U+2009 vor Doppelpunkten ("Hinweis :", "Teil A :", "Produkt :"), ein echter Trennstrich am Zeilenumbruch in "Außen-\ngelände" und Blocksatz-Absätze, die teils in ein Wort pro Zeile zerfallen. Die key_quotes sind exakte Spans dieses Text-Layers (aus dem PDF geschnitten, nicht abgetippt) und enthalten diese Eigenheiten; die description-Felder wurden davon leicht bereinigt.
-
-## Documents liés
-
-- [APROBAT - Comprehensive construction site insurance (Section 2 – Liability insurance) - IPID - EN](APROBAT%20-%20Comprehensive%20construction%20site%20insurance%20%28Section%202%20%E2%80%93%20Liability%20insurance%29%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
-- [APROBAT - Decennial civil liability - IPID - EN](APROBAT%20-%20Decennial%20civil%20liability%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
-- [APROBAT - Responsabilité Civile Décennale - IPID](APROBAT%20-%20Responsabilit%C3%A9%20Civile%20D%C3%A9cennale%20-%20IPID.md) - IPID / Fiche d'information
+- product_family: «APROBAT» ist im Dokument zugleich der Name der Produktreihe und Bestandteil des Produktnamens. Als product_family wurde die vollständige gedruckte Produktbezeichnung «APROBAT Zehnjahres-Bauhaftpflicht» gewählt und NICHT die blosse Reihenbezeichnung «APROBAT», damit verschiedene Produkte derselben Reihe nicht fälschlich zu einer Familie zusammengefasst werden. Eine Edition oder eine Vertriebsvariante ist im Namen nicht enthalten; variant bleibt null.
 
 ## Source & fidélité
 

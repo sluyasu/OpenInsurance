@@ -5,7 +5,7 @@ country: fr
 insurer_slug: maaf
 name: MAAF
 website: https://www.maaf.fr/
-products_count: 61
+products_count: 62
 branches_covered:
 - assurance-vie
 - auto
@@ -39,7 +39,7 @@ generated: true
 
 ## Résumé
 
-**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 61 document(s) across 17 branch(es).
+**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 62 document(s) across 17 branch(es).
 
 ## Produits par branche
 
@@ -69,6 +69,7 @@ generated: true
 - [Assurance Crédit MAAF](../products/maaf/Assurance%20Cr%C3%A9dit%20MAAF.md) - Conditions générales (07/25) · réf. Réf. : 18151 - 07/25 (page 16) ; contrat collectif n° 02112 (pages 1, 12 et 13)
 
 ### [Garantie des accidents de la vie](../branches/Garantie%20des%20accidents%20de%20la%20vie.md)
+- [CONTRAT TRANQUILLITÉ FAMILLE](../products/maaf/CONTRAT%20TRANQUILLIT%C3%89%20FAMILLE.md) - Conditions générales (03/26) · réf. Réf 1994 - 03/26
 - [Tranquillité famille - IPID](../products/maaf/Tranquillit%C3%A9%20famille%20-%20IPID.md) - IPID / Fiche d'information (2026-03) · réf. TB0_IPIDPR_00-260315-hfvxC9-1-1-2-05:02:18- PRE11004
 
 ### [Multirisque habitation](../branches/Multirisque%20habitation.md)

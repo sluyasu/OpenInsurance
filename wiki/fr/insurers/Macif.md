@@ -5,7 +5,7 @@ country: fr
 insurer_slug: macif
 name: Macif
 website: https://www.macif.fr
-products_count: 93
+products_count: 95
 branches_covered:
 - animaux
 - assurance-vie
@@ -40,7 +40,7 @@ generated: true
 
 ## Résumé
 
-**Macif** - [https://www.macif.fr](https://www.macif.fr). 93 document(s) across 18 branch(es).
+**Macif** - [https://www.macif.fr](https://www.macif.fr). 95 document(s) across 18 branch(es).
 
 ## Produits par branche
 
@@ -93,6 +93,7 @@ generated: true
 
 ### [Garantie des accidents de la vie](../branches/Garantie%20des%20accidents%20de%20la%20vie.md)
 - [Contrat Garantie Accident - IPID](../products/macif/Contrat%20Garantie%20Accident%20-%20IPID.md) - IPID / Fiche d'information (29/01/26) · réf. G A - 29/01/26
+- [Contrat Garantie Accident](../products/macif/Contrat%20Garantie%20Accident%20%283%29.md) - Conditions générales (Avril 2021) · réf. PREI/ACC/05 - 04/21 - N754
 - [Contrat Garantie Accident](../products/macif/Contrat%20Garantie%20Accident%20%282%29.md) - Conditions générales (janvier 2018) · réf. PREI/ACC/05 - 01/18 - N754
 - [Contrat Garantie Accident](../products/macif/Contrat%20Garantie%20Accident.md) - Conditions générales (29 janvier 2026) · réf. P R E I/ A C C/05 - 29/01/26 - N754
 - [Garantie Accident](../products/macif/Garantie%20Accident.md) - Conditions générales (Avril 2021) · réf. PREI/ACC/05 - 04/21 - N754
@@ -103,6 +104,7 @@ generated: true
 - [Contrat Habitation - Formule Protectrice - Résidence principale](../products/macif/Contrat%20Habitation%20-%20Formule%20Protectrice%20-%20R%C3%A9sidence%20principale.md) - Conditions générales (Avril 2024) · réf. HAB/PROT RP/05 - 04/24 - N752
 - [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire - IPID](../products/macif/Contrat%20Habitation%20-%20Formule%20%C3%89conomique%20-%20R%C3%A9sidence%20principale%20-%20R%C3%A9sidence%20secondaire%20-%20IPID.md) - IPID / Fiche d'information (04/24) · réf. HAB-ECO 04/24
 - [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire](../products/macif/Contrat%20Habitation%20-%20Formule%20%C3%89conomique%20-%20R%C3%A9sidence%20principale%20-%20R%C3%A9sidence%20secondaire.md) - Conditions générales (05/18) · réf. HAB/ECO/05 - 05/18 - N781
+- [Contrat Loyers impayés](../products/macif/Contrat%20Loyers%20impay%C3%A9s.md) - Conditions générales (Version 06/2023 (page 5 : « Version juin 2023 »)) · réf. HAB/GLI/05 - 06/23 - NM17
 - [Contrat Macif Habitation - Formule Construction - IPID](../products/macif/Contrat%20Macif%20Habitation%20-%20Formule%20Construction%20-%20IPID.md) - IPID / Fiche d'information (2025-06) · réf. MACIF HAB MC 06/25
 - [Contrat Macif Habitation - Formules Économique, Équilibrée, Confort (Résidence secondaire) - IPID](../products/macif/Contrat%20Macif%20Habitation%20-%20Formules%20%C3%89conomique%2C%20%C3%89quilibr%C3%A9e%2C%20Confort%20%28R%C3%A9sidence%20secondaire%29%20-%20IPID.md) - IPID / Fiche d'information (06/25) · réf. MACIF HAB RS 06/25
 - [Contrat Macif Habitation - Formules Économique, Équilibrée, Confort (Assurance multirisques habitation - Résidence princ](../products/macif/Contrat%20Macif%20Habitation%20-%20Formules%20%C3%89conomique%2C%20%C3%89quilibr%C3%A9e%2C%20Confort%20%28Assurance%20multirisques%20habitation%20-%20R%C3%A9sidence%20princ.md) - IPID / Fiche d'information (06/25) · réf. MACIF HAB RP 06/25

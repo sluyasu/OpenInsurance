@@ -732,6 +732,7 @@ Conformément à l'article L 221-11 du Code de la mutualité, toute action déri
 - Non-cumuls classés hors `exclusions` : l'interdiction de cumuler le forfait lunettes Partenaire Santéclair avec celui d'un autre opticien, et l'interdiction de cumuler un équipement à prise en charge libre avec un équipement 100 % santé, sont des règles de non-cumul entre garanties et non des exclusions de risque ; elles figurent en `special_conditions` avec cette qualification explicite.
 - Le document ne mentionne aucune franchise au sens d'un montant restant à charge sur les remboursements santé : `deductibles.standard` est nul. Les seules « franchises » citées sont la franchise médicale légale (définie au lexique et expressément non prise en charge) et deux franchises kilométriques de 50 km propres aux garanties d'assistance, portées dans `deductibles.per_coverage`.
 - Les pages PDF 3 et 4 sont un sommaire (« OÙ TROUVER CE QUE VOUS CHERCHEZ ») et la page PDF 18 un sommaire des garanties d'assistance ; leur contenu n'a pas été extrait comme substance, les renvois qu'ils portent étant des folios imprimés.
+- Porteur de risque: ce document nomme « MAAF Santé », qui n'est pas l'entite dont la bibliotheque publique l'a fourni (MAAF). Le champ insurer_name porte le proprietaire de la bibliotheque, pour le regroupement des pages; la lecture du document est celle-ci. A verifier contre le registre du superviseur avant d'en tirer qui porte le risque.
 
 ## Documents liés
 

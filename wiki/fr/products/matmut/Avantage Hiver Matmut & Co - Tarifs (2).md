@@ -114,6 +114,7 @@ Pendant cette période d'hivernage, et sous réserve que toutes les conditions c
 - target_audience laissé null : le document ne nomme aucune des catégories admises. « être une personne physique » est une condition de forme juridique qui ne départage pas particuliers et indépendants, et les usages admis incluent « Actif ». Choisir une catégorie aurait été une déduction.
 - Le numéro de téléphone du bloc d'identité est précédé du glyphe ✆ (U+2706) dans la couche texte ; il est imprimé et n'a pas été retiré. Aucun glyphe en zone d'usage privé sur ce document.
 - Rendu 3× de la page vérifié : aucun contenu vectorisé, aucun caractère U+0007, aucun texte blanc, aucun glyphe manquant (le seul € du document, dans « 66 015 268 € », est bien extrait). La moitié inférieure de la page est vide à l'impression comme dans la couche texte.
+- Porteur de risque: ce document nomme « Matmut & Co », qui n'est pas l'entite dont la bibliotheque publique l'a fourni (Matmut). Le champ insurer_name porte le proprietaire de la bibliotheque, pour le regroupement des pages; la lecture du document est celle-ci. A verifier contre le registre du superviseur avant d'en tirer qui porte le risque.
 
 ## Documents liés
 

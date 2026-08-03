@@ -5,7 +5,7 @@ country: lu
 insurer_slug: lalux
 name: lalux
 website: ''
-products_count: 89
+products_count: 90
 branches_covered:
 - accidents
 - auto
@@ -35,7 +35,7 @@ generated: true
 
 ## Résumé
 
-**lalux**. 89 document(s) across 13 branch(es).
+**lalux**. 90 document(s) across 13 branch(es).
 
 ## Produits par branche
 
@@ -141,6 +141,7 @@ generated: true
 - [Assurance BUREAUX DE VOYAGES – Formule 1 et 2 - IPID](../products/lalux/Assurance%20BUREAUX%20DE%20VOYAGES%20%E2%80%93%20Formule%201%20et%202%20-%20IPID.md) - IPID / Fiche d'information
 - [Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance (MILES & MORE LUXAIR VISA BUSINESS) - IPID](../products/lalux/Assurance%20Cartes%20de%20cr%C3%A9dit%20SPUERKEESS%20%E2%80%93%20Assistance%20et%20hors%20Assistance%20%28MILES%20%26%20MORE%20LUXAIR%20VISA%20BUSINESS%29%20-%20IPID.md) - IPID / Fiche d'information
 - [Carefree Holidays - IPID - EN](../products/lalux/Carefree%20Holidays%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+- [Cartes de crédit - MILES & MORE LUXAIR VISA - IPID](../products/lalux/Cartes%20de%20cr%C3%A9dit%20-%20MILES%20%26%20MORE%20LUXAIR%20VISA%20-%20IPID.md) - IPID / Fiche d'information
 - [Kreditkarten - MILES & MORE LUXAIR VISA - IPID - DE](../products/lalux/Kreditkarten%20-%20MILES%20%26%20MORE%20LUXAIR%20VISA%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
 - [Luxair Tours - Assistance et Frais d'Annulation ou de Retard - IPID](../products/lalux/Luxair%20Tours%20-%20Assistance%20et%20Frais%20d%27Annulation%20ou%20de%20Retard%20-%20IPID.md) - IPID / Fiche d'information
 - [Luxair Tours - Assistance-Leistungen und Rücktritts- oder Verspätungskosten - IPID - DE](../products/lalux/Luxair%20Tours%20-%20Assistance-Leistungen%20und%20R%C3%BCcktritts-%20oder%20Versp%C3%A4tungskosten%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
