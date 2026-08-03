@@ -94,6 +94,7 @@ Document d’une page fixant les conditions d’une offre promotionnelle commerc
 ## Documents liés
 
 - [Assurance scolaire](Assurance%20scolaire.md) - Conditions générales, éd. 2023-12
+- [Contrat « Assurance scolaire » - IPID](Contrat%20%C2%AB%20Assurance%20scolaire%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information, éd. 12/23
 
 ## Source & fidélité
 

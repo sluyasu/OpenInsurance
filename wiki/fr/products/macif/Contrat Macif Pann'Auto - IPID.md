@@ -142,6 +142,10 @@ Le coût des pièces nécessaires à la remise en état de fonctionnement du vé
 - ABSENTS du document, donc laissés vides : délais de carence (waiting_periods), prescription, tacite reconduction (le document indique une durée « jusqu'à la date indiquée aux conditions particulières » et une résiliation annuelle à la date anniversaire, mais ne qualifie pas explicitement la reconduction - tacit_renewal laissé à null), durée du droit de renonciation en vente à distance / démarchage (le droit est mentionné, le délai ne l'est pas), définition contractuelle de « panne ».
 - Le siège social est imprimé « 1 rue Jacques Vandier - 79000 Niort » dans ce document ; la graphie de l'assureur est conservée telle quelle, sans correction.
 
+## Documents liés
+
+- [Contrat Macif Pann'Auto](Contrat%20Macif%20Pann%27Auto.md) - Conditions générales, éd. Novembre 2020
+
 ## Source & fidélité
 
 - Source : [https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_PanneAuto.pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_PanneAuto.pdf) - téléchargé le 2026-08-01 - 2 pages

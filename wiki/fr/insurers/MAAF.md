@@ -5,7 +5,7 @@ country: fr
 insurer_slug: maaf
 name: MAAF
 website: https://www.maaf.fr/
-products_count: 51
+products_count: 52
 branches_covered:
 - assurance-vie
 - auto
@@ -39,7 +39,7 @@ generated: true
 
 ## Résumé
 
-**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 51 document(s) across 17 branch(es).
+**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 52 document(s) across 17 branch(es).
 
 ## Produits par branche
 
@@ -91,6 +91,7 @@ generated: true
 - [CAPEB — INTERCALAIRE](../products/maaf/CAPEB%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales (03/24) · réf. 11038 - 03/24
 - [COMMERCES D'ALIMENTATION — INTERCALAIRE](../products/maaf/COMMERCES%20D%27ALIMENTATION%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales (01/26) · réf. 11039 - 01/26
 - [Commerces et Services — Intercalaire](../products/maaf/Commerces%20et%20Services%20%E2%80%94%20Intercalaire.md) - Conditions générales (01/26) · réf. 11037
+- [Entreprises de travaux publics - Intercalaire](../products/maaf/Entreprises%20de%20travaux%20publics%20-%20Intercalaire.md) - Conditions générales (01/25) · réf. 11049
 - [MULTIRISQUE PROFESSIONNELLE](../products/maaf/MULTIRISQUE%20PROFESSIONNELLE.md) - Conditions générales (01/26) · réf. Réf. 11031 - 01/26
 - [MULTISERVICE À LA PERSONNE — INTERCALAIRE](../products/maaf/MULTISERVICE%20%C3%80%20LA%20PERSONNE%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales (01/25) · réf. 11059 - 01/25
 - [Multirisque Non Exploitant - IPID](../products/maaf/Multirisque%20Non%20Exploitant%20-%20IPID.md) - IPID / Fiche d'information (2024-06) · réf. PRO10010

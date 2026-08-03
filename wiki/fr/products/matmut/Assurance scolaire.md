@@ -547,6 +547,7 @@ Conformément à l’article L.114-1 du Code des assurances, toutes actions dér
 ## Documents liés
 
 - [Conditions de l'offre Assurance Scolaire - Tarifs](Conditions%20de%20l%27offre%20Assurance%20Scolaire%20-%20Tarifs.md) - Conditions tarifaires, éd. 05/26
+- [Contrat « Assurance scolaire » - IPID](Contrat%20%C2%AB%20Assurance%20scolaire%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information, éd. 12/23
 
 ## Source & fidélité
 

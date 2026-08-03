@@ -97,6 +97,10 @@ Document d’une page fixant les conditions d’une offre promotionnelle commerc
 - Le point 1 renvoie aux contrats « tels que visés en 3. ci-après » et le point 3 exige la détention d’« au moins un » des contrats désignés, alors que le point 1 formule la même exigence comme la détention de « l’un des contrats suivants ». Les deux rédactions sont enregistrées verbatim (key_quotes) sans arbitrage, la seconde étant la plus précise.
 - edition_date renseignée « 01/26 » telle qu’imprimée dans le code de pied de page « COND.OFFRE.FC– 01/26 » ; le format n’est pas explicité par le document et aucune normalisation n’a été appliquée. Cette valeur est cohérente avec la fenêtre de prise d’effet annoncée, mais le document ne l’écrit pas.
 
+## Documents liés
+
+- [Familial Complémentaire « Accidents corporels »](Familial%20Compl%C3%A9mentaire%20%C2%AB%20Accidents%20corporels%20%C2%BB.md) - Conditions générales, éd. 10/24
+
 ## Source & fidélité
 
 - Source : [https://www.matmut.fr/services-en-ligne/doc/conditions-offre-FC.pdf](https://www.matmut.fr/services-en-ligne/doc/conditions-offre-FC.pdf) - téléchargé le 2026-07-30 - 1 pages

@@ -27,7 +27,7 @@ navigate it without guessing. Do not edit by hand.
 |---|---|---|---|---|---|
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
 | ch (Switzerland) | 0 | 3 | 1 | 0 | 5 |
-| fr (France) | 24 | 573 | 10 | 1 | 5 |
+| fr (France) | 24 | 578 | 10 | 1 | 5 |
 | lu (Luxembourg) | 0 | 23 | 1 | 0 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
@@ -364,6 +364,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | auto | macif | Contrat Camping-car Autocaravane - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_camping_car.pdf) |
 | fr | auto | macif | Contrat Camping-car, Autocaravane | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_vehicules/CG_campingcar.pdf) |
 | fr | auto | macif | Contrat Flotte Automobile - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_flotte_auto_pro.pdf) |
+| fr | auto | macif | Contrat Macif Pann'Auto | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_vehicules/CG_PanneAuto.pdf) |
 | fr | auto | macif | Contrat Macif Pann'Auto - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_PanneAuto.pdf) |
 | fr | auto | macif | Contrat d'assurance automobile — Voitures particulières, fourgons et fourgonnettes | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_vehicules/CG-Auto_201801.pdf) |
 | fr | auto | macif | Macif Auto | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_vehicules/CG_Auto.pdf) |
@@ -492,6 +493,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | gav | matmut | Conditions de l'offre — Remise à la souscription — Contrats Multirisques Accidents de la Vie et Multirisques Accidents d | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/conditions-offre-MAV-serenite.pdf) |
 | fr | gav | matmut | Contrat « Multirisques Accidents de la Vie Sérénité » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDMAV-serenite.pdf) |
 | fr | gav | matmut | Contrat « Multirisques Accidents de la Vie » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDMAV.pdf) |
+| fr | gav | matmut | Familial Complémentaire « Accidents corporels » | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/FCAC1.pdf) |
 | fr | gav | matmut | Multirisques Accidents de la Vie | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGMAV.pdf) |
 | fr | gav | smacl | Assurance des accidents de la vie | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cg-assurance-des-accidents-de-la-vie-modele4.pdf) |
 | fr | gav | thelem | Assurance Accidents de la vie privée - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_700-ACCVP-08-2025.pdf) |
@@ -530,6 +532,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | habitation | macif | Contrat Macif Habitation - Formule Construction - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/dipa-macif-habitation-maison-en-construction.pdf) |
 | fr | habitation | macif | Contrat Macif Habitation - Formules Économique, Équilibrée, Confort (Assurance multirisques habitation - Résidence princ | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/dipa-macif-habitation-residence-principale.pdf) |
 | fr | habitation | macif | Contrat Macif Habitation - Formules Économique, Équilibrée, Confort (Résidence secondaire) - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/dipa-macif-habitation-residence-secondaire.pdf) |
+| fr | habitation | macif | Contrat Prem's - Assurance Logement - Assurance Personnelle | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/CG_Prems.pdf) |
 | fr | habitation | macif | Contrat Sociétaire Non Occupant | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/CG_proprietaire_non_occupant.pdf) |
 | fr | habitation | macif | Contrat Sociétaire Non Occupant - Annexe spéciale Immeubles en copropriété | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/annexe_proprietaire_non_occupant_immeuble_en_copropriete.pdf) |
 | fr | habitation | macif | Contrat Sociétaire Non Occupant - Conditions Générales - Annexe spéciale Immeubles locatifs | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/annexe_proprietaire_non_occupant_immeubles_locatifs.pdf) |
@@ -596,6 +599,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | multirisque-professionnelle | maaf | CAPEB — INTERCALAIRE | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Intercalaire_Capeb_11038.pdf) |
 | fr | multirisque-professionnelle | maaf | COMMERCES D'ALIMENTATION — INTERCALAIRE | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Intercalaire_Commerces_alimentation_11039.pdf) |
 | fr | multirisque-professionnelle | maaf | Commerces et Services — Intercalaire | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Intercalaire_Commerces_et_services_11037.pdf) |
+| fr | multirisque-professionnelle | maaf | Entreprises de travaux publics - Intercalaire | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Intercalaire_Travaux_publics_11049.pdf) |
 | fr | multirisque-professionnelle | maaf | MULTIRISQUE PROFESSIONNELLE | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/CG/MAAF_Conditions_generales_Multirisque_pro_11031.pdf) |
 | fr | multirisque-professionnelle | maaf | MULTISERVICE À LA PERSONNE — INTERCALAIRE | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Intercalaire_Multiservice_personne_11059.pdf) |
 | fr | multirisque-professionnelle | maaf | Multirisque Non Exploitant - IPID | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/PRO10010.PDF) |
@@ -868,6 +872,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | scolaire | maaf | Assurance scolaire — Tableau des garanties - Fiche | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/Tableaux_de_garanties/MAAF_TG_Tempo_Assurance_scolaire.pdf) |
 | fr | scolaire | matmut | Assurance scolaire | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGSCOL.pdf) |
 | fr | scolaire | matmut | Conditions de l'offre Assurance Scolaire - Tarifs | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/conditions-offre-scolaire.pdf) |
+| fr | scolaire | matmut | Contrat « Assurance scolaire » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDSCOL.pdf) |
 | fr | scolaire | thelem | Assurance scolaire et extra-scolaire - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_scolaire-19-septembre-2024.pdf) |
 | fr | transport | smacl | ALÉASSUR Tous risques expositions clou à clou | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-aleassur-risques-expositions-clou-a-clou.pdf) |
 | fr | transport | smacl | Conventions spéciales CONVERGENCE - Tous risques expositions clou à clou (Associatons) | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-convergence-risques-expositions-clou-a-clou.pdf) |

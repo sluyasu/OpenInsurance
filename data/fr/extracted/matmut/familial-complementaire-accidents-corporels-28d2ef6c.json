@@ -1,0 +1,843 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "matmut",
+  "insurer_name": "Matmut",
+  "product_name": "Familial Complémentaire « Accidents corporels »",
+  "branch": "gav",
+  "branch_code": null,
+  "document_type": "conditions_generales",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "Le document ne nomme pas de catégorie de clientèle. Il pose deux conditions propres : « Le présent contrat vous est destiné si, à la date de prise d’effet des garanties, vous-même et/ou votre conjoint êtes âgés de moins de 71 ans » et « Le contrat ne peut être souscrit que par un proposant admis au préalable comme Sociétaire » (page 2). Les articles 17-4 et 17-5 réservent le droit de renonciation au souscripteur qui « êtes une personne souscrivant à titre privé » (pages 18), ce qui suppose que d’autres souscripteurs existent.",
+  "reference": "CG FC.AC1",
+  "edition_date": "10/24",
+  "product_family": "Familial Complémentaire",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.matmut.fr/services-en-ligne/doc/CG/FCAC1.pdf",
+  "source_pdf": "familial-complementaire-accidents-corporels-28d2ef6c.pdf",
+  "source_sha256": "733bad1b4fb5566d6216b12f4a774a0000bacc8d01ad06457e369ec91fd60a04",
+  "source_pages": 30,
+  "fetched_at": "2026-07-30",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Conditions générales, valant projet de contrat au sens de l’article L. 112-2 du Code des assurances, du contrat Matmut Familial Complémentaire « Accidents Corporels ». Matmut garantit le paiement d’indemnités en cas de survenance d’un accident occasionnant une incapacité permanente à l’assuré ou entraînant son décès, pour les accidents domestiques, scolaires, de sports, de loisirs, de travail ou de service. Deux garanties sont prévues : Incapacité permanente (capital de 16 000 €, porté à 32 000 € en présence d’une assistance permanente par tierce personne d’au moins 2 heures par jour, sous réserve d’un taux d’incapacité au moins égal à 10 %) et Capital décès (7 700 €). Trois formules de contrat sont proposées : Famille, Couple et Individuelle. Le document comprend en outre les modalités d’examen des réclamations et la charte de protection des données à caractère personnel.",
+  "definitions": [
+    {
+      "term": "Accident",
+      "definition": "Toute atteinte à l’intégrité corporelle de l’assuré, non intentionnelle de sa part, provenant de l’action soudaine d’une cause extérieure. Le caractère soudain est constitué par la survenance subite de l’événement à l’origine du dommage.",
+      "page": 4
+    },
+    {
+      "term": "Assistance permanente par tierce personne",
+      "definition": "Assistance quotidienne et définitive de l’assuré en incapacité permanente conservant, après consolidation de son état, des séquelles physiologiques et/ou neuropsychologiques imputables à l’accident qui nécessitent de pallier l’impossibilité ou la difficulté d’effectuer les actes de la vie quotidienne.",
+      "page": 4
+    },
+    {
+      "term": "Conditions générales",
+      "definition": "Présent document décrivant les garanties proposées et le fonctionnement du contrat.",
+      "page": 4
+    },
+    {
+      "term": "Conditions particulières et leurs annexes",
+      "definition": "Document délivré lors de la souscription du contrat ou de sa modification (avenant) précisant notamment le nom des personnes assurées ainsi que l’énoncé et le plafond des garanties souscrites.",
+      "page": 4
+    },
+    {
+      "term": "Conjoint",
+      "definition": "Personnes, non séparées de droit ou de fait, vivant sous le même toit : mariées, unies par un pacte civil de solidarité, communément considérées comme formant un couple.",
+      "page": 4
+    },
+    {
+      "term": "Consolidation",
+      "definition": "Moment où les lésions se sont fixées et ont pris un caractère permanent tel qu’un traitement n’est plus nécessaire, si ce n’est pour éviter une aggravation.",
+      "page": 4
+    },
+    {
+      "term": "Déchéance",
+      "definition": "Perte du droit à la garantie de l’assureur, en cas de sinistre, lorsque l’assuré ou son représentant légal, n’a pas exécuté ses obligations contractuelles.",
+      "page": 4
+    },
+    {
+      "term": "Dommage corporel",
+      "definition": "Atteinte permanente à l’Intégrité Physique et Psychique (AIPP) des personnes.",
+      "page": 4
+    },
+    {
+      "term": "Économiquement à charge",
+      "definition": "Est économiquement à charge, l’enfant remplissant au moins l’une des conditions énumérées ci-dessous : rattaché au foyer fiscal du souscripteur ou de son conjoint, pour lequel une pension alimentaire est réglée, dont les ressources personnelles ne dépassent pas 3 Salaires Minimum Interprofessionnels de Croissance (SMIC) nets par an.",
+      "page": 4
+    },
+    {
+      "term": "France",
+      "definition": "France métropolitaine et Départements et Régions d’Outre-Mer (Guadeloupe, Guyane, Martinique, Mayotte et La Réunion).",
+      "page": 4
+    },
+    {
+      "term": "Incapacité permanente (AIPP : Atteinte permanente à l’Intégrité Physique et Psychique)",
+      "definition": "Réduction définitive du potentiel physique, psychosensoriel ou intellectuel, à laquelle s’ajoutent les phénomènes douloureux et les répercussions physiologiques normalement liées à l’atteinte dans la vie de tous les jours.",
+      "page": 4
+    },
+    {
+      "term": "Nullité du contrat",
+      "definition": "Mesure visée par la loi pour rendre nul un contrat pour l’un des motifs suivants : fausse déclaration volontaire du risque par l'assuré, à la souscription ou en cours de contrat, dans l'intention de tromper l'assureur (elle constitue un manquement à l'obligation de contracter de bonne foi ; la nullité est encourue même en l'absence d'incidence de la fausse déclaration sur le sinistre — article L.113-8 du Code des assurances) ; vices du consentement (erreur, dol ou violence - articles 1130 à 1144 du Code civil) lorsqu'ils sont de telle nature que, sans eux, l'une des parties n'aurait pas contracté ou aurait contracté à des conditions substantiellement différentes. Le contrat est considéré comme n'ayant jamais existé.",
+      "page": 5
+    },
+    {
+      "term": "Prescription",
+      "definition": "Délai à l’issue duquel le titulaire d’un droit ne dispose plus d’action pour le faire valoir.",
+      "page": 5
+    },
+    {
+      "term": "Réduction des indemnités",
+      "definition": "Mesure visée par la loi – article L. 113-9 du Code des assurances – pour sanctionner le souscripteur ayant, de bonne foi, omis de déclarer à l’assureur tous les éléments du risque ou ayant fait une déclaration inexacte à la souscription ou en cours de contrat qui, en conséquence, n’a pas permis à l’assureur d’appliquer une cotisation adaptée. En cas de constatation de cette omission ou de cette déclaration inexacte après un sinistre, l’indemnité de sinistre est alors réduite en proportion de la cotisation payée par rapport à la cotisation qui aurait été due si le souscripteur avait complètement et exactement déclaré le risque.",
+      "page": 5
+    },
+    {
+      "term": "Sinistre",
+      "definition": "Réalisation d’un événement accidentel susceptible de mettre en jeu au moins une garantie du contrat.",
+      "page": 5
+    },
+    {
+      "term": "Sociétaire",
+      "definition": "Souscripteur préalablement admis comme adhérent de la Matmut.",
+      "page": 5
+    },
+    {
+      "term": "Souscripteur",
+      "definition": "Signataire du contrat défini sous ce nom aux Conditions particulières.",
+      "page": 5
+    },
+    {
+      "term": "Support durable",
+      "definition": "Tout instrument offrant la possibilité à l’assuré ou à l’assureur de stocker des informations qui lui sont adressées personnelle- ment, afin de pouvoir s’y reporter ultérieurement pendant un laps de temps adapté aux fins auxquelles les informations sont destinées, et qui permet la reproduction à l’identique des informations conservées. [« personnelle- ment » est imprimé ainsi, coupé, sur la page]",
+      "page": 5
+    },
+    {
+      "term": "Tacite reconduction",
+      "definition": "Renouvellement automatique du contrat à son échéance annuelle. Lorsque le contrat n’est pas résilié dans les formes et conditions prévues par les présentes Conditions générales, il est automatiquement renouvelé pour une durée d’un an.",
+      "page": 5
+    },
+    {
+      "term": "Véhicule terrestre à moteur",
+      "definition": "Véhicule automoteur destiné à circuler sur le sol, actionné par une force mécanique, ainsi que toute remorque, même non attelée (y compris les caravanes) soumis à l'obligation d'assurance conformément à l'article L.211-1 du Code des assurances. Outre les véhicules de tourisme et utilitaires légers, les poids lourds, les véhicules destinés au transport de personnes ou de marchandises, les tracteurs, les engins professionnels, les camping-cars, les voiturettes, les cyclomoteurs, les motocyclettes, les tricycles à moteur, les quadricycles à moteur, les cyclomobiles légers, les scooters électriques modulaires répondent à la présente définition les tondeuses autoportées (micro-tracteurs) ainsi que les engins de déplacement personnels motorisés visés au paragraphe 6.15 de l'article R. 311-1 du Code de la route (hoverboards, skateboards, monoroues, gyropodes, gyroskates, trottinettes à moteur et patins à roulettes électriques).",
+      "page": 5
+    },
+    {
+      "term": "Nous",
+      "definition": "Matmut. (Terme non repérable par le symbole de renvoi au lexique dans le texte des présentes Conditions générales.)",
+      "page": 5
+    },
+    {
+      "term": "Vous",
+      "definition": "Le souscripteur en ce qui concerne le Titre IV « Fonctionnement de votre contrat ». Toute personne ayant la qualité d’assuré pour les autres Titres. (Terme non repérable par le symbole de renvoi au lexique dans le texte des présentes Conditions générales.)",
+      "page": 5
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Incapacité permanente",
+      "description": "En cas d’accident consécutif à un événement couvert visé à l’article 5, lorsque l’assuré conserve, après consolidation des blessures, une incapacité permanente directement imputable à l’accident et au moins égale à 10 %, Matmut garantit le versement d’une indemnité. L’indemnité est calculée en appliquant au capital indiqué à l’article 3 le taux d’incapacité retenu. Lorsque le taux d’incapacité est supérieur à 65 % et que l’assuré, non retraité, est reconnu inapte à se livrer à un travail ou à une occupation lui procurant un gain ou un profit, l’indemnité versée est égale à l’intégralité du capital. Lorsque le taux d’incapacité est supérieur à 65 % et que l’état de l’assuré nécessite une assistance permanente par tierce personne d’au moins 2 heures par jour, l’indemnité est doublée.",
+      "is_optional": false,
+      "territorial_scope": "Article 6 : les garanties s’exercent lorsque l’accident garanti est survenu en France (France métropolitaine et DROM) et dans la Principauté de Monaco. Elles sont également acquises dans le monde entier pendant les douze premiers mois du séjour hors de France, et à l’occasion d’un séjour, quelle qu’en soit la durée, effectué à la demande de l’employeur de l’assuré pour une mission temporaire dans un pays de l’Union européenne, en Islande, en Norvège, dans les Principautés de Liechtenstein et d’Andorre, au Royaume-Uni, en Suisse, à Saint-Marin, et au Vatican. Le paiement de l’indemnité est toujours effectué en France ou dans la Principauté de Monaco et en euros (page 7).",
+      "limits": "Capital maximum garanti sous réserve d’une incapacité dont le taux est au moins égal à 10% : en l’absence d’une assistance permanente par tierce personne d’au moins 2 heures par jour : 16 000 € ; en présence d’une assistance permanente par tierce personne d’au moins 2 heures par jour : 32 000 €",
+      "sub_limits": [
+        "en l’absence d’une assistance permanente par tierce personne d’au moins 2 heures par jour: 16 000 €",
+        "en présence d’une assistance permanente par tierce personne d’au moins 2 heures par jour : 32 000 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Seuil de déclenchement : taux d’incapacité au moins égal à 10 %",
+        "Lorsque le taux d’incapacité est supérieur à 65 % et que le blessé est inapte au travail, le calcul de l’indemnité est effectué sur la base d’un taux d’incapacité de 100 % (article 7-1)",
+        "Le doublement de l’indemnité (assistance permanente par tierce personne) n’est pas dû lorsque l’assuré demeure placé dans un établissement spécialisé et/ou de soins après la consolidation de ses blessures",
+        "Le taux d’incapacité permanente subsistant après consolidation des blessures est fixé par un médecin expert, spécialiste en évaluation médico-légale du dommage corporel, désigné par Matmut ; ses honoraires sont à la charge de Matmut",
+        "Lors de l’examen par l’expert de Matmut, l’assuré peut se faire assister par le médecin de son choix, dont les honoraires et frais sont à sa charge",
+        "Le taux d’incapacité permanente est déterminé conformément au « barème indicatif d’évaluation des taux d’incapacité en droit commun » publié dans la revue Le Concours Médical (dernière édition)",
+        "Aggravation (article 7-3) : si le taux initial était égal ou supérieur à 10 %, Matmut verse une nouvelle indemnité égale à la différence entre l’indemnité calculée sur le nouveau taux et l’indemnité initialement versée ; si le taux initial était inférieur à 10 % et que le nouveau taux est égal ou supérieur à 10 %, une indemnité est versée selon l’article 7-1",
+        "Assurés — formule Famille : le souscripteur et, vivant en permanence sous le toit de sa résidence principale, son conjoint et les enfants mineurs de l’un, de l’autre ou des deux (les enfants ont aussi la qualité d’assuré lorsqu’ils vivent en alternance sous ce toit en raison d’une séparation de leurs parents)",
+        "Assurés — formule Couple : le souscripteur et son conjoint, vivant en permanence sous le toit de sa résidence principale",
+        "Assurés — formule Individuelle : la personne nommément désignée aux Conditions particulières",
+        "Bénéficiaire : l’assuré, victime de l’accident, désigné aux Conditions particulières",
+        "L'accident doit répondre à la définition de l’accident donnée à l’article 1 et être survenu à l’occasion de la vie privée ou de la vie professionnelle, sous réserve des exclusions mentionnées à l’article 9 (article 5, page 7)",
+        "Événement couvert : les accidents survenus à l’occasion de la vie courante, de la vie scolaire, d’activités de loisirs (ménage, cuisine, jardinage, bricolage, voyage…), ou au cours de la pratique, en qualité d’amateur, d’une activité sportive",
+        "Événement couvert : les accidents de la circulation",
+        "Événement couvert : les accidents imputables à une catastrophe naturelle (inondation, avalanche, affaissement de terrain…) ou à une catastrophe technologique",
+        "Événement couvert : les agressions, les attentats ou les actes de terrorisme dont l’assuré est victime et qu’il n’a pas provoqués",
+        "Événement couvert : les accidents du travail ou de service"
+      ],
+      "page": 8
+    },
+    {
+      "name": "Capital décès",
+      "description": "En cas de décès d’un assuré majeur, consécutif à un évènement garanti visé à l’article 5, survenant dans les suites immédiates de l’accident ou dans les 12 mois qui le suivent, Matmut garantit le versement d’un capital. Ce capital est dû au(x) bénéficiaire(s) désigné(s) à l’article 4-2. En cas de pluralité de bénéficiaires, le capital est partagé entre eux à parts égales. La garantie porte sur le décès du souscripteur et/ou de son conjoint.",
+      "is_optional": false,
+      "territorial_scope": "Article 6 : les garanties s’exercent lorsque l’accident garanti est survenu en France (France métropolitaine et DROM) et dans la Principauté de Monaco. Elles sont également acquises dans le monde entier pendant les douze premiers mois du séjour hors de France, et à l’occasion d’un séjour, quelle qu’en soit la durée, effectué à la demande de l’employeur de l’assuré pour une mission temporaire dans un pays de l’Union européenne, en Islande, en Norvège, dans les Principautés de Liechtenstein et d’Andorre, au Royaume-Uni, en Suisse, à Saint-Marin, et au Vatican. Le paiement de l’indemnité est toujours effectué en France ou dans la Principauté de Monaco et en euros (page 7).",
+      "limits": "Capital garanti : 7 700 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Décès d’un assuré majeur",
+        "Décès survenant dans les suites immédiates de l’accident ou dans les 12 mois qui le suivent",
+        "Porte sur le décès du souscripteur et/ou de son conjoint",
+        "Assurés — formule Famille : le souscripteur et son conjoint vivant en permanence sous le toit de sa résidence principale",
+        "Bénéficiaires : la ou les personnes physiques désignées aux Conditions particulières ; à défaut, le conjoint de l’assuré décédé ; à défaut, les enfants de l’assuré décédé, nés ou à naître, vivants ou représentés ; à défaut, les ascendants de l’assuré décédé ; à défaut, les héritiers de l’assuré décédé",
+        "Le bénéficiaire du capital décès doit survivre à l’assuré (souscripteur ou conjoint vivant en permanence sous le toit de la résidence principale)",
+        "En cas de décès, Matmut se réserve la possibilité de faire procéder à une expertise médicale sur pièces (article 11)",
+        "L'accident doit répondre à la définition de l’accident donnée à l’article 1 et être survenu à l’occasion de la vie privée ou de la vie professionnelle, sous réserve des exclusions mentionnées à l’article 9 (article 5, page 7)",
+        "Événement couvert : les accidents survenus à l’occasion de la vie courante, de la vie scolaire, d’activités de loisirs (ménage, cuisine, jardinage, bricolage, voyage…), ou au cours de la pratique, en qualité d’amateur, d’une activité sportive",
+        "Événement couvert : les accidents de la circulation",
+        "Événement couvert : les accidents imputables à une catastrophe naturelle (inondation, avalanche, affaissement de terrain…) ou à une catastrophe technologique",
+        "Événement couvert : les agressions, les attentats ou les actes de terrorisme dont l’assuré est victime et qu’il n’a pas provoqués",
+        "Événement couvert : les accidents du travail ou de service"
+      ],
+      "page": 8
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Aggravation d’un accident antérieur à la prise d’effet du contrat",
+      "description": "Article 9 §1 — Sont exclues des garanties les affections, lésions ou atteintes corporelles : ou leur aggravation, qui sont en relation avec un accident survenu antérieurement à la prise d’effet du contrat.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Atteintes qui ne sont pas la conséquence certaine, directe et exclusive de l’événement accidentel déclaré",
+      "description": "Article 9 §1 — Sont exclues des garanties les affections, lésions ou atteintes corporelles : qui ne sont pas la conséquence certaine, directe et exclusive de l’événement accidentel déclaré.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Atteintes imputables à une maladie",
+      "description": "Article 9 §1 — Sont exclues des garanties les affections, lésions ou atteintes corporelles : imputables à une maladie connue ou inconnue de l’assuré ou à une aggravation de cette maladie suite à une chute.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Rupture de la coiffe des rotateurs",
+      "description": "Article 9 §2 — Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant : de la rupture de la coiffe des rotateurs.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Pathologies vertébrales, cervico-dorso-lombalgies, sciatiques, hernies discales",
+      "description": "Article 9 §2 — Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant : de pathologies vertébrales, de cervico-dorso-lombalgies, de sciatiques ou de hernies discales, sauf si elles résultent d’un accident garanti ayant entraîné la fracture d’un corps vertébral. (La réserve « sauf si… » est imprimée en italique maigre, alors que le corps de l’exclusion est en gras italique.)",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Affections cardio-vasculaires et vasculaires cérébrales",
+      "description": "Article 9 §2 — Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant : d’affections cardio-vasculaires et vasculaires cérébrales, ou de l’aggravation de ces affections suite à une chute.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Fibromyalgie",
+      "description": "Article 9 §2 — Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant : de la fibromyalgie.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Affections virales, microbiennes, parasitaires ou infectieuses",
+      "description": "Article 9 §2 — Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant : d’affections virales, microbiennes, parasitaires ou infectieuses.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Piqûre d’insecte",
+      "description": "Article 9 §2 — Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant : d’ une piqûre d’insecte.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Hernies inguinales, crurales ou ombilicales",
+      "description": "Article 9 §2 — Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant : de hernies inguinales, crurales ou ombilicales.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Expérimentation biomédicale",
+      "description": "Article 9 §2 — Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant : d’une expérimentation biomédicale.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Armes ou engins destinés à exploser par modification de structure du noyau de l'atome",
+      "description": "Article 9 §2 — Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant : de dommages ou d'aggravation des dommages causés par des armes ou engins destinés à exploser par modification de structure du noyau de l'atome.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Combustible nucléaire, produit ou déchet radioactif, rayonnement ionisant",
+      "description": "Article 9 §2 — Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant : de dommages ou d'aggravation des dommages causés par tout combustible nucléaire, produit ou déchet radioactif ou par toute source de rayonnement ionisant.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Guerre civile ou étrangère, interventions militaires",
+      "description": "Article 9 §2 — Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant : directement ou indirectement de guerre civile ou étrangère, ou si l’assuré y participe, d’interventions militaires.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Insurrection, émeute, complot, mouvement populaire, attentat, terrorisme ou sabotage auxquels l’assuré participe",
+      "description": "Article 9 §2 — Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant : directement ou indirectement d’insurrection, d’émeute, de complot, de mouvement populaire, d’attentat, d’acte de terrorisme ou de sabotage auxquels l’assuré participe.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Manipulation volontaire de matériels de guerre, d’armes à feu ou d’explosifs dont la détention est interdite",
+      "description": "Article 9 §2 — Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant : de la manipulation volontaire par l’assuré de matériels de guerre, d’armes à feu ou d’explosifs dont la détention est interdite.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Burn out ou bore out (syndromes d’épuisement professionnel)",
+      "description": "Article 9 §2 — Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant : d’un burn out ou d’un bore out (syndromes d’épuisement professionnel) survenu par le fait ou à l’occasion du travail.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Dépressions nerveuses",
+      "description": "Article 9 §2 — Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant : de dépressions nerveuses qui ne sont pas la conséquence directe de lésions traumatiques en relation avec un accident.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Troubles bipolaires, schizophrénie, paranoïa",
+      "description": "Article 9 §2 — Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant : de troubles bipolaires, de schizophrénie ou de paranoïa.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Suicide ou tentative de suicide",
+      "description": "Article 9 §2 — Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant : d’un suicide ou d’une tentative de suicide.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Mutilation volontaire",
+      "description": "Article 9 §2 — Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant : d’une mutilation volontaire.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Participation volontaire à un défi, un pari, une lutte ou une rixe",
+      "description": "Article 9 §2 — Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant : de la participation volontaire de l’assuré à un défi, un pari, une lutte ou une rixe.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Participation à un acte illicite constituant un crime ou un délit intentionnel",
+      "description": "Article 9 §2 — Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant : de la participation de l’assuré ou du bénéficiaire de l’indemnité à un acte illicite constituant un crime ou un délit intentionnel au sens des dispositions de l’article 121-3 alinéas 1 et 2 du Code Pénal.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Intervention chirurgicale, médicale, obstétricale ou esthétique réalisée par un praticien non diplômé",
+      "description": "Article 9 §2 — Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant : d’une intervention chirurgicale, médicale, obstétricale ou esthétique, entreprise sur l’assuré par lui-même ou par un tiers non muni des diplômes exigés par la réglementation française pour la réaliser, ou par la réglementation du pays dans lequel elle est effectuée.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Actes médicaux, esthétiques, chirurgicaux ou obstétricaux",
+      "description": "Article 9 §2 — Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant : d’actes médicaux, esthétiques, chirurgicaux ou obstétricaux, sauf s’ils sont la conséquence certaine, directe et exclusive d’un accident garanti. (La réserve « sauf s’ils… » est imprimée en italique maigre, alors que le corps de l’exclusion est en gras italique.)",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Pratique d’un sport à titre professionnel",
+      "description": "Article 9 §2 — Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant : de la pratique d’un sport à titre professionnel.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "État alcoolique (0,50 g/l de sang ou 0,25 mg/l d’air expiré)",
+      "description": "Article 9 §3 — Sont également exclues des garanties les atteintes corporelles survenues : alors que l’assuré est, au moment de l’accident, sous l’empire d’un état alcoolique caractérisé par la présence dans le sang d’une concentration d’alcool pur égale ou supérieure à 0,50 gramme par litre ou par la présence dans l’air expiré d’une concentration d’alcool pur égale ou supérieure à 0,25 milligramme par litre.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "État alcoolique du conducteur en permis probatoire ou conduite accompagnée (0,20 g/l de sang ou 0,10 mg d’air expiré)",
+      "description": "Article 9 §3 — Sont également exclues des garanties les atteintes corporelles survenues : alors que l’assuré, conducteur d’un véhicule terrestre à moteur, titulaire d’un permis probatoire ou en situation d’apprentissage anticipé de la conduite, de conduite encadrée ou de conduite supervisée, est, au moment de l’accident, sous l’empire d’un état alcoolique caractérisé par la présence dans le sang d’une concentration d’alcool pur égale ou supérieure à 0,20 gramme par litre ou par la présence dans l’air expiré d’une concentration d’alcool pur égale ou supérieure à 0,10 milligramme.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Emprise de stupéfiants",
+      "description": "Article 9 §3 — Sont également exclues des garanties les atteintes corporelles survenues : alors que l’assuré est, au moment de l’accident, sous l’emprise de stupéfiants. L’emprise de stupéfiants est caractérisée lorsque, en application de l’article L. 235-2 du Code de la route, les épreuves de dépistage, les analyses ou les examens médicaux, cliniques et biologiques, destinés à rechercher la présence d’une ou plusieurs substances ou plantes classées comme stupéfiants au sens de l’arrêté du 22 février 1990 en révèlent la présence et ce, quelles que soient les quantités décelées.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Conducteur ou occupant d’un véhicule volé",
+      "description": "Article 9 §3 — Sont également exclues des garanties les atteintes corporelles survenues : conducteur ou occupant d’un véhicule volé.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Conducteur sans l’âge requis ou sans permis en état de validité",
+      "description": "Article 9 §3 — Sont également exclues des garanties les atteintes corporelles survenues : conducteur d’un véhicule pour lequel il n’a pas, au moment de l’accident, l’âge requis ou n’est pas titulaire des certificats (permis de conduire, licence de circulation), en état de validité, exigés par la réglementation pour la conduite de ce véhicule même s’il prend une leçon de conduite ou est assisté d’une personne titulaire du permis de conduire.",
+      "applies_to": "all",
+      "page": 10
+    },
+    {
+      "name": "Occupant d’un véhicule dont le conducteur n’a pas l’âge requis ou le permis en état de validité",
+      "description": "Article 9 §3 — Sont également exclues des garanties les atteintes corporelles survenues : occupant d’un véhicule dont le conducteur n’a pas, au moment de l’accident, l’âge requis ou n’est pas titulaire des certificats (permis de conduire, licence de circulation) en état de validité exigés par la réglementation pour la conduite de ce véhicule même si ce conducteur prend une leçon de conduite ou est assisté d’une personne titulaire du permis de conduire.",
+      "applies_to": "all",
+      "page": 10
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": null,
+    "per_coverage": null,
+    "page": null
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Répondre aux questions et confirmer les déclarations à la souscription",
+      "description": "À la souscription du contrat : répondre aux questions qui permettent à Matmut d’identifier la nature du risque à assurer et confirmer, par sa signature, l’exactitude des déclarations figurant aux Conditions particulières et annexes établies si nécessaire.",
+      "timing": "À la souscription",
+      "sanction": "En cas de réticence ou de déclaration intentionnellement fausse, d’omission ou de déclaration inexacte : nullité du contrat en cas de mauvaise foi (article L. 113-8) ; réduction des indemnités lorsque la mauvaise foi n’est pas établie (article L. 113-9). La résiliation du contrat pour ce motif (cas n° 11 de l’article 17-1) n’implique pas renonciation à ces sanctions.",
+      "page": 13
+    },
+    {
+      "name": "Déclarer les autres contrats couvrant le risque « accident corporel »",
+      "description": "Le souscripteur doit déclarer si lui-même ou les assurés mentionnés aux Conditions particulières sont déjà titulaires d’autres contrats couvrant le risque « accident corporel ». Matmut considère comme un élément susceptible d’aggraver le risque l’importance des capitaux garantis au titre d’un ou plusieurs contrats en cas de décès accidentel ou d’incapacité permanente de l’assuré.",
+      "timing": "À la souscription",
+      "sanction": "Sanctions des articles L. 113-8 et L. 113-9 du Code des assurances",
+      "page": 13
+    },
+    {
+      "name": "Déclarer les changements en cours de contrat",
+      "description": "Déclarer tout changement portant sur l’un des éléments déclarés à la souscription, notamment ceux mentionnés aux Conditions particulières et leurs annexes, par lettre recommandée, courrier électronique ou par envoi recommandé électronique dans les 15 jours où le souscripteur a eu connaissance de circonstances nouvelles aggravant les risques ou en créant de nouveaux.",
+      "timing": "En cours de contrat, dans les 15 jours",
+      "sanction": "Déchéance du droit à garantie en cas de retard, si ce retard a été à l’origine d’un préjudice pour Matmut et ne résulte pas d’un cas fortuit ou de force majeure. En cas d’aggravation du risque, Matmut peut résilier le contrat ou proposer un nouveau montant de cotisation (article L. 113-4 ; cas n° 10 de l’article 17-1).",
+      "page": 13
+    },
+    {
+      "name": "Déclarer toute renonciation à recours",
+      "description": "À la souscription et en cours de contrat : déclarer toute renonciation de sa part à un recours éventuel à l’encontre de tout responsable d’un sinistre.",
+      "timing": "À la souscription et en cours de contrat",
+      "sanction": null,
+      "page": 13
+    },
+    {
+      "name": "Prendre les mesures nécessaires en cas de sinistre",
+      "description": "Fournir à Matmut toutes les informations et prendre toutes les dispositions nécessaires à la gestion et au bon règlement du sinistre (article 10-1).",
+      "timing": "En cas de sinistre",
+      "sanction": null,
+      "page": 11
+    },
+    {
+      "name": "Déclarer le sinistre",
+      "description": "Dès connaissance du sinistre, sauf cas fortuit ou de force majeure, en faire la déclaration à Matmut par écrit, de préférence par lettre recommandée, ou verbalement.",
+      "timing": "5 jours ouvrés maximum",
+      "sanction": "Déchéance possible du droit à garantie en cas de retard dans la déclaration dès lors que ce manquement cause un préjudice à Matmut",
+      "page": 11
+    },
+    {
+      "name": "Contenu de la déclaration de sinistre",
+      "description": "Indiquer, dans la déclaration ou, en cas d’impossibilité, dans le plus bref délai : la date et les circonstances du sinistre, ses causes connues ou présumées, ses conséquences ; les coordonnées des personnes connues (nom et adresse des victimes, des témoins, de l’auteur du sinistre ou de la personne civilement responsable) ; si un procès-verbal a été établi, et dans l’affirmative par quelle autorité.",
+      "timing": "Dans la déclaration ou, en cas d’impossibilité, dans le plus bref délai",
+      "sanction": "En cas d’inexécution, Matmut est fondée à réclamer une indemnité proportionnelle aux dommages que cette inexécution lui aura causés",
+      "page": 11
+    },
+    {
+      "name": "Pièces médicales en cas de blessures",
+      "description": "Fournir, sous pli confidentiel à l’attention du service médical de Matmut, les données médicales nécessaires pour vérifier l’imputabilité du dommage et obtenir l’indemnisation, et, dans les 10 jours suivant sa réception, le questionnaire transmis par Matmut intégralement complété et accompagné d’un certificat médical descriptif des blessures établi par le médecin qui a examiné l’assuré initialement. Ultérieurement, à la demande de Matmut, se rendre à toute demande de rendez-vous du médecin expert désigné par elle ou accepter sa visite.",
+      "timing": "Dans les 10 jours suivant la réception du questionnaire",
+      "sanction": "En l’absence de communication des documents évoqués, l’assuré perd tout droit à indemnité pour le sinistre en cause",
+      "page": 11
+    },
+    {
+      "name": "Pièces à fournir en cas de décès",
+      "description": "Le bénéficiaire doit communiquer sous pli confidentiel à l’attention du service médical de Matmut, dans les 10 jours suivant sa réception, le questionnaire transmis par Matmut, intégralement complété et accompagné d’un extrait d’acte de décès et d’un certificat médical précisant que le décès est consécutif à l’accident.",
+      "timing": "Dans les 10 jours suivant la réception du questionnaire",
+      "sanction": "En l’absence de communication des documents évoqués, l’assuré perd tout droit à indemnité pour le sinistre en cause",
+      "page": 11
+    },
+    {
+      "name": "Sincérité des déclarations de sinistre",
+      "description": "Est déchu de tout droit à garantie pour le sinistre en cause l’assuré qui, sciemment, fait de fausses déclarations sur la nature, les circonstances, les causes, les conséquences du sinistre, ou emploie comme justifications des moyens frauduleux ou des documents mensongers.",
+      "timing": "En cas de sinistre",
+      "sanction": "Déchéance de tout droit à garantie pour le sinistre en cause",
+      "page": 11
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclarer le sinistre",
+      "description": "Dès que vous avez connaissance du sinistre, sauf cas fortuit ou de force majeure, vous devez nous en faire la déclaration par écrit, de préférence par lettre recommandée, ou verbalement.",
+      "deadline": "5 jours ouvrés maximum",
+      "page": 11
+    },
+    {
+      "step": "Information par Matmut",
+      "description": "Matmut informe l’assuré de sa position ou de ses attentes par tout moyen (courrier, téléphone…) dans les 5 jours ouvrés de la réception de la déclaration, sous réserve de la force majeure, notamment constituée lorsque des événements exceptionnels atteignent un très grand nombre de victimes.",
+      "deadline": "5 jours ouvrés de la réception de la déclaration",
+      "page": 12
+    },
+    {
+      "step": "Gestion et expertise",
+      "description": "Matmut se charge, en cas de sinistre garanti, de l’instruction et de la gestion du dossier et fait procéder à ses frais aux opérations d’expertises nécessaires. En cas de décès, elle se réserve la possibilité de faire procéder à une expertise médicale sur pièces.",
+      "deadline": null,
+      "page": 12
+    },
+    {
+      "step": "Expertise médicale du taux d’incapacité",
+      "description": "Le taux d’incapacité permanente subsistant après consolidation est fixé par un médecin expert spécialiste en évaluation médico-légale du dommage corporel désigné par Matmut (honoraires à sa charge) ; l’assuré peut se faire assister par le médecin de son choix à ses frais. Le taux est déterminé conformément au « barème indicatif d’évaluation des taux d’incapacité en droit commun » publié dans la revue Le Concours Médical (dernière édition). En cas d’accident survenu en France ou hors de France, l’expertise médicale est toujours effectuée par référence à la dernière édition de ce barème au jour de l’expertise.",
+      "deadline": null,
+      "page": 8
+    },
+    {
+      "step": "Litige d’ordre médical",
+      "description": "En cas de désaccord sur les causes du décès ou de l’incapacité permanente, ou sur le pourcentage de l’incapacité permanente, le différend est soumis à deux médecins choisis l’un par l’assuré ou ses ayants droit, l’autre par Matmut. Si ces deux médecins ne peuvent se mettre d’accord, les parties en choisissent un troisième pour les départager ; à défaut d’entente ou de désignation, la désignation est faite à la requête de la partie la plus diligente par le Président du Tribunal judiciaire du lieu de l’accident ou du domicile de la victime. Chaque partie prend en charge les honoraires et frais du médecin qu’elle a choisi et elles supportent par moitié ceux du troisième médecin.",
+      "deadline": null,
+      "page": 12
+    },
+    {
+      "step": "Litige au sujet du calcul des indemnités",
+      "description": "En cas de désaccord sur le montant des indemnités devant être attribuées, la résolution du différend peut être recherchée par la mise en œuvre de la procédure de Traitement des réclamations, décrite dans la partie « Modalités d’examen des réclamations ».",
+      "deadline": null,
+      "page": 12
+    },
+    {
+      "step": "Offre définitive d’indemnisation",
+      "description": "Matmut s’engage à présenter une offre définitive d’indemnisation à l’assuré ou au(x) bénéficiaire(s) dans le mois suivant la réception de l’ensemble des pièces justificatives réclamées ou des conclusions d’expertise fixant définitivement le taux d’incapacité.",
+      "deadline": "1 mois",
+      "page": 12
+    },
+    {
+      "step": "Offre provisoire",
+      "description": "Si le médecin expert ne peut conclure de façon définitive mais estime que l’incapacité permanente directement imputable à l’accident sera au minimum de 10 %, une offre provisionnelle est faite dans le mois suivant la réception des conclusions médicales provisoires. Le montant de l’indemnité provisionnelle est déduit du montant de l’offre définitive ; en cas de solde négatif, l’assuré n’est pas tenu de restituer le trop-perçu.",
+      "deadline": "1 mois suivant la réception des conclusions médicales provisoires",
+      "page": 12
+    },
+    {
+      "step": "Paiement",
+      "description": "Le paiement des indemnités est effectué par Matmut dans un délai de 1 mois à partir de l’acceptation de l’offre.",
+      "deadline": "1 mois à partir de l’acceptation de l’offre",
+      "page": 12
+    },
+    {
+      "step": "Transparence en cas de désaccord",
+      "description": "En cas de désaccord sur le montant de l’indemnité, Matmut s’engage à régler les sommes qu’elle estime devoir sans attendre l’issue de la procédure d’expertise ou d’examen de la réclamation.",
+      "deadline": null,
+      "page": 12
+    },
+    {
+      "step": "Réclamation — premier niveau",
+      "description": "En cas de désaccord sur le contrat, quel qu’en soit l’objet (souscription, gestion ou règlement d’un sinistre), la réclamation peut être formulée par téléphone (02 35 03 68 68), par internet via le formulaire « réclamations » de l’espace personnel, par courrier (MATMUT – Gestion des réclamations – TSA 40261 – 76729 ROUEN CEDEX) ou en vis-à-vis auprès des agences. Un accusé de réception est envoyé si la réponse ne peut être adressée dans les 10 jours ouvrables ; Matmut s’engage à répondre dans un délai maximal de 30 jours à compter de la réception de la réclamation écrite.",
+      "deadline": "Accusé de réception sous 10 jours ouvrables ; réponse sous 30 jours maximum",
+      "page": 20
+    },
+    {
+      "step": "Réclamation — service « réclamations sociétaires »",
+      "description": "Si la réponse ne satisfait pas, l’assuré peut solliciter le service « réclamations sociétaires » par mail (service.reclamations@matmut.fr) ou par courrier (Service « réclamations sociétaires », 66 rue de Sotteville, 76030 Rouen Cedex 1). Ce service procède à un nouvel examen du dossier et fait part de sa position dans un délai maximal de 30 jours.",
+      "deadline": "30 jours maximum",
+      "page": 20
+    },
+    {
+      "step": "Médiateur de l’Assurance",
+      "description": "L’assuré peut également saisir gratuitement le Médiateur de l’Assurance en déposant sa demande et les pièces de son dossier sur www.mediation-assurance.org ou en écrivant à Médiation de l’Assurance, TSA 50110, 75441 Paris Cedex 09. Le médiateur répond dans un délai de 90 jours selon sa charte. La saisine doit obligatoirement intervenir dans le délai d’un an à compter de la réception de la réclamation écrite initiale et aucune action contentieuse ne doit avoir été engagée auparavant. L’avis du Médiateur ne lie ni l’assuré ni Matmut, chacun conservant le droit de saisir les tribunaux.",
+      "deadline": "Saisine dans l’année suivant la réclamation écrite initiale ; réponse sous 90 jours",
+      "page": 20
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat a une durée d’un an. La première année, il est conclu pour la période comprise entre sa date d’effet et la date d’échéance annuelle, indiquée aux Conditions particulières. Les garanties prennent effet aux date et heure indiquées aux Conditions particulières, sous réserve que le paiement de la première cotisation ou première fraction de cotisation soit honoré.",
+    "tacit_renewal": true,
+    "notice_period": "Cas n° 1 (opposition au renouvellement par tacite reconduction) : préavis de 1 mois pour le souscripteur, 2 mois pour Matmut.",
+    "methods": [
+      "Soit par lettre ou tout autre support durable (courrier électronique sur l'espace personnel, lettre recommandée électronique…)",
+      "Soit par une déclaration faite au Siège social de Matmut ou dans l'une de ses Agences",
+      "Soit par un acte extrajudiciaire",
+      "Soit, lorsque Matmut propose la conclusion de contrat par un mode de communication à distance, par ce même mode",
+      "La résiliation à l’initiative de Matmut est notifiée par lettre recommandée (avec accusé de réception dans le cas n° 4) adressée au dernier domicile notifié"
+    ],
+    "special_rights": [
+      "Cas n° 1 — Opposition au renouvellement du contrat par tacite reconduction des garanties : à l’initiative de vous ou nous, effet à la date d’échéance annuelle indiquée aux Conditions particulières ; préavis à respecter pour adresser la notification : vous 1 mois, nous 2 mois (L. 113-12)",
+      "Cas n° 2 — Envoi de l’avis d’échéance moins de 15 jours avant la fin du droit d’opposition au renouvellement du contrat ou après cette date : à votre initiative ; effet à la date d’échéance indiquée aux Conditions particulières si la demande est formulée avant celle-ci, ou le lendemain de la date de notification si la demande est formulée après la date d’échéance annuelle ; conditions : envoi par nous de l’avis d’échéance annuelle et notification de la demande dans les 20 jours de cet envoi (L. 113-15-1)",
+      "Cas n° 3 — Opposition à la poursuite du contrat tacitement renouvelé : à votre initiative ; effet 1 mois après notification de la demande ; condition : ancienneté du contrat de 1 an à compter de la 1ère souscription (Avis du Comité consultatif du secteur financier en date du 29 avril 2022)",
+      "Cas n° 4 — Changement de votre situation portant sur l’un des éléments suivants : domicile, situation matrimoniale, régime matrimonial, profession ; à l’initiative de vous ou nous ; effet 1 mois après notification à l’autre partie ; la résiliation doit faire l’objet d’une notification dans le délai de 3 mois suivant l’événement qui la motive (L. 113-16)",
+      "Cas n° 5 — Majoration résultant de la révision de la cotisation annuelle : à votre initiative ; effet 30 jours après votre demande ; vous disposez de 30 jours à compter de la réception de l’avis d’échéance pour demander la résiliation (article 15-3 des Conditions générales)",
+      "Cas n° 6 — Diminution du risque : à votre initiative ; effet 30 jours après notification de votre demande ; nous devons avoir refusé de réduire la cotisation en proportion de la diminution du risque (L. 113-4)",
+      "Cas n° 7 — Résiliation par nous d’un autre de vos contrats après sinistre : à votre initiative ; effet 1 mois après notification de votre demande ; nous devons avoir préalablement résilié après sinistre un autre de vos contrats (R. 113-10)",
+      "Cas n° 8 — Décès du souscripteur : de plein droit ; effet 30 jours après le décès pour les formules « famille » et « couple » (les droits et obligations du souscripteur peuvent, avec notre accord, être transférés sur l’une des autres personnes assurées), ou le lendemain à 0 heure du jour du décès pour la formule « individuelle » ; aucune condition (article 17 des Conditions générales)",
+      "Cas n° 9 — Non-paiement de la cotisation : à notre initiative ; effet 40 jours après l’envoi de la lettre recommandée de mise en demeure ou, lorsque cette lettre ne prévoit pas la résiliation, le jour de l’envoi d’une nouvelle lettre recommandée notifiant la résiliation pour non-paiement ; condition : envoi préalable d’une lettre recommandée de mise en demeure (L. 113-3, R. 113-1)",
+      "Cas n° 10 — Aggravation du risque : à notre initiative ; effet 10 jours après notification de la résiliation ou 30 jours après l’envoi d’une proposition avec un nouveau montant de cotisation à laquelle vous ne donnez pas suite ou que vous refusez expressément ; condition : aggravation de l’un des éléments du risque mentionnés à l’article 12-1 B- des Conditions générales (L. 113-4)",
+      "Cas n° 11 — Réticence ou inexactitude dans la déclaration du risque à la souscription ou en cours de contrat : à notre initiative ; effet 10 jours après notification de la résiliation ; condition : réticence ou fausse déclaration ayant eu pour effet de modifier l’opinion que nous nous étions faite du risque (L. 113-8, L. 113-9)",
+      "Cas n° 12 — Survenance d’un sinistre : à notre initiative ; effet 1 mois après notification de la résiliation ; nous ne pourrons plus résilier si, passé le délai d’un mois après connaissance du sinistre, nous avons accepté le paiement d’une cotisation pour une période postérieure à ce sinistre (R. 113-10)",
+      "Cas n° 13 — Non-respect de notre Engagement Qualité : à votre initiative ; effet dès réception de la notification de votre demande ; à tout moment dans les 12 mois suivant la survenance du sinistre (article 11 des Conditions générales)",
+      "Droit de renonciation en cas de souscription à distance (article L. 112-2-1 du Code des assurances) : réservé à la personne souscrivant à titre privé ; notification par lettre simple ou par déclaration au Siège social ou dans l’une des Agences, dans un délai de 14 jours calendaires révolus à compter de la réception des documents contractuels ; lettre à adresser à la « Matmut 76030 Rouen Cedex I » selon le modèle indiqué",
+      "Droit de renonciation en cas de souscription suite à un démarchage à domicile ou sur le lieu de travail (article L. 112-9 du Code des assurances) : réservé à la personne souscrivant à titre privé ; notification par lettre recommandée ou par déclaration au Siège social ou dans l’une des Agences, dans un délai de 14 jours calendaires révolus à compter de la conclusion du contrat ; lettre à adresser à la « Matmut 76030 Rouen Cedex 1 » selon le modèle indiqué",
+      "Effets de la renonciation : formulée avant la date de prise d’effet des garanties, le contrat est annulé et l’intégralité de la cotisation perçue est remboursée dans un délai maximum de 30 jours ; formulée postérieurement, la renonciation entraîne la résiliation au lendemain à 0 heure de la date d’envoi de la lettre ou du dépôt de la déclaration, et la fraction de cotisation postérieure à la résiliation est remboursée dans un délai maximum de 30 jours",
+      "Modification (article 14-2) : Matmut se réserve le droit d’interrompre la garantie dans les 10 jours de la réception de la proposition de modification ; la garantie cesse alors 10 jours après l’envoi d’une lettre recommandée avisant de cette interruption"
+    ],
+    "page": 15
+  },
+  "prescription_period": {
+    "description": "Article 16 : conformément à l’article L.114-1 du Code des assurances, toutes actions dérivant du contrat, qu’il s’agisse de sa validité ou de son exécution, sont prescrites par deux ans à compter de l’événement qui y donne naissance. Ce délai ne court : en cas de réticence, omission, déclaration fausse ou inexacte sur le risque couru, que du jour où l’assureur en a eu connaissance ; en cas de sinistre, que du jour où les intéressés en ont eu connaissance, s’ils prouvent qu’ils l’ont ignoré jusque-là. Quand l’action de l’assuré contre l’assureur a pour cause le recours d’un tiers, le délai ne court que du jour où ce tiers a exercé une action en justice contre l’assuré ou a été indemnisé par ce dernier. Le délai de prescription est porté à dix ans lorsque les bénéficiaires sont les ayants droit de l’assuré décédé. Les causes d’interruption sont celles prévues par l’article L.114-2 : causes ordinaires du Code civil (reconnaissance par le débiteur du droit du créancier — article 2240 ; demande en justice, même en référé, même portée devant une juridiction incompétente ou annulée par l’effet d’un vice de procédure — article 2241 ; mesure conservatoire prise en application du code des procédures civiles d'exécution ou acte d’exécution forcée — article 2244), ainsi que la désignation d’un expert à la suite d’un sinistre et l’envoi d’une lettre recommandée ou d’un recommandé électronique avec accusé de réception, par Matmut à l’assuré pour le paiement des cotisations ou par l’assuré à Matmut pour le règlement des indemnités. Conformément à l'article L.114-3, les parties ne peuvent, même d’un commun accord, ni modifier la durée de la prescription, ni ajouter aux causes de suspension ou d’interruption de celle-ci.",
+    "page": 15
+  },
+  "premium": {
+    "notes": [
+      "Article 15-1 — L’engagement est annuel. La cotisation correspond au coût des garanties souscrites auquel viennent s’ajouter les accessoires de cotisation, notamment les frais de gestion annuels du contrat, et les impôts et taxes établis sur les contrats d’assurance et dont la récupération n’est pas interdite.",
+      "Article 15-2 — La cotisation annuelle est payable d’avance. Elle peut cependant être réglée en plusieurs fractions ; ce fractionnement ne concerne que le paiement et ne remet pas en cause le caractère annuel de la cotisation.",
+      "Article 15-2 — À défaut de paiement d’une cotisation ou d’une fraction de cotisation, Matmut peut, dans les conditions et délais prévus par l’article L. 113-3 du Code des assurances, suspendre la garantie et éventuellement résilier le contrat (cas n° 9 de l’article 17-1) ; les frais engendrés par l’envoi de la lettre recommandée et/ou du prélèvement ou tout autre moyen de paiement non honoré sont à la charge du souscripteur.",
+      "Article 15-4 — La Matmut est une société d’assurance mutuelle à cotisations variables. Si les cotisations annuelles sont insuffisantes pour assurer l’équilibre des opérations, le Conseil d’Administration peut décider de procéder à un rappel de cotisation au titre de l’exercice considéré. Le sociétaire ne peut en aucun cas être tenu, sauf en ce qui concerne l’augmentation des charges fiscales, parafiscales et assimilées, au-delà d’un maximum fixé à deux fois le montant de la cotisation annuelle appelée.",
+      "Article 17-3 — Matmut a droit au paiement de la cotisation couvrant la période antérieure à la résiliation, et de réclamer ou conserver la fraction de cotisation couvrant la période démarrant à compter de la date d’interruption des garanties lorsque la résiliation est consécutive au non-paiement de la cotisation. Dans les autres cas, elle rembourse la fraction de cotisation postérieure à la résiliation lorsque celle-ci a été payée d’avance."
+    ],
+    "indexation": "Article 15-3 — La révision de la cotisation est annuelle. Matmut peut réviser au premier jour de chaque année civile le tarif applicable aux risques garantis ; la cotisation annuelle est alors modifiée dans la même proportion. Le nouveau tarif s’applique à l’échéance annuelle indiquée aux Conditions particulières ou dès le jour de l’avenant en cas de modification du contrat. Le souscripteur peut résilier le contrat (cas n° 5 de l’article 17-1) en cas de majoration ; le prorata de cotisation afférent à la période de garantie allant jusqu’à la date de résiliation est alors calculé sur la base de l’ancien tarif et demeure exigible. À défaut de résiliation, la nouvelle cotisation est considérée comme acceptée.",
+    "page": 14
+  },
+  "special_conditions": [
+    {
+      "name": "Objet du contrat",
+      "description": "Matmut garantit le paiement d’indemnités en cas de survenance d’un accident occasionnant une incapacité permanente à l’assuré ou entraînant son décès (article 2).",
+      "page": 6
+    },
+    {
+      "name": "Trois formules de contrat",
+      "description": "Trois formules de contrat sont proposées : Famille, Couple, Individuelle (article 2). Les personnes assurées diffèrent selon la formule (article 4-1).",
+      "page": 6
+    },
+    {
+      "name": "Condition d’âge",
+      "description": "Au jour de la prise d’effet des garanties du contrat, le ou les assurés désignés aux Conditions particulières doivent être âgés de moins de 71 ans (article 2). La page 2 précise : « Le présent contrat vous est destiné si, à la date de prise d’effet des garanties, vous-même et/ou votre conjoint êtes âgés de moins de 71 ans ».",
+      "page": 6
+    },
+    {
+      "name": "Qualité de Sociétaire",
+      "description": "Le contrat ne peut être souscrit que par un proposant admis au préalable comme Sociétaire.",
+      "page": 2
+    },
+    {
+      "name": "Événements couverts (article 5)",
+      "description": "Sont couverts les accidents répondant à la définition de l’article 1 survenus à l’occasion de la vie privée ou de la vie professionnelle, sous réserve des exclusions de l’article 9 : les accidents survenus à l’occasion de la vie courante, de la vie scolaire, d’activités de loisirs (ménage, cuisine, jardinage, bricolage, voyage…), ou au cours de la pratique, en qualité d’amateur, d’une activité sportive ; les accidents de la circulation ; les accidents imputables à une catastrophe naturelle (inondation, avalanche, affaissement de terrain…) ou à une catastrophe technologique ; les agressions, les attentats ou les actes de terrorisme dont l’assuré est victime et qu’il n’a pas provoqués ; les accidents du travail ou de service.",
+      "page": 7
+    },
+    {
+      "name": "Non-opposabilité des exclusions liées à l’alcool et aux stupéfiants",
+      "description": "Ces exclusions ne sont pas opposables au conjoint et aux enfants (mineurs, majeurs de moins de vingt-cinq ans, majeurs dont l’assuré ou son conjoint a la tutelle ou la curatelle et qui sont économiquement à la charge de l’assuré décédé) bénéficiaires du capital décès. (Passage imprimé en italique maigre, à la différence des exclusions elles-mêmes, en gras italique.)",
+      "page": 9
+    },
+    {
+      "name": "Barème d’évaluation des taux d’incapacité",
+      "description": "En cas d’accident corporel survenu en France ou hors de France, laissant subsister une incapacité permanente, l’expertise médicale est toujours effectuée par référence à la dernière édition, au jour de l’expertise médicale, du « barème indicatif d’évaluation des taux d’incapacité en droit commun » publié dans la revue Le Concours Médical (article 6-2).",
+      "page": 7
+    },
+    {
+      "name": "Monnaie et lieu de paiement de l’indemnité",
+      "description": "Pour l’ensemble des garanties, le paiement de l’indemnité est toujours effectué en France ou dans la Principauté de Monaco et en euros (article 6).",
+      "page": 7
+    },
+    {
+      "name": "Communication sur support durable",
+      "description": "Conformément à l’article L. 111-10 du Code des assurances, l’assuré peut s’opposer, dès l’entrée en relation ou à tout moment, à l’utilisation du support durable utilisé par Matmut pour lui communiquer des informations ou documents, en vue de revenir à l’utilisation du support papier (article 13).",
+      "page": 13
+    },
+    {
+      "name": "Langue et loi applicables",
+      "description": "Le présent contrat est rédigé en français. Il est régi par la loi française (article 14-4).",
+      "page": 14
+    },
+    {
+      "name": "Autorité de contrôle et composition du contrat",
+      "description": "Le présent contrat est régi par le Code des assurances et par les dispositions statutaires fixant les rapports entre la Société et ses membres. Il est soumis à l’Autorité de Contrôle Prudentiel et de Résolution (ACPR) : 4 place de Budapest CS 92459, 75436 Paris CEDEX 9. Il se compose des présentes Conditions générales ainsi que des Conditions particulières remises lors de sa souscription et peut être complété, le cas échéant, par des conventions spéciales. Toute disposition législative d’ordre public s’impose aux cocontractants quand bien même ce contrat n’en ferait pas état ou en disposerait autrement.",
+      "page": 29
+    },
+    {
+      "name": "Nature du document",
+      "description": "Conditions générales valant projet de contrat au sens de l’article L. 112-2 du Code des assurances, comprenant les modalités d’examen des réclamations et la charte de protection des données à caractère personnel (page de couverture).",
+      "page": 1
+    },
+    {
+      "name": "Charte de protection des données à caractère personnel",
+      "description": "Le document intègre une charte RGPD (pages 22 à 25) : finalités des traitements, catégories de données, fondements juridiques, destinataires, durées de conservation (prospection commerciale 3 ans à compter du dernier contact émanant du prospect ; contrat d’assurance Habitation/Véhicule 3 ans après la fin de la relation contractuelle sans dossier sinistre ; contrat d’assurance Vie 10-30 ans suite au décès de l’assuré ; lutte contre le blanchiment 5 ans à compter de la cessation des relations ; lutte contre la fraude 5 ans à compter de la clôture du dossier ; cookies 13 mois), lieux de conservation, sécurité, droits des personnes et modalités d’exercice (dpd@matmut.fr ; Matmut à l’attention du Délégué à la Protection des Données, 66 rue de Sotteville, 76100 Rouen ; CNIL 3 place de Fontenoy - TSA 80715 - 75334 Paris Cedex 07).",
+      "page": 22
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Ce contrat permet d’aller à l’essentiel : il vous apporte une première réponse en cas d’accidents domestiques, scolaires, \nde sports, de loisirs, de travail ou de service.",
+      "page": 2,
+      "context": "Présentation du contrat"
+    },
+    {
+      "quote": "Le présent contrat vous est destiné si, à la date de prise d’effet des garanties, vous-même et/ou votre conjoint êtes âgés \nde moins de 71 ans.",
+      "page": 2,
+      "context": "Condition d'âge à la souscription"
+    },
+    {
+      "quote": "Le contrat ne peut être souscrit que par un proposant admis au préalable comme Sociétaire.",
+      "page": 2,
+      "context": "Condition de souscription"
+    },
+    {
+      "quote": "Toute atteinte à l’intégrité corporelle de l’assuré, non intentionnelle de sa part, provenant de l’action soudaine d’une cause \nextérieure.",
+      "page": 4,
+      "context": "Lexique — définition de l'accident"
+    },
+    {
+      "quote": "Nous garantissons le paiement d’indemnités en cas de survenance d’un accident",
+      "page": 6,
+      "context": "Article 2 — objet du contrat"
+    },
+    {
+      "quote": "Trois formules de contrat sont proposées : \n• Famille, \n• Couple  \n• Individuelle",
+      "page": 6,
+      "context": "Article 2 — formules"
+    },
+    {
+      "quote": "• Capital maximum garanti sous réserve d’une incapacité dont le taux est au moins égal \nà 10% :",
+      "page": 6,
+      "context": "Article 3 — seuil de déclenchement Incapacité permanente"
+    },
+    {
+      "quote": "d’au moins 2 heures \npar jour: 16 000 €",
+      "page": 6,
+      "context": "Article 3 — capital Incapacité permanente sans tierce personne (libellé coupé par le glyphe de renvoi au lexique)"
+    },
+    {
+      "quote": "d’au moins 2 heures \npar jour : 32 000 €",
+      "page": 6,
+      "context": "Article 3 — capital Incapacité permanente avec tierce personne (libellé coupé par le glyphe de renvoi au lexique)"
+    },
+    {
+      "quote": "Lorsque le taux d’incapacité est supérieur à 65 % et que le blessé est inapte au travail, \nle calcul de l’indemnité est effectué sur la base d’un taux d’incapacité de 100 % \n(article 7-1)",
+      "page": 6,
+      "context": "Article 3"
+    },
+    {
+      "quote": "• Capital garanti : 7 700 €",
+      "page": 6,
+      "context": "Article 3 — Capital décès"
+    },
+    {
+      "quote": "dans le monde entier, pendant les douze premiers mois du séjour hors de France",
+      "page": 7,
+      "context": "Article 6 — territorialité"
+    },
+    {
+      "quote": "à l’occasion d’un séjour, quelle qu’en soit la durée, effectué à la demande de l’employeur de l’assuré pour une mission temporaire \ndans un pays de l’Union européenne, en Islande, en Norvège, dans les Principautés de Liechtenstein et d’Andorre, au Royaume-\nUni, en Suisse, à Saint-Marin, et au Vatican.",
+      "page": 7,
+      "context": "Article 6 — territorialité"
+    },
+    {
+      "quote": "L’indemnité est calculée en appliquant au capital indiqué à l’article 3 le taux d’incapacité retenu.",
+      "page": 8,
+      "context": "Article 7-1"
+    },
+    {
+      "quote": "Toutefois, lorsque le taux d’incapacité est supérieur à 65 % et que l’assuré, non retraité, est reconnu inapte à se livrer à un travail ou \nà une occupation lui procurant un gain ou un profit, l’indemnité versée est égale à l’intégralité du capital.",
+      "page": 8,
+      "context": "Article 7-1"
+    },
+    {
+      "quote": "Ce doublement n’est toutefois pas dû lorsque l’assuré demeure placé dans un établissement spécialisé et/ou de soins après la \nconsolidation de ses blessures.",
+      "page": 8,
+      "context": "Article 7-1 — limite au doublement"
+    },
+    {
+      "quote": "1. Sont exclues des garanties les affections, lésions ou atteintes corporelles : ",
+      "page": 9,
+      "context": "Article 9 — chapeau §1"
+    },
+    {
+      "quote": "2.Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant :",
+      "page": 9,
+      "context": "Article 9 — chapeau §2"
+    },
+    {
+      "quote": "• de la fibromyalgie, ",
+      "page": 9,
+      "context": "Article 9 §2"
+    },
+    {
+      "quote": "• d’un suicide ou d’une tentative de suicide, ",
+      "page": 9,
+      "context": "Article 9 §2"
+    },
+    {
+      "quote": "• de la pratique d’un sport à titre professionnel. ",
+      "page": 9,
+      "context": "Article 9 §2"
+    },
+    {
+      "quote": "3. Sont également exclues des garanties les atteintes corporelles survenues: ",
+      "page": 9,
+      "context": "Article 9 — chapeau §3"
+    },
+    {
+      "quote": "d’une concentration d’alcool pur égale ou supérieure à 0,50 gramme par litre ou par la présence dans l’air expiré d’une \nconcentration d’alcool pur égale ou supérieure à 0,25 milligramme par litre.",
+      "page": 9,
+      "context": "Article 9 §3 — état alcoolique"
+    },
+    {
+      "quote": "5 jours ouvrés maximum",
+      "page": 11,
+      "context": "Article 10-2 — délai de déclaration du sinistre"
+    },
+    {
+      "quote": "Le contrat a une durée d’un an. La première année, il est conclu pour la période comprise entre sa date d’effet et la date d’échéance \nannuelle, indiquée aux Conditions particulières",
+      "page": 14,
+      "context": "Article 14-3 — durée"
+    },
+    {
+      "quote": "La cotisation annuelle est payable d’avance.",
+      "page": 14,
+      "context": "Article 15-2"
+    },
+    {
+      "quote": "Vous ne pouvez en aucun cas être tenu, sauf en ce qui concerne l’augmentation des charges fiscales, parafiscales et assimilées, au-\ndelà d’un maximum fixé à deux fois le montant de la cotisation annuelle appelée.",
+      "page": 14,
+      "context": "Article 15-4 — variabilité des cotisations"
+    },
+    {
+      "quote": "toutes actions dérivant du présent contrat, qu’il s’agisse de sa validité ou \nde son exécution, sont prescrites par deux ans à compter de l’événement qui y donne naissance.",
+      "page": 15,
+      "context": "Article 16 — prescription"
+    },
+    {
+      "quote": "est porté à dix ans, lorsque les bénéficiaires sont les ayants droit de l’assuré décédé.",
+      "page": 15,
+      "context": "Article 16 — prescription portée à dix ans (début de phrase coupé par le glyphe de renvoi au lexique)"
+    },
+    {
+      "quote": "Elle doit être effectuée dans un délai de 14 jours calendaires révolus à compter de la réception des documents contractuels.",
+      "page": 18,
+      "context": "Article 17-4 — renonciation souscription à distance"
+    },
+    {
+      "quote": "Il est soumis à l’Autorité de Contrôle Prudentiel et de Résolution (ACPR) : 4 place de Budapest CS 92459, 75436 Paris CEDEX \n9.",
+      "page": 29,
+      "context": "Mentions légales de fin de document"
+    }
+  ],
+  "gaps": [
+    "Le texte du prompt n'a pas été tronqué : 73 628 caractères pour un plafond de 240 000. Extraction PyMuPDF page.get_text(\"text\") réalisée indépendamment et confrontée au texte du prompt : identique caractère pour caractère (seul écart : les sauts de ligne insérés par le harnais entre les pages).",
+    "GLYPHE DE RENVOI AU LEXIQUE : le symbole de renvoi au lexique est un glyphe Webdings U+F0EB présent 141 fois dans la couche texte, souvent SANS espace de part et d'autre, ce qui colle les mots (« symbolerenvoie », « accidentgaranti », « Franceou »). Toutes les citations de key_quotes ont été découpées pour ne jamais traverser un de ces glyphes. Conséquence assumée : deux montants tabulés de l'article 3 (16 000 € et 32 000 €) ne peuvent être cités qu'à partir de « d'au moins 2 heures par jour », le libellé « en l'absence / en présence d'une assistance permanente par tierce personne » étant séparé du montant par le glyphe ; de même la phrase de l'article 16 sur les dix ans ne peut être citée qu'à partir de « est porté à dix ans ». Les libellés complets figurent dans les champs structurés.",
+    "PUCES : quatre types coexistent — U+2022 en span séparé, U+2022 inclus dans le span de texte, U+F0B7 SymbolMT (94 occurrences) et des tirets. Décompte fermé pour l'article 9 : §1 = 3 items, §2 = 21 items de premier niveau + 2 sous-tirets (armes atomiques / combustible nucléaire) = 23, §3 = 6 items (3 puces SymbolMT + 3 puces U+2022 incluses dans le texte, dont 2 rejetées en page 10). Total = 32 exclusions, toutes reprises dans exclusions[].",
+    "VÉRIFICATION D'INVERSION DE SENS (garanties transformées en exclusions) : négative. La typographie de l'article 9 est homogène — chapeaux et items en Calibri-BoldItalic à x=77,42 (texte à x=84,86/84,98/85,22), sans exception. Les seuls passages en Calibri-Italic maigre sont trois réserves FAVORABLES à l'assuré, correctement rattachées : « sauf si elles résultent d'un accident garanti ayant entraîné la fracture d'un corps vertébral » (pathologies vertébrales), « sauf s'ils sont la conséquence certaine, directe et exclusive d'un accident garanti » (actes médicaux) et « Ces exclusions ne sont pas opposables au conjoint et aux enfants… » (alcool/stupéfiants). Aucune garantie n'a été absorbée par un chapeau d'exclusion, et aucune exclusion ne porte de plafond.",
+    "PARTICULARITÉ DE MISE EN PAGE DE L'ARTICLE 9 §3 : la liste est interrompue en page 9 par le paragraphe de non-opposabilité (« Ces exclusions ne sont pas opposables au conjoint… »), puis reprend immédiatement après avec « conducteur ou occupant d'un véhicule volé » et se poursuit en page 10. Les trois derniers items sont donc bien rattachés au chapeau §3 (« Sont également exclues des garanties les atteintes corporelles survenues: ») et non au paragraphe de non-opposabilité qui les précède. Rattachement confirmé par la typographie (Calibri-BoldItalic pour les items, Calibri-Italic pour le paragraphe de non-opposabilité).",
+    "DÉFAUT D'IMPRESSION VÉRIFIÉ AU RENDU : dans la définition « Support durable » (page 6), la page imprime « personnelle- ment » — tiret suivi d'une espace au milieu du mot, effectivement présent sur le papier et pas seulement dans la couche texte. Conservé verbatim, non réparé.",
+    "TEXTE BLANC SUR BLANC SANS PORTÉE : un « V » isolé en Calibri-Bold blanc figure page 21 (bbox x=70,9 y=340,0), sur fond blanc — invisible au rendu 5×, vérifié. Il ne porte aucun fait et n'a donc pas été repris. Tous les autres textes blancs du document (titres de Titres, en-têtes de tableaux, numéros d'articles) sont posés sur des bandeaux de couleur et sont bien visibles.",
+    "NOMBRE DE GARANTIES : ce contrat n'en comporte que DEUX (Incapacité permanente, Capital décès), énoncées à l'article 3 et détaillées aux articles 7 et 8. Le faible nombre n'est pas un défaut d'extraction : le document lui-même annonce « Ce contrat permet d'aller à l'essentiel ». Le sommaire ne mentionne aucune autre section de garanties.",
+    "AUCUNE FRANCHISE : le contrat ne prévoit aucune franchise ; il fonctionne par seuil de déclenchement (taux d'incapacité au moins égal à 10 %). deductibles est donc laissé à null sur tous ses champs plutôt que rempli par déduction. Aucun délai de carence n'est mentionné non plus : waiting_periods est vide.",
+    "target_audience laissé null : le document ne nomme aucune catégorie de clientèle. Ses formulations propres (condition d'âge de moins de 71 ans, qualité de Sociétaire préalable, et la réserve « vous êtes une personne souscrivant à titre privé » qui conditionne le droit de renonciation des articles 17-4 et 17-5) sont reportées dans target_audience_note. Le contrat couvre à la fois la vie privée et la vie professionnelle (article 5), ce qui interdit d'en déduire une catégorie.",
+    "DEUX ORTHOGRAPHES DU NOM DU PRODUIT : la couverture (page 1) imprime « Familial Complémentaire / « Accidents corporels » » et la page 2 « Matmut Familial Complémentaire / « Accidents Corporels » » (avec C majuscule). product_name reprend la forme de la couverture ; les deux sont signalées ici sans être réconciliées.",
+    "PORTEUR DE RISQUE : la 4e de couverture (page 30) nomme « Mutuelle assurance des travailleurs mutualistes / Société d'assurance mutuelle à cotisations variables / Entreprise régie par le Code des assurances / Siège social : 66, rue de Sotteville 76100 Rouen » — SANS numéro Siren, qui n'est imprimé nulle part dans ce document. Le mot « Matmut » n'apparaît comme raison sociale qu'au lexique (« Nous : Matmut. ») et dans les coordonnées. insurer_name reprend la valeur fournie par la tâche, dont le Siren 775 701 477 ne provient donc PAS de ce document.",
+    "edition_date reprise du seul code imprimé, « CG FC.AC1 – 10/24 » en bas de la page 29 ; aucune mention « édition MM/AAAA » ailleurs. reference = « CG FC.AC1 ».",
+    "FOLIOS : le document imprime un folio en pied de page décalé de −1 par rapport au numéro de page PDF (page PDF 2 → folio 1, page PDF 20 → folio 19), et le sommaire renvoie à ces folios (« Article 9 … Page 8 » = page PDF 9). Tous les champs page[] de cette extraction citent les marqueurs [[page N]], c'est-à-dire les numéros PDF, et chaque citation de key_quotes a été vérifiée par ancrage dans le texte de la page PDF correspondante.",
+    "PAGES SANS CONTENU EXPLOITABLE : la page 19 et la page 21 ne portent qu'un intertitre de séparation (« MODALITÉS D'EXAMEN DES RÉCLAMATIONS », « CHARTE DE PROTECTION DES DONNÉES À CARACTÈRE PERSONNEL ») ; les pages 26, 27, 28 ne contiennent que l'en-tête/pied de page ; la page 29 ne porte que les mentions légales et le code d'édition ; la page 30 est la 4e de couverture.",
+    "CONTRADICTION APPARENTE NON RÉCONCILIÉE : l'article 7-1 conditionne le doublement de l'indemnité à un taux d'incapacité « supérieur à 65 % » ET à la nécessité d'une assistance permanente par tierce personne d'au moins 2 heures par jour, tandis que le tableau de l'article 3 présente le capital de 32 000 € « en présence d'une assistance permanente par tierce personne d'au moins 2 heures par jour » sans rappeler la condition de taux. Les deux formulations sont reportées telles quelles (limits et sub_limits d'une part, conditions d'autre part) sans arbitrage.",
+    "Les trois formules Famille / Couple / Individuelle ne sont pas des variantes de distribution mais des formules internes au même contrat, différenciées par le périmètre des personnes assurées (article 4-1) : variant est donc laissé null et le détail figure dans les conditions de chaque garantie et dans special_conditions.",
+    "Aucun tableau à cases cochées (tableau des garanties par formule) dans ce document : les périmètres des formules sont énoncés en texte à l'article 4-1. Aucune récupération graphique n'a donc été nécessaire."
+  ]
+}

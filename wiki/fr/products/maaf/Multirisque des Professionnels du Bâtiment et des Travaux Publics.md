@@ -965,6 +965,11 @@ Toutes actions dérivant du contrat d'assurance sont prescrites par deux ans à 
 - Le contrat cite un article 24 (« garanties d'assistance aux locaux présentées à l'article 24 », page 14) alors que les garanties d'assistance aux locaux sont à l'article 27 (renvoi correct page 18) : renvoi interne contradictoire, laissé tel quel. De même, l'article 26 renvoie aux « pertes d'exploitation telles que définies à l'article 17 » (page 71) tandis que l'article 25 renvoie aux « pertes d'exploitation telles que définies à l'article 14 » (page 71), alors que les pertes d'exploitation sont l'article 17 : les deux renvois divergents sont signalés sans être corrigés.
 - La couche texte du PDF est propre : pas de ligatures perdues, pas de glyphes de zone privée. Elle contient en revanche des espaces insécables (U+00A0) à l'intérieur de guillemets et de certains montants ; les key_quotes ont été découpées programmatiquement dans le texte extrait page par page et les conservent telles quelles.
 
+## Documents liés
+
+- Extension liée : [Entreprises de travaux publics - Intercalaire](Entreprises%20de%20travaux%20publics%20-%20Intercalaire.md)
+- [Entreprises de travaux publics - Intercalaire](Entreprises%20de%20travaux%20publics%20-%20Intercalaire.md) - Conditions générales, éd. 01/25
+
 ## Source & fidélité
 
 - Source : [https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/CG/MAAF_Conditions_generales_Multirisque_pro_btp_11036.pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/CG/MAAF_Conditions_generales_Multirisque_pro_btp_11036.pdf) - téléchargé le 2026-08-01 - 110 pages

@@ -5,7 +5,7 @@ country: fr
 insurer_slug: matmut
 name: Matmut
 website: https://www.matmut.fr
-products_count: 150
+products_count: 152
 branches_covered:
 - animaux
 - assurance-vie
@@ -40,7 +40,7 @@ generated: true
 
 ## Résumé
 
-**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 150 document(s) across 18 branch(es).
+**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 152 document(s) across 18 branch(es).
 
 ## Produits par branche
 
@@ -112,6 +112,7 @@ generated: true
 - [Conditions de l'offre — Remise à la souscription — Contrats Multirisques Accidents de la Vie et Multirisques Accidents d](../products/matmut/Conditions%20de%20l%27offre%20%E2%80%94%20Remise%20%C3%A0%20la%20souscription%20%E2%80%94%20Contrats%20Multirisques%20Accidents%20de%20la%20Vie%20et%20Multirisques%20Accidents%20d.md) - Conditions tarifaires (01/26) · réf. COND.OFFRE.MAV/MAV S. - 01/26
 - [Contrat « Multirisques Accidents de la Vie Sérénité » - IPID](../products/matmut/Contrat%20%C2%AB%20Multirisques%20Accidents%20de%20la%20Vie%20S%C3%A9r%C3%A9nit%C3%A9%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (01/26) · réf. IPID.MAV.SERENITE - 01/26
 - [Contrat « Multirisques Accidents de la Vie » - IPID](../products/matmut/Contrat%20%C2%AB%20Multirisques%20Accidents%20de%20la%20Vie%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (01/26) · réf. IPID.MAV
+- [Familial Complémentaire « Accidents corporels »](../products/matmut/Familial%20Compl%C3%A9mentaire%20%C2%AB%20Accidents%20corporels%20%C2%BB.md) - Conditions générales (10/24) · réf. CG FC.AC1
 - [Multirisques Accidents de la Vie](../products/matmut/Multirisques%20Accidents%20de%20la%20Vie.md) - Conditions générales · réf. CG MAV - 01/26
 
 ### [Multirisque habitation](../branches/Multirisque%20habitation.md)
@@ -226,6 +227,7 @@ generated: true
 ### [Scolaire et extrascolaire](../branches/Scolaire%20et%20extrascolaire.md)
 - [Assurance scolaire](../products/matmut/Assurance%20scolaire.md) - Conditions générales (2023-12) · réf. CG SCOL – 12/23
 - [Conditions de l'offre Assurance Scolaire - Tarifs](../products/matmut/Conditions%20de%20l%27offre%20Assurance%20Scolaire%20-%20Tarifs.md) - Conditions tarifaires (05/26) · réf. COND.OFFRE.SCOL – 05/26
+- [Contrat « Assurance scolaire » - IPID](../products/matmut/Contrat%20%C2%AB%20Assurance%20scolaire%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (12/23) · réf. IPID.SCOL
 
 ### [Vélo](../branches/V%C3%A9lo.md)
 - [Contrat Multirisques « 2R Liberté » - IPID](../products/matmut/Contrat%20Multirisques%20%C2%AB%202R%20Libert%C3%A9%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (07/25) · réf. IPID.VELO - 07/25
