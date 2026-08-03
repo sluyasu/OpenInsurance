@@ -5,7 +5,7 @@ country: fr
 insurer_slug: maaf
 name: MAAF
 website: https://www.maaf.fr/
-products_count: 75
+products_count: 76
 branches_covered:
 - assurance-vie
 - auto
@@ -39,7 +39,7 @@ generated: true
 
 ## Résumé
 
-**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 75 document(s) across 17 branch(es).
+**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 76 document(s) across 17 branch(es).
 
 ## Produits par branche
 
@@ -143,6 +143,7 @@ generated: true
 ### [Complémentaire santé](../branches/Compl%C3%A9mentaire%20sant%C3%A9.md)
 - [Assurance SANTÉ PROFIL SALARIÉS](../products/maaf/Assurance%20SANT%C3%89%20PROFIL%20SALARI%C3%89S.md) - Conditions générales (10.2025) · réf. 11015
 - [BIORYTHM - Fiche](../products/maaf/BIORYTHM%20-%20Fiche.md) - Fiche produit
+- [CONTRAT GROUPE COMPLEMENTAIRE SANTE A ADHESION FACULTATIVE A DESTINATION DES RETRAITES](../products/maaf/CONTRAT%20GROUPE%20COMPLEMENTAIRE%20SANTE%20A%20ADHESION%20FACULTATIVE%20A%20DESTINATION%20DES%20RETRAITES.md) - Conditions générales (Dispositions en vigueur au 01.01.2026)
 - [Contrat Santé BIORYTHM](../products/maaf/Contrat%20Sant%C3%A9%20BIORYTHM.md) - Conditions générales (01/26) · réf. 2337
 - [Contrat Santé Vivazen](../products/maaf/Contrat%20Sant%C3%A9%20Vivazen%20%282%29.md) - Conditions générales (2026-01) · réf. Réf. 2541 - 01/26
 - [Contrat Santé Vivazen](../products/maaf/Contrat%20Sant%C3%A9%20Vivazen.md) - Conditions générales (01/26) · réf. 2542

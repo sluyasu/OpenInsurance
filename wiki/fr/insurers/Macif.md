@@ -5,7 +5,7 @@ country: fr
 insurer_slug: macif
 name: Macif
 website: https://www.macif.fr
-products_count: 115
+products_count: 117
 branches_covered:
 - animaux
 - assurance-vie
@@ -42,7 +42,7 @@ generated: true
 
 ## Résumé
 
-**Macif** - [https://www.macif.fr](https://www.macif.fr). 115 document(s) across 20 branch(es).
+**Macif** - [https://www.macif.fr](https://www.macif.fr). 117 document(s) across 20 branch(es).
 
 ## Produits par branche
 
@@ -139,6 +139,7 @@ generated: true
 
 ### [Deux-roues, quads et voiturettes](../branches/Deux-roues%2C%20quads%20et%20voiturettes.md)
 - [Contrat Deux Roues](../products/macif/Contrat%20Deux%20Roues.md) - Conditions générales (2018-11-25) · réf. VEH/MOTO/05-25/11/18-N760
+- [Contrat Macif Deux-roues (PART) - IPID](../products/macif/Contrat%20Macif%20Deux-roues%20%28PART%29%20-%20IPID.md) - IPID / Fiche d'information (2026-05) · réf. VEH MOTO PART - 05/26
 - [Contrat Macif Deux-roues Pros - IPID](../products/macif/Contrat%20Macif%20Deux-roues%20Pros%20-%20IPID.md) - IPID / Fiche d'information (06/22) · réf. VEH MOTO PROS - 06/22
 - [Macif Deux-roues](../products/macif/Macif%20Deux-roues.md) - Conditions générales (05/2026) · réf. VEH/MOTO PART/05 - 05/26 - N436
 
@@ -158,6 +159,7 @@ generated: true
 - [contrat GARANTIE OBSÈQUES - IPID](../products/macif/contrat%20GARANTIE%20OBS%C3%88QUES%20-%20IPID.md) - IPID / Fiche d'information (01/26) · réf. DIPA GARANTIE OBSÈQUES - 01/26
 
 ### [Prévoyance](../branches/Pr%C3%A9voyance.md)
+- [Prévoyance CCN Cabinets d'experts comptables et commissaires aux comptes (IDCC 787) - IPID](../products/macif/Pr%C3%A9voyance%20CCN%20Cabinets%20d%27experts%20comptables%20et%20commissaires%20aux%20comptes%20%28IDCC%20787%29%20-%20IPID.md) - IPID / Fiche d'information (01/26) · réf. DIPA  EXPERTS COMPTABLES - 01/26
 - [contrat GARANTIE DÉCÈS (Décès, invalidité et arrêt de travail temporaire) - IPID](../products/macif/contrat%20GARANTIE%20D%C3%89C%C3%88S%20%28D%C3%A9c%C3%A8s%2C%20invalidit%C3%A9%20et%20arr%C3%AAt%20de%20travail%20temporaire%29%20-%20IPID.md) - IPID / Fiche d'information (01/26) · réf. DIPA GARANTIE DÉCÈS - 01/26
 
 ### [Protection juridique](../branches/Protection%20juridique.md)

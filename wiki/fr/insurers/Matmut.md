@@ -5,7 +5,7 @@ country: fr
 insurer_slug: matmut
 name: Matmut
 website: https://www.matmut.fr
-products_count: 183
+products_count: 184
 branches_covered:
 - animaux
 - assurance-vie
@@ -43,7 +43,7 @@ generated: true
 
 ## Résumé
 
-**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 183 document(s) across 21 branch(es).
+**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 184 document(s) across 21 branch(es).
 
 ## Produits par branche
 
@@ -183,6 +183,7 @@ generated: true
 - [Contrat d'assurance Bris de machines et pertes d'exploitation suite à bris de machines](../products/matmut/Contrat%20d%27assurance%20Bris%20de%20machines%20et%20pertes%20d%27exploitation%20suite%20%C3%A0%20bris%20de%20machines.md) - Conditions générales (2024-11) · réf. MC.402 IME – 11/24
 - [Contrat d'assurance Pertes d'exploitation](../products/matmut/Contrat%20d%27assurance%20Pertes%20d%27exploitation.md) - Conditions générales (2024-11) · réf. MC.306 IME – 11/24
 - [Contrat « Association » - IPID](../products/matmut/Contrat%20%C2%AB%20Association%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (07/23) · réf. IPID.ASSO - 07/23
+- [Contrat « Caducée » - IPID](../products/matmut/Contrat%20%C2%AB%20Caduc%C3%A9e%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (07/23) · réf. IPID.CAD - 07/23
 - [Contrat « Matmut Pro » - IPID](../products/matmut/Contrat%20%C2%AB%20Matmut%20Pro%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (10/25) · réf. IPID.MPRO
 - [Matmut PRO](../products/matmut/Matmut%20PRO.md) - Conditions générales (11/24) · réf. CG Matmut PRO – 11/24
 - [Matmut « Caducée »](../products/matmut/Matmut%20%C2%AB%20Caduc%C3%A9e%20%C2%BB.md) - Conditions générales · réf. MC.30 – 11/24

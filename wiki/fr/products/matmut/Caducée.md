@@ -868,6 +868,7 @@ Toute action dérivant du présent contrat, qu’il s’agisse de sa validité o
 
 ## Documents liés
 
+- [Contrat « Caducée » - IPID](Contrat%20%C2%AB%20Caduc%C3%A9e%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information, éd. 07/23
 - [Matmut « Caducée »](Matmut%20%C2%AB%20Caduc%C3%A9e%20%C2%BB.md) - Conditions générales
 
 ## Source & fidélité

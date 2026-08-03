@@ -634,6 +634,7 @@ Toute action dérivant du présent contrat, qu'il s'agisse de sa validité ou de
 ## Documents liés
 
 - [Caducée](Caduc%C3%A9e.md) - Conditions générales, éd. 05/23
+- [Contrat « Caducée » - IPID](Contrat%20%C2%AB%20Caduc%C3%A9e%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information, éd. 07/23
 
 ## Source & fidélité
 

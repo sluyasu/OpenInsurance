@@ -588,6 +588,10 @@ La prescription est le délai au-delà duquel une action n'est plus recevable. C
 - Les pages 64 à 68 ne portent quasiment aucun texte (pages de fin et mentions légales) : la page 68 porte la mention légale du porteur de risque et la référence du document.
 - Les montants et plafonds sont ceux imprimés, verbatim. Le contrat renvoie à plusieurs reprises aux conditions particulières pour le montant de la franchise et pour certains plafonds (Accessoires, Équipement du motard) : ces valeurs ne figurent pas dans les conditions générales et ne peuvent donc pas être extraites de ce document.
 
+## Documents liés
+
+- [Contrat Macif Deux-roues (PART) - IPID](Contrat%20Macif%20Deux-roues%20%28PART%29%20-%20IPID.md) - IPID / Fiche d'information, éd. 2026-05
+
 ## Source & fidélité
 
 - Source : [https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_vehicules/CG-Moto.pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_vehicules/CG-Moto.pdf) - téléchargé le 2026-08-01 - 68 pages
