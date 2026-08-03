@@ -61,10 +61,43 @@ def _dicts(items, namekey="name"):
     return out
 
 
+_PRIMARY_LANG: dict[str, str] = {}
+
+
+def _primary_lang(cc: str) -> str | None:
+    """First entry of the country's `official_languages`, or None if it declares only one."""
+    if cc not in _PRIMARY_LANG:
+        try:
+            import yaml
+            from common import REPO
+            with open(REPO / "sources" / cc / "_country.yml", encoding="utf-8") as fh:
+                langs = (yaml.safe_load(fh) or {}).get("official_languages") or []
+        except Exception:
+            langs = []
+        _PRIMARY_LANG[cc] = langs[0] if len(langs) > 1 else ""
+    return _PRIMARY_LANG[cc] or None
+
+
 def product_title(obj: dict) -> str:
-    """Disambiguated page title so a product's CG and IPID don't collide."""
+    """Disambiguated page title so a product's CG and IPID don't collide.
+
+    In a MULTILINGUAL market the language is part of the document's identity, not a detail.
+    lalux publishes the same IPID as genuinely distinct French, German and English files —
+    81 of its 90 documents are such parallel versions. Without the language in the page name
+    they collide, and build_wiki's fallback appends "(2)" and "(3)": three real documents
+    survive, but a reader has no way to tell which one is the German version. So a document
+    whose language is not the country's first official language carries it explicitly.
+
+    Countries declaring a single language (France) are untouched, and so is any document in
+    the primary language, which keeps the plain product name.
+    """
     name = obj.get("product_name") or "Untitled"
-    return safe_title(name + DOC_TYPE_SUFFIX.get(obj.get("document_type", ""), ""))
+    suffix = DOC_TYPE_SUFFIX.get(obj.get("document_type", ""), "")
+    primary = _primary_lang(obj.get("country") or "")
+    lang = obj.get("language")
+    if primary and lang and lang != primary:
+        suffix += f" - {lang.upper()}"
+    return safe_title(name + suffix)
 
 
 def mdlink(from_page: str, to_page: str, label: str) -> str:
