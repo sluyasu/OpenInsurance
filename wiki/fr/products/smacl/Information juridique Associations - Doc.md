@@ -7,7 +7,7 @@ insurer_slug: smacl
 branch: protection-juridique
 product_name: Information juridique Associations
 document_type: other
-target_audience: entreprises
+target_audience: associations
 target_audience_note: « Par bénéficiaire on entend la personne morale de droit privé
   désignée au contrat. » (page 1). Le document s’intitule « Votre convention Information
   juridique Associations » et consacre un domaine de droit à « LA VIE DES ASSOCIATIONS

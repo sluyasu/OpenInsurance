@@ -296,6 +296,7 @@ Ligne « TOUS DOMMAGES CONFONDUS » du tableau « GARANTIES RESPONSABILITÉ CIVI
 ## Documents liés
 
 - [Multirisques patrimoine - IPID](Multirisques%20patrimoine%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/2024
+- [Multirisques patrimoine (SMACL Assurances SA)](Multirisques%20patrimoine%20%28SMACL%20Assurances%20SA%29.md) - Conditions générales, éd. 05/2025
 
 ## Source & fidélité
 

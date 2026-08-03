@@ -7,7 +7,7 @@ insurer_slug: maaf
 branch: multirisque-professionnelle
 product_name: Multirisque Associations
 document_type: conditions_generales
-target_audience: entreprises
+target_audience: associations
 target_audience_note: 'Contrat destiné aux associations : « Le contrat Multirisque
   Associations a pour objet de vous proposer un ensemble de garanties pour vos responsabilités
   et vos biens associatifs afin de vous permettre d''assurer la pérennité de vos activités

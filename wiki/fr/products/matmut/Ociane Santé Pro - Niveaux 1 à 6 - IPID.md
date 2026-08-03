@@ -244,6 +244,7 @@ Compris dans les soins courants et prescriptions médicales : forfait solidaire 
 ## Documents liés
 
 - [Ociane Santé Pro - Fiche](Ociane%20Sant%C3%A9%20Pro%20-%20Fiche.md) - Fiche produit, éd. 10/25
+- [Ociane Santé Pro](Ociane%20Sant%C3%A9%20Pro.md) - Conditions générales, éd. Édition février 2026
 
 ## Source & fidélité
 

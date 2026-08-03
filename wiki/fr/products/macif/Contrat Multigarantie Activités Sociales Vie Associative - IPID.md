@@ -7,7 +7,7 @@ insurer_slug: macif
 branch: multirisque-professionnelle
 product_name: Contrat Multigarantie Activités Sociales Vie Associative
 document_type: ipid
-target_audience: entreprises
+target_audience: associations
 target_audience_note: Le document est intitulé « Assurance des Associations » et indique
   que « Ce contrat d'assurance Multigarantie Activités Sociales protège les associations
   lorsque leur responsabilité civile est recherchée dans le cadre de leurs activités

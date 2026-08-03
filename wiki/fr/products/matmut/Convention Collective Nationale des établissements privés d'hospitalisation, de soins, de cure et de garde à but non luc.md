@@ -461,6 +461,7 @@ Toutes les actions dérivant des opérations mentionnées au Contrat sont prescr
 ## Documents liés
 
 - Extension / option du produit : **Contrat collectif à adhésion obligatoire (couverture collective de base, « régime conventionnel », Base 1) de la CCN du 31 octobre 1951**
+- [Convention Collective Nationale des établissements privés d'hospitalisation, de soins, de cure et de garde à but non luc](Convention%20Collective%20Nationale%20des%20%C3%A9tablissements%20priv%C3%A9s%20d%27hospitalisation%2C%20de%20soins%2C%20de%20cure%20et%20de%20garde%20%C3%A0%20but%20non%20luc%20%282%29.md) - Conditions générales, éd. Juillet 2024
 
 ## Source & fidélité
 

@@ -7,7 +7,7 @@ insurer_slug: smacl
 branch: prevoyance
 product_name: Sécurité des salariés et bénévoles d'association
 document_type: conditions_generales
-target_audience: entreprises
+target_audience: associations
 target_audience_note: Le bandeau de couverture porte « Associatons » (forme donnée
   par la couche texte pour « Associations », ligature « ti » perdue) et l'adresse
   de contact de la quatrième de couverture est « associatons@smacl.fr ». Le souscripteur

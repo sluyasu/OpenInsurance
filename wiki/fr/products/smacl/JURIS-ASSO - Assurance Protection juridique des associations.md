@@ -7,7 +7,7 @@ insurer_slug: smacl
 branch: protection-juridique
 product_name: JURIS-ASSO - Assurance Protection juridique des associations
 document_type: conditions_generales
-target_audience: entreprises
+target_audience: associations
 target_audience_note: Le bandeau de couverture porte « Associatons » (forme donnée
   par la couche texte pour « Associations », ligature « ti » perdue) et l'adresse
   de contact de la quatrième de couverture est « associatons@smacl.fr ». Le contrat

@@ -268,6 +268,7 @@ LES GARANTIES OPTIONNELLES — L’indemnité est plafonnée par sinistre  aux m
 ## Documents liés
 
 - [Multirisques patrimoine - Fiche](Multirisques%20patrimoine%20-%20Fiche.md) - Fiche produit, éd. 01/2023
+- [Multirisques patrimoine (SMACL Assurances SA)](Multirisques%20patrimoine%20%28SMACL%20Assurances%20SA%29.md) - Conditions générales, éd. 05/2025
 
 ## Source & fidélité
 

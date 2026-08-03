@@ -121,6 +121,12 @@ def normalize(obj: dict) -> dict:
     return obj
 
 
+# Read from the committed schema so this list and the schema can never drift apart.
+AUDIENCE_ENUM = tuple(v for v in json.loads(
+    (REPO / "schema" / "product.schema.json").read_text()
+)["properties"]["target_audience"]["enum"] if v)
+
+
 def _audience_enum(text: str) -> str | None:
     """Map a free-text audience to the schema enum, or None when it is not clear-cut.
 
@@ -137,8 +143,21 @@ def _audience_enum(text: str) -> str | None:
     signals = set()
     if re.search(r"ind[ée]pendant", t) or "profession lib" in t:
         signals.add("independants")
-    if "secteur public" in t or "service public" in t or "commune" in t:
+    # `collectivit` belongs here: a collectivité territoriale IS the public sector, and
+    # leaving it out had two costs at once. "Collectivités territoriales" produced no
+    # signal at all, and "Collectivités et associations" produced exactly ONE - so it
+    # mapped to `associations` instead of declining, which is the opposite of what the
+    # rule above prescribes for a text naming several audiences.
+    if "secteur public" in t or "service public" in t or "commune" in t \
+            or re.search(r"collectivit[ée]s?\b", t):
         signals.add("secteur_public")
+    # Associations are their own audience, not a kind of company. SMACL's whole book is
+    # collectivités + associations, and without this signal 14 documents whose own title
+    # says "Associations" were filed as `entreprises` while 19 comparable ones were left
+    # null - the same market segment recorded two different ways. An association loi 1901
+    # is neither an entreprise nor secteur_public.
+    if re.search(r"associations?\b", t) or "loi 1901" in t:
+        signals.add("associations")
     if re.search(r"particuliers?\b", t) or re.search(r"personnes?\s+physiques?", t) \
             or re.search(r"propri[ée]taires?\b", t) or "consommateur" in t:
         signals.add("particuliers")
@@ -158,8 +177,7 @@ def _coerce_drift(obj: dict) -> dict:
     produced schema-invalid objects that the sidecar would have fixed. Rule 7 wants one
     path, so it lives here now."""
     ta = obj.get("target_audience")
-    if isinstance(ta, str) and ta not in ("particuliers", "independants",
-                                          "entreprises", "secteur_public"):
+    if isinstance(ta, str) and ta not in AUDIENCE_ENUM:
         obj["target_audience"] = _audience_enum(ta)
         obj.setdefault("target_audience_note", ta.strip())
 

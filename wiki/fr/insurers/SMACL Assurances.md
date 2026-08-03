@@ -5,7 +5,7 @@ country: fr
 insurer_slug: smacl
 name: SMACL Assurances
 website: https://www.smacl.fr
-products_count: 109
+products_count: 111
 branches_covered:
 - auto
 - autres
@@ -37,7 +37,7 @@ generated: true
 
 ## Résumé
 
-**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 109 document(s) across 15 branch(es).
+**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 111 document(s) across 15 branch(es).
 
 ## Produits par branche
 
@@ -114,8 +114,10 @@ generated: true
 - [CONVERGENCE Tous risques instruments de musique (Associatons)](../products/smacl/CONVERGENCE%20Tous%20risques%20instruments%20de%20musique%20%28Associatons%29.md) - Conditions générales (01/2024) · réf. CONVERGENCE_CS_INSTRUMENTS_SA_01(06_2015)
 - [CONVERGENCE Tous risques objets (Associatons)](../products/smacl/CONVERGENCE%20Tous%20risques%20objets%20%28Associatons%29.md) - Conditions générales (01/2024) · réf. CONVERGENCE_CS_TRO_SA_04_(05_2016)
 - [Convergence dommages aux biens - IPID](../products/smacl/Convergence%20dommages%20aux%20biens%20-%20IPID.md) - IPID / Fiche d'information (01/2024) · réf. CONVERGENCE_DIPA_DAB_SA_04(09_2022)
+- [Multirisques associations (SMACL Assurances SA)](../products/smacl/Multirisques%20associations%20%28SMACL%20Assurances%20SA%29.md) - Conditions générales (04/2025) · réf. ADA_CG_MRA_SA_04(02_2023)
 - [Multirisques patrimoine - IPID](../products/smacl/Multirisques%20patrimoine%20-%20IPID.md) - IPID / Fiche d'information (01/2024) · réf. ENTREPRISE_DIPA_MultiPatrimoine
 - [Multirisques patrimoine - Fiche](../products/smacl/Multirisques%20patrimoine%20-%20Fiche.md) - Fiche produit (01/2023)
+- [Multirisques patrimoine (SMACL Assurances SA)](../products/smacl/Multirisques%20patrimoine%20%28SMACL%20Assurances%20SA%29.md) - Conditions générales (05/2025) · réf. ENTREPRISE_CG_MULTIRISQUES_PATRIMOINE_04(02_2023)
 - [Votre barème de remboursement des honoraires d'expert d'assuré en Dommages aux biens - Tarifs](../products/smacl/Votre%20bar%C3%A8me%20de%20remboursement%20des%20honoraires%20d%27expert%20d%27assur%C3%A9%20en%20Dommages%20aux%20biens%20-%20Tarifs.md) - Conditions tarifaires (01/2024) · réf. BAREME_EXPERT_ASSURE_DAB_(10-2012)
 
 ### [Navigation de plaisance](../branches/Navigation%20de%20plaisance.md)
