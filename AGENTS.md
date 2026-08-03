@@ -28,7 +28,7 @@ navigate it without guessing. Do not edit by hand.
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
 | ch (Switzerland) | 0 | 3 | 1 | 0 | 5 |
 | fr (France) | 24 | 551 | 10 | 1 | 5 |
-| lu (Luxembourg) | 0 | 6 | 1 | 0 | 5 |
+| lu (Luxembourg) | 0 | 8 | 1 | 0 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
 
@@ -863,5 +863,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | lu | autres | lalux | SPUERKEESS credit card insurance – Assistance and Non-Assistance cover (VISA PREMIER) - IPID - EN | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_PREMIER_EN.pdf) |
 | lu | autres | lalux | Versicherung SPUERKEESS-Kreditkarten – Assistance-Leistungen und Nicht Assistance-Leistungen (VISA INFINITE) - IPID - DE | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_INFINITE_DE.pdf) |
 | lu | autres | lalux | Versicherung SPUERKEESS-Kreditkarten – Assistance-Leistungen und Nicht Assistance-Leistungen (VISA PREMIER) - IPID - DE | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_PREMIER_DE.pdf) |
+| lu | construction | lalux | APROBAT - Decennial civil liability - IPID - EN | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_aprobat_rc-decennale_en.pdf) |
+| lu | construction | lalux | APROBAT - Responsabilité Civile Décennale - IPID | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_aprobat_rc-decennale_fr.pdf) |
 | lu | construction | lalux | Zehn- und Zweijahreshaftpflichtversicherung - DE | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/Divers/Aprobat/D.G._RC_Decennale_Biennale__10-07-2025_DE.pdf) |
 | lu | multirisque-professionnelle | lalux | easyPROTECT PRO – Assurance de choses - IPID | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_lalux_easyprotect-pro-entreprise-assurance-de-choses_fr.pdf) |

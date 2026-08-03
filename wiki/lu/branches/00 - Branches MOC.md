@@ -16,7 +16,9 @@ generated: true
 
 Liste générée des produits par branche. Les fiches conceptuelles de branche sont rédigées à la main dans ce dossier.
 
-### Assurances constructions (1)
+### Assurances constructions (3)
+- [APROBAT - Decennial civil liability - IPID - EN](../products/lalux/APROBAT%20-%20Decennial%20civil%20liability%20-%20IPID%20-%20EN.md) - [lalux](../insurers/lalux.md)
+- [APROBAT - Responsabilité Civile Décennale - IPID](../products/lalux/APROBAT%20-%20Responsabilit%C3%A9%20Civile%20D%C3%A9cennale%20-%20IPID.md) - [lalux](../insurers/lalux.md)
 - [Zehn- und Zweijahreshaftpflichtversicherung - DE](../products/lalux/Zehn-%20und%20Zweijahreshaftpflichtversicherung%20-%20DE.md) - [lalux](../insurers/lalux.md)
 
 ### Multirisque professionnelle (1)
