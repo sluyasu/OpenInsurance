@@ -148,6 +148,10 @@ Assistance et services — Information juridique. Le document ne détaille pas l
 - PÉRIMÈTRE D’UN DIPA : document réglementaire de deux pages, résumé par nature. Il l’écrit lui-même : « Ce document d’information présente un résumé des principales garanties, exclusions et informations clés du contrat. » Les exclusions listées sont donc les « PRINCIPALES EXCLUSIONS » seulement, pas la liste exhaustive du contrat. Il ne comporte ni définitions, ni franchises, ni délais de carence, ni délai de prescription : definitions et waiting_periods sont vides, deductibles et prescription_period null — absence réelle, pas un défaut de lecture. Les conditions générales du contrat ne sont pas jointes.
 - MONTANTS NON CHIFFRÉS : le plafond réel est renvoyé aux « montants indiqués au contrat », seul le maximum absolu de 30 000 € par sinistre est imprimé. Le délai de préavis de résiliation à l’échéance et le délai de déclaration de sinistre sont renvoyés au contrat sans être chiffrés.
 
+## Documents liés
+
+- [Sécurité des salariés et bénévoles d'association](S%C3%A9curit%C3%A9%20des%20salari%C3%A9s%20et%20b%C3%A9n%C3%A9voles%20d%27association.md) - Conditions générales, éd. 01/2024
+
 ## Source & fidélité
 
 - Source : [https://www.smacl.fr/files/documents/document-information-securite-salaries-benevoles-associations.pdf](https://www.smacl.fr/files/documents/document-information-securite-salaries-benevoles-associations.pdf) - téléchargé le 2026-08-01 - 2 pages

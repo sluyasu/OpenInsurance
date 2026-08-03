@@ -159,6 +159,10 @@ Sous la rubrique « Assistance et services : », le document prévoit systémati
 - Le document ne mentionne ni médiateur, ni autorité de contrôle (ACPR), ni traitement des données personnelles, ni droit applicable.
 - Particularités de la couche texte : tabulations à l'intérieur des listes (« -\t » pour les sous-listes de la page 1, « •\t » pour les obligations de la page 2), espaces insécables U+00A0 dans « de l'assuré », « et recours », « le contrat », « au contrat » et « d'échéance annuelle », et une espace demi-cadratin U+2002 en tête de la ligne de colophon. Les citations ont été découpées programmatiquement sur le texte extrait pour les reproduire exactement.
 
+## Documents liés
+
+- [JURIPACTE](JURIPACTE.md) - Conditions générales, éd. 05/2025
+
 ## Source & fidélité
 
 - Source : [https://www.smacl.fr/files/documents/document-information-protection-juridique-collectivites.pdf](https://www.smacl.fr/files/documents/document-information-protection-juridique-collectivites.pdf) - téléchargé le 2026-08-01 - 2 pages

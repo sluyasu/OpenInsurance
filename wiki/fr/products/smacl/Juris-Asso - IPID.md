@@ -126,6 +126,10 @@ Garantie systématiquement prévue au contrat. « Protection juridique : prise e
 - MONTANTS NON CHIFFRÉS : seuls deux montants sont imprimés, le plafond maximal de 25 000 € par litige et le seuil d’intervention de 200 €. Le plafond réel est renvoyé aux « montants indiqués au contrat ». Le délai de préavis de résiliation à l’échéance et le délai de déclaration de sinistre sont renvoyés au contrat sans être chiffrés.
 - BRANCHE : la métadonnée branch = protection-juridique est confirmée par le document lui-même, dont la garantie unique s’intitule « Protection juridique » et dont le titre commercial est « Assurance Protection juridique des associations ». Aucun désaccord.
 
+## Documents liés
+
+- [JURIS-ASSO - Assurance Protection juridique des associations](JURIS-ASSO%20-%20Assurance%20Protection%20juridique%20des%20associations.md) - Conditions générales, éd. 01/2024
+
 ## Source & fidélité
 
 - Source : [https://www.smacl.fr/files/documents/document-information-jurisasso-protection-juridique-association.pdf](https://www.smacl.fr/files/documents/document-information-jurisasso-protection-juridique-association.pdf) - téléchargé le 2026-08-01 - 2 pages

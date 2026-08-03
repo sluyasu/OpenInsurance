@@ -5,7 +5,7 @@ country: fr
 insurer_slug: smacl
 name: SMACL Assurances
 website: https://www.smacl.fr
-products_count: 101
+products_count: 104
 branches_covered:
 - auto
 - autres
@@ -37,7 +37,7 @@ generated: true
 
 ## Résumé
 
-**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 101 document(s) across 15 branch(es).
+**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 104 document(s) across 15 branch(es).
 
 ## Produits par branche
 
@@ -130,6 +130,7 @@ generated: true
 - [CONVERGENCE - Individuelle accidents corporels (conventions spéciales)](../products/smacl/CONVERGENCE%20-%20Individuelle%20accidents%20corporels%20%28conventions%20sp%C3%A9ciales%29.md) - Conditions générales (01/2024) · réf. CONVERGENCE_CS_IAC_SA_03(04_2016)
 - [Convergence individuelle accidents corporels - IPID](../products/smacl/Convergence%20individuelle%20accidents%20corporels%20-%20IPID.md) - IPID / Fiche d'information (01/2024) · réf. CONVERGENCE_DIPA_IAC_03(09_2022)
 - [Risques statutaires ALÉASSUR](../products/smacl/Risques%20statutaires%20AL%C3%89ASSUR.md) - Conditions générales (06/2026) · réf. ALEASSUR_CG_RS_11(04_2026)
+- [Sécurité des salariés et bénévoles d'association](../products/smacl/S%C3%A9curit%C3%A9%20des%20salari%C3%A9s%20et%20b%C3%A9n%C3%A9voles%20d%27association.md) - Conditions générales (01/2024) · réf. SSBA_CG_06(02_2023)
 - [Sécurité des salariés et bénévoles d'association - IPID](../products/smacl/S%C3%A9curit%C3%A9%20des%20salari%C3%A9s%20et%20b%C3%A9n%C3%A9voles%20d%27association%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. SSBA_DIPA_01(03_2019)
 
 ### [Protection juridique](../branches/Protection%20juridique.md)
@@ -142,6 +143,8 @@ generated: true
 - [Information juridique Collectivités - Doc](../products/smacl/Information%20juridique%20Collectivit%C3%A9s%20-%20Doc%20%282%29.md) - Document (01/2024) · réf. CONVENTION_IJ_COLLECTIVITES_SA_02(09_2022)
 - [Information juridique Collectivités - Doc](../products/smacl/Information%20juridique%20Collectivit%C3%A9s%20-%20Doc.md) - Document (01/2024) · réf. CONVENTION_IJ_COLLECTIVITES_AO_02(02_2023)_TEL
 - [Information juridique Sécurité élus - Doc](../products/smacl/Information%20juridique%20S%C3%A9curit%C3%A9%20%C3%A9lus%20-%20Doc.md) - Document (07/2023) · réf. CONVENTION_IJ_ELUS_02(02_2023)_TEL
+- [JURIPACTE](../products/smacl/JURIPACTE.md) - Conditions générales (05/2025) · réf. JURIPACTE_CG_PJ_11(02_2023)
+- [JURIS-ASSO - Assurance Protection juridique des associations](../products/smacl/JURIS-ASSO%20-%20Assurance%20Protection%20juridique%20des%20associations.md) - Conditions générales (01/2024)
 - [Juripacte - IPID](../products/smacl/Juripacte%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. JURIPACTE_DIPA_PJ_01(06/2021)
 - [Juris-Asso - IPID](../products/smacl/Juris-Asso%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. JURISASSO_DIPA_PJ_01(03_2019)
 - [Protection juridique (Particuliers)](../products/smacl/Protection%20juridique%20%28Particuliers%29.md) - Conditions générales (11/2022) · réf. PP_CG_PJ_ 03(02_2023)
