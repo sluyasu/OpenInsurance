@@ -5,7 +5,7 @@ country: fr
 insurer_slug: matmut
 name: Matmut
 website: https://www.matmut.fr
-products_count: 157
+products_count: 158
 branches_covered:
 - animaux
 - assurance-vie
@@ -42,7 +42,7 @@ generated: true
 
 ## Résumé
 
-**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 157 document(s) across 20 branch(es).
+**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 158 document(s) across 20 branch(es).
 
 ## Produits par branche
 
@@ -137,6 +137,7 @@ generated: true
 - [Habitation Résidence secondaire](../products/matmut/Habitation%20R%C3%A9sidence%20secondaire.md) - Conditions générales (12/23) · réf. CG RS – 12/23
 - [Matmut Mobile-home formule Nature](../products/matmut/Matmut%20Mobile-home%20formule%20Nature.md) - Conditions générales (05/24) · réf. CG MGAR MH Nature – 05/24
 - [Propriétaire Non Exploitant](../products/matmut/Propri%C3%A9taire%20Non%20Exploitant.md) - Conditions générales (2024-05) · réf. CG PNE – 05/24
+- [Terrain - Bâtiment non habitable — Contrat d'assurance Multigaranties](../products/matmut/Terrain%20-%20B%C3%A2timent%20non%20habitable%20%E2%80%94%20Contrat%20d%27assurance%20Multigaranties.md) - Conditions générales (05/24) · réf. CG TBNH – 05/24
 
 ### [Deux-roues, quads et voiturettes](../branches/Deux-roues%2C%20quads%20et%20voiturettes.md)
 - [2 roues Initiale & Co (Initiale & Co — Matmut & Co)](../products/matmut/2%20roues%20Initiale%20%26%20Co%20%28Initiale%20%26%20Co%20%E2%80%94%20Matmut%20%26%20Co%29.md) - Conditions générales · réf. CG MRSQ 2R INITIAL & CO - 10/24

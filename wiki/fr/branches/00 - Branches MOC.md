@@ -142,7 +142,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Assurance Vélo](../products/maif/Assurance%20V%C3%A9lo.md) - [MAIF](../insurers/MAIF.md)
 - [Contrat Multirisques « 2R Liberté » - IPID](../products/matmut/Contrat%20Multirisques%20%C2%AB%202R%20Libert%C3%A9%20%C2%BB%20-%20IPID.md) - [Matmut](../insurers/Matmut.md)
 
-### [Multirisque habitation](Multirisque%20habitation.md) (77)
+### [Multirisque habitation](Multirisque%20habitation.md) (78)
 - [Assurance Habitation Direct Assurance - IPID](../products/direct-assurance/Assurance%20Habitation%20Direct%20Assurance%20-%20IPID.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [Contrat Habitation](../products/direct-assurance/Contrat%20Habitation.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [Assurance multirisques habitation - Doc](../products/groupama/Assurance%20multirisques%20habitation%20-%20Doc.md) - [Groupama](../insurers/Groupama.md)
@@ -212,6 +212,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Habitation Résidence secondaire](../products/matmut/Habitation%20R%C3%A9sidence%20secondaire.md) - [Matmut](../insurers/Matmut.md)
 - [Matmut Mobile-home formule Nature](../products/matmut/Matmut%20Mobile-home%20formule%20Nature.md) - [Matmut](../insurers/Matmut.md)
 - [Propriétaire Non Exploitant](../products/matmut/Propri%C3%A9taire%20Non%20Exploitant.md) - [Matmut](../insurers/Matmut.md)
+- [Terrain - Bâtiment non habitable — Contrat d'assurance Multigaranties](../products/matmut/Terrain%20-%20B%C3%A2timent%20non%20habitable%20%E2%80%94%20Contrat%20d%27assurance%20Multigaranties.md) - [Matmut](../insurers/Matmut.md)
 - [Assurance habitation (Particuliers)](../products/smacl/Assurance%20habitation%20%28Particuliers%29.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [Multirisques caravaning](../products/smacl/Multirisques%20caravaning.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [Assurance Dommages aux biens - IPID](../products/thelem/Assurance%20Dommages%20aux%20biens%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)

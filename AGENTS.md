@@ -27,7 +27,7 @@ navigate it without guessing. Do not edit by hand.
 |---|---|---|---|---|---|
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
 | ch (Switzerland) | 0 | 3 | 1 | 0 | 5 |
-| fr (France) | 24 | 589 | 10 | 1 | 5 |
+| fr (France) | 24 | 590 | 10 | 1 | 5 |
 | lu (Luxembourg) | 0 | 31 | 1 | 0 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
@@ -568,6 +568,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | habitation | matmut | Habitation Résidence secondaire | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGMGARRS.pdf) |
 | fr | habitation | matmut | Matmut Mobile-home formule Nature | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGMGARMH.pdf) |
 | fr | habitation | matmut | Propriétaire Non Exploitant | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGPNE.pdf) |
+| fr | habitation | matmut | Terrain - Bâtiment non habitable — Contrat d'assurance Multigaranties | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGMGARTBNH.pdf) |
 | fr | habitation | smacl | Assurance habitation (Particuliers) | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cg-assurance-habitation.pdf) |
 | fr | habitation | smacl | Multirisques caravaning | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cg-multirisques-caravaning.pdf) |
 | fr | habitation | thelem | Assurance Dommages aux biens - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_570-Dommages-aux-biens.pdf) |
