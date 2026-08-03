@@ -5,7 +5,7 @@ country: fr
 insurer_slug: maaf
 name: MAAF
 website: https://www.maaf.fr/
-products_count: 73
+products_count: 74
 branches_covered:
 - assurance-vie
 - auto
@@ -39,7 +39,7 @@ generated: true
 
 ## Résumé
 
-**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 73 document(s) across 17 branch(es).
+**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 74 document(s) across 17 branch(es).
 
 ## Produits par branche
 
@@ -91,6 +91,7 @@ generated: true
 - [Tempo Habitation en construction](../products/maaf/Tempo%20Habitation%20en%20construction.md) - Conditions générales (2026-01) · réf. Réf. 2340 - 01/26
 - [Tempo Habitation — Logement donné en location](../products/maaf/Tempo%20Habitation%20%E2%80%94%20Logement%20donn%C3%A9%20en%20location.md) - Conditions générales (03/25) · réf. 2341
 - [Tempo Jeunes](../products/maaf/Tempo%20Jeunes.md) - Conditions générales (2026-05) · réf. Réf. 11001-05/26
+- [Tempo Mobil Home et Constructions légères](../products/maaf/Tempo%20Mobil%20Home%20et%20Constructions%20l%C3%A9g%C3%A8res.md) - Conditions générales (01/26) · réf. 2246
 
 ### [Deux-roues, quads et voiturettes](../branches/Deux-roues%2C%20quads%20et%20voiturettes.md)
 - [Assurance Véhicule (MOTO) - IPID](../products/maaf/Assurance%20V%C3%A9hicule%20%28MOTO%29%20-%20IPID.md) - IPID / Fiche d'information (2025-06) · réf. AUT11003
