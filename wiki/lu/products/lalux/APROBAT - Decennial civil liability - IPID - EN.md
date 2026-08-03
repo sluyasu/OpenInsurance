@@ -140,6 +140,7 @@ The policy covers the insured persons for financial compensation to which they m
 
 ## Documents liés
 
+- [APROBAT - Comprehensive construction site insurance (Section 2 – Liability insurance) - IPID - EN](APROBAT%20-%20Comprehensive%20construction%20site%20insurance%20%28Section%202%20%E2%80%93%20Liability%20insurance%29%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 - [APROBAT - Responsabilité Civile Décennale - IPID](APROBAT%20-%20Responsabilit%C3%A9%20Civile%20D%C3%A9cennale%20-%20IPID.md) - IPID / Fiche d'information
 
 ## Source & fidélité

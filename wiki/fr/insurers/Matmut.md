@@ -5,7 +5,7 @@ country: fr
 insurer_slug: matmut
 name: Matmut
 website: https://www.matmut.fr
-products_count: 146
+products_count: 147
 branches_covered:
 - animaux
 - assurance-vie
@@ -40,7 +40,7 @@ generated: true
 
 ## Résumé
 
-**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 146 document(s) across 18 branch(es).
+**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 147 document(s) across 18 branch(es).
 
 ## Produits par branche
 
@@ -221,6 +221,7 @@ generated: true
 - [Statuts d'Ociane et Règlement mutualiste « individuels » — Complémentaire maladie accidents](../products/matmut/Statuts%20d%27Ociane%20et%20R%C3%A8glement%20mutualiste%20%C2%AB%20individuels%20%C2%BB%20%E2%80%94%20Compl%C3%A9mentaire%20maladie%20accidents.md) - Conditions générales (12/24 (mentions de pied de page « STATUTS.MUT.OCIANE - 12/24 » et « RGMT. INDIV. OCIANE - 12/24 »). Statuts approuvés par l'assemblée générale du 19 octobre 2002, modifications approuvées jusqu'aux assemblées générales du 12 juin et du 5 décembre 2024. Règlement mutualiste « individuels » approuvé par l'assemblée générale du 19 juin 2020 et modifié par le conseil d'administration du 15 septembre 2020, du 11 mai 2021, du 17 septembre 2021, du 9 mai 2022, du 12 mai 2023 et du 21 mai 2024 sur délégation de l'assemblée générale.) · réf. STATUTS.MUT.OCIANE - 12/24 (statuts, p. 19) ; RGMT. INDIV. OCIANE - 12/24 (règlement mutualiste, p. 33)
 
 ### [Scolaire et extrascolaire](../branches/Scolaire%20et%20extrascolaire.md)
+- [Assurance scolaire](../products/matmut/Assurance%20scolaire.md) - Conditions générales (2023-12) · réf. CG SCOL – 12/23
 - [Conditions de l'offre Assurance Scolaire - Tarifs](../products/matmut/Conditions%20de%20l%27offre%20Assurance%20Scolaire%20-%20Tarifs.md) - Conditions tarifaires (05/26) · réf. COND.OFFRE.SCOL – 05/26
 
 ### [Vélo](../branches/V%C3%A9lo.md)

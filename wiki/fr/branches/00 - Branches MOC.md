@@ -545,8 +545,9 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Contrat « Chasse » - IPID](../products/matmut/Contrat%20%C2%AB%20Chasse%20%C2%BB%20-%20IPID.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Assurance chasse - IPID](../products/thelem/Assurance%20chasse%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 
-### [Scolaire et extrascolaire](Scolaire%20et%20extrascolaire.md) (3)
+### [Scolaire et extrascolaire](Scolaire%20et%20extrascolaire.md) (4)
 - [Assurance scolaire — Tableau des garanties - Fiche](../products/maaf/Assurance%20scolaire%20%E2%80%94%20Tableau%20des%20garanties%20-%20Fiche.md) - [MAAF](../insurers/MAAF.md)
+- [Assurance scolaire](../products/matmut/Assurance%20scolaire.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Conditions de l'offre Assurance Scolaire - Tarifs](../products/matmut/Conditions%20de%20l%27offre%20Assurance%20Scolaire%20-%20Tarifs.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Assurance scolaire et extra-scolaire - IPID](../products/thelem/Assurance%20scolaire%20et%20extra-scolaire%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 

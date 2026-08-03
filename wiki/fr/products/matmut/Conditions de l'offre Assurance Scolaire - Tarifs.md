@@ -93,6 +93,10 @@ Document d’une page fixant les conditions d’une offre promotionnelle commerc
 - duration_and_cancellation laissé à null : le document ne fixe ni durée, ni tacite reconduction, ni préavis, ni modalités de résiliation du contrat. Il n’évoque la résiliation que pour en tirer une conséquence tarifaire (restitution de la remise avant 12 mois), consignée dans obligations et dans premium.
 - edition_date renseignée « 05/26 » telle qu’imprimée dans le code de pied de page « COND.OFFRE.SCOL – 05/26 » ; le format n’est pas explicité par le document et aucune normalisation n’a été appliquée. Cette valeur est cohérente avec la fenêtre de validité annoncée (01/05/2026 au 31/08/2026), mais le document ne l’écrit pas.
 
+## Documents liés
+
+- [Assurance scolaire](Assurance%20scolaire.md) - Conditions générales, éd. 2023-12
+
 ## Source & fidélité
 
 - Source : [https://www.matmut.fr/services-en-ligne/doc/conditions-offre-scolaire.pdf](https://www.matmut.fr/services-en-ligne/doc/conditions-offre-scolaire.pdf) - téléchargé le 2026-07-30 - 1 pages

@@ -142,6 +142,7 @@ La police garantit aux assurés les réparations pécuniaires auxquelles ils pou
 
 ## Documents liés
 
+- [APROBAT - Comprehensive construction site insurance (Section 2 – Liability insurance) - IPID - EN](APROBAT%20-%20Comprehensive%20construction%20site%20insurance%20%28Section%202%20%E2%80%93%20Liability%20insurance%29%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 - [APROBAT - Decennial civil liability - IPID - EN](APROBAT%20-%20Decennial%20civil%20liability%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 
 ## Source & fidélité

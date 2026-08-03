@@ -20,7 +20,14 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [easyPROTECT-Auto (PKWs und Wohnmobile) - IPID - DE](../products/lalux/easyPROTECT-Auto%20%28PKWs%20und%20Wohnmobile%29%20-%20IPID%20-%20DE.md) - [lalux](../insurers/lalux.md)
 - [easyPROTECT-Auto (Véhicules autres que voitures ou camping cars) - IPID](../products/lalux/easyPROTECT-Auto%20%28V%C3%A9hicules%20autres%20que%20voitures%20ou%20camping%20cars%29%20-%20IPID.md) - [lalux](../insurers/lalux.md)
 
-### Assurances constructions (3)
+### Assurance habitation (1)
+- [easyPROTECT Habitation - IPID](../products/lalux/easyPROTECT%20Habitation%20-%20IPID.md) - [lalux](../insurers/lalux.md)
+
+### Assurance accidents (1)
+- [easyPROTECT-Unfall - IPID - DE](../products/lalux/easyPROTECT-Unfall%20-%20IPID%20-%20DE.md) - [lalux](../insurers/lalux.md)
+
+### Assurances constructions (4)
+- [APROBAT - Comprehensive construction site insurance (Section 2 – Liability insurance) - IPID - EN](../products/lalux/APROBAT%20-%20Comprehensive%20construction%20site%20insurance%20%28Section%202%20%E2%80%93%20Liability%20insurance%29%20-%20IPID%20-%20EN.md) - [lalux](../insurers/lalux.md)
 - [APROBAT - Decennial civil liability - IPID - EN](../products/lalux/APROBAT%20-%20Decennial%20civil%20liability%20-%20IPID%20-%20EN.md) - [lalux](../insurers/lalux.md)
 - [APROBAT - Responsabilité Civile Décennale - IPID](../products/lalux/APROBAT%20-%20Responsabilit%C3%A9%20Civile%20D%C3%A9cennale%20-%20IPID.md) - [lalux](../insurers/lalux.md)
 - [Zehn- und Zweijahreshaftpflichtversicherung - DE](../products/lalux/Zehn-%20und%20Zweijahreshaftpflichtversicherung%20-%20DE.md) - [lalux](../insurers/lalux.md)

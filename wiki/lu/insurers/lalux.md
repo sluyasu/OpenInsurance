@@ -5,11 +5,13 @@ country: lu
 insurer_slug: lalux
 name: lalux
 website: ''
-products_count: 11
+products_count: 14
 branches_covered:
+- accidents
 - auto
 - autres
 - construction
+- habitation
 - multirisque-professionnelle
 tags:
 - insurance/lu
@@ -26,9 +28,12 @@ generated: true
 
 ## Résumé
 
-**lalux**. 11 document(s) across 4 branch(es).
+**lalux**. 14 document(s) across 6 branch(es).
 
 ## Produits par branche
+
+### Assurance accidents
+- [easyPROTECT-Unfall - IPID - DE](../products/lalux/easyPROTECT-Unfall%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
 
 ### Assurance auto
 - [easyPROTECT-Auto (PKWs und Wohnmobile) - IPID - DE](../products/lalux/easyPROTECT-Auto%20%28PKWs%20und%20Wohnmobile%29%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
@@ -41,9 +46,13 @@ generated: true
 - [Versicherung SPUERKEESS-Kreditkarten – Assistance-Leistungen und Nicht Assistance-Leistungen (VISA INFINITE) - IPID - DE](../products/lalux/Versicherung%20SPUERKEESS-Kreditkarten%20%E2%80%93%20Assistance-Leistungen%20und%20Nicht%20Assistance-Leistungen%20%28VISA%20INFINITE%29%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
 
 ### Assurances constructions
+- [APROBAT - Comprehensive construction site insurance (Section 2 – Liability insurance) - IPID - EN](../products/lalux/APROBAT%20-%20Comprehensive%20construction%20site%20insurance%20%28Section%202%20%E2%80%93%20Liability%20insurance%29%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 - [APROBAT - Decennial civil liability - IPID - EN](../products/lalux/APROBAT%20-%20Decennial%20civil%20liability%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 - [APROBAT - Responsabilité Civile Décennale - IPID](../products/lalux/APROBAT%20-%20Responsabilit%C3%A9%20Civile%20D%C3%A9cennale%20-%20IPID.md) - IPID / Fiche d'information
 - [Zehn- und Zweijahreshaftpflichtversicherung - DE](../products/lalux/Zehn-%20und%20Zweijahreshaftpflichtversicherung%20-%20DE.md) - Conditions générales (01.05.2025) · réf. EAC/2025/18010
+
+### Assurance habitation
+- [easyPROTECT Habitation - IPID](../products/lalux/easyPROTECT%20Habitation%20-%20IPID.md) - IPID / Fiche d'information
 
 ### Multirisque professionnelle
 - [easyPROTECT PRO – Assurance de choses - IPID](../products/lalux/easyPROTECT%20PRO%20%E2%80%93%20Assurance%20de%20choses%20-%20IPID.md) - IPID / Fiche d'information
