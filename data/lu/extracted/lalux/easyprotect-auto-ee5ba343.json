@@ -1,0 +1,634 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "lu",
+  "insurer_slug": "lalux",
+  "insurer_name": "lalux",
+  "product_name": "easyPROTECT-Auto",
+  "branch": "auto",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "en",
+  "target_audience": null,
+  "target_audience_note": "The document names no audience category. It refers to “the policyholder”, “the customer”, “the insured person” and “the beneficiaries”, and the optional Driver’s guarantee is restricted to “van type vehicles”.",
+  "reference": null,
+  "edition_date": null,
+  "product_family": "easyPROTECT-Auto",
+  "variant": "Vehicles other than cars and motorhomes",
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_assurance-auto_lalux_easyprotect-auto_vehicules-type-2_en.pdf",
+  "source_pdf": "68933kb-ee5ba343.pdf",
+  "source_sha256": "698a0630892ca1b7cac14cbaad256aee07376c25ca9ee73a71fba5bd865c23f5",
+  "source_pages": 2,
+  "fetched_at": "2026-08-02",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Insurance product information document (IPID) for easyPROTECT-Auto, published under the banner “Motor vehicle insurance - Vehicles other than cars and motorhomes” and the product line “LALUX Assurances - Product : easyPROTECT-Auto”. The document states that easyPROTECT-Auto covers motor vehicle third party liability as well as damage caused to the vehicle, and sets out seven guarantees: civil liability, legal protection (costs and fees up to EUR 10,000), fire, theft, glass breakage, damage to the vehicle, and an optional accessory driver’s guarantee reserved for van type vehicles. Cover applies in the countries indicated on the green card, with an explicit 42-territory list for damage to the vehicle, and the contract runs from year to year by tacit renewal.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Civil liability",
+      "description": "Damage caused by the insured vehicle to persons, including persons transported, and to property; Vehicles on public roads, grounds open to the public and non-public grounds but open to a certain number of people",
+      "is_optional": false,
+      "territorial_scope": "In the countries indicated on the green card",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Vehicles on public roads, grounds open to the public and non-public grounds but open to a certain number of people"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Legal protection",
+      "description": "Costs and fees, up to EUR 10,000, of any proceedings or proceedings following a traffic accident",
+      "is_optional": false,
+      "territorial_scope": "In the countries indicated on the green card",
+      "limits": "up to EUR 10,000",
+      "sub_limits": [
+        "Costs and fees, up to EUR 10,000"
+      ],
+      "deductible": null,
+      "conditions": [
+        "The proceedings must follow a traffic accident.",
+        "Free choice of lawyer in Luxembourg. For abroad, the prior agreement of the insurance company is required.",
+        "Legal proceedings for the recovery of sums of less than EUR 500 are listed under “Are there any restrictions on cover ?”."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Fire",
+      "description": "Fire, lightening strikes, explosions; Replacement costs for fire extinguishers used to extinguish an insured fire",
+      "is_optional": false,
+      "territorial_scope": "In the countries indicated on the green card",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Theft",
+      "description": "Theft; Destruction/damage by thieves, even in the event of a simple attempted theft",
+      "is_optional": false,
+      "territorial_scope": "In the countries indicated on the green card",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Complaint or declaration must be filed immediately with the competent authorities"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Glass breakage",
+      "description": "Damage caused by broken windscreens, sunroofs, side windows and rear windows",
+      "is_optional": false,
+      "territorial_scope": "In the countries indicated on the green card",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Replacement only if technically necessary (listed under “Are there any restrictions on cover ?”)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Damage to the vehicle",
+      "description": "Material damage to the vehicle caused by an accident, third parties or martens/weasels; Damage caused to the insured vehicle in direct connection with the deployment of the airbag; Damage to tires if the damage occurs in conjunction with other damage covered by the “Vehicle damage” coverage or in the event of vandalism",
+      "is_optional": false,
+      "territorial_scope": "Damage to the vehicle: Luxembourg, Albania, Andorra, Austria, Belgium, Bosnia-Herzegovina, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark (and the Faroe Islands), Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Macedonia (F.Y.R.O.M), Malta, Monaco, Montenegro, Netherlands, Norway, Poland, Portugal, Romania, San Marino, Serbia, Slovakia, Slovenia, Spain, Sweden, Switzerland, Turkey, United Kingdom of Great Britain and Northern Ireland (including the Channel Islands, Gibraltar, Isle of Man), Vatican State",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "In some cases, deductibles apply, e.g. when the driver has caused an accident under the influence of alcohol",
+      "conditions": [
+        "Damage to tires only if the damage occurs in conjunction with other damage covered by the “Vehicle damage” coverage or in the event of vandalism",
+        "Labour costs higher than the rates applied in Luxembourg are listed under “Are there any restrictions on cover ?”.",
+        "In some cases, deductibles apply, e.g. when the driver has caused an accident under the influence of alcohol"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Driver’s guarantee (optional accessory guarantee)",
+      "description": "Optional accessory guarantee - Only for van type vehicles: Driver’s guarantee: Excludes any non-material damage, but includes damage to the beneficiaries – regardless of the liability incurred – resulting from a bodily injury suffered by the insured person and/or death, as a result of a traffic accident.",
+      "is_optional": true,
+      "territorial_scope": "In the countries indicated on the green card",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Only for van type vehicles",
+        "Excludes any non-material damage",
+        "The bodily injury and/or death must result from a traffic accident."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Collision with a stray animal",
+      "description": "Guarantee named only in the “Special provisions per guarantee:” block of page 2, which sets out its claims formalities: “Complaint or declaration must be filed immediately with the competent authorities” and “An official statement certifying the collision must be submitted to the company”. The document neither lists nor describes this guarantee in the “What is insured ?” box on page 1.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Complaint or declaration must be filed immediately with the competent authorities",
+        "An official statement certifying the collision must be submitted to the company"
+      ],
+      "page": 2
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Tyres not conforming to the legislation in force",
+      "description": "Common restrictions: Damage in connection with the non-conformity of the tyres with the legislation in force (except in civil liability).",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Objects and animals being transported",
+      "description": "Common restrictions: Unless otherwise agreed: damage caused to objects and animals being transported.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Learner drivers and rented-out vehicle",
+      "description": "Civil liability: Unless otherwise agreed: damage caused by drivers in the process of acquiring a driving licence or when the vehicle has been rented out",
+      "applies_to": "Civil liability",
+      "page": 1
+    },
+    {
+      "name": "Theft by the policyholder’s family",
+      "description": "Theft: Theft by perpetrators or accomplices of members of the policyholder’s family",
+      "applies_to": "Theft",
+      "page": 1
+    },
+    {
+      "name": "Driving with a blood alcohol content of at least 1.2 g per litre or clear signs of drunkenness",
+      "description": "Damage to the vehicle: Damage occurring when the vehicle is driven by the policyholder, their descendants, ascendants, spouse, direct relatives, persons living in his household, hosts, their domestic staff who have consumed alcoholic beverages in such quantities that the blood alcohol content is at least 1.2 g per litre or who have shown clear signs of drunkenness.",
+      "applies_to": "Damage to the vehicle",
+      "page": 1
+    },
+    {
+      "name": "Civil liability — premium increase after a liability claim",
+      "description": "Increase of the premium in the event of a liability claim (increase of the bonus/malus degree) (printed under “Are there any restrictions on cover ?”; it is a premium consequence, not an excluded event)",
+      "applies_to": "Civil liability",
+      "page": 1
+    },
+    {
+      "name": "Legal protection — proceedings for sums of less than EUR 500",
+      "description": "Legal proceedings for the recovery of sums of less than EUR 500 (printed under “Are there any restrictions on cover ?”)",
+      "applies_to": "Legal protection",
+      "page": 1
+    },
+    {
+      "name": "Glass breakage — replacement only if technically necessary",
+      "description": "Replacement only if technically necessary (printed under “Are there any restrictions on cover ?”)",
+      "applies_to": "Glass breakage",
+      "page": 1
+    },
+    {
+      "name": "Damage to the vehicle — labour costs above Luxembourg rates",
+      "description": "Labour costs higher than the rates applied in Luxembourg (printed under “Are there any restrictions on cover ?”)",
+      "applies_to": "Damage to the vehicle",
+      "page": 1
+    },
+    {
+      "name": "Damage to the vehicle — deductibles in some cases",
+      "description": "In some cases, deductibles apply, e.g. when the driver has caused an accident under the influence of alcohol (printed under “Are there any restrictions on cover ?”; it is a deductible, not an excluded event)",
+      "applies_to": "Damage to the vehicle",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": "In some cases, deductibles apply, e.g. when the driver has caused an accident under the influence of alcohol",
+    "per_coverage": {
+      "Damage to the vehicle": "In some cases, deductibles apply, e.g. when the driver has caused an accident under the influence of alcohol"
+    },
+    "page": 1
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Describe the risk completely and accurately",
+      "description": "When subscribing: Provide as complete and accurate a description as possible of the risk to be insured, without misrepresentation or omission",
+      "timing": "When subscribing",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Submit the former insurer’s bonus-malus certificate",
+      "description": "When subscribing: Submit a certificate from the former insurance company specifying the degree of bonus-malus and any claims",
+      "timing": "When subscribing",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Report new circumstances increasing the risk",
+      "description": "During the contractual period: Report to the company any new circumstances that may increase the risk or create new ones",
+      "timing": "During the contractual period",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Notify any change in the contract data",
+      "description": "During the contractual period: Notify the company of any change in the data included in the contract, in particular in the event of a change of address or a change of bank account",
+      "timing": "During the contractual period",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Pay the premiums within the stipulated time limits",
+      "description": "During the contractual period: Pay your insurance premiums within the time limits stipulated in your contract. In case of non-payment, the company can suspend the warranties or cancel the contract",
+      "timing": "During the contractual period",
+      "sanction": "In case of non-payment, the company can suspend the warranties or cancel the contract",
+      "page": 2
+    },
+    {
+      "name": "Declare all claims within eight days and obtain the company’s consent",
+      "description": "In the event of a claim: Declare all claims within eight days of their occurrence and obtain the company’s consent before any action involving its intervention",
+      "timing": "within eight days of the occurrence of the claim",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Send in all items required to settle the claim",
+      "description": "In the event of a claim: Send in all the items required by the company to settle the claim. Transcripts, accident reports and other official documents must be sent as soon as possible.",
+      "timing": "as soon as possible",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Legal protection — choice of lawyer abroad requires prior agreement",
+      "description": "Special provisions per guarantee: Legal protection - Free choice of lawyer in Luxembourg. For abroad, the prior agreement of the insurance company is required.",
+      "timing": "In the event of a claim",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Theft — file a complaint or declaration immediately",
+      "description": "Special provisions per guarantee: Theft - Complaint or declaration must be filed immediately with the competent authorities",
+      "timing": "immediately",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Collision with a stray animal — file a complaint or declaration immediately",
+      "description": "Special provisions per guarantee: Collision with a stray animal - Complaint or declaration must be filed immediately with the competent authorities",
+      "timing": "immediately",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Collision with a stray animal — submit an official statement certifying the collision",
+      "description": "Special provisions per guarantee: Collision with a stray animal - An official statement certifying the collision must be submitted to the company",
+      "timing": "In the event of a claim",
+      "sanction": null,
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Declare the claim",
+      "description": "Declare all claims within eight days of their occurrence",
+      "deadline": "within eight days of their occurrence",
+      "page": 2
+    },
+    {
+      "step": "Obtain the company’s prior consent",
+      "description": "Obtain the company’s consent before any action involving its intervention",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Send the supporting documents",
+      "description": "Send in all the items required by the company to settle the claim. Transcripts, accident reports and other official documents must be sent as soon as possible.",
+      "deadline": "as soon as possible",
+      "page": 2
+    },
+    {
+      "step": "Theft — file a complaint or declaration with the competent authorities",
+      "description": "Complaint or declaration must be filed immediately with the competent authorities",
+      "deadline": "immediately",
+      "page": 2
+    },
+    {
+      "step": "Collision with a stray animal — file a complaint or declaration with the competent authorities",
+      "description": "Complaint or declaration must be filed immediately with the competent authorities",
+      "deadline": "immediately",
+      "page": 2
+    },
+    {
+      "step": "Collision with a stray animal — submit an official statement certifying the collision",
+      "description": "An official statement certifying the collision must be submitted to the company",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Legal protection — appoint a lawyer",
+      "description": "Free choice of lawyer in Luxembourg. For abroad, the prior agreement of the insurance company is required.",
+      "deadline": null,
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "The beginning (effective date) and expiry of the contract are indicated in the Special Conditions",
+    "tacit_renewal": true,
+    "notice_period": "30 days before the annual expiry date of the contract (cancellation by the customer); 60 days before the annual expiry date of the contract (notification by the company)",
+    "methods": [
+      "Cancellation must be requested by registered letter 30 days before the annual expiry date of the contract, within one month following the cancellation of a guarantee or other contract by the company after a claim or within 60 days after a rate increase notified by the company.",
+      "The company may cancel the contract after a claim has been submitted, in the event of fraud, non-payment, or following notification 60 days before the annual expiry date of the contract."
+    ],
+    "special_rights": [
+      "Cancellation by the customer within one month following the cancellation of a guarantee or other contract by the company after a claim",
+      "Cancellation by the customer within 60 days after a rate increase notified by the company",
+      "Cancellation by the company after a claim has been submitted, in the event of fraud or non-payment",
+      "In the event of cancellation, the company shall provide the customer with a bonus-malus certificate stating the degree and the claims for the current period."
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "The amount indicated on the annual due date notice is payable on the first day of the month of the due date",
+      "Monthly payments may be made by direct debit, without additional costs",
+      "Pay your insurance premiums within the time limits stipulated in your contract. In case of non-payment, the company can suspend the warranties or cancel the contract",
+      "Increase of the premium in the event of a liability claim (increase of the bonus/malus degree)",
+      "Submit a certificate from the former insurance company specifying the degree of bonus-malus and any claims"
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Disclaimer",
+      "description": "Disclaimer:  This document is not tailored to your specific needs and the information and obligations set out herein are not exhaustive. For full information on the rights and obligations of the insurance company and policyholders, please consult the general and/or special conditions relating to the insurance product chosen.",
+      "page": 1
+    },
+    {
+      "name": "What type of insurance is it ?",
+      "description": "easyPROTECT-Auto is an insurance that covers your motor vehicle third party liability as well as the damage caused to your vehicle.",
+      "page": 1
+    },
+    {
+      "name": "Non-exhaustive lists",
+      "description": "The mention “Non-exhaustive list” is printed at the foot of all three boxes on page 1: “What is insured  ?”, “What is not insured?” and “Are there any restrictions on cover ?”.",
+      "page": 1
+    },
+    {
+      "name": "Where am I covered ? — green card",
+      "description": "In the countries indicated on the green card",
+      "page": 2
+    },
+    {
+      "name": "Where am I covered ? — Damage to the vehicle country list",
+      "description": "Damage to the vehicle: Luxembourg, Albania, Andorra, Austria, Belgium, Bosnia-Herzegovina, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark (and the Faroe Islands), Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Macedonia (F.Y.R.O.M), Malta, Monaco, Montenegro, Netherlands, Norway, Poland, Portugal, Romania, San Marino, Serbia, Slovakia, Slovenia, Spain, Sweden, Switzerland, Turkey, United Kingdom of Great Britain and Northern Ireland (including the Channel Islands, Gibraltar, Isle of Man), Vatican State",
+      "page": 2
+    },
+    {
+      "name": "Guarantee named only in the special provisions block",
+      "description": "The block “Special provisions per guarantee:” on page 2 carries a heading “Collision with a stray animal” with two claims formalities. No guarantee of that name appears in the “What is insured  ?” box on page 1, which mentions animals only through “Material damage to the vehicle caused by an accident, third parties or martens/weasels”. Both readings are recorded and neither was reconciled.",
+      "page": 2
+    },
+    {
+      "name": "Bonus-malus certificate on cancellation",
+      "description": "In the event of cancellation, the company shall provide the customer with a bonus-malus certificate stating the degree and the claims for the current period.",
+      "page": 2
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Motor vehicle insurance  -  \nVehicles other than cars and motorhomes\nInsurance Product Information Document\nLALUX Assurances - Product : easyPROTECT-Auto",
+      "context": "printed banner, document title and brand",
+      "page": 1
+    },
+    {
+      "quote": "Disclaimer:  This document is not tailored to your specific needs and the information and obligations set out herein are not exhaustive. \nFor full information on the rights and obligations of the insurance company and policyholders, please consult the general and/or special \nconditions relating to the insurance product chosen.",
+      "context": "disclaimer",
+      "page": 1
+    },
+    {
+      "quote": "easyPROTECT-Auto is an insurance that covers your motor vehicle third party liability as well as the damage caused to your vehicle.",
+      "context": "what type of insurance is it",
+      "page": 1
+    },
+    {
+      "quote": "Damage caused by the insured vehicle to persons, including \npersons transported, and to property",
+      "context": "civil liability - damage to persons and property",
+      "page": 1
+    },
+    {
+      "quote": "Vehicles on public roads, grounds open to the public and non-\npublic grounds but open to a certain number of people",
+      "context": "civil liability - where the vehicle is used",
+      "page": 1
+    },
+    {
+      "quote": "Costs and fees, up to EUR 10,000, of any proceedings or \nproceedings following a traffic accident",
+      "context": "legal protection - EUR 10,000 limit",
+      "page": 1
+    },
+    {
+      "quote": "Fire, lightening strikes, explosions",
+      "context": "fire cover",
+      "page": 1
+    },
+    {
+      "quote": "Replacement costs for fire extinguishers used to extinguish an \ninsured fire",
+      "context": "fire - extinguishers",
+      "page": 1
+    },
+    {
+      "quote": "Destruction/damage by thieves, even in the event of a simple \nattempted theft",
+      "context": "theft - destruction by thieves",
+      "page": 1
+    },
+    {
+      "quote": "Damage caused by broken windscreens, sunroofs, side windows \nand rear windows",
+      "context": "glass breakage cover",
+      "page": 1
+    },
+    {
+      "quote": "Material damage to the vehicle caused by an accident, third \nparties or martens/weasels",
+      "context": "damage to the vehicle - accident, third parties, martens",
+      "page": 1
+    },
+    {
+      "quote": "Damage caused to the insured vehicle in direct connection with \nthe deployment of the airbag",
+      "context": "damage to the vehicle - airbag",
+      "page": 1
+    },
+    {
+      "quote": "Damage to tires if the damage occurs in conjunction with other \ndamage covered by the “Vehicle damage” coverage or in the \nevent of vandalism",
+      "context": "damage to the vehicle - tires",
+      "page": 1
+    },
+    {
+      "quote": "Optional accessory guarantee\nOnly for van type vehicles:\n\t Driver’s guarantee: Excludes any non-material damage, but \nincludes damage to the beneficiaries – regardless of the liability \nincurred – resulting from a bodily injury suffered by the insured \nperson and/or death, as a result of a traffic accident.",
+      "context": "optional accessory guarantee - driver's guarantee, van type vehicles only",
+      "page": 1
+    },
+    {
+      "quote": "Damage in connection with the non-conformity of the tyres \nwith the legislation in force (except in civil liability).",
+      "context": "exclusion - non-conforming tyres",
+      "page": 1
+    },
+    {
+      "quote": "Unless otherwise agreed: damage caused to objects and \nanimals being transported.",
+      "context": "exclusion - objects and animals transported",
+      "page": 1
+    },
+    {
+      "quote": "Unless otherwise agreed: damage caused by drivers in the \nprocess of acquiring a driving licence or when the vehicle has \nbeen rented out",
+      "context": "exclusion - learner drivers and rented-out vehicle",
+      "page": 1
+    },
+    {
+      "quote": "Theft by perpetrators or accomplices of members of the \npolicyholder’s family",
+      "context": "exclusion - theft by the policyholder's family",
+      "page": 1
+    },
+    {
+      "quote": "Damage occurring when the vehicle is driven by the \npolicyholder, their descendants, ascendants, spouse, direct \nrelatives, persons living in his household, hosts, their domestic \nstaff who have consumed alcoholic beverages in such \nquantities that the blood alcohol content is at least 1.2 g per \nlitre or who have shown clear signs of drunkenness.",
+      "context": "exclusion - blood alcohol 1.2 g per litre",
+      "page": 1
+    },
+    {
+      "quote": "Increase of the premium in the event of a liability claim (increase \nof the bonus/malus degree)",
+      "context": "restriction - bonus/malus increase",
+      "page": 1
+    },
+    {
+      "quote": "Legal proceedings for the recovery of sums of less than EUR 500",
+      "context": "restriction - legal protection under EUR 500",
+      "page": 1
+    },
+    {
+      "quote": "Replacement only if technically necessary",
+      "context": "restriction - glass replacement",
+      "page": 1
+    },
+    {
+      "quote": "Labour costs higher than the rates applied in Luxembourg",
+      "context": "restriction - labour costs",
+      "page": 1
+    },
+    {
+      "quote": "In some cases, deductibles apply, e.g. when the driver has \ncaused an accident under the influence of alcohol",
+      "context": "restriction - deductibles",
+      "page": 1
+    },
+    {
+      "quote": "In the countries indicated on the green card",
+      "context": "territorial scope - green card",
+      "page": 2
+    },
+    {
+      "quote": "Damage to the vehicle: Luxembourg, Albania, Andorra, Austria, Belgium, Bosnia-Herzegovina, Bulgaria, Croatia, Cyprus, \nCzech Republic, Denmark (and the Faroe Islands), Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, \nLatvia, Liechtenstein, Lithuania, Macedonia (F.Y.R.O.M), Malta, Monaco, Montenegro, Netherlands, Norway, Poland, Portugal, \nRomania, San Marino, Serbia, Slovakia, Slovenia, Spain, Sweden, Switzerland, Turkey, United Kingdom of Great Britain and \nNorthern Ireland (including the Channel Islands, Gibraltar, Isle of Man), Vatican State",
+      "context": "territorial scope - damage to the vehicle country list",
+      "page": 2
+    },
+    {
+      "quote": "Provide as complete and accurate a description as possible of the risk to be insured, without misrepresentation or omission",
+      "context": "obligation at subscription - description of the risk",
+      "page": 2
+    },
+    {
+      "quote": "Submit a certificate from the former insurance company specifying the degree of bonus-malus and any claims",
+      "context": "obligation at subscription - bonus-malus certificate",
+      "page": 2
+    },
+    {
+      "quote": "Report to the company any new circumstances that may increase the risk or create new ones",
+      "context": "obligation during contract - new circumstances",
+      "page": 2
+    },
+    {
+      "quote": "Notify the company of any change in the data included in the contract, in particular in the event of a change of address or a \nchange of bank account",
+      "context": "obligation during contract - change of data",
+      "page": 2
+    },
+    {
+      "quote": "Pay your insurance premiums within the time limits stipulated in your contract. In case of non-payment, the company can \nsuspend the warranties or cancel the contract",
+      "context": "obligation during contract - premium payment",
+      "page": 2
+    },
+    {
+      "quote": "Declare all claims within eight days of their occurrence and obtain the company’s consent before any action involving its \nintervention",
+      "context": "obligation on claim - eight days",
+      "page": 2
+    },
+    {
+      "quote": "Send in all the items required by the company to settle the claim. Transcripts, accident reports and other official documents \nmust be sent as soon as possible.",
+      "context": "obligation on claim - supporting documents",
+      "page": 2
+    },
+    {
+      "quote": "Special provisions per guarantee:\nLegal protection\n•\t\nFree choice of lawyer in Luxembourg. For abroad, the prior agreement of the insurance company is required.",
+      "context": "special provision - legal protection, free choice of lawyer",
+      "page": 2
+    },
+    {
+      "quote": "Theft\n•\t\nComplaint or declaration must be filed immediately with the competent authorities",
+      "context": "special provision - theft, immediate complaint",
+      "page": 2
+    },
+    {
+      "quote": "Collision with a stray animal\n•\t\nComplaint or declaration must be filed immediately with the competent authorities\n•\t\nAn official statement certifying the collision must be submitted to the company",
+      "context": "special provision - collision with a stray animal",
+      "page": 2
+    },
+    {
+      "quote": "The amount indicated on the annual due date notice is payable on the first day of the month of the due date",
+      "context": "premium payment",
+      "page": 2
+    },
+    {
+      "quote": "Monthly payments may be made by direct debit, without additional costs",
+      "context": "monthly direct debit",
+      "page": 2
+    },
+    {
+      "quote": "The beginning (effective date) and expiry of the contract are indicated in the Special Conditions",
+      "context": "cover start and end",
+      "page": 2
+    },
+    {
+      "quote": "The contract is extended from year to year unless terminated by the customer or the company (tacit renewal)",
+      "context": "tacit renewal",
+      "page": 2
+    },
+    {
+      "quote": "Cancellation must be requested by registered letter 30 days before the annual expiry date of the contract, within one month \nfollowing the cancellation of a guarantee or other contract by the company after a claim or within 60 days after a rate increase \nnotified by the company.",
+      "context": "cancellation by the customer",
+      "page": 2
+    },
+    {
+      "quote": "The company may cancel the contract after a claim has been submitted, in the event of fraud, non-payment, or following \nnotification 60 days before the annual expiry date of the contract.",
+      "context": "cancellation by the company",
+      "page": 2
+    },
+    {
+      "quote": "In the event of cancellation, the company shall provide the customer with a bonus-malus certificate stating the degree and the \nclaims for the current period.",
+      "context": "bonus-malus certificate on cancellation",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "Insurer: the document prints the brand “LALUX Assurances” in the title banner (with the “lalux ASSURANCES” logo) and the line “LALUX Assurances - Product : easyPROTECT-Auto”; the body then refers only to “the company” and “the insurance company”. No legal form, no RCS number, no registered address and no authorisation reference appear on either page, so this document alone does not identify which authorised entity carries the risk. `insurer_name` carries the printed brand “LALUX Assurances” rather than the task metadata value “lalux”.",
+    "Divergence recorded without arbitration: the “Special provisions per guarantee:” block on page 2 names a guarantee “Collision with a stray animal” and gives its claims formalities, but no guarantee of that name is listed or described in the “What is insured  ?” box on page 1. It is recorded as a separate coverage cited to page 2, with `is_optional`, `territorial_scope` and `limits` left null, and its description states that the guarantee is known only from that block. Nothing was borrowed from the French or German version of the same IPID to describe it.",
+    "No edition date, no version number and no internal reference is printed on either page: `edition_date` and `reference` are null. The PDF file metadata carry a creation and modification date of 2018-10-08 14:11:22+02:00, the producer “Adobe InDesign CC 13.1 (Macintosh)” and the source file name “IPID_Assurance Auto_LALUX_easyPROTECT-Auto_Véhicules Type 2_EN.indd”. These are file metadata, not printed content, and were not taken as an edition date; they are noted because a 2018 IPID may describe a product no longer sold in this form. The InDesign file name is also the only place the “Type 2” designation of the task metadata appears; the printed document says only “Vehicles other than cars and motorhomes”.",
+    "Product identity: the banner prints the document title “Motor vehicle insurance  -  Vehicles other than cars and motorhomes” over “Insurance Product Information Document”, and the product line reads “LALUX Assurances - Product : easyPROTECT-Auto”. `product_name` therefore carries “easyPROTECT-Auto”, the commercial name the document itself gives as the product, `product_family` the same value, and `variant` carries the printed sub-title “Vehicles other than cars and motorhomes” (a parallel IPID exists for the other vehicle type, in the same three languages). `is_extension` is false.",
+    "`is_optional`: the six guarantees printed under “Vehicle insurance guarantees:” (Civil liability, Legal protection, Fire, Theft, Glass breakage, Damage to the vehicle) are recorded as not optional, and the “Driver’s guarantee” printed under the heading “Optional accessory guarantee / Only for van type vehicles:” as optional. The document nowhere states in so many words that the first six are included by default: the false value reflects only the printed contrast between the two headings, plus the sentence “easyPROTECT-Auto is an insurance that covers your motor vehicle third party liability as well as the damage caused to your vehicle”, which names two of the six. Nothing was deduced from what motor policies usually contain.",
+    "The only monetary amounts in the whole document are EUR 10,000 (legal protection costs and fees), EUR 500 (the floor below which legal proceedings for recovery are restricted) and the 1.2 g per litre blood alcohol threshold of the drink-driving exclusion. No sum insured, no civil liability ceiling, no deductible amount and no premium figure is printed: `deductibles.standard` is null and only `deductibles.variable` carries the document's own wording “In some cases, deductibles apply, e.g. when the driver has caused an accident under the influence of alcohol”. The currency is written “EUR” in words in this document, so no € glyph was involved.",
+    "The box “Are there any restrictions on cover ?” holds five items, none of which is an excluded event: a premium increase after a liability claim, a EUR 500 floor for recovery proceedings, replacement of glass only when technically necessary, a cap on labour costs at Luxembourg rates, and deductibles in some cases. Following the convention of the other easyPROTECT extraction in this batch, each is recorded in `exclusions` (because that is the box the document prints them in, and the box is titled as a restriction) with its nature stated in the description, and each is also reflected in the corresponding coverage's `limits`, `deductible` or `conditions`, or in `premium.notes`, so that neither reading is lost.",
+    "Structure and recount: the bullets are images and produce no text. Counting them by size closes exactly against what was extracted — page 1: 12 green ticks (7.2 x 7.9 pt), 5 red crosses (7.2 x 7.2 pt) and 5 orange exclamation marks (2.4 x 8.9 pt); page 2: 2 ticks for the two territorial bullets. The 12 green ticks are grouped by the document under 7 bold guarantee headings (Civil liability 2, Legal protection 1, Fire 2, Theft 2, Glass breakage 1, Damage to the vehicle 3, Driver’s guarantee 1); `coverages` follows those 7 headings, with every one of the 12 printed bullets reproduced inside the corresponding `description`, plus the eighth coverage known only from page 2. The 5 red crosses are the 5 entries in `exclusions` that carry no “Are there any restrictions on cover ?” marker; the 5 orange marks are the other 5.",
+    "`definitions` is empty: the document has no glossary and defines no term. “Green card”, “bonus-malus degree”, “van type vehicles” and “beneficiaries” are all used without a definition; the bonus-malus is mentioned three times (as a certificate to be supplied at subscription, as a premium increase after a liability claim and as a certificate to be issued on cancellation) but the mechanism is never described.",
+    "The two territorial bullets do not have the same scope and the document does not reconcile them: “In the countries indicated on the green card” is stated for the contract, while the Damage to the vehicle guarantee carries its own explicit list of 42 territories. The list is recorded verbatim as that guarantee's `territorial_scope`; the green-card wording is used for the other guarantees, which is what the box prints, and the document does not say which countries are on the green card.",
+    "Typographic anomalies kept verbatim and not corrected: “What is insured  ?” carries two thin spaces before the question mark where every other heading carries one; “Motor vehicle insurance  -  ” has doubled spaces around the hyphen; “Fire, lightening strikes, explosions” prints “lightening” for “lightning”; the coverage bullet refers to the “Vehicle damage” coverage while the guarantee heading reads “Damage to the vehicle”; the premium obligation says the company can “suspend the warranties” where “guarantees” is meant elsewhere; and the list under “During the contractual period” mixes bullet markers, one U+2022 followed by two hyphens, which a 2.4x render confirms is what the page prints.",
+    "Text-layer checks, all clean on this file: both pages re-extracted with page.get_text(\"text\") via PyMuPDF are character-for-character identical to the text pasted into the prompt (the prompt was not truncated; the document is 2 pages); no text block outside the page rectangle, no zero-width space, no soft hyphen, no NFD accent, no private-use glyph, no U+0007, no lost ligature, no duplicated or hidden text layer. The only unusual characters are 10 thin spaces U+2009 before “?” and “:”, 3 curly apostrophes U+2019, 2 en dashes U+2013 inside the Driver’s guarantee sentence and the curly double quotes around “Vehicle damage”. Page 1 bullets are a bare tab, page 2 bullets a U+2022 or a hyphen followed by a tab. These characters sit inside several `key_quotes` and were preserved as exact spans cut from the PDF, never retyped.",
+    "Reading order of the text layer differs from the printed layout, without any content being lost: page.get_text(\"text\") returns the three grey boxes first and only then the disclaimer, the “What type of insurance is it ?” paragraph and the title banner, which are printed at the top of page 1. Verified on a 2.4x render. The `page` citations follow the [[page N]] markers, which are unaffected.",
+    "`target_audience` is null: the document names no customer segment. It refers to “the policyholder”, “the customer”, “the insured person” and “the beneficiaries”, and restricts the optional Driver’s guarantee to “van type vehicles”, without saying whether the policyholder is a private individual, a professional or a business."
+  ]
+}

@@ -16,12 +16,16 @@ generated: true
 
 Liste générée des produits par branche. Les fiches conceptuelles de branche sont rédigées à la main dans ce dossier.
 
-### Assurance auto (2)
+### Assurance auto (3)
 - [easyPROTECT-Auto (PKWs und Wohnmobile) - IPID - DE](../products/lalux/easyPROTECT-Auto%20%28PKWs%20und%20Wohnmobile%29%20-%20IPID%20-%20DE.md) - [lalux](../insurers/lalux.md)
 - [easyPROTECT-Auto (Véhicules autres que voitures ou camping cars) - IPID](../products/lalux/easyPROTECT-Auto%20%28V%C3%A9hicules%20autres%20que%20voitures%20ou%20camping%20cars%29%20-%20IPID.md) - [lalux](../insurers/lalux.md)
+- [easyPROTECT-Auto (Vehicles other than cars and motorhomes) - IPID - EN](../products/lalux/easyPROTECT-Auto%20%28Vehicles%20other%20than%20cars%20and%20motorhomes%29%20-%20IPID%20-%20EN.md) - [lalux](../insurers/lalux.md)
 
 ### Assurance habitation (1)
 - [easyPROTECT Habitation - IPID](../products/lalux/easyPROTECT%20Habitation%20-%20IPID.md) - [lalux](../insurers/lalux.md)
+
+### Protection juridique (1)
+- [Assurance Protection Juridique Auto Intégrale - Assurance Protection Juridique Familiale Intégrale - IPID](../products/lalux/Assurance%20Protection%20Juridique%20Auto%20Int%C3%A9grale%20-%20Assurance%20Protection%20Juridique%20Familiale%20Int%C3%A9grale%20-%20IPID.md) - [lalux](../insurers/lalux.md)
 
 ### Assurance accidents (1)
 - [easyPROTECT-Unfall - IPID - DE](../products/lalux/easyPROTECT-Unfall%20-%20IPID%20-%20DE.md) - [lalux](../insurers/lalux.md)

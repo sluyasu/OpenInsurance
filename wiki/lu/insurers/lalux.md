@@ -5,7 +5,7 @@ country: lu
 insurer_slug: lalux
 name: lalux
 website: ''
-products_count: 14
+products_count: 16
 branches_covered:
 - accidents
 - auto
@@ -13,6 +13,7 @@ branches_covered:
 - construction
 - habitation
 - multirisque-professionnelle
+- protection-juridique
 tags:
 - insurance/lu
 - insurer
@@ -28,7 +29,7 @@ generated: true
 
 ## Résumé
 
-**lalux**. 14 document(s) across 6 branch(es).
+**lalux**. 16 document(s) across 7 branch(es).
 
 ## Produits par branche
 
@@ -38,6 +39,7 @@ generated: true
 ### Assurance auto
 - [easyPROTECT-Auto (PKWs und Wohnmobile) - IPID - DE](../products/lalux/easyPROTECT-Auto%20%28PKWs%20und%20Wohnmobile%29%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
 - [easyPROTECT-Auto (Véhicules autres que voitures ou camping cars) - IPID](../products/lalux/easyPROTECT-Auto%20%28V%C3%A9hicules%20autres%20que%20voitures%20ou%20camping%20cars%29%20-%20IPID.md) - IPID / Fiche d'information
+- [easyPROTECT-Auto (Vehicles other than cars and motorhomes) - IPID - EN](../products/lalux/easyPROTECT-Auto%20%28Vehicles%20other%20than%20cars%20and%20motorhomes%29%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 
 ### Autres
 - [Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance (VISA BUSINESS) - IPID](../products/lalux/Assurance%20Cartes%20de%20cr%C3%A9dit%20SPUERKEESS%20%E2%80%93%20Assistance%20et%20hors%20Assistance%20%28VISA%20BUSINESS%29%20-%20IPID.md) - IPID / Fiche d'information
@@ -57,6 +59,9 @@ generated: true
 ### Multirisque professionnelle
 - [easyPROTECT PRO – Assurance de choses - IPID](../products/lalux/easyPROTECT%20PRO%20%E2%80%93%20Assurance%20de%20choses%20-%20IPID.md) - IPID / Fiche d'information
 - [easyPROTECT PRO – Assurance de responsabilité civile - IPID](../products/lalux/easyPROTECT%20PRO%20%E2%80%93%20Assurance%20de%20responsabilit%C3%A9%20civile%20-%20IPID.md) - IPID / Fiche d'information
+
+### Protection juridique
+- [Assurance Protection Juridique Auto Intégrale - Assurance Protection Juridique Familiale Intégrale - IPID](../products/lalux/Assurance%20Protection%20Juridique%20Auto%20Int%C3%A9grale%20-%20Assurance%20Protection%20Juridique%20Familiale%20Int%C3%A9grale%20-%20IPID.md) - IPID / Fiche d'information
 
 ## Source
 

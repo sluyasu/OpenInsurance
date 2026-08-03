@@ -354,3 +354,37 @@ Any document in letzebuergesch? — NO. Confirmed, and confirmed the hard way ra
 | rapport-annuel-lnv-2015.pdf | branch None not in the fr taxonomy |
 | rapport-annuel-lnv-2016.pdf | branch None not in the fr taxonomy |
 | rapport-annuel-lnv-2018.pdf | branch None not in the fr taxonomy |
+
+## Qualité éditoriale des documents : ce qui a été compté
+
+Cette section énonce des **observations sur les documents**, pas un jugement sur l'assureur. La règle 1
+interdit de noter ou de classer ; compter ce qu'on lit ne s'y oppose pas, et un lecteur qui va citer
+un IPID a besoin de savoir ce qu'on y a trouvé.
+
+Sur les **16 premiers documents extraits**, chaque constat vérifié au rendu et conservé verbatim :
+
+| Ce qui a été relevé | Documents |
+|---|---|
+| Fautes imprimées conservées telles quelles | 10 / 16 |
+| Contradictions internes, enregistrées sans arbitrage | 6 / 16 |
+| **Texte de gabarit destiné au rédacteur, jamais remplacé** | **2 / 16** |
+| Garantie nommée dans une rubrique mais absente de la liste des garanties | 1 / 16 |
+
+Le troisième cas est celui qui a une conséquence directe pour un lecteur. Deux IPID de la gamme
+**APROBAT en anglais** portent, sous « How do I cancel the contract ? », le texte suivant :
+
+> Decide what to write, as the cancellation terms are different (single premium, etc.)
+> E.g. Cancellation is possible within 30 days…
+
+Les trente jours sont donc **un exemple laissé par le rédacteur**, pas une condition du contrat.
+`notice_period` reste null sur ces deux documents : promouvoir cet exemple aurait inventé un droit de
+résiliation. Les versions françaises des mêmes produits portent, au même endroit, une vraie clause.
+
+Deux remarques qui encadrent ce comptage :
+
+- **Il porte sur 16 documents sur 90.** Ce n'est pas une mesure de la bibliothèque entière, et la
+  proportion peut bouger — les seize premiers ont été pris dans l'ordre du listing, pas choisis.
+- **Ces défauts sont conservés, jamais réparés.** Une citation doit être une portion exacte du
+  document ; corriger « tremble de terre » ou compléter une puce tronquée depuis la version
+  allemande rendrait la citation invérifiable et attribuerait au document un texte qu'il ne contient
+  pas. Tout est dans `gaps`, document par document.
