@@ -86,7 +86,7 @@ Quatre absences sont délibérées, chacune vérifiée dans le texte :
 ## Assureurs
 
 <!-- BEGIN GENERATED: insurers -->
-- [lalux](insurers/lalux.md) (34 documents)
+- [lalux](insurers/lalux.md) (35 documents)
 <!-- END GENERATED -->
 
 **Foyer**, premier groupe de détail du pays, est en découverte seule. Son `robots.txt` ferme les

@@ -163,6 +163,12 @@ Cycles: cycles or any vehicle with at least two wheels, and which are propelled 
 - is_extension has been set to false. The document says the cover is "included in the easyPROTECT product" - i.e. a module of a package - but it is never described as an option, extension or rider, so it has not been recorded as one. product_family=easyPROTECT and variant=Comprehensive record the relationship instead.
 - Character notes for downstream consumers: the text layer contains U+2009 THIN SPACE (11 occurrences) before "?" in the section headings, before ":" in the header product line, and inside the percentages "10 %" and "80 %"; and U+2019 in "policyholder’s" and "company’s". All key_quotes were sliced programmatically as exact spans and preserve these characters. The prompt text was verified byte-identical to page.get_text("text") of the local PDF for both pages before extraction; the text was not truncated (2 pages).
 - Optionality: the five object categories are marked is_optional=true on the strength of the printed phrase "The comprehensive insurance covers, at your choice, the following risks". The document gives no formula/tier table and states no sum insured for any category; sums insured are left to the Special Conditions, which are not part of this document.
+- Branche corrigee en amont le 2026-08-03: tous risques objets: instruments de musique, appareils photo, bijoux et fourrures, collections de timbres, cycles. Ni habitation, qui vise le logement, ni multirisque professionnelle, qui etait le classement herite du prefixe easyPROTECT partage avec la gamme PRO. Aucun slug luxembourgeois ne couvre les tous risques objets: classe autres, ce qui est le role du repli.
+
+## Documents liés
+
+- Extension liée : [easyPROTECT - Alle Risiken - IPID - DE](easyPROTECT%20-%20Alle%20Risiken%20-%20IPID%20-%20DE.md)
+- [easyPROTECT - Alle Risiken - IPID - DE](easyPROTECT%20-%20Alle%20Risiken%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
 
 ## Source & fidélité
 

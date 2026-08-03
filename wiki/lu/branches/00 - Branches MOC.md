@@ -37,9 +37,10 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [easyPROTECT PRO – Company accident insurance - IPID - EN](../products/lalux/easyPROTECT%20PRO%20%E2%80%93%20Company%20accident%20insurance%20-%20IPID%20-%20EN.md) - [lalux](../insurers/lalux.md)
 - [easyPROTECT-Unfall - IPID - DE](../products/lalux/easyPROTECT-Unfall%20-%20IPID%20-%20DE.md) - [lalux](../insurers/lalux.md)
 
-### [Voyage et assistance](Voyage%20et%20assistance.md) (4)
+### [Voyage et assistance](Voyage%20et%20assistance.md) (5)
 - [Assurance BUREAUX DE VOYAGES – Formule 1 et 2 - IPID](../products/lalux/Assurance%20BUREAUX%20DE%20VOYAGES%20%E2%80%93%20Formule%201%20et%202%20-%20IPID.md) - [lalux](../insurers/lalux.md)
 - [Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance (MILES & MORE LUXAIR VISA BUSINESS) - IPID](../products/lalux/Assurance%20Cartes%20de%20cr%C3%A9dit%20SPUERKEESS%20%E2%80%93%20Assistance%20et%20hors%20Assistance%20%28MILES%20%26%20MORE%20LUXAIR%20VISA%20BUSINESS%29%20-%20IPID.md) - [lalux](../insurers/lalux.md)
+- [Kreditkarten - MILES & MORE LUXAIR VISA - IPID - DE](../products/lalux/Kreditkarten%20-%20MILES%20%26%20MORE%20LUXAIR%20VISA%20-%20IPID%20-%20DE.md) - [lalux](../insurers/lalux.md)
 - [SPUERKEESS credit card insurance – Assistance and Non-Assistance cover (MILES & MORE LUXAIR VISA BUSINESS) - IPID - EN](../products/lalux/SPUERKEESS%20credit%20card%20insurance%20%E2%80%93%20Assistance%20and%20Non-Assistance%20cover%20%28MILES%20%26%20MORE%20LUXAIR%20VISA%20BUSINESS%29%20-%20IPID%20-%20EN.md) - [lalux](../insurers/lalux.md)
 - [Sorgenfreier Urlaub - IPID - DE](../products/lalux/Sorgenfreier%20Urlaub%20-%20IPID%20-%20DE.md) - [lalux](../insurers/lalux.md)
 
@@ -58,16 +59,16 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Assurance R.C. Professionnelle pour Architectes et Ingénieurs-Conseils](../products/lalux/Assurance%20R.C.%20Professionnelle%20pour%20Architectes%20et%20Ing%C3%A9nieurs-Conseils.md) - [lalux](../insurers/lalux.md)
 - [Berufshaftpflichtversicherung für Architekten und beratende Ingenieure - DE](../products/lalux/Berufshaftpflichtversicherung%20f%C3%BCr%20Architekten%20und%20beratende%20Ingenieure%20-%20DE.md) - [lalux](../insurers/lalux.md)
 
-### [Multirisque professionnelle](Multirisque%20professionnelle.md) (3)
-- [easyPROTECT - Alle Risiken - IPID - DE](../products/lalux/easyPROTECT%20-%20Alle%20Risiken%20-%20IPID%20-%20DE.md) - [lalux](../insurers/lalux.md)
+### [Multirisque professionnelle](Multirisque%20professionnelle.md) (2)
 - [easyPROTECT PRO – Assurance de choses - IPID](../products/lalux/easyPROTECT%20PRO%20%E2%80%93%20Assurance%20de%20choses%20-%20IPID.md) - [lalux](../insurers/lalux.md)
 - [easyPROTECT PRO – Assurance de responsabilité civile - IPID](../products/lalux/easyPROTECT%20PRO%20%E2%80%93%20Assurance%20de%20responsabilit%C3%A9%20civile%20-%20IPID.md) - [lalux](../insurers/lalux.md)
 
-### [Autres](Autres.md) (7)
+### [Autres](Autres.md) (8)
 - [Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance (VISA INFINITE) - IPID](../products/lalux/Assurance%20Cartes%20de%20cr%C3%A9dit%20SPUERKEESS%20%E2%80%93%20Assistance%20et%20hors%20Assistance%20%28VISA%20INFINITE%29%20-%20IPID.md) - [lalux](../insurers/lalux.md)
 - [Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance (VISA BUSINESS) - IPID](../products/lalux/Assurance%20Cartes%20de%20cr%C3%A9dit%20SPUERKEESS%20%E2%80%93%20Assistance%20et%20hors%20Assistance%20%28VISA%20BUSINESS%29%20-%20IPID.md) - [lalux](../insurers/lalux.md)
 - [SPUERKEESS credit card insurance – Assistance and Non-Assistance cover (VISA PREMIER) - IPID - EN](../products/lalux/SPUERKEESS%20credit%20card%20insurance%20%E2%80%93%20Assistance%20and%20Non-Assistance%20cover%20%28VISA%20PREMIER%29%20-%20IPID%20-%20EN.md) - [lalux](../insurers/lalux.md)
 - [Tous Risques - LINEHEART - IPID](../products/lalux/Tous%20Risques%20-%20LINEHEART%20-%20IPID.md) - [lalux](../insurers/lalux.md)
 - [Versicherung SPUERKEESS-Kreditkarten – Assistance-Leistungen und Nicht Assistance-Leistungen (VISA PREMIER) - IPID - DE](../products/lalux/Versicherung%20SPUERKEESS-Kreditkarten%20%E2%80%93%20Assistance-Leistungen%20und%20Nicht%20Assistance-Leistungen%20%28VISA%20PREMIER%29%20-%20IPID%20-%20DE.md) - [lalux](../insurers/lalux.md)
 - [Versicherung SPUERKEESS-Kreditkarten – Assistance-Leistungen und Nicht Assistance-Leistungen (VISA INFINITE) - IPID - DE](../products/lalux/Versicherung%20SPUERKEESS-Kreditkarten%20%E2%80%93%20Assistance-Leistungen%20und%20Nicht%20Assistance-Leistungen%20%28VISA%20INFINITE%29%20-%20IPID%20-%20DE.md) - [lalux](../insurers/lalux.md)
+- [easyPROTECT - Alle Risiken - IPID - DE](../products/lalux/easyPROTECT%20-%20Alle%20Risiken%20-%20IPID%20-%20DE.md) - [lalux](../insurers/lalux.md)
 - [easyPROTECT Comprehensive - IPID - EN](../products/lalux/easyPROTECT%20Comprehensive%20-%20IPID%20-%20EN.md) - [lalux](../insurers/lalux.md)

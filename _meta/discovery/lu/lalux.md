@@ -441,3 +441,44 @@ contredit son titre. L'élément a été rangé en garantie, et la divergence no
 
 Cela porte à deux les manières dont un titre peut mentir dans ce corpus — par la mise en page et par
 la rédaction — et confirme qu'il faut décider **au contenu et à l'icône**, jamais au titre.
+
+### Le piège du préfixe `easyPROTECT`
+
+Trois documents sur trente-cinq ont été classés `multirisque-professionnelle` par la découverte, et
+**aucun des trois n'est un multirisque professionnel** :
+
+| Document | Ce qu'il est réellement | Reclassé |
+|---|---|---|
+| Service easyPROTECT — Discover | RC privée pour étudiants et apprentis de 15 à 27 ans, **excluant les activités professionnelles** | `rc-familiale` |
+| easyPROTECT Comprehensive (en) | Tous risques objets : instruments de musique, bijoux, collections de timbres, cycles | `autres` |
+| easyPROTECT (de) | Idem, version allemande | `autres` |
+
+La cause est un nom : la gamme grand public s'appelle **easyPROTECT** et la gamme entreprise
+**easyPROTECT PRO**. Un classement fondé sur le préfixe range les deux au même endroit.
+
+Ce n'est pas une faute de l'agent de découverte — il n'a que des noms de fichiers et des libellés de
+page — mais c'est un rappel de la règle du dépôt : **la branche se lit dans le document**, et les
+trois cas ont tous été signalés par des extracteurs qui avaient le texte sous les yeux et ont recopié
+la métadonnée en énonçant leur désaccord plutôt que de trancher seuls.
+
+Les trois reclassements portent `branch_locked` dans le manifeste : une correction faite après
+lecture du contrat ne doit pas être écrasée à la prochaine exécution du placement.
+
+### Les marques de coche sont des images sur une partie de cette bibliothèque
+
+Cinquième forme rencontrée dans le projet, après le texte réel, les glyphes en zone privée, les
+polices d'icônes et les tracés vectoriels : sur quatre IPID luxembourgeois les marques sont des
+**images bitmap posées**. Ni `get_text` ni `get_drawings` ne les voient.
+
+Elles se comptent avec `page.get_images()`, se placent aux coordonnées et se lisent au rendu — les
+comptes ont fermé sur les quatre, à 5/16/5, 22/9/5, 20/5/6 et 2/7/2.
+
+### Une mise en page en mosaïque sans titre
+
+Sur une page à quatre encadrés, celui du haut à droite **n'a ni titre ni icône** : c'est la
+continuation de « Was ist nicht versichert ? » imprimé au-dessus de son propre titre. Le texte à plat
+émet donc **huit des seize exclusions à l'intérieur de la liste des garanties**.
+
+C'est la variante luxembourgeoise du défaut d'inversion français, et elle se résout de la même façon :
+au rendu et à la position, jamais au flux. Un élément y lisait comme une garantie tout en portant une
+croix rouge.
