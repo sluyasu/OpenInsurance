@@ -1,372 +1,372 @@
 {
- "schema_version": "1.0",
- "prompt_version": "1.1",
- "country": "fr",
- "insurer_slug": "matmut",
- "insurer_name": "Matmut",
- "product_name": "Matmut Prévoyance Obsèques",
- "branch": "obseques",
- "branch_code": null,
- "document_type": "ipid",
- "language": "fr",
- "target_audience": "particuliers",
- "target_audience_note": "« INVESTISSEURS DE DÉTAIL VISÉS \nCe produit est destiné à toute personne physique, âgée de 50 à 80 ans, résident fiscal français lors de l’adhésion souhaitant une solution de financement de ses obsèques, avec ou sans choix des prestations associées. » (page 1). La catégorie « particuliers » est retenue sur la qualification réglementaire « investisseurs de détail » et l’exigence de personne physique ; les conditions d’âge et de résidence fiscale sont énoncées par le document lui-même et ne sont pas une déduction.",
- "reference": "MPO.DIC",
- "edition_date": "2025-05-01",
- "product_family": "Matmut Prévoyance Obsèques",
- "variant": null,
- "is_extension": false,
- "extends": null,
- "superseded": null,
- "source_url": "https://www.matmut.fr/prevoyance/pdf/MPO.DIC.pdf",
- "source_pdf": "matmut-prevoyance-obseques-17de44d8.pdf",
- "source_sha256": "4ee18663830329deca96818f5702ea2e21df027288a7a16144664d88aa82e5f1",
- "source_pages": 3,
- "fetched_at": "2026-07-30",
- "extraction_model": "claude-code-subagent:scale",
- "summary": "Document d’informations clés (DIC / PRIIPs) de trois pages portant sur Matmut Prévoyance Obsèques, présenté comme « un produit de Matmut Vie » et soumis au contrôle de l’ACPR. Il s’agit d’un contrat d’assurance vie de groupe, libellé en euros, à adhésion facultative, sans date d’échéance, dont l’objet est le versement, au décès de l’adhérent, d’un capital destiné au financement des obsèques ou, selon la formule choisie, la prise en charge de prestations funéraires auprès du prestataire funéraire OGF services funéraires. Le document classe le produit en risque 2 sur 7, chiffre des scénarios de performance pour une cotisation de 1 000 €/an souscrite à 60 ans, et détaille les coûts (coûts d’entrée 3,41 € ou 15 %, autres coûts récurrents 3 € ou 0,5 % basés sur le capital, coûts de sortie et commissions à 0). Il indique une période de détention recommandée viagère, la possibilité d’un rachat total à tout moment mais l’impossibilité du rachat partiel, et un droit de renonciation de 30 jours calendaires révolus.",
- "definitions": [],
- "coverages": [
-  {
-   "name": "Versement d’un capital au(x) bénéficiaire(s) désigné(s) en cas de décès de l’adhérent",
-   "description": "« Ce produit a pour objet, en cas de décès de l’adhérent, le versement au(x) bénéficiaire(s) désigné(s) d’un capital destiné au financement des obsèques […] » (OBJECTIFS, page 1). La rubrique PRESTATIONS D’ASSURANCE précise : « Paiement du capital garanti au(x) bénéficiaire(s) en cas de décès de l’assuré, selon des modalités définies dans le contrat de prestations obsèques en cas de choix de la formule Prestations et prestations d’assistance. » Le document avertit que « La garantie en capital n’est pas égale aux sommes versées par le souscripteur. »",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": null,
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Décès de l’adhérent / de l’assuré",
-    "Adhésion facultative à un contrat d’assurance vie de groupe libellé en euros",
-    "« La garantie en capital n’est pas égale aux sommes versées par le souscripteur. »"
-   ],
-   "page": 1
-  },
-  {
-   "name": "Prise en charge de prestations funéraires auprès du prestataire funéraire OGF services funéraires (formule Prestations)",
-   "description": "« […] ou, selon la formule choisie, la prise en charge de prestations funéraires auprès du prestataire funéraire OGF services funéraires. » (OBJECTIFS, page 1). Les modalités sont renvoyées au « contrat de prestations obsèques ». Le document ne détaille ni la liste des prestations, ni leur valeur, ni les formules disponibles autrement que par la mention « formule Prestations ».",
-   "is_optional": null,
-   "territorial_scope": null,
-   "limits": null,
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "« selon la formule choisie »",
-    "« selon des modalités définies dans le contrat de prestations obsèques en cas de choix de la formule Prestations »"
-   ],
-   "page": 1
-  },
-  {
-   "name": "Prestations d’assistance",
-   "description": "Mentionnées uniquement dans la rubrique PRESTATIONS D’ASSURANCE : « Paiement du capital garanti au(x) bénéficiaire(s) en cas de décès de l’assuré, selon des modalités définies dans le contrat de prestations obsèques en cas de choix de la formule Prestations et prestations d’assistance. » (page 1). Le document ne décrit aucune prestation d’assistance, ne nomme aucun assisteur et ne donne aucune limite.",
-   "is_optional": null,
-   "territorial_scope": null,
-   "limits": null,
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "« en cas de choix de la formule Prestations et prestations d’assistance »"
-   ],
-   "page": 1
-  }
- ],
- "exclusions": [
-  {
-   "name": "Rachat partiel impossible",
-   "description": "« À tout moment, vous pouvez néanmoins demander le rachat total de votre contrat. Le rachat partiel est impossible. » (page 3)",
-   "applies_to": "sortie anticipée — le document ne comporte AUCUNE section « exclusions » ; il s’agit d’une restriction contractuelle énoncée par le DIC, non d’une exclusion de garantie",
-   "page": 3
-  },
-  {
-   "name": "Le capital garanti n’est pas égal aux sommes versées",
-   "description": "« La garantie en capital n’est pas égale aux sommes versées par le souscripteur. » (page 1). Les scénarios de performance chiffrent d’ailleurs un rendement annuel moyen négatif dans les quatre scénarios en cas de survie (jusqu’à - 41,81 % à 1 an).",
-   "applies_to": "Versement d’un capital au(x) bénéficiaire(s) désigné(s) en cas de décès de l’adhérent — restriction énoncée par le DIC, non exclusion de garantie",
-   "page": 1
-  },
-  {
-   "name": "Perte possible de l’intégralité de l’investissement en cas de défaillance de l’assureur",
-   "description": "« Si nous ne sommes pas en mesure de vous verser les sommes dues, vous pouvez perdre l’intégralité de votre investissement. » (page 1). Le document ajoute que l’indicateur synthétique de risque « ne tient pas compte » de la protection des consommateurs éventuelle.",
-   "applies_to": "all — restriction/avertissement de risque énoncé par le DIC",
-   "page": 1
-  },
-  {
-   "name": "Plafond d’indemnisation du FGAP limité à 70 000 €",
-   "description": "« Ce montant d’indemnisation garanti par le FGAP est limité à 70 000 €. Ce plafond est applicable par assuré, souscripteur ou bénéficiaire du contrat, quel que soit le nombre des contrats souscrits auprès d’une même société. » (page 2)",
-   "applies_to": "indemnisation par le Fonds de garantie des assurances de personnes en cas de défaillance de Matmut Vie",
-   "page": 2
-  },
-  {
-   "name": "Conditions d’accès : personne physique de 50 à 80 ans, résident fiscal français lors de l’adhésion",
-   "description": "« Ce produit est destiné à toute personne physique, âgée de 50 à 80 ans, résident fiscal français lors de l’adhésion souhaitant une solution de financement de ses obsèques, avec ou sans choix des prestations associées. » (page 1). Le document n’énonce pas ces conditions comme une exclusion mais comme la définition des investisseurs de détail visés.",
-   "applies_to": "l’accès au produit — restriction d’éligibilité, non exclusion de garantie",
-   "page": 1
-  }
- ],
- "deductibles": null,
- "waiting_periods": [],
- "obligations": [],
- "claims_procedure": [
-  {
-   "step": "1. Saisir l’agence ou le service à l’origine du désaccord",
-   "description": "« En cas de désaccord entre vous et nous, à l’occasion de la distribution, de la gestion du présent contrat ou du règlement d’un sinistre, vous devez tout d’abord vous adresser à l’agence ou au service qui est à l’origine de ce désaccord. Une réponse vous sera apportée sous 30 jours. » (page 3)",
-   "deadline": "Une réponse vous sera apportée sous 30 jours",
-   "page": 3
-  },
-  {
-   "step": "2. Saisir le service « Réclamations » du groupe",
-   "description": "« Le service « Réclamations » de notre groupe : • par courrier : 66, rue de Sotteville 76030 Rouen CEDEX 1 ; • par mail : service.reclamations@matmut.fr ; • par internet : matmut.fr. » — voie ouverte « Si cette réponse ne vous donne pas entière satisfaction » (page 3).",
-   "deadline": null,
-   "page": 3
-  },
-  {
-   "step": "3. Saisir le médiateur de l’assurance",
-   "description": "« Le médiateur de l’assurance : • par courrier : Médiation de l’assurance – TSA 50110 – 75441 Paris CEDEX 09 ; • en déposant votre demande et les pièces de votre dossier sur le site mediation-assurance.org. » (page 3). Le document présente le service Réclamations et le médiateur comme deux voies reliées par « ou ».",
-   "deadline": null,
-   "page": 3
-  }
- ],
- "duration_and_cancellation": {
-  "duration": "« Le produit ne comporte pas de date d'échéance. » (page 1) ; « PÉRIODE DE DÉTENTION RECOMMANDÉE : VIAGÈRE » et « La durée de détention recommandée tient compte de la finalité du contrat qui est le financement des obsèques. » (page 3) ; « l’horizon de détention recommandé est viager » (page 1).",
-  "tacit_renewal": null,
-  "notice_period": null,
-  "methods": [
-   "« À tout moment, vous pouvez néanmoins demander le rachat total de votre contrat. Le rachat partiel est impossible. » (page 3)",
-   "« La valeur de rachat est égale à la provision mathématique constituée au jour de la date d’effet du rachat. Elle vous est communiquée annuellement lors de l’envoi de la lettre d’information annuelle. » (page 3)"
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "matmut",
+  "insurer_name": "Matmut",
+  "product_name": "Matmut Prévoyance Obsèques",
+  "branch": "obseques",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": "particuliers",
+  "target_audience_note": "« INVESTISSEURS DE DÉTAIL VISÉS \nCe produit est destiné à toute personne physique, âgée de 50 à 80 ans, résident fiscal français lors de l’adhésion souhaitant une solution de financement de ses obsèques, avec ou sans choix des prestations associées. » (page 1). La catégorie « particuliers » est retenue sur la qualification réglementaire « investisseurs de détail » et l’exigence de personne physique ; les conditions d’âge et de résidence fiscale sont énoncées par le document lui-même et ne sont pas une déduction.",
+  "reference": "MPO.DIC",
+  "edition_date": "2025-05-01",
+  "product_family": "Matmut Prévoyance Obsèques",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.matmut.fr/prevoyance/pdf/MPO.DIC.pdf",
+  "source_pdf": "matmut-prevoyance-obseques-17de44d8.pdf",
+  "source_sha256": "4ee18663830329deca96818f5702ea2e21df027288a7a16144664d88aa82e5f1",
+  "source_pages": 3,
+  "fetched_at": "2026-07-30",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d’informations clés (DIC / PRIIPs) de trois pages portant sur Matmut Prévoyance Obsèques, présenté comme « un produit de Matmut Vie » et soumis au contrôle de l’ACPR. Il s’agit d’un contrat d’assurance vie de groupe, libellé en euros, à adhésion facultative, sans date d’échéance, dont l’objet est le versement, au décès de l’adhérent, d’un capital destiné au financement des obsèques ou, selon la formule choisie, la prise en charge de prestations funéraires auprès du prestataire funéraire OGF services funéraires. Le document classe le produit en risque 2 sur 7, chiffre des scénarios de performance pour une cotisation de 1 000 €/an souscrite à 60 ans, et détaille les coûts (coûts d’entrée 3,41 € ou 15 %, autres coûts récurrents 3 € ou 0,5 % basés sur le capital, coûts de sortie et commissions à 0). Il indique une période de détention recommandée viagère, la possibilité d’un rachat total à tout moment mais l’impossibilité du rachat partiel, et un droit de renonciation de 30 jours calendaires révolus.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Versement d’un capital au(x) bénéficiaire(s) désigné(s) en cas de décès de l’adhérent",
+      "description": "« Ce produit a pour objet, en cas de décès de l’adhérent, le versement au(x) bénéficiaire(s) désigné(s) d’un capital destiné au financement des obsèques […] » (OBJECTIFS, page 1). La rubrique PRESTATIONS D’ASSURANCE précise : « Paiement du capital garanti au(x) bénéficiaire(s) en cas de décès de l’assuré, selon des modalités définies dans le contrat de prestations obsèques en cas de choix de la formule Prestations et prestations d’assistance. » Le document avertit que « La garantie en capital n’est pas égale aux sommes versées par le souscripteur. »",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Décès de l’adhérent / de l’assuré",
+        "Adhésion facultative à un contrat d’assurance vie de groupe libellé en euros",
+        "« La garantie en capital n’est pas égale aux sommes versées par le souscripteur. »"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Prise en charge de prestations funéraires auprès du prestataire funéraire OGF services funéraires (formule Prestations)",
+      "description": "« […] ou, selon la formule choisie, la prise en charge de prestations funéraires auprès du prestataire funéraire OGF services funéraires. » (OBJECTIFS, page 1). Les modalités sont renvoyées au « contrat de prestations obsèques ». Le document ne détaille ni la liste des prestations, ni leur valeur, ni les formules disponibles autrement que par la mention « formule Prestations ».",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "« selon la formule choisie »",
+        "« selon des modalités définies dans le contrat de prestations obsèques en cas de choix de la formule Prestations »"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Prestations d’assistance",
+      "description": "Mentionnées uniquement dans la rubrique PRESTATIONS D’ASSURANCE : « Paiement du capital garanti au(x) bénéficiaire(s) en cas de décès de l’assuré, selon des modalités définies dans le contrat de prestations obsèques en cas de choix de la formule Prestations et prestations d’assistance. » (page 1). Le document ne décrit aucune prestation d’assistance, ne nomme aucun assisteur et ne donne aucune limite.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "« en cas de choix de la formule Prestations et prestations d’assistance »"
+      ],
+      "page": 1
+    }
   ],
-  "special_rights": [
-   "« Vous disposez enfin d’un droit de renonciation qui peut être exercé dans un délai de 30 jours calendaires révolus à compter de la date à laquelle vous êtes informé que l’adhésion au contrat est conclue. » (page 3)"
+  "exclusions": [
+    {
+      "name": "Rachat partiel impossible",
+      "description": "« À tout moment, vous pouvez néanmoins demander le rachat total de votre contrat. Le rachat partiel est impossible. » (page 3)",
+      "applies_to": "sortie anticipée — le document ne comporte AUCUNE section « exclusions » ; il s’agit d’une restriction contractuelle énoncée par le DIC, non d’une exclusion de garantie",
+      "page": 3
+    },
+    {
+      "name": "Le capital garanti n’est pas égal aux sommes versées",
+      "description": "« La garantie en capital n’est pas égale aux sommes versées par le souscripteur. » (page 1). Les scénarios de performance chiffrent d’ailleurs un rendement annuel moyen négatif dans les quatre scénarios en cas de survie (jusqu’à - 41,81 % à 1 an).",
+      "applies_to": "Versement d’un capital au(x) bénéficiaire(s) désigné(s) en cas de décès de l’adhérent — restriction énoncée par le DIC, non exclusion de garantie",
+      "page": 1
+    },
+    {
+      "name": "Perte possible de l’intégralité de l’investissement en cas de défaillance de l’assureur",
+      "description": "« Si nous ne sommes pas en mesure de vous verser les sommes dues, vous pouvez perdre l’intégralité de votre investissement. » (page 1). Le document ajoute que l’indicateur synthétique de risque « ne tient pas compte » de la protection des consommateurs éventuelle.",
+      "applies_to": "all — restriction/avertissement de risque énoncé par le DIC",
+      "page": 1
+    },
+    {
+      "name": "Plafond d’indemnisation du FGAP limité à 70 000 €",
+      "description": "« Ce montant d’indemnisation garanti par le FGAP est limité à 70 000 €. Ce plafond est applicable par assuré, souscripteur ou bénéficiaire du contrat, quel que soit le nombre des contrats souscrits auprès d’une même société. » (page 2)",
+      "applies_to": "indemnisation par le Fonds de garantie des assurances de personnes en cas de défaillance de Matmut Vie",
+      "page": 2
+    },
+    {
+      "name": "Conditions d’accès : personne physique de 50 à 80 ans, résident fiscal français lors de l’adhésion",
+      "description": "« Ce produit est destiné à toute personne physique, âgée de 50 à 80 ans, résident fiscal français lors de l’adhésion souhaitant une solution de financement de ses obsèques, avec ou sans choix des prestations associées. » (page 1). Le document n’énonce pas ces conditions comme une exclusion mais comme la définition des investisseurs de détail visés.",
+      "applies_to": "l’accès au produit — restriction d’éligibilité, non exclusion de garantie",
+      "page": 1
+    }
   ],
-  "page": 3
- },
- "prescription_period": null,
- "premium": {
-  "notes": [
-   "COÛTS AU FIL DU TEMPS\nLa réduction du rendement montre l’incidence des coûts totaux que vous payez sur le rendement que vous pourriez \nobtenir de votre investissement. Les coûts totaux incluent les coûts ponctuels, récurrents et accessoires. Les mon-\ntants indiqués ici sont les coûts cumulés liés au produit lui-même, pour trois périodes de détention différentes. Ils \nincluent les pénalités de sortie anticipée potentielles. Les chiffres présentés supposent que vous investissiez 1 000 €. \nCes chiffres sont des estimations et peuvent changer à l’avenir.",
-   "SCÉNARIO DE TENSIONS\nCoûts totaux\n225,98 €\n3 389,68 €\n6 779,36 €\nRéduction du rendement par an (%)\n29,16 %\n1,71 %\n0,85 %",
-   "COÛTS\nCE TABLEAU MONTRE L'INCIDENCE SUR LE RENDEMENT PAR AN\nPONCTUELS\nCoûts d’entrée\n3,41 € \nou 15 %\nL’incidence des coûts que vous payez lors de l’entrée dans votre \ninvestissement. Il s’agit du montant maximal que vous paierez ; \nil se pourrait que vous payiez moins. Ceci inclut les coûts de \ndistribution de votre produit.\nCoûts de sortie\n0 € \nou 0 %\nL’incidence des coûts encourus lorsque vous sortez de votre inves-\ntissement à l’échéance.\nRÉCURRENTS\nCoûts de \ntransaction \nde portefeuille\n0 € \nou 0 %\nL’incidence des coûts encourus lorsque nous achetons ou vendons \ndes investissements sous-jacents au produit.\nAutres coûts \nrécurrents\n3 € \nou 0,5 %\nbasés sur le \ncapital\nL’incidence des coûts récurrents que nous prélevons chaque \nannée pour gérer vos investissements.\nACCESSOIRES\nCommissions liées \naux résultats\n0 € \nou 0 %\nL’incidence des commissions liées aux résultats. Nous prélevons \ncette commission sur votre investissement si le produit surpasse \nson indice de référence.\nCommissions \nd’intéressement\n0 € \nou 0 %\nL’incidence des commissions d’investissement.",
-   "Ce tableau montre les sommes que vous pourriez obtenir sur la période de détention recommandée, en fonction de \ndifférents scénarios, en supposant que vous investissiez 1 000 €/an, que vous avez 60 ans lors de la souscription et \nque vos cotisations soient viagères.",
-   "INVESTISSEMENT DE 1 000 €/AN\n1 AN\n15 ANS\n30 ANS\nSCÉNARIOS EN CAS DE SURVIE\nFAVORABLE\nCe que vous pouvez obtenir après déduction \ndes coûts\n581,95 €\n11 108,03 €\n26 400,79 €\nRendement annuel moyen\n- 41,80 %\n- 3,23 %\n- 1,78 %\nMontant investi cumulé\n1 000,00 €\n18 181,96 €\n45 256,61 €\nINTERMÉDIAIRE\nCe que vous pouvez obtenir après déduction \ndes coûts\n581,95 €\n10 402,80 €\n23 046,70 €\nRendement annuel moyen\n- 41,81 %\n- 3,43 %\n- 1,98 %\nMontant investi cumulé\n1 000,00 €\n17 558,20 €\n41 929,63 €\nDÉFAVORABLE\nCe que vous pouvez obtenir après déduction \ndes coûts\n581,95 €\n9 540,21 €\n19 263,65 €\nRendement annuel moyen\n- 41,80 %\n- 3,69 %\n- 2,24 %\nMontant investi cumulé\n1 000,00 €\n16 778,16 €\n38 004,13 €\nDE TENSION\nCe que vous pouvez obtenir après déduction \ndes coûts\n581,95 €\n7 660,25 €\n12 226,45 €\nRendement annuel moyen\n- 41,80 %\n- 4,38 %\n- 2,95 %\nMontant investi cumulé\n1 000,00 €\n15 000,00 €\n30 000,00 €\nSCÉNARIO EN CAS DE DÉCÈS DANS L’HYPOTHÈSE \nD’UN SCÉNARIO DE TENSIONS\n14 828,00 €\n14 828,00 €\n14 828,00 €\nPRIME D’ASSURANCE CUMULÉE\n1 000,00 €\n15 000,00 €\n30 000,00 €",
-   "Hypothèse de cotisation retenue par le document pour les scénarios comme pour les coûts : un investissement de 1 000 €/an, souscription à 60 ans, cotisations viagères. Aucun tarif réel, aucune cotisation contractuelle et aucun capital garanti ne sont indiqués.",
-   "Ligne « PRIME D’ASSURANCE CUMULÉE » du tableau des scénarios : 1 000,00 € à 1 an, 15 000,00 € à 15 ans, 30 000,00 € à 30 ans."
+  "deductibles": null,
+  "waiting_periods": [],
+  "obligations": [],
+  "claims_procedure": [
+    {
+      "step": "1. Saisir l’agence ou le service à l’origine du désaccord",
+      "description": "« En cas de désaccord entre vous et nous, à l’occasion de la distribution, de la gestion du présent contrat ou du règlement d’un sinistre, vous devez tout d’abord vous adresser à l’agence ou au service qui est à l’origine de ce désaccord. Une réponse vous sera apportée sous 30 jours. » (page 3)",
+      "deadline": "Une réponse vous sera apportée sous 30 jours",
+      "page": 3
+    },
+    {
+      "step": "2. Saisir le service « Réclamations » du groupe",
+      "description": "« Le service « Réclamations » de notre groupe : • par courrier : 66, rue de Sotteville 76030 Rouen CEDEX 1 ; • par mail : service.reclamations@matmut.fr ; • par internet : matmut.fr. » — voie ouverte « Si cette réponse ne vous donne pas entière satisfaction » (page 3).",
+      "deadline": null,
+      "page": 3
+    },
+    {
+      "step": "3. Saisir le médiateur de l’assurance",
+      "description": "« Le médiateur de l’assurance : • par courrier : Médiation de l’assurance – TSA 50110 – 75441 Paris CEDEX 09 ; • en déposant votre demande et les pièces de votre dossier sur le site mediation-assurance.org. » (page 3). Le document présente le service Réclamations et le médiateur comme deux voies reliées par « ou ».",
+      "deadline": null,
+      "page": 3
+    }
   ],
-  "indexation": null,
-  "page": 2
- },
- "special_conditions": [
-  {
-   "name": "Objet réglementaire du document",
-   "description": "OBJECTIF\nLe présent document contient des informations essentielles sur le produit d’investissement. Il ne s’agit pas d’un \ndocument à caractère commercial. Ces informations vous sont fournies conformément à une obligation légale, afin \nde vous aider à comprendre en quoi consiste ce produit et quels risques, coûts, gains et pertes potentiels y sont \nassociés, et de vous aider à le comparer à d’autres produits.",
-   "page": 1
+  "duration_and_cancellation": {
+    "duration": "« Le produit ne comporte pas de date d'échéance. » (page 1) ; « PÉRIODE DE DÉTENTION RECOMMANDÉE : VIAGÈRE » et « La durée de détention recommandée tient compte de la finalité du contrat qui est le financement des obsèques. » (page 3) ; « l’horizon de détention recommandé est viager » (page 1).",
+    "tacit_renewal": null,
+    "notice_period": null,
+    "methods": [
+      "« À tout moment, vous pouvez néanmoins demander le rachat total de votre contrat. Le rachat partiel est impossible. » (page 3)",
+      "« La valeur de rachat est égale à la provision mathématique constituée au jour de la date d’effet du rachat. Elle vous est communiquée annuellement lors de l’envoi de la lettre d’information annuelle. » (page 3)"
+    ],
+    "special_rights": [
+      "« Vous disposez enfin d’un droit de renonciation qui peut être exercé dans un délai de 30 jours calendaires révolus à compter de la date à laquelle vous êtes informé que l’adhésion au contrat est conclue. » (page 3)"
+    ],
+    "page": 3
   },
-  {
-   "name": "Fabricant du produit, autorité de contrôle et date du DIC",
-   "description": "PRODUIT\nMatmut Prévoyance Obsèques est un produit de Matmut Vie (www.matmut.fr). Appelez le 02 35 03 70 76 pour de \nplus amples informations. Ce produit est soumis au contrôle de l’Autorité de contrôle prudentiel et de résolution \n(ACPR). Document d’informations clés en date du 1er mai 2025.",
-   "page": 1
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "COÛTS AU FIL DU TEMPS\nLa réduction du rendement montre l’incidence des coûts totaux que vous payez sur le rendement que vous pourriez \nobtenir de votre investissement. Les coûts totaux incluent les coûts ponctuels, récurrents et accessoires. Les mon-\ntants indiqués ici sont les coûts cumulés liés au produit lui-même, pour trois périodes de détention différentes. Ils \nincluent les pénalités de sortie anticipée potentielles. Les chiffres présentés supposent que vous investissiez 1 000 €. \nCes chiffres sont des estimations et peuvent changer à l’avenir.",
+      "SCÉNARIO DE TENSIONS\nCoûts totaux\n225,98 €\n3 389,68 €\n6 779,36 €\nRéduction du rendement par an (%)\n29,16 %\n1,71 %\n0,85 %",
+      "COÛTS\nCE TABLEAU MONTRE L'INCIDENCE SUR LE RENDEMENT PAR AN\nPONCTUELS\nCoûts d’entrée\n3,41 € \nou 15 %\nL’incidence des coûts que vous payez lors de l’entrée dans votre \ninvestissement. Il s’agit du montant maximal que vous paierez ; \nil se pourrait que vous payiez moins. Ceci inclut les coûts de \ndistribution de votre produit.\nCoûts de sortie\n0 € \nou 0 %\nL’incidence des coûts encourus lorsque vous sortez de votre inves-\ntissement à l’échéance.\nRÉCURRENTS\nCoûts de \ntransaction \nde portefeuille\n0 € \nou 0 %\nL’incidence des coûts encourus lorsque nous achetons ou vendons \ndes investissements sous-jacents au produit.\nAutres coûts \nrécurrents\n3 € \nou 0,5 %\nbasés sur le \ncapital\nL’incidence des coûts récurrents que nous prélevons chaque \nannée pour gérer vos investissements.\nACCESSOIRES\nCommissions liées \naux résultats\n0 € \nou 0 %\nL’incidence des commissions liées aux résultats. Nous prélevons \ncette commission sur votre investissement si le produit surpasse \nson indice de référence.\nCommissions \nd’intéressement\n0 € \nou 0 %\nL’incidence des commissions d’investissement.",
+      "Ce tableau montre les sommes que vous pourriez obtenir sur la période de détention recommandée, en fonction de \ndifférents scénarios, en supposant que vous investissiez 1 000 €/an, que vous avez 60 ans lors de la souscription et \nque vos cotisations soient viagères.",
+      "INVESTISSEMENT DE 1 000 €/AN\n1 AN\n15 ANS\n30 ANS\nSCÉNARIOS EN CAS DE SURVIE\nFAVORABLE\nCe que vous pouvez obtenir après déduction \ndes coûts\n581,95 €\n11 108,03 €\n26 400,79 €\nRendement annuel moyen\n- 41,80 %\n- 3,23 %\n- 1,78 %\nMontant investi cumulé\n1 000,00 €\n18 181,96 €\n45 256,61 €\nINTERMÉDIAIRE\nCe que vous pouvez obtenir après déduction \ndes coûts\n581,95 €\n10 402,80 €\n23 046,70 €\nRendement annuel moyen\n- 41,81 %\n- 3,43 %\n- 1,98 %\nMontant investi cumulé\n1 000,00 €\n17 558,20 €\n41 929,63 €\nDÉFAVORABLE\nCe que vous pouvez obtenir après déduction \ndes coûts\n581,95 €\n9 540,21 €\n19 263,65 €\nRendement annuel moyen\n- 41,80 %\n- 3,69 %\n- 2,24 %\nMontant investi cumulé\n1 000,00 €\n16 778,16 €\n38 004,13 €\nDE TENSION\nCe que vous pouvez obtenir après déduction \ndes coûts\n581,95 €\n7 660,25 €\n12 226,45 €\nRendement annuel moyen\n- 41,80 %\n- 4,38 %\n- 2,95 %\nMontant investi cumulé\n1 000,00 €\n15 000,00 €\n30 000,00 €\nSCÉNARIO EN CAS DE DÉCÈS DANS L’HYPOTHÈSE \nD’UN SCÉNARIO DE TENSIONS\n14 828,00 €\n14 828,00 €\n14 828,00 €\nPRIME D’ASSURANCE CUMULÉE\n1 000,00 €\n15 000,00 €\n30 000,00 €",
+      "Hypothèse de cotisation retenue par le document pour les scénarios comme pour les coûts : un investissement de 1 000 €/an, souscription à 60 ans, cotisations viagères. Aucun tarif réel, aucune cotisation contractuelle et aucun capital garanti ne sont indiqués.",
+      "Ligne « PRIME D’ASSURANCE CUMULÉE » du tableau des scénarios : 1 000,00 € à 1 an, 15 000,00 € à 15 ans, 30 000,00 € à 30 ans."
+    ],
+    "indexation": null,
+    "page": 2
   },
-  {
-   "name": "Nature juridique du contrat",
-   "description": "TYPE\nMatmut Prévoyance Obsèques est un contrat d’assurance vie de groupe, libellé en euros à adhésion facultative.",
-   "page": 1
-  },
-  {
-   "name": "Horizon de détention recommandé et revalorisation annuelle",
-   "description": "« Compte tenu de la structure des frais et de la revalorisation proposée chaque année, l’horizon de détention recommandé est viager. » (page 1 ; le mot « recommandé » y est coupé par un trait d’union en fin de ligne dans la couche texte). La revalorisation n’est mentionnée qu’ici et, page 3, à travers l’information annuelle « indiquant notamment la valeur de rachat, le capital assuré et la participation aux bénéfices » : le document n’en décrit ni le mécanisme ni le taux.",
-   "page": 1
-  },
-  {
-   "name": "Indicateur synthétique de risque (ISR)",
-   "description": "INDICATEUR SYNTHÉTIQUE DE RISQUE (ISR)\n1\n2\n3\n4\n5\n6\n7\nRisque le plus faible\nRisque le plus élevé\nL’indicateur de risque part de l’hypothèse que vous conservez le produit 30 ans. L’indicateur synthétique de risque \npermet d’apprécier le niveau de risque de ce produit par rapport à d’autres. Il indique la probabilité que ce produit \nenregistre des pertes en cas de mouvements sur les marchés ou d’une impossibilité de notre part de vous payer.\nNous avons classé ce produit dans la classe de risque 2 sur 7, qui est une classe de risque basse. Autrement dit, \nles pertes potentielles liées aux futurs résultats du produit se situent à un niveau faible.\nSi nous ne sommes pas \nen mesure de vous verser les sommes dues, vous pouvez perdre l’intégralité de votre investissement.",
-   "page": 1
-  },
-  {
-   "name": "Scénarios de performance",
-   "description": "Ce tableau montre les sommes que vous pourriez obtenir sur la période de détention recommandée, en fonction de \ndifférents scénarios, en supposant que vous investissiez 1 000 €/an, que vous avez 60 ans lors de la souscription et \nque vos cotisations soient viagères.\nINVESTISSEMENT DE 1 000 €/AN\n1 AN\n15 ANS\n30 ANS\nSCÉNARIOS EN CAS DE SURVIE\nFAVORABLE\nCe que vous pouvez obtenir après déduction \ndes coûts\n581,95 €\n11 108,03 €\n26 400,79 €\nRendement annuel moyen\n- 41,80 %\n- 3,23 %\n- 1,78 %\nMontant investi cumulé\n1 000,00 €\n18 181,96 €\n45 256,61 €\nINTERMÉDIAIRE\nCe que vous pouvez obtenir après déduction \ndes coûts\n581,95 €\n10 402,80 €\n23 046,70 €\nRendement annuel moyen\n- 41,81 %\n- 3,43 %\n- 1,98 %\nMontant investi cumulé\n1 000,00 €\n17 558,20 €\n41 929,63 €\nDÉFAVORABLE\nCe que vous pouvez obtenir après déduction \ndes coûts\n581,95 €\n9 540,21 €\n19 263,65 €\nRendement annuel moyen\n- 41,80 %\n- 3,69 %\n- 2,24 %\nMontant investi cumulé\n1 000,00 €\n16 778,16 €\n38 004,13 €\nDE TENSION\nCe que vous pouvez obtenir après déduction \ndes coûts\n581,95 €\n7 660,25 €\n12 226,45 €\nRendement annuel moyen\n- 41,80 %\n- 4,38 %\n- 2,95 %\nMontant investi cumulé\n1 000,00 €\n15 000,00 €\n30 000,00 €\nSCÉNARIO EN CAS DE DÉCÈS DANS L’HYPOTHÈSE \nD’UN SCÉNARIO DE TENSIONS\n14 828,00 €\n14 828,00 €\n14 828,00 €\nPRIME D’ASSURANCE CUMULÉE\n1 000,00 €\n15 000,00 €\n30 000,00 €",
-   "page": 2
-  },
-  {
-   "name": "Portée et limites des scénarios",
-   "description": "Le scénario de tensions montre ce que vous pourriez obtenir dans des situations de marché extrêmes, et ne tient \npas compte du cas où nous ne pourrions pas vous payer.",
-   "page": 2
-  },
-  {
-   "name": "Fonds de garantie des assurances de personnes (FGAP)",
-   "description": "Matmut Vie adhère au Fonds de garantie des assurances de personnes (FGAP) destiné à préserver les droits des \nassurés et bénéficiaires de ses contrats d’assurance vie en cas de défaillance. L’indemnisation du FGAP vient en \ncomplément des sommes provenant de la réalisation des actifs par le liquidateur de la société défaillante. Le montant \nde l’indemnisation est apprécié en fonction de la valeur de rachat au jour où le contrat d’assurance cesse d’avoir \neffet. Ce montant d’indemnisation garanti par le FGAP est limité à 70 000 €. Ce plafond est applicable par assuré, \nsouscripteur ou bénéficiaire du contrat, quel que soit le nombre des contrats souscrits auprès d’une même société.",
-   "page": 2
-  },
-  {
-   "name": "Composition des coûts",
-   "description": "COÛTS\nCE TABLEAU MONTRE L'INCIDENCE SUR LE RENDEMENT PAR AN\nPONCTUELS\nCoûts d’entrée\n3,41 € \nou 15 %\nL’incidence des coûts que vous payez lors de l’entrée dans votre \ninvestissement. Il s’agit du montant maximal que vous paierez ; \nil se pourrait que vous payiez moins. Ceci inclut les coûts de \ndistribution de votre produit.\nCoûts de sortie\n0 € \nou 0 %\nL’incidence des coûts encourus lorsque vous sortez de votre inves-\ntissement à l’échéance.\nRÉCURRENTS\nCoûts de \ntransaction \nde portefeuille\n0 € \nou 0 %\nL’incidence des coûts encourus lorsque nous achetons ou vendons \ndes investissements sous-jacents au produit.\nAutres coûts \nrécurrents\n3 € \nou 0,5 %\nbasés sur le \ncapital\nL’incidence des coûts récurrents que nous prélevons chaque \nannée pour gérer vos investissements.\nACCESSOIRES\nCommissions liées \naux résultats\n0 € \nou 0 %\nL’incidence des commissions liées aux résultats. Nous prélevons \ncette commission sur votre investissement si le produit surpasse \nson indice de référence.\nCommissions \nd’intéressement\n0 € \nou 0 %\nL’incidence des commissions d’investissement.",
-   "page": 3
-  },
-  {
-   "name": "Documents remis avant l’adhésion et en cours de contrat",
-   "description": "AUTRES INFORMATIONS PERTINENTES\nConformément à la réglementation en vigueur, Matmut Vie vous remet avant l’adhésion un projet de contrat valant \nnote d’information et en cours de vie du contrat, une fois par an, une information sur la situation de votre contrat \nindiquant notamment la valeur de rachat, le capital assuré et la participation aux bénéfices.",
-   "page": 3
-  },
-  {
-   "name": "Entités nommées en entête de chaque page",
-   "description": "Matmut Vie\nSociété Anonyme au capital de 35 887 500 € \nentièrement libéré - N° 344 898 358 RCS Rouen\nEntreprise régie par le Code des assurances\nSiège social : 66, rue de Sotteville 76100 Rouen\nAdresse postale : 76030 Rouen CEDEX 1\nMatmut Mutualité\nMutuelle soumise aux dispositions du Livre II du Code\nde la mutualité, immatriculée au répertoire SIRENE \nsous le numéro 775 701 485",
-   "page": 1
-  },
-  {
-   "name": "Mention légale de pied de page (page 3)",
-   "description": "Matmut Vie : Société Anonyme au capital de 35 887 500 € entièrement libéré N° 344 898 358 RCS Rouen. Entreprise régie par le Code \ndes assurances. Siège social : 66, rue de Sotteville 76100 Rouen. Adresse postale : 76030 Rouen CEDEX 1.",
-   "page": 3
-  }
- ],
- "key_quotes": [
-  {
-   "quote": "Matmut Vie\nSociété Anonyme au capital de 35 887 500 € \nentièrement libéré - N° 344 898 358 RCS Rouen\nEntreprise régie par le Code des assurances\nSiège social : 66, rue de Sotteville 76100 Rouen\nAdresse postale : 76030 Rouen CEDEX 1\nMatmut Mutualité\nMutuelle soumise aux dispositions du Livre II du Code\nde la mutualité, immatriculée au répertoire SIRENE \nsous le numéro 775 701 485",
-   "context": "Entête : les deux entités nommées sur chaque page",
-   "page": 1
-  },
-  {
-   "quote": "PRODUIT\nMatmut Prévoyance Obsèques est un produit de Matmut Vie (www.matmut.fr). Appelez le 02 35 03 70 76 pour de \nplus amples informations. Ce produit est soumis au contrôle de l’Autorité de contrôle prudentiel et de résolution \n(ACPR). Document d’informations clés en date du 1er mai 2025.",
-   "context": "Fabricant du produit, autorité de contrôle et date du DIC",
-   "page": 1
-  },
-  {
-   "quote": "TYPE\nMatmut Prévoyance Obsèques est un contrat d’assurance vie de groupe, libellé en euros à adhésion facultative.",
-   "context": "Nature juridique du contrat",
-   "page": 1
-  },
-  {
-   "quote": "OBJECTIFS\nCe produit a pour objet, en cas de décès de l’adhérent, le versement au(x) bénéficiaire(s) désigné(s) d’un capital \ndestiné au financement des obsèques ou, selon la formule choisie, la prise en charge de prestations funéraires \nauprès du prestataire funéraire OGF services funéraires.",
-   "context": "Objet de la garantie et prestataire funéraire",
-   "page": 1
-  },
-  {
-   "quote": "La garantie en capital n’est pas égale aux sommes versées par le souscripteur.",
-   "context": "Avertissement : le capital garanti n'égale pas les sommes versées",
-   "page": 1
-  },
-  {
-   "quote": "INVESTISSEURS DE DÉTAIL VISÉS\nCe produit est destiné à toute personne physique, âgée de 50 à 80 ans, résident fiscal français lors de l’adhésion \nsouhaitant une solution de financement de ses obsèques, avec ou sans choix des prestations associées.",
-   "context": "Investisseurs de détail visés (âge, résidence fiscale)",
-   "page": 1
-  },
-  {
-   "quote": "PRESTATIONS D’ASSURANCE\nPaiement du capital garanti au(x) bénéficiaire(s) en cas de décès de l’assuré, selon des modalités définies dans le \ncontrat de prestations obsèques en cas de choix de la formule Prestations et prestations d’assistance.",
-   "context": "Prestation d'assurance servie",
-   "page": 1
-  },
-  {
-   "quote": "DURÉE DE VIE\nLe produit ne comporte pas de date d'échéance.",
-   "context": "Absence de date d'échéance",
-   "page": 1
-  },
-  {
-   "quote": "Nous avons classé ce produit dans la classe de risque 2 sur 7, qui est une classe de risque basse. Autrement dit, \nles pertes potentielles liées aux futurs résultats du produit se situent à un niveau faible.",
-   "context": "Classe de risque 2 sur 7",
-   "page": 1
-  },
-  {
-   "quote": "Si nous ne sommes pas \nen mesure de vous verser les sommes dues, vous pouvez perdre l’intégralité de votre investissement.",
-   "context": "Perte possible de l'intégralité de l'investissement",
-   "page": 1
-  },
-  {
-   "quote": "L’indicateur de risque part de l’hypothèse que vous conservez le produit 30 ans. L’indicateur synthétique de risque \npermet d’apprécier le niveau de risque de ce produit par rapport à d’autres. Il indique la probabilité que ce produit \nenregistre des pertes en cas de mouvements sur les marchés ou d’une impossibilité de notre part de vous payer.",
-   "context": "Hypothèse de l'indicateur synthétique de risque",
-   "page": 1
-  },
-  {
-   "quote": "MPO.DIC — 10/25",
-   "context": "Code de référence en pied de page 1",
-   "page": 1
-  },
-  {
-   "quote": "Ce tableau montre les sommes que vous pourriez obtenir sur la période de détention recommandée, en fonction de \ndifférents scénarios, en supposant que vous investissiez 1 000 €/an, que vous avez 60 ans lors de la souscription et \nque vos cotisations soient viagères.",
-   "context": "Hypothèses des scénarios de performance",
-   "page": 2
-  },
-  {
-   "quote": "SCÉNARIO EN CAS DE DÉCÈS DANS L’HYPOTHÈSE \nD’UN SCÉNARIO DE TENSIONS\n14 828,00 €\n14 828,00 €\n14 828,00 €\nPRIME D’ASSURANCE CUMULÉE",
-   "context": "Scénario en cas de décès (montants identiques à 1, 15 et 30 ans)",
-   "page": 2
-  },
-  {
-   "quote": "Le scénario de tensions montre ce que vous pourriez obtenir dans des situations de marché extrêmes, et ne tient \npas compte du cas où nous ne pourrions pas vous payer.",
-   "context": "Portée du scénario de tensions",
-   "page": 2
-  },
-  {
-   "quote": "Matmut Vie adhère au Fonds de garantie des assurances de personnes (FGAP) destiné à préserver les droits des \nassurés et bénéficiaires de ses contrats d’assurance vie en cas de défaillance. L’indemnisation du FGAP vient en \ncomplément des sommes provenant de la réalisation des actifs par le liquidateur de la société défaillante. Le montant \nde l’indemnisation est apprécié en fonction de la valeur de rachat au jour où le contrat d’assurance cesse d’avoir \neffet. Ce montant d’indemnisation garanti par le FGAP est limité à 70 000 €. Ce plafond est applicable par assuré, \nsouscripteur ou bénéficiaire du contrat, quel que soit le nombre des contrats souscrits auprès d’une même société.",
-   "context": "Fonds de garantie des assurances de personnes et plafond",
-   "page": 2
-  },
-  {
-   "quote": "SCÉNARIO DE TENSIONS\nCoûts totaux\n225,98 €\n3 389,68 €\n6 779,36 €\nRéduction du rendement par an (%)\n29,16 %\n1,71 %\n0,85 %",
-   "context": "Coûts totaux et réduction du rendement par an",
-   "page": 2
-  },
-  {
-   "quote": "Coûts d’entrée\n3,41 € \nou 15 %",
-   "context": "Coûts d'entrée",
-   "page": 3
-  },
-  {
-   "quote": "Coûts de sortie\n0 € \nou 0 %",
-   "context": "Coûts de sortie",
-   "page": 3
-  },
-  {
-   "quote": "Autres coûts \nrécurrents\n3 € \nou 0,5 %\nbasés sur le \ncapital",
-   "context": "Autres coûts récurrents",
-   "page": 3
-  },
-  {
-   "quote": "PÉRIODE DE DÉTENTION RECOMMANDÉE : VIAGÈRE\nLa durée de détention recommandée tient compte de la finalité du contrat qui est le financement des obsèques. \nÀ tout moment, vous pouvez néanmoins demander le rachat total de votre contrat. Le rachat partiel est impossible. \nLa valeur de rachat est égale à la provision mathématique constituée au jour de la date d’effet du rachat. Elle vous \nest communiquée annuellement lors de l’envoi de la lettre d’information annuelle.",
-   "context": "Durée de détention, rachat total et rachat partiel",
-   "page": 3
-  },
-  {
-   "quote": "Vous disposez enfin d’un droit de renonciation qui peut être exercé dans un délai de 30 jours calendaires révolus à \ncompter de la date à laquelle vous êtes informé que l’adhésion au contrat est conclue.",
-   "context": "Droit de renonciation",
-   "page": 3
-  },
-  {
-   "quote": "En cas de désaccord entre vous et nous, à l’occasion de la distribution, de la gestion du présent contrat ou du \nrèglement d’un sinistre, vous devez tout d’abord vous adresser à l’agence ou au service qui est à l’origine de ce \ndésaccord. Une réponse vous sera apportée sous 30 jours. Si cette réponse ne vous donne pas entière satisfaction, \nvous pouvez solliciter",
-   "context": "Première étape de la réclamation et délai de réponse",
-   "page": 3
-  },
-  {
-   "quote": "Le service « Réclamations » de notre groupe :\n• par courrier : 66, rue de Sotteville 76030 Rouen CEDEX 1 ;\n• par mail : service.reclamations@matmut.fr ;\n• par internet : matmut.fr.\nou \nLe médiateur de l’assurance :\n• par courrier : Médiation de l’assurance – TSA 50110 – 75441 Paris CEDEX 09 ;\n• en déposant votre demande et les pièces de votre dossier sur le site mediation-assurance.org.",
-   "context": "Service Réclamations et médiateur de l'assurance",
-   "page": 3
-  },
-  {
-   "quote": "AUTRES INFORMATIONS PERTINENTES\nConformément à la réglementation en vigueur, Matmut Vie vous remet avant l’adhésion un projet de contrat valant \nnote d’information et en cours de vie du contrat, une fois par an, une information sur la situation de votre contrat \nindiquant notamment la valeur de rachat, le capital assuré et la participation aux bénéfices.",
-   "context": "Documents remis avant et pendant la vie du contrat",
-   "page": 3
-  },
-  {
-   "quote": "Matmut Vie : Société Anonyme au capital de 35 887 500 € entièrement libéré N° 344 898 358 RCS Rouen. Entreprise régie par le Code \ndes assurances. Siège social : 66, rue de Sotteville 76100 Rouen. Adresse postale : 76030 Rouen CEDEX 1.",
-   "context": "Mention légale de pied de page 3 : Matmut Vie seule",
-   "page": 3
-  },
-  {
-   "quote": "OBJECTIF\nLe présent document contient des informations essentielles sur le produit d’investissement. Il ne s’agit pas d’un \ndocument à caractère commercial. Ces informations vous sont fournies conformément à une obligation légale, afin \nde vous aider à comprendre en quoi consiste ce produit et quels risques, coûts, gains et pertes potentiels y sont \nassociés, et de vous aider à le comparer à d’autres produits.",
-   "context": "Objet réglementaire du document d'informations clés",
-   "page": 1
-  }
- ],
- "gaps": [
-  "NATURE DU DOCUMENT : il ne s’agit pas d’un IPID (document d’information sur le produit d’assurance, règlement IDD) mais d’un DOCUMENT D’INFORMATIONS CLÉS au sens PRIIPs — il en a la structure imposée (Objectif, Produit, En quoi consiste ce produit, Risques et rendement, Que se passe-t-il si…, Que va me coûter cet investissement, Combien de temps dois-je le conserver, Comment formuler une réclamation, Autres informations pertinentes). document_type a été laissé à « ipid » comme fourni par les métadonnées, faute de valeur plus juste dans l’énumération du schéma ; la réserve est signalée ici.",
-  "PORTEURS NOMMÉS : l’entête des trois pages nomme DEUX entités — « Matmut Vie, Société Anonyme au capital de 35 887 500 € entièrement libéré - N° 344 898 358 RCS Rouen » et « Matmut Mutualité, Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, immatriculée au répertoire SIRENE sous le numéro 775 701 485 ». Le corps du document n’attribue de rôle qu’à Matmut Vie (« un produit de Matmut Vie », « Matmut Vie adhère au FGAP », « Matmut Vie vous remet avant l’adhésion… ») et la mention légale finale de la page 3 ne cite que Matmut Vie. LE RÔLE DE MATMUT MUTUALITÉ N’EST PAS ÉNONCÉ dans ce document : il n’a pas été déduit. Ni la Mutuelle assurance des travailleurs mutualistes (Siren 775 701 477) portée dans insurer_name par les métadonnées, ni le mot « Matmut » employé seul comme assureur n’apparaissent dans le texte.",
-  "CONTRADICTION INTERNE SUR LA DATE — les deux lectures sont conservées : la page 1 imprime « Document d’informations clés en date du 1er mai 2025 » tandis que le pied de page 1 porte le code « MPO.DIC — 10/25 ». edition_date a été fixée sur la date explicitement énoncée dans le corps du texte (2025-05-01) ; le code de pied de page, qui suggère octobre 2025, n’a pas été retenu car un code de référence se terminant par une date n’est pas une mention d’édition. Les deux valeurs figurent dans key_quotes (rubriques « produit » et « footer1 »).",
-  "Le document ne comporte AUCUNE section d’exclusions et aucune exclusion de garantie (pas de clause de suicide, pas d’exclusion de guerre ou de risque nucléaire, aucun délai d’attente/carence). Les cinq entrées d’exclusions[] sont des RESTRICTIONS énoncées par le DIC (rachat partiel impossible, capital ≠ sommes versées, perte possible de l’intégralité de l’investissement, plafond FGAP de 70 000 €, conditions d’éligibilité) ; applies_to le précise pour chacune. waiting_periods[] et obligations[] sont vides pour la même raison : le document n’en énonce aucun.",
-  "Aucun capital garanti, aucune cotisation réelle et aucun tarif ne figurent : tous les montants du document sont des ILLUSTRATIONS réglementaires calculées sur l’hypothèse « 1 000 €/an, 60 ans à la souscription, cotisations viagères ». Le seul montant contractuel opposable est le plafond du FGAP (70 000 €), qui n’est pas une garantie du produit.",
-  "claims_procedure[] décrit la procédure de RÉCLAMATION (désaccord), seule procédure que le document expose. Le DIC ne décrit AUCUNE procédure de déclaration de sinistre/décès : ni délai, ni pièces, ni destinataire.",
-  "prescription_period laissée à null : le document ne mentionne aucun délai de prescription. deductibles laissé à null : aucune franchise n’est mentionnée (le produit n’en comporte pas par nature, mais le document ne le dit pas).",
-  "La formule « Capital » n’est jamais nommée comme telle : le document oppose « le versement […] d’un capital » à « selon la formule choisie, la prise en charge de prestations funéraires ». is_optional a donc été laissé à null pour la prise en charge des prestations funéraires et pour les prestations d’assistance : le document parle d’un CHOIX DE FORMULE, non d’une option payante ajoutée à une base. La phrase de la rubrique PRESTATIONS D’ASSURANCE est syntaxiquement ambiguë (« en cas de choix de la formule Prestations et prestations d’assistance ») : on ne peut déterminer si « et prestations d’assistance » qualifie la formule ou ajoute une seconde prestation. Les deux lectures sont laissées ouvertes, la phrase étant reprise verbatim.",
-  "Le PDF local (data/fr/pdfs/matmut/obseques/matmut-prevoyance-obseques-17de44d8.pdf, 3 pages) a été ré-extrait avec page.get_text(\"text\") via PyMuPDF : chaque page est identique caractère par caractère à celle du prompt, au seul saut de ligne ajouté par le harnais entre les pages près (3 551 / 4 338 / 3 991 caractères). Aucune troncature. Toutes les citations de key_quotes sont des tranches exactes découpées programmatiquement dans ce texte.",
-  "PIÈGES TYPOGRAPHIQUES mesurés et préservés verbatim. Espaces spéciales : 62 espaces fines insécables U+202F, 30 espaces fines U+2009 et 30 espaces insécables U+00A0. Elles sont mêlées de façon INCOHÉRENTE à l’intérieur d’un même tableau : « 3 389,68 € » utilise U+202F, « 6 779,36 € » utilise U+2009 et « 225,98 € » n’a pas de séparateur ; « 1 000 €/an » (U+202F) voisine « 1 000,00 € » (U+2009) dans le même tableau ; « 70 000 € » combine U+2009 (millier) et U+00A0 (avant l’euro). Une espace fine insécable colle même deux mots : « Appelez le 02 35 03 70 76 pour de plus amples informations » y est imprimé « 76[U+202F]pour », sans espace ordinaire. Apostrophes mixtes : 72 apostrophes courbes U+2019 côtoient des apostrophes ASCII dans « Le produit ne comporte pas de date d'échéance. » et « CE TABLEAU MONTRE L'INCIDENCE SUR LE RENDEMENT PAR AN ». Aucun espace de largeur nulle, aucun glyphe de zone privée, aucun accent décomposé (NFD).",
-  "UN caractère U+0007 unique dans tout le document, page 3, immédiatement après la première puce de « Le tableau ci-dessous indique : • [U+0007]l’incidence annuelle des différents types de coûts… ». La seconde puce de la même liste (« • la signification des différentes catégories de coûts. ») n’en porte pas. Rien ne manque à cet endroit : les deux items de la liste sont bien présents dans la couche texte, et aucun bloc du document n’est vectorisé. Aucune citation ne traverse ce caractère.",
-  "Mots coupés par un vrai trait d’union en fin de ligne dans la couche texte (« recom-\\nmandé » page 1, « les mon-\\ntants » page 2, « inves-\\ntissement » et « investisse-\\nment » page 3) : les trois passages concernés (horizon de détention, introduction des coûts au fil du temps, tableau de composition des coûts) ont été VOLONTAIREMENT écartés de key_quotes, aucune normalisation d’espaces ne réparant ce type de coupure. Leur contenu figure intégralement dans premium.notes et special_conditions.",
-  "L’échelle de l’indicateur synthétique de risque sort de la couche texte comme une simple suite « 1 2 3 4 5 6 7 / Risque le plus faible / Risque le plus élevé » : le repère graphique indiquant la classe retenue n’est pas dans le texte. La classe n’a pas été lue sur le dessin — elle est énoncée en toutes lettres par la prose : « Nous avons classé ce produit dans la classe de risque 2 sur 7, qui est une classe de risque basse. »",
-  "Les tableaux (scénarios de performance page 2, composition des coûts page 3) sortent de la couche texte en colonnes désolidarisées : chaque libellé est suivi de ses trois valeurs (1 AN, 15 ANS, 30 ANS) dans l’ordre de lecture. L’ordre a été conservé tel quel dans premium.notes sans reconstruire de matrice ; aucune valeur n’a été réattribuée à une colonne autrement que par cet ordre imprimé.",
-  "Curiosité arithmétique du tableau des coûts, relevée sans être corrigée : les coûts d’entrée sont imprimés « 3,41 € \nou 15 % » alors que l’investissement de référence est de 1 000 € — les deux nombres ne se déduisent pas l’un de l’autre (le document présente une incidence annuelle en euros à côté d’un taux maximal prélevé à l’entrée). De même « Autres coûts récurrents 3 € ou 0,5 % basés sur le capital ». Le total « Coûts totaux 225,98 € » à 1 an n’est pas non plus la somme des lignes de composition. Aucune de ces lectures n’a été réconciliée.",
-  "Le scénario en cas de décès affiche la MÊME valeur, 14 828,00 €, à 1 an, 15 ans et 30 ans, alors que la prime cumulée passe de 1 000,00 € à 30 000,00 €. Le document ne l’explique pas ; la valeur est reprise verbatim."
- ]
+  "special_conditions": [
+    {
+      "name": "Objet réglementaire du document",
+      "description": "OBJECTIF\nLe présent document contient des informations essentielles sur le produit d’investissement. Il ne s’agit pas d’un \ndocument à caractère commercial. Ces informations vous sont fournies conformément à une obligation légale, afin \nde vous aider à comprendre en quoi consiste ce produit et quels risques, coûts, gains et pertes potentiels y sont \nassociés, et de vous aider à le comparer à d’autres produits.",
+      "page": 1
+    },
+    {
+      "name": "Fabricant du produit, autorité de contrôle et date du DIC",
+      "description": "PRODUIT\nMatmut Prévoyance Obsèques est un produit de Matmut Vie (www.matmut.fr). Appelez le 02 35 03 70 76 pour de \nplus amples informations. Ce produit est soumis au contrôle de l’Autorité de contrôle prudentiel et de résolution \n(ACPR). Document d’informations clés en date du 1er mai 2025.",
+      "page": 1
+    },
+    {
+      "name": "Nature juridique du contrat",
+      "description": "TYPE\nMatmut Prévoyance Obsèques est un contrat d’assurance vie de groupe, libellé en euros à adhésion facultative.",
+      "page": 1
+    },
+    {
+      "name": "Horizon de détention recommandé et revalorisation annuelle",
+      "description": "« Compte tenu de la structure des frais et de la revalorisation proposée chaque année, l’horizon de détention recommandé est viager. » (page 1 ; le mot « recommandé » y est coupé par un trait d’union en fin de ligne dans la couche texte). La revalorisation n’est mentionnée qu’ici et, page 3, à travers l’information annuelle « indiquant notamment la valeur de rachat, le capital assuré et la participation aux bénéfices » : le document n’en décrit ni le mécanisme ni le taux.",
+      "page": 1
+    },
+    {
+      "name": "Indicateur synthétique de risque (ISR)",
+      "description": "INDICATEUR SYNTHÉTIQUE DE RISQUE (ISR)\n1\n2\n3\n4\n5\n6\n7\nRisque le plus faible\nRisque le plus élevé\nL’indicateur de risque part de l’hypothèse que vous conservez le produit 30 ans. L’indicateur synthétique de risque \npermet d’apprécier le niveau de risque de ce produit par rapport à d’autres. Il indique la probabilité que ce produit \nenregistre des pertes en cas de mouvements sur les marchés ou d’une impossibilité de notre part de vous payer.\nNous avons classé ce produit dans la classe de risque 2 sur 7, qui est une classe de risque basse. Autrement dit, \nles pertes potentielles liées aux futurs résultats du produit se situent à un niveau faible.\nSi nous ne sommes pas \nen mesure de vous verser les sommes dues, vous pouvez perdre l’intégralité de votre investissement.",
+      "page": 1
+    },
+    {
+      "name": "Scénarios de performance",
+      "description": "Ce tableau montre les sommes que vous pourriez obtenir sur la période de détention recommandée, en fonction de \ndifférents scénarios, en supposant que vous investissiez 1 000 €/an, que vous avez 60 ans lors de la souscription et \nque vos cotisations soient viagères.\nINVESTISSEMENT DE 1 000 €/AN\n1 AN\n15 ANS\n30 ANS\nSCÉNARIOS EN CAS DE SURVIE\nFAVORABLE\nCe que vous pouvez obtenir après déduction \ndes coûts\n581,95 €\n11 108,03 €\n26 400,79 €\nRendement annuel moyen\n- 41,80 %\n- 3,23 %\n- 1,78 %\nMontant investi cumulé\n1 000,00 €\n18 181,96 €\n45 256,61 €\nINTERMÉDIAIRE\nCe que vous pouvez obtenir après déduction \ndes coûts\n581,95 €\n10 402,80 €\n23 046,70 €\nRendement annuel moyen\n- 41,81 %\n- 3,43 %\n- 1,98 %\nMontant investi cumulé\n1 000,00 €\n17 558,20 €\n41 929,63 €\nDÉFAVORABLE\nCe que vous pouvez obtenir après déduction \ndes coûts\n581,95 €\n9 540,21 €\n19 263,65 €\nRendement annuel moyen\n- 41,80 %\n- 3,69 %\n- 2,24 %\nMontant investi cumulé\n1 000,00 €\n16 778,16 €\n38 004,13 €\nDE TENSION\nCe que vous pouvez obtenir après déduction \ndes coûts\n581,95 €\n7 660,25 €\n12 226,45 €\nRendement annuel moyen\n- 41,80 %\n- 4,38 %\n- 2,95 %\nMontant investi cumulé\n1 000,00 €\n15 000,00 €\n30 000,00 €\nSCÉNARIO EN CAS DE DÉCÈS DANS L’HYPOTHÈSE \nD’UN SCÉNARIO DE TENSIONS\n14 828,00 €\n14 828,00 €\n14 828,00 €\nPRIME D’ASSURANCE CUMULÉE\n1 000,00 €\n15 000,00 €\n30 000,00 €",
+      "page": 2
+    },
+    {
+      "name": "Portée et limites des scénarios",
+      "description": "Le scénario de tensions montre ce que vous pourriez obtenir dans des situations de marché extrêmes, et ne tient \npas compte du cas où nous ne pourrions pas vous payer.",
+      "page": 2
+    },
+    {
+      "name": "Fonds de garantie des assurances de personnes (FGAP)",
+      "description": "Matmut Vie adhère au Fonds de garantie des assurances de personnes (FGAP) destiné à préserver les droits des \nassurés et bénéficiaires de ses contrats d’assurance vie en cas de défaillance. L’indemnisation du FGAP vient en \ncomplément des sommes provenant de la réalisation des actifs par le liquidateur de la société défaillante. Le montant \nde l’indemnisation est apprécié en fonction de la valeur de rachat au jour où le contrat d’assurance cesse d’avoir \neffet. Ce montant d’indemnisation garanti par le FGAP est limité à 70 000 €. Ce plafond est applicable par assuré, \nsouscripteur ou bénéficiaire du contrat, quel que soit le nombre des contrats souscrits auprès d’une même société.",
+      "page": 2
+    },
+    {
+      "name": "Composition des coûts",
+      "description": "COÛTS\nCE TABLEAU MONTRE L'INCIDENCE SUR LE RENDEMENT PAR AN\nPONCTUELS\nCoûts d’entrée\n3,41 € \nou 15 %\nL’incidence des coûts que vous payez lors de l’entrée dans votre \ninvestissement. Il s’agit du montant maximal que vous paierez ; \nil se pourrait que vous payiez moins. Ceci inclut les coûts de \ndistribution de votre produit.\nCoûts de sortie\n0 € \nou 0 %\nL’incidence des coûts encourus lorsque vous sortez de votre inves-\ntissement à l’échéance.\nRÉCURRENTS\nCoûts de \ntransaction \nde portefeuille\n0 € \nou 0 %\nL’incidence des coûts encourus lorsque nous achetons ou vendons \ndes investissements sous-jacents au produit.\nAutres coûts \nrécurrents\n3 € \nou 0,5 %\nbasés sur le \ncapital\nL’incidence des coûts récurrents que nous prélevons chaque \nannée pour gérer vos investissements.\nACCESSOIRES\nCommissions liées \naux résultats\n0 € \nou 0 %\nL’incidence des commissions liées aux résultats. Nous prélevons \ncette commission sur votre investissement si le produit surpasse \nson indice de référence.\nCommissions \nd’intéressement\n0 € \nou 0 %\nL’incidence des commissions d’investissement.",
+      "page": 3
+    },
+    {
+      "name": "Documents remis avant l’adhésion et en cours de contrat",
+      "description": "AUTRES INFORMATIONS PERTINENTES\nConformément à la réglementation en vigueur, Matmut Vie vous remet avant l’adhésion un projet de contrat valant \nnote d’information et en cours de vie du contrat, une fois par an, une information sur la situation de votre contrat \nindiquant notamment la valeur de rachat, le capital assuré et la participation aux bénéfices.",
+      "page": 3
+    },
+    {
+      "name": "Entités nommées en entête de chaque page",
+      "description": "Matmut Vie\nSociété Anonyme au capital de 35 887 500 € \nentièrement libéré - N° 344 898 358 RCS Rouen\nEntreprise régie par le Code des assurances\nSiège social : 66, rue de Sotteville 76100 Rouen\nAdresse postale : 76030 Rouen CEDEX 1\nMatmut Mutualité\nMutuelle soumise aux dispositions du Livre II du Code\nde la mutualité, immatriculée au répertoire SIRENE \nsous le numéro 775 701 485",
+      "page": 1
+    },
+    {
+      "name": "Mention légale de pied de page (page 3)",
+      "description": "Matmut Vie : Société Anonyme au capital de 35 887 500 € entièrement libéré N° 344 898 358 RCS Rouen. Entreprise régie par le Code \ndes assurances. Siège social : 66, rue de Sotteville 76100 Rouen. Adresse postale : 76030 Rouen CEDEX 1.",
+      "page": 3
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Matmut Vie\nSociété Anonyme au capital de 35 887 500 € \nentièrement libéré - N° 344 898 358 RCS Rouen\nEntreprise régie par le Code des assurances\nSiège social : 66, rue de Sotteville 76100 Rouen\nAdresse postale : 76030 Rouen CEDEX 1\nMatmut Mutualité\nMutuelle soumise aux dispositions du Livre II du Code\nde la mutualité, immatriculée au répertoire SIRENE \nsous le numéro 775 701 485",
+      "context": "Entête : les deux entités nommées sur chaque page",
+      "page": 1
+    },
+    {
+      "quote": "PRODUIT\nMatmut Prévoyance Obsèques est un produit de Matmut Vie (www.matmut.fr). Appelez le 02 35 03 70 76 pour de \nplus amples informations. Ce produit est soumis au contrôle de l’Autorité de contrôle prudentiel et de résolution \n(ACPR). Document d’informations clés en date du 1er mai 2025.",
+      "context": "Fabricant du produit, autorité de contrôle et date du DIC",
+      "page": 1
+    },
+    {
+      "quote": "TYPE\nMatmut Prévoyance Obsèques est un contrat d’assurance vie de groupe, libellé en euros à adhésion facultative.",
+      "context": "Nature juridique du contrat",
+      "page": 1
+    },
+    {
+      "quote": "OBJECTIFS\nCe produit a pour objet, en cas de décès de l’adhérent, le versement au(x) bénéficiaire(s) désigné(s) d’un capital \ndestiné au financement des obsèques ou, selon la formule choisie, la prise en charge de prestations funéraires \nauprès du prestataire funéraire OGF services funéraires.",
+      "context": "Objet de la garantie et prestataire funéraire",
+      "page": 1
+    },
+    {
+      "quote": "La garantie en capital n’est pas égale aux sommes versées par le souscripteur.",
+      "context": "Avertissement : le capital garanti n'égale pas les sommes versées",
+      "page": 1
+    },
+    {
+      "quote": "INVESTISSEURS DE DÉTAIL VISÉS\nCe produit est destiné à toute personne physique, âgée de 50 à 80 ans, résident fiscal français lors de l’adhésion \nsouhaitant une solution de financement de ses obsèques, avec ou sans choix des prestations associées.",
+      "context": "Investisseurs de détail visés (âge, résidence fiscale)",
+      "page": 1
+    },
+    {
+      "quote": "PRESTATIONS D’ASSURANCE\nPaiement du capital garanti au(x) bénéficiaire(s) en cas de décès de l’assuré, selon des modalités définies dans le \ncontrat de prestations obsèques en cas de choix de la formule Prestations et prestations d’assistance.",
+      "context": "Prestation d'assurance servie",
+      "page": 1
+    },
+    {
+      "quote": "DURÉE DE VIE\nLe produit ne comporte pas de date d'échéance.",
+      "context": "Absence de date d'échéance",
+      "page": 1
+    },
+    {
+      "quote": "Nous avons classé ce produit dans la classe de risque 2 sur 7, qui est une classe de risque basse. Autrement dit, \nles pertes potentielles liées aux futurs résultats du produit se situent à un niveau faible.",
+      "context": "Classe de risque 2 sur 7",
+      "page": 1
+    },
+    {
+      "quote": "Si nous ne sommes pas \nen mesure de vous verser les sommes dues, vous pouvez perdre l’intégralité de votre investissement.",
+      "context": "Perte possible de l'intégralité de l'investissement",
+      "page": 1
+    },
+    {
+      "quote": "L’indicateur de risque part de l’hypothèse que vous conservez le produit 30 ans. L’indicateur synthétique de risque \npermet d’apprécier le niveau de risque de ce produit par rapport à d’autres. Il indique la probabilité que ce produit \nenregistre des pertes en cas de mouvements sur les marchés ou d’une impossibilité de notre part de vous payer.",
+      "context": "Hypothèse de l'indicateur synthétique de risque",
+      "page": 1
+    },
+    {
+      "quote": "MPO.DIC — 10/25",
+      "context": "Code de référence en pied de page 1",
+      "page": 1
+    },
+    {
+      "quote": "Ce tableau montre les sommes que vous pourriez obtenir sur la période de détention recommandée, en fonction de \ndifférents scénarios, en supposant que vous investissiez 1 000 €/an, que vous avez 60 ans lors de la souscription et \nque vos cotisations soient viagères.",
+      "context": "Hypothèses des scénarios de performance",
+      "page": 2
+    },
+    {
+      "quote": "SCÉNARIO EN CAS DE DÉCÈS DANS L’HYPOTHÈSE \nD’UN SCÉNARIO DE TENSIONS\n14 828,00 €\n14 828,00 €\n14 828,00 €\nPRIME D’ASSURANCE CUMULÉE",
+      "context": "Scénario en cas de décès (montants identiques à 1, 15 et 30 ans)",
+      "page": 2
+    },
+    {
+      "quote": "Le scénario de tensions montre ce que vous pourriez obtenir dans des situations de marché extrêmes, et ne tient \npas compte du cas où nous ne pourrions pas vous payer.",
+      "context": "Portée du scénario de tensions",
+      "page": 2
+    },
+    {
+      "quote": "Matmut Vie adhère au Fonds de garantie des assurances de personnes (FGAP) destiné à préserver les droits des \nassurés et bénéficiaires de ses contrats d’assurance vie en cas de défaillance. L’indemnisation du FGAP vient en \ncomplément des sommes provenant de la réalisation des actifs par le liquidateur de la société défaillante. Le montant \nde l’indemnisation est apprécié en fonction de la valeur de rachat au jour où le contrat d’assurance cesse d’avoir \neffet. Ce montant d’indemnisation garanti par le FGAP est limité à 70 000 €. Ce plafond est applicable par assuré, \nsouscripteur ou bénéficiaire du contrat, quel que soit le nombre des contrats souscrits auprès d’une même société.",
+      "context": "Fonds de garantie des assurances de personnes et plafond",
+      "page": 2
+    },
+    {
+      "quote": "SCÉNARIO DE TENSIONS\nCoûts totaux\n225,98 €\n3 389,68 €\n6 779,36 €\nRéduction du rendement par an (%)\n29,16 %\n1,71 %\n0,85 %",
+      "context": "Coûts totaux et réduction du rendement par an",
+      "page": 2
+    },
+    {
+      "quote": "Coûts d’entrée\n3,41 € \nou 15 %",
+      "context": "Coûts d'entrée",
+      "page": 3
+    },
+    {
+      "quote": "Coûts de sortie\n0 € \nou 0 %",
+      "context": "Coûts de sortie",
+      "page": 3
+    },
+    {
+      "quote": "Autres coûts \nrécurrents\n3 € \nou 0,5 %\nbasés sur le \ncapital",
+      "context": "Autres coûts récurrents",
+      "page": 3
+    },
+    {
+      "quote": "PÉRIODE DE DÉTENTION RECOMMANDÉE : VIAGÈRE\nLa durée de détention recommandée tient compte de la finalité du contrat qui est le financement des obsèques. \nÀ tout moment, vous pouvez néanmoins demander le rachat total de votre contrat. Le rachat partiel est impossible. \nLa valeur de rachat est égale à la provision mathématique constituée au jour de la date d’effet du rachat. Elle vous \nest communiquée annuellement lors de l’envoi de la lettre d’information annuelle.",
+      "context": "Durée de détention, rachat total et rachat partiel",
+      "page": 3
+    },
+    {
+      "quote": "Vous disposez enfin d’un droit de renonciation qui peut être exercé dans un délai de 30 jours calendaires révolus à \ncompter de la date à laquelle vous êtes informé que l’adhésion au contrat est conclue.",
+      "context": "Droit de renonciation",
+      "page": 3
+    },
+    {
+      "quote": "En cas de désaccord entre vous et nous, à l’occasion de la distribution, de la gestion du présent contrat ou du \nrèglement d’un sinistre, vous devez tout d’abord vous adresser à l’agence ou au service qui est à l’origine de ce \ndésaccord. Une réponse vous sera apportée sous 30 jours. Si cette réponse ne vous donne pas entière satisfaction, \nvous pouvez solliciter",
+      "context": "Première étape de la réclamation et délai de réponse",
+      "page": 3
+    },
+    {
+      "quote": "Le service « Réclamations » de notre groupe :\n• par courrier : 66, rue de Sotteville 76030 Rouen CEDEX 1 ;\n• par mail : service.reclamations@matmut.fr ;\n• par internet : matmut.fr.\nou \nLe médiateur de l’assurance :\n• par courrier : Médiation de l’assurance – TSA 50110 – 75441 Paris CEDEX 09 ;\n• en déposant votre demande et les pièces de votre dossier sur le site mediation-assurance.org.",
+      "context": "Service Réclamations et médiateur de l'assurance",
+      "page": 3
+    },
+    {
+      "quote": "AUTRES INFORMATIONS PERTINENTES\nConformément à la réglementation en vigueur, Matmut Vie vous remet avant l’adhésion un projet de contrat valant \nnote d’information et en cours de vie du contrat, une fois par an, une information sur la situation de votre contrat \nindiquant notamment la valeur de rachat, le capital assuré et la participation aux bénéfices.",
+      "context": "Documents remis avant et pendant la vie du contrat",
+      "page": 3
+    },
+    {
+      "quote": "Matmut Vie : Société Anonyme au capital de 35 887 500 € entièrement libéré N° 344 898 358 RCS Rouen. Entreprise régie par le Code \ndes assurances. Siège social : 66, rue de Sotteville 76100 Rouen. Adresse postale : 76030 Rouen CEDEX 1.",
+      "context": "Mention légale de pied de page 3 : Matmut Vie seule",
+      "page": 3
+    },
+    {
+      "quote": "OBJECTIF\nLe présent document contient des informations essentielles sur le produit d’investissement. Il ne s’agit pas d’un \ndocument à caractère commercial. Ces informations vous sont fournies conformément à une obligation légale, afin \nde vous aider à comprendre en quoi consiste ce produit et quels risques, coûts, gains et pertes potentiels y sont \nassociés, et de vous aider à le comparer à d’autres produits.",
+      "context": "Objet réglementaire du document d'informations clés",
+      "page": 1
+    }
+  ],
+  "gaps": [
+    "NATURE DU DOCUMENT : il ne s’agit pas d’un IPID (document d’information sur le produit d’assurance, règlement IDD) mais d’un DOCUMENT D’INFORMATIONS CLÉS au sens PRIIPs — il en a la structure imposée (Objectif, Produit, En quoi consiste ce produit, Risques et rendement, Que se passe-t-il si…, Que va me coûter cet investissement, Combien de temps dois-je le conserver, Comment formuler une réclamation, Autres informations pertinentes). document_type a été laissé à « ipid » comme fourni par les métadonnées, faute de valeur plus juste dans l’énumération du schéma ; la réserve est signalée ici.",
+    "PORTEURS NOMMÉS : l’entête des trois pages nomme DEUX entités — « Matmut Vie, Société Anonyme au capital de 35 887 500 € entièrement libéré - N° 344 898 358 RCS Rouen » et « Matmut Mutualité, Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, immatriculée au répertoire SIRENE sous le numéro 775 701 485 ». Le corps du document n’attribue de rôle qu’à Matmut Vie (« un produit de Matmut Vie », « Matmut Vie adhère au FGAP », « Matmut Vie vous remet avant l’adhésion… ») et la mention légale finale de la page 3 ne cite que Matmut Vie. LE RÔLE DE MATMUT MUTUALITÉ N’EST PAS ÉNONCÉ dans ce document : il n’a pas été déduit. Ni la Mutuelle assurance des travailleurs mutualistes (Siren 775 701 477) portée dans insurer_name par les métadonnées, ni le mot « Matmut » employé seul comme assureur n’apparaissent dans le texte.",
+    "CONTRADICTION INTERNE SUR LA DATE — les deux lectures sont conservées : la page 1 imprime « Document d’informations clés en date du 1er mai 2025 » tandis que le pied de page 1 porte le code « MPO.DIC — 10/25 ». edition_date a été fixée sur la date explicitement énoncée dans le corps du texte (2025-05-01) ; le code de pied de page, qui suggère octobre 2025, n’a pas été retenu car un code de référence se terminant par une date n’est pas une mention d’édition. Les deux valeurs figurent dans key_quotes (rubriques « produit » et « footer1 »).",
+    "Le document ne comporte AUCUNE section d’exclusions et aucune exclusion de garantie (pas de clause de suicide, pas d’exclusion de guerre ou de risque nucléaire, aucun délai d’attente/carence). Les cinq entrées d’exclusions[] sont des RESTRICTIONS énoncées par le DIC (rachat partiel impossible, capital ≠ sommes versées, perte possible de l’intégralité de l’investissement, plafond FGAP de 70 000 €, conditions d’éligibilité) ; applies_to le précise pour chacune. waiting_periods[] et obligations[] sont vides pour la même raison : le document n’en énonce aucun.",
+    "Aucun capital garanti, aucune cotisation réelle et aucun tarif ne figurent : tous les montants du document sont des ILLUSTRATIONS réglementaires calculées sur l’hypothèse « 1 000 €/an, 60 ans à la souscription, cotisations viagères ». Le seul montant contractuel opposable est le plafond du FGAP (70 000 €), qui n’est pas une garantie du produit.",
+    "claims_procedure[] décrit la procédure de RÉCLAMATION (désaccord), seule procédure que le document expose. Le DIC ne décrit AUCUNE procédure de déclaration de sinistre/décès : ni délai, ni pièces, ni destinataire.",
+    "prescription_period laissée à null : le document ne mentionne aucun délai de prescription. deductibles laissé à null : aucune franchise n’est mentionnée (le produit n’en comporte pas par nature, mais le document ne le dit pas).",
+    "La formule « Capital » n’est jamais nommée comme telle : le document oppose « le versement […] d’un capital » à « selon la formule choisie, la prise en charge de prestations funéraires ». is_optional a donc été laissé à null pour la prise en charge des prestations funéraires et pour les prestations d’assistance : le document parle d’un CHOIX DE FORMULE, non d’une option payante ajoutée à une base. La phrase de la rubrique PRESTATIONS D’ASSURANCE est syntaxiquement ambiguë (« en cas de choix de la formule Prestations et prestations d’assistance ») : on ne peut déterminer si « et prestations d’assistance » qualifie la formule ou ajoute une seconde prestation. Les deux lectures sont laissées ouvertes, la phrase étant reprise verbatim.",
+    "Le PDF local (data/fr/pdfs/matmut/obseques/matmut-prevoyance-obseques-17de44d8.pdf, 3 pages) a été ré-extrait avec page.get_text(\"text\") via PyMuPDF : chaque page est identique caractère par caractère à celle du prompt, au seul saut de ligne ajouté par le harnais entre les pages près (3 551 / 4 338 / 3 991 caractères). Aucune troncature. Toutes les citations de key_quotes sont des tranches exactes découpées programmatiquement dans ce texte.",
+    "PIÈGES TYPOGRAPHIQUES mesurés et préservés verbatim. Espaces spéciales : 62 espaces fines insécables U+202F, 30 espaces fines U+2009 et 30 espaces insécables U+00A0. Elles sont mêlées de façon INCOHÉRENTE à l’intérieur d’un même tableau : « 3 389,68 € » utilise U+202F, « 6 779,36 € » utilise U+2009 et « 225,98 € » n’a pas de séparateur ; « 1 000 €/an » (U+202F) voisine « 1 000,00 € » (U+2009) dans le même tableau ; « 70 000 € » combine U+2009 (millier) et U+00A0 (avant l’euro). Une espace fine insécable colle même deux mots : « Appelez le 02 35 03 70 76 pour de plus amples informations » y est imprimé « 76[U+202F]pour », sans espace ordinaire. Apostrophes mixtes : 72 apostrophes courbes U+2019 côtoient des apostrophes ASCII dans « Le produit ne comporte pas de date d'échéance. » et « CE TABLEAU MONTRE L'INCIDENCE SUR LE RENDEMENT PAR AN ». Aucun espace de largeur nulle, aucun glyphe de zone privée, aucun accent décomposé (NFD).",
+    "UN caractère U+0007 unique dans tout le document, page 3, immédiatement après la première puce de « Le tableau ci-dessous indique : • [U+0007]l’incidence annuelle des différents types de coûts… ». La seconde puce de la même liste (« • la signification des différentes catégories de coûts. ») n’en porte pas. Rien ne manque à cet endroit : les deux items de la liste sont bien présents dans la couche texte, et aucun bloc du document n’est vectorisé. Aucune citation ne traverse ce caractère.",
+    "Mots coupés par un vrai trait d’union en fin de ligne dans la couche texte (« recom-\\nmandé » page 1, « les mon-\\ntants » page 2, « inves-\\ntissement » et « investisse-\\nment » page 3) : les trois passages concernés (horizon de détention, introduction des coûts au fil du temps, tableau de composition des coûts) ont été VOLONTAIREMENT écartés de key_quotes, aucune normalisation d’espaces ne réparant ce type de coupure. Leur contenu figure intégralement dans premium.notes et special_conditions.",
+    "L’échelle de l’indicateur synthétique de risque sort de la couche texte comme une simple suite « 1 2 3 4 5 6 7 / Risque le plus faible / Risque le plus élevé » : le repère graphique indiquant la classe retenue n’est pas dans le texte. La classe n’a pas été lue sur le dessin — elle est énoncée en toutes lettres par la prose : « Nous avons classé ce produit dans la classe de risque 2 sur 7, qui est une classe de risque basse. »",
+    "Les tableaux (scénarios de performance page 2, composition des coûts page 3) sortent de la couche texte en colonnes désolidarisées : chaque libellé est suivi de ses trois valeurs (1 AN, 15 ANS, 30 ANS) dans l’ordre de lecture. L’ordre a été conservé tel quel dans premium.notes sans reconstruire de matrice ; aucune valeur n’a été réattribuée à une colonne autrement que par cet ordre imprimé.",
+    "Curiosité arithmétique du tableau des coûts, relevée sans être corrigée : les coûts d’entrée sont imprimés « 3,41 € \nou 15 % » alors que l’investissement de référence est de 1 000 € — les deux nombres ne se déduisent pas l’un de l’autre (le document présente une incidence annuelle en euros à côté d’un taux maximal prélevé à l’entrée). De même « Autres coûts récurrents 3 € ou 0,5 % basés sur le capital ». Le total « Coûts totaux 225,98 € » à 1 an n’est pas non plus la somme des lignes de composition. Aucune de ces lectures n’a été réconciliée.",
+    "Le scénario en cas de décès affiche la MÊME valeur, 14 828,00 €, à 1 an, 15 ans et 30 ans, alors que la prime cumulée passe de 1 000,00 € à 30 000,00 €. Le document ne l’explique pas ; la valeur est reprise verbatim."
+  ]
 }

@@ -27,7 +27,7 @@ navigate it without guessing. Do not edit by hand.
 |---|---|---|---|---|---|
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
 | ch (Switzerland) | 0 | 3 | 1 | 0 | 5 |
-| fr (France) | 24 | 556 | 10 | 1 | 5 |
+| fr (France) | 24 | 566 | 10 | 1 | 5 |
 | lu (Luxembourg) | 0 | 20 | 1 | 0 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
@@ -439,6 +439,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | auto | thelem | Assurance Flotte Automobile - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_Flotte-standard-juillet-2023.pdf) |
 | fr | auto | thelem | Assurance Véhicule de collection - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_13R_collection-juillet-2024.pdf) |
 | fr | auto | thelem | Assurance Véhicule de plus de 3,5 tonnes - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_13S_Camions-juillet-2023.pdf) |
+| fr | autres | maaf | Statuts de MAAF Vie - Doc | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/maaf_com/Status/Statuts_MAAF_Vie.pdf) |
 | fr | autres | macif | Banque - Notice d'information d'Assurance des Moyens de paiement - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_banque.pdf) |
 | fr | autres | macif | Contrat Caravaning | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_loisirs/CG_caravaning.pdf) |
 | fr | autres | macif | Contrat Caravaning - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_caravaning.pdf) |
@@ -462,12 +463,14 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | decennale | smacl | Tous risques chantier - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-tous-risques-chantier-collectivites.pdf) |
 | fr | decennale | thelem | DCBAT - Responsabilité Décennale des entreprises du Bâtiment - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_810_DCBAT_-012025.pdf) |
 | fr | edpm | maif | Assurance Vélo - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/document-information-assurance-velo.pdf) |
+| fr | edpm | matmut | 2R Liberté | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CG2RLIBERTE.pdf) |
 | fr | edpm | matmut | 2R Mobilité | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CG2RMOBILITE.pdf) |
 | fr | edpm | matmut | Contrat Multirisques « 2R Mobilité » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPID2RMOBILITE.pdf) |
 | fr | edpm | thelem | Assurance EDPM - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_EDPM-012026.pdf) |
 | fr | emprunteur | gan | Gan Assurances Emprunteur - IPID | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2024/11/062023_DIN-Emprunteur.pdf) |
 | fr | emprunteur | gan | Gan Patrimoine Emprunteur - IPID | 2026-07-30 | [pdf](https://www.ganpatrimoine.fr/Media/documents/D%C3%A9pliants/DIN%20GAN%20PAT%20Emprunteur-GPE09-032026.pdf) |
 | fr | emprunteur | gan | Gan Prévoyance Emprunteur - IPID | 2026-07-30 | [pdf](https://www.ganprevoyance.fr/assurance-emprunteur/2-1/assurance-emprunteur.pdf?date=20211108150730) |
+| fr | emprunteur | maaf | Assurance Crédit MAAF | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/CG/MAAF_Notice_information_Assurance_credit_7313562.pdf) |
 | fr | emprunteur | macif | Assurance Découvert Autorisé - Doc | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/INFORMATION_RELATIVE_ASSURANCE_DECOUVERT_AUTORISE.pdf) |
 | fr | emprunteur | macif | Assurance Découvert Autorisé - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_decouvert_autorise.pdf) |
 | fr | emprunteur | macif | Assurance emprunteur crédit à la consommation - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_credit_consommation.pdf) |
@@ -489,6 +492,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | gav | matmut | Contrat « Multirisques Accidents de la Vie Sérénité » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDMAV-serenite.pdf) |
 | fr | gav | matmut | Contrat « Multirisques Accidents de la Vie » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDMAV.pdf) |
 | fr | gav | matmut | Multirisques Accidents de la Vie | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGMAV.pdf) |
+| fr | gav | smacl | Assurance des accidents de la vie | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cg-assurance-des-accidents-de-la-vie-modele4.pdf) |
 | fr | gav | thelem | Assurance Accidents de la vie privée - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_700-ACCVP-08-2025.pdf) |
 | fr | habitation | direct-assurance | Assurance Habitation Direct Assurance - IPID | 2026-07-30 | [pdf](https://directassurance.cdn.prismic.io/directassurance/aHDKPEMqNJQqHyOg_IPID_HABITATION.pdf) |
 | fr | habitation | direct-assurance | Contrat Habitation | 2026-07-30 | [pdf](https://directassurance.cdn.prismic.io/directassurance/abglZ7bci2UF6D7w_HABITATION_MRH_03.26_Vdef.pdf) |
@@ -545,6 +549,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | habitation | matmut | Contrat Multigaranties des risques immobiliers - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDIMEPNOPNE.pdf) |
 | fr | habitation | matmut | Contrat « Multigaranties Hébergement » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDHEB.pdf) |
 | fr | habitation | matmut | Contrat « Multigaranties Propriétaire non exploitant » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDPNE.pdf) |
+| fr | habitation | matmut | Contrat « Multigaranties Propriétaire non occupant » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDMGARPNO.pdf) |
 | fr | habitation | matmut | Contrat « Multigaranties Résidence principale - Jeunes » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDJEUNES.pdf) |
 | fr | habitation | matmut | Habitation Initiale & Co Résidence Principale | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-rp-init-and-co.pdf) |
 | fr | habitation | matmut | Habitation Initiale & Co Résidence Secondaire | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-rs-init-and-co.pdf) |
@@ -555,6 +560,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | habitation | matmut | Habitation Résidence principale - Jeunes - Contrat d'assurance Multigaranties | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGJEUNES.pdf) |
 | fr | habitation | matmut | Habitation Résidence secondaire | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGMGARRS.pdf) |
 | fr | habitation | matmut | Matmut Mobile-home formule Nature | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGMGARMH.pdf) |
+| fr | habitation | matmut | Propriétaire Non Exploitant | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGPNE.pdf) |
 | fr | habitation | smacl | Assurance habitation (Particuliers) | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cg-assurance-habitation.pdf) |
 | fr | habitation | smacl | Multirisques caravaning | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cg-multirisques-caravaning.pdf) |
 | fr | habitation | thelem | Assurance Dommages aux biens - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_570-Dommages-aux-biens.pdf) |
@@ -587,6 +593,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | moto | thelem | Assurance Voiturette - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_Voiturette-012026.pdf) |
 | fr | multirisque-professionnelle | maaf | CAPEB — INTERCALAIRE | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Intercalaire_Capeb_11038.pdf) |
 | fr | multirisque-professionnelle | maaf | COMMERCES D'ALIMENTATION — INTERCALAIRE | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Intercalaire_Commerces_alimentation_11039.pdf) |
+| fr | multirisque-professionnelle | maaf | Commerces et Services — Intercalaire | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Intercalaire_Commerces_et_services_11037.pdf) |
 | fr | multirisque-professionnelle | maaf | MULTIRISQUE PROFESSIONNELLE | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/CG/MAAF_Conditions_generales_Multirisque_pro_11031.pdf) |
 | fr | multirisque-professionnelle | maaf | MULTISERVICE À LA PERSONNE — INTERCALAIRE | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Intercalaire_Multiservice_personne_11059.pdf) |
 | fr | multirisque-professionnelle | maaf | Multirisque Non Exploitant - IPID | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/PRO10010.PDF) |
@@ -610,6 +617,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | multirisque-professionnelle | matmut | Risques Immobiliers | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGRisquesImmobiliers.pdf) |
 | fr | multirisque-professionnelle | smacl | ALÉASSUR - Conventions spéciales Dommages aux biens | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-aleassur-dommages-aux-biens.pdf) |
 | fr | multirisque-professionnelle | smacl | ALÉASSUR - Conventions spéciales Tous risques instruments de musique | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-aleassur-tous-risques-instruments.pdf) |
+| fr | multirisque-professionnelle | smacl | ALÉASSUR Tous risques informatique | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-aleassur-tous-risques-informatique.pdf) |
 | fr | multirisque-professionnelle | smacl | ALÉASSUR Tous risques objets (Collectivités) | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-aleassur-tous-risques-objets.pdf) |
 | fr | multirisque-professionnelle | smacl | Aléassur (Collectivités) | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cg-aleassur.pdf) |
 | fr | multirisque-professionnelle | smacl | Aléassur - Dommages aux biens - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-dommages-aux-biens-collectivites.pdf) |
@@ -682,8 +690,10 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | prevoyance | maif | Rassurcap Solutions - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/document-information-deces-rassurcap-solutions.pdf) |
 | fr | prevoyance | smacl | ALÉASSUR Risques statutaires CNRACL (ALÉASSUR CNRACL) | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-aleassur-risques-statutaires-cnracl1_0.pdf) |
 | fr | prevoyance | smacl | ALÉASSUR Risques statutaires IRCANTEC (ALÉASSUR IRCANTEC) | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-aleassur-ircantec-risques-statutaires.pdf) |
+| fr | prevoyance | smacl | Aléassur - Risques statutaires CNRACL - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-risques-statutaires-collectivites-cnracl.pdf) |
 | fr | prevoyance | smacl | Aléassur - Risques statutaires IRCANTEC - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-risques-statutaires-collectivites-ircantec.pdf) |
 | fr | prevoyance | smacl | Convergence individuelle accidents corporels - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-accidents-corporels-convergence.pdf) |
+| fr | prevoyance | smacl | Risques statutaires ALÉASSUR | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cg-aleassur-prestations-statutaires.pdf) |
 | fr | prevoyance | smacl | Sécurité des salariés et bénévoles d'association - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-securite-salaries-benevoles-associations.pdf) |
 | fr | prevoyance | thelem | Assurance Capital Décès - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TP_396-capital-deces-juillet-2023.pdf) |
 | fr | prevoyance | thelem | Assurance Protection Famille - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TP_Protection-famille-572_082025.pdf) |

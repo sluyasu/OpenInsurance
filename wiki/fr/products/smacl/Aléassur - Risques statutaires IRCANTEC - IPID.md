@@ -169,6 +169,11 @@ Prestation du bloc « Assistance et services », précédée d’une coche : ell
 - Champs laissés vides faute de mention : definitions (le DIPA ne comporte aucun glossaire), prescription_period (aucun délai de prescription mentionné), et duration_and_cancellation.tacit_renewal laissé à null — le document dit « Celui-ci est conclu pour une durée ferme » et prévoit une résiliation « à l’échéance […] dans le délai de préavis fixé au contrat », sans employer les mots tacite reconduction ni chiffrer le préavis. Le document ne mentionne ni médiateur, ni ACPR, ni traitement des données personnelles, ni droit applicable autre que les renvois au code des assurances (article L.113-12) : c’est le format normalisé du DIPA, qui renvoie à la documentation précontractuelle et contractuelle.
 - Aucune troncature. Le texte du prompt (6 787 caractères entre les marqueurs) couvre les 2 pages du PDF. Celles-ci ont été ré-extraites depuis le PDF local (data/fr/pdfs/smacl/prevoyance/aleassur-risques-statutaires-ircantec-50bc897a.pdf) avec page.get_text("text") : l’extraction est identique au texte du prompt, au seul saut de ligne que le harnais insère entre deux pages. Toutes les key_quotes sont des spans découpés programmatiquement dans cette extraction vérifiée, jamais retapés, et aucune ne traverse une frontière de page. Le document n’emploie que l’apostrophe courbe U+2019 (62 occurrences) ; quatre espaces insécables sont présents, dont un dans « Code des assurances » du bandeau visible, inclus tel quel dans le span cité. Aucun texte vectorisé : le rendu haute résolution des deux pages ne montre rien qui manque à la couche texte.
 
+## Documents liés
+
+- [Aléassur - Risques statutaires CNRACL - IPID](Al%C3%A9assur%20-%20Risques%20statutaires%20CNRACL%20-%20IPID.md) - IPID / Fiche d'information, éd. 02/2025
+- [Risques statutaires ALÉASSUR](Risques%20statutaires%20AL%C3%89ASSUR.md) - Conditions générales, éd. 06/2026
+
 ## Source & fidélité
 
 - Source : [https://www.smacl.fr/files/documents/document-information-risques-statutaires-collectivites-ircantec.pdf](https://www.smacl.fr/files/documents/document-information-risques-statutaires-collectivites-ircantec.pdf) - téléchargé le 2026-08-01 - 2 pages

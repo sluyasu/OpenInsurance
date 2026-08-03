@@ -5,11 +5,13 @@ country: fr
 insurer_slug: maaf
 name: MAAF
 website: https://www.maaf.fr/
-products_count: 47
+products_count: 50
 branches_covered:
 - auto
+- autres
 - chasse
 - decennale
+- emprunteur
 - gav
 - habitation
 - moto
@@ -36,7 +38,7 @@ generated: true
 
 ## Résumé
 
-**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 47 document(s) across 14 branch(es).
+**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 50 document(s) across 16 branch(es).
 
 ## Produits par branche
 
@@ -45,11 +47,17 @@ generated: true
 - [Camping-Car, Ambulance, Bazar forain, Véhicule de collection - IPID](../products/maaf/Camping-Car%2C%20Ambulance%2C%20Bazar%20forain%2C%20V%C3%A9hicule%20de%20collection%20-%20IPID.md) - IPID / Fiche d'information (2025-06) · réf. PU0_IPIDAU_00-250622-ZCh9d6-3-1-2-05:04:15- AUT11023
 - [Contrat Camping car, Ambulance, Bazar forain, Véhicule de collection — Assurance Multirisque](../products/maaf/Contrat%20Camping%20car%2C%20Ambulance%2C%20Bazar%20forain%2C%20V%C3%A9hicule%20de%20collection%20%E2%80%94%20Assurance%20Multirisque.md) - Conditions générales (06/26) · réf. 6056
 
+### [Autres](../branches/Autres.md)
+- [Statuts de MAAF Vie - Doc](../products/maaf/Statuts%20de%20MAAF%20Vie%20-%20Doc.md) - Document (Août 2021)
+
 ### [Chasse](../branches/Chasse.md)
 - [Assurance Vie privée (CHASSE) - IPID](../products/maaf/Assurance%20Vie%20priv%C3%A9e%20%28CHASSE%29%20-%20IPID.md) - IPID / Fiche d'information · réf. MU0_IPIDIR_00-260518-V45nc0-1-1-2-05:01:24- IRD11004
 
 ### [Assurance construction](../branches/Assurance%20construction.md)
 - [VOS GARANTIES RESPONSABILITÉ CIVILE CONSTRUCTION - Fiche](../products/maaf/VOS%20GARANTIES%20RESPONSABILIT%C3%89%20CIVILE%20CONSTRUCTION%20-%20Fiche.md) - Fiche produit (04/18) · réf. 17195 - 04/18 - guide décennale
+
+### [Assurance emprunteur](../branches/Assurance%20emprunteur.md)
+- [Assurance Crédit MAAF](../products/maaf/Assurance%20Cr%C3%A9dit%20MAAF.md) - Conditions générales (07/25) · réf. Réf. : 18151 - 07/25 (page 16) ; contrat collectif n° 02112 (pages 1, 12 et 13)
 
 ### [Garantie des accidents de la vie](../branches/Garantie%20des%20accidents%20de%20la%20vie.md)
 - [Tranquillité famille - IPID](../products/maaf/Tranquillit%C3%A9%20famille%20-%20IPID.md) - IPID / Fiche d'information (2026-03) · réf. TB0_IPIDPR_00-260315-hfvxC9-1-1-2-05:02:18- PRE11004
@@ -78,6 +86,7 @@ generated: true
 ### [Multirisque professionnelle](../branches/Multirisque%20professionnelle.md)
 - [CAPEB — INTERCALAIRE](../products/maaf/CAPEB%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales (03/24) · réf. 11038 - 03/24
 - [COMMERCES D'ALIMENTATION — INTERCALAIRE](../products/maaf/COMMERCES%20D%27ALIMENTATION%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales (01/26) · réf. 11039 - 01/26
+- [Commerces et Services — Intercalaire](../products/maaf/Commerces%20et%20Services%20%E2%80%94%20Intercalaire.md) - Conditions générales (01/26) · réf. 11037
 - [MULTIRISQUE PROFESSIONNELLE](../products/maaf/MULTIRISQUE%20PROFESSIONNELLE.md) - Conditions générales (01/26) · réf. Réf. 11031 - 01/26
 - [MULTISERVICE À LA PERSONNE — INTERCALAIRE](../products/maaf/MULTISERVICE%20%C3%80%20LA%20PERSONNE%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales (01/25) · réf. 11059 - 01/25
 - [Multirisque Non Exploitant - IPID](../products/maaf/Multirisque%20Non%20Exploitant%20-%20IPID.md) - IPID / Fiche d'information (2024-06) · réf. PRO10010

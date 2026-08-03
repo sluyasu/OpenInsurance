@@ -5,12 +5,13 @@ country: fr
 insurer_slug: smacl
 name: SMACL Assurances
 website: https://www.smacl.fr
-products_count: 67
+products_count: 71
 branches_covered:
 - auto
 - autres
 - credit-caution
 - decennale
+- gav
 - habitation
 - multirisque-professionnelle
 - navigation
@@ -34,7 +35,7 @@ generated: true
 
 ## Résumé
 
-**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 67 document(s) across 12 branch(es).
+**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 71 document(s) across 13 branch(es).
 
 ## Produits par branche
 
@@ -69,6 +70,9 @@ generated: true
 - [Tous risques chantier - IPID](../products/smacl/Tous%20risques%20chantier%20-%20IPID.md) - IPID / Fiche d'information (01/2024) · réf. CONSTRUCTION_DIPA_TRC_SA_01(06_2021)
 - [Tous risques chantier](../products/smacl/Tous%20risques%20chantier.md) - Conditions générales (11/2022) · réf. CONSTRUCTION_CG_TRC_SA_07(02_2023)
 
+### [Garantie des accidents de la vie](../branches/Garantie%20des%20accidents%20de%20la%20vie.md)
+- [Assurance des accidents de la vie](../products/smacl/Assurance%20des%20accidents%20de%20la%20vie.md) - Conditions générales (11/2022) · réf. PP_CG_AAV_04(02_2023)
+
 ### [Multirisque habitation](../branches/Multirisque%20habitation.md)
 - [Assurance habitation (Particuliers)](../products/smacl/Assurance%20habitation%20%28Particuliers%29.md) - Conditions générales (11/2022) · réf. PP_CG_HABITATION_04(02_2023)
 - [Multirisques caravaning](../products/smacl/Multirisques%20caravaning.md) - Conditions générales (11/2022) · réf. PP_CG_CARAVANING_03(02_2023)
@@ -76,6 +80,7 @@ generated: true
 ### [Multirisque professionnelle](../branches/Multirisque%20professionnelle.md)
 - [ALÉASSUR - Conventions spéciales Dommages aux biens](../products/smacl/AL%C3%89ASSUR%20-%20Conventions%20sp%C3%A9ciales%20Dommages%20aux%20biens.md) - Conditions générales (01/2024) · réf. ALEASSUR_CS_DAB_06(06_2019)
 - [ALÉASSUR - Conventions spéciales Tous risques instruments de musique](../products/smacl/AL%C3%89ASSUR%20-%20Conventions%20sp%C3%A9ciales%20Tous%20risques%20instruments%20de%20musique.md) - Conditions générales (01/2024) · réf. ALEASSUR_CS_TRINSTRUMENT_01(02_2016)
+- [ALÉASSUR Tous risques informatique](../products/smacl/AL%C3%89ASSUR%20Tous%20risques%20informatique.md) - Conditions générales (01/2024) · réf. ALEASSUR_CS_TRI_03(03_2016)
 - [ALÉASSUR Tous risques objets (Collectivités)](../products/smacl/AL%C3%89ASSUR%20Tous%20risques%20objets%20%28Collectivit%C3%A9s%29.md) - Conditions générales (01/2024) · réf. ALEASSUR_CS_TRO_02(02_2016)
 - [Aléassur (Collectivités)](../products/smacl/Al%C3%A9assur%20%28Collectivit%C3%A9s%29.md) - Conditions générales (01/2024) · réf. ALEASSUR_CG_10(02_2023)
 - [Aléassur - Dommages aux biens - IPID](../products/smacl/Al%C3%A9assur%20-%20Dommages%20aux%20biens%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. ALEASSUR_DIPA_DAB_04(06_2024)
@@ -95,8 +100,10 @@ generated: true
 ### [Prévoyance](../branches/Pr%C3%A9voyance.md)
 - [ALÉASSUR Risques statutaires CNRACL (ALÉASSUR CNRACL)](../products/smacl/AL%C3%89ASSUR%20Risques%20statutaires%20CNRACL%20%28AL%C3%89ASSUR%20CNRACL%29.md) - Conditions générales (06/2025) · réf. ALEASSUR_CS_RS_CNRACL_06(06_2023)
 - [ALÉASSUR Risques statutaires IRCANTEC (ALÉASSUR IRCANTEC)](../products/smacl/AL%C3%89ASSUR%20Risques%20statutaires%20IRCANTEC%20%28AL%C3%89ASSUR%20IRCANTEC%29.md) - Conditions générales (11/2025) · réf. ALEASSUR_CS_RS_IRCANTEC_05(06_2023)
+- [Aléassur - Risques statutaires CNRACL - IPID](../products/smacl/Al%C3%A9assur%20-%20Risques%20statutaires%20CNRACL%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. ALEASSUR_DIPA_RS_CNRACL_02(06_2023)
 - [Aléassur - Risques statutaires IRCANTEC - IPID](../products/smacl/Al%C3%A9assur%20-%20Risques%20statutaires%20IRCANTEC%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. ALEASSUR_DIPA_RS_IRCANTEC_01(06_2019)
 - [Convergence individuelle accidents corporels - IPID](../products/smacl/Convergence%20individuelle%20accidents%20corporels%20-%20IPID.md) - IPID / Fiche d'information (01/2024) · réf. CONVERGENCE_DIPA_IAC_03(09_2022)
+- [Risques statutaires ALÉASSUR](../products/smacl/Risques%20statutaires%20AL%C3%89ASSUR.md) - Conditions générales (06/2026) · réf. ALEASSUR_CG_RS_11(04_2026)
 - [Sécurité des salariés et bénévoles d'association - IPID](../products/smacl/S%C3%A9curit%C3%A9%20des%20salari%C3%A9s%20et%20b%C3%A9n%C3%A9voles%20d%27association%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. SSBA_DIPA_01(03_2019)
 
 ### [Protection juridique](../branches/Protection%20juridique.md)

@@ -1,661 +1,661 @@
 {
- "schema_version": "1.0",
- "prompt_version": "1.1",
- "country": "fr",
- "insurer_slug": "matmut",
- "insurer_name": "Matmut",
- "product_name": "Matmut Prévoyance Obsèques",
- "branch": "obseques",
- "branch_code": "20",
- "document_type": "conditions_generales",
- "language": "fr",
- "target_audience": "particuliers",
- "target_audience_note": "Pour pouvoir adhérer au contrat Matmut Prévoyance Obsèques, vous devez : • être adhérent à Matmut Mutualité ; • être également l’assuré au titre de l’adhésion ; • être âgé (l’âge de l’assuré est calculé tel qu’indiqué à l’article 5) : - d’au moins 50 ans et au plus de 80 ans, - résider en France métropolitaine.",
- "reference": "MPO.NOTICE - 10/25",
- "edition_date": null,
- "product_family": "Matmut Prévoyance Obsèques",
- "variant": null,
- "is_extension": false,
- "extends": null,
- "superseded": null,
- "source_url": "https://www.matmut.fr/prevoyance/pdf/Notice-MPO.pdf",
- "source_pdf": "matmut-prevoyance-obseques-ff719a6c.pdf",
- "source_sha256": "819d7b66e54f49ee0f7e2cd87ef1c0ca146af9201536f39cb2d22323d6461fb3",
- "source_pages": 18,
- "fetched_at": "2026-07-30",
- "extraction_model": "claude-code-subagent:scale",
- "summary": "Notice d'information du contrat Matmut Prévoyance Obsèques, contrat d'assurance de groupe (contrat collectif) sur la vie de type vie entière à adhésion facultative, libellé en euros, souscrit par Matmut Mutualité au profit de ses membres auprès de Matmut Vie (l'assureur) et relevant de la branche 20 (Vie-Décès). Il garantit, en cas de décès de l'assuré, le paiement d'un capital garanti aux bénéficiaires désignés, selon deux formules : « Capital » (versement du capital aux bénéficiaires désignés) et « Prestations » (versement au bénéficiaire désigné pour financer les obsèques dans le cadre d'un contrat de prestations obsèques souscrit auprès d'OGF services funéraires). Le décès par accident est garanti dès la date d'effet de l'adhésion, le décès par maladie après un délai de carence d'un an. L'adhésion comporte des prestations d'assistance décrites dans une convention distincte, une revalorisation annuelle du capital garanti et une faculté de rachat total.",
- "definitions": [
-  {
-   "term": "Décès par accident",
-   "definition": "Définition du décès par accident : décès résultant exclusivement d’un accident, c’est-à-dire d’un événement non intentionnel de la part de l’assuré résultant de l’action soudaine et imprévisible d’une cause extérieure. Le caractère soudain est constitué par la survenance subite de l’événement à l’origine du décès",
-   "page": 6
-  },
-  {
-   "term": "Délai de carence",
-   "definition": "Le délai de carence est le délai après la signature du contrat à l’issue duquel les garanties prennent effet.",
-   "page": 6
-  },
-  {
-   "term": "Âge de l'adhérent",
-   "definition": "l’âge de l’adhérent se calcule par différence entre l’année d’adhésion et l’année de naissance)",
-   "page": 6
-  },
-  {
-   "term": "Provision mathématique",
-   "definition": "La provision mathématique, représentée par la valeur de rachat de votre adhésion, correspond aux droits que vous avez acquis au titre de celle-ci.",
-   "page": 7
-  },
-  {
-   "term": "Réclamation",
-   "definition": "Constitue une réclamation, l’expression de votre mécontentement ou de votre insatisfaction à notre égard. Une demande de service ou de prestation, une demande d’information ou une demande d’avis n’est pas considérée comme une réclamation.",
-   "page": 10
-  },
-  {
-   "term": "VR / CV (tableaux des valeurs de rachat)",
-   "definition": "(1) VR = Valeur de Rachat – CV = Cumul des cotisations versées.",
-   "page": 15
-  },
-  {
-   "term": "Objet social de Matmut Mutualité",
-   "definition": "L’objet social de Matmut Mutualité est : • la réalisation des opérations d’assurance des activités relevant des branches 1 et 2 définies à l’article R. 211-2 du Code de la mutualité, c’est-à-dire couvrir les risques de dommages corporels liés à des accidents ou à la maladie ; • de mener une action de prévoyance, de solidarité et d’entraide afin de contribuer au développement culturel, moral, intellectuel et physique de ses adhérents ainsi qu’à l’amélioration de leur condition de vie ; • d’assurer, à titre accessoire, la prévention des risques de dommages corporels liés à des accidents ou à la maladie, ainsi que la protection de l’enfance, de la famille, des personnes âgées, dépendantes ou handicapées.",
-   "page": 5
-  }
- ],
- "coverages": [
-  {
-   "name": "Garantie Capital Décès — formule « Capital »",
-   "description": "Le contrat Matmut Prévoyance Obsèques a pour objet de garantir, en cas de décès de l’assuré, selon la formule choisie : • formule « Capital » : le paiement du capital garanti au(x) bénéficiaire(s) désigné(s) par l’adhérent",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "Le capital garanti choisi par l'adhérent à l'adhésion « entre les montants de capitaux proposés » ; aucun montant de capital n'est chiffré dans la notice.",
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Formule choisie à l'adhésion.",
-    "pour la formule « Capital » : entre les montants de capitaux proposés",
-    "si le paiement est effectué entre les mains du prestataire funéraire en charge des obsèques de l’assuré (à concurrence des sommes qui lui sont dues et dans la limite du capital garanti)",
-    "si le paiement est effectué entre les mains de la(les) personne(s) qui a(ont) financé les obsèques de l’assuré (à hauteur des frais engagés et dans la limite du capital garanti)"
-   ],
-   "page": 5
-  },
-  {
-   "name": "Garantie Capital Décès — formule « Prestations »",
-   "description": "formule « Prestations » : le paiement du capital garanti au bénéficiaire désigné par l’adhérent pour financer les obsèques de l’assuré selon les modalités définies dans le contrat de prestations obsèques souscrit auprès de l’opérateur funéraire OGF services funéraires.",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "pour la formule « Prestations » : en fonction du niveau de prestations choisi dans le contrat de prestations obsèques.",
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Formule choisie à l'adhésion.",
-    "Pour la formule « Prestations », vous devez souscrire un contrat de prestations obsèques auprès d’OGF services funéraires.",
-    "Pour la mise en œuvre du contrat de prestations obsèques, OGF services funéraires doit être informé, au 0 810 00 11 66, de la survenance du décès.",
-    "Si la formule « Prestations » a été choisie, le rachat ou la réduction de l’adhésion met fin à l’engagement d’OGF services funéraires au titre du contrat de prestations obsèques."
-   ],
-   "page": 5
-  },
-  {
-   "name": "Décès de l'assuré par accident (prise d'effet immédiate)",
-   "description": "en cas de décès de l’assuré par accident : à la date d’effet de l’adhésion mentionnée au certificat d’adhésion, sous réserve de l’encaissement effectif de la première cotisation.",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "Le capital garanti.",
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "sous réserve de l’encaissement effectif de la première cotisation."
-   ],
-   "page": 6
-  },
-  {
-   "name": "Décès de l'assuré par maladie (après délai de carence d'un an)",
-   "description": "en cas de décès de l’assuré par maladie : à l’issue d’un délai de carence d’un an à compter de la prise d’effet de l’adhésion.",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "Le capital garanti.",
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "à l’issue d’un délai de carence d’un an à compter de la prise d’effet de l’adhésion.",
-    "En cas de décès par maladie pendant la première année de l’adhésion, Matmut Vie remboursera au(x) bénéficiaire(s) désigné(s) les cotisations encaissées au titre de la garantie Capital Décès.",
-    "Ces pathologies sont toutefois prises en charge au titre de la garantie en cas de décès de l’assuré par maladie sous réserve de l’application du délai de carence prévu à l’article 4."
-   ],
-   "page": 6
-  },
-  {
-   "name": "Prestations d'assistance",
-   "description": "Matmut Prévoyance Obsèques inclut également des prestations d’assistance dont le descriptif est communiqué séparément ; ces garanties sont assurées par la Matmut, 66, rue de Sotteville 76100 Rouen – Entreprise régie par le Code des assurances et mises en œuvre par Inter Mutuelles Assistance GIE.",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": null,
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "L’adhérent au contrat bénéficie de garanties d’assistance décrites dans la convention d’assistance Matmut Prévoyance Obsèques transmise par ailleurs.",
-    "La réduction entraîne la fin des garanties d’assistance à la date d’effet de la réduction et l’arrêt du paiement des cotisations",
-    "aux prestations d’assistance telles que définies dans la convention d’assistance",
-    "La cotisation due au titre des prestations d’assistance est forfaitaire en fonction de la durée de paiement des cotisations."
-   ],
-   "page": 5
-  },
-  {
-   "name": "Revalorisation annuelle du capital garanti (participation aux bénéfices)",
-   "description": "Pour la garantie Capital Décès, le contrat Matmut Prévoyance Obsèques prévoit une revalorisation annuelle du capital garanti. • Pendant la période de paiement des cotisations : sous réserve de l’augmentation proportionnelle de vos cotisations au titre de la garantie Capital Décès dans les conditions prévues à l’article 5, votre capital garanti augmente dans la même proportion que la provision mathématique de votre adhésion. À défaut d’augmentation proportionnelle de vos cotisations, votre capital garanti augmentera dans une proportion moindre.",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": null,
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "La participation aux bénéfices est attribuée à votre adhésion, sous réserve qu’elle ait au moins un an d’ancienneté, et qu’elle soit toujours en cours, proportionnellement à sa provision mathématique et au taux de revalorisation arrêté par Matmut Vie au titre de l’exercice précédent. Cette revalorisation intervient à l’échéance principale de votre adhésion et vient augmenter la provision mathématique de celle-ci déduction faite des éventuels prélèvements sociaux.",
-    "Après la période de paiement des cotisations (si le paiement est temporaire) : votre capital garanti augmente proportionnellement à la provision mathématique. En cas de décès de l’assuré, la revalorisation du capital garanti continue dans les conditions indiquées ci-dessus jusqu’à la réception, par l’assureur, de l’intégralité des pièces nécessaires au règlement du capital au(x) bénéficiaire(s) désigné(s).",
-    "Il n’est pas prévu de participation aux bénéfices contractuelle, c’est- à-dire excédant les obligations du Code des assurances."
-   ],
-   "page": 7
-  },
-  {
-   "name": "Service d'informations relatives au décès",
-   "description": "Sur demande téléphonique de l’adhérent, d’un bénéficiaire ou d’un proche au 0 810 00 11 66, OGF services funéraires peut fournir des renseignements dans les domaines suivants : dispositions à prendre en cas de décès, cérémonie, convoi, conservation, transport de corps, prélèvements, dons d’organe, inhumation, crémation, succession.",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": null,
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [],
-   "page": 10
-  },
-  {
-   "name": "Aide à l'organisation des obsèques (formule « Capital »)",
-   "description": "Sur demande des bénéficiaires au 0 810 00 11 66, OGF services funéraires peut les aider à organiser les obsèques, en liaison avec une entreprise de pompes funèbres habilitée.",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": null,
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Sur demande des bénéficiaires, dans le cadre de la formule « Capital »."
-   ],
-   "page": 9
-  }
- ],
- "exclusions": [
-  {
-   "name": "Suicide de l'assuré pendant la première année",
-   "description": "le suicide de l’assuré pendant la première année qui suit la date d’effet de l’adhésion",
-   "applies_to": "Garantie Décès (par accident ou par maladie)",
-   "page": 8
-  },
-  {
-   "name": "Explosion, dégagement de chaleur d'irradiation provenant de transmutations de noyaux d'atomes",
-   "description": "les conséquences directes ou indirectes : - d’explosion, de dégagement de chaleur d’irradiation provenant de transmutations de noyaux d’atomes,",
-   "applies_to": "Garantie Décès (par accident ou par maladie)",
-   "page": 8
-  },
-  {
-   "name": "Radiations provoquées par l'accélération artificielle de particules ou émises par des combustibles nucléaires ou par des produits ou des déchets radioactifs",
-   "description": "de radiations provoquées par l’accélération artificielle de particules ou émises par des combustibles nucléaires ou par des produits ou des déchets radioactifs,",
-   "applies_to": "Garantie Décès (par accident ou par maladie)",
-   "page": 8
-  },
-  {
-   "name": "Guerre civile ou étrangère, interventions militaires",
-   "description": "d’une guerre civile ou étrangère ou, si l’adhérent y participe, d’interventions militaires.",
-   "applies_to": "Garantie Décès (par accident ou par maladie)",
-   "page": 8
-  },
-  {
-   "name": "Infarctus du myocarde",
-   "description": "les infarctus du myocarde",
-   "applies_to": "Garantie Décès par accident",
-   "page": 8
-  },
-  {
-   "name": "Affections coronariennes",
-   "description": "les affections coronariennes",
-   "applies_to": "Garantie Décès par accident",
-   "page": 8
-  },
-  {
-   "name": "Accidents vasculaires cérébraux",
-   "description": "les accidents vasculaires cérébraux",
-   "applies_to": "Garantie Décès par accident",
-   "page": 8
-  },
-  {
-   "name": "Affections, lésions ou atteintes corporelles résultant d'affections virales, microbiennes, parasitaires ou infectieuses",
-   "description": "les affections, lésions ou atteintes corporelles résultant d’affections virales, microbiennes, parasitaires ou infectieuses.",
-   "applies_to": "Garantie Décès par accident",
-   "page": 8
-  }
- ],
- "deductibles": null,
- "waiting_periods": [
-  {
-   "coverage": "Décès de l'assuré par maladie",
-   "duration": "un an à compter de la prise d'effet de l'adhésion",
-   "description": "en cas de décès de l’assuré par maladie : à l’issue d’un délai de carence d’un an à compter de la prise d’effet de l’adhésion. Le délai de carence est le délai après la signature du contrat à l’issue duquel les garanties prennent effet. En cas de décès par maladie pendant la première année de l’adhésion, Matmut Vie remboursera au(x) bénéficiaire(s) désigné(s) les cotisations encaissées au titre de la garantie Capital Décès.",
-   "page": 6
-  },
-  {
-   "coverage": "Décès de l'assuré par accident",
-   "duration": "aucun délai de carence",
-   "description": "en cas de décès de l’assuré par accident : à la date d’effet de l’adhésion mentionnée au certificat d’adhésion, sous réserve de l’encaissement effectif de la première cotisation.",
-   "page": 6
-  },
-  {
-   "coverage": "Participation aux bénéfices",
-   "duration": "au moins un an d'ancienneté de l'adhésion",
-   "description": "La participation aux bénéfices est attribuée à votre adhésion, sous réserve qu’elle ait au moins un an d’ancienneté, et qu’elle soit toujours en cours, proportionnellement à sa provision mathématique et au taux de revalorisation arrêté par Matmut Vie au titre de l’exercice précédent.",
-   "page": 7
-  },
-  {
-   "coverage": "Suicide de l'assuré",
-   "duration": "première année qui suit la date d'effet de l'adhésion",
-   "description": "le suicide de l’assuré pendant la première année qui suit la date d’effet de l’adhésion",
-   "page": 8
-  },
-  {
-   "coverage": "Acceptation du bénéfice",
-   "duration": "délai de renonciation de 30 jours",
-   "description": "Au terme d’un délai de renonciation de 30 jours, l’acceptation du bénéfice à titre gratuit s’effectue par écrit selon les modalités décrites à l’article L. 132-9 du Code des assurances",
-   "page": 8
-  }
- ],
- "obligations": [
-  {
-   "name": "Conditions d'adhésion",
-   "description": "Pour pouvoir adhérer au contrat Matmut Prévoyance Obsèques, vous devez : • être adhérent à Matmut Mutualité ; • être également l’assuré au titre de l’adhésion ; • être âgé (l’âge de l’assuré est calculé tel qu’indiqué à l’article 5) : - d’au moins 50 ans et au plus de 80 ans, - résider en France métropolitaine.",
-   "timing": "à l'adhésion",
-   "sanction": null,
-   "page": 5
-  },
-  {
-   "name": "Souscrire un contrat de prestations obsèques (formule « Prestations »)",
-   "description": "Pour la formule « Prestations », vous devez souscrire un contrat de prestations obsèques auprès d’OGF services funéraires.",
-   "timing": "à l'adhésion",
-   "sanction": null,
-   "page": 5
-  },
-  {
-   "name": "Modalités d'adhésion (pièces à fournir)",
-   "description": "Pour adhérer au contrat Matmut Prévoyance Obsèques, vous devez : • avoir lu la présente notice ; • remplir et signer une demande d’adhésion au contrat collectif (sauf adhésion simplifiée enregistrée dans une agence Matmut) ; • lire et signer le certificat d’adhésion au contrat collectif ; • fournir la photocopie d’une pièce d’identité en cours de validité ; • fournir un justificatif de domicile (sauf adhésion enregistrée dans une agence Matmut) ; • remplir une autorisation de prélèvement Matmut Vie et fournir un relevé d’identité bancaire (sauf paiement par chèque).",
-   "timing": "à l'adhésion",
-   "sanction": null,
-   "page": 5
-  },
-  {
-   "name": "Justificatifs LCB-FT",
-   "description": "Afin de répondre aux obligations de contrôle à la charge de l’assureur dans le cadre du dispositif de lutte contre le blanchiment des capitaux et le financement du terrorisme, Matmut Vie pourra être amenée à demander, à l’adhésion ou en cours d’adhésion, des informations et justificatifs complémentaires.",
-   "timing": "à l'adhésion ou en cours d'adhésion",
-   "sanction": null,
-   "page": 5
-  },
-  {
-   "name": "Paiement des cotisations",
-   "description": "Pour tous les autres motifs de rejets ou si le règlement de la cotisation est réalisé par chèque, à défaut de paiement d’une cotisation dans les dix jours de son échéance, Matmut Vie vous adresse une lettre recommandée de mise en demeure. Le défaut de paiement au terme d’un délai de 40 jours à compter de la date d’envoi de cette lettre entraîne le rachat de votre adhésion si la valeur de rachat est inférieure à un montant défini annuellement en fonction de la valeur du SMIC mensuel conformément aux dispositions de l’article R. 132-2 du Code des assurances (ou sur demande de votre part par lettre adressée à Matmut Vie avant l’expiration du délai de 40 jours) ; • la réduction de votre adhésion si la valeur de rachat est supérieure au montant défini ci-avant.",
-   "timing": "pendant toute la durée de l'adhésion",
-   "sanction": "Le rachat met définitivement fin à l’adhésion et à toutes les garanties y afférentes. La réduction entraîne la fin des garanties d’assistance à la date d’effet de la réduction et l’arrêt du paiement des coti- sations ; la garantie en cas de décès continue à être acquise pour un capital réduit. Ce nouveau capital garanti est déterminé en fonction de la valeur de rachat et de l’âge de l’adhérent à la date d’effet de la réduction.",
-   "page": 6
-  },
-  {
-   "name": "Déclaration exacte du risque",
-   "description": "Conformément à l’article L. 113-8 du Code des assurances, et indépendamment des causes ordinaires de nullité, et sous réserve des dispositions de l’article L. 132-26 du Code des assurances, toute réticence ou fausse déclaration intentionnelle de nature à modifier l’appréciation du risque par Matmut Vie entraînera la nullité de l’adhésion dès lors que cette réticence ou cette fausse déclaration change l’objet du risque ou en diminue l’opinion pour Matmut Vie, alors même que le risque omis ou dénaturé a été sans influence sur le sinistre.",
-   "timing": "à l'adhésion",
-   "sanction": "entraînera la nullité de l’adhésion dès lors que cette réticence ou cette fausse déclaration change l’objet du risque ou en diminue l’opinion pour Matmut Vie, alors même que le risque omis ou dénaturé a été sans influence sur le sinistre. Le cas échéant, Matmut Vie remboursera à l’adhérent ou en cas de décès de l’assuré, au(x) bénéficiaire(s) désigné(s) les cotisations encaissées au titre de la garantie Capital Décès.",
-   "page": 8
-  },
-  {
-   "name": "Mise à jour des informations concernant l'adhérent",
-   "description": "Pour faciliter les échanges avec l’adhérent et prévenir l’existence de contrats d’assurance vie non réclamés, l’adhérent s’engage à informer l’assureur en cas de changement de nom, d’adresse ou de coordonnées bancaires en cours d’adhésion.",
-   "timing": "en cours d'adhésion",
-   "sanction": null,
-   "page": 13
-  },
-  {
-   "name": "Remise des pièces justificatives en cas de décès",
-   "description": "Quelle que soit la formule choisie, les pièces justificatives à remettre pour vérifier les conditions de mise en œuvre de la garantie sont les suivantes : • l’exemplaire original du certificat d’adhésion ; • un acte de décès de l’assuré ; • un justificatif de leur qualité de bénéficiaire (ex : conjoint) ; • la photocopie recto verso de la carte d’identité en cours de validité de chaque bénéficiaire (ou les 4 premières pages du passeport ou de la carte de séjour).",
-   "timing": "au décès",
-   "sanction": null,
-   "page": 8
-  },
-  {
-   "name": "Lire la notice avant de signer",
-   "description": "Il est important que l’adhérent lise intégralement la notice et pose toutes les questions qu’il estime nécessaires avant de signer le bulletin d’adhésion ou le certificat d’adhésion.",
-   "timing": "avant l'adhésion",
-   "sanction": null,
-   "page": 4
-  }
- ],
- "claims_procedure": [
-  {
-   "step": "Règlement du capital décès",
-   "description": "En cas de décès de l’assuré, Matmut Vie règle le capital garanti, (ou si le décès survient au cours de la première année de l’adhésion suite à une maladie, rembourse les cotisations versées au titre de la garantie Capital Décès) aux bénéficiaires désignés dans un délai de 7 jours à compter de la réception de la demande complète comportant les pièces indiquées ci-après.",
-   "deadline": "dans un délai de 7 jours à compter de la réception de la demande complète",
-   "page": 8
-  },
-  {
-   "step": "Pièces justificatives — dans tous les cas",
-   "description": "Quelle que soit la formule choisie, les pièces justificatives à remettre pour vérifier les conditions de mise en œuvre de la garantie sont les suivantes : • l’exemplaire original du certificat d’adhésion ; • un acte de décès de l’assuré ; • un justificatif de leur qualité de bénéficiaire (ex : conjoint) ; • la photocopie recto verso de la carte d’identité en cours de validité de chaque bénéficiaire (ou les 4 premières pages du passeport ou de la carte de séjour).",
-   "deadline": null,
-   "page": 8
-  },
-  {
-   "step": "Pièces justificatives — décès au cours de la première année de l'adhésion",
-   "description": "En cas de décès au cours de la première année de l’adhésion : • le procès verbal de police ou de gendarmerie ; • une fiche de renseignement dûment complétée ; • le certificat médical complété par le médecin traitant ou le médecin ayant constaté le décès ; • le compte rendu d’hospitalisation ; • le compte rendu d’intervention des premiers secours ; • les coupures de presse. Établissant le caractère exclusivement accidentel du décès et décrivant les causes de l’accident. Les documents à caractère médical devront être adressés à l’attention du Médecin conseil de Matmut Vie.",
-   "deadline": null,
-   "page": 9
-  },
-  {
-   "step": "Pièces justificatives — bénéficiaire(s) à titre gratuit",
-   "description": "Le cas échéant, en cas de bénéficiaire(s) à titre gratuit : • l’attestation sur l’honneur, établie par chaque bénéficiaire en application de l’article 990 I du Code général des impôts ; • un certificat d’acquittement ou de non-exigibilité de l’impôt de mutation par décès en application de l’article 757 B du Code général des impôts (sauf demande écrite des bénéficiaires de verser tout ou partie des sommes dues par eux en l’acquit des droits de mutation par décès, au service des impôts).",
-   "deadline": null,
-   "page": 9
-  },
-  {
-   "step": "Pièces justificatives — formule « Capital »",
-   "description": "Pour la formule « Capital » Il convient de remettre, en plus des pièces justificatives visées ci-dessus : • si le paiement est effectué entre les mains du prestataire funéraire en charge des obsèques de l’assuré (à concurrence des sommes qui lui sont dues et dans la limite du capital garanti) : la facture du prestataire funéraire en charge des obsèques de l’assuré ; • si le paiement est effectué entre les mains de la(les) personne(s) qui a(ont) financé les obsèques de l’assuré (à hauteur des frais engagés et dans la limite du capital garanti) : la facture acquittée des frais engagés.",
-   "deadline": null,
-   "page": 9
-  },
-  {
-   "step": "Déclaration du décès — formule « Prestations »",
-   "description": "Pour la mise en œuvre du contrat de prestations obsèques, OGF services funéraires doit être informé, au 0 810 00 11 66, de la survenance du décès.",
-   "deadline": null,
-   "page": 9
-  },
-  {
-   "step": "Fin de l'adhésion après paiement",
-   "description": "Dans tous les cas, le paiement du capital met définitivement fin à l’adhésion.",
-   "deadline": null,
-   "page": 9
-  },
-  {
-   "step": "Demande de rachat total",
-   "description": "Vous devez faire parvenir à Matmut Vie une demande de rachat total accompagnée de l’original de votre certificat d’adhésion, et le cas échéant, de l’accord écrit du(des) bénéficiaire(s) acceptant(s).",
-   "deadline": "Matmut Vie vous verse la valeur de rachat de votre adhésion dans les 30 jours suivant la réception de votre demande de rachat total au siège de Matmut Vie, par chèque ou virement sur votre compte bancaire.",
-   "page": 7
-  },
-  {
-   "step": "Réclamation — recours hiérarchique",
-   "description": "En cas de désaccord entre vous et nous, à l’occasion de la distribution, de la gestion du présent contrat ou du règlement d’un sinistre, vous devez tout d’abord vous adresser à l’agence ou au service qui est à l’origine de ce désaccord, afin qu’une réponse vous soit apportée par son responsable.",
-   "deadline": "Un courrier vous est adressé dans les 10 jours ouvrables suivant l’envoi de votre réclamation. Il vous fait part de la position retenue ou, si votre demande nécessite une instruction complémentaire, vous avise du délai dans lequel notre décision vous sera communiquée. Sauf circonstances exceptionnelles, nous nous engageons à vous faire part de notre position au plus tard dans le délai de deux mois à compter de l’envoi de votre réclamation.",
-   "page": 10
-  },
-  {
-   "step": "Réclamation — service « Réclamations »",
-   "description": "Si cette réponse ne vous donne pas satisfaction, vous avez la possibilité de saisir le service « Réclamations » de notre groupe par mail (service.reclamations@matmut.fr), ou par courrier 66, rue de Sotteville 76030 Rouen CEDEX 01.",
-   "deadline": "Celui-ci s’engage à vous faire part de la position définitive de la mutuelle sous 30 jours.",
-   "page": 11
-  },
-  {
-   "step": "Médiation de l'assurance",
-   "description": "Vous pouvez également saisir gratuitement le médiateur de l’assurance en déposant votre demande sur son site internet www.mediation-assurance.org (sur lequel vous pouvez obtenir toutes les informations relatives au dispositif mis en place par le professionnel) ou en lui écrivant à l’adresse suivante : La médiation de l’assurance – TSA 50110 – 75441 Paris CEDEX 09.",
-   "deadline": "La charte du médiateur prévoit que la réponse vous est apportée dans un délai maximal de 90 jours. Vous pouvez également saisir le médiateur deux mois après l’envoi de votre réclamation, à défaut de réponse. Votre demande doit obligatoirement intervenir dans le délai d’un an à compter de votre réclamation écrite initiale et ne faire l’objet à ce stade d’aucune action contentieuse.",
-   "page": 11
-  }
- ],
- "duration_and_cancellation": {
-  "duration": "La durée de l’adhésion est viagère. L’adhésion prend fin et les garanties cessent en cas de décès de l’assuré ou de rachat de l’adhésion.",
-  "tacit_renewal": true,
-  "notice_period": "Le contrat peut être résilié par l’une ou l’autre des parties moyennant l’envoi d’une lettre recommandée avec avis de réception, au minimum deux mois avant l’échéance principale fixée au 1er janvier.",
-  "methods": [
-   "Pour renoncer à votre adhésion, vous devez adresser à Matmut Vie, Service Prévoyance, 66, rue de Sotteville 76030 Rouen CEDEX 1, une lettre recommandée avec accusé de réception ou par lettre recommandée électronique adressée à matmutvie@matmut.fr",
-   "Vous pouvez obtenir le rachat total de votre adhésion sous réserve, le cas échéant, de l’accord du bénéficiaire acceptant.",
-   "Le contrat peut être résilié par l’une ou l’autre des parties moyennant l’envoi d’une lettre recommandée avec avis de réception, au minimum deux mois avant l’échéance principale fixée au 1er janvier."
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "matmut",
+  "insurer_name": "Matmut",
+  "product_name": "Matmut Prévoyance Obsèques",
+  "branch": "obseques",
+  "branch_code": "20",
+  "document_type": "conditions_generales",
+  "language": "fr",
+  "target_audience": "particuliers",
+  "target_audience_note": "Pour pouvoir adhérer au contrat Matmut Prévoyance Obsèques, vous devez : • être adhérent à Matmut Mutualité ; • être également l’assuré au titre de l’adhésion ; • être âgé (l’âge de l’assuré est calculé tel qu’indiqué à l’article 5) : - d’au moins 50 ans et au plus de 80 ans, - résider en France métropolitaine.",
+  "reference": "MPO.NOTICE - 10/25",
+  "edition_date": null,
+  "product_family": "Matmut Prévoyance Obsèques",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.matmut.fr/prevoyance/pdf/Notice-MPO.pdf",
+  "source_pdf": "matmut-prevoyance-obseques-ff719a6c.pdf",
+  "source_sha256": "819d7b66e54f49ee0f7e2cd87ef1c0ca146af9201536f39cb2d22323d6461fb3",
+  "source_pages": 18,
+  "fetched_at": "2026-07-30",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Notice d'information du contrat Matmut Prévoyance Obsèques, contrat d'assurance de groupe (contrat collectif) sur la vie de type vie entière à adhésion facultative, libellé en euros, souscrit par Matmut Mutualité au profit de ses membres auprès de Matmut Vie (l'assureur) et relevant de la branche 20 (Vie-Décès). Il garantit, en cas de décès de l'assuré, le paiement d'un capital garanti aux bénéficiaires désignés, selon deux formules : « Capital » (versement du capital aux bénéficiaires désignés) et « Prestations » (versement au bénéficiaire désigné pour financer les obsèques dans le cadre d'un contrat de prestations obsèques souscrit auprès d'OGF services funéraires). Le décès par accident est garanti dès la date d'effet de l'adhésion, le décès par maladie après un délai de carence d'un an. L'adhésion comporte des prestations d'assistance décrites dans une convention distincte, une revalorisation annuelle du capital garanti et une faculté de rachat total.",
+  "definitions": [
+    {
+      "term": "Décès par accident",
+      "definition": "Définition du décès par accident : décès résultant exclusivement d’un accident, c’est-à-dire d’un événement non intentionnel de la part de l’assuré résultant de l’action soudaine et imprévisible d’une cause extérieure. Le caractère soudain est constitué par la survenance subite de l’événement à l’origine du décès",
+      "page": 6
+    },
+    {
+      "term": "Délai de carence",
+      "definition": "Le délai de carence est le délai après la signature du contrat à l’issue duquel les garanties prennent effet.",
+      "page": 6
+    },
+    {
+      "term": "Âge de l'adhérent",
+      "definition": "l’âge de l’adhérent se calcule par différence entre l’année d’adhésion et l’année de naissance)",
+      "page": 6
+    },
+    {
+      "term": "Provision mathématique",
+      "definition": "La provision mathématique, représentée par la valeur de rachat de votre adhésion, correspond aux droits que vous avez acquis au titre de celle-ci.",
+      "page": 7
+    },
+    {
+      "term": "Réclamation",
+      "definition": "Constitue une réclamation, l’expression de votre mécontentement ou de votre insatisfaction à notre égard. Une demande de service ou de prestation, une demande d’information ou une demande d’avis n’est pas considérée comme une réclamation.",
+      "page": 10
+    },
+    {
+      "term": "VR / CV (tableaux des valeurs de rachat)",
+      "definition": "(1) VR = Valeur de Rachat – CV = Cumul des cotisations versées.",
+      "page": 15
+    },
+    {
+      "term": "Objet social de Matmut Mutualité",
+      "definition": "L’objet social de Matmut Mutualité est : • la réalisation des opérations d’assurance des activités relevant des branches 1 et 2 définies à l’article R. 211-2 du Code de la mutualité, c’est-à-dire couvrir les risques de dommages corporels liés à des accidents ou à la maladie ; • de mener une action de prévoyance, de solidarité et d’entraide afin de contribuer au développement culturel, moral, intellectuel et physique de ses adhérents ainsi qu’à l’amélioration de leur condition de vie ; • d’assurer, à titre accessoire, la prévention des risques de dommages corporels liés à des accidents ou à la maladie, ainsi que la protection de l’enfance, de la famille, des personnes âgées, dépendantes ou handicapées.",
+      "page": 5
+    }
   ],
-  "special_rights": [
-   "Vous pouvez renoncer à votre adhésion dans un délai de 30 jours calendaires révolus à compter de la date à laquelle vous êtes informé que l’adhésion au contrat est conclue. Cette date correspond à la date de réception de votre certificat d’adhésion. Ce délai de renonciation expire le dernier jour à 24 heures sans prorogation si ce jour d’expiration correspond à un samedi, un dimanche ou un jour férié.",
-   "Matmut Vie s’engage à rembourser l’intégralité des sommes versées, sous réserve de leur encaissement effectif, dans un délai de 30 jours calendaires révolus suivant la réception de la lettre recommandée.",
-   "La renonciation met définitivement fin à l’adhésion Matmut Prévoyance Obsèques et à toutes ses garanties. Si la formule « Prestations » a été choisie, la renonciation met également fin à l’engagement d’OGF services funéraires au titre du contrat de prestations obsèques.",
-   "Le paiement de la valeur de rachat met définitivement fin : • à l’adhésion au contrat Matmut Prévoyance Obsèques ; • aux prestations d’assistance telles que définies dans la convention d’assistance ; • à l’engagement d’OGF services funéraires au titre du contrat de prestations obsèques (si la formule « Prestations » a été choisie).",
-   "En cas de résiliation du contrat collectif, que celle-ci soit à l’initiative de Matmut Mutualité ou de Matmut Vie, les adhésions en vigueur ne seront pas remises en cause. Aucune nouvelle adhésion ne sera plus acceptée et Matmut Vie s’engage à maintenir les adhésions existantes et les droits acquis en vigueur.",
-   "En cas de liquidation ou de dissolution de Matmut Mutualité, quelle qu’en soit la cause et conformément à l’article L. 141-6 du Code des assurances le contrat se poursuivra de plein droit entre Matmut Vie et les personnes antérieurement adhérentes au contrat."
+  "coverages": [
+    {
+      "name": "Garantie Capital Décès — formule « Capital »",
+      "description": "Le contrat Matmut Prévoyance Obsèques a pour objet de garantir, en cas de décès de l’assuré, selon la formule choisie : • formule « Capital » : le paiement du capital garanti au(x) bénéficiaire(s) désigné(s) par l’adhérent",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Le capital garanti choisi par l'adhérent à l'adhésion « entre les montants de capitaux proposés » ; aucun montant de capital n'est chiffré dans la notice.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Formule choisie à l'adhésion.",
+        "pour la formule « Capital » : entre les montants de capitaux proposés",
+        "si le paiement est effectué entre les mains du prestataire funéraire en charge des obsèques de l’assuré (à concurrence des sommes qui lui sont dues et dans la limite du capital garanti)",
+        "si le paiement est effectué entre les mains de la(les) personne(s) qui a(ont) financé les obsèques de l’assuré (à hauteur des frais engagés et dans la limite du capital garanti)"
+      ],
+      "page": 5
+    },
+    {
+      "name": "Garantie Capital Décès — formule « Prestations »",
+      "description": "formule « Prestations » : le paiement du capital garanti au bénéficiaire désigné par l’adhérent pour financer les obsèques de l’assuré selon les modalités définies dans le contrat de prestations obsèques souscrit auprès de l’opérateur funéraire OGF services funéraires.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "pour la formule « Prestations » : en fonction du niveau de prestations choisi dans le contrat de prestations obsèques.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Formule choisie à l'adhésion.",
+        "Pour la formule « Prestations », vous devez souscrire un contrat de prestations obsèques auprès d’OGF services funéraires.",
+        "Pour la mise en œuvre du contrat de prestations obsèques, OGF services funéraires doit être informé, au 0 810 00 11 66, de la survenance du décès.",
+        "Si la formule « Prestations » a été choisie, le rachat ou la réduction de l’adhésion met fin à l’engagement d’OGF services funéraires au titre du contrat de prestations obsèques."
+      ],
+      "page": 5
+    },
+    {
+      "name": "Décès de l'assuré par accident (prise d'effet immédiate)",
+      "description": "en cas de décès de l’assuré par accident : à la date d’effet de l’adhésion mentionnée au certificat d’adhésion, sous réserve de l’encaissement effectif de la première cotisation.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Le capital garanti.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "sous réserve de l’encaissement effectif de la première cotisation."
+      ],
+      "page": 6
+    },
+    {
+      "name": "Décès de l'assuré par maladie (après délai de carence d'un an)",
+      "description": "en cas de décès de l’assuré par maladie : à l’issue d’un délai de carence d’un an à compter de la prise d’effet de l’adhésion.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Le capital garanti.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "à l’issue d’un délai de carence d’un an à compter de la prise d’effet de l’adhésion.",
+        "En cas de décès par maladie pendant la première année de l’adhésion, Matmut Vie remboursera au(x) bénéficiaire(s) désigné(s) les cotisations encaissées au titre de la garantie Capital Décès.",
+        "Ces pathologies sont toutefois prises en charge au titre de la garantie en cas de décès de l’assuré par maladie sous réserve de l’application du délai de carence prévu à l’article 4."
+      ],
+      "page": 6
+    },
+    {
+      "name": "Prestations d'assistance",
+      "description": "Matmut Prévoyance Obsèques inclut également des prestations d’assistance dont le descriptif est communiqué séparément ; ces garanties sont assurées par la Matmut, 66, rue de Sotteville 76100 Rouen – Entreprise régie par le Code des assurances et mises en œuvre par Inter Mutuelles Assistance GIE.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "L’adhérent au contrat bénéficie de garanties d’assistance décrites dans la convention d’assistance Matmut Prévoyance Obsèques transmise par ailleurs.",
+        "La réduction entraîne la fin des garanties d’assistance à la date d’effet de la réduction et l’arrêt du paiement des cotisations",
+        "aux prestations d’assistance telles que définies dans la convention d’assistance",
+        "La cotisation due au titre des prestations d’assistance est forfaitaire en fonction de la durée de paiement des cotisations."
+      ],
+      "page": 5
+    },
+    {
+      "name": "Revalorisation annuelle du capital garanti (participation aux bénéfices)",
+      "description": "Pour la garantie Capital Décès, le contrat Matmut Prévoyance Obsèques prévoit une revalorisation annuelle du capital garanti. • Pendant la période de paiement des cotisations : sous réserve de l’augmentation proportionnelle de vos cotisations au titre de la garantie Capital Décès dans les conditions prévues à l’article 5, votre capital garanti augmente dans la même proportion que la provision mathématique de votre adhésion. À défaut d’augmentation proportionnelle de vos cotisations, votre capital garanti augmentera dans une proportion moindre.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "La participation aux bénéfices est attribuée à votre adhésion, sous réserve qu’elle ait au moins un an d’ancienneté, et qu’elle soit toujours en cours, proportionnellement à sa provision mathématique et au taux de revalorisation arrêté par Matmut Vie au titre de l’exercice précédent. Cette revalorisation intervient à l’échéance principale de votre adhésion et vient augmenter la provision mathématique de celle-ci déduction faite des éventuels prélèvements sociaux.",
+        "Après la période de paiement des cotisations (si le paiement est temporaire) : votre capital garanti augmente proportionnellement à la provision mathématique. En cas de décès de l’assuré, la revalorisation du capital garanti continue dans les conditions indiquées ci-dessus jusqu’à la réception, par l’assureur, de l’intégralité des pièces nécessaires au règlement du capital au(x) bénéficiaire(s) désigné(s).",
+        "Il n’est pas prévu de participation aux bénéfices contractuelle, c’est- à-dire excédant les obligations du Code des assurances."
+      ],
+      "page": 7
+    },
+    {
+      "name": "Service d'informations relatives au décès",
+      "description": "Sur demande téléphonique de l’adhérent, d’un bénéficiaire ou d’un proche au 0 810 00 11 66, OGF services funéraires peut fournir des renseignements dans les domaines suivants : dispositions à prendre en cas de décès, cérémonie, convoi, conservation, transport de corps, prélèvements, dons d’organe, inhumation, crémation, succession.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 10
+    },
+    {
+      "name": "Aide à l'organisation des obsèques (formule « Capital »)",
+      "description": "Sur demande des bénéficiaires au 0 810 00 11 66, OGF services funéraires peut les aider à organiser les obsèques, en liaison avec une entreprise de pompes funèbres habilitée.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Sur demande des bénéficiaires, dans le cadre de la formule « Capital »."
+      ],
+      "page": 9
+    }
   ],
-  "page": 6
- },
- "prescription_period": {
-  "description": "Toutes actions dérivant d’un contrat d’assurance sont prescrites par deux ans à compter de l’événement qui y donne naissance. Toutefois, ce délai ne court pas : 1. en cas de réticence, omission, déclaration fausse ou inexacte sur le risque couru, que du jour où l’assureur en a eu connaissance ; 2. en cas de sinistre, que du jour où les intéressés en ont eu connaissance, s’ils prouvent qu’ils l’ont ignoré jusque-là. Quand l’action de l’assuré contre l’assureur a pour cause le recours d’un tiers, le délai de la prescription ne court que du jour où ce tiers a exercé une action en justice contre l’assuré ou a été indemnisé par ce dernier. La prescription est portée à dix ans dans les contrats d’assurance sur la vie lorsque le bénéficiaire est une personne distincte du souscripteur et, dans les contrats d’assurance contre les accidents atteignant les personnes, lorsque les bénéficiaires sont les ayants droit de l’assuré décédé. Pour les contrats d’assurance sur la vie, nonobstant les dispositions du 2, les actions du bénéficiaire sont prescrites au plus tard trente ans à compter du décès de l’assuré. Conformément à l’article L. 192-1 du Code des assurances, si le souscripteur a sa résidence principale dans les départements du Bas-Rhin, du Haut-Rhin et de la Moselle, alinéa 1er du Code des assurances est porté à 5 ans en matière d’assurance sur la vie. La prescription peut être interrompue : • par l’une des causes ordinaires suivantes : - la reconnaissance par le débiteur du droit du créancier (article 2240 du Code civil), - une demande en justice, même en référé, même portée devant une juridiction incompétente ou annulée par l’effet d’un vice de procédure (article 2241 du Code civil), - une mesure conservatoire prise en application du Code des procédures civiles d’exécution ou un acte d’exécution forcée (article 2244 du Code civil) ; • ainsi que dans les cas suivants : - la désignation d’un expert à la suite d’un sinistre, - l’envoi d’une lettre recommandée ou d’un envoi recommandé électronique, avec accusé de réception par notre société à vous-même en ce qui concerne le paiement des cotisations ou, par vous-même à notre société en ce qui concerne le règlement des indemnités. Les parties au contrat d’assurance ne peuvent, même d’un commun accord, ni modifier la durée de la prescription, ni ajouter aux causes de suspension ou d’interruption de celle-ci.",
-  "page": 10
- },
- "premium": {
-  "notes": [
-   "La cotisation globale regroupe la cotisation due au titre de la garantie Capital Décès et la cotisation due au titre des prestations d’assistance.",
-   "La cotisation due au titre de la garantie Capital Décès est déterminée en fonction : • du montant du capital choisi par l’adhérent ; • de l’âge de l’adhérent à l’adhésion (l’âge de l’adhérent se calcule par différence entre l’année d’adhésion et l’année de naissance) ; • de la durée de paiement des cotisations.",
-   "Les différents montants de cotisations selon l’âge et les choix effectués lors de l’adhésion sont joints en annexe.",
-   "La cotisation au titre de la garantie Capital Décès n’évolue ni en fonction de l’âge de l’adhérent, ni en fonction de l’évolution de son état de santé.",
-   "La cotisation au titre des prestations d’assistance est susceptible d’évoluer en fonction des résultats techniques de cette garantie.",
-   "Les cotisations sont payables, au choix de l’adhérent : • mensuellement, par prélèvement automatique sur le compte bancaire ou postal de l’adhérent, pendant toute la durée de l’adhésion (cotisations viagères) ou de façon temporaire pendant 10 ans (cotisations temporaires).",
-   "Les prélèvements mensuels sont réalisés au début de chaque mois sauf pour la première cotisation qui est prélevée immédiatement après l’adhésion.",
-   "Montant de la première cotisation : • si l’adhésion prend effet entre le 1er et le 15 du mois, le montant de la première cotisation est déterminé au prorata du nombre de jours pour la période allant de la date d’effet au dernier jour du mois ; • si l’adhésion prend effet entre le 16 et le dernier jour du mois, le montant de la première cotisation est déterminé au prorata du nombre de jours pour la période allant de la date d’effet au dernier jour du mois suivant.",
-   "Par dérogation, vous pouvez opter pour un paiement de votre cotisation par chèque. Dans ce cas, le paiement est semestriel. Dans cette hypothèse, à l’adhésion, vous devez régler votre première cotisation qui sera calculée au prorata de la durée allant de la date d’effet à la date de la prochaine échéance. Cette date de prochaine échéance dépend du jour d’adhésion dans le mois et de la date d’échéance principale fixée au 1er janvier.",
-   "Le choix effectué lors de l’adhésion pour un paiement, pendant toute la durée de l’adhésion (cotisations viagères) ou de façon temporaire pendant 10 ans (cotisations temporaires) est définitif.",
-   "Dans le cas où le prélèvement automatique d’une cotisation fait l’objet d’un non-paiement, Matmut Vie procédera au renouvellement du prélèvement le mois suivant, lorsque les conditions suivantes sont réunies : • le motif du rejet du prélèvement par la banque est « provision insuffisante » ; • les cotisations précédentes ont été payées.",
-   "Dans ce cas, si le paiement des cotisations est mensuel, le prélèvement concernera la cotisation impayée et la cotisation du mois suivant. Pour tous les autres motifs de rejets ou si le règlement de la cotisation est réalisé par chèque, à défaut de paiement d’une cotisation dans les dix jours de son échéance, Matmut Vie vous adresse une lettre recommandée de mise en demeure. Le défaut de paiement au terme d’un délai de 40 jours à compter de la date d’envoi de cette lettre entraîne",
-   "Ces frais se composent : • d’une partie fixée à 15 % maximum du montant de la cotisation de la garantie Capital Décès ; • et d’une partie fixée à 0,5 % par an du capital garanti inclue dans vos cotisations.",
-   "Il n’est pas prévu d’autres frais au titre de votre adhésion.",
-   "Frais en cours de vie du contrat : aucun. • Frais de sortie : aucun. • Autres frais : aucun.",
-   "Frais à l’entrée et sur versement : des frais liés à la gestion du contrat, des cotisations et des prestations sont prélevés sur les cotisations à hauteur de 15 % maximum des cotisations au titre de la garantie Capital Décès et 0,5 % par an du capital garanti."
+  "exclusions": [
+    {
+      "name": "Suicide de l'assuré pendant la première année",
+      "description": "le suicide de l’assuré pendant la première année qui suit la date d’effet de l’adhésion",
+      "applies_to": "Garantie Décès (par accident ou par maladie)",
+      "page": 8
+    },
+    {
+      "name": "Explosion, dégagement de chaleur d'irradiation provenant de transmutations de noyaux d'atomes",
+      "description": "les conséquences directes ou indirectes : - d’explosion, de dégagement de chaleur d’irradiation provenant de transmutations de noyaux d’atomes,",
+      "applies_to": "Garantie Décès (par accident ou par maladie)",
+      "page": 8
+    },
+    {
+      "name": "Radiations provoquées par l'accélération artificielle de particules ou émises par des combustibles nucléaires ou par des produits ou des déchets radioactifs",
+      "description": "de radiations provoquées par l’accélération artificielle de particules ou émises par des combustibles nucléaires ou par des produits ou des déchets radioactifs,",
+      "applies_to": "Garantie Décès (par accident ou par maladie)",
+      "page": 8
+    },
+    {
+      "name": "Guerre civile ou étrangère, interventions militaires",
+      "description": "d’une guerre civile ou étrangère ou, si l’adhérent y participe, d’interventions militaires.",
+      "applies_to": "Garantie Décès (par accident ou par maladie)",
+      "page": 8
+    },
+    {
+      "name": "Infarctus du myocarde",
+      "description": "les infarctus du myocarde",
+      "applies_to": "Garantie Décès par accident",
+      "page": 8
+    },
+    {
+      "name": "Affections coronariennes",
+      "description": "les affections coronariennes",
+      "applies_to": "Garantie Décès par accident",
+      "page": 8
+    },
+    {
+      "name": "Accidents vasculaires cérébraux",
+      "description": "les accidents vasculaires cérébraux",
+      "applies_to": "Garantie Décès par accident",
+      "page": 8
+    },
+    {
+      "name": "Affections, lésions ou atteintes corporelles résultant d'affections virales, microbiennes, parasitaires ou infectieuses",
+      "description": "les affections, lésions ou atteintes corporelles résultant d’affections virales, microbiennes, parasitaires ou infectieuses.",
+      "applies_to": "Garantie Décès par accident",
+      "page": 8
+    }
   ],
-  "indexation": "Pour la garantie Capital Décès, le contrat Matmut Prévoyance Obsèques prévoit une revalorisation annuelle du capital garanti (dans les conditions définies à l’article 6 de la présente notice) qui s’accompagne d’une augmentation proportionnelle des cotisations ultérieures. Vous pouvez refuser cette augmentation sous réserve d’en informer l’assureur par courrier adressé à Matmut Vie – Service Prévoyance – 66, rue de Sotteville 76030 Rouen CEDEX 1. Votre lettre devra nous parvenir au plus tard un mois avant l’échéance principale de votre adhésion. Dans ce cas, la cotisation de la garantie Capital Décès sera maintenue au niveau atteint avant cette augmentation et n’évoluera plus. Ce refus d’augmentation est définitif pour les années suivantes. Votre capital garanti continuera à augmenter chaque année en fonction de la seule participation aux bénéfices tel que prévu à l’article 6 de la présente notice. Cette augmentation sera donc moindre du fait de votre refus d’augmentation proportionnelle des cotisations.",
-  "page": 6
- },
- "special_conditions": [
-  {
-   "name": "Absence de garantie plancher sur les sommes versées",
-   "description": "Le contrat ne comporte pas de garantie en capital au moins égale aux sommes versées nettes de frais.",
-   "page": 4
+  "deductibles": null,
+  "waiting_periods": [
+    {
+      "coverage": "Décès de l'assuré par maladie",
+      "duration": "un an à compter de la prise d'effet de l'adhésion",
+      "description": "en cas de décès de l’assuré par maladie : à l’issue d’un délai de carence d’un an à compter de la prise d’effet de l’adhésion. Le délai de carence est le délai après la signature du contrat à l’issue duquel les garanties prennent effet. En cas de décès par maladie pendant la première année de l’adhésion, Matmut Vie remboursera au(x) bénéficiaire(s) désigné(s) les cotisations encaissées au titre de la garantie Capital Décès.",
+      "page": 6
+    },
+    {
+      "coverage": "Décès de l'assuré par accident",
+      "duration": "aucun délai de carence",
+      "description": "en cas de décès de l’assuré par accident : à la date d’effet de l’adhésion mentionnée au certificat d’adhésion, sous réserve de l’encaissement effectif de la première cotisation.",
+      "page": 6
+    },
+    {
+      "coverage": "Participation aux bénéfices",
+      "duration": "au moins un an d'ancienneté de l'adhésion",
+      "description": "La participation aux bénéfices est attribuée à votre adhésion, sous réserve qu’elle ait au moins un an d’ancienneté, et qu’elle soit toujours en cours, proportionnellement à sa provision mathématique et au taux de revalorisation arrêté par Matmut Vie au titre de l’exercice précédent.",
+      "page": 7
+    },
+    {
+      "coverage": "Suicide de l'assuré",
+      "duration": "première année qui suit la date d'effet de l'adhésion",
+      "description": "le suicide de l’assuré pendant la première année qui suit la date d’effet de l’adhésion",
+      "page": 8
+    },
+    {
+      "coverage": "Acceptation du bénéfice",
+      "duration": "délai de renonciation de 30 jours",
+      "description": "Au terme d’un délai de renonciation de 30 jours, l’acceptation du bénéfice à titre gratuit s’effectue par écrit selon les modalités décrites à l’article L. 132-9 du Code des assurances",
+      "page": 8
+    }
+  ],
+  "obligations": [
+    {
+      "name": "Conditions d'adhésion",
+      "description": "Pour pouvoir adhérer au contrat Matmut Prévoyance Obsèques, vous devez : • être adhérent à Matmut Mutualité ; • être également l’assuré au titre de l’adhésion ; • être âgé (l’âge de l’assuré est calculé tel qu’indiqué à l’article 5) : - d’au moins 50 ans et au plus de 80 ans, - résider en France métropolitaine.",
+      "timing": "à l'adhésion",
+      "sanction": null,
+      "page": 5
+    },
+    {
+      "name": "Souscrire un contrat de prestations obsèques (formule « Prestations »)",
+      "description": "Pour la formule « Prestations », vous devez souscrire un contrat de prestations obsèques auprès d’OGF services funéraires.",
+      "timing": "à l'adhésion",
+      "sanction": null,
+      "page": 5
+    },
+    {
+      "name": "Modalités d'adhésion (pièces à fournir)",
+      "description": "Pour adhérer au contrat Matmut Prévoyance Obsèques, vous devez : • avoir lu la présente notice ; • remplir et signer une demande d’adhésion au contrat collectif (sauf adhésion simplifiée enregistrée dans une agence Matmut) ; • lire et signer le certificat d’adhésion au contrat collectif ; • fournir la photocopie d’une pièce d’identité en cours de validité ; • fournir un justificatif de domicile (sauf adhésion enregistrée dans une agence Matmut) ; • remplir une autorisation de prélèvement Matmut Vie et fournir un relevé d’identité bancaire (sauf paiement par chèque).",
+      "timing": "à l'adhésion",
+      "sanction": null,
+      "page": 5
+    },
+    {
+      "name": "Justificatifs LCB-FT",
+      "description": "Afin de répondre aux obligations de contrôle à la charge de l’assureur dans le cadre du dispositif de lutte contre le blanchiment des capitaux et le financement du terrorisme, Matmut Vie pourra être amenée à demander, à l’adhésion ou en cours d’adhésion, des informations et justificatifs complémentaires.",
+      "timing": "à l'adhésion ou en cours d'adhésion",
+      "sanction": null,
+      "page": 5
+    },
+    {
+      "name": "Paiement des cotisations",
+      "description": "Pour tous les autres motifs de rejets ou si le règlement de la cotisation est réalisé par chèque, à défaut de paiement d’une cotisation dans les dix jours de son échéance, Matmut Vie vous adresse une lettre recommandée de mise en demeure. Le défaut de paiement au terme d’un délai de 40 jours à compter de la date d’envoi de cette lettre entraîne le rachat de votre adhésion si la valeur de rachat est inférieure à un montant défini annuellement en fonction de la valeur du SMIC mensuel conformément aux dispositions de l’article R. 132-2 du Code des assurances (ou sur demande de votre part par lettre adressée à Matmut Vie avant l’expiration du délai de 40 jours) ; • la réduction de votre adhésion si la valeur de rachat est supérieure au montant défini ci-avant.",
+      "timing": "pendant toute la durée de l'adhésion",
+      "sanction": "Le rachat met définitivement fin à l’adhésion et à toutes les garanties y afférentes. La réduction entraîne la fin des garanties d’assistance à la date d’effet de la réduction et l’arrêt du paiement des coti- sations ; la garantie en cas de décès continue à être acquise pour un capital réduit. Ce nouveau capital garanti est déterminé en fonction de la valeur de rachat et de l’âge de l’adhérent à la date d’effet de la réduction.",
+      "page": 6
+    },
+    {
+      "name": "Déclaration exacte du risque",
+      "description": "Conformément à l’article L. 113-8 du Code des assurances, et indépendamment des causes ordinaires de nullité, et sous réserve des dispositions de l’article L. 132-26 du Code des assurances, toute réticence ou fausse déclaration intentionnelle de nature à modifier l’appréciation du risque par Matmut Vie entraînera la nullité de l’adhésion dès lors que cette réticence ou cette fausse déclaration change l’objet du risque ou en diminue l’opinion pour Matmut Vie, alors même que le risque omis ou dénaturé a été sans influence sur le sinistre.",
+      "timing": "à l'adhésion",
+      "sanction": "entraînera la nullité de l’adhésion dès lors que cette réticence ou cette fausse déclaration change l’objet du risque ou en diminue l’opinion pour Matmut Vie, alors même que le risque omis ou dénaturé a été sans influence sur le sinistre. Le cas échéant, Matmut Vie remboursera à l’adhérent ou en cas de décès de l’assuré, au(x) bénéficiaire(s) désigné(s) les cotisations encaissées au titre de la garantie Capital Décès.",
+      "page": 8
+    },
+    {
+      "name": "Mise à jour des informations concernant l'adhérent",
+      "description": "Pour faciliter les échanges avec l’adhérent et prévenir l’existence de contrats d’assurance vie non réclamés, l’adhérent s’engage à informer l’assureur en cas de changement de nom, d’adresse ou de coordonnées bancaires en cours d’adhésion.",
+      "timing": "en cours d'adhésion",
+      "sanction": null,
+      "page": 13
+    },
+    {
+      "name": "Remise des pièces justificatives en cas de décès",
+      "description": "Quelle que soit la formule choisie, les pièces justificatives à remettre pour vérifier les conditions de mise en œuvre de la garantie sont les suivantes : • l’exemplaire original du certificat d’adhésion ; • un acte de décès de l’assuré ; • un justificatif de leur qualité de bénéficiaire (ex : conjoint) ; • la photocopie recto verso de la carte d’identité en cours de validité de chaque bénéficiaire (ou les 4 premières pages du passeport ou de la carte de séjour).",
+      "timing": "au décès",
+      "sanction": null,
+      "page": 8
+    },
+    {
+      "name": "Lire la notice avant de signer",
+      "description": "Il est important que l’adhérent lise intégralement la notice et pose toutes les questions qu’il estime nécessaires avant de signer le bulletin d’adhésion ou le certificat d’adhésion.",
+      "timing": "avant l'adhésion",
+      "sanction": null,
+      "page": 4
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Règlement du capital décès",
+      "description": "En cas de décès de l’assuré, Matmut Vie règle le capital garanti, (ou si le décès survient au cours de la première année de l’adhésion suite à une maladie, rembourse les cotisations versées au titre de la garantie Capital Décès) aux bénéficiaires désignés dans un délai de 7 jours à compter de la réception de la demande complète comportant les pièces indiquées ci-après.",
+      "deadline": "dans un délai de 7 jours à compter de la réception de la demande complète",
+      "page": 8
+    },
+    {
+      "step": "Pièces justificatives — dans tous les cas",
+      "description": "Quelle que soit la formule choisie, les pièces justificatives à remettre pour vérifier les conditions de mise en œuvre de la garantie sont les suivantes : • l’exemplaire original du certificat d’adhésion ; • un acte de décès de l’assuré ; • un justificatif de leur qualité de bénéficiaire (ex : conjoint) ; • la photocopie recto verso de la carte d’identité en cours de validité de chaque bénéficiaire (ou les 4 premières pages du passeport ou de la carte de séjour).",
+      "deadline": null,
+      "page": 8
+    },
+    {
+      "step": "Pièces justificatives — décès au cours de la première année de l'adhésion",
+      "description": "En cas de décès au cours de la première année de l’adhésion : • le procès verbal de police ou de gendarmerie ; • une fiche de renseignement dûment complétée ; • le certificat médical complété par le médecin traitant ou le médecin ayant constaté le décès ; • le compte rendu d’hospitalisation ; • le compte rendu d’intervention des premiers secours ; • les coupures de presse. Établissant le caractère exclusivement accidentel du décès et décrivant les causes de l’accident. Les documents à caractère médical devront être adressés à l’attention du Médecin conseil de Matmut Vie.",
+      "deadline": null,
+      "page": 9
+    },
+    {
+      "step": "Pièces justificatives — bénéficiaire(s) à titre gratuit",
+      "description": "Le cas échéant, en cas de bénéficiaire(s) à titre gratuit : • l’attestation sur l’honneur, établie par chaque bénéficiaire en application de l’article 990 I du Code général des impôts ; • un certificat d’acquittement ou de non-exigibilité de l’impôt de mutation par décès en application de l’article 757 B du Code général des impôts (sauf demande écrite des bénéficiaires de verser tout ou partie des sommes dues par eux en l’acquit des droits de mutation par décès, au service des impôts).",
+      "deadline": null,
+      "page": 9
+    },
+    {
+      "step": "Pièces justificatives — formule « Capital »",
+      "description": "Pour la formule « Capital » Il convient de remettre, en plus des pièces justificatives visées ci-dessus : • si le paiement est effectué entre les mains du prestataire funéraire en charge des obsèques de l’assuré (à concurrence des sommes qui lui sont dues et dans la limite du capital garanti) : la facture du prestataire funéraire en charge des obsèques de l’assuré ; • si le paiement est effectué entre les mains de la(les) personne(s) qui a(ont) financé les obsèques de l’assuré (à hauteur des frais engagés et dans la limite du capital garanti) : la facture acquittée des frais engagés.",
+      "deadline": null,
+      "page": 9
+    },
+    {
+      "step": "Déclaration du décès — formule « Prestations »",
+      "description": "Pour la mise en œuvre du contrat de prestations obsèques, OGF services funéraires doit être informé, au 0 810 00 11 66, de la survenance du décès.",
+      "deadline": null,
+      "page": 9
+    },
+    {
+      "step": "Fin de l'adhésion après paiement",
+      "description": "Dans tous les cas, le paiement du capital met définitivement fin à l’adhésion.",
+      "deadline": null,
+      "page": 9
+    },
+    {
+      "step": "Demande de rachat total",
+      "description": "Vous devez faire parvenir à Matmut Vie une demande de rachat total accompagnée de l’original de votre certificat d’adhésion, et le cas échéant, de l’accord écrit du(des) bénéficiaire(s) acceptant(s).",
+      "deadline": "Matmut Vie vous verse la valeur de rachat de votre adhésion dans les 30 jours suivant la réception de votre demande de rachat total au siège de Matmut Vie, par chèque ou virement sur votre compte bancaire.",
+      "page": 7
+    },
+    {
+      "step": "Réclamation — recours hiérarchique",
+      "description": "En cas de désaccord entre vous et nous, à l’occasion de la distribution, de la gestion du présent contrat ou du règlement d’un sinistre, vous devez tout d’abord vous adresser à l’agence ou au service qui est à l’origine de ce désaccord, afin qu’une réponse vous soit apportée par son responsable.",
+      "deadline": "Un courrier vous est adressé dans les 10 jours ouvrables suivant l’envoi de votre réclamation. Il vous fait part de la position retenue ou, si votre demande nécessite une instruction complémentaire, vous avise du délai dans lequel notre décision vous sera communiquée. Sauf circonstances exceptionnelles, nous nous engageons à vous faire part de notre position au plus tard dans le délai de deux mois à compter de l’envoi de votre réclamation.",
+      "page": 10
+    },
+    {
+      "step": "Réclamation — service « Réclamations »",
+      "description": "Si cette réponse ne vous donne pas satisfaction, vous avez la possibilité de saisir le service « Réclamations » de notre groupe par mail (service.reclamations@matmut.fr), ou par courrier 66, rue de Sotteville 76030 Rouen CEDEX 01.",
+      "deadline": "Celui-ci s’engage à vous faire part de la position définitive de la mutuelle sous 30 jours.",
+      "page": 11
+    },
+    {
+      "step": "Médiation de l'assurance",
+      "description": "Vous pouvez également saisir gratuitement le médiateur de l’assurance en déposant votre demande sur son site internet www.mediation-assurance.org (sur lequel vous pouvez obtenir toutes les informations relatives au dispositif mis en place par le professionnel) ou en lui écrivant à l’adresse suivante : La médiation de l’assurance – TSA 50110 – 75441 Paris CEDEX 09.",
+      "deadline": "La charte du médiateur prévoit que la réponse vous est apportée dans un délai maximal de 90 jours. Vous pouvez également saisir le médiateur deux mois après l’envoi de votre réclamation, à défaut de réponse. Votre demande doit obligatoirement intervenir dans le délai d’un an à compter de votre réclamation écrite initiale et ne faire l’objet à ce stade d’aucune action contentieuse.",
+      "page": 11
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "La durée de l’adhésion est viagère. L’adhésion prend fin et les garanties cessent en cas de décès de l’assuré ou de rachat de l’adhésion.",
+    "tacit_renewal": true,
+    "notice_period": "Le contrat peut être résilié par l’une ou l’autre des parties moyennant l’envoi d’une lettre recommandée avec avis de réception, au minimum deux mois avant l’échéance principale fixée au 1er janvier.",
+    "methods": [
+      "Pour renoncer à votre adhésion, vous devez adresser à Matmut Vie, Service Prévoyance, 66, rue de Sotteville 76030 Rouen CEDEX 1, une lettre recommandée avec accusé de réception ou par lettre recommandée électronique adressée à matmutvie@matmut.fr",
+      "Vous pouvez obtenir le rachat total de votre adhésion sous réserve, le cas échéant, de l’accord du bénéficiaire acceptant.",
+      "Le contrat peut être résilié par l’une ou l’autre des parties moyennant l’envoi d’une lettre recommandée avec avis de réception, au minimum deux mois avant l’échéance principale fixée au 1er janvier."
+    ],
+    "special_rights": [
+      "Vous pouvez renoncer à votre adhésion dans un délai de 30 jours calendaires révolus à compter de la date à laquelle vous êtes informé que l’adhésion au contrat est conclue. Cette date correspond à la date de réception de votre certificat d’adhésion. Ce délai de renonciation expire le dernier jour à 24 heures sans prorogation si ce jour d’expiration correspond à un samedi, un dimanche ou un jour férié.",
+      "Matmut Vie s’engage à rembourser l’intégralité des sommes versées, sous réserve de leur encaissement effectif, dans un délai de 30 jours calendaires révolus suivant la réception de la lettre recommandée.",
+      "La renonciation met définitivement fin à l’adhésion Matmut Prévoyance Obsèques et à toutes ses garanties. Si la formule « Prestations » a été choisie, la renonciation met également fin à l’engagement d’OGF services funéraires au titre du contrat de prestations obsèques.",
+      "Le paiement de la valeur de rachat met définitivement fin : • à l’adhésion au contrat Matmut Prévoyance Obsèques ; • aux prestations d’assistance telles que définies dans la convention d’assistance ; • à l’engagement d’OGF services funéraires au titre du contrat de prestations obsèques (si la formule « Prestations » a été choisie).",
+      "En cas de résiliation du contrat collectif, que celle-ci soit à l’initiative de Matmut Mutualité ou de Matmut Vie, les adhésions en vigueur ne seront pas remises en cause. Aucune nouvelle adhésion ne sera plus acceptée et Matmut Vie s’engage à maintenir les adhésions existantes et les droits acquis en vigueur.",
+      "En cas de liquidation ou de dissolution de Matmut Mutualité, quelle qu’en soit la cause et conformément à l’article L. 141-6 du Code des assurances le contrat se poursuivra de plein droit entre Matmut Vie et les personnes antérieurement adhérentes au contrat."
+    ],
+    "page": 6
   },
-  {
-   "name": "Nature du contrat",
-   "description": "Matmut Prévoyance Obsèques est un contrat d’assurance de groupe (contrat collectif) sur la vie de type vie entière à adhésion facultative, souscrit par : • Matmut Mutualité – 66, rue de Sotteville 76100 Rouen (le souscripteur), au profit de ses membres, auprès de : - la société d’assurance vie, Matmut Vie – 66, rue de Sotteville 76100 Rouen, filiale du Groupe Matmut, régie par le Code des assurances (l’assureur). Le contrat Matmut Prévoyance Obsèques est régi par le Code des assurances et relève de la branche 20 (Vie-Décès) de l’article R. 321-1 du Code des assurances. Les dispositions applicables au contrat collectif sont décrites à l’article 13.",
-   "page": 5
+  "prescription_period": {
+    "description": "Toutes actions dérivant d’un contrat d’assurance sont prescrites par deux ans à compter de l’événement qui y donne naissance. Toutefois, ce délai ne court pas : 1. en cas de réticence, omission, déclaration fausse ou inexacte sur le risque couru, que du jour où l’assureur en a eu connaissance ; 2. en cas de sinistre, que du jour où les intéressés en ont eu connaissance, s’ils prouvent qu’ils l’ont ignoré jusque-là. Quand l’action de l’assuré contre l’assureur a pour cause le recours d’un tiers, le délai de la prescription ne court que du jour où ce tiers a exercé une action en justice contre l’assuré ou a été indemnisé par ce dernier. La prescription est portée à dix ans dans les contrats d’assurance sur la vie lorsque le bénéficiaire est une personne distincte du souscripteur et, dans les contrats d’assurance contre les accidents atteignant les personnes, lorsque les bénéficiaires sont les ayants droit de l’assuré décédé. Pour les contrats d’assurance sur la vie, nonobstant les dispositions du 2, les actions du bénéficiaire sont prescrites au plus tard trente ans à compter du décès de l’assuré. Conformément à l’article L. 192-1 du Code des assurances, si le souscripteur a sa résidence principale dans les départements du Bas-Rhin, du Haut-Rhin et de la Moselle, alinéa 1er du Code des assurances est porté à 5 ans en matière d’assurance sur la vie. La prescription peut être interrompue : • par l’une des causes ordinaires suivantes : - la reconnaissance par le débiteur du droit du créancier (article 2240 du Code civil), - une demande en justice, même en référé, même portée devant une juridiction incompétente ou annulée par l’effet d’un vice de procédure (article 2241 du Code civil), - une mesure conservatoire prise en application du Code des procédures civiles d’exécution ou un acte d’exécution forcée (article 2244 du Code civil) ; • ainsi que dans les cas suivants : - la désignation d’un expert à la suite d’un sinistre, - l’envoi d’une lettre recommandée ou d’un envoi recommandé électronique, avec accusé de réception par notre société à vous-même en ce qui concerne le paiement des cotisations ou, par vous-même à notre société en ce qui concerne le règlement des indemnités. Les parties au contrat d’assurance ne peuvent, même d’un commun accord, ni modifier la durée de la prescription, ni ajouter aux causes de suspension ou d’interruption de celle-ci.",
+    "page": 10
   },
-  {
-   "name": "Opérateur funéraire OGF services funéraires",
-   "description": "OGF services funéraires, est une SAS au capital de 252 951 399,22€, inscrite au registre du commerce et des sociétés de Nanterre, sous le numéro 828 160 069 dont le siège social est situé : immeuble Canopy – 6, rue Général-Audran, 92400 Courbevoie et disposant d’une habilitation funéraire préfectorale d’Antony n° 25-92-0252, mandataire d’assurance.",
-   "page": 5
+  "premium": {
+    "notes": [
+      "La cotisation globale regroupe la cotisation due au titre de la garantie Capital Décès et la cotisation due au titre des prestations d’assistance.",
+      "La cotisation due au titre de la garantie Capital Décès est déterminée en fonction : • du montant du capital choisi par l’adhérent ; • de l’âge de l’adhérent à l’adhésion (l’âge de l’adhérent se calcule par différence entre l’année d’adhésion et l’année de naissance) ; • de la durée de paiement des cotisations.",
+      "Les différents montants de cotisations selon l’âge et les choix effectués lors de l’adhésion sont joints en annexe.",
+      "La cotisation au titre de la garantie Capital Décès n’évolue ni en fonction de l’âge de l’adhérent, ni en fonction de l’évolution de son état de santé.",
+      "La cotisation au titre des prestations d’assistance est susceptible d’évoluer en fonction des résultats techniques de cette garantie.",
+      "Les cotisations sont payables, au choix de l’adhérent : • mensuellement, par prélèvement automatique sur le compte bancaire ou postal de l’adhérent, pendant toute la durée de l’adhésion (cotisations viagères) ou de façon temporaire pendant 10 ans (cotisations temporaires).",
+      "Les prélèvements mensuels sont réalisés au début de chaque mois sauf pour la première cotisation qui est prélevée immédiatement après l’adhésion.",
+      "Montant de la première cotisation : • si l’adhésion prend effet entre le 1er et le 15 du mois, le montant de la première cotisation est déterminé au prorata du nombre de jours pour la période allant de la date d’effet au dernier jour du mois ; • si l’adhésion prend effet entre le 16 et le dernier jour du mois, le montant de la première cotisation est déterminé au prorata du nombre de jours pour la période allant de la date d’effet au dernier jour du mois suivant.",
+      "Par dérogation, vous pouvez opter pour un paiement de votre cotisation par chèque. Dans ce cas, le paiement est semestriel. Dans cette hypothèse, à l’adhésion, vous devez régler votre première cotisation qui sera calculée au prorata de la durée allant de la date d’effet à la date de la prochaine échéance. Cette date de prochaine échéance dépend du jour d’adhésion dans le mois et de la date d’échéance principale fixée au 1er janvier.",
+      "Le choix effectué lors de l’adhésion pour un paiement, pendant toute la durée de l’adhésion (cotisations viagères) ou de façon temporaire pendant 10 ans (cotisations temporaires) est définitif.",
+      "Dans le cas où le prélèvement automatique d’une cotisation fait l’objet d’un non-paiement, Matmut Vie procédera au renouvellement du prélèvement le mois suivant, lorsque les conditions suivantes sont réunies : • le motif du rejet du prélèvement par la banque est « provision insuffisante » ; • les cotisations précédentes ont été payées.",
+      "Dans ce cas, si le paiement des cotisations est mensuel, le prélèvement concernera la cotisation impayée et la cotisation du mois suivant. Pour tous les autres motifs de rejets ou si le règlement de la cotisation est réalisé par chèque, à défaut de paiement d’une cotisation dans les dix jours de son échéance, Matmut Vie vous adresse une lettre recommandée de mise en demeure. Le défaut de paiement au terme d’un délai de 40 jours à compter de la date d’envoi de cette lettre entraîne",
+      "Ces frais se composent : • d’une partie fixée à 15 % maximum du montant de la cotisation de la garantie Capital Décès ; • et d’une partie fixée à 0,5 % par an du capital garanti inclue dans vos cotisations.",
+      "Il n’est pas prévu d’autres frais au titre de votre adhésion.",
+      "Frais en cours de vie du contrat : aucun. • Frais de sortie : aucun. • Autres frais : aucun.",
+      "Frais à l’entrée et sur versement : des frais liés à la gestion du contrat, des cotisations et des prestations sont prélevés sur les cotisations à hauteur de 15 % maximum des cotisations au titre de la garantie Capital Décès et 0,5 % par an du capital garanti."
+    ],
+    "indexation": "Pour la garantie Capital Décès, le contrat Matmut Prévoyance Obsèques prévoit une revalorisation annuelle du capital garanti (dans les conditions définies à l’article 6 de la présente notice) qui s’accompagne d’une augmentation proportionnelle des cotisations ultérieures. Vous pouvez refuser cette augmentation sous réserve d’en informer l’assureur par courrier adressé à Matmut Vie – Service Prévoyance – 66, rue de Sotteville 76030 Rouen CEDEX 1. Votre lettre devra nous parvenir au plus tard un mois avant l’échéance principale de votre adhésion. Dans ce cas, la cotisation de la garantie Capital Décès sera maintenue au niveau atteint avant cette augmentation et n’évoluera plus. Ce refus d’augmentation est définitif pour les années suivantes. Votre capital garanti continuera à augmenter chaque année en fonction de la seule participation aux bénéfices tel que prévu à l’article 6 de la présente notice. Cette augmentation sera donc moindre du fait de votre refus d’augmentation proportionnelle des cotisations.",
+    "page": 6
   },
-  {
-   "name": "Prise d'effet de l'adhésion",
-   "description": "L’adhésion prend effet à la date de réception au siège de Matmut Vie ou dans une agence Matmut de votre demande d’adhésion accompagnée du règlement de votre première cotisation, sous réserve de l’encaissement effectif de celui-ci. La date d’effet de l’adhésion figure sur votre certificat d’adhésion.",
-   "page": 5
-  },
-  {
-   "name": "Refus de l'augmentation proportionnelle des cotisations",
-   "description": "Vous pouvez refuser cette augmentation sous réserve d’en informer l’assureur par courrier adressé à Matmut Vie – Service Prévoyance – 66, rue de Sotteville 76030 Rouen CEDEX 1. Votre lettre devra nous parvenir au plus tard un mois avant l’échéance principale de votre adhésion. Dans ce cas, la cotisation de la garantie Capital Décès sera maintenue au niveau atteint avant cette augmentation et n’évoluera plus. Ce refus d’augmentation est définitif pour les années suivantes. Votre capital garanti continuera à augmenter chaque année en fonction de la seule participation aux bénéfices tel que prévu à l’article 6 de la présente notice. Cette augmentation sera donc moindre du fait de votre refus d’augmentation proportionnelle des cotisations.",
-   "page": 6
-  },
-  {
-   "name": "Défaut de paiement des cotisations — rachat ou réduction",
-   "description": "le rachat de votre adhésion si la valeur de rachat est inférieure à un montant défini annuellement en fonction de la valeur du SMIC mensuel conformément aux dispositions de l’article R. 132-2 du Code des assurances (ou sur demande de votre part par lettre adressée à Matmut Vie avant l’expiration du délai de 40 jours) ; • la réduction de votre adhésion si la valeur de rachat est supérieure au montant défini ci-avant. Le rachat met définitivement fin à l’adhésion et à toutes les garanties y afférentes. La réduction entraîne la fin des garanties d’assistance à la date d’effet de la réduction et l’arrêt du paiement des coti- sations ; la garantie en cas de décès continue à être acquise pour un capital réduit. Ce nouveau capital garanti est déterminé en fonction de la valeur de rachat et de l’âge de l’adhérent à la date d’effet de la réduction. Si la formule « Prestations » a été choisie, le rachat ou la réduction de l’adhésion met fin à l’engagement d’OGF services funéraires au titre du contrat de prestations obsèques.",
-   "page": 7
-  },
-  {
-   "name": "Rachat total",
-   "description": "Vous pouvez obtenir le rachat total de votre adhésion sous réserve, le cas échéant, de l’accord du bénéficiaire acceptant. Vous devez faire parvenir à Matmut Vie une demande de rachat total accompagnée de l’original de votre certificat d’adhésion, et le cas échéant, de l’accord écrit du(des) bénéficiaire(s) acceptant(s). Matmut Vie vous verse la valeur de rachat de votre adhésion dans les 30 jours suivant la réception de votre demande de rachat total au siège de Matmut Vie, par chèque ou virement sur votre compte bancaire. Le paiement de la valeur de rachat met définitivement fin : • à l’adhésion au contrat Matmut Prévoyance Obsèques ; • aux prestations d’assistance telles que définies dans la convention d’assistance ; • à l’engagement d’OGF services funéraires au titre du contrat de prestations obsèques (si la formule « Prestations » a été choisie). Modalités de calcul de la valeur de rachat La valeur de rachat est calculée en tenant compte notamment des cotisations effectivement réglées, des frais prélevés sur les cotisations, du coût de l’engagement de l’assureur au titre de la garantie Capital Décès et des éventuels prélèvements fiscaux et sociaux. Son calcul fait appel à des formules mathématiques qui utilisent, en particulier, les tables de mortalité prévues par le Code des assurances.",
-   "page": 7
-  },
-  {
-   "name": "Désignation du/des bénéficiaire(s) — formule « Capital »",
-   "description": "Pour la formule « Capital », vous pouvez choisir : l’une des clauses bénéficiaires standard proposées ou établir la clause libre correspondant à votre situation. La clause bénéficiaire peut être rédigée par acte sous seing privé ou par acte authentique et être déposée chez un notaire. Dans ce cas, il est recommandé d’informer Matmut Vie afin que cette clause puisse être prise en compte lors du décès de l’assuré. La clause bénéficiaire retenue est portée sur le certificat d’adhésion. Dans la mesure où les bénéficiaires n’ont pas accepté le bénéfice du capital, vous pouvez à tout moment modifier, par avenant à votre adhésion, le(s) bénéficiaire(s) du capital en cas de décès. Il est recommandé de veiller à faire évoluer la clause bénéficiaire de votre adhésion en fonction de votre situation familiale. Afin de faciliter la recherche des bénéficiaires au moment du décès de l’assuré, il est recommandé de préciser à Matmut Vie leurs coordonnées (ex : nom, prénoms, adresse, date et lieu de naissance).",
-   "page": 8
-  },
-  {
-   "name": "Désignation du bénéficiaire — formule « Prestations »",
-   "description": "Pour la formule « Prestations », vous désignez : le bénéficiaire de premier rang de façon nominative à charge pour lui de financer vos obsèques dans la limite du capital garanti, conformément au contrat de prestations souscrit auprès d’OGF services funéraires, le solde éventuel lui revenant, à défaut la personne qui aura pourvu à vos funérailles conformément au contrat de prestations souscrit auprès d’OGF services funéraires, à hauteur des frais engagés, sur facture et dans la limite du capital garanti, à défaut ou pour le solde éventuel votre conjoint non séparé de corps, ni en instance de divorce ou votre partenaire pacsé, à défaut vos héritiers.",
-   "page": 8
-  },
-  {
-   "name": "Acceptation du bénéfice",
-   "description": "Acceptation du bénéfice Au terme d’un délai de renonciation de 30 jours, l’acceptation du bénéfice à titre gratuit s’effectue par écrit selon les modalités décrites à l’article L. 132-9 du Code des assurances : • soit par un avenant signé par vous, le bénéficiaire concerné et l’assureur ; • soit par acte authentique ou sous seing privé, signé de l’adhérent et du bénéficiaire ; dans ce cas, celui-ci doit être notifié à Matmut Vie par écrit. En cas d’acceptation de la clause bénéficiaire, l’adhérent doit obtenir le consentement du(des) bénéficiaire(s) acceptant(s) pour modifier le libellé de la clause bénéficiaire ou effectuer le rachat de l’adhésion.",
-   "page": 8
-  },
-  {
-   "name": "Information annuelle",
-   "description": "Conformément aux dispositions de l’article L. 132-22 du Code des assurances, chaque année, Matmut Vie vous fait parvenir un relevé d’informations qui comporte le taux de revalorisation applicable à votre adhésion. Cette lettre vous permet d’obtenir également les informations suivantes : • votre nouveau capital garanti tenant compte de cette revalorisation ; • le nouveau montant de votre cotisation ; • la date d’échéance principale à laquelle cette augmentation s’applique ; • les valeurs de rachat et de réduction de votre adhésion.",
-   "page": 9
-  },
-  {
-   "name": "Fiscalité de l'assurance vie",
-   "description": "ARTICLE 9 RENONCIATION Vous pouvez renoncer à votre adhésion dans un délai de 30 jours calendaires révolus à compter de la date à laquelle vous êtes informé que l’adhésion au contrat est conclue. Cette date correspond à la date de réception de votre certificat d’adhésion. Ce délai de renonciation expire le dernier jour à 24 heures sans prorogation si ce jour d’expiration correspond à un samedi, un dimanche ou un jour férié. Pour renoncer à votre adhésion, vous devez adresser à Matmut Vie, Service Prévoyance, 66, rue de Sotteville 76030 Rouen CEDEX 1, une lettre recommandée avec accusé de réception ou par lettre recommandée électronique adressée à matmutvie@matmut.fr, sur le modèle ci dessous : « Je soussigné, Nom Prénom Adresse, déclare renoncer à mon adhésion au contrat Matmut Prévoyance Obsèques N° XXXX et demande le remboursement des cotisations versées. » Cette lettre doit être datée et signée. Matmut Vie s’engage à rembourser l’intégralité des sommes versées, sous réserve de leur encaissement effectif, dans un délai de 30 jours calendaires révolus suivant la réception de la lettre recommandée. La renonciation met définitivement fin à l’adhésion Matmut Prévoyance Obsèques et à toutes ses garanties. Si la formule « Prestations » a été choisie, la renonciation met également fin à l’engagement d’OGF services funéraires au titre du contrat de prestations obsèques. ARTICLE 10 INFORMATION ANNUELLE Conformément aux dispositions de l’article L. 132-22 du Code des assurances, chaque année, Matmut Vie vous fait parvenir un relevé d’informations qui comporte le taux de revalorisation applicable à votre adhésion. Cette lettre vous permet d’obtenir également les informations suivantes : • votre nouveau capital garanti tenant compte de cette revalorisation ; • le nouveau montant de votre cotisation ; • la date d’échéance principale à laquelle cette augmentation s’applique ; • les valeurs de rachat et de réduction de votre adhésion. ARTICLE 11 INFORMATION GÉNÉRALE SUR LA FISCALITÉ DE L’ASSURANCE VIE (en vigueur au 1er juillet 2025 et susceptible d’évoluer) L’adhésion est soumise à la fiscalité française de l’assurance vie sauf dispositions spécifiques applicables aux non-résidents fiscaux. Information sur la fiscalité applicable aux rachats En cas de rachat, en application des dispositions de l’article 125-OA du Code général des impôts, les produits que vous percevez sont soumis selon votre choix : • soit au barème progressif de l’impôt sur le revenu ; • soit, sur option, à un prélèvement libératoire dont le taux varie en fonction de la durée de l’adhésion (l’option doit être formulée au plus tard lors de la demande de rachat). Prélèvements sociaux Les prélèvements sociaux s’appliquent sur les produits. Information sur la fiscalité applicable en cas de décès Sauf cas d’exonérations spécifiques, notamment lorsque le bénéficiaire est désigné à titre onéreux, le(s) bénéficiaire(s) désigné(s) en cas de décès est(sont) imposé(s), après application d’un abattement : • aux droits de succession sur les primes versées après le 70e anniversaire de l’assuré en application de l’article 757 B du Code général des impôts ; • à une taxe spécifique sur les capitaux résultant des primes versées avant le 70e anniversaire de l’assuré, en application de l’article 990 I du Code général des impôts. Impôt sur la fortune Si l’adhérent est ou devient redevable de l’impôt sur la fortune, la valeur de rachat de l’adhésion au 1er janvier de chaque année est à inclure dans l’assiette taxable.",
-   "page": 9
-  },
-  {
-   "name": "Protection des données personnelles",
-   "description": "Les sociétés du Groupe Matmut collectent et traitent vos données personnelles dans le respect du règlement général sur la protection des données du 27 avril 2016, entré en application le 25 mai 2018 et de la loi du 06 janvier 1978 modifiée relative à l’informatique, aux fichiers et aux libertés.",
-   "page": 11
-  },
-  {
-   "name": "Autorité de contrôle de l'assureur",
-   "description": "L’organisme chargé du contrôle de Matmut Vie est l’Autorité de contrôle prudentiel et de résolution ( ACPR) située 4, rue de Budapest – CS 92459 – 75436 Paris CEDEX 09.",
-   "page": 13
-  },
-  {
-   "name": "Loi applicable au contrat",
-   "description": "La loi applicable au contrat est la loi française.",
-   "page": 13
-  },
-  {
-   "name": "Fonds de garantie",
-   "description": "En application de l’article L. 423-1 du Code des assurances, Matmut Vie adhère à un fonds de garantie destiné à préserver les droits des assurés et bénéficiaires de ses contrats d’assurance vie.",
-   "page": 13
-  },
-  {
-   "name": "Fonctionnement du contrat collectif",
-   "description": "Le contrat collectif Matmut Prévoyance Obsèques est souscrit pour une durée d’un an et est renouvelable annuellement par tacite reconduction. Le contrat peut être résilié par l’une ou l’autre des parties moyennant l’envoi d’une lettre recommandée avec avis de réception, au minimum deux mois avant l’échéance principale fixée au 1er janvier. En cas de résiliation du contrat collectif, que celle-ci soit à l’initiative de Matmut Mutualité ou de Matmut Vie, les adhésions en vigueur ne seront pas remises en cause. Aucune nouvelle adhésion ne sera plus acceptée et Matmut Vie s’engage à maintenir les adhésions existantes et les droits acquis en vigueur. En cas de liquidation ou de dissolution de Matmut Mutualité, quelle qu’en soit la cause et conformément à l’article L. 141-6 du Code des assurances le contrat se poursuivra de plein droit entre Matmut Vie et les personnes antérieurement adhérentes au contrat. Le contrat collectif Matmut Prévoyance Obsèques est disponible sur simple demande auprès de Matmut Vie. Les droits et obligations de l’adhérent peuvent être modifiés par des avenants conclus entre Matmut Vie et Matmut Mutualité. En application de l’article L. 141-4 du Code des assurances, l’adhérent est informé de ces modifications au moins trois mois avant la date prévue pour leur entrée en vigueur.",
-   "page": 14
-  },
-  {
-   "name": "Commercialisation à distance",
-   "description": "L’offre de commercialisation à distance de Matmut Prévoyance Obsèques est notamment régie par l’article L. 112-2-1 du Code des assurances. Durée de validité des informations La durée de validité des informations communiquées à l’adhérent correspond à la durée du contrat Matmut Prévoyance Obsèques, sous réserve d’éventuelles modifications du contrat collectif et des évolutions législatives, réglementaires et fiscales. Langue utilisée pendant la durée du contrat La langue utilisée pendant la durée du contrat est la langue française.",
-   "page": 14
-  },
-  {
-   "name": "Annexe — tableaux des valeurs de rachat",
-   "description": "ANNEXE : TABLEAUX DES VALEURS DE RACHAT Ces montants ne tiennent pas compte de la revalorisation, ni des prélèvements fiscaux et sociaux éventuels. Ils sont établis pour un capital de 1 000 €. Pour un paiement des cotisations pendant une durée de 10 ans (temporaires) : / Pour un paiement pendant toute la durée de l’adhésion (viager) : Tableaux chiffrés VR/CV par âge à l'adhésion (50 à 80 ans) et par année (1re à 8e année), pour un capital de 1 000 €.",
-   "page": 15
-  },
-  {
-   "name": "Encadré (informations essentielles)",
-   "description": "ENCADRÉ Cet encadré a pour objet d’attirer l’attention de l’adhérent sur certaines dispositions essentielles de la notice. Il est important que l’adhérent lise intégralement la notice et pose toutes les questions qu’il estime nécessaires avant de signer le bulletin d’adhésion ou le certificat d’adhésion.",
-   "page": 4
-  }
- ],
- "key_quotes": [
-  {
-   "quote": "Le contrat ne comporte pas de garantie en capital au moins égale aux sommes versées nettes de frais.",
-   "page": 4
-  },
-  {
-   "quote": "Frais à l’entrée et sur versement : des frais liés à la gestion du contrat, des cotisations et des prestations sont prélevés sur les \ncotisations à hauteur de 15 % maximum des cotisations au titre de la garantie Capital Décès et 0,5 % par an du capital garanti.",
-   "page": 4
-  },
-  {
-   "quote": "Le contrat Matmut Prévoyance Obsèques a pour objet de garantir, en cas de décès de l’assuré, selon la formule choisie",
-   "page": 5
-  },
-  {
-   "quote": "formule « Capital » : le paiement du capital garanti au(x) bénéficiaire(s) désigné(s) par l’adhérent ;\n• \u0007formule « Prestations » : le paiement du capital garanti au bénéficiaire désigné par l’adhérent pour financer les obsèques de \nl’assuré selon les modalités définies dans le contrat de prestations obsèques souscrit auprès de l’opérateur funéraire OGF services \nfunéraires.",
-   "page": 5
-  },
-  {
-   "quote": "Matmut Prévoyance Obsèques est un contrat d’assurance de groupe (contrat collectif) sur la vie de type vie entière à adhésion \nfacultative, souscrit par :\n• \u0007Matmut Mutualité – 66, rue de Sotteville 76100 Rouen (le souscripteur), au profit de ses membres, auprès de :\n- \u0007la société d’assurance vie, Matmut Vie – 66, rue de Sotteville 76100 Rouen, filiale du Groupe Matmut, régie par le Code des \nassurances (l’assureur).",
-   "page": 5
-  },
-  {
-   "quote": "Matmut Prévoyance Obsèques inclut également des prestations d’assistance dont le descriptif est communiqué séparément ; ces \ngaranties sont assurées par la Matmut, 66, rue de Sotteville 76100 Rouen – Entreprise régie par le Code des assurances et mises \nen œuvre par Inter Mutuelles Assistance GIE.",
-   "page": 5
-  },
-  {
-   "quote": "Pour pouvoir adhérer au contrat Matmut Prévoyance Obsèques, vous devez :\n• \u0007être adhérent à Matmut Mutualité ;\n• \u0007être également l’assuré au titre de l’adhésion ;\n• \u0007être âgé (l’âge de l’assuré est calculé tel qu’indiqué à l’article 5) :\n- \u0007d’au moins 50 ans et au plus de 80 ans,\n- \u0007résider en France métropolitaine.",
-   "page": 5
-  },
-  {
-   "quote": "Définition du décès par accident : décès résultant exclusivement d’un accident, c’est-à-dire d’un événement non intentionnel de \nla part de l’assuré résultant de l’action soudaine et imprévisible d’une cause extérieure.",
-   "page": 6
-  },
-  {
-   "quote": "en cas de décès de l’assuré par maladie : à l’issue d’un délai de carence d’un an à compter de la prise d’effet de l’adhésion. \nLe délai de carence est le délai après la signature du contrat à l’issue duquel les garanties prennent effet.",
-   "page": 6
-  },
-  {
-   "quote": "En cas de décès par maladie pendant la première année de l’adhésion, Matmut Vie remboursera au(x) bénéficiaire(s) désigné(s) \nles cotisations encaissées au titre de la garantie Capital Décès.",
-   "page": 6
-  },
-  {
-   "quote": "La durée de l’adhésion est viagère. L’adhésion prend fin et les garanties cessent en cas de décès de l’assuré ou de rachat de \nl’adhésion.",
-   "page": 6
-  },
-  {
-   "quote": "Ces frais se composent :\n• \u0007d’une partie fixée à 15 % maximum du montant de la cotisation de la garantie Capital Décès ;\n• \u0007et d’une partie fixée à 0,5 % par an du capital garanti inclue dans vos cotisations.",
-   "page": 7
-  },
-  {
-   "quote": "Matmut Vie vous verse la valeur de rachat de votre adhésion dans les 30 jours suivant la réception de votre demande de rachat total \nau siège de Matmut Vie, par chèque ou virement sur votre compte bancaire.",
-   "page": 7
-  },
-  {
-   "quote": "Sont exclus de la garantie Décès, par accident ou par maladie :\n• \u0007le suicide de l’assuré pendant la première année qui suit la date d’effet de l’adhésion ;\n• \u0007les conséquences directes ou indirectes :\n- d’explosion, de dégagement de chaleur d’irradiation provenant de transmutations de noyaux d’atomes,\n- \u0007de radiations provoquées par l’accélération artificielle de particules ou émises par des combustibles nucléaires \nou par des produits ou des déchets radioactifs,\n- d’une guerre civile ou étrangère ou, si l’adhérent y participe, d’interventions militaires.",
-   "page": 8
-  },
-  {
-   "quote": "Sont exclus de la garantie Décès, par accident :\n• \u0007les infarctus du myocarde ;\n• \u0007les affections coronariennes ;\n• \u0007les accidents vasculaires cérébraux ;\n• \u0007les affections, lésions ou atteintes corporelles résultant d’affections virales, microbiennes, parasitaires ou \ninfectieuses.",
-   "page": 8
-  },
-  {
-   "quote": "Ces pathologies sont toutefois prises en charge au titre de la garantie en cas de décès de l’assuré par maladie sous réserve de \nl’application du délai de carence prévu à l’article 4.",
-   "page": 8
-  },
-  {
-   "quote": "En cas de décès consécutif à un événement non garanti ci-dessus, Matmut Vie remboursera au(x) bénéficiaire(s) \ndésigné(s) les cotisations encaissées au titre de la garantie Capital Décès.",
-   "page": 8
-  },
-  {
-   "quote": "En cas de décès de l’assuré, Matmut Vie règle le capital garanti, (ou si le décès survient au cours de la première année de l’adhésion \nsuite à une maladie, rembourse les cotisations versées au titre de la garantie Capital Décès) aux bénéficiaires désignés dans un délai \nde 7 jours à compter de la réception de la demande complète comportant les pièces indiquées ci-après.",
-   "page": 8
-  },
-  {
-   "quote": "Vous pouvez renoncer à votre adhésion dans un délai de 30 jours calendaires révolus à compter de la date à laquelle vous êtes \ninformé que l’adhésion au contrat est conclue. Cette date correspond à la date de réception de votre certificat d’adhésion.",
-   "page": 9
-  },
-  {
-   "quote": "(en vigueur au 1er juillet 2025 et susceptible d’évoluer)",
-   "page": 9
-  },
-  {
-   "quote": "Toutes actions dérivant d’un contrat d’assurance sont prescrites par deux ans à compter de l’événement qui y donne naissance.",
-   "page": 10
-  },
-  {
-   "quote": "Le contrat collectif Matmut Prévoyance Obsèques est souscrit pour une durée d’un an et est renouvelable annuellement par tacite \nreconduction. Le contrat peut être résilié par l’une ou l’autre des parties moyennant l’envoi d’une lettre recommandée avec avis de \nréception, au minimum deux mois avant l’échéance principale fixée au 1er janvier.",
-   "page": 14
-  },
-  {
-   "quote": "Ces montants ne tiennent pas compte de la revalorisation, ni des prélèvements fiscaux et sociaux éventuels. Ils sont établis pour \nun capital de 1 000 €.",
-   "page": 15
-  },
-  {
-   "quote": "MPO.NOTICE - 10/25",
-   "page": 17
-  },
-  {
-   "quote": "Matmut Vie \nSociété Anonyme au capital de 35 887 500 € \nentièrement libéré, 344 898 358 RCS Rouen \nEntreprise régie par le Code des assurances",
-   "page": 18
-  }
- ],
- "gaps": [
-  "edition_date laissé à null : la notice ne porte aucune date d'édition imprimée. Le seul élément daté est le code de référence en pied de page 17, « MPO.NOTICE - 10/25 », repris dans `reference` ; le lire comme une édition d'octobre 2025 serait interprétatif. L'article 11 précise par ailleurs une fiscalité « (en vigueur au 1er juillet 2025 et susceptible d'évoluer) », qui date l'information fiscale et non le document.",
-  "Porteur du risque : le document nomme Matmut Vie – Société Anonyme au capital de 35 887 500 € entièrement libéré, 344 898 358 RCS Rouen (l'assureur, page 5 et page 18) et Matmut Mutualité – mutuelle soumise aux dispositions du Livre II du Code de la mutualité, SIRENE 775 701 485 (le souscripteur du contrat collectif). Les métadonnées de la tâche indiquent « Matmut (Mutuelle assurance des travailleurs mutualistes) … Siren 775 701 477 », qui n'est pas l'assureur de ce contrat ; insurer_name a été recopié tel que fourni, mais la divergence est signalée ici. Les prestations d'assistance sont, elles, « assurées par la Matmut, 66, rue de Sotteville 76100 Rouen » et mises en œuvre par Inter Mutuelles Assistance GIE (page 5). OGF services funéraires (SAS, 828 160 069 RCS Nanterre) intervient comme opérateur funéraire et mandataire d'assurance.",
-  "Aucun montant de capital garanti n'est chiffré : la notice renvoie aux « montants de capitaux proposés » et aux barèmes joints en annexe, mais les tableaux annexés (pages 15 et 16) ne donnent que des valeurs de rachat et des cumuls de cotisations établis pour un capital de référence de 1 000 €. Les montants de cotisations « joints en annexe » (article 5) ne figurent pas dans ce PDF.",
-  "Le contenu des prestations d'assistance n'est pas décrit : la notice renvoie à « la convention d'assistance Matmut Prévoyance Obsèques transmise par ailleurs » (pages 4 et 5). Aucune garantie d'assistance individuelle, aucun plafond ni aucune exclusion d'assistance ne figure donc dans ce document.",
-  "deductibles laissé à null : le document ne prévoit aucune franchise (contrat d'assurance vie). Les seuls prélèvements décrits sont des frais (15 % maximum de la cotisation Capital Décès et 0,5 % par an du capital garanti), enregistrés dans premium.",
-  "Tableaux des valeurs de rachat (pages 15 et 16) : environ 1 000 valeurs chiffrées, par âge à l'adhésion (50 à 80 ans), pour la 1re à la 8e année, en deux tableaux (cotisations temporaires 10 ans / cotisations viagères). Elles ne sont pas recopiées ligne à ligne dans le JSON ; leur existence, leur base (capital de 1 000 €) et leur légende (VR = Valeur de Rachat, CV = Cumul des cotisations versées) sont enregistrées.",
-  "Défaut apparent du texte source, conservé verbatim : à l'article 12.2 (page 10), la phrase « Conformément à l'article L. 192-1 du Code des assurances, si le souscripteur a sa résidence principale dans les départements du Bas-Rhin, du Haut-Rhin et de la Moselle, alinéa 1er du Code des assurances est porté à 5 ans en matière d'assurance sur la vie. » paraît amputée de son sujet (le délai visé par l'alinéa 1er). Elle n'a pas été corrigée.",
-  "Couche texte : la couche texte du PDF insère un caractère de contrôle U+0007 juste après la puce « • » ou le tiret « - » de la plupart des listes (113 occurrences, pages 4 à 13). Les espaces des montants et des ponctuations doubles sont des espaces fines/insécables (U+2009, U+202F, U+00A0). Ces caractères ont été conservés tels quels dans les citations de key_quotes, qui sont des tranches exactes de la couche texte ; les champs descriptifs, eux, ont été nettoyés de U+0007 et des retours à la ligne.",
-  "Vérification page : les pages du PDF portent un folio imprimé identique au numéro de page PDF à partir de la page 3 (pages 1 et 2 n'en portent pas). Les valeurs `page` citent les marqueurs [[page N]], vérifiées par recherche d'ancrage pour chaque citation.",
-  "La page 2 du PDF ne contient aucun texte (page blanche).",
-  "target_audience fixé à « particuliers » sur la base des conditions d'adhésion imprimées (être adhérent à Matmut Mutualité, être l'assuré, être âgé d'au moins 50 ans et au plus de 80 ans, résider en France métropolitaine) ; le document n'emploie nulle part le mot « particuliers ». Le libellé exact des conditions figure dans target_audience_note.",
-  "Le texte transmis dans le prompt n'était pas tronqué (66 000 caractères, 18 pages sur 18). Il a néanmoins été re-extrait du PDF local avec page.get_text(\"text\") : le contenu de chaque page est identique caractère pour caractère au texte du prompt (seuls diffèrent les sauts de ligne insérés par le harnais autour des marqueurs [[page N]])."
- ]
+  "special_conditions": [
+    {
+      "name": "Absence de garantie plancher sur les sommes versées",
+      "description": "Le contrat ne comporte pas de garantie en capital au moins égale aux sommes versées nettes de frais.",
+      "page": 4
+    },
+    {
+      "name": "Nature du contrat",
+      "description": "Matmut Prévoyance Obsèques est un contrat d’assurance de groupe (contrat collectif) sur la vie de type vie entière à adhésion facultative, souscrit par : • Matmut Mutualité – 66, rue de Sotteville 76100 Rouen (le souscripteur), au profit de ses membres, auprès de : - la société d’assurance vie, Matmut Vie – 66, rue de Sotteville 76100 Rouen, filiale du Groupe Matmut, régie par le Code des assurances (l’assureur). Le contrat Matmut Prévoyance Obsèques est régi par le Code des assurances et relève de la branche 20 (Vie-Décès) de l’article R. 321-1 du Code des assurances. Les dispositions applicables au contrat collectif sont décrites à l’article 13.",
+      "page": 5
+    },
+    {
+      "name": "Opérateur funéraire OGF services funéraires",
+      "description": "OGF services funéraires, est une SAS au capital de 252 951 399,22€, inscrite au registre du commerce et des sociétés de Nanterre, sous le numéro 828 160 069 dont le siège social est situé : immeuble Canopy – 6, rue Général-Audran, 92400 Courbevoie et disposant d’une habilitation funéraire préfectorale d’Antony n° 25-92-0252, mandataire d’assurance.",
+      "page": 5
+    },
+    {
+      "name": "Prise d'effet de l'adhésion",
+      "description": "L’adhésion prend effet à la date de réception au siège de Matmut Vie ou dans une agence Matmut de votre demande d’adhésion accompagnée du règlement de votre première cotisation, sous réserve de l’encaissement effectif de celui-ci. La date d’effet de l’adhésion figure sur votre certificat d’adhésion.",
+      "page": 5
+    },
+    {
+      "name": "Refus de l'augmentation proportionnelle des cotisations",
+      "description": "Vous pouvez refuser cette augmentation sous réserve d’en informer l’assureur par courrier adressé à Matmut Vie – Service Prévoyance – 66, rue de Sotteville 76030 Rouen CEDEX 1. Votre lettre devra nous parvenir au plus tard un mois avant l’échéance principale de votre adhésion. Dans ce cas, la cotisation de la garantie Capital Décès sera maintenue au niveau atteint avant cette augmentation et n’évoluera plus. Ce refus d’augmentation est définitif pour les années suivantes. Votre capital garanti continuera à augmenter chaque année en fonction de la seule participation aux bénéfices tel que prévu à l’article 6 de la présente notice. Cette augmentation sera donc moindre du fait de votre refus d’augmentation proportionnelle des cotisations.",
+      "page": 6
+    },
+    {
+      "name": "Défaut de paiement des cotisations — rachat ou réduction",
+      "description": "le rachat de votre adhésion si la valeur de rachat est inférieure à un montant défini annuellement en fonction de la valeur du SMIC mensuel conformément aux dispositions de l’article R. 132-2 du Code des assurances (ou sur demande de votre part par lettre adressée à Matmut Vie avant l’expiration du délai de 40 jours) ; • la réduction de votre adhésion si la valeur de rachat est supérieure au montant défini ci-avant. Le rachat met définitivement fin à l’adhésion et à toutes les garanties y afférentes. La réduction entraîne la fin des garanties d’assistance à la date d’effet de la réduction et l’arrêt du paiement des coti- sations ; la garantie en cas de décès continue à être acquise pour un capital réduit. Ce nouveau capital garanti est déterminé en fonction de la valeur de rachat et de l’âge de l’adhérent à la date d’effet de la réduction. Si la formule « Prestations » a été choisie, le rachat ou la réduction de l’adhésion met fin à l’engagement d’OGF services funéraires au titre du contrat de prestations obsèques.",
+      "page": 7
+    },
+    {
+      "name": "Rachat total",
+      "description": "Vous pouvez obtenir le rachat total de votre adhésion sous réserve, le cas échéant, de l’accord du bénéficiaire acceptant. Vous devez faire parvenir à Matmut Vie une demande de rachat total accompagnée de l’original de votre certificat d’adhésion, et le cas échéant, de l’accord écrit du(des) bénéficiaire(s) acceptant(s). Matmut Vie vous verse la valeur de rachat de votre adhésion dans les 30 jours suivant la réception de votre demande de rachat total au siège de Matmut Vie, par chèque ou virement sur votre compte bancaire. Le paiement de la valeur de rachat met définitivement fin : • à l’adhésion au contrat Matmut Prévoyance Obsèques ; • aux prestations d’assistance telles que définies dans la convention d’assistance ; • à l’engagement d’OGF services funéraires au titre du contrat de prestations obsèques (si la formule « Prestations » a été choisie). Modalités de calcul de la valeur de rachat La valeur de rachat est calculée en tenant compte notamment des cotisations effectivement réglées, des frais prélevés sur les cotisations, du coût de l’engagement de l’assureur au titre de la garantie Capital Décès et des éventuels prélèvements fiscaux et sociaux. Son calcul fait appel à des formules mathématiques qui utilisent, en particulier, les tables de mortalité prévues par le Code des assurances.",
+      "page": 7
+    },
+    {
+      "name": "Désignation du/des bénéficiaire(s) — formule « Capital »",
+      "description": "Pour la formule « Capital », vous pouvez choisir : l’une des clauses bénéficiaires standard proposées ou établir la clause libre correspondant à votre situation. La clause bénéficiaire peut être rédigée par acte sous seing privé ou par acte authentique et être déposée chez un notaire. Dans ce cas, il est recommandé d’informer Matmut Vie afin que cette clause puisse être prise en compte lors du décès de l’assuré. La clause bénéficiaire retenue est portée sur le certificat d’adhésion. Dans la mesure où les bénéficiaires n’ont pas accepté le bénéfice du capital, vous pouvez à tout moment modifier, par avenant à votre adhésion, le(s) bénéficiaire(s) du capital en cas de décès. Il est recommandé de veiller à faire évoluer la clause bénéficiaire de votre adhésion en fonction de votre situation familiale. Afin de faciliter la recherche des bénéficiaires au moment du décès de l’assuré, il est recommandé de préciser à Matmut Vie leurs coordonnées (ex : nom, prénoms, adresse, date et lieu de naissance).",
+      "page": 8
+    },
+    {
+      "name": "Désignation du bénéficiaire — formule « Prestations »",
+      "description": "Pour la formule « Prestations », vous désignez : le bénéficiaire de premier rang de façon nominative à charge pour lui de financer vos obsèques dans la limite du capital garanti, conformément au contrat de prestations souscrit auprès d’OGF services funéraires, le solde éventuel lui revenant, à défaut la personne qui aura pourvu à vos funérailles conformément au contrat de prestations souscrit auprès d’OGF services funéraires, à hauteur des frais engagés, sur facture et dans la limite du capital garanti, à défaut ou pour le solde éventuel votre conjoint non séparé de corps, ni en instance de divorce ou votre partenaire pacsé, à défaut vos héritiers.",
+      "page": 8
+    },
+    {
+      "name": "Acceptation du bénéfice",
+      "description": "Acceptation du bénéfice Au terme d’un délai de renonciation de 30 jours, l’acceptation du bénéfice à titre gratuit s’effectue par écrit selon les modalités décrites à l’article L. 132-9 du Code des assurances : • soit par un avenant signé par vous, le bénéficiaire concerné et l’assureur ; • soit par acte authentique ou sous seing privé, signé de l’adhérent et du bénéficiaire ; dans ce cas, celui-ci doit être notifié à Matmut Vie par écrit. En cas d’acceptation de la clause bénéficiaire, l’adhérent doit obtenir le consentement du(des) bénéficiaire(s) acceptant(s) pour modifier le libellé de la clause bénéficiaire ou effectuer le rachat de l’adhésion.",
+      "page": 8
+    },
+    {
+      "name": "Information annuelle",
+      "description": "Conformément aux dispositions de l’article L. 132-22 du Code des assurances, chaque année, Matmut Vie vous fait parvenir un relevé d’informations qui comporte le taux de revalorisation applicable à votre adhésion. Cette lettre vous permet d’obtenir également les informations suivantes : • votre nouveau capital garanti tenant compte de cette revalorisation ; • le nouveau montant de votre cotisation ; • la date d’échéance principale à laquelle cette augmentation s’applique ; • les valeurs de rachat et de réduction de votre adhésion.",
+      "page": 9
+    },
+    {
+      "name": "Fiscalité de l'assurance vie",
+      "description": "ARTICLE 9 RENONCIATION Vous pouvez renoncer à votre adhésion dans un délai de 30 jours calendaires révolus à compter de la date à laquelle vous êtes informé que l’adhésion au contrat est conclue. Cette date correspond à la date de réception de votre certificat d’adhésion. Ce délai de renonciation expire le dernier jour à 24 heures sans prorogation si ce jour d’expiration correspond à un samedi, un dimanche ou un jour férié. Pour renoncer à votre adhésion, vous devez adresser à Matmut Vie, Service Prévoyance, 66, rue de Sotteville 76030 Rouen CEDEX 1, une lettre recommandée avec accusé de réception ou par lettre recommandée électronique adressée à matmutvie@matmut.fr, sur le modèle ci dessous : « Je soussigné, Nom Prénom Adresse, déclare renoncer à mon adhésion au contrat Matmut Prévoyance Obsèques N° XXXX et demande le remboursement des cotisations versées. » Cette lettre doit être datée et signée. Matmut Vie s’engage à rembourser l’intégralité des sommes versées, sous réserve de leur encaissement effectif, dans un délai de 30 jours calendaires révolus suivant la réception de la lettre recommandée. La renonciation met définitivement fin à l’adhésion Matmut Prévoyance Obsèques et à toutes ses garanties. Si la formule « Prestations » a été choisie, la renonciation met également fin à l’engagement d’OGF services funéraires au titre du contrat de prestations obsèques. ARTICLE 10 INFORMATION ANNUELLE Conformément aux dispositions de l’article L. 132-22 du Code des assurances, chaque année, Matmut Vie vous fait parvenir un relevé d’informations qui comporte le taux de revalorisation applicable à votre adhésion. Cette lettre vous permet d’obtenir également les informations suivantes : • votre nouveau capital garanti tenant compte de cette revalorisation ; • le nouveau montant de votre cotisation ; • la date d’échéance principale à laquelle cette augmentation s’applique ; • les valeurs de rachat et de réduction de votre adhésion. ARTICLE 11 INFORMATION GÉNÉRALE SUR LA FISCALITÉ DE L’ASSURANCE VIE (en vigueur au 1er juillet 2025 et susceptible d’évoluer) L’adhésion est soumise à la fiscalité française de l’assurance vie sauf dispositions spécifiques applicables aux non-résidents fiscaux. Information sur la fiscalité applicable aux rachats En cas de rachat, en application des dispositions de l’article 125-OA du Code général des impôts, les produits que vous percevez sont soumis selon votre choix : • soit au barème progressif de l’impôt sur le revenu ; • soit, sur option, à un prélèvement libératoire dont le taux varie en fonction de la durée de l’adhésion (l’option doit être formulée au plus tard lors de la demande de rachat). Prélèvements sociaux Les prélèvements sociaux s’appliquent sur les produits. Information sur la fiscalité applicable en cas de décès Sauf cas d’exonérations spécifiques, notamment lorsque le bénéficiaire est désigné à titre onéreux, le(s) bénéficiaire(s) désigné(s) en cas de décès est(sont) imposé(s), après application d’un abattement : • aux droits de succession sur les primes versées après le 70e anniversaire de l’assuré en application de l’article 757 B du Code général des impôts ; • à une taxe spécifique sur les capitaux résultant des primes versées avant le 70e anniversaire de l’assuré, en application de l’article 990 I du Code général des impôts. Impôt sur la fortune Si l’adhérent est ou devient redevable de l’impôt sur la fortune, la valeur de rachat de l’adhésion au 1er janvier de chaque année est à inclure dans l’assiette taxable.",
+      "page": 9
+    },
+    {
+      "name": "Protection des données personnelles",
+      "description": "Les sociétés du Groupe Matmut collectent et traitent vos données personnelles dans le respect du règlement général sur la protection des données du 27 avril 2016, entré en application le 25 mai 2018 et de la loi du 06 janvier 1978 modifiée relative à l’informatique, aux fichiers et aux libertés.",
+      "page": 11
+    },
+    {
+      "name": "Autorité de contrôle de l'assureur",
+      "description": "L’organisme chargé du contrôle de Matmut Vie est l’Autorité de contrôle prudentiel et de résolution ( ACPR) située 4, rue de Budapest – CS 92459 – 75436 Paris CEDEX 09.",
+      "page": 13
+    },
+    {
+      "name": "Loi applicable au contrat",
+      "description": "La loi applicable au contrat est la loi française.",
+      "page": 13
+    },
+    {
+      "name": "Fonds de garantie",
+      "description": "En application de l’article L. 423-1 du Code des assurances, Matmut Vie adhère à un fonds de garantie destiné à préserver les droits des assurés et bénéficiaires de ses contrats d’assurance vie.",
+      "page": 13
+    },
+    {
+      "name": "Fonctionnement du contrat collectif",
+      "description": "Le contrat collectif Matmut Prévoyance Obsèques est souscrit pour une durée d’un an et est renouvelable annuellement par tacite reconduction. Le contrat peut être résilié par l’une ou l’autre des parties moyennant l’envoi d’une lettre recommandée avec avis de réception, au minimum deux mois avant l’échéance principale fixée au 1er janvier. En cas de résiliation du contrat collectif, que celle-ci soit à l’initiative de Matmut Mutualité ou de Matmut Vie, les adhésions en vigueur ne seront pas remises en cause. Aucune nouvelle adhésion ne sera plus acceptée et Matmut Vie s’engage à maintenir les adhésions existantes et les droits acquis en vigueur. En cas de liquidation ou de dissolution de Matmut Mutualité, quelle qu’en soit la cause et conformément à l’article L. 141-6 du Code des assurances le contrat se poursuivra de plein droit entre Matmut Vie et les personnes antérieurement adhérentes au contrat. Le contrat collectif Matmut Prévoyance Obsèques est disponible sur simple demande auprès de Matmut Vie. Les droits et obligations de l’adhérent peuvent être modifiés par des avenants conclus entre Matmut Vie et Matmut Mutualité. En application de l’article L. 141-4 du Code des assurances, l’adhérent est informé de ces modifications au moins trois mois avant la date prévue pour leur entrée en vigueur.",
+      "page": 14
+    },
+    {
+      "name": "Commercialisation à distance",
+      "description": "L’offre de commercialisation à distance de Matmut Prévoyance Obsèques est notamment régie par l’article L. 112-2-1 du Code des assurances. Durée de validité des informations La durée de validité des informations communiquées à l’adhérent correspond à la durée du contrat Matmut Prévoyance Obsèques, sous réserve d’éventuelles modifications du contrat collectif et des évolutions législatives, réglementaires et fiscales. Langue utilisée pendant la durée du contrat La langue utilisée pendant la durée du contrat est la langue française.",
+      "page": 14
+    },
+    {
+      "name": "Annexe — tableaux des valeurs de rachat",
+      "description": "ANNEXE : TABLEAUX DES VALEURS DE RACHAT Ces montants ne tiennent pas compte de la revalorisation, ni des prélèvements fiscaux et sociaux éventuels. Ils sont établis pour un capital de 1 000 €. Pour un paiement des cotisations pendant une durée de 10 ans (temporaires) : / Pour un paiement pendant toute la durée de l’adhésion (viager) : Tableaux chiffrés VR/CV par âge à l'adhésion (50 à 80 ans) et par année (1re à 8e année), pour un capital de 1 000 €.",
+      "page": 15
+    },
+    {
+      "name": "Encadré (informations essentielles)",
+      "description": "ENCADRÉ Cet encadré a pour objet d’attirer l’attention de l’adhérent sur certaines dispositions essentielles de la notice. Il est important que l’adhérent lise intégralement la notice et pose toutes les questions qu’il estime nécessaires avant de signer le bulletin d’adhésion ou le certificat d’adhésion.",
+      "page": 4
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Le contrat ne comporte pas de garantie en capital au moins égale aux sommes versées nettes de frais.",
+      "page": 4
+    },
+    {
+      "quote": "Frais à l’entrée et sur versement : des frais liés à la gestion du contrat, des cotisations et des prestations sont prélevés sur les \ncotisations à hauteur de 15 % maximum des cotisations au titre de la garantie Capital Décès et 0,5 % par an du capital garanti.",
+      "page": 4
+    },
+    {
+      "quote": "Le contrat Matmut Prévoyance Obsèques a pour objet de garantir, en cas de décès de l’assuré, selon la formule choisie",
+      "page": 5
+    },
+    {
+      "quote": "formule « Capital » : le paiement du capital garanti au(x) bénéficiaire(s) désigné(s) par l’adhérent ;\n• \u0007formule « Prestations » : le paiement du capital garanti au bénéficiaire désigné par l’adhérent pour financer les obsèques de \nl’assuré selon les modalités définies dans le contrat de prestations obsèques souscrit auprès de l’opérateur funéraire OGF services \nfunéraires.",
+      "page": 5
+    },
+    {
+      "quote": "Matmut Prévoyance Obsèques est un contrat d’assurance de groupe (contrat collectif) sur la vie de type vie entière à adhésion \nfacultative, souscrit par :\n• \u0007Matmut Mutualité – 66, rue de Sotteville 76100 Rouen (le souscripteur), au profit de ses membres, auprès de :\n- \u0007la société d’assurance vie, Matmut Vie – 66, rue de Sotteville 76100 Rouen, filiale du Groupe Matmut, régie par le Code des \nassurances (l’assureur).",
+      "page": 5
+    },
+    {
+      "quote": "Matmut Prévoyance Obsèques inclut également des prestations d’assistance dont le descriptif est communiqué séparément ; ces \ngaranties sont assurées par la Matmut, 66, rue de Sotteville 76100 Rouen – Entreprise régie par le Code des assurances et mises \nen œuvre par Inter Mutuelles Assistance GIE.",
+      "page": 5
+    },
+    {
+      "quote": "Pour pouvoir adhérer au contrat Matmut Prévoyance Obsèques, vous devez :\n• \u0007être adhérent à Matmut Mutualité ;\n• \u0007être également l’assuré au titre de l’adhésion ;\n• \u0007être âgé (l’âge de l’assuré est calculé tel qu’indiqué à l’article 5) :\n- \u0007d’au moins 50 ans et au plus de 80 ans,\n- \u0007résider en France métropolitaine.",
+      "page": 5
+    },
+    {
+      "quote": "Définition du décès par accident : décès résultant exclusivement d’un accident, c’est-à-dire d’un événement non intentionnel de \nla part de l’assuré résultant de l’action soudaine et imprévisible d’une cause extérieure.",
+      "page": 6
+    },
+    {
+      "quote": "en cas de décès de l’assuré par maladie : à l’issue d’un délai de carence d’un an à compter de la prise d’effet de l’adhésion. \nLe délai de carence est le délai après la signature du contrat à l’issue duquel les garanties prennent effet.",
+      "page": 6
+    },
+    {
+      "quote": "En cas de décès par maladie pendant la première année de l’adhésion, Matmut Vie remboursera au(x) bénéficiaire(s) désigné(s) \nles cotisations encaissées au titre de la garantie Capital Décès.",
+      "page": 6
+    },
+    {
+      "quote": "La durée de l’adhésion est viagère. L’adhésion prend fin et les garanties cessent en cas de décès de l’assuré ou de rachat de \nl’adhésion.",
+      "page": 6
+    },
+    {
+      "quote": "Ces frais se composent :\n• \u0007d’une partie fixée à 15 % maximum du montant de la cotisation de la garantie Capital Décès ;\n• \u0007et d’une partie fixée à 0,5 % par an du capital garanti inclue dans vos cotisations.",
+      "page": 7
+    },
+    {
+      "quote": "Matmut Vie vous verse la valeur de rachat de votre adhésion dans les 30 jours suivant la réception de votre demande de rachat total \nau siège de Matmut Vie, par chèque ou virement sur votre compte bancaire.",
+      "page": 7
+    },
+    {
+      "quote": "Sont exclus de la garantie Décès, par accident ou par maladie :\n• \u0007le suicide de l’assuré pendant la première année qui suit la date d’effet de l’adhésion ;\n• \u0007les conséquences directes ou indirectes :\n- d’explosion, de dégagement de chaleur d’irradiation provenant de transmutations de noyaux d’atomes,\n- \u0007de radiations provoquées par l’accélération artificielle de particules ou émises par des combustibles nucléaires \nou par des produits ou des déchets radioactifs,\n- d’une guerre civile ou étrangère ou, si l’adhérent y participe, d’interventions militaires.",
+      "page": 8
+    },
+    {
+      "quote": "Sont exclus de la garantie Décès, par accident :\n• \u0007les infarctus du myocarde ;\n• \u0007les affections coronariennes ;\n• \u0007les accidents vasculaires cérébraux ;\n• \u0007les affections, lésions ou atteintes corporelles résultant d’affections virales, microbiennes, parasitaires ou \ninfectieuses.",
+      "page": 8
+    },
+    {
+      "quote": "Ces pathologies sont toutefois prises en charge au titre de la garantie en cas de décès de l’assuré par maladie sous réserve de \nl’application du délai de carence prévu à l’article 4.",
+      "page": 8
+    },
+    {
+      "quote": "En cas de décès consécutif à un événement non garanti ci-dessus, Matmut Vie remboursera au(x) bénéficiaire(s) \ndésigné(s) les cotisations encaissées au titre de la garantie Capital Décès.",
+      "page": 8
+    },
+    {
+      "quote": "En cas de décès de l’assuré, Matmut Vie règle le capital garanti, (ou si le décès survient au cours de la première année de l’adhésion \nsuite à une maladie, rembourse les cotisations versées au titre de la garantie Capital Décès) aux bénéficiaires désignés dans un délai \nde 7 jours à compter de la réception de la demande complète comportant les pièces indiquées ci-après.",
+      "page": 8
+    },
+    {
+      "quote": "Vous pouvez renoncer à votre adhésion dans un délai de 30 jours calendaires révolus à compter de la date à laquelle vous êtes \ninformé que l’adhésion au contrat est conclue. Cette date correspond à la date de réception de votre certificat d’adhésion.",
+      "page": 9
+    },
+    {
+      "quote": "(en vigueur au 1er juillet 2025 et susceptible d’évoluer)",
+      "page": 9
+    },
+    {
+      "quote": "Toutes actions dérivant d’un contrat d’assurance sont prescrites par deux ans à compter de l’événement qui y donne naissance.",
+      "page": 10
+    },
+    {
+      "quote": "Le contrat collectif Matmut Prévoyance Obsèques est souscrit pour une durée d’un an et est renouvelable annuellement par tacite \nreconduction. Le contrat peut être résilié par l’une ou l’autre des parties moyennant l’envoi d’une lettre recommandée avec avis de \nréception, au minimum deux mois avant l’échéance principale fixée au 1er janvier.",
+      "page": 14
+    },
+    {
+      "quote": "Ces montants ne tiennent pas compte de la revalorisation, ni des prélèvements fiscaux et sociaux éventuels. Ils sont établis pour \nun capital de 1 000 €.",
+      "page": 15
+    },
+    {
+      "quote": "MPO.NOTICE - 10/25",
+      "page": 17
+    },
+    {
+      "quote": "Matmut Vie \nSociété Anonyme au capital de 35 887 500 € \nentièrement libéré, 344 898 358 RCS Rouen \nEntreprise régie par le Code des assurances",
+      "page": 18
+    }
+  ],
+  "gaps": [
+    "edition_date laissé à null : la notice ne porte aucune date d'édition imprimée. Le seul élément daté est le code de référence en pied de page 17, « MPO.NOTICE - 10/25 », repris dans `reference` ; le lire comme une édition d'octobre 2025 serait interprétatif. L'article 11 précise par ailleurs une fiscalité « (en vigueur au 1er juillet 2025 et susceptible d'évoluer) », qui date l'information fiscale et non le document.",
+    "Porteur du risque : le document nomme Matmut Vie – Société Anonyme au capital de 35 887 500 € entièrement libéré, 344 898 358 RCS Rouen (l'assureur, page 5 et page 18) et Matmut Mutualité – mutuelle soumise aux dispositions du Livre II du Code de la mutualité, SIRENE 775 701 485 (le souscripteur du contrat collectif). Les métadonnées de la tâche indiquent « Matmut (Mutuelle assurance des travailleurs mutualistes) … Siren 775 701 477 », qui n'est pas l'assureur de ce contrat ; insurer_name a été recopié tel que fourni, mais la divergence est signalée ici. Les prestations d'assistance sont, elles, « assurées par la Matmut, 66, rue de Sotteville 76100 Rouen » et mises en œuvre par Inter Mutuelles Assistance GIE (page 5). OGF services funéraires (SAS, 828 160 069 RCS Nanterre) intervient comme opérateur funéraire et mandataire d'assurance.",
+    "Aucun montant de capital garanti n'est chiffré : la notice renvoie aux « montants de capitaux proposés » et aux barèmes joints en annexe, mais les tableaux annexés (pages 15 et 16) ne donnent que des valeurs de rachat et des cumuls de cotisations établis pour un capital de référence de 1 000 €. Les montants de cotisations « joints en annexe » (article 5) ne figurent pas dans ce PDF.",
+    "Le contenu des prestations d'assistance n'est pas décrit : la notice renvoie à « la convention d'assistance Matmut Prévoyance Obsèques transmise par ailleurs » (pages 4 et 5). Aucune garantie d'assistance individuelle, aucun plafond ni aucune exclusion d'assistance ne figure donc dans ce document.",
+    "deductibles laissé à null : le document ne prévoit aucune franchise (contrat d'assurance vie). Les seuls prélèvements décrits sont des frais (15 % maximum de la cotisation Capital Décès et 0,5 % par an du capital garanti), enregistrés dans premium.",
+    "Tableaux des valeurs de rachat (pages 15 et 16) : environ 1 000 valeurs chiffrées, par âge à l'adhésion (50 à 80 ans), pour la 1re à la 8e année, en deux tableaux (cotisations temporaires 10 ans / cotisations viagères). Elles ne sont pas recopiées ligne à ligne dans le JSON ; leur existence, leur base (capital de 1 000 €) et leur légende (VR = Valeur de Rachat, CV = Cumul des cotisations versées) sont enregistrées.",
+    "Défaut apparent du texte source, conservé verbatim : à l'article 12.2 (page 10), la phrase « Conformément à l'article L. 192-1 du Code des assurances, si le souscripteur a sa résidence principale dans les départements du Bas-Rhin, du Haut-Rhin et de la Moselle, alinéa 1er du Code des assurances est porté à 5 ans en matière d'assurance sur la vie. » paraît amputée de son sujet (le délai visé par l'alinéa 1er). Elle n'a pas été corrigée.",
+    "Couche texte : la couche texte du PDF insère un caractère de contrôle U+0007 juste après la puce « • » ou le tiret « - » de la plupart des listes (113 occurrences, pages 4 à 13). Les espaces des montants et des ponctuations doubles sont des espaces fines/insécables (U+2009, U+202F, U+00A0). Ces caractères ont été conservés tels quels dans les citations de key_quotes, qui sont des tranches exactes de la couche texte ; les champs descriptifs, eux, ont été nettoyés de U+0007 et des retours à la ligne.",
+    "Vérification page : les pages du PDF portent un folio imprimé identique au numéro de page PDF à partir de la page 3 (pages 1 et 2 n'en portent pas). Les valeurs `page` citent les marqueurs [[page N]], vérifiées par recherche d'ancrage pour chaque citation.",
+    "La page 2 du PDF ne contient aucun texte (page blanche).",
+    "target_audience fixé à « particuliers » sur la base des conditions d'adhésion imprimées (être adhérent à Matmut Mutualité, être l'assuré, être âgé d'au moins 50 ans et au plus de 80 ans, résider en France métropolitaine) ; le document n'emploie nulle part le mot « particuliers ». Le libellé exact des conditions figure dans target_audience_note.",
+    "Le texte transmis dans le prompt n'était pas tronqué (66 000 caractères, 18 pages sur 18). Il a néanmoins été re-extrait du PDF local avec page.get_text(\"text\") : le contenu de chaque page est identique caractère pour caractère au texte du prompt (seuls diffèrent les sauts de ligne insérés par le harnais autour des marqueurs [[page N]])."
+  ]
 }
