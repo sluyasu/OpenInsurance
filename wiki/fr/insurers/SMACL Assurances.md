@@ -5,7 +5,7 @@ country: fr
 insurer_slug: smacl
 name: SMACL Assurances
 website: https://www.smacl.fr
-products_count: 86
+products_count: 89
 branches_covered:
 - auto
 - autres
@@ -36,7 +36,7 @@ generated: true
 
 ## Résumé
 
-**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 86 document(s) across 14 branch(es).
+**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 89 document(s) across 14 branch(es).
 
 ## Produits par branche
 
@@ -50,6 +50,7 @@ generated: true
 - [Assurance des Véhicules des collectivités territoriales - IPID](../products/smacl/Assurance%20des%20V%C3%A9hicules%20des%20collectivit%C3%A9s%20territoriales%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. ALEASSUR_DIPA_VAM_03(09_2022)
 - [Assurance du conducteur](../products/smacl/Assurance%20du%20conducteur.md) - Conditions générales (11/2022) · réf. PP_CG_CAC_05(02_2023)
 - [Assurance véhicules des associations et des entreprises de l'économie sociale et solidaire - IPID](../products/smacl/Assurance%20v%C3%A9hicules%20des%20associations%20et%20des%20entreprises%20de%20l%27%C3%A9conomie%20sociale%20et%20solidaire%20-%20IPID.md) - IPID / Fiche d'information (02/2024) · réf. CONVERGENCE_DIPA_VAM_SA_03(09_2022)
+- [Assurance véhicules à moteur des associations](../products/smacl/Assurance%20v%C3%A9hicules%20%C3%A0%20moteur%20des%20associations.md) - Conditions générales (01/2024) · réf. ADA_CG_VAM_SA_03(02_2023)
 - [Assurance véhicules à moteur des associations - IPID](../products/smacl/Assurance%20v%C3%A9hicules%20%C3%A0%20moteur%20des%20associations%20-%20IPID.md) - IPID / Fiche d'information (02/2024) · réf. ADA_DIPA_VAM_SA_02(07_2020)
 - [CONVERGENCE - Auto collaborateurs - Garantie en substitution au contrat personnel (Associatons)](../products/smacl/CONVERGENCE%20-%20Auto%20collaborateurs%20-%20Garantie%20en%20substitution%20au%20contrat%20personnel%20%28Associatons%29.md) - Conditions générales (04/2025) · réf. CONVERGENCE_CS_ACSUBS_SA_02(04_2016)
 - [Conventions spéciales CONVERGENCE - Auto collaborateurs, garantie complémentaire au contrat personnel (Associatons)](../products/smacl/Conventions%20sp%C3%A9ciales%20CONVERGENCE%20-%20Auto%20collaborateurs%2C%20garantie%20compl%C3%A9mentaire%20au%20contrat%20personnel%20%28Associatons%29.md) - Conditions générales (04/2025) · réf. CONVERGENCE_CS_ACCOMPLT_SA_05(04_2016)
@@ -81,6 +82,7 @@ generated: true
 - [Assurance loyers impayés](../products/smacl/Assurance%20loyers%20impay%C3%A9s%20%282%29.md) - Conditions générales (01/2024) · réf. LOYERSIMPAYES_CG_SA_04(02_2023)
 
 ### [Assurance construction](../branches/Assurance%20construction.md)
+- [Dommages ouvrage - IPID](../products/smacl/Dommages%20ouvrage%20-%20IPID.md) - IPID / Fiche d'information (01/2024) · réf. CONSTRUCTION_DIPA_DO_SA_01(06_2021)
 - [Tous risques chantier - IPID](../products/smacl/Tous%20risques%20chantier%20-%20IPID.md) - IPID / Fiche d'information (01/2024) · réf. CONSTRUCTION_DIPA_TRC_SA_01(06_2021)
 - [Tous risques chantier](../products/smacl/Tous%20risques%20chantier.md) - Conditions générales (11/2022) · réf. CONSTRUCTION_CG_TRC_SA_07(02_2023)
 
@@ -92,6 +94,7 @@ generated: true
 - [Multirisques caravaning](../products/smacl/Multirisques%20caravaning.md) - Conditions générales (11/2022) · réf. PP_CG_CARAVANING_03(02_2023)
 
 ### [Multirisque professionnelle](../branches/Multirisque%20professionnelle.md)
+- [ALÉASSUR - Bris de machine (Collectivités)](../products/smacl/AL%C3%89ASSUR%20-%20Bris%20de%20machine%20%28Collectivit%C3%A9s%29.md) - Conditions générales (01/2024) · réf. ALEASSUR CS BDM - MOD 02 (03-2016)
 - [ALÉASSUR - Conventions spéciales Dommages aux biens](../products/smacl/AL%C3%89ASSUR%20-%20Conventions%20sp%C3%A9ciales%20Dommages%20aux%20biens.md) - Conditions générales (01/2024) · réf. ALEASSUR_CS_DAB_06(06_2019)
 - [ALÉASSUR - Conventions spéciales Tous risques instruments de musique](../products/smacl/AL%C3%89ASSUR%20-%20Conventions%20sp%C3%A9ciales%20Tous%20risques%20instruments%20de%20musique.md) - Conditions générales (01/2024) · réf. ALEASSUR_CS_TRINSTRUMENT_01(02_2016)
 - [ALÉASSUR Tous risques informatique](../products/smacl/AL%C3%89ASSUR%20Tous%20risques%20informatique.md) - Conditions générales (01/2024) · réf. ALEASSUR_CS_TRI_03(03_2016)

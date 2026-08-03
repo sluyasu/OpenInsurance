@@ -1,0 +1,450 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "matmut",
+  "insurer_name": "Matmut",
+  "product_name": "Contrat « Navigation de Plaisance »",
+  "branch": "navigation",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "Le document ne désigne pas de catégorie de souscripteurs. Il vise « le propriétaire, le pilote ou le gardien de l'embarcation assurée dans le cadre de la navigation de plaisance », exclut « les sinistres survenus lorsque le bateau est utilisé dans le cadre d'une activité commerciale ou à but lucratif » et ouvre un droit de résiliation supplémentaire « s'il concerne une personne physique en dehors de toute activité professionnelle » — formulation conditionnelle, non une déclaration d'audience.",
+  "reference": "IPID.NDEP",
+  "edition_date": "06-24",
+  "product_family": "Navigation de Plaisance",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDNDEP.pdf",
+  "source_pdf": "contrat-navigation-de-plaisance-7cba87d1.pdf",
+  "source_sha256": "3a0442e25d3c6709f1f9f5fa384c617284dd7fa91488619df19010f701c00756",
+  "source_pages": 2,
+  "fetched_at": "2026-07-30",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d'information sur le produit d'assurance (IPID) du contrat « Navigation de Plaisance ». Le contrat a pour objet de garantir le propriétaire, le pilote ou le gardien de l'embarcation assurée dans le cadre de la navigation de plaisance contre les conséquences des dommages matériels ou corporels causés à des tiers (responsabilité civile). Quatre garanties sont systématiquement prévues en inclusion (responsabilité civile, frais de retirement, assistance au bateau et aux personnes embarquées, protection juridique suite à accident) et six garanties optionnelles peuvent renforcer la protection. Le document indique que les garanties donnent lieu à l'application de plafonds d'indemnisation, dont seuls les principaux sont repris.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Responsabilité civile",
+      "description": "Dommages causés aux tiers par le bateau assuré.",
+      "is_optional": false,
+      "territorial_scope": "Dans le monde entier sous réserve de la conformité de la zone navigation avec la catégorie de conception du navire et le matériel d'armement et de sécurité définis par les dispositions de la division 240 du règlement annexé à l'arrêté du 23 novembre 1987 relatif à la sécurité du navire",
+      "limits": "tous dommages corporels, matériels, immatériels consécutifs et préjudice écologique confondus jusqu'à 20 000 000 €",
+      "sub_limits": [
+        "Dommages corporels jusqu'à 15 000 000 €",
+        "Dommages matériels, immatériels consécutifs et préjudice écologique jusqu'à 5 000 000 € dont 500 000 € au titre du Préjudice écologique"
+      ],
+      "deductible": "Une franchise précisée au contrat est susceptible d'être déduite du montant de l'estimation des dommages.",
+      "conditions": [
+        "Seuls les principaux plafonds des garanties en inclusion sont indiqués ; le détail des limites de garanties figure aux Conditions générales du contrat."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Frais de retirement",
+      "description": "Garantie en inclusion systématiquement prévue.",
+      "is_optional": false,
+      "territorial_scope": "Dans le monde entier sous réserve de la conformité de la zone navigation avec la catégorie de conception du navire et le matériel d'armement et de sécurité définis par les dispositions de la division 240 du règlement annexé à l'arrêté du 23 novembre 1987 relatif à la sécurité du navire",
+      "limits": "jusqu'à 30 000 €",
+      "sub_limits": [],
+      "deductible": "Une franchise précisée au contrat est susceptible d'être déduite du montant de l'estimation des dommages.",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Assistance au bateau et aux personnes embarquées",
+      "description": "Prise en charge des personnes et dépannage-remorquage de l'embarcation assurée en cas de panne, accident, incendie, vol ou tentative de vol, perte de clé, indisponibilité du chef de bord du fait d'une maladie, d'un accident corporel ou d'un décès.",
+      "is_optional": false,
+      "territorial_scope": "Dans le monde entier sous réserve de la conformité de la zone navigation avec la catégorie de conception du navire et le matériel d'armement et de sécurité définis par les dispositions de la division 240 du règlement annexé à l'arrêté du 23 novembre 1987 relatif à la sécurité du navire",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Protection Juridique suite à accident",
+      "description": "Prise en charge des frais de défense pénale ou de recours suite à accident.",
+      "is_optional": false,
+      "territorial_scope": "Dans le monde entier sous réserve de la conformité de la zone navigation avec la catégorie de conception du navire et le matériel d'armement et de sécurité définis par les dispositions de la division 240 du règlement annexé à l'arrêté du 23 novembre 1987 relatif à la sécurité du navire",
+      "limits": "jusqu'à 20 000 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Les seuils de déclenchement des garanties de Protection Juridique sont de : - 150 € à l'amiable, - 760 € devant les Tribunaux et Cours d'Appel, - 3 000 € devant le Conseil d'État ou la Cour de Cassation."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Pertes, avaries, incendie et vandalisme subis par le bateau/ Assistance maritime au bateau",
+      "description": "Garantie optionnelle. Imprimée comme une seule entrée de liste, les deux intitulés étant séparés par une barre oblique en fin de ligne.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Une franchise précisée au contrat est susceptible d'être déduite du montant de l'estimation des dommages.",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Vol - Tentative de vol",
+      "description": "Garantie optionnelle.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Une franchise précisée au contrat est susceptible d'être déduite du montant de l'estimation des dommages.",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Objets et effets transportés",
+      "description": "Garantie optionnelle.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Protection Juridique relative au bien assuré",
+      "description": "Prise en charge de la défense des intérêts de l'assuré en cas de litige avec un tiers résultant notamment de l'achat, de la vente et de la réparation du bateau assuré.",
+      "is_optional": true,
+      "territorial_scope": "Par exception : en France métropolitaine, dans la principauté de Monaco et les Départements et Régions d'Outre-Mer (Guadeloupe, Guyane, Martinique, Mayotte et La Réunion), dans les pays de l'Union Européenne, ainsi que dans les pays suivants : Algérie, Andorre, Islande, Maroc, Norvège, République de Saint-Marin, Royaume-Uni, Suisse, Tunisie, Turquie.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Les seuils de déclenchement des garanties de Protection Juridique sont de : - 150 € à l'amiable, - 760 € devant les Tribunaux et Cours d'Appel, - 3 000 € devant le Conseil d'État ou la Cour de Cassation."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Individuelle marine",
+      "description": "Indemnisation des dommages corporels subis à l'occasion de la navigation (y compris lors de l'embarquement et du débarquement) par le pilote et les personnes transportées ou tractées.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Mise en location du bateau assuré",
+      "description": "Garantie optionnelle.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Utilisation du bateau dans le cadre d'une activité commerciale ou à but lucratif",
+      "description": "Les sinistres survenus lorsque le bateau est utilisé dans le cadre d'une activité commerciale ou à but lucratif.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Régate dont une étape est supérieure à 1 000 milles marins",
+      "description": "Les sinistres survenus lors de la participation du bateau à voile à une régate dont l'une des étapes est supérieure à 1 000 milles marins.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Documents de bord non valides",
+      "description": "Les sinistres survenus lorsque le bateau n'est pas muni de l'ensemble des documents de bord en cours de validité.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Amendes, majorations et accessoires",
+      "description": "Les amendes, leurs majorations et accessoires.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Frais d'hivernage ou de quarantaine",
+      "description": "Les frais d'hivernage ou de quarantaine consécutifs ou non à un sinistre.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Transport du bateau par voie terrestre, ferroviaire ou maritime",
+      "description": "Les dommages engageant la responsabilité civile de l'assuré ou celle d'un prestataire à l'occasion du transport du bateau par voie terrestre, ferroviaire ou maritime.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dommages intentionnels ou faute dolosive",
+      "description": "Les dommages intentionnellement causés ou provoqués par l'assuré ou toute personne ayant la garde ou la conduite du bateau ou avec sa complicité, ou résultant de sa faute dolosive.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "État alcoolique ou emprise de stupéfiants",
+      "description": "Les dommages survenus lorsque l'assuré est sous l'empire d'un état alcoolique ou sous l'emprise de stupéfiants.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Conducteur non titulaire du titre de conduite",
+      "description": "Les dommages survenus lorsque le conducteur du navire n'est pas titulaire du titre de conduite des navires en mer ou eaux intérieures délivré par les autorités françaises.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Vice propre ou vétusté du bateau",
+      "description": "Les sinistres subis par le bateau provenant de son vice propre ou de sa vétusté.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Personnes et marchandises transportées à titre onéreux",
+      "description": "Les dommages causés ou subis par les personnes et marchandises transportées à titre onéreux.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Guerre civile ou étrangère",
+      "description": "Les dommages occasionnés par la guerre civile ou étrangère.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Utilisation contraire au règlement de police des ports",
+      "description": "Les sinistres survenus lorsque l'utilisation du bateau, de ses équipements et annexes est contraire au règlement de police des ports.",
+      "applies_to": "all",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": "Une franchise précisée au contrat est susceptible d'être déduite du montant de l'estimation des dommages.",
+    "variable": null,
+    "per_coverage": {
+      "Protection Juridique": "Les seuils de déclenchement des garanties de Protection Juridique sont de : - 150 € à l'amiable, - 760 € devant les Tribunaux et Cours d'Appel, - 3 000 € devant le Conseil d'État ou la Cour de Cassation."
+    },
+    "page": 1
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Déclaration à la souscription",
+      "description": "Répondre exactement aux questions posées par l'assureur.",
+      "timing": "à la souscription",
+      "sanction": "nullité du contrat ou non-garantie",
+      "page": 2
+    },
+    {
+      "name": "Déclaration d'aggravation du risque",
+      "description": "Déclarer tout élément ayant pour effet d'aggraver le risque garanti.",
+      "timing": "en cours de contrat",
+      "sanction": "nullité du contrat ou non-garantie",
+      "page": 2
+    },
+    {
+      "name": "Déclaration de sinistre",
+      "description": "Déclarer le sinistre le plus rapidement possible dans les délais et selon les modalités précisés aux Conditions générales.",
+      "timing": "en cas de sinistre",
+      "sanction": "nullité du contrat ou non-garantie",
+      "page": 2
+    },
+    {
+      "name": "Conformité de la zone de navigation",
+      "description": "La couverture mondiale s'exerce sous réserve de la conformité de la zone navigation avec la catégorie de conception du navire et le matériel d'armement et de sécurité définis par les dispositions de la division 240 du règlement annexé à l'arrêté du 23 novembre 1987 relatif à la sécurité du navire.",
+      "timing": null,
+      "sanction": null,
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclaration du sinistre",
+      "description": "Déclarer le sinistre le plus rapidement possible dans les délais et selon les modalités précisés aux Conditions générales.",
+      "deadline": "le plus rapidement possible, dans les délais précisés aux Conditions générales",
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat est conclu pour une durée d'un an. La première année, il est conclu pour la période comprise entre sa date d'effet et la date d'échéance annuelle indiquée aux Conditions particulières.",
+    "tacit_renewal": true,
+    "notice_period": "un mois (résiliation à l'échéance annuelle)",
+    "methods": [
+      "par lettre ou tout autre support durable (courrier électronique, lettre recommandée électronique…)",
+      "par déclaration faite auprès de l'assureur ou de son représentant",
+      "lorsque la conclusion du contrat est proposée par un mode de communication à distance, par ce même mode"
+    ],
+    "special_rights": [
+      "À l'échéance annuelle, sous réserve de respecter un délai de préavis d'un mois.",
+      "S'il concerne une personne physique en dehors de toute activité professionnelle : lors de son renouvellement à l'échéance annuelle, dans les vingt jours suivant la date d'envoi de l'avis d'échéance."
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "Les paiements doivent être effectués lors de la souscription du contrat et à l'échéance annuelle.",
+      "Les cotisations sont annuelles et payables d'avance par prélèvement automatique, carte bancaire, chèque ou virement.",
+      "Elles peuvent être réglées en plusieurs fractions sans frais supplémentaires selon les modalités prévues au contrat.",
+      "Les garanties prennent effet aux date et heure indiquées aux conditions particulières (sous réserve que le paiement de la première cotisation ou première fraction de cotisation soit honoré)."
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Mention légale du porteur de risque imprimée sur le document",
+      "description": "Matmut - Mutuelle assurance des travailleurs mutualistes. Société d'assurance mutuelle à cotisations variables. Entreprise régie par le Code des Assurances - Siège social : 66 rue de Sotteville 76100 Rouen. N° Siren 775 701 477",
+      "page": 1
+    },
+    {
+      "name": "Portée du document",
+      "description": "Ce document d'information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l'information complète sur ce produit dans la documentation précontractuelle et contractuelle.",
+      "page": 1
+    },
+    {
+      "name": "Plafonds d'indemnisation",
+      "description": "Les garanties donnent lieu à l'application de plafonds d'indemnisation. Seuls les principaux plafonds des garanties en inclusion sont indiqués ; le détail des limites de garanties figure aux Conditions générales du contrat.",
+      "page": 1
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Ce contrat d’assurance a pour objet de garantir le propriétaire, le pilote ou le gardien de l'embarcation assurée dans le cadre de la \nnavigation de plaisance contre les conséquences des dommages matériels ou corporels causés à des tiers (responsabilité civile).  \nIl comprend également des garanties optionnelles pour répondre à des besoins spécifiques ou renforcer le niveau de protection.  \nLes garanties donnent lieu à l’application de plafonds d’indemnisation.",
+      "context": "Objet du contrat",
+      "page": 1
+    },
+    {
+      "quote": "Seuls les principaux plafonds des garanties en inclusion sont \nindiqués ci-après. Le détail des limites de garanties figure aux \nConditions générales du contrat.",
+      "context": "Portée des plafonds indiqués",
+      "page": 1
+    },
+    {
+      "quote": "Responsabilité civile : dommages causés aux tiers par le \nbateau assuré",
+      "context": "Garantie RC",
+      "page": 1
+    },
+    {
+      "quote": "La garantie de Responsabilité civile ci-dessus est acquise : \ntous dommages corporels, matériels, immatériels consécutifs \net préjudice écologique confondus jusqu’à 20 000 000 € \nSauf limitations suivantes : \nDommages corporels jusqu'à 15 000 000 € \nDommages matériels, immatériels consécutifs et préjudice \nécologique jusqu'à 5 000 000 € dont 500 000 € au titre du \nPréjudice écologique",
+      "context": "Plafonds et sous-limites RC",
+      "page": 1
+    },
+    {
+      "quote": "Frais de retirement jusqu’à 30 000 €",
+      "context": "Plafond frais de retirement",
+      "page": 1
+    },
+    {
+      "quote": "Assistance au bateau et aux personnes embarquées : prise \nen charge des personnes et dépannage-remorquage de \nl'embarcation assurée en cas de panne, accident, incendie, \nvol ou tentative de vol, perte de clé, indisponibilité du chef de \nbord du fait d'une maladie, d'un accident corporel ou d'un \ndécès",
+      "context": "Garantie assistance",
+      "page": 1
+    },
+    {
+      "quote": "Protection Juridique suite à accident : prise en charge des \nfrais de défense pénale ou de recours suite à accident jusqu'à \n20 000 €",
+      "context": "Plafond PJ accident",
+      "page": 1
+    },
+    {
+      "quote": "Protection Juridique relative au bien assuré : prise en charge \nde la défense des intérêts de l'assuré en cas de litige avec un \ntiers résultant notamment de l'achat, de la vente et de la \nréparation du bateau assuré",
+      "context": "Option PJ bien assuré",
+      "page": 1
+    },
+    {
+      "quote": "Individuelle marine : indemnisation des dommages corporels \nsubis à l'occasion de la navigation (y compris lors de \nl'embarquement et du débarquement) par le pilote et les \npersonnes transportées ou tractées",
+      "context": "Option individuelle marine",
+      "page": 1
+    },
+    {
+      "quote": "Les sinistres survenus lorsque le bateau est utilisé dans \nle cadre d’une activité commerciale ou à but lucratif",
+      "context": "Non-assuré : usage commercial",
+      "page": 1
+    },
+    {
+      "quote": "Les sinistres survenus lors de la participation du bateau à \nvoile à une régate dont l'une des étapes est supérieure à   \n1 000 milles marins",
+      "context": "Non-assuré : régate longue",
+      "page": 1
+    },
+    {
+      "quote": "Les dommages engageant la responsabilité civile de \nl’assuré ou celle d’un prestataire à l’occasion du transport \ndu bateau par voie terrestre, ferroviaire ou maritime",
+      "context": "Non-assuré : transport du bateau",
+      "page": 1
+    },
+    {
+      "quote": "Les dommages intentionnellement causés ou provoqués \npar l’assuré ou toute personne ayant la garde ou la \nconduite du bateau ou avec sa complicité, ou résultant de \nsa faute dolosive.",
+      "context": "Exclusion faute intentionnelle",
+      "page": 1
+    },
+    {
+      "quote": "Les sinistres subis par le bateau provenant de son vice \npropre ou de sa vétusté.",
+      "context": "Exclusion vice propre / vétusté",
+      "page": 1
+    },
+    {
+      "quote": "Une franchise précisée au contrat est susceptible d'être \ndéduite du montant de l'estimation des dommages.",
+      "context": "Franchise",
+      "page": 1
+    },
+    {
+      "quote": "Les seuils de déclenchement des garanties de Protection \nJuridique sont de : \n- 150 € à l’amiable, \n- 760 € devant les Tribunaux et Cours d’Appel, \n- 3 000 € devant le Conseil d’État ou la Cour de Cassation.",
+      "context": "Seuils d'intervention PJ",
+      "page": 1
+    },
+    {
+      "quote": "Matmut - Mutuelle assurance des travailleurs mutualistes. Société d’assurance mutuelle à cotisations variables.  \nEntreprise régie par le Code des Assurances - Siège social : 66 rue de Sotteville 76100 Rouen.  \nN° Siren 775 701 477",
+      "context": "Bloc d'identité du porteur de risque",
+      "page": 1
+    },
+    {
+      "quote": "Dans le monde entier sous réserve de la conformité de la zone navigation avec la catégorie de conception du navire et le matériel \nd’armement et de sécurité définis par les dispositions de la division 240 du règlement annexé à l’arrêté du 23 novembre 1987 relatif \nà la sécurité du navire.",
+      "context": "Étendue territoriale",
+      "page": 2
+    },
+    {
+      "quote": "Par exception, la garantie de Protection Juridique relative au bien assuré s'applique : \n- en France métropolitaine, dans la principauté de Monaco et les Départements et Régions d’Outre-Mer (Guadeloupe, Guyane, \nMartinique, Mayotte et La Réunion),  \n- dans les pays de l'Union Européenne, \n- ainsi que dans les pays suivants : Algérie, Andorre, Islande, Maroc, Norvège, République de Saint-Marin, Royaume-Uni, Suisse, \nTunisie, Turquie.",
+      "context": "Étendue territoriale PJ bien assuré",
+      "page": 2
+    },
+    {
+      "quote": "Sous peine de nullité du contrat ou de non-garantie, vous devez : \n- à la souscription : répondre exactement aux questions posées par l’assureur,  \n- en cours de contrat : déclarer tout élément ayant pour effet d’aggraver le risque garanti, \n- en cas de sinistre : déclarer le sinistre le plus rapidement possible dans les délais et selon les modalités précisés aux Conditions \ngénérales",
+      "context": "Obligations de l'assuré",
+      "page": 2
+    },
+    {
+      "quote": "Le contrat est conclu pour une durée d’un an et se renouvelle automatiquement à sa date d’échéance, sauf résiliation du contrat \npar l’une des parties dans les formes et conditions prévues aux Conditions générales. La première année, il est conclu pour la \npériode comprise entre sa date d’effet et la date d’échéance annuelle indiquée aux Conditions particulières.",
+      "context": "Durée et reconduction",
+      "page": 2
+    },
+    {
+      "quote": "Elle peut être demandée aux conditions prévues au contrat : \n- à son échéance annuelle, sous réserve de respecter un délai de préavis d’un mois,  \net, s’il concerne une personne physique en dehors de toute activité professionnelle, \n- lors de son renouvellement à l’échéance annuelle, dans les vingt jours suivant la date d’envoi de l’avis d’échéance.",
+      "context": "Modalités de résiliation",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "Contrôle d'inversion de colonnes : NÉGATIF sur ce document, vérifié sur rendu 5× de la bande y 280–560. Le texte plat émet la colonne gauche (« QU'EST-CE QUI EST ASSURÉ ? », x0=33,7) puis la colonne droite haute (« QU'EST CE QUI N'EST PAS ASSURÉ ? », x0=326,0) puis la colonne droite basse (« Y-A-T-IL DES EXCLUSIONS À LA COUVERTURE ? », x0=324,4) — ordre identique à l'impression.",
+    "Le bandeau de tête de la page 1 (« ASSURANCE NAVIGATION DE PLAISANCE », « Document d'information sur le produit d'assurance », le bloc d'identité Matmut et « Produit : Contrat « Navigation de Plaisance » ») est émis EN DERNIER dans le texte plat (blocs y0=20,7 / 41,1 / 94,0 rendus après le bas de page).",
+    "Marqueurs (aucun tracé vectoriel de taille de puce sur la page ; tous les marqueurs sont du texte) : couvert = 4 × U+F0FC Wingdings-Regular 9 pt couleur 0x00B050 à x0=33,7 (Responsabilité civile y=309,5 ; Frais de retirement y=413,0 ; Assistance au bateau y=423,4 ; Protection Juridique suite à accident y=485,4). Non-assuré = 6 × « × » Arial-BoldMT 10 pt couleur 0xFF0000 à x0=326,0. Exclusions = 9 × « ! » Calibri 10 pt couleur 0xF79646 à x0=324,4, soit 7 sous « Principales exclusions (légales et contractuelles) » et 2 sous « Principales restrictions : franchises et seuils d'intervention ». Comptes fermés : 4 + 6 + 9 = 19 marqueurs pour 19 items lus.",
+    "Les 2 items marqués « ! » sous « Principales restrictions » ne sont pas des exclusions : la franchise et les seuils de déclenchement de la Protection Juridique sont portés en `deductibles` (et en `conditions` des deux garanties de Protection Juridique). `exclusions` compte donc 13 entrées (6 « n'est pas assuré » + 7 exclusions), pas 15.",
+    "Les 6 « Garanties optionnelles » sont imprimées SANS AUCUNE PUCE (x0=42,2). Elles sont conservées comme garanties, rattachées par abscisse et par l'intitulé de rubrique « Garanties optionnelles » qui les précède.",
+    "La première garantie optionnelle est imprimée en une seule entrée de liste sur deux lignes : « Pertes, avaries, incendie et vandalisme subis par le bateau/ » puis « Assistance maritime au bateau ». Conservée en une seule garantie, la barre oblique et la composition étant signalées dans sa description plutôt que scindées arbitrairement.",
+    "Le texte des sous-limites de Responsabilité civile est imprimé sans puce, sous la mention « Sauf limitations suivantes : », et n'apparaît donc pas dans le compte des marqueurs ; il est rattaché à la garantie Responsabilité civile par son abscisse (x0=33,7 / bloc y 319,7–433,3) et par la phrase d'attaque « La garantie de Responsabilité civile ci-dessus est acquise ».",
+    "Glyphes de zone privée (PUA) dans le calque texte aux emplacements de puces : U+F0FC (×4 en page 1, ×2 en page 2). Toutes les citations de `key_quotes` ont été tranchées de manière à les éviter.",
+    "Porteur de risque : le bloc d'identité imprimé nomme « Matmut - Mutuelle assurance des travailleurs mutualistes. Société d'assurance mutuelle à cotisations variables. Entreprise régie par le Code des Assurances - Siège social : 66 rue de Sotteville 76100 Rouen. N° Siren 775 701 477 ». Aucune autre personne morale n'est nommée (ni gestionnaire, ni assisteur, ni courtier) et aucun verbe d'attribution (« assuré par », « géré par ») ne figure au document, alors que la garantie « Assistance au bateau et aux personnes embarquées » suppose habituellement un assisteur : celui-ci n'est pas nommé.",
+    "`insurer_name` porte le nom d'entité « Matmut » et non la mention légale entière fournie par la métadonnée de tâche ; la mention imprimée intégrale est conservée verbatim en `special_conditions` et en `key_quotes`.",
+    "`target_audience` laissé à null : le document ne désigne aucune catégorie de souscripteurs. Sa formulation propre est reprise en `target_audience_note`.",
+    "Aucune franchise chiffrée : « Une franchise précisée au contrat est susceptible d'être déduite du montant de l'estimation des dommages », sans montant. Seuls les seuils de déclenchement de la Protection Juridique sont chiffrés (150 € / 760 € / 3 000 €).",
+    "Aucun plafond n'est indiqué pour les garanties « Assistance au bateau et aux personnes embarquées » ni pour aucune des six garanties optionnelles ; le document renvoie aux Conditions générales.",
+    "Aucune section de définitions, aucun délai de carence, aucune prescription : absents d'un IPID (`definitions`, `waiting_periods` vides, `prescription_period` null).",
+    "Référence et édition : « IPID.NDEP– 06-24 » imprimé en pied de page 2 — le caractère qui suit « NDEP » est un tiret demi-cadratin U+2013 collé au sigle, reproduit tel quel ; `reference` et `edition_date` en reprennent les deux parties.",
+    "Texte du PDF réextrait par mes soins avec page.get_text(\"text\") : les 2 pages sortent identiques à celles du prompt, aucune troncature."
+  ]
+}

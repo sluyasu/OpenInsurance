@@ -1,0 +1,543 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "macif",
+  "insurer_name": "Macif",
+  "product_name": "contrat GARANTIE DÉCÈS (Décès, invalidité et arrêt de travail temporaire)",
+  "branch": "prevoyance",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": "particuliers",
+  "target_audience_note": "« Assurance Prévoyance des particuliers » (bandeau de tête) ; « Le contrat Garantie Décès est un contrat de prévoyance temporaire destiné aux particuliers. »",
+  "reference": "DIPA GARANTIE DÉCÈS - 01/26",
+  "edition_date": "01/26",
+  "product_family": "Garantie Décès",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_deces_invalidite.pdf",
+  "source_pdf": "contrat-garantie-deces-deces-invalidite-et-arret-de-travail-temporaire-d08c4411.pdf",
+  "source_sha256": "ee99e83e74d53ae2bcfb390d5d5865932eb32c1d933f72decd1a762cf886853d",
+  "source_pages": 2,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d'information sur le produit d'assurance (DIPA) du contrat GARANTIE DÉCÈS, assuré par Macif Santé Prévoyance (SIREN n°779 558 501), mutuelle régie par le Livre II du Code de la mutualité. Contrat de prévoyance temporaire destiné aux particuliers, couvrant les risques de décès, de perte totale et irréversible d'autonomie (PTIA), d'invalidité ou d'arrêt de travail temporaire consécutifs à une maladie ou un accident, avec des garanties d'assistance. C'est un contrat « à la carte » : l'assuré sélectionne les garanties et le niveau de couverture, sous réserve des formalités d'adhésion.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Garantie Décès / PTIA",
+      "description": "Le contrat couvre l'assuré contre les risques de décès et de perte totale et irréversible d'autonomie (PTIA) consécutifs à une maladie ou un accident. Le contrat est « à la carte » : l'assuré sélectionne, selon ses besoins et le niveau de couverture souhaité, les garanties décès / PTIA, invalidité, arrêt de travail.",
+      "is_optional": true,
+      "territorial_scope": "Décès : France (départements et régions d'outre-mer compris) et lors de déplacements dans le monde entier.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Sous réserve de satisfaire aux formalités d'adhésion, il est possible d'opter pour différentes formules de garanties, sauf exceptions signalées ci-après.",
+        "Être âgé de moins de 65 ans pour les garanties Décès (page 2).",
+        "La garantie cesse à 75 ans pour Décès et Assistance (page 2)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Décès — Rente conjoint (ou adulte)",
+      "description": "Rente conjoint (ou adulte) à partir de 150 € / mois en cas de décès. Figure sous « LES GARANTIES OPTIONNELLES (au choix de l'assuré et en fonction de ses besoins) ».",
+      "is_optional": true,
+      "territorial_scope": "Décès : France (départements et régions d'outre-mer compris) et lors de déplacements dans le monde entier.",
+      "limits": "à partir de 150 € / mois",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Décès — Rente éducation",
+      "description": "Rente éducation à partir de 150 € / mois en cas de décès. Figure sous « LES GARANTIES OPTIONNELLES (au choix de l'assuré et en fonction de ses besoins) ».",
+      "is_optional": true,
+      "territorial_scope": "Décès : France (départements et régions d'outre-mer compris) et lors de déplacements dans le monde entier.",
+      "limits": "à partir de 150 € / mois",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Invalidité — Rente mensuelle",
+      "description": "Rente mensuelle à partir de 210 €, au choix de l'assuré. Figure sous « LES GARANTIES OPTIONNELLES (au choix de l'assuré et en fonction de ses besoins) ».",
+      "is_optional": true,
+      "territorial_scope": "Invalidité et Arrêt de travail temporaire : France (départements et régions d'outre-mer compris) ainsi que les déplacements dans l'Union européenne, Suisse, Royaume-Uni, Liechtenstein, Saint-Marin, Saint-Siège, Monaco et Andorre. Ces garanties sont étendues aux déplacements dans tous les autres pays sous réserve qu'il y ait eu hospitalisation.",
+      "limits": "à partir de 210 €, au choix de l'assuré",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Restriction : Couverture à partir d'un taux d'incapacité minimum de 33 % pour la garantie Invalidité.",
+        "Restriction : Délai d'attente de 90 jours en cas d'invalidité ou d'arrêt de travail temporaire consécutif à une maladie.",
+        "Être âgé de moins de 60 ans pour les garanties Invalidité et Arrêt de travail temporaire (page 2).",
+        "La garantie cesse le jour où l'assuré liquide ses droits à la retraite ou à l'échéance principale suivant la date à laquelle l'assuré atteint l'âge légal de départ en retraite à taux plein (page 2)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Invalidité — Garantie complémentaire : exonération de cotisation en cas d'invalidité",
+      "description": "Garantie complémentaire possible : exonération de cotisation en cas d'invalidité.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie complémentaire de la garantie Invalidité."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Arrêt de travail temporaire — Indemnités journalières",
+      "description": "Indemnités journalières à partir de 7 €, au choix de l'assuré. La garantie Arrêt de travail temporaire ne peut être souscrite qu'en complément de la garantie Invalidité. Figure sous « LES GARANTIES OPTIONNELLES (au choix de l'assuré et en fonction de ses besoins) ».",
+      "is_optional": true,
+      "territorial_scope": "Invalidité et Arrêt de travail temporaire : France (départements et régions d'outre-mer compris) ainsi que les déplacements dans l'Union européenne, Suisse, Royaume-Uni, Liechtenstein, Saint-Marin, Saint-Siège, Monaco et Andorre. Ces garanties sont étendues aux déplacements dans tous les autres pays sous réserve qu'il y ait eu hospitalisation.",
+      "limits": "à partir de 7 €, au choix de l'assuré ; « Le montant de l'indemnité journalière en cas d'arrêt de travail temporaire est plafonné à 1/30e de la rente mensuelle Invalidité et est limité au revenu net de l'assuré avant l'arrêt de travail. »",
+      "sub_limits": [],
+      "deductible": "Franchise pour la garantie Arrêt de travail temporaire (15, 30, 60 ou 90 jours au choix de l'assuré).",
+      "conditions": [
+        "Garantie qui ne peut être souscrite qu'en complément de la garantie Invalidité.",
+        "Restriction : Délai d'attente de 90 jours en cas d'invalidité ou d'arrêt de travail temporaire consécutif à une maladie.",
+        "Être âgé de moins de 60 ans pour les garanties Invalidité et Arrêt de travail temporaire (page 2)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Arrêt de travail temporaire — Garantie complémentaire : rachat de franchise en cas d'hospitalisation",
+      "description": "Garantie(s) complémentaire(s) possible(s) : rachat de franchise en cas d'hospitalisation (pour les franchises 15 et 30 jours).",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Pour les franchises 15 et 30 jours."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Arrêt de travail temporaire — Garantie complémentaire : exonération de cotisation en cas d'arrêt de travail temporaire",
+      "description": "Garantie(s) complémentaire(s) possible(s) : exonération de cotisation en cas d'arrêt de travail temporaire.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Assistance en cas d'immobilisation temporaire",
+      "description": "Assistance en cas d'immobilisation temporaire. Figure sous « L'ASSISTANCE SYSTÉMATIQUEMENT PRÉVUE » et est précédée d'une coche verte, laquelle signifie selon la légende du document que la garantie ou le service est systématiquement prévu au contrat.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance s'appliquent en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "La garantie Assistance cesse à 75 ans (page 2).",
+        "Les exclusions communes à toutes les garanties ne s'appliquent pas aux garanties d'assistance (« hors garanties d'assistance »)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance obsèques",
+      "description": "Assistance obsèques (service d'informations téléphoniques, aide à domicile, aide à l'organisation des obsèques). Figure sous « L'ASSISTANCE SYSTÉMATIQUEMENT PRÉVUE » et est précédée d'une coche verte, laquelle signifie selon la légende du document que la garantie ou le service est systématiquement prévu au contrat.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance s'appliquent en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "La garantie Assistance cesse à 75 ans (page 2)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Garantie en cas de décès accidentel pendant le délai d'étude de la demande",
+      "description": "Lorsque la demande fait l'objet d'une étude par le service médical de l'assureur, l'assuré bénéficie, pendant le délai d'étude de sa demande et pendant 60 jours maximum, d'une prise d'effet immédiate des garanties en cas de décès accidentel.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "limitée au montant souscrit, avec un maximum de 76 000 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Cette garantie est uniquement accordée lors de la 1re demande.",
+        "Pendant 60 jours maximum."
+      ],
+      "page": 2
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Les sinistres survenus en dehors de la période de validité du contrat",
+      "description": "Les sinistres survenus en dehors de la période de validité du contrat. Item de l'encadré « Qu'est-ce qui n'est pas assuré ? » (croix rouge).",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Les dépenses de soins de santé occasionnées par une maladie ou un accident",
+      "description": "Les dépenses de soins de santé occasionnées par une maladie ou un accident. Item de l'encadré « Qu'est-ce qui n'est pas assuré ? » (croix rouge).",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Le suicide durant la 1re année d'assurance et les conséquences des tentatives de suicide ou d'automutilations",
+      "description": "Le suicide durant la 1re année d'assurance ainsi que les conséquences des tentatives de suicide ou d'automutilations. Rubrique « LES PRINCIPALES EXCLUSIONS — Exclusions communes à toutes les garanties (hors garanties d'assistance) ».",
+      "applies_to": "Toutes les garanties (hors garanties d'assistance)",
+      "page": 1
+    },
+    {
+      "name": "Acrobaties, tentatives de records ou sports nécessitant un véhicule ou engin à moteur",
+      "description": "Les maladies ou accidents résultant de la participation à des acrobaties, à des tentatives de records ou à des sports, lorsqu'elle nécessite l'utilisation d'un véhicule ou engin à moteur. Rubrique « LES PRINCIPALES EXCLUSIONS — Exclusions communes à toutes les garanties (hors garanties d'assistance) ».",
+      "applies_to": "Toutes les garanties (hors garanties d'assistance)",
+      "page": 1
+    },
+    {
+      "name": "Accidents de la route sous l'empire d'un état alcoolique, stupéfiants ou psychotropes",
+      "description": "Les conséquences des accidents de la route survenus lorsque l'assuré conduit un véhicule terrestre à moteur sous l'empire d'un état alcoolique et des accidents liés à l'utilisation de stupéfiants ou psychotropes. Rubrique « Exclusions spécifiques aux garanties Invalidité et Arrêt de travail temporaire ».",
+      "applies_to": "Garanties Invalidité et Arrêt de travail temporaire",
+      "page": 1
+    },
+    {
+      "name": "Dépressions, troubles psychiques, burn-out, fibromyalgie et douleurs chroniques sans cause connue",
+      "description": "Les dépressions, y compris les dépressions réactionnelles, les troubles anxieux, anxio dépressifs et névrotiques, les troubles du sommeil (hypersomnie ou insomnie), le burn-out, l'épuisement, le syndrome de fatigue chronique, les troubles de l'humeur, les troubles du comportement et de la personnalité, l'anorexie, la maladie bipolaire, les TOC (Troubles Obsessionnels Compulsifs), la fibromyalgie, les douleurs chroniques sans cause connue (Syndrome Douloureux Régional Complexe ou SDRC), les manifestations somatiques, ainsi que celles liées au stress qui n'ont pas donné lieu à une hospitalisation de plus de 10 jours. Rubrique « Exclusions spécifiques aux garanties Invalidité et Arrêt de travail temporaire ».",
+      "applies_to": "Garanties Invalidité et Arrêt de travail temporaire",
+      "page": 1
+    },
+    {
+      "name": "Affections disco-vertébrales",
+      "description": "Toutes les affections disco-vertébrales suivantes :  les maladies, troubles ou lésions de la colonne vertébrale, des structures paravertébrales, de la moelle épinière, des disques intervertébraux et des racines nerveuses, y compris lorsqu'elles sont d'origine accidentelle sauf si elles s'accompagnent d'une fracture vertébrale, sont d'origine maligne ou infectieuse ou nécessitent une intervention chirurgicale pendant la période d'incapacité concernée. Rubrique « Exclusion spécifique à la garantie Arrêt de travail temporaire ».",
+      "applies_to": "Garantie Arrêt de travail temporaire",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": "Franchise pour la garantie Arrêt de travail temporaire (15, 30, 60 ou 90 jours au choix de l'assuré). Rachat de franchise en cas d'hospitalisation possible en garantie complémentaire pour les franchises 15 et 30 jours.",
+    "per_coverage": {
+      "Arrêt de travail temporaire": "15, 30, 60 ou 90 jours au choix de l'assuré"
+    },
+    "page": 1
+  },
+  "waiting_periods": [
+    {
+      "coverage": "Invalidité et Arrêt de travail temporaire",
+      "duration": "90 jours",
+      "description": "Délai d'attente de 90 jours en cas d'invalidité ou d'arrêt de travail temporaire consécutif à une maladie. (rubrique « LES PRINCIPALES RESTRICTIONS »)",
+      "page": 1
+    },
+    {
+      "coverage": "Décès (garanties communes)",
+      "duration": "1re année d'assurance",
+      "description": "Le suicide durant la 1re année d'assurance est exclu.",
+      "page": 1
+    }
+  ],
+  "obligations": [
+    {
+      "name": "Conditions d'âge à la souscription",
+      "description": "À la souscription du contrat : être âgé de plus de 18 ans ; être âgé de moins de 65 ans pour les garanties Décès et de moins de 60 ans pour les garanties Invalidité et Arrêt de travail temporaire.",
+      "timing": "À la souscription du contrat",
+      "sanction": "Sous peine, le cas échéant, de nullité du contrat d'assurance, de réduction de l'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "Résidence",
+      "description": "Habiter en France ou séjourner à l'étranger pour une durée continue n'excédant pas 12 mois.",
+      "timing": "À la souscription du contrat",
+      "sanction": "Sous peine, le cas échéant, de nullité du contrat d'assurance, de réduction de l'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "Déclaration de santé et questionnaire médical",
+      "description": "L'assuré doit répondre exactement aux questions posées par l'assureur, notamment dans la déclaration de santé et, si nécessaire, le questionnaire médical.",
+      "timing": "À la souscription du contrat",
+      "sanction": "Sous peine, le cas échéant, de nullité du contrat d'assurance, de réduction de l'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "Déclaration des sports, professions à risque et séjours à l'étranger",
+      "description": "Déclarer les éventuels sports ou professions à risque exercés ou séjours à l'étranger.",
+      "timing": "À la souscription du contrat",
+      "sanction": "Sous peine, le cas échéant, de nullité du contrat d'assurance, de réduction de l'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "Signature de la demande d'assurance et pièce d'identité",
+      "description": "Signer la demande d'assurance et fournir la copie d'une pièce d'identité en cours de validité.",
+      "timing": "À la souscription du contrat",
+      "sanction": "Sous peine, le cas échéant, de nullité du contrat d'assurance, de réduction de l'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "Désignation des bénéficiaires",
+      "description": "Le cas échéant, l'assuré doit désigner les bénéficiaires en cas de décès.",
+      "timing": "À la souscription du contrat",
+      "sanction": "Sous peine, le cas échéant, de nullité du contrat d'assurance, de réduction de l'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "Paiement de la cotisation",
+      "description": "Payer la cotisation prévue au contrat.",
+      "timing": "Durant le contrat",
+      "sanction": "Les garanties cessent en cas de non-paiement d'une cotisation ou d'une fraction de cotisation.",
+      "page": 2
+    },
+    {
+      "name": "Signalement des changements",
+      "description": "Signaler tout changement de bénéficiaire désigné, ainsi que tout changement d'activité professionnelle ou sportive.",
+      "timing": "Durant le contrat",
+      "sanction": "En cas de changement de profession, si le souscripteur refuse la nouvelle tarification des garanties, les garanties cessent.",
+      "page": 2
+    },
+    {
+      "name": "Justificatifs en cas de sinistre",
+      "description": "Fournir les justificatifs demandés.",
+      "timing": "En cas de sinistre",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Expertise médicale",
+      "description": "Le cas échéant, se soumettre à l'expertise médicale demandée par l'assureur.",
+      "timing": "En cas de sinistre",
+      "sanction": null,
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclaration du sinistre — garantie Invalidité",
+      "description": "Pour la garantie Invalidité : déclarer le sinistre dans les 45 jours suivant sa prise de connaissance.",
+      "deadline": "dans les 45 jours suivant sa prise de connaissance",
+      "page": 2
+    },
+    {
+      "step": "Déclaration du sinistre — garantie Arrêt de travail",
+      "description": "Pour la garantie Arrêt de travail : déclarer le sinistre dans les 10 jours suivant l'expiration de la franchise et exercer une activité effective et rémunérée au jour du sinistre.",
+      "deadline": "dans les 10 jours suivant l'expiration de la franchise",
+      "page": 2
+    },
+    {
+      "step": "Justificatifs",
+      "description": "Fournir les justificatifs demandés.",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Expertise médicale",
+      "description": "Le cas échéant, se soumettre à l'expertise médicale demandée par l'assureur.",
+      "deadline": null,
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "La durée du contrat est d'un an.",
+    "tacit_renewal": true,
+    "notice_period": null,
+    "methods": [
+      "Le souscripteur peut résilier le contrat à tout moment par lettre ou tout autre moyen prévu à l'article L.221 - 10 - 3 du Code de la mutualité (notamment par voie électronique via l'Espace Assurance sur le site www.macif.fr, par courrier postal ou électronique adressé à l'assureur ou par déclaration en point d'accueil physique Macif).",
+      "La résiliation prend effet à la date de réception de la demande."
+    ],
+    "special_rights": [
+      "Le souscripteur dispose d'un délai de renonciation de 30 jours à compter de la prise d'effet du contrat.",
+      "En cas de non paiement de la cotisation au-delà de 10 jours de son échéance, et après une mise en demeure restée sans effet, l'assureur pourra être amené à résilier le contrat."
+    ],
+    "page": 2
+  },
+  "prescription_period": {
+    "description": null,
+    "page": null
+  },
+  "premium": {
+    "notes": [
+      "La cotisation est annuelle et payable d'avance. Elle est due à l'échéance jusqu'à la résiliation du contrat.",
+      "Le paiement de la cotisation est exigible dans les 10 jours de son échéance.",
+      "Les cotisations peuvent être réglées par mandat de prélèvement SEPA ou à défaut par chèque (paiement annuel et semestriel uniquement) selon les modalités prévues par l'avis d'échéance.",
+      "Il est possible de demander le fractionnement du paiement de la cotisation (semestriel ou mensuel). Des frais de fractionnement sont alors appliqués.",
+      "Garantie complémentaire possible : exonération de cotisation en cas d'invalidité, et exonération de cotisation en cas d'arrêt de travail temporaire."
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "LES PRINCIPALES RESTRICTIONS — taux d'incapacité minimum",
+      "description": "Couverture à partir d'un taux d'incapacité minimum de 33 % pour la garantie Invalidité.",
+      "page": 1
+    },
+    {
+      "name": "LES PRINCIPALES RESTRICTIONS — franchise",
+      "description": "Franchise pour la garantie Arrêt de travail temporaire (15, 30, 60 ou 90 jours au choix de l'assuré).",
+      "page": 1
+    },
+    {
+      "name": "LES PRINCIPALES RESTRICTIONS — délai d'attente",
+      "description": "Délai d'attente de 90 jours en cas d'invalidité ou d'arrêt de travail temporaire consécutif à une maladie.",
+      "page": 1
+    },
+    {
+      "name": "LES PRINCIPALES RESTRICTIONS — déplacements à l'étranger",
+      "description": "Les déplacements à l'étranger ne doivent pas excéder une durée continue de 12 mois.",
+      "page": 1
+    },
+    {
+      "name": "LES PRINCIPALES RESTRICTIONS — plafond de l'indemnité journalière",
+      "description": "Le montant de l'indemnité journalière en cas d'arrêt de travail temporaire est plafonné à 1/30e de la rente mensuelle Invalidité et est limité au revenu net de l'assuré avant l'arrêt de travail.",
+      "page": 1
+    },
+    {
+      "name": "Légende des coches vertes",
+      "description": "Les garanties ou services précédés d'une coche verte sont systématiquement prévus au contrat.",
+      "page": 1
+    },
+    {
+      "name": "Prise d'effet du contrat",
+      "description": "Si la demande d'assurance est acceptée sans réserve, le contrat prend effet à la date figurant sur la demande d'assurance. Si la demande fait l'objet d'une étude par le service médical de l'assureur, le contrat prendra effet au plus tôt à la date d'acceptation de ce service. Dans tous les cas, la date d'effet du contrat est indiquée dans le certificat individuel de garantie.",
+      "page": 2
+    },
+    {
+      "name": "Cessation des garanties par âge",
+      "description": "Les garanties cessent : Décès et Assistance : à 75 ans ; Invalidité et Arrêt de travail : le jour où l'assuré liquide ses droits à la retraite ou à l'échéance principale suivant la date à laquelle l'assuré atteint l'âge légal de départ en retraite à taux plein.",
+      "page": 2
+    },
+    {
+      "name": "Cessation de toutes les garanties",
+      "description": "Toutes les garanties cessent également : en cas de décès de l'assuré ; en cas de non-paiement d'une cotisation ou d'une fraction de cotisation ; lorsque le séjour à l'étranger de l'assuré excède 12 mois continus ; en cas de fausse déclaration non intentionnelle si l'assuré refuse les nouvelles conditions d'assurance qui lui sont proposées ; en cas de fausse déclaration intentionnelle à la souscription et en cours de sinistre de la part de l'assuré ; en cas de changement de profession si le souscripteur refuse la nouvelle tarification des garanties.",
+      "page": 2
+    },
+    {
+      "name": "Portée territoriale",
+      "description": "Décès : France (départements et régions d'outre-mer compris) et lors de déplacements dans le monde entier. Invalidité et Arrêt de travail temporaire : France (départements et régions d'outre-mer compris) ainsi que les déplacements dans l'Union européenne, Suisse, Royaume-Uni, Liechtenstein, Saint-Marin, Saint-Siège, Monaco et Andorre ; ces garanties sont étendues aux déplacements dans tous les autres pays sous réserve qu'il y ait eu hospitalisation. Les garanties d'assistance s'appliquent en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco.",
+      "page": 1
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Ce contrat est assuré par Macif Santé Prévoyance (SIREN n°779 558 501), mutuelle enregistrée en France et régie par \nle Livre II du Code de la mutualité.",
+      "context": "Porteur du risque — le verbe est « assuré par ».",
+      "page": 1
+    },
+    {
+      "quote": "Le contrat Garantie Décès est un contrat de prévoyance temporaire destiné aux particuliers. Il couvre l’assuré contre les risques de décès, de perte totale et irréversible \nd’autonomie (PTIA), d’invalidité ou d’arrêt de travail temporaire consécutifs à une maladie ou un accident. Il permet également de bénéficier de garanties d’assistance.",
+      "context": "De quel type d'assurance s'agit-il ?",
+      "page": 1
+    },
+    {
+      "quote": "Le contrat Garantie Décès est un contrat à la carte, qui permet au choix \nde l’assuré de sélectionner, selon ses besoins et le niveau de couverture \nsouhaité, les garanties décès / PTIA, invalidité, arrêt de travail.",
+      "context": "Qu'est-ce qui est assuré ? — architecture du contrat (les espaces autour du « / » sont des U+200A).",
+      "page": 1
+    },
+    {
+      "quote": "Sous réserve de satisfaire aux formalités d’adhésion, il est possible d’opter \npour différentes formules de garanties, sauf exceptions signalées ci-après.",
+      "context": "Qu'est-ce qui est assuré ?",
+      "page": 1
+    },
+    {
+      "quote": "Les sinistres survenus en dehors de la période de validité du contrat.",
+      "context": "Qu'est-ce qui n'est pas assuré ? (croix rouge)",
+      "page": 1
+    },
+    {
+      "quote": "Les dépenses de soins de santé occasionnées par une maladie ou un \naccident.",
+      "context": "Qu'est-ce qui n'est pas assuré ? (croix rouge)",
+      "page": 1
+    },
+    {
+      "quote": "Le suicide durant la 1re année d’assurance ainsi que les conséquences \ndes tentatives de suicide ou d’automutilations.",
+      "context": "Exclusions communes à toutes les garanties (hors garanties d'assistance).",
+      "page": 1
+    },
+    {
+      "quote": "Les maladies ou accidents résultant de la participation à des acrobaties, à \ndes tentatives de records ou à des sports, lorsqu’elle nécessite l’utilisation \nd’un véhicule ou engin à moteur.",
+      "context": "Exclusions communes à toutes les garanties (hors garanties d'assistance).",
+      "page": 1
+    },
+    {
+      "quote": "Les conséquences des accidents de la route survenus lorsque l’assuré \nconduit un véhicule terrestre à moteur sous l’empire d’un état alcoolique \net des accidents liés à l’utilisation de stupéfiants ou psychotropes.",
+      "context": "Exclusions spécifiques aux garanties Invalidité et Arrêt de travail temporaire.",
+      "page": 1
+    },
+    {
+      "quote": "Toutes les affections disco-vertébrales suivantes :  les maladies, troubles ou \nlésions de la colonne vertébrale, des structures paravertébrales, de la moelle \népinière, des disques intervertébraux et des racines nerveuses, y compris \nlorsqu’elles sont d’origine accidentelle sauf si elles s’accompagnent d’une \nfracture vertébrale, sont d’origine maligne ou infectieuse ou nécessitent \nune intervention chirurgicale pendant la période d’incapacité concernée.",
+      "context": "Exclusion spécifique à la garantie Arrêt de travail temporaire (NBSP avant le deux-points).",
+      "page": 1
+    },
+    {
+      "quote": "Couverture à partir d’un taux d’incapacité minimum de 33 % pour la \ngarantie Invalidité.",
+      "context": "LES PRINCIPALES RESTRICTIONS.",
+      "page": 1
+    },
+    {
+      "quote": "Franchise pour la garantie Arrêt de travail temporaire (15, 30, 60 ou 90 \njours au choix de l’assuré).",
+      "context": "LES PRINCIPALES RESTRICTIONS — franchise.",
+      "page": 1
+    },
+    {
+      "quote": "Délai d’attente de 90 jours en cas d’invalidité ou d’arrêt de travail temporaire \nconsécutif à une maladie.",
+      "context": "LES PRINCIPALES RESTRICTIONS — délai d'attente.",
+      "page": 1
+    },
+    {
+      "quote": "Le montant de l’indemnité journalière en cas d’arrêt de travail temporaire \nest plafonné à 1/30e de la rente mensuelle Invalidité et est limité au revenu \nnet de l’assuré avant l’arrêt de travail.",
+      "context": "LES PRINCIPALES RESTRICTIONS — plafond de l'indemnité journalière.",
+      "page": 1
+    },
+    {
+      "quote": "Les garanties ou services précédés d’une coche verte    sont systématiquement \nprévus au contrat.",
+      "context": "Légende de la coche verte (les espaces multiples correspondent à l'image de la coche insérée en ligne).",
+      "page": 1
+    },
+    {
+      "quote": "La durée du contrat est d’un an. Il se renouvelle par tacite reconduction chaque année au 1er avril, sauf résiliation par l’une des parties dans les cas et \nconditions fixés au contrat.",
+      "context": "Quand commence la couverture et quand prend-elle fin ?",
+      "page": 2
+    },
+    {
+      "quote": "Le souscripteur dispose d’un délai de renonciation de 30 jours à compter de la prise d’effet du contrat.",
+      "context": "Droit de renonciation.",
+      "page": 2
+    },
+    {
+      "quote": "Le paiement de la cotisation est exigible dans les 10 jours de son échéance. En cas de non paiement au-delà de ce délai, et après une mise en demeure \nrestée sans effet, l’assureur pourra être amené à résilier le contrat.",
+      "context": "Quand et comment effectuer les paiements ?",
+      "page": 2
+    },
+    {
+      "quote": "La résiliation prend effet à la date de réception de la demande.",
+      "context": "Comment puis-je résilier le contrat ?",
+      "page": 2
+    },
+    {
+      "quote": "Toutefois, dans ce dernier cas, l’assuré bénéficie, pendant le délai d’étude de sa demande et pendant 60 jours maximum, d’une prise d’effet immédiate des \ngaranties en cas de décès accidentel (cette garantie est uniquement accordée lors de la 1re demande et est limitée au montant souscrit, avec un maximum \nde 76 000 €).",
+      "context": "Prise d'effet immédiate en cas de décès accidentel pendant l'étude médicale.",
+      "page": 2
+    },
+    {
+      "quote": "La cotisation est annuelle et payable d’avance. Elle est due à l’échéance jusqu’à la résiliation du contrat.",
+      "context": "Quand et comment effectuer les paiements ?",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "CONTRÔLE D'INVERSION DE COLONNES : NÉGATIF sur ce document, comptes fermés. Le texte plat émet la colonne de gauche (« Qu'est-ce qui est assuré ? », x0 ≈ 22-290) AVANT la colonne de droite (« Qu'est-ce qui n'est pas assuré ? » puis « Y a-t-il des exclusions à la couverture ? », x0 ≈ 307-568), ce qui correspond à l'impression, vérifiée sur un rendu 2x de la page 1. Aucune inversion verticale non plus : dans la colonne de droite l'encadré supérieur (y0 212-290) est émis avant l'encadré inférieur (y0 324-754). Seule anomalie d'ordre, sans conséquence de rattachement : la légende « Les garanties ou services précédés d'une coche verte… » (colonne de gauche, y 694) est émise APRÈS le dernier item de la colonne de droite, et la mention d'édition en marge verticale droite (« DIPA GARANTIE DÉCÈS - 01/26 ») est émise très tôt, juste après le chapeau.",
+    "MARQUEURS = IMAGES BITMAP, pas du texte ni des tracés. Les puces de ce DIPA sont des images placées : get_text() ne les rend pas et get_drawings() non plus. La polarité a été établie par les dimensions des images et confirmée sur un rendu 2x. Inventaire page 1 : 3 coches vertes de 22x24 px (2 items « L'ASSISTANCE SYSTÉMATIQUEMENT PRÉVUE » + 1 dans la légende), 2 croix rouges de 21x21 px (encadré « Qu'est-ce qui n'est pas assuré ? »), 10 points d'exclamation orange de 8x30 px (7 exclusions + les items des « PRINCIPALES RESTRICTIONS »), 3 coches de 28x28 px (« Où suis-je couvert(e) ? »). Total 18 placements d'images, à comparer aux 18 caractères U+0007 du calque texte de la page 1 : les comptes ferment exactement. Ces faits de mise en page ne figurent pas en key_quotes puisqu'ils ne sont pas du texte.",
+    "CARACTÈRE U+0007 (BEL) DANS LE CALQUE TEXTE : 21 occurrences (18 en page 1, 3 en page 2), résidus des puces-images. Elles se trouvent EN MILIEU de phrase (ex. « • \\x07rachat de franchise en cas d'hospitalisation ») et non seulement en tête d'item, si bien qu'une citation qui en traverserait une échouerait au contrôle de grounding. Toutes les citations de ce fichier ont été découpées programmatiquement en contournant ces caractères.",
+    "PORTEUR DU RISQUE : le document écrit « Ce contrat est assuré par Macif Santé Prévoyance (SIREN n°779 558 501), mutuelle enregistrée en France et régie par le Livre II du Code de la mutualité. » Le verbe est « assuré par », donc le porteur est Macif Santé Prévoyance — une entité du Code de la mutualité (Livre II), distincte de la MACIF société d'assurance mutuelle du Code des assurances nommée dans les métadonnées de la tâche (« Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce) »). insurer_name a donc été mis à l'entité que le document désigne comme assureur ; insurer_slug reste 'macif'. Divergence signalée ici et non corrigée.",
+    "ÉDITION : une seule ligne d'édition dans le calque texte, « DIPA GARANTIE DÉCÈS - 01/26 », imprimée verticalement dans la marge droite de la page 1 (bbox x 574,1 y 737,3-819,9). Aucun doublon superposé, aucun bloc hors du rectangle de page sur les deux pages (vérifié). edition_date = « 01/26 » tel qu'imprimé, non normalisé.",
+    "GLYPHE EURO : présent et extractible sur ce document (5 occurrences), contrairement à d'autres contrats du même éditeur. Les montants « 150 € / mois », « 210 € », « 7 € », « 76 000 € » sont donc verbatim du calque texte, unité comprise.",
+    "LES PRINCIPALES RESTRICTIONS (5 items, page 1) : elles figurent dans l'encadré « Y a-t-il des exclusions à la couverture ? » mais le document les intitule « restrictions », pas « exclusions ». Elles n'ont donc pas été versées dans exclusions[] ; elles sont reproduites verbatim dans special_conditions[] et reportées, selon leur nature, dans waiting_periods (délai d'attente de 90 jours), deductibles (franchise 15/30/60/90 jours), coverages.limits (plafond 1/30e, taux d'incapacité 33 %) et coverages.conditions.",
+    "PRESCRIPTION : le document ne mentionne aucun délai de prescription. prescription_period.description laissé à null.",
+    "DÉFINITIONS : ce DIPA ne comporte pas de lexique ; definitions[] est vide. Les sigles PTIA et SDRC sont développés en ligne dans le corps du texte mais ne font pas l'objet d'une définition contractuelle.",
+    "IS_OPTIONAL : établi sur la légende explicite du document (« Les garanties ou services précédés d'une coche verte sont systématiquement prévus au contrat ») croisée avec le titre de rubrique « LES GARANTIES OPTIONNELLES (au choix de l'assuré et en fonction de ses besoins) ». Les deux garanties d'assistance portent une coche verte : is_optional = false. Toutes les garanties listées sous « LES GARANTIES OPTIONNELLES » : is_optional = true.",
+    "Prompt non tronqué : 59 145 caractères pour le prompt complet, bien en deçà du plafond de 240 000. Les 2 pages du texte du prompt ont été vérifiées identiques octet pour octet à page.get_text(\"text\") du PDF local data/fr/pdfs/macif/prevoyance/contrat-garantie-deces-deces-invalidite-et-arret-de-travail-temporaire-d08c4411.pdf.",
+    "Porteur de risque: ce document nomme « Macif Santé Prévoyance », qui n'est pas l'entite dont la bibliotheque publique l'a fourni (Macif). Le champ insurer_name porte le proprietaire de la bibliotheque, pour le regroupement des pages; la lecture du document est celle-ci. A verifier contre le registre du superviseur avant d'en tirer qui porte le risque."
+  ]
+}

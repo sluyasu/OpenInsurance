@@ -105,6 +105,10 @@ Covéa Protection Juridique et/ou APGIS. », sans indiquer lequel de ces porteur
 - Pièges typographiques rencontrés et respectés : apostrophes courbes U+2019 dans « Vos prestations d’assistance » et « D’autres formules », et deux séparateurs de ligne U+2028, l'un coupant l'intitulé « Garantie de votre équipement / professionnel », l'autre coupant « ou par / téléphone ». Les citations ont été découpées programmatiquement dans le texte source et s'arrêtent avant ces séparateurs.
 - Le texte du prompt n'était pas tronqué. Contrôle effectué : la couche texte du PDF local (data/fr/pdfs/maaf/rc-privee/assurance-jeune-garanties-de-la-formule-personnelle-95a3ed24.pdf), ré-extraite avec page.get_text("text"), est identique caractère pour caractère au texte du prompt, au retour à la ligne final près.
 
+## Documents liés
+
+- [TEMPO JEUNES - IPID](TEMPO%20JEUNES%20-%20IPID.md) - IPID / Fiche d'information, éd. 2026-05
+
 ## Source & fidélité
 
 - Source : [https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/Tableaux_de_garanties/MAAF_TG_Tempo_jeunes_formule_personnelle.pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/Tableaux_de_garanties/MAAF_TG_Tempo_jeunes_formule_personnelle.pdf) - téléchargé le 2026-08-01 - 1 pages

@@ -5,7 +5,7 @@ country: fr
 insurer_slug: matmut
 name: Matmut
 website: https://www.matmut.fr
-products_count: 178
+products_count: 182
 branches_covered:
 - animaux
 - assurance-vie
@@ -43,7 +43,7 @@ generated: true
 
 ## Résumé
 
-**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 178 document(s) across 21 branch(es).
+**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 182 document(s) across 21 branch(es).
 
 ## Produits par branche
 
@@ -167,6 +167,7 @@ generated: true
 - [Bonus Booster Matmut (Gammes Multirisques 4 roues Référence, Essentiel et 2R Rider) - Tarifs](../products/matmut/Bonus%20Booster%20Matmut%20%28Gammes%20Multirisques%204%20roues%20R%C3%A9f%C3%A9rence%2C%20Essentiel%20et%202R%20Rider%29%20-%20Tarifs.md) - Conditions tarifaires (2026-01) · réf. BONUS.B – 01/26
 - [Bonus Booster Nouveau Contrat Matmut (usages Actif ou Sérénité) - Tarifs](../products/matmut/Bonus%20Booster%20Nouveau%20Contrat%20Matmut%20%28usages%20Actif%20ou%20S%C3%A9r%C3%A9nit%C3%A9%29%20-%20Tarifs.md) - Conditions tarifaires (01/26) · réf. BONUS.B.NC.PV 2R RIDER – 01/26
 - [Bonus Booster Nouveau Contrat Matmut (usage Intensif) - Tarifs](../products/matmut/Bonus%20Booster%20Nouveau%20Contrat%20Matmut%20%28usage%20Intensif%29%20-%20Tarifs.md) - Conditions tarifaires (01/26) · réf. BONUS.B.NC.PRO 2R RIDER – 01/26
+- [Conditions de l'Avantage Bonus Matmut Famille - Tarifs](../products/matmut/Conditions%20de%20l%27Avantage%20Bonus%20Matmut%20Famille%20-%20Tarifs.md) - Conditions tarifaires (01/26) · réf. BONUS.F - 01/26
 - [Conditions de la réduction Âge du véhicule (Gammes 4 roues Référence, Essentiel et 2R Rider) - Tarifs](../products/matmut/Conditions%20de%20la%20r%C3%A9duction%20%C3%82ge%20du%20v%C3%A9hicule%20%28Gammes%204%20roues%20R%C3%A9f%C3%A9rence%2C%20Essentiel%20et%202R%20Rider%29%20-%20Tarifs.md) - Conditions tarifaires (01/26) · réf. REDUC.AGE VEH – 01/26
 - [Conditions de la réduction Âge du véhicule — Contrat 2 roues Initiale & Co - Tarifs](../products/matmut/Conditions%20de%20la%20r%C3%A9duction%20%C3%82ge%20du%20v%C3%A9hicule%20%E2%80%94%20Contrat%202%20roues%20Initiale%20%26%20Co%20-%20Tarifs.md) - Conditions tarifaires (01-26) · réf. REDUC.AGE VEH 2R INIT & CO – 01-26
 - [Conditions de l'Avantage Bonus Matmut (Gammes Multirisques 4 roues Référence, Essentiel et 2R Rider) - Tarifs](../products/matmut/Conditions%20de%20l%27Avantage%20Bonus%20Matmut%20%28Gammes%20Multirisques%204%20roues%20R%C3%A9f%C3%A9rence%2C%20Essentiel%20et%202R%20Rider%29%20-%20Tarifs.md) - Conditions tarifaires (01/26) · réf. BONUS – 01/26
@@ -181,6 +182,8 @@ generated: true
 - [Contrat Multigaranties des associations syndicales libres et propriétaires de terrains nus - IPID](../products/matmut/Contrat%20Multigaranties%20des%20associations%20syndicales%20libres%20et%20propri%C3%A9taires%20de%20terrains%20nus%20-%20IPID.md) - IPID / Fiche d'information (11/25) · réf. IPID.IME.ASL - 11/25
 - [Contrat d'assurance Bris de machines et pertes d'exploitation suite à bris de machines](../products/matmut/Contrat%20d%27assurance%20Bris%20de%20machines%20et%20pertes%20d%27exploitation%20suite%20%C3%A0%20bris%20de%20machines.md) - Conditions générales (2024-11) · réf. MC.402 IME – 11/24
 - [Contrat d'assurance Pertes d'exploitation](../products/matmut/Contrat%20d%27assurance%20Pertes%20d%27exploitation.md) - Conditions générales (2024-11) · réf. MC.306 IME – 11/24
+- [Contrat « Association » - IPID](../products/matmut/Contrat%20%C2%AB%20Association%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (07/23) · réf. IPID.ASSO - 07/23
+- [Contrat « Matmut Pro » - IPID](../products/matmut/Contrat%20%C2%AB%20Matmut%20Pro%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (10/25) · réf. IPID.MPRO
 - [Matmut PRO](../products/matmut/Matmut%20PRO.md) - Conditions générales (11/24) · réf. CG Matmut PRO – 11/24
 - [Matmut « Caducée »](../products/matmut/Matmut%20%C2%AB%20Caduc%C3%A9e%20%C2%BB.md) - Conditions générales · réf. MC.30 – 11/24
 - [Multigaranties des collectivités et risques professionnels](../products/matmut/Multigaranties%20des%20collectivit%C3%A9s%20et%20risques%20professionnels.md) - Conditions générales (04/26) · réf. MC.1 IME – 04/26.
@@ -188,6 +191,7 @@ generated: true
 - [Risques Immobiliers](../products/matmut/Risques%20Immobiliers.md) - Conditions générales (10/25) · réf. CG.IME.IMMO – 10/25
 
 ### [Navigation de plaisance](../branches/Navigation%20de%20plaisance.md)
+- [Contrat « Navigation de Plaisance » - IPID](../products/matmut/Contrat%20%C2%AB%20Navigation%20de%20Plaisance%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (06-24) · réf. IPID.NDEP
 - [Contrat « Navigation de plaisance - Distinguo & Co » - IPID](../products/matmut/Contrat%20%C2%AB%20Navigation%20de%20plaisance%20-%20Distinguo%20%26%20Co%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (05-25) · réf. IPID.NDEP DISTINGUO & CO – 05-25
 - [Navigation de Plaisance Distinguo & Co](../products/matmut/Navigation%20de%20Plaisance%20Distinguo%20%26%20Co.md) - Conditions générales (2025-05) · réf. CG NDEP DISTINGUO & CO - 05/25
 - [Navigation de Plaisance Matmut](../products/matmut/Navigation%20de%20Plaisance%20Matmut.md) - Conditions générales (06/24) · réf. CG NDEP

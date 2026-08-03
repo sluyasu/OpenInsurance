@@ -694,6 +694,10 @@ Conformément à l'article L.114-1 du Code des assurances, toutes actions dériv
 - La Fiche d'information relative au fonctionnement des garanties « Responsabilité civile » dans le temps (pages 57 à 59) et la Charte de protection des données à caractère personnel (pages 60 à 64) sont des documents informatifs annexes, reproduits intégralement dans le PDF. Leur substance a été résumée dans special_conditions plutôt que découpée en garanties ou exclusions, car elles ne créent ni garantie ni exclusion nouvelle.
 - edition_date est reporté tel qu'imprimé, « 06/24 » (mention « CG NDEP – 06/24 » en pied de la page 65). Le document ne porte aucune autre date d'édition et aucun numéro de version.
 
+## Documents liés
+
+- [Contrat « Navigation de Plaisance » - IPID](Contrat%20%C2%AB%20Navigation%20de%20Plaisance%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information, éd. 06-24
+
 ## Source & fidélité
 
 - Source : [https://www.matmut.fr/services-en-ligne/doc/CG/CGNDEP.pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGNDEP.pdf) - téléchargé le 2026-07-30 - 66 pages

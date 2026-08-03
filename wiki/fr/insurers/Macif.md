@@ -5,7 +5,7 @@ country: fr
 insurer_slug: macif
 name: Macif
 website: https://www.macif.fr
-products_count: 110
+products_count: 113
 branches_covered:
 - animaux
 - assurance-vie
@@ -20,6 +20,7 @@ branches_covered:
 - multirisque-professionnelle
 - navigation
 - obseques
+- prevoyance
 - protection-juridique
 - rc-privee
 - rc-professionnelle
@@ -41,7 +42,7 @@ generated: true
 
 ## Résumé
 
-**Macif** - [https://www.macif.fr](https://www.macif.fr). 110 document(s) across 19 branch(es).
+**Macif** - [https://www.macif.fr](https://www.macif.fr). 113 document(s) across 20 branch(es).
 
 ## Produits par branche
 
@@ -114,8 +115,10 @@ generated: true
 - [Contrat Habitation - Formule Protectrice - Résidence principale](../products/macif/Contrat%20Habitation%20-%20Formule%20Protectrice%20-%20R%C3%A9sidence%20principale.md) - Conditions générales (Avril 2024) · réf. HAB/PROT RP/05 - 04/24 - N752
 - [Contrat Habitation - Formule Protectrice - Résidence secondaire - IPID](../products/macif/Contrat%20Habitation%20-%20Formule%20Protectrice%20-%20R%C3%A9sidence%20secondaire%20-%20IPID.md) - IPID / Fiche d'information (04/24) · réf. HAB-PROT-RS 04/24
 - [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire - IPID](../products/macif/Contrat%20Habitation%20-%20Formule%20%C3%89conomique%20-%20R%C3%A9sidence%20principale%20-%20R%C3%A9sidence%20secondaire%20-%20IPID.md) - IPID / Fiche d'information (04/24) · réf. HAB-ECO 04/24
-- [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire](../products/macif/Contrat%20Habitation%20-%20Formule%20%C3%89conomique%20-%20R%C3%A9sidence%20principale%20-%20R%C3%A9sidence%20secondaire.md) - Conditions générales (05/18) · réf. HAB/ECO/05 - 05/18 - N781
+- [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire](../products/macif/Contrat%20Habitation%20-%20Formule%20%C3%89conomique%20-%20R%C3%A9sidence%20principale%20-%20R%C3%A9sidence%20secondaire.md) - Conditions générales (Avril 2024)
+- [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire](../products/macif/Contrat%20Habitation%20-%20Formule%20%C3%89conomique%20-%20R%C3%A9sidence%20principale%20-%20R%C3%A9sidence%20secondaire%20%282%29.md) - Conditions générales (05/18) · réf. HAB/ECO/05 - 05/18 - N781
 - [Contrat Macif Habitation - Formule Construction - IPID](../products/macif/Contrat%20Macif%20Habitation%20-%20Formule%20Construction%20-%20IPID.md) - IPID / Fiche d'information (2025-06) · réf. MACIF HAB MC 06/25
+- [Contrat Macif Habitation - Formule Logement locatif - IPID](../products/macif/Contrat%20Macif%20Habitation%20-%20Formule%20Logement%20locatif%20-%20IPID.md) - IPID / Fiche d'information (2025-06) · réf. MACIF HAB LL 06/25
 - [Contrat Macif Habitation - Formules Économique, Équilibrée, Confort (Résidence secondaire) - IPID](../products/macif/Contrat%20Macif%20Habitation%20-%20Formules%20%C3%89conomique%2C%20%C3%89quilibr%C3%A9e%2C%20Confort%20%28R%C3%A9sidence%20secondaire%29%20-%20IPID.md) - IPID / Fiche d'information (06/25) · réf. MACIF HAB RS 06/25
 - [Contrat Macif Habitation - Formules Économique, Équilibrée, Confort (Assurance multirisques habitation - Résidence princ](../products/macif/Contrat%20Macif%20Habitation%20-%20Formules%20%C3%89conomique%2C%20%C3%89quilibr%C3%A9e%2C%20Confort%20%28Assurance%20multirisques%20habitation%20-%20R%C3%A9sidence%20princ.md) - IPID / Fiche d'information (06/25) · réf. MACIF HAB RP 06/25
 - [Contrat PREM'S - Assurance logement - Assurance personnelle - IPID](../products/macif/Contrat%20PREM%27S%20-%20Assurance%20logement%20-%20Assurance%20personnelle%20-%20IPID.md) - IPID / Fiche d'information (2018-10) · réf. HAB-PREMS 10/18
@@ -151,6 +154,9 @@ generated: true
 - [Garantie Obsèques - Doc](../products/macif/Garantie%20Obs%C3%A8ques%20-%20Doc.md) - Document
 - [Garantie Obsèques - IPID](../products/macif/Garantie%20Obs%C3%A8ques%20-%20IPID.md) - IPID / Fiche d'information (1er juillet 2026) · réf. DIC Garantie Obsèques - 07/26
 - [contrat GARANTIE OBSÈQUES - IPID](../products/macif/contrat%20GARANTIE%20OBS%C3%88QUES%20-%20IPID.md) - IPID / Fiche d'information (01/26) · réf. DIPA GARANTIE OBSÈQUES - 01/26
+
+### [Prévoyance](../branches/Pr%C3%A9voyance.md)
+- [contrat GARANTIE DÉCÈS (Décès, invalidité et arrêt de travail temporaire) - IPID](../products/macif/contrat%20GARANTIE%20D%C3%89C%C3%88S%20%28D%C3%A9c%C3%A8s%2C%20invalidit%C3%A9%20et%20arr%C3%AAt%20de%20travail%20temporaire%29%20-%20IPID.md) - IPID / Fiche d'information (01/26) · réf. DIPA GARANTIE DÉCÈS - 01/26
 
 ### [Protection juridique](../branches/Protection%20juridique.md)
 - [Protection Juridique (PRO&ESS) - IPID](../products/macif/Protection%20Juridique%20%28PRO%26ESS%29%20-%20IPID.md) - IPID / Fiche d'information (2020-06) · réf. Protection Juridique - PJ PRO&ESS  06/20

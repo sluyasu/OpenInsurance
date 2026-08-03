@@ -862,6 +862,10 @@ Article 43 — Prescription : « Toute action dérivant du présent contrat, qu'
 - L'Annexe I (honoraires et frais de Protection Juridique) mentionne une ligne « Conseil de l'ordre ou instance disciplinaire assimilée — Uniquement pour le contrat Caducée » : le contrat Caducée n'est ni défini ni mentionné ailleurs dans ce document.
 - Pages sans contenu contractuel extractible : page 1 (couverture), pages 61, 63 et 66 (pages de titre de sections), page 72 (mentions légales de 4e de couverture).
 
+## Documents liés
+
+- [Contrat « Matmut Pro » - IPID](Contrat%20%C2%AB%20Matmut%20Pro%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information, éd. 10/25
+
 ## Source & fidélité
 
 - Source : [https://www.matmut.fr/services-en-ligne/doc/CG/CGMPRO.pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGMPRO.pdf) - téléchargé le 2026-07-30 - 72 pages

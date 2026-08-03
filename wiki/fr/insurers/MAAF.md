@@ -5,7 +5,7 @@ country: fr
 insurer_slug: maaf
 name: MAAF
 website: https://www.maaf.fr/
-products_count: 70
+products_count: 73
 branches_covered:
 - assurance-vie
 - auto
@@ -39,7 +39,7 @@ generated: true
 
 ## Résumé
 
-**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 70 document(s) across 17 branch(es).
+**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 73 document(s) across 17 branch(es).
 
 ## Produits par branche
 
@@ -110,6 +110,7 @@ generated: true
 - [Multirisque Professionnelle - IPID](../products/maaf/Multirisque%20Professionnelle%20-%20IPID.md) - IPID / Fiche d'information (2024-06) · réf. PRO10001
 - [Multirisque des Professionnels du Bâtiment et des Travaux Publics](../products/maaf/Multirisque%20des%20Professionnels%20du%20B%C3%A2timent%20et%20des%20Travaux%20Publics.md) - Conditions générales (01/26) · réf. 11036
 - [Multirisque des Professionnels du Bâtiment et des Travaux Publics - IPID](../products/maaf/Multirisque%20des%20Professionnels%20du%20B%C3%A2timent%20et%20des%20Travaux%20Publics%20-%20IPID.md) - IPID / Fiche d'information (2024-06) · réf. MU0_IPIDPO_00-240616-FVDftz-3-1-2-01:01:24- PRO10005
+- [Nomenclature MAAF Assurances SA des activités du Bâtiment et des Travaux Publics - Doc](../products/maaf/Nomenclature%20MAAF%20Assurances%20SA%20des%20activit%C3%A9s%20du%20B%C3%A2timent%20et%20des%20Travaux%20Publics%20-%20Doc.md) - Document (06/2026) · réf. 11056
 - [PROFESSIONS DE LA RESTAURATION ET DE L'HÔTELLERIE — INTERCALAIRE](../products/maaf/PROFESSIONS%20DE%20LA%20RESTAURATION%20ET%20DE%20L%27H%C3%94TELLERIE%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales (01/25) · réf. 11045 - 01/25
 - [Professions médicales et paramédicales — Intercalaire](../products/maaf/Professions%20m%C3%A9dicales%20et%20param%C3%A9dicales%20%E2%80%94%20Intercalaire.md) - Conditions générales (03/24) · réf. 11048
 - [SYNDICATS PROFESSIONNELS ARTISANAUX — INTERCALAIRE](../products/maaf/SYNDICATS%20PROFESSIONNELS%20ARTISANAUX%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales (03/24) · réf. 11042 - 03/24
@@ -125,12 +126,14 @@ generated: true
 - [Garanties Homme Clé MAAF Entreprise](../products/maaf/Garanties%20Homme%20Cl%C3%A9%20MAAF%20Entreprise.md) - Conditions générales (06/2026) · réf. HC.017
 
 ### [Protection juridique](../branches/Protection%20juridique.md)
+- [Défense Juridique Familiale (Vie privée)](../products/maaf/D%C3%A9fense%20Juridique%20Familiale%20%28Vie%20priv%C3%A9e%29.md) - Conditions générales (01/18) · réf. 2326
 - [Garanties Protection Juridique - Fiche](../products/maaf/Garanties%20Protection%20Juridique%20-%20Fiche.md) - Fiche produit (06/2022)
 
 ### [Responsabilité civile vie privée](../branches/Responsabilit%C3%A9%20civile%20vie%20priv%C3%A9e.md)
 - [Assurance jeune (Formule Personnelle) - Fiche](../products/maaf/Assurance%20jeune%20%28Formule%20Personnelle%29%20-%20Fiche.md) - Fiche produit (06/2023)
 - [TEMPO ENFANTS - IPID](../products/maaf/TEMPO%20ENFANTS%20-%20IPID.md) - IPID / Fiche d'information (2026-05) · réf. HAB11015
 - [TEMPO HABITATION Responsabilité civile - IPID](../products/maaf/TEMPO%20HABITATION%20Responsabilit%C3%A9%20civile%20-%20IPID.md) - IPID / Fiche d'information · réf. MU0_IPIDHA_00-240616-BNcr8r-6-1-2-01:01:15- HAB11023
+- [TEMPO JEUNES - IPID](../products/maaf/TEMPO%20JEUNES%20-%20IPID.md) - IPID / Fiche d'information (2026-05) · réf. HAB11019
 
 ### [Retraite supplémentaire](../branches/Retraite%20suppl%C3%A9mentaire.md)
 - [PER WINALTO RETRAITE](../products/maaf/PER%20WINALTO%20RETRAITE.md) - Conditions générales (01/2026) · réf. 5177

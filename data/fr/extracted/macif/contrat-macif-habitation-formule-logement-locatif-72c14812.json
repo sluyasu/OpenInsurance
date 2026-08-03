@@ -1,0 +1,856 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "macif",
+  "insurer_name": "Macif",
+  "product_name": "Contrat Macif Habitation - Formule Logement locatif",
+  "branch": "habitation",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "Le document ne nomme aucune catégorie de public. Il vise « l'assuré » propriétaire d'un « logement à usage d'habitation qu'il met en location vide ou meublé » ; la garantie Catastrophes technologiques n'est acquise que « si l'assuré est une personne physique » et le droit de renonciation ne vise que le contrat « souscrit par une personne physique », ce qui implique que l'assuré peut aussi être une personne morale.",
+  "reference": "MACIF HAB LL 06/25",
+  "edition_date": "2025-06",
+  "product_family": "Macif Habitation",
+  "variant": "Formule Logement locatif",
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/dipa/dipa-macif-habitation-logement-locatif.pdf",
+  "source_pdf": "contrat-macif-habitation-formule-logement-locatif-72c14812.pdf",
+  "source_sha256": "3e54022ee492b0fdf04bca60c576b73803d4b43c15b6be109c054a9734f56dd9",
+  "source_pages": 2,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d'information sur le produit d'assurance (DIPA/IPID) du contrat Macif Habitation - Formule Logement locatif, présenté en tête comme une « Assurance multirisques habitation - Logement locatif ». La compagnie désignée est « Macif - France - Société d'assurance mutuelle à cotisations variables - SIREN n° 781 452 511 ». Le contrat protège l'assuré contre les conséquences d'événements affectant le logement à usage d'habitation qu'il met en location vide ou meublé, garantit sa responsabilité civile du fait des biens assurés et prévoit des prestations d'assistance. Il couvre la partie habitable, ses dépendances jusqu'à 50 m2 et la borne de rechargement pour véhicules électriques, seize garanties systématiques (dont Défense et recours plafonnée à 20 000 €), des extensions sur déclaration spécifique et trois options (aménagements extérieurs, piscines et spas, canalisations extérieures). La couverture s'exerce à l'adresse du risque, en France métropolitaine.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "La partie habitable du logement mis en location",
+      "description": "La partie habitable du logement mis en location.",
+      "is_optional": false,
+      "territorial_scope": "À l'adresse du risque, en France métropolitaine.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Garantie précédée d'une coche verte : systématiquement prévue au contrat.",
+        "Figure sous « LES BIENS ASSURÉS »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Les dépendances jusqu'à 50 m2",
+      "description": "Ses dépendances d'une surface totale inférieure ou égale à 50 m2.",
+      "is_optional": false,
+      "territorial_scope": "À l'adresse du risque, en France métropolitaine.",
+      "limits": "surface totale inférieure ou égale à 50 m2",
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Garantie précédée d'une coche verte : systématiquement prévue au contrat.",
+        "Figure sous « LES BIENS ASSURÉS »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "La borne de rechargement pour véhicules électriques",
+      "description": "La borne de rechargement pour véhicules électriques située à l'adresse des bâtiments assurés.",
+      "is_optional": false,
+      "territorial_scope": "À l'adresse du risque, en France métropolitaine.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Garantie précédée d'une coche verte : systématiquement prévue au contrat.",
+        "Figure sous « LES BIENS ASSURÉS ».",
+        "La borne doit être située à l'adresse des bâtiments assurés."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Les dépendances de plus de 50 m2",
+      "description": "Les dépendances d'une surface totale supérieure à 50 m2.",
+      "is_optional": true,
+      "territorial_scope": "À l'adresse du risque, en France métropolitaine.",
+      "limits": "surface totale supérieure à 50 m2",
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Figure sous « Et sur déclaration spécifique : » ; item précédé d'un tiret et non d'une coche verte.",
+        "Couverture subordonnée à une déclaration spécifique."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Les bâtiments jusqu'à 50 m2 à une adresse distincte",
+      "description": "Les bâtiments d'une surface totale inférieure ou égale à 50 m2 situés à une adresse distincte du logement assuré.",
+      "is_optional": true,
+      "territorial_scope": "À l'adresse du risque, en France métropolitaine.",
+      "limits": "surface totale inférieure ou égale à 50 m2",
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Figure sous « Et sur déclaration spécifique : » ; item précédé d'un tiret et non d'une coche verte.",
+        "Couverture subordonnée à une déclaration spécifique."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Les biens usuels et objets de valeur mis à disposition des locataires",
+      "description": "Les biens usuels et les objets de valeur, mis à la disposition des locataires ou occupants, situés à l'intérieur de la partie habitable ou des dépendances assurées, selon le plafond choisi par l'assuré en fonction de la valeur de ses biens.",
+      "is_optional": true,
+      "territorial_scope": "À l'adresse du risque, en France métropolitaine.",
+      "limits": "selon le plafond choisi par l'assuré en fonction de la valeur de ses biens",
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Figure sous « Et sur déclaration spécifique : » ; item précédé d'un tiret et non d'une coche verte.",
+        "Couverture subordonnée à une déclaration spécifique.",
+        "Les biens doivent être situés à l'intérieur de la partie habitable ou des dépendances assurées."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Dégât des eaux et gel",
+      "description": "Dégât des eaux et gel.",
+      "is_optional": false,
+      "territorial_scope": "À l'adresse du risque, en France métropolitaine.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Garantie précédée d'une coche verte : systématiquement prévue au contrat.",
+        "Figure sous « LES GARANTIES »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Incendie et explosion",
+      "description": "Incendie et explosion.",
+      "is_optional": false,
+      "territorial_scope": "À l'adresse du risque, en France métropolitaine.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Garantie précédée d'une coche verte : systématiquement prévue au contrat.",
+        "Figure sous « LES GARANTIES »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Vol et vandalisme (biens immobiliers)",
+      "description": "Vol et vandalisme : effraction et vandalisme des biens immobiliers.",
+      "is_optional": false,
+      "territorial_scope": "À l'adresse du risque, en France métropolitaine.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Garantie précédée d'une coche verte : systématiquement prévue au contrat.",
+        "Figure sous « LES GARANTIES ».",
+        "Le vol et le vandalisme du contenu des dépendances, caves, greniers, sous-sols et garages, sans communication avec la partie habitable sont limités."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Tempête, grêle et autres évènements climatiques",
+      "description": "Tempête, grêle et autres évènements climatiques.",
+      "is_optional": false,
+      "territorial_scope": "À l'adresse du risque, en France métropolitaine.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Garantie précédée d'une coche verte : systématiquement prévue au contrat.",
+        "Figure sous « LES GARANTIES »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Catastrophes naturelles",
+      "description": "Catastrophes naturelles.",
+      "is_optional": false,
+      "territorial_scope": "À l'adresse du risque, en France métropolitaine.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Garantie précédée d'une coche verte : systématiquement prévue au contrat.",
+        "Figure sous « LES GARANTIES »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Dommages électriques et foudre",
+      "description": "Dommages électriques et foudre : dommages subis par l'installation électrique.",
+      "is_optional": false,
+      "territorial_scope": "À l'adresse du risque, en France métropolitaine.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Garantie précédée d'une coche verte : systématiquement prévue au contrat.",
+        "Figure sous « LES GARANTIES »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Bris de vitres",
+      "description": "Bris de vitres.",
+      "is_optional": false,
+      "territorial_scope": "À l'adresse du risque, en France métropolitaine.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Garantie précédée d'une coche verte : systématiquement prévue au contrat.",
+        "Figure sous « LES GARANTIES »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Choc de véhicules",
+      "description": "Choc de véhicules.",
+      "is_optional": false,
+      "territorial_scope": "À l'adresse du risque, en France métropolitaine.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Garantie précédée d'une coche verte : systématiquement prévue au contrat.",
+        "Figure sous « LES GARANTIES »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Actes de terrorisme, attentats, émeutes",
+      "description": "Actes de terrorisme, attentats, émeutes.",
+      "is_optional": false,
+      "territorial_scope": "À l'adresse du risque, en France métropolitaine.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Garantie précédée d'une coche verte : systématiquement prévue au contrat.",
+        "Figure sous « LES GARANTIES »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Catastrophes technologiques",
+      "description": "Catastrophes technologiques si l'assuré est une personne physique.",
+      "is_optional": false,
+      "territorial_scope": "À l'adresse du risque, en France métropolitaine.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Garantie précédée d'une coche verte : systématiquement prévue au contrat.",
+        "Figure sous « LES GARANTIES ».",
+        "Garantie acquise seulement si l'assuré est une personne physique."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Responsabilité civile du fait des biens immobiliers",
+      "description": "Responsabilité civile du fait des biens immobiliers.",
+      "is_optional": false,
+      "territorial_scope": "À l'adresse du risque, en France métropolitaine.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Garantie précédée d'une coche verte : systématiquement prévue au contrat.",
+        "Figure sous « LES GARANTIES »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Responsabilité de l'assuré locataire qui sous-loue",
+      "description": "Responsabilité de l'assuré locataire qui sous-loue le logement assuré à un tiers.",
+      "is_optional": false,
+      "territorial_scope": "À l'adresse du risque, en France métropolitaine.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Garantie précédée d'une coche verte : systématiquement prévue au contrat.",
+        "Figure sous « LES GARANTIES »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Défense et recours",
+      "description": "Défense et recours.",
+      "is_optional": false,
+      "territorial_scope": "À l'adresse du risque, en France métropolitaine.",
+      "limits": "plafond global 20 000 € avec sous-plafonds pour les honoraires d'avocat",
+      "sub_limits": [
+        "sous-plafonds pour les honoraires d'avocat (montants non chiffrés dans le document)"
+      ],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Garantie précédée d'une coche verte : systématiquement prévue au contrat.",
+        "Figure sous « LES GARANTIES ».",
+        "Les recours amiable et judiciaires sont exercés pour les préjudices de montants supérieurs aux seuils d'intervention."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance sinistre",
+      "description": "Assistance sinistre.",
+      "is_optional": false,
+      "territorial_scope": "À l'adresse du risque, en France métropolitaine.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Garantie précédée d'une coche verte : systématiquement prévue au contrat.",
+        "Figure sous « LES GARANTIES »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Informations juridiques en ligne et par téléphone",
+      "description": "Informations juridiques en ligne et par téléphone.",
+      "is_optional": false,
+      "territorial_scope": "À l'adresse du risque, en France métropolitaine.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Garantie précédée d'une coche verte : systématiquement prévue au contrat.",
+        "Figure sous « LES GARANTIES »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Frais et pertes supplémentaires",
+      "description": "Frais et pertes supplémentaires consécutifs à un sinistre garanti.",
+      "is_optional": false,
+      "territorial_scope": "À l'adresse du risque, en France métropolitaine.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Garantie précédée d'une coche verte : systématiquement prévue au contrat.",
+        "Figure sous « LES GARANTIES ».",
+        "Suppose un sinistre garanti."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Vol et vandalisme des biens mobiliers, dommages électriques et foudre",
+      "description": "Vol et vandalisme des biens mobiliers ainsi que dommages électriques et chute de la foudre pour les appareils électriques.",
+      "is_optional": true,
+      "territorial_scope": "À l'adresse du risque, en France métropolitaine.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Figure sous « Et si les biens mobiliers mis à la disposition des locataires ou occupants sont assurés : » ; item précédé d'un tiret et non d'une coche verte.",
+        "Subordonnée à l'assurance des biens mobiliers mis à la disposition des locataires ou occupants.",
+        "La garantie Vol et vandalisme du mobilier mis à la disposition des locataires ou occupants est limitée en cas d'inhabitation de plus de 60 jours consécutifs et en l'absence de télésurveillance certifiée APSAD."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Aménagements extérieurs et mobilier de jardin",
+      "description": "Aménagements extérieurs et mobilier de jardin.",
+      "is_optional": true,
+      "territorial_scope": "À l'adresse du risque, en France métropolitaine.",
+      "limits": "plafond de 20 000 € pour les biens immobiliers, 2 000 € pour les biens mobiliers, 1 000 € pour les tags et graffitis",
+      "sub_limits": [
+        "20 000 € pour les biens immobiliers",
+        "2 000 € pour les biens mobiliers",
+        "1 000 € pour les tags et graffitis"
+      ],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Figure sous « LES OPTIONS » ; item précédé d'un tiret et non d'une coche verte."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Piscines et spas extérieurs",
+      "description": "Piscines et spas extérieurs.",
+      "is_optional": true,
+      "territorial_scope": "À l'adresse du risque, en France métropolitaine.",
+      "limits": "choix parmi 3 plafonds entre 10 000 € et 70 000 €",
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Figure sous « LES OPTIONS » ; item précédé d'un tiret et non d'une coche verte."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Canalisations extérieures",
+      "description": "Canalisations extérieures.",
+      "is_optional": true,
+      "territorial_scope": "À l'adresse du risque, en France métropolitaine.",
+      "limits": "plafond 5 000 €",
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "conditions": [
+        "Figure sous « LES OPTIONS » ; item précédé d'un tiret et non d'une coche verte."
+      ],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Biens personnels des locataires ou occupants",
+      "description": "Les biens personnels des locataires ou occupants.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Biens immobiliers hors France métropolitaine",
+      "description": "Les biens immobiliers situés en dehors de la France métropolitaine.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Biens utilisés pour une activité professionnelle",
+      "description": "Les biens immobiliers et mobiliers utilisés pour l'exercice d'une activité professionnelle.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Bâtiments en cours de construction ou de démolition",
+      "description": "Les bâtiments en cours de construction ou de démolition.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Immeubles en ruine",
+      "description": "Les immeubles ou parties d'immeuble en ruine.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Serres et châssis",
+      "description": "Les serres et châssis.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Véhicules terrestres à moteur, remorques et caravanes",
+      "description": "Les véhicules terrestres à moteur, leurs remorques ou caravanes, soumis à l'obligation d'assurance en France, ainsi que les accessoires qui y sont fixés.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Bateaux, embarcations et véhicules nautiques",
+      "description": "Les bateaux, embarcations et véhicules nautiques, à rame, à voile ou à moteur, ainsi que les accessoires qui y sont fixés.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Avions et aéronefs",
+      "description": "Les avions et autres aéronefs, autres que les drones de loisirs, et les accessoires qui y sont fixés.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Faute intentionnelle ou dolosive",
+      "description": "Les dommages résultant d'une faute intentionnelle ou dolosive de l'assuré.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Violation des lois constituant un crime ou un délit intentionnel",
+      "description": "Les dommages résultant de la violation des lois ou règlements par l'assuré constituant un crime ou un délit intentionnel.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Guerre étrangère ou civile",
+      "description": "Les dommages résultant de la guerre étrangère ou civile.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Vol des objets de valeur",
+      "description": "Le vol des objets de valeur.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Inondation sur terrain couvert par un PPRI sans travaux de mise en conformité",
+      "description": "Les dommages causés par une inondation aux biens assurés situés sur des terrains couverts par un Plan de Prévention des Risques d'inondation, si les travaux de mise en conformité édictés par ce plan n'ont pas été réalisés dans les délais prescrits.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Inondation - biens construits en violation d'un PPRI",
+      "description": "Les dommages causés par une inondation aux biens immobiliers construits en violation des dispositions d'un Plan de Prévention des Risques d'inondation en vigueur lors de leur édification, ainsi qu'à leur contenu.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dommages immatériels non consécutifs",
+      "description": "La responsabilité pour les dommages immatériels non consécutifs à un dommage matériel ou corporel garanti causés aux tiers.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dommages aux biens de l'assuré ou qui lui sont confiés",
+      "description": "La responsabilité pour les dommages subis par les biens immobiliers, les biens mobiliers et les animaux, dont l'assuré est propriétaire ou qui lui sont loués, prêtés ou confiés.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Travaux touchant à l'ossature d'un immeuble ou terrassement",
+      "description": "La responsabilité pour les dommages causés aux tiers lors de travaux touchant à l'ossature d'un immeuble ou par des travaux de terrassement réalisés par l'assuré ou toute personne lui apportant son aide.",
+      "applies_to": "all",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Aucun montant n'est indiqué.",
+    "variable": "Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+    "per_coverage": null,
+    "page": 1
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "À la souscription du contrat",
+      "description": "Répondre exactement à toutes les questions posées par l'assureur.",
+      "timing": "À la souscription du contrat",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "En cours de contrat",
+      "description": "Déclarer tous les changements qui modifient les renseignements fournis lors de la souscription.",
+      "timing": "dans les 15 jours à partir du moment où l'assuré en a connaissance",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "Conservation des justificatifs",
+      "description": "Conserver tout document permettant de prouver l'existence et la valeur des biens.",
+      "timing": null,
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "En cas de sinistre - limiter le sinistre",
+      "description": "Prendre toutes les dispositions nécessaires pour stopper l'évolution du sinistre, sauver tous les biens qui peuvent l'être et veiller à leur conservation.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "En cas de sinistre - déclaration",
+      "description": "Déclarer le sinistre à l'assureur à partir du moment où l'assuré en a connaissance et au plus tard dans les 5 jours ouvrés, dans les 2 jours ouvrés pour un vol, dans les 30 jours suivant la publication de l'arrêté pour un sinistre catastrophe naturelle.",
+      "timing": "5 jours ouvrés ; 2 jours ouvrés pour un vol ; 30 jours suivant la publication de l'arrêté pour une catastrophe naturelle",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "En cas de sinistre - circonstances",
+      "description": "Indiquer les date et heure du sinistre, ses causes connues ou supposées ainsi que ses conséquences et les coordonnées des personnes lésées, des témoins et du ou des responsables éventuels.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "En cas de vol ou de vandalisme - plainte",
+      "description": "En cas de vol, tentative de vol ou d'acte de vandalisme, prévenir la police ou la gendarmerie dans les 24 heures et déposer une plainte.",
+      "timing": "dans les 24 heures",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "En cas de choc de véhicule non identifié - plainte",
+      "description": "En cas de choc de véhicule terrestre à moteur non identifié, déposer une plainte.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "En cas de sinistre - pièces de procédure",
+      "description": "Transmettre immédiatement toute pièce de procédure ainsi que tout document concernant le sinistre.",
+      "timing": "immédiatement",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "En cas de sinistre - autres assureurs",
+      "description": "Transmettre les coordonnées des éventuels assureurs couvrant le même risque.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie.",
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Limiter le sinistre",
+      "description": "Prendre toutes les dispositions nécessaires pour stopper l'évolution du sinistre, sauver tous les biens qui peuvent l'être et veiller à leur conservation.",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Déclarer le sinistre",
+      "description": "Déclarer le sinistre à l'assureur à partir du moment où l'assuré en a connaissance.",
+      "deadline": "au plus tard dans les 5 jours ouvrés, dans les 2 jours ouvrés pour un vol, dans les 30 jours suivant la publication de l'arrêté pour un sinistre catastrophe naturelle",
+      "page": 2
+    },
+    {
+      "step": "Décrire le sinistre",
+      "description": "Indiquer les date et heure du sinistre, ses causes connues ou supposées ainsi que ses conséquences et les coordonnées des personnes lésées, des témoins et du ou des responsables éventuels.",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Déposer plainte (vol, vandalisme)",
+      "description": "En cas de vol, tentative de vol ou d'acte de vandalisme, prévenir la police ou la gendarmerie et déposer une plainte.",
+      "deadline": "dans les 24 heures",
+      "page": 2
+    },
+    {
+      "step": "Déposer plainte (choc de véhicule non identifié)",
+      "description": "En cas de choc de véhicule terrestre à moteur non identifié, déposer une plainte.",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Transmettre les pièces",
+      "description": "Transmettre toute pièce de procédure ainsi que tout document concernant le sinistre.",
+      "deadline": "immédiatement",
+      "page": 2
+    },
+    {
+      "step": "Signaler les autres assureurs",
+      "description": "Transmettre les coordonnées des éventuels assureurs couvrant le même risque.",
+      "deadline": null,
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "La couverture commence à partir de la date convenue d'un commun accord et dure jusqu'à l'échéance suivante. À cette date, le contrat est renouvelé automatiquement par période annuelle, sauf si l'une des parties décide d'y mettre fin dans les délais et conditions prévus au contrat.",
+    "tacit_renewal": true,
+    "notice_period": "1 mois (résiliation à l'échéance du contrat)",
+    "methods": [
+      "Soit par l'envoi d'un courrier postal ou électronique",
+      "Soit en effectuant une déclaration auprès d'un conseiller Macif",
+      "Soit à partir de l'espace personnel de l'assuré sur le site internet macif.fr"
+    ],
+    "special_rights": [
+      "à l'échéance du contrat, avec un préavis de 1 mois et lorsque le contrat a été souscrit depuis au moins un an",
+      "si la situation personnelle de l'assuré change et que cela a une incidence sur le risque assuré",
+      "si la Macif résilie un autre contrat de l'assuré après sinistre",
+      "en cas d'augmentation de la cotisation hors taxes, ou des franchises",
+      "à tout moment au-delà d'un délai de un an à compter de la première souscription",
+      "Lorsque le contrat a été souscrit par une personne physique à distance ou par démarchage à domicile, l'assuré dispose d'un droit de renonciation."
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "La cotisation est payable d'avance à la souscription puis à chaque échéance du contrat.",
+      "Elle est exigible annuellement, toutefois un paiement fractionné peut être accordé.",
+      "Le fractionnement du paiement entraîne des frais.",
+      "Le défaut de paiement de la cotisation ou d'une fraction de la cotisation dans les 10 jours à compter de sa date d'exigibilité entraîne, après une mise en demeure, la suspension des garanties puis la résiliation du contrat.",
+      "Les paiements peuvent être effectués par prélèvement automatique, carte bancaire, chèque, TIP SEPA ou mandat, selon que l'assuré a choisi un paiement fractionné ou non."
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "LES PRINCIPALES RESTRICTIONS - franchise",
+      "description": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise).",
+      "page": 1
+    },
+    {
+      "name": "LES PRINCIPALES RESTRICTIONS - franchise catastrophes naturelles",
+      "description": "Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "page": 1
+    },
+    {
+      "name": "LES PRINCIPALES RESTRICTIONS - vol du mobilier en cas d'inhabitation",
+      "description": "La garantie Vol et vandalisme du mobilier mis à la disposition des locataires ou occupants est limitée en cas d'inhabitation de plus de 60 jours consécutifs et en l'absence de télésurveillance certifiée APSAD.",
+      "page": 1
+    },
+    {
+      "name": "LES PRINCIPALES RESTRICTIONS - vol dans les dépendances",
+      "description": "Le vol et le vandalisme du contenu des dépendances, caves, greniers, sous-sols et garages, sans communication avec la partie habitable sont limités.",
+      "page": 1
+    },
+    {
+      "name": "LES PRINCIPALES RESTRICTIONS - seuils d'intervention (recours)",
+      "description": "Les recours amiable et judiciaires sont exercés pour les préjudices de montants supérieurs aux seuils d'intervention. Le document ne chiffre pas ces seuils.",
+      "page": 1
+    },
+    {
+      "name": "Plafonds de garantie",
+      "description": "Les biens et événements assurés peuvent être soumis à des plafonds de garantie. Seuls certains d'entre eux sont mentionnés ci-après (20 000 € en Défense et recours ; 20 000 € / 2 000 € / 1 000 € pour l'option Aménagements extérieurs ; 3 plafonds entre 10 000 € et 70 000 € pour l'option Piscines et spas ; 5 000 € pour l'option Canalisations extérieures).",
+      "page": 1
+    },
+    {
+      "name": "Porteur du risque",
+      "description": "Le document désigne comme « Compagnie » : Macif - France - Société d'assurance mutuelle à cotisations variables - SIREN n° 781 452 511. Le bandeau latéral ajoute : « Référence du document : MACIF HAB LL 06/25 - Macif. Entreprise régie par le Code des assurances. Siège social : 1 rue Jacques Vandier - 79000 Niort. » Aucune autre entité (gestionnaire, assisteur, courtier) n'est nommée, y compris pour les prestations d'assistance.",
+      "page": 1
+    },
+    {
+      "name": "Portée du document",
+      "description": "Ce document d'information présente un résumé des principales garanties et exclusions du produit. Il ne prend pas en compte les besoins et demandes spécifiques du souscripteur ; l'information complète figure dans la documentation précontractuelle et contractuelle.",
+      "page": 1
+    },
+    {
+      "name": "Droit de renonciation",
+      "description": "Lorsque le contrat a été souscrit par une personne physique à distance ou par démarchage à domicile, l'assuré dispose d'un droit de renonciation.",
+      "page": 2
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Ce contrat d’assurance habitation protège l’assuré contre les conséquences d’événements affectant le logement à usage d’habitation qu’il met en location vide ou \nmeublé. Ce contrat garantit aussi sa responsabilité civile du fait des biens assurés. Le contrat prévoit également des prestations d’assistance.",
+      "page": 1,
+      "context": "De quel type d'assurance s'agit-il ? - objet du contrat"
+    },
+    {
+      "quote": "Les biens et événements assurés peuvent être soumis à des plafonds de \ngarantie. Seuls certains d’entre eux sont mentionnés ci-après.",
+      "page": 1,
+      "context": "Plafonds de garantie (colonne gauche)"
+    },
+    {
+      "quote": "Les garanties précédées d’une coche   sont systématiquement prévues \nau contrat.",
+      "page": 1,
+      "context": "Légende de la coche verte (colonne gauche)"
+    },
+    {
+      "quote": "La partie habitable du logement mis en location.",
+      "page": 1,
+      "context": "LES BIENS ASSURÉS - item 1 (coche verte)"
+    },
+    {
+      "quote": "Et sur déclaration spécifique",
+      "page": 1,
+      "context": "Sous-titre conditionnant les trois extensions de la colonne gauche"
+    },
+    {
+      "quote": "Les biens usuels et les objets de valeur, mis à la disposition des locataires \nou occupants, situés à l’intérieur de la partie habitable ou des dépendances \nassurées, selon le plafond choisi par l’assuré en fonction de la valeur de \nses biens.",
+      "page": 1,
+      "context": "LES BIENS ASSURÉS - extension sur déclaration spécifique"
+    },
+    {
+      "quote": "Défense et recours (plafond global 20 000 € avec sous-plafonds pour les \nhonoraires d’avocat).",
+      "page": 1,
+      "context": "Plafond de la garantie Défense et recours (colonne gauche, coche verte)"
+    },
+    {
+      "quote": "Et si les biens mobiliers mis à la disposition des locataires ou occupants sont \nassurés :\n\tū \u0007Vol et vandalisme des biens mobiliers ainsi que dommages électriques et \nchute de la foudre pour les appareils électriques.",
+      "page": 1,
+      "context": "Garantie conditionnée à l'assurance des biens mobiliers"
+    },
+    {
+      "quote": "Aménagements extérieurs et mobilier de jardin (plafond de 20 000 € pour \nles biens immobiliers, 2000 € pour les biens mobiliers, 1000 € pour les tags \net graffitis).",
+      "page": 1,
+      "context": "LES OPTIONS - plafonds (le calque texte imprime « 2000 » et « 1000 » là où la page imprime « 2 000 » et « 1 000 »)"
+    },
+    {
+      "quote": "Piscines et spas extérieurs (choix parmi 3 plafonds entre 10 000 € et \n70 000",
+      "page": 1,
+      "context": "LES OPTIONS - piscines et spas"
+    },
+    {
+      "quote": "Canalisations extérieures (plafond 5000",
+      "page": 1,
+      "context": "LES OPTIONS - canalisations extérieures"
+    },
+    {
+      "quote": "Les biens personnels des locataires ou occupants.",
+      "page": 1,
+      "context": "Qu'est-ce qui n'est pas assuré ? - item 1 (croix rouge, colonne droite)"
+    },
+    {
+      "quote": "Les biens immobiliers situés en dehors de la France métropolitaine.",
+      "page": 1,
+      "context": "Qu'est-ce qui n'est pas assuré ? (croix rouge, colonne droite)"
+    },
+    {
+      "quote": "Les dommages résultant d’une faute intentionnelle ou dolosive de l’assuré.",
+      "page": 1,
+      "context": "LES PRINCIPALES EXCLUSIONS - item 1"
+    },
+    {
+      "quote": "Les dommages causés par une inondation aux biens assurés situés sur des \nterrains couverts par un Plan de Prévention des Risques d’inondation, si \nles travaux de mise en conformité édictés par ce plan n’ont pas été réalisés \ndans les délais prescrits.",
+      "page": 1,
+      "context": "LES PRINCIPALES EXCLUSIONS - inondation et PPRI"
+    },
+    {
+      "quote": "La responsabilité pour les dommages causés aux tiers lors de travaux \ntouchant à l’ossature d’un immeuble ou par des travaux de terrassement \nréalisés par l’assuré ou toute personne lui apportant son aide.",
+      "page": 1,
+      "context": "LES PRINCIPALES EXCLUSIONS - travaux"
+    },
+    {
+      "quote": "En cas de sinistre une somme peut rester à la charge de l’assuré (franchise).",
+      "page": 1,
+      "context": "LES PRINCIPALES RESTRICTIONS - franchise"
+    },
+    {
+      "quote": "La garantie Vol et vandalisme du mobilier mis à la disposition des locataires \nou occupants est limitée en cas d’inhabitation de plus de 60 jours \nconsécutifs et en l’absence de télésurveillance certifiée APSAD.",
+      "page": 1,
+      "context": "LES PRINCIPALES RESTRICTIONS - inhabitation de plus de 60 jours"
+    },
+    {
+      "quote": "Le vol et le vandalisme du contenu des dépendances, caves, greniers, sous-\nsols et garages, sans communication avec la partie habitable sont limités.",
+      "page": 1,
+      "context": "LES PRINCIPALES RESTRICTIONS - dépendances"
+    },
+    {
+      "quote": "À l’adresse du risque, en France métropolitaine.",
+      "page": 2,
+      "context": "Où suis-je couvert, couverte ?"
+    },
+    {
+      "quote": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie :",
+      "page": 2,
+      "context": "Sanction attachée aux obligations de l'assuré"
+    },
+    {
+      "quote": "déclarer le sinistre à l’assureur à partir du moment où l’assuré en a connaissance et au plus tard dans les 5 jours ouvrés, dans les 2 jours ouvrés pour un \nvol, dans les 30 jours suivant la publication de l’arrêté pour un sinistre catastrophe naturelle",
+      "page": 2,
+      "context": "Délais de déclaration de sinistre"
+    },
+    {
+      "quote": "La cotisation est payable d’avance à la souscription puis à chaque échéance du contrat. Elle est exigible annuellement, toutefois un paiement fractionné \npeut être accordé. Le fractionnement du paiement entraîne des frais. Le défaut de paiement de la cotisation ou d’une fraction de la cotisation dans les 10 \njours à compter de sa date d’exigibilité entraîne, après une mise en demeure, la suspension des garanties puis la résiliation du contrat.",
+      "page": 2,
+      "context": "Modalités de paiement de la cotisation"
+    },
+    {
+      "quote": "La couverture commence à partir de la date convenue d’un commun accord et dure jusqu’à l’échéance suivante. À cette date, le contrat est renouvelé \nautomatiquement par période annuelle, sauf si l’une des parties décide d’y mettre fin dans les délais et conditions prévus au contrat. Lorsque le contrat a \nété souscrit par une personne physique à distance ou par démarchage à domicile, l’assuré dispose d’un droit de renonciation.",
+      "page": 2,
+      "context": "Durée, reconduction et droit de renonciation"
+    },
+    {
+      "quote": "Soit par l’envoi d’un courrier postal ou électronique, soit en effectuant une déclaration auprès d’un conseiller Macif, soit à partir de l’espace personnel de \nl’assuré sur le site internet macif.fr :\n\tū à l’échéance du contrat, avec un préavis de 1 mois et lorsque le contrat a été souscrit depuis au moins un an ;\n\tū si la situation personnelle de l’assuré change et que cela a une incidence sur le risque assuré ;\n\tū si la Macif résilie un autre contrat de l’assuré après sinistre ;\n\tū en cas d’augmentation de la cotisation hors taxes, ou des franchises ;\n\tū à tout moment au-delà d’un délai de un an à compter de la première souscription.",
+      "page": 2,
+      "context": "Modalités et cas de résiliation"
+    }
+  ],
+  "gaps": [
+    "CONTROLE NEGATIF D'INVERSION DE COLONNES (page 1) : effectué, RIEN TROUVE. Le texte plat émet la colonne de GAUCHE en entier (y 26,9 à 706,0) puis la colonne de DROITE en entier (y 177,8 à 761,1), dans l'ordre imprimé, et les titres de section précèdent bien leurs items. Seule anomalie d'ordre : le bandeau latéral pivoté « Référence du document : MACIF HAB LL 06/25… » (x 574,1) est émis en toute première ligne de la page. Le contrôle a été refait sur ce document malgré des documents Macif voisins inversés, l'inversion variant d'un document à l'autre sur un même gabarit. Page 2 également en ordre imprimé.",
+    "MARQUEURS = IMAGES BITMAP, invisibles à get_text et à get_drawings ; comptés via les blocs image de get_text('dict'), placés par coordonnée, polarité vérifiée sur rendus à 5x, 7x et 12x. Colonne gauche : coche verte (bitmap 15x16, x0 29,6) x19, plus une vingtième dans la légende (x0 164,4). Colonne droite : croix rouge (bitmap 14x14, x0 307,2) x9 ; point d'exclamation rouge (bitmap 6x20, x0 308,1) x14. Page 2 : 1 coche (bitmap 19x19) pour l'unique énoncé de couverture géographique.",
+    "ARITHMETIQUE FERMEE. Le calque texte porte 50 caractères U+0007, un par puce - ici la puce elle-même, le texte de l'item étant présent (contrairement au défaut de vectorisation rencontré sur d'autres documents Macif). Répartition : page 1 colonne gauche 26 U+0007 = 3 « LES BIENS ASSURÉS » (coches) + 3 « Et sur déclaration spécifique » (tirets) + 16 « LES GARANTIES » (coches) + 1 « Et si les biens mobiliers… sont assurés » (tiret) + 3 « LES OPTIONS » (tirets) ; page 1 colonne droite 23 U+0007 = 9 « Qu'est-ce qui n'est pas assuré ? » (croix) + 9 « LES PRINCIPALES EXCLUSIONS » (« ! ») + 5 « LES PRINCIPALES RESTRICTIONS » (« ! ») ; page 2 : 1 U+0007. Total 26 + 23 + 1 = 50. Les 19 coches de gauche correspondent aux 3 + 16 items cochés ; les 23 marqueurs de droite aux 23 items. Les 18 entrées d'exclusions[] correspondent aux 9 + 9 ; les 5 restrictions sont portées par deductibles, special_conditions et conditions[].",
+    "CALQUE TEXTE REMANIE POUR L'ACCESSIBILITE : il ne transcrit pas ce qui est imprimé. Divergences vérifiées sur rendus à 12x et 14x : le calque donne « Sirène n° 781 452 511 » là où la page imprime « SIREN n° 781 452 511 » ; « 50 mètre carré » là où la page imprime « 50 m2 » (quatre occurrences) ; « rue Jacques Vandié » là où la page imprime « rue Jacques Vandier » ; « La borne de recharge ment » pour « La borne de rechargement » ; « s'agitil » pour « s'agit-il » ; « Yatil » pour « Y a-t-il » ; « pren / telle fin » pour « prend-elle fin » ; « 2000 € », « 1000 € », « 5000 € » là où la page imprime « 2 000 € », « 1 000 € », « 5 000 € » (les autres montants, « 20 000 € », « 10 000 € », « 70 000 € », portent bien l'espace dans le calque). Les champs structurés suivent l'imprimé ; les key_quotes suivent le calque texte, seule forme qui puisse être vérifiée, et conservent donc « 2000 », « 1000 », « 5000 ».",
+    "LIGNES DESSINEES EN TRIPLE dans le calque texte, imprimées une seule fois : « Ses dépendances d'une surface totale inférieure ou égale à 50 mètre carré. », « Les dépendances d'une surface totale supérieure à 50 mètre carré. » et « Les bâtiments d'une surface totale inférieure ou égale à 50 mètre carré situés à une… » apparaissent chacune trois fois (à x0 37,8 en 8,5 pt, puis à x0 233-261 en 8,5 pt, puis à x0 231-258 en 5,0 pt). Un seul exemplaire est imprimé ; les doublons n'ont pas été comptés comme des items distincts.",
+    "is_optional : false pour les 19 garanties précédées d'une coche verte (la légende dit qu'elles « sont systématiquement prévues au contrat ») ; true pour les 3 items « Et sur déclaration spécifique », l'item « Et si les biens mobiliers… sont assurés » et les 3 « LES OPTIONS », tous précédés d'un tiret et non d'une coche. Le libellé exact qui fonde ce classement est reporté dans conditions[] de chaque garantie.",
+    "Aucune définition contractuelle (glossaire) dans ce DIPA : definitions[] est vide, ce qui est normal pour ce format.",
+    "Aucun délai de carence ni délai de prescription n'est mentionné : waiting_periods[] est vide et prescription_period est null.",
+    "Ni les sous-plafonds pour les honoraires d'avocat de la garantie Défense et recours, ni les seuils d'intervention des recours, ni le montant de la franchise, ni les trois plafonds de l'option Piscines et spas ne sont chiffrés.",
+    "target_audience laissé à null : le document ne nomme aucune des catégories du schéma. Il indique en revanche que l'assuré peut être une personne morale (la garantie Catastrophes technologiques n'est acquise que « si l'assuré est une personne physique »), ce qui est reporté dans target_audience_note.",
+    "Aucune troncature : le texte du prompt couvre les 2 pages du PDF et a été recoupé avec une extraction PyMuPDF page.get_text('text') indépendante."
+  ]
+}

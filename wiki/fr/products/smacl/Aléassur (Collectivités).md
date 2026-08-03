@@ -212,10 +212,12 @@ Conformément à l’article L.114-1 du Code, toutes actions dérivant d’un co
 ## Documents liés
 
 - Édition courante de ce produit.
+- Extension liée : [ALÉASSUR - Bris de machine (Collectivités)](AL%C3%89ASSUR%20-%20Bris%20de%20machine%20%28Collectivit%C3%A9s%29.md)
 - Extension liée : [ALÉASSUR - Conventions spéciales Dommages aux biens](AL%C3%89ASSUR%20-%20Conventions%20sp%C3%A9ciales%20Dommages%20aux%20biens.md)
 - Extension liée : [ALÉASSUR - Conventions spéciales Tous risques instruments de musique](AL%C3%89ASSUR%20-%20Conventions%20sp%C3%A9ciales%20Tous%20risques%20instruments%20de%20musique.md)
 - Extension liée : [ALÉASSUR Tous risques informatique](AL%C3%89ASSUR%20Tous%20risques%20informatique.md)
 - Extension liée : [ALÉASSUR Tous risques objets (Collectivités)](AL%C3%89ASSUR%20Tous%20risques%20objets%20%28Collectivit%C3%A9s%29.md)
+- [ALÉASSUR - Bris de machine (Collectivités)](AL%C3%89ASSUR%20-%20Bris%20de%20machine%20%28Collectivit%C3%A9s%29.md) - Conditions générales, éd. 01/2024
 - [ALÉASSUR - Conventions spéciales Dommages aux biens](AL%C3%89ASSUR%20-%20Conventions%20sp%C3%A9ciales%20Dommages%20aux%20biens.md) - Conditions générales, éd. 01/2024
 - [ALÉASSUR - Conventions spéciales Tous risques instruments de musique](AL%C3%89ASSUR%20-%20Conventions%20sp%C3%A9ciales%20Tous%20risques%20instruments%20de%20musique.md) - Conditions générales, éd. 01/2024
 - [ALÉASSUR Tous risques informatique](AL%C3%89ASSUR%20Tous%20risques%20informatique.md) - Conditions générales, éd. 01/2024

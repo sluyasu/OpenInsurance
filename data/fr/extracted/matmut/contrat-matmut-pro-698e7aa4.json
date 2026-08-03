@@ -1,0 +1,512 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "matmut",
+  "insurer_name": "Matmut",
+  "product_name": "Contrat « Matmut Pro »",
+  "branch": "multirisque-professionnelle",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": "independants",
+  "target_audience_note": "ASSURANCE DES PROFESSIONNELS (artisans, commerçants et services) ; « Ce contrat d'assurance a pour objet de garantir les risques encourus par des professionnels (artisans, commerçants et services) »",
+  "reference": "IPID.MPRO",
+  "edition_date": "10/25",
+  "product_family": "Matmut Pro",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDMPRO.pdf",
+  "source_pdf": "contrat-matmut-pro-698e7aa4.pdf",
+  "source_sha256": "edb220a254534068f96360eadd522469d502617246afbf69ddef43949aadeb22",
+  "source_pages": 2,
+  "fetched_at": "2026-07-30",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d'information sur le produit d'assurance (IPID) du contrat « Matmut Pro », assurance des professionnels (artisans, commerçants et services). Le contrat garantit les risques encourus par des professionnels contre les conséquences des dommages matériels ou corporels causés à des tiers (Responsabilité Civile) et peut comprendre des garanties complémentaires couvrant les biens mobiliers et immobiliers liés à l'activité professionnelle ainsi que les pertes financières consécutives à un évènement garanti. Cinq garanties sont prévues en inclusion (trois Responsabilités Civiles et deux Protections Juridiques) et des garanties optionnelles couvrent les locaux et l'assistance aux locaux. Le document précise que seuls les principaux plafonds des garanties en inclusion sont indiqués, le détail figurant aux conditions générales.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Responsabilité Civile Exploitation",
+      "description": "Dommages causés aux tiers au cours de l'activité professionnelle en dehors de toute relation contractuelle.",
+      "is_optional": false,
+      "territorial_scope": "France et Principauté de Monaco ; étendue aux pays membres de l'Union Européenne, à la Norvège, au Royaume-Uni et à la Suisse lorsque l'assuré n'y exerce pas plus de 4 mois par année d'assurance",
+      "limits": "tous dommages corporels, matériels et immatériels confondus jusqu'à 10 000 000 €",
+      "sub_limits": [
+        "recours des voisins et des tiers (dommages matériels et immatériels): 2 000 000 €",
+        "dommages consécutifs à la vente de biens, marchandises ou produits et à des prestations ou travaux réalisés (tous dommages confondus) : 2 000 000 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Seuls les principaux plafonds des garanties en inclusion sont indiqués ; le détail des plafonds figure aux conditions générales du contrat.",
+        "Le plafond de 10 000 000 € s'applique aux trois garanties de Responsabilité Civile ci-dessus, « sauf, notamment, les limitations suivantes »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Responsabilité Civile Professionnelle",
+      "description": "Dommages causés aux tiers liés à la mauvaise exécution de la prestation délivrée (sous réserves des professions réglementées ci-contre).",
+      "is_optional": false,
+      "territorial_scope": "France et Principauté de Monaco ; étendue aux pays membres de l'Union Européenne, à la Norvège, au Royaume-Uni et à la Suisse lorsque l'assuré n'y exerce pas plus de 4 mois par année d'assurance",
+      "limits": "tous dommages corporels, matériels et immatériels confondus jusqu'à 10 000 000 €",
+      "sub_limits": [
+        "recours des voisins et des tiers (dommages matériels et immatériels): 2 000 000 €",
+        "dommages consécutifs à la vente de biens, marchandises ou produits et à des prestations ou travaux réalisés (tous dommages confondus) : 2 000 000 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Sous réserves des professions réglementées listées au bloc « Qu'est-ce qui n'est pas assuré ? »",
+        "La garantie n'est pas acquise aux professions suivantes : administrateurs judiciaires, mandataires judiciaires, architectes, notaires, huissiers de justice, avocats, experts-comptables, commissaires aux comptes, audits, géomètres experts, maîtres d'œuvre, comptables, marchands de biens, experts en assurances."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Responsabilité Civile Immeuble",
+      "description": "Dommages causés aux tiers en raison de l'existence du bien immobilier assuré.",
+      "is_optional": false,
+      "territorial_scope": "France et Principauté de Monaco",
+      "limits": "tous dommages corporels, matériels et immatériels confondus jusqu'à 10 000 000 €",
+      "sub_limits": [
+        "recours des voisins et des tiers (dommages matériels et immatériels): 2 000 000 €",
+        "dommages consécutifs à la vente de biens, marchandises ou produits et à des prestations ou travaux réalisés (tous dommages confondus) : 2 000 000 €"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Protection Juridique suite à accident",
+      "description": "Prise en charge des frais de défense pénale ou de recours de l'assuré suite à accident.",
+      "is_optional": false,
+      "territorial_scope": "France et Principauté de Monaco",
+      "limits": "jusqu'à 20 000 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Protection Juridique Vie Professionnelle",
+      "description": "Prise en charge des frais de défense pénale ou de recours en cas de litige ou différend survenu dans le cadre de l'activité professionnelle déclarée.",
+      "is_optional": false,
+      "territorial_scope": "France et Principauté de Monaco",
+      "limits": "jusqu'à 20 000 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Incendie et évènements assimilés",
+      "description": "Garantie optionnelle, rubrique « Assurances des locaux ».",
+      "is_optional": true,
+      "territorial_scope": "France et Principauté de Monaco",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Bris de glaces et enseignes",
+      "description": "Garantie optionnelle, rubrique « Assurances des locaux ».",
+      "is_optional": true,
+      "territorial_scope": "France et Principauté de Monaco",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Évènements climatiques, dégâts des eaux, gel. Inondation et catastrophes naturelles",
+      "description": "Garantie optionnelle, rubrique « Assurances des locaux ». Imprimée sur une seule ligne de liste regroupant deux phrases : « Évènements climatiques, dégâts des eaux, gel. » et « Inondation et catastrophes naturelles. »",
+      "is_optional": true,
+      "territorial_scope": "France et Principauté de Monaco",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Vol, tentative de vol ou acte de vandalisme",
+      "description": "Garantie optionnelle, rubrique « Assurances des locaux ».",
+      "is_optional": true,
+      "territorial_scope": "France et Principauté de Monaco",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Vol avec violence",
+      "description": "Garantie optionnelle, rubrique « Assurances des locaux ».",
+      "is_optional": true,
+      "territorial_scope": "France et Principauté de Monaco",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Bris de matériel informatique et bureautique",
+      "description": "Garantie optionnelle, rubrique « Assurances des locaux ».",
+      "is_optional": true,
+      "territorial_scope": "France et Principauté de Monaco",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Pertes d'exploitation",
+      "description": "Garantie optionnelle, rubrique « Assurances des locaux ».",
+      "is_optional": true,
+      "territorial_scope": "France et Principauté de Monaco",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Perte de la valeur vénale du fonds de commerce",
+      "description": "Garantie optionnelle, rubrique « Assurances des locaux ».",
+      "is_optional": true,
+      "territorial_scope": "France et Principauté de Monaco",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Assistance en cas de panne perturbatrice ou d'incident sérieux",
+      "description": "Garantie optionnelle, rubrique « Assistance aux locaux ».",
+      "is_optional": true,
+      "territorial_scope": "France et Principauté de Monaco",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Urgence après sinistre garanti survenant dans les locaux professionnels",
+      "description": "Garantie optionnelle, rubrique « Assistance aux locaux ».",
+      "is_optional": true,
+      "territorial_scope": "France et Principauté de Monaco",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Les amendes pour non-respect de la réglementation en vigueur",
+      "description": "Bloc « Qu'est-ce qui n'est pas assuré ? ».",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Les véhicules à moteur",
+      "description": "Bloc « Qu'est-ce qui n'est pas assuré ? ».",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Les appareils de locomotion aérienne",
+      "description": "Bloc « Qu'est-ce qui n'est pas assuré ? ».",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Les embarcations à moteur ou à voile",
+      "description": "Bloc « Qu'est-ce qui n'est pas assuré ? ».",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Les appareils de téléphonie mobile et GPS",
+      "description": "Bloc « Qu'est-ce qui n'est pas assuré ? ».",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Le matériel professionnel transporté dans un véhicule ainsi qu'au cours des opérations de chargement et de déchargement",
+      "description": "Bloc « Qu'est-ce qui n'est pas assuré ? ».",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Les responsabilités légales biennales et décennale",
+      "description": "Bloc « Qu'est-ce qui n'est pas assuré ? ».",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Professions exclues de la garantie Responsabilité Civile Professionnelle",
+      "description": "La garantie responsabilité civile professionnelle n'est pas acquise aux professions suivantes : administrateurs judiciaires, mandataires judiciaires, architectes, notaires, huissiers de justice, avocats, experts-comptables, commissaires aux comptes, audits, géomètres experts, maîtres d'œuvre, comptables, marchands de biens, experts en assurances.",
+      "applies_to": "Responsabilité Civile Professionnelle",
+      "page": 1
+    },
+    {
+      "name": "Faute intentionnelle ou dolosive",
+      "description": "Les dommages résultant de votre faute intentionnelle ou dolosive.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Données informatiques, virus informatiques et piratage informatique",
+      "description": "Les dommages occasionnés aux données informatiques ou dus aux virus informatiques ainsi qu'au piratage informatique.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Absence de réparations imputables à l'assuré",
+      "description": "Les dommages provenant, de l'absence de réparations imputables à l'assuré, ces dommages n'étant pas considérés comme accidentels.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Parasites des matériaux de construction",
+      "description": "Les dommages causés par les parasites des matériaux de construction (insectes xylophages et champignons lignivores).",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Guerre civile ou étrangère",
+      "description": "Les dommages occasionnés par la guerre civile ou étrangère.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Incendie à partir d'un feu allumé à l'extérieur des locaux assurés",
+      "description": "Les dommages occasionnés par un incendie à partir d'un feu allumé à l'extérieur des locaux assurés en méconnaissance de la réglementation (exclusion applicable à la garantie Responsabilité Civile).",
+      "applies_to": "Responsabilité Civile",
+      "page": 1
+    },
+    {
+      "name": "Remise en état des façades et devantures (tags, graffitis, substances tâchantes ou corrosives)",
+      "description": "Les frais de remise en état des façades et devantures endommagées par des tags ou graffitis, des substances tâchantes ou corrosives.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Absence de qualification professionnelle exigée",
+      "description": "Les dommages occasionnés sans la qualification professionnelle exigée par la loi ou délivrée par les organismes professionnels.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Amiante et plomb",
+      "description": "Les dommages dus aux effets directs ou indirects de l'amiante et du plomb.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Maladies transmissibles",
+      "description": "Les dommages résultant, directement ou indirectement, de maladies transmissibles ou de la menace (réelle, potentielle ou alléguée) de maladies transmissibles.",
+      "applies_to": "all",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": "Selon les garanties une somme indiquée au contrat peut rester à la charge de l'assuré (franchise) ou des seuils d'intervention peuvent être applicables.",
+    "per_coverage": null,
+    "page": 1
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Déclaration à la souscription",
+      "description": "Répondre exactement aux questions posées par l'assureur.",
+      "timing": "à la souscription",
+      "sanction": "nullité du contrat ou non-garantie",
+      "page": 2
+    },
+    {
+      "name": "Déclaration d'aggravation du risque",
+      "description": "Déclarer tout élément ayant pour effet d'aggraver le risque garanti.",
+      "timing": "en cours de contrat",
+      "sanction": "nullité du contrat ou non-garantie",
+      "page": 2
+    },
+    {
+      "name": "Déclaration de sinistre",
+      "description": "Déclarer le sinistre le plus rapidement possible et, au plus tard, dans les délais et selon les modalités précisés aux Conditions générales.",
+      "timing": "en cas de sinistre",
+      "sanction": "nullité du contrat ou non-garantie",
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclaration du sinistre",
+      "description": "Déclarer le sinistre le plus rapidement possible et, au plus tard, dans les délais et selon les modalités précisés aux Conditions générales.",
+      "deadline": "le plus rapidement possible et, au plus tard, dans les délais précisés aux Conditions générales",
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat est conclu pour une durée d'un an. La première année, il est conclu pour la période comprise entre sa date d'effet et la date d'échéance annuelle indiquée aux Conditions particulières.",
+    "tacit_renewal": true,
+    "notice_period": "un mois",
+    "methods": [
+      "par lettre ou tout autre support durable (courrier électronique sur l'Espace Personnel, lettre recommandée électronique…)",
+      "par une déclaration faite auprès de l'assureur ou de son représentant",
+      "lorsque la conclusion de contrat est proposée par un mode de communication à distance, par ce même mode"
+    ],
+    "special_rights": [
+      "Résiliation à l'échéance annuelle aux conditions prévues au contrat, sous réserve de respecter un délai de préavis d'un mois."
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "Les paiements doivent être effectués lors de la souscription du contrat et à l'échéance annuelle.",
+      "Les cotisations sont annuelles et payables d'avance par prélèvement automatique, carte bancaire, chèque ou titre interbancaire de paiement (TIP SEPA).",
+      "Elles peuvent être réglées en plusieurs fractions sans frais supplémentaires selon les modalités prévues au contrat.",
+      "Les garanties prennent effet aux date et heure indiquées aux Conditions particulières (sous réserve que le paiement de la première cotisation ou première fraction de cotisation soit honoré)."
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Mention légale du porteur de risque imprimée sur le document",
+      "description": "Matmut - Mutuelle assurance des travailleurs mutualistes. Société d'assurance mutuelle à cotisations variables, immatriculée au RCS de Rouen n° 775 701 477. Entreprise régie par le Code des assurances. Siège social : 66, rue de Sotteville 76100 Rouen.",
+      "page": 1
+    },
+    {
+      "name": "Portée du document",
+      "description": "Ce document d'information présente un résumé des principales garanties et exclusions du produit et ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l'information complète sur ce produit dans la documentation précontractuelle et contractuelle.",
+      "page": 1
+    },
+    {
+      "name": "Plafonds indiqués",
+      "description": "Seuls les principaux plafonds des garanties en inclusion sont indiqués ci-après. Le détail des plafonds figure aux conditions générales du contrat.",
+      "page": 1
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Ce contrat d’assurance a pour objet de garantir les risques encourus par des professionnels (artisans, commerçants et services) contre les \nconséquences des dommages matériels ou corporels causés à des tiers (Responsabilité Civile). Il peut comprendre des garanties \ncomplémentaires destinées à couvrir les biens mobiliers et immobiliers (situés à l'adresse des locaux assurés ou en extérieur) liés à l’activité \nprofessionnelle ainsi que les pertes financières consécutives à un évènement garanti.",
+      "context": "Objet du contrat",
+      "page": 1
+    },
+    {
+      "quote": "Seuls les principaux plafonds des garanties en inclusion sont \nindiqués ci-après. Le détail des plafonds figure aux conditions \ngénérales du contrat.",
+      "context": "Portée des plafonds indiqués",
+      "page": 1
+    },
+    {
+      "quote": "Responsabilité Civile Exploitation : dommages causés aux tiers \nau cours de l’activité professionnelle en dehors de toute relation \ncontractuelle.",
+      "context": "Garantie en inclusion 1",
+      "page": 1
+    },
+    {
+      "quote": "Responsabilité Civile Professionnelle : dommages causés aux \ntiers liés à la mauvaise exécution de la prestation délivrée (sous \nréserves des professions réglementées ci-contre).",
+      "context": "Garantie en inclusion 2",
+      "page": 1
+    },
+    {
+      "quote": "Les garanties de Responsabilité Civile ci-dessus sont acquises \n: tous dommages corporels, matériels et immatériels confondus \njusqu’à 10 000 000 €.",
+      "context": "Plafond RC",
+      "page": 1
+    },
+    {
+      "quote": "Sauf, notamment, les limitations suivantes : \n- recours des voisins et des tiers (dommages matériels \net immatériels): 2 000 000 € ; \n- dommages consécutifs à la vente de biens, marchandises \nou produits et à des prestations ou travaux réalisés (tous \ndommages confondus) : 2 000 000 €.",
+      "context": "Sous-limites RC",
+      "page": 1
+    },
+    {
+      "quote": "Protection Juridique suite à accident : prise en charge des frais \nde défense pénale ou de recours de l’assuré suite à accident \njusqu’à 20 000 €.",
+      "context": "Plafond PJ accident",
+      "page": 1
+    },
+    {
+      "quote": "Protection Juridique Vie Professionnelle : prise en charge des \nfrais de défense pénale ou de recours en cas de litige ou \ndifférend survenu dans le cadre de l’activité professionnelle \ndéclarée jusqu’à 20 000 €.",
+      "context": "Plafond PJ vie pro",
+      "page": 1
+    },
+    {
+      "quote": "La garantie responsabilité civile professionnelle n’est pas \nacquise aux professions suivantes : administrateurs judiciaires, \nmandataires judiciaires, architectes, notaires, huissiers de \njustice, avocats, experts-comptables, commissaires aux \ncomptes, audits, géomètres experts, maîtres d’œuvre, \ncomptables, marchands de biens, experts en assurances.",
+      "context": "Professions exclues de la RC Pro",
+      "page": 1
+    },
+    {
+      "quote": "Les dommages résultant de votre faute intentionnelle ou \ndolosive.",
+      "context": "Exclusion faute intentionnelle",
+      "page": 1
+    },
+    {
+      "quote": "Les dommages résultant, directement ou indirectement, de \nmaladies transmissibles ou de la menace (réelle, potentielle ou \nalléguée) de maladies transmissibles.",
+      "context": "Exclusion maladies transmissibles",
+      "page": 1
+    },
+    {
+      "quote": "Selon les garanties une somme indiquée au contrat peut rester \nà la charge de l'assuré (franchise) ou des seuils d'intervention \npeuvent être applicables.",
+      "context": "Franchise et seuils d'intervention",
+      "page": 1
+    },
+    {
+      "quote": "Matmut - Mutuelle assurance des travailleurs mutualistes. Société d’assurance mutuelle à cotisations variables, \nimmatriculée au RCS de Rouen n° 775 701 477. Entreprise régie par le Code des assurances. \nSiège social : 66, rue de Sotteville 76100 Rouen.",
+      "context": "Bloc d'identité du porteur de risque",
+      "page": 1
+    },
+    {
+      "quote": "L’ensemble des garanties du contrat s’exerce en France et dans la Principauté de Monaco.",
+      "context": "Étendue territoriale",
+      "page": 2
+    },
+    {
+      "quote": "Les garanties Responsabilité Civile Exploitation et Responsabilité Civile Professionnelle sont étendues aux pays membres de l’Union \nEuropéenne, à la Norvège, au Royaume-Uni et à la Suisse lorsque l’assuré n’y exerce pas plus de 4 mois par année d’assurance.",
+      "context": "Extension territoriale RC",
+      "page": 2
+    },
+    {
+      "quote": "Sous peine de nullité du contrat ou de non-garantie, vous devez : \n- à la souscription : répondre exactement aux questions posées par l’assureur,  \n- en cours de contrat : déclarer tout élément ayant pour effet d’aggraver le risque garanti, \n- en cas de sinistre : déclarer le sinistre le plus rapidement possible et, au plus tard, dans les délais et selon les modalités précisés aux \nConditions générales.",
+      "context": "Obligations de l'assuré",
+      "page": 2
+    },
+    {
+      "quote": "Le contrat est conclu pour une durée d’un an et se renouvelle automatiquement à sa date d’échéance annuelle, sauf résiliation par l’une \ndes parties dans les formes et conditions prévues aux Conditions générales.",
+      "context": "Durée et reconduction",
+      "page": 2
+    },
+    {
+      "quote": "Elle peut être demandée aux conditions prévues au contrat à son échéance annuelle sous réserve de respecter un délai de préavis d'un \nmois.",
+      "context": "Préavis de résiliation",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "Contrôle d'inversion de colonnes : NÉGATIF sur ce document, vérifié sur rendu 3×. Le texte plat émet la colonne gauche (« QU'EST-CE QUI EST ASSURÉ ? », x0=33,7) puis la colonne droite haute (« QU'EST-CE QUI N'EST PAS ASSURÉ ? », x0=309,2) puis la colonne droite basse (« Y A-T-IL DES EXCLUSIONS À LA COUVERTURE ? », x0=309,2) — ordre identique à l'impression.",
+    "En revanche, le bandeau de tête de la page 1 (« ASSURANCE DES PROFESSIONNELS (artisans, commerçants et services) », « Document d'information sur le produit d'assurance », le bloc d'identité Matmut et « Produit : Contrat « Matmut Pro » ») est émis EN DERNIER dans le texte plat (blocs y0=11,4 et y0=101,6 rendus après le bas de page). Sans conséquence sur les rattachements, mais une lecture séquentielle placerait l'identité de l'assureur après les exclusions.",
+    "Marqueurs (analyse par police, couleur et abscisse, aucun tracé vectoriel < 14 pt sur la page) : garanties couvertes = 5 coches vertes à x0=33,7, MAIS réparties sur DEUX glyphes et DEUX verts différents — 1 × U+F0FC Wingdings-Regular 8,5 pt couleur 0x00B050 (Responsabilité Civile Exploitation) et 4 × U+2713 MS-UIGothic 6,0 pt couleur 0x159A34. Un tri par couleur ou par glyphe aurait scindé ces 5 garanties en deux polarités inexistantes. Toutes appartiennent à la même liste « Garanties en inclusion prévues ».",
+    "Non-assuré = 8 × U+F072 Webdings 8,5 pt couleur 0xDB0812 (croix rouge au rendu) à x0=309,2. Le 8e marqueur (U+F072 suivi de U+F020) porte l'item « La garantie responsabilité civile professionnelle n'est pas acquise aux professions suivantes… » : dans le texte plat cette puce est invisible et l'item ressemble à un paragraphe de commentaire ; c'est bien un item à puce de la liste. Retenu comme exclusion.",
+    "Exclusions = 11 × « ! » Calibri 10 pt couleur 0xF79646 à x0=309,2, soit 10 sous « Principales exclusions (légales et contractuelles) » et 1 sous « Principales restrictions : franchise et seuils d'intervention ». Ce 11e item n'est pas une exclusion : il est porté en `deductibles.variable`. Les comptes ferment : 5 + 8 + 11 = 24 marqueurs pour 24 items lus.",
+    "Les 10 « Garanties optionnelles » (8 « Assurances des locaux » + 2 « Assistance aux locaux ») sont imprimées SANS AUCUNE PUCE (x0=39,1, aucun glyphe marqueur). Elles sont conservées comme garanties, rattachées par abscisse et par les intitulés de rubrique qui les précèdent.",
+    "La ligne « Évènements climatiques, dégâts des eaux, gel. Inondation et catastrophes naturelles. » est imprimée comme UNE seule entrée de liste (paragraphe de deux lignes, interligne 13,1 pt identique aux autres entrées) mais contient deux phrases. Conservée en une seule garantie, avec la composition signalée dans sa description plutôt que scindée arbitrairement.",
+    "Glyphes de zone privée (PUA) présents dans le calque texte aux emplacements de puces : U+F0FC (×3, dont 2 en page 2), U+F072 (×8), U+F020 (×1). Ils ne sont ni des espaces ni supprimables par normalisation ; toutes les citations de `key_quotes` ont été tranchées de manière à les éviter.",
+    "Porteur de risque : le bloc d'identité imprimé nomme « Matmut - Mutuelle assurance des travailleurs mutualistes. Société d'assurance mutuelle à cotisations variables, immatriculée au RCS de Rouen n° 775 701 477. Entreprise régie par le Code des assurances. » Aucune autre personne morale n'est nommée sur le document (ni gestionnaire, ni assisteur, ni courtier) ; aucun verbe d'attribution (« assuré par », « géré par ») n'y figure. Le document dit « RCS de Rouen n° 775 701 477 » là où la métadonnée de tâche dit « Siren 775 701 477 » — même numéro, qualification différente ; les deux formulations sont conservées telles quelles.",
+    "`insurer_name` porte le nom d'entité « Matmut » et non la mention légale entière fournie par la métadonnée de tâche ; la mention imprimée intégrale est conservée verbatim en `special_conditions` et en `key_quotes`.",
+    "`target_audience` = `independants` d'après la formulation propre au document (« ASSURANCE DES PROFESSIONNELS (artisans, commerçants et services) », « les risques encourus par des professionnels (artisans, commerçants et services) »), reprise verbatim en `target_audience_note`. Le document n'emploie aucune des catégories du schéma.",
+    "Aucune franchise chiffrée : le document indique seulement qu'« une somme indiquée au contrat peut rester à la charge de l'assuré » et que « des seuils d'intervention peuvent être applicables », sans montant ni seuil.",
+    "Aucune section de définitions, aucun délai de carence, aucune prescription : absents d'un IPID (`definitions`, `waiting_periods` vides, `prescription_period` null).",
+    "Les plafonds des garanties optionnelles ne sont pas indiqués : le document renvoie explicitement aux conditions générales (« Le détail des plafonds figure aux conditions générales du contrat »).",
+    "L'extension territoriale (UE, Norvège, Royaume-Uni, Suisse, moins de 4 mois par année d'assurance) n'est déclarée que pour les Responsabilités Civiles Exploitation et Professionnelle ; pour toutes les autres garanties, seul « France et Principauté de Monaco » est écrit.",
+    "Référence et édition : « IPID.MPRO - 10/25 » imprimé en pied de page 2 (folio absent du document ; les pages citées sont les marqueurs [[page N]], soit les pages PDF).",
+    "Texte du PDF réextrait par mes soins avec page.get_text(\"text\") : les 2 pages sortent identiques à celles du prompt, aucune troncature."
+  ]
+}

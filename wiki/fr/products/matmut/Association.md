@@ -836,6 +836,10 @@ Toute action dérivant du présent contrat, qu'il s'agisse de sa validité ou de
 - L'article 15-3 renvoie à un « article 15-11 » pour le conflit d'intérêts et l'article 15-5 à un « article 15-9 » pour l'arbitrage : ces renvois sont cohérents avec le document. En revanche l'article 16-1 renvoie à un « article 16-3 D » alors que la disposition correspondante est numérotée 16-3-3-D ; reporté sans correction.
 - Les pages 57, 59 et 62 ne contiennent que des pages de titre (Modalités d'examen des réclamations, Fiche d'information RC dans le temps, Charte de protection des données) ; la page 68 est le dos de couverture.
 
+## Documents liés
+
+- [Contrat « Association » - IPID](Contrat%20%C2%AB%20Association%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information, éd. 07/23
+
 ## Source & fidélité
 
 - Source : [https://www.matmut.fr/services-en-ligne/doc/CG/CGASS.pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGASS.pdf) - téléchargé le 2026-07-30 - 68 pages
