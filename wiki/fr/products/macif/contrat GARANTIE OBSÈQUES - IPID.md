@@ -30,7 +30,7 @@ extraction_model: claude-code-subagent:scale
 prompt_version: '1.1'
 product_family: garantie-obseques
 variant: null
-edition_status: null
+edition_status: current
 edition_age_years: 0
 superseded: null
 extends: null
@@ -191,7 +191,9 @@ Assistance des proches après les obsèques (assistance administrative, soutien 
 
 ## Documents liés
 
+- Édition courante de ce produit.
 - [Garantie Obsèques - Doc](Garantie%20Obs%C3%A8ques%20-%20Doc.md) - Document
+- [Garantie Obsèques - IPID](Garantie%20Obs%C3%A8ques%20-%20IPID.md) - IPID / Fiche d'information, éd. 1er juillet 2026
 
 ## Source & fidélité
 

@@ -486,6 +486,10 @@ Service systématiquement prévu au contrat : cautionnement de prêt pour les fo
 - PICTOGRAMMES PERDUS : la page 1 renvoie à des symboles graphiques (« Les garanties ou services précédés d'une coche verte sont systématiquement prévus au contrat », et le symbole du bonus fidélité en page 4) qui n'existent pas dans la couche texte. Il est donc IMPOSSIBLE de déterminer, ligne par ligne, quelles prestations portent effectivement le symbole du bonus fidélité ; la garantie « Bonus fidélité » est restituée sans liste de prestations concernées.
 - VÉRIFICATION SOURCE : le texte du prompt a été confronté au PDF local (data/fr/pdfs/macif/sante/contrat-garantie-sante-territoriaux-394da741.pdf) réextrait page par page avec page.get_text("text") via PyMuPDF ; les 4 pages ressortent identiques. Aucune troncature.
 
+## Documents liés
+
+- [Garantie Santé Territoriaux - Fiche](Garantie%20Sant%C3%A9%20Territoriaux%20-%20Fiche.md) - Fiche produit, éd. 10.01.2022
+
 ## Source & fidélité
 
 - Source : [https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_GST.pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_GST.pdf) - téléchargé le 2026-08-01 - 4 pages

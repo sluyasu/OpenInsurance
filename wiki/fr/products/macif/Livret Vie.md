@@ -1,0 +1,291 @@
+---
+type: product
+domain: insurance
+country: fr
+insurer: '[[Macif]]'
+insurer_slug: macif
+branch: assurance-vie
+product_name: Livret Vie
+document_type: conditions_generales
+target_audience: null
+target_audience_note: Le document ne qualifie pas sa clientèle. Il indique seulement
+  qu'il s'agit d'un « contrat d'assurance-vie de groupe en euros, à adhésion facultative
+  » et que « l'adhésion et la gestion d'un contrat pour le compte d'un mineur ou d'un
+  majeur protégé sont soumises à des dispositions légales spécifiques ».
+reference: MUT/N/LV - 01/18
+edition_date: JANVIER 2018
+lang: fr
+tags:
+- insurance/fr/assurance-vie
+- product
+- insurer/macif
+aliases:
+- Livret Vie
+source_url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/NI-LIVRET-VIE-2018_compressed.pdf
+source_pages: 8
+fetched_at: '2026-08-01'
+extraction_model: claude-code-subagent:scale
+prompt_version: '1.1'
+product_family: livret-vie
+variant: null
+edition_status: null
+edition_age_years: 8
+superseded: null
+extends: null
+freshness: '2026-08-01'
+status: ready
+generated: true
+---
+
+<!-- GENERATED - do not edit. Fix data/<cc>/extracted/ and run `make build`. -->
+
+## Résumé
+
+Note d'information du contrat Livret Vie, contrat d'assurance-vie de groupe en euros à adhésion facultative régi par le Code des assurances et relevant de la branche 20. L'adhérent se constitue une épargne par versements libres ou mensuels (50 euros minimum), rémunérée par un taux d'intérêt minimum garanti et des intérêts complémentaires, avec redistribution d'au moins 95% des produits financiers nets ; l'épargne est disponible à tout moment par avance ou par rachat. Au décès, le capital constitué est versé aux bénéficiaires désignés, éventuellement augmenté d'une prestation complémentaire au titre de la garantie décès (20% de l'épargne moyenne gérée en 2018, plancher 250 euros, plafond 5 000 euros dégressif jusqu'à 2 000 euros). Le PDF réunit la note d'information de janvier 2018 et deux additifs (janvier 2022 et juillet 2022) qui en modifient l'encadré, les articles 8 et 9 et la garantie décès.
+
+- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Conditions générales · Édition : JANVIER 2018
+
+> ⚠️ **Édition ancienne** : JANVIER 2018, soit 8 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
+
+## Définitions
+
+| Terme | Définition | Page |
+|---|---|---|
+| Contrat Livret Vie | Le contrat Livret Vie est un contrat de groupe (collectif) d'assurance-vie permettant à l'adhérent de se constituer, grâce à des versements et à leur rémunération, un capital disponible à tout moment, sous réserve le cas échéant, de l'accord du (des) bénéficiaire(s) acceptant(s). Le capital disponible au moment du décès de l'assuré est versé aux bénéficiaires désignés par l'adhérent. | p. 4 |
+| Adhérent | L'adhérent est la personne qui conclut le contrat et qui désigne le(s) bénéficiaire(s) du contrat en cas de décès. L'adhérent acquiert automatiquement la qualité d'assuré et de bénéficiaire en cas de vie. | p. 4 |
+| Clause bénéficiaire | La clause bénéficiaire détermine la ou les personne(s) qui recevront le capital de votre contrat, en cas de décès. C'est un élément important du contrat car en l'absence de bénéficiaire désigné, ce capital réintègre la succession. | p. 4 |
+| Conjoint (clause standard) | La notion de conjoint désigne uniquement la personne mariée ; le concubin n'est pas assimilé au conjoint ou au partenaire de PACS. | p. 4 |
+| Clause particulière | Les bénéficiaires sont désignés soit nominativement (nom, nom de naissance, prénom, adresse, date et lieu de naissance) soit par la qualité (enfant, conjoint…). Vous précisez la répartition souhaitée et terminez par la mention « à défaut à mes héritiers ». Cette désignation doit être effectuée sur papier libre, datée, signée et adressée à Mutavie. | p. 4 |
+| Acceptation du bénéfice | Avec votre consentement écrit, le(s) bénéficiaire(s) de votre contrat peut (peuvent) en accepter le bénéfice. Cette démarche a des conséquences importantes : la désignation devient irrévocable et l'accord du (des) bénéficiaire(s) est nécessaire pour toute opération autre qu'un versement. | p. 4 |
+| Date de valeur d'un versement libre | Le jour de remise à l'encaissement du chèque ou de la date de réception de la demande de prélèvement à Mutavie. | p. 5 |
+| Date de valeur d'un versement mensuel | La date d'échéance choisie (le 10, le 20 ou le dernier jour ouvré du mois - 1er jour ouvré précédant la date choisie lorsque celle-ci correspond à un week-end ou à un jour férié). | p. 5 |
+| « Euros général » | Portefeuille financier contractuellement isolé dans la comptabilité de Mutavie, cantonné, essentiellement composé de valeurs obligataires. L'additif de janvier 2022 le renomme « euros principal » (p. 3). | p. 5 |
+| Capital constitué | Le capital constitué représente la valeur acquise de l'épargne figurant sur le contrat Livret Vie à la date de règlement du capital décès. | p. 7 |
+| Accident (garantie décès accidentel) | On entend par accident tout événement soudain, involontaire et imprévu, provenant d'une cause extérieure à l'adhérent, et entraînant son décès. (Additif de juillet 2022, applicable à partir du 1er janvier 2023.) | p. 2 |
+| Âge pris en compte (plafond de la garantie décès) | L'âge pris en compte est calculé par la différence de millésime entre l'année de la connaissance par écrit du décès de l'adhérent et son année de naissance. | p. 7 |
+| Avance | L'avance vous permet de disposer d'une certaine somme sans avoir à effectuer de rachat. Elle est remboursable avec intérêts. À tout moment, Mutavie peut vous accorder une avance sur contrat sous forme de « prêt ». | p. 5 |
+| Comité de gestion paritaire | Le comité de gestion paritaire réunit l'ensemble de vos représentants, qui veillent au respect de vos intérêts. Ses missions sont au nombre de quatre : exercer un contrôle sur la gestion financière des contrats et vérifier le respect des engagements ; donner un avis lors d'une création, modification ou suppression de contrat ou garantie ; émettre des propositions auprès de Mutavie ; assurer la médiation entre Mutavie et un adhérent. | p. 7 |
+| Branche du contrat | Le contrat d'assurance-vie Livret Vie relève de la branche 20 du Code des assurances, définie à l'article R.321-1 du Code des assurances. | p. 7 |
+
+## Garanties
+
+### Garantie en capital (support euros) - p. 1
+Livret Vie étant un contrat en euros, le contrat comporte une garantie de capital au moins égale aux sommes versées (déduction faite des rachats effectués) hors frais annuels de gestion. L'épargne investie est gérée dans un portefeuille financier contractuellement isolé dans la comptabilité de Mutavie ; cet actif, dénommé « Euros général », est cantonné et essentiellement composé de valeurs obligataires.
+- Optionnelle : non · Limite : Au moins égale aux sommes versées (déduction faite des rachats effectués) hors frais annuels de gestion
+  - Condition : Le principe du cantonnement des actifs interdit tout transfert de produits financiers vers les fonds propres de l'assureur ou vers d'autres actifs cantonnés
+  - Condition : Modifié par l'additif de janvier 2022 (p. 3) : « garantie en capital au moins égale aux sommes versées (déduction faite des rachats effectués) nettes des frais annuels de gestion (article 9) » ; l'actif est alors dénommé « euros principal » et « le contrat garantit les sommes investies nettes des frais annuels de gestion, qui peuvent en réduire la valeur »
+
+### Capitalisation de l'épargne — taux d'intérêt minimum garanti - p. 5
+Votre épargne se capitalise en recevant chaque jour des intérêts calculés hors contributions sociales exigibles, sur la base d'un taux équivalent journalier au taux d'intérêt minimum garanti, valable pour l'année en cours. Il est fixé conformément aux obligations réglementaires et ne préjuge pas du taux de rendement final de votre contrat.
+- Optionnelle : non · Limite : Taux d'intérêt minimum garanti fixé avant le 1er janvier de l'année par décision de Mutavie, brut de frais de gestion
+  - Condition : Le taux de capitalisation de l'épargne investie est constitué du taux d'intérêt minimum garanti augmenté du taux d'intérêt complémentaire
+  - Condition : Ces trois taux (taux d'intérêt minimum garanti, taux d'intérêt complémentaire et taux de capitalisation) sont fixés chaque fin d'année par le Directoire de Mutavie
+
+### Participation aux bénéfices / intérêts complémentaires - p. 5
+Mutavie s'engage à redistribuer chaque année aux adhérents au moins 95% des produits financiers nets engendrés dans l'exercice par les actifs. Ces produits financiers sont affectés à la rémunération de l'épargne (par les intérêts garantis servis chaque jour, éventuellement par les intérêts complémentaires servis en fin d'année ou en cas de clôture du contrat), à la garantie décès versée au(x) bénéficiaire(s) et éventuellement à la provision pour participation aux bénéfices afin d'être redistribués ultérieurement.
+- Optionnelle : non · Limite : Au moins 95% des produits financiers nets engendrés dans l'exercice par les actifs
+  - Condition : Des intérêts complémentaires peuvent être accordés par anticipation en cours d'exercice lors de la clôture du contrat (rachat total, transformation, décès de l'adhérent)
+  - Condition : Additif janvier 2022 (p. 3) : « au moins 95% des produits financiers nets du support euros au contrat Livret Vie et aux autres contrats du canton “euro principal” »
+
+### Capital décès — capital constitué - p. 7
+Au décès de l'adhérent, le capital décès du contrat est versé au(x) bénéficiaire(s) désigné(s). Celui-ci est égal au capital constitué, éventuellement augmenté d'une prestation complémentaire au titre de la garantie décès. Le capital constitué représente la valeur acquise de l'épargne figurant sur le contrat Livret Vie à la date de règlement du capital décès.
+- Optionnelle : non · Limite : Valeur acquise de l'épargne figurant sur le contrat Livret Vie à la date de règlement du capital décès
+  - Condition : Jusqu'au jour précédant le règlement du capital décès, la valeur de l'épargne ainsi que la garantie décès se capitalisent au taux fixé par Mutavie en fin d'année précédente, avec un minimum correspondant au taux réglementaire
+  - Condition : Les sommes dues au titre du contrat non réglées à l'issue d'un délai de dix ans, à compter de la date de prise de connaissance par l'assureur du décès de l'assuré, sont déposées à la Caisse des dépôts et consignations (article L.132-27-2 du Code des assurances)
+
+### Garantie décès (prestation complémentaire, article 16.2) - p. 7
+Prestation complémentaire versée en sus du capital constitué. La garantie décès est acquise à tout adhérent détenant depuis plus de deux ans, à Mutavie, un contrat d'assurance-vie de type : Actiplus, Livret Vie, Actiplus Option, Multi Vie, Actiplus Retraite, Actipep, Actifonds, Actifonds DSK ou Actifonds Retraite. Cette garantie est accordée pour toute adhésion active au moment du décès, sans limite d'âge, sans formalité médicale et quelle que soit la cause du décès. Le montant garanti est exprimé en pourcentage de l'épargne moyenne gérée les deux années civiles précédant l'année de réception par l'assureur d'un écrit l'informant du décès.
+- Optionnelle : non · Limite : Pour 2018 : 20% de la moyenne de l'épargne gérée des deux années civiles précédant l'année de réception par l'assureur d'un écrit l'informant du décès, après déduction de l'avance moyenne éventuelle ; plancher 250 euros ; plafond 5 000 euros valable jusqu'à 70 ans, progressivement minoré jusqu'à 2 000 euros
+  - Sous-limite : Plafond par âge à la connaissance du décès : 70 ans et avant : 5 000 ; 71 ans : 4 800 ; 72 ans : 4 600 ; ... ; 83 ans : 2 400 ; 84 ans : 2 200 ; 85 ans ou plus : 2 000 (tableau p. 7, montants en euros)
+  - Condition : Détenir depuis plus de deux ans, à Mutavie, un contrat d'assurance-vie de la liste ; adhésion active au moment du décès
+  - Condition : Si des avances ont été réalisées durant ces deux dernières années, leur montant moyen est déduit de l'épargne moyenne gérée
+  - Condition : Le pourcentage est fixé annuellement dans le cadre de la gestion paritaire et est révisable chaque année
+  - Condition : Le plancher et le plafond, révisables chaque année, s'appliquent en tenant compte de l'ensemble des adhésions concernées
+  - Condition : L'âge pris en compte est calculé par la différence de millésime entre l'année de la connaissance par écrit du décès de l'adhérent et son année de naissance
+  - Condition : Garantie mise en place pour une durée d'un an renouvelable par tacite reconduction ; après concertation et avis des représentants des adhérents, Mutavie peut décider de ne pas la reconduire
+  - Condition : Financée par un prélèvement sur le portefeuille financier, exprimé en pourcentage de l'épargne gérée au 1er janvier de l'année, révisable annuellement — à titre indicatif 0,08% en 2018
+  - Condition : Le montant garanti est ventilé entre les différents bénéficiaires selon la même répartition que le capital constitué, conformément aux clauses bénéficiaires
+  - Condition : Additif de juillet 2022 (p. 2), applicable à partir du 1er janvier 2023 : la garantie est accordée quelle que soit la cause du décès jusqu'au 31 décembre de l'année des 85 ans ; pour toute déclaration de décès notifiée par écrit à l'assureur à compter du 1er janvier de l'année des 86 ans de l'assuré, elle est versée uniquement en cas de décès accidentel
+
+### Avance sur contrat - p. 5
+L'avance vous permet de disposer d'une certaine somme sans avoir à effectuer de rachat. Elle est remboursable avec intérêts. À tout moment, Mutavie peut vous accorder une avance sur contrat sous forme de « prêt ».
+- Optionnelle : non · Limite : Montant maximum : 80% de la valeur acquise de l'épargne lors de la demande d'avance ; montant minimum : 150 euros
+  - Sous-limite : Durée : 3 ans renouvelable deux fois (3 ans puis 2 ans) dans la limite de 8 ans
+  - Sous-limite : Taux de l'avance : taux garanti de l'année précédente + taux d'intérêt complémentaire de l'année précédente (avant prélèvement des frais de gestion) + un taux fixe de 0,50%
+  - Sous-limite : Remboursement : libre ou programmé pendant la durée de l'avance, d'un montant minimum de 150 euros
+  - Condition : Au terme des huit ans, en cas de rachat total ou de décès, la dette restant éventuellement en cours est automatiquement déduite de la valeur acquise de l'épargne figurant sur le contrat
+  - Condition : Dans les conditions et garanties fixées par les conditions générales de l'avance, cette opération fait l'objet d'une déclaration fiscale et peut entraîner la clôture du contrat
+
+### Rachat partiel - p. 5
+Le rachat partiel est possible à tout moment pour un montant de 150 euros minimum et à condition que la valeur acquise de l'épargne figurant sur votre contrat, après l'opération, reste supérieure à 150 euros, hors provision pour contributions sociales exigibles. Dans le cas contraire, seul un rachat total est possible.
+- Optionnelle : non · Limite : Montant minimum de 150 euros ; solde restant supérieur à 150 euros hors provision pour contributions sociales exigibles
+  - Condition : À compter de la réception de la demande par Mutavie, le rachat est réalisé sous dix jours ouvrés maximum, sous réserve qu'il n'y ait aucune opération en cours au jour de l'enregistrement
+  - Condition : Le règlement est effectué au nom de l'adhérent ; les intérêts continuent à se capitaliser jusqu'au jour de traitement par Mutavie
+
+### Rachat programmé constant - p. 6
+Vous disposez de la faculté de verser périodiquement une somme fixe, directement créditée sur un compte bancaire à votre nom, selon la périodicité qui vous convient le mieux (annuelle, semestrielle, trimestrielle ou mensuelle).
+- Optionnelle : non · Limite : Montant minimum de chaque rachat : 150 euros
+  - Condition : À tout moment, possibilité d'interrompre ou de modifier les caractéristiques du rachat programmé
+
+### Rachat d'une somme équivalente aux intérêts - p. 6
+Vous disposez du versement d'une somme équivalente aux intérêts produits par votre épargne selon la périodicité (annuelle, semestrielle, trimestrielle ou mensuelle), à terme échu.
+- Optionnelle : non
+
+### Rachats progressifs - p. 6
+Vous transformez la valeur acquise de votre épargne en autant de trimestrialités revalorisables que vous souhaitez recevoir. Le montant de la première trimestrialité, servi à terme échu, est égal à la valeur acquise de votre épargne, divisée par le nombre « n » de trimestrialités retenues. La deuxième trimestrialité est égale au montant de la valeur acquise de l'épargne figurant trois mois plus tard sur votre contrat Livret Vie, divisé par (n-1), etc.
+- Optionnelle : non
+  - Condition : Votre contrat est clôturé une fois servie la dernière trimestrialité
+
+### Rachat total de la valeur acquise de l'épargne - p. 6
+Le rachat total de l'épargne entraîne la clôture de votre contrat Livret Vie. En cas de clôture du contrat en cours d'année, des intérêts complémentaires peuvent être versés par anticipation (article 9). Pour éviter la clôture du contrat Livret Vie et conserver les avantages liés à son ancienneté, il vous suffit de laisser au minimum 150 euros hors contributions sociales exigibles.
+- Optionnelle : non · Limite : Laisser au minimum 150 euros hors contributions sociales exigibles pour éviter la clôture
+
+### Rachat de la valeur de l'épargne dans les cas particuliers - p. 6
+Dans l'hypothèse où un tiers autorisé, notamment l'administration, exige le versement de tout ou partie de la valeur de rachat, quelle qu'en soit la cause (avis à tiers détenteur, saisie, opposition, gel des avoirs, etc) ou dans l'hypothèse où un texte réglementaire impose le rachat forcé de la valeur de l'épargne (par exemple en raison de la non actualisation des données de l'adhérent), la part des intérêts correspondant au dit rachat est intégrée aux revenus déclarés annuellement par l'adhérent sauf demande contraire de sa part.
+- Optionnelle : non
+
+### Rente viagère - p. 6
+Sous réserve d'un accord de Mutavie, vous avez la possibilité de transformer tout ou partie de la valeur acquise de votre épargne en une rente viagère revalorisable, réversible ou non sur la tête de votre conjoint ou sur celle d'une autre personne désignée.
+- Optionnelle : non
+  - Condition : Sous réserve d'un accord de Mutavie
+  - Condition : La transformation doit intervenir avant le 31 décembre suivant le 80e anniversaire du (des) bénéficiaire(s) de la rente
+  - Condition : Les conditions de conversion en rente sont celles en vigueur au moment de la transformation
+  - Condition : Le document indique : « Cette transformation, si elle est totale, entraîne la clôture de votre contrat Actiplus. » — le nom du contrat cité est Actiplus et non Livret Vie (reproduit tel quel)
+
+### Dispositif Épargne Handicap - p. 6
+Lors de l'adhésion au contrat, si vous êtes atteint d'une infirmité qui vous empêche de vous livrer dans des conditions normales de rentabilité à une activité professionnelle, les versements effectués dans l'année ouvrent droit, par foyer fiscal, à une réduction d'impôt dans les conditions et limites fixées par l'article 199 septies du Code général des impôts.
+- Optionnelle : non · Limite : Réduction d'impôt dans les conditions et limites fixées par l'article 199 septies du Code général des impôts
+  - Condition : Ces limites s'appliquent à l'ensemble des contrats rente-survie et Épargne Handicap ouverts par les membres du foyer fiscal
+  - Condition : Réduction accordée à condition de conserver le contrat actif au moins six ans ; dans le cas contraire, l'administration fiscale peut remettre en cause l'avantage fiscal
+  - Condition : Adresser à Mutavie tout document attestant de la situation conformément à l'article 199 septies du Code général des impôts
+  - Condition : Au moment de l'adhésion, ne pas avoir liquidé ses droits à la retraite
+
+### Information annuelle de l'adhérent - p. 5
+Au début de chaque année, Mutavie vous adresse le relevé de situation de votre contrat indiquant, pour l'année écoulée, l'évolution de la valeur de votre épargne, en tenant compte notamment des versements et des rachats éventuels, des intérêts acquis en cours d'année sur la base du taux minimum garanti, des intérêts complémentaires acquis en fin d'année et du prélèvement réalisé au titre des contributions sociales de l'année. Lors de cet envoi, Mutavie communique également le nouveau taux d'intérêt minimum garanti valable pour l'année en cours.
+- Optionnelle : non
+  - Condition : Le montant éventuel de la garantie décès peut être communiqué via le relevé de situation
+  - Condition : Si au moins un rachat a été effectué au cours de l'année, un justificatif fiscal est adressé l'année suivante
+  - Condition : Chaque opération (hors versements mensuels) donne lieu à une confirmation par courrier ou e-mail
+
+### Valeur minimale de rachat (garantie réglementaire) - p. 5
+Conformément à la réglementation, Mutavie est tenue de préciser la valeur minimale de rachat de votre épargne. Ce montant ne tient pas compte de la capitalisation réelle de votre épargne ni des éventuels mouvements effectués sur votre contrat. Le tableau décrit, sur les huit premières années, l'évolution de la valeur de rachat, exprimée en euros, pour un versement de 1 000 euros effectué à l'adhésion. Ces montants correspondent à la valeur minimale du capital disponible.
+- Optionnelle : non · Limite : Pour un versement de 1 000 euros à l'adhésion : année 1 : 994,00 ; 2 : 988,04 ; 3 : 982,11 ; 4 : 976,22 ; 5 : 970,36 ; 6 : 964,54 ; 7 : 958,75 ; 8 : 953,00 (cumul des versements effectués : 1 000 chaque année)
+  - Condition : Ces valeurs de rachat ne tiennent pas compte des prélèvements sociaux et fiscaux
+  - Condition : Le même tableau est repris à l'identique dans l'additif de janvier 2022 (p. 3), colonnes inversées et cumul imprimé « 1000 » sans espace
+
+## Exclusions
+
+| Exclusion | Description | S'applique à | Page |
+|---|---|---|---|
+| Garantie décès accidentel — décès faisant suite à une maladie médicalement constatée | Additif de juillet 2022, applicable à partir du 1er janvier 2023 : pour toute déclaration de décès notifiée par écrit à l'assureur à compter du 1er janvier de l'année des 86 ans de l'assuré, la garantie décès est versée uniquement en cas d'accident. « Ne sont pas considérés comme résultant d'un accident les décès faisant suite à : une maladie médicalement constatée ». | Garantie décès (prestation complémentaire, article 16.2) | p. 2 |
+| Garantie décès accidentel — infarctus, affection coronarienne, accident vasculaire cérébral | « Ne sont pas considérés comme résultant d'un accident les décès faisant suite à : un infarctus, une affection coronarienne ou à un accident vasculaire cérébral » (additif juillet 2022, décès notifiés à compter du 1er janvier de l'année des 86 ans). | Garantie décès (prestation complémentaire, article 16.2) | p. 2 |
+| Garantie décès accidentel — meurtre | « Ne sont pas considérés comme résultant d'un accident les décès faisant suite à : un meurtre » (additif juillet 2022, décès notifiés à compter du 1er janvier de l'année des 86 ans). | Garantie décès (prestation complémentaire, article 16.2) | p. 2 |
+| Garantie décès accidentel — suicide ou actes de mutilations | « Ne sont pas considérés comme résultant d'un accident les décès faisant suite à : un suicide ou des actes de mutilations ayant pour but de porter atteinte à son intégrité physique » (additif juillet 2022, décès notifiés à compter du 1er janvier de l'année des 86 ans). | Garantie décès (prestation complémentaire, article 16.2) | p. 2 |
+| Garantie décès accidentel — mort naturelle | « Ne sont pas considérés comme résultant d'un accident les décès faisant suite à : une mort naturelle » (additif juillet 2022, décès notifiés à compter du 1er janvier de l'année des 86 ans). | Garantie décès (prestation complémentaire, article 16.2) | p. 2 |
+| Garantie décès accidentel — hospitalisation ou chirurgie non consécutive à un accident | « Ne sont pas considérés comme résultant d'un accident les décès faisant suite à : une hospitalisation ou une chirurgie non consécutive à un accident » (additif juillet 2022, décès notifiés à compter du 1er janvier de l'année des 86 ans). | Garantie décès (prestation complémentaire, article 16.2) | p. 2 |
+| Guerre civile, attentat ou accident nucléaire | « Sont exclus les décès faisant suite à : une guerre civile, un attentat ou à un accident nucléaire » (additif juillet 2022, garantie décès accidentel). | Garantie décès (prestation complémentaire, article 16.2) | p. 2 |
+| Accident ayant pour origine des comportements dangereux et prohibés de l'assuré | « Sont exclus les décès faisant suite à : un accident ayant pour origine des comportements dangereux et prohibés de l'assuré (exemple : conduite avec un taux d'alcoolémie égal ou supérieur à celui fixé par la réglementation en vigueur...) » (additif juillet 2022, garantie décès accidentel). | Garantie décès (prestation complémentaire, article 16.2) | p. 2 |
+| Opérations en espèces | Précision : Mutavie refuse les opérations en espèces. L'article 23 confirme : « Mutavie n'accepte pas les opérations en espèces ». | Versements | p. 4 |
+| Refus d'adhésion ou d'opération au titre du dispositif de gestion des risques et de LCB-FT | En toute circonstance, Mutavie se réserve le droit de ne pas donner suite à votre demande d'adhésion au contrat collectif d'assurance sur la vie, ou le cas échéant à toute demande d'opération, et ce conformément à son dispositif d'évaluation, de sélection et de gestion des risques, notamment en matière de LCB-FT. | all | p. 4 |
+| Blocage des opérations pendant le délai de vérification de l'encaissement | Mutavie dispose d'un délai de 20 jours ouvrés pour vérifier l'encaissement de votre versement, à compter de la date de son enregistrement par Mutavie. En cas de règlement par chèque, le délai de vérification est de 15 jours ouvrés. Durant cette période, aucune opération (rachat, avance ou transformation) ne peut être réalisée sur l'épargne investie correspondant à ce versement. | Rachat partiel ; Rachat total de la valeur acquise de l'épargne ; Avance sur contrat | p. 4 |
+| Limitation ou suspension temporaire des versements sur le support euros | À titre exceptionnel, afin de protéger l'épargne des adhérents contre des évolutions défavorables des marchés, conformément à l'objet du contrat, et dans l'intérêt général des adhérents, Mutavie peut, sur décision du Directoire après autorisation du Conseil de surveillance, limiter ou suspendre temporairement les versements sur le support euros. Cette limitation/suspension prendrait effet à compter de l'information de l'adhérent reçue par tout moyen. | Versements | p. 4 |
+| Modulation des montants de versements acceptés | Par ailleurs, conformément à sa politique de souscription, Mutavie se réserve le droit de moduler le niveau des montants de versements acceptés sur le support euros. | Versements | p. 5 |
+| Rachat partiel impossible si le solde tombe à 150 euros ou moins | Le rachat partiel n'est possible qu'à condition que la valeur acquise de l'épargne figurant sur le contrat, après l'opération, reste supérieure à 150 euros, hors provision pour contributions sociales exigibles. Dans le cas contraire, seul un rachat total est possible. | Rachat partiel | p. 6 |
+| Annulation rétroactive de l'adhésion à défaut des pièces requises | À titre de condition résolutoire, en l'absence de remise des pièces demandées à l'article 2 dans un délai de 15 jours ouvrés à compter de la date de signature de la demande d'adhésion, ou à défaut d'accord de Mutavie, l'adhésion sera rétroactivement annulée et les fonds restitués selon les mêmes modalités que le versement initial. | all | p. 4 |
+
+## Délais d'attente
+
+- Garantie décès (prestation complémentaire, article 16.2) : La garantie décès est acquise à tout adhérent détenant depuis plus de deux ans, à Mutavie, un contrat d'assurance-vie de type : Actiplus, Livret Vie, Actiplus Option, Multi Vie, Actiplus Retraite, Actipep, Actifonds, Actifonds DSK ou Actifonds Retraite. Le montant garanti est par ailleurs calculé sur l'épargne moyenne gérée les deux années civiles précédant l'année de réception par l'assureur d'un écrit l'informant du décès. (Plus de deux ans) p. 7
+- Versements — délai de vérification de l'encaissement : Mutavie dispose d'un délai de 20 jours ouvrés pour vérifier l'encaissement de votre versement, à compter de la date de son enregistrement par Mutavie. En cas de règlement par chèque, le délai de vérification est de 15 jours ouvrés. Durant cette période, aucune opération (rachat, avance ou transformation) ne peut être réalisée sur l'épargne investie correspondant à ce versement. (20 jours ouvrés (15 jours ouvrés en cas de règlement par chèque)) p. 4
+- Dispositif Épargne Handicap : Cette réduction d'impôt est accordée à condition de conserver votre contrat actif au moins six ans. Dans le cas contraire, l'administration fiscale peut remettre en cause l'avantage fiscal accordé dans le cadre de ce dispositif. (Six ans) p. 6
+
+## Obligations de l'assuré
+
+- Pour ouvrir un contrat Livret Vie, vous devez : prendre connaissance de la présente note d'information ; signer le document de synthèse correspondant à l'identification de vos besoins et à la formalisation du conseil ; compléter, dater et signer la demande d'adhésion ; joindre la photocopie recto verso d'un document officiel d'identité portant photographie en cours de validité ; joindre les pièces justificatives suivantes : fiche de renseignement relative aux données de lutte contre le blanchiment et contre le financement du terrorisme (LCB-FT), justificatifs demandés dans les cas prévus par ce document ; effectuer le règlement correspondant au versement initial. (À l'adhésion · À défaut de remise des pièces dans un délai de 15 jours ouvrés à compter de la signature de la demande d'adhésion, ou à défaut d'accord de Mutavie, l'adhésion est rétroactivement annulée et les fonds restitués) p. 4
+- Dans le cadre de la réglementation relative à la LCB-FT, Mutavie est tenue de vérifier l'identité des personnes effectuant un versement sur le contrat ainsi que l'origine des fonds et l'objectif de placement. Toute opération, isolée ou fractionnée, devra être accompagnée des justificatifs liés à l'opération ; l'origine des fonds de toute opération devra être renseignée ; pour des adhésions à distance, une double vérification d'identité sera effectuée (obtention d'une pièce justificative supplémentaire). (À l'adhésion et pendant toute la durée du contrat · L'adhérent s'engage à respecter strictement la réglementation ; Mutavie peut ne pas donner suite à la demande d'adhésion ou à toute demande d'opération) p. 4
+- La désignation particulière doit être effectuée sur papier libre, datée, signée et adressée à Mutavie. Vous pouvez, en cours de vie du contrat, modifier votre désignation, par courrier daté, signé et adressé à Mutavie. (À l'adhésion et en cours de contrat · En l'absence de bénéficiaire désigné, le capital réintègre la succession) p. 4
+- Votre demande doit nous parvenir 20 jours avant l'échéance choisie. Au-delà, votre demande sera prise en compte à l'échéance suivante. (20 jours avant l'échéance choisie · Prise en compte à l'échéance suivante) p. 4
+- Si vous êtes dans une des situations d'exonération (licenciement, mise en retraite anticipée, invalidité totale ou définitive, cessation d'activité non salariée dans le cadre d'un jugement de liquidation judiciaire), vous devez adresser à Mutavie, lors de votre demande de rachat, tous les justificatifs nécessaires à l'application de cette exonération fiscale. Votre rachat doit alors intervenir au plus tard le 31/12 de l'année qui suit la date de réalisation de l'évènement. (Lors de la demande de rachat, au plus tard le 31/12 de l'année suivant l'évènement) p. 6
+- Le paiement du capital décès est effectué par Mutavie après réception d'une pièce officielle certifiant le décès de l'adhérent et d'un accord de règlement signé par chaque bénéficiaire, et après vérification de l'encaissement effectif des éventuels versements en cours. D'autres documents peuvent être demandés dans certains cas particuliers. Selon l'additif de juillet 2022, pour toute déclaration de décès notifiée à compter du 1er janvier de l'année des 86 ans de l'assuré, chaque bénéficiaire devra fournir un justificatif du décès accidentel. (Au décès) p. 7
+
+## Procédure de sinistre
+
+1. À compter de la réception de votre demande par Mutavie, votre rachat est réalisé sous dix jours ouvrés maximum sous réserve qu'il n'y ait aucune opération en cours au jour de l'enregistrement. Le règlement est effectué au nom de l'adhérent. (délai : Dix jours ouvrés maximum à compter de la réception de la demande) p. 6
+2. Le paiement du capital décès est effectué par Mutavie après réception d'une pièce officielle certifiant le décès de l'adhérent et d'un accord de règlement signé par chaque bénéficiaire, et après vérification de l'encaissement effectif des éventuels versements en cours. (délai : Les sommes dues non réglées à l'issue d'un délai de dix ans à compter de la date de prise de connaissance par l'assureur du décès de l'assuré sont déposées à la Caisse des dépôts et consignations (article L.132-27-2 du Code des assurances)) p. 7
+3. En cas de désaccord avec Mutavie, vous avez la possibilité de signaler une anomalie ou exprimer une insatisfaction sur la gestion de votre contrat en adressant un courrier au service Qualité Client de Mutavie, à l'adresse suivante : Mutavie - Service Qualité Client - CS 50000 - 79088 Niort cedex 9. (délai : Mutavie s'engage à répondre sous sept jours ouvrés maximum à compter de la date de réception de la réclamation) p. 8
+4. En cas de désaccord avec les réponses apportées par Mutavie, vous avez la possibilité de saisir le comité de conciliation, au sein duquel vous serez représenté par votre délégué. Pour cela, contactez le service Qualité Client de Mutavie. p. 8
+5. Si le désaccord persiste, Mutavie propose en dernier ressort l'intervention du médiateur de l'assurance, en adressant un courrier à « La Médiation de l'Assurance - TSA 50110 - 75441 Paris cedex 09 » ou par une saisine en ligne sur le site www.mediation-assurance.org, et sans préjudice du droit d'agir en justice. p. 8
+
+## Durée & résiliation
+
+- Durée : Le contrat est ouvert pour une durée indéterminée (vie entière). Il prend fin notamment au décès de l'assuré, ou par anticipation, en cas de rachat total de la valeur de l'épargne. Votre contrat Livret Vie prend effet après réception de votre demande d'adhésion dûment signée, complétée de l'ensemble des pièces nécessaires à l'adhésion, sous réserve de l'encaissement effectif de votre versement initial et de l'accord de Mutavie. Dans les 15 jours suivant la réception de ces documents, Mutavie vous adresse un certificat d'adhésion mentionnant les références de votre contrat et la date d'effet de votre adhésion.
+- Modalité : Renonciation : lettre recommandée datée et signée ou son équivalent par envoi recommandé électronique, avec demande d'avis de réception, adressée à Mutavie - CS 50000 - 79088 Niort cedex 9, en recopiant la mention : « Je soussigné(e) (nom, prénom, adresse) désire renoncer à l'adhésion de mon contrat Livret Vie »
+- Modalité : Clôture par rachat total de la valeur acquise de l'épargne
+- Modalité : Clôture par transformation totale du capital en rente viagère
+- Droit spécial : Délai de renonciation de 30 jours à compter de la date d'envoi du certificat d'adhésion ; sous réserve de l'encaissement effectif du versement, Mutavie s'engage à rembourser intégralement la somme versée à l'ouverture du contrat dans un délai maximum de 10 jours ouvrés à compter de la réception du courrier de renonciation
+- Droit spécial : Annulation rétroactive de l'adhésion à défaut de remise des pièces dans les 15 jours ouvrés ou à défaut d'accord de Mutavie
+- Droit spécial : Les droits et les obligations de l'adhérent peuvent être modifiés par des avenants au contrat conclus entre l'organisme contractant et Mutavie ; l'adhérent est informé trois mois au minimum avant la date d'entrée en vigueur des modifications substantielles (article L.141-4 du Code des assurances)
+- Droit spécial : En cas de résiliation du contrat collectif, les dispositions du présent contrat resteront applicables jusqu'à son dénouement
+- Droit spécial : La garantie décès (article 16.2) est mise en place pour une durée d'un an renouvelable par tacite reconduction ; Mutavie peut décider de ne pas la reconduire après concertation et avis des représentants des adhérents
+
+## Prescription
+
+En application de l'article L.114-1 du Code des assurances, toute action dérivant d'un contrat d'assurance est prescrite par deux ans à compter de l'événement qui y donne naissance. Le(s) bénéficiaire(s), lorsqu'il(s) est (sont) distinct(s) de l'adhérent, peut(vent) réclamer le versement des prestations dans un délai maximum de 30 ans à compter de la date de décès de l'adhérent et doit(vent) le faire dans les 10 ans à compter de la date à laquelle il(s) a (ont) été informé(s) de ce décès. La prescription est interrompue dans les conditions énoncées à l'article L.114-2 du Code des assurances et notamment, par l'envoi d'une lettre recommandée avec accusé de réception à Mutavie. p. 8
+
+## Prime
+
+- Le montant du versement initial est de 50 euros.
+- Versements libres (50 euros minimum) et/ou versements mensuels (50 euros minimum).
+- Le prélèvement des versements mensuels est effectué automatiquement sur compte bancaire, le 10, le 20 ou le dernier jour ouvré (du lundi au vendredi, hors jours fériés) du mois d'échéance. Lorsque la date choisie correspond à un jour férié ou non ouvré, l'opération est effectuée le premier jour ouvré précédant la date choisie.
+- La mise en place des prélèvements mensuels peut avoir lieu à tout moment, sans frais ; la demande doit parvenir 20 jours avant l'échéance choisie.
+- Il est possible, sur simple demande, d'augmenter le montant des versements mensuels, de le diminuer dans la limite du versement minimum contractuel de 50 euros, de modifier la date de prélèvement ou d'interrompre les prélèvements de façon provisoire ou définitive.
+- Frais à l'entrée et sur versements : aucuns frais ne sont prélevés à l'adhésion et sur les versements (encadré : « Frais d'entrée et sur versements : 0% »).
+- Frais annuels de gestion : 0,60% sont prélevés sur l'épargne moyenne gérée. Il intervient en fin d'année pour les Livret Vie actifs ou bien en cours d'année lors de la clôture du contrat (rachat total, transformation, décès de l'adhérent).
+- Additif de janvier 2022 (p. 3) : « Le prélèvement annuel représente 0,60 % de l'épargne gérée. Ce prélèvement intervient en fin d'année pour les contrats Livret Vie actifs, ou bien en cours d'année au prorata temporis, lors de la clôture du contrat (rachat total, transformation totale en rente viagère, décès de l'adhérent). »
+- Financement de la garantie décès : prélèvement sur le portefeuille financier exprimé en pourcentage de l'épargne gérée au 1er janvier de l'année, révisable annuellement, égal à titre indicatif à 0,08% en 2018.
+- Mutavie refuse les opérations en espèces.
+
+## Conditions particulières
+
+- Le contrat Livret Vie est un contrat d'assurance-vie de groupe en euros, à adhésion facultative et régi par le Code des assurances. Le contrat Livret Vie est géré paritairement par les représentants des adhérents et Mutavie. p. 1
+- La durée recommandée du contrat dépend notamment de la situation patrimoniale de l'adhérent, de son attitude vis-à-vis du risque, du régime fiscal en vigueur et des caractéristiques du contrat choisi. L'adhérent est invité à demander conseil auprès de son assureur. p. 1
+- L'adhésion et la gestion d'un contrat pour le compte d'un mineur ou d'un majeur protégé sont soumises à des dispositions légales spécifiques. Pour un mineur, le libellé de la clause bénéficiaire est obligatoirement « à mes héritiers ». Pour une personne protégée, des règles légales spécifiques s'appliquent selon la mesure de protection en cours. p. 4
+- La somme rachetée comporte toujours une part de versements et une part d'intérêts. Seule la part des intérêts correspondant à chaque rachat est soumise à imposition. Celle-ci est intégrée aux revenus déclarés annuellement ou, sur option de l'adhérent, diminuée d'un prélèvement forfaitaire libératoire (PFL) : entre 0 et 4 ans : 35% ; entre 4 et 8 ans : 15% ; après 8 ans : 7,5%, après un abattement annuel de 4 600 euros pour une personne seule et de 9 200 euros pour un couple soumis à imposition commune. L'abattement s'applique pour tous les rachats effectués durant l'année, tous contrats d'assurance-vie confondus, quelle que soit l'option fiscale retenue. p. 6
+- Aucun impôt (dans les conditions et limites fixées par la réglementation en vigueur) sur le revenu n'est dû au titre du rachat partiel ou total : si la valeur acquise de l'épargne est transformée en rente viagère ; si le rachat fait suite à un licenciement, une mise en retraite anticipée, une invalidité totale ou définitive ou la cessation d'activité non salariée dans le cadre d'un jugement de liquidation judiciaire affectant l'adhérent, son conjoint ou son partenaire de PACS. Le rachat doit alors intervenir au plus tard le 31/12 de l'année qui suit la date de réalisation de l'évènement. p. 6
+- En cas de transformation du capital en rente viagère, la rente est partiellement imposable à l'impôt sur le revenu, suivant l'âge du rentier au moment de l'entrée en jouissance de la rente : moins de 50 ans : 70% ; entre 50 et 59 ans inclus : 50% ; entre 60 et 69 ans inclus : 40% ; 70 ans et plus : 30%. La part de la rente soumise à imposition est assujettie aux contributions sociales en vigueur. p. 6
+- Primes versées avant le 70e anniversaire de l'adhérent (article 990 i du Code général des impôts) : le capital décès est soumis à un prélèvement sur la part revenant à chaque bénéficiaire au-delà d'un abattement de 152 500 euros, tous contrats confondus ; ce prélèvement est de 20% pour la part comprise entre 152 501 euros et 852 500 euros et de 31,25% pour la part excédant 852 500 euros. Primes versées à compter du 70e anniversaire (article 757 b du Code général des impôts) : soumises aux droits de succession suivant le degré de parenté au-delà d'un abattement de 30 500 euros, applicable à l'ensemble des bénéficiaires, tous contrats confondus. Dès lors que le bénéficiaire est le conjoint ou le partenaire pacsé, le capital décès est exonéré de tous droits. Les frères et sœurs de l'adhérent peuvent également être exonérés dans les conditions et limites fixées par la réglementation en vigueur. p. 6
+- Les intérêts crédités chaque année sont soumis aux contributions sociales dans les conditions et limites fixées par la réglementation en vigueur. Ce prélèvement s'effectue chaque fin d'année lors de l'inscription en compte des intérêts, lors d'un rachat total, au décès de l'adhérent, ou en cas de transformation. p. 7
+- Le contrat d'assurance-vie Livret Vie relève de la branche 20 du Code des assurances, définie à l'article R.321-1. Il est également régi par un contrat collectif Livret Vie disponible sur simple demande auprès de Mutavie. Les droits et les obligations de l'adhérent peuvent être modifiés par des avenants au contrat conclus entre l'organisme contractant et Mutavie. L'adhérent est informé trois mois au minimum avant la date de leur entrée en vigueur de ces modifications substantielles. p. 7
+- Ce contrat est géré paritairement par les représentants des adhérents et Mutavie. Le comité de gestion paritaire a un rôle permanent ; au moins une fois par an, le comité se réunit lors de la réunion de gestion paritaire, au cours de laquelle Mutavie présente les résultats de chacun de ses contrats. Chaque décision est adoptée à la majorité simple des représentants présents et représentés. Un compte rendu de gestion paritaire est établi à l'issue de chaque réunion et adressé à l'ensemble des adhérents (ou foyers des adhérents) en phase d'épargne active. p. 7
+- Mutavie peut exiger à tout moment et pour toute opération un écrit de l'adhérent. L'adhérent reconnaît que l'utilisation de son identifiant et de son mot de passe vaut signature permettant son identification et prouvant son consentement aux opérations réalisées. La signature de toute opération via un procédé de signature électronique renforcé avec un tiers certificateur vaut signature manuscrite. Cet article vaut convention sur la preuve au sens de l'article 1316-2 du Code civil entre l'adhérent et Mutavie. p. 8
+- Les données recueillies par Mutavie, responsable de traitement, sont nécessaires à la passation, l'exécution, la gestion des contrats d'assurance, à la gestion de la relation clients et au respect des obligations légales. Les données font également l'objet de traitements de lutte contre le blanchiment d'argent et le financement du terrorisme et contre la fraude à l'assurance. Sauf opposition, elles pourront être transmises et utilisées, notamment à des fins de prospection commerciale, par le partenaire souscripteur du contrat collectif et les entités de son groupe. Droit d'accès, d'opposition et de rectification auprès de Mutavie, Service Relations Réseaux et Clients - 9 rue des Iris - CS 50000 - Bessines - 79088 Niort cedex 9. Possibilité de s'inscrire sur une liste d'opposition au démarchage téléphonique. p. 8
+- Les sommes versées au titre de ce contrat ne doivent pas avoir d'origine délictueuse et doivent être conformes aux dispositions réglementaires codifiées aux articles L.561-1 et suivants du Code monétaire et financier. Mutavie a l'obligation de vérifier, ou de faire vérifier par ses intermédiaires distributeurs, l'origine ou la destination des fonds des opérations et les caractéristiques des personnes susceptibles d'être intéressées au contrat ou de représenter l'adhérent. p. 8
+- La loi applicable au présent contrat est la loi française. Mutavie est soumise à l'Autorité de contrôle prudentiel et de régulation (ACPR) - 61 rue Taitbout - 75009 Paris. Les copies du texte intégral du contrat, du règlement de gestion paritaire, ainsi que de l'objet social de l'organisme contractant, sont disponibles sur simple demande auprès de Mutavie. p. 8
+- Le présent additif vient modifier l'encadré et les clauses suivantes de la note d'information Livret Vie à partir du 1er janvier 2022. Les articles 8 (Frais prélevés par Mutavie) et 9 (Valeur de l'épargne) sont modifiés. NB : les autres dispositions de la Note d'Information demeurent inchangées. Code d'impression imprimé verticalement en marge : AD/N/LV/GTB 07-23. p. 3
+- Le présent additif vient modifier les clauses suivantes des notes d'information de ces contrats à partir du 1er janvier 2023. Il vise Multi Vie, Livret Vie, Actiplus, Actiplus Option, Actiplus Retraite, Actifonds Retraite, Actifonds et Actipep. Pour la garantie décès, les rubriques « Durée et renouvellement de la garantie », « Montant garanti » et « Financement de la garantie » restent inchangées ; de nouvelles dispositions sont introduites sur le décès accidentel et sur les modalités de règlement du capital (paiement en numéraire et non en unités de compte). Code d'impression : AD/N/GD - 07/22. p. 2
+- La seconde moitié de la page 2 est un extrait de Document d'Informations Clés propre aux contrats Multi Vie et Actiplus Option. Il y est indiqué que la prestation complémentaire « représente 20% de l'épargne moyenne gérée les deux années civiles précédant l'année de réception par l'assureur d'un écrit l'informant du décès, dans les limites d'un plancher de 250 € et d'un plafond allant de 5 000 € pour les assurés jusqu'à 70 ans à 2 000 € pour les assurés à compter de 85 ans », et que le coût de la garantie « est égal à 0,08% en 2021 de l'épargne gérée du support en euros au 1er janvier de l'année ». Ces valeurs sont énoncées pour Multi Vie et Actiplus Option, non pour Livret Vie. p. 2
+- Chaque bénéficiaire a la possibilité d'affecter tout ou partie du capital décès lui revenant sur un contrat ouvert à son nom auprès de Mutavie. p. 7
+
+## Lacunes d'extraction
+
+- Le PDF est un assemblage de trois documents distincts : la note d'information Livret Vie de JANVIER 2018 (p. 1 puis p. 4 à 8), un additif aux notes d'information de JUILLET 2022 applicable à partir du 1er janvier 2023 (p. 2) et un additif à la note d'information Livret Vie de JANVIER 2022 applicable à partir du 1er janvier 2022 (p. 3). Les trois versions du même article coexistent donc dans le fichier ; les deux lectures des articles 8 et 9 (2018 et 2022) sont enregistrées côte à côte, sans arbitrage, conformément à la règle sur les contradictions internes.
+- Pagination : les folios imprimés valent 1 (p. 1), 4 (p. 4), 5 (p. 5), 6 (p. 6), 7 (p. 7) ; les pages PDF 2, 3 et 8 ne portent pas de folio. Les folios 2 et 3 de la note d'information d'origine sont donc absents de ce PDF : les deux additifs occupent physiquement ces positions. Le contenu qui figurait sur ces deux pages (entre l'encadré et l'article 1) n'est pas extractible depuis cette source. Vérifié par ancrage : la page 1 se termine sur l'encadré et la page 4 commence sur « Caractéristiques du contrat / Article 1 ».
+- La couche texte contient 78 caractères SOFT HYPHEN (U+00AD) placés aux coupures de mots en fin de ligne (jusqu'à 17 sur une seule page). Toutes les key_quotes ont été découpées de façon à n'en contenir aucun.
+- Défaut d'ordre de lecture mesuré en haut de la page 5 : la première ligne de la colonne de droite (« compte de la capitalisation réelle de votre épargne décrite précédem- ») est insérée au milieu de la phrase de la colonne de gauche (« Par ailleurs, conformément à sa politique de souscription, Mutavie se / réserve le droit de moduler... »). Les deux phrases ont été reconstituées d'après le rendu de la page ; aucune key_quote ne traverse cette zone.
+- Le glyphe € s'extrait correctement mais n'apparaît que 6 fois, toutes dans des mentions légales ou dans la section Multi Vie / Actiplus Option de la page 2. Vérification faite sur rendu : le corps de la note d'information Livret Vie écrit systématiquement les montants en toutes lettres (« 50 euros », « 150 euros », « 250 euros », « 5 000 euros », « 4 600 euros », « 152 500 euros »...) et le tableau des valeurs minimales de rachat imprime les nombres sans symbole monétaire, la colonne étant introduite par « exprimée en euros ». Aucune restitution de symbole n'a donc été nécessaire.
+- Aucun U+0007 ni glyphe de zone à usage privé n'est présent ; aucune section vectorisée n'a été détectée.
+- Divergence entre les métadonnées de la tâche et le document : la métadonnée `insurer_name` désigne la Macif, mais le document ne nomme aucune entité Macif. Le porteur de risque imprimé est MUTAVIE SE, société européenne à Directoire et Conseil de surveillance, entreprise régie par le Code des assurances, capital 46 200 000 €, RCS Niort B 315 652 263, siège social 9 rue des Iris - CS 50000 - Bessines - 79088 Niort cedex 9. Les métadonnées fournies ont été recopiées telles quelles ; le nom réellement imprimé figure dans special_conditions et en key_quote (p. 8).
+- Contradiction interne relevée sans correction : l'article 13 (Rente viagère) de la note Livret Vie indique « Cette transformation, si elle est totale, entraîne la clôture de votre contrat Actiplus. » — il cite le contrat Actiplus dans une note d'information Livret Vie. Enregistré verbatim en key_quote (p. 6).
+- Divergence de date sur l'additif de la page 3 : son titre imprimé est « JANVIER 2022 » et il s'applique « à partir du 1er janvier 2022 », mais le code d'impression porté verticalement en marge est « AD/N/LV/GTB 07-23 » (juillet 2023). Les deux mentions sont enregistrées ; edition_date retient la date de la note d'information principale (JANVIER 2018, code MUT/N/LV - 01/18).
+- Le tableau des valeurs minimales de rachat figure deux fois avec des présentations différentes : p. 5 (colonnes « Valeur minimale de rachat » puis « Cumul des versements effectués », cumul imprimé « 1 000 » avec espace) et p. 3 dans l'additif (colonnes inversées, cumul imprimé « 1000 » sans espace). Les valeurs de rachat sont identiques. Les deux formes sont conservées telles qu'imprimées.
+- La seconde moitié de la page 2 (« Multi Vie, Actiplus Option - Document d'Informations Clés ») ne concerne pas Livret Vie. Ses montants (plancher 250 €, plafond de 5 000 € à 2 000 €, coût de 0,08% en 2021) ont été enregistrés dans special_conditions en précisant explicitement le périmètre, et n'ont pas été attribués à Livret Vie. Les valeurs propres à Livret Vie proviennent de l'article 16.2 (p. 7).
+- target_audience laissé à null : le document ne qualifie jamais sa clientèle. Il précise seulement que le contrat est « à adhésion facultative » et que l'adhésion pour le compte d'un mineur ou d'un majeur protégé est soumise à des dispositions légales spécifiques. Aucune des catégories du schéma n'est énoncée par le document.
+- Le tableau des plafonds de la garantie décès (p. 7) comporte lui-même une élision imprimée : les lignes 73 à 82 ans sont remplacées par « ... / ... » dans le document. Les seules valeurs disponibles sont donc 70 ans et avant : 5 000 ; 71 ans : 4 800 ; 72 ans : 4 600 ; 83 ans : 2 400 ; 84 ans : 2 200 ; 85 ans ou plus : 2 000. Aucune interpolation n'a été faite.
+- Le document renvoie aux « conditions générales de l'avance » (article 11) et au « contrat collectif Livret Vie disponible sur simple demande » (article 18), qui ne sont pas joints : leur contenu n'est pas extractible depuis cette source.
+- Le prompt n'a pas été tronqué (8 pages sur 8 présentes) ; l'extraction locale du PDF a été comparée page à page au texte du prompt et est identique octet pour octet.
+
+## Source & fidélité
+
+- Source : [https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/NI-LIVRET-VIE-2018_compressed.pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/NI-LIVRET-VIE-2018_compressed.pdf) - téléchargé le 2026-08-01 - 8 pages
+- Extraction : claude-code-subagent:scale · prompt v1.1
+- ⚠️ Ceci n'est pas le document officiel de l'assureur et peut contenir des erreurs d'extraction. Information, non un conseil - vérifiez toujours par rapport au document source.

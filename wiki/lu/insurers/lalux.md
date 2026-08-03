@@ -5,8 +5,9 @@ country: lu
 insurer_slug: lalux
 name: lalux
 website: ''
-products_count: 8
+products_count: 11
 branches_covered:
+- auto
 - autres
 - construction
 - multirisque-professionnelle
@@ -25,9 +26,13 @@ generated: true
 
 ## Résumé
 
-**lalux**. 8 document(s) across 3 branch(es).
+**lalux**. 11 document(s) across 4 branch(es).
 
 ## Produits par branche
+
+### Assurance auto
+- [easyPROTECT-Auto (PKWs und Wohnmobile) - IPID - DE](../products/lalux/easyPROTECT-Auto%20%28PKWs%20und%20Wohnmobile%29%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
+- [easyPROTECT-Auto (Véhicules autres que voitures ou camping cars) - IPID](../products/lalux/easyPROTECT-Auto%20%28V%C3%A9hicules%20autres%20que%20voitures%20ou%20camping%20cars%29%20-%20IPID.md) - IPID / Fiche d'information
 
 ### Autres
 - [Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance (VISA BUSINESS) - IPID](../products/lalux/Assurance%20Cartes%20de%20cr%C3%A9dit%20SPUERKEESS%20%E2%80%93%20Assistance%20et%20hors%20Assistance%20%28VISA%20BUSINESS%29%20-%20IPID.md) - IPID / Fiche d'information
@@ -42,6 +47,7 @@ generated: true
 
 ### Multirisque professionnelle
 - [easyPROTECT PRO – Assurance de choses - IPID](../products/lalux/easyPROTECT%20PRO%20%E2%80%93%20Assurance%20de%20choses%20-%20IPID.md) - IPID / Fiche d'information
+- [easyPROTECT PRO – Assurance de responsabilité civile - IPID](../products/lalux/easyPROTECT%20PRO%20%E2%80%93%20Assurance%20de%20responsabilit%C3%A9%20civile%20-%20IPID.md) - IPID / Fiche d'information
 
 ## Source
 

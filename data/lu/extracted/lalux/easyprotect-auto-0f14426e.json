@@ -1,0 +1,496 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "lu",
+  "insurer_slug": "lalux",
+  "insurer_name": "lalux",
+  "product_name": "easyPROTECT-Auto",
+  "branch": "auto",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "Le document ne désigne aucune clientèle. La seule délimitation imprimée porte sur le véhicule : titre « Assurance Automobile - Véhicules autres que voitures ou camping cars », et la garantie accessoire optionnelle « Uniquement pour véhicules de type camionnette ».",
+  "reference": null,
+  "edition_date": null,
+  "product_family": "easyPROTECT-Auto",
+  "variant": "Véhicules autres que voitures ou camping cars",
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_assurance-auto_lalux_easyprotect_auto_vehicules-type-2_fr.pdf",
+  "source_pdf": "69296kb-0f14426e.pdf",
+  "source_sha256": "52d66769d7a57c7e75373f1b8473352f128eae6a9913ad5895c22f54eafbdc44",
+  "source_pages": 2,
+  "fetched_at": "2026-08-02",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d’information sur le produit d’assurance (IPID) de l’assurance automobile easyPROTECT-Auto de la marque LALUX Assurances, pour les « Véhicules autres que voitures ou camping cars ». Le produit couvre la responsabilité civile automobile ainsi que les dommages causés au véhicule. Le document énumère six garanties (responsabilité civile, protection juridique, incendie, vol, bris de glaces, dégâts au véhicule) et une garantie accessoire optionnelle réservée aux véhicules de type camionnette (garantie conducteur), puis des exclusions communes et par garantie. Il qualifie lui-même ses énumérations de « Liste non exhaustive » et renvoie aux conditions générales et/ou particulières pour l’intégralité des droits et obligations.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Responsabilité civile",
+      "description": "Dommages causés par le véhicule assuré à des personnes, y compris les personnes transportées, et à des biens. Véhicules circulant sur la voie publique, les terrains ouverts au public et les terrains non publics mais ouverts à un certain nombre de personnes.",
+      "is_optional": null,
+      "territorial_scope": "Dans les pays indiqués sur la carte verte",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Listée sous « Garanties en Assurance Automobile »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Protection juridique",
+      "description": "Frais et honoraires, jusqu’à concurrence de 10.000 EUR, de toutes démarches ou instances à la suite d’un accident de la circulation.",
+      "is_optional": null,
+      "territorial_scope": "Libre choix de l’avocat à Luxembourg ; à l’étranger, un accord préalable de la compagnie est nécessaire.",
+      "limits": "jusqu’à concurrence de 10.000 EUR",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Listée sous « Garanties en Assurance Automobile »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Incendie",
+      "description": "Incendie, chute de la foudre, explosions. Frais de remplacement des extincteurs utilisés pour éteindre un incendie couvert.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [
+        "Frais de remplacement des extincteurs utilisés pour éteindre un incendie couvert"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Listée sous « Garanties en Assurance Automobile »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Vol",
+      "description": "Vol. Destructions/détériorations par le fait de voleurs, même en cas de simple tentative de vol.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Listée sous « Garanties en Assurance Automobile ».",
+        "Plainte ou déclaration doit être immédiatement déposée auprès des autorités compétentes."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Bris de glaces",
+      "description": "Dommages causés par le bris des pare-brises, des toits ouvrants, glaces latérales et lunettes arrière.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Listée sous « Garanties en Assurance Automobile ».",
+        "Remplacement uniquement si techniquement nécessaire."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Dégâts au véhicule",
+      "description": "Dégâts matériels causés au véhicule par accident, par fait de tiers ou par les martres/fouines. Dégâts causés au véhicule assuré en relation directe avec le déclenchement de l’airbag. Dégâts causés aux pneus si ces dégâts surviennent conjointement avec d’autres dégâts couverts par la garantie « Dégâts au véhicule » ou en cas de vandalisme.",
+      "is_optional": null,
+      "territorial_scope": "Dégâts au véhicule : Luxembourg et les pays énumérés en page 2",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Dans certains cas, des franchises sont d’application, notamment p.ex. lorsque le conducteur a causé un sinistre sous l’influence d’alcool (montant non indiqué)",
+      "conditions": [
+        "Listée sous « Garanties en Assurance Automobile ».",
+        "Les dégâts aux pneus ne sont couverts que s’ils surviennent conjointement avec d’autres dégâts couverts par la garantie « Dégâts au véhicule » ou en cas de vandalisme.",
+        "Coûts de main d’œuvre supérieurs aux tarifs appliqués au Luxembourg : restriction indiquée dans l’encadré « Y a-t-il des exclusions à la couverture ? »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Garantie conducteur",
+      "description": "À l’exclusion de tout dommage moral, le préjudice des bénéficiaires, indépendamment des responsabilités encourues, résultant d’une lésion corporelle subie par l’assuré et/ou de son décès, à la suite d’un accident de la circulation.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Figure sous « Garanties accessoires optionnelles ».",
+        "« Uniquement pour véhicules de type camionnette »."
+      ],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Non-conformité des pneus à la législation en vigueur",
+      "description": "Exclusions communes : dommages en relation avec la non-conformité des pneus à la législation en vigueur (sauf en RC).",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Objets et animaux transportés",
+      "description": "Exclusions communes : sauf convention contraire, dommages causés aux objets et animaux transportés.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Conducteurs candidats au permis de conduire / véhicule donné en location",
+      "description": "Responsabilité civile : sauf convention contraire, dommages causés par les conducteurs candidats au permis de conduire ou lorsque le véhicule a été donné en location.",
+      "applies_to": "Responsabilité civile",
+      "page": 1
+    },
+    {
+      "name": "Vols commis par des membres de la famille du preneur",
+      "description": "Vol : vols ayant pour auteurs ou complices des membres de la famille du preneur.",
+      "applies_to": "Vol",
+      "page": 1
+    },
+    {
+      "name": "Conduite sous l’influence de l’alcool (taux d’au moins 1,2 g par litre ou signes manifestes d’ivresse)",
+      "description": "Dégâts au véhicule : dommages survenant lorsque le véhicule est conduit par le preneur d’assurance, ses descendants, ses ascendants, son conjoint, ses alliés en ligne directe, les personnes vivant à son foyer, ses hôtes, les membres de son personnel domestique ayant consommé des boissons alcooliques en quantité telle que le taux d’alcool dans le sang est d’au moins 1,2 g par litre ou ayant présenté des signes manifestes d’ivresse.",
+      "applies_to": "Dégâts au véhicule",
+      "page": 1
+    },
+    {
+      "name": "Augmentation de la prime en cas de sinistre responsable",
+      "description": "Encadré « Y a-t-il des exclusions à la couverture ? », Responsabilité civile : augmentation de la prime en cas de sinistre responsable (augmentation du degré bonus/malus).",
+      "applies_to": "Responsabilité civile",
+      "page": 1
+    },
+    {
+      "name": "Recouvrement de sommes inférieures à 500 EUR",
+      "description": "Encadré « Y a-t-il des exclusions à la couverture ? », Protection juridique : instances judiciaires pour le recouvrement de sommes inférieures à 500 EUR.",
+      "applies_to": "Protection juridique",
+      "page": 1
+    },
+    {
+      "name": "Remplacement uniquement si techniquement nécessaire",
+      "description": "Encadré « Y a-t-il des exclusions à la couverture ? », rubrique imprimée « Bris des glaces » : remplacement uniquement si techniquement nécessaire.",
+      "applies_to": "Bris de glaces",
+      "page": 1
+    },
+    {
+      "name": "Coûts de main d’œuvre supérieurs aux tarifs luxembourgeois",
+      "description": "Encadré « Y a-t-il des exclusions à la couverture ? », Dégâts au véhicule : coûts de main d’œuvre supérieurs aux tarifs appliqués au Luxembourg.",
+      "applies_to": "Dégâts au véhicule",
+      "page": 1
+    },
+    {
+      "name": "Franchises applicables dans certains cas",
+      "description": "Encadré « Y a-t-il des exclusions à la couverture ? », Dégâts au véhicule : dans certains cas, des franchises sont d’application, notamment p.ex. lorsque le conducteur a causé un sinistre sous l’influence d’alcool.",
+      "applies_to": "Dégâts au véhicule",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": "Dans certains cas, des franchises sont d’application, notamment p.ex. lorsque le conducteur a causé un sinistre sous l’influence d’alcool (aucun montant ni mode de calcul n’est imprimé).",
+    "per_coverage": {
+      "Dégâts au véhicule": "Dans certains cas, des franchises sont d’application, notamment p.ex. lorsque le conducteur a causé un sinistre sous l’influence d’alcool"
+    },
+    "page": 1
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Description du risque",
+      "description": "Faire une description aussi complète et précise que possible du risque à assurer, sans fausse déclaration ou omissions.",
+      "timing": "A la souscription",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Attestation de l’ancienne compagnie",
+      "description": "Remettre une attestation de l’ancienne compagnie précisant le degré bonus-malus et les éventuels sinistres.",
+      "timing": "A la souscription",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Déclaration des circonstances nouvelles",
+      "description": "Déclarer à la compagnie toute circonstance nouvelle qui peut aggraver le risque ou en créer de nouveaux.",
+      "timing": "En cours de contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Modification des données du contrat",
+      "description": "Avertir la compagnie de toute modification des données reprises au contrat, en particulier en cas de changement d’adresse ou de changement de compte bancaire.",
+      "timing": "En cours de contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Paiement des primes",
+      "description": "Payer vos primes d’assurances en respectant les délais stipulés sur votre contrat.",
+      "timing": "En cours de contrat",
+      "sanction": "En cas de non paiement, la compagnie peut suspendre des garanties ou annuler le contrat.",
+      "page": 2
+    },
+    {
+      "name": "Déclaration du sinistre dans les 8 jours",
+      "description": "Déclarer tout sinistre dans les 8 jours de sa survenance et obtenir l’accord de la compagnie avant toute action engageant son intervention.",
+      "timing": "En cas de sinistre",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Transmission des éléments du dossier",
+      "description": "Transmettre tous les éléments demandés par la compagnie nécessaires au règlement du sinistre. Les Procès Verbaux, constats d’accident et autres documents officiels sont à transmettre dans les plus brefs délais.",
+      "timing": "En cas de sinistre",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Choix de l’avocat (Protection juridique)",
+      "description": "Libre choix de l’avocat à Luxembourg. A l’étranger, un accord préalable de la compagnie est nécessaire.",
+      "timing": "Spécificités par garantie – Protection juridique",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Plainte auprès des autorités (Vol)",
+      "description": "Plainte ou déclaration doit être immédiatement déposée auprès des autorités compétentes.",
+      "timing": "Spécificités par garantie – Vol",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Plainte auprès des autorités (Collision avec un animal errant)",
+      "description": "Plainte ou déclaration doit être immédiatement déposée auprès des autorités compétentes.",
+      "timing": "Spécificités par garantie – Collision avec un animal errant",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Constat officiel (Collision avec un animal errant)",
+      "description": "Un constat officiel certifiant le heurt doit être présenté à la compagnie.",
+      "timing": "Spécificités par garantie – Collision avec un animal errant",
+      "sanction": null,
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclarer le sinistre",
+      "description": "Déclarer tout sinistre dans les 8 jours de sa survenance.",
+      "deadline": "dans les 8 jours de sa survenance",
+      "page": 2
+    },
+    {
+      "step": "Obtenir l’accord de la compagnie",
+      "description": "Obtenir l’accord de la compagnie avant toute action engageant son intervention.",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Transmettre les pièces",
+      "description": "Transmettre tous les éléments demandés par la compagnie nécessaires au règlement du sinistre ; les Procès Verbaux, constats d’accident et autres documents officiels sont à transmettre dans les plus brefs délais.",
+      "deadline": "dans les plus brefs délais",
+      "page": 2
+    },
+    {
+      "step": "Vol : déposer plainte",
+      "description": "Plainte ou déclaration doit être immédiatement déposée auprès des autorités compétentes.",
+      "deadline": "immédiatement",
+      "page": 2
+    },
+    {
+      "step": "Collision avec un animal errant : plainte et constat",
+      "description": "Plainte ou déclaration doit être immédiatement déposée auprès des autorités compétentes ; un constat officiel certifiant le heurt doit être présenté à la compagnie.",
+      "deadline": "immédiatement",
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le début (date d’effet) et l’expiration du contrat sont mentionnés aux Conditions Particulières.",
+    "tacit_renewal": true,
+    "notice_period": "30 jours avant la date d’échéance annuelle du contrat (résiliation par le client) ; 60 jours avant la date d’échéance annuelle pour la compagnie.",
+    "methods": [
+      "La résiliation est à demander par lettre recommandée."
+    ],
+    "special_rights": [
+      "Résiliation dans le mois suivant la résiliation d’une garantie ou d’un autre contrat par la compagnie après sinistre.",
+      "Résiliation dans les 60 jours après une augmentation de tarif notifiée par la compagnie.",
+      "La compagnie peut résilier le contrat après sinistre, en cas de fraude, en cas de défaut de paiement, ou suivant notification 60 jours avant la date d’échéance annuelle du contrat.",
+      "En cas de résiliation, la compagnie remet au client une attestation bonus-malus indiquant son degré et les sinistres de la période en cours."
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "Le montant indiqué sur l’avis d’échéance annuel est payable le premier jour du mois de l’échéance.",
+      "Une mensualisation est possible par domiciliation bancaire, sans frais supplémentaires.",
+      "Augmentation de la prime en cas de sinistre responsable (augmentation du degré bonus/malus).",
+      "En cas de non paiement, la compagnie peut suspendre des garanties ou annuler le contrat.",
+      "En cas de résiliation, la compagnie remet au client une attestation bonus-malus indiquant son degré et les sinistres de la période en cours."
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Avertissement sur la portée du document",
+      "description": "Le présent document n’est pas personnalisé en fonction de vos besoins spécifiques et les informations et obligations prévues dans le présent document ne sont pas exhaustives. Pour toute information complète quant aux droits et obligations de l’entreprise d’assurances et de l’assuré, veuillez consulter les conditions générales et/ou particulières relatives au produit d’assurance choisi.",
+      "page": 1
+    },
+    {
+      "name": "Champ d’application par type de véhicule",
+      "description": "Titre imprimé : « Assurance Automobile - Véhicules autres que voitures ou camping cars ». La garantie accessoire optionnelle « Garantie conducteur » est réservée aux véhicules de type camionnette.",
+      "page": 1
+    },
+    {
+      "name": "Étendue territoriale",
+      "description": "Dans les pays indiqués sur la carte verte. Dégâts au véhicule : Luxembourg, Albanie, Allemagne, Andorre, Autriche, Belgique, Bosnie-Herzégovine, Bulgarie, Chypre, Croatie, Danemark (et les îles Féroé), Espagne, Estonie, État du Vatican, Finlande, France, Grèce, Hongrie, Irlande, Islande, Italie, Lettonie, Liechtenstein, Lituanie, Macédoine (F.Y.R.O.M), Malte, Monaco, Monténégro, Norvège, Pays-Bas, Pologne, Portugal, Roumanie, Royaume Uni de Grande-Bretagne et d’Irlande du Nord (y compris les îles de la Manche, Gibraltar, l’île de Man), Saint Marin, Serbie, Slovaquie, Slovénie, Suède, Suisse, Tchéquie, Turquie.",
+      "page": 2
+    }
+  ],
+  "key_quotes": [
+    {
+      "page": 1,
+      "quote": "easyPROTECT Auto est une assurance qui permet de couvrir votre responsabilité civile automobile ainsi que les dommages causés à votre \nvéhicule."
+    },
+    {
+      "page": 1,
+      "quote": "Responsabilité civile \n\t Dommages causés par le véhicule assuré à des personnes, y compris \nles personnes transportées, et à des biens\n\t Véhicules circulant sur la voie publique, les terrains ouverts au public \net les terrains non publics mais ouverts à un certain nombre de \npersonnes"
+    },
+    {
+      "page": 1,
+      "quote": "Frais et honoraires, jusqu’à concurrence de 10.000 EUR, de toutes \ndémarches ou instances à la suite d’un accident de la circulation"
+    },
+    {
+      "page": 1,
+      "quote": "Incendie \n\t Incendie, chute de la foudre, explosions\n\t Frais de remplacement des extincteurs utilisés pour éteindre un \nincendie couvert"
+    },
+    {
+      "page": 1,
+      "quote": "Vol \n\t Vol\n\t Destructions/détériorations par le fait de voleurs, même en cas de \nsimple tentative de vol"
+    },
+    {
+      "page": 1,
+      "quote": "Bris de glaces \n\t Dommages causés par le bris des pare-brises, des toits ouvrants, \nglaces latérales et lunettes arrière"
+    },
+    {
+      "page": 1,
+      "quote": "Dégâts au véhicule \n\t Dégâts matériels causés au véhicule par accident, par fait de tiers ou \npar les martres/fouines\n\t Dégâts causés au véhicule assuré en relation directe avec le \ndéclenchement de l’airbag\n\t Dégâts causés aux pneus si ces dégâts surviennent conjointement \navec d’autres dégâts couverts par la garantie « Dégâts au véhicule » ou \nen cas de vandalisme"
+    },
+    {
+      "page": 1,
+      "quote": "Garanties accessoires optionnelles\nUniquement pour véhicules de type camionnette :\n\t Garantie conducteur : à l’exclusion de tout dommage moral, le \npréjudice des bénéficiaires, indépendamment des responsabilités \nencourues, résultant d’une lésion corporelle subie par l’assuré et/ou de \nson décès, à la suite d’un accident de la circulation"
+    },
+    {
+      "page": 1,
+      "quote": "Dommages en relation avec la non-conformité des pneus à la \nlégislation en vigueur (sauf en RC).\n\t Sauf convention contraire : dommages causés aux objets et \nanimaux transportés."
+    },
+    {
+      "page": 1,
+      "quote": "Vols ayant pour auteurs ou complices des membres de la famille \ndu preneur"
+    },
+    {
+      "page": 1,
+      "quote": "Dommages survenant lorsque le véhicule est conduit par le \npreneur d’assurance, ses descendants, ses ascendants, son \nconjoint, ses alliés en ligne directe, les personnes vivant à son \nfoyer, ses hôtes, les membres de son personnel domestique ayant \nconsommé des boissons alcooliques en quantité telle que le \ntaux d’alcool dans le sang est d’au moins 1,2 g par litre ou ayant \nprésenté des signes manifestes d’ivresse."
+    },
+    {
+      "page": 1,
+      "quote": "Augmentation de la prime en cas de sinistre responsable \n(augmentation du degré bonus/malus)"
+    },
+    {
+      "page": 1,
+      "quote": "Instances judiciaires pour le recouvrement de sommes inférieures \nà 500 EUR"
+    },
+    {
+      "page": 1,
+      "quote": "Remplacement uniquement si techniquement nécessaire"
+    },
+    {
+      "page": 1,
+      "quote": "Coûts de main d’œuvre supérieurs aux tarifs appliqués au \nLuxembourg\n\t Dans certains cas, des franchises sont d’application, notamment \np.ex. lorsque le conducteur a causé un sinistre sous l’influence \nd’alcool"
+    },
+    {
+      "page": 1,
+      "quote": "Sauf convention contraire : dommages causés par les conducteurs \ncandidats au permis de conduire ou lorsque le véhicule a été \ndonné en location"
+    },
+    {
+      "page": 2,
+      "quote": "\t Dans les pays indiqués sur la carte verte\n\t Dégâts au véhicule : Luxembourg, Albanie, Allemagne, Andorre, Autriche, Belgique, Bosnie-Herzégovine, Bulgarie, Chypre, \nCroatie, Danemark (et les îles Féroé), Espagne, Estonie, État du Vatican, Finlande, France, Grèce, Hongrie, Irlande, Islande, \nItalie, Lettonie, Liechtenstein, Lituanie, Macédoine (F.Y.R.O.M), Malte, Monaco, Monténégro, Norvège, Pays-Bas, Pologne, \nPortugal, Roumanie, Royaume Uni de Grande-Bretagne et d’Irlande du Nord (y compris les îles de la Manche, Gibraltar, l’île \nde Man), Saint Marin, Serbie, Slovaquie, Slovénie, Suède, Suisse, Tchéquie, Turquie"
+    },
+    {
+      "page": 2,
+      "quote": "Déclarer tout sinistre dans les 8 jours de sa survenance et obtenir l’accord de la compagnie avant toute action engageant son \nintervention"
+    },
+    {
+      "page": 2,
+      "quote": "Libre choix de l’avocat à Luxembourg. A l’étranger, un accord préalable de la compagnie est nécessaire"
+    },
+    {
+      "page": 2,
+      "quote": "Plainte ou déclaration doit être immédiatement déposée auprès des autorités compétentes"
+    },
+    {
+      "page": 2,
+      "quote": "Un constat officiel certifiant le heurt doit être présenté à la compagnie"
+    },
+    {
+      "page": 2,
+      "quote": "Le montant indiqué sur l’avis d’échéance annuel est payable le premier jour du mois de l’échéance\n•\t\nUne mensualisation est possible par domiciliation bancaire, sans frais supplémentaires"
+    },
+    {
+      "page": 2,
+      "quote": "Le contrat se prolonge d’année en année sauf résiliation par le client ou la compagnie (reconduction tacite)"
+    },
+    {
+      "page": 2,
+      "quote": "La résiliation est à demander par lettre recommandée 30 jours avant la date d’échéance annuelle du contrat, dans le mois \nsuivant la résiliation d’une garantie ou d’un autre contrat par la compagnie après sinistre ou dans les 60 jours après une \naugmentation de tarif notifiée par la compagnie"
+    },
+    {
+      "page": 2,
+      "quote": "La compagnie peut résilier le contrat après sinistre, en cas de fraude, en cas de défaut de paiement, ou suivant notification 60 \njours avant la date d’échéance annuelle du contrat"
+    },
+    {
+      "page": 2,
+      "quote": "En cas de résiliation, la compagnie remet au client une attestation bonus-malus indiquant son degré et les sinistres de la \npériode en cours"
+    },
+    {
+      "page": 2,
+      "quote": "Payer vos primes d’assurances en respectant les délais stipulés sur votre contrat. En cas de non paiement, la compagnie peut \nsuspendre des garanties ou annuler le contrat"
+    },
+    {
+      "page": 2,
+      "quote": "Transmettre tous les éléments demandés par la compagnie nécessaires au règlement du sinistre. Les Procès Verbaux, constats \nd’accident et autres documents officiels sont à transmettre dans les plus brefs délais."
+    },
+    {
+      "page": 2,
+      "quote": "Faire une description aussi complète et précise que possible du risque à assurer, sans fausse déclaration ou omissions"
+    },
+    {
+      "page": 2,
+      "quote": "Remettre une attestation de l’ancienne compagnie précisant le degré bonus-malus et les éventuels sinistres"
+    },
+    {
+      "page": 2,
+      "quote": "Le début (date d’effet) et l’expiration du contrat sont mentionnés aux Conditions Particulières"
+    }
+  ],
+  "gaps": [
+    "ASSUREUR NON DÉTERMINABLE : le document ne nomme l’assureur que par la marque « LALUX Assurances » imprimée en tête (« LALUX Assurances - Produit : easyPROTECT-Auto ») et parle ensuite uniquement de « la compagnie ». Aucune forme juridique, aucune dénomination sociale complète, aucun numéro RCS, aucune adresse et aucune autorité de contrôle ne figurent sur les deux pages ; une recherche plein texte de « S.A. », « RCS », « B 31035 », « B 31036 » et « LUXEMBOURGEOISE » ne donne aucun résultat. `insurer_name` reprend donc la valeur des métadonnées de la tâche (« lalux ») et la marque imprimée est consignée ici ; laquelle des entités autorisées porte le risque n’est PAS déterminable à partir de ce document.",
+    "AUCUNE DATE D’ÉDITION : ni la page 1 ni la page 2 n’imprime de date d’édition, de numéro de version, de référence interne ou de pied de page daté ; la recherche d’années et de motifs MM/AAAA dans la couche texte ne donne aucun résultat. `edition_date` et `reference` restent null.",
+    "NOM DU PRODUIT, DEUX GRAPHIES CONTRADICTOIRES DANS LA MÊME PAGE : l’en-tête imprime « LALUX Assurances - Produit : easyPROTECT-Auto » (avec trait d’union) et le corps du texte « easyPROTECT Auto est une assurance qui permet de couvrir… » (sans trait d’union). Les deux sont reproduites telles quelles ; `product_name` retient la graphie de la ligne « Produit : ». Le titre imprimé du document est « Assurance Automobile - Véhicules autres que voitures ou camping cars » et a été porté en `variant`, car c’est lui qui distingue ce document des versions parallèles pour les autres types de véhicules. Le nom fourni par les métadonnées de la tâche (« Assurance auto lalux easyprotect auto vehicules type 2 ») est un nom de fichier slugifié, absent du document : il n’a pas été repris.",
+    "CARACTÈRE OPTIONNEL DES SIX GARANTIES PRINCIPALES NON INDIQUÉ : le document n’imprime aucune formule, aucun niveau et aucune colonne de tarif. Il liste six garanties sous « Garanties en Assurance Automobile » sans dire lesquelles sont comprises d’office et lesquelles doivent être souscrites, puis un bloc distinct « Garanties accessoires optionnelles ». `is_optional` est donc null pour les six premières (le document ne le dit pas) et true pour la seule garantie que le document qualifie d’optionnelle (Garantie conducteur). Ce point n’a PAS été complété à partir d’une version en une autre langue.",
+    "GARANTIE CITÉE EN PAGE 2 MAIS ABSENTE DE LA PAGE 1 : la rubrique « Spécificités par garantie » (page 2) comporte une entrée « Collision avec un animal errant » avec deux obligations, alors qu’aucune garantie de ce nom ne figure dans l’encadré « Qu’est-ce qui est assuré ? » de la page 1. Les deux obligations sont enregistrées telles qu’imprimées ; aucune garantie n’a été créée pour combler l’écart.",
+    "LISTES EXPRESSÉMENT NON EXHAUSTIVES : la mention « Liste non exhaustive » est imprimée trois fois en page 1 (fin de « Qu’est-ce qui est assuré ? », fin de « Qu’est-ce qui n’est pas assuré ? », fin de « Y a-t-il des exclusions à la couverture ? »). Les 7 garanties et 10 exclusions relevées sont tout ce que le document imprime, mais pas, de son propre aveu, tout ce que contient le contrat.",
+    "AUCUNES CONDITIONS GÉNÉRALES DISPONIBLES : le document renvoie aux « conditions générales et/ou particulières relatives au produit d’assurance choisi » sans les nommer, les dater ni les référencer, et l’éditeur ne publie pas de conditions générales pour ce produit. Tout ce qui concerne l’étendue exacte, les plafonds et les franchises repose donc sur ce seul IPID de deux pages.",
+    "INCOHÉRENCE DE LIBELLÉ, NON CORRIGÉE : la garantie est intitulée « Bris de glaces » dans l’encadré des garanties (page 1) et « Bris des glaces » dans l’encadré « Y a-t-il des exclusions à la couverture ? » (page 1). Les deux graphies sont conservées telles qu’imprimées.",
+    "ORDRE DE LECTURE À DEUX COLONNES : la couche texte restitue les deux titres d’encadrés « Qu’est-ce qui est assuré ? » et « Qu’est-ce qui n’est pas assuré ? » l’un après l’autre, avant le contenu de la première colonne ; le contenu du second encadré commence plus bas à « Exclusions communes : ». L’affectation des éléments à l’un ou l’autre encadré a été faite d’après cette structure et vérifiée sur la mise en page ; aucun en-tête d’un autre produit n’est présent.",
+    "ENCADRÉ « Y A-T-IL DES EXCLUSIONS À LA COUVERTURE ? » : il contient des restrictions et des mécanismes tarifaires (augmentation de prime en cas de sinistre responsable, seuil de 500 EUR, nécessité technique du remplacement, plafond des coûts de main-d’œuvre, franchises) plutôt que des exclusions au sens strict. Ces cinq éléments sont enregistrés dans `exclusions` (entrées 6 à 10) avec mention de leur encadré d’origine.",
+    "FRANCHISES SANS MONTANT : la seule mention de franchise (« Dans certains cas, des franchises sont d’application, notamment p.ex. lorsque le conducteur a causé un sinistre sous l’influence d’alcool ») ne comporte ni montant, ni pourcentage, ni mode de calcul.",
+    "SECTIONS ABSENTES : le document ne comporte ni glossaire ni définitions contractuelles (`definitions` vide), ni délais de carence (`waiting_periods` vide), ni délai de prescription (`prescription_period` null), et ne cite aucune autorité de contrôle ni procédure de réclamation/médiation.",
+    "PAGES ET COUCHE TEXTE VÉRIFIÉES : le document compte 2 pages, sans folio imprimé ; toutes les valeurs `page` citent les repères `[[page N]]` et ont été revérifiées bloc par bloc par recherche d’ancre dans le texte de la page. La couche texte du PDF local a été ré-extraite avec `page.get_text(\"text\")` et correspond page par page au texte fourni dans le prompt ; aucun texte hors du rectangle de page, aucun en-tête empilé. Le texte contient 12 espaces fines U+2009 et 2 espaces ultra-fines U+200A (notamment devant « ? » et « : ») : les citations ont été découpées programmatiquement comme spans exacts et les conservent telles quelles."
+  ]
+}

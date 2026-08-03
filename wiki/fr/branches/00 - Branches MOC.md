@@ -16,7 +16,7 @@ generated: true
 
 Liste générée des produits par branche. Les fiches conceptuelles de branche sont rédigées à la main dans ce dossier.
 
-### [Assurance auto](Assurance%20auto.md) (87)
+### [Assurance auto](Assurance%20auto.md) (88)
 - [Assurance Auto et Auto connectée Direct Assurance - IPID](../products/direct-assurance/Assurance%20Auto%20et%20Auto%20connect%C3%A9e%20Direct%20Assurance%20-%20IPID.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [Contrat Auto](../products/direct-assurance/Contrat%20Auto.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [YouDrive - CP](../products/direct-assurance/YouDrive%20-%20CP.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
@@ -38,6 +38,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Contrat Automobile – Voitures particulières, fourgons et fourgonnettes (Voitures particulières, fourgons et fourgonnette](../products/macif/Contrat%20Automobile%20%E2%80%93%20Voitures%20particuli%C3%A8res%2C%20fourgons%20et%20fourgonnettes%20%28Voitures%20particuli%C3%A8res%2C%20fourgons%20et%20fourgonnette.md) - [Macif](../insurers/Macif.md)
 - [Contrat Camping-car Autocaravane - IPID](../products/macif/Contrat%20Camping-car%20Autocaravane%20-%20IPID.md) - [Macif](../insurers/Macif.md)
 - [Contrat Camping-car, Autocaravane](../products/macif/Contrat%20Camping-car%2C%20Autocaravane.md) - [Macif](../insurers/Macif.md)
+- [Contrat Flotte Automobile - IPID](../products/macif/Contrat%20Flotte%20Automobile%20-%20IPID.md) - [Macif](../insurers/Macif.md)
 - [Contrat Macif Pann'Auto - IPID](../products/macif/Contrat%20Macif%20Pann%27Auto%20-%20IPID.md) - [Macif](../insurers/Macif.md)
 - [Contrat d'assurance automobile — Voitures particulières, fourgons et fourgonnettes](../products/macif/Contrat%20d%27assurance%20automobile%20%E2%80%94%20Voitures%20particuli%C3%A8res%2C%20fourgons%20et%20fourgonnettes.md) - [Macif](../insurers/Macif.md)
 - [Macif Auto](../products/macif/Macif%20Auto.md) - [Macif](../insurers/Macif.md)
@@ -214,7 +215,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Assurance multirisque immeuble (COPROPRIETE) - IPID](../products/thelem/Assurance%20multirisque%20immeuble%20%28COPROPRIETE%29%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [Assurance multirisque immeuble - PROPRIETAIRE NON OCCUPANT - IPID](../products/thelem/Assurance%20multirisque%20immeuble%20-%20PROPRIETAIRE%20NON%20OCCUPANT%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 
-### [Complémentaire santé](Compl%C3%A9mentaire%20sant%C3%A9.md) (83)
+### [Complémentaire santé](Compl%C3%A9mentaire%20sant%C3%A9.md) (84)
 - [Direct Assurance Santé](../products/direct-assurance/Direct%20Assurance%20Sant%C3%A9.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [Direct Assurance Santé - Exemples de remboursements - Doc](../products/direct-assurance/Direct%20Assurance%20Sant%C3%A9%20-%20Exemples%20de%20remboursements%20-%20Doc.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [Direct Assurance Santé - contrat responsable (Formules Essentielle, Essentielle +, Equilibre, Equilibre +, Liberté, Libe](../products/direct-assurance/Direct%20Assurance%20Sant%C3%A9%20-%20contrat%20responsable%20%28Formules%20Essentielle%2C%20Essentielle%20%2B%2C%20Equilibre%2C%20Equilibre%20%2B%2C%20Libert%C3%A9%2C%20Libe.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
@@ -239,6 +240,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [CONTRAT MACIF SANTÉ DES TERRITORIAUX - IPID](../products/macif/CONTRAT%20MACIF%20SANT%C3%89%20DES%20TERRITORIAUX%20-%20IPID.md) - [Macif](../insurers/Macif.md)
 - [Complémentaire santé de la Branche de l'Aide, de l'Accompagnement des Soins et des Services à Domicile (Régime Général) ](../products/macif/Compl%C3%A9mentaire%20sant%C3%A9%20de%20la%20Branche%20de%20l%27Aide%2C%20de%20l%27Accompagnement%20des%20Soins%20et%20des%20Services%20%C3%A0%20Domicile%20%28R%C3%A9gime%20G%C3%A9n%C3%A9ral%29%20.md) - [Macif](../insurers/Macif.md)
 - [Garantie Santé](../products/macif/Garantie%20Sant%C3%A9.md) - [Macif](../insurers/Macif.md)
+- [Garantie Santé Territoriaux - Fiche](../products/macif/Garantie%20Sant%C3%A9%20Territoriaux%20-%20Fiche.md) - [Macif](../insurers/Macif.md)
 - [MACIF HOSPITALISATION](../products/macif/MACIF%20HOSPITALISATION.md) - [Macif](../insurers/Macif.md)
 - [Macif Mutuelle Entreprises](../products/macif/Macif%20Mutuelle%20Entreprises.md) - [Macif](../insurers/Macif.md)
 - [Macif Mutuelle Entreprises - Fiche](../products/macif/Macif%20Mutuelle%20Entreprises%20-%20Fiche.md) - [Macif](../insurers/Macif.md)
@@ -346,7 +348,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Multirisques Accidents de la Vie](../products/matmut/Multirisques%20Accidents%20de%20la%20Vie.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Assurance Accidents de la vie privée - IPID](../products/thelem/Assurance%20Accidents%20de%20la%20vie%20priv%C3%A9e%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 
-### [Assurance vie et épargne](Assurance%20vie%20et%20%C3%A9pargne.md) (35)
+### [Assurance vie et épargne](Assurance%20vie%20et%20%C3%A9pargne.md) (36)
 - [Chromatys Evolution - Tarifs](../products/gan/Chromatys%20Evolution%20-%20Tarifs.md) - [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../insurers/Gan%20Assurances.md)
 - [GAN ASSURANCES CAPITALISATION EXCEPTION - Fiche](../products/gan/GAN%20ASSURANCES%20CAPITALISATION%20EXCEPTION%20-%20Fiche.md) - [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../insurers/Gan%20Assurances.md)
 - [GAN ASSURANCES CHROMATYS EVOLUTION - Fiche](../products/gan/GAN%20ASSURANCES%20CHROMATYS%20EVOLUTION%20-%20Fiche.md) - [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../insurers/Gan%20Assurances.md)
@@ -375,6 +377,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Publication relative aux contrats d'assurance vie non réglés (art. L. 132-9-4) - Doc](../products/maif/Publication%20relative%20aux%20contrats%20d%27assurance%20vie%20non%20r%C3%A9gl%C3%A9s%20%28art.%20L.%20132-9-4%29%20-%20Doc.md) - [MAIF](../insurers/MAIF.md)
 - [fonds en euros du contrat Assurance vie Responsable et Solidaire - Doc](../products/maif/fonds%20en%20euros%20du%20contrat%20Assurance%20vie%20Responsable%20et%20Solidaire%20-%20Doc.md) - [MAIF](../insurers/MAIF.md)
 - [Jeewan Patrimoine - Tarifs](../products/macif/Jeewan%20Patrimoine%20-%20Tarifs.md) - [Macif](../insurers/Macif.md)
+- [Livret Vie](../products/macif/Livret%20Vie.md) - [Macif](../insurers/Macif.md)
 - [Macif Épargne Vie - Tarifs](../products/macif/Macif%20%C3%89pargne%20Vie%20-%20Tarifs.md) - [Macif](../insurers/Macif.md)
 - [Multi Vie - Tarifs](../products/macif/Multi%20Vie%20-%20Tarifs.md) - [Macif](../insurers/Macif.md)
 - [Complice Vie](../products/matmut/Complice%20Vie.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
@@ -576,7 +579,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Assur'4Pattes Matmut & Co](../products/matmut/Assur%274Pattes%20Matmut%20%26%20Co.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Contrat Assur'4Pattes - IPID](../products/matmut/Contrat%20Assur%274Pattes%20-%20IPID.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 
-### [Obsèques](Obs%C3%A8ques.md) (23)
+### [Obsèques](Obs%C3%A8ques.md) (24)
 - [GAN PATRIMOINE SÉRÉNITÉ ESSENTIEL - Fiche](../products/gan/GAN%20PATRIMOINE%20S%C3%89R%C3%89NIT%C3%89%20ESSENTIEL%20-%20Fiche%20%282%29.md) - [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../insurers/Gan%20Assurances.md)
 - [GAN PATRIMOINE SÉRÉNITÉ ESSENTIEL - Fiche](../products/gan/GAN%20PATRIMOINE%20S%C3%89R%C3%89NIT%C3%89%20ESSENTIEL%20-%20Fiche.md) - [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../insurers/Gan%20Assurances.md)
 - [GAN PATRIMOINE SÉRÉNITÉ OBSÈQUES - Fiche](../products/gan/GAN%20PATRIMOINE%20S%C3%89R%C3%89NIT%C3%89%20OBS%C3%88QUES%20-%20Fiche.md) - [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../insurers/Gan%20Assurances.md)
@@ -593,6 +596,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Sollicitudes - Tarifs](../products/maif/Sollicitudes%20-%20Tarifs.md) - [MAIF](../insurers/MAIF.md)
 - [Sollicitudes - Doc](../products/maif/Sollicitudes%20-%20Doc.md) - [MAIF](../insurers/MAIF.md)
 - [Garantie Obsèques - Doc](../products/macif/Garantie%20Obs%C3%A8ques%20-%20Doc.md) - [Macif](../insurers/Macif.md)
+- [Garantie Obsèques - IPID](../products/macif/Garantie%20Obs%C3%A8ques%20-%20IPID.md) - [Macif](../insurers/Macif.md)
 - [contrat GARANTIE OBSÈQUES - IPID](../products/macif/contrat%20GARANTIE%20OBS%C3%88QUES%20-%20IPID.md) - [Macif](../insurers/Macif.md)
 - [Matmut Prestations Obsèques](../products/matmut/Matmut%20Prestations%20Obs%C3%A8ques.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Matmut Prévoyance Obsèques](../products/matmut/Matmut%20Pr%C3%A9voyance%20Obs%C3%A8ques%20%282%29.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)

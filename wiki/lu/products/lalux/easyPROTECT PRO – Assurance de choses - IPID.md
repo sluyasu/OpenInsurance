@@ -206,6 +206,10 @@ couverture des marchandises et matériaux contre les dommages matériels survena
 - Les coches vertes et les croix rouges des encadrés de la page 1 sont des images et ne produisent aucun texte ; elles n’ont pas été utilisées pour la segmentation. Les garanties et les exclusions ont été segmentées à partir des intitulés en gras de la couche texte, puis recomptées sur un rendu à 2,2x de la page 1 : 8 secteurs d’activité, 6 biens assurables, 12 garanties proposées, 6 exclusions par garantie et 3 limites, ce qui correspond exactement à ce qui est imprimé.
 - Branche : la valeur `multirisque-professionnelle` des métadonnées de la tâche est reprise telle quelle. Le document est l’IPID d’une seule composante (« Assurance de choses ») d’un produit professionnel plus large appelé easyPROTECT PRO ; il ne couvre pas la responsabilité civile, et une multirisque professionnelle complète comprendrait normalement les deux. `variant` porte « Assurance de choses » et `product_family` porte « easyPROTECT PRO » pour permettre le regroupement avec les autres composantes du produit.
 
+## Documents liés
+
+- [easyPROTECT PRO – Assurance de responsabilité civile - IPID](easyPROTECT%20PRO%20%E2%80%93%20Assurance%20de%20responsabilit%C3%A9%20civile%20-%20IPID.md) - IPID / Fiche d'information
+
 ## Source & fidélité
 
 - Source : [https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_lalux_easyprotect-pro-entreprise-assurance-de-choses_fr.pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_lalux_easyprotect-pro-entreprise-assurance-de-choses_fr.pdf) - téléchargé le 2026-08-02 - 2 pages

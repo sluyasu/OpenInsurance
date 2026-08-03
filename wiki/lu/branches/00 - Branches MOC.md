@@ -16,13 +16,18 @@ generated: true
 
 Liste générée des produits par branche. Les fiches conceptuelles de branche sont rédigées à la main dans ce dossier.
 
+### Assurance auto (2)
+- [easyPROTECT-Auto (PKWs und Wohnmobile) - IPID - DE](../products/lalux/easyPROTECT-Auto%20%28PKWs%20und%20Wohnmobile%29%20-%20IPID%20-%20DE.md) - [lalux](../insurers/lalux.md)
+- [easyPROTECT-Auto (Véhicules autres que voitures ou camping cars) - IPID](../products/lalux/easyPROTECT-Auto%20%28V%C3%A9hicules%20autres%20que%20voitures%20ou%20camping%20cars%29%20-%20IPID.md) - [lalux](../insurers/lalux.md)
+
 ### Assurances constructions (3)
 - [APROBAT - Decennial civil liability - IPID - EN](../products/lalux/APROBAT%20-%20Decennial%20civil%20liability%20-%20IPID%20-%20EN.md) - [lalux](../insurers/lalux.md)
 - [APROBAT - Responsabilité Civile Décennale - IPID](../products/lalux/APROBAT%20-%20Responsabilit%C3%A9%20Civile%20D%C3%A9cennale%20-%20IPID.md) - [lalux](../insurers/lalux.md)
 - [Zehn- und Zweijahreshaftpflichtversicherung - DE](../products/lalux/Zehn-%20und%20Zweijahreshaftpflichtversicherung%20-%20DE.md) - [lalux](../insurers/lalux.md)
 
-### Multirisque professionnelle (1)
+### Multirisque professionnelle (2)
 - [easyPROTECT PRO – Assurance de choses - IPID](../products/lalux/easyPROTECT%20PRO%20%E2%80%93%20Assurance%20de%20choses%20-%20IPID.md) - [lalux](../insurers/lalux.md)
+- [easyPROTECT PRO – Assurance de responsabilité civile - IPID](../products/lalux/easyPROTECT%20PRO%20%E2%80%93%20Assurance%20de%20responsabilit%C3%A9%20civile%20-%20IPID.md) - [lalux](../insurers/lalux.md)
 
 ### Autres (4)
 - [Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance (VISA BUSINESS) - IPID](../products/lalux/Assurance%20Cartes%20de%20cr%C3%A9dit%20SPUERKEESS%20%E2%80%93%20Assistance%20et%20hors%20Assistance%20%28VISA%20BUSINESS%29%20-%20IPID.md) - [lalux](../insurers/lalux.md)

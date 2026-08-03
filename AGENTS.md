@@ -27,8 +27,8 @@ navigate it without guessing. Do not edit by hand.
 |---|---|---|---|---|---|
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
 | ch (Switzerland) | 0 | 3 | 1 | 0 | 5 |
-| fr (France) | 24 | 551 | 10 | 1 | 5 |
-| lu (Luxembourg) | 0 | 8 | 1 | 0 | 5 |
+| fr (France) | 24 | 555 | 10 | 1 | 5 |
+| lu (Luxembourg) | 0 | 11 | 1 | 0 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
 
@@ -333,6 +333,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | assurance-vie | groupama | Groupama Modulation - Tarifs | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/2OkzOUNS1lkaWVdo3J6lQV/3672f74ca5be50e87a982547264e261f/Transparence-des-frais-Groupama-Modulation.pdf) |
 | fr | assurance-vie | groupama | Groupama Premium - Tarifs | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/6ww5UxNZIebZgFl7LjYBvS/91f73b81ed78cc3e1619f2a61f3ff848/Transparence-des-frais-Groupama-Premium.pdf) |
 | fr | assurance-vie | macif | Jeewan Patrimoine - Tarifs | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/JeewanPatrimoine-Frais.pdf) |
+| fr | assurance-vie | macif | Livret Vie | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/NI-LIVRET-VIE-2018_compressed.pdf) |
 | fr | assurance-vie | macif | Macif Épargne Vie - Tarifs | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/MacifEpargneVie-Frais.pdf) |
 | fr | assurance-vie | macif | Multi Vie - Tarifs | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/MultiVie-Frais.pdf) |
 | fr | assurance-vie | maif | ASSURANCE VIE Responsable et Solidaire - Les documents d'informations clés - Doc | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/epargne-financements/documents-informations-cles-uc-ars.pdf) |
@@ -361,6 +362,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | auto | macif | Contrat Automobile – Voitures particulières, fourgons et fourgonnettes (Voitures particulières, fourgons et fourgonnette | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_auto.pdf) |
 | fr | auto | macif | Contrat Camping-car Autocaravane - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_camping_car.pdf) |
 | fr | auto | macif | Contrat Camping-car, Autocaravane | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_vehicules/CG_campingcar.pdf) |
+| fr | auto | macif | Contrat Flotte Automobile - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_flotte_auto_pro.pdf) |
 | fr | auto | macif | Contrat Macif Pann'Auto - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_PanneAuto.pdf) |
 | fr | auto | macif | Contrat d'assurance automobile — Voitures particulières, fourgons et fourgonnettes | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_vehicules/CG-Auto_201801.pdf) |
 | fr | auto | macif | Macif Auto | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_vehicules/CG_Auto.pdf) |
@@ -645,6 +647,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | obseques | groupama | GROUPAMA SÉRÉNITÉ OBSÈQUES - Tarifs | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/6UVUGprxtQSfzl6ryQuBEp/0c3c5dad7b54cd49e9b7f6a6a92f4917/Lisibilite%C3%8C__obse%C3%8C_ques_Groupama_032026.pdf) |
 | fr | obseques | groupama | Groupama Sérénité Obsèques (édition octobre 2021) - Fiche | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/3EwrRMbBVhIXDZ41vUiVjO/9e08763261c4f762c162be87a949f7a7/3350-231388-102021_DIC_GSO.pdf) |
 | fr | obseques | macif | Garantie Obsèques - Doc | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/tableau-principaux-indicateurs-economiques-garantie-obseques.pdf) |
+| fr | obseques | macif | Garantie Obsèques - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/DIC_garantie_obseques.pdf) |
 | fr | obseques | macif | contrat GARANTIE OBSÈQUES - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_garantie_obseques.pdf) |
 | fr | obseques | maif | Sollicitudes | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/notice-information-sollicitudes.pdf) |
 | fr | obseques | maif | Sollicitudes - Doc | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/valeurs-rachat-sollicitudes.pdf) |
@@ -785,6 +788,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | sante | macif | CONTRAT MACIF SANTÉ DES TERRITORIAUX - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_MSDT.pdf) |
 | fr | sante | macif | Complémentaire santé de la Branche de l'Aide, de l'Accompagnement des Soins et des Services à Domicile (Régime Général)  | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/TG_BAD_Sante.pdf) |
 | fr | sante | macif | Garantie Santé | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/NID/NID-Garantie-Sante.pdf) |
+| fr | sante | macif | Garantie Santé Territoriaux - Fiche | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/GST-fiche-synthese.pdf) |
 | fr | sante | macif | MACIF HOSPITALISATION | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/NID/NID_MH_COMPLET_20240101.pdf) |
 | fr | sante | macif | Macif Mutuelle Entreprises | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/conditions-generales-macif-mutuelle-entreprises.pdf) |
 | fr | sante | macif | Macif Mutuelle Entreprises (2) | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/nid-macif-mutuelle-entreprises.pdf) |
@@ -859,6 +863,8 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | voyage | luko | Medical & assistance Gold Sport Long trip 507657 | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/travel/dftralong202512/CG_Medical-Assistance-Gold-Sport_Long-trip_507657.pdf) |
 | fr | voyage | macif | Assistance médicale « Carte Visa Classic » (Assistance médicale - Contrat Etranger) | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/notice-assistance_CBleueVisa.pdf) |
 | fr | voyage | macif | CARTE VISA Premier | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/notice-assurance_CVisaPremier.pdf) |
+| lu | auto | lalux | easyPROTECT-Auto (PKWs und Wohnmobile) - IPID - DE | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_assurance-auto_lalux_easyprotect-auto_vehicules-type-1_de.pdf) |
+| lu | auto | lalux | easyPROTECT-Auto (Véhicules autres que voitures ou camping cars) - IPID | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_assurance-auto_lalux_easyprotect_auto_vehicules-type-2_fr.pdf) |
 | lu | autres | lalux | Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance (VISA BUSINESS) - IPID | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_BUSINESS_FR.pdf) |
 | lu | autres | lalux | SPUERKEESS credit card insurance – Assistance and Non-Assistance cover (VISA PREMIER) - IPID - EN | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_PREMIER_EN.pdf) |
 | lu | autres | lalux | Versicherung SPUERKEESS-Kreditkarten – Assistance-Leistungen und Nicht Assistance-Leistungen (VISA INFINITE) - IPID - DE | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_INFINITE_DE.pdf) |
@@ -867,3 +873,4 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | lu | construction | lalux | APROBAT - Responsabilité Civile Décennale - IPID | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_aprobat_rc-decennale_fr.pdf) |
 | lu | construction | lalux | Zehn- und Zweijahreshaftpflichtversicherung - DE | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/Divers/Aprobat/D.G._RC_Decennale_Biennale__10-07-2025_DE.pdf) |
 | lu | multirisque-professionnelle | lalux | easyPROTECT PRO – Assurance de choses - IPID | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_lalux_easyprotect-pro-entreprise-assurance-de-choses_fr.pdf) |
+| lu | multirisque-professionnelle | lalux | easyPROTECT PRO – Assurance de responsabilité civile - IPID | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_lalux_easyprotect-pro-entreprise-assurance-de-responsabilite-civile_fr.pdf) |

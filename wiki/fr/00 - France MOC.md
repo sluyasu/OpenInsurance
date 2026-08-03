@@ -34,6 +34,19 @@ chose.
 
 ## Distributeurs et porteurs de risque
 
+Trois relations distinctes ont été rencontrées dans le corpus, et les confondre change qui répond :
+
+- **La distribution.** Une marque mandataire ou courtier vend le papier d'un porteur. Direct Assurance
+  distribue de l'AXA France IARD ; Luko trade sous une entité allemande supervisée par la BaFin.
+- **Le partage par garantie.** Un même contrat nomme plusieurs assureurs, chacun sur son bloc — protection
+  juridique chez une filiale dédiée, assistance chez un GIE. Un contrat MAAF en porte quatre, dont une
+  garantie *assurée* par la mutuelle mais *gérée* par une autre entité : assureur et gestionnaire ne sont pas
+  la même question.
+- **La substitution**, propre au Code de la mutualité. Une mutuelle reste l'assureur nommé au contrat mais une
+  autre assume ses engagements et son exigence de solvabilité. Mesuré sur la Garantie Santé des Territoriaux :
+  *assurée par la MNFCT, substituée par Apivia Macif Mutuelle*, Macif n'étant que distributeur. Trois
+  organismes, trois rôles, une seule marque sur la couverture.
+
 En France, une marque grand public n'est pas nécessairement un assureur. Beaucoup de marques sont des
 **mandataires ou courtiers inscrits à l'ORIAS** qui distribuent le papier d'un porteur de risque. Le registre
 de l'ACPR liste les porteurs de risque ; l'ORIAS liste les intermédiaires. Chaque document contractuel nomme
@@ -74,7 +87,7 @@ né d'un contrat que le classement en [[EDPM et mobilités douces]] aurait mal d
 - [Groupama](insurers/Groupama.md) (31 documents)
 - [Luko](insurers/Luko.md) (14 documents)
 - [MAAF](insurers/MAAF.md) (47 documents)
-- [Macif](insurers/Macif.md) (71 documents)
+- [Macif](insurers/Macif.md) (75 documents)
 - [MAIF](insurers/MAIF.md) (69 documents)
 - [Matmut](insurers/Matmut.md) (146 documents)
 - [SMACL Assurances](insurers/SMACL%20Assurances.md) (67 documents)

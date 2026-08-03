@@ -1,0 +1,649 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "lu",
+  "insurer_slug": "lalux",
+  "insurer_name": "lalux",
+  "product_name": "easyPROTECT-Auto",
+  "branch": "auto",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "de",
+  "target_audience": null,
+  "target_audience_note": "Das Dokument nennt keine Zielgruppe. Es grenzt nur den Fahrzeugtyp ein: Titel « KFZ-Versicherung - PKWs und Wohnmobile », und bei Top Assistance « nur für PKW ».",
+  "reference": null,
+  "edition_date": null,
+  "product_family": "easyPROTECT-Auto",
+  "variant": "PKWs und Wohnmobile",
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_assurance-auto_lalux_easyprotect-auto_vehicules-type-1_de.pdf",
+  "source_pdf": "69538kb-0cc42a71.pdf",
+  "source_sha256": "630a0b1d484d2ad7cad166fc10d1857221469998fe677262f18dc00de0cdd354",
+  "source_pages": 2,
+  "fetched_at": "2026-08-02",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Informationsdokument über das Versicherungsprodukt (IPID) zur KFZ-Versicherung easyPROTECT-Auto der Marke LALUX Assurances, für PKWs und Wohnmobile. Versichert werden die KFZ-Haftpflicht sowie Schäden am eigenen Fahrzeug; das Produkt wird in drei Varianten angeboten (Sicherheit, Komfort und Performance), die auf einem Basistarif aufbauen. Der Basistarif umfasst die Haftpflicht, den Rechtsschutz (gegen zusätzlich zu zahlende Prämie) und Top Assistance; SICHERHEIT ergänzt Feuer, Diebstahl, Glasbruch, Zusammenprall mit einem streunenden Tier und Naturgewalten, KOMFORT die Schäden am Fahrzeug und das Ersatzfahrzeug, PERFORMANCE die Individualisierung der Prämie und Reparatur plus. Das Dokument bezeichnet seine Aufzählungen ausdrücklich als « Nicht vollständige Liste » und verweist für die vollständigen Rechte und Pflichten auf die Allgemeinen Versicherungsbedingungen und/oder die Besonderen Bedingungen.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Haftpflicht",
+      "description": "Schäden, die durch das versicherte Fahrzeug an Personen und Sachen verursacht werden.",
+      "is_optional": false,
+      "territorial_scope": "In den auf der grünen Versicherungskarte angegebenen Ländern",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Im BASISTARIF enthalten."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Rechtsschutz",
+      "description": "Kosten und Honorare in Höhe von bis zu 10.000 EUR bei allen rechtlichen Schritten oder Instanzen nach einem Verkehrsunfall.",
+      "is_optional": true,
+      "territorial_scope": "Freie Rechtsanwaltswahl in Luxemburg; im Ausland ist die vorherige Einwilligung der Versicherungsgesellschaft erforderlich.",
+      "limits": "bis zu 10.000 EUR",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Im BASISTARIF aufgeführt, « erfordert eine zusätzlich zu zahlende Prämie »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Top Assistance",
+      "description": "Ersatzfahrzeug (5 Tage).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Ersatzfahrzeug (5 Tage)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Nur für PKW",
+        "Nur wenn das Fahrzeug fahruntauglich ist oder gestohlen wurde",
+        "Vorheriger Anruf bei der Versicherungsgesellschaft (+352 44 88 88)",
+        "Im BASISTARIF enthalten."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Feuer",
+      "description": "Blitzschlag, Verbrennungen, Kurzschluss usw.",
+      "is_optional": false,
+      "territorial_scope": "Schäden an Fahrzeug und Gepäck: Luxemburg und die auf Seite 2 aufgezählten Länder",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Ab der Variante SICHERHEIT (= Basistarif + folgende Elemente)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Diebstahl und versuchter Diebstahl",
+      "description": "Car-Jacking, Home-Jacking; Zerstörung oder Beschädigung des versicherten Fahrzeugs.",
+      "is_optional": false,
+      "territorial_scope": "Schäden an Fahrzeug und Gepäck: Luxemburg und die auf Seite 2 aufgezählten Länder",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Ab der Variante SICHERHEIT.",
+        "Anzeige oder Meldung muss umgehend bei den zuständigen Behörden erstattet werden."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Glasbruch",
+      "description": "Schäden, die durch Bruch von Windschutzscheiben, Schiebedächern, Seitenfenstern und Heckscheiben verursacht werden; Scheinwerfer und Rücklichter, einschließlich Xenon-Scheinwerfer.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Ab der Variante SICHERHEIT.",
+        "Im Text mit « *) » markiert: bei Abschluss einer Glasbruch-Versicherung sind der Zusammenprall mit einem streunenden Tier und die Naturgewalten zusätzlich versichert.",
+        "Ersatz nur soweit technisch notwendig."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Zusammenprall mit einem streunenden Tier",
+      "description": "Sachschäden infolge eines Zusammenpralls mit einem streunenden Tier.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "« *) Bei Abschluss einer Glasbruch-Versicherung sind zusätzlich versichert »",
+        "Anzeige oder Meldung muss umgehend bei den zuständigen Behörden erstattet werden.",
+        "Ein Unfallbericht, der den Zusammenprall bescheinigt, muss der Versicherungsgesellschaft vorgelegt werden."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Naturgewalten",
+      "description": "Sachschäden aufgrund von: Steinschlag, Sturm, Hagel usw.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "« *) Bei Abschluss einer Glasbruch-Versicherung sind zusätzlich versichert »"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Optionaler Versicherungsschutz – Totalschaden",
+      "description": "Wenn im Falle eines Unfalls ein wirtschaftlicher Totalschaden festgestellt wird.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Unter der Variante SICHERHEIT als « Optionaler Versicherungsschutz » aufgeführt."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Schäden am Fahrzeug (einschließlich Totalschaden)",
+      "description": "Am Fahrzeug verursachte Sachschäden durch: einen Unfall/Fremdeinwirkung oder Marder/Steinmarder; falsches Betanken; Beschädigung der Reifen auch durch Vandalismus.",
+      "is_optional": false,
+      "territorial_scope": "Schäden an Fahrzeug und Gepäck: Luxemburg und die auf Seite 2 aufgezählten Länder",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Selbstbeteiligung bei kürzlich erworbenem Führerschein; keine Selbstbeteiligung, wenn der Vertrag auf den Namen eines jungen Fahrers abgeschlossen wurde. (Betrag nicht angegeben)",
+      "conditions": [
+        "Ab der Variante KOMFORT (= SICHERHEIT + folgende Elemente).",
+        "Arbeitslohnkosten, die über den in Luxemburg geltenden Tarifen liegen, sind eine Einschränkung des Versicherungsschutzes."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Ersatzfahrzeug",
+      "description": "Bereitstellung eines Ersatzfahrzeugs/Erstattung der Mietkosten für ein Fahrzeug.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Ab der Variante KOMFORT."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Ersatzfahrzeug einer gehobeneren Fahrzeugklasse",
+      "description": "« Zusätzliche Versicherung: Ersatzfahrzeug einer gehobeneren Fahrzeugklasse. » – im Anschluss an die Garantie Ersatzfahrzeug der Variante KOMFORT.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Als « Zusätzliche Versicherung » zur Garantie Ersatzfahrzeug bezeichnet."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Individualisierung der Prämie",
+      "description": "Schadensfall, der nicht die Haftpflicht des Versicherten erfordert, beeinflusst nicht das Bonus/Malus-System in Bezug auf den Versicherungsschutz bei Fahrzeugschäden.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Nur in der Variante PERFORMANCE (= KOMFORT + folgende Elemente)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Reparatur plus",
+      "description": "Um einen Totalschaden zu vermeiden, wird die für die Reparatur zu zahlende Entschädigung um 10 % des Wertes erhöht, der als Ersatzwert für das versicherte Fahrzeug ermittelt wurde (maximal 2.500 EUR).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "um 10 % des Wertes erhöht, der als Ersatzwert für das versicherte Fahrzeug ermittelt wurde (maximal 2.500 EUR)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Nur in der Variante PERFORMANCE."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Neuwert für einen Zeitraum von drei Jahren",
+      "description": "Unter « Optionaler zusätzlicher Versicherungsschutz » aufgeführt; das Dokument nennt nur die Bezeichnung.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Nur bei SICHERHEIT (außer Totalschaden), KOMFORT und PERFORMANCE."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Kaufwert Gebrauchtfahrzeug",
+      "description": "Unter « Optionaler zusätzlicher Versicherungsschutz » aufgeführt; das Dokument nennt nur die Bezeichnung.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Nur bei SICHERHEIT (außer Totalschaden), KOMFORT und PERFORMANCE."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Gepäck und persönliche Wertgegenstände",
+      "description": "Unter « Optionaler zusätzlicher Versicherungsschutz » aufgeführt; das Dokument nennt nur die Bezeichnung.",
+      "is_optional": true,
+      "territorial_scope": "Schäden an Fahrzeug und Gepäck: Luxemburg und die auf Seite 2 aufgezählten Länder",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Für alle Varianten."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Unfallversicherung – Todesfall, Invalidität und Behandlungskosten des versicherten Fahrers und/oder seiner Familie",
+      "description": "Unter « Optionaler zusätzlicher Versicherungsschutz » aufgeführt; das Dokument nennt nur die Bezeichnung.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Für alle Varianten."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Fahrerschutz",
+      "description": "Unter « Optionaler zusätzlicher Versicherungsschutz » aufgeführt; das Dokument nennt nur die Bezeichnung. Im Kasten « Gibt es Ausschlüsse vom Versicherungsschutz ? » heißt es zur Haftpflicht: « Schäden am Fahrer: kann optional versichert werden ».",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Für alle Varianten."
+      ],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Reifen, die nicht den geltenden Rechtsvorschriften entsprechen",
+      "description": "Generelle Ausschlüsse: Schäden, die dadurch entstehen, dass die Reifen nicht die geltenden Rechtsvorschriften erfüllen (außer bei Haftpflicht).",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Transportierte Sachen und Tiere",
+      "description": "Generelle Ausschlüsse: Sofern nichts anderes vereinbart wurde: Schäden, die an den transportierten Sachen und Tieren verursacht wurden.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Fahrschüler und Vermietung des Fahrzeugs",
+      "description": "Haftpflicht: Sofern nichts anderes vereinbart wurde: Schäden, die durch Fahrschüler oder anlässlich der Vermietung des Fahrzeugs verursacht wurden.",
+      "applies_to": "Haftpflicht",
+      "page": 1
+    },
+    {
+      "name": "Trunkenheit / Blutalkoholspiegel von 1,2 g pro Liter Blut",
+      "description": "Rechtsschutz, Glasbruch und Schäden am Fahrzeug: Fahrzeug, das von einer Person gefahren wurde, die offensichtliche Anzeichen von Trunkenheit zeigt und bei der ein Blutalkoholspiegel von 1,2 g pro Liter Blut ermittelt wird.",
+      "applies_to": "Rechtsschutz, Glasbruch und Schäden am Fahrzeug",
+      "page": 1
+    },
+    {
+      "name": "Diebstahl durch Familienmitglieder",
+      "description": "Diebstahl: Wenn von Familienmitgliedern des Versicherungsnehmers begangen.",
+      "applies_to": "Diebstahl und versuchter Diebstahl",
+      "page": 1
+    },
+    {
+      "name": "Schäden am Fahrer",
+      "description": "Einschränkung im Kasten « Gibt es Ausschlüsse vom Versicherungsschutz ? », Haftpflicht: Schäden am Fahrer: kann optional versichert werden.",
+      "applies_to": "Haftpflicht",
+      "page": 1
+    },
+    {
+      "name": "Erhöhung der Prämie bei einem verschuldeten Schadensfall",
+      "description": "Einschränkung im Kasten « Gibt es Ausschlüsse vom Versicherungsschutz ? », Haftpflicht: Erhöhung der Prämie bei einem verschuldeten Schadensfall (Erhöhung der Bonus/Malus-Stufe).",
+      "applies_to": "Haftpflicht",
+      "page": 1
+    },
+    {
+      "name": "Einziehung von Beträgen unter 500 EUR",
+      "description": "Einschränkung im Kasten « Gibt es Ausschlüsse vom Versicherungsschutz ? », Rechtsschutz: Gerichtliche Instanzen für die Einziehung von Beträgen unter 500 EUR.",
+      "applies_to": "Rechtsschutz",
+      "page": 1
+    },
+    {
+      "name": "Ersatz nur soweit technisch notwendig",
+      "description": "Einschränkung im Kasten « Gibt es Ausschlüsse vom Versicherungsschutz ? », Glasbruch: Ersatz nur soweit technisch notwendig.",
+      "applies_to": "Glasbruch",
+      "page": 1
+    },
+    {
+      "name": "Selbstbeteiligung bei kürzlich erworbenem Führerschein",
+      "description": "Einschränkung im Kasten « Gibt es Ausschlüsse vom Versicherungsschutz ? », Schäden am Fahrzeug: Selbstbeteiligung bei kürzlich erworbenem Führerschein; keine Selbstbeteiligung, wenn der Vertrag auf den Namen eines jungen Fahrers abgeschlossen wurde.",
+      "applies_to": "Schäden am Fahrzeug (einschließlich Totalschaden)",
+      "page": 1
+    },
+    {
+      "name": "Arbeitslohnkosten über den luxemburgischen Tarifen",
+      "description": "Einschränkung im Kasten « Gibt es Ausschlüsse vom Versicherungsschutz ? », Schäden am Fahrzeug: Arbeitslohnkosten, die über den in Luxemburg geltenden Tarifen liegen.",
+      "applies_to": "Schäden am Fahrzeug (einschließlich Totalschaden)",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": null,
+    "per_coverage": {
+      "Schäden am Fahrzeug": "Selbstbeteiligung bei kürzlich erworbenem Führerschein; keine Selbstbeteiligung, wenn der Vertrag auf den Namen eines jungen Fahrers abgeschlossen wurde."
+    },
+    "page": 1
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Beschreibung des zu versichernden Risikos",
+      "description": "Das zu versichernde Risiko, ohne Falschangaben oder Auslassungen, möglichst vollständig und genau beschreiben.",
+      "timing": "Bei Vertragsabschluss",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Bescheinigung der vormaligen Versicherungsgesellschaft",
+      "description": "Bescheinigung der vormaligen Versicherungsgesellschaft vorlegen, in der die Bonus-Malus-Stufe und etwaige Schadensfälle angegeben sind.",
+      "timing": "Bei Vertragsabschluss",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Meldung neuer Umstände",
+      "description": "Der Versicherungsgesellschaft jeden neuen Umstand melden, der das Risiko erhöhen oder neue Risiken darstellen kann.",
+      "timing": "Während der Vertragslaufzeit",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Meldung von Datenänderungen",
+      "description": "Die Versicherungsgesellschaft über alle Änderungen der im Vertrag angegebenen Daten informieren, insbesondere bei einem Adress- oder Bankkontowechsel.",
+      "timing": "Während der Vertragslaufzeit",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Prämienzahlung",
+      "description": "Ihre Versicherungsprämien unter Einhaltung der in Ihrem Vertrag festgelegten Fristen zahlen.",
+      "timing": "Während der Vertragslaufzeit",
+      "sanction": "Bei Nichtzahlung kann die Versicherungsgesellschaft den Versicherungsschutz aufheben oder den Vertrag kündigen.",
+      "page": 2
+    },
+    {
+      "name": "Schadensmeldung innerhalb von acht Tagen",
+      "description": "Jeden Schadensfall innerhalb von acht Tagen, nachdem er sich ereignet hat, melden und die Einwilligung der Versicherungsgesellschaft einholen, bevor jedwede Maßnahmen ergriffen werden, die eine Einbeziehung der Versicherung erfordern.",
+      "timing": "Im Schadensfall",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Übermittlung von Angaben und Unterlagen",
+      "description": "Alle Angaben und Unterlagen übermitteln, die von der Versicherung verlangt werden, da sie für die Abwicklung des Schadensfalls erforderlich sind. Protokolle, Unfallberichte und andere offizielle Dokumente sind schnellstmöglich zu übermitteln.",
+      "timing": "Im Schadensfall",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Rechtsanwaltswahl (Rechtsschutz)",
+      "description": "Freie Rechtsanwaltswahl in Luxemburg. Im Ausland ist die vorherige Einwilligung der Versicherungsgesellschaft erforderlich.",
+      "timing": "Besonderheiten entsprechend dem jeweiligen Versicherungsschutz – Rechtsschutz",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Vorheriger Anruf (Top Assistance)",
+      "description": "Vorheriger Anruf bei der Versicherungsgesellschaft (+352 44 88 88).",
+      "timing": "Besonderheiten entsprechend dem jeweiligen Versicherungsschutz – Top Assistance",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Anzeige bei den Behörden (Diebstahl)",
+      "description": "Anzeige oder Meldung muss umgehend bei den zuständigen Behörden erstattet werden.",
+      "timing": "Besonderheiten entsprechend dem jeweiligen Versicherungsschutz – Diebstahl",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Anzeige bei den Behörden (Zusammenstoß mit einem umherirrenden Tier)",
+      "description": "Anzeige oder Meldung muss umgehend bei den zuständigen Behörden erstattet werden.",
+      "timing": "Besonderheiten entsprechend dem jeweiligen Versicherungsschutz – Zusammenstoß mit einem umherirrenden Tier",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Unfallbericht (Zusammenstoß mit einem umherirrenden Tier)",
+      "description": "Ein Unfallbericht, der den Zusammenprall bescheinigt, muss der Versicherungsgesellschaft vorgelegt werden.",
+      "timing": "Besonderheiten entsprechend dem jeweiligen Versicherungsschutz – Zusammenstoß mit einem umherirrenden Tier",
+      "sanction": null,
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Schadensfall melden",
+      "description": "Jeden Schadensfall innerhalb von acht Tagen, nachdem er sich ereignet hat, melden.",
+      "deadline": "innerhalb von acht Tagen, nachdem er sich ereignet hat",
+      "page": 2
+    },
+    {
+      "step": "Einwilligung der Versicherungsgesellschaft einholen",
+      "description": "Die Einwilligung der Versicherungsgesellschaft einholen, bevor jedwede Maßnahmen ergriffen werden, die eine Einbeziehung der Versicherung erfordern.",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Angaben und Unterlagen übermitteln",
+      "description": "Alle Angaben und Unterlagen übermitteln, die von der Versicherung verlangt werden; Protokolle, Unfallberichte und andere offizielle Dokumente sind schnellstmöglich zu übermitteln.",
+      "deadline": "schnellstmöglich",
+      "page": 2
+    },
+    {
+      "step": "Top Assistance: vorher anrufen",
+      "description": "Vorheriger Anruf bei der Versicherungsgesellschaft (+352 44 88 88).",
+      "deadline": "vorher",
+      "page": 2
+    },
+    {
+      "step": "Diebstahl: Anzeige erstatten",
+      "description": "Anzeige oder Meldung muss umgehend bei den zuständigen Behörden erstattet werden.",
+      "deadline": "umgehend",
+      "page": 2
+    },
+    {
+      "step": "Zusammenstoß mit einem umherirrenden Tier: Anzeige und Unfallbericht",
+      "description": "Anzeige oder Meldung muss umgehend bei den zuständigen Behörden erstattet werden; ein Unfallbericht, der den Zusammenprall bescheinigt, muss der Versicherungsgesellschaft vorgelegt werden.",
+      "deadline": "umgehend",
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Beginn (Datum des Inkrafttretens) und Ende des Vertrags sind in den Besonderen Bedingungen angegeben.",
+    "tacit_renewal": true,
+    "notice_period": "30 Tage vor dem jährlichen Ablaufdatum des Vertrags (Kündigung durch den Kunden); die Versicherungsgesellschaft kann 60 Tage vor dem jährlichen Ablaufdatum kündigen.",
+    "methods": [
+      "Die Kündigung ist per Einschreiben zu beantragen."
+    ],
+    "special_rights": [
+      "Kündigung innerhalb von einem Monat nach Kündigung einer Garantie oder eines anderen Versicherungsvertrags durch die Versicherungsgesellschaft nach einem Schadensfall.",
+      "Kündigung innerhalb von 60 Tagen nach einer von der Versicherungsgesellschaft mitgeteilten Prämienerhöhung.",
+      "Die Versicherungsgesellschaft kann den Vertrag nach einem Schadensfall, bei Betrug, bei Zahlungsausfall oder nach einer entsprechenden Mitteilung 60 Tage vor dem jährlichen Ablaufdatum des Vertrags kündigen.",
+      "Im Falle einer Kündigung legt die Versicherungsgesellschaft dem Kunden eine Bonus/Malus-Bescheinigung vor, in der die Bonus/Malus-Stufe und die Schadensfälle des laufenden Zeitraums angegeben sind."
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "Der auf der jährlichen Fälligkeitsmitteilung angegebene Betrag ist am ersten Tag des Fälligkeitsmonats zu zahlen.",
+      "Monatliche Zahlungen im Lastschriftverfahren sind ohne zusätzliche Kosten möglich.",
+      "Der Rechtsschutz erfordert eine zusätzlich zu zahlende Prämie.",
+      "Erhöhung der Prämie bei einem verschuldeten Schadensfall (Erhöhung der Bonus/Malus-Stufe).",
+      "In der Variante PERFORMANCE: ein Schadensfall, der nicht die Haftpflicht des Versicherten erfordert, beeinflusst nicht das Bonus/Malus-System in Bezug auf den Versicherungsschutz bei Fahrzeugschäden.",
+      "Bei Nichtzahlung kann die Versicherungsgesellschaft den Versicherungsschutz aufheben oder den Vertrag kündigen."
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Drei Varianten",
+      "description": "BASISTARIF; SICHERHEIT = Basistarif + folgende Elemente; KOMFORT = SICHERHEIT + folgende Elemente; PERFORMANCE = KOMFORT + folgende Elemente. Die drei Varianten (Sicherheit, Komfort und Performance) bieten die Möglichkeit, den Vertrag zu wählen, der am besten dem Bedarf und den Anforderungen entspricht.",
+      "page": 1
+    },
+    {
+      "name": "Glasbruch als Voraussetzung",
+      "description": "« *) Bei Abschluss einer Glasbruch-Versicherung sind zusätzlich versichert : » Zusammenprall mit einem streunenden Tier und Naturgewalten.",
+      "page": 1
+    },
+    {
+      "name": "Hinweis zur Unvollständigkeit des Dokuments",
+      "description": "Das vorliegende Dokument ist nicht individuell an den spezifischen Bedarf angepasst und die vorgesehenen Informationen und Pflichten sind nicht vollständig. Ausführliche Informationen zu den Rechten und Pflichten finden sich in den Allgemeinen Versicherungsbedingungen und/oder den für das ausgewählte Produkt geltenden Besonderen Bedingungen.",
+      "page": 1
+    },
+    {
+      "name": "Territorialer Geltungsbereich",
+      "description": "In den auf der grünen Versicherungskarte angegebenen Ländern. Schäden an Fahrzeug und Gepäck: Luxemburg, Albanien, Deutschland, Andorra, Österreich, Belgien, Bosnien-Herzegowina, Bulgarien, Zypern, Kroatien, Dänemark (und die Färöer-Inseln), Spanien, Estland, Vatikanstadt, Finnland, Frankreich, Griechenland, Ungarn, Irland, Island, Italien, Lettland, Liechtenstein, Litauen, Mazedonien (F.Y.R.O.M), Malta, Monaco, Montenegro, Norwegen, Niederlande, Polen, Portugal, Rumänien, Großbritannien und Nordirland (einschließlich Kanalinseln, Gibraltar, Isle of Man), San Marino, Serbien, Slowakei, Slowenien, Schweden, Schweiz, Tschechien, Türkei.",
+      "page": 2
+    }
+  ],
+  "key_quotes": [
+    {
+      "page": 1,
+      "quote": "easyPROTECT-Auto ist eine Versicherung, mit der Sie Ihre KFZ-Haftpflicht sowie die an Ihrem Fahrzeug entstandenen Schäden versichern \nkönnen. Die drei Varianten (Sicherheit, Komfort und Performance) bieten Ihnen die Möglichkeit, den Vertrag zu wählen, der am besten Ihrem \nBedarf und Ihren Anforderungen entspricht."
+    },
+    {
+      "page": 1,
+      "quote": "Haftpflicht \n\t Schäden, die durch das versicherte Fahrzeug an Personen und Sachen \nverursacht werden\n"
+    },
+    {
+      "page": 1,
+      "quote": "Kosten und Honorare in Höhe von bis zu 10.000 EUR bei allen rechtlichen \nSchritten oder Instanzen nach einem Verkehrsunfall"
+    },
+    {
+      "page": 1,
+      "quote": "Top Assistance (nur für PKW und wenn das Fahrzeug fahruntauglich ist oder \ngestohlen wurde):\n\t Ersatzfahrzeug (5 Tage)"
+    },
+    {
+      "page": 1,
+      "quote": "Glasbruch *)\n\t Schäden, die durch Bruch von Windschutzscheiben, Schiebedächern, \nSeitenfenstern und Heckscheiben verursacht werden\n\t Scheinwerfer und Rücklichter, einschließlich Xenon-Scheinwerfer"
+    },
+    {
+      "page": 1,
+      "quote": "*) Bei Abschluss einer Glasbruch-Versicherung sind zusätzlich versichert :\nZusammenprall mit einem streunenden Tier\n\t Sachschäden infolge eines Zusammenpralls mit einem streunenden Tier \nNaturgewalten\n\t Sachschäden aufgrund von : Steinschlag, Sturm, Hagel usw."
+    },
+    {
+      "page": 1,
+      "quote": "Optionaler Versicherungsschutz – Totalschaden \n\t Wenn im Falle eines Unfalls ein wirtschaftlicher Totalschaden festgestellt wird."
+    },
+    {
+      "page": 1,
+      "quote": "Schäden am Fahrzeug (einschließlich Totalschaden) \n\t Am Fahrzeug verursachte Sachschäden durch: einen Unfall/\nFremdeinwirkung oder Marder/Steinmarder; falsches Betanken; \nBeschädigung der Reifen auch durch Vandalismus"
+    },
+    {
+      "page": 1,
+      "quote": "Individualisierung der Prämie \n\t Schadensfall, der nicht die Haftpflicht des Versicherten erfordert, \nbeeinflusst nicht das Bonus/Malus-System in Bezug auf den \nVersicherungsschutz bei Fahrzeugschäden."
+    },
+    {
+      "page": 1,
+      "quote": "Reparatur plus \n\t Um einen Totalschaden zu vermeiden, wird die für die Reparatur zu \nzahlende Entschädigung um 10 % des Wertes erhöht, der als Ersatzwert \nfür das versicherte Fahrzeug ermittelt wurde (maximal 2.500 EUR)."
+    },
+    {
+      "page": 1,
+      "quote": "Optionaler zusätzlicher Versicherungsschutz\nNur bei SICHERHEIT (außer Totalschaden), KOMFORT und PERFORMANCE:\n\t Neuwert für einen Zeitraum von drei Jahren\n\t Kaufwert Gebrauchtfahrzeug\nFür alle Varianten:\n\t Gepäck und persönliche Wertgegenstände\n\t Unfallversicherung – Todesfall, Invalidität und Behandlungskosten des \nversicherten Fahrers und/oder seiner Familie\n\t Fahrerschutz"
+    },
+    {
+      "page": 1,
+      "quote": "Generelle Ausschlüsse:\n\t Schäden, die dadurch entstehen, dass die Reifen nicht die geltenden \nRechtsvorschriften erfüllen (außer bei Haftpflicht).\n\t Sofern nichts anderes vereinbart wurde: Schäden, die an den \ntransportierten Sachen und Tieren verursacht wurden."
+    },
+    {
+      "page": 1,
+      "quote": "Fahrzeug, das von einer Person gefahren wurde, die offensichtliche \nAnzeichen von Trunkenheit zeigt und bei der ein Blutalkoholspiegel von \n1,2 g pro Liter Blut ermittelt wird."
+    },
+    {
+      "page": 1,
+      "quote": "Diebstahl\n\t Wenn von Familienmitgliedern des Versicherungsnehmers begangen."
+    },
+    {
+      "page": 1,
+      "quote": "Gerichtliche Instanzen für die Einziehung von Beträgen unter 500 EUR"
+    },
+    {
+      "page": 1,
+      "quote": "Selbstbeteiligung bei kürzlich erworbenem Führerschein; keine \nSelbstbeteiligung, wenn der Vertrag auf den Namen eines jungen \nFahrers abgeschlossen wurde."
+    },
+    {
+      "page": 2,
+      "quote": "\t In den auf der grünen Versicherungskarte angegebenen Ländern\n\t Schäden an Fahrzeug und Gepäck : Luxemburg, Albanien, Deutschland, Andorra, Österreich, Belgien, Bosnien-\nHerzegowina, Bulgarien, Zypern, Kroatien, Dänemark (und die Färöer-Inseln), Spanien, Estland, Vatikanstadt, Finnland, \nFrankreich, Griechenland, Ungarn, Irland, Island, Italien, Lettland, Liechtenstein, Litauen, Mazedonien (F.Y.R.O.M), Malta, \nMonaco, Montenegro, Norwegen, Niederlande, Polen, Portugal, Rumänien, Großbritannien und Nordirland (einschließlich \nKanalinseln, Gibraltar, Isle of Man), San Marino, Serbien, Slowakei, Slowenien, Schweden, Schweiz, Tschechien, Türkei"
+    },
+    {
+      "page": 2,
+      "quote": "Jeden Schadensfall innerhalb von acht Tagen, nachdem er sich ereignet hat, melden und die Einwilligung der Versicherungs-\ngesellschaft einholen, bevor jedwede Maßnahmen ergriffen werden, die eine Einbeziehung der Versicherung erfordern."
+    },
+    {
+      "page": 2,
+      "quote": "Vorheriger Anruf bei der Versicherungsgesellschaft (+352 44 88 88)"
+    },
+    {
+      "page": 2,
+      "quote": "Der auf der jährlichen Fälligkeitsmitteilung angegebene Betrag ist am ersten Tag des Fälligkeitsmonats zu zahlen.\n•\t\nMonatliche Zahlungen im Lastschriftverfahren sind ohne zusätzliche Kosten möglich."
+    },
+    {
+      "page": 2,
+      "quote": "Der Vertrag verlängert sich jeweils um ein weiteres Jahr, sofern der Kunde oder die Versicherungsgesellschaft ihn nicht kündigen \n(stillschweigende Verlängerung)."
+    },
+    {
+      "page": 2,
+      "quote": "Die Kündigung ist per Einschreiben zu beantragen und zwar: 30 Tage vor dem jährlichen Ablaufdatum des Vertrags \noder innerhalb von einem Monat nach Kündigung einer Garantie oder eines anderen Versicherungsvertrags durch die \nVersicherungsgesellschaft nach einem Schadensfall oder innerhalb von 60 Tagen nach einer von der Versicherungsgesellschaft \nmitgeteilten Prämienerhöhung."
+    },
+    {
+      "page": 2,
+      "quote": "Die Versicherungsgesellschaft kann den Vertrag nach einem Schadensfall, bei Betrug, bei Zahlungsausfall oder nach einer \nentsprechenden Mitteilung 60 Tage vor dem jährlichen Ablaufdatum des Vertrags kündigen."
+    },
+    {
+      "page": 2,
+      "quote": "Im Falle einer Kündigung legt die Versicherungsgesellschaft dem Kunden eine Bonus/Malus-Bescheinigung vor, in der die \nBonus/Malus-Stufe und die Schadensfälle des laufenden Zeitraums angegeben sind."
+    }
+  ],
+  "gaps": [
+    "RISIKOTRÄGER NICHT BESTIMMBAR: Das Dokument nennt als Versicherer nur die Marke « LALUX Assurances » in der Kopfzeile (« LALUX Assurances - Produkt : easyPROTECT-Auto ») und spricht sonst durchgehend von « der Versicherungsgesellschaft ». Keine Rechtsform, keine vollständige Firmenbezeichnung, keine RCS-Nummer, keine Anschrift, keine Aufsichtsbehörde sind auf den zwei Seiten abgedruckt. Eine Volltextsuche über beide Seiten nach « S.A. », « RCS », « B 31035 », « B 31036 », « LUXEMBOURGEOISE » liefert keinen Treffer. `insurer_name` wurde daher aus den Task-Metadaten übernommen (« lalux ») und die gedruckte Marke hier festgehalten; welche der beiden zugelassenen Gesellschaften Risikoträger ist, lässt sich aus diesem Dokument NICHT entscheiden.",
+    "KEIN AUSGABEDATUM: Weder Seite 1 noch Seite 2 druckt ein Ausgabedatum, eine Versionsnummer, eine interne Referenz oder eine datierte Fußzeile. Eine Suche im Textlayer nach Jahreszahlen und nach MM/JJJJ-Mustern liefert keinen Treffer. `edition_date` und `reference` bleiben null.",
+    "PRODUKTNAME UND VARIANTE: Der gedruckte Titel des Dokuments lautet « KFZ-Versicherung - PKWs und Wohnmobile »; die Produktzeile darunter lautet « LALUX Assurances - Produkt : easyPROTECT-Auto ». `product_name` und `product_family` wurden auf « easyPROTECT-Auto » gesetzt (der als Produkt bezeichnete Name), `variant` auf « PKWs und Wohnmobile » (die im Titel gedruckte Fahrzeugkategorie, die dieses Dokument von den Parallelfassungen für andere Fahrzeugtypen unterscheidet). Der in den Task-Metadaten mitgelieferte Name (« Assurance auto lalux easyprotect auto vehicules type 1 ») ist ein slugifizierter Dateiname und kommt im Dokument nirgends vor; er wurde nicht übernommen.",
+    "AUSDRÜCKLICH UNVOLLSTÄNDIGE LISTEN: Der Vermerk « Nicht vollständige Liste » steht dreimal auf Seite 1 – am Ende des Kastens « Was ist versichert ? », am Ende von « Was ist nicht versichert ? » und am Ende von « Gibt es Ausschlüsse vom Versicherungsschutz ? ». Die hier erfassten 19 Garantien und 11 Ausschlüsse/Einschränkungen sind also alles, was das Dokument druckt, aber nach eigener Angabe nicht alles, was der Vertrag enthält.",
+    "KEINE ALLGEMEINEN BEDINGUNGEN VERFÜGBAR: Das Dokument verweist auf « die Allgemeinen Versicherungsbedingungen und/oder den für das ausgewählte Produkt geltenden Besonderen Bedingungen », ohne sie zu benennen, zu datieren oder zu verlinken. Für dieses Produkt sind auf der Website des Herausgebers keine allgemeinen Bedingungen veröffentlicht; alle Angaben zu Umfang, Grenzen und Selbstbeteiligungen beruhen daher allein auf diesem zweiseitigen IPID.",
+    "SPRACHFASSUNG: Dieses Dokument wurde ausschließlich aus seinem eigenen deutschen Text extrahiert. Parallele französische und englische Fassungen desselben Produkts wurden NICHT herangezogen und dürfen nicht zur Ergänzung dieser Extraktion verwendet werden.",
+    "KASTENZUORDNUNG: Der dritte Kasten « Gibt es Ausschlüsse vom Versicherungsschutz ? » enthält im Sinne des IPID-Formats Einschränkungen (Selbstbeteiligung, Bagatellgrenze von 500 EUR, technische Notwendigkeit beim Glasersatz, Prämienerhöhung bei verschuldetem Schadensfall, optional versicherbare Schäden am Fahrer) und nicht nur echte Ausschlüsse. Sie wurden dennoch in `exclusions` erfasst (Einträge 6 bis 11) und in der Beschreibung jeweils als Einschränkung aus diesem Kasten gekennzeichnet, damit die Herkunft nachvollziehbar bleibt.",
+    "KEINE DEFINITIONEN: Das Dokument enthält kein Glossar und keine vertraglichen Begriffsbestimmungen; `definitions` bleibt leer. Ebenso wenig nennt es Wartezeiten (`waiting_periods` leer) oder eine Verjährungsfrist (`prescription_period` null).",
+    "SELBSTBEHALT OHNE BETRAG: Die einzige genannte Selbstbeteiligung (« bei kürzlich erworbenem Führerschein ») wird ohne Betrag und ohne Berechnungsweise abgedruckt; der Ausnahmefall (Vertrag auf den Namen eines jungen Fahrers) ebenfalls nicht beziffert.",
+    "ZIELGRUPPE NICHT ANGEGEBEN: Das Dokument nennt keine Zielgruppe (Privatpersonen, Unternehmen, Selbständige …). `target_audience` bleibt null; die einzige Eingrenzung betrifft den Fahrzeugtyp (« PKWs und Wohnmobile », Top Assistance « nur für PKW ») und steht in `target_audience_note`.",
+    "SEITENZAHLEN UND TEXTLAYER GEPRÜFT: Das Dokument hat 2 Seiten ohne gedruckte Folionummern; alle `page`-Angaben zitieren die `[[page N]]`-Marken und wurden je Block durch Ankersuche im Seitentext gegengeprüft. Der Textlayer der lokalen PDF-Datei wurde mit `page.get_text(\"text\")` neu extrahiert und stimmt Seite für Seite mit dem im Prompt gelieferten Text überein; es gibt keinen Text außerhalb des Seitenrechtecks und keine doppelten Kopfzeilen. Im Text stehen 16 schmale Leerzeichen (U+2009) vor « ? » und « : » – die Zitate wurden programmatisch als exakte Textspannen geschnitten und enthalten diese Zeichen unverändert."
+  ]
+}

@@ -5,7 +5,7 @@ country: fr
 insurer_slug: macif
 name: Macif
 website: https://www.macif.fr
-products_count: 71
+products_count: 75
 branches_covered:
 - animaux
 - assurance-vie
@@ -40,7 +40,7 @@ generated: true
 
 ## Résumé
 
-**Macif** - [https://www.macif.fr](https://www.macif.fr). 71 document(s) across 18 branch(es).
+**Macif** - [https://www.macif.fr](https://www.macif.fr). 75 document(s) across 18 branch(es).
 
 ## Produits par branche
 
@@ -51,6 +51,7 @@ generated: true
 
 ### [Assurance vie et épargne](../branches/Assurance%20vie%20et%20%C3%A9pargne.md)
 - [Jeewan Patrimoine - Tarifs](../products/macif/Jeewan%20Patrimoine%20-%20Tarifs.md) - Conditions tarifaires (2024-06) · réf. MUT/ FC/ FRAIS/JEEWAN - 06/24
+- [Livret Vie](../products/macif/Livret%20Vie.md) - Conditions générales (JANVIER 2018) · réf. MUT/N/LV - 01/18
 - [Macif Épargne Vie - Tarifs](../products/macif/Macif%20%C3%89pargne%20Vie%20-%20Tarifs.md) - Conditions tarifaires (2024-06) · réf. MUT/FC/FRAIS/MEV - 06/24
 - [Multi Vie - Tarifs](../products/macif/Multi%20Vie%20-%20Tarifs.md) - Conditions tarifaires · réf. MUT/ FC/ FRAIS/MV - 06/24
 
@@ -58,6 +59,7 @@ generated: true
 - [Contrat Automobile – Voitures particulières, fourgons et fourgonnettes (Voitures particulières, fourgons et fourgonnette](../products/macif/Contrat%20Automobile%20%E2%80%93%20Voitures%20particuli%C3%A8res%2C%20fourgons%20et%20fourgonnettes%20%28Voitures%20particuli%C3%A8res%2C%20fourgons%20et%20fourgonnette.md) - IPID / Fiche d'information (2022-06) · réf. VEH  VPFG - 06/22
 - [Contrat Camping-car Autocaravane - IPID](../products/macif/Contrat%20Camping-car%20Autocaravane%20-%20IPID.md) - IPID / Fiche d'information (2018-10) · réf. LOIS CCAR 10/18
 - [Contrat Camping-car, Autocaravane](../products/macif/Contrat%20Camping-car%2C%20Autocaravane.md) - Conditions générales (2019-01) · réf. LOIS / CARACC / 05 - 01 / 19 - N 891
+- [Contrat Flotte Automobile - IPID](../products/macif/Contrat%20Flotte%20Automobile%20-%20IPID.md) - IPID / Fiche d'information (06/19) · réf. VEH/FLOTTE - 06/19
 - [Contrat Macif Pann'Auto - IPID](../products/macif/Contrat%20Macif%20Pann%27Auto%20-%20IPID.md) - IPID / Fiche d'information (12/22) · réf. VEH/GPM/05 12/22
 - [Contrat d'assurance automobile — Voitures particulières, fourgons et fourgonnettes](../products/macif/Contrat%20d%27assurance%20automobile%20%E2%80%94%20Voitures%20particuli%C3%A8res%2C%20fourgons%20et%20fourgonnettes.md) - Conditions générales (janvier 2018) · réf. VEH/AUTO/19-01/18-N828
 - [Macif Auto](../products/macif/Macif%20Auto.md) - Conditions générales (2026-01) · réf. VEH/AUTO PART/05 - 01/26 - N338
@@ -113,6 +115,7 @@ generated: true
 
 ### [Obsèques](../branches/Obs%C3%A8ques.md)
 - [Garantie Obsèques - Doc](../products/macif/Garantie%20Obs%C3%A8ques%20-%20Doc.md) - Document
+- [Garantie Obsèques - IPID](../products/macif/Garantie%20Obs%C3%A8ques%20-%20IPID.md) - IPID / Fiche d'information (1er juillet 2026) · réf. DIC Garantie Obsèques - 07/26
 - [contrat GARANTIE OBSÈQUES - IPID](../products/macif/contrat%20GARANTIE%20OBS%C3%88QUES%20-%20IPID.md) - IPID / Fiche d'information (01/26) · réf. DIPA GARANTIE OBSÈQUES - 01/26
 
 ### [Protection juridique](../branches/Protection%20juridique.md)
@@ -134,6 +137,7 @@ generated: true
 - [CONTRAT MACIF SANTÉ DES TERRITORIAUX - IPID](../products/macif/CONTRAT%20MACIF%20SANT%C3%89%20DES%20TERRITORIAUX%20-%20IPID.md) - IPID / Fiche d'information (2026-06)
 - [Complémentaire santé de la Branche de l'Aide, de l'Accompagnement des Soins et des Services à Domicile (Régime Général) ](../products/macif/Compl%C3%A9mentaire%20sant%C3%A9%20de%20la%20Branche%20de%20l%27Aide%2C%20de%20l%27Accompagnement%20des%20Soins%20et%20des%20Services%20%C3%A0%20Domicile%20%28R%C3%A9gime%20G%C3%A9n%C3%A9ral%29%20.md) - Fiche produit (01/2023) · réf. Santé Branche de l'Aide, de l'Accompagnement, des Soins et des Services à Domicile - Encart tarifaire RG - 01/2023
 - [Garantie Santé](../products/macif/Garantie%20Sant%C3%A9.md) - Conditions générales (2023-01) · réf. UNI/PREI/GS/05 01/23
+- [Garantie Santé Territoriaux - Fiche](../products/macif/Garantie%20Sant%C3%A9%20Territoriaux%20-%20Fiche.md) - Fiche produit (10.01.2022)
 - [MACIF HOSPITALISATION](../products/macif/MACIF%20HOSPITALISATION.md) - Conditions générales (01/24) · réf. U??? - UNI/PREI/MH/05 - 01/24
 - [Macif Mutuelle Entreprises](../products/macif/Macif%20Mutuelle%20Entreprises.md) - Conditions générales (2025-01) · réf. CG M M E - 01/25
 - [Macif Mutuelle Entreprises - Fiche](../products/macif/Macif%20Mutuelle%20Entreprises%20-%20Fiche.md) - Fiche produit (01/26) · réf. TG MME - 01/26
