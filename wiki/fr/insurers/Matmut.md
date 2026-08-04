@@ -5,7 +5,7 @@ country: fr
 insurer_slug: matmut
 name: Matmut
 website: https://www.matmut.fr
-products_count: 200
+products_count: 203
 branches_covered:
 - animaux
 - assurance-vie
@@ -43,7 +43,7 @@ generated: true
 
 ## Résumé
 
-**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 200 document(s) across 21 branch(es).
+**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 203 document(s) across 21 branch(es).
 
 ## Produits par branche
 
@@ -225,6 +225,7 @@ generated: true
 - [Bien à l'hôpital - Fiche](../products/matmut/Bien%20%C3%A0%20l%27h%C3%B4pital%20-%20Fiche.md) - Fiche produit (09/25) · réf. FICHE.HOP.MOM – 09/25
 - [CONTRAT COLLECTIF FRAIS DE SANTÉ - RÉGIME OBLIGATOIRE](../products/matmut/CONTRAT%20COLLECTIF%20FRAIS%20DE%20SANT%C3%89%20-%20R%C3%89GIME%20OBLIGATOIRE.md) - Conditions générales (Janvier 2023)
 - [Conditions Générales — Régime conventionnel de frais de santé à adhésion obligatoire, Convention Collective Nationale de](../products/matmut/Conditions%20G%C3%A9n%C3%A9rales%20%E2%80%94%20R%C3%A9gime%20conventionnel%20de%20frais%20de%20sant%C3%A9%20%C3%A0%20adh%C3%A9sion%20obligatoire%2C%20Convention%20Collective%20Nationale%20de.md) - Conditions générales (12-2024 (référence de pied de page « CG Oblig-ALISFA-FM-12-2024 ») ; le tableau des garanties de l'ANNEXE II porte la mention « En vigueur au 01/01/2025 ») · réf. CG Oblig-ALISFA-FM-12-2024 – SP24/FCR0570
+- [Contrat collectif Santé à adhésion obligatoire CCN Bâtiment et travaux publics (CCN Bâtiment et travaux publics — notice](../products/matmut/Contrat%20collectif%20Sant%C3%A9%20%C3%A0%20adh%C3%A9sion%20obligatoire%20CCN%20B%C3%A2timent%20et%20travaux%20publics%20%28CCN%20B%C3%A2timent%20et%20travaux%20publics%20%E2%80%94%20notice.md) - Conditions générales (septembre 2024)
 - [Contrat collectif santé à adhésion obligatoire](../products/matmut/Contrat%20collectif%20sant%C3%A9%20%C3%A0%20adh%C3%A9sion%20obligatoire.md) - Conditions générales (Édition janvier 2026) · réf. CG.SAN.COLL.ADH.OBLI - 10/25
 - [Contrat collectif à adhésion obligatoire CCN Bâtiment et travaux publics](../products/matmut/Contrat%20collectif%20%C3%A0%20adh%C3%A9sion%20obligatoire%20CCN%20B%C3%A2timent%20et%20travaux%20publics.md) - Conditions générales (Édition mai 2024) · réf. CG.SAN.COLL.ADH.OBLI.BTP 04/24
 - [Contrat « Matmut-Smac » - IPID](../products/matmut/Contrat%20%C2%AB%20Matmut-Smac%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (10/25) · réf. IPID.MATMUTSMAC –10/25
@@ -272,6 +273,7 @@ generated: true
 - [Santé ELSIE - IPID](../products/matmut/Sant%C3%A9%20ELSIE%20-%20IPID.md) - IPID / Fiche d'information (09/24) · réf. MOM.IPID.MOM.CDT.ELSIE_A4-09/24
 - [Santé vous bien ! - Fiche](../products/matmut/Sant%C3%A9%20vous%20bien%20%21%20-%20Fiche%20%282%29.md) - Fiche produit (2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)) · réf. 20260101_20261231_IND2022
 - [Santé vous bien ! - Fiche](../products/matmut/Sant%C3%A9%20vous%20bien%20%21%20-%20Fiche%20%284%29.md) - Fiche produit (2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)) · réf. 20260101_20261231_IND2022
+- [Santé vous bien ! - Fiche](../products/matmut/Sant%C3%A9%20vous%20bien%20%21%20-%20Fiche%20%286%29.md) - Fiche produit (08/25) · réf. FICHE.SAN.ITELIS - 08/25
 - [Santé vous bien ! - Fiche](../products/matmut/Sant%C3%A9%20vous%20bien%20%21%20-%20Fiche%20%283%29.md) - Fiche produit (2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)) · réf. 20260101_20261231_IND2022
 - [Santé vous bien ! - Fiche](../products/matmut/Sant%C3%A9%20vous%20bien%20%21%20-%20Fiche%20%285%29.md) - Fiche produit (2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)) · réf. 20260101_20261231_IND2022
 - [Santé vous bien ! - Fiche](../products/matmut/Sant%C3%A9%20vous%20bien%20%21%20-%20Fiche.md) - Fiche produit (2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)) · réf. 20260101_20261231_IND2022
@@ -280,6 +282,7 @@ generated: true
 - [Statuts d'Ociane et Règlement mutualiste « individuels » — Complémentaire maladie accidents](../products/matmut/Statuts%20d%27Ociane%20et%20R%C3%A8glement%20mutualiste%20%C2%AB%20individuels%20%C2%BB%20%E2%80%94%20Compl%C3%A9mentaire%20maladie%20accidents.md) - Conditions générales (12/24 (mentions de pied de page « STATUTS.MUT.OCIANE - 12/24 » et « RGMT. INDIV. OCIANE - 12/24 »). Statuts approuvés par l'assemblée générale du 19 octobre 2002, modifications approuvées jusqu'aux assemblées générales du 12 juin et du 5 décembre 2024. Règlement mutualiste « individuels » approuvé par l'assemblée générale du 19 juin 2020 et modifié par le conseil d'administration du 15 septembre 2020, du 11 mai 2021, du 17 septembre 2021, du 9 mai 2022, du 12 mai 2023 et du 21 mai 2024 sur délégation de l'assemblée générale.) · réf. STATUTS.MUT.OCIANE - 12/24 (statuts, p. 19) ; RGMT. INDIV. OCIANE - 12/24 (règlement mutualiste, p. 33)
 
 ### [Scolaire et extrascolaire](../branches/Scolaire%20et%20extrascolaire.md)
+- [Assurance de l'Étudiant et Matmut-Smac](../products/matmut/Assurance%20de%20l%27%C3%89tudiant%20et%20Matmut-Smac.md) - Conditions générales (10/25) · réf. CG ETUD – 10/25
 - [Assurance scolaire](../products/matmut/Assurance%20scolaire.md) - Conditions générales (2023-12) · réf. CG SCOL – 12/23
 - [Conditions de l'offre Assurance Scolaire - Tarifs](../products/matmut/Conditions%20de%20l%27offre%20Assurance%20Scolaire%20-%20Tarifs.md) - Conditions tarifaires (05/26) · réf. COND.OFFRE.SCOL – 05/26
 - [Contrat « Assurance de l'Étudiant et Matmut-Smac » - IPID](../products/matmut/Contrat%20%C2%AB%20Assurance%20de%20l%27%C3%89tudiant%20et%20Matmut-Smac%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (10/25) · réf. IPID.ADE – 10/25

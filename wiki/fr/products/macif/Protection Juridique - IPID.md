@@ -166,6 +166,7 @@ Prise en charge des honoraires de l'avocat de l'assuré, ainsi que des frais de 
 ## Documents liés
 
 - [Protection Juridique (PRO&ESS) - IPID](Protection%20Juridique%20%28PRO%26ESS%29%20-%20IPID.md) - IPID / Fiche d'information, éd. 2020-06
+- [Protection Juridique (PJ PRO&ESS) - IPID](Protection%20Juridique%20%28PJ%20PRO%26ESS%29%20-%20IPID.md) - IPID / Fiche d'information, éd. 06/20
 
 ## Source & fidélité
 

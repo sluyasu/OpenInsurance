@@ -245,6 +245,7 @@ La prescription est le délai au-delà duquel une action n'est plus recevable. L
 - [contrat GARANTIE OBSÈQUES - IPID](contrat%20GARANTIE%20OBS%C3%88QUES%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/26
 - [Garantie Obsèques - Doc](Garantie%20Obs%C3%A8ques%20-%20Doc.md) - Document
 - [Garantie Obsèques - IPID](Garantie%20Obs%C3%A8ques%20-%20IPID.md) - IPID / Fiche d'information, éd. 1er juillet 2026
+- [Garantie Obsèques](Garantie%20Obs%C3%A8ques.md) - Conditions générales, éd. 2026-07
 
 ## Source & fidélité
 

@@ -249,6 +249,10 @@ Les biens mobiliers détenus par l'association
 - COQUILLE DE L'ASSUREUR REPRODUITE : « des véhicules terrestres à moteur, caravanes, embarcations maritimes, appareils de navigation aérienne dont l'assuré à la propriété, la garde ou la conduite » — le document imprime « à la propriété » pour « a la propriété ». Non corrigée, conformément à la règle sur les coquilles de l'assureur.
 - Artefacts typographiques de la couche texte, contournés par le découpage des citations et jamais retapés : tabulations et caractères U+0007 en tête de puce, doubles espaces à l'intérieur des phrases (« dans la limite de 365 jours  avec », « Les activités pour  lesquelles », « organisations de battues,  ball-trap »), et sauts de ligne au milieu des phrases. Apostrophes courbes U+2019 dans tout le document. Les citations sont des tranches exactes de page.get_text("text"), découpées programmatiquement et vérifiées une à une.
 
+## Documents liés
+
+- [Contrat Multigarantie Activités Sociales Vie Associative - IPID](Contrat%20Multigarantie%20Activit%C3%A9s%20Sociales%20Vie%20Associative%20-%20IPID%20%282%29.md) - IPID / Fiche d'information, éd. 10/18
+
 ## Source & fidélité
 
 - Source : [https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_multigarantie_activite_sociale_vie_associative.pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_multigarantie_activite_sociale_vie_associative.pdf) - téléchargé le 2026-08-01 - 2 pages

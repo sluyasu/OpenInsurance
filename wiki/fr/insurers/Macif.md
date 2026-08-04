@@ -5,7 +5,7 @@ country: fr
 insurer_slug: macif
 name: Macif
 website: https://www.macif.fr
-products_count: 151
+products_count: 156
 branches_covered:
 - animaux
 - assurance-vie
@@ -43,7 +43,7 @@ generated: true
 
 ## Résumé
 
-**Macif** - [https://www.macif.fr](https://www.macif.fr). 151 document(s) across 21 branch(es).
+**Macif** - [https://www.macif.fr](https://www.macif.fr). 156 document(s) across 21 branch(es).
 
 ## Produits par branche
 
@@ -128,6 +128,7 @@ generated: true
 - [Contrat PREM'S - Assurance logement - Assurance personnelle - IPID](../products/macif/Contrat%20PREM%27S%20-%20Assurance%20logement%20-%20Assurance%20personnelle%20-%20IPID.md) - IPID / Fiche d'information (2018-10) · réf. HAB-PREMS 10/18
 - [Contrat Prem's - Assurance Logement - Assurance Personnelle](../products/macif/Contrat%20Prem%27s%20-%20Assurance%20Logement%20-%20Assurance%20Personnelle.md) - Conditions générales (Avril 2015) · réf. HAB/PREMS/05 - 04/15 - N093
 - [Contrat Sociétaire Non Occupant](../products/macif/Contrat%20Soci%C3%A9taire%20Non%20Occupant.md) - Conditions générales (avril 2015) · réf. HAB/SNO/05 - 04/15 - N086
+- [Contrat Sociétaire Non Occupant - Annexe spéciale Appartement ou maison particulière - Résidence secondaire](../products/macif/Contrat%20Soci%C3%A9taire%20Non%20Occupant%20-%20Annexe%20sp%C3%A9ciale%20Appartement%20ou%20maison%20particuli%C3%A8re%20-%20R%C3%A9sidence%20secondaire.md) - Conditions générales (03/11) · réf. HAB/SNORS/07 - 03/11 - N068
 - [Contrat Sociétaire Non Occupant - Annexe spéciale Bâtiments en cours de construction](../products/macif/Contrat%20Soci%C3%A9taire%20Non%20Occupant%20-%20Annexe%20sp%C3%A9ciale%20B%C3%A2timents%20en%20cours%20de%20construction.md) - Conditions générales · réf. HAB/SNOBCC/07-01/08-N065
 - [Contrat Sociétaire Non Occupant - Annexe spéciale Bâtiments inoccupés](../products/macif/Contrat%20Soci%C3%A9taire%20Non%20Occupant%20-%20Annexe%20sp%C3%A9ciale%20B%C3%A2timents%20inoccup%C3%A9s.md) - Conditions générales (03/11) · réf. HAB/SNOBI/07 - 03/11 - N070
 - [Contrat Sociétaire Non Occupant - Annexe spéciale Immeubles en copropriété](../products/macif/Contrat%20Soci%C3%A9taire%20Non%20Occupant%20-%20Annexe%20sp%C3%A9ciale%20Immeubles%20en%20copropri%C3%A9t%C3%A9.md) - Conditions générales (03/11) · réf. HAB/SNOIC/07 - 03/11 - N067
@@ -147,6 +148,7 @@ generated: true
 
 ### [Multirisque professionnelle](../branches/Multirisque%20professionnelle.md)
 - [Contrat Multigarantie Activité Professionnelle - IPID](../products/macif/Contrat%20Multigarantie%20Activit%C3%A9%20Professionnelle%20-%20IPID.md) - IPID / Fiche d'information (06/23) · réf. ACTP/MAP
+- [Contrat Multigarantie Activités Sociales Vie Associative - IPID](../products/macif/Contrat%20Multigarantie%20Activit%C3%A9s%20Sociales%20Vie%20Associative%20-%20IPID%20%282%29.md) - IPID / Fiche d'information (10/18) · réf. ACTS/MAS VA 10/18
 - [Contrat Multigarantie Activités Sociales Vie Associative - IPID](../products/macif/Contrat%20Multigarantie%20Activit%C3%A9s%20Sociales%20Vie%20Associative%20-%20IPID.md) - IPID / Fiche d'information (10/18) · réf. ACTS/MAS VA - 10/18
 - [Contrat Multigarantie Informatique - IPID](../products/macif/Contrat%20Multigarantie%20Informatique%20-%20IPID.md) - IPID / Fiche d'information (2018-10) · réf. ACTP/MI 10/18
 - [Multigarantie Activité Professionnelle](../products/macif/Multigarantie%20Activit%C3%A9%20Professionnelle%20%282%29.md) - Conditions générales (06/2023) · réf. ACTP/MAP/05 - 06/23 - N757
@@ -160,6 +162,7 @@ generated: true
 - [Garantie Obsèques - Doc](../products/macif/Garantie%20Obs%C3%A8ques%20-%20Doc.md) - Document
 - [Garantie Obsèques - IPID](../products/macif/Garantie%20Obs%C3%A8ques%20-%20IPID.md) - IPID / Fiche d'information (1er juillet 2026) · réf. DIC Garantie Obsèques - 07/26
 - [Garantie Obsèques - Fiche](../products/macif/Garantie%20Obs%C3%A8ques%20-%20Fiche.md) - Fiche produit (Garanties en vigueur au 1er juillet 2026) · réf. SYNTHÈSE GO DEMAT - 07/26
+- [Garantie Obsèques](../products/macif/Garantie%20Obs%C3%A8ques.md) - Conditions générales (2026-07) · réf. U 821 - UNI/PREI/GOBS/05 - 07/26
 - [contrat GARANTIE OBSÈQUES - IPID](../products/macif/contrat%20GARANTIE%20OBS%C3%88QUES%20-%20IPID.md) - IPID / Fiche d'information (01/26) · réf. DIPA GARANTIE OBSÈQUES - 01/26
 
 ### [Prévoyance](../branches/Pr%C3%A9voyance.md)
@@ -174,6 +177,7 @@ generated: true
 
 ### [Protection juridique](../branches/Protection%20juridique.md)
 - [Protection Juridique (PRO&ESS) - IPID](../products/macif/Protection%20Juridique%20%28PRO%26ESS%29%20-%20IPID.md) - IPID / Fiche d'information (2020-06) · réf. Protection Juridique - PJ PRO&ESS  06/20
+- [Protection Juridique (PJ PRO&ESS) - IPID](../products/macif/Protection%20Juridique%20%28PJ%20PRO%26ESS%29%20-%20IPID.md) - IPID / Fiche d'information (06/20) · réf. Protection Juridique - PJ PRO&ESS  - 06/20
 - [Protection Juridique - IPID](../products/macif/Protection%20Juridique%20-%20IPID.md) - IPID / Fiche d'information (10/18) · réf. PJ 10/18
 
 ### [Responsabilité civile vie privée](../branches/Responsabilit%C3%A9%20civile%20vie%20priv%C3%A9e.md)
@@ -239,6 +243,7 @@ generated: true
 - [Assistance médicale « Carte Visa Electron » - Déplacement privé (Notice d'Information valant Convention d'assistance n° ](../products/macif/Assistance%20m%C3%A9dicale%20%C2%AB%20Carte%20Visa%20Electron%20%C2%BB%20-%20D%C3%A9placement%20priv%C3%A9%20%28Notice%20d%27Information%20valant%20Convention%20d%27assistance%20n%C2%B0%20.md) - Conditions générales (Valable du 01/01/2017 au 31/12/2019) · réf. N° 922.093 (« Notice d'Information n° 922.093 », page de garde)
 - [CARTE VISA Premier](../products/macif/CARTE%20VISA%20Premier.md) - Conditions générales · réf. CONTRAT n° 5073788704
 - [Notice d'Information valant Convention d'assistance - Carte Visa Electron n°922093](../products/macif/Notice%20d%27Information%20valant%20Convention%20d%27assistance%20-%20Carte%20Visa%20Electron%20n%C2%B0922093.md) - Conditions générales (01/01/2021) · réf. N° 922093
+- [Notice d'Information valant Convention d'assistance - Carte Visa Premier 922.083](../products/macif/Notice%20d%27Information%20valant%20Convention%20d%27assistance%20-%20Carte%20Visa%20Premier%20922.083.md) - Conditions générales (01/01/2021) · réf. 922.083
 
 ## Source
 

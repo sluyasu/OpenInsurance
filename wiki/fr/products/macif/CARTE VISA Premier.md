@@ -456,6 +456,10 @@ Conformément aux dispositions prévues par l’article L.114-1 du Code des assu
 - Aucun texte blanc, aucun texte hors page, aucune police chiffrée, aucun caractère U+0007, aucun espace de largeur nulle, aucun tiret conditionnel, aucune ligature perdue : les 30 pages sont en Times New Roman et se lisent normalement.
 - Orthographe du document conservée, y compris ses coquilles : « Il est précisé que les personnes… » avec « l’Assuré à la propriété ou la garde » (page 18, « à » pour « a »), « Comment mettre en jeux les garanties » (page 20) contre « COMMENT METTRE EN JEU LES GARANTIES ? » (page 27), « Assureur Multirisques Habitation » (page 28) contre « Assureur Multirisque Habitation » (pages 15 et 29), « service relation clientele » sans accents (page 3).
 
+## Documents liés
+
+- [Notice d'Information valant Convention d'assistance - Carte Visa Premier 922.083](Notice%20d%27Information%20valant%20Convention%20d%27assistance%20-%20Carte%20Visa%20Premier%20922.083.md) - Conditions générales, éd. 01/01/2021
+
 ## Source & fidélité
 
 - Source : [https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/notice-assurance_CVisaPremier.pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/notice-assurance_CVisaPremier.pdf) - téléchargé le 2026-08-01 - 30 pages

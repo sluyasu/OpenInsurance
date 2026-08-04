@@ -1,0 +1,912 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "macif",
+  "insurer_name": "Macif",
+  "product_name": "Garantie Obsèques",
+  "branch": "obseques",
+  "branch_code": null,
+  "document_type": "conditions_generales",
+  "language": "fr",
+  "target_audience": "particuliers",
+  "target_audience_note": "« L’offre GARANTIE OBSÈQUES prend la forme d’un contrat d’assurance collectif à adhésion facultative souscrit par la Macif au profit de ses sociétaires, de leur conjoint, descendants ou ascendant » (page 2). Conditions d’assurance (page 5) : « être sociétaire de la Macif, conjoint, ascendant ou descendant d’un sociétaire ; être âgé de 18 à 80 ans inclus au moment de la souscription ; résider en France métropolitaine, en Martinique, en Guadeloupe, en Guyane, à La Réunion, ou séjourner à l’étranger pour une durée continue n’excédant pas 12 mois ». Le lexique définit le sociétaire et le souscripteur comme des personnes physiques (page 19).",
+  "reference": "U 821 - UNI/PREI/GOBS/05 - 07/26",
+  "edition_date": "2026-07",
+  "product_family": "Garantie Obsèques",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/NID_garantie_obseques.pdf",
+  "source_pdf": "garantie-obseques-7e655388.pdf",
+  "source_sha256": "0b92fcdea7154422e7a668bc759df008cdc564652f185eee08164ad51033f8ce",
+  "source_pages": 20,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Note d’information détaillée du contrat GARANTIE OBSÈQUES de la Macif, contrat d’assurance collectif à adhésion facultative souscrit par la Macif au profit de ses sociétaires, de leur conjoint, descendants ou ascendant, et assuré par Macif Santé Prévoyance (mutuelle relevant du Livre II du Code de la mutualité). Le contrat est un contrat de prévoyance viager qui garantit, au décès de l’assuré, le versement d’un capital de 2 000 € ou 3 000 € affecté au financement des obsèques à concurrence de leur coût, éventuellement complété par des capitaux complémentaires par tranche de 500 € jusqu’à 13 000 €. Il ouvre également droit à des garanties d’assistance assurées par IMA Assurances (annexe A) : rapatriement du corps, aide à l’organisation des obsèques, aide à domicile, garde des enfants et des ascendants, transfert des animaux, nettoyage du logement, démarches administratives, accompagnement social et assistance psychologique. Le contrat comporte une faculté de rachat, un mécanisme de participation aux bénéfices et un délai d’attente d’un an en cas de décès consécutif à une maladie. Les garanties sont en vigueur au 1er juillet 2026.",
+  "definitions": [
+    {
+      "term": "ACCIDENT",
+      "definition": "Atteinte corporelle non intentionnelle de la part de l’assuré, conséquence directe et certaine de l’action soudaine et imprévisible d’une cause extérieure.",
+      "page": 19
+    },
+    {
+      "term": "ASSURÉ",
+      "definition": "Personne physique, nommément désignée dans la demande d’assurance, sur qui reposent les garanties. L’assuré peut être le sociétaire ou le conjoint, l’ascendant ou le descendant du sociétaire.",
+      "page": 19
+    },
+    {
+      "term": "BÉNÉFICIAIRE",
+      "definition": "Personne physique ou morale désignée pour percevoir les prestations prévues au contrat.",
+      "page": 19
+    },
+    {
+      "term": "CONJOINT",
+      "definition": "Personne unie au souscripteur par les liens du mariage, selon les termes du Code civil. Sont assimilés au conjoint : le concubin ou le partenaire lié par un pacte civil de solidarité (PACS), selon les dispositions du Code civil. Le conjoint, ou la personne assimilée, doit en outre vivre en couple avec le souscripteur, sous le même toit, de façon constante c’est-à-dire sans être séparé de corps ou de fait.",
+      "page": 19
+    },
+    {
+      "term": "DÉLAI D’ATTENTE",
+      "definition": "Période suivant la prise d’effet du contrat ou l’augmentation des garanties pendant laquelle le décès consécutif à une maladie ou à un suicide ne donnera définitivement lieu à aucune prestation.",
+      "page": 19
+    },
+    {
+      "term": "DOMICILE",
+      "definition": "Lieu de résidence principal de l’assuré.",
+      "page": 19
+    },
+    {
+      "term": "ÉCHÉANCE PRINCIPALE",
+      "definition": "Date à laquelle la cotisation est exigée par l’Assureur. Le paiement de cette cotisation annuelle peut se faire, au choix du souscripteur, de façon mensuelle, semestrielle ou annuelle. Chaque échéance détermine le point de départ d’une période d’assurance. L’échéance est fixée au 31 mars.",
+      "page": 19
+    },
+    {
+      "term": "MALADIE",
+      "definition": "Toute altération de l’état de santé constatée par un médecin et n’ayant pas d’origine accidentelle. Est considéré comme une maladie, le décès qualifié de mort naturelle.",
+      "page": 19
+    },
+    {
+      "term": "PROVISION MATHÉMATIQUE",
+      "definition": "Partie des cotisations mise en réserve par l’Assureur pour faire face à la mise en œuvre future des garanties du contrat.",
+      "page": 19
+    },
+    {
+      "term": "SOCIÉTAIRE",
+      "definition": "Personne physique qui répond aux conditions d’admission fixées à l’article 6 des statuts de la Macif, lesquels définissent l’objet et le fonctionnement de cette dernière. Par extension, est assimilé dans la présente note à un sociétaire, la personne physique qui répond aux conditions d’admission fixées au chapitre II des statuts de Macif Santé Prévoyance, lesquels définissent l’objet et le fonctionnement de la mutuelle. Le sociétaire est le souscripteur au contrat.",
+      "page": 19
+    },
+    {
+      "term": "SOUSCRIPTEUR",
+      "definition": "Personne physique dont l’adhésion au contrat collectif a été acceptée et qui est, à ce titre tenue au paiement des cotisations.",
+      "page": 19
+    },
+    {
+      "term": "VALEUR DE RACHAT",
+      "definition": "Montant versé au souscripteur en cas de cessation anticipée du contrat. Ce montant, qui correspond à la provision mathématique, est communiqué annuellement.",
+      "page": 19
+    },
+    {
+      "term": "VALEUR DE RÉDUCTION",
+      "definition": "Montant du nouveau capital garanti en cas de cessation de paiement des cotisations. Ce montant est communiqué annuellement.",
+      "page": 19
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Garantie Obsèques « Capital » (formule en capital)",
+      "description": "La formule « Capital » permet de prévoir, au choix, le versement d’un capital de 2 000 € ou 3 000 € affecté au financement des obsèques à concurrence de leur coût. Au moment du décès de l’assuré, le capital est versé aux bénéficiaires désignés ; conformément à l’article L.2223-33-1 du Code général des collectivités territoriales, les sommes versées sont affectées au financement des obsèques, à concurrence de leur coût et dans la limite du capital garanti. Le montant des capitaux garantis est communiqué chaque année, lors de l’échéance principale.",
+      "is_optional": false,
+      "territorial_scope": "Le capital est réglé aux bénéficiaires désignés au certificat individuel de garantie quel que soit le pays dans lequel les obsèques sont réalisées (page 7).",
+      "limits": "un capital de 2 000 € ou 3 000 €",
+      "sub_limits": [
+        "Sommes affectées au financement des obsèques « à concurrence de leur coût et dans la limite du capital garanti » (page 5)",
+        "« Le montant total des garanties souscrites pour un assuré ne peut excéder le plafond indiqué sur la demande d’assurance y compris en cas de souscription de plusieurs contrats GARANTIE OBSÈQUES souscrits auprès de Macif Santé Prévoyance par une même personne » — plafond non chiffré dans le document (page 5)"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Être sociétaire de la Macif, conjoint, ascendant ou descendant d’un sociétaire",
+        "Être âgé de 18 à 80 ans inclus au moment de la souscription",
+        "Résider en France métropolitaine, en Martinique, en Guadeloupe, en Guyane, à La Réunion, ou séjourner à l’étranger pour une durée continue n’excédant pas 12 mois",
+        "Aucune formalité médicale n’est demandée",
+        "Prise d’effet subordonnée à l’encaissement effectif de la première cotisation",
+        "Délai d’attente d’un an lorsque le décès est consécutif à une maladie (ne s’applique pas en cas de décès accidentel)",
+        "Capital versé dans un délai maximal de 30 jours à compter de la réception des documents demandés"
+      ],
+      "page": 6
+    },
+    {
+      "name": "Capitaux complémentaires",
+      "description": "En complément de la formule « Capital » à 3000 €, des capitaux complémentaires peuvent être souscrits par tranche de 500 € (jusqu’à 13 000 €). Ces capitaux sont affectés au financement des obsèques, à concurrence de leur coût.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "par tranche de 500 € (jusqu’à 13 000 €)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Souscriptibles uniquement en complément de la formule « Capital » à 3000 €",
+        "Frais à l’entrée et sur versements de 4,89 % au maximum pour les capitaux complémentaires (page 2)"
+      ],
+      "page": 6
+    },
+    {
+      "name": "Service d’informations téléphonique et conseil d’un travailleur social (Macif Assistance)",
+      "description": "Dès la souscription, l’assuré et ses proches ont accès, à tout moment, à un service d’informations téléphonique, relatives au décès et à l’organisation des obsèques. L’assuré peut également être conseillé par un travailleur social sur les aides existantes et sur les démarches à réaliser, en fonction de sa situation et de ses besoins.",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine, Martinique, Guadeloupe, Guyane, La Réunion (page 16)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Accessible dès la souscription"
+      ],
+      "page": 15
+    },
+    {
+      "name": "Rapatriement - déplacement (Macif Assistance)",
+      "description": "En cas de décès survenu lors d’un déplacement à plus de 50 km du domicile : rapatriement du corps depuis le lieu du décès jusqu’au lieu du domicile pour l’inhumation, la crémation ou l’exposition du corps (le domicile doit être situé en France métropolitaine, en Martinique, en Guadeloupe, en Guyane, ou à La Réunion) ; déplacement A/R d’un membre de la famille sur le lieu du décès en cas de nécessité ; retour des accompagnateurs s’ils ne peuvent pas revenir par les moyens initialement prévus.",
+      "is_optional": false,
+      "territorial_scope": "Garantie accordée lors des déplacements dans le monde entier d’une durée maximale continue inférieure à 3 mois (page 16)",
+      "limits": null,
+      "sub_limits": [
+        "Décès survenu lors d’un déplacement à plus de 50 km du domicile"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Un délai d’attente d’un an s’applique en cas de décès consécutif à une maladie ou un suicide sur la garantie « Rapatriement - déplacement »"
+      ],
+      "page": 15
+    },
+    {
+      "name": "Aide à l’organisation des obsèques et accompagnement dans les déplacements (Macif Assistance)",
+      "description": "Aide aux déplacements pour effectuer les démarches et formalités à la suite du décès, pour se rendre au salon funéraire et aux obsèques.",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine, Martinique, Guadeloupe, Guyane, La Réunion (page 16)",
+      "limits": "Dans la limite de quatre trajets et de 250 € sur une période maximale d’un mois à compter de la mise en œuvre de la prestation",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 15
+    },
+    {
+      "name": "Intervention d’une aide à domicile (Macif Assistance)",
+      "description": "Organisation et prise en charge de l’intervention d’une aide à domicile.",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine, Martinique, Guadeloupe, Guyane, La Réunion (page 16)",
+      "limits": "Minimum de 2 heures par intervention dans la limite de 30 heures, réparties sur une période maximale d’un mois à compter de la mise en œuvre de la prestation",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 15
+    },
+    {
+      "name": "Prise en charge des enfants ou petits-enfants (vivants au domicile et âgés de moins de 16 ans) ou des enfants handicapés (sans limite d’âge) (Macif Assistance)",
+      "description": "Organisation et prise en charge d’une des prestations suivantes : déplacement A/R d’un proche en France métropolitaine, Martinique, Guadeloupe, Guyane, La Réunion ; OU déplacement A/R des enfants ou petits-enfants et de l’adulte qui les accompagne au domicile d’un proche en France métropolitaine, Martinique, Guadeloupe, Guyane et à La Réunion. En cas d’absence d’accompagnateur, l’accompagnement est assuré par un prestataire conventionné. Si aucune de ces solutions ne convient, organisation et prise en charge de la garde des enfants ou petits-enfants chez un intervenant spécialisé ou au domicile. Lorsqu’aucun proche ne peut se rendre disponible, organisation et prise en charge de la conduite A/R à l’école par un prestataire une fois par jour.",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine, Martinique, Guadeloupe, Guyane, La Réunion (page 16)",
+      "limits": null,
+      "sub_limits": [
+        "Garde des enfants : dans la limite de 30 heures réparties sur une période maximale d’un mois à compter de la mise en œuvre de la prestation",
+        "Conduite A/R à l’école : une fois par jour dans la limite de 5 jours répartis sur une période maximale d’un mois à compter de la mise en œuvre de la prestation"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Enfants ou petits-enfants vivant au domicile et âgés de moins de 16 ans, ou enfants handicapés sans limite d’âge"
+      ],
+      "page": 15
+    },
+    {
+      "name": "Prise en charge des ascendants vivants au domicile de l’assuré (Macif Assistance)",
+      "description": "Organisation et prise en charge du déplacement A/R d’un proche OU du transfert chez un proche en France métropolitaine, Martinique, Guadeloupe, Guyane et à La Réunion. Si cette solution ne convient pas, organisation et prise en charge de la garde à domicile (hors dimanche et jours fériés).",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine, Martinique, Guadeloupe, Guyane, La Réunion (page 16)",
+      "limits": "Garde à domicile : dans la limite de 30 heures réparties sur une période maximale d’un mois à compter de la mise en œuvre de la prestation",
+      "sub_limits": [
+        "Garde à domicile hors dimanche et jours fériés"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Ascendants vivant au domicile de l’assuré"
+      ],
+      "page": 15
+    },
+    {
+      "name": "Transfert et garde des chats et / ou chiens (Macif Assistance)",
+      "description": "Organisation et prise en charge du transport et / ou hébergement des chats et / ou chiens vivant au domicile de l’assuré.",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine, Martinique, Guadeloupe, Guyane, La Réunion (page 16)",
+      "limits": "Sur une période maximale d’un mois à compter de la mise en œuvre de la prestation",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Animaux vivant au domicile de l’assuré"
+      ],
+      "page": 15
+    },
+    {
+      "name": "Nettoyage du logement et aide au déménagement (Macif Assistance, après les obsèques)",
+      "description": "Organisation et prise en charge du nettoyage du logement laissé vacant à la suite du décès. Mise en relation avec une entreprise de déménagement ou une société de garde-meuble dans les 12 mois suivant le décès. Le prix du déménagement reste à la charge des proches.",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine, Martinique, Guadeloupe, Guyane, La Réunion (page 16)",
+      "limits": "Nettoyage : dans la limite de 4 heures dans les 12 mois suivant le décès",
+      "sub_limits": [
+        "Le prix du déménagement reste à la charge des proches"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Prestation à demander dans un délai de 12 mois (page 16)"
+      ],
+      "page": 15
+    },
+    {
+      "name": "Aide aux démarches administratives (Macif Assistance, après les obsèques)",
+      "description": "Mise à disposition d’un intervenant à domicile pour aider aux démarches administratives.",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine, Martinique, Guadeloupe, Guyane, La Réunion (page 16)",
+      "limits": "Dans la limite de 4 heures (à raison de 2 heures minimum par intervention)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Cette prestation doit être demandée dans les 12 mois suivant le décès"
+      ],
+      "page": 15
+    },
+    {
+      "name": "Accompagnement social (Macif Assistance)",
+      "description": "Organisation et prise en charge de 1 à 3 entretiens téléphoniques sur un trimestre avec un travailleur social pour une écoute psycho-sociale prenant en compte les étapes du deuil et une aide à la réorganisation du quotidien. L’accompagnement social peut être exécuté au profit d’un ou plusieurs proches (conjoint, ascendant ou descendants de l’assuré).",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine, Martinique, Guadeloupe, Guyane, La Réunion (page 16)",
+      "limits": "de 1 à 3 entretiens téléphoniques sur un trimestre",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Au profit d’un ou plusieurs proches : conjoint, ascendant ou descendants de l’assuré"
+      ],
+      "page": 16
+    },
+    {
+      "name": "Assistance psychologique (Macif Assistance)",
+      "description": "Organisation et prise en charge, selon la situation : de 1 à 5 entretiens téléphoniques avec un psychologue clinicien ; et si nécessaire, de 1 à 3 entretiens en face à face avec un psychologue clinicien. L’assistance psychologique peut être exécutée au profit d’un ou plusieurs proches (conjoint, ascendant ou descendants de l’assuré).",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine, Martinique, Guadeloupe, Guyane, La Réunion (page 16)",
+      "limits": "de 1 à 5 entretiens téléphoniques ; et si nécessaire, de 1 à 3 entretiens en face à face",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Cette prestation doit être demandée dans les 12 mois suivant le décès"
+      ],
+      "page": 16
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Décès résultant d’un meurtre commis par un bénéficiaire",
+      "description": "Est exclu le décès de l’assuré lorsqu’il résulte d’un meurtre commis par un bénéficiaire, pour la part qui lui revient. Dans ce cas, la provision mathématique est versée au souscripteur ou à ses ayants droit à moins qu’ils ne soient condamnés en tant que coauteurs ou complices du meurtre.",
+      "applies_to": "Garantie Obsèques « Capital » (formule en capital)",
+      "page": 7
+    },
+    {
+      "name": "Décès résultant d’une explosion, d’un dégagement de chaleur ou d’une irradiation (risque nucléaire)",
+      "description": "Est exclu le décès de l’assuré lorsqu’il est la conséquence directe ou indirecte d’une explosion, d’un dégagement de chaleur ou de l’irradiation provenant de la transmutation de noyaux d’atomes ou de la radioactivité.",
+      "applies_to": "Garantie Obsèques « Capital » (formule en capital)",
+      "page": 7
+    },
+    {
+      "name": "Décès résultant de la guerre civile ou étrangère ou de conflits à caractère militaire",
+      "description": "Est exclu le décès de l’assuré lorsqu’il résulte de la guerre civile ou étrangère ou de conflits à caractère militaire. Dans ce cas, l’Assureur verse au souscripteur une somme égale à la provision mathématique ; si l’assuré est le souscripteur, cette somme est versée aux bénéficiaires désignés.",
+      "applies_to": "Garantie Obsèques « Capital » (formule en capital)",
+      "page": 7
+    },
+    {
+      "name": "Décès résultant de la participation à un délit intentionnel ou à un crime",
+      "description": "Est exclu le décès de l’assuré lorsqu’il résulte de sa participation à un délit intentionnel ou à un crime.",
+      "applies_to": "Garantie Obsèques « Capital » (formule en capital)",
+      "page": 7
+    },
+    {
+      "name": "Décès résultant d’un suicide dans les 12 mois qui suivent la prise d’effet du contrat",
+      "description": "Est exclu le décès de l’assuré lorsqu’il résulte d’un suicide dans les 12 mois qui suivent la prise d’effet du contrat. Dans ce cas, l’Assureur verse au souscripteur une somme égale à la provision mathématique ; si l’assuré est le souscripteur, cette somme est versée aux bénéficiaires désignés. Cette exclusion s’applique également en cas d’augmentation des garanties (pour le différentiel de garantie).",
+      "applies_to": "Garantie Obsèques « Capital » (formule en capital)",
+      "page": 7
+    },
+    {
+      "name": "Décès par maladie pendant le délai d’attente d’un an",
+      "description": "Un délai d’attente d’un an est appliqué lorsque le décès de l’assuré est consécutif à une maladie. Ce délai s’applique lors de la souscription et en cas d’augmentation des garanties (pour le différentiel de garantie) ; il ne s’applique pas en cas de décès consécutif à un accident. En cas de décès de l’assuré par maladie pendant le délai d’attente, les garanties du contrat prennent fin et l’Assureur rembourse au souscripteur les cotisations versées (diminuées des éventuels frais de fractionnement) ; si l’assuré est le souscripteur, les cotisations sont remboursées aux bénéficiaires désignés pour le solde éventuel.",
+      "applies_to": "Garantie Obsèques « Capital » (formule en capital)",
+      "page": 7
+    },
+    {
+      "name": "Réticence ou fausse déclaration intentionnelle à la souscription",
+      "description": "En cas de réticence ou de fausse déclaration intentionnelle et conformément à l’article L.223-18 du Code de la mutualité, l’Assureur verse au souscripteur une somme égale à la provision mathématique. Si l’assuré est le souscripteur, cette somme est versée, à son décès, aux bénéficiaires désignés.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Déchéance des garanties en cas de fraude",
+      "description": "Toute déclaration intentionnellement fausse lors du sinistre de même que la production de documents inexacts ou mensongers quant à l’état civil de l’assuré, la date, les circonstances et les origines de son décès font perdre tout droit à prestations pour la ou les garanties concernées et peuvent entraîner la résiliation du contrat. L’Assureur est en droit de réclamer le remboursement des prestations versées à tort.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Décès consécutif à une maladie ou un suicide pendant le délai d’attente d’un an (Rapatriement - déplacement)",
+      "description": "Un délai d’attente d’un an s’applique en cas de décès consécutif à une maladie ou un suicide sur la garantie « Rapatriement - déplacement ».",
+      "applies_to": "Rapatriement - déplacement (Macif Assistance)",
+      "page": 15
+    },
+    {
+      "name": "Prix du déménagement",
+      "description": "Le prix du déménagement reste à la charge des proches ; la garantie se limite à la mise en relation avec une entreprise de déménagement ou une société de garde-meuble dans les 12 mois suivant le décès.",
+      "applies_to": "Nettoyage du logement et aide au déménagement (Macif Assistance, après les obsèques)",
+      "page": 15
+    },
+    {
+      "name": "Prestations non mises en œuvre par IMA Assurances ou sans son accord préalable",
+      "description": "Les garanties d’assistance sont mises en œuvre par IMA Assurances ou en accord préalable avec elle.",
+      "applies_to": "Garanties Macif Assistance (annexe A)",
+      "page": 16
+    },
+    {
+      "name": "Substitution aux services publics, aux organismes sociaux et aux employeurs",
+      "description": "Les garanties d’assistance ne doivent pas se substituer aux interventions des services publics, ni aux prestations dues par les organismes sociaux et les employeurs.",
+      "applies_to": "Garanties Macif Assistance (annexe A)",
+      "page": 16
+    },
+    {
+      "name": "Dépenses engagées par le bénéficiaire de sa propre initiative",
+      "description": "IMA Assurances ne participera pas après coup aux dépenses que le bénéficiaire des garanties aurait engagées de sa propre initiative.",
+      "applies_to": "Garanties Macif Assistance (annexe A)",
+      "page": 16
+    },
+    {
+      "name": "Assistance — Cas de force majeure",
+      "description": "IMA Assurances ne sera pas tenue responsable des manquements ou contretemps à l’exécution de ses obligations qui résulteraient de cas de force majeure ou des événements suivants : pandémie, guerre civile ou étrangère, révolution, mouvement populaire, émeute, grève, saisie ou contrainte par la force publique, interdiction officielle, piraterie, explosion d’engins, effets nucléaires ou radioactifs, empêchements climatiques. Événement visé ici : cas de force majeure.",
+      "applies_to": "Garanties Macif Assistance (annexe A)",
+      "page": 16
+    },
+    {
+      "name": "Assistance — Pandémie",
+      "description": "IMA Assurances ne sera pas tenue responsable des manquements ou contretemps à l’exécution de ses obligations qui résulteraient de cas de force majeure ou des événements suivants : pandémie, guerre civile ou étrangère, révolution, mouvement populaire, émeute, grève, saisie ou contrainte par la force publique, interdiction officielle, piraterie, explosion d’engins, effets nucléaires ou radioactifs, empêchements climatiques. Événement visé ici : pandémie.",
+      "applies_to": "Garanties Macif Assistance (annexe A)",
+      "page": 16
+    },
+    {
+      "name": "Assistance — Guerre civile ou étrangère",
+      "description": "IMA Assurances ne sera pas tenue responsable des manquements ou contretemps à l’exécution de ses obligations qui résulteraient de cas de force majeure ou des événements suivants : pandémie, guerre civile ou étrangère, révolution, mouvement populaire, émeute, grève, saisie ou contrainte par la force publique, interdiction officielle, piraterie, explosion d’engins, effets nucléaires ou radioactifs, empêchements climatiques. Événement visé ici : guerre civile ou étrangère.",
+      "applies_to": "Garanties Macif Assistance (annexe A)",
+      "page": 16
+    },
+    {
+      "name": "Assistance — Révolution",
+      "description": "IMA Assurances ne sera pas tenue responsable des manquements ou contretemps à l’exécution de ses obligations qui résulteraient de cas de force majeure ou des événements suivants : pandémie, guerre civile ou étrangère, révolution, mouvement populaire, émeute, grève, saisie ou contrainte par la force publique, interdiction officielle, piraterie, explosion d’engins, effets nucléaires ou radioactifs, empêchements climatiques. Événement visé ici : révolution.",
+      "applies_to": "Garanties Macif Assistance (annexe A)",
+      "page": 16
+    },
+    {
+      "name": "Assistance — Mouvement populaire",
+      "description": "IMA Assurances ne sera pas tenue responsable des manquements ou contretemps à l’exécution de ses obligations qui résulteraient de cas de force majeure ou des événements suivants : pandémie, guerre civile ou étrangère, révolution, mouvement populaire, émeute, grève, saisie ou contrainte par la force publique, interdiction officielle, piraterie, explosion d’engins, effets nucléaires ou radioactifs, empêchements climatiques. Événement visé ici : mouvement populaire.",
+      "applies_to": "Garanties Macif Assistance (annexe A)",
+      "page": 16
+    },
+    {
+      "name": "Assistance — Émeute",
+      "description": "IMA Assurances ne sera pas tenue responsable des manquements ou contretemps à l’exécution de ses obligations qui résulteraient de cas de force majeure ou des événements suivants : pandémie, guerre civile ou étrangère, révolution, mouvement populaire, émeute, grève, saisie ou contrainte par la force publique, interdiction officielle, piraterie, explosion d’engins, effets nucléaires ou radioactifs, empêchements climatiques. Événement visé ici : émeute.",
+      "applies_to": "Garanties Macif Assistance (annexe A)",
+      "page": 16
+    },
+    {
+      "name": "Assistance — Grève",
+      "description": "IMA Assurances ne sera pas tenue responsable des manquements ou contretemps à l’exécution de ses obligations qui résulteraient de cas de force majeure ou des événements suivants : pandémie, guerre civile ou étrangère, révolution, mouvement populaire, émeute, grève, saisie ou contrainte par la force publique, interdiction officielle, piraterie, explosion d’engins, effets nucléaires ou radioactifs, empêchements climatiques. Événement visé ici : grève.",
+      "applies_to": "Garanties Macif Assistance (annexe A)",
+      "page": 16
+    },
+    {
+      "name": "Assistance — Saisie ou contrainte par la force publique",
+      "description": "IMA Assurances ne sera pas tenue responsable des manquements ou contretemps à l’exécution de ses obligations qui résulteraient de cas de force majeure ou des événements suivants : pandémie, guerre civile ou étrangère, révolution, mouvement populaire, émeute, grève, saisie ou contrainte par la force publique, interdiction officielle, piraterie, explosion d’engins, effets nucléaires ou radioactifs, empêchements climatiques. Événement visé ici : saisie ou contrainte par la force publique.",
+      "applies_to": "Garanties Macif Assistance (annexe A)",
+      "page": 16
+    },
+    {
+      "name": "Assistance — Interdiction officielle",
+      "description": "IMA Assurances ne sera pas tenue responsable des manquements ou contretemps à l’exécution de ses obligations qui résulteraient de cas de force majeure ou des événements suivants : pandémie, guerre civile ou étrangère, révolution, mouvement populaire, émeute, grève, saisie ou contrainte par la force publique, interdiction officielle, piraterie, explosion d’engins, effets nucléaires ou radioactifs, empêchements climatiques. Événement visé ici : interdiction officielle.",
+      "applies_to": "Garanties Macif Assistance (annexe A)",
+      "page": 16
+    },
+    {
+      "name": "Assistance — Piraterie",
+      "description": "IMA Assurances ne sera pas tenue responsable des manquements ou contretemps à l’exécution de ses obligations qui résulteraient de cas de force majeure ou des événements suivants : pandémie, guerre civile ou étrangère, révolution, mouvement populaire, émeute, grève, saisie ou contrainte par la force publique, interdiction officielle, piraterie, explosion d’engins, effets nucléaires ou radioactifs, empêchements climatiques. Événement visé ici : piraterie.",
+      "applies_to": "Garanties Macif Assistance (annexe A)",
+      "page": 16
+    },
+    {
+      "name": "Assistance — Explosion d’engins",
+      "description": "IMA Assurances ne sera pas tenue responsable des manquements ou contretemps à l’exécution de ses obligations qui résulteraient de cas de force majeure ou des événements suivants : pandémie, guerre civile ou étrangère, révolution, mouvement populaire, émeute, grève, saisie ou contrainte par la force publique, interdiction officielle, piraterie, explosion d’engins, effets nucléaires ou radioactifs, empêchements climatiques. Événement visé ici : explosion d’engins.",
+      "applies_to": "Garanties Macif Assistance (annexe A)",
+      "page": 16
+    },
+    {
+      "name": "Assistance — Effets nucléaires ou radioactifs",
+      "description": "IMA Assurances ne sera pas tenue responsable des manquements ou contretemps à l’exécution de ses obligations qui résulteraient de cas de force majeure ou des événements suivants : pandémie, guerre civile ou étrangère, révolution, mouvement populaire, émeute, grève, saisie ou contrainte par la force publique, interdiction officielle, piraterie, explosion d’engins, effets nucléaires ou radioactifs, empêchements climatiques. Événement visé ici : effets nucléaires ou radioactifs.",
+      "applies_to": "Garanties Macif Assistance (annexe A)",
+      "page": 16
+    },
+    {
+      "name": "Assistance — Empêchements climatiques",
+      "description": "IMA Assurances ne sera pas tenue responsable des manquements ou contretemps à l’exécution de ses obligations qui résulteraient de cas de force majeure ou des événements suivants : pandémie, guerre civile ou étrangère, révolution, mouvement populaire, émeute, grève, saisie ou contrainte par la force publique, interdiction officielle, piraterie, explosion d’engins, effets nucléaires ou radioactifs, empêchements climatiques. Événement visé ici : empêchements climatiques.",
+      "applies_to": "Garanties Macif Assistance (annexe A)",
+      "page": 16
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": null,
+    "per_coverage": null,
+    "page": null
+  },
+  "waiting_periods": [
+    {
+      "coverage": "Garantie Obsèques « Capital » (formule en capital) et capitaux complémentaires",
+      "duration": "un an",
+      "description": "Un délai d’attente d’un an est appliqué lorsque le décès de l’assuré est consécutif à une maladie. Ce délai s’applique lors de la souscription et en cas d’augmentation des garanties (pour le différentiel de garantie). Il ne s’applique pas en cas de décès consécutif à un accident. En cas de décès par maladie pendant le délai d’attente, les garanties prennent fin et les cotisations versées sont remboursées au souscripteur (diminuées des éventuels frais de fractionnement) ; si l’assuré est le souscripteur, elles sont remboursées aux bénéficiaires désignés pour le solde éventuel.",
+      "page": 7
+    },
+    {
+      "coverage": "Rapatriement - déplacement (Macif Assistance)",
+      "duration": "un an",
+      "description": "Un délai d’attente d’un an s’applique en cas de décès consécutif à une maladie ou un suicide sur la garantie « Rapatriement - déplacement ».",
+      "page": 15
+    },
+    {
+      "coverage": "Acceptation du bénéfice du contrat par le bénéficiaire",
+      "duration": "30 jours",
+      "description": "L’acceptation par le bénéficiaire ne peut avoir lieu dans les 30 jours suivant la réception du certificat individuel de garantie.",
+      "page": 7
+    }
+  ],
+  "obligations": [
+    {
+      "name": "Formalités d’adhésion",
+      "description": "Pour adhérer au contrat, le souscripteur et l’assuré doivent : compléter et signer la demande d’assurance en indiquant le montant de capital choisi, la périodicité de paiement des cotisations, ainsi que les bénéficiaires en cas de décès ; fournir une copie d’une pièce d’identité en cours de validité ; remplir un mandat de prélèvement SEPA et fournir un relevé d’identité bancaire en cas de paiement par prélèvement. Aucune formalité médicale n’est demandée.",
+      "timing": "À la souscription",
+      "sanction": null,
+      "page": 5
+    },
+    {
+      "name": "Déclaration exacte à la souscription",
+      "description": "Le souscripteur doit déclarer exactement les éléments demandés dans la demande d’assurance.",
+      "timing": "À la souscription",
+      "sanction": "En cas de réticence ou de fausse déclaration intentionnelle, conformément à l’article L.223-18 du Code de la mutualité, l’Assureur verse au souscripteur une somme égale à la provision mathématique (page 8).",
+      "page": 8
+    },
+    {
+      "name": "Information en cas de changement de nom, d’adresse ou de coordonnées bancaires",
+      "description": "En cas de changement de nom, d’adresse ou de coordonnées bancaires, il est nécessaire d’en informer la mutuelle afin de faciliter les échanges, de permettre le conseil le plus adapté et de prévenir l’existence de contrats non réclamés.",
+      "timing": "En cours de contrat",
+      "sanction": null,
+      "page": 5
+    },
+    {
+      "name": "Justificatifs complémentaires en cas de décès dans un pays dit « à risques »",
+      "description": "Au titre des obligations de contrôle et de vigilance découlant de la lutte contre le blanchiment de capitaux, le financement du terrorisme et la fraude, l’assureur se réserve le droit de demander au bénéficiaire tout justificatif complémentaire en vue du versement des capitaux lorsque le décès de l’assuré est intervenu dans un pays dit « à risques ». La liste à jour des pays à risques peut être communiquée au bénéficiaire sur simple demande.",
+      "timing": "Au règlement du sinistre",
+      "sanction": null,
+      "page": 5
+    },
+    {
+      "name": "Mentions obligatoires de la clause bénéficiaire",
+      "description": "Une désignation nominative de bénéficiaires doit préciser l’identité (nom, prénom, date de naissance) et les coordonnées, et doit impérativement être suivie de la mention « à défaut à mes héritiers ». Dans le cadre d’un contrat destiné à financer les obsèques à l’avance, la désignation doit impérativement être suivie de la mention : « à charge pour ce ou ces bénéficiaires de financer les obsèques de l’assuré à concurrence de leur coût et dans la limite du capital garanti ».",
+      "timing": "À la désignation des bénéficiaires",
+      "sanction": null,
+      "page": 6
+    },
+    {
+      "name": "Paiement des cotisations",
+      "description": "Les cotisations sont dues par le souscripteur. Elles sont payables annuellement et d’avance, par mandat de prélèvement SEPA ou par chèque (uniquement pour le paiement annuel).",
+      "timing": "À chaque échéance",
+      "sanction": "À défaut de paiement dans un délai de 10 jours suivant l’échéance, lettre recommandée de mise en demeure ; au terme d’un délai de 40 jours à compter de l’envoi de cette lettre : soit la fin de l’adhésion en cas d’inexistence ou d’insuffisance de la valeur de rachat (contrat résilié, cotisations versées acquises à l’Assureur), soit la réduction des garanties (le capital versé au décès correspondra à la valeur de réduction). Dans tous les cas, les garanties d’assistance cessent (page 12).",
+      "page": 12
+    },
+    {
+      "name": "Déclaration sincère lors du sinistre",
+      "description": "Les déclarations faites lors du sinistre et les documents produits (état civil de l’assuré, date, circonstances et origines du décès) doivent être exacts.",
+      "timing": "Au sinistre",
+      "sanction": "Perte de tout droit à prestations pour la ou les garanties concernées, résiliation possible du contrat et remboursement des prestations versées à tort (page 8).",
+      "page": 8
+    },
+    {
+      "name": "Notification de la modification de l’opérateur funéraire",
+      "description": "Conformément à la réglementation, il est possible à tout moment de modifier l’Opérateur Funéraire qui exécutera les obsèques ; le souscripteur doit alors modifier la clause bénéficiaire pour désigner l’Opérateur Funéraire choisi. La demande de modification doit être notifiée par lettre recommandée avec accusé de réception.",
+      "timing": "En cours de contrat",
+      "sanction": null,
+      "page": 9
+    },
+    {
+      "name": "Justificatif d’identité à l’appui d’une demande",
+      "description": "La demande doit être accompagnée d’un justificatif d’identité du souscripteur.",
+      "timing": "En cours de contrat",
+      "sanction": null,
+      "page": 10
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Contacter la Macif au décès",
+      "description": "Au jour du décès, le ou les bénéficiaires désignés peuvent contacter la Macif au N°Cristal 09 69 39 49 49 (appel non surtaxé). Ce numéro est imprimé sur les pages 6 et 8 sous forme vectorisée : il n’existe pas dans le calque texte du PDF et a été lu sur un rendu.",
+      "deadline": null,
+      "page": 6
+    },
+    {
+      "step": "Adresser les documents demandés",
+      "description": "Les documents demandés en cas de sinistre doivent être envoyés à : Macif - Service Gestion des prestations Prévoyance - CS 69109 - 79061 Niort cedex 9.",
+      "deadline": null,
+      "page": 6
+    },
+    {
+      "step": "Pièces à fournir",
+      "description": "Selon les cas : un acte de décès ; en cas de paiement du capital au profit d’une entreprise de pompes funèbres, la facture attestant de la réalisation des prestations funéraires ; en cas de paiement à la ou les personnes ayant pris en charge le coût des obsèques, la facture acquittée établie à son ou leur nom ; un justificatif de la qualité de bénéficiaire (exemple : copie de la dévolution successorale établie par le notaire, certificat d’hérédité, copie du livret de famille de l’assuré) pour chacun des bénéficiaires désignés ; pour chaque bénéficiaire, la copie recto verso de la carte d’identité (ou les 4 premières pages du passeport ou de la carte de séjour) en cours de validité ; en cas de décès pendant le délai d’attente, un certificat médical précisant si la cause du décès est une maladie, un accident ou un suicide ; le cas échéant, l’attestation sur l’honneur relative au montant des abattements déjà appliqués ou devant être appliqués, établie par chaque bénéficiaire en application de l’article 990 I du Code général des impôts et / ou un certificat d’acquittement ou de non exigibilité de l’impôt de mutation par décès et / ou tout autre document nécessaire en application de l’article 757 B du Code général des impôts.",
+      "deadline": null,
+      "page": 7
+    },
+    {
+      "step": "Documents complémentaires",
+      "description": "Lorsque les éléments communiqués n’ont pas permis d’établir la qualité de bénéficiaires ou l’exigibilité des prestations, l’Assureur se réserve le droit de réclamer tout autre document nécessaire au règlement de la prestation, et notamment une expertise médicale sur pièces, un procès-verbal de gendarmerie, un compte-rendu d’hospitalisation.",
+      "deadline": null,
+      "page": 8
+    },
+    {
+      "step": "Règlement du capital",
+      "description": "L’Assureur effectue le règlement du capital dans un délai maximal de 30 jours après réception des documents demandés.",
+      "deadline": "30 jours maximum après réception des documents",
+      "page": 7
+    },
+    {
+      "step": "Mettre en œuvre les garanties d’assistance",
+      "description": "L’assuré et ses proches peuvent contacter les services Macif Assistance 24h sur 24 au N°Cristal 09 69 39 11 10 (appel non surtaxé). Ce numéro est imprimé sur les pages 15 et 16 sous forme vectorisée : il n’existe pas dans le calque texte du PDF et a été lu sur un rendu. Les proches expriment à IMA Assurances la nature des prestations nécessaires ; le nombre d’heures octroyé est apprécié par IMA Assurances en fonction de la nature et de la gravité de l’événement, de la gêne et du préjudice occasionnés, sur la base d’éléments objectifs (taille du logement, composition du foyer familial, existence d’aides familiales ou extra-familiales, présence de personnes dépendantes, degré d’autonomie). IMA Assurances se réserve le droit de demander la justification médicale de l’événement (certificat de décès).",
+      "deadline": "Sauf cas de force majeure, 30 jours à compter du décès ; 12 mois pour les garanties « Aide au nettoyage du logement et au déménagement », « Aide aux démarches administratives » et « Assistance psychologique »",
+      "page": 16
+    },
+    {
+      "step": "Réclamation — garanties obsèques",
+      "description": "En cas d’insatisfaction, s’adresser d’abord à son conseiller. Si la réponse ne satisfait pas, adresser une réclamation écrite au Service Qualité : Macif - Service Qualité - TSA 57273 - 79060 Niort cedex, ou via www.macif.fr. Accusé de réception et réponse dans les meilleurs délais et dans un délai maximum de 2 mois.",
+      "deadline": "Réponse dans un délai maximum de 2 mois",
+      "page": 10
+    },
+    {
+      "step": "Réclamation — garanties d’assistance",
+      "description": "Une réclamation est une déclaration actant d’un mécontentement concernant les garanties d’assistance mises en œuvre, ou la relation avec IMA Assurances au cours de cette mise en œuvre (une demande de service ou de prestation, une demande d’information, de clarification ou une demande d’avis n’est pas une réclamation). Les bénéficiaires peuvent contacter le Service Consommateur d’IMA Assurances par courriel depuis le site www.ima.eu - Réclamations, ou par courrier : IMA Assurances - Service Consommateur - 118 avenue de Paris - CS 40000 - 79003 Niort cedex 9.",
+      "deadline": "Accusé de réception dans les dix jours ouvrables suivant l’envoi ; réponse dans un délai de deux mois maximum",
+      "page": 10
+    },
+    {
+      "step": "Médiation externe",
+      "description": "Si le mécontentement persiste après épuisement de la procédure interne de réclamation ou à l’issue du délai réglementaire de deux mois, saisine possible de la Médiation de l’Assurance - TSA 50110 - 75441 Paris cedex 09, ou par internet sur www.mediation-assurance.org.",
+      "deadline": "Dans un délai maximum d’un an à compter de la réclamation écrite auprès des services de la Macif",
+      "page": 11
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "La durée du contrat est viagère. Le contrat se renouvelle annuellement par tacite reconduction. Si le contrat collectif fait l’objet d’une résiliation à l’initiative de l’une des parties, les adhésions en cours continueront de produire tous leurs effets jusqu’à leur terme.",
+    "tacit_renewal": true,
+    "notice_period": null,
+    "methods": [
+      "Rachat du contrat à tout moment : demande adressée par lettre recommandée ou envoi recommandé électronique, datée et signée, à Macif - Pôle Service et Relation Clients - CS 69109 - 79061 Niort cedex 9 ou à contrat_prevoyance@macif.fr. Le rachat prend effet à la date de réception de la demande et met fin à toutes les garanties d’assurances et d’assistance (pages 9 et 10).",
+      "Renonciation dans les 30 jours calendaires révolus suivant la réception du certificat individuel de garantie : par courrier postal (Macif - Pôle Service et Relation Clients - CS 69109 - 79061 Niort cedex 9), par courrier électronique (contrat_prevoyance@macif.fr), par déclaration en point d’accueil physique Macif ou au siège social de Macif Santé Prévoyance, ou par acte extrajudiciaire (page 9)."
+    ],
+    "special_rights": [
+      "Renonciation : « Je soussigné(e) (nom, prénoms, n° de sociétaire, adresse) déclare renoncer à mon adhésion au contrat GARANTIE OBSÈQUES souscrit en date du … Date et signature. » Les cotisations payées sont intégralement remboursées dans un délai de 30 jours à compter de la réception de la demande (page 9).",
+      "Les garanties cessent également en cas de non-paiement d’une cotisation ou d’une fraction de cotisation, et au plus tard au décès de l’assuré après la mise en œuvre des garanties dues au titre du contrat (page 9).",
+      "Les garanties d’assistance sont annuelles et cessent en cas de mise en réduction du contrat ou de résiliation de la convention passée entre l’Assureur et IMA Assurances (page 9).",
+      "Modification des garanties possible à tout moment : hausse de garantie (nouveau délai d’attente pour le différentiel, effet au 1er du mois suivant l’acceptation) ; baisse de garantie (aucun remboursement partiel si la cotisation a été entièrement versée, le contrat devant être racheté intégralement ; effet à l’échéance principale suivant l’acceptation) (page 9)."
+    ],
+    "page": 9
+  },
+  "prescription_period": {
+    "description": "L’article L.221-11 du Code de la mutualité dispose que « Toutes actions dérivant des opérations régies par le présent titre sont prescrites par deux ans à compter de l’événement qui y donne naissance ». Ce délai ne court : 1° en cas de réticence, omission, déclaration fausse ou inexacte sur le risque couru, du fait du membre participant, que du jour où la mutuelle ou l’union en a eu connaissance ; 2° en cas de réalisation du risque, que du jour où les intéressés en ont eu connaissance, s’ils prouvent qu’ils l’ont ignoré jusque-là. La prescription est portée à cinq ans en ce qui concerne l’incapacité de travail (opérations collectives du III de l’article L.221-2) et à dix ans lorsque le bénéficiaire n’est pas le membre participant, ainsi que dans les opérations relatives aux accidents atteignant les personnes lorsque les bénéficiaires sont les ayants droit du membre participant décédé. Pour les contrats d’assurance sur la vie, les actions du bénéficiaire sont prescrites au plus tard trente ans à compter du décès du membre participant. Par dérogation à l’article 2254 du Code civil (article L.221-12-1), les parties ne peuvent, même d’un commun accord, ni modifier la durée de la prescription, ni ajouter aux causes de suspension ou d’interruption. La prescription est interrompue par une des causes ordinaires d’interruption et par la désignation d’experts à la suite de la réalisation d’un risque, ainsi que par l’envoi d’une lettre recommandée ou d’un envoi recommandé électronique avec accusé de réception (article L.221-12). Le document reproduit les articles 2240 à 2246 du Code civil sur les causes ordinaires d’interruption (pages 13 et 14).",
+    "page": 13
+  },
+  "premium": {
+    "notes": [
+      "Les cotisations sont calculées en fonction de l’âge à la souscription, du montant du capital (y compris celui des éventuels capitaux complémentaires) et de la durée de paiement des cotisations choisie. L’âge retenu est déterminé par différence de millésime entre l’année de souscription et l’année de naissance (page 12).",
+      "Les cotisations sont dues par le souscripteur, payables annuellement et d’avance, par mandat de prélèvement SEPA ou par chèque (uniquement pour le paiement annuel) (page 12).",
+      "Fractionnement possible du paiement (semestriel ou mensuel) ; des frais de fractionnement sont alors appliqués, conformément au certificat individuel de garantie (page 12).",
+      "Durées de paiement possibles : sur 5 ans (choix possible jusqu’à 80 ans inclus) ; sur 10 ans (choix possible jusqu’à 80 ans inclus) ; jusqu’à 80 ans (choix possible jusqu’à 70 ans inclus) ; en paiement viager (choix possible jusqu’à 80 ans inclus) (page 12).",
+      "Pour la première période d’assurance, la cotisation est calculée proportionnellement au temps restant à courir jusqu’à la veille de l’échéance annuelle. En cas de paiement jusqu’à 80 ans, la dernière cotisation est calculée proportionnellement au temps restant jusqu’à la date anniversaire de prise d’effet du contrat dans l’année des 80 ans de l’assuré (page 12).",
+      "Frais à l’entrée et sur versements : frais prélevés sur cotisations destinés à financer les coûts d’acquisition et de gestion du contrat ; exprimés en pourcentage des capitaux garantis à la souscription, ils s’élèvent au maximum à 5,38 % pour la formule GARANTIE OBSÈQUES « Capital » et à 4,89 % pour les capitaux complémentaires (pourcentage annuel sur la durée moyenne du contrat). Frais en cours de vie du contrat : aucuns. Frais de sortie : aucuns. Autres frais : frais de fractionnement (page 2).",
+      "Le montant de la cotisation est communiqué chaque année, à l’échéance principale (page 12)."
+    ],
+    "indexation": "La cotisation peut évoluer chaque année en fonction du taux de revalorisation fixé par l’Assureur : la revalorisation des garanties entraîne une revalorisation, dans la même proportion, de la cotisation. La revalorisation s’accompagne d’une augmentation des cotisations restant à payer, d’un taux équivalent au taux de revalorisation ; elle n’intervient qu’à l’échéance principale et lorsque le contrat a pris effet depuis plus d’un an (pages 10 et 12).",
+    "page": 12
+  },
+  "special_conditions": [
+    {
+      "name": "Nature du contrat",
+      "description": "L’offre GARANTIE OBSÈQUES prend la forme d’un contrat d’assurance collectif à adhésion facultative souscrit par la Macif au profit de ses sociétaires, de leur conjoint, descendants ou ascendant. Les droits et obligations prévus dans la note d’information peuvent être modifiés par avenant au contrat collectif souscrit auprès de Macif Santé Prévoyance ; les souscripteurs seront préalablement informés de ces modifications. Le contrat est soumis à la loi française et la langue utilisée pendant toute la vie du contrat est le français.",
+      "page": 2
+    },
+    {
+      "name": "Absence de garantie en capital égale aux cotisations versées",
+      "description": "Le contrat ne comporte pas de garantie en capital égale à la somme des cotisations versées par le souscripteur nette de frais.",
+      "page": 2
+    },
+    {
+      "name": "Personnes ne pouvant pas être désignées bénéficiaires",
+      "description": "La loi interdit la désignation de certaines catégories de personnes : les ministres du culte (prêtre, rabbin, imam …) ; le curateur, tuteur ou mandataire judiciaire de l’assuré ; les membres des professions médicales, de la pharmacie et les auxiliaires médicaux ayant prodigué des soins pendant la maladie dont l’assuré décède ; les propriétaires, dirigeants ou salariés des établissements sociaux ou médicaux sociaux (notamment des maisons de retraite) ; les animaux ne peuvent pas être désignés comme bénéficiaires. Par ailleurs, une entreprise de pompes funèbres désignée comme bénéficiaire du capital ne peut pas accepter le bénéfice du contrat.",
+      "page": 7
+    },
+    {
+      "name": "Ordre des bénéficiaires (clause type)",
+      "description": "Le ou les bénéficiaires de l’assuré en cas de décès sont : l’entreprise de Pompes Funèbres en charge des obsèques, sur présentation de la facture ; à défaut, la ou les personnes qui ont pris en charge les obsèques dans la limite des frais qu’elles ont engagés, sur présentation de la facture. Lorsque tous les frais d’obsèques ont été réglés, le règlement du solde éventuel du capital est effectué au profit des ayants droit de l’assuré dans l’ordre suivant : son conjoint ou la personne assimilée à son conjoint (celle vivant en couple avec lui au jour du décès, sous le même toit, de façon constante, sans être séparée de corps ou de fait) ; à défaut, ses enfants naturels ou adoptifs, nés ou à naître, vivants ou représentés, par parts égales ; à défaut, ses héritiers. Le souscripteur peut effectuer une désignation nominative ou désigner l’organisme de pompes funèbres de son choix (NOM de l’entreprise, n° SIRET et adresse). Les bénéficiaires désignés sont mentionnés sur le certificat individuel de garantie.",
+      "page": 6
+    },
+    {
+      "name": "Conséquences de l’acceptation du bénéficiaire",
+      "description": "En cas de désignation d’une personne physique pour recevoir le reliquat éventuel du capital, ce bénéficiaire a la possibilité d’accepter le bénéfice du contrat ; cette acceptation rend la désignation irrévocable. Il n’est alors plus possible, sans l’accord exprès du bénéficiaire, de révoquer la désignation, de racheter le contrat ni de le modifier, excepté dans certains cas prévus par la loi (par exemple : l’ingratitude manifeste du bénéficiaire). L’acceptation peut être faite par un avenant signé par le souscripteur, le bénéficiaire et l’assureur, ou sur papier libre ou par acte authentique signé par le souscripteur et le bénéficiaire ; dans ce cas elle doit être notifiée par lettre recommandée avec accusé de réception, à défaut de quoi elle ne prend pas effet.",
+      "page": 6
+    },
+    {
+      "name": "Rachat du contrat et valeur de rachat",
+      "description": "Le souscripteur peut demander à tout moment le rachat du contrat. La valeur de rachat lui est versée dans un délai maximum de 2 mois à compter de la réception du courrier. La valeur de rachat est égale à la provision mathématique du contrat à la date de la demande, sans application de pénalités ; elle est calculée en tenant compte des cotisations effectivement réglées (hors cotisations d’assistance), du risque couvert sur la période de détention du contrat, des frais prélevés sur les cotisations et des éventuels prélèvements fiscaux et sociaux. Les valeurs de rachat au terme de chacune des 8 premières années, déterminées sur la base des versements prévus, sont communiquées lors de la souscription puis chaque année. Le rachat partiel du contrat n’est pas possible.",
+      "page": 10
+    },
+    {
+      "name": "Modalités de calcul des valeurs de rachat et de réduction (annexe B)",
+      "description": "Les valeurs de rachat et de réduction sont calculées selon les méthodes actuarielles classiques. Le montant de la valeur de rachat est déterminé à partir de la cotisation diminuée des frais liés au fonctionnement du contrat et à l’assistance. La valeur de rachat peut être inférieure à la somme des cotisations versées. La « valeur de rachat 1re année » communiquée à la souscription correspond à la valeur de rachat au 1er avril de l’année suivant l’année de souscription, avant le paiement de l’échéance principale. Deux exemples chiffrés sont donnés (hors revalorisation et prélèvements fiscaux et sociaux éventuels) : pour une personne de 50 ans avec un capital garanti de 3 800 € et une date d’adhésion au 01/04/2024 — cotisation de 204,99 € par an jusqu’aux 80 ans de l’assuré : 119,88 € (année 1), 239,59 €, 359,11 €, 478,44 €, 597,57 €, 716,54 €, 835,47 €, 954,39 € (année 8) ; cotisation de 489,61 € par an pendant 10 ans : 329,55 €, 661,37 €, 995,69 €, 1 332,76 €, 1 672,84 €, 2 016,30 €, 2 363,54 €, 2 714,96 €. Pour une personne de 55 ans avec un capital garanti de 4 580 € et une date d’adhésion au 01/04/2024 — cotisation de 299,16 € par an jusqu’aux 80 ans de l’assuré : 170,88 €, 341,72 €, 512,55 €, 683,39 €, 854,11 €, 1 024,68 €, 1 195,03 €, 1 365,10 € ; cotisation de 608,76 € par an pendant 10 ans : 401,27 €, 805,83 €, 1 214,03 €, 1 626,26 €, 2 042,88 €, 2 464,39 €, 2 891,39 €, 3 324,60 €.",
+      "page": 17
+    },
+    {
+      "name": "Participation aux bénéfices et revalorisation",
+      "description": "Le contrat prévoit un mécanisme de participation aux bénéfices. La participation aux bénéfices de la gestion technique et financière alimente un fonds de revalorisation. L’assureur fixe chaque année un taux de revalorisation des garanties dans la limite du fonds de revalorisation ; cette revalorisation est assurée par un prélèvement sur le fonds de revalorisation, affecté à la provision mathématique de chaque contrat au 1er avril de l’année suivante. La revalorisation n’intervient qu’à l’échéance principale et lorsque le contrat a pris effet depuis plus d’un an ; le taux est communiqué chaque année à l’échéance principale. À compter du décès, les garanties décès sont revalorisées jusqu’à réception des pièces nécessaires au versement des prestations et au plus tard jusqu’au dépôt des sommes garanties à la Caisse des dépôts et consignations en application de l’article L.223-25-4 du Code de la mutualité ; le taux de revalorisation fixé par Macif Santé Prévoyance ne peut être inférieur au taux prévu à l’article R.223-9 du Code de la mutualité.",
+      "page": 10
+    },
+    {
+      "name": "Mécanisme de la participation aux bénéfices (annexe C)",
+      "description": "Un compte technique et un compte de participation aux bénéfices sont établis chaque année au 31 décembre, sur le périmètre constitué de l’ensemble des contrats collectifs d’assurance-vie entière prévoyant des formules de financement d’obsèques, assurés par Macif Santé Prévoyance et présentant un mécanisme de participation aux bénéfices. A - COMPTE TECHNIQUE — au crédit : cotisations émises au cours de l’exercice ; provisions au 31 décembre de l’exercice précédent (dont provisions mathématiques, provisions pour cotisations non acquises et provisions pour sinistres à payer) ; intérêts techniques ; revalorisation attribuée au 1er avril de l’exercice suivant. Au débit : prestations de l’exercice ; provisions au 31 décembre de l’exercice ; frais d’acquisition ; frais de gestion. B - COMPTE DE PARTICIPATION AUX BÉNÉFICES — au crédit : excédent du compte technique au 31 décembre ; produits financiers nets de l’exercice. Au débit : déficit du compte technique ; intérêts techniques crédités aux provisions mathématiques ; report du solde déficitaire du compte de participation aux bénéfices de l’exercice précédent ; dotation aux fonds propres. C - FONDS DE REVALORISATION — au crédit : solde du fonds au 31 décembre de l’exercice précédent ; produits financiers affectés au fonds ; solde bénéficiaire du compte de participation aux bénéfices. Au débit : revalorisation attribuée au 1er avril de l’exercice suivant. Le montant maximum annuel de la revalorisation attribuée au 1er avril suivant est déterminé dans la limite du fonds de revalorisation. Note 1 : la dotation aux fonds propres au 31 décembre de l’exercice est égale à 10 % de l’excédent du compte technique plus 15 % de l’excédent de produits financiers nets après déduction des intérêts techniques.",
+      "page": 18
+    },
+    {
+      "name": "Régime fiscal et social du contrat",
+      "description": "Le contrat est soumis, selon la législation en vigueur au 1er janvier 2026, au régime fiscal de droit français pour les personnes ayant leur résidence fiscale en France. Fiscalité applicable aux rachats : si la valeur de rachat versée est supérieure aux cotisations versées, les intérêts générés sont soumis à un prélèvement non libératoire dont le taux varie en fonction de l’ancienneté du contrat (sauf dispense) et de la réglementation fiscale en vigueur ; cette imposition n’est pas définitive et une régularisation pourra être opérée l’année suivante, avec un choix entre l’impôt sur le revenu ou le prélèvement libératoire. Fiscalité applicable en cas de décès : sauf exonérations spécifiques, les bénéficiaires désignés sont susceptibles d’être soumis (après abattement propre à chaque impôt) aux droits de succession sur les cotisations versées à compter du 70e anniversaire de l’assuré (article 757 B du Code général des impôts) et à une taxe spécifique sur les capitaux résultant des cotisations versées avant le 70e anniversaire (article 990 I du Code général des impôts). Prélèvements sociaux : les produits issus du contrat y sont soumis chaque année, lors du rachat et le cas échéant lors du décès. Ces informations sont fournies à titre indicatif et susceptibles d’évoluer.",
+      "page": 13
+    },
+    {
+      "name": "Sommes non réclamées",
+      "description": "Les sommes dues au titre du contrat qui ne font pas l’objet d’une demande de versement du capital sont déposées à la Caisse des Dépôts et Consignations à l’issue d’un délai de dix ans à compter de la date à laquelle l’Assureur prend connaissance du décès de l’assuré ou de l’échéance du contrat ; le dépôt intervient dans le mois suivant l’expiration de ce délai et libère l’Assureur de toute obligation, à l’exception des obligations en matière de conservation d’informations et de documents. Les sommes déposées non réclamées par les bénéficiaires désignés sont acquises à l’État à l’issue d’un délai de vingt ans à compter de la date de leur dépôt.",
+      "page": 8
+    },
+    {
+      "name": "Modalités de transport en assistance",
+      "description": "Les transports de personnes prévus dans les garanties d’assistance s’effectuent en taxi, train 1re classe ou avion classe économique. Le transport de proches, prévu pour certaines garanties, est mis en œuvre dans les conditions suivantes : si le domicile de l’assuré est situé en France métropolitaine, le transport est effectué en France métropolitaine ; si le domicile de l’assuré est situé en outre-mer (Martinique, Guadeloupe, La Réunion, Guyane), le transport est effectué au sein de la collectivité de résidence de l’assuré.",
+      "page": 16
+    },
+    {
+      "name": "Subrogation d’IMA Assurances",
+      "description": "IMA Assurances est subrogée, à concurrence du coût de l’assistance accordée, dans les droits et actions de l’assuré ou de ses ayants droit contre les tiers qui, par leur fait, ont causé le dommage ayant donné lieu à une prise en charge par IMA Assurances. Si elle l’estime opportun, IMA Assurances effectue alors les poursuites contre le tiers responsable. En cas de fausse déclaration, les faits seront portés à la connaissance de l’Assureur.",
+      "page": 16
+    },
+    {
+      "name": "Identité des organismes (colophon)",
+      "description": "Le contrat GARANTIE OBSÈQUES, distribué par la Macif, est assuré par Macif Santé Prévoyance, mutuelle régie par le Livre II du Code de la mutualité et adhérente à la Mutualité Française. SIREN 779 558 501. Siège social : 1 rue Jacques Vandier - 79000 Niort. Les garanties Macif Assistance sont assurées par IMA Assurances - Société anonyme au capital de 157 000 000 € entièrement libéré, entreprise régie par le Code des assurances - N° SIREN : 481 511 632 RCS Niort, siège social : 118 avenue de Paris - CS 40000 - 79033 Niort cedex 9. MACIF - MUTUELLE ASSURANCE DES COMMERÇANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE, société d’assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, siège social : 1 rue Jacques Vandier - 79000 Niort. Entreprises soumises au contrôle de l’Autorité de Contrôle Prudentiel et de Résolution : 4 place de Budapest - CS 92459 - 75436 Paris cedex 09. L’identifiant unique de Macif Santé Prévoyance délivré par l’éco-organisme Citéo est le FR320871_01GEIG.",
+      "page": 20
+    },
+    {
+      "name": "Accessibilité",
+      "description": "Si l’assuré est sourd ou malentendant, il peut bénéficier d’un service adapté en LSF, LPC ou Tchat sur macif.fr / rubrique « urgence et contact ». S’il est aveugle ou malvoyant, il peut bénéficier de l’envoi de son courrier en caractères agrandis, braille et audio, sur macif.fr / rubrique « urgence et contact » ou auprès de Handi Cap Zéro (0 800 39 39 51, service & appel gratuits).",
+      "page": 3
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Le contrat GARANTIE OBSÈQUES est un contrat de pré­\nvoyance qui a pour objet de garantir au moment du décès \nde l’assuré le versement d’un capital, affecté au paiement \ndes obsèques, aux bénéficiaires désignés (chapitre",
+      "context": "Objet du contrat, encadré « Votre contrat en bref »",
+      "page": 2
+    },
+    {
+      "quote": "Le contrat ne comporte pas de garantie en capital égale \nà la somme des cotisations versées par le souscripteur \nnette de frais.",
+      "context": "Absence de garantie plancher sur les cotisations versées",
+      "page": 2
+    },
+    {
+      "quote": "Ces \nfrais, exprimés en pourcentage des capitaux garantis \nà la souscription, s’élèvent au maximum à 5,38 % pour \nla formule GARANTIE OBSÈQUES “Capital” et à 4,89 % \npour les capitaux complémentaires (pourcentage annuel \nsur la durée moyenne du contrat).",
+      "context": "Frais à l’entrée et sur versements",
+      "page": 2
+    },
+    {
+      "quote": "Le contrat est assuré par Macif Santé Prévoyance, \nmutuelle soumise aux dispositions du Livre II du Code \nde la mutualité et au contrôle de l’Autorité de Contrôle \nPrudentiel et de résolution - 4 place de Budapest - \nCS 92459 - 75436 Paris cedex 09.",
+      "context": "Porteur du risque des garanties obsèques",
+      "page": 3
+    },
+    {
+      "quote": "Les garanties Macif Assistance sont assurées par \nIMA Assurances - Société anonyme au capital de \n157 000 000 € entièrement libéré. Entreprise régie \npar le Code des assurances RCS Niort 481 511 632.",
+      "context": "Porteur du risque des garanties d’assistance",
+      "page": 3
+    },
+    {
+      "quote": "Pour être assuré au titre du contrat GARANTIE OBSÈQUES, \nvous devez au moment de la souscription",
+      "context": "Conditions d’assurance (chapeau)",
+      "page": 5
+    },
+    {
+      "quote": "être âgé de 18 à 80 ans inclus au moment de la \nsouscription",
+      "context": "Condition d’âge à la souscription",
+      "page": 5
+    },
+    {
+      "quote": "résider en France métropolitaine, en Martinique, en \nGuadeloupe, en Guyane, à La Réunion, ou séjourner \nà l’étranger pour une durée continue n’excédant pas \n12 mois.",
+      "context": "Condition de résidence",
+      "page": 5
+    },
+    {
+      "quote": "Le contrat prend effet à la date indiquée sur la demande \nd’assurance, et au plus tôt à compter du 1erer jour du mois \nsuivant la date d’envoi de la demande d’assurance, \nle cachet de La Poste faisant foi, ou de sa remise à la \nmutuelle.",
+      "context": "Prise d’effet du contrat",
+      "page": 5
+    },
+    {
+      "quote": "La formule “Capital” permet de prévoir, au choix, le ver­\nsement d’un capital de 2 000 € ou 3 000 € affecté au \nfinancement de vos obsèques à concurrence de leur coût.",
+      "context": "Formule en capital : montants garantis",
+      "page": 6
+    },
+    {
+      "quote": "En complément de la formule \"Capital\" à 3000 €, des \ncapitaux complémentaires peuvent être souscrits par \ntranche de 500 € (jusqu’à 13 000 €).",
+      "context": "Capitaux complémentaires",
+      "page": 6
+    },
+    {
+      "quote": "le décès de l’assuré lorsqu’il résulte d’un meurtre \ncommis par un bénéficiaire pour la part qui lui \nrevient. Dans ce cas, la provision mathématique \nest versée au souscripteur ou à ses ayants droit \nà moins qu’ils ne soient condamnés en tant que \ncoauteurs ou complices du meurtre",
+      "context": "Exclusion — meurtre par un bénéficiaire",
+      "page": 7
+    },
+    {
+      "quote": "le décès de l’assuré lorsqu’il est la conséquence \ndirecte ou indirecte d’une explosion, d’un \ndégagement de chaleur ou de l’irradiation pro­\nvenant de la trans mutation de noyaux d’atomes \nou de la radioactivité",
+      "context": "Exclusion — explosion, chaleur, irradiation",
+      "page": 7
+    },
+    {
+      "quote": "le décès de l’assuré lorsqu’il résulte de la guerre \ncivile ou étrangère ou de conflits à caractère mili­\ntaire. Dans ce cas, nous versons au souscripteur \nune somme égale à la provision mathématique. \nSi l’assuré est le souscripteur, cette somme est \nversée aux bénéficiaires désignés",
+      "context": "Exclusion — guerre et conflits militaires",
+      "page": 7
+    },
+    {
+      "quote": "le décès de l’assuré lorsqu’il résulte de sa parti­\ncipation à un délit intentionnel ou à un crime",
+      "context": "Exclusion — délit intentionnel ou crime",
+      "page": 7
+    },
+    {
+      "quote": "le décès de l’assuré lorsqu’il résulte d’un suicide \ndans les 12 mois qui suivent la prise d’effet du \ncontrat. Dans ce cas, nous versons au souscripteur \nune somme égale à la provision mathématique. \nSi l’assuré est le souscripteur, cette somme est \nversée aux bénéficiaires désignés. Cette exclusion \ns’applique également en cas d’augmentation \ndes garanties (pour le différentiel de garantie).",
+      "context": "Exclusion — suicide dans les 12 mois",
+      "page": 7
+    },
+    {
+      "quote": "Un délai d’attente d’un an est appliqué lorsque le \ndécès de l’assuré est consécutif à une maladie.",
+      "context": "Délai d’attente d’un an en cas de maladie",
+      "page": 7
+    },
+    {
+      "quote": "Ce délai s’applique lors de la souscription et en cas d’aug­\nmentation des garanties (pour le différentiel de garantie). \nCe délai ne s’applique pas en cas de décès consécutif à \nun accident.\nEn cas de décès de l’assuré par maladie pendant le délai \nd’attente, les garanties du contrat prennent fin et nous \nremboursons au souscripteur les cotisations versées (dimi­\nnuées des éventuels frais de fractionnement). Si l’assuré \nest le souscripteur, les cotisations sont alors remboursées \naux bénéficiaires désignés pour le solde éventuel.",
+      "context": "Portée du délai d’attente et remboursement des cotisations",
+      "page": 7
+    },
+    {
+      "quote": "Nous réglons le capital au moment du décès aux béné­\nficiaires désignés au certificat individuel de garantie \nquel que soit le pays dans lequel les obsèques sont \nréalisées.",
+      "context": "Territorialité des garanties d’assurance",
+      "page": 7
+    },
+    {
+      "quote": "Nous effectuons le règlement du capital dans un délai \nmaximal de 30 jours après réception, selon les cas, des \ndocuments suivants",
+      "context": "Délai de règlement du capital",
+      "page": 7
+    },
+    {
+      "quote": "La loi interdit la désignation de certaines catégories \nde personnes",
+      "context": "Personnes ne pouvant pas être désignées bénéficiaires",
+      "page": 7
+    },
+    {
+      "quote": "Toute déclaration intentionnellement fausse lors du \nsinistre de même que la production de documents \ninexacts ou mensongers quant à l’état civil de \nl’assuré, la date, les circonstances et les origines \nde son décès font perdre tout droit à prestations \npour la ou les garanties concernées et peuvent \nentraîner la résiliation du contrat.",
+      "context": "Déchéance des garanties en cas de fraude",
+      "page": 8
+    },
+    {
+      "quote": "Les sommes dues au titre du contrat qui ne font pas \nl’objet d’une demande de versement du capital sont \ndéposées à la Caisse des Dépôts et Consignations à \nl’issue d’un délai de dix ans à compter de la date à laquelle \nnous prenons connaissance du décès de l’assuré ou de \nl’échéance du contrat. Le dépôt intervient dans le mois \nsuivant l’expiration de ce délai.",
+      "context": "Dépôt à la Caisse des Dépôts et Consignations",
+      "page": 8
+    },
+    {
+      "quote": "La durée du contrat est viagère. Néanmoins, le \nsouscripteur peut demander le rachat du contrat \nGARANTIE OBSÈQUES à tout moment confor",
+      "context": "Durée viagère et faculté de rachat",
+      "page": 9
+    },
+    {
+      "quote": "Les garanties d’assistance sont annuelles et sont accor­\ndées pendant toute la durée du contrat. Néanmoins, \nces garanties cessent en cas de mise en réduction du \ncontrat ou de résiliation de la convention passée entre \nl’Assureur et IMA Assurances.",
+      "context": "Cessation des garanties d’assistance",
+      "page": 9
+    },
+    {
+      "quote": "Dans les 30 jours calendaires révolus suivants, le souscrip­\nteur peut renoncer au contrat GARANTIE OBSÈQUES \nen nous adressant sa demande par lettre ou tout autre",
+      "context": "Délai de renonciation",
+      "page": 9
+    },
+    {
+      "quote": "La valeur de rachat lui est alors versée dans un délai maximum de 2 mois à compter de la réception de ce courrier.",
+      "context": "Délai de versement de la valeur de rachat",
+      "page": 10
+    },
+    {
+      "quote": "Le rachat partiel du contrat n’est pas possible.",
+      "context": "Rachat partiel impossible",
+      "page": 10
+    },
+    {
+      "quote": "À défaut de paiement d’une cotisation ou d’une fraction \nde cotisation dans un délai de 10 jours suivant la date \nd’échéance, nous adressons au souscripteur, à son dernier \ndomicile connu, une lettre recommandée de mise en \ndemeure l’informant que le défaut de paiement, au \nterme d’un délai de 40 jours à compter de l’envoi de \ncette lettre entraîne",
+      "context": "Non-paiement des cotisations : mise en demeure",
+      "page": 12
+    },
+    {
+      "quote": "Toutes actions dérivant des opérations régies \npar le présent titre sont prescrites par deux ans à \ncompter de l’événement qui y donne naissance.",
+      "context": "Prescription biennale (article L.221-11 du Code de la mutualité)",
+      "page": 13
+    },
+    {
+      "quote": "Dans la limite de quatre trajets et de 250 € sur une \npériode maximale d’un mois à compter de la mise en \nœuvre de la prestation.",
+      "context": "Aide à l’organisation des obsèques : limite",
+      "page": 15
+    },
+    {
+      "quote": "Les garanties d’assistance sont accordées \nen France métropolitaine en Marti­\nnique, en Guadeloupe, en Guyane, à \nLa Réunion, à l’exception de la garantie \n“Rapatriement - déplacement” qui est \naccordée lors de vos déplacements dans \nle monde entier d’une durée maximale \ncontinue inférieure à 3 mois.",
+      "context": "Territorialité des garanties d’assistance",
+      "page": 16
+    },
+    {
+      "quote": "Sauf cas de force majeure, vos proches disposent \nd’un délai de 30 jours à compter de votre décès pour \ncontacter IMA Assurances et demander la mise en \nplace des garanties, à l’exception des garanties \n“Aide au nettoyage du logement et au déménage­\nment”, “Aide aux démarches administratives” et \n“Assistance psychologique” pour lesquelles ils \ndisposent d’un délai de 12 mois.",
+      "context": "Délai pour demander les garanties d’assistance",
+      "page": 16
+    },
+    {
+      "quote": "IMA Assurances ne sera pas tenue responsable \ndes manquements ou contretemps à l’exécution \nde ses obligations qui résulteraient de cas de force \nmajeure ou des événements suivants : pandémie, \nguerre civile ou étrangère, révolution, mouvement \npopulaire, émeute, grève, saisie ou contrainte par \nla force publique, interdiction officielle, piraterie, \nexplosion d’engins, effets nucléaires ou radioactifs, \nempêchements climatiques.",
+      "context": "Événements exonérant IMA Assurances",
+      "page": 16
+    },
+    {
+      "quote": "Les transports de personnes prévus dans les garanties \nd’assistance s’effectuent en taxi, train 1rere classe ou \navion classe économique.",
+      "context": "Modalités de transport en assistance",
+      "page": 16
+    },
+    {
+      "quote": "Le montant de la valeur de rachat est déterminé à partir \nde la cotisation diminuée des frais liés au fonctionnement \ndu contrat et à l’assistance. La valeur de rachat peut être \ninférieure à la somme des cotisations versées.",
+      "context": "Détermination de la valeur de rachat",
+      "page": 17
+    },
+    {
+      "quote": "DÉLAI D’ATTENTE : période suivant la prise d’effet du \ncontrat ou l’augmentation des garanties pendant laquelle \nle décès consécutif à une maladie ou à un suicide ne \ndonnera définitivement lieu à aucune prestation.",
+      "context": "Lexique — délai d’attente",
+      "page": 19
+    },
+    {
+      "quote": "Le contrat GARANTIE OBSÈQUES, distribué par la Macif, est assuré par Macif Santé Prévoyance, mutuelle régie par le Livre II du Code \nde la mutualité et adhérente à la Mutualité Française. SIREN 779 558 501. Siège social : 1 rue Jacques Vandier - 79000 Niort.",
+      "context": "Colophon — distributeur et porteur du risque",
+      "page": 20
+    },
+    {
+      "quote": "Les garanties Macif Assistance sont assurées par IMA Assurances - Société anonyme au capital de 157 000 000 € entièrement libéré. Entreprise régie par le \nCode des assurances - N° SIREN : 481 511 632 RCS Niort. Siège social : 118 avenue de Paris - CS 40000 - 79033 Niort cedex 9.",
+      "context": "Colophon — porteur du risque assistance",
+      "page": 20
+    }
+  ],
+  "gaps": [
+    "Porteurs du risque : le document distingue explicitement deux porteurs. Les garanties obsèques sont « assurées par Macif Santé Prévoyance, mutuelle soumise aux dispositions du Livre II du Code de la mutualité » (SIREN 779 558 501, siège 1 rue Jacques Vandier - 79000 Niort), désignée « l’Assureur » ; les garanties Macif Assistance sont « assurées par IMA Assurances » (société anonyme au capital de 157 000 000 €, RCS Niort 481 511 632). La Macif (société d’assurance mutuelle à cotisations variables) est le souscripteur du contrat collectif et le distributeur (« distribué par la Macif », page 20), pas le porteur du risque. Le champ insurer_name reprend la métadonnée de tâche (« Macif »).",
+    "Numéros de téléphone convertis en tracés vectoriels : le N°Cristal 09 69 39 49 49 (règlement du capital, pages 6 et 8), le N°Cristal 09 69 39 11 10 (Macif Assistance, pages 15 et 16) et le numéro d’accueil téléphonique de la page 3 ne produisent AUCUN texte dans le calque texte. Ils ont été lus sur un rendu haute résolution (facteur 5) et placés dans claims_procedure ; ils ne peuvent pas figurer dans key_quotes, faute d’être des tranches du calque texte. La phrase d’introduction (« … peuvent nous contacter au : ») est, elle, bien dans le texte et se termine sur le vide.",
+    "Ordre de lecture des colonnes : le texte plat émet la colonne de DROITE avant la colonne de GAUCHE sur 7 des 20 pages (pages 3, 9, 10, 12, 13, 15, 19). Contrôle fait page par page sur les coordonnées des blocs, pas une seule fois pour le document. Conséquences vérifiées et corrigées : page 9, les modalités de renonciation (« par courrier postal… ») sont émises AVANT la phrase qui les introduit ; page 10, le début de phrase « … sans application » et sa suite « de pénalités » sont inversés ; page 13, le 2° de l’article L.221-11 arrive avant le 1° ; page 15, les garanties d’assistance de la colonne de droite sont émises avant celles de gauche ; page 19, le lexique sort M-P-S-V avant A-B-C-D-E. Les rattachements ont été reconstruits sur l’abscisse et l’ordonnée des blocs. Aucun couple garantie/exclusion n’est concerné : le document n’a pas de tableau ni d’encadrés « couvert / non couvert » en vis-à-vis, les polarités sont portées par les titres de section.",
+    "Bandeaux de haut de page émis en dernier : sur les pages 5, 6, 9, 12 et 15, l’encadré de synthèse imprimé en haut de page (« Une souscription possible jusqu’aux 80 ans inclus… », « Une formule en capital avec 2 niveaux de garantie… », etc.) est le dernier bloc du texte plat. Une lecture séquentielle placerait ces résumés après le contenu de la page.",
+    "Calque texte remédié pour l’accessibilité, divergent de l’imprimé : (1) le texte porte les balises « Encadré. » et « Hors d’encadré. » qui ne sont PAS imprimées et qui délimitent les blocs sur fond coloré ; (2) les exposants sont dédoublés (« 1erer » pour « 1er », « 70ee » pour « 70e », « 1rere » pour « 1re ») ; (3) des abréviations sont développées dans le texte alors que la page imprime le sigle (« déplacement al er retour » pour « déplacement A/R », vérifié au rendu page 15) ; (4) des lettres sont espacées (« T S A 57273 » pour « TSA 57273 », « www.ima.e u » pour « www.ima.eu », « U 821 - UNI/P R E I/G OBS/05 - 07/26 » pour la référence imprimée « U 821 - UNI/PREI/GOBS/05 - 07/26 »). Les champs structurés suivent l’imprimé (vérifié au rendu) ; les key_quotes suivent le calque texte et contiennent donc ces formes.",
+    "Lignes dessinées deux ou trois fois dans le calque texte et imprimées une seule fois : « Garanties en vigueur au 1er juillet 2026 » (page 3), « de la situation patrimoniale du souscripteur… » (page 2), « reconduction » (page 3), « affectés au financement de vos obsèques, à concurrence de leur coût » (page 6), « La valeur de rachat lui est alors versée dans un délai maximum de 2 mois… » (page 10), « Une réclamation est une déclaration actant d’un mécontentement… » (page 10), « dépendantes au sein du foyer, degré d’autonomie… » (page 16), plusieurs entrées du sommaire (page 4). Les key_quotes ont été découpées de façon à ne jamais traverser une répétition.",
+    "Résidus de puces dans le calque texte : 106 caractères U+0007 (BEL) marquent la place des puces « • » et « ■ » et des titres à picto. Ils ne sont ni du texte ni des espaces ; les key_quotes ont été découpées de manière à n’en contenir aucun. Un glyphe « , » invisible de 1 pt sert par ailleurs de marque de cellule dans les tableaux de valeurs de rachat (page 17) et de marque de lettre dans le lexique (page 19) — d’où les valeurs qui se lisent « , 119,88 € » dans le texte plat.",
+    "Le symbole € survit à l’extraction sur ce document (47 occurrences, dont les 32 montants des tableaux de la page 17) : contrôle fait explicitement, résultat négatif, aucun montant n’a été reconstitué.",
+    "Folio et numéro de page PDF coïncident sur ce document : la page 4 imprime « 04 », la page 5 « 05 », etc. Contrôle fait par ancrage bloc par bloc ; aucun décalage à corriger. Les pages 1 à 3 ne portent pas de folio imprimé.",
+    "Le montant du plafond global de garanties n’est pas chiffré : « Le montant total des garanties souscrites pour un assuré ne peut excéder le plafond indiqué sur la demande d’assurance » (page 5) — le plafond renvoie à un document qui n’est pas celui-ci.",
+    "Aucune franchise (deductible) n’est prévue par ce contrat : le mot « franchise » n’apparaît nulle part dans le calque texte des 20 pages. L’objet deductibles est donc laissé entièrement à null plutôt que rempli.",
+    "Le contrat ne comporte pas de préavis de résiliation : il est viager, se dénoue par le rachat (possible à tout moment, effet à la date de réception de la demande) ou par la renonciation dans les 30 jours calendaires révolus. Le champ notice_period est donc null.",
+    "target_audience est renseigné à « particuliers » sur la base du texte du document et non du type de produit : le contrat est réservé aux sociétaires de la Macif, à leur conjoint, ascendant ou descendant, et le lexique définit le sociétaire et le souscripteur comme des « personne[s] physique[s] » (page 19). La formulation exacte du document est reprise dans target_audience_note.",
+    "edition_date « 2026-07 » vient de deux mentions concordantes du document : « Garanties en vigueur au 1er juillet 2026 » (page 3, vérifié au rendu — la ligne est dessinée deux fois dans le calque texte et imprimée une seule fois) et le suffixe « 07/26 » de la référence imprimée en page 20.",
+    "Les 13 événements exonérant IMA Assurances (page 16) sont listés comme 13 exclusions distinctes parce que le document les énumère distinctement ; ils partagent la même clause, reproduite dans chaque description.",
+    "Les renvois de pages internes au document (sommaire page 4, « annexe B », « page 17 », etc.) sont des folios imprimés ; ils sont conservés tels quels, sans conversion en numéros de page PDF (ici les deux coïncident, mais la conversion n’a pas été appliquée par principe).",
+    "Aucune page n’est vide ni scannée : les 20 pages ont un calque texte exploitable, et la ré-extraction locale du PDF avec page.get_text(\"text\") rend un texte identique caractère pour caractère à celui fourni dans l’invite, page par page, sur les 20 pages. Le texte de l’invite n’était pas tronqué (62 245 caractères)."
+  ]
+}

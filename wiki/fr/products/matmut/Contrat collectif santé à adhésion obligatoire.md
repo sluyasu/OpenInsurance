@@ -400,6 +400,10 @@ Toute action dérivant du présent contrat, qu’il s’agisse de sa validité o
 - COLLISION : le marqueur raw/a4c1b345.claimed préexistait (posé par le worker coordinateur pour ce worker) ; aucun raw/a4c1b345.json n’existait au démarrage et aucun n’est apparu pendant le travail. Pas d’écrasement d’un fichier tiers.
 - Porteur de risque: ce document nomme « Mutuelle Ociane Matmut », qui n'est pas l'entite dont la bibliotheque publique l'a fourni (Matmut). Le champ insurer_name porte le proprietaire de la bibliotheque, pour le regroupement des pages; la lecture du document est celle-ci. A verifier contre le registre du superviseur avant d'en tirer qui porte le risque.
 
+## Documents liés
+
+- [Contrat collectif Santé à adhésion obligatoire CCN Bâtiment et travaux publics (CCN Bâtiment et travaux publics — notice](Contrat%20collectif%20Sant%C3%A9%20%C3%A0%20adh%C3%A9sion%20obligatoire%20CCN%20B%C3%A2timent%20et%20travaux%20publics%20%28CCN%20B%C3%A2timent%20et%20travaux%20publics%20%E2%80%94%20notice.md) - Conditions générales, éd. septembre 2024
+
 ## Source & fidélité
 
 - Source : [https://www.matmut.fr/pro/pdf/conditions-generales-contrat-obligatoire-ociane.pdf](https://www.matmut.fr/pro/pdf/conditions-generales-contrat-obligatoire-ociane.pdf) - téléchargé le 2026-07-30 - 32 pages

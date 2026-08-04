@@ -179,6 +179,7 @@ Prise en charge des honoraires (de l'avocat ou de l'expert comptable de l'assur�
 
 ## Documents liés
 
+- [Protection Juridique (PJ PRO&ESS) - IPID](Protection%20Juridique%20%28PJ%20PRO%26ESS%29%20-%20IPID.md) - IPID / Fiche d'information, éd. 06/20
 - [Protection Juridique - IPID](Protection%20Juridique%20-%20IPID.md) - IPID / Fiche d'information, éd. 10/18
 
 ## Source & fidélité

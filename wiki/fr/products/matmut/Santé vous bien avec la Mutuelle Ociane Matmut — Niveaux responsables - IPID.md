@@ -289,6 +289,7 @@ La garantie optionnelle « Bien dans mon rôle d'aidant » : conseils et service
 
 - [Santé vous bien ! - Fiche](Sant%C3%A9%20vous%20bien%20%21%20-%20Fiche%20%282%29.md) - Fiche produit, éd. 2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)
 - [Santé vous bien ! - Fiche](Sant%C3%A9%20vous%20bien%20%21%20-%20Fiche%20%284%29.md) - Fiche produit, éd. 2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)
+- [Santé vous bien ! - Fiche](Sant%C3%A9%20vous%20bien%20%21%20-%20Fiche%20%286%29.md) - Fiche produit, éd. 08/25
 - [Santé vous bien ! - Fiche](Sant%C3%A9%20vous%20bien%20%21%20-%20Fiche%20%283%29.md) - Fiche produit, éd. 2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)
 - [Santé vous bien ! - Fiche](Sant%C3%A9%20vous%20bien%20%21%20-%20Fiche%20%285%29.md) - Fiche produit, éd. 2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)
 - [Santé vous bien ! - Fiche](Sant%C3%A9%20vous%20bien%20%21%20-%20Fiche.md) - Fiche produit, éd. 2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)

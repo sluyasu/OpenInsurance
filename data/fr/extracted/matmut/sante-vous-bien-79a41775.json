@@ -1,0 +1,1039 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "matmut",
+  "insurer_name": "Matmut",
+  "product_name": "Santé vous bien !",
+  "branch": "sante",
+  "branch_code": null,
+  "document_type": "product_sheet",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": null,
+  "reference": "FICHE.SAN.ITELIS - 08/25",
+  "edition_date": "08/25",
+  "product_family": "Santé vous bien !",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.matmut.fr/mutuelle/pdf/fiche-produit-hospitalisation-Sante-vous-bien.pdf",
+  "source_pdf": "sante-vous-bien-hospitalisation-79a41775.pdf",
+  "source_sha256": "3727b48617e25de5cc15d479434d221911b9a1073d2c1f544d1bfc787b6c0a04",
+  "source_pages": 7,
+  "fetched_at": "2026-07-30",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Fiche produit de la complémentaire santé « Santé vous bien ! », présentée comme « la mutuelle santé personnalisable » et assurée par la Mutuelle Ociane. Le tableau « Bien pour mon corps » décline 23 postes de garanties (hospitalisation, pharmacie, soins courants, services de médecine à distance, sport sur ordonnance) sur trois niveaux, CORPS 1, CORPS 2 et CORPS 3, exprimés en pourcentage de la Base de Remboursement de la Sécurité sociale ou en forfaits. Le document présente également le remboursement intégral des équipements 100 % Santé en optique, dentaire et aides auditives, le réseau de soins Itelis, des services inclus automatiquement (assistance, coaching, prévention) et quatre garanties supplémentaires en option. Il porte la mention « Document non contractuel ».",
+  "definitions": [
+    {
+      "term": "BR",
+      "definition": "Base de Remboursement de la Sécurité sociale, c'est-à-dire le prix de référence des soins fixés par l'Assurance Maladie.",
+      "page": 5
+    },
+    {
+      "term": "Classe A / Classe I",
+      "definition": "Équipement 100 % Santé sans reste à charge ; classe B : équipement à tarifs libres fixés par l’opticien.",
+      "page": 2
+    },
+    {
+      "term": "100 % Santé",
+      "definition": "Offre qui s’adresse à toutes les personnes disposant d’une complémentaire santé responsable ; les soins concernés sont encadrés par des Prix limites de vente (PLV) que les professionnels de santé ont l’obligation de proposer.",
+      "page": 2
+    },
+    {
+      "term": "PLV",
+      "definition": "Prix limites de vente, encadrant les équipements « 100 % Santé » ; pour les fauteuils roulants, la liste exhaustive des équipements et leurs Prix Limites de Vente sont définis règlementairement.",
+      "page": 2
+    },
+    {
+      "term": "OPTAM",
+      "definition": "Option de Pratique Tarifaire Maîtrisée.",
+      "page": 5
+    },
+    {
+      "term": "OPTAM-ACO",
+      "definition": "Option Pratique Tarifaire Maîtrisée Anesthésie, Chirurgie et Obstétrique.",
+      "page": 5
+    },
+    {
+      "term": "SMR",
+      "definition": "Service Médical Rendu (les médicaments à SMR important sont pris en charge à 100 % BR).",
+      "page": 3
+    },
+    {
+      "term": "MAS",
+      "definition": "Maison d'Accueil Spécialisée.",
+      "page": 5
+    },
+    {
+      "term": "EHPAD",
+      "definition": "Établissement d'Hébergement pour Personnes Âgées Dépendantes.",
+      "page": 5
+    },
+    {
+      "term": "ALD",
+      "definition": "Affection de Longue Durée / Affection Longue Durée.",
+      "page": 3
+    },
+    {
+      "term": "APA",
+      "definition": "Activité Physique Adaptée (professionnel de sport agréé APA).",
+      "page": 5
+    },
+    {
+      "term": "Itelis",
+      "definition": "Réseau de soins ; Itelis est une marque d'Isea. Réseau de près de 10 000 partenaires santé sur tout le territoire.",
+      "page": 2
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Hospitalisation - Honoraires",
+      "description": "Honoraires en hospitalisation, exprimés en pourcentage de la Base de Remboursement de la Sécurité sociale.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "CORPS 1 : 100 % BR ; CORPS 2 : 125 % BR ; CORPS 3 : 150 % BR",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Pour les niveaux ayant des dépassements d’honoraires (supérieurs à 100 % BR), le taux de prise en charge indiqué s’applique aux actes et soins réalisés par des médecins ayant adhéré à l’Option de Pratique Tarifaire Maîtrisée (OPTAM) ou l’Option Pratique Tarifaire Maîtrisée Anesthésie, Chirurgie et Obstétrique (OPTAM-ACO). Pour les médecins non adhérents, ce taux est minoré de 20 % BR dans les « contrats responsables » (renvoi (1), page 5).",
+        "Prise en charge de la participation forfaitaire pour les actes coûteux (renvoi (1), page 5).",
+        "Les pourcentages et les forfaits indiqués représentent à la fois la part de la Sécurité sociale et la part de la Mutuelle Ociane Matmut, et s'appliquent sur la Base de Remboursement (BR) de la Sécurité sociale (page 5)."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Hospitalisation - Forfait journalier hospitalier",
+      "description": "Forfait journalier hospitalier pris en charge aux frais réels sur les trois niveaux.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "CORPS 1 : Frais réels ; CORPS 2 : Frais réels ; CORPS 3 : Frais réels",
+      "sub_limits": [
+        "20 €/jour (sauf psychiatrie 15 €/jour)",
+        "durée illimitée (sauf 90 jours pour les établissements médico-sociaux)"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Maison d'Accueil Spécialisée (MAS) et Établissement d'Hébergement pour Personnes Âgées Dépendantes (EHPAD) non pris en charge (renvoi (2), page 5)."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Hospitalisation - Frais de séjour",
+      "description": "Frais de séjour en hospitalisation.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "CORPS 1 : 100 % BR ; CORPS 2 : 100 % BR ; CORPS 3 : 100 % BR",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Les pourcentages et les forfaits indiqués représentent à la fois la part de la Sécurité sociale et la part de la Mutuelle Ociane Matmut, et s'appliquent sur la Base de Remboursement (BR) de la Sécurité sociale (page 5)."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Hospitalisation - Forfait patient urgences",
+      "description": "Forfait patient urgences pris en charge aux frais réels sur les trois niveaux.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "CORPS 1 : Frais réels ; CORPS 2 : Frais réels ; CORPS 3 : Frais réels",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Hospitalisation - Transport sanitaire remboursé par la Sécurité sociale",
+      "description": "Transport sanitaire remboursé par la Sécurité sociale, rubrique HOSPITALISATION.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "CORPS 1 : 100 % BR ; CORPS 2 : 100 % BR ; CORPS 3 : 100 % BR",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Les pourcentages et les forfaits indiqués représentent à la fois la part de la Sécurité sociale et la part de la Mutuelle Ociane Matmut, et s'appliquent sur la Base de Remboursement (BR) de la Sécurité sociale (page 5)."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Pharmacie - Médicaments à Service Médical Rendu (SMR) important",
+      "description": "Médicaments à Service Médical Rendu (SMR) important.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "CORPS 1 : 100 % BR ; CORPS 2 : 100 % BR ; CORPS 3 : 100 % BR",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Les pourcentages et les forfaits indiqués représentent à la fois la part de la Sécurité sociale et la part de la Mutuelle Ociane Matmut, et s'appliquent sur la Base de Remboursement (BR) de la Sécurité sociale (page 5)."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Pharmacie - Vaccins non remboursés par la Sécurité sociale",
+      "description": "Forfait annuel pour les vaccins non remboursés par la Sécurité sociale.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "CORPS 1 : 20 € ; CORPS 2 : 30 € ; CORPS 3 : 40 €",
+      "sub_limits": [
+        "Forfait par an"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Vaccins du voyageur : fièvre jaune, typhoïde, encéphalite... (renvoi (3), page 5).",
+        "Sauf spécifications contraires, les forfaits sont versés par année civile dans la limite de la dépense, sur présentation de la facture nominative acquittée et détaillée par acte (page 5)."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Pharmacie - Forfait solidaire vaccin antigrippe",
+      "description": "Forfait annuel solidaire pour le vaccin antigrippe.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "CORPS 1 : 20 € ; CORPS 2 : 20 € ; CORPS 3 : 20 €",
+      "sub_limits": [
+        "Forfait par an"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Forfait valable sur facture nominative acquittée jusqu'au 31/12/2026 (renvoi (4), page 5)."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Soins courants - Honoraires médicaux : généralistes et spécialistes",
+      "description": "Honoraires médicaux des généralistes et spécialistes.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "CORPS 1 : 100 % BR ; CORPS 2 : 125 % BR ; CORPS 3 : 150 % BR",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Pour les niveaux ayant des dépassements d’honoraires (supérieurs à 100 % BR), le taux de prise en charge indiqué s’applique aux actes et soins réalisés par des médecins ayant adhéré à l’Option de Pratique Tarifaire Maîtrisée (OPTAM) ou l’Option Pratique Tarifaire Maîtrisée Anesthésie, Chirurgie et Obstétrique (OPTAM-ACO). Pour les médecins non adhérents, ce taux est minoré de 20 % BR dans les « contrats responsables » (renvoi (1), page 5).",
+        "Hors parcours de soins coordonnés, la prise en charge est limitée à 100 % BR hors majoration du ticket modérateur appliquée par la Sécurité sociale (renvoi (5), page 5).",
+        "Les pourcentages et les forfaits indiqués représentent à la fois la part de la Sécurité sociale et la part de la Mutuelle Ociane Matmut, et s'appliquent sur la Base de Remboursement (BR) de la Sécurité sociale (page 5)."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Soins courants - Honoraires paramédicaux",
+      "description": "Honoraires paramédicaux : infirmiers, kinésithérapeutes, orthophonistes…",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "CORPS 1 : 100 % BR ; CORPS 2 : 100 % BR ; CORPS 3 : 125 % BR",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Les pourcentages et les forfaits indiqués représentent à la fois la part de la Sécurité sociale et la part de la Mutuelle Ociane Matmut, et s'appliquent sur la Base de Remboursement (BR) de la Sécurité sociale (page 5)."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Soins courants - Transport sanitaire remboursé par la Sécurité sociale",
+      "description": "Transport sanitaire remboursé par la Sécurité sociale, rubrique SOINS COURANTS.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "CORPS 1 : 100 % BR ; CORPS 2 : 100 % BR ; CORPS 3 : 100 % BR",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Les pourcentages et les forfaits indiqués représentent à la fois la part de la Sécurité sociale et la part de la Mutuelle Ociane Matmut, et s'appliquent sur la Base de Remboursement (BR) de la Sécurité sociale (page 5)."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Soins courants - Analyses et examens de laboratoire",
+      "description": "Analyses et examens de laboratoire.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "CORPS 1 : 100 % BR ; CORPS 2 : 100 % BR ; CORPS 3 : 125 % BR",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Les pourcentages et les forfaits indiqués représentent à la fois la part de la Sécurité sociale et la part de la Mutuelle Ociane Matmut, et s'appliquent sur la Base de Remboursement (BR) de la Sécurité sociale (page 5)."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Soins courants - Radiologie",
+      "description": "Radiologie.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "CORPS 1 : 100 % BR ; CORPS 2 : 100 % BR ; CORPS 3 : 125 % BR",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Hors parcours de soins coordonnés, la prise en charge est limitée à 100 % BR hors majoration du ticket modérateur appliquée par la Sécurité sociale (renvoi (5), page 5).",
+        "Les pourcentages et les forfaits indiqués représentent à la fois la part de la Sécurité sociale et la part de la Mutuelle Ociane Matmut, et s'appliquent sur la Base de Remboursement (BR) de la Sécurité sociale (page 5)."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Soins courants - Matériel médical dont orthopédie et petit appareillage",
+      "description": "Matériel médical dont orthopédie et petit appareillage.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "CORPS 1 : 100 % BR ; CORPS 2 : 100 % BR ; CORPS 3 : 125 % BR",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Les pourcentages et les forfaits indiqués représentent à la fois la part de la Sécurité sociale et la part de la Mutuelle Ociane Matmut, et s'appliquent sur la Base de Remboursement (BR) de la Sécurité sociale (page 5)."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Soins courants - Fauteuils roulants - Équipement 100 % Santé",
+      "description": "Fauteuils roulants relevant de l'équipement 100 % Santé : remboursement intégral sur les trois niveaux. La page 2 précise « Remboursement intégral des fauteuils roulants (liste exhaustive fixée par arrêté du 06 février 2025), y compris certains modèles sportifs après évaluation des besoins par un professionnel de santé ».",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "CORPS 1 : Remboursement intégral ; CORPS 2 : Remboursement intégral ; CORPS 3 : Remboursement intégral",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Fauteuils roulants 100% santé sans reste à charge : la liste exhaustive des équipements et leurs Prix Limites de Vente (PLV) sont définis règlementairement (renvoi (6), page 5).",
+        "Certains modèles sportifs peuvent également être pris en charge après évaluation des besoins par un professionnel de santé (renvoi (6), page 5).",
+        "Les options et adjonctions indispensables aux besoins spécifiques des usagers seront également intégralement prises en charge (renvoi (3), page 2)."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Soins courants - Prothèses externes remboursées par la Sécurité sociale",
+      "description": "Prothèses externes remboursées par la Sécurité sociale (capillaires, mammaires, oculaires) - Forfait par acte.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "CORPS 1 : 100 % BR + 50 € ; CORPS 2 : 100 % BR + 75 € ; CORPS 3 : 100 % BR + 100 €",
+      "sub_limits": [
+        "Forfait par acte"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les pourcentages et les forfaits indiqués représentent à la fois la part de la Sécurité sociale et la part de la Mutuelle Ociane Matmut, et s'appliquent sur la Base de Remboursement (BR) de la Sécurité sociale (page 5)."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Soins courants - Forfait solidaire soutien psychologique",
+      "description": "Forfait annuel solidaire de soutien psychologique.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "CORPS 1 : 50 € x 3 séances ; CORPS 2 : 50 € x 3 séances ; CORPS 3 : 50 € x 3 séances",
+      "sub_limits": [
+        "Forfait par an",
+        "50 € x 3 séances"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Forfait valable pour les actes non remboursés par la Sécurité sociale sur facture nominative acquittée, chez les psychologues diplômés dans leur spécialité et inscrits aux registres officiels de l’Assurance Maladie jusqu'au 31/12/2026 (renvoi (7), page 5)."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Itelis : avantages tarifaires optique, audio et médecines douces",
+      "description": "Accès au réseau de soins Itelis et à ses avantages tarifaires en optique, audio et médecines douces. Inclus sur les trois niveaux.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "CORPS 1 : Inclus ; CORPS 2 : Inclus ; CORPS 3 : Inclus",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Itelis est une marque d'Isea (pages 2 et 5)."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Medaviz : téléconsultation 24 h/24, 7 j/7",
+      "description": "Téléconsultation permettant de contacter un médecin 7 j/7, 24 h/24. Inclus sur les trois niveaux.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "CORPS 1 : Inclus ; CORPS 2 : Inclus ; CORPS 3 : Inclus",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Service mis en œuvre par Podalire. Le service doit faire l’objet d’une utilisation raisonnable (page 5)."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Livmed's : livraison de médicaments à domicile",
+      "description": "Livraison de médicaments à domicile 7 j/7, 24 h/24. Inclus sur les trois niveaux.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "CORPS 1 : Inclus ; CORPS 2 : Inclus ; CORPS 3 : Inclus",
+      "sub_limits": [
+        "Prise en charge de 3 livraisons par an par la mutuelle dans un rayon de 20km"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Au-delà de 3 livraisons par an ou du rayon de 20 km, le complément reste à la charge de l’adhérent (page 5)."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Deuxième avis médical : expertise médicale en ligne",
+      "description": "Expertise médicale en ligne permettant d'obtenir un avis d'expert en moins de 7 jours en cas de maladie. Inclus sur les trois niveaux.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "CORPS 1 : Inclus ; CORPS 2 : Inclus ; CORPS 3 : Inclus",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Service deuxiemeavis.fr édité par la société CARIANS (page 5)."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Bilan de santé digital : évaluation de santé globale",
+      "description": "Bilan de santé digital, évaluation de santé globale. Inclus sur les trois niveaux.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "CORPS 1 : Inclus ; CORPS 2 : Inclus ; CORPS 3 : Inclus",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Sport sur ordonnance",
+      "description": "Sport sur ordonnance auprès d'un professionnel agréé pour les adhérents reconnus en Affection de Longue Durée (ALD) ou éligibles - Forfait par an.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "CORPS 1 : 100 € ; CORPS 2 : 200 € ; CORPS 3 : 300 €",
+      "sub_limits": [
+        "Forfait par an"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Forfait valable sur prescription médicale et facture nominative acquittée d’un professionnel de sport agréé Activité Physique Adaptée (APA) ou certifié par une fédération sportive pour les personnes en Affection Longue Durée (ALD), aux patients atteints d'une maladie chronique, présentant des facteurs de risque et aux personnes en situation de perte d'autonomie tels que définis par décret (renvoi (8), page 5)."
+      ],
+      "page": 3
+    },
+    {
+      "name": "100 % Santé - Optique",
+      "description": "Remboursement intégral de l'équipement 100 % Santé - Classe A. Classe A : équipement 100 % Santé sans reste à charge ; classe B : équipement à tarifs libres fixés par l'opticien.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Remboursement intégral",
+      "sub_limits": [
+        "Au minimum 17 modèles de montures adultes en 2 coloris différents",
+        "Au minimum 10 modèles de montures enfants en 2 coloris différents",
+        "Verres amincis de qualité avec traitements garantis : anti-reflets ; anti-rayures."
+      ],
+      "deductible": null,
+      "conditions": [
+        "L’offre 100 % Santé s’adresse à toutes les personnes disposant d’une complémentaire santé responsable (renvoi (2), page 2).",
+        "Ces soins sont encadrés par la mise en place de Prix limites de vente (PLV) pour les professionnels de santé (page 2)."
+      ],
+      "page": 2
+    },
+    {
+      "name": "100 % Santé - Dentaire",
+      "description": "Remboursement intégral de l'équipement 100 % Santé en dentaire.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Remboursement intégral",
+      "sub_limits": [
+        "Différentes prothèses adaptées à la localisation de la dent : plusieurs options de couronnes céramiques, céramométalliques…",
+        "inlay-core et couronne transitoire",
+        "bridge céramométallique incisive",
+        "prothèse amovible (dentier)"
+      ],
+      "deductible": null,
+      "conditions": [
+        "L’offre 100 % Santé s’adresse à toutes les personnes disposant d’une complémentaire santé responsable (renvoi (2), page 2)."
+      ],
+      "page": 2
+    },
+    {
+      "name": "100 % Santé - Aides auditives",
+      "description": "Remboursement intégral de l'équipement 100 % Santé - Classe I.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Remboursement intégral",
+      "sub_limits": [
+        "Sélection étendue de contours d’oreille classiques ou à écouteur déporté ou intra-auriculaires",
+        "Garanties : 30 jours d’essai - 4 ans de garantie fabricant",
+        "Au moins 3 options : système anti-acouphène ; connectivité sans fil ; réducteur bruit du vent…"
+      ],
+      "deductible": null,
+      "conditions": [
+        "L’offre 100 % Santé s’adresse à toutes les personnes disposant d’une complémentaire santé responsable (renvoi (2), page 2)."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Réseau Optique (Itelis)",
+      "description": "Tarifs préférentiels, services de qualité et accompagnement digital personnalisé chez les opticiens du réseau Itelis (+ de 3 700 opticiens).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "jusqu’à 40 % d’économie sur les verres de classe B ; jusqu’à 25 % d’économie sur les montures",
+      "sub_limits": [
+        "des verres de marque sélectionnés rigoureusement",
+        "des garanties après-vente performantes",
+        "un service d’opticien à domicile en partenariat avec Optical Center",
+        "des tests de la vue en ligne",
+        "l’accès au service 100 % Bien Vu : site de commande en ligne proposant un large choix d’équipements de classe A intégralement pris en charge avec essayage virtuel"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Réseau Audio (Itelis)",
+      "description": "Tarifs préférentiels et suivi de l'appareillage chez les audioprothésistes du réseau Itelis (+ de 4 000 audioprothésistes).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "jusqu’à 15 % d’économie sur les aides auditives proposées sur des appareils de marque exclusivement",
+      "sub_limits": [
+        "Un suivi complet de l’appareillage durant toute sa durée de vie, même en cas de déménagement, avec des rendez-vous de contrôle réguliers après la délivrance de l’équipement",
+        "Des garanties après-vente performantes",
+        "Des tests de l’ouïe en ligne"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Réseau Médecines Douces (Itelis)",
+      "description": "Accès facilité aux praticiens en médecines douces du réseau Itelis (+ de 1 600 praticiens en médecines douces).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [
+        "Une sélection rigoureuse pour un référencement de qualité",
+        "Un accès facilité à la prise de rendez-vous auprès de professionnels de la santé tels que des ostéopathes, psychologues et diététiciens selon divers critères (lieu de consultation, spécialités, tarifs négociés en fonction des régions…)"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Géolocalisation des professionnels de santé",
+      "description": "Géolocalisation depuis votre espace personnel pour trouver le professionnel de santé proche de chez vous.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Assistance Matmut",
+      "description": "Service d’assistance pour faire face à une situation délicate et imprévue ou vous apporter des conseils avisés. Service inclus automatiquement (rubrique « Assistance »).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Prestations réalisées par IMA GIE (page 5)."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Allo Léa",
+      "description": "Ligne d’écoute et d’accompagnement. Service inclus automatiquement (rubrique « Assistance »).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Méta-Coaching",
+      "description": "Programmes de coaching santé en ligne pour reprendre le sport, adopter une alimentation saine, gérer son stress, améliorer son sommeil, arrêter de fumer, accompagner les parents d’enfants en surpoids et les femmes à mieux vivre leur ménopause. Service inclus automatiquement (rubrique « Accompagnement et bien-être »).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Coaching santé délivré par MetaCoaching (page 5)."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Salvum",
+      "description": "Formation aux gestes qui sauvent. Service inclus automatiquement (rubrique « Prévention »).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Salvum - Formation en ligne de secourisme (page 5)."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Informations préventives sur les dangers du numérique",
+      "description": "Informations préventives sur les dangers du numérique afin de limiter les risques chez les enfants. Service inclus automatiquement (rubrique « Prévention »).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Bien à l'hôpital",
+      "description": "Des indemnités versées lors d’une hospitalisation pour régler les dépenses imprévues ou pour couvrir et compléter les dépenses hospitalières telles que la télévision et la chambre particulière.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "Indemnités de 15 €/jour versées à partir du 4e jour d’hospitalisation dans la limite de 90 jours par an, dont 30 jours en psychiatrie",
+      "sub_limits": [
+        "dans la limite de 90 jours par an, dont 30 jours en psychiatrie"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Prise en charge uniquement si l'hospitalisation est indemnisée par la Mutuelle Ociane Matmut (renvoi (9), page 5).",
+        "Ce renfort est ouvert à l'adhésion pour les personnes âgées de moins de 75 ans (renvoi (9), page 5).",
+        "Un délai de carence de 3 mois s’applique si cette garantie est souscrite postérieurement au contrat (renvoi (10), page 5)."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Bien dans mon rôle d'aidant",
+      "description": "Des conseils et services d'accompagnement pour organiser la vie quotidienne en cas de perte d'autonomie d'un proche.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Un délai de carence de 3 mois s’applique si cette garantie est souscrite postérieurement au contrat (renvoi (10), page 5)."
+      ],
+      "page": 4
+    },
+    {
+      "name": "SMAC Matmut Restreinte",
+      "description": "Des garanties d’assistance à domicile ou en déplacement et le versement d’un capital en cas d’accident corporel grave.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "SMAC Matmut Renforcée",
+      "description": "Des garanties d’assistance à domicile ou en déplacement et le versement d’un capital en cas d’accident corporel grave. La formule renforcée offre en plus la garantie de protection juridique vie privée.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [
+        "garantie de protection juridique vie privée (en plus de la formule restreinte)"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Chambre particulière (sur demande du patient)",
+      "description": "Chambre particulière sur demande du patient. Le tableau d'exemples de la page 6 indique un remboursement de la Mutuelle Ociane Matmut de 15 €/nuit (NIVEAU 1), 35 €/nuit (NIVEAU 2) et 55 €/nuit (NIVEAU 3), « si Confort Hospi souscrit ». Prix moyen pratiqué « Non connu (NC) », remboursement Sécurité sociale 0 €, reste à charge « Selon la dépense ».",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 15 €/nuit ; NIVEAU 2 : 35 €/nuit ; NIVEAU 3 : 55 €/nuit",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "si Confort Hospi souscrit"
+      ],
+      "page": 6
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Maison d'Accueil Spécialisée (MAS) et EHPAD",
+      "description": "Maison d'Accueil Spécialisée (MAS) et Établissement d'Hébergement pour Personnes Âgées Dépendantes (EHPAD) non pris en charge (renvoi (2), page 5).",
+      "applies_to": "Hospitalisation - Forfait journalier hospitalier",
+      "page": 5
+    },
+    {
+      "name": "Forfait journalier hospitalier au-delà de 90 jours en établissement médico-social",
+      "description": "Durée illimitée « sauf 90 jours pour les établissements médico-sociaux » (renvoi (2), page 5).",
+      "applies_to": "Hospitalisation - Forfait journalier hospitalier",
+      "page": 5
+    },
+    {
+      "name": "Soins antérieurs à la date d'effet",
+      "description": "« Seuls sont pris en charge les soins, actes médicaux ou hospitalisations réalisés après la date d’effet de l’adhésion ou de modification de garanties. »",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Dépenses au-delà des frais réels",
+      "description": "« Les montants des remboursements ne pourront excéder les montants des dépenses réelles. »",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Médecins non adhérents OPTAM / OPTAM-ACO",
+      "description": "Pour les niveaux ayant des dépassements d’honoraires (supérieurs à 100 % BR), le taux indiqué s’applique aux médecins adhérant à l'OPTAM ou l'OPTAM-ACO ; « Pour les médecins non adhérents, ce taux est minoré de 20 % BR dans les « contrats responsables » » (renvoi (1), page 5).",
+      "applies_to": "Hospitalisation - Honoraires ; Soins courants - Honoraires médicaux : généralistes et spécialistes",
+      "page": 5
+    },
+    {
+      "name": "Hors parcours de soins coordonnés",
+      "description": "« Hors parcours de soins coordonnés, la prise en charge est limitée à 100 % BR hors majoration du ticket modérateur appliquée par la Sécurité sociale » (renvoi (5), page 5).",
+      "applies_to": "Soins courants - Honoraires médicaux : généralistes et spécialistes ; Soins courants - Radiologie",
+      "page": 5
+    },
+    {
+      "name": "Actes remboursés par la Sécurité sociale (soutien psychologique)",
+      "description": "Le forfait solidaire soutien psychologique n'est valable que « pour les actes non remboursés par la Sécurité sociale » et chez des psychologues diplômés dans leur spécialité et inscrits aux registres officiels de l’Assurance Maladie (renvoi (7), page 5).",
+      "applies_to": "Soins courants - Forfait solidaire soutien psychologique",
+      "page": 5
+    },
+    {
+      "name": "Forfait soutien psychologique au-delà du 31/12/2026",
+      "description": "Forfait valable « jusqu'au 31/12/2026 » (renvoi (7), page 5).",
+      "applies_to": "Soins courants - Forfait solidaire soutien psychologique",
+      "page": 5
+    },
+    {
+      "name": "Forfait solidaire vaccin antigrippe au-delà du 31/12/2026",
+      "description": "Forfait valable sur facture nominative acquittée « jusqu'au 31/12/2026 » (renvoi (4), page 5).",
+      "applies_to": "Pharmacie - Forfait solidaire vaccin antigrippe",
+      "page": 5
+    },
+    {
+      "name": "Livraisons de médicaments au-delà de 3 par an ou hors rayon de 20 km",
+      "description": "« Prise en charge de 3 livraisons par an par la mutuelle dans un rayon de 20km, au-delà le complément reste à la charge de l’adhérent » (page 5).",
+      "applies_to": "Livmed's : livraison de médicaments à domicile",
+      "page": 5
+    },
+    {
+      "name": "Hospitalisation non indemnisée par la Mutuelle Ociane Matmut",
+      "description": "Pour le renfort « Bien à l'hôpital » : « Prise en charge uniquement si l'hospitalisation est indemnisée par la Mutuelle Ociane Matmut » (renvoi (9), page 5).",
+      "applies_to": "Bien à l'hôpital",
+      "page": 5
+    },
+    {
+      "name": "Adhésion au renfort hospitalisation à partir de 75 ans",
+      "description": "« Ce renfort est ouvert à l'adhésion pour les personnes âgées de moins de 75 ans » (renvoi (9), page 5).",
+      "applies_to": "Bien à l'hôpital",
+      "page": 5
+    },
+    {
+      "name": "Indemnités des 3 premiers jours d'hospitalisation",
+      "description": "Les indemnités de 15 €/jour du renfort sont « versées à partir du 4e jour d’hospitalisation » (renvoi (9), page 5).",
+      "applies_to": "Bien à l'hôpital",
+      "page": 5
+    },
+    {
+      "name": "Utilisation non raisonnable du service de téléconsultation",
+      "description": "« Le service doit faire l’objet d’une utilisation raisonnable » (page 5).",
+      "applies_to": "Medaviz : téléconsultation 24 h/24, 7 j/7",
+      "page": 5
+    },
+    {
+      "name": "Remise à zéro de l'ancienneté des forfaits fidélité",
+      "description": "« Toute rupture de contrat entraînera une remise à zéro de l’ancienneté des forfaits fidélité » (page 5).",
+      "applies_to": "all",
+      "page": 5
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": null,
+    "per_coverage": {
+      "Honoraires (actes coûteux)": "Prise en charge de la participation forfaitaire pour les actes coûteux (renvoi (1), page 5).",
+      "Consultations (exemples pages 6 et 7)": "Un reste à charge de « 2 € de participation forfaitaire » est indiqué dans les exemples de consultations de médecins de secteur 1 et de secteur 2.",
+      "Chambre particulière": "Reste à charge « Selon la dépense » sur les trois niveaux (page 6)."
+    },
+    "page": 5
+  },
+  "waiting_periods": [
+    {
+      "coverage": "Bien à l'hôpital",
+      "duration": "3 mois",
+      "description": "Un délai de carence de 3 mois s’applique si cette garantie est souscrite postérieurement au contrat (renvoi (10), page 5).",
+      "page": 5
+    },
+    {
+      "coverage": "Bien dans mon rôle d'aidant",
+      "duration": "3 mois",
+      "description": "Un délai de carence de 3 mois s’applique si cette garantie est souscrite postérieurement au contrat (renvoi (10), page 5).",
+      "page": 5
+    }
+  ],
+  "obligations": [
+    {
+      "name": "Présentation de la facture nominative acquittée",
+      "description": "Sauf spécifications contraires, les forfaits sont versés par année civile dans la limite de la dépense, sur présentation de la facture nominative acquittée et détaillée par acte.",
+      "timing": "Lors de la demande de remboursement",
+      "sanction": null,
+      "page": 5
+    },
+    {
+      "name": "Prescription médicale (sport sur ordonnance)",
+      "description": "Forfait valable sur prescription médicale et facture nominative acquittée d’un professionnel de sport agréé Activité Physique Adaptée (APA) ou certifié par une fédération sportive.",
+      "timing": "Lors de la demande de remboursement",
+      "sanction": null,
+      "page": 5
+    },
+    {
+      "name": "Utilisation raisonnable du service de téléconsultation",
+      "description": "Le service Medaviz doit faire l’objet d’une utilisation raisonnable.",
+      "timing": "Pendant le contrat",
+      "sanction": null,
+      "page": 5
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Tiers payant",
+      "description": "« Pas d’avance de frais avec le tiers payant » ; la carte de tiers payant est disponible sur smartphone et une application permet de gérer et suivre les remboursements à distance.",
+      "deadline": null,
+      "page": 1
+    },
+    {
+      "step": "Envoi de la facture",
+      "description": "Les forfaits sont versés sur présentation de la facture nominative acquittée et détaillée par acte.",
+      "deadline": null,
+      "page": 5
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le tableau de garanties est intitulé « Mes garanties pour l'année 2026 » et porte le code « 20260101_20261231_IND2022 » ; les forfaits sont versés par année civile.",
+    "tacit_renewal": null,
+    "notice_period": null,
+    "methods": null,
+    "special_rights": [
+      "« Toute rupture de contrat entraînera une remise à zéro de l’ancienneté des forfaits fidélité. »"
+    ],
+    "page": 5
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "« Cotisation gratuite pour le 3e enfant et les suivants de moins de 21 ans » (page 1).",
+      "« J’opte pour la mutuelle alternative qui couvre uniquement l’essentiel pour une cotisation minimale » (page 1).",
+      "Aucun montant de cotisation n'est indiqué dans le document."
+    ],
+    "indexation": null,
+    "page": 1
+  },
+  "special_conditions": [
+    {
+      "name": "Assureur de la garantie Santé",
+      "description": "« Assureur de la garantie Santé - Mutuelle Ociane - Mutuelle soumise aux dispositions du Livre II du Code de la Mutualité, immatriculée sous le n° SIREN 434 243 085. Siège social : 35 rue Claude Bonnier - 33054 BORDEAUX Cedex. » Matmut est mentionnée séparément comme « Mutuelle assurance des travailleurs mutualistes, Société d’assurance mutuelle à cotisations variables, immatriculée au RCS de Rouen n° 775 701 477 ». La marque employée dans les tableaux de remboursement est « Mutuelle Ociane Matmut ».",
+      "page": 5
+    },
+    {
+      "name": "Document non contractuel",
+      "description": "« Document non contractuel. L’ensemble des garanties évoquées dans ce document s’applique dans les limites et conditions définies au contrat. »",
+      "page": 5
+    },
+    {
+      "name": "Contrat non responsable si la garantie est souscrite seule",
+      "description": "« La garantie « Bien pour mon corps » souscrite seule est un contrat non responsable. L'offre 100 % Santé s'adresse à toutes les personnes disposant d'une complémentaire santé responsable. »",
+      "page": 5
+    },
+    {
+      "name": "Lecture des pourcentages et des forfaits",
+      "description": "« Les pourcentages et les forfaits indiqués représentent à la fois la part de la Sécurité sociale et la part de la Mutuelle Ociane Matmut. Ils s'appliquent sur la Base de Remboursement (BR) de la Sécurité sociale, c'est-à-dire le prix de référence des soins fixés par l'Assurance Maladie. »",
+      "page": 5
+    },
+    {
+      "name": "Trois niveaux de garanties",
+      "description": "Le tableau de garanties de la page 3 nomme les trois niveaux CORPS 1, CORPS 2 et CORPS 3 ; les tableaux d'exemples des pages 6 et 7 nomment les mêmes trois colonnes NIVEAU 1, NIVEAU 2 et NIVEAU 3. La page 1 annonce « Plusieurs niveaux de garanties possibles pour trouver la mutuelle adaptée à vos besoins et votre budget ».",
+      "page": 3
+    },
+    {
+      "name": "Réseau de soins Itelis",
+      "description": "« Notre réseau de soins Itelis, près de 10 000 partenaires santé sur tout le territoire » : + de 3 700 opticiens, + de 4 000 audioprothésistes, + de 1 600 praticiens en médecines douces.",
+      "page": 2
+    },
+    {
+      "name": "Services digitaux et réseau d'agences",
+      "description": "« Services digitaux avec la carte de tiers payant sur smartphone et une application pour gérer et suivre les remboursements à distance » ; « Conseillers disponibles dans 480 agences partout en France et par téléphone 6 j/7 » ; « De nombreux services à votre disposition dès la première année ! »",
+      "page": 1
+    },
+    {
+      "name": "Prestataires de services cités",
+      "description": "Itelis est une marque d'Isea (RCS Paris n° Siren 440 358 471) ; Assistance réalisée par IMA GIE (RCS Niort n° Siren 320 281 025) ; Téléconsultation Medaviz mise en œuvre par Podalire (RCS Paris n° SIREN 807 414 024) ; deuxiemeavis.fr édité par CARIANS (RCS Paris n° SIREN 803 657 717) ; LIVMED'S (RCS Nice n° 881 600 456) ; MetaCoaching (RCS Paris n° SIREN 513 782 003) ; Salvum (RCS Meaux n° SIREN 801 777 541). Aucune de ces sociétés n'est désignée comme porteur du risque.",
+      "page": 5
+    },
+    {
+      "name": "Exemples de remboursement",
+      "description": "Les pages 6 et 7 donnent des exemples chiffrés (« Quelques exemples pour mieux comprendre pour l'année 2026 ») pour le forfait journalier hospitalier, la chambre particulière, les séjours avec actes lourds en secteur privé (opération de la cataracte : frais de séjour 838,98 €, honoraires chirurgien 443 € en secteur 2 OPTAM et 486 € hors OPTAM), les séjours sans actes lourds en hôpital public (pneumonie/pleurésie : 3754 €), et des consultations de généralistes, pédiatres et spécialistes ainsi qu'une paire de béquilles (26,71 €).",
+      "page": 6
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "BR : Base de Remboursement de la Sécurité sociale.",
+      "page": 5,
+      "context": null
+    },
+    {
+      "quote": "Les pourcentages et les forfaits indiqués représentent à la fois la part de la Sécurité sociale et la part de la Mutuelle Ociane Matmut.",
+      "page": 5,
+      "context": null
+    },
+    {
+      "quote": "Sauf spécifications contraires, les forfaits sont versés par année civile dans la\nlimite de la dépense, sur présentation de la facture nominative acquittée et détaillée par acte.",
+      "page": 5,
+      "context": null
+    },
+    {
+      "quote": "Les montants des remboursements ne pourront excéder les montants des dépenses\nréelles.",
+      "page": 5,
+      "context": null
+    },
+    {
+      "quote": "Seuls sont pris en charge les soins, actes médicaux ou hospitalisations réalisés après la date d’effet de l’adhésion ou de modification de garanties.",
+      "page": 5,
+      "context": null
+    },
+    {
+      "quote": "Toute rupture de contrat\nentraînera une remise à zéro de l’ancienneté des forfaits fidélité.",
+      "page": 5,
+      "context": null
+    },
+    {
+      "quote": "La garantie « Bien pour mon corps » souscrite seule est un contrat non responsable.",
+      "page": 5,
+      "context": null
+    },
+    {
+      "quote": "(1) Prise en charge de la participation forfaitaire pour les actes coûteux.",
+      "page": 5,
+      "context": null
+    },
+    {
+      "quote": "Pour les médecins non\nadhérents, ce taux est minoré de 20 % BR dans les « contrats responsables ».",
+      "page": 5,
+      "context": null
+    },
+    {
+      "quote": "(2) 20 €/jour (sauf psychiatrie 15 €/jour), durée illimitée (sauf 90 jours pour les\nétablissements médico-sociaux), Maison d'Accueil Spécialisée (MAS) et Établissement\nd'Hébergement pour Personnes Âgées Dépendantes (EHPAD) non pris en charge.",
+      "page": 5,
+      "context": null
+    },
+    {
+      "quote": "(3) Vaccins du voyageur : fièvre jaune, typhoïde, encéphalite...",
+      "page": 5,
+      "context": null
+    },
+    {
+      "quote": "(4) Forfait valable sur facture nominative acquittée jusqu'au 31/12/2026.",
+      "page": 5,
+      "context": null
+    },
+    {
+      "quote": "(5) Hors parcours de soins coordonnés, la prise en charge est limitée à 100 % BR hors\nmajoration du ticket modérateur appliquée par la Sécurité sociale.",
+      "page": 5,
+      "context": null
+    },
+    {
+      "quote": "(6) Fauteuils roulants 100% santé sans reste à charge : la liste exhaustive des\néquipements et leurs Prix Limites de Vente (PLV) sont définis règlementairement.",
+      "page": 5,
+      "context": null
+    },
+    {
+      "quote": "(7) Forfait valable pour les actes non remboursés par la Sécurité sociale sur facture\nnominative acquittée, chez les psychologues diplômés dans leur spécialité et inscrits aux\nregistres officiels de l’Assurance Maladie jusqu'au 31/12/2026.",
+      "page": 5,
+      "context": null
+    },
+    {
+      "quote": "(8) Forfait valable sur prescription médicale et facture nominative acquittée d’un\nprofessionnel de sport agréé Activité Physique Adaptée (APA) ou certifié par une\nfédération sportive pour les personnes en Affection Longue Durée (ALD), aux patients\natteints d'une maladie chronique, présentant des facteurs de risque et aux personnes en\nsituation de perte d'autonomie tels que définis par décret.",
+      "page": 5,
+      "context": null
+    },
+    {
+      "quote": "(9) Indemnités de 15 €/jour versées à partir du 4e jour d’hospitalisation dans la limite\nde 90 jours par an, dont 30 jours en psychiatrie. Prise en charge uniquement si\nl'hospitalisation est indemnisée par la Mutuelle Ociane Matmut. Ce renfort est ouvert à\nl'adhésion pour les personnes âgées de moins de 75 ans.",
+      "page": 5,
+      "context": null
+    },
+    {
+      "quote": "(10) Un délai de carence de 3 mois s’applique si cette garantie est souscrite\npostérieurement au contrat.",
+      "page": 5,
+      "context": null
+    },
+    {
+      "quote": "Assureur de la garantie Santé - Mutuelle Ociane - Mutuelle soumise aux dispositions\ndu Livre II du Code de la Mutualité, immatriculée sous le n° SIREN 434 243 085.",
+      "page": 5,
+      "context": null
+    },
+    {
+      "quote": "Matmut - Mutuelle assurance des travailleurs mutualistes, Société d’assurance mutuelle\nà cotisations variables, immatriculée au RCS de Rouen n° 775 701 477. Entreprise régie\npar le Code des assurances, 66, rue de Sotteville 76100 Rouen.",
+      "page": 5,
+      "context": null
+    },
+    {
+      "quote": "Prise en charge de 3 livraisons par an par la mutuelle\ndans un rayon de 20km, au-delà le complément reste à la charge de l’adhérent.",
+      "page": 5,
+      "context": null
+    },
+    {
+      "quote": "Document non contractuel. L’ensemble des garanties évoquées dans ce\ndocument s’applique dans les limites et conditions définies au contrat.",
+      "page": 5,
+      "context": null
+    },
+    {
+      "quote": "J’opte pour la mutuelle alternative qui couvre uniquement l’essentiel  \npour une cotisation minimale. Face aux risques importants,  \nje ne fais pas l’impasse sur ma mutuelle !",
+      "page": 1,
+      "context": null
+    },
+    {
+      "quote": "Honoraires (1)\n100 % BR\n125 % BR\n150 % BR",
+      "page": 3,
+      "context": null
+    },
+    {
+      "quote": "Prothèses externes remboursées par la Sécurité sociale\n(capillaires, mammaires, oculaires) - Forfait par acte\n100 % BR + 50 €\n100 % BR + 75 €\n100 % BR + 100 €",
+      "page": 3,
+      "context": null
+    },
+    {
+      "quote": "Sport sur ordonnance auprès d'un professionnel agréé pour les\nadhérents reconnus en Affection de Longue Durée (ALD) ou\néligibles (8) - Forfait par an\n100 €\n200 €\n300 €",
+      "page": 3,
+      "context": null
+    },
+    {
+      "quote": "Des indemnités versées lors d’une\nhospitalisation pour régler les dépenses\nimprévues \nou \npour \ncouvrir \net\ncompléter les dépenses hospitalières\ntelles que la télévision et la chambre\nparticulière.",
+      "page": 4,
+      "context": null
+    },
+    {
+      "quote": "Des garanties d’assistance à domicile\nou en déplacement et le versement\nd’un capital en cas d’accident corporel\ngrave. La formule renforcée offre en\nplus la garantie de protection juridique\nvie privée.",
+      "page": 4,
+      "context": null
+    },
+    {
+      "quote": "15 €/nuit\nsi Confort Hospi \nsouscrit",
+      "page": 6,
+      "context": null
+    },
+    {
+      "quote": "Ces soins répondent à des exigences de qualité et sont encadrés par la \nmise en place de Prix limites de vente (PLV) pour les professionnels de santé \nqui ont l’obligation de vous proposer des équipements « 100 % Santé",
+      "page": 2,
+      "context": null
+    }
+  ],
+  "gaps": [
+    "Type de document : fiche produit commerciale, non contractuelle. Le document porte lui-même la mention « Document non contractuel. L’ensemble des garanties évoquées dans ce document s’applique dans les limites et conditions définies au contrat. » Il ne comporte donc ni chapitre de définitions contractuelles, ni section d'exclusions, ni clause de durée/résiliation, ni délai de prescription. Les exclusions listées ici sont les seules restrictions écrites du document : elles proviennent des renvois (1) à (10) et du chapeau de la page 5.",
+    "Nom du produit : le document imprime « Santé vous bien ! » et le sous-titre « La mutuelle santé personnalisable ». Le nom de fichier de la source (« fiche-produit-hospitalisation-Sante-vous-bien.pdf ») suggère une fiche limitée à l'hospitalisation, mais le document couvre l'ensemble du produit : hospitalisation, pharmacie, soins courants, services de médecine à distance et sport sur ordonnance. Le document a été retenu contre le nom de fichier.",
+    "PDF composite : les pages 1-2 (fiche 100 % Santé / réseau Itelis, polices CodecPro et ToshA) et les pages 3-7 (tableaux de garanties et d'exemples, polices Verdana et Helvetica) portent des codes d'édition différents — « FICHE.SAN.ITELIS - 08/25 » (page 2), « 20260101_20261231_IND2022 » (page 5) et « IND 2022-0925 » (page 7). Les codes sont reproduits verbatim ; edition_date et reference reprennent celui de la fiche (08/25), et les tableaux sont intitulés « pour l'année 2026 ».",
+    "Porteur du risque : le document désigne explicitement l'assureur par le verbe — « Assureur de la garantie Santé - Mutuelle Ociane » (pages 2 et 5). C'est la Mutuelle Ociane (SIREN 434 243 085), et non Matmut (RCS Rouen 775 701 477), qui porte la garantie Santé, même si insurer_name vaut « Matmut » dans les métadonnées de la tâche et que la marque commerciale des tableaux est « Mutuelle Ociane Matmut ». Les sociétés IMA GIE, Isea/Itelis, Podalire, CARIANS, LIVMED'S, MetaCoaching et Salvum sont des prestataires de services et ne portent aucun risque.",
+    "target_audience laissé à null : le document n'énonce aucune catégorie de public (ni « particuliers », ni « entreprises », etc.). Les seules conditions d'éligibilité imprimées sont ponctuelles (renfort hospitalisation ouvert aux personnes de moins de 75 ans ; cotisation gratuite pour le 3e enfant et les suivants de moins de 21 ans) et ne désignent pas un public au sens du schéma. La catégorie n'a pas été déduite du type de produit.",
+    "Ordre de lecture du texte plat, page 2 — vérification faite et POSITIVE. Les quatre encadrés de réseaux sont émis dans un ordre qui ne correspond pas à leur position imprimée, ce qui mis-attribue trois blocs si on lit le texte à plat : (a) « Une sélection rigoureuse pour un référencement de qualité » et « Un accès facilité à la prise de rendez-vous auprès de professionnels de la santé tels que des ostéopathes, psychologues et diététiciens » sont émis juste après les items du Réseau Optique alors qu'ils appartiennent au Réseau Médecines Douces (colonne de droite, x≈392 pt) ; (b) les quatre items « 15 % d'économie sur les aides auditives », « Un suivi complet de l'appareillage », « Des garanties après-vente performantes » et « Des tests de l'ouïe en ligne » sont émis après l'en-tête « Réseau Médecines Douces » alors qu'ils appartiennent au Réseau Audio (colonne du milieu, x≈220 pt) ; (c) « Remboursement intégral des fauteuils roulants » est émis avant son en-tête « Fauteuils roulants ». Le rattachement a été reconstruit item par item sur l'abscisse et l'ordonnée de chaque ligne (Réseau Optique x≈48, Réseau Audio x≈220, Réseau Médecines Douces et Fauteuils roulants x≈392-400, séparés par l'ordonnée) et confirmé sur un rendu de la page. Le bloc de mentions légales du bas de page est également émis en premier dans le texte plat.",
+    "Ordre de lecture du texte plat, page 1 — vérification faite et POSITIVE. Les trois en-têtes de colonnes sont émis dans l'ordre 1-3-2 (« Des avantages exclusifs » x≈70, puis « Des prestations d'accompagnement » x≈407, puis « Des services de médecine à distance » x≈225) alors que les items qui suivent sont émis de gauche à droite. Une lecture séquentielle rattacherait les items à la mauvaise colonne. Rattachement reconstruit sur l'abscisse et confirmé au rendu : téléconsultation, livraison de médicaments, deuxième avis médical et bilan de santé digital relèvent de « Des services de médecine à distance » ; coaching, assistance et formation aux gestes qui sauvent relèvent de « Des prestations d'accompagnement ».",
+    "Tableau de garanties de la page 3 — contrôle de géométrie fait, NÉGATIF, comptes fermés. L'ordre des colonnes du texte plat correspond à l'ordre imprimé : CORPS 1 (x≈324 pt), CORPS 2 (x≈414 pt), CORPS 3 (x≈504 pt), de gauche à droite. Aucune inversion. Aucune coche : les 23 lignes × 3 colonnes = 69 cellules portent toutes une valeur textuelle (69 valeurs, 0 coche, 0 cellule vide) ; la couche graphique de la page ne contient aucune marque de petite taille. Même contrôle négatif sur les tableaux d'exemples des pages 6 et 7 (NIVEAU 1 x≈321, NIVEAU 2 x≈411, NIVEAU 3 x≈500) et sur les trois colonnes de la page 4.",
+    "Divergence de dénomination des niveaux : le tableau de garanties (page 3) nomme les colonnes CORPS 1 / CORPS 2 / CORPS 3, tandis que les tableaux d'exemples (pages 6 et 7) nomment les mêmes trois colonnes NIVEAU 1 / NIVEAU 2 / NIVEAU 3. Le document n'énonce nulle part que les deux séries de libellés désignent les mêmes niveaux ; les deux ont été conservées telles qu'imprimées et aucune équivalence n'a été inférée.",
+    "Contradiction apparente sur l'option hospitalisation : la page 4 nomme la garantie optionnelle « Bien à l'hôpital » (indemnités de 15 €/jour à partir du 4e jour, renvoi (9)), tandis que la page 6 conditionne le remboursement de la chambre particulière (15 / 35 / 55 €/nuit) à la mention « si Confort Hospi souscrit ». Le document ne dit pas si « Confort Hospi » et « Bien à l'hôpital » désignent la même option, et ne définit nulle part « Confort Hospi ». Les deux libellés sont enregistrés tels qu'imprimés, sans rapprochement.",
+    "Postes absents du tableau de garanties : le tableau « Bien pour mon corps » (page 3) ne comporte aucune ligne optique, dentaire ou aides auditives. Les seules informations du document sur ces trois postes sont celles de la page 2 (remboursement intégral des équipements 100 % Santé et avantages tarifaires du réseau Itelis). Le document ne donne donc aucun niveau de remboursement optique/dentaire/audio hors 100 % Santé.",
+    "Bloc d'identité de la page 1 non textuel : le logotype imprimé en haut à gauche de la page 1 (« MUTUELLE OCIANE matmut ») est une image et n'existe pas dans la couche texte ; il a été lu sur un rendu et n'est pas cité en key_quotes. Les labels et récompenses figurant en bas de la page 1 (« LABEL EXCELLENCE 2025 », « LE TROPHÉE DE L'ASSURÉ - PRODUIT OR », certifications AFAQ ISO 9001 et Engagé RSE) sont également des images sans couche texte ; ils sont signalés ici et ne figurent dans aucun champ structuré, faute de portée contractuelle.",
+    "Défauts de la couche texte relevés et NON réparés, pour que les citations restent des tranches exactes : 37 caractères de contrôle U+0007 (3 page 1, 34 page 2) insérés en milieu de phrase là où InDesign place un séparateur de puce ; 32 espaces insécables U+00A0, y compris à l'intérieur de la raison sociale de l'assureur (« du Livre II du Code de la Mutualité, immatriculée sous le n° SIREN 434 243 085 ») et de « (capillaires, mammaires, oculaires) » ; apostrophes courbes U+2019 et ASCII mélangées dans une même page (page 5 : 18 courbes et 16 ASCII) ; une coupure de mot par trait d'union en fin de ligne (« rendez-\\nvous », page 2). Les key_quotes ont été découpées programmatiquement dans le texte extrait du PDF et évitent toutes ces zones ; aucune ne contient de caractère de contrôle ni ne franchit une frontière de page. Aucun caractère à chasse nulle, aucun glyphe de zone privée, aucune ligature perdue, aucun accent décomposé n'a été détecté ; le glyphe € est présent (193 occurrences) et les montants conservent leur unité.",
+    "Vérification de la source : le texte des 7 pages a été ré-extrait du PDF local (data/fr/pdfs/matmut/sante/sante-vous-bien-hospitalisation-79a41775.pdf) avec le même appel que le harnais et il est identique caractère pour caractère au texte fourni dans le prompt, page par page. Le prompt n'est pas tronqué. Aucun texte hors du rectangle de page, aucun texte blanc sur blanc, aucun en-tête surnuméraire, aucun bloc chiffré n'a été trouvé. La mention « FR » de la page 2 est un libellé blanc pivoté posé sur une icône de document (visible au rendu), sans portée de contenu.",
+    "Les numéros de page cités sont ceux des marqueurs [[page N]], vérifiés par recherche d'ancre : le document n'imprime pas de folio, donc aucun décalage folio/page PDF n'est en cause.",
+    "Les pages 6 et 7 sont des exemples chiffrés de remboursement, pas des garanties. Leurs valeurs (prix moyen pratiqué, remboursement Sécurité sociale, remboursement Mutuelle Ociane Matmut, reste à charge) n'ont pas été transcrites cellule par cellule dans coverages ; elles sont résumées dans special_conditions, à l'exception de la chambre particulière (page 6), qui est le seul poste dont le montant de remboursement n'apparaît nulle part ailleurs et qui a donc été retenu comme garantie."
+  ]
+}

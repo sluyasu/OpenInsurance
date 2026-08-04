@@ -714,6 +714,7 @@ Renvoi (3) : forfaits pour les équipements à tarifs libres incluant le rembour
 
 - Édition courante de ce produit.
 - [Santé vous bien ! - Fiche](Sant%C3%A9%20vous%20bien%20%21%20-%20Fiche%20%284%29.md) - Fiche produit, éd. 2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)
+- [Santé vous bien ! - Fiche](Sant%C3%A9%20vous%20bien%20%21%20-%20Fiche%20%286%29.md) - Fiche produit, éd. 08/25
 - [Santé vous bien ! - Fiche](Sant%C3%A9%20vous%20bien%20%21%20-%20Fiche%20%283%29.md) - Fiche produit, éd. 2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)
 - [Santé vous bien avec la Mutuelle Ociane Matmut — Niveaux responsables - IPID](Sant%C3%A9%20vous%20bien%20avec%20la%20Mutuelle%20Ociane%20Matmut%20%E2%80%94%20Niveaux%20responsables%20-%20IPID.md) - IPID / Fiche d'information, éd. 0925
 - [Santé vous bien ! - Fiche](Sant%C3%A9%20vous%20bien%20%21%20-%20Fiche%20%285%29.md) - Fiche produit, éd. 2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)

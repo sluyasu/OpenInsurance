@@ -156,6 +156,10 @@ En cas d’impossibilité, suite à un événement soudain et grave, de se prés
 - Onze caractères de la zone à usage privé (PUA) subsistent dans la couche texte : ce sont les coches Wingdings décrites ci-dessus. Ils sont conservés tels quels dans les citations.
 - L’extraction du texte a été refaite indépendamment avec page.get_text("text") de PyMuPDF sur le fichier local : les 2 pages ressortent identiques au texte du prompt (0 page divergente).
 
+## Documents liés
+
+- [Assurance de l'Étudiant et Matmut-Smac](Assurance%20de%20l%27%C3%89tudiant%20et%20Matmut-Smac.md) - Conditions générales, éd. 10/25
+
 ## Source & fidélité
 
 - Source : [https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDETUDIANTS.pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDETUDIANTS.pdf) - téléchargé le 2026-07-30 - 2 pages
