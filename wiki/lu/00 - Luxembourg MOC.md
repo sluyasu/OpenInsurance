@@ -78,20 +78,26 @@ La règle de ce projet — lire le porteur dans le document, jamais dans la marq
 
 ### Mais ce n'est pas une fatalité du marché : c'est un choix d'éditeur
 
-Le second porteur entré dans le corpus le démontre. Mesuré de la même façon, sur le texte des PDF :
+Les deux porteurs entrés ensuite dans le corpus le démontrent. Mesuré de la même façon, sur le texte
+des PDF :
 
 | Porteur | Documents | Nomment une entité agréée |
 |---|---|---|
 | lalux | 90 | **4** (4 %) |
 | Baloise | 34 | **33** (97 %) |
+| DKV | 36 | **36** (100 %) |
 
 Baloise imprime « Compagnie : » — « Gesellschaft : » en allemand — **en tête de chaque page**, sur
-des documents du même format IPID, chez un porteur soumis au même superviseur et à la même loi. Et
-il ne nomme **aucun** gestionnaire de sinistres, assisteur, courtier ou distributeur : le piège des
-douze documents lalux n'a ici aucune prise, faute de mauvais candidat.
+des documents du même format IPID, chez un porteur soumis au même superviseur et à la même loi. DKV
+va plus loin : ses trente-six documents nomment tous `DKV Luxembourg S.A.`, et **aucun des trois
+éditeurs n'a ici de mauvais candidat** — ni gestionnaire de sinistres, ni assisteur, ni courtier
+n'est nommé, alors que douze documents lalux nomment « Willis Towers Watson Luxembourg S.A. » sans
+jamais nommer l'assureur.
 
 **Le constat « un IPID ne nomme pas son assureur » était donc une observation sur un éditeur, pas
-sur le format.** Le format ne l'interdit pas ; un éditeur le fait, l'autre non.
+sur le format.** Le format ne l'interdit pas ; un éditeur le fait, deux autres le font
+systématiquement. Et l'écart n'est pas une question de taille ou d'ancienneté : c'est un choix
+éditorial, mesurable document par document.
 
 Mieux : la spécialisation légale se lit dans les documents. Baloise a deux entités agréées, et **un
 seul de ses trente-quatre documents nomme l'entité vie** — celui du [[Solde restant dû]], seule
@@ -131,6 +137,7 @@ Quatre absences sont délibérées, chacune vérifiée dans le texte :
 
 <!-- BEGIN GENERATED: insurers -->
 - [Baloise Luxembourg](insurers/Baloise%20Luxembourg.md) (34 documents)
+- [DKV Luxembourg](insurers/DKV%20Luxembourg.md) (27 documents)
 - [lalux](insurers/lalux.md) (90 documents)
 <!-- END GENERATED -->
 
@@ -164,10 +171,26 @@ comptent **aucune** conditions générales. Détail dans `_meta/discovery/lu/axa
 
 ## Portée et limites
 
-Comme en France, le document public standard est celui qu'impose la directive sur la distribution.
-**Sur les quatre-vingt-dix documents d'un assureur de détail, quatre seulement sont de vraies
-conditions générales** — toutes en construction B2B. Le reste est constitué de documents
-d'information, dont beaucoup renvoient à des conditions générales publiées nulle part.
+Comme en France, le document public standard est celui qu'impose la directive sur la distribution :
+la fiche d'information, pas le contrat. Le corpus luxembourgeois le montre crûment, et l'écart entre
+éditeurs y est plus grand que l'écart au format.
+
+| Porteur | Documents publiés | Vraies conditions générales |
+|---|---|---|
+| Foyer | ~800 | **0** |
+| Baloise | 268 | **0** |
+| lalux | 90 | **4** (toutes en construction B2B) |
+| **DKV** | 60 | **9** |
+| AXA Luxembourg | 631 | **≥ 302**, toutes fermées par `robots.txt` |
+
+**Sur les 151 documents extraits à ce jour, 140 sont des IPID et onze seulement sont de vraies
+conditions générales.** Beaucoup des IPID renvoient d'ailleurs à des conditions générales publiées
+nulle part — c'est une observation sur la pratique de publication, pas un manquement : publier
+l'IPID est une obligation, publier les conditions générales n'en est pas une.
+
+DKV change la donne à lui seul : neuf contrats, en santé et en voyage, là où le corpus n'en comptait
+que quatre. Et le cas AXA reste le plus frustrant du pays — trois cents contrats publiés, tous hors
+d'atteinte.
 
 Deux observations sur les documents eux-mêmes, énoncées comme des constats et non comme un jugement
 — la règle 1 interdit de noter un assureur, compter ce qu'on lit dans ses documents ne s'y oppose

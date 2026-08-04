@@ -1,0 +1,311 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "lu",
+  "insurer_slug": "dkv",
+  "insurer_name": "DKV Luxembourg",
+  "product_name": "CONTINUE PLUS",
+  "branch": "sante",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": "independants",
+  "target_audience_note": "« Il s’agit d’une Indemnités journalières pour indépendants et libéraux. » (formulation du document, y compris l’accord fautif)",
+  "reference": null,
+  "edition_date": null,
+  "product_family": "CONTINUE PLUS",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_CONTINUE_fr.pdf",
+  "source_pdf": "continue-8b305c7f.pdf",
+  "source_sha256": "a5fe94824572c6ac274bb692aeb5faaae03705ef5c09adea3f2d9d12b6ca1262",
+  "source_pages": 2,
+  "fetched_at": "2026-08-04",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d’information sur le produit d’assurance de DKV Luxembourg S.A. pour le produit CONTINUE PLUS, une assurance maladie privée. Il s’agit d’une garantie d’indemnités journalières pour indépendants et libéraux en cas d’incapacité de travail temporaire pour cause de maladie ou d’accident. Le montant de l’indemnité journalière est convenu individuellement dans le contrat et la durée maximale d’indemnisation dépend du tarif souscrit.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Incapacité de travail temporaire en cas de maladie ou d’accident",
+      "description": "Incapacité de travail temporaire en cas de maladie ou d’accident",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Max. 350 jours pour les tarifs PLUS CONTINUE TF1/TS1 ou Max. 715 jours pour les tarifs PLUS CONTINUE TF2/TS2",
+      "sub_limits": [
+        "Max. 350 jours pour les tarifs PLUS CONTINUE TF1/TS1",
+        "Max. 715 jours pour les tarifs PLUS CONTINUE TF2/TS2"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Indemnité journalière",
+      "description": "Une indemnité journalière - convenue individuellement dans le contrat et versée au contractant en cas d’incapacité de travail pour cause de maladie ou accident. Le montant sera versé dès le début de la période convenu dans le contrat pour l’incapacité de travail dû à une maladie ou à un accident.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "convenue individuellement dans le contrat",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Le montant sera versé dès le début de la période convenu dans le contrat"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Paiement 7 jours sur 7",
+      "description": "L’indemnité sera payée 7 jours sur 7, dimanches et jours fériés compris",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Accidents du travail et maladies professionnelles",
+      "description": "L’indemnité journalière sera versée aussi en cas d’accident de travail et de maladies professionnelles",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Domaine de validité – Luxembourg / pays du domicile permanent",
+      "description": "Le domaine de validité s’étend sur tout le Luxembourg et/ou le pays du domicile permanent de la personne assurée",
+      "is_optional": false,
+      "territorial_scope": "Luxembourg et/ou pays du domicile permanent de la personne assurée",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Maladie aiguë ou accident dans un pays européen",
+      "description": "En cas de maladie aiguë ou d’accident survenu(e) dans un pays européen, l’indemnité journalière est payée dans l’étendue convenue au contrat pour la durée d’un traitement médical dans un hôpital public, sauf accord contraire.",
+      "is_optional": false,
+      "territorial_scope": "pays européen",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "pour la durée d’un traitement médical dans un hôpital public, sauf accord contraire"
+      ],
+      "page": 2
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Frais médicaux",
+      "description": "Frais médicaux",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Simple réduction de la capacité de travail",
+      "description": "La simple réduction de la capacité de travail",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Rayonnement, énergie nucléaire, guerre, terrorisme",
+      "description": "Les dommages due au rayonnement ou à l´énergie nucléaire ainsi que ceux dus à la guerre (civile), l`insurrection, le terrorisme ou circonstances similaires",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Traitements de cure et de sanatorium",
+      "description": "Les traitements de cure et de sanatorium",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Traitements non médicalement nécessaires",
+      "description": "Les traitements qui ne sont pas médicalement nécessaires",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Sinistres après expiration du contrat",
+      "description": "Aucune garantie pour les sinistres après expiration du contrat d’assurance",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Étendue déterminée par les conditions",
+      "description": "La couverture sera déterminée par la description et l’étendue des remboursements décrits et spécifiés dans les conditions particulières et spéciales (CGA et Conditions du tarif)",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Sinistres survenus avant l’échéance des délais de carence",
+      "description": "Aucunes prestations pour des sinistres survenus avant l’échéance des délais de carence",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Remboursement limité aux montants convenus",
+      "description": "Remboursement limité aux frais aux montants convenus dans le contrat tout comme la durée de l’indemnité journalière",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Autres exclusions",
+      "description": "Autres exclusions: En cas de manquement aux obligations définies dans les CGA ; En cas de retard de paiement des cotisations ; En cas d’un séjour à l’étranger hors Europe",
+      "applies_to": "all",
+      "page": 1
+    }
+  ],
+  "deductibles": null,
+  "waiting_periods": [
+    {
+      "coverage": null,
+      "duration": null,
+      "description": "Aucunes prestations pour des sinistres survenus avant l’échéance des délais de carence. La garantie ne prend pas effet avant l’échéance des délais de carence. La durée des délais de carence n’est pas indiquée dans le document.",
+      "page": 1
+    }
+  ],
+  "obligations": [
+    {
+      "name": "Déclaration de l’incapacité de travail",
+      "description": "L`incapacité de travail médicalement constatée est à déclarer sans délai auprès de l’assureur – au plus tard dans un délai de 3 jours suivant le début convenu pour l’indemnisation – par présentation d’une attestation conforme au CGA.",
+      "timing": "sans délai, au plus tard dans un délai de 3 jours suivant le début convenu pour l’indemnisation",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Fourniture des renseignements et justificatifs",
+      "description": "Le contractant et la personne assurée sont tenus de fournir à sa demande à l’assureur tout renseignement et justificatif nécessaire au constat et vérification du sinistre.",
+      "timing": "à la demande de l’assureur",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Examen médical",
+      "description": "A la demande de l’assureur, la personne assurée est tenue de se faire examiner par un médecin commis par l’assureur.",
+      "timing": "à la demande de l’assureur",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Paiement de la cotisation",
+      "description": "Le contractant est tenu au paiement de la cotisation (prime) convenue et tous frais annexes, taxes comprises dans les délais convenus.",
+      "timing": "dans les délais convenus",
+      "sanction": "Autres exclusions : en cas de retard de paiement des cotisations",
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclaration de l’incapacité de travail",
+      "description": "L`incapacité de travail médicalement constatée est à déclarer sans délai auprès de l’assureur par présentation d’une attestation conforme au CGA.",
+      "deadline": "sans délai – au plus tard dans un délai de 3 jours suivant le début convenu pour l’indemnisation",
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "La garantie prend effet à la date indiquée sur la police d`assurance, mais pas avant la conclusion du contrat d`assurance - autrement dit pas avant la signature du contrat par les deux parties contractantes, ni avant l`échéance des délais de carence. La garantie prend fin - également pour les sinistres déjà déclarés - à expiration du contrat.",
+    "tacit_renewal": null,
+    "notice_period": "Le délai de résiliation est de 30 jours .",
+    "methods": [
+      "La résiliation doit se faire sous forme écrite."
+    ],
+    "special_rights": [
+      "Vous pouvez résilier votre contrat d’assurance avec effet à la fin de l’année d’assurance mais pas avant l’expiration d’une durée initiale de deux ans.",
+      "Vous pouvez résilier le contrat d’assurance dans sa totalité ou pour certaines personnes assurées.",
+      "Dans certains cas, vous avez le droit à une résiliation particulière, par exemple en cas d’une augmentation de primes.",
+      "Le contrat prend fin: lors de la résiliation du contrat ; en cas de décès du contractant ou ; Au cas où les conditions pour l`assurabilité selon les Conditions Générales ou Particulières ne sont plus remplis"
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "La première prime ou la première mensualité sont payables immédiatement après réception de la police d´assurance, mais pas avant la date d`effet du contrat d`assurance",
+      "Les primes suivantes sont payables jusqu`à la fin du mois au cours duquel le contrat d`assurance arrive à expiration.",
+      "Les paiements de prime pourront être effectués par virement ou par autorisation d’un prélèvement automatique. Une telle autorisation sera indispensable en cas de paiement mensuel de la cotisation",
+      "Dans certains cas, vous avez le droit à une résiliation particulière, par exemple en cas d’une augmentation de primes."
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Documents constitutifs du contrat",
+      "description": "Pour toute information complémentaire quant aux droits et obligations de l’entreprise d’assurances et de l’assuré, veuillez consulter les documents suivants : La demande d’assurance correspondant à notre offre ; La police d’assurance et éventuellement les convenances particulières associées ; Les conditions générales d’assurances (CGA) ; Les conditions particulières du tarif choisi.",
+      "page": 1
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Il s’agit d’une Indemnités journalières pour indépendants et libéraux.",
+      "page": 1,
+      "context": "Type d’assurance et public visé"
+    },
+    {
+      "quote": "DKV Luxembourg S.A.  -  Produit : CONTINUE PLUS",
+      "page": 1,
+      "context": "Porteur de risque / Produit"
+    },
+    {
+      "quote": "Max. 350 jours pour les tarifs PLUS CONTINUE ",
+      "page": 1,
+      "context": "Durée max TF1/TS1"
+    },
+    {
+      "quote": "Max. 715 jours pour les tarifs PLUS CONTINUE ",
+      "page": 1,
+      "context": "Durée max TF2/TS2"
+    },
+    {
+      "quote": "Une indemnité journalière - convenue \nindividuellement dans le contrat et versée au \ncontractant en cas d’incapacité de travail pour cause \nde maladie ou accident.",
+      "page": 1,
+      "context": "Cœur de la garantie"
+    },
+    {
+      "quote": "L’indemnité journalière sera versée aussi en cas \nd’accident de travail et de maladies professionnelles ",
+      "page": 1,
+      "context": "Accidents du travail"
+    },
+    {
+      "quote": "Aucunes prestations pour des sinistres survenus \navant l’échéance des délais de carence",
+      "page": 1,
+      "context": "Délais de carence"
+    },
+    {
+      "quote": "L`incapacité de travail médicalement constatée est à déclarer sans délai auprès de l’assureur",
+      "page": 2,
+      "context": "Obligation de déclaration"
+    },
+    {
+      "quote": "Le domaine de validité s’étend sur tout le Luxembourg",
+      "page": 2,
+      "context": "Territorialité"
+    },
+    {
+      "quote": "Le délai de résiliation est de 30 jours",
+      "page": 2,
+      "context": "Préavis de résiliation"
+    }
+  ],
+  "gaps": [
+    "edition_date: null — le document n’imprime AUCUNE date d’édition ni code de référence. Tout le calque texte a été passé au crible des motifs de date/version : aucun résultat. Les métadonnées PDF portent une date de création (2018-11-08) et le nom de fichier InDesign 'IPID_CONTINUE PLUS_FR.indd' ; ce sont des métadonnées, pas de l’imprimé, et elles n’ont donc PAS été reprises comme edition_date.",
+    "DIVERGENCE NOM DE FICHIER / DOCUMENT : l’URL source est 'IPID_CONTINUE_fr.pdf' et la fiche de tâche annonce le produit « CONTINUE », mais le document imprime en pied de page « DKV Luxembourg S.A.  -  Produit : CONTINUE PLUS ». Le document l’emporte : product_name = 'CONTINUE PLUS'. À noter que le corps du texte désigne les tarifs dans l’ordre inverse — « les tarifs PLUS CONTINUE TF1/TS1 » et « PLUS CONTINUE TF2/TS2 » — les deux formes sont conservées verbatim et aucune n’a été harmonisée.",
+    "Polarité des listes : les marqueurs sont des IMAGES BITMAP, ni texte ni tracé vectoriel — get_text() et get_drawings() ne rendent rien pour eux. Page 1 : 14 marqueurs image — 4 coches vertes (7,16 × 7,94 pt, x0 = 65,1) = « Qu’est-ce qui est assuré ? », 6 croix rouges (7,16 × 7,22 pt, x0 = 342,7) = « Qu’est-ce qui n’est pas assuré ? », 4 points d’exclamation orange (2,39 × 8,87 pt, x0 = 344,7) = « Y a-t-il des exclusions à la couverture ? ». Les comptes ferment exactement : 4 + 6 + 4 = 14 images = 4 + 6 + 4 items extraits. Forme et couleur confirmées au rendu sur un document frère du même gabarit. Ces faits ne peuvent pas figurer dans key_quotes : ils ne sont pas dans le calque texte.",
+    "Contrôle d’inversion de colonnes NÉGATIF sur ce document : le texte plat émet intégralement la colonne gauche avant la droite, sans entrelacement, alors même que les ordonnées des deux colonnes se chevauchent (une coche à y = 341,7 et une croix à y = 341,7). Le rattachement a malgré tout été reconstruit marqueur par marqueur sur l’abscisse, pas repris de l’ordre de lecture. Page 2 : 2 coches vertes (« Où suis-je couvert(e) ? »), rattachées de même.",
+    "Le document ne donne PAS le montant de l’indemnité journalière : il indique qu’elle est « convenue individuellement dans le contrat ». Aucun montant n’a été inventé ; limits porte la formule du document.",
+    "La durée des délais de carence n’est indiquée nulle part ; waiting_periods.duration reste null.",
+    "Typographie du document conservée telle quelle, sans correction : apostrophes acutes U+00B4 (« à l´énergie », « l`insurrection », « d`assurance »), l’accord fautif « une Indemnités journalières », et la formule « Remboursement limité aux frais aux montants convenus » (vraisemblablement une coquille de l’assureur). La règle du dépôt interdit de corriger les coquilles de la source.",
+    "Le document ne mentionne ni franchise, ni délai de prescription ; deductibles et prescription_period restent null. Aucune garantie n’est présentée comme optionnelle : is_optional = false partout.",
+    "Vérification du calque texte : pas de zero-width space, pas de soft hyphen, pas de caractère combinant NFD, pas de glyphe PUA, pas de U+0007, aucun texte hors du rectangle de page, pas d’en-tête dupliqué. Le séparateur du pied de page contient une espace fine U+2009.",
+    "Le porteur de risque est nommé dans le document : « DKV Luxembourg S.A. » (pied de page 1, avec forme juridique). Aucun tiers (gestionnaire de sinistres, assisteur, courtier) n’est nommé.",
+    "L’extraction PyMuPDF refaite ici est OCTET POUR OCTET identique au texte fourni dans le prompt (5429 = 5429 caractères) ; le texte n’était pas tronqué."
+  ]
+}
