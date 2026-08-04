@@ -21,6 +21,8 @@ no advice).
 
 - [Belgium](be/00%20-%20Belgium%20MOC.md)
 - [France](fr/00%20-%20France%20MOC.md)
+- [Luxembourg](lu/00%20-%20Luxembourg%20MOC.md)
+- [Switzerland](ch/00%20-%20Switzerland%20MOC.md)
 
 ## Conventions
 

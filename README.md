@@ -16,16 +16,29 @@ cross-linked into a navigable graph of products, insurers, branches, regulations
 As far as we know, this is the **only open-source, machine-readable, source-cited database of insurance
 products** (the closest equivalents are commercial and closed). Point it at **any country**: the taxonomy is
 data, not code, and adding a country is a documented recipe ([`_meta/BOOTSTRAP-COUNTRY.md`](_meta/BOOTSTRAP-COUNTRY.md)).
-The first reference dataset already covers
-**24 insurers and 269 products across 17 branches** in Belgium (auto, home, health, liability, travel, legal
-protection, ...), each page cited to its source document.
+
+The dataset covers **four countries - Belgium, France, Luxembourg and Switzerland** - for a total of
+**38 insurers and 1,206 product pages** (auto, home, health, liability, travel, legal protection, ...), each
+page cited to its source document:
+
+| Country | Insurers | Product pages | Branch pages | State |
+|---|---:|---:|---:|---|
+| Belgium (`be`) | 24 | 269 | 17 | Reference country: the only complete hand-authored layer - a branch page for every populated branch, 3 regulation pages, a country glossary |
+| France (`fr`) | 10 | 774 | 24 | Largest by volume; the enumerated market is far from exhausted |
+| Luxembourg (`lu`) | 3 | 160 | 13 | Core resident insurers ingested |
+| Switzerland (`ch`) | 1 | 3 | 0 | A first vertical slice, nothing more |
+
+The recipe was proven on Belgium first and has since been run three more times, which is what turned
+"country-agnostic" from a design claim into a tested one. Live counts are the generated coverage table in
+[`AGENTS.md`](AGENTS.md), rebuilt from the data on every index run.
 
 ---
 
 ## Use it in 2 minutes - no API key needed
 
-The dataset **ships in the repo, already built**: 269 product pages, insurer pages, glossary, plus the
-structured JSON behind them. You only need an LLM key to *re-extract from scratch*, never to *use* it.
+The dataset **ships in the repo, already built**: 1,206 product pages across four countries, insurer pages,
+glossary, plus the structured JSON behind them. You only need an LLM key to *re-extract from scratch*, never
+to *use* it.
 
 **1. Browse it.** Open the repo as an [Obsidian](https://obsidian.md) vault (the `[[wikilinks]]` become a
 navigable graph). Note: github.com does not render `[[wikilinks]]` as links, so the vault or the website is
@@ -49,10 +62,10 @@ You get `search`, `get_product`, `get_coverage` (only what's relevant to one que
 `compare_products`, `find_overlap` (candidate duplicate cover when combining two policies), `verify_claim`
 (verbatim evidence for a fact-check), `get_branch_overview`, ... See [`mcp/README.md`](mcp/README.md).
 
-**3. Take the raw data.** `data/be/extracted/` holds one structured JSON per source document, validated
-against [`schema/`](schema/); `data/be/index.json` is the flat index. `AGENTS.md` is a generated manifest
-(note types, counts, per-page `path` / `source_url` / `freshness`) so a file-reading agent can navigate
-without guessing.
+**3. Take the raw data.** `data/<cc>/extracted/` holds one structured JSON per source document, validated
+against [`schema/`](schema/); `data/<cc>/index.json` is the flat index (`cc` = `be`, `fr`, `lu`, `ch`).
+`AGENTS.md` is a generated manifest (note types, counts, per-page `path` / `source_url` / `freshness`) so a
+file-reading agent can navigate without guessing.
 
 ---
 
@@ -131,7 +144,7 @@ Three things make it different:
 
 ## What's in the wiki
 
-Per country (`wiki/be/`):
+Per country (`wiki/<cc>/`, e.g. `wiki/be/`):
 
 | Folder | What | How it's made |
 |---|---|---|
@@ -143,6 +156,11 @@ Per country (`wiki/be/`):
 
 Generated and hand-authored pages live in **separate folders** and never collide: you fix a fact by editing the
 extraction data and rebuilding, never by editing a generated page.
+
+The generated layer exists for all four countries; the hand-authored layer is uneven and deliberately not
+hidden. Belgium has branch, regulation and glossary pages; France and Luxembourg have branch pages and one
+regulation page each; Switzerland has neither yet. `make validate` lists every populated branch that still
+lacks an overview page. Universal concepts that apply to every country live in `wiki/universal-glossary/`.
 
 Every page is Obsidian-compatible Markdown with YAML frontmatter and `[[wikilinks]]`.
 
@@ -169,8 +187,8 @@ make validate COUNTRY=be                  # citation / wikilink / frontmatter ga
 make all COUNTRY=be
 ```
 
-Extraction is resumable (skip-existing keyed by source checksum + prompt version), so large runs can stop and
-restart safely.
+`COUNTRY` takes any country present in `sources/`: `be`, `fr`, `lu` or `ch`. Extraction is resumable
+(skip-existing keyed by source checksum + prompt version), so large runs can stop and restart safely.
 
 ## How the pipeline works
 
@@ -187,6 +205,8 @@ data/be/extracted/…          (rich Markdown + structured JSON, page-cited)
 wiki/be/…                    (the browsable, agent-readable knowledge base)
 ```
 
+`be` is shown; the same layout exists under `fr/`, `lu/` and `ch/`, and the code is the same for all of them.
+
 Details: [`CONTRIBUTING.md`](CONTRIBUTING.md) (how to add a country / insurer / product) and
 [`extraction-agent/`](extraction-agent/) (the exact prompts).
 
@@ -202,7 +222,10 @@ Every push runs the CI gates: wiki validation (frontmatter, wikilinks, citations
 3. `wiki/<cc>/` - hand-author branch/regulation/glossary overviews (or start them as stubs).
 4. `make all COUNTRY=<cc>`.
 
-Nothing in the schema is Belgium-specific - the taxonomy is data, not structure.
+Nothing in the schema is country-specific - the taxonomy is data, not structure. Four countries (`be`, `fr`,
+`lu`, `ch`) run through the same code with no per-country branch in the pipeline. One known limit: the
+product-page section titles are still hardcoded French in `pipeline/render.py`, so a country whose documents
+are not French-language will need them moved into the country config first.
 
 ---
 
