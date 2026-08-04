@@ -27,7 +27,7 @@ navigate it without guessing. Do not edit by hand.
 |---|---|---|---|---|---|
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
 | ch (Switzerland) | 0 | 12 | 1 | 0 | 5 |
-| fr (France) | 24 | 782 | 10 | 1 | 5 |
+| fr (France) | 24 | 784 | 10 | 1 | 5 |
 | lu (Luxembourg) | 15 | 160 | 3 | 1 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
@@ -697,6 +697,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | multirisque-professionnelle | maaf | MULTISERVICE À LA PERSONNE — INTERCALAIRE | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Intercalaire_Multiservice_personne_11059.pdf) |
 | fr | multirisque-professionnelle | maaf | Multirisque Associations | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/CG/MAAF_Conditions_generales_Multirisque_associations_11034.pdf) |
 | fr | multirisque-professionnelle | maaf | Multirisque Associations - IPID | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/PRO10008.PDF) |
+| fr | multirisque-professionnelle | maaf | Multirisque Chambre de Métiers et de l'Artisanat | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/CG/MAAF_Conditions_generales_Multirisque_Chambre_des_Métiers_11033.pdf) |
 | fr | multirisque-professionnelle | maaf | Multirisque Chambre de Métiers et de l'Artisanat - IPID | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/PRO10007.PDF) |
 | fr | multirisque-professionnelle | maaf | Multirisque Non Exploitant - IPID | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/PRO10010.PDF) |
 | fr | multirisque-professionnelle | maaf | Multirisque Professionnelle - IPID | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/PRO10001.PDF) |
@@ -815,6 +816,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | prevoyance | maaf | Assurance perte de revenus - IPID | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/PRE10002.PDF) |
 | fr | prevoyance | maaf | Assurance perte de revenus homme clé - IPID | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/PRE10001.PDF) |
 | fr | prevoyance | maaf | Garanties Homme Clé MAAF Entreprise | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/CG/2350 CG Gar HomCle 0124.pdf) |
+| fr | prevoyance | maaf | LE PLAN DE PRÉVOYANCE HORIZON | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/CG/MAAF_Conditions_generales_Plan_prevoyance_horizon_2178.pdf) |
 | fr | prevoyance | macif | GARANTIE AUTONOMIE ET DÉPENDANCE | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/Reglement_Mutualiste_garantie_autonomie_et_dependance.pdf) |
 | fr | prevoyance | macif | GARANTIE DÉCÈS (Capital forfaitaire) | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/NID-Garantie_deces.pdf) |
 | fr | prevoyance | macif | PRÉVOYANCE CCN CABINETS D'EXPERTS-COMPTABLES ET COMMISSAIRES AUX COMPTES | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/NID_CCN_CEC_CC.pdf) |

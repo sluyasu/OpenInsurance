@@ -407,7 +407,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [INTÉGRALE 1, INTÉGRALE 2, INTÉGRALE 3, INTÉGRALE 4 – Formules responsables et solidaires - Doc](../products/thelem/INT%C3%89GRALE%201%2C%20INT%C3%89GRALE%202%2C%20INT%C3%89GRALE%203%2C%20INT%C3%89GRALE%204%20%E2%80%93%20Formules%20responsables%20et%20solidaires%20-%20Doc.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [PRIMORDIALE 1, PRIMORDIALE 2, PRIMORDIALE 3 – Formules NON responsables et solidaires - Doc](../products/thelem/PRIMORDIALE%201%2C%20PRIMORDIALE%202%2C%20PRIMORDIALE%203%20%E2%80%93%20Formules%20NON%20responsables%20et%20solidaires%20-%20Doc.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 
-### [Prévoyance](Pr%C3%A9voyance.md) (47)
+### [Prévoyance](Pr%C3%A9voyance.md) (48)
 - [Galya Prévoyance Entreprise - Fiche](../products/gan/Galya%20Pr%C3%A9voyance%20Entreprise%20-%20Fiche.md) - [Gan Assurances](../insurers/Gan%20Assurances.md)
 - [Gan Patrimoine Protection Plus - IPID](../products/gan/Gan%20Patrimoine%20Protection%20Plus%20-%20IPID.md) - [Gan Assurances](../insurers/Gan%20Assurances.md)
 - [Gan Patrimoine Protection Plus - Fiche](../products/gan/Gan%20Patrimoine%20Protection%20Plus%20-%20Fiche%20%282%29.md) - [Gan Assurances](../insurers/Gan%20Assurances.md)
@@ -427,6 +427,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Assurance perte de revenus - IPID](../products/maaf/Assurance%20perte%20de%20revenus%20-%20IPID.md) - [MAAF](../insurers/MAAF.md)
 - [Assurance perte de revenus homme clé - IPID](../products/maaf/Assurance%20perte%20de%20revenus%20homme%20cl%C3%A9%20-%20IPID.md) - [MAAF](../insurers/MAAF.md)
 - [Garanties Homme Clé MAAF Entreprise](../products/maaf/Garanties%20Homme%20Cl%C3%A9%20MAAF%20Entreprise.md) - [MAAF](../insurers/MAAF.md)
+- [LE PLAN DE PRÉVOYANCE HORIZON](../products/maaf/LE%20PLAN%20DE%20PR%C3%89VOYANCE%20HORIZON.md) - [MAAF](../insurers/MAAF.md)
 - [Rassurcap Solutions - IPID](../products/maif/Rassurcap%20Solutions%20-%20IPID.md) - [MAIF](../insurers/MAIF.md)
 - [Rassurcap Solutions](../products/maif/Rassurcap%20Solutions.md) - [MAIF](../insurers/MAIF.md)
 - [GARANTIE AUTONOMIE ET DÉPENDANCE](../products/macif/GARANTIE%20AUTONOMIE%20ET%20D%C3%89PENDANCE.md) - [Macif](../insurers/Macif.md)
@@ -639,7 +640,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Sécurité élus - IPID](../products/smacl/S%C3%A9curit%C3%A9%20%C3%A9lus%20-%20IPID.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [Responsabilité Civile Chef d'Entreprise- Professions libérales - IPID](../products/thelem/Responsabilit%C3%A9%20Civile%20Chef%20d%27Entreprise-%20Professions%20lib%C3%A9rales%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 
-### [Multirisque professionnelle](Multirisque%20professionnelle.md) (69)
+### [Multirisque professionnelle](Multirisque%20professionnelle.md) (70)
 - [CAPEB — INTERCALAIRE](../products/maaf/CAPEB%20%E2%80%94%20INTERCALAIRE.md) - [MAAF](../insurers/MAAF.md)
 - [COMMERCES D'ALIMENTATION — INTERCALAIRE](../products/maaf/COMMERCES%20D%27ALIMENTATION%20%E2%80%94%20INTERCALAIRE.md) - [MAAF](../insurers/MAAF.md)
 - [Commerces et Services — Intercalaire](../products/maaf/Commerces%20et%20Services%20%E2%80%94%20Intercalaire.md) - [MAAF](../insurers/MAAF.md)
@@ -650,6 +651,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Multirisque Associations - IPID](../products/maaf/Multirisque%20Associations%20-%20IPID.md) - [MAAF](../insurers/MAAF.md)
 - [Multirisque Associations](../products/maaf/Multirisque%20Associations.md) - [MAAF](../insurers/MAAF.md)
 - [Multirisque Chambre de Métiers et de l'Artisanat - IPID](../products/maaf/Multirisque%20Chambre%20de%20M%C3%A9tiers%20et%20de%20l%27Artisanat%20-%20IPID.md) - [MAAF](../insurers/MAAF.md)
+- [Multirisque Chambre de Métiers et de l'Artisanat](../products/maaf/Multirisque%20Chambre%20de%20M%C3%A9tiers%20et%20de%20l%27Artisanat.md) - [MAAF](../insurers/MAAF.md)
 - [Multirisque Non Exploitant - IPID](../products/maaf/Multirisque%20Non%20Exploitant%20-%20IPID.md) - [MAAF](../insurers/MAAF.md)
 - [Multirisque Professionnelle - IPID](../products/maaf/Multirisque%20Professionnelle%20-%20IPID.md) - [MAAF](../insurers/MAAF.md)
 - [Multirisque des Professionnels du Bâtiment et des Travaux Publics](../products/maaf/Multirisque%20des%20Professionnels%20du%20B%C3%A2timent%20et%20des%20Travaux%20Publics.md) - [MAAF](../insurers/MAAF.md)

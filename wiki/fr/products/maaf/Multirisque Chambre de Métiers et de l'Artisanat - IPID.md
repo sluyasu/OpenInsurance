@@ -256,6 +256,10 @@ Imprimée sous « En option : ».
 - Pas de définitions, pas de délais de carence, pas de clause de prescription dans ce format IPID de 2 pages : champs laissés vides / null.
 - Provenance de edition_date: cette date ne vient pas du texte du document mais du manifeste, ou elle avait ete deduite lors de la decouverte. A verifier contre le document avant d'y appuyer une comparaison d'editions.
 
+## Documents liés
+
+- [Multirisque Chambre de Métiers et de l'Artisanat](Multirisque%20Chambre%20de%20M%C3%A9tiers%20et%20de%20l%27Artisanat.md) - Conditions générales, éd. 01/26
+
 ## Source & fidélité
 
 - Source : [https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/PRO10007.PDF](https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/PRO10007.PDF) - téléchargé le 2026-08-01 - 2 pages

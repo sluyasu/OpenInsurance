@@ -5,7 +5,7 @@ country: fr
 insurer_slug: maaf
 name: MAAF
 website: https://www.maaf.fr/
-products_count: 92
+products_count: 94
 branches_covered:
 - assurance-vie
 - auto
@@ -39,7 +39,7 @@ generated: true
 
 ## Résumé
 
-**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 92 document(s) across 17 branch(es).
+**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 94 document(s) across 17 branch(es).
 
 ## Produits par branche
 
@@ -112,6 +112,7 @@ generated: true
 - [Multirisque Associations - IPID](../products/maaf/Multirisque%20Associations%20-%20IPID.md) - IPID / Fiche d'information (2024-06) · réf. MU0_IPIDPO_00-240616-FVDftz-5-1-2-01:01:24- PRO10008
 - [Multirisque Associations](../products/maaf/Multirisque%20Associations.md) - Conditions générales (01/26) · réf. 11034
 - [Multirisque Chambre de Métiers et de l'Artisanat - IPID](../products/maaf/Multirisque%20Chambre%20de%20M%C3%A9tiers%20et%20de%20l%27Artisanat%20-%20IPID.md) - IPID / Fiche d'information (2024-06) · réf. PRO10007
+- [Multirisque Chambre de Métiers et de l'Artisanat](../products/maaf/Multirisque%20Chambre%20de%20M%C3%A9tiers%20et%20de%20l%27Artisanat.md) - Conditions générales (01/26) · réf. Réf. 11033 - 01/26
 - [Multirisque Non Exploitant - IPID](../products/maaf/Multirisque%20Non%20Exploitant%20-%20IPID.md) - IPID / Fiche d'information (2024-06) · réf. PRO10010
 - [Multirisque Professionnelle - IPID](../products/maaf/Multirisque%20Professionnelle%20-%20IPID.md) - IPID / Fiche d'information (2024-06) · réf. PRO10001
 - [Multirisque des Professionnels du Bâtiment et des Travaux Publics](../products/maaf/Multirisque%20des%20Professionnels%20du%20B%C3%A2timent%20et%20des%20Travaux%20Publics.md) - Conditions générales (01/26) · réf. 11036
@@ -130,6 +131,7 @@ generated: true
 - [Assurance perte de revenus - IPID](../products/maaf/Assurance%20perte%20de%20revenus%20-%20IPID.md) - IPID / Fiche d'information (2024-06) · réf. TB0_IPIDPR_00-240616-1ZFgPX-2-1-2-01:00:33- PRE10002
 - [Assurance perte de revenus homme clé - IPID](../products/maaf/Assurance%20perte%20de%20revenus%20homme%20cl%C3%A9%20-%20IPID.md) - IPID / Fiche d'information (2024-06) · réf. PRE10001
 - [Garanties Homme Clé MAAF Entreprise](../products/maaf/Garanties%20Homme%20Cl%C3%A9%20MAAF%20Entreprise.md) - Conditions générales (06/2026) · réf. HC.017
+- [LE PLAN DE PRÉVOYANCE HORIZON](../products/maaf/LE%20PLAN%20DE%20PR%C3%89VOYANCE%20HORIZON.md) - Conditions générales (06/2026) · réf. Réf.PPH.018-06/2026
 
 ### [Protection juridique](../branches/Protection%20juridique.md)
 - [Contrat Défense Juridique de l'Automobiliste](../products/maaf/Contrat%20D%C3%A9fense%20Juridique%20de%20l%27Automobiliste.md) - Conditions générales (01/17) · réf. 1968
