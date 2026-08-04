@@ -1,0 +1,311 @@
+insurer:
+  slug: dkv
+  name: DKV Luxembourg
+  website: https://www.dkv.lu
+  segment: non-vie
+  notes: 'SOCIETE DU GROUPE LALUX, PAS UN PARTENAIRE. Les conditions generales TRAVEL conditionnent
+
+    l''eligibilite a la qualite de client « d''au moins l''une des trois societes du Groupe LALUX
+
+    (LA LUXEMBOURGEOISE Societe Anonyme d''Assurances, LA LUXEMBOURGEOISE-VIE Societe Anonyme
+
+    d''Assurances ou DKV Luxembourg S.A.) ». Cela explique pourquoi deux documents deja extraits de la
+
+    bibliotheque LALUX nomment DKV Luxembourg S.A. comme porteur sans jamais prononcer « lalux »: ils
+
+    sont d''une societe soeur. Un document du present inventaire est d''ailleurs servi depuis
+
+    www.lalux.lu et non www.dkv.lu.
+
+
+    Registre du CAA, lu le 2026-08-03: DKV LUXEMBOURG S.A., 11-13 rue Jean Fischbach, L-3372
+
+    Leudelange, UNE SEULE BRANCHE, la 2 (Maladie). Absente de la liste vie -- la specialisation
+
+    luxembourgeoise interdit le cumul. L''identifiant du registre est un LEI (529900AO3Z5MARFY0W76),
+
+    pas un RCS; le CAA n''en publie pas.
+
+
+    ROBOTS: rien n''est ferme cote documents. `Disallow: sdk/*` et `Disallow: /typo3/` seulement --
+
+    back-office du CMS et outillage. Les documents vivent sous /fileadmin/mediatheque/. Le robots.txt
+
+    declare CINQ sitemaps, un par langue (fr, de, en, pt, lu), qui ont servi de source d''enumeration:
+
+    477 pages recuperees, zero echec, aucun sondage d''URL.
+
+
+    NEUF VRAIES CONDITIONS GENERALES -- et la neuvieme est rangee dans /Divers/, pas dans /CG/:
+
+    DKV_EASY_HEALTH_AVB_CGA_GCI__09_25_Ansicht.pdf, qui porte pourtant le meme motif trilingue
+
+    AVB/CGA/GCI que les deux autres gros documents. LE CHEMIN NE DIT PAS LE TYPE: il a fallu que
+
+    discover.py la ramene depuis la page /documents/cg pour qu''elle apparaisse, alors que le
+
+    classement par dossier l''aurait ratee.
+
+
+    NEUF VRAIES CONDITIONS GENERALES, soit le double de tout le corpus luxembourgeois au moment de
+
+    cette passe (4 sur 124 documents). Et le porteur y est nomme avec sa forme juridique et son siege:
+
+    « DKV Luxembourg S.A, Societe Anonyme d''Assurances, sise a L-3372 » -- l''inverse exact de lalux,
+
+    ou 4 documents sur 90 nomment le porteur.
+
+
+    PIEGE 1, LE NOM DE FICHIER MENT SUR L''EDITION, DE HUIT ANS.
+
+    CGA_BUSINESS_TRAVEL_2025_FR.pdf imprime « CGA BUSINESS TRAVEL 04|2017 ». Le millesime du nom de
+
+    fichier n''est PAS une date d''edition. Regle 8: retenir ce que le document imprime. C''est l''inverse
+
+    du piege mesure chez Baloise, ou le nom de fichier portait une date que le document n''imprimait
+
+    pas du tout; ici il en porte une FAUSSE.
+
+
+    PIEGE 2, UN SEUL FICHIER REELLEMENT TRILINGUE.
+
+    DKV_KK_AVB_CGA_GCI_01_21 empile ses titres en allemand, francais et anglais sur sa page de garde
+
+    et porte les trois langues sur ses 32 pages (marqueurs mesures: de 130, fr 209, en 328). Meme
+
+    chose pour le KT sur 28 pages. `lang: de` est retenu parce que le titre commence en allemand, mais
+
+    LE DOCUMENT N''EST PAS ALLEMAND -- ne pas le decouper par langue, et ne pas le traiter comme la
+
+    version allemande d''un triplet. C''est l''inverse du piege Baloise, ou un seul fichier FRANCAIS
+
+    servait les trois arbres de langue.
+
+
+    A VERIFIER A L''EXTRACTION: IPID_EU_PLUS_fr.pdf fait 448 Ko contre 690 et 693 Ko pour ses versions
+
+    allemande et anglaise. Ecart non explique.
+
+
+    LES 27 IPID sont neuf produits x trois langues en fichiers distincts: BUSINESS TRAVEL, COMPACT
+
+    HEALTH, COMPLETE HEALTH, CONTINUE, EASY HEALTH, EU PLUS, HOSPITAL HEALTH, PLUS HEALTH,
+
+    TRAVEL / TRAVEL PLUS.
+
+
+    NON RETENUS: 25 autres PDF denombres et laisses de cote -- 10 infographies, 8 depliants, 3
+
+    documents RGPD, 2 brochures, 1 formulaire, 1 divers. Meme decoupe que lalux.yml et baloise.yml,
+
+    qui n''ingerent que les IPID et les conditions generales.
+
+
+    BIBLIOTHEQUE: cinq pages sous /fr/infos-outils/documents/ portent 58 des 60 PDF (cg, ipid,
+
+    depliants, infographies, divers). Les deux derniers sont sur une page produit et une page FAQ.
+
+    Les listing_pages ci-dessus ne retiennent QUE /documents/cg et /documents/ipid, parce que
+
+    discover.py reajoute au yml tout ce qu''il trouve sur une page de listing: y pointer toute la
+
+    mediatheque ramenait les infographies et les depliants a chaque passage. Meme decoupe que
+
+    lalux.yml et baloise.yml, dont les listing_pages sont des pages produit et non une mediatheque.
+
+    Les trois autres pages de la mediatheque sont les sitemaps ont servi a ENUMERER, ils ne sont
+
+    pas des pages de listing et discover.py les rendait avec Playwright, d''ou des timeouts.'
+  fetch_tier: plain
+listing_pages:
+- url: https://www.dkv.lu/fr/infos-outils/documents/cg
+  branch: sante
+  lang: fr
+- url: https://www.dkv.lu/fr/infos-outils/documents/ipid
+  branch: sante
+  lang: fr
+languages:
+- fr
+- de
+- en
+pdfs:
+- url: https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/CG/2025/DKV_KK_AVB_CGA_GCI_01_21_Ansicht.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: de
+  product_name: Assurance frais de maladie et indemnite journaliere d'hospitalisation
+- url: https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/CG/2025/DKV_KT_AVB_CGA_GCI_12_15_Ansicht.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: de
+  product_name: Assurance indemnite journaliere
+- url: https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/CG/CGA_BUSINESS_TRAVEL_2025_DE.pdf
+  branch: voyage
+  document_type: conditions_generales
+  lang: de
+  product_name: BUSINESS TRAVEL
+- url: https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/CG/CGA_BUSINESS_TRAVEL_2025_EN.pdf
+  branch: voyage
+  document_type: conditions_generales
+  lang: en
+  product_name: BUSINESS TRAVEL
+- url: https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/CG/CGA_BUSINESS_TRAVEL_2025_FR.pdf
+  branch: voyage
+  document_type: conditions_generales
+  lang: fr
+  product_name: BUSINESS TRAVEL
+- url: https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/CG/CG_TRAVEL_DE_03_2025.pdf
+  branch: voyage
+  document_type: conditions_generales
+  lang: de
+  product_name: TRAVEL
+- url: https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/CG/CG_TRAVEL_EN_03_2025.pdf
+  branch: voyage
+  document_type: conditions_generales
+  lang: en
+  product_name: TRAVEL
+- url: https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/CG/CG_TRAVEL_FR_03_2025.pdf
+  branch: voyage
+  document_type: conditions_generales
+  lang: fr
+  product_name: TRAVEL
+- url: https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_BUSINESS_TRAVEL_de.pdf
+  branch: voyage
+  document_type: ipid
+  lang: de
+  product_name: BUSINESS TRAVEL
+- url: https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_BUSINESS_TRAVEL_en.pdf
+  branch: voyage
+  document_type: ipid
+  lang: en
+  product_name: BUSINESS TRAVEL
+- url: https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_BUSINESS_TRAVEL_fr.pdf
+  branch: voyage
+  document_type: ipid
+  lang: fr
+  product_name: BUSINESS TRAVEL
+- url: https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_COMPACT_HEALTH_de.pdf
+  branch: sante
+  document_type: ipid
+  lang: de
+  product_name: COMPACT HEALTH
+- url: https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_COMPACT_HEALTH_en.pdf
+  branch: sante
+  document_type: ipid
+  lang: en
+  product_name: COMPACT HEALTH
+- url: https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_COMPACT_HEALTH_fr.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: COMPACT HEALTH
+- url: https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_COMPLETE_HEALTH_de.pdf
+  branch: sante
+  document_type: ipid
+  lang: de
+  product_name: COMPLETE HEALTH
+- url: https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_COMPLETE_HEALTH_en.pdf
+  branch: sante
+  document_type: ipid
+  lang: en
+  product_name: COMPLETE HEALTH
+- url: https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_COMPLETE_HEALTH_fr.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: COMPLETE HEALTH
+- url: https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_CONTINUE_de.pdf
+  branch: sante
+  document_type: ipid
+  lang: de
+  product_name: CONTINUE
+- url: https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_CONTINUE_en.pdf
+  branch: sante
+  document_type: ipid
+  lang: en
+  product_name: CONTINUE
+- url: https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_CONTINUE_fr.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: CONTINUE
+- url: https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_EASY_HEALTH_de.pdf
+  branch: sante
+  document_type: ipid
+  lang: de
+  product_name: EASY HEALTH
+- url: https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_EASY_HEALTH_en.pdf
+  branch: sante
+  document_type: ipid
+  lang: en
+  product_name: EASY HEALTH
+- url: https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_EASY_HEALTH_fr.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: EASY HEALTH
+- url: https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_EU_PLUS_de.pdf
+  branch: sante
+  document_type: ipid
+  lang: de
+  product_name: EU PLUS
+- url: https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_EU_PLUS_en.pdf
+  branch: sante
+  document_type: ipid
+  lang: en
+  product_name: EU PLUS
+- url: https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_EU_PLUS_fr.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: EU PLUS
+- url: https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_HOSPITAL_HEALTH_de.pdf
+  branch: sante
+  document_type: ipid
+  lang: de
+  product_name: HOSPITAL HEALTH
+- url: https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_HOSPITAL_HEALTH_en.pdf
+  branch: sante
+  document_type: ipid
+  lang: en
+  product_name: HOSPITAL HEALTH
+- url: https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_HOSPITAL_HEALTH_fr.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: HOSPITAL HEALTH
+- url: https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_PLUS_HEALTH_de.pdf
+  branch: sante
+  document_type: ipid
+  lang: de
+  product_name: PLUS HEALTH
+- url: https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_PLUS_HEALTH_en.pdf
+  branch: sante
+  document_type: ipid
+  lang: en
+  product_name: PLUS HEALTH
+- url: https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_PLUS_HEALTH_fr.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: PLUS HEALTH
+- url: https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_TRAVEL_TRAVEL_PLUS_de.pdf
+  branch: voyage
+  document_type: ipid
+  lang: de
+  product_name: TRAVEL / TRAVEL PLUS
+- url: https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_TRAVEL_TRAVEL_PLUS_en.pdf
+  branch: voyage
+  document_type: ipid
+  lang: en
+  product_name: TRAVEL / TRAVEL PLUS
+- url: https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_TRAVEL_TRAVEL_PLUS_fr.pdf
+  branch: voyage
+  document_type: ipid
+  lang: fr
+  product_name: TRAVEL / TRAVEL PLUS
+- url: https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/Divers/DKV_EASY_HEALTH_AVB_CGA_GCI__09_25_Ansicht.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: de
+  product_name: EASY HEALTH
