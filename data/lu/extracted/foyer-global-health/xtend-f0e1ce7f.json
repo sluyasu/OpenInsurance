@@ -1,0 +1,879 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "lu",
+  "insurer_slug": "foyer-global-health",
+  "insurer_name": "Foyer Global Health",
+  "product_name": "Xtend",
+  "branch": "sante",
+  "branch_code": null,
+  "document_type": "conditions_generales",
+  "language": "en",
+  "target_audience": "entreprises",
+  "target_audience_note": "“To qualify as an Insured Person under the Policy, employees of the Policyholder shall be registered by the Policyholder with the Insurer in accordance with the provisions of the Group Contract” (section 4, page 9); “Policyholder: The legal person who enters into the Insurance Policy” (Glossary, page 22). The cover page describes the product as “International Occupational Health Insurance” and the Group Contract as “the Globality Xtend – Obligatory International Occupational Health Insurance Group Contract”.",
+  "reference": "Xtend GCI 10.24",
+  "edition_date": null,
+  "product_family": "Xtend",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://globalhealth.insurance/wp-content/uploads/2025/12/Globality_Xtend_GCI_EN_0924.pdf",
+  "source_pdf": "xtend-f0e1ce7f.pdf",
+  "source_sha256": "bc3a11bef8432fb94e34cb42ec0897c2dfd3d04824b61845b07d91635975c83b",
+  "source_pages": 23,
+  "fetched_at": "2026-08-04",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Xtend is a group International Occupational Health Insurance underwritten by Foyer Global Health S.A. and taken out by a legal person (the Policyholder) for its employees, who are registered as Insured Persons under a Group Contract. It reimburses outpatient and dental Medical Treatment for Diseases and Bodily Injuries, and also covers routine health checks, vaccinations and immunizations, pregnancy and childbirth, and professional teeth cleaning, at 100 % of the eligible expenses up to an annual overall limit per insured person and per insurance year. Four Plans are offered — Xtend 300, Xtend 600, Xtend 900 and Xtend 1200 — with annual overall limits of € 300.00, € 600.00, € 900.00 and € 1,200.00 respectively. Insurance cover is provided for stays in all the countries of the European Union and the European Economic Area excluding Switzerland; the policy runs for 12 months and is tacitly renewed at each renewal date of the Group Contract.",
+  "definitions": [
+    {
+      "term": "Benefit",
+      "definition": "The reimbursement of health care costs and expenses by the Insurer to the Insured Person subsequent to a Claim covered by the Insurance Policy.",
+      "page": 21
+    },
+    {
+      "term": "Bodily Injury",
+      "definition": "A sudden event affecting the Insured Person, which is beyond the control of the Insured Person and results in bodily harm, the cause of which is external to the Insured Person's body and the symptoms of which can be determined and objectively ascertained by a Medical Authority in order to diagnose and administer a medical treatment.",
+      "page": 21
+    },
+    {
+      "term": "Claim",
+      "definition": "Medical treatment of an Insured Person following a Disease or Bodily Injury prescribed and administered by a Medical Authority. The following events are deemed to give rise to Claims: Bodily Injury; Disease; Routine health checks, vaccinations, immunizations; Pregnancy and childbirth; Professional teeth cleaning.",
+      "page": 21
+    },
+    {
+      "term": "Disease",
+      "definition": "The deterioration of the state of physical or mental health of the Insured Person, the origin and symptoms of which can be determined and objectively ascertained by a Medical Authority in order to diagnose and administer a necessary treatment; the deterioration must not, however, be due to a Bodily Injury.",
+      "page": 21
+    },
+    {
+      "term": "Doctor",
+      "definition": "A physician (general practitioner or specialist) or holder of a medical diploma that is recognised by law in the country in which the treatment is provided, who is authorised to provide medical care. For the purposes of this Insurance Policy, the term shall also include dentists, alternative practitioners, therapists licensed and/or recognized as such in the country of treatment. The Insured Person is free to choose a Doctor, who meets the above criteria.",
+      "page": 21
+    },
+    {
+      "term": "Dressings",
+      "definition": "Sterile material or substance applied to a wound or injury to protect it, promote healing, and prevent infection",
+      "page": 21
+    },
+    {
+      "term": "Drugs",
+      "definition": "Active substances which are used, alone or mixed with other substances, in the diagnosis or treatment of disease, ailment, bodily injury or pathological complaint. Food, cosmetics and toiletries are not considered to be Drugs. Drugs must be prescribed by a Doctor and must be delivered by a pharmacy. Drugs are commonly referred to as: “medicines”; “pharmaceuticals”.",
+      "page": 21
+    },
+    {
+      "term": "Effective Date",
+      "definition": "Date on which the Insurance Policy and the cover (“garantie”) and Benefits provided for therein enter into effect, i.e. the date and time indicated in the Insurance Certificate or the date of the payment of the first insurance premium, whichever is later, without prejudice to any applicable waiting periods.",
+      "page": 21
+    },
+    {
+      "term": "General Conditions of Insurance",
+      "definition": "The present terms and conditions governing the risks insured by the Insurer.",
+      "page": 21
+    },
+    {
+      "term": "Globality Service Card",
+      "definition": "Document issued by the Insurer to the Insured Person in accordance with the Group Contract, bearing the individual insurance number and data relevant for contacting the Insurer.",
+      "page": 21
+    },
+    {
+      "term": "Glossary",
+      "definition": "The present glossary of defined terms, which forms an integral part of the General Conditions of Insurance.",
+      "page": 21
+    },
+    {
+      "term": "Group Contract",
+      "definition": "The Globality Xtend – Obligatory International Occupational Health Insurance Group Contract concluded between the Insurer and the Policyholder.",
+      "page": 21
+    },
+    {
+      "term": "ICD Codes",
+      "definition": "The classification codes used under the International Classification of Diseases, an international system for coding and classification of all known diagnoses.",
+      "page": 22
+    },
+    {
+      "term": "Insurance Certificate",
+      "definition": "The Globality Xtend health Insurance certificate issued to the attention of the Policyholder and the Insured Person and confirming the scope, and the effective date of the insurance cover provided under the Insurance Policy.",
+      "page": 22
+    },
+    {
+      "term": "Insurance Policy",
+      "definition": "The contractual framework for health insurance constituted by the General Conditions of Insurance, together with the present Glossary, the Group Contract, the Insurance Certificate, and any subsequent written agreements between the Insurer, the Policyholder and, where relevant, the Insured Person.",
+      "page": 22
+    },
+    {
+      "term": "Insurer",
+      "definition": "The Insurer underwriting the Insurance Policy is Foyer Global Health S.A., a health insurance company established in Luxembourg under the form of a public limited liability company (société anonyme) having its registered office at 12, Rue Léon Laval L-3372 Leudelange, registered under no. B134471 in the Luxembourg Trade and Companies Register, supervised by the Commissariat aux Assurances (11, rue Robert Stumper, L-2557 Luxembourg; +352226911-1; caa@caa.lu).",
+      "page": 22
+    },
+    {
+      "term": "Insured Person",
+      "definition": "The person designated and registered in accordance with the Group Contract as the person whose health is insured under the Insurance Policy.",
+      "page": 22
+    },
+    {
+      "term": "Medical Authority",
+      "definition": "A person authorised to practice medicine on the basis of a recognised and official medical degree. He/she can make a diagnosis related to a Disease and/or a Bodily Injury.",
+      "page": 22
+    },
+    {
+      "term": "Medical Treatment",
+      "definition": "The diagnostic and therapeutic measures classified as medical services, including medical advice, aids and interventions as well as Drugs and Dressings, which serve to recognize or alleviate and cure a Disease or Bodily Injury and which are deemed medically necessary on the basis of objective medical findings and scientific knowledge at the time of treatment or which are deemed necessary for carrying out Routine health checks, vaccinations, immunizations, medical assistance during Pregnancy and childbirth and professional teeth cleaning.",
+      "page": 22
+    },
+    {
+      "term": "Plan",
+      "definition": "The Globality Xtend plan agreed with the Policyholder and Insured Person, which defines the extent of the cover provided under the Insurance Policy.",
+      "page": 22
+    },
+    {
+      "term": "Policyholder",
+      "definition": "The legal person who enters into the Insurance Policy.",
+      "page": 22
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Annual overall limit",
+      "description": "First row of the Benefits table: the annual overall limit of the selected Plan, per insured person and per insurance year — Xtend 300: € 300.00; Xtend 600: € 600.00; Xtend 900: € 900.00; Xtend 1200: € 1,200.00. Within the scope of the maximum reimbursement amount agreed for the Insured Person in the Group Contract, the Insurer will refund up to 100 % of the eligible expenses up to the annual overall limit listed in the scope of Benefits.",
+      "is_optional": false,
+      "territorial_scope": "Insurance cover is provided for stays in all the countries of the European Union (EU), the European Economic Area (EEA) excluding Switzerland. There is no insurance cover for permanent or temporary stays in countries outside the EU and the EEA. (section 19, page 16)",
+      "limits": "Annual overall limit per insured person and per insurance year, according to the Plan: Xtend 300 – € 300.00; Xtend 600 – € 600.00; Xtend 900 – € 900.00; Xtend 1200 – € 1,200.00. Reimbursement at 100 % of the eligible expenses up to that limit.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "The specified annual overall limit applies per insured person and per insurance year.",
+        "The four Plans differ only by this annual overall limit; the benefits marked in the table are identical in all four columns."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Benefits for Diseases and Bodily Injuries",
+      "description": "The Insurer provides Benefits for Diseases and Bodily Injuries. Upon the occurrence of a Claim, the Insurer shall reimburse expenses for Medical Treatment. (sections 1.1 and 1.2)",
+      "is_optional": false,
+      "territorial_scope": "Insurance cover is provided for stays in all the countries of the European Union (EU), the European Economic Area (EEA) excluding Switzerland. There is no insurance cover for permanent or temporary stays in countries outside the EU and the EEA. (section 19, page 16)",
+      "limits": "Annual overall limit per insured person and per insurance year, according to the Plan: Xtend 300 – € 300.00; Xtend 600 – € 600.00; Xtend 900 – € 900.00; Xtend 1200 – € 1,200.00. Reimbursement at 100 % of the eligible expenses up to that limit.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Reimbursement is subject to usual, customary and reasonable rates that are applicable in the covered country of treatment (section 2.10, page 7)."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Routine health checks, vaccinations, immunizations",
+      "description": "Named in section 1.1 as an event for which there is insurance cover, and listed in the Glossary definition of Claim. Described in detail in section 2.5 (see the corresponding table row).",
+      "is_optional": false,
+      "territorial_scope": "Insurance cover is provided for stays in all the countries of the European Union (EU), the European Economic Area (EEA) excluding Switzerland. There is no insurance cover for permanent or temporary stays in countries outside the EU and the EEA. (section 19, page 16)",
+      "limits": "Annual overall limit per insured person and per insurance year, according to the Plan: Xtend 300 – € 300.00; Xtend 600 – € 600.00; Xtend 900 – € 900.00; Xtend 1200 – € 1,200.00. Reimbursement at 100 % of the eligible expenses up to that limit.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Pregnancy and childbirth",
+      "description": "Named in section 1.1 as an event for which there is insurance cover, and listed in the Glossary definition of Claim; Medical Treatment expressly includes measures deemed necessary for carrying out medical assistance during Pregnancy and childbirth (Glossary, page 22). The document gives no further benefit description for this cover and it has no row of its own in the Benefits table.",
+      "is_optional": false,
+      "territorial_scope": "Insurance cover is provided for stays in all the countries of the European Union (EU), the European Economic Area (EEA) excluding Switzerland. There is no insurance cover for permanent or temporary stays in countries outside the EU and the EEA. (section 19, page 16)",
+      "limits": "Annual overall limit per insured person and per insurance year, according to the Plan: Xtend 300 – € 300.00; Xtend 600 – € 600.00; Xtend 900 – € 900.00; Xtend 1200 – € 1,200.00. Reimbursement at 100 % of the eligible expenses up to that limit.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Outpatient treatment",
+      "description": "Row of the Benefits table (section 2) heading the outpatient benefits. The cells of this row carry no mark in any of the four Plan columns.",
+      "is_optional": false,
+      "territorial_scope": "Insurance cover is provided for stays in all the countries of the European Union (EU), the European Economic Area (EEA) excluding Switzerland. There is no insurance cover for permanent or temporary stays in countries outside the EU and the EEA. (section 19, page 16)",
+      "limits": "Annual overall limit per insured person and per insurance year, according to the Plan: Xtend 300 – € 300.00; Xtend 600 – € 600.00; Xtend 900 – € 900.00; Xtend 1200 – € 1,200.00. Reimbursement at 100 % of the eligible expenses up to that limit.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Methods of alternative medicine",
+      "description": "The Insurer will reimburse the eligible expenses for Medical Treatment carried out by a Doctor using alternative medicine methods. (section 2.1)",
+      "is_optional": false,
+      "territorial_scope": "Insurance cover is provided for stays in all the countries of the European Union (EU), the European Economic Area (EEA) excluding Switzerland. There is no insurance cover for permanent or temporary stays in countries outside the EU and the EEA. (section 19, page 16)",
+      "limits": "Annual overall limit per insured person and per insurance year, according to the Plan: Xtend 300 – € 300.00; Xtend 600 – € 600.00; Xtend 900 – € 900.00; Xtend 1200 – € 1,200.00. Reimbursement at 100 % of the eligible expenses up to that limit.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "The prerequisite is that the methods are state-recognized or in the currently valid fee schedule for state-recognized alternative practitioners.",
+        "The Insured Person can make use of alternative practitioners acknowledged by the appropriate and recognized national authority within the covered country of treatment (section 2.9).",
+        "For services by masseurs, midwives, or practitioners of complementary medicine, reimbursement will be based on comparable fees for Doctors and customary prices in the country where the treatment occurs (section 2.11)."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Drugs/dressings/remedies",
+      "description": "The Insurer will reimburse the eligible expenses for Drugs, Dressings and remedies prescribed by a Doctor. This also includes Drugs, Dressings and remedies prescribed in connection with methods of alternative medicine in accordance with section 2.1. The Insurer will reimburse expenses for medically prescribed tube feeds if normal food intake is not possible due to a medical indication. The following are considered remedies and are thus covered: physical-medical services (e.g. physiotherapy, massages); medicinal baths; speech therapy, podiatry, occupational therapy, and osteopathy services; nutritional therapy measures for rare congenital metabolic diseases. (section 2.2)",
+      "is_optional": false,
+      "territorial_scope": "Insurance cover is provided for stays in all the countries of the European Union (EU), the European Economic Area (EEA) excluding Switzerland. There is no insurance cover for permanent or temporary stays in countries outside the EU and the EEA. (section 19, page 16)",
+      "limits": "Annual overall limit per insured person and per insurance year, according to the Plan: Xtend 300 – € 300.00; Xtend 600 – € 600.00; Xtend 900 – € 900.00; Xtend 1200 – € 1,200.00. Reimbursement at 100 % of the eligible expenses up to that limit.",
+      "sub_limits": [
+        "Nutritional therapy measures for rare congenital metabolic diseases: only if the Insurer has given written confirmation of Benefits before the start of treatment; such a commitment is not required for cystic fibrosis/cystic fibrosis"
+      ],
+      "deductible": null,
+      "conditions": [
+        "The Insured Person must obtain the Drugs and Dressings from a pharmacy (including mail-order or internet pharmacies) or from another officially authorized dispensing point.",
+        "The remedies must be provided by therapeutic professions that are licensed in the country in which the Insured Person needs treatment.",
+        "The Insurer does not reimburse additional expenses incurred for treatment in the Insured Person's home."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Therapeutic aids (including visual aids and hearing aids)",
+      "description": "The Insurer reimburses the eligible expenses for medical aids prescribed by a Doctor. The following are considered aids: visual aids, hearing aids; bandages, canes for the blind, hernia bands, insoles for foot correction, crutches; inhalation devices; compression stockings, corrective splints; customised orthopaedic shoes; orthopaedic adjustments to ready-made shoes; speaking devices (electronic larynx). Expenses for the repair and maintenance of medical aids are also eligible for reimbursement, as is the necessary instruction on the use of aids. Visual aids include spectacle lenses and frames as well as contact lenses, including daily and monthly disposable lenses. (section 2.3)",
+      "is_optional": false,
+      "territorial_scope": "Insurance cover is provided for stays in all the countries of the European Union (EU), the European Economic Area (EEA) excluding Switzerland. There is no insurance cover for permanent or temporary stays in countries outside the EU and the EEA. (section 19, page 16)",
+      "limits": "Annual overall limit per insured person and per insurance year, according to the Plan: Xtend 300 – € 300.00; Xtend 600 – € 600.00; Xtend 900 – € 900.00; Xtend 1200 – € 1,200.00. Reimbursement at 100 % of the eligible expenses up to that limit.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Prescription by a Doctor.",
+        "The Insurer does not reimburse expenses for the repair of soles and heels of customised orthopaedic shoes, for the use (e.g. batteries) and care (e.g. cleaning agents or disinfectants) of aids, or for products that belong to the fitness or wellness sector."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Refractive eye surgery",
+      "description": "Operations on the eye to correct defective vision: the Insurer will reimburse the eligible expenses for medical services in the context of refractive eye surgery such as Lasik or lens replacement. (section 2.4)",
+      "is_optional": false,
+      "territorial_scope": "Insurance cover is provided for stays in all the countries of the European Union (EU), the European Economic Area (EEA) excluding Switzerland. There is no insurance cover for permanent or temporary stays in countries outside the EU and the EEA. (section 19, page 16)",
+      "limits": "Annual overall limit per insured person and per insurance year, according to the Plan: Xtend 300 – € 300.00; Xtend 600 – € 600.00; Xtend 900 – € 900.00; Xtend 1200 – € 1,200.00. Reimbursement at 100 % of the eligible expenses up to that limit.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Routine health checks/vaccinations/health courses",
+      "description": "The Insurer will reimburse the eligible expenses for outpatient routine medical check-ups, vaccinations and immunizations including vaccination counselling and preventive courses. Routine medical check-ups qualify as outpatient examinations for the early detection of Diseases. The Insurer will provide Benefits regardless of the age limits and intervals that apply to examinations under statutory programs; routine health check may include, for example: prenatal care, bone density measurement (osteoporosis screening), skin cancer screening with reflected light microscope, supplementary cancer screening such as sonography (ultrasound) of the breast in women. The insurance cover also applies to appropriately recommended travel vaccinations and medicinal malaria prophylaxis. Expenses eligible for reimbursement include prevention courses in the covered country of treatment: accredited programs aimed at fostering healthy habits, such as courses focusing on pain prevention, stress management, healthy eating, or sleep improvement. (section 2.5)",
+      "is_optional": false,
+      "territorial_scope": "Insurance cover is provided for stays in all the countries of the European Union (EU), the European Economic Area (EEA) excluding Switzerland. There is no insurance cover for permanent or temporary stays in countries outside the EU and the EEA. (section 19, page 16)",
+      "limits": "Annual overall limit per insured person and per insurance year, according to the Plan: Xtend 300 – € 300.00; Xtend 600 – € 600.00; Xtend 900 – € 900.00; Xtend 1200 – € 1,200.00. Reimbursement at 100 % of the eligible expenses up to that limit.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Costs associated with vaccinations acknowledged by the appropriate and recognized national authority, in the covered country of treatment, are eligible for reimbursement.",
+        "Courses should be certified by the appropriate and recognized national authority; the provider of the prevention course must confirm this certification on the attendance certificate.",
+        "The Insurer does not reimburse expenses for preventive examinations for the early detection of dental, oral and jaw diseases or dental prophylaxis services (excluding professional teeth cleaning)."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Dental treatment",
+      "description": "Row of the Benefits table (section 2) heading the dental benefits, marked as covered/paid in full in all four Plan columns. The individual dental benefits are described in sections 2.6 to 2.8.",
+      "is_optional": false,
+      "territorial_scope": "Insurance cover is provided for stays in all the countries of the European Union (EU), the European Economic Area (EEA) excluding Switzerland. There is no insurance cover for permanent or temporary stays in countries outside the EU and the EEA. (section 19, page 16)",
+      "limits": "Annual overall limit per insured person and per insurance year, according to the Plan: Xtend 300 – € 300.00; Xtend 600 – € 600.00; Xtend 900 – € 900.00; Xtend 1200 – € 1,200.00. Reimbursement at 100 % of the eligible expenses up to that limit.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Professional teeth cleaning",
+      "description": "The Insurer will reimburse the eligible expenses for professional dental cleaning (section 2.6). Professional teeth cleaning is also named in section 1.1 as an event for which there is insurance cover and in the Glossary definition of Claim. The cells of this row carry no mark in any of the four Plan columns of the Benefits table.",
+      "is_optional": false,
+      "territorial_scope": "Insurance cover is provided for stays in all the countries of the European Union (EU), the European Economic Area (EEA) excluding Switzerland. There is no insurance cover for permanent or temporary stays in countries outside the EU and the EEA. (section 19, page 16)",
+      "limits": "Annual overall limit per insured person and per insurance year, according to the Plan: Xtend 300 – € 300.00; Xtend 600 – € 600.00; Xtend 900 – € 900.00; Xtend 1200 – € 1,200.00. Reimbursement at 100 % of the eligible expenses up to that limit.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Root and periodontal treatment",
+      "description": "The Insurer will reimburse the eligible expenses for periodontological services (e.g. local antimicrobial therapy, mucosal transplantation) and root canal treatments (e.g. electrometric length determination). (section 2.7)",
+      "is_optional": false,
+      "territorial_scope": "Insurance cover is provided for stays in all the countries of the European Union (EU), the European Economic Area (EEA) excluding Switzerland. There is no insurance cover for permanent or temporary stays in countries outside the EU and the EEA. (section 19, page 16)",
+      "limits": "Annual overall limit per insured person and per insurance year, according to the Plan: Xtend 300 – € 300.00; Xtend 600 – € 600.00; Xtend 900 – € 900.00; Xtend 1200 – € 1,200.00. Reimbursement at 100 % of the eligible expenses up to that limit.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Dental fillings, dentures and dental crowns",
+      "description": "The Insurer will reimburse the eligible expenses for: filling therapies, e.g. resin fillings using the dentin adhesive technique, inlays; dental crowns including partial crowns, e.g. onlays, overlays, veneers; dentures, e.g. bridges, prostheses; implantological services. This also includes surgical measures in this context, such as bone reconstruction; veneers up to tooth 6; restoration of dental crowns and dentures; functional-analytical and functional-therapeutic services that are part of the dental services listed above; accompanying services, such as local anesthesia and x-rays, which are required for the dental services listed above; material and laboratory costs incurred for the dental services listed above. (section 2.8)",
+      "is_optional": false,
+      "territorial_scope": "Insurance cover is provided for stays in all the countries of the European Union (EU), the European Economic Area (EEA) excluding Switzerland. There is no insurance cover for permanent or temporary stays in countries outside the EU and the EEA. (section 19, page 16)",
+      "limits": "Annual overall limit per insured person and per insurance year, according to the Plan: Xtend 300 – € 300.00; Xtend 600 – € 600.00; Xtend 900 – € 900.00; Xtend 1200 – € 1,200.00. Reimbursement at 100 % of the eligible expenses up to that limit.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Material and laboratory costs are covered insofar as they are calculated within the framework of the usual, customary, and reasonable fees typical for the covered country of treatment."
+      ],
+      "page": 4
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Drugs prescribed solely for the purpose of contraception",
+      "description": "The Insurer does not reimburse expenses – not even in the case of an existing prescription for: Drugs that are prescribed solely for the purpose of contraception (e.g. ovulation inhibitors). (section 2.2)",
+      "applies_to": "Drugs/dressings/remedies",
+      "page": 5
+    },
+    {
+      "name": "Preparations for the treatment of erectile dysfunction and to increase sexual potency",
+      "description": "The Insurer does not reimburse expenses – not even in the case of an existing prescription for: Preparations for the treatment of erectile dysfunction and preparations to increase sexual potency. (section 2.2)",
+      "applies_to": "Drugs/dressings/remedies",
+      "page": 5
+    },
+    {
+      "name": "Means of slimming, suppressing appetite and regulating body weight",
+      "description": "The Insurer does not reimburse expenses – not even in the case of an existing prescription for: A means of slimming, suppressing appetite and regulating body weight. (section 2.2)",
+      "applies_to": "Drugs/dressings/remedies",
+      "page": 5
+    },
+    {
+      "name": "Preparations to improve hair growth",
+      "description": "The Insurer does not reimburse expenses – not even in the case of an existing prescription for: Preparations to improve hair growth. (section 2.2)",
+      "applies_to": "Drugs/dressings/remedies",
+      "page": 5
+    },
+    {
+      "name": "Preparations for smoking cessation",
+      "description": "The Insurer does not reimburse expenses – not even in the case of an existing prescription for: Preparations for smoking cessation. (section 2.2)",
+      "applies_to": "Drugs/dressings/remedies",
+      "page": 5
+    },
+    {
+      "name": "Preparations used in anti-ageing, lifestyle or cosmetic treatment",
+      "description": "The Insurer does not reimburse expenses – not even in the case of an existing prescription for: Preparations that are used in anti-ageing treatment, lifestyle treatment or cosmetic treatment (e.g. wrinkle smoothing). (section 2.2)",
+      "applies_to": "Drugs/dressings/remedies",
+      "page": 5
+    },
+    {
+      "name": "Vitamin preparations",
+      "description": "The Insurer does not reimburse expenses – not even in the case of an existing prescription for: Vitamin preparations other than vitamin mono-preparations for the targeted treatment of vitamin deficiency diseases. (section 2.2)",
+      "applies_to": "Drugs/dressings/remedies",
+      "page": 5
+    },
+    {
+      "name": "Tonic",
+      "description": "The Insurer does not reimburse expenses – not even in the case of an existing prescription for: Tonic. (section 2.2)",
+      "applies_to": "Drugs/dressings/remedies",
+      "page": 5
+    },
+    {
+      "name": "Cosmetic products, care products and disinfectants, bath additives",
+      "description": "The Insurer does not reimburse expenses – not even in the case of an existing prescription for: Cosmetic products, care products and disinfectants, bath additives. (section 2.2)",
+      "applies_to": "Drugs/dressings/remedies",
+      "page": 5
+    },
+    {
+      "name": "Mineral water and nutrients other than tube feeds",
+      "description": "The Insurer does not reimburse expenses – not even in the case of an existing prescription for: Mineral water and nutrients other than tube feeds. (section 2.2)",
+      "applies_to": "Drugs/dressings/remedies",
+      "page": 5
+    },
+    {
+      "name": "Additional expenses for treatment in the Insured Person's home",
+      "description": "The Insurer does not reimburse additional expenses incurred for treatment in the Insured Person's home. (section 2.2)",
+      "applies_to": "Drugs/dressings/remedies",
+      "page": 5
+    },
+    {
+      "name": "Repair of soles and heels of customised orthopaedic shoes",
+      "description": "The Insurer does not reimburse the expenses for the repair of soles and heels of customised orthopaedic shoes. (section 2.3)",
+      "applies_to": "Therapeutic aids (including visual aids and hearing aids)",
+      "page": 6
+    },
+    {
+      "name": "Use and care of aids",
+      "description": "The Insurer does not reimburse the expenses for the use (e.g. batteries) and care (e.g. cleaning agents or disinfectants) of aids. (section 2.3)",
+      "applies_to": "Therapeutic aids (including visual aids and hearing aids)",
+      "page": 6
+    },
+    {
+      "name": "Products belonging to the fitness or wellness sector",
+      "description": "The Insurer does not reimburse the expenses for products that belong to the fitness or wellness sector. (section 2.3)",
+      "applies_to": "Therapeutic aids (including visual aids and hearing aids)",
+      "page": 6
+    },
+    {
+      "name": "Preventive examinations for dental, oral and jaw diseases and dental prophylaxis services",
+      "description": "The Insurer does not reimburse expenses for preventive examinations for the early detection of dental, oral and jaw diseases or dental prophylaxis services (excluding professional teeth cleaning). (section 2.5)",
+      "applies_to": "Routine health checks/vaccinations/health courses",
+      "page": 6
+    },
+    {
+      "name": "War, civil unrest or acts of terrorism",
+      "description": "There is no insurance cover for illnesses and their consequences or for the consequences of accidents and deaths caused by war, civil unrest or acts of terrorism. However, there are exceptions depending on the situation of the insured person staying in the area of conflict concerned; the area of conflict may be a region, a country, an area within a country, or an area that crosses one or more country boundaries. 1. Insured persons who are already in the area of conflict: if the insured person is already in the area of conflict when the war, civil unrest or acts of terrorism break out, insurance cover is only provided in the above cases if the insured person is an uninvolved third party who has not wilfully or negligently disregarded the danger and if it is necessary to remain in the area for a justified professional interest; if there is no justified professional interest, insurance cover is only provided for emergency treatment (e.g. life-saving measures) and only for as long as the insured person is unable to leave the area of conflict through no fault of his own, but for a maximum of 28 days. 2. Insured persons who enter the affected conflict area after the outbreak of war, civil unrest or acts of terrorism: there is no insurance cover unless the insured person is an uninvolved third party who has not wilfully or negligently disregarded the danger and if it is necessary to go into the area for a justified professional interest. Coverage is strictly denied if the insured person enters an area of direct warfare or provides services to any of the warring parties. The exclusion of benefits shall apply regardless of whether or not war has been declared. (section 3.1)",
+      "applies_to": "all",
+      "page": 7
+    },
+    {
+      "name": "Diseases and Bodily Injuries caused fraudulently or intentionally",
+      "description": "The Insurer will not cover Diseases and Bodily Injuries, nor their consequences, if the latter have been caused fraudulently or intentionally (“de manière intentionnelle ou dolosive”). The Insurer considers in particular that a a Disease or Bodily Injury is caused intentionally if the Insured Person had at least some idea of the consequences of its actions and accepted these consequences. (section 3.2)",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Medical Treatment provided in the Insured Person's home or by relatives",
+      "description": "The Insurer does not reimburse expenses incurred for Medical Treatment provided in the Insured Person's home. In particular, the Insurer will not refund the costs if the Insured Person is treated by its wife, husband, non-marital partner, parents, or children or any other person that is not a Doctor in the covered country of treatment. However, the Insurer will refund the proven cost of materials needed for the Insured Person's Medical Treatment in line with the Plan. (section 3.3)",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Experimental or investigational treatment or drug therapy",
+      "description": "The Insurer will not provide coverage for any form of treatment or drug therapy that it deems to be experimental or investigational. (section 3.4)",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Genetic testing",
+      "description": "The Insurer will not provide coverage for any form of genetic testing unless particular genetic tests are explicitly mentioned as part of the Insured Person's Plan or the Insurer expressly gives prior written approval. (section 3.5)",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Treatment beyond what is medically necessary or outside usual, customary and reasonable costs",
+      "description": "If the Medical Treatment or other measure for which Benefits have been agreed is more than is medically necessary or if the amount claimed for is not within the usual, customary and reasonable cost range, the Insurer will be entitled to reduce the paid Benefits and the Insured Person shall bear all costs, which are not within the usual, customary and reasonable cost range in the covered country of treatment. (section 3.6)",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Expenses covered by another statutory or private scheme",
+      "description": "In the event of an entitlement to benefits from statutory health insurance, substitutive private health insurance, statutory accident or pension insurance, private accident or pension insurance or contributions for civil servants towards the cost of health care, the Insurer will only reimburse the remaining eligible expenses that are not covered by the foregoing. The maximum reimbursement amount is limited to the total expenses incurred by the Insured Person, regardless of whether they are eligible for benefits from multiple sources. (section 3.6; see also section 14, page 13, and section 2.12, page 7)",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Restrictions before the start and after the end of the insurance cover",
+      "description": "Further restrictions may apply before the start and after the end of the insurance cover (see section 5). (section 3.6)",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Restrictions for stays outside the area of cover",
+      "description": "Further restrictions may apply for stays outside the area of cover (see section 19). (section 3.6)",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Restrictions in the event of breaches of obligations",
+      "description": "Further restrictions may apply in the event of breaches of obligations under the Insurance Policy (see section 17). (section 3.6)",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Claims occurring before the Insurance Policy takes effect",
+      "description": "No Benefits are granted for Claims occurring before the Insurance Policy takes effect. (section 5.5)",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Claims occurring during the suspension period for non-payment of premiums",
+      "description": "Claims occurring during the suspension period following the grace period shall not give rise to the granting of any Benefits from the insurer. (section 10.2)",
+      "applies_to": "all",
+      "page": 12
+    },
+    {
+      "name": "Stays in countries outside the EU and the EEA",
+      "description": "Insurance cover is provided for stays in all the countries of the European Union (EU), the European Economic Area (EEA) excluding Switzerland. There is no insurance cover for permanent or temporary stays in countries outside the EU and the EEA. (section 19)",
+      "applies_to": "all",
+      "page": 16
+    },
+    {
+      "name": "Precedence of mandatory health insurance",
+      "description": "If another health Insurance Policy with mandatory Benefits exists in addition to this Insurance Policy, such mandatory health insurance shall take precedence over the Insurance Policy. (section 8)",
+      "applies_to": "all",
+      "page": 11
+    },
+    {
+      "name": "Consequences of a breach of obligation",
+      "description": "If the Policyholder or Insured Person fails to comply with the obligations imposed upon them under the Insurance Policy, the Insurer may not be required to pay the Benefits, or may limit the Benefits, in accordance with the terms of the Insurance Policy. (section 22)",
+      "applies_to": "all",
+      "page": 16
+    }
+  ],
+  "deductibles": null,
+  "waiting_periods": [
+    {
+      "coverage": null,
+      "duration": null,
+      "description": "The document states no waiting period. The Glossary definition of Effective Date is the only place that mentions the notion: the cover enters into effect on “the date and time indicated in the Insurance Certificate or the date of the payment of the first insurance premium, whichever is later, without prejudice to any applicable waiting periods”, without specifying any.",
+      "page": 21
+    }
+  ],
+  "obligations": [
+    {
+      "name": "Declarations upon entering into the Insurance Policy",
+      "description": "The Policyholder undertakes to answer truthfully, exhaustively and in writing all the questions that the Insurer asks and to cause, where relevant, the Insured Person to do the same. The Policyholder furthermore undertakes to declare accurately, at the time of conclusion of the Insurance Policy, all circumstances known to it and which it may reasonably consider as constituting elements that are relevant for the Insurer's assessment of the insured risk. The insurance premium applicable to the Insurance Policy shall be set accordingly.",
+      "timing": "at subscription",
+      "sanction": "Intentional omission or inaccuracy which has misled the Insurer in its risk assessment renders the Insurance Policy void, and the Insurer remains entitled to premiums already paid (section 6.2). If the omission or inaccuracy is unintentional, the Insurer may propose an amendment within 1 (one) month or, if it proves it would never have insured the risk, terminate within 1 (one) month; if the Policyholder refuses the amendment or does not accept it within 1 (one) month, the Insurer may terminate within 15 (fifteen) calendar days. If a Claim arises beforehand and the fault lies with the Policyholder, Benefits are reduced in proportion of the premium paid to the premium that would have been due, or limited to the reimbursement of all premiums paid (section 6.3).",
+      "page": 9
+    },
+    {
+      "name": "Declaration of aggravation of the risk during the term",
+      "description": "The Policyholder and/or the Insured Person or Insured Persons is/are required to declare any circumstances that may result in a perceptible and lasting increase in the insured risk. This clause does not apply where the state of health of the Insured Person changes.",
+      "timing": "during the term of the Insurance Policy",
+      "sanction": "The Insurer may propose an amendment with retroactive effect to the date of the aggravation within 1 (one) month, or terminate within the same period if it proves it would never have insured the aggravated risk; if the proposal is refused or not accepted within 1 (one) month, the Insurer may terminate within 15 (fifteen) calendar days. If a Claim occurs and the obligation was not complied with: the Insurer pays the agreed Benefit if the failure is not the fault of the Policyholder; otherwise compensation is proportional to the premium paid, or limited to the reimbursement of the premiums paid for the period following the aggravation; if the Policyholder acted with fraudulent intent, the Insurer may refuse all Benefits and premiums due up to the time it became aware of the fraud are owed as damages.",
+      "page": 10
+    },
+    {
+      "name": "Mitigation of the consequences of a Claim",
+      "description": "The Insured Person must take all the necessary measures to avoid or limit the consequences of any Claims.",
+      "timing": "on claim",
+      "sanction": null,
+      "page": 13
+    },
+    {
+      "name": "Provision of information and documents",
+      "description": "The Policyholder and/or the Insured Person must without delay provide all relevant information and documents to the Insurer and/or its agent, where relevant, and respond to all of the latter's inquiries, in order to enable the Insurer to determine the circumstances and the extent of the Claim.",
+      "timing": "without delay, on claim",
+      "sanction": "The Insurer shall only pay Benefits if the supporting documents and information requested are provided (section 14).",
+      "page": 13
+    },
+    {
+      "name": "Medical examination at the Insurer's request",
+      "description": "At the request of the Insurer, the Insured Person is required to be examined by a Medical Authority appointed by the Insurer.",
+      "timing": "on claim",
+      "sanction": null,
+      "page": 13
+    },
+    {
+      "name": "Prohibition of transferring Benefit entitlements",
+      "description": "The Insured Person may not pledge, transfer or assign its entitlement to the Benefits to third parties.",
+      "timing": "during the term",
+      "sanction": null,
+      "page": 16
+    },
+    {
+      "name": "Notification of a change of contract data",
+      "description": "Declarations of intent, conversions and notices concerning the Insurance Policy and any change of contact data pertaining to the Policyholder or the Insured Person must always be addressed to the Insurer in writing without delay. The Policyholder and/or the Insured Person must inform the Insurer of their new address or new name without delay; the Insured Person must let the Insurer know their new account number without delay; the Policyholder must let the Insurer know if they have new credit card data, and the Insurer will send them a new SaferPay link to update their details.",
+      "timing": "without delay",
+      "sanction": "Otherwise important information from the Insurer may not reach them on time or not at all; the Insurer shall not be liable for any loss suffered as a consequence.",
+      "page": 18
+    },
+    {
+      "name": "Preservation of the Insurer's subrogation rights",
+      "description": "The Insurer shall be subrogated in any rights and actions that the Policyholder or Insured Person may have against any third party in relation to a Claim, for the amount of Benefits paid.",
+      "timing": "on claim",
+      "sanction": "If, due to any actions or omissions of the Policyholder or Insured Person, the subrogation may no longer produce its effects to the benefit of the Insurer, the Insurer may claim repayment of the Benefits paid out in proportion to the loss suffered.",
+      "page": 14
+    },
+    {
+      "name": "Compliance with mandatory local health insurance legislation",
+      "description": "The Policyholder and the Insured Person undertake to verify and ensure that the conclusion of the Insurance Policy complies with any legal requirements to which they are subject. The insurance cover does not purport to comply with mandatory local health insurance legislation and is not a substitute for any mandatory health insurance scheme.",
+      "timing": "at subscription and during the term",
+      "sanction": "The Policyholder and the Insured Person agree to indemnify and hold harmless the Insurer against any direct or indirect loss, damage, cost, sanction, penalty, fee or other measure incurred in relation to such mandatory local health insurance legislation or obligations.",
+      "page": 16
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Report the Claim",
+      "description": "Without prejudice to the provisions of the General Terms and Conditions, the Policyholder and/or the Insured Party must report any Claim to the Insurer. Claims shall be reported through “My Globality Online Portal”.",
+      "deadline": "within 30 (thirty) days or as soon as reasonably possible",
+      "page": 13
+    },
+    {
+      "step": "Provide supporting documents",
+      "description": "The Insurer shall only pay Benefits if the supporting documents and information requested from the Policyholder and Insured Person are provided; said documents thereafter become the property of the Insurer. Invoices and proofs of payment must be original documents complying with the legal provisions of the issuing country, and may be sent by e-mail or ordinary mail provided they are readable and of sufficient transmission quality; the Insurer may at any time request the original supporting documents. If another insurer and/or institution has contributed to reimbursing costs, duplicate invoices and proofs of payment are sufficient, provided a document evidencing the amount reimbursed by the other insurer is also provided.",
+      "deadline": null,
+      "page": 13
+    },
+    {
+      "step": "Required content of invoices",
+      "description": "The following information must appear on the invoices: first and last name, as well as the date of birth of the Insured Person (and any potential co-insured persons), an exact statement of the Disease or Bodily Injury by a Doctor (diagnosis) or a precise description of the whole Disease or a reference to the relevant ICD Code 9 and/or 10 or the whole Bodily Injury with treatment data and unit prices. For dental care, the designation of the teeth treated or replaced and the services relating thereto must be indicated.",
+      "deadline": null,
+      "page": 13
+    },
+    {
+      "step": "Required content of medical prescriptions",
+      "description": "The following information must be included on medical prescriptions: first and last name, as well as the date of birth of the Insured Person (and any potential co-insured persons), the prescribed medication, the price and the payment reference. Prescriptions must be provided with the Doctor's note of fees and/or the bill for Medical Treatment, medications and remedies.",
+      "deadline": null,
+      "page": 13
+    },
+    {
+      "step": "Use of the Insurer's own forms",
+      "description": "The Insurer is entitled to request that the supporting documents and information be submitted on its own forms; the relevant forms must be duly completed by the Policyholder or the Insured Person and the attending Medical Authority as the case may be.",
+      "deadline": null,
+      "page": 13
+    },
+    {
+      "step": "Payment of Benefits",
+      "description": "The Insurer is entitled to pay its Benefits to the person who submits the supporting documents and information in due form; in the event of doubts, the Insurer shall pay the reimbursement amount to the Policyholder and any such payment validly discharges the Insurer. Health care costs incurred in a foreign currency shall be converted into euros at the exchange rate applicable on the day when the supporting documents are submitted to the Insurer.",
+      "deadline": null,
+      "page": 13
+    },
+    {
+      "step": "Language of supporting documents",
+      "description": "Any supporting documents or information must be submitted in French, German, Spanish or English. Any fees incurred by the Insurer in relation to translations of documents and information into any other languages may be deducted from the insurance Benefits granted.",
+      "deadline": null,
+      "page": 14
+    },
+    {
+      "step": "Complaint procedure",
+      "description": "In the event of a dispute regarding the Insurance Policy, the Policyholder is required to submit a written complaint to the senior management of the Insurer, Foyer Global Health S.A., 12, rue Léon Laval, L-3372 Leudelange, Luxembourg; or to the Insurance Ombudsman in care of the Association des Compagnies d'Assurances et de Réassurances du Grand-Duché de Luxembourg, 12 rue Erasme, L-1468 Luxembourg; or to the Consumer Ombudsman, Union Luxembourgeoise des Consommateurs, 55 rue des Bruyères, L-1274 Howald; or to the National Consumer Ombudsman Service, Service National du Médiateur de la Consommation, 6 rue du Palais de Justice L-1841 Luxembourg; or to the Luxembourg Insurance Commission, Commissariat aux Assurances, 11 Rue Robert Stumper, L-2557 Gasperich Luxembourg. The opening of the complaint procedure with the Commissariat aux Assurances is subject to the condition that the complaint has been previously dealt with by the Insurer. This is in addition to the Policyholder's right to pursue legal action in court.",
+      "deadline": null,
+      "page": 17
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "The Insurance Policy is deemed to have been concluded as of the date of the signature of the Group Contract by the Insurer and the Policyholder, and the insurance cover enters into force and takes effect on the Effective Date. The insurance cover runs for a period of 12 (twelve) months until the renewal date of the Group Contract. If an employee of the Policyholder is not registered as being covered at the date of the signature of the Group Contract, the insurance cover begins for such employee on the first day of the month following the registration of the relevant employee as an Insured Person.",
+    "tacit_renewal": true,
+    "notice_period": "The Policyholder's termination letter at renewal must be sent no later than 30 (thirty) calendar days after the date on which the payment notice is postmarked; the termination takes effect on the second business day following the date on which the termination letter is postmarked, but no earlier than the date of renewal. Unless otherwise provided, termination takes effect after a period of 1 (one) month following the bailiff notification, the date on the receipt, or the day following delivery of the termination letter to the postal services.",
+    "methods": [
+      "by registered letter (“lettre recommandée”)",
+      "by bailiff notification (“exploit d'huissier”)",
+      "by delivery of the termination letter against receipt (“remise de la lettre de résiliation contre récépissé”)"
+    ],
+    "special_rights": [
+      "Right of withdrawal: where the Insurance Policy is entered into remotely and qualifies as a “distance contract”, the Policyholder has 14 (fourteen) calendar days to withdraw without penalty and without providing an explanation or reason, notified by registered letter to the registered office of the Insurer before the expiry of that period (section 9, page 11).",
+      "Termination at each renewal upon receipt of the payment notice from the Insurer, in its entirety or for certain Insured Persons only (section 17.2, page 15).",
+      "Termination within 1 (one) month of the dispatch of the notification letter if the General Conditions of Insurance are amended (section 17.2, page 15); and termination by written notice via registered letter within 2 (two) months of receiving notice of an amendment of the General Conditions of Insurance, the policy then ending on the date on which the change would otherwise become effective (section 29, page 18).",
+      "Termination within 60 (sixty) days of the postmarked date of the Insurer's notification letter if the premiums are increased in accordance with the Group Contract (section 17.2, page 15).",
+      "Where the Policyholder terminates, the Insured Persons may renew the Insurance Policy by appointing a new Policyholder, declared to the Insurer within 2 (two) months of the termination; the termination shall only take effect if the Policyholder proves to the Insurer that the Insured Persons have been informed (section 17.2, page 15).",
+      "Termination by the Insurer with immediate effect if the Policyholder or an Insured Person has obtained or attempted to obtain insurance Benefits fraudulently; this right is forfeited if not used within 1 month from the date on which the Insurer was informed of the facts (section 17.3, page 15).",
+      "The Insurer has the right to cancel the Insurance Policy 10 (ten) calendar days after the expiry of the 30 (thirty) day grace period for non-payment of premiums (section 10.2, page 12).",
+      "Automatic termination: if the insurance cover has been suspended continuously for 2 (two) years; when the Group Contract is ended by the Policyholder or by the Insurer; if the Insured Person leaves the group of eligible persons; if the Insured Person moves its habitual residence to a country outside the European Union or the European Economic Area; with the Insured Person's death; if the Insurance Policy is declared null and void (section 17.1, pages 14-15).",
+      "Repayment of premiums: notwithstanding the cause of termination, premiums paid in relation to the insurance period running after the effective date of termination are refunded within 30 (thirty) days, after which statutory interest accrues by operation of law (section 17.5, page 16)."
+    ],
+    "page": 9
+  },
+  "prescription_period": {
+    "description": "The statute of limitation period for any legal actions arising out of or in connection with the Insurance Policy is 3 years. Such limitation period starts running as of the day on which the event that gives rise to the relevant legal action occurs. If the person who is entitled to take action can prove that he or she became aware of the actionable event only at a later date, the limitation period shall start running only at such later date, without, however, exceeding 5 years from the date of the occurrence of the actionable event, except in case of fraud. The statute of limitations runs also against minors or other persons deemed incapable under law; it does not run against the Insured Person that is unable to act within the prescribed time limit due to force majeure. If the Claim has been reported in due time, the statute of limitation is interrupted until the Insurer has informed the Policyholder or Insured Person in writing of its decision pertaining to the Claim. (section 16)",
+    "page": 14
+  },
+  "premium": {
+    "notes": [
+      "Unless otherwise stipulated, the premiums, fees and taxes due under the Insurance Policy must be paid in advance to the head office of the Insurer and/or the agent designated by the Insurer for this purpose. Payment is required from the Policyholder (section 10.1).",
+      "In case the Insurance Policy covers several insured risks, the total amount of premiums due is considered to constitute one single indivisible premium (section 10.1).",
+      "The payment terms for the premiums, the due date and the amount of the premium are specified in the Group Contract; any amendment to these terms requires the express written agreement of the Insurer (section 10.1).",
+      "The method for the calculation of premiums is set out in the Group Contract (section 10.3).",
+      "In the event of non-payment of premiums or of a fraction of a premium within 10 (ten) calendar days of the due date, the Benefits shall be suspended after a grace period of 30 (thirty) calendar days subsequent to the sending, by the Insurer, of a registered letter to the Policyholder at his/her last known place of domicile, also sent to the last known email address (section 10.2).",
+      "If the Insurance Policy is suspended due to the non-payment of premiums or fractions of premiums for an uninterrupted suspension period of 2 (two) years, it shall terminate automatically upon expiry of that period (section 10.2).",
+      "The Insurer's right to claim premiums that become subsequently due is limited to premiums pertaining to 2 (two) consecutive years (section 10.2).",
+      "Any change, by the insurer, of the tariff of the premium shall occur in accordance with the provisions of the law of 27 July 1997 on the insurance policy as amended from time to time, and the terms of the Group Contract (section 10.4)."
+    ],
+    "indexation": null,
+    "page": 12
+  },
+  "special_conditions": [
+    {
+      "name": "Contractual basis",
+      "description": "The mutual rights and obligations of the Insurer, the Policyholder and the Insured Person under the Insurance Policy are governed by the following documents, as amended from time to time, which together constitute the Insurance Policy: the Insurance Certificate; any subsequent written agreements concluded between the Insurer, the Policyholder and, where relevant, the Insured Person; the present General Conditions of Insurance; the Glossary included at the end of the present General Conditions of Insurance; the Group Contract; any relevant applicable statutory rules and regulations. In case of any discrepancy between these General Conditions of Insurance and the Group Contract, the provisions set out in the Group Contract shall prevail.",
+      "page": 3
+    },
+    {
+      "name": "Registration of Insured Persons and Globality Service Card",
+      "description": "To qualify as an Insured Person under the Policy, employees of the Policyholder shall be registered by the Policyholder with the Insurer in accordance with the provisions of the Group Contract. By accepting to be registered, the Insured Persons are deemed to also accept to be bound by the terms of the Insurance Policy. Any Insured Person shall receive a Globality Service Card.",
+      "page": 9
+    },
+    {
+      "name": "Plan",
+      "description": "The details of the Plan covered in the Insurance Policy are set out in the Group Contract.",
+      "page": 10
+    },
+    {
+      "name": "Allocation of expenses to the insurance year",
+      "description": "Expenses are allocated to the insurance year by reference to: the day of treatment, or the day on which the Doctor was consulted; the day on which the Drugs, Dressings or medical aid was obtained; or, for prevention courses, the day on which the Insured Person took part in the course for the first time. Any benefits paid in advance by the statutory health insurance, substitutive private health insurance, statutory accident or pension insurance, private accident or pension insurance or contributions for civil servants towards the cost of health care are offset against the Insurer's benefits and must be proven on request. (section 2.12)",
+      "page": 7
+    },
+    {
+      "name": "Choice of Doctor and applicable fee regulations",
+      "description": "The Insured Person is free to choose its Doctor and can also go to facilities that are intended for the care of people with statutory health insurance, for example approved medical care centers, as well as alternative practitioners acknowledged by the appropriate and recognized national authority within the covered country of treatment. Reimbursement is subject to usual, customary and reasonable rates applicable in the covered country of treatment, not exceeding the standard fees charged by other providers of similar standing in the same geographical area offering comparable treatment for a similar Disease and/or Bodily Injury. (sections 2.9 to 2.11)",
+      "page": 7
+    },
+    {
+      "name": "Service quality",
+      "description": "The service quality applicable to the Insurance Policy shall be governed by the terms of the Group Contract. (section 11)",
+      "page": 12
+    },
+    {
+      "name": "Voidness of the Insurance Policy",
+      "description": "If, in bad faith, a given risk is insured under one or more insurance policies, including the Insurance Policy, with a premium that is too high, the Insurance Policy shall be null and void. In this case, the Insurer acting in good faith may keep the premiums collected as a means to indemnify any loss suffered. (section 18)",
+      "page": 16
+    },
+    {
+      "name": "Information about expert opinions or statements",
+      "description": "The Insurer may obtain expert opinions or statements to verify its obligation to pay Benefits, and must provide information about their content on request to the Insured Person, who is also entitled to inspect these documents. If, for legal or therapeutical reasons, access cannot be given, the Insurer may refer the Insured Person to the Doctor, Medical Authority or lawyer who prepared them. The claim can only be made by the Insured Person concerned or their legal representative. (section 20)",
+      "page": 16
+    },
+    {
+      "name": "Limitation of liability",
+      "description": "In the absence of gross negligence (faute lourde) or wilful misconduct (dol) on its part, the Insurer shall not be liable to the Policyholder or the Insured Person for any loss, claim, liability, expense or damage arising from any action taken or omitted by the Insurer in connection with the provision of services or with the taking of any action contemplated under the Insurance Policy. (section 23)",
+      "page": 16
+    },
+    {
+      "name": "Local legislation",
+      "description": "The Policyholder and/or the Insured Person may be subject to mandatory local health insurance legislation and obligations. The insurance cover provided does not purport to comply with such local health insurance legislation and is not a substitute for any mandatory health insurance scheme that may be imposed. The Policyholder and the Insured Person acknowledge that the Insurer may not be held liable for breaches of such legislation and agree to indemnify and hold the Insurer harmless. (section 24)",
+      "page": 16
+    },
+    {
+      "name": "Force majeure",
+      "description": "The Insurer shall not be liable for any action taken, or for failure to take any action required to be taken, in fulfilment of its obligations or in exercise of its rights, to the extent that such action or failure arises out of or is caused by events beyond the Insurer's reasonable control (force majeure), including without limitation civil or labour disturbances, war, insurrection, riots, civil or military conflict, sabotage, labour unrest, strike, lock-out, fire, flood or water damage, acts of God, act or threat of any governmental authority, legal constraint, fraud or forgery, accident, explosion, mechanical breakdown, computer or systems failure, failure of equipment, failure or malfunction of communications media or interruption of power supplies, local or foreign law, judicial process, decree, regulation, order or other action of any local or foreign government, authority, court, self-regulatory organisation, government agency or instrumentality of government. (section 25)",
+      "page": 17
+    },
+    {
+      "name": "Notifications",
+      "description": "All notifications from the Insurer to the Policyholder are deemed validly made if mailed by post to the Policyholder's last known address as reflected in the Insurer's records, and are deemed to have been received 10 (ten) calendar days after the postmarked date of their dispatch. Notifications made to the Insurer must be sent to the Insurer's registered office. (section 27)",
+      "page": 17
+    },
+    {
+      "name": "Applicable law and competent court",
+      "description": "The Insurance Policy shall be governed by and construed in accordance with Luxembourg law; matters not expressly provided for shall be governed by the applicable provisions of Luxembourg law. For any dispute arising under or in connection with the Insurance Policy, only the courts of Luxembourg, Grand Duchy of Luxembourg shall be competent, without prejudice to the application of relevant European regulations or of international treaties or agreements. For any claim in tort against the Insurer, the courts of Luxembourg shall have exclusive jurisdiction. (section 28)",
+      "page": 17
+    },
+    {
+      "name": "Amendment of the General Conditions of Insurance",
+      "description": "The Insurer may amend or change the General Conditions of Insurance and shall notify the Policyholder in writing about the contemplated amendments at least 3 (three) months before the beginning of the next insurance year; the amendment then applies from the beginning of the next insurance year. If no objection is received within that 3 (three) months deadline, the Policyholder shall be deemed to have tacitly approved the amendment. (section 29)",
+      "page": 18
+    },
+    {
+      "name": "Language and communications",
+      "description": "The Policyholder and the Insured Person expressly require that these General Conditions of Insurance and, more generally, the Insurance Policy and all supporting documents and information be submitted to them in English or German, unless otherwise specified in the Group Contract. Correspondence and all other types of communications between the Insurer, the Policyholder and the Insured Person shall be in English, German, French or Spanish, unless otherwise specified in the Group Contract. The Policyholder and the Insured Person expressly acknowledge that they fully understand the language(s) chosen in the Group Contract. (section 31)",
+      "page": 18
+    },
+    {
+      "name": "Solvency and financial condition report",
+      "description": "The solvency and financial condition report of the Insurer is available on the Insurer's website under the following address: Imprint - Globality Health (globality-health.com). (section 32)",
+      "page": 19
+    },
+    {
+      "name": "Guarantee Fund",
+      "description": "Under Luxembourg law, the Benefits granted under the Insurance Policy are not subject to a specific statutory guarantee fund. Any claims to the payment of Benefits are, however, protected under the triangle of security (triangle de sécurité) constituted by the mandatory Luxembourg law provisions governing the deposit of the technical provisions underlying the Insurance Policy, the related supervision by the Commissariat aux Assurances and the applicable statutory liens (privilèges). (section 33)",
+      "page": 19
+    },
+    {
+      "name": "Professional secrecy, sub-contracting, and sub-contracting to cloud computing service providers",
+      "description": "The Insurer may use service providers, sub-contractors and technologies using cloud computing; the Policyholder expressly consents to any subcontracting, including cloud computing, within the meaning of Article 2bis paragraph 2 of Article 300 of the amended law of 7 December 2015. The Policyholder can access the sub-contracting table at any time under the link https: //www.foyer.lu/en/transparency and may request a hard copy. In the event of a change in the sub-contracting table, the Policyholder is informed by email and/or his client area and/or any other appropriate means; if the Policyholder has not objected in writing within two months, it is deemed to have irrevocably accepted the subcontracting. An objection must be notified by registered letter and is valid as a cancellation at the next expiry of the contract only. As an exception, if the insurance contract cannot be cancelled annually, the Policyholder's consent shall be valid for the entire duration of the contract. If the Policyholder holds several insurance contracts with the Insurer, one objection per insurance contract is required. (section 34)",
+      "page": 19
+    },
+    {
+      "name": "Data protection",
+      "description": "In accordance with Regulation EU 2016/679 (GDPR) and the Act of August 1, 2018, the Insurer collects, records and processes the data communicated by the Policyholder and the insured(s) in order to assess risks, prepare, establish, manage and execute the insurance contract(s), settle any claims and prevent any fraud. Special categories of personal data relating to health are processed strictly within the scope of Article 9(2)(g) GDPR. No personal data will be processed for commercial prospecting purposes without the express consent of the data subjects, who retain a right of withdrawal. The data controller is the Insurer, which may communicate data to third parties, in particular to the reinsurer, medical consultants, lawyers or other service providers, in accordance with Article 300 of the Law of December 7, 2015. The Policyholder has a right of access, limitation, deletion within the legal limits, rectification and portability. The Insurer keeps personal data only for the duration of the contract and for as long as necessary to meet its obligations. A Data Protection Officer has been appointed and can be contacted by post at the address of the data controller or by e-mail at bc-dataprotectionfgh@foyer.lu. (section 35)",
+      "page": 20
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "The Insurer underwriting the Insurance Policy is Foyer Global Health S.A., a health insurance company established in Luxembourg under the form of a public limited liability company (société anonyme) having its registered office at 12, Rue Léon Laval L-3372 Leudelange, registered under no. B134471 in the Luxembourg Trade and Companies Register, supervised by the Commissariat aux Assurances (11, rue Robert Stumper, L-2557 Luxembourg; +352226911-1; caa@caa.lu).",
+      "page": 3
+    },
+    {
+      "quote": "In case of any discrepancy between these General Conditions of Insurance and the Group Contract, the provisions set out in the Group Contract shall prevail.",
+      "page": 3
+    },
+    {
+      "quote": "Within the scope of the maximum reimbursement amount agreed for the Insured Person in the Group Contract, the Insurer will refund up to 100 % of the eligible expenses up to the annual overall limit listed in the scope of Benefits set out below",
+      "page": 3
+    },
+    {
+      "quote": "The Insurer provides Benefits for Diseases and Bodily Injuries. There is also insurance cover for: • Routine health checks, vaccinations, immunizations, • Pregnancy and childbirth, • Professional teeth cleaning.",
+      "page": 4
+    },
+    {
+      "quote": "Annual overall limit € 300.00 € 600.00 € 900.00 € 1,200.00",
+      "page": 4
+    },
+    {
+      "quote": "The specified annual overall limit applies per insured person and per insurance year.",
+      "page": 4
+    },
+    {
+      "quote": "not covered covered/paid in full",
+      "page": 4
+    },
+    {
+      "quote": "The Insurer does not reimburse expenses – not even in the case of an existing prescription for:",
+      "page": 5
+    },
+    {
+      "quote": "The Insurer does not reimburse expenses for preventive examinations for the early detection of dental, oral and jaw diseases or dental prophylaxis services (excluding professional teeth cleaning).",
+      "page": 6
+    },
+    {
+      "quote": "The Insured Person is free to choose its Doctor.",
+      "page": 7
+    },
+    {
+      "quote": "Reimbursement is subject to usual, customary and reasonable rates that are applicable in the covered country of treatment.",
+      "page": 7
+    },
+    {
+      "quote": "There is no insurance cover for illnesses and their consequences or for the consequences of accidents and deaths caused by war, civil unrest or acts of terrorism.",
+      "page": 7
+    },
+    {
+      "quote": "Upon the occurrence of a Claim, the Insurer reimburses the eligible expenses for Medical Treatment at 100 %, up to the annual overall limit insured in the selected Plan per Insured Person and per insurance year",
+      "page": 7
+    },
+    {
+      "quote": "The Insurer will not cover Diseases and Bodily Injuries, nor their consequences, if the latter have been caused fraudulently or intentionally",
+      "page": 8
+    },
+    {
+      "quote": "The Insurer will not provide coverage for any form of treatment or drug therapy that it deems to be experimental or investigational.",
+      "page": 8
+    },
+    {
+      "quote": "To qualify as an Insured Person under the Policy, employees of the Policyholder shall be registered by the Policyholder with the Insurer in accordance with the provisions of the Group Contract.",
+      "page": 9
+    },
+    {
+      "quote": "The insurance cover provided under the Insurance Policy runs for a period of 12 (twelve) months until the renewal date of the Group Contract.",
+      "page": 9
+    },
+    {
+      "quote": "No Benefits are granted for Claims occurring before the Insurance Policy takes effect.",
+      "page": 9
+    },
+    {
+      "quote": "the Policyholder and/ or the Insured Party must report any Claim to the Insurer within 30 (thirty) days or as soon as reasonably possible.",
+      "page": 13
+    },
+    {
+      "quote": "The statute of limitation period for any legal actions arising out of or in connection with the Insurance Policy is 3 years.",
+      "page": 14
+    },
+    {
+      "quote": "Insurance cover is provided for stays in all the countries of the European Union (EU), the European Economic Area (EEA) excluding Switzerland. There is no insurance cover for permanent or temporary stays in countries outside the EU and the EEA.",
+      "page": 16
+    },
+    {
+      "quote": "The Insurer underwriting the Insurance Policy is Foyer Global Health S.A., a health insurance company established in Luxembourg under the form of a public limited liability company (société anonyme) having its registered office at 12, Rue Léon Laval L-3372 Leudelange, registered under no. B134471 in the Luxembourg Trade and Companies Register, supervised by the Commissariat aux Assurances (11, rue Robert Stumper, L-2557 Luxembourg; +352226911-1; caa@caa.lu).",
+      "page": 22
+    },
+    {
+      "quote": "Policyholder: The legal person who enters into the Insurance Policy.",
+      "page": 22
+    },
+    {
+      "quote": "Xtend GCI 10.24",
+      "page": 23
+    },
+    {
+      "quote": "Foyer Global Health S.A. 12, rue Léon Laval L-3372 Leudelange Luxembourg www.globality-health.com R.C.S. Luxembourg B 134.471",
+      "page": 23
+    }
+  ],
+  "gaps": [
+    "Risk carrier: the document names it at a verb, twice and identically — “The Insurer underwriting the Insurance Policy is Foyer Global Health S.A., a health insurance company established in Luxembourg under the form of a public limited liability company (société anonyme) having its registered office at 12, Rue Léon Laval L-3372 Leudelange, registered under no. B134471 in the Luxembourg Trade and Companies Register, supervised by the Commissariat aux Assurances” (section A, page 3, and Glossary entry “Insurer”, page 22). The last page repeats “Foyer Global Health S.A. … R.C.S. Luxembourg B 134.471”. This matches the insurer_slug given in the task, which was kept unchanged. No claims manager, broker or assistance company is named as carrier anywhere in the document.",
+    "Benefits table (section 2, page 4): the marks are vector drawings and produce no text at all. Each covered cell is a teal circle of 12.9 × 12.9 pt (stroke RGB 0/0.301/0.262) containing a tick of 7.2 × 5.6 pt; the legend prints two symbols, a grey cross of 6.5 × 6.5 pt for “not covered” and the circled tick for “covered/paid in full”. Rows were rebuilt from the 11 horizontal separators of the label column (y = 361.1, 389.4, 417.7, 446.1, 474.4, 502.8, 531.1, 559.5, 587.8, 616.2, 644.5 pt) and columns from the four x positions of the marks (254.8, 339.9, 424.9, 509.9 pt). The arithmetic closes: 10 rows × 4 columns = 40 cells = 32 ticks + 0 crosses + 8 blanks. The reading was confirmed on a 3× render of the table.",
+    "Two rows of the Benefits table carry no mark at all in any of the four columns: “Outpatient treatment” and “Professional teeth cleaning” (8 blank cells). These blanks were NOT converted into exclusions: the document provides an explicit “not covered” cross in its legend and uses it in no cell of the table, and the prose states the opposite for professional teeth cleaning — section 1.1 lists it among the events for which there is insurance cover, section 2.6 says “The Insurer will reimburse the eligible expenses for professional dental cleaning”, and the Glossary definitions of Claim and Medical Treatment both name it. Both rows are therefore recorded as coverages, with the absence of a mark stated in their description.",
+    "All 32 ticks are identical across the four Plan columns: the four Plans (Xtend 300, Xtend 600, Xtend 900, Xtend 1200) differ only by the annual overall limit (€ 300.00 / € 600.00 / € 900.00 / € 1,200.00). No benefit is optional or reserved to a higher Plan, which is why is_optional is false for every coverage. This membership finding comes from the graphics layer and is therefore not quotable; it is recorded in the structured fields only.",
+    "“Pregnancy and childbirth” is covered by section 1.1 (“There is also insurance cover for: … Pregnancy and childbirth”), appears in the Glossary definitions of Claim and of Medical Treatment, but has no row in the Benefits table and no benefit description in section 2. It is recorded as a coverage with no limit of its own beyond the annual overall limit; the document says nothing more about it.",
+    "edition_date: the document prints no explicit edition date. The last page carries the document code “Xtend GCI 10.24”, recorded in `reference`. Note a divergence with the file name in the source URL, which contains “0924”; the document itself prints 10.24 and the document was preferred, without concluding that either is an edition date.",
+    "deductibles: null. The document provides for no deductible, franchise or co-payment; it states that the Insurer refunds up to 100 % of the eligible expenses up to the annual overall limit (section A, page 3, and section 2.12, page 7). Nothing else in the document mentions a deductible.",
+    "waiting_periods: the document specifies none. The only mention of the notion is in the Glossary definition of Effective Date (“without prejudice to any applicable waiting periods”, page 21), which is recorded as such.",
+    "This document is the English version. Section 31 provides that the General Conditions of Insurance and the Insurance Policy are submitted in English or German unless otherwise specified in the Group Contract, and does not designate a version that prevails in case of discrepancy. Nothing has been completed from any other language version; the extraction is made from the English text alone.",
+    "The document repeatedly refers to documents that are not part of this file and that carry substantive terms: the Group Contract (which prevails over these General Conditions in case of discrepancy, and which sets the Plan details, the premium amount, calculation and due dates, the service quality and the language), the Insurance Certificate, and any subsequent written agreements. Those terms could not be extracted.",
+    "Text-layer control: all 23 pages were re-extracted with page.get_text(\"text\") from the source file (data/lu/pdfs/foyer-global-health/sante/xtend-f0e1ce7f.pdf) and match the task text character for character; the text was not truncated. No ligature loss, no Private Use Area glyphs, no zero-width spaces and no NFD combining characters were found; the document contains 29 curly apostrophes (U+2019) and 2 en dashes (U+2013). All quotes are programmatic slices of a single page; none crosses a page boundary.",
+    "Column-order control (negative result, performed on this document): the body text is single-column and is emitted in printed order; the Benefits table is emitted row label first, then the four Plan columns left to right. No column reversal and no line-by-line interleaving were found.",
+    "Page numbering: every citation is the PDF page. The printed folio equals the PDF page number on every page (checked against the folios printed on pages 2 to 22), so there is no offset.",
+    "Heading divergences between the table of contents (page 2) and the body, recorded uncorrected: the contents list section 34 as “Outsourcing” while the body heading reads “34. Professional secrecy, sub-contracting, and sub-contracting to cloud computing service providers”; the contents print “13 . Obligations and formalities…” with a stray space; the body heading of section 5 is printed without a full stop (“5 When does the insurance cover begin and end?”).",
+    "Apparent typographical errors in the source, kept as printed: “the Insurer considers in particular that a a Disease or Bodily Injury” (section 3.2, page 8); “any such payment shall validly discharge de Insurer” (section 14, page 14); “nutritional therapy measures … Such a commitment is not required for cystic fibrosis/cystic fibrosis” (section 2.2, page 5); “the Insurer shall be obliged pay the agreed Benefit” (section 6.4, page 10). In section 6.4 the source states the same condition — “if the failure to declare is not the fault of the Policyholder” — for both alternative a) and alternative b), which appear to be intended as opposites; both readings are recorded verbatim in the obligation's sanction rather than corrected.",
+    "The document is a group policy: the Policyholder is a legal person and the Insured Persons are its employees, so target_audience is set to entreprises on the strength of section 4 and of the Glossary definition of Policyholder. The document does not describe an individual retail version.",
+    "No premium amount, rate or tariff is stated in the document; premium mechanics only are recorded."
+  ]
+}

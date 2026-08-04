@@ -28,7 +28,7 @@ navigate it without guessing. Do not edit by hand.
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
 | ch (Switzerland) | 0 | 12 | 1 | 0 | 5 |
 | fr (France) | 24 | 784 | 10 | 1 | 5 |
-| lu (Luxembourg) | 15 | 160 | 3 | 1 | 5 |
+| lu (Luxembourg) | 15 | 194 | 4 | 1 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
 
@@ -1227,6 +1227,39 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | lu | sante | dkv | PLUS HEALTH - IPID | 2026-08-04 | [pdf](https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_PLUS_HEALTH_fr.pdf) |
 | lu | sante | dkv | PLUS HEALTH - IPID - DE | 2026-08-04 | [pdf](https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_PLUS_HEALTH_de.pdf) |
 | lu | sante | dkv | PLUS HEALTH - IPID - EN | 2026-08-04 | [pdf](https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_PLUS_HEALTH_en.pdf) |
+| lu | sante | foyer-global-health | Foyer Global Health Exclusive | 2026-08-04 | [pdf](https://globalhealth.insurance/wp-content/uploads/2026/06/FGH-Special-Conditions-FR_EXCLUSIVE_20240301.pdf) |
+| lu | sante | foyer-global-health | Foyer Global Health Exclusive - DE | 2026-08-04 | [pdf](https://globalhealth.insurance/wp-content/uploads/2026/06/FGH-Special-Conditions-DE_EXCLUSIVE_20240301.pdf) |
+| lu | sante | foyer-global-health | Foyer Global Health Special | 2026-08-04 | [pdf](https://globalhealth.insurance/wp-content/uploads/2026/06/FGH-Special-Conditions-FR_SPECIAL_20240301-1.pdf) |
+| lu | sante | foyer-global-health | Foyer Global Health Special - DE | 2026-08-04 | [pdf](https://globalhealth.insurance/wp-content/uploads/2026/06/FGH-Special-Conditions-DE_SPECIAL_-20240301.pdf) |
+| lu | sante | foyer-global-health | Globality CoGenio® | 2026-08-04 | [pdf](https://globalhealth.insurance/wp-content/uploads/2025/12/Globality_CoGenio_GCI_FR_V18_0224.pdf) |
+| lu | sante | foyer-global-health | Globality CoGenio® (2) | 2026-08-04 | [pdf](https://globalhealth.insurance/wp-content/uploads/2026/07/Globality_CoGenio_GCI_FR_V18_0224-3-1.pdf) |
+| lu | sante | foyer-global-health | Globality CoGenio® - DE | 2026-08-04 | [pdf](https://globalhealth.insurance/wp-content/uploads/2025/12/Globality_CoGenio_GCI_DE_V18_0224.pdf) |
+| lu | sante | foyer-global-health | Globality CoGenio® - EN | 2026-08-04 | [pdf](https://globalhealth.insurance/wp-content/uploads/2025/12/Globality_CoGenio_GCI_EN_V18_0224.pdf) |
+| lu | sante | foyer-global-health | Globality CoGenio® - ES | 2026-08-04 | [pdf](https://globalhealth.insurance/wp-content/uploads/2026/02/Globality_CoGenio_GCI_ES_V18_0224.pdf) |
+| lu | sante | foyer-global-health | Globality EcoGenio® - ES | 2026-08-04 | [pdf](https://globalhealth.insurance/wp-content/uploads/2025/12/Globality_EcoGenio_GCI_ES_131222-1.pdf) |
+| lu | sante | foyer-global-health | Globality YouGenio® World | 2026-08-04 | [pdf](https://globalhealth.insurance/wp-content/uploads/2026/06/Globality_YouGenio_World_GCI_FR_V14_0224.pdf) |
+| lu | sante | foyer-global-health | Globality YouGenio® World - DE | 2026-08-04 | [pdf](https://globalhealth.insurance/wp-content/uploads/2026/06/Globality_YouGenio_World_GCI_DE_V14_0224.pdf) |
+| lu | sante | foyer-global-health | Globality YouGenio® World - EN | 2026-08-04 | [pdf](https://globalhealth.insurance/wp-content/uploads/2026/06/Globality_YouGenio_World_GCI_EN_V14_0224.pdf) |
+| lu | sante | foyer-global-health | Globality YouGenio® World - ES | 2026-08-04 | [pdf](https://globalhealth.insurance/wp-content/uploads/2026/06/Globality_YouGenio_World_GCI_ES_V14_0224.pdf) |
+| lu | sante | foyer-global-health | Globality YouGenio® for Germany (for Germany (Tarifstufen Classic, Plus und Top)) - DE | 2026-08-04 | [pdf](https://globalhealth.insurance/wp-content/uploads/2026/01/Globality_YouGenio_Germany_GCI_DE_0224.pdf) |
+| lu | sante | foyer-global-health | Globality YouGenio® for Germany - EN | 2026-08-04 | [pdf](https://globalhealth.insurance/wp-content/uploads/2026/01/Globality_YouGenio_Germany_GCI_EN_0224.pdf) |
+| lu | sante | foyer-global-health | Journey | 2026-08-04 | [pdf](https://globalhealth.insurance/wp-content/uploads/2026/01/GCI_Journey_FR_16012026.pdf) |
+| lu | sante | foyer-global-health | Journey (2) | 2026-08-04 | [pdf](https://globalhealth.insurance/wp-content/uploads/2026/03/SCI_Journey_Basic-to-Premium_FR_16012026.pdf) |
+| lu | sante | foyer-global-health | Journey (Conditions Spéciales – Plans Basic, Extensive, Advanced et Premium) | 2026-08-04 | [pdf](https://globalhealth.insurance/wp-content/uploads/2026/01/SCI_Journey_T1-T4_FR_16012026.pdf) |
+| lu | sante | foyer-global-health | Journey (Modalidad Short) - ES | 2026-08-04 | [pdf](https://globalhealth.insurance/wp-content/uploads/2026/03/SCI_Journey_Short_Es_13032026.pdf) |
+| lu | sante | foyer-global-health | Journey (Modalidades Basic, Extensive, Advanced y Premium) - ES | 2026-08-04 | [pdf](https://globalhealth.insurance/wp-content/uploads/2026/03/SCI_Journey_Basic-to-Premium_Es.pdf) |
+| lu | sante | foyer-global-health | Journey (Plan Short) | 2026-08-04 | [pdf](https://globalhealth.insurance/wp-content/uploads/2026/01/SCI_Journey_Short_FR_15012026.pdf) |
+| lu | sante | foyer-global-health | Journey (Plan Short) - EN | 2026-08-04 | [pdf](https://globalhealth.insurance/wp-content/uploads/2025/12/SCI_Journey_Short_En.pdf) |
+| lu | sante | foyer-global-health | Journey (Plans Basic, Extensive, Advanced and Premium) - EN | 2026-08-04 | [pdf](https://globalhealth.insurance/wp-content/uploads/2026/03/SCI_Journey_Basic-to-Premium_En_27012028.pdf) |
+| lu | sante | foyer-global-health | Journey (Tarif Short) - DE | 2026-08-04 | [pdf](https://globalhealth.insurance/wp-content/uploads/2025/12/SCI_Journey_Short_De.pdf) |
+| lu | sante | foyer-global-health | Journey (Tarife Basic, Extensive, Advanced und Premium) - DE | 2026-08-04 | [pdf](https://globalhealth.insurance/wp-content/uploads/2025/12/SCI_Journey_T1-T4_De.pdf) |
+| lu | sante | foyer-global-health | Journey (Tarife Basic, Extensive, Advanced und Premium) - DE (2) | 2026-08-04 | [pdf](https://globalhealth.insurance/wp-content/uploads/2026/03/SCI_Journey_Basic-to-Premium_De_10122025.pdf) |
+| lu | sante | foyer-global-health | Journey - DE | 2026-08-04 | [pdf](https://globalhealth.insurance/wp-content/uploads/2025/12/Global-Health_Journey_General-conditions_DE.pdf) |
+| lu | sante | foyer-global-health | Journey - EN | 2026-08-04 | [pdf](https://globalhealth.insurance/wp-content/uploads/2025/12/Global-Health_Journey_General-conditions_EN.pdf) |
+| lu | sante | foyer-global-health | Journey - EN (2) | 2026-08-04 | [pdf](https://globalhealth.insurance/wp-content/uploads/2025/12/SCI_Journey_T1-T4_En.pdf) |
+| lu | sante | foyer-global-health | Journey - ES | 2026-08-04 | [pdf](https://globalhealth.insurance/wp-content/uploads/2026/03/GCI_Journey_Es_02032026.pdf) |
+| lu | sante | foyer-global-health | Xtend - DE | 2026-08-04 | [pdf](https://globalhealth.insurance/wp-content/uploads/2025/12/Globality_Xtend_GCI_DE_300125.pdf) |
+| lu | sante | foyer-global-health | Xtend - EN | 2026-08-04 | [pdf](https://globalhealth.insurance/wp-content/uploads/2025/12/Globality_Xtend_GCI_EN_0924.pdf) |
 | lu | sante | lalux | BUSINESS TRAVEL - IPID - DE | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_BUSINESS_TRAVEL_de.pdf) |
 | lu | sante | lalux | BUSINESS TRAVEL - IPID - EN | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_BUSINESS_TRAVEL_en.pdf) |
 | lu | solde-restant-du | baloise | Assurance Solde Restant Dû - IPID | 2026-08-03 | [pdf](https://www.baloise.lu/dam/baloise-lu/1890/particulier/documents/fiches/fiche-ipid/fr/IPID-SRD-LUFR-02-22.pdf) |
@@ -1245,6 +1278,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | lu | voyage | dkv | TRAVEL - TRAVEL + - IPID | 2026-08-04 | [pdf](https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_TRAVEL_TRAVEL_PLUS_fr.pdf) |
 | lu | voyage | dkv | TRAVEL - TRAVEL + - IPID - DE | 2026-08-04 | [pdf](https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_TRAVEL_TRAVEL_PLUS_de.pdf) |
 | lu | voyage | dkv | TRAVEL - TRAVEL + - IPID - EN | 2026-08-04 | [pdf](https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_TRAVEL_TRAVEL_PLUS_en.pdf) |
+| lu | voyage | foyer-global-health | Corporate Travel - EN | 2026-08-04 | [pdf](https://globalhealth.insurance/wp-content/uploads/2025/12/Globality_Corporate_Travel_GCI_EN_0924.pdf) |
 | lu | voyage | lalux | Assurance BUREAUX DE VOYAGES – Formule 1 et 2 - IPID | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/ipid_bureaux_de_voyages__remanie__-_formule_1_et_2_fr.pdf) |
 | lu | voyage | lalux | Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance (MILES & MORE LUXAIR VISA BUSINESS) - IPID | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_MILES_MORE_LUXAIR_VISA_BUSINESS_FR.pdf) |
 | lu | voyage | lalux | Carefree Holidays - IPID - EN | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_vacances-sans-soucis_lalux_en.pdf) |

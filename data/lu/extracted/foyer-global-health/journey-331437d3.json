@@ -1,0 +1,815 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "lu",
+  "insurer_slug": "foyer-global-health",
+  "insurer_name": "Foyer Global Health",
+  "product_name": "Journey",
+  "branch": "sante",
+  "branch_code": null,
+  "document_type": "conditions_generales",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "Le document ne désigne aucune catégorie de clientèle. Il définit le Preneur d’Assurance comme « La personne physique ou morale qui souscrit la Police d’Assurance auprès de l’Assureur » (Glossaire, page 23) et la Personne Assurée comme « La personne désignée dans le Formulaire de Souscription comme étant celle dont la santé est assurée par la Police d’Assurance » (page 23). Les deux formes juridiques étant expressément admises, aucune valeur de l’énumération ne peut être établie.",
+  "reference": "GH_JOY_OO_GT_25.11",
+  "edition_date": null,
+  "product_family": "Journey",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://globalhealth.insurance/wp-content/uploads/2026/01/GCI_Journey_FR_16012026.pdf",
+  "source_pdf": "journey-331437d3.pdf",
+  "source_sha256": "f1ed9c3727003c82cf6583f51e17d6263733aaad0ddfeba3118e280fdd883f2e",
+  "source_pages": 24,
+  "fetched_at": "2026-08-04",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Ce document contient les Conditions Générales d’Assurance du produit d’assurance santé Journey de Foyer Global Health S.A. Il fixe le cadre juridique de la Police d’Assurance : documents contractuels et hiérarchie des conditions, demande d’adhésion et obligation précontractuelle de déclaration, obligations de déclaration en cours de contrat, assurance cumulative, droit de rétractation, entrée en vigueur et Date d’Effet, adhésion des nouveau-nés, expiration et résiliation de la police, délais de carence, délai de déclaration des Sinistres, obligations et formalités lors d’une demande de remboursement, paiement des Prestations, subrogation, délai de prescription, paiement et calcul des primes, ainsi que des dispositions diverses (modification des conditions, protection des données, sanctions, notifications, litiges, droit applicable, langue, fonds de garantie, force majeure). L’étendue exacte de la couverture et des Prestations n’est pas fixée dans ce document mais dans les Conditions Spéciales ; le document se termine par un Glossaire des termes définis.",
+  "definitions": [
+    {
+      "term": "Accident",
+      "definition": "Un Accident est un événement soudain et imprévu qui agissant de manière externe sur le corps et portant atteinte à la santé.",
+      "page": 21
+    },
+    {
+      "term": "Année d’Assurance",
+      "definition": "Période de 12 (douze) mois commençant soit à la Date d’Effet, soit à la date de renouvellement de la Police d’Assurance, selon le cas.",
+      "page": 21
+    },
+    {
+      "term": "Assureur",
+      "definition": "L’Assureur qui souscrit la Police d’Assurance est Foyer Global Health S.A., une compagnie d’assurance santé établie au Luxembourg sous la forme d’une société anonyme dont le siège social est situé au 12, Rue Léon Laval, L-3372 Leudelange, enregistrée sous le numéro B134.471 au Registre du commerce et des sociétés de Luxembourg, placée sous la surveillance du Commissariat aux Assurances (11, rue Robert Stumper, L-2557 Luxembourg ; +352226911-1 ; caa@caa.lu).",
+      "page": 21
+    },
+    {
+      "term": "Autorité Médicale",
+      "definition": "Personne autorisée à exercer la Médecine dans le pays où le Traitement est dispensé, sur la base d’un diplôme de Médecine reconnu et officiel. Elle peut établir un diagnostic lié à une Maladie et/ou à une Blessure Corporelle.",
+      "page": 21
+    },
+    {
+      "term": "Blessure Corporelle",
+      "definition": "Événement soudain affectant la Personne Assurée, indépendant de sa volonté, entraînant des dommages corporels, dont la cause est externe au corps de la Personne Assurée et dont les symptômes peuvent être déterminés et objectivement constatés par une Autorité Médicale afin d’établir un diagnostic et d’administrer un Traitement.",
+      "page": 21
+    },
+    {
+      "term": "Carte de Service",
+      "definition": "Document délivré par l’Assureur à la Personne Assurée conformément à la Police d’Assurance, contenant les coordonnées nécessaires pour contacter l’Assureur devant être utilisées dans toutes communication avec l’Assureur.",
+      "page": 21
+    },
+    {
+      "term": "Centre de Service",
+      "definition": "Le Centre de Services local offre un accès direct à des spécialistes locaux, un service continu et une assistance de premier ordre. La Personne Assurée peut bénéficier de services d’assistance correspondant au niveau de Plan choisi en cas de Sinistre ou d’Urgence. Le numéro du Centre de Services, accessible 24 heures sur 24, 7 jours sur 7, est indiqué au verso de la Carte de Services. Le « numéro d’assurance » indiqué au recto de la Carte de Service doit toujours être disponible. Les Centres de Services connaissent le système de santé et les structures locales du Pays de Résidence. Ils peuvent recommander des Médecins et des hôpitaux, prendre des rendez-vous ou se procurer des Médicaments. Ils peuvent également émettre une garantie de paiement ou assurer le remboursement rapide et simple des frais.",
+      "page": 21
+    },
+    {
+      "term": "Certificat d’Assurance",
+      "definition": "Le Certificat d’Assurance délivré à l’attention du Preneur d’Assurance et de la Personne Assurée confirmant l’étendue et la Date d’Effet de la couverture d’assurance prévue par la Police d’Assurance.",
+      "page": 21
+    },
+    {
+      "term": "Codes CIM",
+      "definition": "Codes de classification utilisés dans la Classification internationale des Maladies, un système international de codification et de classification de tous les diagnostics connus.",
+      "page": 21
+    },
+    {
+      "term": "Conditions Générales",
+      "definition": "Les Conditions Générales d’Assurance, les Conditions Spéciales d’assurance et, le cas échéant, les Conditions Particulières d’assurance sont collectivement désignées sous le nom de « Conditions Générales ».",
+      "page": 21
+    },
+    {
+      "term": "Conditions Générales d’Assurance",
+      "definition": "Les Conditions Générales régissant les risques assurés par l’Assureur (le présent document).",
+      "page": 21
+    },
+    {
+      "term": "Conditions Particulières",
+      "definition": "Termes et conditions spécifiques à chaque Police d’Assurance individuelle.",
+      "page": 21
+    },
+    {
+      "term": "Conditions Spéciales",
+      "definition": "Document précisant l’étendue exacte de la couverture d’assurance et des Prestations prévues par la Police d’Assurance.",
+      "page": 21
+    },
+    {
+      "term": "Date d’Effet",
+      "definition": "Date à laquelle la Police d’Assurance ainsi que, les garanties et les Prestations qu’elle prévoit, entrent en vigueur, à savoir la date et l’heure indiquées dans les Conditions Particulières ou la date du paiement de la première prime d’assurance, la date la plus tardive étant retenue, sous réserve des délais de carence applicable.",
+      "page": 21
+    },
+    {
+      "term": "Début du Traitement",
+      "definition": "Date à laquelle commence un Traitement médical prescrit et administré par une Autorité Médicale à la suite d’une Maladie ou d’une Blessure Corporelle.",
+      "page": 22
+    },
+    {
+      "term": "Délai de Carence",
+      "definition": "Période suivant la Date d’Effet pendant laquelle aucune couverture et aucune Prestation ne sont accordées au titre de la Police d’Assurance pour les risques soumis au Délai de Carence.",
+      "page": 22
+    },
+    {
+      "term": "Formulaire de Souscription",
+      "definition": "La demande d’assurance santé contentant la proposition d’assurance au sens de la législation applicable, signée par le Preneur d’Assurance et, le cas échéant, par la ou les Personne(s) Assurée(s).",
+      "page": 22
+    },
+    {
+      "term": "Glossaire",
+      "definition": "Le présent Glossaire des termes définis, qui faisant partie intégrante des Conditions Générales d’Assurance.",
+      "page": 22
+    },
+    {
+      "term": "Glossaires",
+      "definition": "Le présent Glossaire et le Glossaire figurant à la fin des Conditions Spéciales, qui font tous partie intégrante des Conditions Générales d’Assurance.",
+      "page": 22
+    },
+    {
+      "term": "Hôpital",
+      "definition": "Établissement fournissant un Traitement hospitalier et parfois ambulatoire, agréé et autorisé dans le pays où il exerce. L’Assureur ne verse des Prestations que si l’Hôpital est sous supervision médicale permanente, dispose d’équipements diagnostiques et thérapeutiques adéquats et tient les dossiers médicaux. L’Assureur ne considère pas les maisons de repos, maison de soins, centres de santé, stations thermales et spas, hospices ainsi que les sanatoriums comme des hôpitaux.",
+      "page": 22
+    },
+    {
+      "term": "Maladie",
+      "definition": "La détérioration de l’état de santé physique ou mental de la Personne Assurée, dont l’origine et les symptômes peuvent être déterminés et objectivement constatés par une Autorité Médicale afin de diagnostiquer et d’administrer un Traitement nécessaire ; la détérioration ne doit toutefois pas être due à une Blessure Corporelle.",
+      "page": 22
+    },
+    {
+      "term": "Médicalement Nécessaire",
+      "definition": "Sont Médicalement Nécessaires toutes les mesures médicales appropriées, fondées sur des standards médicaux internationalement reconnues au moment et à l’endroit du Traitement, destinées à diagnostiquer, traiter, guérir ou soulager la Maladie, l’affection ou la blessure et qui sont reconnues comme appropriées par l’Assureur. Ces mesures doivent être : a) réalisées dans un établissement de santé dûment agréé et autorisé par les autorités du pays où le Traitement est dispensé ; b) les plus appropriées compte tenu à la fois de la sécurité du patient et du rapport coût-efficacité, et conformes aux normes généralement acceptées de la pratique médicale ; c) être cohérentes avec le diagnostic, les symptômes ou le Traitement de l’affection sous-jacente ; d) cliniquement appropriées, en termes de type, de fréquence, d’étendue, de localisation et de durée, et considérées comme efficaces pour la Maladie, la blessure ou l’affection du patient ; e) ne pas être requises uniquement pour le confort ou la commodité du patient, des prestataires médicaux, des Thérapeutes ou des Médecins ; f) non destinées à des essais cliniques, à des fins expérimentales, de recherche ou esthétiques ; g) non destinées à des fins de dépistage et de soins préventifs.",
+      "page": 22
+    },
+    {
+      "term": "Médicament",
+      "definition": "Toute substance ou composition ayant des propriétés curatives liées à une Maladie.",
+      "page": 22
+    },
+    {
+      "term": "Médicaments",
+      "definition": "Substances actives utilisées, seules ou en association avec d’autres substances, pour le diagnostic ou le Traitement d’une Maladie, d’une affection, d’une Blessure Corporelle ou d’un trouble pathologique. Les aliments, cosmétiques et articles de toilette ne sont pas considérés comme des Médicaments. Les Médicaments doivent être prescrits par un Médecin et délivrés par une pharmacie. Ils sont communément appelés « Médicaments » ou « produits pharmaceutiques ».",
+      "page": 22
+    },
+    {
+      "term": "Médecin",
+      "definition": "Médecin (généraliste ou spécialiste) titulaire d’un diplôme de Médecine reconnu légalement dans le pays dans lequel le Traitement est dispensé, et autorisé à prodiguer des soins médicaux. Aux fins de la présente Police d’Assurance, ce terme désigne également les Dentistes, praticiens de Médecine alternative, Thérapeutes agréés et/ou reconnus comme tels dans le pays où le Traitement est dispensé.",
+      "page": 23
+    },
+    {
+      "term": "Pansements",
+      "definition": "Matériel ou substance stérile appliqué sur une plaie ou une blessure afin de la protéger, de favoriser la cicatrisation et de prévenir l’infection.",
+      "page": 23
+    },
+    {
+      "term": "Pays de Résidence",
+      "definition": "Pays dans lequel la Personne Assurée a sa résidence habituelle actuelle ou sa résidence temporaire actuelle.",
+      "page": 23
+    },
+    {
+      "term": "Personne Assurée",
+      "definition": "La personne désignée dans le Formulaire de Souscription comme étant celle dont la santé est assurée par la Police d’Assurance. En signant le Formulaire de Souscription, les Personnes Assurées sont également réputées accepter d’être liées par les conditions de la Police d’Assurance et tous les droits et obligations qui en découlent. Toute Personne Assurée recevra une Carte de Service.",
+      "page": 23
+    },
+    {
+      "term": "Plan",
+      "definition": "Plan choisi par le Preneur d’Assurance pour les Personnes Assurées, définissant l’étendue de la couverture d’assurance fournie dans le cadre de la Police d’Assurance.",
+      "page": 23
+    },
+    {
+      "term": "Police d’Assurance",
+      "definition": "Cadre contractuel de l’assurance santé constitué des Conditions Générales d’Assurance, ainsi que le Formulaire de Souscription, les Conditions Particulières, les Conditions Spéciales, les Glossaires, le Certificat d’Assurance et tout accord écrit ultérieur entre l’Assureur, le Preneur d’Assurance et, le cas échéant, la Personne Assurée.",
+      "page": 23
+    },
+    {
+      "term": "Police d’Assurance à distance",
+      "definition": "Tout Police d’Assurance conclue entre un Assureur et un Preneur d’Assurance dans le cadre d’un système organisé de vente ou de Prestation de services à distance géré par l’Assureur, qui, aux fins du contrat, utilise exclusivement un ou plusieurs moyens de communication à distance jusqu’au moment de la conclusion de la Police d’Assurance.",
+      "page": 23
+    },
+    {
+      "term": "Preneur d’Assurance",
+      "definition": "La personne physique ou morale qui souscrit la Police d’Assurance auprès de l’Assureur.",
+      "page": 23
+    },
+    {
+      "term": "Prestation",
+      "definition": "Le remboursement des frais et dépenses de santé par l’Assureur à la Personne Assurée à la suite d’un Sinistre couvert par la Police d’Assurance.",
+      "page": 23
+    },
+    {
+      "term": "Sinistre",
+      "definition": "Traitement d’une Personne Assurée à la suite d’une Maladie ou d’une Blessure Corporelle prescrit et administré par une Autorité Médicale. Le Sinistre commence à la date du Début du Traitement et prend fin lorsqu’un examen médical effectué par une Autorité Médicale confirme que le Traitement n’est plus nécessaire. Si le Traitement doit être prolongé en raison d’une Maladie ou des conséquences d’une Blessure Corporelle qui n’est pas directement liée à ce Traitement, une nouvelle demande de remboursement est réputée avoir été introduite.",
+      "page": 23
+    },
+    {
+      "term": "Traitement",
+      "definition": "Les mesures diagnostiques et thérapeutiques classées comme services médicaux, incluant les conseils médicaux, aides et interventions ainsi que les Médicaments et Pansements, destinées à identifier, soulager ou à guérir une Maladie ou une Blessure Corporelle et considérées comme Médicalement Nécessaires sur la base de conclusions médicales objectives et de connaissances scientifiques au moment du Traitement.",
+      "page": 23
+    },
+    {
+      "term": "Urgence",
+      "definition": "Maladie soudaine et aiguë ou détérioration aiguë d’un aspect de la santé mettant directement en danger l’état de santé général de la Personne Assurée.",
+      "page": 23
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Remboursement des Frais Éligibles selon le niveau de Plan choisi",
+      "description": "Dans la limite du montant maximal de remboursement convenu et en fonction du niveau de Plan choisi, l’Assureur rembourse les Frais Éligibles, dans la limite du Plafond Annuel Global indiqué dans l’étendue des Prestations figurant dans les Conditions Spéciales, sauf indication contraire dans les Conditions Particulières, le Certificat d’Assurance ou tout accord écrit ultérieur entre l’Assureur, le Preneur d’Assurance et, le cas échéant, la Personne Assurée. La Prestation est définie comme le remboursement des frais et dépenses de santé par l’Assureur à la Personne Assurée à la suite d’un Sinistre couvert par la Police d’Assurance.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "dans la limite du montant maximal de remboursement convenu et du Plafond Annuel Global indiqué dans l’étendue des Prestations figurant dans les Conditions Spéciales",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "L’étendue exacte de la couverture d’assurance et des Prestations est précisée dans les Conditions Spéciales (Glossaire, page 21).",
+        "La Police d’Assurance ainsi que la couverture et Prestations prévues par celle-ci entrent en vigueur et prennent effet à la Date d’Effet, sous réserve de l’expiration préalable de tout Délai de Carence applicable (2.5.2).",
+        "La couverture d’assurance prévue par la Police d’Assurance ne commence qu’après le paiement intégral de la première prime ou de la première échéance (4.1)."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Adhésion des nouveau-nés",
+      "description": "Les nouveau-nés sont inclus en tant que Personnes Assurées dès leur naissance, sans Délai de Carence et sans évaluation du risque médical, à condition que la mère biologique ait été Preneur d’Assurance et Personne Assurée pendant au moins 9 (neuf) mois consécutifs précédant la date de naissance et qu’un nouveau Formulaire de Souscription pour le nouveau-né soit soumis dans les 2 (deux) mois suivant la date de naissance. Dans ce cas, les Prestations applicables au nouveau-né s’appliquent rétroactivement à compter du premier jour du mois de naissance de l’enfant. Les nouveau-nés ne peuvent être assurés qu’aux tarifs applicables à toute nouvelle Police d’Assurance conclue à la date de la naissance concernée. Si la mère biologique n’a pas achevé le Délai de Carence concernant les soins de maternité, ceux-ci ne seront pas couverts ; toutefois, la couverture au titre de la Prestation « soins au nouveau-né » reste applicable si les conditions spécifiées sont remplies, même si la mère biologique n’a pas achevé le de carence pour les soins de maternité.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Les Prestations accordées au nouveau-né ne peuvent être supérieures ou plus étendues que les Prestations accordées à la mère biologique en tant que Personne Assurée ; la couverture d’assurance pour le nouveau-né ne doit pas être supérieure ou plus complète que celle de l’un ou l’autre des parents assurés auprès de l’Assureur.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "mère biologique Preneur d’Assurance et Personne Assurée pendant au moins 9 (neuf) mois consécutifs précédant la date de naissance",
+        "nouveau Formulaire de Souscription soumis dans les 2 (deux) mois suivant la date de naissance",
+        "À défaut, l’adhésion du nouveau-né est subordonnée à une évaluation du risque médical impliquant un questionnaire médical ; l’Assureur détermine si la couverture peut être accordée et selon quelles modalités, conditions ou exclusions.",
+        "Si le Formulaire de Souscription est reçu plus de 2 (deux) mois après la date de naissance, la couverture prend effet au plus tôt le jour où l’Assureur reçoit le nouveau Formulaire de Souscription ; la déclaration tardive peut entraîner une surprime.",
+        "Pour les enfants mineurs adoptés, une évaluation du risque médical est nécessaire, et une surprime, ne dépassant pas 500 %, peut être appliquée."
+      ],
+      "page": 7
+    },
+    {
+      "name": "Assistance du Centre de Service en cas d’Accident ou d’Urgence",
+      "description": "La Personne Assurée peut contacter le Centre de Service compétent 24 heures sur 24, 7 jours sur 7, 365 jours par an, en particulier à la suite d’un événement important tel qu’un Accident, une Urgence ou un Traitement hospitalier. Les adresses, numéros de téléphone et adresses électroniques figurent sur tous les documents pertinents et sur la Sarte de Service. Le Centre de Services local offre un accès direct à des spécialistes locaux, un service continu et une assistance de premier ordre ; les Centres de Services connaissent le système de santé et les structures locales du Pays de Résidence, peuvent recommander des Médecins et des hôpitaux, prendre des rendez-vous ou se procurer des Médicaments, et peuvent également émettre une garantie de paiement ou assurer le remboursement rapide et simple des frais.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "La Personne Assurée peut bénéficier de services d’assistance correspondant au niveau de Plan choisi en cas de Sinistre ou d’Urgence (Glossaire, page 21)."
+      ],
+      "page": 12
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Sinistres survenus avant la Date d’Effet",
+      "description": "Aucune Prestation ne sera versée pour les Sinistres survenus avant la Date d’Effet.",
+      "applies_to": "all",
+      "page": 6
+    },
+    {
+      "name": "Délais de Carence",
+      "description": "Le Délai de Carence est la période suivant la Date d’Effet pendant laquelle aucune couverture et aucune Prestation ne sont accordées au titre de la Police d’Assurance pour les risques soumis au Délai de Carence.",
+      "applies_to": "all",
+      "page": 22
+    },
+    {
+      "name": "Traitements effectués après la date de fin de la police",
+      "description": "Le droit de bénéficier des Prestations prévues par la Police d’Assurance prend fin automatiquement à la date de résiliation de la Police d’Assurance. Les Sinistres survenus au cours de l’Année d’Assurance seront pris en charge, toutefois les Traitements effectués après la date de fin de la police ne sont pas couverts.",
+      "applies_to": "all",
+      "page": 7
+    },
+    {
+      "name": "Assurance cumulative - primauté de l’assurance maladie obligatoire",
+      "description": "Si une autre police d’assurance maladie avec des prestations obligatoires existe en plus de la présente Police d’Assurance, cette assurance maladie obligatoire prévaudra sur la présente Police d’Assurance.",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Prestations déjà versées par un autre organisme",
+      "description": "Si le Preneur d’Assurance ou la Personne Assurée a également droit à des Prestations d’une caisse nationale d’assurance Maladie ou d’un autre organisme ou institution d’assurance, l’Assureur doit en être informé. L’Assureur n’est tenu de couvrir que les frais engagés par le Preneur d’Assurance ou la Personne Assurée qui dépassent les Prestations déjà reçues de ces autres caisses, organismes ou institutions.",
+      "applies_to": "all",
+      "page": 11
+    },
+    {
+      "name": "Suspension des Prestations en cas de retard de paiement",
+      "description": "En cas de non-paiement des primes ou d’une fraction de prime dans les 10 (dix) jours calendaires suivant la date d’échéance, les Prestations de la Police d’Assurance seront suspendues après un délai de grâce de 30 (trente) jours calendaires à compter de l’envoi, par l’Assureur, d’une lettre recommandée au Preneur d’Assurance à sa dernière adresse connue. Les Sinistres survenant pendant la période de suspension suivant le délai de grâce ne donneront lieu à aucun versement des Prestations de la part de l’Assureur.",
+      "applies_to": "all",
+      "page": 14
+    },
+    {
+      "name": "Omission ou inexactitude intentionnelle",
+      "description": "Indépendamment des autres motifs de nullité, la Police d’Assurance est nulle en cas d’omission ou d’inexactitude intentionnelle affectant les réponses et les déclarations, ayant induit l’Assureur en erreur dans son évaluation des risques. Dans ce cas, l’Assureur conserve son droit aux primes déjà versées.",
+      "applies_to": "all",
+      "page": 4
+    },
+    {
+      "name": "Omission ou inexactitude non intentionnelle - Prestation au prorata",
+      "description": "Si l’omission ou l’inexactitude est imputable au Preneur d’Assurance et si un Sinistre survient avant que la modification ou la résiliation de la Police d’Assurance ne prenne effet, l’Assureur n’est tenu d’accorder les Prestations qu’à concurrence de la proportion entre la prime effectivement payée par le Preneur d’Assurance et celle qui aurait dû être acquittée si le risque avait été déclaré de manière complète et exacte. Toutefois, si l’Assureur établit qu’il n’aurait accepté d’assurer le risque concerné dont la nature réelle a été révélée par la demande de remboursement, les Prestations à verser par l’Assureur se limiteront au remboursement de toutes les primes versées.",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Défaut de déclaration d’une aggravation du risque",
+      "description": "Si un Sinistre survient et que le Preneur d’Assurance n’a pas rempli son obligation de déclarer toutes les circonstances susceptibles d’entraîner une augmentation sensible et durable du risque assuré : a) l’Assureur reste tenu de verser la Prestation convenue si le défaut de déclaration n’est pas imputable à la faute du Preneur d’Assurance ; b) si l’omission de déclaration est imputable au Preneur d’Assurance, l’Assureur n’est tenu de verser la Prestation convenue qu’au prorata de la prime effectivement payée par rapport à la prime qui aurait été due si l’aggravation du risque avait été correctement déclarée ; toutefois, si l’Assureur démontre qu’il n’aurait en aucun cas assuré le risque aggravé, sa responsabilité en cas de Sinistre sera limitée au remboursement des primes versées pour la période postérieure à l’aggravation ; c) si le Preneur d’Assurance a agi avec une intention frauduleuse, l’Assureur peut refuser toutes les Prestations, et toutes les primes dues jusqu’au moment où l’Assureur a pris connaissance de la fraude restent exigibles à titre de dommages-intérêts.",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Non-respect des obligations du Preneur d’Assurance ou de la Personne Assurée",
+      "description": "Si le Preneur d’Assurance et/ou la Personne Assurée ne respectent pas les obligations qui leur incombent en vertu de la Police d’Assurance, l’Assureur peut ne pas être tenu de verser les Prestations ou peut limiter celles-ci, conformément aux conditions de la Police d’Assurance. En cas de manquement entraînant un préjudice pour l’Assureur, les Prestations d’assurance peuvent être réduites proportionnellement au préjudice subi. Si le Preneur d’Assurance et/ou la Personne Assurée ne respectent pas ces obligations avec une intention frauduleuse, l’Assureur est en droit de refuser la couverture prévue par la Police d’Assurance et de refuser le paiement de toute Prestation d’assurance.",
+      "applies_to": "all",
+      "page": 10
+    },
+    {
+      "name": "Sanctions - clause générale",
+      "description": "Dans l’intérêt de toutes les parties, l’Assureur doit se conformer aux règles et réglementations locales, européennes et internationales applicables, y compris les réglementations en matière de sanctions. L’Assureur n’est pas tenu d’accorder ou de verser des Prestations d’assurance ni de garantir une couverture d’assurance au titre de la présente Police d’Assurance si la fourniture de la couverture d’assurance ou le versement d’une Prestation exposerait l’Assureur au risque de sanctions, pénalités, interdictions, responsabilités ou restrictions en vertu de ces règles et réglementations, y compris les lois, règlements ou résolutions adoptées par toute autorité compétente, y compris, mais sans s’y limiter, les Nations Unies, l’Union européenne, les États-Unis d’Amérique, le Royaume-Uni et toute autre juridiction concernée par ce contrat d’assurance.",
+      "applies_to": "all",
+      "page": 17
+    },
+    {
+      "name": "Personnes sanctionnées",
+      "description": "L’Assureur ne fournira aucune couverture d’assurance, n’acceptera aucun paiement de prime et ne sera pas tenu de payer un Sinistre ou d’accorder une Prestation à une personne sanctionnée désignée par une autorité compétente. La couverture d’assurance accordée à un Personne Assurée, y compris les membres éligibles et leurs personnes à charge, sera immédiatement suspendue et/ou résiliée, selon le cas et conformément à la loi applicable, si elle est désignée comme personne sanctionnée par une autorité compétente.",
+      "applies_to": "all",
+      "page": 17
+    },
+    {
+      "name": "Juridictions sanctionnées",
+      "description": "L’Assureur ne fournira aucune couverture d’assurance et ne sera pas régler un Sinistre ou d’accorder une Prestation liée à une couverture impliquant une juridiction sanctionnée. Cela signifie que (i) aucune couverture d’assurance ne peut être fournie lorsqu’elle concerne un pays ou un territoire sanctionné de quelque manière que ce soit, (ii) aucun paiement de prime, paiement de Sinistre ou Prestation ne peut être effectué à partir ou vers un compte bancaire ouvert dans une juridiction sanctionnée ou dans une banque contrôlée par le gouvernement d’une juridiction sanctionnée, et (iii) aucune garantie de paiement ne peut être fournie par l’Assureur à un prestataire établi dans une juridiction sanctionnée ou détenant des participations détenues par des ressortissants ou des résidents d’une juridiction sanctionnée ou par des personnes sanctionnées, quelle que soit leur propriété. Les ressortissants ou résidents d’une juridiction sanctionnée et les personnes ayant voyagé dans une juridiction sanctionnée dans le passé ne seront couverts que s’ils physiquement situés en dehors des juridictions sanctionnées et à condition qu’ils ne soient pas considérés comme des personnes sanctionnées. La liste des juridictions sanctionnées, qui évolue, est mise à jour régulièrement, et comprend, sans s’y limiter, l’Afghanistan, la Biélorussie, l’Iran, le Myanmar (Birmanie), la Corée du Nord, la Russie, les régions de l’Ukraine occupées ou annexées par la Russie (y compris la Crimée, Donetsk, Kherson, Louhansk, Sébastopol et Zaporijia), le Soudan du Sud, la Syrie et le Yémen.",
+      "applies_to": "all",
+      "page": 17
+    },
+    {
+      "name": "Aucune évacuation ou Rapatriement depuis une juridiction sanctionnée",
+      "description": "Aucune évacuation ou Rapatriement d’une Personne Assurée ne sera effectué à partir d’une juridiction sanctionnée.",
+      "applies_to": "all",
+      "page": 17
+    },
+    {
+      "name": "Juridictions soumises à des restrictions",
+      "description": "L’Assureur ne fournira aucune garantie de paiement aux hôpitaux et n’effectuera aucun paiement sur des comptes bancaires ouverts dans une juridiction soumise à des restrictions. Aucune évacuation ou Rapatriement d’une Personne Assurée ne sera effectué à partir d’une juridiction soumise à des restrictions.",
+      "applies_to": "all",
+      "page": 18
+    },
+    {
+      "name": "Exclusions possibles en cas de modification de la couverture d’assurance",
+      "description": "En fonction du niveau de couverture convenu, de nouveaux délais de carence s’appliquent en conséquence pour la couverture d’assurance supplémentaire. Les Maladies et leurs conséquences, ainsi que les conséquences d’Accidents survenus pendant la Période d’Assurance précédente et qui constituent un risque accru selon les conclusions médicales, peuvent être exclues de la couverture d’assurance modifiée. Cela inclut également le Traitement et l’accouchement liés à une grossesse existante.",
+      "applies_to": "all",
+      "page": 15
+    },
+    {
+      "name": "Limites de responsabilité de l’Assureur",
+      "description": "Sauf en cas de faute grave (faute lourde) ou de dol de sa part, l’Assureur ne saurait être tenu responsable envers le Preneur d’Assurance ou la Personne Assurée pour toute perte, réclamation, responsabilité, dépense ou dommage résultant de toute action ou omission de l’Assureur dans le cadre de la fourniture des services ou de toute mesure envisagée au titre de la Police d’Assurance.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Force majeure",
+      "description": "L’Assureur ne sera pas responsable des mesures prises ou de l’absence de mesures requises pour remplir ses obligations ou exercer ses droits en vertu de la Police d’Assurance dans le cas et dans la mesure où ces mesures ou cette absence de mesures résultent ou sont causées par des événements échappant au contrôle raisonnable de l’Assureur (force majeure), y compris, sans limitation, les troubles civils ou sociaux, la guerre, l’insurrection, les émeutes, les conflits civils ou militaire, sabotage, agitation sociale, grève, lock-out, incendie, inondation ou dégâts des eaux, catastrophes naturelles, actes de toute autorité gouvernementale ou menace d’une autorité (de jure ou de facto), contrainte légale, fraude ou falsification, Accident, explosion, panne mécanique, défaillance informatique ou des systèmes, défaillance des équipements, défaillance ou dysfonctionnement des moyens de communication ou interruption de l’alimentation électrique, loi locale ou étrangère, procédure judiciaire, décret, règlement, ordonnance ou autre mesure prise par un gouvernement, une autorité, un tribunal, un organisme d’autorégulation, une agence gouvernementale ou un organisme public local ou étranger.",
+      "applies_to": "all",
+      "page": 20
+    },
+    {
+      "name": "Responsabilité de l’Assureur en matière de sanctions",
+      "description": "L’Assureur ne peut être tenu responsable de tout type de dommage, qu’il soit financier, physique ou psychologique, résultant d’un refus de couverture d’assurance ou du non-paiement d’une demande de remboursement ou de la fourniture d’une Prestation impliquant une personne sanctionnée ou une juridiction sanctionnée ou soumise à des restrictions.",
+      "applies_to": "all",
+      "page": 18
+    },
+    {
+      "name": "Aucune responsabilité au titre de la législation locale",
+      "description": "Le Preneur d’Assurance et/ou la Personne Assurée peuvent être soumis à la législation et aux obligations locales en matière d’assurance Maladie obligatoire. La couverture d’assurance fournie dans le cadre de la Police d’Assurance ne vise pas à se conformer à cette législation et à ces obligations locales en matière d’assurance santé et ne remplace pas le régime d’assurance Maladie obligatoire qui peut être imposé au Preneur d’Assurance et/ou à la Personne Assurée. L’Assureur ne peut être tenu responsable des violations de toute législation ou obligation locale en matière d’assurance santé.",
+      "applies_to": "all",
+      "page": 19
+    },
+    {
+      "name": "Obtention frauduleuse de Prestations",
+      "description": "Sans préjudice de toute autre cause de résiliation prévues par la Police d’Assurance, l’Assureur peut résilier la Police d’Assurance avec effet immédiat si le Preneur d’Assurance ou une Personne Assurée a obtenu ou tenté d’obtenir frauduleusement des Prestations d’assurance.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Durée maximale de couverture pour les résidents temporaires en Allemagne",
+      "description": "La couverture d’assurance prend fin après une durée maximale de 5 (cinq) années d’assurance consécutives pour le Preneur d’Assurance et/ou les Personnes Assurées résidant temporairement en Allemagne. La période de 5 (cinq) années d’assurance est calculée en tenant compte de tout renouvellement de la Police d’Assurance ainsi que toute couverture d’assurance obtenue par l’assuré et/ou la Personne Assurée dans le cadre d’une couverture d’assurance santé similaire obtenue précédemment auprès d’autres compagnies d’assurance.",
+      "applies_to": "all",
+      "page": 7
+    }
+  ],
+  "deductibles": null,
+  "waiting_periods": [
+    {
+      "coverage": "toutes",
+      "duration": null,
+      "description": "Les Délais de Carence commencent à la Date d’Effet, dont les modalités sont précisées dans les Conditions Spéciales. Sans préjudice des Conditions Spéciales, les Délais De Carence spécifiques suivantes s’appliquent à la Police d’Assurance : ils concernent les Traitements psychiatriques, la psychothérapie, les soins dentaires majeurs, la grossesse et l’accouchement, y compris les complications liées à la grossesse et à l’accouchement, la mastectomie prophylactique et les Traitements médicaux de l’infertilité.",
+      "page": 10
+    },
+    {
+      "coverage": "Traitement psychiatrique, psychothérapie et soins dentaires majeurs",
+      "duration": "10 (dix) mois à compter de la Date d’Effet",
+      "description": "En case de Traitement psychiatrique, de psychothérapie et de soins dentaires majeurs, le Délai de Carence est de 10 (dix) mois à compter de la Date d’Effet.",
+      "page": 10
+    },
+    {
+      "coverage": "grossesse et accouchement",
+      "duration": "12 (douze) mois à compter de la Date d’Effet",
+      "description": "En cas de grossesse et d’accouchement, le Délai de Carence est de 12 (douze) mois à compter de la Date d’Effet, quel que soit le nombre de Personnes Assurées.",
+      "page": 10
+    },
+    {
+      "coverage": "mastectomie prophylactique",
+      "duration": "24 (vingt-quatre) mois à compter de la Date d’Effet",
+      "description": "En cas de mastectomie prophylactique, le Délai de Carence est de 24 (vingt-quatre) mois à compter de la Date d’Effet.",
+      "page": 10
+    },
+    {
+      "coverage": "Traitement médical contre l’infertilité",
+      "duration": "24 (vingt-quatre) mois à compter de la Date d’Effet",
+      "description": "En cas de Traitement médical contre l’infertilité, le Délai de Carence est de 24 (vingt-quatre) mois à compter de la Date d’Effet pour les deux conjoints ou partenaires.",
+      "page": 10
+    },
+    {
+      "coverage": "Prestations ajoutées par modification de la Police d’Assurance",
+      "duration": null,
+      "description": "Si la Police d’Assurance est modifiée afin d’étendre les Prestations prévues, les Délais de Carence s’appliquent aux nouvelles Prestations ajoutées en vertu de la Police d’Assurance, conformément au niveau de Plan convenu. En fonction du niveau de couverture convenu, de nouveaux délais de carence s’appliquent en conséquence pour la couverture d’assurance supplémentaire (5.2, page 15).",
+      "page": 10
+    },
+    {
+      "coverage": "nouveau-nés",
+      "duration": "aucun",
+      "description": "Les nouveau-nés sont inclus en tant que Personnes Assurées dès leur naissance, sans Délai de Carence et sans évaluation du risque médical, sous réserve des conditions de la clause 2.6.",
+      "page": 7
+    }
+  ],
+  "obligations": [
+    {
+      "name": "Obligation précontractuelle de déclaration",
+      "description": "Le Preneur d’Assurance s’engage à répondre de manière sincère et exhaustive à toutes les questions posées par l’Assureur et, le cas échéant, veiller à ce que la Personne Assurée fasse de même. Lors de la conclusion de la Police d’Assurance, le Preneur d’Assurance s’engage en outre à déclarer avec exactitude toutes les circonstances dont il a connaissance et qu’il peut raisonnablement considérer comme constituant des éléments pertinents pour l’évaluation du risque par l’Assureur. La Personne Assurée et le Preneur d’Assurance sont solidairement responsables de la véracité et de l’exhaustivité des réponses apportées.",
+      "timing": "Lors de la souscription et avant la Date d’Effet",
+      "sanction": "En cas d’omission ou d’inexactitude intentionnelle, la Police d’Assurance est nulle et l’Assureur conserve son droit aux primes déjà versées (2.1.2). En cas d’omission non intentionnelle, l’Assureur peut proposer une modification dans un délai de 1 (un) mois ou résilier la Police d’Assurance dans un délai de 1 (un) mois s’il établit qu’il n’aurait jamais accepté d’assurer le risque ; les Prestations peuvent être réduites au prorata (2.1.3).",
+      "page": 4
+    },
+    {
+      "name": "Déclaration d’aggravation du risque en cours de contrat",
+      "description": "Le Preneur d’Assurance et/ou la Personne Assurée doivent déclarer toute circonstance susceptible d’entraîner une augmentation perceptible et durable du risque assuré. Les dispositions de cette clause ne s’appliquent pas aux changements relatifs à l’état de santé de la Personne Assurée.",
+      "timing": "Pendant la durée de la Police d’Assurance",
+      "sanction": "Prestation au prorata en cas de faute du Preneur d’Assurance ; limitation au remboursement des primes versées pour la période postérieure à l’aggravation si l’Assureur démontre qu’il n’aurait en aucun cas assuré le risque aggravé ; refus de toutes les Prestations en cas d’intention frauduleuse.",
+      "page": 5
+    },
+    {
+      "name": "Délai de déclaration des Sinistres",
+      "description": "Sans préjudice des dispositions des présentes Conditions Générales d’Assurance, le Preneur d’Assurance et/ou la Personne Assurée doivent déclarer tout Sinistre à l’Assureur dans un délai de 3 (trois) mois.",
+      "timing": "Dans un délai de 3 (trois) mois",
+      "sanction": null,
+      "page": 10
+    },
+    {
+      "name": "Limitation des conséquences du Sinistre",
+      "description": "La Personne Assurée doit prendre toutes les mesures nécessaires pour éviter ou limiter les conséquences de tout Sinistre.",
+      "timing": "En cas de Sinistre",
+      "sanction": "L’Assureur peut ne pas être tenu de verser les Prestations ou peut limiter celles-ci ; les Prestations peuvent être réduites proportionnellement au préjudice subi.",
+      "page": 10
+    },
+    {
+      "name": "Communication des informations et documents",
+      "description": "Le Preneur d’Assurance et/ou la Personne Assurée doivent fournir sans délai toutes les informations et tous les documents pertinents à l’Assureur et/ou à son agent, le cas échéant, et répondre à toutes les demandes de renseignements de ce dernier, afin de permettre à l’Assureur de déterminer les circonstances et l’étendue du Sinistre. La Personne Assurée doit permettre à l’Assureur ou au Centre de Service de recueillir toutes les informations nécessaires, notamment en ce qui concerne la levée du secret professionnel des Professionnels de Santé.",
+      "timing": "Sans délai, en cas de Sinistre",
+      "sanction": "L’Assureur peut ne pas être tenu de verser les Prestations ou peut limiter celles-ci.",
+      "page": 10
+    },
+    {
+      "name": "Examen médical à la demande de l’Assureur",
+      "description": "À la demande de l’Assureur, la Personne Assurée est tenue de se soumettre à un examen médical effectué par un Médecin désigné par l’Assureur.",
+      "timing": "À la demande de l’Assureur",
+      "sanction": "L’Assureur peut ne pas être tenu de verser les Prestations ou peut limiter celles-ci.",
+      "page": 10
+    },
+    {
+      "name": "Transmission des factures et preuves de paiement",
+      "description": "Sauf accord contraire de l’Assureur, le Preneur d’Assurance et/ou la Personne Assurée doivent transmettre directement tous les documents et informations pertinents, tels que les factures et les preuves de paiement, à l’Assureur ou au Centre de Service compétent lorsqu’un événement assuré survient.",
+      "timing": "Lorsqu’un événement assuré survient",
+      "sanction": "L’Assureur peut ne pas être tenu de verser les Prestations ou peut limiter celles-ci.",
+      "page": 10
+    },
+    {
+      "name": "Signalement des Traitements hospitaliers",
+      "description": "Les Traitements hospitaliers doivent être signalés dès que possible au Centre de Service compétent après le Début dudit Traitement.",
+      "timing": "Dès que possible après le Début du Traitement",
+      "sanction": "L’Assureur peut ne pas être tenu de verser les Prestations ou peut limiter celles-ci.",
+      "page": 10
+    },
+    {
+      "name": "Comportement responsable en matière de coûts",
+      "description": "Le Preneur d’Assurance et la Personne Assurée sont tenus d’adopter un comportement responsable en matière de coûts en cas de Sinistre, en limitant les frais de Traitement au strict nécessaire.",
+      "timing": "En cas de Sinistre",
+      "sanction": "L’Assureur peut ne pas être tenu de verser les Prestations ou peut limiter celles-ci.",
+      "page": 10
+    },
+    {
+      "name": "Information de l’Assureur sur les droits auprès d’autres organismes",
+      "description": "Si le Preneur d’Assurance ou la Personne Assurée a également droit à des Prestations d’une caisse nationale d’assurance Maladie ou d’un autre organisme ou institution d’assurance, l’Assureur doit en être informé.",
+      "timing": "En cas de Sinistre",
+      "sanction": null,
+      "page": 11
+    },
+    {
+      "name": "Modification des données",
+      "description": "Les déclarations d’intention, les conversions et les notifications concernant la Police d’Assurance et toute modification des données relatives au Preneur d’Assurance ou à la Personne Assurée doivent toujours être adressées par écrit et sans délai à l’Assureur. L’Assureur ne peut être tenu responsable des pertes subies en conséquence.",
+      "timing": "Sans délai",
+      "sanction": null,
+      "page": 20
+    },
+    {
+      "name": "Information des Personnes Assurées sur les modifications",
+      "description": "Le Preneur d’Assurance s’engage à informer la Personne Assurée des modifications ou changements envisagés des Conditions Générales.",
+      "timing": "En cas de modification des Conditions Générales",
+      "sanction": null,
+      "page": 15
+    },
+    {
+      "name": "Vérification de la conformité aux exigences légales locales",
+      "description": "Le Preneur d’Assurance et la Personne Assurée s’engagent à vérifier et à s’assurer que la conclusion de la Police d’Assurance est conforme à toutes les exigences légales auxquelles ils sont soumis.",
+      "timing": "À la conclusion et pendant la durée du contrat",
+      "sanction": "Le Preneur d’Assurance et la Personne Assurée s’engagent à indemniser et à dégager l’Assureur de toute responsabilité en cas de perte, dommage, coût, sanction, pénalité, frais ou autre mesure encourus en relation avec cette législation locale.",
+      "page": 19
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclaration du Sinistre",
+      "description": "Le Preneur d’Assurance et/ou la Personne Assurée doivent déclarer tout Sinistre à l’Assureur dans un délai de 3 (trois) mois. Les Traitements hospitaliers doivent être signalés dès que possible au Centre de Service compétent après le Début dudit Traitement.",
+      "deadline": "3 (trois) mois ; Traitements hospitaliers : dès que possible après le Début du Traitement",
+      "page": 10
+    },
+    {
+      "step": "Transmission des pièces justificatives",
+      "description": "Sauf accord contraire de l’Assureur, le Preneur d’Assurance et/ou la Personne Assurée doivent transmettre directement tous les documents et informations pertinents, tels que les factures et les preuves de paiement, à l’Assureur ou au Centre de Service compétent. L’Assureur ne verse les Prestations que si les pièces justificatives et les informations demandées lui sont fournies ; ces documents deviennent alors la propriété de l’Assureur, qui se réserve le droit de les archiver.",
+      "deadline": null,
+      "page": 10
+    },
+    {
+      "step": "Forme des factures et preuves de paiement",
+      "description": "Les factures et les preuves de paiement doivent être des documents originaux, conformes aux dispositions légales du pays d’émission. Elles peuvent être fournies par courrier électronique ou postal, à condition d’être lisibles et que la qualité de transmission soit suffisante. L’Assureur peut à tout moment demander à recevoir les pièces justificatives originales. Si un autre Assureur et/ou une autre caisse, organisme ou institution a contribué au remboursement des frais, des duplicatas des factures et des preuves de paiement suffisent, à condition que l’Assureur reçoive également un document attestant le montant remboursé.",
+      "deadline": null,
+      "page": 11
+    },
+    {
+      "step": "Mentions obligatoires des factures et ordonnances",
+      "description": "Les informations suivantes doivent figurer sur les factures : nom et prénom, ainsi que date de naissance de la Personne Assurée, indication précise de la Maladie ou de la Blessure Corporelle par un Médecin (diagnostic) ou description précise de l’ensemble de la Maladie ou référence au code CIM 9 et/ou 10 ou de la totalité de la Blessure Corporelle avec les données relatives au Traitement et les prix unitaires. Pour les soins dentaires, la désignation des dents traitées ou remplacées ainsi que les actes correspondants doivent être indiqués. Les informations suivantes doivent figurer sur les ordonnances médicales : nom et prénom, ainsi que la date de naissance de la Personne Assurée, le Médicament prescrit, le prix et la référence de paiement. Les ordonnances doivent être accompagnées de la note d’honoraires du Médecin et/ou de la facture relative au Traitement, les Médicaments et aux remèdes.",
+      "deadline": null,
+      "page": 11
+    },
+    {
+      "step": "Formulaires de l’Assureur",
+      "description": "L’Assureur est en droit d’exiger que les pièces justificatives et les informations soient fournies sur ses propres formulaires. Les formulaires correspondants doivent être dûment remplis par le Preneur d’Assurance ou la Personne Assurée et, le cas échéant, par l’Autorité Médicale traitante.",
+      "deadline": null,
+      "page": 11
+    },
+    {
+      "step": "Versement des Prestations",
+      "description": "L’Assureur est en droit de verser ses Prestations à la personne qui lui soumet les pièces justificatives et les informations en bonne et due forme. En cas de doute, l’Assureur verse le montant du remboursement au Preneur d’Assurance et ce paiement libère valablement l’Assureur de ses obligations au titre de la Police d’Assurance. Les droits aux Prestations accordées au titre de la Police d’Assurance ne peuvent être cédés, transférés ou mis en gage.",
+      "deadline": null,
+      "page": 11
+    },
+    {
+      "step": "Devise et conversion",
+      "description": "Les factures sont remboursées dans la devise convenue avec la Personne Assurée. Les frais en devises étrangères sont convertis au taux réel applicable le jour de la facture. Cela ne s’applique pas si la Personne Assurée peut présenter des justificatifs bancaires prouvant qu’elle a acheté des devises à un taux moins avantageux afin de payer les factures.",
+      "deadline": null,
+      "page": 11
+    },
+    {
+      "step": "Langue des justificatifs",
+      "description": "Tous les justificatifs ou informations doivent être fournis en français, allemand, espagnol ou anglais. Les frais engagés par l’Assureur pour la traduction des documents et informations dans d’autres langues peuvent être déduits des Prestations accordées au titre de la Police d’Assurance.",
+      "deadline": null,
+      "page": 11
+    },
+    {
+      "step": "En cas d’Accident ou d’Urgence",
+      "description": "La Personne Assurée peut contacter le Centre de Service compétent 24 heures sur 24, 7 jours sur 7, 365 jours par an, en particulier à la suite d’un événement important tel qu’un Accident, une Urgence ou un Traitement hospitalier. Les adresses, numéros de téléphone et adresses électroniques figurent sur tous les documents pertinents et sur la Sarte de Service.",
+      "deadline": null,
+      "page": 12
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "La Police d’Assurance est conclue pour une période de 12 (douze) mois et est ensuite tacitement renouvelée d’année en année pour une période de 12 (douze) mois, si aucune des parties ne s’oppose à ce renouvellement conformément aux formalités et aux délais de préavis prévus à la clause 2.10 des présentes Conditions Générales d’Assurance. La Police d’Assurance est réputée conclue à la date à laquelle l’Assureur contresigne les Conditions Particulières qui ont été signées par le Preneur d’Assurance après la soumission du Formulaire de Souscription dûment signé. La couverture d’assurance prend fin après une durée maximale de 5 (cinq) années d’assurance consécutives pour le Preneur d’Assurance et/ou les Personnes Assurées résidant temporairement en Allemagne.",
+    "tacit_renewal": true,
+    "notice_period": "Pour résilier à l’échéance, le Preneur d’Assurance doit envoyer une notification écrite de résiliation à l’Assureur au plus tard 30 (trente) jours calendaires à compter de la date du cachet postal de l’avis de paiement. La résiliation prendra effet le deuxième jour ouvrable suivant la date du cachet postal de l’avis de résiliation, mais pas avant la date de renouvellement de la Police d’Assurance. A défaut de stipulation contraire, la résiliation prendra effet après un délai de 1 (un) mois à compter de la date de notification par huissier de justice de la lettre de résiliation, de la date indiquée sur le récépissé de la lettre de résiliation ou du jour suivant la remise de la lettre de résiliation aux services postaux, selon le cas.",
+    "methods": [
+      "Toute résiliation de la Police d’Assurance doit être effectuée par lettre recommandée, par exploit d’huissier ou par remise de la lettre de résiliation contre récépissé.",
+      "En cas de couvertures multiples ou de risques assurés multiples, la résiliation peut concerner une ou plusieurs de ces couvertures d’assurance et/ou risques."
+    ],
+    "special_rights": [
+      "Résiliation automatique : a) à l’expiration de la Période d’Assurance maximale de 5 (cinq) années d’assurance pour les Personnes Assurées résidant temporairement en Allemagne ; b) en cas de décès du Preneur d’Assurance, les Personnes Assurés survivantes pouvant renouveler la Police d’Assurance en désignant un nouveau Preneur d’Assurance dans les 2 (deux) mois suivant le décès ; c) lorsque le Preneur d’Assurance s’oppose au renouvellement après la fin de l’Année d’Assurance, cette résiliation n’étant valable que s’il démontre que les Personnes Assurées concernées ont été informées ; d) si la Police d’Assurance est déclarée nulle et non avenue ; e) si la Police d’Assurance a été suspendue de manière continue pendant 2 (deux) ans.",
+      "Un divorce ou une séparation équivalente n’entraîne pas automatiquement la résiliation de la Police d’Assurance, qui reste en vigueur dans ce cas.",
+      "Résiliation par le Preneur d’Assurance à chaque date de renouvellement, dès réception de l’avis de renouvellement de l’Assureur, dans les 30 (trente) jours calendaires à compter du cachet postal de l’avis de paiement.",
+      "Résiliation par le Preneur d’Assurance en cas de modification des Conditions Générales : dans les 3 (trois) mois suivant l’envoi de la lettre de notification ; la résiliation prend effet 3 (trois) mois après la date de notification.",
+      "Résiliation par le Preneur d’Assurance en cas d’augmentation des primes : dans un délai de 60 (soixante) jours à compter de la date du cachet postal de la lettre de notification ; la résiliation prend effet le deuxième jour ouvrable suivant la date d’envoi de la lettre de résiliation, mais au plus tôt à la date de renouvellement. En cas de refus d’une modification de prime au titre de la clause 4.4, le Preneur d’Assurance peut également résilier dans les 3 (trois) mois suivant la réception de l’avis, la Police d’Assurance prenant fin à la date à laquelle la modification aurait autrement pris effet.",
+      "Résiliation de l’intégralité de la Police d’Assurance par le Preneur d’Assurance si l’Assureur a résilié un ou plusieurs risques assurés : dans un délai de 1 (un) mois à compter du cachet de la poste de l’envoi de la lettre de résiliation par l’Assureur.",
+      "Si le Preneur d’Assurance résilie l’intégralité de la Police d’Assurance ou la résilie pour une ou plusieurs Personnes Assurées, celles-ci peuvent souscrire un nouveau contrat aux mêmes conditions en désignant un nouveau Preneur d’Assurance, à condition que cette désignation soit déclarée à l’Assureur dans les 2 (deux) mois suivant la résiliation. La résiliation ne prendra effet que si le Preneur d’Assurance prouve à l’Assureur que les Personnes Assurées concernées ont été informées.",
+      "Résiliation par l’Assureur avec effet immédiat si le Preneur d’Assurance ou une Personne Assurée a obtenu ou tenté d’obtenir frauduleusement des Prestations d’assurance ; ce droit est caduc s’il n’est pas exercé dans un délai de 1 (un) mois à compter de la connaissance des faits. L’exercice peut être limité aux Personnes Assurées concernées.",
+      "Résiliation par l’Assureur en cas d’omission ou d’inexactitude de déclaration (dans un délai de 1 (un) mois) ou en cas de refus de la modification proposée (dans un délai de 15 (quinze) jours calendaires), et dans les mêmes conditions en cas d’aggravation du risque.",
+      "L’Assureur a le droit de résilier la Police d’Assurance 10 (dix) jours calendaires après l’expiration du délai de grâce de 30 (trente) jours en cas de retard de paiement. Si la Police d’Assurance est suspendue en raison du non-paiement des primes pendant une période ininterrompue de 2 (deux) ans, elle prendra fin automatiquement à l’expiration de cette période.",
+      "Droit de rétractation de 14 (quatorze) jours calendaires en cas de Police d’Assurance conclue à distance.",
+      "Remboursement des primes en cas de résiliation : indépendamment du motif de résiliation, les primes payées pour la Période d’Assurance postérieure à la Date d’Effet de la résiliation sont remboursées dans les 30 (trente) jours suivant la date de résiliation ; une fois ce délai expiré, les intérêts légaux courent de plein droit. En cas de résiliation partielle ou de toute autre réduction de la couverture, cela ne s’applique qu’à cette réduction et dans la limite de celle-ci."
+    ],
+    "page": 6
+  },
+  "prescription_period": {
+    "description": "Le délai de prescription pour toute action en justice découlant de la Police d’Assurance ou s’y rapportant avec est de 3 (trois) ans. Ce délai commence à courir à compter du jour où survient l’événement donnant lieu à l’action en justice concernée. Si la personne habilitée à intenter une action peut prouver qu’elle n’a pris connaissance de l’événement donnant lieu à l’action qu’à une date ultérieure, le délai de prescription ne commence à courir qu’à cette date ultérieure, sans toutefois dépasser 5 (cinq) ans à compter de la date de survenance du fait générateur à laquelle la personne habilitée à intenter une action a pris connaissance de l’événement donnant lieu à l’action, sauf en cas de fraude. Le délai de prescription court également à l’encontre des mineurs ou autres personnes jugées incapables en vertu de la loi. Le délai de prescription ne court pas à l’encontre de la Personne Assurée qui est dans l’impossibilité d’agir dans le délai prescrit en raison d’un cas de force majeure. Si le Sinistre a été déclaré dans les délais, le délai de prescription est interrompu jusqu’à ce que l’Assureur ait informé par écrit le Preneur d’Assurance ou la Personne Assurée de sa décision concernant le Sinistre.",
+    "page": 12
+  },
+  "premium": {
+    "notes": [
+      "Sauf stipulation contraire, les primes, frais et taxes dus au titre de la Police d’Assurance doivent être payés à l’avance au siège social de l’Assureur et/ou à l’agent désigné à cet effet par l’Assureur. Le paiement est à la charge du Preneur d’Assurance.",
+      "Si la Police d’Assurance couvre plusieurs risques assurés, le montant total des primes dues est considéré comme une prime unique et indivisible.",
+      "La prime est généralement une prime annuelle et peut être payée en plusieurs échéances. La première prime ou la première échéance doit être payé conformément aux indications figurant sur la facture, une fois que l’Assureur a accepté le Formulaire de Souscription et émis la Police d’Assurance. La couverture d’assurance prévue par la Police d’Assurance ne commence qu’après le paiement intégral de la première prime ou de la première échéance.",
+      "Si la police prend fin au cours d’une période de facturation en cours, la prime sera ajustée proportionnellement.",
+      "Pour les nouveau-nés déjà inclus comme Personnes Assurées à leur date de naissance, les primes sont dues à compter de la date de naissance de l’enfant. Pour les nouveau-nés couverts rétroactivement sur la base d’un Formulaire de Souscription signé reçu dans les 2 (deux) mois suivant leur naissance, la prime est due à compter de la date de signature du Formulaire de Souscription correspondante.",
+      "Si le Pays de Résidence du Preneur d’Assurance se trouve dans l’UE/EEE, l’Assureur doit facturer au Preneur d’Assurance les charges, redevances ou taxes légales associés à la Police d’Assurance ; les taux d’imposition locaux applicables sont indiqués dans la Police d’Assurance et l’Assureur perçoit la taxe sur les primes d’assurance en même temps que la prime. Si le Pays de Résidence se trouve en dehors de l’UE/EEE, le Preneur d’Assurance est responsable de l’enregistrement et du paiement des taxes locales et autres frais.",
+      "La prime à payer pour la Police d’Assurance dépend de l’état de santé de la Personne Assurée (au moment où le Formulaire de Souscription correspondante est accepté par l’Assureur), de la prime individuelle selon le barème des primes en vigueur et de l’âge de la Personne Assurée au premier jour de l’Année d’Assurance. Les tranches d’âge sont les suivantes : 0 à 19 ans, 20 à 24 ans, 25 à 29 ans, 30 à 34 ans, 35 à 39 ans, 40 à 44 ans, 45 à 49 ans, 50 à 54, 55 à 59, 60 à 64, 65 à 69, 70 à 74, 75 à 79 et 79+. La méthode de calcul des primes est définie dans la Police d’Assurance.",
+      "Conséquences d’un retard de paiement : en cas de non-paiement des primes ou d’une fraction de prime dans les 10 (dix) jours calendaires suivant la date d’échéance, les Prestations seront suspendues après un délai de grâce de 30 (trente) jours calendaires à compter de l’envoi d’une lettre recommandée. L’Assureur a le droit de résilier la Police d’Assurance 10 (dix) jours calendaires après l’expiration de ce délai de grâce. Si la Police d’Assurance n’est pas résiliée, elle reprendra ses effet pour les futurs Sinistres uniquement qu’à partir de la première heure du jour suivant la date à laquelle l’Assureur reçoit le paiement des primes dues, ainsi que les primes échues pendant la période de suspension et, le cas échéant, les frais juridiques et de recouvrement. Le droit de l’Assureur de réclamer les primes est limité aux primes relatives à 2 (deux) années consécutives.",
+      "Devise contractuelle : l’euro (EUR) est la devise de base pour tous les Plans. Le Preneur d’Assurance peut choisir le dollar américain (USD), la livre sterling (GBP) ou le franc suisse (CHF) comme monnaie contractuelle. L’Assureur examine les taux de change de ces monnaies deux fois par an et les modifie si nécessaire, ce qui peut entraîner une augmentation ou une diminution des primes. Le Preneur d’Assurance et la Personne Assurée acceptent expressément de supporter tous les risques de change découlant du choix d’une devise autre que l’euro."
+    ],
+    "indexation": "Ajustement des coûts/primes (4.4) : la prime d’assurance convenue est susceptible d’être modifiée en fonction des coûts réels des Sinistres lorsqu’ils ne correspondent plus à la base de calcul technique du Plan ou si la tendance observée en matière de coûts dans le système de santé laisse supposer que les coûts réels deviendront disproportionnés par rapport aux coûts calculés pour l’Année d’Assurance suivante ; du changement de tranche d’âge ; et des modifications de la législation applicable. De plus, l’Assureur est en droit de répercuter sur le Preneur d’Assurance toute augmentation des charges, redevances ou taxes légales. Une fois par an, ces évolutions seront évaluées et les primes pourront être ajustées. L’Assureur informera le Preneur d’Assurance de toute modification de prime au moins 3 (trois) mois avant le début de la prochaine Année d’Assurance ; la modification s’appliquera à partir du début de la prochaine Année d’Assurance.",
+    "page": 13
+  },
+  "special_conditions": [
+    {
+      "name": "Base contractuelle",
+      "description": "Les droits et obligations réciproques de l’Assureur, du Preneur d’Assurance et de la Personne Assurée au titre de la Police d’Assurance sont régis par les documents ci-après, dans leur version en vigueur, lesquels forment conjointement la Police d’Assurance : le Formulaire de Souscription ; le Certificat d’Assurance ; les Conditions Générales d’Assurance (le présent document) ; les Conditions Spéciales ; les Conditions Particulières ; les Glossaires ; et tout accord écrit ultérieur conclu entre l’Assureur, le Preneur d’Assurance et, le cas échéant, la Personne Assurée. Les termes figurant avec une majuscule dans les Conditions Générales ont la signification qui leur est donnée dans les Glossaires, sauf indication contraire expresse.",
+      "page": 3
+    },
+    {
+      "name": "Hiérarchie des conditions",
+      "description": "En cas de divergence entre les Conditions Générales d’Assurance, les Conditions Spéciales et les Conditions Particulières, les Conditions Particulières prévalent sur les Conditions Spéciales et les Conditions Générales d’Assurance, et les Conditions Spéciales prévalent sur les Conditions Générales d’Assurance.",
+      "page": 3
+    },
+    {
+      "name": "Cadre de l’assurance",
+      "description": "Le cadre juridique de la couverture d’assurance prévue par la Police d’Assurance et les Prestations qui en découlent résulte de ladite Police d’Assurance, dans sa version en vigueur, ainsi que de toutes les lois, réglementations, directives, orientations ou interprétations applicables émises par une autorité réglementaire, dans leur version en vigueur.",
+      "page": 4
+    },
+    {
+      "name": "Demande d’adhésion",
+      "description": "Le Preneur d’Assurance peut demander une couverture d’assurance en remplissant un Formulaire de Souscription, disponible directement auprès de son intermédiaire d’assurance, de l’Assureur, sur le site internet de l’Assureur ou via tout autre canal numérique mis à disposition par l’Assureur. Le Formulaire de Souscription n’engage ni le Preneur d’Assurance, ni l’Assureur à conclure la Police d’Assurance. Toutefois, l’Assureur dispose de 30 (trente) jours à compter de la réception du Formulaire de Souscription, pour informer le Preneur d’Assurance en proposant soit une offre d’assurance, soit en demandant des informations complémentaires ou soit en refusant l’assurance. L’Assureur se réserve le droit de demander toute donnée requise par la loi ou nécessaire ou utile de la Police d’Assurance.",
+      "page": 4
+    },
+    {
+      "name": "Droit de rétractation",
+      "description": "Si la Police d’Assurance est conclue à distance et qu’elle est considérée comme un contrat d’assurance à distance au sens des règles et réglementations applicables, le Preneur d’Assurance dispose d’un délai de 14 (quatorze) jours calendaires pour se rétracter, sans pénalité et sans avoir à fournir d’explication ou de motif. Le délai court à compter de la date de souscription à distance ou de la date de réception de la Police d’Assurance si celle-ci est postérieure. L’exercice doit être notifié par lettre recommandée adressée au siège social de l’Assureur avant l’expiration du délai, le cachet de la poste faisant foi. L’Assureur rembourse dans les 30 (trente) jours calendaires toutes les sommes perçues, à l’exception du montant dû pour la couverture effectivement fournie ; à défaut, le montant dû est majoré du taux d’intérêt légal. Le Preneur d’Assurance doit restituer dans le même délai toutes les sommes et/ou biens reçus de l’Assureur.",
+      "page": 5
+    },
+    {
+      "name": "Assurance cumulative",
+      "description": "Si une autre police d’assurance maladie avec des prestations obligatoires existe en plus de la présente Police d’Assurance, cette assurance maladie obligatoire prévaudra sur la présente Police d’Assurance.",
+      "page": 5
+    },
+    {
+      "name": "Nullité de la Police d’Assurance",
+      "description": "Si, de mauvaise foi, un risque donné est assuré par une ou plusieurs polices d’assurances, y compris la Police d’Assurance, avec une prime trop élevée, la Police d’Assurance est nulle et non avenue. Dans ce cas, l’Assureur agissant de bonne foi peut conserver les primes perçues afin d’indemniser tout préjudice subi.",
+      "page": 9
+    },
+    {
+      "name": "Subrogation",
+      "description": "L’Assureur est subrogé dans tous les droits et actions que le Preneur d’Assurance ou la Personne Assurée peut avoir à l’encontre d’un tiers en relation avec un Sinistre, à hauteur du montant des Prestations versées par l’Assureur. Si, en raison d’actes ou d’omissions du Preneur d’Assurance ou de la Personne Assurée, la subrogation ne peut plus produire ses effets au profit de l’Assureur, celui-ci peut réclamer le remboursement des Prestations versées proportionnellement au préjudice subi. La subrogation ne peut avoir pour conséquence que la Personne Assurée ne soit indemnisée que partiellement ; dans ce cas, la Personne Assurée peut exercer ses droits, pour les montants qui lui restent dus, en priorité sur l’Assureur. Sauf en cas de malveillance de la part de la Personne Assurée, l’Assureur n’aura aucun recours juridique contre les descendants, ascendants, conjoint et beaux-parents en ligne directe de la Personne Assurée, ni contre les personnes vivant au domicile de la Personne Assurée, ses hôtes et employés de maison ; l’Assureur peut toutefois agir contre ces personnes dans la mesure où leur responsabilité est effectivement couverte par une Police d’Assurance.",
+      "page": 12
+    },
+    {
+      "name": "Modification de la Police d’Assurance",
+      "description": "Le Preneur d’Assurance et la Personne Assurée reconnaissent et acceptent que l’Assureur puisse modifier ou changer les Conditions Générales. L’Assureur informe par écrit le Preneur d’Assurance des modifications envisagées au moins 3 (trois) mois avant le début de la prochaine Année d’Assurance ; la modification s’applique à compter du début de la prochaine Année d’Assurance. Si le Preneur d’Assurance n’accepte pas la modification, il peut résilier la Police d’Assurance par lettre recommandée dans un délai de 3 (trois) mois à compter de la réception de la notification ; la Police d’Assurance prend alors fin à la date à laquelle la modification aurait autrement pris effet. À défaut d’objection dans ce délai, la modification est réputée tacitement approuvée.",
+      "page": 15
+    },
+    {
+      "name": "Modification de la couverture d’assurance",
+      "description": "Les modifications de la couverture d’assurance (devise, zone de couverture, Franchise, Co-Paiement, montant maximal de reste à la charge de l’assuré, niveau du Plan) ne sont possibles qu’à partir du début de l’Année d’Assurance suivante et uniquement si l’Assureur donne son accord écrit. Si des surprimes liées à la santé étaient dues avant la modification, ces surprimes seront également prélevées sur les nouvelles primes du Plan aux mêmes taux, sauf accord contraire, et évolueront dans la même proportion que les primes. La couverture d’assurance précédente continue de s’appliquer si une modification demandée ne prend pas effet en raison de l’exercice du droit de rétractation. L’Année d’Assurance reste inchangée après une modification de la couverture d’assurance.",
+      "page": 15
+    },
+    {
+      "name": "Protection des données - secret professionnel et sous-traitance",
+      "description": "L’Assureur attache une grande importance au respect du secret professionnel et à la confidentialité des données de ses clients. Il peut faire appel à des prestataires de services, des sous-traitants et des technologies utilisant le cloud computing ; les données communiquées seront protégées dans le respect de la réglementation, y compris le RGPD. Le Preneur d’Assurance consent expressément à toute sous-traitance, y compris le cloud computing, et peut accéder à tout moment au tableau des sous-traitances. Si, dans les 2 (deux) mois suivant une modification de la liste des sous-traitants, le Preneur d’Assurance n’a pas formulé d’objection par écrit, il sera réputé avoir accepté irrévocablement la sous-traitance en question ; l’objection, notifiée par lettre recommandée, ne sera valable comme résiliation qu’à la prochaine échéance du contrat. À titre exceptionnel, si la Police d’Assurance ne peut être résiliée annuellement, le consentement du Preneur d’Assurance est valable pour toute la durée de la Police d’Assurance, y compris pour toute modifications ultérieures.",
+      "page": 15
+    },
+    {
+      "name": "Protection des données - données de santé",
+      "description": "Conformément au règlement UE 2016/679 (RGPD) et à la loi du 1er août 2018, l’Assureur collecte, enregistre et traite les données communiquées afin d’évaluer les risques, de préparer, d’établir, de gérer et d’exécuter le(s) contrat(s) d’assurance, de régler les Sinistres et de prévenir toute fraude. Les catégories particulières de données relatives à la santé sont traitées strictement dans le cadre de la finalité prévue à l’article 9, paragraphe (2), point g), du RGPD ou sur la base du consentement préalable et explicite de la Personne Assurée. Aucune donnée à caractère personnel ne sera traitée à des fins de prospection commerciale sans le consentement exprès des personnes concernées. Le responsable du Traitement est l’Assureur ; il peut communiquer ces données à des tiers, notamment au réassureur, à des consultants médicaux, à des avocats ou à d’autres prestataires de services, conformément aux conditions prévues à l’article 300 de la loi du 7 décembre 2015 relative au secteur des assurances. Les personnes concernées disposent d’un droit d’accès, de limitation, de suppression dans les limites légales, de rectification et de portabilité. L’Assureur a désigné un délégué à la protection des données.",
+      "page": 16
+    },
+    {
+      "name": "Notifications",
+      "description": "Sauf disposition contraire expresse, toutes les notifications de l’Assureur au Preneur d’Assurance sont réputées valablement effectuées si elles sont envoyées par la poste à la dernière adresse connue du Preneur d’Assurance telle qu’elle figure dans les dossiers de l’Assureur. Les notifications de l’Assureur au Preneur d’Assurance sont réputées avoir été reçues 10 (dix) jours calendaires après la date d’envoi, telle qu’indiquée par le cachet de la poste. Les notifications adressées à l’Assureur doivent être envoyées au siège social de l’Assureur.",
+      "page": 18
+    },
+    {
+      "name": "Litiges et voies de réclamation",
+      "description": "En cas de litige concernant la Police d’Assurance, le Preneur d’Assurance est tenu de soumettre une réclamation écrite à l’une des entités suivantes : a) La direction générale de l’Assureur, Foyer Global Health S.A., 12, rue Léon Laval, L-3372 Leudelange Luxembourg, Téléphone : +352 270 444 1016, E-mail : feedback@globalhealth.insurance ; b) ou au Médiateur des assurances, à l’attention de l’Association des Compagnies d’Assurances et de Réassurances du Grand-Duché de Luxembourg, 12 rue Erasme, L-1468 Luxembourg ; c) ou au Médiateur de la consommation, Union Luxembourgeoise des Consommateurs, 55 rue des Bruyères, L-1274 Howald ; d) ou au Service national du Médiateur de la consommation, 6 rue du Palais de Justice L-1841 Luxembourg ; e) ou à la Commission luxembourgeoise des assurances, 11 Rue Robert Stumper, L-2557 Gasperich Luxembourg. L’ouverture d’une procédure de réclamation auprès de la Commission luxembourgeoise des assurances est soumise à la condition que la réclamation ait été préalablement traitée par l’Assureur. Ceci s’ajoute au droit de l’assuré d’intenter une action en justice.",
+      "page": 18
+    },
+    {
+      "name": "Droit applicable et juridiction compétente",
+      "description": "La Police d’Assurance est régie et interprétée conformément au droit luxembourgeois. Les questions qui ne sont pas expressément prévues dans la Police d’Assurance sont régies par les dispositions applicables du droit luxembourgeois. Pour tout litige découlant de ou en relation avec la Police d’Assurance, seuls les tribunaux du Grand-Duché de Luxembourg sont compétents, sans préjudice de l’application des réglementations européennes ou des traités ou accords internationaux pertinents. Pour toute action en responsabilité civile contre l’Assureur, les tribunaux du Luxembourg, Grand-Duché de Luxembourg, seront seuls compétents.",
+      "page": 19
+    },
+    {
+      "name": "Législation locale",
+      "description": "Le Preneur d’Assurance et/ou la Personne Assurée peuvent être soumis à la législation et aux obligations locales en matière d’assurance Maladie obligatoire. La couverture d’assurance fournie dans le cadre de la Police d’Assurance ne vise pas à se conformer à cette législation et à ces obligations locales et ne remplace pas le régime d’assurance Maladie obligatoire qui peut être imposé au Preneur d’Assurance et/ou à la Personne Assurée.",
+      "page": 19
+    },
+    {
+      "name": "Langue et communications",
+      "description": "Le Preneur d’Assurance et la Personne Assurée exigent expressément que les Conditions Générales et, plus généralement, la Police d’Assurance et tous les documents et informations justificatifs leur soient soumis en anglais, allemand, français ou espagnol. La correspondance et, plus généralement, tous les autres types de communications entre l’Assureur, le Preneur d’Assurance et la Personne Assurée se feront en anglais, allemand, français ou espagnol, sauf indication contraire dans le Formulaire de Souscription. Le Preneur d’Assurance et la Personne Assurée reconnaissent expressément qu’ils comprennent parfaitement la ou les langues choisies dans le Formulaire de Souscription.",
+      "page": 19
+    },
+    {
+      "name": "Rapport sur la solvabilité et la situation financière",
+      "description": "Le rapport sur la solvabilité et la situation financière publié périodiquement par l’Assureur est disponible sur le site web de l’Assureur.",
+      "page": 19
+    },
+    {
+      "name": "Fonds de garantie",
+      "description": "Conformément à la législation luxembourgeoise, les Prestations accordées au titre de la Police d’Assurance ne sont pas soumises à un fonds de garantie légal spécifique. Néanmoins, toute demande de paiement de Prestations au titre de la Police d’Assurance est protégée par le triangle de sécurité constitué par les dispositions légales luxembourgeoises obligatoires régissant le dépôt des provisions techniques sous-jacentes à la Police d’Assurance, la surveillance connexe exercée par le Commissariat aux Assurances et les privilèges légaux applicables.",
+      "page": 19
+    },
+    {
+      "name": "Mise à jour des Conditions Générales en cas de changement politique",
+      "description": "L’Assureur se réserve le droit de modifier immédiatement et sans préavis les Conditions Générales et de la Police d’Assurance en cas de changement de la situation politique d’une juridiction couverte, y compris, mais sans s’y limiter, la désignation de cette juridiction comme juridiction soumise à des restrictions ou à des sanctions, ou l’évolution des sanctions imposées à cette juridiction.",
+      "page": 18
+    },
+    {
+      "name": "Défaillance du Preneur d’Assurance",
+      "description": "Dans le cas où le Preneur d’Assurance aurait fourni des informations incomplètes ou incorrectes sur une Personne Assurée, y compris, mais sans s’y limiter, des informations sur son identité et/ou sa localisation géographique, l’Assureur peut, à sa seule discrétion, soit exiger du Preneur d’Assurance qu’il prenne les mesures correctives nécessaires dans un délai déterminé, soit suspendre la couverture d’assurance et/ou résilier la couverture d’assurance immédiatement pour motif valable et sans préavis, conformément aux dispositions contractuelles applicables en la matière.",
+      "page": 18
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "L’Assureur qui souscrit la Police d’Assurance est Foyer \nGlobal Health S.A., une compagnie d’assurance santé \nétablie au Luxembourg sous la forme d’une société \nanonyme dont le siège social est situé au 12, Rue Léon \nLaval, L-3372 Leudelange, immatriculée sous le numéro \nB134.471 au Registre du commerce et des sociétés \ndu Luxembourg, et supervisé par le Commissariat \naux Assurances (11, rue Robert Stumper, L-2557 \nLuxembourg ; +352226911-1 ; caa@caa.lu).",
+      "page": 3
+    },
+    {
+      "quote": "En cas de divergence entre les Conditions Générales \nd’Assurance, les Conditions Spéciales et les Conditions \nParticulières, les Conditions Particulières prévalent sur \nles Conditions Spéciales et les Conditions Générales \nd’Assurance, et les Conditions Spéciales prévalent sur \nles Conditions Générales d’Assurance.",
+      "page": 3
+    },
+    {
+      "quote": "Dans la limite du montant maximal de remboursement \nconvenu et en fonction du niveau de Plan choisi, \nl’Assureur rembourse les Frais Éligibles, dans la limite \ndu Plafond Annuel Global indiqué dans l’étendue des \nPrestations figurant dans les Conditions Spéciales, sauf \nindication contraire dans les Conditions Particulières, \nle Certificat d’Assurance ou tout accord écrit ultérieur \nentre l’Assureur, le Preneur d’Assurance et, le cas \néchéant, la Personne Assurée.",
+      "page": 3
+    },
+    {
+      "quote": "Le Preneur d’Assurance s’engage à répondre de \nmanière sincère et exhaustive à toutes les questions \nposées par l’Assureur et, le cas échéant, veiller à ce que \nla Personne Assurée fasse de même.",
+      "page": 4
+    },
+    {
+      "quote": "Le Preneur d’Assurance et/ou la Personne Assurée \ndoivent déclarer toute circonstance susceptible \nd’entraîner une augmentation perceptible et durable du \nrisque assuré.",
+      "page": 5
+    },
+    {
+      "quote": "Si une autre police d’assurance maladie avec des \nprestations obligatoires existe en plus de la présente \nPolice d’Assurance, cette assurance maladie obligatoire \nprévaudra sur la présente Police d’Assurance.",
+      "page": 5
+    },
+    {
+      "quote": "le Preneur d’Assurance dispose d’un délai \nde 14 (quatorze) jours calendaires pour se rétracter, \nsans pénalité et sans avoir à fournir d’explication ou de \nmotif.",
+      "page": 5
+    },
+    {
+      "quote": "Aucune Prestation ne sera versée pour les Sinistres \nsurvenus avant la Date d’Effet.",
+      "page": 6
+    },
+    {
+      "quote": "La Police d’Assurance est conclue pour une \npériode de 12 (douze) mois et est ensuite tacitement \nrenouvelée d’année en année pour une période de 12 \n(douze) mois, si aucune des parties ne s’oppose à ce \nrenouvellement conformément aux formalités et aux \ndélais de préavis prévus à la clause 2.10 des présentes \nConditions Générales d’Assurance.",
+      "page": 6
+    },
+    {
+      "quote": "En case de Traitement psychiatrique, de \npsychothérapie et de soins dentaires majeurs, \nle Délai de Carence est de 10 (dix) mois à \ncompter de la Date d’Effet.",
+      "page": 10
+    },
+    {
+      "quote": "le Preneur \nd’Assurance et/ou la Personne Assurée doivent \ndéclarer tout Sinistre à l’Assureur dans un délai de 3 \n(trois) mois.",
+      "page": 10
+    },
+    {
+      "quote": "Le délai de prescription pour toute action en justice \ndécoulant de la Police d’Assurance ou s’y rapportant \navec est de 3 (trois) ans.",
+      "page": 12
+    },
+    {
+      "quote": "L’euro (EUR) est la devise de base pour tous les Plans.\nNonobstant ce qui précède, le Preneur d’Assurance \npeut choisir le dollar américain (USD), la livre sterling \n(GBP) ou le franc suisse (CHF) comme monnaie \ncontractuelle.",
+      "page": 14
+    },
+    {
+      "quote": "La Police d’Assurance est régie et interprétée \nconformément au droit luxembourgeois. Les questions \nqui ne sont pas expressément prévues dans la Police \nd’Assurance sont régies par les dispositions applicables \ndu droit luxembourgeois.",
+      "page": 19
+    },
+    {
+      "quote": "Conformément à la législation luxembourgeoise, les \nPrestations accordées au titre de la Police d’Assurance \nne sont pas soumises à un fonds de garantie légal \nspécifique.",
+      "page": 19
+    },
+    {
+      "quote": "Sont Médicalement Nécessaires toutes les mesures \nmédicales appropriées, fondées sur des standards \nmédicaux internationalement reconnues au moment \net à l’endroit du Traitement, destinées à diagnostiquer, \ntraiter, guérir ou soulager la Maladie, l’affection ou la \nblessure et qui sont reconnues comme appropriées par \nl’Assureur.",
+      "page": 22
+    }
+  ],
+  "gaps": [
+    "Porteur du risque : le document le désigne explicitement au verbe - « L’Assureur qui souscrit la Police d’Assurance est Foyer Global Health S.A., une compagnie d’assurance santé établie au Luxembourg sous la forme d’une société anonyme dont le siège social est situé au 12, Rue Léon Laval, L-3372 Leudelange, immatriculée sous le numéro B134.471 au Registre du commerce et des sociétés du Luxembourg, et supervisé par le Commissariat aux Assurances » (clause 1, page 3, et Glossaire « Assureur », page 21). Aucune autre société n’est nommée avec une forme juridique ; un réassureur est mentionné dans la clause de protection des données (page 16) mais n’est pas nommé. Cela correspond aux métadonnées de la tâche.",
+    "Ce document ne contient AUCUN catalogue de garanties. L’étendue de la couverture, les garanties individuelles et leurs plafonds figurent expressément dans un autre document : « Conditions Spéciales - Document précisant l’étendue exacte de la couverture d’assurance et des Prestations prévues par la Police d’Assurance » (Glossaire, page 21) ; la clause 1 renvoie « au Plafond Annuel Global indiqué dans l’étendue des Prestations figurant dans les Conditions Spéciales ». `coverages` ne contient donc que les trois engagements que ce document formule lui-même (remboursement dans la limite du Plan choisi, adhésion des nouveau-nés, assistance du Centre de Service). Rien n’a été complété depuis un document frère.",
+    "Pour la même raison, `deductibles` est null : la Franchise, le Co-Paiement et le montant maximal de reste à la charge de l’assuré ne sont mentionnés qu’à la clause 5.2 (page 15) comme éléments modifiables de la couverture, sans aucun montant. Aucun montant n’a été inventé. De même, aucune zone géographique de couverture et aucun montant de prime ne figurent dans ce document - « Les barèmes de primes sont disponibles sur notre site web » (4.3, page 13) - et `territorial_scope` reste donc null pour toutes les garanties.",
+    "Clause de langue : ce document ne comporte AUCUNE clause désignant une version linguistique faisant foi. La clause 5.9 (page 19) se borne à prévoir que les documents sont fournis « en anglais, allemand, français ou espagnol » et que le Preneur d’Assurance et la Personne Assurée reconnaissent comprendre la ou les langues choisies dans le Formulaire de Souscription. Observation, sans aucune incidence sur les champs ci-dessus : les conditions générales du même produit publiées en allemand par le même assureur ajoutent, à la clause 1, une phrase donnant la primauté à la version anglaise ; cette phrase n’est pas imprimée dans la présente version française, et rien n’en a été repris ici. L’extraction est faite exclusivement à partir du texte français.",
+    "Date d’édition : le document n’imprime aucune date d’édition. La seule mention de version est le code de pied de page « GH_JOY_OO_GT_25.11 » (page 24), consigné dans `reference` ; il n’a pas été converti en `edition_date`, le document n’indiquant nulle part que 25.11 désigne un mois/une année. Rien n’a été déduit du nom de fichier figurant dans source_url.",
+    "Coquilles de l’éditeur, conservées telles quelles et non corrigées : « En case de Traitement psychiatrique » (3.1 i, page 10) ; « la Sarte de Service » pour la Carte de Service (3.5, page 12) ; « l’Assureur ne sera pas régler un Sinistre ou d’accorder une Prestation » (5.4, page 17) ; « s’ils physiquement situés » (5.4, page 17) ; « il n’a pas achevé le de carence » (2.6, page 7) ; « en rapport en lien avec la Police d’Assurance » (2.1.1, page 4) ; « qui agissant de manière externe sur le corps » (Glossaire « Accident », page 21) ; « qui faisant partie intégrante » (Glossaire « Glossaire », page 22) ; « La demande d’assurance santé contentant la proposition d’assurance » (Glossaire « Formulaire de Souscription », page 22) ; « elle reprendra ses effet » (4.5, page 14). La clause 2.1.3 imprime « si l’Assureur établit qu’il n’aurait accepté d’assurer le risque concerné », sans la négation attendue ; le texte est reproduit tel qu’imprimé.",
+    "Le glossaire de ce document est incomplet par construction : « Glossaires - Le présent Glossaire et le Glossaire figurant à la fin des Conditions Spéciales, qui font tous partie intégrante des Conditions Générales d’Assurance » (page 22). Des termes employés ici avec une majuscule mais non définis dans ce document - notamment Frais Éligibles, Plafond Annuel Global, Franchise, Co-Paiement, Thérapeute, Dentiste, Professionnels de Santé, Période d’Assurance, Rapatriement - sont définis dans le Glossaire des Conditions Spéciales et n’ont pas été repris.",
+    "Le document emploie deux dénominations différentes pour l’autorité de contrôle : « Commissariat aux Assurances » (clause 1 page 3, Glossaire page 21, clause 5.11 page 19) et « Commission luxembourgeoise des assurances » à la même adresse dans la liste des voies de réclamation (5.6, page 18). Les deux sont consignées telles qu’imprimées, sans arbitrage.",
+    "Le calque texte de ce PDF est propre : aucun caractère de largeur nulle, aucun tiret conditionnel, aucun caractère de la zone à usage privé, aucun accent décomposé ; 3 espaces insécables et 9 césures en fin de ligne. Toutes les apostrophes sont des apostrophes typographiques U+2019 (1012 occurrences) et aucune apostrophe ASCII n’apparaît. Le glyphe € est absent : le document désigne les monnaies par les codes EUR, USD, GBP et CHF, et ne contient aucun montant chiffré en dehors des pourcentages (500 %) et des délais. Les citations de `key_quotes` ont été découpées programmatiquement comme des extraits exacts du calque texte et ne franchissent aucune limite de page.",
+    "Vérification : le texte de page inséré dans le prompt a été comparé page par page à une réextraction indépendante du PDF source (data/lu/pdfs/foyer-global-health/sante/journey-331437d3.pdf) avec le même appel texte par page ; les 24 pages sont identiques octet pour octet et le texte du document n’était pas tronqué. Il a également été vérifié qu’aucun tableau de coches ou de croix n’existe sous forme de tracé vectoriel ou d’image (seuls les tracés du logo sont présents) et qu’aucun bloc de texte ne se trouve hors du rectangle de page.",
+    "La liste des juridictions sanctionnées (5.4, pages 17-18) est expressément présentée comme évolutive et renvoie à une adresse web ; elle est consignée comme exclusion dans l’état imprimé dans le document.",
+    "La clause 2.12 « Limites de responsabilité » figure bien dans la table des matières (page 2) et dans le corps du document (page 9) ; elle est enregistrée dans `exclusions`. Aucune section annoncée dans la table des matières ne manque dans le corps du document."
+  ]
+}

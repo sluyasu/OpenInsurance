@@ -1,0 +1,1266 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "lu",
+  "insurer_slug": "foyer-global-health",
+  "insurer_name": "Foyer Global Health",
+  "product_name": "Journey",
+  "branch": "sante",
+  "branch_code": null,
+  "document_type": "conditions_generales",
+  "language": "de",
+  "target_audience": null,
+  "target_audience_note": "Der Versicherungsvertrag ist für Personen konzipiert, die vorübergehend außerhalb ihres Heimatlandes leben, reisen oder arbeiten. Jede Person, die sich mindestens 3 (drei) Monate im Ausland aufhält, ist versicherbar, sofern der Versicherer nicht einer anderen Vereinbarung zustimmt. (1.2, Seite 3)",
+  "reference": "GH_JOY_ST_SC_25.11",
+  "edition_date": null,
+  "product_family": "Journey",
+  "variant": "Tarif Short",
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://globalhealth.insurance/wp-content/uploads/2025/12/SCI_Journey_Short_De.pdf",
+  "source_pdf": "journey-short-conditions-speciales-5937efa3.pdf",
+  "source_sha256": "75291f249560db6dd03f6552f4aac3ccd3ec40d9ceae02474fa11d108afb5aba",
+  "source_pages": 26,
+  "fetched_at": "2026-08-04",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Journey (Tarif Short) ist eine internationale Krankenversicherung für Personen, die vorübergehend außerhalb ihres Heimatlandes leben, reisen oder arbeiten; versicherbar ist, wer sich mindestens 3 (drei) Monate im Ausland aufhält. Der Versicherungsschutz wird für bis zu 3 (drei), 6 (sechs) oder 9 (neun) Monate mit einer maximalen Gesamtlaufzeit von 9 (neun) Monaten gewährt und verlängert sich nicht automatisch. Erstattet werden stationäre und ambulante Heilbehandlungen sowie medizinische und zusätzliche Assistance bis zu einem Höchstbetrag pro Vertragslaufzeit von EUR 500.000 / USD 650.000 / GBP 420.000 / CHF 465.000, mit einem eigenen Höchstbetrag für ambulante Leistungen von EUR 2.000 / USD 2.600 / GBP 1.680 / CHF 1.860. Es besteht keine Selbstbeteiligung, für ambulante Behandlungen gilt eine feste Zuzahlung von 20%; Vorerkrankungen einschließlich angeborener Leiden sind nicht versichert.",
+  "definitions": [
+    {
+      "term": "Versicherungsfall",
+      "definition": "Ein Versicherungsfall bezeichnet die medizinisch notwendige Heilbehandlung einer Krankheit, eines Unfalls einschließlich der Unfallfolgen oder andere in den Speziellen Versicherungsbedingungen (siehe 3.5 bis 3.9 – Leistungsübersicht) genannte Ereignisse. Der Versicherungsfall beginnt mit der Heilbehandlung und endet, wenn medizinische Befunde keine weiteren medizinisch notwendige Heilbehandlungen mehr erfordern. Benötigt die versicherte Person eine Heilbehandlung aufgrund einer Krankheit, eines Unfalls oder anderer genannter Ereignisse, die nicht im Zusammenhang mit dem ursprünglichen Versicherungsfall stehen, so wird dies als neuer Versicherungsfall behandelt. (3.2)",
+      "page": 6
+    },
+    {
+      "term": "Zuzahlung (3.3)",
+      "definition": "Die Zuzahlung ist der Prozentsatz der Behandlungskosten, den die versicherte Person selbst trägt. Für ambulante Behandlungen gilt eine feste Zuzahlung von 20%. Zuzahlungen gelten für jeden Versicherten unter Berücksichtigung der Vertragslaufzeit. Die Aufwendungen werden der Vertragslaufzeit zugeordnet, in der der Arzt oder Heilbehandler konsultiert und Medikamente oder Verbandmaterialien bezogen wurden.",
+      "page": 6
+    },
+    {
+      "term": "Ambulante Heilbehandlung",
+      "definition": "Jede Heilbehandlung durch einen qualifizierten und zugelassenen Arzt, die keinen stationären Aufenthalt erfordert (dazu zählen auch Krankenhausaufenthalte von weniger als 8 (acht) Stunden).",
+      "page": 23
+    },
+    {
+      "term": "Angeborene Leiden",
+      "definition": "Alle bei der Geburt vorhandenen Störungen oder Krankheiten, Anomalien, Geburtsfehler, Frühgeburtlichkeit, Fehlbildungen einschließlich damit in Zusammenhang stehender Erkrankungen, unabhängig vom Vorliegen einer Diagnose.",
+      "page": 23
+    },
+    {
+      "term": "Anschlussrehabilitation",
+      "definition": "Eine medizinische Maßnahme zur Wiederherstellung des früheren körperlichen Zustands nach einer Krankheit oder einer schweren Operation, zum Beispiel nach Bypass-OP, Herzinfarkt, Organtransplantation sowie chirurgischen Eingriffen an großen Knochen oder Gelenken, oder nach einem schweren Unfall.",
+      "page": 23
+    },
+    {
+      "term": "Ausreiseland",
+      "definition": "Das letzte Land, in dem die versicherte Person ihren gewöhnlichen Aufenthalt hatte.",
+      "page": 23
+    },
+    {
+      "term": "Beginn der Behandlung",
+      "definition": "Das Datum, an dem eine Heilbehandlung beginnt, die von einem medizinischen Leistungserbringer aufgrund einer Krankheit oder einer körperlichen Verletzung verordnet und durchgeführt wird.",
+      "page": 23
+    },
+    {
+      "term": "Behandler",
+      "definition": "Ein Arzt, aber auch alle Personen, die über eine auf ihrem Behandlungsgebiet anerkannte und fundierte Ausbildung verfügen und in dem Land, in dem die Heilbehandlung erfolgt, zur Behandlung auf ihrem Gebiet zugelassen bzw. zu deren Ausübung berechtigt sind. Dazu zählen Heilpraktiker, Logopäden/Sprachheiltherapeuten und Hebammen/Entbindungspfleger sowie die in eigener Praxis tätigen Angehörigen staatlich anerkannter medizinischer Assistenzberufe wie beispielsweise Masseure und Physiotherapeuten. Die versicherte Person kann jeden Behandler frei wählen, der diese Kriterien erfüllt.",
+      "page": 23
+    },
+    {
+      "term": "Berufssport",
+      "definition": "Jede Sportart, für deren Ausübung die versicherte Person bezahlt wird.",
+      "page": 23
+    },
+    {
+      "term": "Computertomographie (CT)",
+      "definition": "Eine diagnostische Technik, die mithilfe eines speziellen Röntgenverfahrens Querschnittsbilder des Körpers anfertigt. Der CT-Computer zeigt diese Bilder als detailgenaue dreidimensionale Darstellung von Organen, Knochen und anderen Geweben an. Synonyme Bezeichnungen für dieses Verfahren sind CT-Scan, computerisierte Tomographie oder computerisierte Axialtomographie (CAT).",
+      "page": 23
+    },
+    {
+      "term": "Erstattungsfähige Aufwendungen",
+      "definition": "Die Aufwendungen für medizinisch notwendige Gesundheitsleistungen, Heilbehandlungen und Maßnahmen, die gemäß den Versicherungsbedingungen dieses Versicherungsvertrags versichert sind. Diese Aufwendungen beinhalten in der Regel Krankenhausaufenthalte, ärztliche Heilbehandlungen, diagnostische Tests, chirurgische Eingriffe, verordnete Arzneimittel und andere genehmigte medizinische Leistungen. Um erstattungsfähig zu sein, müssen die Maßnahmen von zugelassenen Gesundheitsfachkräften oder akkreditierten medizinischen Einrichtungen erbracht werden und im Einklang mit den Leistungsbeschreibungen, Leistungsausschlüssen und etwaigen Wartezeiten oder Kostenübernahmeanforderungen des Versicherungsvertrags stehen.",
+      "page": 23
+    },
+    {
+      "term": "Glossar",
+      "definition": "Das vorliegende Glossar mit definierten Begriffen ist integraler Bestandteil der Speziellen Versicherungsbedingungen.",
+      "page": 23
+    },
+    {
+      "term": "Heilbehandler",
+      "definition": "Eine Person die, neben Ärzten, über eine anerkannte und fundierte Ausbildung in ihrem Behandlungsbereich verfügt und in dem Land, in dem die Behandlung durchgeführt werden soll, zur Behandlung in diesem Fachgebiet zugelassen ist. Als Heilbehandler gelten: Heilpraktiker, Logopäden und Hebammen sowie selbständige Behandler, die in staatlich anerkannten, medizinischen Hilfsberufen tätig sind (z. B. Masseure, Osteopathen und Physiotherapeuten). Die versicherten Personen können einen Behandler, der diese Kriterien erfüllt, frei wählen.",
+      "page": 23
+    },
+    {
+      "term": "Heimatland",
+      "definition": "Das Land, dessen Staatsangehörigkeit die versicherte Person besitzt.",
+      "page": 23
+    },
+    {
+      "term": "Höchstbetrag für ambulante Leistungen",
+      "definition": "Der Höchstbetrag, den der Versicherer insgesamt für alle ambulanten Leistungen pro versicherte Person und Vertragslaufzeit im Rahmen des jeweiligen Tarifs erstattet.",
+      "page": 24
+    },
+    {
+      "term": "Höchstbetrag pro Vertragslaufzeit",
+      "definition": "Der Höchstbetrag, der für alle Aufwendungen insgesamt pro versicherte Person und pro Vertragslaufzeit maximal erstattet wird.",
+      "page": 24
+    },
+    {
+      "term": "Hydrotherapie",
+      "definition": "Hydrotherapie ist die gezielte Heilbehandlung durch äußerliche Anwendung von Wasser.",
+      "page": 24
+    },
+    {
+      "term": "Implantologische Leistungen",
+      "definition": "Einsetzen von zahnärztlichen Implantaten (Metall- oder Keramikkörper) als Zahnwurzelersatz oder in unbezahnte Kiefer.",
+      "page": 24
+    },
+    {
+      "term": "Krebs",
+      "definition": "Allgemeine Bezeichnung für alle bösartigen (malignen) Erkrankungen, die durch eine unkontrollierte Vermehrung von veränderten Zellen (Neoplasien oder Tumoren) gekennzeichnet sind. Diese Zellen können das umliegende Gewebe zerstören und Tochtergeschwülste (Metastasen) ausbilden.",
+      "page": 24
+    },
+    {
+      "term": "Kur- und Sanatoriumsbehandlung",
+      "definition": "Eine Kur- oder Behandlungsmaßnahme, die sich von einer medizinischen Heilbehandlung unterscheidet und der Wiederherstellung des Fitness- oder Gesundheitszustands einer Person dient.",
+      "page": 24
+    },
+    {
+      "term": "Landesüblich, Allgemeingültig und Angemessen",
+      "definition": "Landesübliche, Allgemeingültige und Angemessene Kosten beziehen sich auf die durchschnittlichen Aufwendungen, die von zugelassenen Ärzten innerhalb eines bestimmten geografischen Gebiets (z. B. Stadt oder Land) für eine bestimmte medizinische Leistung in Rechnung gestellt werden. Diese basieren auf öffentlich zugänglichen Gebührenordnungen oder Datenbanken, die von anerkannten Gesundheitsbehörden oder Versicherungsverbänden geführt werden.",
+      "page": 24
+    },
+    {
+      "term": "Magnetresonanztomographie (MRT)",
+      "definition": "Ein diagnostisches Verfahren, mit dem man die inneren Organe und Gewebe des Körpers durch Einsatz starker Magnetfelder und Radiowellen bildlich darstellen kann.",
+      "page": 24
+    },
+    {
+      "term": "Medizinisch-klinischer Zustand",
+      "definition": "Alle Störungen, Krankheiten, Verletzungen bzw. körperlichen, geistigen oder psychischen Auffälligkeiten sowie Schwangerschaft.",
+      "page": 24
+    },
+    {
+      "term": "Nahrungsergänzungsmittel und/oder Diätmittel",
+      "definition": "Produkte zur Erhöhung des Nährstoffgehalts der aufgenommenen Nahrungsmittel, inklusive Vitamine, Mineralstoffe, Kräuter, Mahlzeitenersatzprodukte, Sporternährungsprodukte, natürliche Nahrungsergänzungsmittel.",
+      "page": 24
+    },
+    {
+      "term": "Palliativmedizin",
+      "definition": "Palliativmedizin ist die umfassende und aktive Behandlung von Patienten mit begrenzter Lebenserwartung, bei denen eine Heilung nicht mehr möglich ist. Diese Art der Behandlung bietet dem Patienten und seiner Familie die bestmögliche Lebensqualität.",
+      "page": 24
+    },
+    {
+      "term": "Positronen-Emissions-Tomographie (PET)",
+      "definition": "Ein nicht-invasives bildgebendes Verfahren, das auf den Nachweis und die Darstellung einer Substanz mit Positronen emittierenden Strahlern basiert, die im Körper des Patienten verteilt sind. Die Konzentration dieser „Marker” in einem Tumor kann daraufhin quantifiziert werden, wobei die Substanz intravenös injiziert und die Strahlung mit externen Detektoren erfasst wird. Mit Hilfe der PET können wichtige biologische Prozesse in Tumoren sichtbar gemacht werden.",
+      "page": 24
+    },
+    {
+      "term": "Rücktransport",
+      "definition": "Sollte eine im Rahmen des Versicherungsvertrags erstattungsfähige medizinisch notwendige Heilbehandlung vor Ort nicht durchführbar sein, übernimmt der Versicherer die Aufwendungen des Rücktransports der versicherten Person in ihr Heimatland zur dortigen Heilbehandlung, anstatt in das nächstgelegene geeignete Krankenhaus. Dies gilt allerdings nur, sofern das Heimatland in der versicherten Zielregion liegt.",
+      "page": 24
+    },
+    {
+      "term": "Schulmedizin",
+      "definition": "Die an Universitäten gelehrte, wissenschaftlich fundierte und daher allgemein anerkannte und angewandte Form der Medizin.",
+      "page": 24
+    },
+    {
+      "term": "Second Opinion",
+      "definition": "Second Opinion (ärztliche Zweitmeinung) ist die medizinische Beratung durch einen anderen, bisher nicht an der Heilbehandlung beteiligten Arzt. Auch bei lebensbedrohlichen Erkrankungen und schwerwiegenden, bleibenden, gesundheitlichen Schädigungen kann sich die versicherte Person über das zuständige Service Center eine ärztliche Zweitmeinung einholen.",
+      "page": 24
+    },
+    {
+      "term": "Selbstbeteiligung",
+      "definition": "Die Selbstbeteiligung bezeichnet den von den versicherten Personen, bis zu dem vereinbarten Höchstbetrag, selbst zu tragenden Anteil an den Aufwendungen. Wurde eine Selbstbeteiligung vereinbart, so wird diese im Versicherungsvertrag dokumentiert.",
+      "page": 25
+    },
+    {
+      "term": "Tagesklinische (teilstationäre) Heilbehandlung",
+      "definition": "Als tagesklinisch (teilstationär) bezeichnet man eine Heilbehandlung in einem Krankenhaus ohne Übernachtung. Die Länge des Krankenhausaufenthalts beträgt hierbei zwischen 8 (acht) und 24 (vierundzwanzig) Stunden.",
+      "page": 25
+    },
+    {
+      "term": "Vertragslaufzeit",
+      "definition": "Die Vertragslaufzeit ist der Zeitraum, den der Versicherungsnehmer für die versicherten Personen im Antragsformular ausgewählt hat und in dem der Versicherungsschutz gemäß Versicherungsvertrag gewährt wird.",
+      "page": 25
+    },
+    {
+      "term": "Versicherungsdauer",
+      "definition": "Zeitraum von 3 (drei), 6 (sechs) oder 9 (neun) Monaten, der mit dem Datum des Inkrafttretens des Versicherungsvertrags beginnt.",
+      "page": 25
+    },
+    {
+      "term": "Vorerkrankungen",
+      "definition": "Vorerkrankungen beziehen sich auf alle Erkrankungen, Verletzungen und deren Folgen, die dem Versicherungsnehmer oder einer versicherten Person vor Unterzeichnung des Antragsformulars bekannt waren oder für die sie medizinische Beratungen, diagnostische Leistungen oder Heilbehandlungen erhalten haben. Dies umfasst i. jede Erkrankung, für die sich die versicherte Person einer diagnostischen Untersuchung (einschließlich Vorsorge- oder routinemäßige Gesundheitsuntersuchung) unterzogen und die zu auffälligen Befunden geführt hat, unabhängig davon, ob eine formelle Diagnose gestellt wurde. ii. alle Anzeichen oder Symptome, unabhängig davon, ob sie diagnostiziert wurden oder nicht, sowie alle körperlichen oder organischen Anomalien, angeborenen Anomalien, Behinderungen oder Deformitäten. iii. alle vorhandenen, medizinischen Hilfsmittel wie Implantate, Stents, Prothesen oder andere Geräte, die dauerhaft oder vorübergehend am Körper angebracht sind. Darüber hinaus gelten alle Krankheiten, Verletzungen oder Gesundheitszustände, die zwischen dem Datum der Unterzeichnung des Antragsformulars und dem Datum der Unterzeichnung der Besonderen Versicherungsbedingungen auftreten, ebenfalls als Vorerkrankungen. Vorerkrankungen sind kein Bestandteil des Versicherungsschutzes.",
+      "page": 25
+    },
+    {
+      "term": "Zahnarzt",
+      "definition": "Ein Arzt oder Heilbehandler, der sich auf Erkrankungen der Zähne und des Mundraums spezialisiert hat.",
+      "page": 25
+    },
+    {
+      "term": "Zielregion",
+      "definition": "Die folgenden Zielregionen, in denen der Versicherungsschutz gemäß Versicherungsvertrag gilt: Zielregion I: Weltweit einschließlich USA; Zielregion II: Weltweit ohne USA.",
+      "page": 25
+    },
+    {
+      "term": "Zuzahlung",
+      "definition": "Eine Zuzahlung ist der Teil an einer versicherten medizinischen Leistung, den die versicherte Person prozentual an den gesamten erstattungsfähigen Kosten je Leistungsanspruch zu zahlen hat. Der Restbetrag wird vom Versicherer gemäß den Bedingungen des Versicherungsvertrags erstattet.",
+      "page": 25
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Höchstbetrag pro Vertragslaufzeit",
+      "description": "Einzige Zeile der Leistungsübersicht 3.5 für den Tarif Short: Höchstbetrag, der für alle Aufwendungen insgesamt pro versicherte Person und pro Vertragslaufzeit maximal erstattet wird. Auf der Grundlage des gewählten Tarifs erstattet der Versicherer die Aufwendungen bis zu 100% des in der Leistungsübersicht genannten Höchstbetrages pro Vertragslaufzeit, sofern in den Versicherungsbedingungen nicht ausdrücklich etwas anderes angegeben ist.",
+      "is_optional": false,
+      "territorial_scope": "Gemäß der im Versicherungsvertrag vereinbarten Zielregion: Zielregion I: Weltweit einschließlich USA / Zielregion II: Weltweit ohne USA (2.1, Seite 4).",
+      "limits": "EUR 500.000 / USD 650.000 / GBP 420.000 / CHF 465.000 (Höchstbetrag pro Vertragslaufzeit, pro versicherte Person)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Die genannten Höchstbeträge gelten pro Person und Vertragslaufzeit.",
+        "Für Zielregion I (weltweit einschließlich USA) verdoppelt der Versicherer die in 3.5, 3.6 und 3.7 angegebenen Höchstbeträge und Pauschalbeträge (2.3, Seite 4)."
+      ],
+      "page": 7
+    },
+    {
+      "name": "Unterkunft und Verpflegung im Ein- oder Zweitbettzimmer",
+      "description": "Die versicherte Person kann das Krankenhaus, in dem sie medizinische Heilbehandlungen erhält, frei wählen. Eine stationäre Heilbehandlung im Krankenhaus umfasst jede Behandlung, bei der die versicherte Person für mindestens 24 (vierundzwanzig) Stunden in ein Krankenhaus in dem Land, in dem sie behandelt wird, aufgenommen wird. Die Unterbringung ist auf Standard-Ein- oder Zweibettzimmer beschränkt. Ein Standard-Einbettzimmer ist ein einfaches Einzelzimmer mit angrenzendem Bad oder Duschraum in einem Krankenhaus. Der Versicherungsvertrag übernimmt die Aufwendungen für die gesamte stationäre Behandlung ohne zeitliche Begrenzung. (Abschnittsüberschrift auf Seite 11: „Unterbringung und Verpflegung im Ein- oder Zweibettzimmer“.)",
+      "is_optional": false,
+      "territorial_scope": "Gemäß der im Versicherungsvertrag vereinbarten Zielregion: Zielregion I: Weltweit einschließlich USA / Zielregion II: Weltweit ohne USA (2.1, Seite 4).",
+      "limits": "EUR 500.000 / USD 650.000 / GBP 420.000 / CHF 465.000 (Höchstbetrag pro Vertragslaufzeit, pro versicherte Person)",
+      "sub_limits": [
+        "Ohne zeitliche Begrenzung der stationären Behandlung"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Heilbehandlungen in Krankenhäusern, die ebenfalls Sanatoriumsbehandlungen anbieten, sind nur dann versichert, wenn sie die Voraussetzungen der Schulmedizin erfüllen, es sei denn, alternative Heilbehandlungen wurden vor Behandlungsbeginn ausdrücklich schriftlich vom Versicherer zugesagt.",
+        "Ausdrücklich ausgeschlossen sind Zimmer mit gehobener Ausstattung (u. a. Deluxe-Zimmer, Executive-Zimmer oder Suiten mit Küchen, Essbereichen oder Wohnzimmern).",
+        "Der Versicherer oder das zuständige Service Center muss vor oder innerhalb von 3 (drei) Kalendertagen nach der Aufnahme in das Krankenhaus informiert werden; andernfalls kann der Versicherer die Aufwendungen möglicherweise nicht vollständig übernehmen."
+      ],
+      "page": 8
+    },
+    {
+      "name": "Ärztliche Beratung und Diagnoseleistungen, inklusive Pathologie, Radiologie, Computertomographie (CT), Magnetresonanztomographie (MRT), Positronenemissionstomographie (PET) und Palliativmedizin",
+      "description": "Stationäre Leistung: Der Versicherungsvertrag berücksichtigt alle Aufwendungen einer medizinisch notwendigen stationären Heilbehandlung, inklusive Untersuchungen, Diagnostik und Therapie sowie alle Kosten im Zusammenhang mit Pathologie, Radiologie, Computertomographie (CT), Magnetresonanztomographie (MRT), Positronen-Emissions-Tomographie (PET) und Palliativmedizin.",
+      "is_optional": false,
+      "territorial_scope": "Gemäß der im Versicherungsvertrag vereinbarten Zielregion: Zielregion I: Weltweit einschließlich USA / Zielregion II: Weltweit ohne USA (2.1, Seite 4).",
+      "limits": "EUR 500.000 / USD 650.000 / GBP 420.000 / CHF 465.000 (Höchstbetrag pro Vertragslaufzeit, pro versicherte Person)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 8
+    },
+    {
+      "name": "Krankenhauskosten, inklusive Operationssaal, Anästhesie, Intensivstation und Labor",
+      "description": "Stationäre Leistung: die zusätzlichen Aufwendungen im Zusammenhang mit der Nutzung von speziellen Einrichtungen, einschließlich Operationssälen, Intensivstationen und Labors.",
+      "is_optional": false,
+      "territorial_scope": "Gemäß der im Versicherungsvertrag vereinbarten Zielregion: Zielregion I: Weltweit einschließlich USA / Zielregion II: Weltweit ohne USA (2.1, Seite 4).",
+      "limits": "EUR 500.000 / USD 650.000 / GBP 420.000 / CHF 465.000 (Höchstbetrag pro Vertragslaufzeit, pro versicherte Person)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 8
+    },
+    {
+      "name": "Operationen und Anästhesie",
+      "description": "Der Versicherer erstattet die Aufwendungen im Zusammenhang mit medizinisch notwendigen Leistungen, wie z. B. ärztliche Behandlungen, Anästhesie und die Nutzung von Spezialeinrichtungen, sofern diese von einem Facharzt verordnet wurden.",
+      "is_optional": false,
+      "territorial_scope": "Gemäß der im Versicherungsvertrag vereinbarten Zielregion: Zielregion I: Weltweit einschließlich USA / Zielregion II: Weltweit ohne USA (2.1, Seite 4).",
+      "limits": "EUR 500.000 / USD 650.000 / GBP 420.000 / CHF 465.000 (Höchstbetrag pro Vertragslaufzeit, pro versicherte Person)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Verordnung durch einen Facharzt."
+      ],
+      "page": 8
+    },
+    {
+      "name": "Ambulante Chirurgische Eingriffe anstelle einer stationären Behandlung",
+      "description": "Operationen, die nicht als Akutfall betrachtet werden, können in der Regel in einer Arztpraxis oder einem Krankenhaus durchgeführt werden und erfordern keinen stationären Aufenthalt. Ausgenommen hiervon sind jedoch kleinere Operationen (invasive Eingriffe, die nur die Entfernung von Haut, Schleimhäuten und Bindegewebe umfassen) sowie invasive operative Eingriffe zur Entnahme von Gewebeproben oder Körperflüssigkeiten, wie Biopsien und Koloskopien.",
+      "is_optional": false,
+      "territorial_scope": "Gemäß der im Versicherungsvertrag vereinbarten Zielregion: Zielregion I: Weltweit einschließlich USA / Zielregion II: Weltweit ohne USA (2.1, Seite 4).",
+      "limits": "EUR 500.000 / USD 650.000 / GBP 420.000 / CHF 465.000 (Höchstbetrag pro Vertragslaufzeit, pro versicherte Person)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 8
+    },
+    {
+      "name": "Arznei- und Verbandmittel",
+      "description": "Stationäre Leistung: Arznei- und Verbandmittel müssen von einem Krankenhausarzt oder Zahnarzt im Zusammenhang mit einer stationären Heilbehandlung verordnet werden, um erstattungsfähig zu sein. Darüber hinaus müssen die Arzneimittel in einer Apotheke, einer Krankenhausapotheke oder einer anderen behördlich zugelassenen Ausgabestelle bezogen werden.",
+      "is_optional": false,
+      "territorial_scope": "Gemäß der im Versicherungsvertrag vereinbarten Zielregion: Zielregion I: Weltweit einschließlich USA / Zielregion II: Weltweit ohne USA (2.1, Seite 4).",
+      "limits": "EUR 500.000 / USD 650.000 / GBP 420.000 / CHF 465.000 (Höchstbetrag pro Vertragslaufzeit, pro versicherte Person)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Verordnung durch einen Krankenhausarzt oder Zahnarzt im Zusammenhang mit einer stationären Heilbehandlung.",
+        "Bezug in einer Apotheke, Krankenhausapotheke oder einer anderen behördlich zugelassenen Ausgabestelle.",
+        "Nahrungsmittel, Stärkungsmittel, Mineralwasser, Kosmetika, Körperpflegemittel sowie Badesalze gelten nicht als Arzneimittel und sind somit nicht versichert."
+      ],
+      "page": 8
+    },
+    {
+      "name": "Physiotherapie, inklusive Massagen",
+      "description": "Stationäre Leistung: Physiotherapie und Massagen müssen von einem Krankenhausarzt als maßgeblicher Bestandteil der stationären Heilbehandlung verordnet werden, um erstattungsfähig zu sein. Darüber hinaus müssen diese Behandlungen von einem Arzt oder einem zugelassenen, anerkannten Therapeuten durchgeführt werden.",
+      "is_optional": false,
+      "territorial_scope": "Gemäß der im Versicherungsvertrag vereinbarten Zielregion: Zielregion I: Weltweit einschließlich USA / Zielregion II: Weltweit ohne USA (2.1, Seite 4).",
+      "limits": "EUR 500.000 / USD 650.000 / GBP 420.000 / CHF 465.000 (Höchstbetrag pro Vertragslaufzeit, pro versicherte Person)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Verordnung durch einen Krankenhausarzt als maßgeblicher Bestandteil der stationären Heilbehandlung.",
+        "Durchführung durch einen Arzt oder einen zugelassenen, anerkannten Therapeuten.",
+        "Die Verordnung sollte vor Behandlungsbeginn vorliegen und die Diagnose sowie Angaben zur Art und Anzahl der erforderlichen Behandlungseinheiten enthalten."
+      ],
+      "page": 8
+    },
+    {
+      "name": "Therapien, inklusive Ergotherapie, Lichttherapie, Hydrotherapie, Inhalationen, Packungen, medizinische Bäder, Kälte- und Wärmebehandlung, Elektrotherapie",
+      "description": "Stationäre Leistung: Diese physikalisch-medizinischen Leistungen müssen von einem Krankenhausarzt im Rahmen der stationären Heilbehandlung verordnet werden, um erstattungsfähig zu sein. Darüber hinaus müssen diese Therapien von einem Arzt oder einem anerkannten Therapeuten durchgeführt werden.",
+      "is_optional": false,
+      "territorial_scope": "Gemäß der im Versicherungsvertrag vereinbarten Zielregion: Zielregion I: Weltweit einschließlich USA / Zielregion II: Weltweit ohne USA (2.1, Seite 4).",
+      "limits": "EUR 500.000 / USD 650.000 / GBP 420.000 / CHF 465.000 (Höchstbetrag pro Vertragslaufzeit, pro versicherte Person)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Verordnung durch einen Krankenhausarzt im Rahmen der stationären Heilbehandlung.",
+        "Durchführung durch einen Arzt oder einen anerkannten Therapeuten.",
+        "Die Verordnung sollte vor Behandlungsbeginn vorliegen und die Diagnose sowie Angaben zur Art und Anzahl der erforderlichen Behandlungseinheiten enthalten."
+      ],
+      "page": 8
+    },
+    {
+      "name": "Hilfsmittel im Rahmen einer stationären Heilbehandlung",
+      "description": "Der Versicherungsvertrag sieht Leistungen für diejenigen Hilfsmittel vor, die als lebensrettende Maßnahmen dienen, wie z. B. Herzschrittmacher. Diese Hilfsmittel müssen während des stationären Aufenthalts angepasst oder eingestellt werden und im Körper der versicherten Person verbleiben. Darüber hinaus erstattet der Versicherer die Aufwendungen für die Reparatur von Hilfsmitteln unter den festgelegten Bedingungen während der Vertragslaufzeit.",
+      "is_optional": false,
+      "territorial_scope": "Gemäß der im Versicherungsvertrag vereinbarten Zielregion: Zielregion I: Weltweit einschließlich USA / Zielregion II: Weltweit ohne USA (2.1, Seite 4).",
+      "limits": "EUR 500.000 / USD 650.000 / GBP 420.000 / CHF 465.000 (Höchstbetrag pro Vertragslaufzeit, pro versicherte Person)",
+      "sub_limits": [
+        "nur für lebensrettende Maßnahme wie z. B. Herzschrittmacher"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Anpassung oder Einstellung während des stationären Aufenthalts und Verbleib im Körper der versicherten Person."
+      ],
+      "page": 8
+    },
+    {
+      "name": "Krebstherapie, onkologische Arzneimittel und Heilbehandlung, inklusive wiederherstellender Chirurgie nach Brustkrebs",
+      "description": "Im Rahmen einer stationären Krankenhausversorgung sind Erstattungsfähige Aufwendungen für die medizinische Heilbehandlung von Krebs und deren unmittelbaren Folgen, inklusive diagnostischer Untersuchungen, Strahlentherapie, Chemotherapie, Arzneimittel und Krankenhauskosten im Rahmen einer stationären Behandlung versichert. Darüber hinaus sind rekonstruktive Operationen bei Brustkrebs ebenfalls versichert.",
+      "is_optional": false,
+      "territorial_scope": "Gemäß der im Versicherungsvertrag vereinbarten Zielregion: Zielregion I: Weltweit einschließlich USA / Zielregion II: Weltweit ohne USA (2.1, Seite 4).",
+      "limits": "EUR 500.000 / USD 650.000 / GBP 420.000 / CHF 465.000 (Höchstbetrag pro Vertragslaufzeit, pro versicherte Person)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 8
+    },
+    {
+      "name": "Mitaufnahme eines Elternteils bei stationärer Heilbehandlung eines minderjährigen Kindes",
+      "description": "Der Versicherungsvertrag erstattet die zusätzlichen Unterbringungskosten für den Elternteil, der ein minderjähriges Kind unter 18 (achtzehn) Jahren anlässlich einer stationären Krankenhausbehandlung begleitet.",
+      "is_optional": false,
+      "territorial_scope": "Gemäß der im Versicherungsvertrag vereinbarten Zielregion: Zielregion I: Weltweit einschließlich USA / Zielregion II: Weltweit ohne USA (2.1, Seite 4).",
+      "limits": "EUR 500.000 / USD 650.000 / GBP 420.000 / CHF 465.000 (Höchstbetrag pro Vertragslaufzeit, pro versicherte Person)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Kind unter 18 (achtzehn) Jahren."
+      ],
+      "page": 8
+    },
+    {
+      "name": "Stationäre Anschlussrehabilitation",
+      "description": "Der Versicherer erstattet die Aufwendungen für stationäre Anschlussrehabilitationen, die für die Fortsetzung einer medizinisch notwendigen stationären Heilbehandlung unerlässlich sind. Dies gilt insbesondere für Fälle wie Bypass-Operationen, Herzinfarkte, Organtransplantationen sowie Operationen an großen Knochen oder Gelenken.",
+      "is_optional": false,
+      "territorial_scope": "Gemäß der im Versicherungsvertrag vereinbarten Zielregion: Zielregion I: Weltweit einschließlich USA / Zielregion II: Weltweit ohne USA (2.1, Seite 4).",
+      "limits": "EUR 500.000 / USD 650.000 / GBP 420.000 / CHF 465.000 (Höchstbetrag pro Vertragslaufzeit, pro versicherte Person)",
+      "sub_limits": [
+        "bis zu 14 Tage im Falle einer schriftlichen Kostenzusage"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Vorherige schriftliche Kostenzusage durch den Versicherer vor Behandlungsbeginn.",
+        "Die stationäre Anschlussrehabilitation muss innerhalb von 2 (zwei) Wochen nach Entlassung aus dem Krankenhaus beginnen.",
+        "Aufwendungen für Aufenthalte in Sanatorien, Kureinrichtungen, Kurorten, Spas, Erholungs- oder Pflegeheimen sind nicht versichert."
+      ],
+      "page": 8
+    },
+    {
+      "name": "Tagesklinische (teilstationäre) Heilbehandlungen",
+      "description": "Der Versicherungsvertrag berücksichtigt ambulante Krankenhausbehandlungen, die keinen Übernachtungsaufenthalt erfordern. Dies beinhaltet ebenfalls teilstationäre Behandlungen in einer Tages- oder Nachtklinik oder einem Krankenhaus, in dem der Patient am Tag oder in der Nacht anwesend ist, eine ganztägige (24-stündige) stationäre Aufnahme jedoch medizinisch nicht erforderlich ist.",
+      "is_optional": false,
+      "territorial_scope": "Gemäß der im Versicherungsvertrag vereinbarten Zielregion: Zielregion I: Weltweit einschließlich USA / Zielregion II: Weltweit ohne USA (2.1, Seite 4).",
+      "limits": "EUR 500.000 / USD 650.000 / GBP 420.000 / CHF 465.000 (Höchstbetrag pro Vertragslaufzeit, pro versicherte Person)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "In beiden Fällen beträgt die Dauer des Krankenhausaufenthalts zwischen 8 (acht) und 24 (vierundzwanzig) Stunden und darf die 24-Stunden-Grenze nicht überschreiten."
+      ],
+      "page": 8
+    },
+    {
+      "name": "Transport zum nächstgelegenen geeigneten Krankenhaus zur Erstversorgung nach einem Unfall oder Notfall",
+      "description": "Der Versicherer erstattet die Landesüblichen, Allgemeingültigen und Angemessenen Transportkosten zum nächstgelegenen geeigneten Krankenhaus oder zur nächstgelegenen geeigneten medizinischen Einrichtung.",
+      "is_optional": false,
+      "territorial_scope": "Gemäß der im Versicherungsvertrag vereinbarten Zielregion: Zielregion I: Weltweit einschließlich USA / Zielregion II: Weltweit ohne USA (2.1, Seite 4).",
+      "limits": "EUR 500.000 / USD 650.000 / GBP 420.000 / CHF 465.000 (Höchstbetrag pro Vertragslaufzeit, pro versicherte Person)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Sofern nichts anderes vereinbart wurde, muss die Beförderung durch einen ordnungsgemäß zugelassenen Dienstleister erfolgen."
+      ],
+      "page": 8
+    },
+    {
+      "name": "Höchstbetrag für ambulante Leistungen",
+      "description": "Erste Zeile der Leistungsübersicht 3.7: Höchstbetrag, den der Versicherer insgesamt für alle ambulanten Leistungen pro versicherte Person und Vertragslaufzeit im Rahmen des Tarifs erstattet. Die Leistungen dürfen den Höchstbetrag für ambulante Heilbehandlungen nicht überschreiten, sofern in der Leistungsübersicht nichts anderes angegeben ist.",
+      "is_optional": false,
+      "territorial_scope": "Gemäß der im Versicherungsvertrag vereinbarten Zielregion: Zielregion I: Weltweit einschließlich USA / Zielregion II: Weltweit ohne USA (2.1, Seite 4).",
+      "limits": "EUR 2.000 / USD 2.600 / GBP 1.680 / CHF 1.860 (Höchstbetrag für ambulante Leistungen, pro Person und Vertragslaufzeit)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 9
+    },
+    {
+      "name": "Ärztliche Beratung und Diagnoseleistungen, inklusive Pathologie, Radiologie, Computertomographie (CT), Magnetresonanztomographie (MRT), Positronenemissionstomographie (PET) und Palliativmedizin",
+      "description": "Ambulante Leistung (Leistungsübersicht 3.7, Erstattung 80%*): Der Versicherungsvertrag bietet Versicherungsschutz für die entstandenen Aufwendungen im Zusammenhang mit ambulanten Behandlungen, einschließlich Untersuchungen, diagnostischen Leistungen und Therapien. Die versicherten Leistungen beinhalten die Erstattung von verschiedenen Behandlungsmethoden, darunter unter anderem Pathologie, Radiologie, Computertomographie (CT), Magnetresonanztomographie (MRT), Positronen-Emissions-Tomographie (PET) und Palliativmedizin.",
+      "is_optional": false,
+      "territorial_scope": "Gemäß der im Versicherungsvertrag vereinbarten Zielregion: Zielregion I: Weltweit einschließlich USA / Zielregion II: Weltweit ohne USA (2.1, Seite 4).",
+      "limits": "80%* – *Es gilt der Höchstbetrag für ambulante Leistungen: EUR 2.000 / USD 2.600 / GBP 1.680 / CHF 1.860 (Höchstbetrag für ambulante Leistungen, pro Person und Vertragslaufzeit)",
+      "sub_limits": [],
+      "deductible": "Für ambulante Behandlungen gilt eine feste Zuzahlung von 20% (3.3, Seite 6).",
+      "conditions": [],
+      "page": 9
+    },
+    {
+      "name": "Krebsbehandlung, onkologische Arzneimittel und Heilbehandlungen",
+      "description": "Ambulante Leistung: Der Versicherungsvertrag berücksichtigt medizinisch notwendige Maßnahmen zur Untersuchung, Diagnose und Therapie im Rahmen einer ambulanten Behandlung von Krebs und direkten Folgen, inklusive Chemotherapie und anderer onkologischer Verfahren.",
+      "is_optional": false,
+      "territorial_scope": "Gemäß der im Versicherungsvertrag vereinbarten Zielregion: Zielregion I: Weltweit einschließlich USA / Zielregion II: Weltweit ohne USA (2.1, Seite 4).",
+      "limits": "bis zu EUR 10.000 / USD 13.000 / GBP 8.400 / CHF 9.300",
+      "sub_limits": [],
+      "deductible": "Für ambulante Behandlungen gilt eine feste Zuzahlung von 20% (3.3, Seite 6).",
+      "conditions": [],
+      "page": 9
+    },
+    {
+      "name": "Arznei- und Verbandmittel",
+      "description": "Ambulante Leistung (Leistungsübersicht 3.7, Erstattung 80%*): Rezepte für Arznei- und Verbandmittel müssen von einem Arzt, Heilbehandler, Zahnarzt oder einer unter deren Aufsicht dazu befugten Person ausgestellt sein. Die Arznei- und Verbandmittel müssen in einer Apotheke oder bei einem behördlich zugelassenen Lieferanten bezogen werden.",
+      "is_optional": false,
+      "territorial_scope": "Gemäß der im Versicherungsvertrag vereinbarten Zielregion: Zielregion I: Weltweit einschließlich USA / Zielregion II: Weltweit ohne USA (2.1, Seite 4).",
+      "limits": "80%* – *Es gilt der Höchstbetrag für ambulante Leistungen: EUR 2.000 / USD 2.600 / GBP 1.680 / CHF 1.860 (Höchstbetrag für ambulante Leistungen, pro Person und Vertragslaufzeit)",
+      "sub_limits": [],
+      "deductible": "Für ambulante Behandlungen gilt eine feste Zuzahlung von 20% (3.3, Seite 6).",
+      "conditions": [
+        "Verschreibung durch einen Arzt, Heilbehandler, Zahnarzt oder eine unter deren Aufsicht befugte Person.",
+        "Bezug in einer Apotheke oder bei einem behördlich zugelassenen Lieferanten.",
+        "Produkte wie Nahrungsmittel, Stärkungsmittel, Mineralwasser, Kosmetika, Körperpflegemittel sowie Badesalze gelten nicht als Arzneimittel."
+      ],
+      "page": 9
+    },
+    {
+      "name": "Transport zum nächsterreichbaren geeigneten Arzt oder Krankenhaus zur Erstversorgung nach einem Unfall oder Notfall",
+      "description": "Der Versicherer erstattet die Landesüblichen, Allgemeingültigen und Angemessen Aufwendungen für den Notfalltransport zum nächsterreichbaren, geeigneten Arzt, Krankenhaus oder einer anderen Einrichtung nach einem Unfall oder Notfall.",
+      "is_optional": false,
+      "territorial_scope": "Gemäß der im Versicherungsvertrag vereinbarten Zielregion: Zielregion I: Weltweit einschließlich USA / Zielregion II: Weltweit ohne USA (2.1, Seite 4).",
+      "limits": "EUR 2.000 / USD 2.600 / GBP 1.680 / CHF 1.860 (Höchstbetrag für ambulante Leistungen, pro Person und Vertragslaufzeit)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Sofern nichts anderes vereinbart wurde, müssen die Transportleistungen von einem ordnungsgemäß zugelassenen Dienstleister durchgeführt werden."
+      ],
+      "page": 9
+    },
+    {
+      "name": "24-stündiger Telefon- und E-Mail- Service mit erfahrenen Beratern, Ärzten und Fachärzten",
+      "description": "Medizinische Assistance ist an jedem Tag des Jahres rund um die Uhr per E-Mail oder über die Hotline der medizinische Serviceleistungen erreichbar. Diese Leistungen sind 24 Stunden am Tag, 7 Tage die Woche und an 365 Tagen im Jahr verfügbar.",
+      "is_optional": false,
+      "territorial_scope": "Gemäß der im Versicherungsvertrag vereinbarten Zielregion: Zielregion I: Weltweit einschließlich USA / Zielregion II: Weltweit ohne USA (2.1, Seite 4).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Sobald der Versicherungsschutz gemäß Versicherungsvertrag endet, erlischt auch der Anspruch auf diese Serviceleistungen."
+      ],
+      "page": 9
+    },
+    {
+      "name": "Medizinischer Kranken- und Rücktransport",
+      "description": "Dieser Service umfasst einen medizinisch begründeten und notwendigen Krankentransport innerhalb des Aufenthaltslandes oder an einen grenzüberschreitenden Ort, wenn die stationäre medizinische Versorgung oder die hygienischen Standards im örtlichen Krankenhaus als unzureichend erachtet werden. Der Service umfasst ebenfalls die Kostenerstattung einer medizinisch notwendigen Begleitung während des Transports. Der Transport erfolgt (innerhalb der gewählten Zielregion) an einen für die Heilbehandlung geeigneteren Ort in einem Drittland, in das Aufenthaltsland der versicherten Person, wenn der Versicherungsfall außerhalb dieses Landes eingetreten ist, oder in das Ausreise- oder Heimatland der versicherten Person.",
+      "is_optional": false,
+      "territorial_scope": "Gemäß der im Versicherungsvertrag vereinbarten Zielregion: Zielregion I: Weltweit einschließlich USA / Zielregion II: Weltweit ohne USA (2.1, Seite 4).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Der Kranken- bzw. Rücktransport muss vom behandelnden Arzt verordnet und als medizinisch notwendig erachtet werden.",
+        "Der Versicherer oder das zuständige Service Center muss der Kostenerstattung vorher zugestimmt haben.",
+        "Der Versicherer übernimmt lediglich die Aufwendungen für den Transport an einen geeigneten Behandlungsort."
+      ],
+      "page": 9
+    },
+    {
+      "name": "Informationen über die medizinische Infrastruktur (ärztliche Versorgung vor Ort und Benennung mehrsprachiger Ärzte)",
+      "description": "Bei Eintritt eines Versicherungsfalls oder eines Notfalls informiert der Versicherer oder das zuständige Service Center die versicherte Person über die vor Ort verfügbare medizinische Versorgung. Informationen zu Ärzten, Krankenhausärzten, Krankenhäusern und spezialisierten medizinischen Facheinrichtungen in der Nähe der versicherten Person können in Englisch, Deutsch, Französisch und Spanisch zur Verfügung gestellt werden. Darüber hinaus kann bei einer medizinisch notwendigen Verlegung oder einem Behandlerwechsel Unterstützung und Hilfe bei der Auswahl eines geeigneten Behandlungsortes angeboten werden.",
+      "is_optional": false,
+      "territorial_scope": "Gemäß der im Versicherungsvertrag vereinbarten Zielregion: Zielregion I: Weltweit einschließlich USA / Zielregion II: Weltweit ohne USA (2.1, Seite 4).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 9
+    },
+    {
+      "name": "Betreuung und Information (durch unseren ärztlichen Dienst, Second Opinion, Beobachtung des Krankheitsverlaufs)",
+      "description": "Die versicherte Person kann sich jederzeit telefonisch an den Versicherer oder das zuständige Service Center wenden, wenn sie vor Ort medizinische Betreuung benötigt. Auf Wunsch können Angehörige über den Eintritt eines Versicherungsfalls oder Notfalls informiert werden. Bei lebensbedrohlichen Erkrankungen oder schweren dauerhaften Beeinträchtigungen der Gesundheit hat die versicherte Person die Möglichkeit, direkt eine Zweitmeinung von einem anderen Arzt einzuholen oder diese über den Versicherer oder das zuständige Service Center einholen zu lassen. Bei Fällen, die eine stationäre Heilbehandlung erfordern, kann der Krankheitsverlauf durch Ärzte beobachtet werden; diese Beobachtung erstreckt sich auch auf ambulante Heilbehandlungen, die einen Krankenhausaufenthalt ersetzen sollen.",
+      "is_optional": false,
+      "territorial_scope": "Gemäß der im Versicherungsvertrag vereinbarten Zielregion: Zielregion I: Weltweit einschließlich USA / Zielregion II: Weltweit ohne USA (2.1, Seite 4).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 9
+    },
+    {
+      "name": "Kostenübernahmegarantie",
+      "description": "Bei einer geplanten stationären Heilbehandlung oder bei einer stationären Notfallbehandlung gewährleistet der Versicherer oder das zuständige Service Center die Erstellung einer Kostenübernahmegarantie an die Ärzte bzw. das Krankenhaus sowie die Erledigung aller Formalitäten. Dazu gehört die medizinische Prüfung der Rechnungen auf Übereinstimmung mit den Landesüblichen, Allgemeingültigen und Angemessenen Standards; außerdem stimmt der Versicherer mit dem Krankenhaus den Rechnungsversand und die Zahlungsmodalitäten ab und bemüht sich um die Organisation einer Direktabrechnung.",
+      "is_optional": false,
+      "territorial_scope": "Gemäß der im Versicherungsvertrag vereinbarten Zielregion: Zielregion I: Weltweit einschließlich USA / Zielregion II: Weltweit ohne USA (2.1, Seite 4).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Im Notfall, der eine stationäre Behandlung erforderlich macht: unverzügliche Benachrichtigung des Versicherers oder des zuständigen Service Centers.",
+        "Bei geplanter stationärer Heilbehandlung oder Operation: Benachrichtigung mindestens 7 (sieben) Tage vor der geplanten Krankenhausaufnahme.",
+        "Wird der Versicherer oder das zuständige Service Center nicht im Voraus bzw. im Notfall nicht unverzüglich informiert, kann dies dazu führen, dass die Leistungsansprüche nicht in voller Höhe berücksichtigt werden."
+      ],
+      "page": 9
+    },
+    {
+      "name": "Überführung der sterblichen Überreste",
+      "description": "Ereignet sich ein Todesfall im Ausland, kann der Versicherer oder das zuständige Service Center die Sterbeurkunde oder den Unfallbericht beschaffen, Kontakt mit ausländischen Behörden und Konsulaten aufnehmen, die entscheidungsberechtigten Hinterbliebenen ermitteln und alle Formalitäten für die Überführung, Einäscherung oder eine Bestattung vor Ort erledigen. Der Versicherer erstattet die unmittelbaren Kosten einer Überführung der sterblichen Überreste in das Ausreise- oder Heimatland einschließlich aller damit verbundenen Formalitäten sowie die Kosten für die Überführung der Urne, wenn der Verstorbene im Aufenthaltsland eingeäschert wurde; dies umfasst jeweils auch die Kosten eines Familienangehörigen, der mit den sterblichen Überresten reist, wenn er den Verstorbenen zum Zeitpunkt des Todes begleitet hat.",
+      "is_optional": false,
+      "territorial_scope": "Gemäß der im Versicherungsvertrag vereinbarten Zielregion: Zielregion I: Weltweit einschließlich USA / Zielregion II: Weltweit ohne USA (2.1, Seite 4).",
+      "limits": "bis zu EUR 2.500 / USD 3.250 / GBP 2.100 / CHF 2.325",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Die Bestattungskosten als solche sind nicht erstattungsfähig."
+      ],
+      "page": 9
+    },
+    {
+      "name": "Zusätzliche, medizinisch sinnvolle Unterstützung (Informationen über Art, mögliche Ursachen und Heilbehandlungsmöglichkeiten der Erkrankung)",
+      "description": "Unabhängig vom Eintritt eines Versicherungsfalls erteilt der Versicherer oder das zuständige Service Center auf Wunsch allgemeine Informationen über das Reiseziel, die örtlichen Gepflogenheiten und die erforderlichen Formalitäten sowie medizinische Informationen (einschließlich Impf- und ärztlicher Beratungen per Telefon) und Hinweise zum Inhalt einer persönlichen Reiseapotheke. Tritt ein Versicherungsfall ein, werden allgemeine Auskünfte über Art, mögliche Ursachen und verfügbare Behandlungsmöglichkeiten der Erkrankung erteilt, medizinische Fachbegriffe erläutert und Auskünfte über Medikamente sowie deren mögliche Neben- und Wechselwirkungen gegeben. Bei ambulanten Heilbehandlungen koordiniert und überwacht der Versicherer oder das zuständige Service Center die Behandlung und den Behandlungsfortschritt und organisiert gegebenenfalls Arzt-zu-Arzt Gespräche und zusätzliche Unterstützung.",
+      "is_optional": false,
+      "territorial_scope": "Gemäß der im Versicherungsvertrag vereinbarten Zielregion: Zielregion I: Weltweit einschließlich USA / Zielregion II: Weltweit ohne USA (2.1, Seite 4).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 9
+    },
+    {
+      "name": "Online-Services",
+      "description": "Die versicherte Person ist dazu berechtigt, die speziellen Online-Services im entsprechenden Online-Mitgliederbereich zu nutzen.",
+      "is_optional": false,
+      "territorial_scope": "Gemäß der im Versicherungsvertrag vereinbarten Zielregion: Zielregion I: Weltweit einschließlich USA / Zielregion II: Weltweit ohne USA (2.1, Seite 4).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 9
+    },
+    {
+      "name": "Telemedizin",
+      "description": "Der Versicherer stellt allen versicherten Personen den Zugang zu telemedizinischen Leistungen zur Verfügung. In Zusammenarbeit mit einem Drittanbieter stellt der Versicherer eine kostenlose App zur Verfügung, die sowohl auf iOS- als auch auf Android-Geräten nutzbar ist. Die verfügbaren Dienstleistungen umfassen telefonische Beratung sowie Video- und Chatberatung in Englisch, Deutsch und Spanisch; diese Dienste sind rund um die Uhr an 7 (sieben) Tagen in der Woche verfügbar. Einzige Zeile der Leistungsübersicht 3.9 (Zusätzliche Assistance) für den Tarif Short.",
+      "is_optional": false,
+      "territorial_scope": "Gemäß der im Versicherungsvertrag vereinbarten Zielregion: Zielregion I: Weltweit einschließlich USA / Zielregion II: Weltweit ohne USA (2.1, Seite 4).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Zugang erhalten alle versicherten Personen ab 18 (achtzehn) Jahren, die aktiv über den Versicherungsvertrag versichert sind."
+      ],
+      "page": 10
+    },
+    {
+      "name": "Vorübergehender Versicherungsschutz für Zielregion I",
+      "description": "Wurde Versicherungsschutz für „Zielregion II – Weltweit ohne USA“ vereinbart und hält sich die versicherte Person vorübergehend in den USA auf, gewährt der Versicherer dennoch Versicherungsschutz für medizinische Notfälle, Unfälle sowie für Todesfälle, die sich innerhalb der „Zielregion I: Weltweit einschließlich USA“ ereignen, für Reisen mit einer Dauer von bis zu 3 (drei) Wochen. Tritt innerhalb des Zeitraums von 3 (drei) Wochen ein Versicherungsfall ein, der eine Notfallbehandlung in den USA erforderlich macht, besteht für die Behandlung keine zeitliche Begrenzung.",
+      "is_optional": false,
+      "territorial_scope": "Zielregion I: Weltweit einschließlich USA – bei vereinbarter Zielregion II",
+      "limits": null,
+      "sub_limits": [
+        "Reisen mit einer Dauer von bis zu 3 (drei) Wochen"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Im Falle eines medizinischen Notfalls kann der Versicherer die versicherte Person zur Behandlung in ein anderes Land verlegen, wenn dies medizinisch sinnvoll und durchführbar ist.",
+        "Der Versicherungsschutz erstreckt sich nicht auf Reisen, die zum Zweck einer Heilbehandlung in der Zielregion I unternommen werden."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Vorübergehender Versicherungsschutz im Heimatland",
+      "description": "Befindet sich eine versicherte Person vorübergehend außerhalb des Wohnsitzlandes, gewährt der Versicherer Versicherungsschutz für medizinische Notfälle sowie für die Folgen eines Unfalls. Dies gilt auch für Reisen in das Heimatland bis zu einer maximalen Gesamtdauer von 30 (dreißig) Tagen, sofern sich die versicherte Person vor und nach diesem Aufenthalt in ihrem Wohnsitzland aufhält.",
+      "is_optional": false,
+      "territorial_scope": "Außerhalb des Wohnsitzlandes, einschließlich Reisen in das Heimatland",
+      "limits": null,
+      "sub_limits": [
+        "maximale Gesamtdauer von 30 (dreißig) Tagen"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Die versicherte Person muss sich vor und nach diesem Aufenthalt in ihrem Wohnsitzland aufhalten.",
+        "Aufwendungen für eine im Heimatland geplante Behandlung sind nicht erstattungsfähig."
+      ],
+      "page": 5
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Vorerkrankungen, einschließlich angeborener Leiden",
+      "description": "Der Versicherer gewährt keinen Versicherungsschutz für Vorerkrankungen, einschließlich angeborener Leiden. Vorerkrankungen sind alle Erkrankungen, (a) für die die versicherte Person innerhalb von 2 (zwei) Jahren vor Inkrafttreten des Versicherungsvertrags ärztlichen Rat, Behandlungen, eine Diagnose, Beratung oder verschreibungspflichtige Medikamente erhalten hat; oder (b) für die innerhalb von 2 (zwei) Jahren vor Inkrafttreten des Vertrags von einem Arzt oder einer medizinischen Fachkraft eine ärztliche Beratung oder medizinische Behandlung angeraten wurde. (1.3; siehe auch die weitergehende Glossardefinition auf Seite 25.)",
+      "applies_to": "all",
+      "page": 3
+    },
+    {
+      "name": "Auslandsreise einzig oder hauptsächlich zur Durchführung der Behandlung",
+      "description": "Heilbehandlungen im Ausland sind von der Leistungserstattung ausgeschlossen, sofern die Auslandsreise einzig oder hauptsächlich zur Durchführung der Behandlung angetreten wurde. (1.1)",
+      "applies_to": "all",
+      "page": 3
+    },
+    {
+      "name": "Reisen zum Zweck einer Heilbehandlung in der Zielregion I",
+      "description": "Der Versicherungsschutz im Rahmen des Versicherungsvertrags erstreckt sich nicht auf Reisen, die zum Zweck einer Heilbehandlung in der Zielregion I unternommen werden. (2.2)",
+      "applies_to": "Vorübergehender Versicherungsschutz für Zielregion I",
+      "page": 4
+    },
+    {
+      "name": "Im Heimatland geplante Behandlung",
+      "description": "Aufwendungen für eine im Heimatland geplante Behandlung sind nicht erstattungsfähig. (2.7)",
+      "applies_to": "Vorübergehender Versicherungsschutz im Heimatland",
+      "page": 5
+    },
+    {
+      "name": "Zahnärztliche Heilbehandlungen als Teil einer stationären oder ambulanten Behandlung",
+      "description": "Zahnärztliche Heilbehandlungen wie Zahnersatz, Implantate, Zahnoperationen und kieferorthopädische Behandlungen gelten auch dann nicht als Teil einer stationären oder ambulanten Behandlung, wenn diese von einem Arzt in einem Krankenhaus durchgeführt werden und sind somit nicht erstattungsfähig. (3.4)",
+      "applies_to": "all",
+      "page": 6
+    },
+    {
+      "name": "Zimmer mit gehobener Ausstattung",
+      "description": "Die Unterbringung ist auf Standard-Ein- oder Zweibettzimmer beschränkt. Ausdrücklich ausgeschlossen sind Zimmer mit gehobener Ausstattung. Hierzu zählen unter anderem Deluxe-Zimmer, Executive-Zimmer oder Suiten, die über zusätzliche Einrichtungen wie Küchen, Essbereiche oder Wohnzimmer verfügen. (4.1)",
+      "applies_to": "Unterkunft und Verpflegung im Ein- oder Zweitbettzimmer",
+      "page": 11
+    },
+    {
+      "name": "Nahrungsmittel, Stärkungsmittel, Mineralwasser, Kosmetika, Körperpflegemittel und Badesalze",
+      "description": "Nahrungsmittel, Stärkungsmittel, Mineralwasser, Kosmetika, Körperpflegemittel sowie Badesalze gelten nicht als Arzneimittel und sind somit nicht im Rahmen des Versicherungsvertrags versichert (4.1 stationär, Seite 11; gleichlautend 4.2 ambulant, Seite 13).",
+      "applies_to": "Arznei- und Verbandmittel",
+      "page": 11
+    },
+    {
+      "name": "Aufenthalte in Sanatorien, Kureinrichtungen, Kurorten, Spas, Erholungs- oder Pflegeheimen",
+      "description": "Aufwendungen für Aufenthalte in Sanatorien, Kureinrichtungen, Kurorten, Spas, Erholungs- oder Pflegeheimen sind nicht versichert. (4.1, Stationäre Anschlussrehabilitation)",
+      "applies_to": "Stationäre Anschlussrehabilitation",
+      "page": 12
+    },
+    {
+      "name": "Bestattungskosten",
+      "description": "Die Bestattungskosten als solche sind nicht erstattungsfähig. (4.3, Überführung der sterblichen Überreste)",
+      "applies_to": "Überführung der sterblichen Überreste",
+      "page": 15
+    },
+    {
+      "name": "Handlungen entgegen ärztlichem Rat",
+      "description": "Der Versicherer übernimmt keine Aufwendungen für Behandlungen, die darauf zurückzuführen sind, dass die versicherte Person keinen ärztlichen Rat eingeholt bzw. diesen nicht befolgt hat oder entgegen ärztlichem Rat gereist ist.",
+      "applies_to": "all",
+      "page": 17
+    },
+    {
+      "name": "Knochenmark- und Organtransplantationen",
+      "description": "Der Versicherer erstattet keine Aufwendungen für Knochenmark- oder Organtransplantationen (z. B. Herz, Niere, Leber, Bauchspeicheldrüse).",
+      "applies_to": "all",
+      "page": 17
+    },
+    {
+      "name": "Komplikationen aufgrund von ausgeschlossenen Leistungen",
+      "description": "Der Versicherer übernimmt keine Aufwendungen für Komplikationen, die in direktem Zusammenhang mit einer Krankheit, einer Verletzung oder einer Behandlung stehen, die ausgeschlossen oder nur eingeschränkt versichert sind.",
+      "applies_to": "all",
+      "page": 17
+    },
+    {
+      "name": "Kosmetische und plastische Chirurgie",
+      "description": "Aufwendungen für kosmetische oder plastische Operationen und Heilbehandlungen werden nicht erstattet.",
+      "applies_to": "all",
+      "page": 17
+    },
+    {
+      "name": "Zahnärztliche Behandlung",
+      "description": "Der Versicherer erstattet keine Aufwendungen im Zusammenhang mit zahnärztlichen Maßnahmen und Heilbehandlungen, einschließlich, aber nicht beschränkt auf routinemäßige zahnärztliche Untersuchungen, Zahnreinigungen, Füllungen, Extraktionen, Wurzelbehandlungen, kieferorthopädische Eingriffe (z. B. Zahnspangen), Zahnersatz (z. B. Prothesen, Kronen, Brücken), kosmetische Zahnmedizin oder chirurgische Eingriffe an Zähnen oder Zahnfleisch.",
+      "applies_to": "all",
+      "page": 17
+    },
+    {
+      "name": "Entziehungsmaßnahmen inklusive Entziehungskuren",
+      "description": "Entgiftungs-/Entziehungsmaßnahmen einschließlich Entziehungskuren bei Drogen- und Alkoholabhängigkeit sind nicht im Versicherungsschutz enthalten. Leistungen für eine erstmalige Entgiftungsmaßnahme werden jedoch übernommen, sofern die versicherte Person anderweitig keinen Anspruch auf Kostenerstattung geltend machen kann. Bei einer stationären Entgiftungsmaßnahme erstattet der Versicherer nur die Aufwendungen der allgemeinen Krankenhausleistungen, inklusive ärztliche Leistungen und Arzneimittel. Jegliche Folgebehandlungen, die aus dem schädlichen, gefährlichen oder suchterzeugenden Konsum von Substanzen, einschließlich Alkohol und Drogen, resultieren oder in direktem Zusammenhang damit stehen, sind nicht versichert.",
+      "applies_to": "all",
+      "page": 17
+    },
+    {
+      "name": "Entwicklungsstörungen",
+      "description": "Der Versicherer übernimmt keine Aufwendungen für Dienstleistungen, Therapien, pädagogische Tests oder Unterstützungsmaßnahmen im Zusammenhang mit Lernschwierigkeiten oder psychischen Entwicklungsstörungen. Dazu gehören beispielsweise Entwicklungsverzögerungen, schulische Fähigkeiten, tiefgreifende Entwicklungsstörungen, geistige Behinderung, Wahrnehmungsstörungen, Hirnschäden, die nicht durch Unfälle oder Erkrankungen verursacht wurden, minimale Gehirnfehlfunktionen, Dyslexie oder Apraxie.",
+      "applies_to": "all",
+      "page": 17
+    },
+    {
+      "name": "Dialyse",
+      "description": "Der Versicherer erstattet keine Aufwendungen für Dialyse, einschließlich der notwendigen Medikamente und aller damit verbundenen Kosten.",
+      "applies_to": "all",
+      "page": 17
+    },
+    {
+      "name": "Epidemien, Pandemien und Ausbrüche von Krankheiten",
+      "description": "Aufwendungen für Behandlungen, medizinische Evakuierungen und/oder Rückführungen, die direkt oder indirekt auf Epidemien, Pandemien oder Krankheitsausbrüche vergleichbaren Ausmaßes zurückzuführen sind und die unter Kontrolle lokaler, öffentlicher Organe des Gesundheitswesens gestellt wurden, werden nicht erstattet, sofern nicht anderweitig schriftlich vom Versicherer genehmigt.",
+      "applies_to": "all",
+      "page": 17
+    },
+    {
+      "name": "Experimentelle und investigative Therapien oder Behandlungsverfahren",
+      "description": "Kein Versicherungsschutz besteht für jede Art von Behandlung oder medikamentöser Therapie, die der Versicherer als experimentell oder investigativ betrachtet. Eine Dienstleistung, eine Technologie, eine Lieferung, ein Verfahren, eine Behandlung, ein Medikament, ein Gerät, eine Einrichtung, eine Ausrüstung oder ein biologisches Produkt gelten als experimentell oder investigativ, wenn sie nicht alle der folgenden Anforderungen erfüllen: eine endgültige Lizenz und eine klar formulierte Genehmigung von mindestens einer der folgenden Instanzen — EMA (Europäische Arzneimittelagentur), FDA (Food and Drug Administration – Phase III abgeschlossen), Europäisches Netzwerk für Health Technology Assessment (EUnetHTA); eine vorläufige Zulassung ist nicht ausreichend. Im Falle von Verfahren und genehmigten Leitlinien für den klinischen Verlauf muss sie in einer der folgenden Richtlinien klar gekennzeichnet sein: NICE, AWMF, AHRQ National Guideline. Alle Genehmigungen und Leitlinien müssen schlüssig sein und können nicht die Notwendigkeit weiterer Forschung oder eines Forschungsumfeldes, begrenzte Evidenz, unzureichende Evidenz oder mangelnden klinischen Nutzen angeben.",
+      "applies_to": "all",
+      "page": 18
+    },
+    {
+      "name": "Extremsport und Hochrisikoaktivitäten",
+      "description": "Für Extremsportarten und risikoreiche Aktivitäten besteht kein Versicherungsschutz. Extremsportarten und risikoreiche sportliche Aktivitäten umfassen jede Form des Sports oder der sportlichen Betätigung, die mit einem hohen Risiko verbunden ist. Dazu gehören Aktivitäten, die ein hohes Maß an Kenntnissen und Erfahrungen, außergewöhnliche körperliche Anstrengungen, spezielle Ausrüstung und waghalsige Stunts erfordern und bei denen die versicherte Person eine Haftungsverzichtserklärung unterzeichnet hat. Dies sind unter anderem: Abseilen, Bergsteigen (mit Ausnahme von Hallenklettern und für das Sportklettern ausgestatteten Klettergärten in Mittelgebirgsregionen) und Wettkämpfe jeglicher Art; Bobfahren, Rodeln, Skeleton, Skifahren abseits der Pisten sowie Snowboarden abseits der Pisten; Bungee- und Klippenspringen; Kampfsportarten; Downhill-Mountainbiking und Cross-Country-Radfahren; Extremtourismus (z. B. Reisen in die Antarktis); Jagd zu Pferd, Springreiten, Polo, Hindernislauf zu Pferd sowie jede Form von Pferderennen; Motorradsport, einschließlich Motorradfahren und Quadfahren; Ultraleichtfliegen, Wingsuit-Fliegen, Ballonfahren, Drachenfliegen, Gleitschirmfliegen und Fallschirmspringen; Solo-Höhlenforschung (Höhlenforschung) oder Höhlentauchen, Tauchen in Tiefen von mehr als 10 Metern, Turmspringen, Wildwasser-Rafting und Canyoning; Ultramarathons oder Aktivitäten ähnlicher Art; alle anderen gefährlichen Aktivitäten, die ein ähnliches Risiko wie die oben genannten darstellen, z. B. Zugsurfen.",
+      "applies_to": "all",
+      "page": 18
+    },
+    {
+      "name": "Such- und Rettungsdienste im Zusammenhang mit Extremsportarten und risikoreichen Aktivitäten",
+      "description": "Such- und Rettungsdienste im Zusammenhang mit Extremsportarten und risikoreichen Aktivitäten, einschließlich, aber nicht beschränkt auf Höhlen-, See- und Bergrettung, sind ebenfalls vom Versicherungsschutz ausgeschlossen.",
+      "applies_to": "all",
+      "page": 18
+    },
+    {
+      "name": "Korrektur des Sehvermögens",
+      "description": "Der Versicherer übernimmt keine Aufwendungen für Behandlungen oder Operationen zur Korrektur des Sehvermögens einer versicherten Person, einschließlich Verfahren wie Laserbehandlung, refraktive Keratotomie (RK) und fotorefraktive Keratektomie (PRK). Versicherungsschutz besteht für die Korrektur der Sehkraft einer versicherten Person, wenn diese medizinisch notwendig ist (z. B. bei Katarakt oder Netzhautablösung).",
+      "applies_to": "all",
+      "page": 18
+    },
+    {
+      "name": "Geschlechtsumwandlung",
+      "description": "Der Versicherer übernimmt keine Aufwendungen für die operative und hormonelle Angleichung der biologischen Geschlechtsmerkmale an das jeweils andere Geschlecht.",
+      "applies_to": "all",
+      "page": 19
+    },
+    {
+      "name": "Genetische Tests",
+      "description": "Der Versicherungsvertrag übernimmt keine Aufwendungen für Gentests, es sei denn, bestimmte Gentests sind ausdrücklich im Versicherungsschutz der versicherten Person aufgeführt oder der Versicherer hat zuvor ausdrücklich eine schriftliche Kostenzusage erteilt.",
+      "applies_to": "all",
+      "page": 19
+    },
+    {
+      "name": "Krankheiten, Unfälle und deren Folgen, die durch Vorsatz oder grobe Fahrlässigkeit verursacht wurden",
+      "description": "Der Versicherer erstattet keine Aufwendungen für Krankheiten, Unfälle und deren Folgen, wenn diese vorsätzlich oder grob fahrlässig herbeigeführt wurden. Der Versicherer betrachtet eine Krankheit oder einen Unfall als vorsätzlich oder grob fahrlässig herbeigeführt, wenn die betroffene Person die Folgen ihrer Handlungen vernünftigerweise vorhersehen konnte und den daraus resultierenden Schaden bewusst in Kauf genommen hat. Dies umfasst unter anderem: selbst zugefügte Verletzungen, Selbstmordversuche, Aufenthalte in einer Einrichtung zur Drogenentziehung und Verletzungen im Rahmen krimineller Handlungen.",
+      "applies_to": "all",
+      "page": 19
+    },
+    {
+      "name": "Unfruchtbarkeitsbehandlung",
+      "description": "Der Versicherer erstattet keine Aufwendungen im Zusammenhang mit diagnostischen Leistungen und Behandlungen im Rahmen einer Unfruchtbarkeitsbehandlung. Dazu gehören Maßnahmen zur Vorbeugung künftiger Fehlgeburten, Untersuchungen zu Fehlgeburten und künstlicher Befruchtung sowie damit verbundene Komplikationen.",
+      "applies_to": "all",
+      "page": 19
+    },
+    {
+      "name": "Militärdienstbeschädigungen",
+      "description": "Der Versicherer übernimmt keine Aufwendungen für Krankheiten, Unfälle und deren Folgen, die sich aufgrund der Beteiligung der versicherten Person an militärischen Operationen, am Militärdienst, Aufständen und Unruhen ereignen.",
+      "applies_to": "all",
+      "page": 19
+    },
+    {
+      "name": "Schwangerschaft und Entbindung",
+      "description": "Der Versicherer erstattet keine Aufwendungen im Zusammenhang mit Entbindung, Schwangerschaft oder schwangerschaftsbedingten Erkrankungen, einschließlich Komplikationen bei Entbindung, Schwangerschaft oder schwangerschaftsbedingten Erkrankungen.",
+      "applies_to": "all",
+      "page": 19
+    },
+    {
+      "name": "Langzeitpflege und Betreuungsbedarf",
+      "description": "Der Versicherer erstattet keine Aufwendungen für Unterkünfte, die aufgrund einer Langzeitpflege und Betreuung erforderlich sind.",
+      "applies_to": "all",
+      "page": 19
+    },
+    {
+      "name": "Nichtmedizinische Krankenhauskosten",
+      "description": "Der Versicherungsvertrag übernimmt keine Aufwendungen, die durch Begleitpersonen der versicherten Person entstehen, und sieht auch keine Erstattungen für nichtmedizinische Verbrauchsmaterialien, Verpflegung und medienbezogene Aufwendungen (wie Fernsehen und Radio) vor.",
+      "applies_to": "all",
+      "page": 19
+    },
+    {
+      "name": "Radioaktive, chemische und biologische Kontamination",
+      "description": "Der Versicherer bietet keinen Versicherungsschutz für Krankheiten, Unfälle und deren Folgen, die durch Radioaktivität (einschließlich Kernreaktionen, Kernstrahlung und radioaktive Kontamination) sowie durch chemische oder biologische Waffen verursacht werden.",
+      "applies_to": "all",
+      "page": 19
+    },
+    {
+      "name": "Pflegeheim",
+      "description": "Der Versicherungsvertrag übernimmt keine Aufwendungen für den Aufenthalt zu Hause oder für eine nicht-medizinische Pflege zu Hause, in einem Erholungsheim, einer psychiatrischen Anstalt oder ähnlichen Einrichtungen.",
+      "applies_to": "all",
+      "page": 19
+    },
+    {
+      "name": "Rückbildungsgymnastik",
+      "description": "Der Versicherer gewährt keinen Versicherungsschutz für Rückbildungskurse, die darauf abzielen, die körperlichen Auswirkungen von Schwangerschaft und Geburt zu behandeln.",
+      "applies_to": "all",
+      "page": 20
+    },
+    {
+      "name": "Berufssport",
+      "description": "Der Versicherer gewährt keinen Versicherungsschutz für Behandlungen oder diagnostische Maßnahmen im Zusammenhang mit Verletzungen oder Krankheiten, die durch die berufliche Ausübung einer Sportart hervorgerufen werden.",
+      "applies_to": "all",
+      "page": 20
+    },
+    {
+      "name": "Psychiatrische und psychotherapeutische Behandlung",
+      "description": "Der Versicherer erstattet keine Aufwendungen für psychiatrische und psychotherapeutische Heilbehandlungen oder andere Behandlungen im Zusammenhang mit der psychischen Gesundheit, unabhängig davon, ob diese stationär oder ambulant erfolgen. Dazu gehören unter anderem Konsultationen bei Psychiatern, Psychologen, Psychotherapeuten oder Beratern sowie alle verschriebenen Medikamente oder Therapien im Zusammenhang mit psychischen, emotionalen oder Verhaltensstörungen.",
+      "applies_to": "all",
+      "page": 20
+    },
+    {
+      "name": "Routinemäßige Gesundheits- oder Vorsorgeuntersuchungen",
+      "description": "Der Versicherer erstattet keine Aufwendungen für routinemäßige Gesundheits- bzw. Vorsorgeuntersuchungen, die ohne klinische Symptome durchgeführt werden.",
+      "applies_to": "all",
+      "page": 20
+    },
+    {
+      "name": "Schlafstörungen",
+      "description": "Der Versicherer übernimmt keine Aufwendungen für Untersuchungen oder Behandlungen im Zusammenhang mit Schlafstörungen, inklusive Schlaflosigkeit (Insomnie). Dies umfasst die CPAP-Therapie (kontinuierliche positive Überdruckbeatmung) sowie die BIPAP Therapie (Erzeugung eines positiven Atemwegdrucks mit zwei verschiedenen Druckniveaus).",
+      "applies_to": "all",
+      "page": 20
+    },
+    {
+      "name": "Spa- und Wellnessmassagen",
+      "description": "Der Versicherer übernimmt keine Aufwendungen für Aufenthalte oder Behandlungen in Kur- oder Badezentren, Sanatorien, Spas, Gesundheits- oder Erholungszentren, auch wenn diese ärztlich verordnet sind. Diese Einschränkung gilt auch für Thermalbäder, Saunaanwendungen und jede Form von Wellnessmassagen.",
+      "applies_to": "all",
+      "page": 20
+    },
+    {
+      "name": "Sterilisation, sexuelle Funktionsstörungen und Kontrazeption",
+      "description": "Der Versicherer übernimmt keine Aufwendungen für Maßnahmen, die die Unfruchtbarkeit einer Person fördern oder herbeiführen sowie für Eingriffe, Behandlungen oder Medikamente zur Verhütung einer Schwangerschaft oder für Behandlungen von sexuellen Funktionsstörungen.",
+      "applies_to": "all",
+      "page": 20
+    },
+    {
+      "name": "Leihmutterschaft",
+      "description": "Der Versicherer erstattet keine Aufwendungen für Heilbehandlungen, die in unmittelbarem Zusammenhang mit einer Leihmutterschaft stehen, unabhängig davon, ob die versicherte Person als Leihmutter fungiert oder die beabsichtigten Eltern sind. Kinder, die von einer Leihmutter ausgetragen wurden, sind vom Versicherungsschutz ausgeschlossen.",
+      "applies_to": "all",
+      "page": 20
+    },
+    {
+      "name": "Transportkosten",
+      "description": "Transportkosten, mit Ausnahme von Rettungstransportleistungen, werden nur erstattet, wenn der Versicherer dies zuvor ausdrücklich schriftlich zugesagt hat.",
+      "applies_to": "all",
+      "page": 20
+    },
+    {
+      "name": "Heilbehandlung in Sanatorien, Rehabilitations- und Pflegeeinrichtungen",
+      "description": "Der Versicherer übernimmt keine Aufwendungen für Therapien und Heilbehandlungen in Sanatorien, Rehabilitations- und Pflegeeinrichtungen. Je nach gewähltem Tarif kann der Versicherer jedoch die Aufwendungen für eine Anschlussrehabilitation teilweise erstatten.",
+      "applies_to": "all",
+      "page": 20
+    },
+    {
+      "name": "Heilbehandlung durch bestimmte Ärzte, Zahnärzte und andere Behandler sowie in bestimmten Krankenhäusern",
+      "description": "Der Versicherungsvertrag übernimmt keine Aufwendungen für Heilbehandlungen durch Ärzte, Zahnärzte und andere Behandler sowie für Krankenhausleistungen, deren Rechnungen der Versicherer aus wichtigen Gründen von der Erstattung ausgeschlossen hat. Diese Befreiung von der Leistungspflicht gilt jedoch nur für Versicherungsfälle, die eintreten, nachdem die versicherte Person über den Leistungsausschluss informiert wurde. Ist ein Versicherungsfall zum Zeitpunkt der Mitteilung bereits eingetreten, erstreckt sich die Befreiung des Versicherers von der Leistungspflicht nur auf Aufwendungen, die mehr als 1 (einen) Monat nach Erhalt der Mitteilung entstehen.",
+      "applies_to": "all",
+      "page": 21
+    },
+    {
+      "name": "Heilbehandlung durch Ehe- bzw. Lebenspartner, Eltern oder Kinder",
+      "description": "Der Versicherer erstattet keine Aufwendungen, wenn die versicherte Person von ihrem/ihren Ehe- bzw. Lebenspartner, Eltern oder Kindern behandelt wird. Die nachgewiesenen Sachkosten, die für die Behandlung erforderlich sind, werden jedoch tarifgemäß erstattet.",
+      "applies_to": "all",
+      "page": 21
+    },
+    {
+      "name": "Rechtswidrige Handlungen und gefährliches Verhalten",
+      "description": "Der Versicherer übernimmt keine Aufwendungen für Krankheiten, Unfälle oder daraus resultierende Folgen, die auf rechtswidrige Handlungen oder gefährliches Verhalten zurückzuführen sind. Dies umfasst unter anderem: Aktivitäten, die unter Missachtung ausdrücklicher Warnungen oder Verbote von medizinischem Fachpersonal, Gesundheitsbehörden oder Strafverfolgungsbehörden durchgeführt werden; Folgen von Trunkenheit und/oder Rauschzuständen; Unruhen und Maßnahmen zu deren Bekämpfung, es sei denn, der Versicherungsnehmer und/oder die versicherte Person kann nachweisen, dass die versicherte Person nicht aktiv daran beteiligt war; Streitigkeiten und/oder heftige Auseinandersetzungen, außer im Falle der rechtmäßigen Selbstverteidigung (ein Bericht einer amtlichen Behörde als Nachweis ist erforderlich) und Wetten und/oder Herausforderungen.",
+      "applies_to": "all",
+      "page": 21
+    },
+    {
+      "name": "Impfungen und Immunisierung",
+      "description": "Der Versicherer erstattet keine Aufwendungen für Impfungen und prophylaktische Maßnahmen, unabhängig davon, ob solche Maßnahmen für das Wohnsitzland der versicherten Person empfohlen werden.",
+      "applies_to": "all",
+      "page": 21
+    },
+    {
+      "name": "Sehhilfen",
+      "description": "Der Versicherer erstattet keine Kosten für Brillen, Brillenfassungen und Brillengläser, einschließlich Kontaktlinsen.",
+      "applies_to": "all",
+      "page": 21
+    },
+    {
+      "name": "Vitamine und Mineralstoffe",
+      "description": "Der Versicherer erstattet keine Aufwendungen für Produkte, die als Vitamine oder Mineralstoffe eingestuft sind; ausgenommen hiervon sind medizinisch notwendige Fälle während der Schwangerschaft oder zur Behandlung von diagnostizierten, klinisch signifikanten Vitaminmangelsyndromen. Dieser Ausschluss gilt ebenfalls für Nahrungsergänzungsmittel, inklusive spezieller Säuglingsnahrung und kosmetischer Produkte, selbst wenn diese medizinisch empfohlen, verschrieben oder für therapeutische Zwecke anerkannt sind. Produkte wie Nährmittel, Stärkungsmittel, Mineralwässer, Kosmetika, Hygiene- und Körperpflegeprodukte sowie Badezusätze gelten nicht als medizinisch notwendig und werden nicht erstattet.",
+      "applies_to": "all",
+      "page": 21
+    },
+    {
+      "name": "Krieg, innere Unruhen, Terrorismus",
+      "description": "Für Krankheiten oder Unfälle und deren Folgen sowie für Todesfälle, die auf Kriegsereignisse, innere Unruhen oder terroristische Handlungen zurückzuführen sind, besteht kein Versicherungsschutz, es sei denn, die versicherte Person erleidet ihre Verletzungen als unbeteiligter Dritter, der die Gefahren nicht vorsätzlich oder fahrlässig missachtet hat und sofern sich die versicherte Person nicht vorsätzlich in das Konfliktgebiet begeben hat. Begibt sich die versicherte Person in ein Gebiet, in dem direkte Kriegshandlungen stattfinden oder erbringt sie für eine der Kriegsparteien Dienstleistungen, besteht in keinem Fall Versicherungsschutz. Der Leistungsausschluss gilt unabhängig davon, ob Krieg erklärt wurde oder nicht. Erlangt die versicherte Person während ihres Aufenthalts Kenntnis von Krieg, inneren Unruhen oder terroristischen Handlungen, besteht Versicherungsschutz nur im Rahmen von Notfallbehandlungen (wie lebensrettenden Maßnahmen) und nur so lange, wie es der versicherten Person nicht möglich war, das Land oder die Region zu verlassen, längstens jedoch für 28 (achtundzwanzig) Tage.",
+      "applies_to": "all",
+      "page": 21
+    },
+    {
+      "name": "Weitere Leistungseinschränkungen – Kürzung über das medizinisch notwendige Maß hinaus",
+      "description": "Wenn eine Heilbehandlung oder sonstige Maßnahmen, für die Leistungen vereinbart sind, das medizinisch notwendige Maß übersteigen oder wenn sich die geforderte Vergütung nicht im Rahmen des Landesüblichen, Allgemeingültigen und Angemessenen befindet, behält sich der Versicherer das Recht vor, die Zahlung/Erstattung zu kürzen. Die versicherte Person trägt alle Kosten, die nicht den Landesüblichen, Allgemeingültigen und Angemessenen Standards entsprechen, da der Versicherer keine Beträge über diesen Schwellenwert hinaus übernimmt.",
+      "applies_to": "all",
+      "page": 22
+    },
+    {
+      "name": "Weitere Leistungseinschränkungen – Ansprüche gegen andere Kostenträger",
+      "description": "Kann die versicherte Person Leistungen aus einer gesetzlichen Krankenversicherung oder von einem anderen Kostenträger beanspruchen, erstattet der Versicherer nur die Aufwendungen, die trotz dieser Leistungen medizinisch notwendig sind. Komplikationen, die sich aufgrund von ausgeschlossenen Leistungen ergeben, sind nicht versichert.",
+      "applies_to": "all",
+      "page": 22
+    }
+  ],
+  "deductibles": {
+    "standard": "Es besteht keine Selbstbeteiligung. (3.3)",
+    "variable": null,
+    "per_coverage": {
+      "Ambulante Behandlungen": "Für ambulante Behandlungen gilt eine feste Zuzahlung von 20%.",
+      "Zielregion I": "Wurde mit dem Versicherer eine Selbstbeteiligung und/oder eine Zuzahlung bzw. ein Selbstbehalt vereinbart, bleiben diese unverändert (2.3, Seite 4)."
+    },
+    "page": 6
+  },
+  "waiting_periods": [
+    {
+      "coverage": "Alle Leistungen",
+      "duration": "keine",
+      "description": "1.4 Wartezeit: „Es bestehen keine Wartezeiten.“",
+      "page": 3
+    }
+  ],
+  "obligations": [
+    {
+      "name": "Einhaltung der lokalen Sozialversicherungsgesetze",
+      "description": "Der Versicherungsnehmer ist dafür verantwortlich, dass alle versicherten Personen die lokalen Sozialversicherungsgesetze und -vorschriften einhalten.",
+      "timing": "während der Vertragslaufzeit",
+      "sanction": "Der Versicherer behält sich das Recht vor, den gesamten Versicherungsvertrag oder den Versicherungsschutz für bestimmte versicherte Personen zu kündigen, sofern Gesetzesänderungen in einem Land zu einem Verstoß gegen Gesetze oder Vorschriften führen würden.",
+      "page": 3
+    },
+    {
+      "name": "Meldung eines Wohnortwechsels",
+      "description": "Im Falle eines Wohnortwechsels prüft der Versicherer jeden Einzelfall, ob der Versicherungsschutz weiterhin gewährt werden kann oder ob er angepasst bzw. beendet werden muss.",
+      "timing": "bei Wohnortwechsel",
+      "sanction": "Anpassung oder Beendigung des Versicherungsschutzes.",
+      "page": 3
+    },
+    {
+      "name": "Meldung eines Umzugs in eine andere Zielregion",
+      "description": "Zieht eine versicherte Person für einen beliebigen Zeitraum in eine andere Zielregion, die nicht im Versicherungsvertrag vereinbart ist, muss dieser Umzug dem Versicherer unverzüglich gemeldet werden.",
+      "timing": "unverzüglich",
+      "sanction": "Die entsprechende Änderung kann Auswirkungen auf den fälligen Beitrag sowie auf Leistungsansprüche gemäß des Versicherungsvertrags haben.",
+      "page": 4
+    },
+    {
+      "name": "Antrag auf Verlängerung der Vertragslaufzeit und Meldung geänderter Lebensumstände",
+      "description": "Der Versicherer muss über alle Anträge auf Verlängerung der Vertragslaufzeit sowie über jede Änderung der Lebensumstände der versicherten Person informiert werden.",
+      "timing": "mindestens 4 (vier) Wochen vor Ablauf der ursprünglichen Vertragslaufzeit",
+      "sanction": null,
+      "page": 4
+    },
+    {
+      "name": "Anzeige der dauerhaften Rückkehr in das Heimatland",
+      "description": "Kehrt die versicherte Person in ihr Heimatland zurück und beendet damit den Auslandsaufenthalt, muss sie dem Versicherer den genauen Umzugstermin anzeigen, sobald sie davon Kenntnis erlangt.",
+      "timing": "spätestens am Tag des Umzugs",
+      "sanction": "Informiert die versicherte Person den Versicherer nicht über den Umzug, kann der Versicherer den vereinbarten Versicherungsschutz nicht gewährleisten und hat das Recht, den Versicherungsvertrag gemäß den Versicherungsbedingungen zu kündigen. Bereits gezahlte Versicherungsbeiträge für die abgelaufene Vertragslaufzeit können nicht zurückerstattet werden.",
+      "page": 5
+    },
+    {
+      "name": "Information über einen Krankenhausaufenthalt",
+      "description": "Es ist unabdingbar, den Versicherer oder das zuständige Service Center vor oder innerhalb von 3 (drei) Kalendertagen nach der Aufnahme in das Krankenhaus über den Krankenhausaufenthalt und die Behandlung zu informieren.",
+      "timing": "vor oder innerhalb von 3 (drei) Kalendertagen nach der Aufnahme",
+      "sanction": "Andernfalls ist es möglich, dass der Versicherer die entsprechenden Aufwendungen nicht vollständig übernehmen kann.",
+      "page": 11
+    },
+    {
+      "name": "Vorherige Zustimmung zum Kranken- bzw. Rücktransport",
+      "description": "Der Kranken- bzw. Rücktransport muss vom behandelnden Arzt verordnet und als medizinisch notwendig erachtet werden; der Versicherer oder das zuständige Service Center muss der Kostenerstattung vorher zugestimmt haben.",
+      "timing": "vor dem Transport",
+      "sanction": null,
+      "page": 14
+    },
+    {
+      "name": "Benachrichtigung vor einer stationären Behandlung",
+      "description": "Im Falle eines Notfalls, der eine stationäre Behandlung erforderlich macht, muss die versicherte Person unverzüglich den Versicherer oder das zuständige Service Center benachrichtigen. Bei einer geplanten stationären Heilbehandlung oder Operation muss die Benachrichtigung mindestens 7 (sieben) Tage vor der geplanten Krankenhausaufnahme erfolgen.",
+      "timing": "unverzüglich im Notfall; mindestens 7 (sieben) Tage vor einer geplanten Krankenhausaufnahme",
+      "sanction": "Wenn der Versicherer oder das zuständige Service Center nicht im Voraus oder im Falle eines Notfalls unverzüglich informiert wird, kann dies dazu führen, dass der Versicherer die Leistungsansprüche nicht in voller Höhe berücksichtigen kann.",
+      "page": 15
+    },
+    {
+      "name": "Schriftliche Kostenzusage vor einer stationären Anschlussrehabilitation",
+      "description": "Die Erstattung setzt eine vorherige schriftliche Kostenzusage durch den Versicherer vor Behandlungsbeginn voraus; die Anschlussrehabilitation muss innerhalb von 2 (zwei) Wochen nach Entlassung aus dem Krankenhaus beginnen.",
+      "timing": "vor Behandlungsbeginn",
+      "sanction": null,
+      "page": 12
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Kontaktaufnahme mit dem Service Center",
+      "description": "Tritt ein Versicherungsfall oder Notfall ein, kann die versicherte Person die Leistungen des Service Centers des Versicherers in Anspruch nehmen. Diese Leistungen sind 24 Stunden am Tag, 7 Tage die Woche und an 365 Tagen im Jahr über die in den Versicherungsunterlagen angegebene Nummer verfügbar.",
+      "deadline": "jederzeit, Tag und Nacht",
+      "page": 13
+    },
+    {
+      "step": "Meldung eines Krankenhausaufenthalts",
+      "description": "Der Versicherer oder das zuständige Service Center ist über den Krankenhausaufenthalt und die Behandlung zu informieren.",
+      "deadline": "vor oder innerhalb von 3 (drei) Kalendertagen nach der Aufnahme in das Krankenhaus",
+      "page": 11
+    },
+    {
+      "step": "Notfall mit stationärer Behandlung",
+      "description": "Im Falle eines Notfalls, der eine stationäre Behandlung erforderlich macht, muss die versicherte Person unverzüglich den Versicherer oder das zuständige Service Center benachrichtigen.",
+      "deadline": "unverzüglich",
+      "page": 15
+    },
+    {
+      "step": "Geplante stationäre Heilbehandlung oder Operation",
+      "description": "Die versicherte Person muss den Versicherer oder das zuständige Service Center benachrichtigen, damit eine Kostenübernahmegarantie an die Ärzte bzw. das Krankenhaus erstellt und alle Formalitäten erledigt werden können.",
+      "deadline": "mindestens 7 (sieben) Tage vor der geplanten Krankenhausaufnahme",
+      "page": 15
+    },
+    {
+      "step": "Prüfung der Rechnungen und Direktabrechnung",
+      "description": "Zu den Formalitäten gehört die medizinische Prüfung der Rechnungen, um deren Übereinstimmung mit den Landesüblichen, Allgemeingültigen und Angemessenen Standards sicherzustellen. Der Versicherer stimmt mit dem Krankenhaus den Rechnungsversand und die Zahlungsmodalitäten ab und bemüht sich um die Organisation einer Direktabrechnung; die versicherte Person wird schriftlich oder per E-Mail über die Vorgehensweise informiert.",
+      "deadline": null,
+      "page": 15
+    },
+    {
+      "step": "Kranken- bzw. Rücktransport",
+      "description": "Der Transport muss vom behandelnden Arzt verordnet und als medizinisch notwendig erachtet werden, und der Versicherer oder das zuständige Service Center muss der Kostenerstattung vorher zugestimmt haben.",
+      "deadline": "vorherige Zustimmung erforderlich",
+      "page": 14
+    },
+    {
+      "step": "Todesfall im Ausland",
+      "description": "Der Versicherer oder das zuständige Service Center beschafft die Sterbeurkunde oder den Unfallbericht, nimmt Kontakt mit ausländischen Behörden und Konsulaten auf, ermittelt die entscheidungsberechtigten Hinterbliebenen und erledigt alle Formalitäten für die Überführung, Einäscherung oder eine Bestattung vor Ort gemäß den Bestimmungen des jeweiligen Landes.",
+      "deadline": null,
+      "page": 15
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Die Vertragslaufzeit beginnt mit dem Datum des Inkrafttretens und endet mit dem im Versicherungsschein angegebenen Enddatum. Der Versicherungsschutz wird entweder für bis zu 3 (drei), 6 (sechs) oder 9 (neun) Monate mit einer maximalen Gesamtlaufzeit von 9 (neun) Monaten gewährt. Die Vertragslaufzeit für versicherte Personen, die später in den Versicherungsvertrag aufgenommen werden, beginnt mit dem im Versicherungsschein angegebenen Datum und endet mit dem angegebenen Enddatum der Versicherung.",
+    "tacit_renewal": false,
+    "notice_period": "Der Versicherer muss mindestens 4 (vier) Wochen vor Ablauf der ursprünglichen Vertragslaufzeit über alle Anträge auf Verlängerung der Vertragslaufzeit sowie über jede Änderungen der Lebensumstände der versicherten Person informiert werden.",
+    "methods": null,
+    "special_rights": [
+      "Eine Verlängerung des Versicherungsvertrags ist möglich, sofern der Versicherer vor Ablauf der Vertragslaufzeit zustimmt. Es ist nur 1 (eine) Verlängerung der Vertragslaufzeit möglich (2.5, Seite 4).",
+      "Der Versicherer behält sich das Recht vor, die Versicherungsbedingungen für die neue Vertragslaufzeit anzupassen; vereinbarte Änderungen des Versicherungsschutzes gelten ab Beginn der nächsten Vertragslaufzeit (2.5, Seite 4).",
+      "Zusätzlich zu den in den Allgemeinen Versicherungsbedingungen aufgeführten Kündigungsgründen endet der Versicherungsschutz und der Versicherungsvertrag bei Erreichen der maximalen Vertragslaufzeit von 9 (neun) Monaten. Der angebotene Versicherungsschutz ist zeitlich begrenzt und verlängert sich nicht automatisch (2.6, Seiten 4-5).",
+      "Kündigungsrecht des Versicherers, sofern Gesetzesänderungen in einem Land zu einem Verstoß gegen Gesetze oder Vorschriften führen würden (1.2, Seite 3).",
+      "Kündigungsrecht des Versicherers, wenn die versicherte Person die dauerhafte Rückkehr in ihr Heimatland nicht anzeigt (2.8, Seite 5)."
+    ],
+    "page": 4
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "Zieht eine versicherte Person in eine andere, nicht vereinbarte Zielregion, kann die entsprechende Änderung Auswirkungen auf den fälligen Beitrag sowie auf Leistungsansprüche gemäß des Versicherungsvertrags haben (2.2, Seite 4).",
+      "Versicherungsbeiträge, die bereits für die abgelaufene Vertragslaufzeit gezahlt wurden, können nicht zurückerstattet werden (2.8, Seite 5)."
+    ],
+    "indexation": null,
+    "page": 4
+  },
+  "special_conditions": [
+    {
+      "name": "Vertragliche Grundlage und Rangfolge der Bedingungen",
+      "description": "Im Falle von Abweichungen zwischen den Allgemeinen Versicherungsbedingungen, den Speziellen Versicherungsbedingungen und den Besonderen Versicherungsbedingungen besitzen die Besonderen Versicherungsbedingungen Vorrang vor den Speziellen Versicherungsbedingungen und den Allgemeinen Versicherungsbedingungen, und die Speziellen Versicherungsbedingungen haben Vorrang vor den Allgemeinen Versicherungsbedingungen. Die in diesem Dokument großgeschriebenen Begriffe haben die in den Glossaren der Besonderen und Allgemeinen Versicherungsbedingungen angegebenen Bedeutungen.",
+      "page": 3
+    },
+    {
+      "name": "Maßgebliche Sprachfassung",
+      "description": "Grundsätzlich hat die englische Fassung aller relevanten Unterlagen und Dokumente stets Vorrang vor allen anderen Sprachfassungen oder Übersetzungen.",
+      "page": 3
+    },
+    {
+      "name": "Doppelte Leistungen für Zielregion I",
+      "description": "Sofern die versicherte Person für die Zielregion I (weltweit einschließlich USA) versichert ist, verdoppelt der Versicherer die in 3.5, 3.6 und 3.7 angegebenen Höchstbeträge und Pauschalbeträge (unabhängig davon, ob die Behandlung in den USA stattfindet oder nicht). Ist eine Leistung auf eine bestimmte Anzahl von Tagen oder Sitzungen begrenzt, bleibt diese Begrenzung unverändert. Wurde mit dem Versicherer eine Selbstbeteiligung und/oder eine Zuzahlung bzw. ein Selbstbehalt vereinbart, bleiben diese unverändert.",
+      "page": 4
+    },
+    {
+      "name": "Zuordnung der Zuzahlungen zur Vertragslaufzeit",
+      "description": "Zuzahlungen gelten für jeden Versicherten unter Berücksichtigung der Vertragslaufzeit. Die Aufwendungen werden der Vertragslaufzeit zugeordnet, in der der Arzt oder Heilbehandler konsultiert und Medikamente oder Verbandmaterialien bezogen wurden.",
+      "page": 6
+    },
+    {
+      "name": "Leistungsvoraussetzungen und freie Behandlerwahl",
+      "description": "Versicherte Personen haben die freie Wahl unter allen Ärzten, Therapeuten sowie anderen Behandlern im Gesundheitssektor, die in dem Land, in dem eine Heilbehandlung erfolgt, zugelassen sind. Der Versicherer erstattet ausschließlich Aufwendungen für medizinisch notwendige Heilbehandlungen im Rahmen der schulmedizinischen Praxis; die Erstattung erfolgt auf der Grundlage angemessener Gebühren, die den Landesüblichen, Allgemeingültigen und Angemessenen Sätzen entsprechen. Der Versicherer kann darüber hinausgehende Aufwendungen berücksichtigen, sofern diese aufgrund von erschwerenden Umständen entstanden sind und angemessen berechnet wurden. Für Leistungen anderer Behandler (z. B. Masseure) erfolgt die Erstattung auf der Grundlage vergleichbarer Honorare für Ärzte und der üblichen Preise im Behandlungsland.",
+      "page": 6
+    },
+    {
+      "name": "Erstattungsfähigkeit nicht-schulmedizinischer Methoden",
+      "description": "Im Rahmen des Versicherungsvertrags erstattet der Versicherer Aufwendungen für Untersuchungen, Behandlungsmethoden und Arzneimittel, die von der Schulmedizin allgemein anerkannt sind. Darüber hinaus sind Aufwendungen für Methoden und Arzneimittel erstattungsfähig, die sich in der Praxis bewährt haben oder die angewandt werden, weil keine schulmedizinischen Alternativen zur Verfügung stehen. Die Leistungen können jedoch auf Beträge begrenzt werden, die denen entsprechen, die bei Inanspruchnahme schulmedizinischer Leistungen gezahlt worden wären.",
+      "page": 6
+    },
+    {
+      "name": "Geltung der Höchstbeträge",
+      "description": "Die genannten Höchstbeträge gelten pro Person und Vertragslaufzeit (Fußnote der Leistungsübersichten 3.6, 3.7 und 3.8). Alle Höchstbeträge gelten pro versicherte Person und Versicherungsdauer; die Höchstbeträge werden pro Versicherungsdauer angegeben (1.2, Seite 3).",
+      "page": 8
+    },
+    {
+      "name": "Service- und Assistance-Netzwerk",
+      "description": "Mit dem Service- und Assistance-Netzwerk des Versicherers mit erfahrenen Partnern vor Ort bietet der Versicherer den versicherten Personen weltweit individuelle Unterstützung. Dieses Netzwerk ist in mehr als 180 Ländern verfügbar. Sobald der Versicherungsschutz gemäß Versicherungsvertrag endet, erlischt auch der Anspruch auf diese Serviceleistungen.",
+      "page": 13
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Der Versicherer bietet Versicherungsschutz für Krankheiten, körperliche Verletzungen und andere Ereignisse, die zu Versicherungsfällen führen, wie sie im Versicherungsvertrag beschrieben sind.",
+      "page": 3
+    },
+    {
+      "quote": "Grundsätzlich hat die englische Fassung aller relevanten Unterlagen und Dokumente stets Vorrang vor allen anderen Sprachfassungen oder Übersetzungen.",
+      "page": 3
+    },
+    {
+      "quote": "Heilbehandlungen im Ausland sind von der Leistungserstattung ausgeschlossen, sofern die Auslandsreise einzig oder hauptsächlich zur Durchführung der Behandlung angetreten wurde.",
+      "page": 3
+    },
+    {
+      "quote": "Der Versicherungsvertrag ist für Personen konzipiert, die vorübergehend außerhalb ihres Heimatlandes leben, reisen oder arbeiten. Jede Person, die sich mindestens 3 (drei) Monate im Ausland aufhält, ist versicherbar, sofern der Versicherer nicht einer anderen Vereinbarung zustimmt.",
+      "page": 3
+    },
+    {
+      "quote": "Der Versicherungsschutz wird entweder für bis zu 3 (drei), 6 (sechs) oder 9 (neun) Monate mit einer maximalen Gesamtlaufzeit von 9 (neun) Monaten gewährt.",
+      "page": 3
+    },
+    {
+      "quote": "Der Versicherer gewährt keinen Versicherungsschutz für Vorerkrankungen, einschließlich angeborener Leiden.",
+      "page": 3
+    },
+    {
+      "quote": "Es bestehen keine Wartezeiten.",
+      "page": 3
+    },
+    {
+      "quote": "Zielregion I: Weltweit einschließlich USA Zielregion II: Weltweit ohne USA",
+      "page": 4
+    },
+    {
+      "quote": "Sofern die versicherte Person für die Zielregion I (weltweit einschließlich USA) versichert ist, verdoppelt der Versicherer die in 3.5, 3.6 und 3.7 angegebenen Höchstbeträge und Pauschalbeträge (unabhängig davon, ob die Behandlung in den USA stattfindet oder nicht).",
+      "page": 4
+    },
+    {
+      "quote": "endet der Versicherungsschutz und der Versicherungsvertrag bei Erreichen der maximalen Vertragslaufzeit von 9 (neun) Monaten.",
+      "page": 4
+    },
+    {
+      "quote": "Dies gilt auch für Reisen in das Heimatland bis zu einer maximalen Gesamtdauer von 30 (dreißig) Tagen, sofern sich die versicherte Person vor und nach diesem Aufenthalt in ihrem Wohnsitzland aufhält.",
+      "page": 5
+    },
+    {
+      "quote": "Aufwendungen für eine im Heimatland geplante Behandlung sind nicht erstattungsfähig.",
+      "page": 5
+    },
+    {
+      "quote": "Es besteht keine Selbstbeteiligung.",
+      "page": 6
+    },
+    {
+      "quote": "Die Zuzahlung ist der Prozentsatz der Behandlungskosten, den die versicherte Person selbst trägt. Für ambulante Behandlungen gilt eine feste Zuzahlung von 20%.",
+      "page": 6
+    },
+    {
+      "quote": "Versicherte Personen haben die freie Wahl unter allen Ärzten, Therapeuten sowie anderen Behandlern im Gesundheitssektor, die in dem Land, in dem eine Heilbehandlung erfolgt, zugelassen sind.",
+      "page": 6
+    },
+    {
+      "quote": "Höchstbetrag pro Vertragslaufzeit EUR 500.000 / USD 650.000 / GBP 420.000 / CHF 465.000",
+      "page": 7
+    },
+    {
+      "quote": "Höchstbetrag für ambulante Leistungen EUR 2.000 / USD 2.600 / GBP 1.680 / CHF 1.860",
+      "page": 9
+    },
+    {
+      "quote": "Krebsbehandlung, onkologische Arzneimittel und Heilbehandlungen bis zu EUR 10.000 / USD 13.000 / GBP 8.400 / CHF 9.300",
+      "page": 9
+    },
+    {
+      "quote": "Überführung der sterblichen Überreste bis zu EUR 2.500 / USD 3.250 / GBP 2.100 / CHF 2.325",
+      "page": 9
+    },
+    {
+      "quote": "Eine stationäre Heilbehandlung im Krankenhaus umfasst jede Behandlung, bei der die versicherte Person für mindestens 24 (vierundzwanzig) Stunden in ein Krankenhaus in dem Land, in dem sie behandelt wird, aufgenommen wird.",
+      "page": 11
+    },
+    {
+      "quote": "Es ist jedoch unabdingbar den Versicherer oder das zuständige Service Center vor oder innerhalb von 3 (drei) Kalendertagen nach der Aufnahme in das Krankenhaus über den Krankenhausaufenthalt und die Behandlung zu informieren.",
+      "page": 11
+    },
+    {
+      "quote": "Bei einer geplanten stationären Heilbehandlung oder Operation, die als ambulante Behandlung anstelle eines Krankenhausaufenthaltes möglich ist, muss die versicherte Person den Versicherer oder das zuständige Service Center mindestens 7 (sieben) Tage vor der geplanten Krankenhausaufnahme benachrichtigen.",
+      "page": 15
+    },
+    {
+      "quote": "Der Versicherer übernimmt keine Aufwendungen für die folgenden Behandlungen oder Erkrankungen im Rahmen des Versicherungsvertrags, sofern diese nicht ausdrücklich in der Leistungsübersicht oder in einem anderen schriftlichen Nachtrag zum Versicherungsvertrag aufgeführt sind.",
+      "page": 17
+    },
+    {
+      "quote": "Der Versicherer erstattet keine Aufwendungen für Knochenmark- oder Organtransplantationen (z. B. Herz, Niere, Leber, Bauchspeicheldrüse).",
+      "page": 17
+    },
+    {
+      "quote": "Für Extremsportarten und risikoreiche Aktivitäten besteht kein Versicherungsschutz.",
+      "page": 18
+    },
+    {
+      "quote": "Der Versicherer erstattet keine Aufwendungen im Zusammenhang mit Entbindung, Schwangerschaft oder schwangerschaftsbedingten Erkrankungen, einschließlich Komplikationen bei Entbindung, Schwangerschaft oder schwangerschaftsbedingten Erkrankungen.",
+      "page": 19
+    },
+    {
+      "quote": "Der Versicherer erstattet keine Aufwendungen für psychiatrische und psychotherapeutische Heilbehandlungen oder andere Behandlungen im Zusammenhang mit der psychischen Gesundheit, unabhängig davon, ob diese stationär oder ambulant erfolgen.",
+      "page": 20
+    },
+    {
+      "quote": "Kann die versicherte Person Leistungen aus einer gesetzlichen Krankenversicherung oder von einem anderen Kostenträger beanspruchen, erstattet der Versicherer nur die Aufwendungen, die trotz dieser Leistungen medizinisch notwendig sind.",
+      "page": 22
+    },
+    {
+      "quote": "Foyer Global Health S.A.",
+      "page": 26
+    },
+    {
+      "quote": "Commercial Register (R.C.S. Luxembourg): B 134.471",
+      "page": 26
+    }
+  ],
+  "gaps": [
+    "Risikoträger: Der Vertragstext spricht durchgehend nur von „dem Versicherer“ und nennt an keiner Stelle mit einem Verb (versichert durch / getragen von), wer das Risiko trägt. Die einzige vollständige Firmenbezeichnung des Dokuments steht im Impressumsblock der letzten Seite: „Foyer Global Health S.A.“, Sitz L-3372 Leudelange, 12, rue Léon Laval, Luxembourg, Commercial Register (R.C.S. Luxembourg): B 134.471, USt.-ID LU22284578 (Seite 26). Dieser Block ist ein Impressum (Sitz, Kontaktdaten, Registernummern) und erklärt nicht ausdrücklich die Risikoträgerschaft; er wurde am Rendering der Seite 26 gegengelesen. Der insurer_slug der Aufgabe (foyer-global-health) wurde unverändert übernommen; eine Abweichung zwischen Dokument und Aufgaben-Metadaten besteht nicht, wohl aber eine Lücke im Dokument selbst.",
+    "Sprachfassung: Das Dokument bestimmt in 1.1 (Seite 3), dass grundsätzlich die englische Fassung aller relevanten Unterlagen und Dokumente stets Vorrang vor allen anderen Sprachfassungen oder Übersetzungen hat. Die vorliegende Datei ist die deutsche Fassung und wurde ausschließlich aus ihrem eigenen Text extrahiert; es wurde nichts aus einer anderssprachigen Fassung ergänzt. language = de entspricht der Sprache dieser Datei, nicht der maßgeblichen Fassung.",
+    "edition_date: Das Dokument druckt kein ausdrückliches Ausgabedatum. Auf der letzten Seite steht unten links der Dokumentcode „GH_JOY_ST_SC_25.11“, der in `reference` übernommen wurde; ob die Endung 25.11 ein Ausgabedatum bezeichnet, sagt das Dokument nicht, daher bleibt edition_date null.",
+    "target_audience: null. Das Dokument beschreibt in 1.2 nur, wer versicherbar ist (Personen, die vorübergehend außerhalb ihres Heimatlandes leben, reisen oder arbeiten, mit einem Auslandsaufenthalt von mindestens 3 Monaten), nicht, an welche Käufergruppe (Privatpersonen, Unternehmen, Selbständige) es sich richtet; als Vertragspartner wird nur „der Versicherungsnehmer“ genannt. Der Wortlaut steht in target_audience_note.",
+    "Leistungsübersichten 3.5 bis 3.9: Die Zugehörigkeit der Zeilen zum Tarif Short steht nicht im Textkalk. Die Spalte „Short“ enthält Vektorgrafiken von 11,3 × 11,3 pt (Häkchen in dunklem Kreis, Füllfarbe RGB 0.182/0.129/0.074) an der Abszisse x0 = 405,5 pt, die als Text nichts erzeugen; die Polarität (Häkchen, kein Kreuz) wurde an einem 4-fachen Rendering der Seite 8 bestätigt. Die Zuordnung erfolgte über die Ordinate jeder Marke gegen die Zeilenanfänge. Die Arithmetik schließt: 29 Zellen (1 Zeile in 3.5, 14 in 3.6, 5 in 3.7, 8 in 3.8, 1 in 3.9) = 27 Häkchen (14 auf Seite 8, 12 auf Seite 9, 1 auf Seite 10) + 2 Zeilen, die statt eines Häkchens einen Betrag tragen (Höchstbetrag pro Vertragslaufzeit auf Seite 7, Höchstbetrag für ambulante Leistungen auf Seite 9) + 0 leere Zellen. Keine Zeile ist also ausgenommen; is_optional = false steht deshalb bei allen Garantien. Diese Feststellung ist nicht zitierbar, weil sie nicht aus dem Textkalk stammt, und steht ausschließlich in den strukturierten Feldern.",
+    "Spaltenkontrolle (Negativbefund, an diesem Dokument durchgeführt): Der Fließtext ist einspaltig und wird in Druckreihenfolge ausgegeben; die Leistungsübersichten sind zweispaltig (Zeilenbezeichnung links ab x = 62,5 pt, Wert-/Häkchenspalte rechts ab x ≈ 318–405 pt) und werden zeilenweise korrekt in dieser Reihenfolge ausgegeben. Es wurde keine Spaltenumkehr und keine Verschachtelung festgestellt.",
+    "Textkalk-Kontrolle: Alle 26 Seiten wurden mit page.get_text(\"text\") aus der Quelldatei (data/lu/pdfs/foyer-global-health/sante/journey-short-conditions-speciales-5937efa3.pdf) neu extrahiert und stimmen zeichengenau mit dem Text der Aufgabe überein; der Text war nicht gekürzt. Es wurden keine Ligaturverluste, keine Zeichen aus dem Private Use Area, keine Zero-Width-Spaces und keine NFD-Kombinationszeichen gefunden; enthalten sind 31 Halbgeviertstriche (U+2013), 26 schmale Leerzeichen (U+2009, u. a. in „z. B.“) und 1 geschütztes Leerzeichen. Die Zitate sind programmatisch geschnittene Spannen einzelner Seiten; keines überschreitet eine Seitengrenze.",
+    "Seitenzahlen: Zitiert wird durchgehend die PDF-Seite. Bei diesem Dokument stimmt der gedruckte Folio („Seite N von 26“) mit der PDF-Seite überein (Kontrolle über die Kopfzeilen der Seiten 2 bis 25); ein Versatz besteht nicht.",
+    "Inhaltsverzeichnis (Seite 2) unvollständig: Es springt von 2.5 auf 2.7 und führt Abschnitt 2.6 „Beendigung des Versicherungsschutzes“ nicht auf, obwohl dieser im Text vorhanden ist (Seiten 4-5). Der Abschnitt wurde aus dem Fließtext übernommen.",
+    "Abweichende Bezeichnungen derselben Leistung zwischen Leistungsübersicht und Leistungsbeschreibung, unkorrigiert übernommen: Tabelle Seite 8 „Unterkunft und Verpflegung im Ein- oder Zweitbettzimmer“ gegenüber Abschnittsüberschrift Seite 11 „Unterbringung und Verpflegung im Ein- oder Zweibettzimmer“; Tabelle Seite 8 „Krebstherapie, onkologische Arzneimittel und Heilbehandlung, inklusive wiederherstellender Chirurgie nach Brustkrebs“ gegenüber Seite 12 „Krebsbehandlung, onkologische Arzneimittel und Heilbehandlungen, inklusive rekonstruktiver Chirurgie bei Brustkrebs“; Tabelle Seite 9 „24-stündiger Telefon- und E-Mail- Service“ gegenüber Seite 14 „24-stündiger Telefon- und E-Mail-Service“. In coverages steht jeweils die Bezeichnung der Leistungsübersicht.",
+    "Zwei Begriffe sind zweimal definiert, mit unterschiedlichem Wortlaut, und beide Fassungen wurden aufgenommen: „Vorerkrankungen“ in 1.3 (Seite 3, Zwei-Jahres-Frist vor Inkrafttreten) und im Glossar (Seite 25, Kenntnis vor Unterzeichnung des Antragsformulars); „Zuzahlung“ in 3.3 (Seite 6, mit dem Satz von 20% für ambulante Behandlungen) und im Glossar (Seite 25).",
+    "Der Text enthält offensichtliche Satzfehler, die unverändert übernommen wurden, z. B. „Werden Änderungen des Versicherungsschutzes vereinbarten, gelten diese ab Beginn der nächsten Vertragslaufzeit“ (2.5, Seite 4) und „Landesüblichen, Allgemeingültigen und Angemessen Aufwendungen“ (4.2, Seite 13).",
+    "prescription_period: null. Das Dokument enthält keine Verjährungsregelung; es verweist für Kündigungsgründe und weitere Regelungen ausdrücklich auf die Allgemeinen Versicherungsbedingungen, die nicht Bestandteil dieser Datei sind.",
+    "Dieses Dokument sind die Speziellen Versicherungsbedingungen des Tarifs Short. Es verweist auf die Allgemeinen und die Besonderen Versicherungsbedingungen (Glossare, Kündigungsgründe, Rangfolge) sowie auf den Versicherungsschein (Beginn- und Enddatum, vereinbarte Zielregion, vereinbarte Selbstbeteiligung); diese Dokumente liegen hier nicht vor, weshalb die dort geregelten Punkte fehlen. is_extension wurde dennoch auf false gesetzt, weil es sich nicht um eine Option oder einen Zusatzbaustein, sondern um die tarifeigenen Bedingungen des Produkts Journey handelt.",
+    "Beitragshöhe, Preise und Tarifierung werden im Dokument nicht genannt; premium enthält nur die beiden Aussagen zur Beitragswirkung eines Zielregionswechsels und zur Nichterstattung bereits gezahlter Beiträge.",
+    "In der Leistungsübersicht 3.9 „Zusätzliche Assistance“ führt der Tarif Short nur eine einzige Zeile (Telemedizin); weitere Zeilen sind auf Seite 10 nicht gedruckt."
+  ]
+}

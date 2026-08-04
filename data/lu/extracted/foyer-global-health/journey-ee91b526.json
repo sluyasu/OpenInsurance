@@ -1,0 +1,1259 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "lu",
+  "insurer_slug": "foyer-global-health",
+  "insurer_name": "Foyer Global Health",
+  "product_name": "Journey",
+  "branch": "sante",
+  "branch_code": null,
+  "document_type": "conditions_generales",
+  "language": "en",
+  "target_audience": null,
+  "target_audience_note": "“The Insurance Policy is designed for individuals living, travelling or working outside of their Home Country on temporary basis. Anyone who stays abroad for at least 3 (three) months is eligible for insurance cover unless the Insurer agrees otherwise.” (1.2, page 3)",
+  "reference": "GH_JOY_ST_SC_25.11",
+  "edition_date": null,
+  "product_family": "Journey",
+  "variant": "Plan Short",
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://globalhealth.insurance/wp-content/uploads/2025/12/SCI_Journey_Short_En.pdf",
+  "source_pdf": "journey-short-conditions-speciales-ee91b526.pdf",
+  "source_sha256": "1a8fe5b422e6417eec6cd174a3d4513aaeb9fe5c718aaca726155ef82e7d3b5a",
+  "source_pages": 23,
+  "fetched_at": "2026-08-04",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Journey (Plan Short) is an international health insurance designed for individuals living, travelling or working outside of their Home Country on a temporary basis; anyone who stays abroad for at least 3 (three) months is eligible. Insurance cover is granted up to 3 (three), 6 (six) or 9 (nine) months with a maximum cumulative period of 9 (nine) months in total, and is not subject to automatic renewal. The Insurer reimburses inpatient and outpatient Treatment as well as medical and additional assistance benefits up to an Overall Limit per Policy Period of EUR 500,000 / USD 650,000 / GBP 420,000 / CHF 465,000, with a separate Maximum Outpatient Limit of EUR 2,000 / USD 2,600 / GBP 1,680 / CHF 1,860. There are no Deductibles and no Waiting Periods, a fixed 20% Co-Payment applies to Outpatient Treatment, and Pre-Existing Conditions including Congenital Conditions are not covered.",
+  "definitions": [
+    {
+      "term": "Insured event",
+      "definition": "An insured event is characterized by the Medically necessary Treatment required for an illness, an Accident including the consequences of an Accident, or other events specified in the Special Conditions of Insurance (refer to 3.5-3.9 – scope of Benefits). The commencement of the insured event is marked by the initiation of Treatment and concludes when medical findings indicate that further Treatment is not Medically necessary. In the event that the Insured Person requires Treatment for an illness, an Accident, or other occurrences detailed in the Special Conditions unrelated to the original insured event, it will be treated as a distinct new insured event. (3.2)",
+      "page": 6
+    },
+    {
+      "term": "Cancer",
+      "definition": "The general term used for all malignant disorders caused by the uncontrolled multiplication of mutated cells (new growths or tumours). These cells can destroy the surrounding tissue and produce metastases (secondary growths).",
+      "page": 20
+    },
+    {
+      "term": "Co-Payment",
+      "definition": "A Co-Payment is the portion of the cost of a covered medical service that the Insured Person is required to pay, as a percentage of the total eligible expense for every Claim. The remaining balance is paid by the Insurer, subject to the terms and conditions of the policy.",
+      "page": 20
+    },
+    {
+      "term": "Computed Tomography (CT)",
+      "definition": "Computed Tomography (CT) is a diagnostic procedure that uses special x-ray equipment to get cross-sectional pictures of the body. The CT computer displays these pictures as detailed three-dimensional images of organs, bones, and other tissues. This procedure is also called CT scanning, computerised tomography, or computerised axial tomography (CAT).",
+      "page": 20
+    },
+    {
+      "term": "Congenital Conditions",
+      "definition": "Any Disease or illness, abnormality, birth defect, premature birth or malformation present at birth including any related condition, whether diagnosed or not.",
+      "page": 20
+    },
+    {
+      "term": "Conventional Medicine",
+      "definition": "The form of medicine based on accepted scientific methods which are taught at universities and are generally acknowledged and used.",
+      "page": 20
+    },
+    {
+      "term": "Country of Departure",
+      "definition": "The last country in which the Insured Person had his habitual residence.",
+      "page": 20
+    },
+    {
+      "term": "Daycare",
+      "definition": "Daycare refers to the Treatment received in Hospital without involving an overnight stay. The length of stay in Hospital is between 8 (eight) and 24 (twenty-four) hours.",
+      "page": 20
+    },
+    {
+      "term": "Deductible",
+      "definition": "The effect of a Deductible is that the Insured Person bears a certain portion of the costs. The Deductible is the share to be borne by the Insured Persons, up to an agreed limit. If a Deductible has been agreed, this will be shown in the Insurance Policy.",
+      "page": 20
+    },
+    {
+      "term": "Dentist",
+      "definition": "A Doctor or Practitioner who focuses on Diseases of the teeth and mouth.",
+      "page": 20
+    },
+    {
+      "term": "Eligible Expenses",
+      "definition": "The costs incurred for Medically Necessary healthcare services, Treatments, and procedures that are covered under the Terms and Conditions of this Insurance Policy. These expenses typically include charges for hospitalization, physician consultations, diagnostic tests, surgical procedures, prescribed Medications, and other approved medical interventions. To qualify as eligible, the services must be provided by licensed healthcare professionals or accredited medical facilities, and must align with the Insurance Policy's cover guidelines, exclusions, and any applicable Waiting Periods or pre-authorization requirements.",
+      "page": 20
+    },
+    {
+      "term": "(Inpatient) Follow-Up Rehabilitation",
+      "definition": "A medical Treatment aiming at recovering the initial state of health after an illness or serious surgery, for example following bypass surgery, cardiac infarction, transplants and surgery involving large bones or joints, or after a serious Accident.",
+      "page": 20
+    },
+    {
+      "term": "Geographical Area",
+      "definition": "The following Geographical Areas to which the insurance cover provided under the Insurance Policy may apply: Geographical Area I: Worldwide including USA; Geographical Area II: Worldwide excluding USA.",
+      "page": 20
+    },
+    {
+      "term": "Glossary",
+      "definition": "The present Glossary of defined terms, which forms an integral part of the Special Conditions.",
+      "page": 20
+    },
+    {
+      "term": "Home Country",
+      "definition": "The country that the Insured Person is a citizen or national of.",
+      "page": 20
+    },
+    {
+      "term": "Hydrotherapy",
+      "definition": "Hydrotherapy is the targeted Treatment by external application of water.",
+      "page": 20
+    },
+    {
+      "term": "Implants",
+      "definition": "Dental Implants (metal or ceramic) which are embedded as a substitute for the root of a tooth or in the toothless jaw.",
+      "page": 21
+    },
+    {
+      "term": "Insurance Period",
+      "definition": "Period of 3 (three), 6 (six) or 9 (nine) months that starts on the Effective Date of the Insurance Policy.",
+      "page": 21
+    },
+    {
+      "term": "Magnetic Resonance Imaging (MRI)",
+      "definition": "A diagnostic technique in which radio waves generated in a strong magnetic field are used to provide images of the body's tissues and organs.",
+      "page": 21
+    },
+    {
+      "term": "Maximum Outpatient Limit",
+      "definition": "The maximum sum that the Insurer will reimburse for the aggregate of all outpatient Benefits per Insured Person and per Insurance Period for a specific insurance Plan.",
+      "page": 21
+    },
+    {
+      "term": "Medical Condition",
+      "definition": "Any illness, Disease, injury or any physical, mental or psychological abnormality as well as pregnancies.",
+      "page": 21
+    },
+    {
+      "term": "Nutritional and/or Dietary Supplements",
+      "definition": "Products used to boost the nutritional content of the diet, including vitamins, minerals, herbs, meal supplements, sports nutrition products, natural food supplements.",
+      "page": 21
+    },
+    {
+      "term": "Outpatient Treatment",
+      "definition": "Any Treatment given by a qualified and licensed Doctor which does not need an overnight stay (including Hospital stays for less than 8 (eight) hours).",
+      "page": 21
+    },
+    {
+      "term": "Overall Limit per Policy Period",
+      "definition": "The maximum which will be paid for all Benefits in total for each Insured Person, for each Insurance Period.",
+      "page": 21
+    },
+    {
+      "term": "Palliative Medicine",
+      "definition": "Palliative Medicine is the extensive and active Treatment of patients with a limited life expectancy for which curative therapy is no longer possible in their condition. This type of Treatment provides the best possible quality of life for the patient and its family.",
+      "page": 21
+    },
+    {
+      "term": "Policy Period",
+      "definition": "The Policy Period is the period in time during which the insurance cover is granted under the Insurance Policy, which the Policyholder has selected for the Insured Persons in the Application Form.",
+      "page": 21
+    },
+    {
+      "term": "Positron Emission Tomography (PET)",
+      "definition": "A non-invasive imagery process based on the detection and imagery of a substance with positron emitters spread inside the patient's body. The concentration of these “markers” in a tumour can then be quantified, the substance is injected intravenously, and the radiation is detected with external detectors. With the help of PET important biological processes can be visualised in tumours.",
+      "page": 21
+    },
+    {
+      "term": "Practitioner",
+      "definition": "A person who, besides Doctors, also has recognised and well-founded training in their area of Treatment and are authorised for Treatment in that speciality in the country in which the Treatment is to be provided. The following are understood to be Practitioners: naturopaths, speech Therapists and midwives as well as independent Practitioners practicing in state approved medical ancillary professions (for example massage Therapists and medical attendants, physiotherapists). The Insured Persons are free to choose a Practitioner who meets these criteria.",
+      "page": 21
+    },
+    {
+      "term": "Pre-Existing Conditions",
+      "definition": "Pre-Existing Conditions refer to any Medical Conditions, Diseases, Bodily Injuries, or their consequences that the Policyholder or any Insured Person was aware of, or received medical advice, diagnosis, or Treatment for, prior to signing the Application Form. This includes: i. Any condition for which the Insured Person underwent diagnostic testing (including preventive screenings or routine health check-ups) that resulted in abnormal findings, regardless of whether a formal diagnosis was made. ii. Any signs or symptoms, whether diagnosed or not, as well as any physical or organic abnormalities, congenital anomalies, disabilities, or deformities. iii. The presence of any medical devices such as Implants, stents, prostheses, or any other devices permanently or temporarily attached to the body. Additionally, any illness, injury, or Medical Condition that arises between the date of signing the Application Form and the date of signing the Particular Conditions will also be considered a Pre-Existing Condition. Pre-Existing Conditions are not insured under the Insurance Policy.",
+      "page": 21
+    },
+    {
+      "term": "Professional Sports",
+      "definition": "Any sports the Insured Person is being paid for taking part in.",
+      "page": 22
+    },
+    {
+      "term": "Repatriation",
+      "definition": "If a Medical necessary Treatment for which the Insured Person is covered is not available locally, the Insurer covers the return to the Home Country for Treatment, rather than to the nearest appropriate medical centre. This only applies when the Home Country is located within the Insured Persons Geographical Area of cover.",
+      "page": 22
+    },
+    {
+      "term": "Sanatorium Treatment",
+      "definition": "A cure or Treatment different from a Medical Treatment that serves to rehabilitate a person's state of health or Fitness.",
+      "page": 22
+    },
+    {
+      "term": "Second Opinion",
+      "definition": "The medical advice given by a second independent Doctor not involved in the Treatment. The Insured Person can also consult a second Doctor through the relevant Service Centre to get a Second Opinion if potentially fatal illnesses or serious permanent disabilities are involved.",
+      "page": 22
+    },
+    {
+      "term": "Start of Treatment",
+      "definition": "The date on which a Treatment, prescribed and administered by a Medical Authority subsequent to a Disease or Bodily Injury, commences.",
+      "page": 22
+    },
+    {
+      "term": "Therapist",
+      "definition": "A Doctor, but also anyone who has received in-depth training in their field and is licensed or authorised to give Treatment in the country in which Treatment is provided. This includes Practitioners of complementary medicine, speech Therapists and midwives and obstetric nurses, as well as members of state-approved assistant medical professions with their own practice, such as masseurs and physiotherapists. The Insured Person can choose any Therapist who meets these conditions.",
+      "page": 22
+    },
+    {
+      "term": "Usual, Customary and Reasonable",
+      "definition": "Usual, Customary and Reasonable charges refer to the average fee charged for a specific medical service by licensed medical Practitioners within a defined geographic region (e.g. city or country), based on publicly available fee schedules or databases maintained by recognized health authorities or insurance industry benchmarks.",
+      "page": 22
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Overall Limit per Policy Period",
+      "description": "Single row of the scope of Benefits 3.5 for Plan Short: the maximum which will be paid for all Benefits in total for each Insured Person, for each Insurance Period. Based on the selected Plan, the Insurer will reimburse expenses up to 100% of the Overall Limit per Policy Period specified in the scope of Benefits, unless expressly stated otherwise in the Terms and Conditions of Insurance.",
+      "is_optional": false,
+      "territorial_scope": "According to the Geographical Area agreed in the Insurance Policy: Geographical Area I: Worldwide including USA / Geographical Area II: Worldwide excluding USA (2.1, page 4).",
+      "limits": "EUR 500,000 / USD 650,000 / GBP 420,000 / CHF 465,000 (Overall Limit per Policy Period, per Insured Person)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "The specified maximum sums and maximum periods apply per Insured Person and per Policy Period.",
+        "If the Insured Person is covered under Geographical Area I (worldwide including USA) the Insurer will double the maximum sums shown in 3.5, 3.6 and 3.7 (2.3, page 4)."
+      ],
+      "page": 7
+    },
+    {
+      "name": "Accommodation in a private or semi-private room",
+      "description": "The Insured Person has the flexibility to select the Hospital for receiving Medical Treatment. Medical Treatment in a Hospital encompasses any Treatment, during which the Insured Person is admitted to a Hospital in the country where it is undergoing Treatment, for a minimum duration of 24 (twenty-four) hours. Accommodation is restricted to standard private or semi-private rooms, as specified in the scope of Benefits. A standard private room is defined as a basic single occupancy room with an adjoining private bath or shower room in a Hospital. The Insurance Policy covers the entire inpatient Treatment without a specific time limit.",
+      "is_optional": false,
+      "territorial_scope": "According to the Geographical Area agreed in the Insurance Policy: Geographical Area I: Worldwide including USA / Geographical Area II: Worldwide excluding USA (2.1, page 4).",
+      "limits": "EUR 500,000 / USD 650,000 / GBP 420,000 / CHF 465,000 (Overall Limit per Policy Period, per Insured Person)",
+      "sub_limits": [
+        "without a specific time limit"
+      ],
+      "deductible": null,
+      "conditions": [
+        "In cases where the Treatment is conducted in Hospitals offering Sanatorium Treatment, the Insurance Policy exclusively covers Treatments meeting the criteria for Conventional Medicine/Medically necessary Treatment, unless alternative Treatments have been explicitly approved in writing by the Insurer prior to the Start of Treatment.",
+        "It explicitly excludes rooms with upgraded amenities, including but not limited to deluxe rooms, executive rooms, or suites that may have additional facilities such as kitchens, dining areas, or sitting rooms.",
+        "It is imperative to contact and inform the Insurer or the Service Centre regarding the Hospital stay and Treatment before or within 3 (three) calendar days of admission to the Hospital. Failure to do so may result in the Insurer not fully covering the Claim."
+      ],
+      "page": 7
+    },
+    {
+      "name": "Consultations and diagnostic services, including pathology, radiology, Computed Tomography (CT), Magnetic Resonance Imaging (MRI), Positron Emission Tomography (PET) and Palliative Medicine",
+      "description": "Inpatient Benefit: the Insurance Policy will encompass all costs related to Medically necessary inpatient Treatment, covering examinations, diagnostics, and therapy as well as expenses related to pathology, radiology, Computed Tomography (CT), Magnetic Resonance Imaging (MRI), Positron Emission Tomography (PET), and Palliative Medicine.",
+      "is_optional": false,
+      "territorial_scope": "According to the Geographical Area agreed in the Insurance Policy: Geographical Area I: Worldwide including USA / Geographical Area II: Worldwide excluding USA (2.1, page 4).",
+      "limits": "EUR 500,000 / USD 650,000 / GBP 420,000 / CHF 465,000 (Overall Limit per Policy Period, per Insured Person)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 7
+    },
+    {
+      "name": "Hospital charges, including operating theatres, anaesthesia, intensive care wards and laboratories",
+      "description": "Inpatient Benefit: this pertains to additional expenses associated with the utilization of specialised facilities, including operating theatres, intensive care units, and laboratories.",
+      "is_optional": false,
+      "territorial_scope": "According to the Geographical Area agreed in the Insurance Policy: Geographical Area I: Worldwide including USA / Geographical Area II: Worldwide excluding USA (2.1, page 4).",
+      "limits": "EUR 500,000 / USD 650,000 / GBP 420,000 / CHF 465,000 (Overall Limit per Policy Period, per Insured Person)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 7
+    },
+    {
+      "name": "Surgery and anaesthetics",
+      "description": "The Insurer will reimburse costs incurred for Medically necessary services in this context, such as medical services, anaesthesia, and the utilization of specialised facilities, if prescribed by a specialist Doctor.",
+      "is_optional": false,
+      "territorial_scope": "According to the Geographical Area agreed in the Insurance Policy: Geographical Area I: Worldwide including USA / Geographical Area II: Worldwide excluding USA (2.1, page 4).",
+      "limits": "EUR 500,000 / USD 650,000 / GBP 420,000 / CHF 465,000 (Overall Limit per Policy Period, per Insured Person)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Prescribed by a specialist Doctor."
+      ],
+      "page": 7
+    },
+    {
+      "name": "Outpatient surgery instead of inpatient Treatment",
+      "description": "This pertains to elective surgery typically conducted in a Doctor's office or Hospital setting, without the necessity for an overnight stay. However, it excludes grade 1 or minor surgeries (invasive procedures involving only the resection of skin, mucous membranes, and connective tissue) and invasive operative procedures for obtaining tissue samples or bodily fluids, such as biopsies and colonoscopies.",
+      "is_optional": false,
+      "territorial_scope": "According to the Geographical Area agreed in the Insurance Policy: Geographical Area I: Worldwide including USA / Geographical Area II: Worldwide excluding USA (2.1, page 4).",
+      "limits": "EUR 500,000 / USD 650,000 / GBP 420,000 / CHF 465,000 (Overall Limit per Policy Period, per Insured Person)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 7
+    },
+    {
+      "name": "Drugs and Dressings",
+      "description": "Inpatient Benefit: to qualify for cover under the Insurance Policy, Drugs and Dressings must be prescribed by a Hospital Doctor or Dentist in conjunction with inpatient Treatment. Additionally, the Drugs must be dispensed by a pharmacy, Hospital pharmacy, or another dispensary officially approved by competent authorities.",
+      "is_optional": false,
+      "territorial_scope": "According to the Geographical Area agreed in the Insurance Policy: Geographical Area I: Worldwide including USA / Geographical Area II: Worldwide excluding USA (2.1, page 4).",
+      "limits": "EUR 500,000 / USD 650,000 / GBP 420,000 / CHF 465,000 (Overall Limit per Policy Period, per Insured Person)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Nutritional food, tonics, mineral water, cosmetics, products for personal hygiene, as well as bath salts, are not deemed as Drugs eligible for cover under the Insurance Policy as part of Medical Treatment."
+      ],
+      "page": 7
+    },
+    {
+      "name": "Physiotherapy, including massages",
+      "description": "Inpatient Benefit: to qualify for cover under the Insurance Policy, physiotherapy and massages must be prescribed by a Hospital Doctor as integral components of inpatient Medical Treatment. Furthermore, these procedures must be administered by a Doctor or a qualified, certified Therapist.",
+      "is_optional": false,
+      "territorial_scope": "According to the Geographical Area agreed in the Insurance Policy: Geographical Area I: Worldwide including USA / Geographical Area II: Worldwide excluding USA (2.1, page 4).",
+      "limits": "EUR 500,000 / USD 650,000 / GBP 420,000 / CHF 465,000 (Overall Limit per Policy Period, per Insured Person)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "The prescription should be provided prior to the Start of Treatment and should specify the diagnosis along with details about the type and number of required sessions."
+      ],
+      "page": 7
+    },
+    {
+      "name": "Therapies, including occupational therapy, light therapy, Hydrotherapy, inhalation, packs, medical baths, cryotherapy, thermotherapy, electrotherapy",
+      "description": "Inpatient Benefit: to qualify for cover under the Insurance Policy, physical-medical therapies must be prescribed by a Hospital Doctor as a component of inpatient Treatment. Furthermore, these therapies must be administered by a Doctor or a qualified, certified Therapist.",
+      "is_optional": false,
+      "territorial_scope": "According to the Geographical Area agreed in the Insurance Policy: Geographical Area I: Worldwide including USA / Geographical Area II: Worldwide excluding USA (2.1, page 4).",
+      "limits": "EUR 500,000 / USD 650,000 / GBP 420,000 / CHF 465,000 (Overall Limit per Policy Period, per Insured Person)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "The prescription must be provided before the Start of Treatment and should include details such as the diagnosis and the specific type and number of required sessions."
+      ],
+      "page": 7
+    },
+    {
+      "name": "Therapeutic aids and appliances",
+      "description": "The Insurance Policy covers expenses related to therapeutic aids and appliances designed as life-saving measures such as cardiac pacemakers. Additionally, the Insurer will reimburse costs for repairing therapeutic aids and appliances within the specified conditions during the Policy Period. (Heading of the detailed description, page 10: “Therapeutic aids and appliances within the framework of inpatient Treatment”.)",
+      "is_optional": false,
+      "territorial_scope": "According to the Geographical Area agreed in the Insurance Policy: Geographical Area I: Worldwide including USA / Geographical Area II: Worldwide excluding USA (2.1, page 4).",
+      "limits": "EUR 500,000 / USD 650,000 / GBP 420,000 / CHF 465,000 (Overall Limit per Policy Period, per Insured Person)",
+      "sub_limits": [
+        "only if needed as a life-saving measure, such as cardiac pacemakers"
+      ],
+      "deductible": null,
+      "conditions": [
+        "These aids must be fitted or adjusted during the inpatient stay and should remain in the body of the Insured Person."
+      ],
+      "page": 7
+    },
+    {
+      "name": "Cancer Treatment, oncological Drugs and Treatment, including reconstructive surgery for breast Cancer",
+      "description": "Within the scope of inpatient Hospital care, the Insurance Policy includes cover for eligible medical expenses related to Medical Treatment for Cancer and direct consequences, including diagnostic tests, radiation therapy, chemotherapy, Drugs, and Hospital costs associated with inpatient Treatment. Additionally, reconstructive surgery for breast Cancer is covered.",
+      "is_optional": false,
+      "territorial_scope": "According to the Geographical Area agreed in the Insurance Policy: Geographical Area I: Worldwide including USA / Geographical Area II: Worldwide excluding USA (2.1, page 4).",
+      "limits": "EUR 500,000 / USD 650,000 / GBP 420,000 / CHF 465,000 (Overall Limit per Policy Period, per Insured Person)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 7
+    },
+    {
+      "name": "Parent accommodation during inpatient Treatment of a minor child",
+      "description": "The Insurance Policy includes cover for the supplementary accommodation expenses for one parent staying with a child under the age of 18 (eight-teen) who is admitted for inpatient Treatment.",
+      "is_optional": false,
+      "territorial_scope": "According to the Geographical Area agreed in the Insurance Policy: Geographical Area I: Worldwide including USA / Geographical Area II: Worldwide excluding USA (2.1, page 4).",
+      "limits": "EUR 500,000 / USD 650,000 / GBP 420,000 / CHF 465,000 (Overall Limit per Policy Period, per Insured Person)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Child under the age of 18 (eight-teen)."
+      ],
+      "page": 7
+    },
+    {
+      "name": "Inpatient Follow-Up Rehabilitation",
+      "description": "The Insurer will reimburse the costs associated with Inpatient Follow-Up Rehabilitation, which is essential for continuing Medically necessary inpatient Treatment. This applies specifically to cases such as post-bypass surgery, cardiac infarction, transplants, and surgeries involving large bones or joints.",
+      "is_optional": false,
+      "territorial_scope": "According to the Geographical Area agreed in the Insurance Policy: Geographical Area I: Worldwide including USA / Geographical Area II: Worldwide excluding USA (2.1, page 4).",
+      "limits": "EUR 500,000 / USD 650,000 / GBP 420,000 / CHF 465,000 (Overall Limit per Policy Period, per Insured Person)",
+      "sub_limits": [
+        "Up to 14 days after written pre-approval"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Subject to prior written approval from the Insurer before the Start of Treatment.",
+        "Inpatient Follow-Up Rehabilitation must commence within 2 (two) weeks of Hospital discharge.",
+        "The Insurance Policy does not cover expenses related to Sanatorium Treatments, cures, stays in cure establishments, spas, convalescent homes, or nursing homes."
+      ],
+      "page": 7
+    },
+    {
+      "name": "Daycare",
+      "description": "The Insurance Policy covers Treatment received in a Hospital that does not require an overnight stay. It also covers partial inpatient Treatment involving a visit to a day or night clinic or Hospital where the patient is present during the day or night, but where a full-day (24 (twenty-four)-hours) inpatient arrangement is no longer Medically necessary.",
+      "is_optional": false,
+      "territorial_scope": "According to the Geographical Area agreed in the Insurance Policy: Geographical Area I: Worldwide including USA / Geographical Area II: Worldwide excluding USA (2.1, page 4).",
+      "limits": "EUR 500,000 / USD 650,000 / GBP 420,000 / CHF 465,000 (Overall Limit per Policy Period, per Insured Person)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "In both scenarios, the duration of the Hospital stay ranges from 8 (eight) to 24 (twenty-four) hours and must not surpass the 24 (twenty-four)-hour limit."
+      ],
+      "page": 7
+    },
+    {
+      "name": "Transport to the nearest suitable Hospital for initial Treatment following an Accident or an Emergency",
+      "description": "The Insurer will cover the Usual, Customary and Reasonable expenses for transporting to the closest suitable Hospital or medical facility.",
+      "is_optional": false,
+      "territorial_scope": "According to the Geographical Area agreed in the Insurance Policy: Geographical Area I: Worldwide including USA / Geographical Area II: Worldwide excluding USA (2.1, page 4).",
+      "limits": "EUR 500,000 / USD 650,000 / GBP 420,000 / CHF 465,000 (Overall Limit per Policy Period, per Insured Person)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Unless otherwise agreed, the provision of transportation services must be carried out by a duly licensed service provider."
+      ],
+      "page": 7
+    },
+    {
+      "name": "Maximum Outpatient Limit",
+      "description": "First row of the scope of Benefits 3.7: the maximum sum that the Insurer will reimburse for the aggregate of all outpatient Benefits per Insured Person and per Insurance Period for a specific insurance Plan. The Benefits shall not exceed the Maximum Outpatient Limit, unless otherwise specified in the scope of Benefits.",
+      "is_optional": false,
+      "territorial_scope": "According to the Geographical Area agreed in the Insurance Policy: Geographical Area I: Worldwide including USA / Geographical Area II: Worldwide excluding USA (2.1, page 4).",
+      "limits": "EUR 2,000 / USD 2,600 / GBP 1,680 / CHF 1,860 (Maximum Outpatient Limit, per Insured Person and per Policy Period)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 8
+    },
+    {
+      "name": "Consultations and diagnostic services, including pathology, radiology, Computed Tomography (CT), Magnetic Resonance Imaging (MRI), Positron Emission Tomography (PET) and Palliative Medicine (Outpatient)",
+      "description": "Outpatient Benefit reimbursed at 80%*: the Insurance Policy includes cover for incurred expenses related to Outpatient Treatment, encompassing examinations, diagnostics, and therapy. The Benefits offered include reimbursements for a range of services, including but not limited to pathology, radiology, Computed Tomography (CT), Magnetic Resonance Imaging (MRI), Positron Emission Tomography (PET), and Palliative Medicine.",
+      "is_optional": false,
+      "territorial_scope": "According to the Geographical Area agreed in the Insurance Policy: Geographical Area I: Worldwide including USA / Geographical Area II: Worldwide excluding USA (2.1, page 4).",
+      "limits": "80%* – *max. outpatient limit applies: EUR 2,000 / USD 2,600 / GBP 1,680 / CHF 1,860 (Maximum Outpatient Limit, per Insured Person and per Policy Period)",
+      "sub_limits": [],
+      "deductible": "The Insurer has established a fixed 20% Co-Payment for Outpatient Treatment (3.3, page 6).",
+      "conditions": [],
+      "page": 8
+    },
+    {
+      "name": "Chemotherapy, oncological Drugs and Treatment (e.g. for Cancer patients)",
+      "description": "Outpatient Benefit: the Insurance Policy covers eligible Medically necessary measures for examination, diagnosis, and therapy in the context of Outpatient Treatment for Cancer and direct consequences, including chemotherapy, and other oncological procedures. (Heading of the detailed description, page 12: “Cancer Treatment, oncological Drugs and Treatment”.)",
+      "is_optional": false,
+      "territorial_scope": "According to the Geographical Area agreed in the Insurance Policy: Geographical Area I: Worldwide including USA / Geographical Area II: Worldwide excluding USA (2.1, page 4).",
+      "limits": "Up to EUR 10,000 / USD 13,000 / GBP 8,400 / CHF 9,300",
+      "sub_limits": [],
+      "deductible": "The Insurer has established a fixed 20% Co-Payment for Outpatient Treatment (3.3, page 6).",
+      "conditions": [],
+      "page": 8
+    },
+    {
+      "name": "Drugs and Dressings (Outpatient)",
+      "description": "Outpatient Benefit reimbursed at 80%*: to qualify for cover under the Insurance Policy, prescriptions for Drugs and Dressings must be issued by a Doctor, Practitioner, Dentist, or a person authorized to do so under their supervision. These Drugs and Dressings must be obtained from a pharmacy or an officially approved supplier.",
+      "is_optional": false,
+      "territorial_scope": "According to the Geographical Area agreed in the Insurance Policy: Geographical Area I: Worldwide including USA / Geographical Area II: Worldwide excluding USA (2.1, page 4).",
+      "limits": "80%* – *max. outpatient limit applies: EUR 2,000 / USD 2,600 / GBP 1,680 / CHF 1,860 (Maximum Outpatient Limit, per Insured Person and per Policy Period)",
+      "sub_limits": [],
+      "deductible": "The Insurer has established a fixed 20% Co-Payment for Outpatient Treatment (3.3, page 6).",
+      "conditions": [
+        "Items such as nutritional food, tonics, mineral water, cosmetics, products for personal hygiene, and bath salts are not categorized as Drugs."
+      ],
+      "page": 8
+    },
+    {
+      "name": "Transport to the nearest suitable Doctor or Hospital for initial Treatment following an Accident or an Emergency",
+      "description": "The Insurer will reimburse qualifying Usual, Customary and Reasonable expenses for Emergency transportation to the nearest appropriate Doctor, Hospital, or facility following an Accident or Emergency.",
+      "is_optional": false,
+      "territorial_scope": "According to the Geographical Area agreed in the Insurance Policy: Geographical Area I: Worldwide including USA / Geographical Area II: Worldwide excluding USA (2.1, page 4).",
+      "limits": "EUR 2,000 / USD 2,600 / GBP 1,680 / CHF 1,860 (Maximum Outpatient Limit, per Insured Person and per Policy Period)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Unless otherwise agreed, the provision of transportation services must be carried out by a duly licensed service provider."
+      ],
+      "page": 8
+    },
+    {
+      "name": "24-hour phone and e-mail service with experienced counsellors, own Doctors and specialists",
+      "description": "Medical assistance is accessible every day of the year, around the clock, either through e-mail or by contacting the medical assistance hotline. These services are available 24 (twenty-four) hours a day, 7 (seven) days a week, 365 days a year. (Heading of the detailed description, page 12: “24-hour phone and e-mail service with experienced counsellors, Doctors and specialists”.)",
+      "is_optional": false,
+      "territorial_scope": "According to the Geographical Area agreed in the Insurance Policy: Geographical Area I: Worldwide including USA / Geographical Area II: Worldwide excluding USA (2.1, page 4).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "When the insurance cover ends according to the Insurance Policy, the Insured Person will no longer be entitled to these services."
+      ],
+      "page": 8
+    },
+    {
+      "name": "Medical evacuation and Repatriation",
+      "description": "This service encompasses a medically justified and necessary ambulance service, either within the Country of Residence or to a cross-border location if the inpatient medical care or hygiene standards in the local Hospital are deemed inadequate. The service also includes the costs of Medically necessary medical accompaniment during transport. Following consultation with the Insurer or the Service Centre and the attending Doctor, the Insured Person will be transported (within the selected Geographical Area) to: a more suitable location for its Treatment in another country; the Insured Person's Country of Residence if the insured event occurred outside this country; the Insured Person's Country of Departure or Home Country.",
+      "is_optional": false,
+      "territorial_scope": "According to the Geographical Area agreed in the Insurance Policy: Geographical Area I: Worldwide including USA / Geographical Area II: Worldwide excluding USA (2.1, page 4).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Evacuation or Repatriation must be prescribed by the treating Doctor and deemed Medically necessary.",
+        "The Insurer or the Service Centre must grant prior approval.",
+        "The Insurer will only cover transport to a location deemed suitable for Treatment."
+      ],
+      "page": 8
+    },
+    {
+      "name": "Information on medical infrastructure (local medical care and names and addresses of multilingual Doctors )",
+      "description": "In the event of an insured incident or Emergency, the Insurer or the Service Centre will inform the Insured Person about the locally available medical care. Information regarding the designation of Doctors, Hospital consultants, Hospitals, and specialised medical facilities in the vicinity of the Insured Person can be provided in English, German, French and Spanish. Additionally, guidance and assistance in choosing a Treatment location, in case of a Medically necessary transfer or change of care provider, can also be offered.",
+      "is_optional": false,
+      "territorial_scope": "According to the Geographical Area agreed in the Insurance Policy: Geographical Area I: Worldwide including USA / Geographical Area II: Worldwide excluding USA (2.1, page 4).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 8
+    },
+    {
+      "name": "Support and information by our medical service (Second Opinion, monitoring of the course of the illness)",
+      "description": "The Insured Person can reach out to the Insurer or the Service Centre via phone whenever local medical assistance is needed. Upon the Insured Person's request, the Insurer or the Service Centre can inform the Insured Person's relatives about the occurrence of an insured event or Emergency, provided it is technically feasible. In cases involving potentially fatal illnesses or serious permanent disabilities, the Insured Person has the option to seek a Second Opinion directly from another Doctor or, if necessary, through the Insurer or the Service Centre. For cases requiring inpatient Treatment, the progress of the illness can be monitored by Doctors associated with the Insurer or the Service Centre; this monitoring also extends to Outpatient Treatments designed to prevent Hospital stays.",
+      "is_optional": false,
+      "territorial_scope": "According to the Geographical Area agreed in the Insurance Policy: Geographical Area I: Worldwide including USA / Geographical Area II: Worldwide excluding USA (2.1, page 4).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 8
+    },
+    {
+      "name": "Guarantee of payment (GOP) (preparing for a stay in Hospital)",
+      "description": "This notification is crucial for proper planning, whether for planned inpatient Treatment or Emergency inpatient Treatment, enabling the Insurer or the Service Centre to handle the necessary formalities and ensure cost cover for Doctors or the Hospital. These formalities include conducting a medical review of invoices to verify their adherence to Usual, Customary and Reasonable standards. The Insurer will also coordinate with the Hospital on invoice submission addresses and payment terms, ensuring direct payment of invoices.",
+      "is_optional": false,
+      "territorial_scope": "According to the Geographical Area agreed in the Insurance Policy: Geographical Area I: Worldwide including USA / Geographical Area II: Worldwide excluding USA (2.1, page 4).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "In the event of an Emergency requiring inpatient Treatment, the Insured Person must promptly contact the Insurer or the Service Centre.",
+        "If there is a planned inpatient Treatment or surgery qualifying as Outpatient Treatment instead of inpatient Treatment, the Insured Person shall notify the Insurer or the Service Centre at least 7 (seven) days before the scheduled Hospital admission.",
+        "Failure to inform the Insurer or the Service Centre beforehand or immediately in case of an Emergency may result in the Insurer not paying the full Claim."
+      ],
+      "page": 8
+    },
+    {
+      "name": "Return of mortal remains",
+      "description": "In the event of a death abroad, the Insurer or the Service Centre can provide assistance: securing the death certificate or Accident report, as permitted by law; liaising with public authorities and consulates in the foreign country; determining which surviving relatives are authorized to make decisions regarding the Repatriation or cremation of the deceased; managing all formalities for Repatriation, cremation, or a local funeral in compliance with the regulations of the relevant country. The Insurer will reimburse direct costs incurred for repatriating the deceased to the Country of Departure or Home Country, including all associated formalities, and costs related to repatriating the urn to the Country of Departure or Home Country if the deceased has been cremated in the Country of residence; both also cover a family member traveling with the mortal remains if they were accompanying the deceased member at the time of death.",
+      "is_optional": false,
+      "territorial_scope": "According to the Geographical Area agreed in the Insurance Policy: Geographical Area I: Worldwide including USA / Geographical Area II: Worldwide excluding USA (2.1, page 4).",
+      "limits": "Up to EUR 2,500 / USD 3,250 / GBP 2,100 / CHF 2,325",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "However, funeral costs per se will not be eligible for reimbursement."
+      ],
+      "page": 8
+    },
+    {
+      "name": "Additional appropriate medical support (information on the nature, possible causes and possible Treatment of an illness)",
+      "description": "Whether an insured event has occurred or not, and upon the request of the Insured Person, the Insurer or the Service Centre will offer general information about the destination, local customs, and required formalities, medical information including advice on vaccinations and medical consultations by phone, and guidance on what to include in a personal first-aid kit. In the event of an insured event, they will provide general information about the nature, potential causes, and available Treatments for the illness, clarify the medical terminology used and provide details on Drugs, their potential side effects, and interactions. For cases requiring Outpatient Treatment, the Insurer or the Service Centre will coordinate and monitor the Treatment and progress, facilitating consultations between Doctors if necessary and arranging any additional support needed.",
+      "is_optional": false,
+      "territorial_scope": "According to the Geographical Area agreed in the Insurance Policy: Geographical Area I: Worldwide including USA / Geographical Area II: Worldwide excluding USA (2.1, page 4).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 8
+    },
+    {
+      "name": "Online services",
+      "description": "The Insured Person is entitled to use the dedicated online service in the provided online member area.",
+      "is_optional": false,
+      "territorial_scope": "According to the Geographical Area agreed in the Insurance Policy: Geographical Area I: Worldwide including USA / Geographical Area II: Worldwide excluding USA (2.1, page 4).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 8
+    },
+    {
+      "name": "Telemedicine",
+      "description": "The Insurer grants all Insured Persons access to telemedical services. In collaboration with a third-party provider, the Insurer offers a complimentary app, available on both iOS and Android platforms. Stringent security measures are employed to safeguard both access and data, mitigating any potential security breaches. The available services include telephone consultation, video consultation, and chat, all provided in English, German, and Spanish. These services are accessible around the clock, 7 (seven) days a week. Single row of the scope of Benefits 3.9 (Additional Assistance Benefits) for Plan Short.",
+      "is_optional": false,
+      "territorial_scope": "According to the Geographical Area agreed in the Insurance Policy: Geographical Area I: Worldwide including USA / Geographical Area II: Worldwide excluding USA (2.1, page 4).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Access is open to all Insured Persons aged 18 (eight-teen) and above, actively covered under this Insurance Policy, and who have given consent for the processing of personal data."
+      ],
+      "page": 9
+    },
+    {
+      "name": "Temporary cover for Geographical Area I",
+      "description": "If the Insurer has agreed to provide insurance cover under the Insurance Policy for ‘Geographical Area II – Worldwide excluding USA’, and the Insured Person is temporarily residing in the USA, the Insurer will still provide cover for medical emergencies, Accidents, and death occurring within Geographical Area I: Worldwide including USA, for trips lasting up to 3 (three) weeks. Should an insured event occur within such 3 (three)-week period, and the Insured Person requires Emergency Treatment in the USA, there is no specific time limit on the Treatment itself.",
+      "is_optional": false,
+      "territorial_scope": "Geographical Area I: Worldwide including USA, where Geographical Area II has been agreed",
+      "limits": null,
+      "sub_limits": [
+        "trips lasting up to 3 (three) weeks"
+      ],
+      "deductible": null,
+      "conditions": [
+        "However, if a medical Emergency arises, the Insurer may relocate the Insured Person to another country for the Treatment if deemed medically appropriate and feasible.",
+        "The Insurance cover provided under the Insurance Policy will not extend to journeys undertaken solely for the purpose of obtaining Treatment in Geographical Area I."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Temporary cover for Home Country",
+      "description": "If any Insured Person is temporarily away from the Country of Residence, the Insurer will grant insurance cover for medical Emergencies, as well as for the consequences of an Accident, also in the Home Country for trips up to a maximum accumulated 30 (thirty) days between two stays in the Insured Persons Country of residence.",
+      "is_optional": false,
+      "territorial_scope": "Away from the Country of Residence, including the Home Country",
+      "limits": null,
+      "sub_limits": [
+        "maximum accumulated 30 (thirty) days between two stays in the Insured Persons Country of residence"
+      ],
+      "deductible": null,
+      "conditions": [
+        "The Insurer will not cover any medical expenses for the purpose of getting Treatment in the Home Country (page 5)."
+      ],
+      "page": 4
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Treatment abroad undertaken for the purpose of the Treatment",
+      "description": "Treatment abroad is excluded from Benefits if such Treatment was the sole reason or one of the reasons for travelling abroad. (1.1)",
+      "applies_to": "all",
+      "page": 3
+    },
+    {
+      "name": "Pre-Existing Conditions including Congenital Conditions",
+      "description": "The Insurer does not cover Pre-Existing Conditions including Congenital Conditions. Pre-Existing Condition means any condition: a) For which the Insured Person did have signs, symptoms or has received medical advice, Treatment, diagnosis, consultation or prescribed Drugs within 2 (two) years preceding the Effective Date of the Insurance Policy; or b) For which medical advice or Treatment was recommended by a Doctor or Medical Practitioner within 2 (two) years preceding the Effective Date of the Policy. (1.3; see also the broader Glossary definition on page 21.)",
+      "applies_to": "all",
+      "page": 3
+    },
+    {
+      "name": "Journeys undertaken solely for the purpose of obtaining Treatment in Geographical Area I",
+      "description": "The Insurance cover provided under the Insurance Policy will not extend to journeys undertaken solely for the purpose of obtaining Treatment in Geographical Area I. (2.2)",
+      "applies_to": "Temporary cover for Geographical Area I",
+      "page": 4
+    },
+    {
+      "name": "Treatment in the Home Country",
+      "description": "The Insurer will not cover any medical expenses for the purpose of getting Treatment in the Home Country. (2.7)",
+      "applies_to": "Temporary cover for Home Country",
+      "page": 5
+    },
+    {
+      "name": "Dental procedures as part of inpatient or Outpatient Treatment",
+      "description": "Dental procedures like dentures, Implants, dental surgery, and orthodontic Treatment, even when performed by a Doctor in a Hospital, are not considered part of inpatient or Outpatient Treatment and are not covered via this Insurance Policy. (3.4)",
+      "applies_to": "all",
+      "page": 6
+    },
+    {
+      "name": "Rooms with upgraded amenities",
+      "description": "Accommodation is restricted to standard private or semi-private rooms, as specified in the scope of Benefits. It explicitly excludes rooms with upgraded amenities, including but not limited to deluxe rooms, executive rooms, or suites that may have additional facilities such as kitchens, dining areas, or sitting rooms. (4.1)",
+      "applies_to": "Accommodation in a private or semi-private room",
+      "page": 10
+    },
+    {
+      "name": "Nutritional food, tonics, mineral water, cosmetics, products for personal hygiene and bath salts",
+      "description": "Nutritional food, tonics, mineral water, cosmetics, products for personal hygiene, as well as bath salts, are not deemed as Drugs eligible for cover under the Insurance Policy as part of Medical Treatment (4.1, page 10; equivalent wording in 4.2, page 12).",
+      "applies_to": "Drugs and Dressings",
+      "page": 10
+    },
+    {
+      "name": "Sanatorium Treatments, cures, cure establishments, spas, convalescent homes or nursing homes",
+      "description": "The Insurance Policy does not cover expenses related to Sanatorium Treatments, cures, stays in cure establishments, spas, convalescent homes, or nursing homes. (4.1, Inpatient Follow-Up Rehabilitation)",
+      "applies_to": "Inpatient Follow-Up Rehabilitation",
+      "page": 11
+    },
+    {
+      "name": "Funeral costs",
+      "description": "However, funeral costs per se will not be eligible for reimbursement. (4.3, Return of mortal remains)",
+      "applies_to": "Return of mortal remains",
+      "page": 14
+    },
+    {
+      "name": "Acting against medical advice",
+      "description": "The Insurer does not cover Treatments resulting from the Insured Person's failure to seek or follow medical advice, or from traveling against medical recommendations.",
+      "applies_to": "all",
+      "page": 15
+    },
+    {
+      "name": "Bone marrow and organ transplants",
+      "description": "The Insurer will not reimburse expenses for Treatment of bone marrow or organ transplantation (such as heart, kidney, liver, pancreas).",
+      "applies_to": "all",
+      "page": 15
+    },
+    {
+      "name": "Complications caused by excluded cover",
+      "description": "The Insurer will not provide cover for expenses resulting from complications directly arising from an illness, injury, or Treatment that are excluded or have limited cover.",
+      "applies_to": "all",
+      "page": 15
+    },
+    {
+      "name": "Cosmetic/plastic surgery",
+      "description": "Expenses incurred for cosmetic or plastic surgery and Treatment will not be reimbursed.",
+      "applies_to": "all",
+      "page": 15
+    },
+    {
+      "name": "Dental Treatment",
+      "description": "The Insurer will not reimburse expenses related to dental care or Treatment, including but not limited to routine dental check-ups, cleanings, fillings, extractions, root canals, orthodontic procedures (e.g., braces), prosthetic devices (e.g., dentures, crowns, bridges), cosmetic dentistry, or any surgical procedures involving the teeth or gums.",
+      "applies_to": "all",
+      "page": 15
+    },
+    {
+      "name": "Detoxification programmes including therapies",
+      "description": "Detoxification programs, including Treatments for drug addiction and alcoholism, are not covered by the Insurance Policy. However, Benefits for an initial detoxification will be paid if the Insured Person is unable to claim a refund elsewhere, and in the case of inpatient detoxification, the Insurer will only reimburse expenses related to basic Hospital services, including medical Treatment and Drugs. Any subsequent Treatment resulting from or directly associated with harmful, hazardous, or addictive use of any substance, including alcohol and Drugs, will not be covered.",
+      "applies_to": "all",
+      "page": 15
+    },
+    {
+      "name": "Developmental disorders",
+      "description": "The Insurer does not provide cover for services, therapies, educational testing, or training associated with learning disabilities or disorders of psychological development. This includes conditions such as developmental delays, scholastic skills, pervasive disorders, mental retardation, perceptual handicap, brain damage not caused by accidental injury or illness, minimal brain dysfunction, dyslexia, or apraxia.",
+      "applies_to": "all",
+      "page": 15
+    },
+    {
+      "name": "Dialysis",
+      "description": "The Insurer will not reimburse Expenses for Dialysis, encompassing essential Medication and all associated costs.",
+      "applies_to": "all",
+      "page": 15
+    },
+    {
+      "name": "Epidemics, pandemics and Disease outbreaks",
+      "description": "Expenses associated with Treatment, medical evacuations, and/or Repatriations, whether directly or indirectly resulting from epidemics, pandemics, or Disease outbreaks of comparable scale that have been brought under the control of local public health authorities, will not be reimbursed unless otherwise approved by the Insurer in writing.",
+      "applies_to": "all",
+      "page": 15
+    },
+    {
+      "name": "Experimental and investigational Treatments",
+      "description": "The Insurer will not provide cover for any form of Treatment or drug therapy that it deems to be experimental or investigational. A service, technology, supply, procedure, Treatment, drug, device, facility, equipment, or biological product is considered experimental or investigational when it does not meet all of the following requirements: it must have a final license and clear approval from at least one of the following: EMA (European Medicines Agency), FDA (Food and Drug Administration – phase III completed), European network for Health Technology Assessment (EUnetHTA) — interim approval is not sufficient, and the approval is only valid for the corresponding medical indications and conditions; in the case of procedures and approved clinical pathway guidance, it must be clearly stated as such on one of the following guidelines: NICE, AWMF, AHRQ National Guideline. All approvals and guidance must be conclusive and must not indicate the need for more research, be under a research environment, have limited evidence, insufficient evidence, or lack clinical utility.",
+      "applies_to": "all",
+      "page": 15
+    },
+    {
+      "name": "Extreme sport and high-risk activities",
+      "description": "Extreme sport and high-risk activities are not covered under the Insurance Policy. Extreme sports and high-risk sporting activities encompass any form of sport or athletic pursuit characterized by a heightened level of inherent danger. This includes activities demanding advanced expertise, extraordinary physical exertion, specialised equipment, performance of daring stunts and activities in which the Insured Person has signed a liability waiver, such as inter alia the following: abseiling, mountaineering (apart from indoor climbing and low mountain areas fully equipped for sports climbing) and racing of any kind; bobsleigh, luge, skeleton, off-piste skiing, and off-piste snowboarding; bungee and cliff jumping; combative sports; downhill mountain biking and cross-country cycling; extreme tourism (e.g. tours to Antarctica); horseback hunting, horse jumping, polo, steeplechasing, or any form of horse racing; motorcycle sports, including motorcycle riding and quad biking; microlight flying, wingsuit flying, ballooning, hang gliding, paragliding, parascending, and parachute jumping; solo caving (potholing) or cave diving, scuba diving beyond 10 meters, high diving, white water rafting, and canyoning; ultra marathons or activities similar in nature; any other hazardous activity similar in risk to the before mentioned ones, such as e.g. train surfing.",
+      "applies_to": "all",
+      "page": 16
+    },
+    {
+      "name": "Search and rescue services for extreme sport and high-risk activities",
+      "description": "Search and rescue services for extreme sport and high-risk activities, including but not limited to cave, sea and mountain rescue, are also excluded from the cover provided for under the Insurance Policy.",
+      "applies_to": "all",
+      "page": 16
+    },
+    {
+      "name": "Eyesight",
+      "description": "The Insurer will not provide cover for any Treatment or surgery aimed at correcting an Insured Person's eyesight, including procedures such as laser Treatment, refractive keratotomy (RK), and photorefractive keratectomy (PRK). Cover does apply to the correction of the Insured Person's vision when this is Medically necessary (e.g., cataract or detached retina).",
+      "applies_to": "all",
+      "page": 16
+    },
+    {
+      "name": "Gender reassignment",
+      "description": "The Insurer will not provide cover for the alteration of biological sexual characteristics through surgery and hormone Treatment to transition to the characteristics of the opposite sex.",
+      "applies_to": "all",
+      "page": 16
+    },
+    {
+      "name": "Genetic testing",
+      "description": "The Insurance policy does not cover the expenses related to genetic testing unless particular genetic tests are explicitly mentioned as part of the Insured Person's Plan, or the Insurer expressly gives prior written approval.",
+      "applies_to": "all",
+      "page": 16
+    },
+    {
+      "name": "Illnesses, Accidents and their consequences caused by intent or gross negligence",
+      "description": "The Insurer will not provide cover for illnesses, Accidents, and their ensuing consequences, if they are intentionally caused or caused by gross negligence. The Insurer defines an illness or Accident as intentionally caused or caused by gross negligence when the individual involved had a reasonable understanding of the outcomes of their actions and willingly accepted the resulting harm. This includes, but it is not limited to: self-inflected injuries; attempted suicide; stays in an institution for drug withdrawal and injuries caused in the context of criminal acts.",
+      "applies_to": "all",
+      "page": 16
+    },
+    {
+      "name": "Infertility Treatment",
+      "description": "The Insurer will not reimburse expenses related to diagnostics and Treatments as part of Infertility Treatment. This includes measures to prevent future miscarriages, investigations into miscarriage, and assisted reproduction, along with associated complications.",
+      "applies_to": "all",
+      "page": 17
+    },
+    {
+      "name": "Injuries caused by military service",
+      "description": "The Insurer will not provide cover for illnesses, Accidents, and their resulting consequences that occur while the Insured Person is engaged in military operations, military service, riot and civil commotion.",
+      "applies_to": "all",
+      "page": 17
+    },
+    {
+      "name": "Maternity care and childbirth",
+      "description": "The Insurer will not reimburse Expenses related to childbirth, pregnancy, or pregnancy-related illnesses, including complications to childbirth, pregnancy, or pregnancy-related illnesses.",
+      "applies_to": "all",
+      "page": 17
+    },
+    {
+      "name": "Need for long-term care and custody",
+      "description": "The Insurer will not reimburse any expenses related to accommodation necessitated by long-term care and custody.",
+      "applies_to": "all",
+      "page": 17
+    },
+    {
+      "name": "Non-medical Hospital expenses",
+      "description": "The Insurance Policy does not cover expenses caused by any person accompanying the Insured Person, and does further not cover non-medical consumables, catering, and any media-related expenses (such as TV and radio).",
+      "applies_to": "all",
+      "page": 17
+    },
+    {
+      "name": "Nuclear, chemical and biological contamination",
+      "description": "The Insurer does not provide cover for illnesses, Accidents, and their consequences caused by nuclear energy (including nuclear reactions, radiations, and contamination), as well as illnesses, Accidents, and their consequences resulting from chemical or biological weapons.",
+      "applies_to": "all",
+      "page": 17
+    },
+    {
+      "name": "Nursing Home",
+      "description": "The Insurance Policy excludes cover for expenses associated with staying at home or receiving non-medical care at home, in a convalescence home, psychiatric home, or similar facilities.",
+      "applies_to": "all",
+      "page": 17
+    },
+    {
+      "name": "Post-natal classes",
+      "description": "The Insurer will not provide cover for post-natal classes aimed at addressing the physical effects on the body resulting from pregnancy and childbirth.",
+      "applies_to": "all",
+      "page": 17
+    },
+    {
+      "name": "Professional Sports",
+      "description": "The Insurer does not provide cover for Treatments or diagnostic procedures related to injuries or illnesses resulting from participation in Professional Sports.",
+      "applies_to": "all",
+      "page": 17
+    },
+    {
+      "name": "Psychiatric and Psychotherapy Treatment",
+      "description": "The Insurer will not reimburse expenses incurred for psychiatric and psychotherapy Treatment, or any other mental health-related Treatments, whether provided on an inpatient or outpatient basis. This includes, but is not limited to, consultations with psychiatrists, psychologists, psychotherapists, or counselors, as well as any prescribed Medications or therapies related to mental, emotional, or behavioral disorders.",
+      "applies_to": "all",
+      "page": 17
+    },
+    {
+      "name": "Routine health checks",
+      "description": "The Insurer will not reimburse expenses incurred for routine health checks that involve examinations or screening tests conducted in the absence of clinical symptoms.",
+      "applies_to": "all",
+      "page": 17
+    },
+    {
+      "name": "Sleep disorder",
+      "description": "The Insurer does not provide cover for examinations or Treatment related to sleep disorders, including insomnia. This encompasses CPAP (continuous positive airway pressure machine) and BIPAP (bilevel positive airway pressure machine).",
+      "applies_to": "all",
+      "page": 17
+    },
+    {
+      "name": "Spa and wellness massages",
+      "description": "The Insurer will not provide cover for stays or Treatments in a cure centre sanatorium, spa, health resort, or recovery centre, even if medically prescribed. This restriction also includes thermal baths, saunas, and various wellness massages.",
+      "applies_to": "all",
+      "page": 18
+    },
+    {
+      "name": "Sterilisation, sexual dysfunction and contraception",
+      "description": "The Insurer will not provide cover for procedures intended to render a person incapable of reproduction, any procedures, Treatments, or Medications aimed at preventing pregnancy, or any Treatment for sexual dysfunction (unless part of infertility Treatment).",
+      "applies_to": "all",
+      "page": 18
+    },
+    {
+      "name": "Surrogacy",
+      "description": "The Insurer will not reimburse expenses associated with Treatments directly related to surrogacy, regardless of whether the Insured Person is serving as a surrogate or are the intended parent. Children born to a surrogate mother are not covered under the Insurance Policy.",
+      "applies_to": "all",
+      "page": 18
+    },
+    {
+      "name": "Transport costs",
+      "description": "Transport costs, other than Emergency ambulance services, will not be refunded unless the Insurer expressly gives prior written approval.",
+      "applies_to": "all",
+      "page": 18
+    },
+    {
+      "name": "Treatment in sanatoriums, convalescent and nursing homes",
+      "description": "The Insurer does not provide cover for therapies and Treatments in sanatoriums or convalescent and nursing homes. However, based on the selected Plan level, the Insurer may partially refund expenses for Follow-Up Rehabilitation.",
+      "applies_to": "all",
+      "page": 18
+    },
+    {
+      "name": "Treatment by certain Doctors, Dentists and other Therapists, as well as in certain Hospitals",
+      "description": "The Insurance Policy does not cover Treatments administered by physicians, Dentists, and other Therapists, as well as Hospital services whose invoices the Insurer has declined to settle for substantial reasons. Nevertheless, this release from the obligation to provide Benefits is applicable solely to insured events occurring subsequent to the Insured Person's notification of Benefit exclusion. If an insured event has already occurred at the time of notification, the Insurer's exemption from Benefits will only pertain to expenses incurred more than 1 (one) month after receiving notice.",
+      "applies_to": "all",
+      "page": 18
+    },
+    {
+      "name": "Treatment by marital or non-marital partners, parents or children",
+      "description": "The Insurer will not reimburse expenses if the Insured Person receives Treatment from its spouse, husband, non-marital partner, parents, or children. However, the documented cost of materials required for the Treatment, in accordance with the Plan, will be eligible for reimbursement.",
+      "applies_to": "all",
+      "page": 18
+    },
+    {
+      "name": "Unlawful Acts and Hazardous Behaviour",
+      "description": "The Insurer will not cover any illnesses, Accidents, or resulting consequences that arise from unlawful acts or hazardous behaviour. This includes, but it is not limited to: activities undertaken in violation of explicit warnings or prohibitions issued by medical professionals, public health authorities, or law enforcement agencies; consequences of drunkenness and/or intoxication; disturbances and measures taken to combat such disturbances, unless the Policyholder and/or Insured Person proves that the Insured Person did not actively participate in them; quarrels and/or heated arguments, except in case of legitimate self-defence (a report from the authorities will be used as proof), and betting and/or defiance.",
+      "applies_to": "all",
+      "page": 18
+    },
+    {
+      "name": "Vaccinations and immunization",
+      "description": "The Insurer will not reimburse the costs associated with vaccinations and Prophylactic Measures, regardless of whether such measures are recommended for the Insured Person's Country of residence.",
+      "applies_to": "all",
+      "page": 18
+    },
+    {
+      "name": "Vision aids",
+      "description": "The Insurer will not reimburse Expenses for eyeglass, frames and lenses, including contact lenses.",
+      "applies_to": "all",
+      "page": 19
+    },
+    {
+      "name": "Vitamins and minerals",
+      "description": "The Insurer will not reimburse expenses for items categorized as vitamins or minerals, with the exception of Medically necessary instances during pregnancy or for the Treatment of diagnosed, clinically significant vitamin-deficiency syndromes. This exclusion also applies to dietary supplements, including special infant formula and cosmetic products, even if they are medically recommended, prescribed, or acknowledged for therapeutic effects. Products such as nutriments, tonics, mineral water, cosmetics, hygiene and body-care products, and bath additives are not considered Medically necessary, and costs incurred for them will not be refunded.",
+      "applies_to": "all",
+      "page": 19
+    },
+    {
+      "name": "War, civil unrest, acts of terrorism",
+      "description": "The Insurance Policy does not cover illnesses or Accidents and their consequences, as well as death attributable to acts of war, civil unrest or acts of terrorism, unless the Insured Person is injured as an uninvolved third party who has not wilfully or negligently disregarded the danger and the Insured Person has not deliberately entered the area of conflict. Insurance cover shall not be granted under any circumstances if the Insured Person enters an area of direct warfare or renders services for one of the warring parties. The exclusion of Benefits shall apply regardless of whether or not war has been declared. If the Insured Person acquires knowledge of the war, civil unrest or terrorist acts while in the country, the Insurance Policy will only cover Emergency, life-saving Treatment and only for as long as the insured Person is prevented from leaving the country or region concerned, but for not more than 28 (twenty-eight) days at most.",
+      "applies_to": "all",
+      "page": 19
+    },
+    {
+      "name": "Other limitations to pay Benefits – reduction beyond what is Medically Necessary or outside Usual, Customary and Reasonable",
+      "description": "If the Treatment or other agreed-upon measure exceeds what is Medically Necessary or the claimed amount falls outside the Usual, Customary and Reasonable range, the Insurer reserves the right to reduce the payment/reimbursement. The Insured Person will be responsible for any costs that do not align with the Usual, Customary and Reasonable standards, as the Insurer does not cover amounts beyond this threshold. The Insurer retains the right to assess any cost or estimate with the input of medical professionals to determine its conformity with Usual, Customary and Reasonable standards.",
+      "applies_to": "all",
+      "page": 19
+    },
+    {
+      "name": "Other limitations to pay Benefits – Benefits claimable from another provider",
+      "description": "If the Insured Person can claim Benefits from a statutory health insurance fund or any other provider, the Insurer will only reimburse expenses that remain Medically necessary despite those Benefits. Complications arising from excluded conditions are not covered.",
+      "applies_to": "all",
+      "page": 19
+    }
+  ],
+  "deductibles": {
+    "standard": "There are no Deductibles. (3.3)",
+    "variable": null,
+    "per_coverage": {
+      "Outpatient Treatment": "The Insurer has established a fixed 20% Co-Payment for Outpatient Treatment.",
+      "Geographical Area I": "If the Insurer has agreed to a Co-Payment, it will not change when the maximum sums are doubled (2.3, page 4)."
+    },
+    "page": 6
+  },
+  "waiting_periods": [
+    {
+      "coverage": "All Benefits",
+      "duration": "none",
+      "description": "1.4 Waiting Period: “There are no Waiting Periods.”",
+      "page": 3
+    }
+  ],
+  "obligations": [
+    {
+      "name": "Compliance with local social security laws",
+      "description": "The Policyholder is responsible for ensuring compliance with local social security laws and regulations for all Insured Persons covered by the Insurance Policy.",
+      "timing": "during the Policy Period",
+      "sanction": "The Insurer reserves the right to terminate the entire Insurance Policy or the insurance cover for specific Insured Persons in the event of legal changes in a country that would result in a violation of laws or regulations.",
+      "page": 3
+    },
+    {
+      "name": "Change of residence",
+      "description": "For change of residence, the Insurer will assess each case individually, determining whether to issue, modify, or terminate the insurance cover.",
+      "timing": "on change of residence",
+      "sanction": "The insurance cover may be modified or terminated.",
+      "page": 3
+    },
+    {
+      "name": "Notification of relocation to another Geographical Area",
+      "description": "If an Insured Person relocates to a Geographical Area different for the one agreed to be covered under the Insurance Policy for any duration, such relocation must be immediately notified to the Insurer.",
+      "timing": "immediately",
+      "sanction": "This change will impact the premium due and any Benefits to be granted under the Insurance Policy.",
+      "page": 4
+    },
+    {
+      "name": "Request for extension of the Policy Period and notification of changed circumstances",
+      "description": "The Insurer must be informed of any requests for the extension of the Policy Period and of any changes in the Insured Person's circumstances.",
+      "timing": "at least 4 (four) weeks prior to the end date of the initial Policy Period",
+      "sanction": null,
+      "page": 4
+    },
+    {
+      "name": "Notification of permanent return to the Home Country",
+      "description": "When the Insured Person returns to the Home Country and thereby ending the stay abroad, the Insured Person shall notify the Insurer of the exact date of relocation to the Home Country, as soon as it becomes aware of it.",
+      "timing": "latest on the actual day of relocation",
+      "sanction": "If the Insured Person fails to inform the Insurer of the relocation, the Insurer cannot guarantee cover and may have to terminate the Insurance Policy in line with the Terms and Conditions of Insurance. Insurance premiums already paid for the elapsed Policy Period are not refundable.",
+      "page": 5
+    },
+    {
+      "name": "Notification of a Hospital stay",
+      "description": "It is imperative to contact and inform the Insurer or the Service Centre regarding the Hospital stay and Treatment.",
+      "timing": "before or within 3 (three) calendar days of admission to the Hospital",
+      "sanction": "Failure to do so may result in the Insurer not fully covering the Claim.",
+      "page": 10
+    },
+    {
+      "name": "Prior approval of medical evacuation and Repatriation",
+      "description": "Evacuation or Repatriation must be prescribed by the treating Doctor and deemed Medically necessary, and the Insurer or the Service Centre must grant prior approval.",
+      "timing": "before transport",
+      "sanction": null,
+      "page": 13
+    },
+    {
+      "name": "Notification before inpatient Treatment",
+      "description": "In the event of an Emergency requiring inpatient Treatment, the Insured Person must promptly contact the Insurer or the Service Centre. If there is a planned inpatient Treatment or surgery qualifying as Outpatient Treatment instead of inpatient Treatment, the Insured Person shall notify the Insurer or the Service Centre at least 7 (seven) days before the scheduled Hospital admission.",
+      "timing": "promptly in an Emergency; at least 7 (seven) days before a scheduled Hospital admission",
+      "sanction": "Failure to inform the Insurer or the Service Centre beforehand or immediately in case of an Emergency may result in the Insurer not paying the full Claim.",
+      "page": 13
+    },
+    {
+      "name": "Prior written approval of Inpatient Follow-Up Rehabilitation",
+      "description": "Inpatient Follow-Up Rehabilitation is subject to prior written approval from the Insurer before the Start of Treatment, and must commence within 2 (two) weeks of Hospital discharge.",
+      "timing": "before the Start of Treatment",
+      "sanction": null,
+      "page": 11
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Contact the Service Centre",
+      "description": "The Insured Persons can claim the services of the Insurer's Service Centres in line with the Plan level chosen whenever an insured event or Emergency happens. These services are available 24 (twenty-four) hours a day, 7 (seven) days a week, 365 days a year; the Insured Person simply calls the number shown in the insurance documents at any time, day or night.",
+      "deadline": "at any time, day or night",
+      "page": 12
+    },
+    {
+      "step": "Notify a Hospital stay",
+      "description": "Contact and inform the Insurer or the Service Centre regarding the Hospital stay and Treatment.",
+      "deadline": "before or within 3 (three) calendar days of admission to the Hospital",
+      "page": 10
+    },
+    {
+      "step": "Emergency requiring inpatient Treatment",
+      "description": "In the event of an Emergency requiring inpatient Treatment, the Insured Person must promptly contact the Insurer or the Service Centre.",
+      "deadline": "promptly",
+      "page": 13
+    },
+    {
+      "step": "Planned inpatient Treatment or surgery",
+      "description": "The Insured Person shall notify the Insurer or the Service Centre so that the necessary formalities can be handled and cost cover for Doctors or the Hospital ensured.",
+      "deadline": "at least 7 (seven) days before the scheduled Hospital admission",
+      "page": 13
+    },
+    {
+      "step": "Review of invoices and direct payment",
+      "description": "These formalities include conducting a medical review of invoices to verify their adherence to Usual, Customary and Reasonable standards. The Insurer will also coordinate with the Hospital on invoice submission addresses and payment terms, ensuring direct payment of invoices. In such cases, the Insured Person will receive written or email notification from the Insurer or the Service Centre regarding the process.",
+      "deadline": null,
+      "page": 13
+    },
+    {
+      "step": "Medical evacuation and Repatriation",
+      "description": "Evacuation or Repatriation must be prescribed by the treating Doctor and deemed Medically necessary; the Insurer or the Service Centre must grant prior approval.",
+      "deadline": "prior approval required",
+      "page": 13
+    },
+    {
+      "step": "Death abroad",
+      "description": "In the event of a death abroad, the Insurer or the Service Centre can assist by securing the death certificate or Accident report as permitted by law, liaising with public authorities and consulates in the foreign country, determining which surviving relatives are authorized to make decisions regarding the Repatriation or cremation of the deceased, and managing all formalities for Repatriation, cremation, or a local funeral in compliance with the regulations of the relevant country.",
+      "deadline": null,
+      "page": 14
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "The Policy Period begins on the Effective Date and runs until the end date of insurance shown in the Insurance Certificate. Insurance cover is granted up to 3 (three), 6 (six) or 9 (nine) months with a maximum cumulative period of 9 (nine) months in total. The Policy Period for Insured Persons who later join the Insurance Policy begins on the date indicated on their Insurance Certificate and runs until the end date of insurance.",
+    "tacit_renewal": false,
+    "notice_period": "The Insurer must be informed at least 4 (four) weeks prior to the end date of the initial Policy Period of any requests for the extension of the Policy Period and of any changes in the Insured Person's circumstances.",
+    "methods": null,
+    "special_rights": [
+      "The Insurer may agree to extend the Policy Period, before the end date of the Policy Period. Only one (1) extension of Policy Period shall be allowed (2.5, page 4).",
+      "The Insurer reserves the right to apply changes to the conditions of insurance of the Insurance Policy for the new Policy Period which follows the end date indicated in the Insurance Certificate; any agreed changes in the insurance cover will apply from the beginning of the next Policy Period (2.5, page 4).",
+      "In addition to the reasons for termination of the Insurance Policy detailed in the General Conditions of Insurance, the insurance cover and the Insurance Policy shall cease upon reaching the maximum Policy Period of 9 (nine) months. The short-term cover offered under this Insurance Policy is not subject to automatic renewal (2.6, page 4).",
+      "The Insurer reserves the right to terminate the entire Insurance Policy or the insurance cover for specific Insured Persons in the event of legal changes in a country that would result in a violation of laws or regulations (1.2, page 3).",
+      "If the Insured Person fails to inform the Insurer of a permanent relocation to the Home Country, the Insurer cannot guarantee cover and may have to terminate the Insurance Policy (2.8, page 5)."
+    ],
+    "page": 4
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "If an Insured Person relocates to a Geographical Area different for the one agreed to be covered under the Insurance Policy for any duration, such relocation must be immediately notified to the Insurer, and this change will impact the premium due and any Benefits to be granted under the Insurance Policy (2.2, page 4).",
+      "Insurance premiums already paid for the elapsed Policy Period are not refundable (2.8, page 5)."
+    ],
+    "indexation": null,
+    "page": 4
+  },
+  "special_conditions": [
+    {
+      "name": "Contractual basis and order of precedence",
+      "description": "Terms capitalized in this document, unless explicitly defined otherwise, will bear the meanings specified in the Glossaries outlined in the Special and the General Conditions of Insurance. In the event of discrepancy between the General Conditions of Insurance, the Special Conditions and the Particular Conditions, the Particular Conditions shall prevail over the Special Conditions and the General Conditions of Insurance, and the Special Conditions shall prevail over the General Conditions of Insurance.",
+      "page": 3
+    },
+    {
+      "name": "Prevailing language",
+      "description": "The English version of all relevant literature and documentation shall prevail over any other language or translation.",
+      "page": 3
+    },
+    {
+      "name": "Double Benefits for Geographical Area I",
+      "description": "If the Insured Person is covered under Geographical Area I (worldwide including USA) the Insurer will double the maximum sums shown in 3.5, 3.6 and 3.7 (whether the Treatment takes place in the USA or not). If a Benefit is limited to a certain number of days or sessions, this limit will not change. If the Insurer has agreed to a Co-Payment, it will not change.",
+      "page": 4
+    },
+    {
+      "name": "Allocation of Co-Payments and expenses",
+      "description": "Co-Payments apply on Policy Period basis for each Insured Person. Expenses are allocated to the Policy Period during which the Doctor or Therapist was consulted and when Drugs and/or Dressings were provided.",
+      "page": 6
+    },
+    {
+      "name": "Criteria for obtaining Benefits",
+      "description": "Insured Persons have the flexibility to select any licensed Doctors, or Therapists within the country where they need Treatment, and this choice extends to other healthcare Practitioners. The Insurer will reimburse expenses solely for Medically necessary Treatments within the scope of medical practice. Reimbursement for such Treatments and services from other Therapists is subject to reasonable fees aligned with Usual, Customary and Reasonable rates. Additionally, the Insurer may reimburse expenses that surpass the maximum fees based on Usual, Customary and Reasonable rates if they are incurred due to difficulties arising from the illness or medical findings, provided the expenses are reasonably determined. For services by other Therapists, such as masseurs, reimbursement will be based on comparable fees for Doctors and customary prices in the country where the Treatment occurs.",
+      "page": 6
+    },
+    {
+      "name": "Conventional Medicine and alternatives",
+      "description": "Under the Insurance Policy, the Insurer will reimburse expenses for examinations, Treatment methods, and Drugs widely accepted in Conventional Medicine. Additionally, costs for methods and Drugs proven in practice or used due to the unavailability of conventional alternatives are eligible for reimbursement. However, Benefits may be limited to amounts equivalent to what would have been paid if Conventional Medicine had been accessible.",
+      "page": 6
+    },
+    {
+      "name": "Application of the maximum sums",
+      "description": "The specified maximum sums and maximum periods apply per Insured Person and per Policy Period (footnote to the scopes of Benefits 3.6, 3.7 and 3.8). All limits are per Insured Person, per Insurance Period; Benefit limits are provided on a “per Insurance Period” basis (1.2, page 3).",
+      "page": 7
+    },
+    {
+      "name": "Service and assistance network",
+      "description": "With the Insurer's service and assistance network of competent and experienced partners on the ground, the Insurer offers the Insured Persons individual support worldwide as well as comprehensive, competent consultation for any situation. This network is represented in more than 180 countries. The Insurer provides a wide range of services as well as, and as part of, the health insurance cover to support during the time abroad (for covered conditions only). When the insurance cover ends according to the Insurance Policy, the Insured Person will no longer be entitled to these services.",
+      "page": 12
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "The English version of all relevant literature and documentation shall prevail over any other language or translation.",
+      "page": 3
+    },
+    {
+      "quote": "The Insurer offers cover for Diseases, Bodily Injuries, and other occurrences leading to insured events as outlined in the Insurance Policy.",
+      "page": 3
+    },
+    {
+      "quote": "Treatment abroad is excluded from Benefits if such Treatment was the sole reason or one of the reasons for travelling abroad.",
+      "page": 3
+    },
+    {
+      "quote": "The Insurance Policy is designed for individuals living, travelling or working outside of their Home Country on temporary basis. Anyone who stays abroad for at least 3 (three) months is eligible for insurance cover unless the Insurer agrees otherwise.",
+      "page": 3
+    },
+    {
+      "quote": "Insurance cover is granted up to 3 (three), 6 (six) or 9 (nine) months with a maximum cumulative period of 9 (nine) months in total.",
+      "page": 3
+    },
+    {
+      "quote": "The Insurer does not cover Pre-Existing Conditions including Congenital Conditions.",
+      "page": 3
+    },
+    {
+      "quote": "There are no Waiting Periods.",
+      "page": 3
+    },
+    {
+      "quote": "Geographical Area I: Worldwide including USA Geographical Area II: Worldwide excluding USA",
+      "page": 4
+    },
+    {
+      "quote": "If the Insured Person is covered under Geographical Area I (worldwide including USA) the Insurer will double the maximum sums shown in 3.5, 3.6 and 3.7 (whether the Treatment takes place in the USA or not).",
+      "page": 4
+    },
+    {
+      "quote": "the insurance cover and the Insurance Policy shall cease upon reaching the maximum Policy Period of 9 (nine) months. The short-term cover offered under this Insurance Policy is not subject to automatic renewal.",
+      "page": 4
+    },
+    {
+      "quote": "If any Insured Person is temporarily away from the Country of Residence, the Insurer will grant insurance cover for medical Emergencies, as well as for the consequences of an Accident, also in the Home Country for trips up to a maximum accumulated 30 (thirty) days between two stays in the Insured Persons Country of residence.",
+      "page": 4
+    },
+    {
+      "quote": "The Insurer will not cover any medical expenses for the purpose of getting Treatment in the Home Country.",
+      "page": 5
+    },
+    {
+      "quote": "There are no Deductibles.",
+      "page": 6
+    },
+    {
+      "quote": "Co-Payment is the percentage of Treatment costs that the Insured Person must contribute. The Insurer has established a fixed 20% Co-Payment for Outpatient Treatment.",
+      "page": 6
+    },
+    {
+      "quote": "Dental procedures like dentures, Implants, dental surgery, and orthodontic Treatment, even when performed by a Doctor in a Hospital, are not considered part of inpatient or Outpatient Treatment and are not covered via this Insurance Policy.",
+      "page": 6
+    },
+    {
+      "quote": "Overall Limit per Policy Period EUR 500,000 / USD 650,000 / GBP 420,000 / CHF 465,000",
+      "page": 7
+    },
+    {
+      "quote": "The specified maximum sums and maximum periods apply per Insured Person and per Policy Period.",
+      "page": 7
+    },
+    {
+      "quote": "Maximum Outpatient Limit EUR 2,000 / USD 2,600 / GBP 1,680 / CHF 1,860",
+      "page": 8
+    },
+    {
+      "quote": "Chemotherapy, oncological Drugs and Treatment (e.g. for Cancer patients) Up to EUR 10,000 / USD 13,000 / GBP 8,400 / CHF 9,300",
+      "page": 8
+    },
+    {
+      "quote": "Return of mortal remains Up to EUR 2,500 / USD 3,250 / GBP 2,100 / CHF 2,325",
+      "page": 8
+    },
+    {
+      "quote": "Medical Treatment in a Hospital encompasses any Treatment, during which the Insured Person is admitted to a Hospital in the country where it is undergoing Treatment, for a minimum duration of 24 (twenty-four) hours.",
+      "page": 10
+    },
+    {
+      "quote": "it is imperative to contact and inform the Insurer or the Service Centre regarding the Hospital stay and Treatment before or within 3 (three) calendar days of admission to the Hospital.",
+      "page": 10
+    },
+    {
+      "quote": "If there is a planned inpatient Treatment or surgery qualifying as Outpatient Treatment instead of inpatient Treatment, the Insured Person shall notify the Insurer or the Service Centre at least 7 (seven) days before the scheduled Hospital admission.",
+      "page": 13
+    },
+    {
+      "quote": "The Insurer does not cover expenses for the following Treatments or Medical Conditions under the Insurance Policy, unless they are explicitly listed in the scope of Benefits or any other written addendum to the Insurance Policy.",
+      "page": 15
+    },
+    {
+      "quote": "The Insurer will not reimburse expenses for Treatment of bone marrow or organ transplantation (such as heart, kidney, liver, pancreas).",
+      "page": 15
+    },
+    {
+      "quote": "Extreme sport and high-risk activities are not covered under the Insurance Policy.",
+      "page": 16
+    },
+    {
+      "quote": "The Insurer will not reimburse Expenses related to childbirth, pregnancy, or pregnancy-related illnesses, including complications to childbirth, pregnancy, or pregnancy-related illnesses.",
+      "page": 17
+    },
+    {
+      "quote": "The Insurer will not reimburse expenses incurred for psychiatric and psychotherapy Treatment, or any other mental health-related Treatments, whether provided on an inpatient or outpatient basis.",
+      "page": 17
+    },
+    {
+      "quote": "If the Insured Person can claim Benefits from a statutory health insurance fund or any other provider, the Insurer will only reimburse expenses that remain Medically necessary despite those Benefits.",
+      "page": 19
+    },
+    {
+      "quote": "Foyer Global Health S.A.",
+      "page": 23
+    },
+    {
+      "quote": "Commercial Register (R.C.S. Luxembourg): B 134.471",
+      "page": 23
+    },
+    {
+      "quote": "GH_JOY_ST_SC_25.11",
+      "page": 23
+    }
+  ],
+  "gaps": [
+    "Risk carrier: the contract text refers throughout to “the Insurer” and never states, at a verb, who bears the risk. The only complete company name in the document is in the imprint block on the last page: “Foyer Global Health S.A.”, Registered Office L-3372 Leudelange, 12, rue Léon Laval, Luxembourg, Commercial Register (R.C.S. Luxembourg): B 134.471, VAT LU22284578 (page 23). That block is an imprint (registered office, contact details, registration numbers) and does not expressly state risk-bearing; it was read back on a render of page 23. The insurer_slug given in the task (foyer-global-health) was kept unchanged; there is no divergence between the document and the task metadata, but the document itself leaves the carrier unstated.",
+    "Prevailing language: the document states in 1.1 (page 3) that “The English version of all relevant literature and documentation shall prevail over any other language or translation.” This file is that English version. It was extracted solely from its own text; nothing was completed from any other language version.",
+    "edition_date: the document prints no explicit edition date. The document code “GH_JOY_ST_SC_25.11” at the foot of the last page has been recorded in `reference`; the document does not say that its 25.11 suffix is a date, so edition_date is left null.",
+    "target_audience: null. Section 1.2 describes who is eligible for cover (individuals living, travelling or working outside their Home Country on a temporary basis, staying abroad for at least 3 months) but does not say which category of buyer the product is sold to; it names only “the Policyholder” and “the Insured Persons”. The wording is in target_audience_note.",
+    "Scopes of Benefits 3.5 to 3.9: membership of the Plan Short column is not in the text layer. The “Short” column carries vector drawings of 11.3 × 11.3 pt (a tick inside a dark disc, fill RGB 0.182/0.129/0.074) at abscissa x0 = 405.5 pt, which produce no text. Marks were assigned to rows by ordinate. The arithmetic closes on this document: 29 cells (1 row in 3.5, 14 in 3.6, 5 in 3.7, 8 in 3.8, 1 in 3.9) = 27 ticks (14 on page 7, 12 on page 8, 1 on page 9) + 2 rows carrying an amount instead of a tick (Overall Limit per Policy Period on page 7, Maximum Outpatient Limit on page 8) + 0 empty cells. No row is therefore excluded, and is_optional is false for every coverage. This finding comes from the graphics layer, cannot be quoted, and is recorded in the structured fields only.",
+    "Column-order control (negative result, performed on this document): the body text is single-column and is emitted in printed order; in the benefit tables the row label (x = 62.5 pt) is emitted before the value or tick column (x = 302–405 pt). No column reversal and no line-by-line interleaving were found.",
+    "Text-layer control: all 23 pages were re-extracted with page.get_text(\"text\") from the source file (data/lu/pdfs/foyer-global-health/sante/journey-short-conditions-speciales-ee91b526.pdf) and match the task text character for character; the text was not truncated. No ligature loss, no Private Use Area glyphs, no zero-width spaces and no NFD combining characters were found; the document contains 29 en dashes (U+2013), 24 thin spaces (U+2009) and 19 curly apostrophes. All quotes are programmatic slices of a single page; none crosses a page boundary.",
+    "Page numbering: every citation is the PDF page. The printed folio (“Page N of 23”) equals the PDF page number on this document, checked against the running heads of pages 2 to 22; there is no offset.",
+    "Divergences between the scope-of-Benefits tables and the detailed descriptions, recorded uncorrected: table page 7 “Therapeutic aids and appliances” against the heading on page 10 “Therapeutic aids and appliances within the framework of inpatient Treatment”; table page 8 “Chemotherapy, oncological Drugs and Treatment (e.g. for Cancer patients)” against the heading on page 12 “Cancer Treatment, oncological Drugs and Treatment”; table page 8 “24-hour phone and e-mail service with experienced counsellors, own Doctors and specialists” against the heading on page 12 without the word “own”; table page 8 “Support and information by our medical service (Second Opinion, monitoring of the course of the illness)” against the heading on page 13 “Support and information, including Second Opinion”. The coverage names follow the tables.",
+    "Apparent typographical errors in the source, kept as printed: “self-inflected injuries” (page 16); “eight-teen” for eighteen (pages 11 and 14); “a Geographical Area different for the one agreed” (page 4); “names and addresses of multilingual Doctors )” with a space before the closing bracket (page 8); “The Insurer will not reimburse Expenses for eyeglass, frames and lenses” (page 19).",
+    "prescription_period: null. The document contains no limitation period; it expressly refers to the General Conditions of Insurance for further grounds of termination, and to the Insurance Certificate and Particular Conditions for the dates and agreed options. Those documents are not part of this file, so the claim-notification deadlines, the cancellation procedure and the limitation period could not be extracted.",
+    "The Telemedicine benefit is conditioned in this document on the Insured Person having “given consent for the processing of personal data” (page 14), in addition to being aged 18 and above and actively covered.",
+    "No premium amount, rate or tariff is stated; only the two statements on the premium effect of a change of Geographical Area and on the non-refund of premiums already paid are recorded.",
+    "This document is the Special Conditions of Plan Short. It repeatedly refers to the General Conditions of Insurance (including its Glossary), to the Particular Conditions and to the Insurance Certificate. is_extension is set to false because the document is not an option or rider but the plan-level conditions of the product Journey.",
+    "In the scope of Benefits 3.9 (Additional Assistance Benefits), Plan Short shows a single row (Telemedicine); no other row is printed on page 9."
+  ]
+}

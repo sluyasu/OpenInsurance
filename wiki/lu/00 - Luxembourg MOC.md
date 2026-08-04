@@ -138,6 +138,7 @@ Quatre absences sont délibérées, chacune vérifiée dans le texte :
 <!-- BEGIN GENERATED: insurers -->
 - [Baloise Luxembourg](insurers/Baloise%20Luxembourg.md) (34 documents)
 - [DKV Luxembourg](insurers/DKV%20Luxembourg.md) (36 documents)
+- [Foyer Global Health](insurers/Foyer%20Global%20Health.md) (34 documents)
 - [lalux](insurers/lalux.md) (90 documents)
 <!-- END GENERATED -->
 

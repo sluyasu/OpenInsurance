@@ -1,0 +1,901 @@
+---
+type: product
+domain: insurance
+country: lu
+insurer: '[[Foyer Global Health]]'
+insurer_slug: foyer-global-health
+branch: sante
+product_name: Globality YouGenio® for Germany
+document_type: conditions_generales
+target_audience: null
+target_audience_note: Der Versicherungsvertrag wurde für Expatriates konzipiert. Versicherungsfähig
+  sind alle Personen, die sich vorübergehend für mindestens 3 Monate im Ausland aufhalten.
+reference: YG GER GCI 13.02/5
+edition_date: null
+lang: de
+tags:
+- insurance/lu/sante
+- product
+- insurer/foyer-global-health
+aliases:
+- Globality YouGenio® for Germany
+source_url: https://globalhealth.insurance/wp-content/uploads/2026/01/Globality_YouGenio_Germany_GCI_DE_0224.pdf
+source_pages: 44
+fetched_at: '2026-08-04'
+extraction_model: claude-code-subagent:scale
+prompt_version: '1.1'
+product_family: globality-yougenio
+variant: for Germany (Tarifstufen Classic, Plus und Top)
+edition_status: null
+edition_age_years: null
+superseded: null
+extends: null
+freshness: '2026-08-04'
+status: ready
+generated: true
+---
+
+<!-- GENERATED - do not edit. Fix data/<cc>/extracted/ and run `make build`. -->
+
+## Résumé
+
+Globality YouGenio® for Germany ist eine internationale Krankenversicherung für Expatriates; das vorliegende Dokument enthält die Allgemeinen Versicherungsbedingungen. Der Tarif gliedert sich in die Tarifstufen Classic, Plus und Top, die sich nach Art und Höhe der vereinbarten Leistungen unterscheiden. Versichert sind stationäre, ambulante und zahnärztliche Heilbehandlungen sowie medizinische und zusätzliche Assistance-Leistungen, jeweils bis zu den in den Leistungsübersichten (Nrn. 4.3 bis 4.7) je Tarifstufe angegebenen Beträgen; der Versicherungsschutz gilt wahlweise in Zielregion I (weltweit mit USA) oder Zielregion II (weltweit ohne USA). Auf den Vertrag ist das Recht des Großherzogtums Luxemburg anwendbar.
+
+- Assureur : [Foyer Global Health](../../insurers/Foyer%20Global%20Health.md) · Branche : Complémentaire santé · Type : Conditions générales
+
+## Définitions
+
+| Terme | Définition | Page |
+|---|---|---|
+| Anschlussrehabilitation | Eine Anschlussrehabilitation ist eine medizinische Maßnahme zur Wiederherstellung des früheren körperlichen Zustandes nach einer schweren Krankheit/Operation, zum Beispiel nach Bypass-OP, Herzinfarkt, Transplantation von Organen sowie Operation an großen Knochen oder Gelenken, oder eines schweren Unfalls. | p. 39 |
+| Antrag | Der Antrag auf Abschluss einer Versicherung erfolgt für den Versicherungsnehmer und/oder die versicherten Personen mittels eines vom Versicherer zur Verfügung gestellten Antragsformulars. | p. 39 |
+| Arzt | Ein Arzt ist ein Mediziner (Allgemeinmediziner oder Spezialist) oder Inhaber eines medizinischen Diploms, der gesetzlich anerkannt ist und in dem Land, in dem die Behandlung erfolgt, zur ärztlichen Heilbehandlung zugelassen ist (siehe Heilbehandlung). Die versicherten Personen können den Arzt, der diese Kriterien erfüllt, frei wählen. | p. 39 |
+| Assisteur | Der Assisteur ist darauf spezialisiert, Versicherten in Notsituationen bzw. bei Krankenhausaufenthalten mit Rat und Tat zur Seite zu stehen. Zusätzliche Serviceleistungen, die den Versicherten den Aufenthalt in der Fremde erleichtern sollen, sowie die Erstattung bestimmter Kosten, wie zum Beispiel Rücktransportkosten, werden über unseren Assisteur erbracht. Das komplette Leistungsspektrum können Sie dem beiliegenden Leitfaden der Assistance entnehmen. | p. 39 |
+| Aufenthaltsland | Das Aufenthaltsland ist das Land, in dem sich die versicherten Personen nach Beginn des Auslandsaufenthaltes aufhalten werden. | p. 39 |
+| Ausreiseland | Das Ausreiseland ist das Land, in dem sich die versicherten Personen vor dem Auslandsaufenthalt dauerhaft aufgehalten haben. | p. 39 |
+| Behandler | Behandler können neben Ärzten auch solche Personen sein, die über eine auf ihrem Behandlungsgebiet anerkannte und fundierte Ausbildung verfügen und in dem Land, in dem die Behandlung erfolgt, zur Behandlung auf ihrem Gebiet zugelassen bzw. berechtigt sind. Unter Behandler fassen wir: Heilpraktiker, Logopäden/Sprachheiltherapeuten und Hebammen/Entbindungspfleger sowie die in eigener Praxis tätigen Angehörigen staatlich anerkannter medizinischer Assistenzberufe (zum Beispiel Masseur, Masseur und medizinischer Bademeister, Krankengymnast oder Physiotherapeut). Die versicherten Personen können den Behandler, der diese Kriterien erfüllt, frei wählen. | p. 39 |
+| Bemessungsgrundlagen | Die Bemessungsgrundlagen sind die Grundlagen, auf denen die Berechnungen der ärztlichen bzw. zahnärztlichen Leistungen beruhen. Sie können sich von Land zu Land unterscheiden. | p. 39 |
+| Ersatz-Krankenhaustagegeld (siehe hierzu Nr. 4.3) | Sollten Sie für eine unter Versicherungsschutz stehende, medizinisch notwendige stationäre Krankenhausbehandlung einer versicherten Person keine Kostenerstattung bei uns beanspruchen, zahlen wir je nach Tarifstufe ein Ersatz-Krankenhaustagegeld pro Tag eines ärztlich verordneten und durchgeführten Krankenhausaufenthaltes. | p. 39 |
+| Globality Health Servicecenter | Unsere Globality Health Servicecenter vor Ort bieten direkten Zugang zu lokaler Fachkompetenz, nahtlosem Service und erstklassiger Betreuung. Bei Eintritt eines Versicherungsfalls oder eines Notfalls können Sie Service-Leistungen je nach gewählter Tarifstufe jederzeit in Anspruch nehmen. Unter der Telefonnummer auf der Rückseite Ihrer Globality Service Card erreichen Sie Ihr persönliches Globality Health Servicecenter – 24 Stunden am Tag, 7 Tage die Woche. Bitte halten Sie stets die 9-stellige „Versicherungsnummer“, die Sie auf der Vorderseite Ihrer Globality Service Card finden, bereit. Globality Health Servicecenter kennen das Gesundheitssystem Ihres Aufenthaltslandes. Sie werden Ihnen Ärzte und Krankenhäuser empfehlen, für Sie Arzttermine vereinbaren oder Sie mit Medikamenten versorgen. Ihr Servicecenter wird für Ihre Heilbehandlungen Zahlungsgarantien ausstellen oder für eine schnelle und direkte Erstattung der Kosten sorgen. | p. 39 |
+| Globality Service Card | Die versicherten Personen erhalten eine personalisierte Globality Service Card mit der Anschrift und den wichtigen Telefonnummern des jeweils zuständigen Globality Health Servicecenters. Die Globality Service Card dient als persönlicher Versicherungsnachweis gegenüber allen Leistungserbringern. | p. 40 |
+| Heilbehandlung | Unter Heilbehandlung verstehen wir diagnostische und therapeutische Maßnahmen, die dem Bereich des ärztlichen Handelns zuzurechnen sind und dazu dienen, Gesundheitsstörungen, Krankheiten oder Verletzungen zu erkennen, zu lindern oder zu heilen. Eine Behandlungsmaßnahme ist medizinisch notwendig, wenn es nach den objektiven medizinischen Befunden und wissenschaftlichen Erkenntnissen zum Zeitpunkt der Behandlung vertretbar war, sie als medizinisch notwendig anzusehen. | p. 40 |
+| Heimatland | Das Heimatland ist das Land, dessen Staatsangehörigkeit die versicherte Person besitzt oder in das sie im Todesfall überführt werden soll. | p. 40 |
+| Hospiz | Institution, die ausschließlich dem Zweck dient, Patienten mit einer Lebenserwartung von wenigen Monaten zu pflegen und Symptome der zum Tode führenden Krankheit durch Palliativmedizin zu lindern. | p. 40 |
+| Krankenhaus | Einrichtung zur stationären und teilweise ambulanten Heilbehandlung, die in dem Land, in dem sie betrieben wird, anerkannt und zugelassen ist. Für unsere Kostenübernahme ist erforderlich, dass das Krankenhaus unter ständiger ärztlicher Leitung steht, über ausreichende diagnostische sowie therapeutische Möglichkeiten verfügt und Krankengeschichten führt. Für medizinisch notwendige Heilbehandlung in Krankenanstalten, die auch Kuren bzw. Sanatoriumsbehandlung durchführen oder Rekonvaleszenten aufnehmen, im Übrigen aber die obigen Voraussetzungen erfüllen, werden die tariflichen Leistungen nur dann gewährt, wenn wir diese vor Beginn der Heilbehandlung schriftlich zugesagt haben. Bei TBC-Erkrankungen wird in vertraglichem Umfange auch für die stationäre Behandlung in TBC-Heilstätten und -Sanatorien geleistet. Folgende Einrichtungen gelten nicht als Krankenhaus: Erholungs- und Pflegeheime, Kureinrichtungen, Kur- oder Badezentren sowie Sanatorien. | p. 40 |
+| Notfall | Unter Notfall verstehen wir den plötzlichen, akuten Eintritt einer Krankheit oder die akute Verschlechterung des Gesundheitszustandes, welche eine unmittelbare Bedrohung der Gesundheit der betroffenen versicherten Person darstellt. | p. 40 |
+| Obliegenheiten | Obliegenheiten sind Verhaltensnormen, deren Einhaltung die Voraussetzung für den Erhalt der Leistungsansprüche aus dem Versicherungsvertrag sind. | p. 40 |
+| Second Opinion | Second Opinion oder ärztliche Zweitmeinung ist eine medizinische Beratung durch einen anderen, bisher nicht beteiligten Arzt bei lebensbedrohlichen Erkrankungen oder der Gefahr von schwerwiegenden, bleibenden gesundheitlichen Störungen. | p. 40 |
+| Selbstbeteiligung | Eine Selbstbeteiligung bewirkt, dass der Versicherte einen bestimmten Teil der Kosten selbst trägt. Eine Selbstbeteiligung ist eine Eigenbeteiligung des Versicherungsnehmers und/oder der versicherten Personen an unseren Erstattungsleistungen. Wurde eine Selbstbeteiligung vereinbart, so dokumentieren wir diese im Versicherungsschein (siehe hierzu Nr. 4.2). | p. 40 |
+| Teilstationäre Heilbehandlung | Als teilstationär bezeichnet man einen Aufenthalt in einem Krankenhaus oder einer Klinik, bei dem der Patient nur für einen Zeitraum zwischen 8 und 24 Stunden in der Klinik ist und eine ganztägige (24- stündige) stationäre Heilbehandlung nicht erforderlich ist. | p. 40 |
+| Umwandlung | Eine Umwandlung ist die Änderung eines bei uns bestehenden Versicherungsschutzes, zum Beispiel durch die Vereinbarung einer geänderten Selbstbeteiligung bzw. eines geänderten Selbstbehaltes, unter Wahrung der Rechte, die Sie und die versicherten Personen aus den vorher ununterbrochen bei uns bestandenen Versicherungen erworben haben. | p. 40 |
+| Unfall | Unter Unfall versteht man ein plötzlich von außen unerwartet auf den Körper einwirkendes und gesundheitsschädigendes Ereignis. | p. 41 |
+| Versicherungsnehmer/Versicherte Personen | Versicherungsnehmer sind Sie, da Sie mit uns einen Versicherungsvertrag abgeschlossen haben. Versicherte Personen sind Personen, für die Sie selbst, Versicherungsschutz mit uns vereinbart haben (z. B. Ehe- oder Lebenspartner und Kinder). | p. 41 |
+| Versicherungsschein | Den für die versicherten Personen vereinbarten Versicherungsschutz sowie den jeweils zu zahlenden Beitrag dokumentieren wir in einem Versicherungsschein. | p. 41 |
+| Vorerkrankungen | Vorerkrankungen sind bei Versicherungsbeginn bestehende Krankheiten und deren Folgen sowie Folgen von Unfällen, die Ihnen oder den versicherten Personen bekannt sind bzw. behandelt werden. Durch besondere Vereinbarung mit dem Versicherungsnehmer können diese in den Versicherungsvertrag grundsätzlich eingeschlossen werden. Vorerkrankungen, die bei Antragsstellung nicht genannt wurden, sind nicht versichert. | p. 41 |
+| Zahnarzt | Behandler, der sich vorrangig mit den Erkrankungen der Zähne und des Mundraums beschäftigt. | p. 41 |
+| Zielregion | Der Versicherungsschutz gilt in folgenden Zielregionen: Zielregion I: Weltweit mit USA Zielregion II: Weltweit ohne USA | p. 41 |
+| AIDS | AIDS ist die Abkürzung für Acquired Immune Deficiency Syndrome, das heißt „Erworbenes Immundefektsyndrom”. Schwere Immunschwächekrankheit. | p. 42 |
+| Akupunktur | Die Akupunktur ist eine alte Methode der traditionellen chinesischen Medizin, bei der mit Hilfe von in den Körper eingestochenen dünnen Nadeln Krankheiten geheilt oder Schmerzen gelindert werden sollen; schulmedizinisch bisher in erster Linie zur Behandlung von Schmerzen anerkannt. | p. 42 |
+| Arzneimittel | Arzneimittel sind Wirkstoffe, die allein oder im Gemisch mit anderen Substanzen in der Diagnostik oder der Therapie von Krankheiten, Leiden, Körperschäden oder krankhaften Beschwerden angewandt werden. Als Arzneimittel gelten nicht Lebensmittel, kosmetische Mittel, Körperpflegemittel. Arzneimittel müssen vom Arzt verordnet und aus der Apotheke bezogen werden. Synonyme Begriffe: Medikamente, Pharmaka. | p. 42 |
+| Chiropraktik | Die Chiropraktik wird auch als manuelle Therapie bezeichnet. Durch bestimmte Handgriffe werden gegeneinander verschobene oder verrenkte Wirbelkörper oder andere Gelenke wieder „eingerichtet”. | p. 42 |
+| Funktionsanalytische und funktionstherapeutische Leistungen | Der zahnärztlichen Heilbehandlung zuzuordnende Untersuchungs- und Behandlungsmethode zur Diagnose von Störungen und Erkrankungen des gesamten Kauapparates. | p. 42 |
+| Hauswirtschaftliche Versorgung | Hauswirtschaftliche Versorgung ist ein Teil der häuslichen Pflegehilfe. Sie umfasst Hilfeleistungen bei Versorgung den gewöhnlichen und regelmäßig wiederkehrenden Verrichtungen im Ablauf des täglichen Lebens im Bereich der hauswirtschaftlichen Versorgung, wie das Einkaufen, Kochen, Reinigen der Wohnung, Spülen, Wechseln und Waschen der Wäsche und Kleidung oder das Beheizen. | p. 42 |
+| Homöopathie | Homöopathie beruht auf drei Grundpfeilern: der Ähnlichkeitsregel, dem Arzneimittelbild und der Potenzierung der Substanzen. Ein Homöopath geht davon aus, dass eine Krankheit, die sich in bestimmten Symptomen äußert, durch ein Mittel geheilt werden kann, das beim Gesunden ähnliche Symptome hervorruft. | p. 42 |
+| Hydrotherapie | Hydrotherapie ist die gezielte Heilbehandlung durch äußere Anwendung von Wasser. | p. 42 |
+| ICD-Codes | ICD steht für International Classification of Diseases. Es ist ein internationales System zur Verschlüsselung und Klassifikation aller bekannten Diagnosen. | p. 42 |
+| Implantologische Leistungen | Unter implantologischen Leistungen versteht man das Einsetzen zahnärztlicher Implantate (Metall- oder Keramikkörper) als Zahnwurzelersatz oder in unbezahnte Kiefer. | p. 42 |
+| Konservierende Leistungen | Konservierende Leistungen sind Maßnahmen, die der Erhaltung der Zähne (z. B. Füllungstherapie, Wurzelkanalbehandlungen) dienen. | p. 42 |
+| Krebs | Krebs ist die allgemeine Bezeichnung für alle bösartigen (malignen) Erkrankungen, die durch eine unkontrollierte Vermehrung von veränderten Zellen gekennzeichnet sind (Geschwulst, Tumor, Karzinom). Diese Zellen können das umliegende Gewebe zerstören und Tochtergeschwülste (Metastasen) ausbilden. | p. 42 |
+| Kur- und Sanatoriumsbehandlung | Eine Kur- bzw. Sanatoriumsbehandlung dient der Festigung des Gesundheitszustandes. | p. 42 |
+| Magnetresonanztomographie (MRT) | Hierunter versteht man ein diagnostische Technik zur Darstellung der inneren Organe und Gewebe mit Hilfe von Magnetfeldern und Radiowellen. | p. 42 |
+| Onkologie | Die Onkologie ist ein Teilgebiet der inneren Medizin, das sich mit der Entstehung, Diagnostik und Behandlung von Tumoren und tumorbedingten Krankheiten befasst. | p. 43 |
+| Osteopathie | Die osteopathische Medizin beinhaltet eine umfassende manuelle Diagnostik und Therapie von Fehlfunktionen am Bewegungssystem, den inneren Organen und am Nervensystem. Sie findet in erster Linie Anwendung bei chronischen Schmerzen an der Wirbelsäule und den peripheren Gelenken. | p. 43 |
+| Palliativmedizin | Palliative Therapie ist die umfassende und aktive Behandlung von Patienten mit einer begrenzten Lebenserwartung, deren Erkrankung einer kurativen Therapie nicht mehr zugänglich ist und für die das Behandlungsziel die bestmögliche Lebensqualität für sie selbst und ihre Angehörigen ist. | p. 43 |
+| Positronenemissionstomographie (PET) | Die Positronenemissionstomographie (PET) ist ein Schnittbildverfahren, das es ermöglicht, nicht-invasiv die Verteilung einer mit einem Positronenstrahler markierten Substanz im Körper des Patienten darzustellen. Die Konzentrierung solch eines “Markers” in einem Tumor lässt sich auch quantitativ bestimmen. Die Substanz wird intravenös injiziert und die Strahlung wird mit externen Detektoren nachgewiesen. Mit Hilfe der PET können wichtige biologische Vorgänge in Tumoren visualisiert werden. | p. 43 |
+| Prophylaxemaßnahmen | Prophylaxemaßnahmen sind ein Teil der Präventivmedizin; individuelle und generelle Maßnahmen zur Verhütung drohender Krankheiten (z. B. Impfungen, passive Immunisierung, vorsorgliche Medikation bei Einreise in Gefahrengebiete, Unfallverhütung etc.). | p. 43 |
+| Schulmedizin | Schulmedizin ist die an Universitäten gelehrte, wissenschaftlich fundierte und daher allgemein anerkannte und angewandte Form der Medizin (Heilkunde). | p. 43 |
+| Stationsersetzende ambulante Operationen | Operationen, die ambulant sowohl beim Arzt als auch im Krankenhaus durchgeführt werden können, bei denen aber keine anschließende Übernachtung und kein anschließender stationärer Aufenthalt im Krankenhaus erforderlich sind. | p. 43 |
+| Verbandmittel | Verbandmittel sind Mittel zur Durchführung von Verbänden. | p. 43 |
+| Versicherungsfall | Der Versicherungsfall ist die medizinisch notwendige Heilbehandlung einer versicherten Person wegen Krankheit oder Unfallfolgen. Der Versicherungsfall beginnt mit der Heilbehandlung; er endet, wenn nach medizinischem Befund Behandlungsbedürftigkeit nicht mehr besteht. Muss die Heilbehandlung auf eine Krankheit oder Unfallfolge ausgedehnt werden, die mit der bisher behandelten nicht ursächlich zusammenhängt, so entsteht insoweit ein neuer Versicherungsfall. | p. 5 |
+| Medizinische Notwendigkeit | Medizinisch notwendig sind alle angemessenen medizinischen Maßnahmen, die nach international anerkannten medizinischen Standards zum jeweiligen Zeitpunkt und Ort zur Diagnostizierung, Behandlung, Heilung oder Linderung eines Leidens, einer Krankheit oder Verletzung eingesetzt und vom Versicherer als angemessen anerkannt werden. Diese Maßnahmen müssen: a) in einer von den Behörden des Behandlungslandes zugelassenen und lizenzierten Gesundheitseinrichtung durchgeführt werden. b) unter Berücksichtigung der Patientensicherheit und des Kosten-Nutzen-Verhältnisses die am besten geeignete Maßnahme sein. c) im Einklang mit der Diagnose, den Symptomen oder der Behandlung der Grunderkrankung stehen. d) Klinisch angemessen in Bezug auf Art, Häufigkeit, Ausmaß, Ort sowie Dauer und als wirksam für die Krankheit, Verletzung oder den Zustand des Patienten angesehen sein. e) nicht nur aus Gründen der Bequemlichkeit oder des Komforts für den Patienten, die medizinischen Dienstleister, Therapeuten oder Ärzte erforderlich sein. f) Nicht für klinische Versuche, Experimente, Untersuchungen oder kosmetische Zwecke vorgesehen sein. | p. 31 |
+
+## Garanties
+
+### Unterkunft und Verpflegung im Ein- oder Zweibettzimmer - p. 9
+Bei stationärer wie auch vor-, nach- oder teilstationärer Heilbehandlung haben die versicherten Personen ein geeignetes, im Behandlungsland allgemein anerkanntes Krankenhaus aufzusuchen, das unter ständiger ärztlicher Leitung steht, über ausreichend diagnostische sowie therapeutische Möglichkeiten verfügt und Krankengeschichten führt. Für medizinisch notwendige Heilbehandlung in Krankenanstalten, die auch Kuren bzw. Sanatoriumsbehandlungen durchführen oder Rekonvaleszenten aufnehmen, im Übrigen aber die obigen Voraussetzungen erfüllen, werden die tariflichen Leistungen nur dann gewährt, wenn wir diese vor Beginn der Behandlung schriftlich zugesagt haben. Bei TBC-Erkrankungen wird in vertraglichem Umfange auch für die stationäre Behandlung in TBC-Heilstätten und -Sanatorien geleistet. Für die Dauer der stationären Heilbehandlung gewähren wir die Leistungen ohne zeitliche Begrenzung. Die Einschaltung des zuständigen Globality Health Servicecenters ist vor oder bei Aufnahme in das Krankenhaus erforderlich.
+- Optionnelle : non · Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: versichert | Plus: versichert | Top: versichert
+  - Sous-limite : Classic: versichert
+  - Sous-limite : Plus: versichert
+  - Sous-limite : Top: versichert
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Unterkunft und Verpflegung im Ein- oder Zweibettzimmer“, Seite 16
+  - Condition : Leistungsübersicht: 4.3 Leistungsübersicht: Stationäre Heilbehandlung
+
+### Ärztliche Leistungen (inklusive Pathologie, Radiologie, Computertomographie, MRI, PET und Palliativmedizin) - p. 9
+Erstattungsfähig sind Aufwendungen für die im Rahmen einer medizinisch notwendigen stationären Heilbehandlung erforderlichen Maßnahmen für Untersuchung, Diagnostik und Therapie. Erstattungsfähig sind unter anderem auch Aufwendungen für Pathologie, Radiologie, Computertomographie, Magnetresonanztomographie, Positronenemissionstomographie sowie für Palliativmedizin.
+- Optionnelle : non · Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: versichert | Plus: versichert | Top: versichert
+  - Sous-limite : Classic: versichert
+  - Sous-limite : Plus: versichert
+  - Sous-limite : Top: versichert
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Ärztliche Leistungen“, Seite 16
+  - Condition : Leistungsübersicht: 4.3 Leistungsübersicht: Stationäre Heilbehandlung
+
+### Krankenpflege durch Pflegefachkräfte nach Anweisung eines Arztes - p. 9
+- Optionnelle : non · Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: versichert | Plus: versichert | Top: versichert
+  - Sous-limite : Classic: versichert
+  - Sous-limite : Plus: versichert
+  - Sous-limite : Top: versichert
+  - Condition : Leistungsübersicht: 4.3 Leistungsübersicht: Stationäre Heilbehandlung
+
+### Sonstige Nebenkosten für Operationssaal, Intensivstation, Labor - p. 9
+Hierunter verstehen wir sonstige Kosten für die Nutzung von Spezialeinrichtungen, wie Operationssaal, Intensivstation und Labor.
+- Optionnelle : non · Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: versichert | Plus: versichert | Top: versichert
+  - Sous-limite : Classic: versichert
+  - Sous-limite : Plus: versichert
+  - Sous-limite : Top: versichert
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Sonstige Nebenkosten“, Seite 16
+  - Condition : Leistungsübersicht: 4.3 Leistungsübersicht: Stationäre Heilbehandlung
+
+### Operationen (inklusive ambulanter Operationen, die eine stationäre Behandlung ersetzen) - p. 9
+Erstattungsfähig sind Aufwendungen für die hierbei erforderlichen Leistungen, wie zum Beispiel ärztliche Leistungen, Anästhesie und die Nutzung von Spezialeinrichtungen. Aufwendungen für stationsersetzende ambulante Operationen sind ebenfalls erstattungsfähig.
+- Optionnelle : non · Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: versichert | Plus: versichert | Top: versichert
+  - Sous-limite : Classic: versichert
+  - Sous-limite : Plus: versichert
+  - Sous-limite : Top: versichert
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Operationen (inkl. stationsersetzender ambulanter Operationen)“, Seite 16
+  - Condition : Leistungsübersicht: 4.3 Leistungsübersicht: Stationäre Heilbehandlung
+
+### Arznei- und Verbandmittel - p. 9
+Diese müssen von einem Arzt/Zahnarzt im Krankenhaus anlässlich der stationären Heilbehandlung verordnet worden sein, Arzneimittel außerdem aus der Apotheke oder von einer anderen behördlich zugelassenen Abgabestelle bezogen werden. Nährmittel, Stärkungsmittel, Mineralwässer, kosmetische Mittel, Mittel zur Hygiene und Körperpflege sowie Badezusätze gelten nicht als Arzneimittel.
+- Optionnelle : non · Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: versichert | Plus: versichert | Top: versichert
+  - Sous-limite : Classic: versichert
+  - Sous-limite : Plus: versichert
+  - Sous-limite : Top: versichert
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Arznei- und Verbandmittel im Rahmen einer stationären Heilbehandlung“, Seite 16
+  - Condition : Leistungsübersicht: 4.3 Leistungsübersicht: Stationäre Heilbehandlung
+
+### Heilmittel/Physiotherapie, wie Krankengymnastik und Massagen - p. 9
+Das sind physikalisch-medizinische Leistungen (Inhalationen, Krankengymnastik und Bewegungsübungen, Massagen, Packungen, Hydrotherapie und medizinische Bäder, Kälte- und Wärmebehandlung, Ergotherapie, Elektrotherapie oder Lichttherapie). Die physikalisch-medizinischen Leistungen müssen von einem Arzt bzw. dem Inhaber eines staatlich anerkannten Diploms für medizinische Assistenzberufe (Masseur, Masseur und medizinischer Bademeister, Krankengymnast oder Physiotherapeut) durchgeführt und von einem Arzt im Rahmen der stationären Heilbehandlung verordnet werden. Die Verordnung muss vor Behandlungsbeginn ausgestellt worden sein und Diagnose, Art und Anzahl der Maßnahmen enthalten. Nicht als Heilmittel/Physiotherapie gelten sonstige Leistungen, wie zum Beispiel Thermal-, Sauna- und ähnliche Bäder.
+- Optionnelle : non · Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: versichert | Plus: versichert | Top: versichert
+  - Sous-limite : Classic: versichert
+  - Sous-limite : Plus: versichert
+  - Sous-limite : Top: versichert
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Heilmittel/Physiotherapie im Rahmen einer stationären Heilbehandlung“, Seite 16
+  - Condition : Leistungsübersicht: 4.3 Leistungsübersicht: Stationäre Heilbehandlung
+
+### Hilfsmittel - p. 9
+Erstattungsfähig sind Aufwendungen für diejenigen Hilfsmittel, die als lebenserhaltende Maßnahme dienen oder körperliche Behinderungen unmittelbar mildern oder ausgleichen sollen, wie Herzschrittmacher, Kunstglieder/Prothesen (ausgenommen Zahnprothesen). Diese müssen während des stationären Aufenthaltes angepasst werden und im oder am Körper verbleiben. Aufwendungen für die Reparatur von Hilfsmitteln sind im Rahmen der vorstehenden Regelungen erstattungsfähig.
+- Optionnelle : non · Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: versichert – wie z. B. Herzschrittmacher, wenn als lebenserhaltende Maßnahme notwendig | Plus: versichert – wie z. B. Herzschrittmacher, wenn als lebenserhaltende Maßnahme notwendig; darüber hinaus Erstattung für Hilfsmittel, wie Kunstglieder/Prothesen bis zu € 2.000*/ $ 2.600*/ £ 1.680* | Top: versichert
+  - Sous-limite : Classic: versichert – wie z. B. Herzschrittmacher, wenn als lebenserhaltende Maßnahme notwendig
+  - Sous-limite : Plus: versichert – wie z. B. Herzschrittmacher, wenn als lebenserhaltende Maßnahme notwendig; darüber hinaus Erstattung für Hilfsmittel, wie Kunstglieder/Prothesen bis zu € 2.000*/ $ 2.600*/ £ 1.680*
+  - Sous-limite : Top: versichert
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Hilfsmittel im Rahmen einer stationären Heilbehandlung“, Seite 16
+  - Condition : Leistungsübersicht: 4.3 Leistungsübersicht: Stationäre Heilbehandlung
+
+### Ärztliche Leistungen für Schwangerschaft und Entbindung; Leistungen einer Hebamme bzw. eines Entbindungspflegers im Krankenhaus, mit Ausnahme von Vorsorgeuntersuchungen während der Schwangerschaft - p. 9
+Wir übernehmen die erstattungsfähigen Aufwendungen für eine Entbindung, wenn diese im Krankenhaus, in einem Entbindungsheim oder einer vergleichbaren Einrichtung erfolgt. Hebammenleistungen während der Entbindung werden nur bei einer von einer Hebamme geleiteten Geburt übernommen. Separate Arztkosten werden in diesen Fällen nicht übernommen, es sei denn, diese wurden während der Geburt durch das Eintreten von Komplikationen erforderlich. Ärztlich verordnete häusliche Krankenpflege wird auch nach einer stationären Entbindung erstattet, sofern die Entlassung aus dem Krankenhaus innerhalb von 24 Stunden erfolgt. Globality Health erstattet solche Kosten für bis zu 5 aufeinanderfolgende Tage nach der Entbindung. Alle nicht medizinisch notwendigen Kaiserschnitte werden bis zu den Kosten einer vaginalen Entbindung im selben Krankenhaus bis zum anwendbaren Limit gemäß des gewählten Tarifes übernommen. Es gilt eine Wartezeit von 8 Monaten.
+- Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: keine Erstattung vorgesehen | Plus: versichert – bis zu € 5.000*/ $ 6.500*/ £ 4.200* | Top: versichert
+  - Sous-limite : Classic: keine Erstattung vorgesehen
+  - Sous-limite : Plus: versichert – bis zu € 5.000*/ $ 6.500*/ £ 4.200*
+  - Sous-limite : Top: versichert
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Ärztliche Leistungen bei Schwangerschaft und Entbindung, Leistungen einer Hebamme bzw. eines Entbindungspflegers im Krankenhaus, mit Ausnahme von Vorsorgeuntersuchungen während der Schwangerschaft“, Seite 17
+  - Condition : Leistungsübersicht: 4.3 Leistungsübersicht: Stationäre Heilbehandlung
+
+### Schwangerschafts- und Geburtskomplikationen - p. 9
+Wir übernehmen die erstattungsfähigen Aufwendungen im Zusammenhang mit Frühgeburt, Fehlgeburt, medizinisch indiziertem Schwangerschaftsabbruch, Totgeburt, Eileiterschwangerschaft, Blasenmole, Kaiserschnittentbindung, postpartalen Blutungen, Plazentaretention und Komplikationen, die sich aus diesen Krankheitsbildern ergeben. Es gilt eine Wartezeit von 8 Monaten.
+- Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: keine Erstattung vorgesehen | Plus: versichert | Top: versichert
+  - Sous-limite : Classic: keine Erstattung vorgesehen
+  - Sous-limite : Plus: versichert
+  - Sous-limite : Top: versichert
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Schwangerschafts- und Geburtskomplikationen“, Seite 17
+  - Condition : Leistungsübersicht: 4.3 Leistungsübersicht: Stationäre Heilbehandlung
+
+### Ambulante Entbindung - p. 9
+Eine ambulante Entbindung liegt bei einer Hausgeburt vor oder wenn die Wöchnerin 2 bis 24 Stunden nach der Niederkunft aus dem Krankenhaus, dem Entbindungsheim oder einer vergleichbaren Einrichtung entlassen wird. Die Entbindungspauschale gewähren wir auf Vorlage der Geburtsurkunde je Neugeborenes.
+- Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: keine Erstattung vorgesehen | Plus: versichert – Pauschale von € 250/$ 325/£ 210 je Neugeborenem ohne Kostennachweis bei Vorlage der Geburtsurkunde | Top: versichert – Pauschale von € 500/$ 650/£ 420 je Neugeborenem ohne Kostennachweis bei Vorlage der Geburtsurkunde
+  - Sous-limite : Classic: keine Erstattung vorgesehen
+  - Sous-limite : Plus: versichert – Pauschale von € 250/$ 325/£ 210 je Neugeborenem ohne Kostennachweis bei Vorlage der Geburtsurkunde
+  - Sous-limite : Top: versichert – Pauschale von € 500/$ 650/£ 420 je Neugeborenem ohne Kostennachweis bei Vorlage der Geburtsurkunde
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Ambulante Entbindung“, Seite 17
+  - Condition : Leistungsübersicht: 4.3 Leistungsübersicht: Stationäre Heilbehandlung
+
+### Chemotherapie, Arzneimittel und ärztliche Leistungen der Onkologie - p. 9
+Wir übernehmen im Rahmen einer stationären Heilbehandlung die erstattungsfähigen Aufwendungen für ärztliche Leistungen, diagnostische Tests, Strahlentherapie, Chemotherapie, Arzneimittel und Krankenhauskosten.
+- Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: keine Erstattung vorgesehen | Plus: versichert – bis zu € 5.000*/ $ 6.500*/ £ 4.200* | Top: versichert
+  - Sous-limite : Classic: keine Erstattung vorgesehen
+  - Sous-limite : Plus: versichert – bis zu € 5.000*/ $ 6.500*/ £ 4.200*
+  - Sous-limite : Top: versichert
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Chemotherapie, Arzneimittel und ärztliche Leistungen der Onkologie“, Seite 17
+  - Condition : Leistungsübersicht: 4.3 Leistungsübersicht: Stationäre Heilbehandlung
+
+### Transportkosten zum nächst erreichbaren geeigneten Krankenhaus zur Erstversorgung nach einem Unfall oder Notfall durch anerkannte Rettungsdienste in der Situation angemessenen Transportmitteln - p. 9
+- Optionnelle : non · Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: versichert | Plus: versichert | Top: versichert
+  - Sous-limite : Classic: versichert
+  - Sous-limite : Plus: versichert
+  - Sous-limite : Top: versichert
+  - Condition : Leistungsübersicht: 4.3 Leistungsübersicht: Stationäre Heilbehandlung
+
+### Knochenmark- bzw. Organtransplantation - p. 10
+Bei einer Knochenmark- bzw. Organtransplantation (zum Beispiel Herz, Niere, Leber, Bauchspeicheldrüse) übernehmen wir die erstattungsfähigen Aufwendungen sowohl für den Erkrankten als auch für den Spender. Erstattungsfähig sind dabei die mit der Organbeschaffung beim Organspender verbundenen Kosten, die Kosten für den Transport des Organs zum Erkrankten sowie die Aufwendungen für eine evtl. stationäre Mitaufnahme des Spenders, nicht jedoch für die Suche nach einem Organ oder einem geeigneten Spender.
+- Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: keine Erstattung vorgesehen | Plus: versichert – bis zu einem Höchstsatz von € 200.000/ $ 260.000/ £ 168.000 für die Dauer des Vertrages | Top: versichert
+  - Sous-limite : Classic: keine Erstattung vorgesehen
+  - Sous-limite : Plus: versichert – bis zu einem Höchstsatz von € 200.000/ $ 260.000/ £ 168.000 für die Dauer des Vertrages
+  - Sous-limite : Top: versichert
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Knochenmark- und Organtransplantation im Rahmen einer stationären Heilbehandlung“, Seite 17
+  - Condition : Leistungsübersicht: 4.3 Leistungsübersicht: Stationäre Heilbehandlung
+
+### Psychiatrische Leistungen - p. 10
+Wir erstatten die Aufwendungen für psychiatrische Leistungen im Rahmen einer stationären Behandlung. Wir leisten jedoch nur dann, wenn und soweit wir vor Beginn der Behandlung eine schriftliche Zusage gegeben haben. Zur Erstattungsfähigkeit von stationärer Psychotherapie siehe unten.
+- Optionnelle : non · Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: versichert – vorausgesetzt, vor Beginn der Heilbehandlung wurde eine schriftliche Leistungs- zusage gegeben | Plus: versichert – vorausgesetzt, vor Beginn der Heilbehandlung wurde eine schriftliche Leistungs- zusage gegeben | Top: versichert – vorausgesetzt, vor Beginn der Heilbehandlung wurde eine schriftliche Leistungs- zusage gegeben
+  - Sous-limite : Classic: versichert – vorausgesetzt, vor Beginn der Heilbehandlung wurde eine schriftliche Leistungs- zusage gegeben
+  - Sous-limite : Plus: versichert – vorausgesetzt, vor Beginn der Heilbehandlung wurde eine schriftliche Leistungs- zusage gegeben
+  - Sous-limite : Top: versichert – vorausgesetzt, vor Beginn der Heilbehandlung wurde eine schriftliche Leistungs- zusage gegeben
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Psychiatrische Leistungen“, Seite 17
+  - Condition : Leistungsübersicht: 4.3 Leistungsübersicht: Stationäre Heilbehandlung
+
+### Stationäre Psychotherapie - p. 10
+Voraussetzung für unsere Erstattung ist, dass die Behandlung von einem Psychiater, einem Psychotherapeuten oder einem auf dem Gebiet der Psychiatrie, Psychotherapie oder Psychoanalyse entsprechend weitergebildeten Facharzt durchgeführt wird. Für stationäre Psychotherapie leisten wir nur dann, wenn und soweit wir vor Beginn der Behandlung eine schriftliche Zusage gegeben haben.
+- Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: keine Erstattung vorgesehen | Plus: versichert – vorausgesetzt, vor Beginn der Heilbehandlung wurde eine schriftliche Leistungs- zusage gegeben | Top: versichert – vorausgesetzt, vor Beginn der Heilbehandlung wurde eine schriftliche Leistungs- zusage gegeben
+  - Sous-limite : Classic: keine Erstattung vorgesehen
+  - Sous-limite : Plus: versichert – vorausgesetzt, vor Beginn der Heilbehandlung wurde eine schriftliche Leistungs- zusage gegeben
+  - Sous-limite : Top: versichert – vorausgesetzt, vor Beginn der Heilbehandlung wurde eine schriftliche Leistungs- zusage gegeben
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Stationäre Psychotherapie“, Seite 17
+  - Condition : Leistungsübersicht: 4.3 Leistungsübersicht: Stationäre Heilbehandlung
+
+### Mitaufnahme eines Elternteils bei stationärer Behandlung von Kindern bis 18 Jahren - p. 10
+Wir erstatten die Mehraufwendungen für die ärztlich verordnete Mitaufnahme eines Elternteils bei der stationären Behandlung von Kindern bis 18 Jahren.
+- Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: keine Erstattung vorgesehen | Plus: versichert | Top: versichert
+  - Sous-limite : Classic: keine Erstattung vorgesehen
+  - Sous-limite : Plus: versichert
+  - Sous-limite : Top: versichert
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Mitaufnahme eines Elternteils bei stationärer Behandlung von Kindern“, Seite 17
+  - Condition : Leistungsübersicht: 4.3 Leistungsübersicht: Stationäre Heilbehandlung
+
+### Häusliche Krankenpflege und hauswirtschaftliche Versorgung - p. 10
+Wir übernehmen die erstattungsfähigen Aufwendungen für ärztlich verordnete häusliche Krankenpflege und hauswirtschaftliche Versorgung durch geeignete, zur Pflegekraft ausgebildete Personen als Ersatz für einen ärztlich angeratenen Krankenhausaufenthalt bzw. zur Abkürzung eines solchen. Die häusliche Krankenpflege erfolgt ergänzend zur ärztlichen Behandlung und ist neben dieser erstattungsfähig.
+- Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: keine Erstattung vorgesehen | Plus: versichert – bis zu einer Dauer von 7 Tagen | Top: versichert – bis zu einer Dauer von 14 Tagen
+  - Sous-limite : Classic: keine Erstattung vorgesehen
+  - Sous-limite : Plus: versichert – bis zu einer Dauer von 7 Tagen
+  - Sous-limite : Top: versichert – bis zu einer Dauer von 14 Tagen
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Häusliche Krankenpflege und hauswirtschaftliche Versorgung“, Seite 17
+  - Condition : Leistungsübersicht: 4.3 Leistungsübersicht: Stationäre Heilbehandlung
+
+### Häusliche Krankenpflege nach der Entbindung anstelle eines Krankenhausaufenthaltes - p. 10
+- Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: keine Erstattung vorgesehen | Plus: versichert – bis zu einer Dauer von 5 Tagen im Falle der Leistungszusage | Top: versichert – bis zu einer Dauer von 5 Tagen im Falle der Leistungszusage
+  - Sous-limite : Classic: keine Erstattung vorgesehen
+  - Sous-limite : Plus: versichert – bis zu einer Dauer von 5 Tagen im Falle der Leistungszusage
+  - Sous-limite : Top: versichert – bis zu einer Dauer von 5 Tagen im Falle der Leistungszusage
+  - Condition : Leistungsübersicht: 4.3 Leistungsübersicht: Stationäre Heilbehandlung
+
+### Ersatz-Krankenhaustagegeld für durchgeführte stationäre Behandlungen, für die keine Kostenerstattung bei uns beansprucht wurde - p. 10
+Sollten Sie für eine unter Versicherungsschutz stehende, medizinisch notwendige stationäre Krankenhausbehandlung einer versicherten Person keine Kostenerstattung bei uns beanspruchen, zahlen wir je nach Tarifstufe ein Ersatz-Krankenhaustagegeld pro Tag eines ärztlich verordneten und durchgeführten Krankenhausaufenthaltes.
+- Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: keine Erstattung vorgesehen | Plus: versichert – € 50/$ 65/£ 42 pro Tag | Top: versichert – € 100/$ 130/£ 84 pro Tag
+  - Sous-limite : Classic: keine Erstattung vorgesehen
+  - Sous-limite : Plus: versichert – € 50/$ 65/£ 42 pro Tag
+  - Sous-limite : Top: versichert – € 100/$ 130/£ 84 pro Tag
+  - Condition : Beschreibung: 11. Definitionen „Ersatz-Krankenhaustagegeld (siehe hierzu Nr. 4.3)“, Seite 39
+  - Condition : Leistungsübersicht: 4.3 Leistungsübersicht: Stationäre Heilbehandlung
+
+### Stationäre Anschlussrehabilitation - p. 10
+Erstattungsfähig sind Aufwendungen für stationäre Anschlussrehabilitationen, die der Weiterführung einer medizinisch notwendigen stationären Krankenhausbehandlung (zum Beispiel nach Bypass-Operation, Herzinfarkt, Transplantation von Organen sowie Operationen an großen Knochen oder Gelenken) dienen, wenn und soweit wir dies vorher schriftlich zugesagt haben. Die Anschlussrehabilitation muss grundsätzlich innerhalb von 2 Wochen nach der Entlassung aus dem Krankenhaus angetreten werden. Kurmaßnahmen und Aufenthalte in Kurzentren, Badezentren, Sanatorien und Erholungsheimen sowie in Pflegeheimen sind nicht versichert.
+- Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: keine Erstattung vorgesehen | Plus: versichert – bis zu 14 Tagen* vorausgesetzt, vor Beginn der Heilbehandlung wurde eine schriftliche Leistungs- zusage gegeben | Top: versichert – bis zu 21 Tagen* vorausgesetzt, vor Beginn der Heilbehandlung wurde eine schriftliche Leistungs- zusage gegeben
+  - Sous-limite : Classic: keine Erstattung vorgesehen
+  - Sous-limite : Plus: versichert – bis zu 14 Tagen* vorausgesetzt, vor Beginn der Heilbehandlung wurde eine schriftliche Leistungs- zusage gegeben
+  - Sous-limite : Top: versichert – bis zu 21 Tagen* vorausgesetzt, vor Beginn der Heilbehandlung wurde eine schriftliche Leistungs- zusage gegeben
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Stationäre Anschlussrehabilitation“, Seite 18
+  - Condition : Leistungsübersicht: 4.3 Leistungsübersicht: Stationäre Heilbehandlung
+
+### Hospiz - p. 10
+Sofern keine ambulante Versorgung im eigenen Haushalt oder der Familie der versicherten Personen erbracht werden kann und unter der Voraussetzung, dass das Hospiz • mit palliativmedizinisch erfahrenen Pflegediensten und Ärzten zusammenarbeitet sowie • unter der fachlichen Verantwortung einer Krankenschwester, eines Krankenpflegers oder einer anderen fachlich qualifizierten Person steht, die über mehrjährige Erfahrung in der palliativmedizinischen Pflege oder über eine entsprechende Weiterbildung verfügt und eine Weiterbildung als verantwortliche Pflegefachkraft oder in Leitungsfunktionen nachweisen kann, erstatten wir Aufwendungen für Unterkunft, Verpflegung, Pflege und Begleitung entsprechend des Krankheitszustandes für max. 7 Wochen. Voraussetzung für die Gewährung von Leistungen für eine voll-/teilstationäre Hospizversorgung ist, dass die versicherte Person an einer Krankheit leidet, • die progredient (d. h. fortschreitend, sich verschlimmernd) verläuft und bereits ein weit fortgeschrittenes Stadium erreicht hat und • bei der eine Heilung ausgeschlossen und eine stationäre palliativmedizinische Betreuung notwendig ist und • die lediglich eine begrenzte Lebenserwartung von Wochen oder wenigen Monaten erwarten lässt Hospizleistungen werden unter anderem bei folgenden Krankheitsbildern gewährt: • Fortgeschrittene Krebserkrankung • Vollbild der Infektionskrankheit AIDS • Erkrankung des Nervensystems mit unaufhaltsamen fortschreitenden Lähmungen • Endzustand einer chronischen Nieren-, Leber-, Herz-, Verdauungstrakt- oder Lungenerkrankung
+- Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: keine Erstattung vorgesehen | Plus: keine Erstattung vorgesehen | Top: versichert – bis zu 7 Wochen
+  - Sous-limite : Classic: keine Erstattung vorgesehen
+  - Sous-limite : Plus: keine Erstattung vorgesehen
+  - Sous-limite : Top: versichert – bis zu 7 Wochen
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Hospiz“, Seite 18
+  - Condition : Leistungsübersicht: 4.3 Leistungsübersicht: Stationäre Heilbehandlung
+
+### Stationäre Zahnbehandlung - p. 10
+Wir erstatten die Kosten für umfangreiche oralchirurgische Eingriffe in Zusammenhang mit lebensbedrohlichen Komplikationen, wie angeborene Kieferdeformitäten (z.B. Kieferspalten), Kieferbrüche und Tumore.
+- Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: keine Erstattung vorgesehen | Plus: versichert | Top: versichert
+  - Sous-limite : Classic: keine Erstattung vorgesehen
+  - Sous-limite : Plus: versichert
+  - Sous-limite : Top: versichert
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Stationäre Zahnbehandlung“, Seite 18
+  - Condition : Leistungsübersicht: 4.3 Leistungsübersicht: Stationäre Heilbehandlung
+
+### Zahnärztliche Notfallbehandlung - p. 10
+Eine stationäre zahnärztliche Notfallbehandlung bezieht sich auf einen schweren Unfall, der einen Krankenhausaufenthalt erfordert (z.B. Rekonstruktion des Kiefers nach einer Unfallverletzung). Die Behandlung muss innerhalb von 24 Stunden nach dem Unfallereignis erfolgen. Bitte beachten Sie, dass sich der Versicherungsschutz dieser Leistung nicht auf zahnärztliche Nachbehandlung, Zahnchirurgie, Zahnersatz oder Implantate, Kieferorthopädie oder Parodontologie erstreckt. Der behandelnde Arzt muss ausdrücklich bestätigen, dass die stationäre Zahnbehandlung die Folge eines schweren Unfalls ist, und das Eintreten des Unfalls muss durch einen entsprechenden ärztlichen und/oder polizeilichen Bericht nachgewiesen werden.
+- Optionnelle : non · Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: versichert | Plus: versichert | Top: versichert
+  - Sous-limite : Classic: versichert
+  - Sous-limite : Plus: versichert
+  - Sous-limite : Top: versichert
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Zahnärztliche Notfallbehandlung“, Seite 18
+  - Condition : Leistungsübersicht: 4.3 Leistungsübersicht: Stationäre Heilbehandlung
+
+### Ärztliche Leistungen (inklusive Pathologie, Radiologie, Computertomographie, MRI, PET und Palliativmedizin) - p. 11
+Erstattungsfähig sind Aufwendungen für die im Rahmen einer ambulanten ärztlichen Heilbehandlung erforderlichen Maßnahmen für Untersuchung, Diagnostik und Therapie. Erstattungsfähig sind unter anderem auch Aufwendungen für Pathologie, Radiologie, Computertomographie, Magnetresonanztomographie, Positronenemissionstomographie, Chemotherapie und andere ärztliche Leistungen der Onkologie (z. B. bei Krebserkrankung), Palliativmedizin sowie für Schutzimpfungen und Prophylaxemaßnahmen, die von der WHO (World Health Organisation) empfohlen sind.
+- Optionnelle : non · Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: versichert | Plus: versichert | Top: versichert
+  - Sous-limite : Classic: versichert
+  - Sous-limite : Plus: versichert
+  - Sous-limite : Top: versichert
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Ärztliche Leistungen“, Seite 18
+  - Condition : Leistungsübersicht: 4.4 Leistungsübersicht: Ambulante Heilbehandlung
+
+### Chemotherapie, Arzneimittel und ärztliche Leistungen der Onkologie - p. 11
+- Optionnelle : non · Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: versichert | Plus: versichert | Top: versichert
+  - Sous-limite : Classic: versichert
+  - Sous-limite : Plus: versichert
+  - Sous-limite : Top: versichert
+  - Condition : Leistungsübersicht: 4.4 Leistungsübersicht: Ambulante Heilbehandlung
+
+### Gesundheitschecks - p. 11
+Routinemäßige Gesundheitschecks sind Untersuchungen oder Screeningtests, die durchgeführt werden, ohne dass klinische Symptome vorliegen. Diese Tests, die dem Alter gemäß zur Erkennung von Störungen oder Krankheiten durchgeführt werden, umfassen z.B.: • Vitalzeichen (Blutdruck, Puls, Atmung, Temperatur usw.) • Lipidprofil • kardiovaskuläre Untersuchung • neurologische Untersuchung • Krebsvorsorgeuntersuchungen • pädiatrische Vorsorgeuntersuchungen • Diabetes-Test • HIV- und AIDS-Test • gynäkologische Vorsorgeuntersuchungen
+- Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: keine Erstattung vorgesehen | Plus: versichert – bis zu € 250**/ $ 325**/ £ 210** | Top: versichert – bis zu € 500**/ $ 650**/ £ 420**
+  - Sous-limite : Classic: keine Erstattung vorgesehen
+  - Sous-limite : Plus: versichert – bis zu € 250**/ $ 325**/ £ 210**
+  - Sous-limite : Top: versichert – bis zu € 500**/ $ 650**/ £ 420**
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Gesundheitschecks (Vorsorgeuntersuchungen)“, Seite 18
+  - Condition : Leistungsübersicht: 4.4 Leistungsübersicht: Ambulante Heilbehandlung
+
+### Schutzimpfungen aller Art inklusive der Impfstoffe sowie Prophylaxemaßnahmen, soweit diese für das jeweilige Aufenthaltsland empfohlen sind - p. 11
+- Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: keine Erstattung vorgesehen | Plus: versichert – bis zu € 250**/ $ 325**/ £ 210** | Top: versichert
+  - Sous-limite : Classic: keine Erstattung vorgesehen
+  - Sous-limite : Plus: versichert – bis zu € 250**/ $ 325**/ £ 210**
+  - Sous-limite : Top: versichert
+  - Condition : Leistungsübersicht: 4.4 Leistungsübersicht: Ambulante Heilbehandlung
+
+### Schwangerschaft inklusive Vorsorgeuntersuchungen, Entbindung, Hebamme und Entbindungspfleger - p. 11
+Wir übernehmen die erstattungsfähigen Aufwendungen, die sich aus einer Schwangerschaft oder einer schwangerschaftsbedingten Erkrankung ergeben, inklusive routinemäßiger Standard Schwangerschaftsvorsorgeuntersuchungen und -tests. Erstattet werden auch alle medizinisch notwendigen diagnostischen Tests, einschließlich Amniozentese und Chorionzottenbiopsie (CVS). NIPT sowie alle anderen Formen von genetischen Tests sind ausgeschlossen. Die Betreuung während der Schwangerschaft durch eine zugelassene Hebamme ist in Ländern erstattungsfähig, in denen es üblich ist, dass die routinemäßige pränatale Betreuung von einer Hebamme durchgeführt wird. Die Erstattung entsprechender Untersuchungs- und Behandlungskosten durch Hebammen ist nur dann möglich, wenn die Kosten für die gleichen Leistungen nicht auch von einem Arzt in Rechnung gestellt werden. Zusätzlich werden pro Schwangerschaft 12 Hausbesuche durch eine qualifizierte Hebamme nach der Geburt übernommen. Doula Leistungen, Geburtsvorbereitungskurse sowie Rückbildungsgymnastik sind nicht erstattungsfähig. Es gilt eine Wartezeit von 8 Monaten.
+- Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: keine Erstattung vorgesehen | Plus: versichert – bis zu € 2.000**/ $ 2.600**/ £ 1.680** | Top: versichert
+  - Sous-limite : Classic: keine Erstattung vorgesehen
+  - Sous-limite : Plus: versichert – bis zu € 2.000**/ $ 2.600**/ £ 1.680**
+  - Sous-limite : Top: versichert
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Schwangerschaft inklusive Vorsorgeuntersuchungen, Entbindung, Hebamme und Entbindungspfleger“, Seite 19
+  - Condition : Leistungsübersicht: 4.4 Leistungsübersicht: Ambulante Heilbehandlung
+
+### Schwangerschafts- und Geburtskomplikationen - p. 11
+Wir übernehmen die erstattungsfähigen Aufwendungen im Zusammenhang mit Frühgeburt, Fehlgeburt, medizinisch indiziertem Schwangerschaftsabbruch, Totgeburt, Eileiterschwangerschaft, Blasenmole, Kaiserschnittentbindung, postpartalen Blutungen, Plazentaretention und Komplikationen, die sich aus diesen Krankheitsbildern ergeben. Es gilt eine Wartezeit von 8 Monaten.
+- Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: keine Erstattung vorgesehen | Plus: versichert – bis zu € 4.000**/ $ 5.200**/ £ 3.360** | Top: versichert
+  - Sous-limite : Classic: keine Erstattung vorgesehen
+  - Sous-limite : Plus: versichert – bis zu € 4.000**/ $ 5.200**/ £ 3.360**
+  - Sous-limite : Top: versichert
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Schwangerschafts- und Geburtskomplikationen“, Seite 19
+  - Condition : Leistungsübersicht: 4.4 Leistungsübersicht: Ambulante Heilbehandlung
+
+### Akupunktur (Nadeltechnik), Homöopathie, Osteopathie und Chiropraktik, inklusive Arznei- und Verbandmittel - p. 11
+An den erstattungsfähigen Aufwendungen beteiligen wir uns nur dann, wenn die vorgenannten Behandlungen durch Ärzte oder andere Behandler erfolgen, die eine in dem Land, in dem die Behandlung erfolgt, anerkannte entsprechende Ausbildung vorweisen können und dort zur Ausübung der Behandlung zugelassen bzw. berechtigt sind. Von diesen Ärzten oder Behandlern anlässlich der Behandlung verordnete Arznei- und Verbandmittel sind ebenfalls erstattungsfähig.
+- Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: keine Erstattung vorgesehen | Plus: versichert – bis zu € 500**/ $ 650**/ £ 420** | Top: versichert – bis zu € 1.000**/ $ 1.300**/ £ 840**
+  - Sous-limite : Classic: keine Erstattung vorgesehen
+  - Sous-limite : Plus: versichert – bis zu € 500**/ $ 650**/ £ 420**
+  - Sous-limite : Top: versichert – bis zu € 1.000**/ $ 1.300**/ £ 840**
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Akupunktur (Nadeltechnik), Homöopathie, Osteopathie und Chiropraktik“, Seite 19
+  - Condition : Leistungsübersicht: 4.4 Leistungsübersicht: Ambulante Heilbehandlung
+
+### Sprachtherapie - p. 11
+Bei Sprech-, Sprach- und Stimmstörungen übernehmen wir die erstattungsfähigen Aufwendungen für ärztlich verordnete Übungsbehandlungen, sofern diese von einem Arzt oder Logopäden bzw. Sprachheiltherapeuten durchgeführt werden. Für genannte Behandlungen leisten wir nur dann, wenn wir vor Beginn der Behandlung eine schriftliche Zusage gegeben haben.
+- Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: keine Erstattung vorgesehen | Plus: versichert – vorausgesetzt, vor Beginn der Behandlung wurde eine schriftliche Leistungs- zusage gegeben | Top: versichert – vorausgesetzt, vor Beginn der Behandlung wurde eine schriftliche Leistungs- zusage gegeben
+  - Sous-limite : Classic: keine Erstattung vorgesehen
+  - Sous-limite : Plus: versichert – vorausgesetzt, vor Beginn der Behandlung wurde eine schriftliche Leistungs- zusage gegeben
+  - Sous-limite : Top: versichert – vorausgesetzt, vor Beginn der Behandlung wurde eine schriftliche Leistungs- zusage gegeben
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Sprachtherapie“, Seite 19
+  - Condition : Leistungsübersicht: 4.4 Leistungsübersicht: Ambulante Heilbehandlung
+
+### Psychiatrische Leistungen - p. 11
+Wir erstatten die Aufwendungen für psychiatrische Leistungen im Rahmen einer ambulanten Behandlung. Wir leisten jedoch nur dann, wenn und soweit wir vor Beginn der Behandlung eine schriftliche Zusage gegeben haben. Zur Erstattungsfähigkeit von ambulanter Psychotherapie siehe unten.
+- Optionnelle : non · Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: versichert – vorausgesetzt, vor Beginn der Behandlung wurde eine schriftliche Leistungs- zusage gegeben | Plus: versichert – vorausgesetzt, vor Beginn der Behandlung wurde eine schriftliche Leistungs- zusage gegeben | Top: versichert – vorausgesetzt, vor Beginn der Behandlung wurde eine schriftliche Leistungs- zusage gegeben
+  - Sous-limite : Classic: versichert – vorausgesetzt, vor Beginn der Behandlung wurde eine schriftliche Leistungs- zusage gegeben
+  - Sous-limite : Plus: versichert – vorausgesetzt, vor Beginn der Behandlung wurde eine schriftliche Leistungs- zusage gegeben
+  - Sous-limite : Top: versichert – vorausgesetzt, vor Beginn der Behandlung wurde eine schriftliche Leistungs- zusage gegeben
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Psychiatrische Leistungen“, Seite 19
+  - Condition : Leistungsübersicht: 4.4 Leistungsübersicht: Ambulante Heilbehandlung
+
+### Ambulante Psychotherapie - p. 11
+Voraussetzung für unsere Erstattung ist, dass die Behandlung von einem Psychiater, einem Psychotherapeuten oder einem auf dem Gebiet der Psychiatrie, Psychotherapie oder Psychoanalyse entsprechend weitergebildeten Facharzt durchgeführt wird. Für ambulante Psychotherapie leisten wir nur dann, wenn wir vor Beginn der Behandlung eine schriftliche Zusage gegeben haben.
+- Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: keine Erstattung vorgesehen | Plus: versichert – bis zu 20 Sitzungen**, vorausgesetzt, vor Beginn der Behandlung wurde eine schriftliche Leistungs- zusage gegeben | Top: versichert – bis zu 20 Sitzungen**, vorausgesetzt, vor Beginn der Behandlung wurde eine schriftliche Leistungs- zusage gegeben
+  - Sous-limite : Classic: keine Erstattung vorgesehen
+  - Sous-limite : Plus: versichert – bis zu 20 Sitzungen**, vorausgesetzt, vor Beginn der Behandlung wurde eine schriftliche Leistungs- zusage gegeben
+  - Sous-limite : Top: versichert – bis zu 20 Sitzungen**, vorausgesetzt, vor Beginn der Behandlung wurde eine schriftliche Leistungs- zusage gegeben
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Ambulante Psychotherapie“, Seite 19
+  - Condition : Leistungsübersicht: 4.4 Leistungsübersicht: Ambulante Heilbehandlung
+
+### Arznei- und Verbandmittel - p. 12
+Arznei- und Verbandmittel müssen von einem Arzt/Zahnarzt oder von einem dazu berechtigten Behandler verordnet sein, Arzneimittel außerdem aus der Apotheke oder von einer anderen behördlich zugelassenen Abgabestelle bezogen werden. Nährmittel, Stärkungsmittel, Mineralwässer, kosmetische Mittel, Mittel zur Hygiene und Körperpflege sowie Badezusätze gelten nicht als Arzneimittel.
+- Optionnelle : non · Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: versichert | Plus: versichert | Top: versichert
+  - Sous-limite : Classic: versichert
+  - Sous-limite : Plus: versichert
+  - Sous-limite : Top: versichert
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Arznei- und Verbandmittel“, Seite 19
+  - Condition : Leistungsübersicht: 4.4 Leistungsübersicht: Ambulante Heilbehandlung
+
+### Heilmittel/Physiotherapie inklusive Massagen - p. 12
+Das sind physikalisch-medizinische Leistungen (Inhalationen, Krankengymnastik und Bewegungsübungen, Massagen, Packungen, Hydrotherapie und medizinische Bäder, Kälte- und Wärmebehandlung, Ergotherapie, Elektrotherapie oder Lichttherapie). Diese müssen von einem Arzt in eigener Praxis oder einem in eigener Praxis tätigen Inhaber eines staatlich anerkannten Diploms für medizinische Assistenzberufe (z. B. Krankengymnast oder Physiotherapeut) ausgeführt werden und von einem Arzt verordnet worden sein. Die Verordnung muss vor Behandlungsbeginn ausgestellt worden sein und Diagnose, Art und Anzahl der Maßnahmen enthalten. Nicht als Heilmittel/Physiotherapie gelten sonstige Leistungen, wie zum Beispiel Thermal-, Sauna- und ähnliche Bäder. Nicht erstattungsfähig sind Mehraufwendungen für die Behandlung in der Wohnung der versicherten Personen.
+- Optionnelle : non · Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: versichert | Plus: versichert | Top: versichert
+  - Sous-limite : Classic: versichert
+  - Sous-limite : Plus: versichert
+  - Sous-limite : Top: versichert
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Heilmittel/Physiotherapie“, Seite 20
+  - Condition : Leistungsübersicht: 4.4 Leistungsübersicht: Ambulante Heilbehandlung
+
+### Hilfsmittel - p. 12
+Erstattungsfähig sind Aufwendungen für Körperersatzstücke sowie orthopädische und andere Hilfsmittel, die dazu dienen, körperlichen Behinderungen vorzubeugen, diese unmittelbar zu mildern oder auszugleichen. Hilfsmittel müssen von einem Arzt verordnet sein und dürfen nicht als allgemeine Gebrauchsgegenstände angesehen werden. Als Hilfsmittel im Rahmen der ambulanten Heilbehandlung gelten: Bandagen, Bruchbänder, Einlagen zur Fußkorrektur, Gehstützen, Hörgeräte, Kompressionsstrümpfe, Korrekturschienen, Kunstglieder/Prothesen (ausgenommen Zahnprothesen), Liege und Sitzschalen, orthopädische Rumpf-, Arm- und Beinstützapparate sowie Sprechgeräte (elektronischer Kehlkopf). Perücken und Prothesen-BHs für Frauen im Rahmen einer Krebsbehandlung werden bis zu einem Höchstbetrag von € 300 erstattet. Alle anderen therapeutischen Hilfsmittel sind nur dann erstattungsfähig, wenn die Leistungen zuvor schriftlich genehmigt wurden. Kosten für eine angemessene Instandhaltung (wie z.B. eine jährliche Wartung oder den Austausch von Batterien) und Reparatur von therapeutischen Hilfsmitteln werden im Rahmen dieser Bestimmungen erstattet.
+- Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: keine Erstattung vorgesehen | Plus: versichert – bis zu € 2.000**/ $ 2.600**/ £ 1.680** | Top: versichert
+  - Sous-limite : Classic: keine Erstattung vorgesehen
+  - Sous-limite : Plus: versichert – bis zu € 2.000**/ $ 2.600**/ £ 1.680**
+  - Sous-limite : Top: versichert
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Hilfsmittel im Rahmen einer ambulanten Heilbehandlung“, Seite 20
+  - Condition : Leistungsübersicht: 4.4 Leistungsübersicht: Ambulante Heilbehandlung
+
+### Perücken und Prothesen-BHs im Rahmen einer Krebsbehandlung - p. 12
+- Optionnelle : non · Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: versichert – bis zu € 300**/ $ 390**/ £ 252** | Plus: versichert – bis zu € 300**/ $ 390**/ £ 252** | Top: versichert – bis zu € 300**/ $ 390**/ £ 252**
+  - Sous-limite : Classic: versichert – bis zu € 300**/ $ 390**/ £ 252**
+  - Sous-limite : Plus: versichert – bis zu € 300**/ $ 390**/ £ 252**
+  - Sous-limite : Top: versichert – bis zu € 300**/ $ 390**/ £ 252**
+  - Condition : Leistungsübersicht: 4.4 Leistungsübersicht: Ambulante Heilbehandlung
+
+### Ernährungsberatung - p. 12
+Wir erstatten die Kosten für ambulante Konsultationen mit einem Ernährungsberater für eine durch einen Arzt diagnostizierte Erkrankung, die von einer Ernährungsberatung profitieren würde, um die Erkrankung besser therapieren zu können. Zu diesen Erkrankungen gehören z.B. Krebs, Essstörungen, Magen-Darm-Erkrankungen, Herzkrankheiten sowie Nahrungsmittelunverträglichkeiten und -allergien. Die Leistungen müssen durch einen Arzt verordnet werden. Die Verordnung muss vor Beginn der Behandlung ausgestellt worden sein und die Diagnose, Art und Anzahl der erforderlichen Sitzungen ausweisen.
+- Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: keine Erstattung vorgesehen | Plus: versichert – bis zu € 125**/ $ 162.50**/ £ 105** | Top: versichert – bis zu € 250**/ $ 325**/ £ 210**
+  - Sous-limite : Classic: keine Erstattung vorgesehen
+  - Sous-limite : Plus: versichert – bis zu € 125**/ $ 162.50**/ £ 105**
+  - Sous-limite : Top: versichert – bis zu € 250**/ $ 325**/ £ 210**
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Ernährungsberatung“, Seite 20
+  - Condition : Leistungsübersicht: 4.4 Leistungsübersicht: Ambulante Heilbehandlung
+
+### Podologie - p. 12
+Wir erstatten Kosten für medizinisch notwendige podiatrische Behandlungen. Diese Leistungen müssen von einem Arzt verordnet worden sein. Die Verordnung muss vor Beginn der Behandlung ausgestellt worden sein und die Diagnose, Art und Anzahl der erforderlichen Sitzungen ausweisen.
+- Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: keine Erstattung vorgesehen | Plus: versichert – bis zu € 100**/ $ 130**/ £ 84** | Top: versichert – bis zu € 200**/ $ 260**/ £ 168**
+  - Sous-limite : Classic: keine Erstattung vorgesehen
+  - Sous-limite : Plus: versichert – bis zu € 100**/ $ 130**/ £ 84**
+  - Sous-limite : Top: versichert – bis zu € 200**/ $ 260**/ £ 168**
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Podologie“, Seite 20
+  - Condition : Leistungsübersicht: 4.4 Leistungsübersicht: Ambulante Heilbehandlung
+
+### Sehhilfen - p. 12
+Erstattungsfähig sind Brillenfassungen und -gläser sowie Kontaktlinsen, insgesamt bis zum jeweiligen Höchstbetrag.
+- Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: keine Erstattung vorgesehen | Plus: versichert – bis zu € 100**/ $ 130**/ £ 84** | Top: versichert – bis zu € 200**/ $ 260**/ £ 168**
+  - Sous-limite : Classic: keine Erstattung vorgesehen
+  - Sous-limite : Plus: versichert – bis zu € 100**/ $ 130**/ £ 84**
+  - Sous-limite : Top: versichert – bis zu € 200**/ $ 260**/ £ 168**
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Sehhilfen“, Seite 20
+  - Condition : Leistungsübersicht: 4.4 Leistungsübersicht: Ambulante Heilbehandlung
+
+### Transportkosten zum nächst erreichbaren geeigneten Arzt oder Krankenhaus zur Erstversorgung nach einem Unfall oder Notfall durch anerkannte Rettungsdienste in der Situation angemessenen Transportmitteln - p. 12
+- Optionnelle : non · Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: versichert | Plus: versichert | Top: versichert
+  - Sous-limite : Classic: versichert
+  - Sous-limite : Plus: versichert
+  - Sous-limite : Top: versichert
+  - Condition : Leistungsübersicht: 4.4 Leistungsübersicht: Ambulante Heilbehandlung
+
+### Unfruchtbarkeitsbehandlung - p. 12
+Im Rahmen der vereinbarten Leistungen und vorausgesetzt, dass diese von uns vor Behandlungsbeginn schriftlich zugesagt wurden, tragen wir die Kosten für folgende Diagnosetests und Behandlungen zur Erhöhung der Fruchtbarkeit sowie zur Vermeidung künftiger Fehlgeburten, Untersuchungen von Fehlgeburten und künstlicher Befruchtung und von damit verbundenen Komplikationen: • Diagnostische Untersuchungen, Beratungen und Tests, einschließlich Eingriffe, wie Hysterosalpingogramm, Bauchspiegelung und Hysteroskopie • Laborarbeiten • Behandlung mit verschriebenen Medikamenten darunter u. a. Ovulationsstimulation • Invitro-Befruchtung (IVF) • Intrazytoplasmatische Spermieninjektion (ICSI) • Gamete Intrafallopian Transfer (GIFT) • Zygote Intrafallopian Transfer (ZIFT) • Künstliche Befruchtung (AI) Die Übernahme der Kosten erfolgt zudem nur unter der Voraussetzung, dass • zum Zeitpunkt der Behandlung (erster Stimulationstag pro Behandlungszyklus bzw. im Falle der Befruchtung ohne Hormonstimulation erster Zyklustag) die Frau unter 40 und der Mann unter 50 Jahre alt ist; • die Sterilität der versicherten Person organisch bedingt ist und nur durch Maßnahmen der assistierten Reproduktion überwunden werden kann, und dass • sowohl der Mann als auch die Frau, die von der Behandlung profitieren, bei uns versichert sind, und die Leistung unter dem jeweiligen Tarif versichert ist.
+- Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: keine Erstattung vorgesehen | Plus: versichert – 50 % bis zu einem Höchstsatz von € 7.500/ $ 9.750/ £ 6.300 pro versichertem Paar für die Dauer des Vertrages | Top: versichert – 50 % bis zu einem Höchstsatz von € 15.000/ $ 19.500/ £ 12.600 pro versichertem Paar für die Dauer des Vertrages
+  - Sous-limite : Classic: keine Erstattung vorgesehen
+  - Sous-limite : Plus: versichert – 50 % bis zu einem Höchstsatz von € 7.500/ $ 9.750/ £ 6.300 pro versichertem Paar für die Dauer des Vertrages
+  - Sous-limite : Top: versichert – 50 % bis zu einem Höchstsatz von € 15.000/ $ 19.500/ £ 12.600 pro versichertem Paar für die Dauer des Vertrages
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Unfruchtbarkeitsbehandlung“, Seite 20
+  - Condition : Leistungsübersicht: 4.4 Leistungsübersicht: Ambulante Heilbehandlung
+
+### Eingehende Untersuchung zur Feststellung von Zahn-, Mund- und Kiefererkrankungen - p. 13
+- Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: keine Erstattung vorgesehen | Plus: versichert | Top: versichert
+  - Sous-limite : Classic: keine Erstattung vorgesehen
+  - Sous-limite : Plus: versichert
+  - Sous-limite : Top: versichert
+  - Condition : Leistungsübersicht: 4.5 Leistungsübersicht: Zahnärztliche Heilbehandlung
+
+### Zahnbehandlung - p. 13
+- Optionnelle : non · Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: versichert – Schmerzstillende Zahnbehandlung | Plus: versichert – inklusive Einlagefüllungen | Top: versichert – inklusive Einlagefüllungen
+  - Sous-limite : Classic: versichert – Schmerzstillende Zahnbehandlung
+  - Sous-limite : Plus: versichert – inklusive Einlagefüllungen
+  - Sous-limite : Top: versichert – inklusive Einlagefüllungen
+  - Condition : Leistungsübersicht: 4.5 Leistungsübersicht: Zahnärztliche Heilbehandlung
+
+### Röntgenuntersuchung - p. 13
+- Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: keine Erstattung vorgesehen | Plus: versichert | Top: versichert
+  - Sous-limite : Classic: keine Erstattung vorgesehen
+  - Sous-limite : Plus: versichert
+  - Sous-limite : Top: versichert
+  - Condition : Leistungsübersicht: 4.5 Leistungsübersicht: Zahnärztliche Heilbehandlung
+
+### Zahnsteinentfernung und Polieren - p. 13
+- Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: keine Erstattung vorgesehen | Plus: versichert | Top: versichert
+  - Sous-limite : Classic: keine Erstattung vorgesehen
+  - Sous-limite : Plus: versichert
+  - Sous-limite : Top: versichert
+  - Condition : Leistungsübersicht: 4.5 Leistungsübersicht: Zahnärztliche Heilbehandlung
+
+### Leistungen bei Mundschleimhaut und Zahnfleischerkrankungen - p. 13
+- Optionnelle : non · Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: versichert – nur Schmerz- behandlung | Plus: versichert | Top: versichert
+  - Sous-limite : Classic: versichert – nur Schmerz- behandlung
+  - Sous-limite : Plus: versichert
+  - Sous-limite : Top: versichert
+  - Condition : Leistungsübersicht: 4.5 Leistungsübersicht: Zahnärztliche Heilbehandlung
+
+### Präparieren einer kariösen Kavität und einfache Restauration - p. 13
+- Optionnelle : non · Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: versichert – nur Schmerz- behandlung | Plus: versichert | Top: versichert
+  - Sous-limite : Classic: versichert – nur Schmerz- behandlung
+  - Sous-limite : Plus: versichert
+  - Sous-limite : Top: versichert
+  - Condition : Leistungsübersicht: 4.5 Leistungsübersicht: Zahnärztliche Heilbehandlung
+
+### Chirurgische Leistungen, Extraktionen, Wurzelkanalbehandlungen - p. 13
+- Optionnelle : non · Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: versichert – nur Schmerz- behandlung | Plus: versichert | Top: versichert
+  - Sous-limite : Classic: versichert – nur Schmerz- behandlung
+  - Sous-limite : Plus: versichert
+  - Sous-limite : Top: versichert
+  - Condition : Leistungsübersicht: 4.5 Leistungsübersicht: Zahnärztliche Heilbehandlung
+
+### Eingliederung von Aufbissbehelfen und Schienen - p. 13
+- Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: keine Erstattung vorgesehen | Plus: versichert | Top: versichert
+  - Sous-limite : Classic: keine Erstattung vorgesehen
+  - Sous-limite : Plus: versichert
+  - Sous-limite : Top: versichert
+  - Condition : Leistungsübersicht: 4.5 Leistungsübersicht: Zahnärztliche Heilbehandlung
+
+### Zahnärztliche Leistungen nach einem Unfall - p. 13
+Sämtliche Höchstbeträge, die unter der entsprechenden gewählten Tarifstufe anwendbar sind, entfallen, wenn Sie eine Zahnbehandlung infolge einer unfallbedingten Zahnverletzung benötigen, die durch direkte äußere Einwirkung auf den Kopf, z. B. Sturz, oder durch andere Unfälle mit Verletzungen durch äußere Einwirkung verursacht wurde. Verletzungen, die durch Essen/Trinken verursacht werden, sowie solche durch Beißen, Kauen, Zusammenbeißen oder Knirschen der Zähne, sind unter dieser Leistungsart nicht berücksichtigt. Ferner muss die Arztrechnung ausweisen, dass die Behandlung im Rahmen eines Unfalls notwendig wurde und erfolgte. Der Unfall muss uns durch einen Arzt- und/oder Polizeibericht nachgewiesen werden. Es fallen keine Wartezeiten an.
+- Optionnelle : non · Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: versichert | Plus: versichert | Top: versichert
+  - Sous-limite : Classic: versichert
+  - Sous-limite : Plus: versichert
+  - Sous-limite : Top: versichert
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Wegfall der Höchstbeträge bei Unfall“, Seite 22
+  - Condition : Leistungsübersicht: 4.5 Leistungsübersicht: Zahnärztliche Heilbehandlung
+
+### Umfassende zahnärztliche Leistungen - p. 13
+Prothetische Leistungen: • Abformung oder Teilabformung eines Kiefers für ein Situationsmodell einschließlich Auswertung zur Diagnose oder Planung • Aufstellung eines schriftlichen Heil-und Kostenplans bei prothetischer Behandlung • Vorbereitung eines zerstörten Zahnes mit plastischem Aufbaumaterial auch mit Stiftverankerung zur Aufnahme einer Krone • Overlay/Onlay • Adhäsive Befestigung (plastischer Aufbau, Stift, Krone, Teilkrone) • Versorgung eines Zahnes durch eine Voll- oder Teilkrone • Eingliederung einer konfektionierten Krone in der pädiatrischen Zahnheilkunde • Provisorische Kronen/Brücken • Versorgung eines Lückengebisses durch eine Brücke oder Prothese • Teleskopkrone und Teleskopprothese • Versorgung eines zahnlosen Kiefers durch eine totale Prothese Implantologische Leistungen: • Implantatbezogene Analyse • Verwenden einer Orientierungsschablone/Positionierungsschablone zur Implantation • Implantatinsertion: bis zu vier Implantate pro Kiefer und der darauf zu befestigende Zahnersatz • Freilegen eines Implantats • Einbringung von Aufbaumaterial (Knochen und/oder Knochenersatzmaterial) • Sinusbodenelevation Vor- und Nachbehandlungen z.B. Zahnbehandlungen im Zusammenhang mit Zahnersatz werden wie die Aufwendungen erstattet, in deren Zusammenhang sie verordnet bzw. erbracht werden.
+- Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: keine Erstattung vorgesehen – Erstattungsfähig sind die unten aufgeführten Leistungen, wenn diese infolge eines Unfalls benötigt werden | Plus: versichert – Erstattungsfähig sind die unten aufgeführten Leistungen bis zu € 2.000*/ $ 2.600*/ £ 1.680* Wartezeit von 8 Monaten | Top: versichert – Erstattungsfähig sind die unten aufgeführten Leistungen bis zu € 5.000*/ $ 6.500*/ £ 4.200* Wartezeit von 8 Monaten
+  - Sous-limite : Classic: keine Erstattung vorgesehen – Erstattungsfähig sind die unten aufgeführten Leistungen, wenn diese infolge eines Unfalls benötigt werden
+  - Sous-limite : Plus: versichert – Erstattungsfähig sind die unten aufgeführten Leistungen bis zu € 2.000*/ $ 2.600*/ £ 1.680* Wartezeit von 8 Monaten
+  - Sous-limite : Top: versichert – Erstattungsfähig sind die unten aufgeführten Leistungen bis zu € 5.000*/ $ 6.500*/ £ 4.200* Wartezeit von 8 Monaten
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Umfassende zahnärztliche Leistungen“, Seite 21
+  - Condition : Leistungsübersicht: 4.5 Leistungsübersicht: Zahnärztliche Heilbehandlung
+
+### Zahnersatz (z. B. Prothesen, Brücken, Zahnkronen, Onlays) - p. 13
+- Optionnelle : non · Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: versichert | Plus: versichert | Top: versichert
+  - Sous-limite : Classic: versichert
+  - Sous-limite : Plus: versichert
+  - Sous-limite : Top: versichert
+  - Condition : Leistungsübersicht: 4.5 Leistungsübersicht: Zahnärztliche Heilbehandlung
+
+### Implantologische Leistungen - p. 13
+- Optionnelle : non · Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: versichert – bis zu vier Implantate pro Kiefer und der darauf zu befestigende Zahnersatz | Plus: versichert – bis zu vier Implantate pro Kiefer und der darauf zu befestigende Zahnersatz | Top: versichert – bis zu vier Implantate pro Kiefer und der darauf zu befestigende Zahnersatz
+  - Sous-limite : Classic: versichert – bis zu vier Implantate pro Kiefer und der darauf zu befestigende Zahnersatz
+  - Sous-limite : Plus: versichert – bis zu vier Implantate pro Kiefer und der darauf zu befestigende Zahnersatz
+  - Sous-limite : Top: versichert – bis zu vier Implantate pro Kiefer und der darauf zu befestigende Zahnersatz
+  - Condition : Leistungsübersicht: 4.5 Leistungsübersicht: Zahnärztliche Heilbehandlung
+
+### Kieferorthopädische Behandlung - p. 13
+Kieferorthopädische Behandlungen für Kinder, die vor dem 18. Lebensjahr begonnen wurden, einschließlich Metallspangen und Retainern, prüfen wir gerne auf Basis eines Behandlungsplans und Kostenvoranschlags. Die medizinische Notwendigkeit einer kieferorthopädischen Behandlung wird von uns auf der Grundlage des Index of Orthodontic Treatment Needs (IOTN) der Britischen Gesellschaft für Kieferorthopädie (British Orthodontic Society) bewertet. Nicht erstattungsfähig sind Mehrleistungen, wie z.B. besondere Behandlungsformen (innenliegende Zahnspangen, sog. Lingualtechnik) und Kunststoffschienen nach dem Alignerverfahren (Invisalign).
+- Optionnelle : non · Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: versichert | Plus: versichert | Top: versichert
+  - Sous-limite : Classic: versichert
+  - Sous-limite : Plus: versichert
+  - Sous-limite : Top: versichert
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Kieferorthopädische Behandlung“, Seite 22
+  - Condition : Leistungsübersicht: 4.5 Leistungsübersicht: Zahnärztliche Heilbehandlung
+
+### Zahntechnische Laborarbeiten und Materialien - p. 13
+- Optionnelle : non · Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: versichert | Plus: versichert | Top: versichert
+  - Sous-limite : Classic: versichert
+  - Sous-limite : Plus: versichert
+  - Sous-limite : Top: versichert
+  - Condition : Leistungsübersicht: 4.5 Leistungsübersicht: Zahnärztliche Heilbehandlung
+
+### Erstellen eines Heil- und Kostenplans - p. 13
+Legen Sie uns bei geplanten, umfangreicheren Zahnersatz oder Sanierungsmaßnahmen sowie bei Kieferorthopädie vor Beginn der Heilbehandlung einen Heil- und Kostenplan des Arztes bzw. Zahnarztes vor. Sie erhalten dann eine Mitteilung über die Höhe unserer Erstattungsleistungen.
+- Optionnelle : non · Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: versichert | Plus: versichert | Top: versichert
+  - Sous-limite : Classic: versichert
+  - Sous-limite : Plus: versichert
+  - Sous-limite : Top: versichert
+  - Condition : Beschreibung: 4.8 Leistungsbeschreibung „Erstellen eines Heil- und Kostenplans“, Seite 22
+  - Condition : Leistungsübersicht: 4.5 Leistungsübersicht: Zahnärztliche Heilbehandlung
+
+### 24-Stunden Telefon- und E-Mail Service mit erfahrenen Beratern, eigenen Ärzten und Fachärzten - p. 14
+- Optionnelle : non · Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: versichert | Plus: versichert | Top: versichert
+  - Sous-limite : Classic: versichert
+  - Sous-limite : Plus: versichert
+  - Sous-limite : Top: versichert
+  - Condition : Leistungsübersicht: 4.6 Leistungsübersicht: Medizinische Assistance
+
+### Medizinischer Kranken- und Rücktransport - p. 14
+Unser Leistungsumfang im Hinblick auf einen Krankentransport ist in Nr. 4.3 und Nr. 4.4 geregelt. Darüber hinaus besteht auch bei unzureichender stationärer medizinischer Versorgung im jeweiligen Aufenthaltsland ein Anspruch auf grenzüberschreitenden Kranken(rück)transport. In diesem Fall erfolgt die Übernahme der Kosten für den Kranken(rück)transport unter folgenden Voraussetzungen: • Der Kranken(rück)transport muss durch den behandelnden Arzt angeordnet und medizinisch notwendig sein • Eine vorherige Kostenzusage durch das für Sie zuständige Globality Health Servicecenter muss erfolgt sein Der Kranken(rück)transport erfolgt nach Abstimmung zwischen dem für Sie zuständigen Globality Health Servicecenter und dem behandelnden Arzt • an einen für die weiteren Heilbehandlungen geeigneteren Ort in einem Drittland (innerhalb der gewählten Zielregion) • im Versicherungsfall außerhalb des Aufenthaltslandes an den aktuellen Wohnsitz der versicherten Person im Aufenthaltsland • an den letzten ständigen Wohnsitz der versicherten und mitversicherten Person im Ausreise- oder Heimatland Bei medizinischer Notwendigkeit wird auch die Transportbegleitung durch einen Arzt organisiert. Ein Anspruch besteht lediglich für den Transport zum geeigneten Behandlungsort.
+- Optionnelle : non · Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: versichert | Plus: versichert | Top: versichert
+  - Sous-limite : Classic: versichert
+  - Sous-limite : Plus: versichert
+  - Sous-limite : Top: versichert
+  - Condition : Beschreibung: 5. Assistance-/Serviceleistungen „Medizinischer Kranken- bzw. Rücktransport“, Seite 23
+  - Condition : Leistungsübersicht: 4.6 Leistungsübersicht: Medizinische Assistance
+
+### Information über die medizinische Infrastruktur (ärztliche Versorgung vor Ort und Benennung mehrsprachiger Ärzte) - p. 14
+Über das zuständige Globality Health Servicecenter erhalten Sie und die versicherten Personen im Versicherungsfall bzw. Notfall Auskünfte über die Möglichkeiten der ärztlichen Versorgung vor Ort. Ebenfalls erfolgt durch das zuständige Globality Health Servicecenter sowohl die Benennung von vor Ort verfügbaren deutsch-, englisch-, französischoder spanischsprachigen Ärzten und Kranken-hausdiensten als auch die von Krankenhäusern, Spezialkliniken und Verlegungsmöglichkeiten.
+- Optionnelle : non · Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: versichert | Plus: versichert | Top: versichert
+  - Sous-limite : Classic: versichert
+  - Sous-limite : Plus: versichert
+  - Sous-limite : Top: versichert
+  - Condition : Beschreibung: 5. Assistance-/Serviceleistungen „Information über medizinische Infrastruktur“, Seite 23
+  - Condition : Leistungsübersicht: 4.6 Leistungsübersicht: Medizinische Assistance
+
+### Betreuung und Information durch unseren ärztlichen Dienst (Second Opinion, Beobachtung des Krankheitsverlaufs) - p. 14
+Sie und die versicherten Personen können den ärztlichen Dienst des zuständigen Globality Health Servicecenters einschalten sofern eine notwendige medizinische Erstbetreuung vor Ort notwendig ist. Ihr Servicecenter kann auf den Wunsch der versicherten Personen die Angehörigen über den Versicherungsfall bzw. Notfall informieren – soweit dies technisch möglich ist. Die versicherten Personen können sich bei lebensbedrohlichen Erkrankungen und schwerwiegenden, bleibenden gesundheitlichen Störungen durch das zuständige Globality Health Servicecenter eine ärztliche Zweitmeinung (Second Opinion), das heißt einen zweiten ärztlichen Befund, einholen lassen. Unsere Servicecenter gewähren den versicherten Personen im Rahmen einer stationären Heilbehandlung Unterstützung bei der Aufnahme- und Entlassungsplanung. Eine Beobachtung des Krankheitsverlaufs durch Ärzte des zuständigen Globality Health Servicecenters und durch Assistance-Koordinatoren ist bei stationärer Heilbehandlung und bei Heilbehandlungen, die zur Vermeidung stationärer Aufnahme ambulant durchgeführt werden, möglich. Außerdem kann eine Abstimmung über den Krankheitsverlauf und die Heilbehandlung durch Arzt-zu-Arzt-Gespräche bei stationärer Heilbehandlung und bei Heilbehandlungen, die zur Vermeidung einer stationären Aufnahme ambulant durchgeführt werden, erfolgen.
+- Optionnelle : non · Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: versichert | Plus: versichert | Top: versichert
+  - Sous-limite : Classic: versichert
+  - Sous-limite : Plus: versichert
+  - Sous-limite : Top: versichert
+  - Condition : Beschreibung: 5. Assistance-/Serviceleistungen „Betreuung und Information“, Seite 23
+  - Condition : Leistungsübersicht: 4.6 Leistungsübersicht: Medizinische Assistance
+
+### Kostenübernahmegarantie (Vorbereitung des Krankenhausaufenthaltes) - p. 14
+Bei einem Notfall mit stationärer Heilbehandlung ist die Einschaltung des für Sie zuständigen Globality Health Servicecenters unverzüglich bzw. spätestens bei Aufnahme in das Krankenhaus erforderlich. Bei einer geplanten stationären Heilbehandlung ist spätestens 7 Tage vor Aufnahme die Einschaltung des zuständigen Globality Health Servicecenters erforderlich; dies gilt auch bei stationsersetzenden ambulanten Operationen. Nur hierdurch kann bei geplanten stationären Heilbehandlungen oder bei stationären Notfallbehandlungen die Regelung einer Kostenübernahmegarantie gegenüber den Ärzten bzw. dem Krankenhaus inklusive der ärztlichen Prüfung der Angemessenheit der medizinischen Rechnungen durch das zuständige Globality Health Servicecenter erfolgen. Darüber hinaus stimmen wir auf Wunsch mit den Krankenhäusern den Rechnungsversand und die Zahlungsmodalitäten ab und bemühen uns um die Organisation einer zentralisierten Bezahlung. In diesem Fall werden Sie bzw. die versicherte Person von dem zuständigen Globality Health Servicecenter über die Vorgehensweise schriftlich oder per E-Mail informiert.
+- Optionnelle : non · Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: versichert | Plus: versichert | Top: versichert
+  - Sous-limite : Classic: versichert
+  - Sous-limite : Plus: versichert
+  - Sous-limite : Top: versichert
+  - Condition : Beschreibung: 5. Assistance-/Serviceleistungen „Kostenübernahmegarantie“, Seite 24
+  - Condition : Leistungsübersicht: 4.6 Leistungsübersicht: Medizinische Assistance
+
+### Organisatorische Unterstützung im Todesfall, Beteiligung an den Überführungskosten - p. 14
+Der Todesfall im Ausland ist für die Angehörigen doppelt belastend. Auch hier hilft das zuständige Globality Health Servicecenter. • Es besorgt die Sterbeurkunde oder den Unfallbericht, soweit die gesetzlichen Bestimmungen dies zulassen, • Es stellt Kontakte zu den Behörden und Konsulaten im Ausland her, • Es stellt fest, welche Hinterbliebenen zu einer Überführungs- oder Einäscherungsverfügung berechtigt sind, • Es leitet gemäß den Bestimmungen des jeweiligen Landes alle Formalitäten für eine Überführung bzw. Einäscherung oder eine Bestattung vor Ort ein. Wir erstatten bis zum jeweiligen Höchstbetrag: • die unmittelbaren Kosten einer Überführung des Verstorbenen in das Ausreise- oder Heimatland (inklusive der Formalitäten), • bei Einäscherung im Aufenthaltsland die Überführung der Urne in das Ausreise- oder Heimatland. Es erfolgt keine Übernahme der eigentlichen Bestattungskosten.
+- Optionnelle : non · Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: versichert – bis zu € 2.500/ $ 3.250/ £ 2.100 | Plus: versichert – bis zu € 5.000/ $ 6.500/ £ 4.200 | Top: versichert – bis zu € 10.000/ $ 13.000/ £ 8.400
+  - Sous-limite : Classic: versichert – bis zu € 2.500/ $ 3.250/ £ 2.100
+  - Sous-limite : Plus: versichert – bis zu € 5.000/ $ 6.500/ £ 4.200
+  - Sous-limite : Top: versichert – bis zu € 10.000/ $ 13.000/ £ 8.400
+  - Condition : Beschreibung: 5. Assistance-/Serviceleistungen „Organisatorische Unterstützung im Todesfall, Beteiligung an den Überführungskosten“, Seite 24
+  - Condition : Leistungsübersicht: 4.6 Leistungsübersicht: Medizinische Assistance
+
+### Zusätzliche medizinische sinnvolle Unterstützung (Information über Art, mögliche Ursachen und Heilbehandlungsmöglichkeiten der Erkrankung) - p. 14
+Das zuständige Globality Health Servicecenter informiert Sie und die versicherten Personen unabhängig vom Vorliegen eines Versicherungsfalles über allgemeine (Auskünfte über das Land, Zollformalitäten) und medizinische (Impfberatung, ärztliche telefonische Information) Reisevorbereitungen und gibt Tipps zum Inhalt und zur Beschaffung der Reiseapotheke/ des Verbandskastens. Im Falle, dass eine versicherte Person erkrankt, kann sie durch das zuständige Globality Health Servicecenter allgemeine Informationen über die Art der Erkrankung, mögliche Ursachen und Heilbehandlungsmöglichkeiten sowie Erklärung der medizinischen Fachbegriffe erlangen. Für Auskünfte zu Medikamenten bzw. identischen/vergleichbaren Präparaten und deren Neben- und Wechselwirkungen steht Ihnen das für Sie zuständige Globality Health Servicecenter ebenfalls zur Verfügung. Bei ambulanten Heilbehandlungen klärt das zuständige Globality Health Servicecenter die Heilbehandlung und den Krankheitsverlauf gegebenenfalls durch Arzt-zu-Arzt- Gespräche ab und beobachtet den Verlauf und die weitere Betreuung der Krankheit.
+- Optionnelle : non · Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: versichert | Plus: versichert | Top: versichert
+  - Sous-limite : Classic: versichert
+  - Sous-limite : Plus: versichert
+  - Sous-limite : Top: versichert
+  - Condition : Beschreibung: 5. Assistance-/Serviceleistungen „Zusätzliche medizinisch sinnvolle Unterstützung“, Seite 24
+  - Condition : Leistungsübersicht: 4.6 Leistungsübersicht: Medizinische Assistance
+
+### Online Services - p. 14
+Auf unserer Internetseite www.globality-health.com finden Sie einen geschützten Bereich, in dem Sie Zugriff auf eine Reihe von nützlichen Online Serviceleistungen haben. Informationen zum Anmeldeverfahren erhalten Sie zusammen mit Ihrer Globality Service Card. Unser Online Service umfasst: • alle wesentlichen Kontaktdaten des für Sie zuständigen Globality Health Servicecenters, • einen bereits mit Ihren persönlichen Angaben versehenen Vordruck zur Beantragung von Leistungen; • eine Funktion zur Suche (Suchmaschine) nach medizinischen Leistungserbringern (Ärzte und Krankenhäuser im Aufenthaltsland) sowie • länderbezogene Auskünfte, darunter Reisehinweise, Informationen über bestimmte Krankheiten und Impfempfehlungen, Hinweise zur politischen Stabilität bzw. Sicherheit in verschiedenen Regionen sowie die neusten Nachrichten. 5.2 Erläuterung – Zusätzliche Assistance (siehe hierzu Nr. 4.7)
+- Optionnelle : non · Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: versichert | Plus: versichert | Top: versichert
+  - Sous-limite : Classic: versichert
+  - Sous-limite : Plus: versichert
+  - Sous-limite : Top: versichert
+  - Condition : Beschreibung: 5. Assistance-/Serviceleistungen „Online-Services“, Seite 25
+  - Condition : Leistungsübersicht: 4.6 Leistungsübersicht: Medizinische Assistance
+
+### Zusätzliche Unterstützung - p. 15
+Erfolgt aufgrund eines medizinischen Notfalls (sowohl im Aufenthaltsland als auch bei einer Urlaubs- oder Geschäftsreise) bei Ihnen oder einer versicherten Person eine stationäre Heilbehandlung, kümmert sich das zuständige Globality Health Servicecenter um die Organisation eines Krankenbesuchs durch einen Familienangehörigen, wenn der Krankenhausaufenthalt länger als sieben Tage andauert. Das Servicecenter organisiert die Beförderung des Familienangehörigen zum Standort des Krankenhauses und von dort zurück zum Wohnort. Wenn eine versicherte Person aufgrund einer schweren Krankheit/eines schweren Unfalls oder des Todes eines Familienmitglieds gezwungen ist, in ihr Heimatland zurückzukehren, erstattet Globality Health bis zu den in Absatz 4.7 der Allgemeinen Versicherungsbedingungen für die Organisation von Familienbesuchen genannten Höchstbeträge die Beförderungskosten (Hin- und Rückfahrkarte in der ersten Klasse und Flugticket in der Touristenklasse) zum Wohnort bzw. zum Ort des Krankenhausaufenthaltes des Familienangehörigen im Herkunftsland im Falle einer schweren Krankheit oder eines Unfalls bzw. zum Ort der Beerdigung im Herkunftsland im Falle des Todes des Familienangehörigen. Als schwere Krankheit und schwerer Unfall gelten solche, die das Leben des Familienangehörigen gefährden. Als Verwandte im Sinne dieser Deckung gelten der Ehegatte oder der unverheiratete Lebenspartner sowie die Eltern und Kinder des Versicherten. Rücktransportkosten bei schwerer Krankheit und schwerem Unfall sind nur unter der Bedingung erstattungsfähig, dass das entsprechende Servicecenter im Voraus kontaktiert wurde. Transportkosten aufgrund von Tod sind nur unter der Voraussetzung erstattungsfähig, dass die Sterbeurkunde vorgelegt wird.
+- Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: keine Erstattung vorgesehen | Plus: versichert | Top: versichert
+  - Sous-limite : Classic: keine Erstattung vorgesehen
+  - Sous-limite : Plus: versichert
+  - Sous-limite : Top: versichert
+  - Condition : Beschreibung: 5. Assistance-/Serviceleistungen „Zusätzliche Unterstützung“, Seite 25
+  - Condition : Leistungsübersicht: 4.7 Leistungsübersicht: Zusätzliche Assistance
+
+### Organisation von Krankenbesuchen für Angehörige - p. 15
+- Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: keine Erstattung vorgesehen | Plus: versichert – bis zu € 1.500*/ $ 1.950*/ £ 1.260* | Top: versichert – bis zu € 3.000*/ $ 3.900*/ £ 2.520*
+  - Sous-limite : Classic: keine Erstattung vorgesehen
+  - Sous-limite : Plus: versichert – bis zu € 1.500*/ $ 1.950*/ £ 1.260*
+  - Sous-limite : Top: versichert – bis zu € 3.000*/ $ 3.900*/ £ 2.520*
+  - Condition : Leistungsübersicht: 4.7 Leistungsübersicht: Zusätzliche Assistance
+
+### Beschaffung und Versand lebensnotwendiger Medikamente - p. 15
+- Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: keine Erstattung vorgesehen | Plus: versichert | Top: versichert
+  - Sous-limite : Classic: keine Erstattung vorgesehen
+  - Sous-limite : Plus: versichert
+  - Sous-limite : Top: versichert
+  - Condition : Leistungsübersicht: 4.7 Leistungsübersicht: Zusätzliche Assistance
+
+### Organisation des Rücktransports oder der Betreuung der Kinder - p. 15
+Sollte aufgrund eines medizinischen Notfalls eine stationäre Heilbehandlung beider Eltern im Aufenthaltsland notwendig sein, übernehmen wir die Organisation einer Betreuung vor Ort durch einen Kinderdienst für die Dauer der stationären Heilbehandlung. Tritt während einer Urlaubsreise (maximal 6 Wochen) ein medizinischer Notfall beider Eltern mit notwendiger stationärer Heilbehandlung ein, so besteht ein Anspruch auf einen begleiteten Rücktransport des Kindes/der Kinder (bis 18 Jahre) an den aktuellen Wohnsitz im Aufenthaltsland.
+- Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: keine Erstattung vorgesehen | Plus: keine Erstattung vorgesehen | Top: versichert
+  - Sous-limite : Classic: keine Erstattung vorgesehen
+  - Sous-limite : Plus: keine Erstattung vorgesehen
+  - Sous-limite : Top: versichert
+  - Condition : Beschreibung: 5. Assistance-/Serviceleistungen „Organisation des Rücktransports oder der Betreuung von Kindern“, Seite 25
+  - Condition : Leistungsübersicht: 4.7 Leistungsübersicht: Zusätzliche Assistance
+
+### Hilfe bei eventuell durch den Auslandsaufenthalt entstehenden psychischen Problemen - p. 15
+Sollte aufgrund des Auslandsaufenthaltes den versicherten Personen eine psychische Konfliktsituation entstehen, bietet das zuständige Globality Health Servicecenter psychologisch therapeutische Maßnahmen via Telefon und vermittelt bei Bedarf eine geeignete Hilfestellung vor Ort.
+- Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: keine Erstattung vorgesehen | Plus: versichert – Psychologisch- therapeutische Maßnahmen via Telefon (bis zu 3 Anrufe*) | Top: versichert – Psychologisch- therapeutische Maßnahmen via Telefon (bis zu 5 Anrufe*)
+  - Sous-limite : Classic: keine Erstattung vorgesehen
+  - Sous-limite : Plus: versichert – Psychologisch- therapeutische Maßnahmen via Telefon (bis zu 3 Anrufe*)
+  - Sous-limite : Top: versichert – Psychologisch- therapeutische Maßnahmen via Telefon (bis zu 5 Anrufe*)
+  - Condition : Beschreibung: 5. Assistance-/Serviceleistungen „Hilfe bei eventuell durch den Auslandsaufenthalt entstehenden psychischen Problemen“, Seite 25
+  - Condition : Leistungsübersicht: 4.7 Leistungsübersicht: Zusätzliche Assistance
+
+### Dokumentendepot (Hinterlegung, Hilfe bei Ersatzbeschaffung) - p. 15
+Kopien von Reisedokumenten (zum Beispiel Pass, Personalausweis, Visum, Kreditkarte, Führerschein, Fahrzeugschein, Fahrzeugbrief, Impfausweis, Allergiepass, Geschäftsunterlagen bis zu 20 Seiten DIN A4) können bei dem für Sie zuständigen Globality Health Servicecenter in einem verschlossenen Umschlag mit persönlichem Kennwort hinterlegt werden. Im Falle des Verlustes der Originale erfolgt – unabhängig vom Vorliegen eines Versicherungsfalls – Hilfe bei der Ersatzbeschaffung durch den Versand der Kopien per Post, per Kurierdienst oder per Telefax. Die Laufzeit des Dokumentendepots beträgt fünf Jahre, sofern keine Aktualisierungen durch die versicherten Personen stattfinden.
+- Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: keine Erstattung vorgesehen | Plus: keine Erstattung vorgesehen | Top: versichert
+  - Sous-limite : Classic: keine Erstattung vorgesehen
+  - Sous-limite : Plus: keine Erstattung vorgesehen
+  - Sous-limite : Top: versichert
+  - Condition : Beschreibung: 5. Assistance-/Serviceleistungen „Dokumentendepot (Hinterlegung, Hilfe bei Ersatzbeschaffung)“, Seite 25
+  - Condition : Leistungsübersicht: 4.7 Leistungsübersicht: Zusätzliche Assistance
+
+### Vermittlung von Hilfe bei rechtlichen Schwierigkeiten - p. 15
+Das zuständige Globality Health Servicecenter benennt deutsch-, englisch-, französisch- oder spanischsprachige Rechtsanwälte oder Gutachter weltweit. Bei Bedarf vermittelt das zuständige Globality Health Servicecenter einen Vorschuss für Rechtsanwaltskosten, einen Gerichtskostenvorschuss oder einen Strafkautionsvorschuss. Es erfolgt kein Vorschuss durch das zuständige Globality Health Servicecenter; dieses stellt den Kontakt zum Beispiel zur Hausbank oder zu Verwandten her und hilft gegebenenfalls beim Transfer des Betrages.
+- Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: keine Erstattung vorgesehen | Plus: keine Erstattung vorgesehen | Top: versichert
+  - Sous-limite : Classic: keine Erstattung vorgesehen
+  - Sous-limite : Plus: keine Erstattung vorgesehen
+  - Sous-limite : Top: versichert
+  - Condition : Beschreibung: 5. Assistance-/Serviceleistungen „Vermittlung von Hilfe bei rechtlichen Schwierigkeiten“, Seite 26
+  - Condition : Leistungsübersicht: 4.7 Leistungsübersicht: Zusätzliche Assistance
+
+### Vermittlung eines interkulturellen Trainings - p. 15
+Das zuständige Globality Health Servicecenter benennt Spezialanbieter, bei denen landes- und regionsspezifische Trainings zur Auslandsvorbereitung unter Berücksichtigung der Aspekte Leben und Arbeiten im Ausland absolvieren werden können.
+- Portée : Zielregion I: Weltweit mit USA oder Zielregion II: Weltweit ohne USA · Limite : Classic: keine Erstattung vorgesehen | Plus: keine Erstattung vorgesehen | Top: versichert
+  - Sous-limite : Classic: keine Erstattung vorgesehen
+  - Sous-limite : Plus: keine Erstattung vorgesehen
+  - Sous-limite : Top: versichert
+  - Condition : Beschreibung: 5. Assistance-/Serviceleistungen „Vermittlung von interkulturellem Training“, Seite 26
+  - Condition : Leistungsübersicht: 4.7 Leistungsübersicht: Zusätzliche Assistance
+
+## Exclusions
+
+| Exclusion | Description | S'applique à | Page |
+|---|---|---|---|
+| Bade- und Wellnessmassagen | Wir leisten nicht für Aufenthalte oder Behandlungen in einem Kur- oder Badezentrum, einem Sanatorium oder Erholungszentrum, auch wenn sie ärztlich verordnet werden. Dies schließt Thermalbäder, Saunaanwendungen und jede Form von Wellnessmassage ein. | all | p. 27 |
+| Behandlung durch bestimmte Ärzte, Zahnärzte und andere Behandler sowie in bestimmten Krankenhäusern | Hierunter fallen Behandlungen durch Ärzte, Zahnärzte, andere Behandler und in Krankenhäusern, deren Rechnungen wir aus wichtigem Grunde von der Erstattung ausgeschlossen haben. Wir sind jedoch nur für die Versicherungsfälle leistungsfrei, die eintreten, nachdem Sie über diesen Leistungsausschluss informiert wurden. Sofern zum Zeitpunkt der Benachrichtigung ein Versicherungsfall bereits besteht, entfällt unsere Leistungspflicht erst für die nach Ablauf von 3 Monaten seit der Benachrichtigung entstandenen Aufwendungen. | all | p. 27 |
+| Berufssport | Wir leisten nicht für therapeutische oder diagnostische Maßnahmen im Zusammenhang mit Verletzungen oder Erkrankungen, die durch die berufliche Ausübung einer Sportart hervorgerufen wurden. | all | p. 27 |
+| Entwicklungsstörungen | Wir leisten nicht für Dienstleistungen, Therapien, schulische Tests oder Unterstützungsmaßnahmen im Falle von Lernschwierigkeiten oder Störungen der psychischen Entwicklung, wie z. B. retardierte Entwicklung, schulische Schwierigkeiten,tiefgreifende Entwicklungsstörungen, geistige Retardierung, Wahrnehmungsstörungen, Gehirnschäden, die nicht durch Unfälle oder Erkrankungen entstanden sind, minimale Gehirnfehlfunktionen, Dyslexie oder Apraxie. | all | p. 27 |
+| Entziehungsmaßnahmen einschließlich Entziehungskuren | Entziehungsmaßnahmen einschließlich Entziehungskuren bei Drogenkonsum und Alkoholismus stehen nicht unter Versicherungsschutz. Unbeschadet dessen gewähren wir jedoch für eine erstmalige Entgiftungsmaßnahme, für die anderweitig kein Anspruch auf Kostenerstattung oder Sachleistung geltend gemacht werden kann. Bei einer stationären Entgiftungsmaßnahme sind nur die Aufwendungen für allgemeine Krankenhausgrundleistungen inklusive ärztlicher Leistungen und Arzneimittel erstattungsfähig. Wir leisten nicht für weitere Behandlungen, die durch schädlichen, gefährlichen oder missbräuchlichen Genuss jeglicher Substanzen wie Alkohol oder Drogen direkt oder indirekt notwendig werden. | all | p. 27 |
+| Epidemien, Pandemien und Ausbrüche von Krankheiten | Nicht erstattungsfähig sind Aufwendungen für Behandlungen und/oder medizinischen Kranken- und Rücktransport, die in direktem oder indirektem Zusammenhang zu Epidemien, Pandemien oder Ausbrüchen von Krankheiten vergleichbaren Ausmaßes stehen, welche unter die Kontrolle lokaler, öffentlicher Organe des Gesundheitswesens gestellt wurden, sofern nicht anderweitig schriftlich vereinbart. | all | p. 27 |
+| Experimentelle und investigative Therapien oder Behandlungsverfahren | Kein Versicherungsschutz besteht für jede Art von Behandlung oder medikamentöser Therapie, die wir als experimentell oder investigativ betrachten. Eine Dienstleistung, eine Technologie, eine Lieferung, ein Verfahren, eine Behandlung, ein Medikament, ein Gerät, eine Einrichtung, eine Ausrüstung oder ein biologisches Produkt gelten als experimentell oder investigativ, wenn sie nicht alle der folgenden Anforderungen erfüllen: • Sie müssen eine endgültige Lizenz und eine klar formulierte Genehmigung von mindestens einer der folgenden Instanzen haben: EMA (Europäische Arzneimittelagentur), FDA (Food and Drug Administration – Phase III abgeschlossen), Europäisches Netzwerk für Health Technology Assessment (EUnetHTA). Eine vorläufige Zulassung ist nicht ausreichend. Die Zulassung ist nur für die entsprechenden medizinischen Indikationen und Erkrankungen gültig. Im Falle von Verfahren und genehmigten Leitlinien für den klinischen Verlauf muss sie in einer der folgenden Richtlinien klar als solche gekennzeichnet sein: NICE (National Institute for Health and Care Excellence), AWMF (Arbeitsgemeinschaft der Wissenschaftlichen Medizinischen Fachgesellschaften), AHRQ National Guideline (Agency for Healthcare Research and Quality – National Guideline Clearinghouse). • Alle Genehmigungen und Leitlinien müssen schlüssig sein und können nicht die Notwendigkeit weiterer Forschung oder eines Forschungsumfeldes, begrenzte Evidenz, unzureichende Evidenz oder mangelnden klinischen Nutzen angeben. | all | p. 27 |
+| Genetische Tests | Die Kosten für genetische Tests werden nicht erstattet, ausgenommen sofern spezifisch benannte genetische Tests, die Teil Ihres Versicherungsschutzes sind oder sofern anderweitig schriftlich vereinbart. | all | p. 28 |
+| Geschlechtsumwandlung | Wir leisten nicht für die operative und hormonelle Angleichung der biologischen Geschlechtsmerkmale an das jeweils andere Geschlecht. | all | p. 28 |
+| Handlungen oder Reisetätigkeiten entgegen ärztlichem Rat | Die Versicherung deckt keine Behandlungen ab, die notwendig werden, weil ärztlicher Rat nicht eingeholt oder befolgt wurde oder infolge von Reisetätigkeit, die gegen den ärztlichen Rat erfolgt ist. | all | p. 28 |
+| Heilbehandlung durch bestimmte Ärzte, Zahnärzte und andere Behandler sowie in bestimmten Krankenhäusern | Hierunter fallen Heilbehandlungen durch Ärzte, Zahnärzte, andere Behandler und Krankenhäuser, deren Rechnungen wir aus wichtigem Grund von der Erstattung ausgeschlossen haben. Wir sind jedoch nur für die Versicherungsfälle leistungsfrei, die eintreten, nachdem Sie über diesen Leistungsausschluss informiert wurden. Sofern ein Versicherungsfall zum Zeitpunkt der Benachrichtigung bereits vorliegt, entfällt unsere Leistungspflicht nur für Aufwendungen, die nach Ablauf von einem Monat seit der Benachrichtigung entstanden sind. | all | p. 28 |
+| Heilbehandlung durch Ehe- bzw. Lebenspartner, Eltern oder Kinder | Für Aufwendungen von Heilbehandlungen durch Ehe- bzw. Lebenspartner, Eltern oder Kinder sind wir leistungsfrei. Allerdings erstatten wir tarifgemäß die für Ihre Heilbehandlung erforderlichen und nachgewiesenen Sachkosten. | all | p. 28 |
+| Höhere Gewalt | Nicht erstattungsfähig sind, sofern nicht anderweitig schriftlich vereinbart, Aufwendungen für Behandlungen und/oder medizinischen Kranken- und Rücktransport, die direkt oder indirekt auf höhere Gewalt zurückzuführen sind und wo es uns unmöglich gemacht wird, Assistance-Leistungen zu erbringen, oder uns die Kontrolle der Situation durch lokale Behörden entzogen wird. Als höhere Gewalt gelten unter anderem alle unvorhersehbaren und unvermeidlichen Ereignisse, wie Erdbeben, extreme witterungsbedingte Ereignisse, Brände, Überflutungen, Erdrutsche, Landabsenkungen oder sonstige Ereignisse und Handlungen, die außerhalb unseres Einflussbereichs liegen. | all | p. 28 |
+| Kosmetische/plastische Chirurgie | Für kosmetische/plastische Operationen und Heilbehandlungen leisten wir nicht. | all | p. 28 |
+| Korrektur des Sehvermögens | Wir leisten nicht für Behandlung oder operative Eingriffe zur Korrektur Ihres Sehvermögens, beispielsweise durch Laserbehandlung, refraktive Keratotomie (RK) und fotorefraktive Keratotomie (PRK). | all | p. 28 |
+| Komplikationen durch von der Leistung ausgeschlossene Ereignisse | Wir leisten nicht für Aufwendungen aufgrund von Komplikationen, die unmittelbar durch eine Krankheit, eine Verletzung oder eine Heilbehandlung bedingt sind, die wir aus unserem Leistungskatalog ausgeschlossen haben oder die gemäß dem von Ihnen gewählten Tarif einer Leistungseinschränkung unterliegen. | all | p. 28 |
+| Krieg, innere Unruhen, Terrorismus | Für Krankheiten und deren Folgen sowie für Folgen von Unfällen und für Todesfälle, die durch Kriegsereignisse, innere Unruhen oder Terrorakte verursacht worden sind, leisten wir nicht, es sei denn, die versicherte Person erleidet ihre Verletzungen als unbeteiligter Dritter, der die Gefahr nicht vorsätzlich oder fahrlässig missachtet hat und, soweit er sich nicht bewusst in ein Konfliktgebiet begeben hat. Soweit sich der unbeteiligte Dritte in einen unmittelbar umkämpften Bereich begibt oder er Dienste für eine in die Kampfhandlungen involvierte Partei erbringt, besteht jedoch in keinem Fall Versicherungsschutz. Der Leistungsausschluss gilt unabhängig davon, ob ein Krieg erklärt wurde oder nicht. Erlangt die versicherte Person während ihres Aufenthalts Kenntnis von Krieg, inneren Unruhen oder terroristischen Akten, besteht Versicherungsschutz nur im Rahmen von Notfallbehandlungen (wie lebensrettende Maßnahmen) und nur so lange, wie es der versicherten Person unverschuldet nicht möglich war, das Land bzw. die Region zu verlassen, längstens jedoch für 28 Tage. | all | p. 28 |
+| Kur- und Sanatoriumsbehandlung sowie Rehabilitationsmaßnahmen gesetzlicher Rehabilitationsträger | Für Kur- und Sanatoriumsbehandlungen sowie für Rehabilitationsmaßnahmen gesetzlicher Rehabilitationsträger leisten wir nicht. Allerdings beteiligen wir uns, je nachdem, welche Tarifstufe Sie gewählt haben, an den erstattungsfähigen Aufwendungen einer Anschlussrehabilitation. | all | p. 29 |
+| Leihmutterschaft | Wir leisten nicht für unmittelbar mit Leihmutterschaft in Zusammenhang stehende Heilbehandlung, unabhängig davon, ob Sie die Leihmutter oder die zukünftigen Eltern sind. Kinder, die von einer Leihmutter ausgetragen wurden, sind vom Versicherungsschutz ausgeschlossen. | all | p. 29 |
+| Militärdienstbeschädigungen | Für Krankheiten und Unfälle einschließlich derer Folgen, die durch oder bei Ausübung eines Militärdienstes verursacht worden sind, leisten wir nicht. | all | p. 29 |
+| Nichtmedizinische Krankenhauskosten | Begleitender Ehe-/Lebenspartner, sämtliche nichtmedizinischen Verbrauchsgüter und Verpflegung sowie alle medienbezogenen Aufwendungen (beispielsweise Radio und Fernsehen). | all | p. 29 |
+| Pflegebedürftigkeit | Wir übernehmen keine Kosten für eine durch Pflegebedürftigkeit bedingte Unterbringung. | all | p. 29 |
+| Radioaktive, chemische und biologische Kontamination | Für Krankheiten und Unfälle sowie deren Folgen, die durch Radioaktivität (Kernreaktionen, Kernstrahlung und radioaktive Kontamination) verursacht wurden, sowie für Krankheiten, Unfälle und deren Folgen, die durch chemische oder biologische Waffen herbeigeführt wurden, besteht kein Versicherungsschutz. | all | p. 29 |
+| Rückbildungsgymnastik | Der Versicherungsschutz erstreckt sich nicht auf Rückbildungsgymnastik-Kurse, in denen im Anschluss an eine Geburt die körperlichen Auswirkungen von Schwangerschaft und Geburt auf den Körper behandelt werden. | all | p. 29 |
+| Schlafstörungen | Für Untersuchungen oder die Behandlung von Schlafstörungen, inklusive Schlaflosigkeit (Insomnie), besteht kein Versicherungsschutz. Darunter fallen die CPAP-Therapie (kontinuierliche positive Überdruckbeatmung) sowie die BIPAP-Therapie (Erzeugung eines positiven Atemwegsdrucks mit zwei verschiedenen Druckniveaus). | all | p. 29 |
+| Schwangerschaftsabbruch | Wir übernehmen den Schwangerschaftsabbruch, sofern Lebensgefahr für die schwangere Frau besteht oder der Fötus nicht mehr lebensfähig ist, und nur, wenn wir vor der Behandlung dem schriftlich zugestimmt haben. Die oben genannten Bedingungen müssen durch notwendige medizinische Untersuchungsberichte und einen medizinischen Bericht des Arztes nachgewiesen werden, in dem die Gründe für den Schwangerschaftsabbruch angegeben sind. | all | p. 29 |
+| Sterilisation, sexuelle Funktionsstörungen und Kontrazeption | Wir leisten nicht für Maßnahmen zur Herbeiführung von Unfruchtbarkeit einer Person sowie für Maßnahmen, Behandlung oder Arzneimittel, die der Empfängnisverhütung dienen. Ebenfalls nicht erstattungsfähig ist die Behandlung sexueller Funktionsstörungen (es sei denn, sie erfolgt im Rahmen einer IVF-Therapie). | all | p. 29 |
+| Therapien und Heilbehandlungen in Sanatorien, Rehabilitations- und Pflegeeinrichtungen sowie spezielle Rehabilitationsmaßnahmen | Kein Versicherungsschutz besteht für Therapien und Heilbehandlungen in Sanatorien, Rehabilitations- und Pflegeeinrichtungen. Allerdings beteiligen wir uns, je nach der von Ihnen gewählten Tarifstufe, an den erstattungsfähigen Aufwendungen für eine Anschlussrehabilitation. | all | p. 29 |
+| Transportkosten | Sofern wir Ihnen vorab keine schriftliche Genehmigung erteilt haben, sind nur Rettungstransportleistungen erstattungsfähig. | all | p. 29 |
+| Vitamine und Mineralstoffe | Nicht erstattungsfähig sind die Aufwendungen für Produkte, die als Vitamine oder Mineralstoffe eingestuft werden (Ausnahmen: wenn als medizinisch notwendig erachtet während der Schwangerschaft oder zur Heilbehandlung von diagnostizierten, klinisch relevanten Vitaminmangel-Syndromen) und für Nahrungsergänzungsmittel, unter anderem auch spezielle Säuglingsmilchnahrung und kosmetische Produkte. Dies gilt selbst dann, wenn sie ärztlich empfohlen oder verordnet werden oder anerkannte therapeutische Wirkungen aufweisen. Wir erkennen Nährmittel, Stärkungsmittel, Mineralwässer, Kosmetika, Hygiene- und Körperpflegeprodukte sowie Badezusätze nicht als medizinisch notwendig an. Aus diesem Grund werden auch die entsprechenden Aufwendungen nicht erstattet. | all | p. 29 |
+| Vorerkrankungen | Vorerkrankungen sind zunächst vom Versicherungsschutz ausgeschlossen (siehe hierzu Moratoriumsklausel Nr. 1.3). Es besteht die Möglichkeit, die Vorerkrankungen durch die Beantwortung der Gesundheitsfragen und eine darauffolgende medizinische Gesundheitsprüfung einzuschließen. | all | p. 30 |
+| Vorsätzlich herbeigeführte Krankheiten, Unfälle und deren Folgen (selbstverschuldete Verletzungen inklusive Selbstmordversuch) | Für auf Vorsatz beruhende Krankheiten und Unfälle einschließlich deren Folgen besteht kein Versicherungsschutz. Eine Krankheit oder ein Unfall gelten als vorsätzlich herbeigeführt, wenn der Handelnde von den Folgen seiner Handlung zumindest eine Vorstellung hatte und den herbeigeführten Schaden billigend in Kauf nahm. | all | p. 30 |
+| Weitere Leistungseinschränkungen | Wenn eine Heilbehandlung oder sonstige Maßnahme, für die Leistungen vereinbart sind, das medizinisch notwendige Maß übersteigt oder wenn die geforderte Vergütung sich nicht im Rahmen des landesüblichen, allgemeingültigen und angemessenen befindet, dann haben wir das Recht Ihre Zahlung/ Rückerstattung zu verringern. Da wir folglich keinerlei Beträge übernehmen, die sich nicht im Rahmen des landesüblichen, allgemeingültigen und angemessenen befindet, ist die versicherte Person selbst für solche Kosten verantwortlich. Wir behalten uns das Recht vor alle Kosten oder Kostenvoranschläge von Ärzten beurteilen zu lassen um festzustellen, ob Kosten als landesüblich, allgemeingültig und angemessen erachtet werden können. Haben Sie oder die versicherte Person auch Anspruch auf Leistungen aus einer gesetzlichen Krankenversicherung oder auf Leistungen eines anderen Leistungserbringers bzw. einer anderen Institution, so sind wir nur für die Aufwendungen leistungspflichtig, die trotz dieser Leistungen notwendig bleiben. Im Interesse aller Beteiligten befolgen wir geltende internationale Sanktionsvorschriften. Wir sind nicht angehalten, Versicherungsschutz zu leisten oder Schäden abzudecken oder sonstige Leistungen im Rahmen dieses Versicherungsvertrages zu erbringen, wenn die Leistung eines derartigen Versicherungsschutzes, die Bezahlung derartiger Schäden oder die Erbringung einer derartigen Leistung uns einer Sanktion, einem Verbot oder einer Beschränkung unter Resolutionen der Vereinten Nationen, unter Handels- oder Wirtschaftssanktionen, unter Gesetzen oder Vorschriften der Europäischen Union oder des Vereinigten Königreichs oder unter Sanktionen der Vereinigten Staaten von Amerika aussetzen würde. | all | p. 30 |
+| Zahnärztliche Ausschlüsse | • Fluoridierung der Zahnoberfläche und Fissurenversiegelung bei Erwachsenen • Veneers, einschließlich partieller Frontzahnkronen • Bleaching und andere verwandte kosmetische und ästhetische Leistungen • Sedierung/Anästhesie • Schmerz- und angstlindernde Maßnahmen, wie z.B. Akupunktur, Hypnose, Vollnarkose, Lachgassedierung, Dämmerschlaf-Narkose Ausnahmen: • Sollte eine Angststörung durch einen qualifizierten Facharzt diagnostiziert worden sein, werden die Kosten von Globality Health bei Kindern bis zum 12. Lebensjahr er- stattet • (Lokal-) Anästhesieversagen • Eine Lokalanästhesie erscheint unmöglich, aufgrund von erheblicher psychischer oder physischer Beeinträchtigung des Patienten | Zahnärztliche Heilbehandlung | p. 22 |
+| Reisen zum Zwecke einer Heilbehandlung in die Zielregion I | Reisen zum Zwecke einer Heilbehandlung in die Zielregion I sind nicht versichert. | all | p. 7 |
+| Versicherungsfälle vor Beginn des Versicherungsschutzes | Für Versicherungsfälle, die vor Beginn des Versicherungsschutzes eingetreten sind, leisten wir nicht. | all | p. 5 |
+| Nährmittel, Stärkungsmittel, Mineralwässer, kosmetische Mittel, Mittel zur Hygiene und Körperpflege, Badezusätze (stationär) | Nährmittel, Stärkungsmittel, Mineralwässer, kosmetische Mittel, Mittel zur Hygiene und Körperpflege sowie Badezusätze gelten nicht als Arzneimittel. | Arznei- und Verbandmittel | p. 16 |
+| Thermal-, Sauna- und ähnliche Bäder (stationär) | Nicht als Heilmittel/Physiotherapie gelten sonstige Leistungen, wie zum Beispiel Thermal-, Sauna- und ähnliche Bäder. | Heilmittel/Physiotherapie, wie Krankengymnastik und Massagen | p. 16 |
+| Suche nach einem Organ oder einem geeigneten Spender | nicht jedoch für die Suche nach einem Organ oder einem geeigneten Spender. | Knochenmark- bzw. Organtransplantation | p. 17 |
+| Kurmaßnahmen, Kurzentren, Badezentren, Sanatorien, Erholungsheime, Pflegeheime | Kurmaßnahmen und Aufenthalte in Kurzentren, Badezentren, Sanatorien und Erholungsheimen sowie in Pflegeheimen sind nicht versichert. | Stationäre Anschlussrehabilitation | p. 18 |
+| Zahnärztliche Nachbehandlung, Zahnchirurgie, Zahnersatz, Implantate, Kieferorthopädie, Parodontologie | Bitte beachten Sie, dass sich der Versicherungsschutz dieser Leistung nicht auf zahnärztliche Nachbehandlung, Zahnchirurgie, Zahnersatz oder Implantate, Kieferorthopädie oder Parodontologie erstreckt. | Zahnärztliche Notfallbehandlung | p. 18 |
+| NIPT und alle anderen Formen von genetischen Tests | NIPT sowie alle anderen Formen von genetischen Tests sind ausgeschlossen. | Schwangerschaft inklusive Vorsorgeuntersuchungen, Entbindung, Hebamme und Entbindungspfleger | p. 19 |
+| Doula Leistungen, Geburtsvorbereitungskurse, Rückbildungsgymnastik | Doula Leistungen, Geburtsvorbereitungskurse sowie Rückbildungsgymnastik sind nicht erstattungsfähig. | Schwangerschaft inklusive Vorsorgeuntersuchungen, Entbindung, Hebamme und Entbindungspfleger | p. 19 |
+| Thermal-, Sauna- und ähnliche Bäder; Mehraufwendungen für Behandlung in der Wohnung (ambulant) | Nicht als Heilmittel/Physiotherapie gelten sonstige Leistungen, wie zum Beispiel Thermal-, Sauna- und ähnliche Bäder. Nicht erstattungsfähig sind Mehraufwendungen für die Behandlung in der Wohnung der versicherten Personen. | Heilmittel/Physiotherapie inklusive Massagen | p. 20 |
+| Lingualtechnik und Aligner (Invisalign) | Nicht erstattungsfähig sind Mehrleistungen, wie z.B. besondere Behandlungsformen (innenliegende Zahnspangen, sog. Lingualtechnik) und Kunststoffschienen nach dem Alignerverfahren (Invisalign). | Kieferorthopädische Behandlung | p. 22 |
+| Verletzungen durch Essen/Trinken, Beißen, Kauen, Zusammenbeißen oder Knirschen der Zähne | Verletzungen, die durch Essen/Trinken verursacht werden, sowie solche durch Beißen, Kauen, Zusammenbeißen oder Knirschen der Zähne, sind unter dieser Leistungsart nicht berücksichtigt. | Zahnärztliche Leistungen nach einem Unfall | p. 22 |
+| Bestattungskosten | Es erfolgt keine Übernahme der eigentlichen Bestattungskosten. | Organisatorische Unterstützung im Todesfall, Beteiligung an den Überführungskosten | p. 24 |
+| Betrug | Ist eine Forderung unrichtig, gefälscht oder haben Dritte mit Ihrem bzw. dem Einverständnis der versicherten Personen betrügerische Mittel angewandt, um Leistungen aus diesem Vertrag ohne rechtliche Grundlage entgegenzunehmen, besteht kein Leistungsanspruch. Es entfallen sämtliche Leistungsansprüche aus diesem Vertrag. Schadenzahlungen, die bereits vor Bekanntwerden der betrügerischen Handlungen geleistet wurden, sind uns in voller Höhe zurückzuerstatten. | all | p. 34 |
+| Internationale Sanktionsvorschriften | Im Interesse aller Beteiligten befolgen wir geltende internationale Sanktionsvorschriften. Wir sind nicht angehalten, Versicherungsschutz zu leisten oder Schäden abzudecken oder sonstige Leistungen im Rahmen dieses Versicherungsvertrages zu erbringen, wenn die Leistung eines derartigen Versicherungsschutzes, die Bezahlung derartiger Schäden oder die Erbringung einer derartigen Leistung uns einer Sanktion, einem Verbot oder einer Beschränkung unter Resolutionen der Vereinten Nationen, unter Handels- oder Wirtschaftssanktionen, unter Gesetzen oder Vorschriften der Europäischen Union oder des Vereinigten Königreichs oder unter Sanktionen der Vereinigten Staaten von Amerika aussetzen würde. | all | p. 30 |
+
+## Franchises
+
+- Standard : Beim Tarif Globality YouGenio® gibt es folgende Varianten einer Selbstbeteiligung: • Tarifstufe Globality YouGenio® Classic: Feste Selbstbeteiligung von € 250/$ 325/£ 210 • Tarifstufen Globality YouGenio® Plus und Top: - € 250/ $ 325/ £ 210 - € 500/ $ 650/ £ 420 - € 1.000/ $ 1.300/ £ 840 oder ohne Selbstbeteiligung.
+- Tarifstufe Globality YouGenio® Classic : Feste Selbstbeteiligung von € 250/$ 325/£ 210
+- Tarifstufen Globality YouGenio® Plus und Top : € 250/$ 325/£ 210 • Tarifstufen Globality YouGenio® Plus und Top: - € 250/ $ 325/ £ 210 - € 500/ $ 650/ £ 420 - € 1.000/ $ 1.300/ £ 840 oder ohne Selbstbeteiligung.
+- Anwendungsbereich : Die Selbstbeteiligung gilt je Versicherungsjahr und je versicherter Person und nur bei Aufwendungen für ambulante Heilbehandlungen. Haben Sie mit uns eine Selbstbeteiligung vereinbart, ersetzen wir die erstattungsfähigen Aufwendungen zu 100 %, soweit diese die Selbstbeteiligung übersteigen.
+- Ambulante Heilbehandlung Tarifstufe Classic : * Stets mit einer Selbstbeteiligung von € 250/$ 325/£ 210 pro Versicherungsjahr.
+
+## Délais d'attente
+
+- Schwangerschaft, Entbindung, Psychotherapie, Zahnersatz, Zahnkronen, funktionsanalytische, funktionstherapeutische und implantologische Leistungen, Kieferorthopädie : Wartezeiten bestehen nur für Schwangerschaft, Entbindung, Psychotherapie, Zahnersatz, Zahnkronen, funktionsanalytische, funktionstherapeutische und implantologische Leistungen sowie für Kieferorthopädie. Sie betragen 8 Monate ab Versicherungsbeginn. Bei Änderungen des Vertrages gelten je nach vereinbarter Tarifstufe die Wartezeiten für den hinzukommenden Teil des Versicherungsschutzes. (8 Monate ab Versicherungsbeginn) p. 5
+- Vorerkrankungen (Moratoriumsklausel) : Wenn die versicherte Person 55 oder jünger ist, unser Einverständnis vorausgesetzt, können Sie statt eines Antrages mit vollständiger medizinischen Gesundheitsprüfung ein „Moratorium” wählen. In diesem Fall wird für eine in den fünf Jahren vor Beginn des Versicherungsschutzes eingetretene bekannte Vorerkrankung der zu versichernden Person nach einer ununterbrochenen Wartezeit von zwei Jahren ohne ärztliche Heilbehandlung, Symptome, Beratung oder Medikation im Zusammenhang mit der bekannten Vorerkrankung Versicherungsschutz geleistet. Nimmt eine versicherte Person während der ersten zwei Jahre der Versicherung eine Heilbehandlung, Symptome, Beratung oder Medikamente in Bezug auf die Vorerkrankung in Anspruch, kann die Wartezeit von zwei Jahren (ohne Heilbehandlung, Beratung oder Medikation) für diese Vorerkrankung erneut beginnen. Leistungen für neue, nicht im Zusammenhang damit stehende Erkrankungen werden umgehend erstattet. (zwei Jahre) p. 4
+- Zahnärztliche Leistungen nach einem Unfall : Es fallen keine Wartezeiten an. (keine) p. 22
+- Neugeborene : Der Versicherungsschutz für Neugeborene beginnt ohne Wartezeiten unmittelbar zum Tage der Geburt, vorausgesetzt, ein Elternteil ist am Tage der Geburt nach dem Tarif Globality YouGenio® versichert und wir erhalten innerhalb von 2 Monaten nach der Geburt die Anmeldung des Neugeborenen zur Versicherung. (keine) p. 37
+
+## Obligations de l'assuré
+
+- Damit wir Ihren Versicherungsantrag prüfen können, müssen Sie bzw. die zu versichernde Person alle Fragen im Antragsformular wahrheitsgemäß beantworten. Sofern der Einschluss von Vorerkrankungen gewünscht wird, betrifft dies insbesondere die Fragen über den gegenwärtigen Gesundheitszustand, über bestehende oder frühere Erkrankungen, gesundheitliche Störungen und Beschwerden sowie Behandlungen. Soll eine andere Person versichert werden, ist auch diese – neben Ihnen – für die wahrheitsgemäße und vollständige Beantwortung der Fragen verantwortlich. Der Antrag kann per Post, E-Mail oder per Telefax bei uns eingereicht werden. Wir übernehmen den Versicherungsschutz im Vertrauen darauf, dass die zu versichernde Person alle vor Vertragsabschluss gestellten Fragen wahrheitsgemäß und vollständig beantwortet hat (vorvertragliche Anzeigepflicht). (bei Antragstellung · Der Vertrag ist nichtig, wenn durch vorsätzliche Verletzung der Anzeigepflicht die Beurteilung des Risikos derart verändert wird, dass wir den Versicherungsvertrag bei Kenntnis des verschwiegenen Umstandes gar nicht oder nicht zu denselben Bedingungen abgeschlossen hätten (Nr. 2.8, Seite 6).) p. 4
+- Jede Krankenhausbehandlung ist uns unverzüglich anzuzeigen. Idealerweise innerhalb 10 Tagen seit Behandlungsbeginn. (unverzüglich, idealerweise innerhalb 10 Tagen seit Behandlungsbeginn) p. 34
+- Sie und die versicherten Personen sind verpflichtet, auf unser Verlangen bzw. das unseres zuständigen Globality Health Servicecenters jede Auskunft zu erteilen, die zur Feststellung des Versicherungsfalles oder unserer Leistungspflicht und ihres Umfanges erforderlich ist, sowie uns bzw. unserem Assisteur die Einholung von hierfür erforderlichen Auskünften zu ermöglichen (insbesondere durch die Entbindung von der Schweigepflicht). (auf Verlangen) p. 34
+- Die versicherten Personen sind verpflichtet, sich auf unser Verlangen hin durch einen von uns beauftragten Arzt untersuchen zu lassen. Die Aufwendungen für die Untersuchung sowie evtl. notwendige Fahrtkosten zum Arzt übernehmen wir nach Vorlage eines entsprechenden Nachweises. (auf Verlangen) p. 34
+- Die versicherten Personen haben nach Möglichkeit für die Minderung des Schadens zu sorgen und alle Handlungen zu unterlassen, die der Genesung hinderlich sind. (im Leistungsfall) p. 34
+- Sie und die mitversicherten Personen sind verpflichtet, sich im Leistungsfall kostenbewusst zu verhalten und Aufwendungen für die Heilbehandlung auf das erforderliche Maß zu beschränken, wozu Aufwendungen für Generika anstelle von Originalmedikamenten gehören können. (im Leistungsfall) p. 34
+- Haben Sie oder eine versicherte Person Schadenersatzansprüche nicht versicherungsrechtlicher Art gegen Dritte, so besteht, unbeschadet des gesetzlichen Forderungsüberganges die Verpflichtung, diese Ansprüche – bis zur Höhe, in der aus dem Versicherungsvertrag Ersatz von Aufwendungen geleistet wird – schriftlich an uns abzutreten. Geben Sie oder eine versicherte Person einen solchen Anspruch oder ein zur Sicherung des Anspruches dienendes Recht ohne unsere Zustimmung auf, so werden wir insoweit von der Verpflichtung zur Leistung frei, als wir aus dem Anspruch oder dem Recht hätten Ersatz erlangen können. (bei Ansprüchen gegen Dritte) p. 34
+- Sie müssen uns unverzüglich, d.h. unmittelbar nach Bekanntwerden, spätestens jedoch zum Zeitpunkt des Wirksamwerdens der Änderung, über jede neue Anschrift, insbesondere über jede Änderung im Wohnsitzland und über jeden Wechsel der Staatsangehörigkeit informieren. Eine Änderung kann sich auf Ihre Beiträge, Ihren Versicherungsschutz und die Einhaltung der lokalen Versicherungsvorschriften auswirken, selbst wenn Sie in eine Provinz oder ein Land innerhalb Ihres geografischen Geltungsbereichs umziehen. Wir können Sie bitten, einen Wohnsitznachweis zu erbringen. (unverzüglich, spätestens zum Zeitpunkt des Wirksamwerdens der Änderung · Wenn Sie uns nicht informieren, können wir den Versicherungsschutz nicht garantieren und müssen unter Umständen den Versicherungsvertrag gemäß Ziffer 2.8 unserer Allgemeinen Versicherungsbedingungen kündigen.) p. 37
+- Wenn Sie in Ihr Heimatland zurückkehren und damit den Auslandsaufenthalt beenden, müssen Sie uns das genaue Datum des Umzugs in das Heimatland mitteilen, sobald Sie davon Kenntnis erhalten, spätestens jedoch am tatsächlichen Tag des Umzugs. (spätestens am Tag des Umzugs) p. 38
+- Sie müssen uns unverzüglich über die Änderung der Kontaktperson oder den neuen Namen für Sie und die versicherte Person informieren. Wir können Sie bitten, die Änderung nachzuweisen. (unverzüglich) p. 38
+- Der Versicherungsschutz für Neugeborene beginnt ohne Wartezeiten unmittelbar zum Tage der Geburt, vorausgesetzt, ein Elternteil ist am Tage der Geburt nach dem Tarif Globality YouGenio® versichert und wir erhalten innerhalb von 2 Monaten nach der Geburt die Anmeldung des Neugeborenen zur Versicherung. Erfolgt die Benachrichtigung später als 2 Monate nach der Geburt, tritt der Versicherungsschutz für das Neugeborene frühestens ab dem Tag ein, an dem die Benachrichtigung bei uns eingeht. Bei Anzeige der Geburt nach der 2-Monats-Frist kann aufgrund einer Risikoprüfung ein versicherungsmedizinischer Zuschlag von max. 100 % auf den Tarifbeitrag verfügt werden. (innerhalb von 2 Monaten nach der Geburt · Erfolgt die Benachrichtigung später als 2 Monate nach der Geburt, tritt der Versicherungsschutz für das Neugeborene frühestens ab dem Tag ein, an dem die Benachrichtigung bei uns eingeht; zudem kann ein versicherungsmedizinischer Zuschlag von max. 100 % verfügt werden.) p. 37
+- Wenn eine der in 8 a) bis e) genannten Obliegenheiten nicht eingehalten wird, sind wir mit der in den rechtlichen Bestimmungen vorgeschriebenen Einschränkung von der Verpflichtung zur Leistung frei oder berechtigt, unseren Leistungsumfang einzuschränken. Dies gilt jedoch nicht, wenn weder vorsätzlich noch grob fahrlässig gehandelt wurde. Die Kenntnis und das Verschulden der versicherten Personen stehen Ihrer Kenntnis und Ihrem Verschulden gleich. (Leistungsfreiheit oder Einschränkung des Leistungsumfangs) p. 34
+
+## Procédure de sinistre
+
+1. Wir wollen einen Leistungsfall auch im Sinne der versicherten Personen möglichst schnell abwickeln. Dazu ist es erforderlich, dass der Anspruch auf Versicherungsleistungen unverzüglich nach der Beendigung der Heilbehandlung durch Vorlage von Kostenbelegen geltend gemacht wird. (délai : unverzüglich nach Beendigung der Heilbehandlung) p. 31
+2. Falls wir mit Ihnen bzw. den versicherten Personen keine abweichende Vereinbarung treffen, senden Sie bzw. die versicherten Personen bitte im Schadenfall die Nachweise direkt an das zuständige Globality Health Servicecenter. Bei Kostenbelegen sollten Sie bzw. die versicherten Personen Originalunterlagen einreichen, die den jeweiligen landestypischen Rechtsvorschriften für die Rechnungserstellung entsprechen müssen (bitte beachten Sie dazu auch die unter 7.4 aufgeführten Erfordernisse). p. 31
+3. zu können, akzeptieren wir jedoch auch die telekommunikative Übermittlung von Kostenbelegen per E-Mail oder Telefax, soweit die Übertragungsqualität eine Bearbeitung zulässt. Bei berechtigtem Interesse kann der Versicherer die Originalbelege anfordern. Sofern sich ein anderer Krankenversicherer bzw. eine andere Institution an den Kosten beteiligt hat, genügen Zweitschriften der Kostenbelege mit dessen/deren Original-Erstattungsvermerk. Wir können mit befreiender Wirkung auch an den Überbringer oder Übersender ordnungsgemäßer Nachweise leisten. c) Ansprüche auf Versicherungsleistungen können weder abgetreten noch verpfändet werden. p. 32
+4. Rechnungen müssen enthalten: • Vor- und Zuname sowie das Geburtsdatum der versicherten Person, • die genaue, vom Arzt vermerkte Krankheitsbezeichnung (Diagnose) bzw. andernfalls eine präzise Umschreibung des Beschwerdebildes, • die einzelnen Leistungen mit Behandlungsdaten und Einzelpreisen, • im Rahmen zahnärztlicher Behandlung sind auch die Bezeichnungen der behandelten oder ersetzten Zähne und die jeweils vorgenommenen Leistungen anzugeben. p. 32
+5. Alle Belege sind möglichst in englischer, deutscher, französischer, niederländischer oder spanischer Sprache und unter Verwendung arabischer Ziffern und lateinischer Schriftzeichen (1, 2, 3 ... a, b, c ...) sowie des ICD-Codes 9 bzw. 10 (International Classification of Disease) einzureichen. • Aus den Verordnungen müssen der Vorund Zuname sowie das Geburtsdatum der versicherten Person, das verordnete Arzneimittel, der Preis und der Quittungsvermerk deutlich hervorgehen. • Reichen Sie Verordnungen zusammen mit der dazugehörigen Arztrechnung oder Rechnung über Heil- und Hilfsmittel ein. • Beantragen Sie anstelle von Kostenersatz ein Ersatz-Krankenhaustagegeld, so ist eine Bescheinigung über die stationäre Behandlung einzureichen, aus der Vor- und Zuname sowie das Geburtsdatum der behandelten Person, die Krankheitsbezeichnung sowie Aufnahme- und Entlassungstag und eventuelle Beurlaubungstage ersichtlich sind. p. 32
+6. Sie und die versicherten Personen können rund um die Uhr mit uns Kontakt aufnehmen. Adressen, Rufnummern oder E-Mail-Adressen finden Sie in allen unseren Dokumenten. Sollte eine versicherte Person nach Eintritt eines schwerwiegenden Versicherungsfalles, insbesondere nach einem Unfall, Notfall oder bei stationärer Heilbehandlung, das für sie zuständige Globality Health Servicecenter einschalten, so bieten wir ihr einen umgehenden Rückruf an. (délai : rund um die Uhr erreichbar) p. 32
+7. Bei einem Notfall mit stationärer Heilbehandlung ist die Einschaltung des für Sie zuständigen Globality Health Servicecenters unverzüglich bzw. spätestens bei Aufnahme in das Krankenhaus erforderlich. Bei einer geplanten stationären Heilbehandlung ist spätestens 7 Tage vor Aufnahme die Einschaltung des zuständigen Globality Health Servicecenters erforderlich; dies gilt auch bei stationsersetzenden ambulanten Operationen. Nur hierdurch kann bei geplanten stationären Heilbehandlungen oder bei stationären Notfallbehandlungen die Regelung einer Kostenübernahmegarantie gegenüber den Ärzten bzw. dem Krankenhaus inklusive der ärztlichen Prüfung der Angemessenheit der medizinischen Rechnungen durch das zuständige Globality Health Servicecenter erfolgen. Darüber hinaus stimmen wir auf Wunsch mit den Krankenhäusern den Rechnungsversand und die Zahlungsmodalitäten ab und bemühen uns um die Organisation einer zentralisierten Bezahlung. In diesem Fall werden Sie bzw. die versicherte Person von dem zuständigen Globality Health Servicecenter über die Vorgehensweise schriftlich oder per E-Mail informiert. (délai : unverzüglich bzw. spätestens bei Aufnahme im Notfall; spätestens 7 Tage vor einer geplanten stationären Heilbehandlung) p. 24
+8. Feststehende Kosten, zum Beispiel der Pflegesatz oder Unterkunftszuschlag im Krankenhaus oder das Entgelt für einen Rettungstransport, zahlen wir auf Wunsch auch direkt an den Rechnungsaussteller. Darüber hinaus besteht die Möglichkeit, dass Sie bzw. die versicherten Personen ihre jeweiligen Erstattungsansprüche, die sie gegen uns haben, an den Leistungserbringer abtreten, zum Beispiel durch eine so genannte Abtretungserklärung gegenüber dem Krankenhaus. Eine direkte Abrechnung ist jedoch – sofern die landestypischen Gegebenheiten dies erlauben – nur mit Einverständnis des Krankenhauses möglich. b) Ambulante und zahnärztliche Leistungsansprüche Die versicherten Personen sind Vertragspartner des behandelnden Arztes bzw. sonstigen Behandlers. Bei Behandlungsbeginn schließt dieser mit der versicherten Person einen Behandlungsvertrag ab, auf dessen Basis er später seine Rechnung ausstellt. Sie bzw. die versicherten Personen können diese Rechnung dann bei unserem zuständigen Globality Health Servicecenter einreichen, woraufhin von dort die vertraglich vereinbarten Versicherungsleistungen an Sie bzw. die versicherten Personen ausgezahlt werden. p. 32
+9. Sie bzw. die versicherten Personen erhalten in aller Regel Leistungen nach dem Kostenerstattungsprinzip, das heißt, wir ersetzen die im Rahmen einer Heilbehandlung entstandenen erstattungsfähigen Kosten. Als besonderen Service können wir auf Ihren Wunsch hin unseren Erstattungsbetrag direkt an den Rechnungsaussteller zahlen, soweit er dieser Direktabrechnung zustimmt und dem keine rechtlichen Bedenken entgegenstehen. p. 33
+10. Die Erstattung erfolgt in der mit Ihnen vereinbarten Währung. Die in einer Fremdwährung entstandenen Kosten werden zum aktuellen Kurs des Tages, an dem die Rechnung erstellt wurde, umgerechnet, es sei denn, Sie weisen durch Bankbeleg nach, dass Sie die zur Bezahlung der Rechnungen notwendigen Devisen zu einem ungünstigeren Kurs erworben haben. p. 33
+
+## Durée & résiliation
+
+- Durée : Der Versicherungsvertrag wird zunächst für ein Versicherungsjahr geschlossen. Das Versicherungsjahr beginnt mit dem im Versicherungsschein bezeichneten Zeitpunkt (Versicherungsbeginn) und dauert 12 Monate. Das Versicherungsjahr für versicherte Personen, die später der Versicherung beitreten, beginnt zu dem auf ihrer Versicherungsbestätigung angegebenen Datum (Datum des Versicherungsbeginns) und läuft bis zum Ablaufdatum der Versicherung (siehe auch 2.6). Wenn Sie oder die versicherten Personen sich im Rahmen eines befristeten Aufenthalts in der Bundesrepublik Deutschland aufhalten, endet Ihr Versicherungsschutz mit Erreichen einer Gesamtversicherungsdauer von fünf Jahren aller aufeinander folgenden Krankenversicherungsverträge, auch soweit diese bei anderen Versicherungsgesellschaften abgeschlossen wurden.
+- Reconduction tacite : oui
+- Préavis : drei Monate zum Ende eines jeden Versicherungsjahres
+- Modalité : Die Vertragskündigung erfolgt entweder per Einschreiben oder durch Übergabe des Kündigungsschreibens an uns gegen Empfangsbescheinigung. Soweit nicht anders bestimmt, wird die Kündigung erst wirksam nach Ablauf einer Frist von mindestens einem Monat ab dem Tage nach der Zustellung bzw. dem Datum der Empfangsbescheinigung oder der Posteinlieferung im Fall eines Einschreibens.
+- Droit spécial : Der Versicherungsvertrag verlängert sich nach Ablauf jeweils um weitere 12 Monate. Sie können zum Ende eines jeden Versicherungsjahres mit einer Frist von drei Monaten durch schriftliche Anzeige dieser stillschweigenden Vertragsverlängerung widersprechen.
+- Droit spécial : Sie können den Versicherungsvertrag kündigen, wenn wir die Allgemeinen Versicherungsbedingungen ändern (siehe hierzu 10.1) oder die Gebühren und Beiträge ändern (siehe hierzu 9). Sie können innerhalb von drei Monaten vom Zugang der Änderungsmitteilung kündigen. Die Kündigung wird zum Zeitpunkt des Wirksamwerdens der Änderung wirksam. Keine Kündigungsmöglichkeit besteht hingegen bei einer Beitragsumstellung, weil Sie oder die zu versichernde Person in die nächst höhere Altersstufe eintreten. Der Vertrag endet um 00:00 Uhr der nächsten Jahresfälligkeit.
+- Droit spécial : Wir können den Versicherungsvertrag im Falle Ihres Versäumnisses kündigen, uns erbetene Informationen zukommen zu lassen. In diesem Fall können wir die Kündigung des Versicherungsvertrags innerhalb eines Monats aussprechen, nachdem wir von Ihrem Versäumnis Kenntnis erhalten. Soweit nicht anders bestimmt, wird die Kündigung erst zu dem im Kündigungsschreiben angegebenen Zeitpunkt wirksam.
+- Droit spécial : Wenn eine Sanktion, ein Verbot oder eine Beschränkung unter Resolutionen der Vereinten Nationen, unter Handels- oder Wirtschaftssanktionen, unter Gesetzen oder Vorschriften der Europäischen Union oder des Vereinigten Königreichs oder unter Sanktionen der Vereinigten Staaten von Amerika verhängt wird, die uns direkt oder indirekt daran hindert, Versicherungsleistungen im Rahmen dieses Versicherungsvertrags zu erbringen, haben wir ein außerordentliches Kündigungsrecht für diesen Versicherungsvertrag oder können betroffene Personen vom Versicherungsschutz ausschließen.
+- Droit spécial : Um die Einhaltung geltender Gesetze sicherzustellen, behalten wir uns das Recht vor, den Versicherungsvertrag zu kündigen, oder einzelne Personen vom Versicherungsschutz auszunehmen, wenn der Versicherungsvertrag den nationalen Gesetzen oder Vorschriften im Heimat- oder Aufenthaltsland des Versicherungsnehmers oder der versicherten Personen nicht entspricht oder diese Entsprechung verliert.
+- Droit spécial : Unbeschadet weiterer und anderer in den Allgemeinen Versicherungsbedingungen aufgeführter Nichtigkeitsgründe ist der Vertrag nichtig, wenn durch vorsätzliche Verletzung der Anzeigepflicht die Beurteilung des Risikos derart verändert wird, dass wir den Versicherungsvertrag bei Kenntnis des verschwiegenen Umstandes gar nicht oder nicht zu denselben Bedingungen abgeschlossen hätten. In diesem Fall sind Sie bzw. die versicherte Person verpflichtet, empfangene Versicherungsleistungen zurückzuzahlen. Gezahlte Beiträge bleiben uns erhalten.
+- Droit spécial : Die für Sie und/oder die versicherten Personen vereinbarten Versicherungen und der sich daraus ergebende Versicherungsschutz, auch für schwebende, d. h. noch andauernde Versicherungsfälle, enden a) mit Ihrem und/oder dem Tod der versicherten Personen. Die versicherten Personen haben jedoch bei Ihrem Tode das Recht, das Versicherungsverhältnis unter Benennung des künftigen Versicherungsnehmers fortzusetzen. Die Erklärung ist innerhalb zweier Monate nach dem Todesdatum abzugeben. b) wenn Sie und/oder die versicherten Personen den Auslandsaufenthalt vor Ablauf der Vertragslaufzeit (siehe hierzu Nr. 2.5) dauerhaft beenden. Der Versicherungsvertrag endet erst mit Eingang einer entsprechenden Benachrichtigung bei uns. c) mit Ihrem Widerspruch zu der Vertragsverlängerung nach Ablauf des Versicherungsjahres (siehe hierzu Nr. 2.6). Die Beendigung ist nur wirksam, wenn Sie als Versicherungsnehmer nachweisen, dass die betroffenen versicherten Personen hiervon Kenntnis erlangt haben. d) wenn eine Kündigung oder eine Anfechtung des Versicherungsvertrages erklärt wird. (siehe hierzu Nr. 2.7 und Nr. 2.8). e) bei Nichtigkeit des Vertrages (siehe hierzu Nr. 2.8). Sie müssen uns den Nachweis erbringen, dass alle Versicherten über die Kündigung informiert wurden.
+- Droit spécial : Sie können Ihre Vertragserklärung ohne Angabe von Gründen innerhalb von 14 Tagen schriftlich widerrufen. Die Widerrufsfrist beginnt mit dem Tag, an dem Ihnen der Versicherungsschein sowie die Allgemeinen Versicherungsbedingungen zugegangen sind. Zur Wahrung der Frist genügt die rechtzeitige Absendung des Widerrufs per Post, E-Mail oder per Telefax.
+- Droit spécial : Erfolgt über einen Zeitraum von mehr als 2 Jahren keine Beitragszahlung, so gilt der Versicherungsvertrag als gekündigt.
+
+## Prime
+
+- Der im Versicherungsschein ausgewiesene Beitrag ist ein Monatsbeitrag und stets im Voraus zu entrichten. Ein von uns geforderter versicherungsmedizinischer Zuschlag ist gesondert auszuweisen. Der Erstbeitrag bzw. die erste Beitragsrate ist sofort nach der Annahme Ihres Versicherungsantrags durch uns fällig.
+- Beginnt die Versicherung nicht am 1. eines Kalendermonats bzw. endet die Versicherung nicht am letzten Tag eines Kalendermonats, ist für den ersten bzw. letzten Versicherungsmonat nur der anteilige Betrag des monatlichen Beitrags zu zahlen.
+- Wenn Sie Ihren Wohnsitz innerhalb der EU/des EWR haben, müssen wir Ihnen die gesetzlichen Gebühren, Abgaben oder Steuern im Zusammenhang mit Ihrem Versicherungsvertrag in Rechnung stellen. Eventuell geltende lokale Steuersätze sind in Ihrem Versicherungsvertrag aufgeführt. Wir ziehen die Versicherungssteuer und die Abgaben oder Gebühren zusammen mit der Versicherungsprämie ein.
+- Befindet sich Ihr Wohnsitz außerhalb der EU/des EWR, ist der Versicherungsnehmer für die Anmeldung und Zahlung der örtlichen Steuern und sonstigen Abgaben, die für die Versicherung anfallen können, verantwortlich.
+- Der Versicherungsbeitrag für jedes Versicherungsjahr richtet sich nach dem individuellen Gesundheitszustand der versicherten Personen, dem individuellen Beitrag laut aktueller Beitragstabelle sowie dem Alter der versicherten Personen zum ersten Tag des Versicherungsjahres. Die Altersstufen sind nach folgender Einteilung gestaffelt: 0-19, 20-24, 25-29, 30-34, 35-39, 40-44, 45-49, 50-54, 55-59, 60-64, 65-69, 70-74, 75-79 Jahre. Die Beitragstabellen finden Sie auf unserer Website http://www.globality-health.com
+- Der vereinbarte Versicherungsbeitrag kann sich in folgenden Fällen ändern: • wenn die tatsächlichen Schadenaufwendungen nicht mehr der technischen Berechnungsgrundlage des Versi- cherungstarifs entsprechen oder wenn die beobachtete Kostenentwicklung im Gesundheitswesen Anlass zu der Annahme gibt, dass die tatsächlichen Kosten im folgenden Versicherungsjahr überproportional zu den kalkulierten Kosten ausfallen werden. Die tatsächlichen Schadenaufwendungen entsprechen den globalen/gesamten tatsächlichen Schadenkosten des Einzelgeschäfts von Globality der letzten Jahre. • Wechsel der Altersgruppe. Wenn der Beginn eines neuen Versicherungsjahres mit der Änderung der oben genannten und in der Beitragstabelle angegebenen Altersgruppe einhergeht, werden wir auch die Beiträge entsprechend der neuen Altersgruppe anpassen; • Änderungen der geltenden Gesetzgebung.
+- Einmal pro Jahr werden diese Änderungen bewertet, so dass die Beiträge bei Bedarf angepasst werden können. Wir informieren Sie mindestens drei Monate vor Beginn des nächsten Versicherungsjahres schriftlich über jede Beitragsänderung. Die Änderung gilt dann ab Beginn des nächsten Versicherungsjahres.
+- Wird der vereinbarte Beitrag nicht innerhalb einer Frist von 10 Tagen nach dem Fälligkeitstage gezahlt, so können wir Sie nach Ablauf der Frist zur Zahlung auffordern. Diese Zahlungsaufforderung wird Ihnen auf angemessenem Wege an Ihren letzten Wohnsitz zugestellt. Unterbleibt die Zahlung des Beitrags auch innerhalb von 30 Tagen nach Zahlungsaufforderung, so sind wir für die nach Ablauf der Frist eingetretenen Versicherungsfälle leistungsfrei. Sie bleiben trotz unserer Leistungsfreiheit zur Zahlung künftiger Beiträge verpflichtet. Soweit der Beitrag auch 10 Tage nach Ablauf der Zusatzfrist nicht beglichen wurde, so steht uns ein sofortiges Kündigungsrecht zu.
+- nicht gekündigt, so setzt unsere Leistungspflicht für alle neu eintretenden Versicherungsfälle wieder ein, falls Sie die bis zu diesem Zeitpunkt fälligen Beträge und die nachgewiesenen Verzugskosten gezahlt haben. Der Versicherungsschutz beginnt dann um 0.00 Uhr am Tage nach Eingang aller geschuldeten Beträge bei uns oder bei der entsprechend bevollmächtigten Person. Eine Leistungspflicht besteht jedoch nicht, wenn Sie erst zu dem Zeitpunkt zahlen, in dem der Eintritt des Versicherungsfalles nicht mehr ungewiss ist.
+
+## Conditions particulières
+
+- Der Versicherungsvertrag wurde für Expatriates konzipiert. Versicherungsfähig sind alle Personen, die sich vorübergehend für mindestens 3 Monate im Ausland aufhalten. p. 4
+- Vorerkrankungen sind grundsätzlich vom Versicherungsschutz ausgeschlossen; es gilt die Moratoriumsklausel (siehe hierzu Nr. 1.3). Bei Antragstellung kann jedoch der Einschluss von Vorerkrankungen gewählt werden. Zum Einschluss von Vorerkrankungen ab Beginn der Versicherung müssen die im Antrag gestellten Fragen zur Gesundheit vollständige, wahrheitsgemäß und nach bestem Wissen beantwortet werden. In diesem Fall ist auch eine Gesundheitsprüfung erforderlich (siehe hierzu Nr. 1.4). p. 4
+- Wenn die versicherte Person 55 oder jünger ist, unser Einverständnis vorausgesetzt, können Sie statt eines Antrages mit vollständiger medizinischen Gesundheitsprüfung ein „Moratorium” wählen. In diesem Fall wird für eine in den fünf Jahren vor Beginn des Versicherungsschutzes eingetretene bekannte Vorerkrankung der zu versichernden Person nach einer ununterbrochenen Wartezeit von zwei Jahren ohne ärztliche Heilbehandlung, Symptome, Beratung oder Medikation im Zusammenhang mit der bekannten Vorerkrankung Versicherungsschutz geleistet. Nimmt eine versicherte Person während der ersten zwei Jahre der Versicherung eine Heilbehandlung, Symptome, Beratung oder Medikamente in Bezug auf die Vorerkrankung in Anspruch, kann die Wartezeit von zwei Jahren (ohne Heilbehandlung, Beratung oder Medikation) für diese Vorerkrankung erneut beginnen. Leistungen für neue, nicht im Zusammenhang damit stehende Erkrankungen werden umgehend erstattet. p. 4
+- Für den Tarif Globality YouGenio® gelten als Vertragswährungen Euro, US-Dollar oder Pfund Sterling, je nach der im Antrag getroffenen Wahl. In dieser werden die Versicherungsverträge verwaltet sowie die Beiträge berechnet und gezahlt. p. 4
+- Der Umfang des Versicherungsschutzes ergibt sich aus dem Versicherungsschein, späteren schriftlichen Vereinbarungen, den Allgemeinen Versicherungsbedingungen sowie den gesetzlichen Vorschriften. Soweit nicht nationale Vorschriften die Anwendung eines anderen Rechts bedingen, unterliegt das Versicherungsverhältnis dem Recht des Großherzogtums Luxemburg. p. 5
+- Der Versicherungsschutz beginnt mit dem im Versicherungsschein bezeichneten Zeitpunkt (Versicherungsbeginn), jedoch nicht vor Zahlung des ersten Beitrages und nicht vor Ablauf von Wartezeiten (siehe hierzu auch die Nrn. 1.3 und 2.4). Für Versicherungsfälle, die vor Beginn des Versicherungsschutzes eingetreten sind, leisten wir nicht. Nach Abschluss des Versicherungsvertrages eingetretene Versicherungsfälle sind nur für den Teil von der Leistungspflicht ausgeschlossen, der in die Zeit vor Versicherungsbeginn fällt. Bei Änderungen des Vertrages gelten die in diesem Absatz beschriebenen Regelungen für den hinzukommenden Teil des Versicherungsschutzes. p. 5
+- Ist Versicherungsschutz für die Zielregion II (Weltweit ohne USA) vereinbart, so gelten folgende Besonderheiten: Bei vorübergehender Ausreise (d. h. für maximal 6 Wochen) aus dem Aufenthaltsland besteht Versicherungsschutz auch in der Zielregion I für medizinische Notfälle, Unfallfolgen sowie bei Tod. Reisen zum Zwecke einer Heilbehandlung in die Zielregion I sind nicht versichert. Wenn Sie einen dauerhaften Wechsel der Zielregion wünschen setzen Sie sich bitte mit uns in Verbindung da dies Auswirkungen auf Ihren Versicherungsschutz und Ihren Beitrag hat. p. 7
+- Der Tarif Globality YouGenio® gliedert sich in die Tarifstufen Classic, Plus und Top. Die einzelnen Tarifstufen unterscheiden sich nach Art und Höhe der vereinbarten Leistungen. Entsprechend der von Ihnen abgeschlossenen Tarifstufe ersetzen wir die erstattungsfähigen Aufwendungen, deren Art und Umfang sich aus den folgenden Leistungsübersichten ergeben, zu 100 %, sofern sich aus diesen Leistungsübersichten, unseren generellen Ausführungen in den Allgemeinen Versicherungsbedingungen oder den Definitionen nicht etwas anderes ergibt. p. 8
+- Sofern für Sie oder die versicherten Personen Versicherungsschutz nach der Zielregion I (Weltweit mit USA) vereinbart wurde, werden die in den Nrn. 4.3, 4.4 und 4.5 genannten Höchstbeträge und Pauschalen verdoppelt. Ist eine Leistung auf eine bestimmte Anzahl von Tagen oder Maßnahmen begrenzt, so gilt diese Begrenzung unverändert weiter. Sofern eine Selbstbeteiligung vereinbart ist, bleibt diese unverändert bestehen. p. 8
+- Bitte beachten Sie: Die in Nr. 4.8 beschriebenen Leistungen können je nach gewählter Tarifstufe abweichen oder nicht versichert sein. p. 16
+- Den versicherten Personen steht die Wahl unter allen Ärzten bzw. Zahnärzten frei, die in dem Land, in dem die Behandlung erfolgt, zur ärztlichen bzw. zahnärztlichen Heilbehandlung zugelassen sind, und unter anderen Behandlern, die über eine auf ihrem Behandlungsgebiet anerkannte und fundierte Ausbildung verfügen. Aufwendungen sind nur für die ärztlichen bzw. zahnärztlichen Leistungen erstattungsfähig, die nach den Regeln der ärztlichen bzw. zahnärztlichen Kunst für eine medizinisch notwendige Heilbehandlung erforderlich sind. Erstattungsfähig sind ärztliche und zahnärztliche Leistungen sowie die Leistungen anderer Behandler, soweit die Gebühren im Rahmen der landestypischen Bemessungsgrundlagen berechnet wurden und angemessen sind. Erstattungsfähig sind auch über den Höchstsätzen dieser Bemessungsgrundlagen liegende Aufwendungen, sofern sie durch krankheits- bzw. befundbedingte Erschwernisse begründet und angemessen berechnet sind. Bei Leistungen von Behandlern, wie zum Beispiel Masseuren, Hebammen oder Heilpraktikern, für die im Aufenthaltsland möglicherweise keine eigene Bemessungsgrundlage existiert, werden wir uns an den vergleichbaren Vergütungen für Ärzte bzw. an den üblichen Preisen im Aufenthaltsland orientieren. Bei der Erstattung zahntechnischer Laborarbeiten und Materialien legen wir die durchschnittlichen Preise im jeweiligen Aufenthaltsland zugrunde. Zahnersatz, implantologische Leistungen und Kieferorthopädie gelten auch dann als Leistung des Zahnarztes, wenn sie von einem Arzt ausgeführt werden. Sie sind nicht Gegenstand der ambulanten oder stationären Heilbehandlung. Wir leisten im vertraglichen Umfang für Untersuchungs- oder Behandlungsmethoden und Arzneimittel, die von der Schulmedizin überwiegend anerkannt sind. Wir leisten darüber hinaus für Methoden und Arzneimittel, die sich in der Praxis als Erfolg versprechend bewährt haben oder die angewandt werden, weil keine schulmedizinischen Methoden oder Arzneimittel zur Verfügung stehen; wir können unsere Leistungen jedoch auf den Betrag herabsetzen, der bei der Anwendung vorhandener schulmedizinischer Methoden und Arzneimittel angefallen wäre. p. 31
+- Gegen Forderungen unsererseits kann nur aufgerechnet werden, soweit die Gegenforderung von uns unbestritten oder rechtskräftig festgestellt ist. p. 34
+- Wir behalten uns das Recht vor die Allgemeinen Versicherungsbedingungen zu verändern. Wir informieren Sie schriftlich über jede Änderung der Allgemeinen Versicherungsbedingungen mindestens drei Monate vor Beginn des nächsten Versicherungsjahres. Die Änderung der Allgemeinen Versicherungsbedingungen gilt zum nächsten Versicherungsjahr. Sollten Sie der Änderung der Allgemeinen Versicherungsbedingungen nicht zustimmen können Sie den Versicherungsvertrag innerhalb von drei Monaten nach Erhalt unserer Mitteilung kündigen. Der Versicherungsvertrag endet zu dem Datum an welchen die Änderungen wirksam wird. p. 37
+- Unabhängig von Artikel 10.1 erklären Sie sich damit einverstanden, dass alle von uns bereitzustellenden Informationen in Bezug auf die Versicherungspolice oder nach geltendem Recht, auf Papier oder elektronisch, über die Website der Foyer Global Health S.A., per E-Mail oder durch andere Kommunikationsmittel übermittelt werden, die zwischen Ihnen und uns vereinbart wurden. Wenn Sie nicht innerhalb von sechzig Tagen ab dem Datum der Information reagieren, gehen wir davon aus, dass Sie sie akzeptiert haben und sich damit einverstanden erklären, diese für sich selbst und auch für die anderen versicherten Personen und jede andere Person, die Sie gesetzlich vertreten, verpflichtend anzunehmen. In diesem Zusammenhang verpflichten Sie sich, gegebenenfalls die anderen versicherten Personen und jede andere Person, die Sie gesetzlich vertreten, darüber zu informieren. Sie erklären sich damit einverstanden, dass wir in keiner Weise für Verluste, Schäden oder Kosten haftbar gemacht werden, die im Zusammenhang mit der vorgenannten Verpflichtung zur Unterrichtung der versicherten Personen und anderen Personen, die Sie gesetzlich vertreten, verursacht wurden oder entstanden sind. p. 37
+- Der Versicherungsschutz für Neugeborene beginnt ohne Wartezeiten unmittelbar zum Tage der Geburt, vorausgesetzt, ein Elternteil ist am Tage der Geburt nach dem Tarif Globality YouGenio® versichert und wir erhalten innerhalb von 2 Monaten nach der Geburt die Anmeldung des Neugeborenen zur Versicherung. Erfolgt die Benachrichtigung später als 2 Monate nach der Geburt, tritt der Versicherungsschutz für das Neugeborene frühestens ab dem Tag ein, an dem die Benachrichtigung bei uns eingeht. Bei Anzeige der Geburt nach der 2-Monats-Frist kann aufgrund einer Risikoprüfung ein versicherungsmedizinischer Zuschlag von max. 100 % auf den Tarifbeitrag verfügt werden. Der Versicherungsschutz für das Neugeborene darf nicht höher oder umfassender sein als der des bei uns versicherten Elternteils. Der Geburt eines Kindes steht die Adoption gleich, sofern das Kind zum Zeitpunkt der Adoption noch minderjährig ist. Mit Rücksicht auf ein erhöhtes Risiko ist die Vereinbarung eines Prämienzuschlags höchstens bis zu 100 % zulässig. p. 37
+- Natürlich können Sie sich auch an den Ombudsmann der Versicherungen (A.C.A. – Association des Compagnies d’Assurance, 12, rue Erasme, L-1468 Luxembourg – in Zusammenarbeit mit der U.L.C. – Union Luxembourgeoise des Consommateurs, 55, rue des Bruyères, L-1274 Howald) oder die allen luxemburgischen privaten Krankenversicherern übergeordnete Aufsichtsbehörde, das Commissariat aux Assurances, 11, rue Robert Stumper, L-2557 Luxembourg, wenden. p. 38
+- Für alle aus dem Versicherungsvertrag entstandenen Streitigkeiten sind die Gerichte des Großherzogtums Luxemburg oder die Gerichte des Ortes zuständig, in dem der Versicherungsnehmer seinen Wohnsitz hat. Befindet sich der Wohnsitz des Versicherungsnehmers nicht in einem Mitgliedstaat der Europäischen Union, so sind ausschließlich die Gerichte des Großherzogtums Luxemburg zuständig. p. 38
+- Für den Versicherungsvertrag gilt das Recht des Großherzogtums Luxemburg, soweit nicht andere Rechtsvorschriften eines geltenden nationalen Rechts mit dem Recht des Großherzogtums Luxemburg unvereinbar sind. p. 38
+- Soweit Sie in den AVB Passagen finden, die kursiv gedruckt sind, finden Sie in den Definitionen die Erläuterungen dazu. p. 2
+- Die Foyer Global Health S.A. wird vom Commissariat aux Assurances, 11, rue Robert Stumper, L-2557 Luxembourg, aufsichtsrechtlich überwacht. p. 2
+
+## Lacunes d'extraction
+
+- Porteur du risque : le document n'énonce nulle part « versichert durch » ni « Versicherer ist » ; il désigne la partie garante par « wir/uns ». Deux éléments du document rattachent ce « wir » à une personne morale : le bloc de contact de la page 2 (« Wir sind weltweit für Sie da: Foyer Global Health S.A., 12, rue Léon Laval, L-3372 Leudelange, Luxembourg »), suivi de « Die Foyer Global Health S.A. wird vom Commissariat aux Assurances, 11, rue Robert Stumper, L-2557 Luxembourg, aufsichtsrechtlich überwacht. Handelsregister (RCS Luxembourg): B 134.471 » ; et le renvoi de la page 38 à « die allen luxemburgischen privaten Krankenversicherern übergeordnete Aufsichtsbehörde, das Commissariat aux Assurances ». La mention d'agrément prudentiel ne vise que l'entreprise d'assurance, mais elle n'est pas la formule habituelle de désignation du porteur ; c'est la lecture la plus proche du texte, et elle est signalée ici plutôt que présentée comme une désignation explicite. « Globality Health » et « Globality YouGenio® » sont des marques employées dans tout le document, et « Globality Health Servicecenter » y est le gestionnaire/assisteur, pas le porteur.
+- Contradiction interne du document : la section 6 comporte DEUX rubriques quasi identiques sur les prestataires exclus de remboursement, avec des délais différents. Page 27, « Behandlung durch bestimmte Ärzte, Zahnärzte und andere Behandler sowie in bestimmten Krankenhäusern » : « entfällt unsere Leistungspflicht erst für die nach Ablauf von 3 Monaten seit der Benachrichtigung entstandenen Aufwendungen ». Page 28, « Heilbehandlung durch bestimmte Ärzte, Zahnärzte und andere Behandler sowie in bestimmten Krankenhäusern » : « entfällt unsere Leistungspflicht nur für Aufwendungen, die nach Ablauf von einem Monat seit der Benachrichtigung entstanden sind. » Les deux rubriques sont conservées telles quelles dans exclusions[] ; le document ne dit pas laquelle prévaut.
+- Leistungsübersichten (pages 9 à 15) : la matrice tarifaire n'existe pas dans le calque texte. Les marques sont des tracés vectoriels distingués par leur forme et leurs dimensions : cercle 12,9 × 12,9 pt accompagné d'une coche 7,2 × 5,6 pt, contour RGB 0/0,301/0,262 = « Das ist versichert » ; croix 9,3 × 9,3 pt, contour gris 0,655 = « Hierfür ist im Leistungsumfang keine Erstattung vorgesehen » (légende page 2, vérifiée au rendu). La croix est tracée en deux traits superposés au même point : les doublons ont été dédupliqués par coordonnée. Rattachement des marques aux lignes par les filets horizontaux du tableau et aux colonnes par l'abscisse des en-têtes Classic/Plus/Top (318,9 / 415,3 / 511,7 pt). La première ligne de chaque page n'a pas de filet supérieur : sa bande a été bornée à la ligne d'en-tête. Les comptes ferment : 75 lignes × 3 colonnes = 225 cellules = 179 coches + 43 croix + 3 cellules vides, ces trois dernières étant la bande de sous-titre « Allgemeine zahnärztliche Leistungen » (page 13), qui ne porte aucune marque. Aucune marque n'est restée non attribuée. Ces faits ne peuvent pas figurer dans key_quotes : ils ne sont pas du texte.
+- Les 43 croix sont enregistrées garantie par garantie dans coverages[].sub_limits sous la forme « <Tarifstufe>: keine Erstattung vorgesehen » et non comme des exclusions distinctes : il s'agit d'une non-couverture propre à une tarifstufe, pas d'une exclusion de la police.
+- is_optional vaut false pour les garanties couvertes dans les trois tarifs et null pour celles dont l'inclusion dépend de la tarifstufe : les trois tarifstufen sont des formules alternatives, pas des options souscriptibles en supplément, et le schéma ne peut pas exprimer « inclus dans Plus et Top seulement ». Le détail par tarif est porté par limits et sub_limits.
+- Ordre de lecture vérifié sur CE document : les pages de prose sont sur deux colonnes (x0 = 35,4 et 309 pt) et le texte plat sort colonne de gauche puis colonne de droite, sans entrelacement — contrôle négatif ; la seule transition droite→gauche par page est l'en-tête courant. Le découpage des sections 4.8, 5, 6, 11 et 12 a été fait sur des listes ordonnées d'intitulés relevés dans le document, ancrées en début de ligne, la correspondance étant insensible aux césures (477 césures en fin de ligne dans ce document).
+- Le gras (Calibri-Bold 10 pt) marque les intertitres mais aussi certains passages de corps de texte ; il n'a donc pas servi de critère de découpage. L'italique (Calibri-Italic) signale les termes définis : « Soweit Sie in den AVB Passagen finden, die kursiv gedruckt sind, finden Sie in den Definitionen die Erläuterungen dazu » (page 2) — cette information typographique est perdue dans le calque texte plat et n'est donc pas reproductible dans les champs.
+- Aucune date d'édition n'est imprimée. Le seul code du document est « YG GER GCI 13.02/5 » (page 44), reporté dans reference ; le document ne dit pas que ce code désigne une édition, edition_date reste null.
+- target_audience est laissé à null : le document dit « Der Versicherungsvertrag wurde für Expatriates konzipiert. Versicherungsfähig sind alle Personen, die sich vorübergehend für mindestens 3 Monate im Ausland aufhalten » (page 4) sans préciser si le preneur d'assurance est un particulier ou une entreprise. Le texte du document est conservé dans target_audience_note.
+- Le document ne contient aucune clause de prescription (Verjährung) ni de clause de langue faisant foi ; ces champs restent donc vides. Il précise en revanche le droit applicable (Grand-Duché de Luxembourg) et les juridictions compétentes (Nr. 10.6 et 10.7, page 38).
+- Le document n'imprime aucun montant de prime ; la section 9 décrit uniquement la mécanique du Beitrag et renvoie aux tables de cotisation du site de l'assureur.
+- Aucune page sans calque texte, aucun caractère de zone d'usage privé, aucun espace de largeur nulle, aucun tiret conditionnel. Le symbole € est présent (42 occurrences) : les montants sont écrits « € 250 », « $ 325 », « £ 210 ».
+- La ligne « Krankenpflege durch Pflegefachkräfte nach Anweisung eines Arztes » (page 9), les deux lignes « Transportkosten zum nächst erreichbaren geeigneten … » (pages 9 et 12), « Häusliche Krankenpflege nach der Entbindung … » (page 10), « Perücken und Prothesen-BHs … » (page 12), « Schutzimpfungen aller Art … » et « Chemotherapie … » (page 11) ainsi que les lignes de détail zahnärztlich (page 13) n'ont pas de bloc descriptif propre en 4.8 : elles ne portent donc que leur ligne de tableau. Ce n'est pas une lacune d'extraction mais la structure du document.
+
+## Documents liés
+
+- [Globality YouGenio® for Germany - EN](Globality%20YouGenio%C2%AE%20for%20Germany%20-%20EN.md) - Conditions générales
+- [Globality YouGenio® World - EN](Globality%20YouGenio%C2%AE%20World%20-%20EN.md) - Conditions générales
+
+## Source & fidélité
+
+- Source : [https://globalhealth.insurance/wp-content/uploads/2026/01/Globality_YouGenio_Germany_GCI_DE_0224.pdf](https://globalhealth.insurance/wp-content/uploads/2026/01/Globality_YouGenio_Germany_GCI_DE_0224.pdf) - téléchargé le 2026-08-04 - 44 pages
+- Extraction : claude-code-subagent:scale · prompt v1.1
+- ⚠️ Ceci n'est pas le document officiel de l'assureur et peut contenir des erreurs d'extraction. Information, non un conseil - vérifiez toujours par rapport au document source.
