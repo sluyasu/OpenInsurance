@@ -309,6 +309,7 @@ Organization and assumption of costs for a transfer in the event of the death of
 
 ## Documents liés
 
+- [EASY HEALTH - IPID](EASY%20HEALTH%20-%20IPID.md) - IPID / Fiche d'information
 - [EASY HEALTH - IPID - DE](EASY%20HEALTH%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
 - [EASY HEALTH - DE](EASY%20HEALTH%20-%20DE.md) - Conditions générales, éd. VERSION 2025 (09/25)
 

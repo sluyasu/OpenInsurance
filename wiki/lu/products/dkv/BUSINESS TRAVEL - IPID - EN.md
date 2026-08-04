@@ -169,6 +169,7 @@ Considered as foreign countries are all territories outside the Grand Duchy of L
 
 - [BUSINESS TRAVEL](BUSINESS%20TRAVEL.md) - Conditions générales, éd. 04|2017
 - [BUSINESS TRAVEL - DE](BUSINESS%20TRAVEL%20-%20DE.md) - Conditions générales, éd. 04|2017
+- [BUSINESS TRAVEL - IPID - DE](BUSINESS%20TRAVEL%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
 - [BUSINESS TRAVEL - IPID](BUSINESS%20TRAVEL%20-%20IPID.md) - IPID / Fiche d'information
 - [BUSINESS TRAVEL - EN](BUSINESS%20TRAVEL%20-%20EN.md) - Conditions générales, éd. 04|2017
 

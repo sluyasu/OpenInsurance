@@ -279,6 +279,7 @@ Organisation und Übernahme der Kosten für eine Überführung im Todesfall der 
 
 ## Documents liés
 
+- [EASY HEALTH - IPID](EASY%20HEALTH%20-%20IPID.md) - IPID / Fiche d'information
 - [EASY HEALTH - IPID - EN](EASY%20HEALTH%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 - [EASY HEALTH - DE](EASY%20HEALTH%20-%20DE.md) - Conditions générales, éd. VERSION 2025 (09/25)
 

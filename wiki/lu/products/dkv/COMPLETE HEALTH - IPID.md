@@ -280,6 +280,7 @@ Organisation et prise en charge des frais de transfert en cas de décès de la p
 
 ## Documents liés
 
+- [COMPLETE HEALTH - IPID - DE](COMPLETE%20HEALTH%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
 - [COMPLETE HEALTH - IPID - EN](COMPLETE%20HEALTH%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 
 ## Source & fidélité

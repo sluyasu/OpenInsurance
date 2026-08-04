@@ -170,6 +170,7 @@ Description détaillée dans la brochure « BEST CARE »
 
 ## Documents liés
 
+- [HOSPITAL HEALTH - IPID - DE](HOSPITAL%20HEALTH%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
 - [HOSPITAL HEALTH - IPID - EN](HOSPITAL%20HEALTH%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 
 ## Source & fidélité

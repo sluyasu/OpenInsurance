@@ -138,6 +138,10 @@ En cas de maladie aiguë ou d’accident survenu(e) dans un pays européen, l’
 - Le porteur de risque est nommé dans le document : « DKV Luxembourg S.A. » (pied de page 1, avec forme juridique). Aucun tiers (gestionnaire de sinistres, assisteur, courtier) n’est nommé.
 - L’extraction PyMuPDF refaite ici est OCTET POUR OCTET identique au texte fourni dans le prompt (5429 = 5429 caractères) ; le texte n’était pas tronqué.
 
+## Documents liés
+
+- [CONTINUE PLUS - IPID - EN](CONTINUE%20PLUS%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+
 ## Source & fidélité
 
 - Source : [https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_CONTINUE_fr.pdf](https://www.dkv.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_CONTINUE_fr.pdf) - téléchargé le 2026-08-04 - 2 pages

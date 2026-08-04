@@ -291,6 +291,7 @@ Tous les pays, en dehors du Grand-Duché de Luxembourg et du pays de résidence 
 
 ## Documents liés
 
+- [PLUS HEALTH - IPID - EN](PLUS%20HEALTH%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 - [PLUS HEALTH - IPID - DE](PLUS%20HEALTH%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
 
 ## Source & fidélité

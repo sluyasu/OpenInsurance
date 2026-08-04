@@ -175,6 +175,7 @@ Insurance cover is provided during the first month of a temporary sojourn in a n
 ## Documents liés
 
 - [HOSPITAL HEALTH - IPID](HOSPITAL%20HEALTH%20-%20IPID.md) - IPID / Fiche d'information
+- [HOSPITAL HEALTH - IPID - DE](HOSPITAL%20HEALTH%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
 
 ## Source & fidélité
 

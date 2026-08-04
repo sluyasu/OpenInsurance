@@ -1,0 +1,634 @@
+insurer:
+  slug: foyer-global-health
+  name: Foyer Global Health
+  website: https://globalhealth.insurance
+  segment: non-vie
+  notes: 'ENTITE. Registre du CAA lu le 2026-08-04: "Foyer Global Health (222100M5YXWXWJ8ING43)",
+    12 rue Leon Laval, L-3372 Leudelange, branches 1, 2, 13, 16, 18. Societe LUXEMBOURGEOISE
+    agreee (liste des assureurs luxembourgeois non-vie), PAS une succursale etrangere. Le CAA
+    l''inscrit sans forme juridique; ses propres documents impriment "Foyer Global Health S.A.".
+    L''identifiant du registre est un LEI, pas un RCS -- mais les documents publient le RCS:
+    R.C.S. Luxembourg B 134.471, TVA LU22284578.
+
+
+    EX-GLOBALITY S.A., PROUVE PAR LES DOCUMENTS EUX-MEMES. Globality_EcoGenio_GCI_ES_131222
+    imprime "Globality S.A., 1A rue Gabriel Lippmann, L-5365 Munsbach ... Registro Mercantil
+    (R.C.S. Luxembourg): B 134.471"; tous les autres impriment "Foyer Global Health S.A.,
+    12 rue Leon Laval, L-3372 Leudelange" avec LE MEME RCS B 134.471. Meme entite, renommee et
+    demenagee au siege de Foyer. Le domaine historique foyerglobalhealth.com repond 410 Gone
+    sur /robots.txt et 4 liens du site pointent encore vers lui (2 morts, 3 communiques).
+
+
+    ROBOTS: https://globalhealth.insurance/robots.txt repond 404. IL N''Y A PAS DE robots.txt,
+    donc rien n''est interdit. C''est un HOTE DISTINCT de foyer.lu et sa politique n''a rien a
+    voir avec celle de la maison mere (qui ferme /fr|/en|/de/mydoc/* et /basedoc_file/*).
+    L''enumeration est venue de https://globalhealth.insurance/sitemap.xml (index Yoast, 5
+    sous-sitemaps, 1557 URL): 110 pages + 1447 pages editoriales, TOUTES recuperees, zero echec,
+    AUCUN SONDAGE D''URL.
+
+
+    RESULTAT: 194 URL PDF du domaine, 191 vivantes en HEAD (200 application/pdf), 190 documents
+    distincts. 22 CONDITIONS GENERALES, plus 32 conditions speciales et 65 IPID. C''est de tres
+    loin la premiere bibliotheque contractuelle du corpus luxembourgeois.
+
+
+    LES 1447 PAGES EDITORIALES N''APPORTENT RIEN: zero PDF du domaine en plus. Toute la
+    bibliotheque tient sur les 110 pages du page-sitemap, et 93 documents sur 191 tiennent sur les
+    quatre pages /conditions/ (+ fr, de, es) retenues comme listing_pages.
+
+
+    PIEGE 1, LE DROIT APPLICABLE CHANGE A L''INTERIEUR DE LA MEME BIBLIOTHEQUE.
+    Les 22 conditions generales disent "governed by ... Luxembourg law" / "regie par le droit
+    luxembourgeois". Les 8 conditions speciales EPION, GTE et VDP disent "Le contrat est regi par
+    la LOI FRANCAISE" et portent des "CONDITIONS ADMINISTRATIVES RESIDENTS EN FRANCE". ELLES SONT
+    EXCLUES de ce fichier: ce sont des contrats francais emis depuis le Luxembourg, meme probleme
+    d''attribution pays que les vehicules vie transfrontaliers signales dans _country.yml. Ne pas
+    les reintroduire sans decision explicite.
+
+
+    PIEGE 2, LA LANGUE OFFICIELLE DU CONTRAT EST L''ANGLAIS. Les conditions generales YouGenio
+    World le disent: "La langue officielle de la police d''assurance est l''anglais. ... La version
+    anglaise prevaut sur toute autre." Les versions fr, de et es sont donc des TRADUCTIONS sans
+    force contractuelle. `lang:` decrit la langue du fichier, pas celle du contrat.
+
+
+    PIEGE 3, LES FICHIERS "-combined" SONT DES LOTS ET LEUR NOM MENT SUR LEUR CONTENU.
+    IPID_CoGenio_Classic_EN_0224-combined.pdf fait 6 pages et contient TROIS IPID (Classic, Plus,
+    Top); IPID_GH_Journey_Short_DE-combined.pdf fait 10 pages et en contient CINQ (Short, Basic,
+    Advanced, Extensive, Premium). Les extraire sous le nom du premier palier attribuerait a
+    Classic les garanties de Top. LES 9 FICHIERS "-combined"/"-copy" SONT EXCLUS; les 56 IPID par
+    palier les couvrent, a une exception pres: CoGenio Top n''a pas de version FR autonome.
+
+
+    PIEGE 4, AUCUNE DATE D''EDITION FIABLE POUR 19 DES 22 CG. Seules les trois FGH-GCI impriment
+    une edition lisible, "FGHGCIV3 / 03.2024" -- et leur nom de fichier dit 20240909. Les autres
+    ne portent qu''un code de pied de page selon au moins trois conventions incompatibles:
+    "CG GCI 09.17/2" (CoGenio, nom de fichier V18_0224), "YGW GCI 14.02/5" (YouGenio World),
+    "GH_JOY_OO_GT_25.11" (Journey, 4 fichiers dont 2 nommes 2026), "CTI GCI 10.24",
+    "ECG GCI 23.01", "GCI 10.24" (Xtend EN nomme 0924 ET Xtend DE nomme 300125, meme code).
+    Regle 8: retenir ce que le document imprime; ici il n''imprime pas de date, donc edition_date
+    doit rester nulle plutot que d''etre tiree du nom de fichier.
+
+
+    PIEGE 5, LE SERVEUR EST SENSIBLE A LA CASSE. Trois liens publies en "Special_Conditions_Epion_*"
+    repondent 404 alors que les memes fichiers en "EPION" repondent 200. Compter sur les liens
+    publies sans verifier en HEAD aurait donne 3 documents fantomes.
+
+
+    UN DOCUMENT SERVI SOUS DEUX URL: Special_Conditions_EPION_TotalCare_FR_Layout_20250522.pdf
+    existe sous /uploads/2025/05/ et /uploads/2026/03/, sha256 identique. Et deux fichiers presque
+    jumeaux: Globality_CoGenio_GCI_FR_V18_0224.pdf et ..._V18_0224-3-1.pdf ne different que d''UN
+    SEUL CARACTERE (un asterisque) sur 129 738 octets de texte. 22 fichiers CG, 21 redactions.
+
+
+    PORTEUR NOMME PARTOUT: 21 des 22 CG impriment "Foyer Global Health S.A." avec siege et RCS;
+    la 22e (EcoGenio ES, edition 13.12.2022) imprime "Globality S.A.". Les IPID impriment
+    "Societe: Foyer Global Health S.A., R.C.S. Luxembourg B 134.471". C''est l''oppose de lalux
+    (4 documents sur 90) et le meme comportement que DKV.
+
+
+    NON RETENUS, denombres et laisses de cote: 17 tableaux de garanties (PB), 18 formulaires de
+    souscription, 16 documents marketing (brochures, flyers, affiches, one-pagers), 9 RGPD,
+    4 tables of benefits (ToB), 4 listes de juridictions sous surveillance renforcee, 3 etendues
+    de prestations, 1 formulaire de sinistre. Meme decoupe que lalux.yml, baloise.yml et dkv.yml,
+    qui n''ingerent que les IPID et les documents contractuels.
+
+
+    ATTENTION AUX listing_pages: discover.py reajoute au yml TOUT ce qu''il trouve sur une page de
+    listing. Les quatre pages /conditions/ portent 93 documents dont 75 contractuels; elles
+    ramenneront aussi 4 PB, 4 formulaires, 4 listes de sanctions, 3 RGPD et 3 etendues, ainsi que
+    les 8 conditions speciales de droit francais volontairement exclues ici. NE PAS y ajouter
+    /professionals-and-brokers/partner-document-centre/ (ramene du marketing) ni un sitemap XML.
+
+
+    MARCHE: la totalite du livre est de la sante internationale pour expatries ("Assurance medicale
+    privee complete pour les expatries"), sauf Corporate Travel (voyages d''affaires, contrat de
+    groupe) classe en `voyage`. YouGenio Germany vise explicitement l''Allemagne (43 occurrences de
+    "Germany" dans ses CG). Aucun de ces produits n''est un produit de detail luxembourgeois
+    domestique: l''attribution pays repose sur le droit applicable (luxembourgeois) et sur
+    l''agrement, pas sur la residence de l''assure.'
+  fetch_tier: plain
+listing_pages:
+- url: https://globalhealth.insurance/conditions/
+  branch: sante
+  lang: en
+- url: https://globalhealth.insurance/fr/conditions-generales/
+  branch: sante
+  lang: fr
+- url: https://globalhealth.insurance/de/geschaftsbedingungen/
+  branch: sante
+  lang: de
+- url: https://globalhealth.insurance/es/condiciones/
+  branch: sante
+  lang: es
+languages:
+- en
+- fr
+- de
+- es
+pdfs:
+- url: https://globalhealth.insurance/wp-content/uploads/2026/06/FGH-GCI-DE_V3_20240909.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: de
+  product_name: 'Foyer Global Health'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/06/FGH-GCI-EN_V3_20240909.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: en
+  product_name: 'Foyer Global Health'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/06/FGH-GCI-FR_V3_20240909.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: 'Foyer Global Health'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/06/FGH-Special-Conditions-DE_ESSENTIAL_202403.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: de
+  product_name: 'Foyer Global Health Essential - conditions speciales'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/06/FGH-Special-Conditions-DE_EXCLUSIVE_20240301.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: de
+  product_name: 'Foyer Global Health Exclusive - conditions speciales'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/06/FGH-Special-Conditions-DE_SPECIAL_-20240301.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: de
+  product_name: 'Foyer Global Health Special - conditions speciales'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/06/FGH-Special-Conditions-EN_ESSENTIAL_20240416.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: en
+  product_name: 'Foyer Global Health Essential - conditions speciales'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/06/FGH-Special-Conditions-EN_EXCLUSIVE_20240416.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: en
+  product_name: 'Foyer Global Health Exclusive - conditions speciales'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/06/FGH-Special-Conditions-EN_SPECIAL_20240416.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: en
+  product_name: 'Foyer Global Health Special - conditions speciales'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/06/FGH-Special-Conditions-FR_ESSENTIAL_20240301.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: 'Foyer Global Health Essential - conditions speciales'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/06/FGH-Special-Conditions-FR_EXCLUSIVE_20240301.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: 'Foyer Global Health Exclusive - conditions speciales'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/06/FGH-Special-Conditions-FR_SPECIAL_20240301-1.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: 'Foyer Global Health Special - conditions speciales'
+- url: https://globalhealth.insurance/wp-content/uploads/2024/10/FGHSCV2DE_EUHEALTH_20240507.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: de
+  product_name: 'EU Health - conditions speciales'
+- url: https://globalhealth.insurance/wp-content/uploads/2024/10/FGHSCV2EN_EUHEALTH_20240507.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: en
+  product_name: 'EU Health - conditions speciales'
+- url: https://globalhealth.insurance/wp-content/uploads/2024/10/FGHSCV2FR_EUHEALTH_20240507.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: 'EU Health - conditions speciales'
+- url: https://globalhealth.insurance/wp-content/uploads/2024/07/FGH_EU-Health_IPID_EN.pdf
+  branch: sante
+  document_type: ipid
+  lang: en
+  product_name: 'EU Health'
+- url: https://globalhealth.insurance/wp-content/uploads/2024/07/FGH_EU-Health_IPID_FR.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: 'EU Health'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/03/GCI_Journey_Es_02032026.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: es
+  product_name: 'Journey'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/01/GCI_Journey_FR_16012026.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: 'Journey'
+- url: https://globalhealth.insurance/wp-content/uploads/2025/12/Global-Health_Journey_General-conditions_DE.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: de
+  product_name: 'Journey'
+- url: https://globalhealth.insurance/wp-content/uploads/2025/12/Global-Health_Journey_General-conditions_EN.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: en
+  product_name: 'Journey'
+- url: https://globalhealth.insurance/wp-content/uploads/2025/12/Globality_CoGenio_GCI_DE_V18_0224.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: de
+  product_name: 'CoGenio'
+- url: https://globalhealth.insurance/wp-content/uploads/2025/12/Globality_CoGenio_GCI_EN_V18_0224.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: en
+  product_name: 'CoGenio'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/02/Globality_CoGenio_GCI_ES_V18_0224.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: es
+  product_name: 'CoGenio'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/07/Globality_CoGenio_GCI_FR_V18_0224-3-1.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: 'CoGenio'
+- url: https://globalhealth.insurance/wp-content/uploads/2025/12/Globality_CoGenio_GCI_FR_V18_0224.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: 'CoGenio'
+- url: https://globalhealth.insurance/wp-content/uploads/2025/12/Globality_Corporate_Travel_GCI_EN_0924.pdf
+  branch: voyage
+  document_type: conditions_generales
+  lang: en
+  product_name: 'Corporate Travel'
+- url: https://globalhealth.insurance/wp-content/uploads/2025/12/Globality_EcoGenio_GCI_ES_131222-1.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: es
+  product_name: 'EcoGenio'
+- url: https://globalhealth.insurance/wp-content/uploads/2025/12/Globality_Xtend_GCI_DE_300125.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: de
+  product_name: 'Xtend'
+- url: https://globalhealth.insurance/wp-content/uploads/2025/12/Globality_Xtend_GCI_EN_0924.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: en
+  product_name: 'Xtend'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/01/Globality_YouGenio_Germany_GCI_DE_0224.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: de
+  product_name: 'YouGenio Germany'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/01/Globality_YouGenio_Germany_GCI_EN_0224.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: en
+  product_name: 'YouGenio Germany'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/06/Globality_YouGenio_World_GCI_DE_V14_0224.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: de
+  product_name: 'YouGenio World'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/06/Globality_YouGenio_World_GCI_EN_V14_0224.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: en
+  product_name: 'YouGenio World'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/06/Globality_YouGenio_World_GCI_ES_V14_0224.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: es
+  product_name: 'YouGenio World'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/06/Globality_YouGenio_World_GCI_FR_V14_0224.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: 'YouGenio World'
+- url: https://globalhealth.insurance/wp-content/uploads/2025/12/IPID_CoGenio_Classic_DE_0524.pdf
+  branch: sante
+  document_type: ipid
+  lang: de
+  product_name: 'CoGenio Classic'
+- url: https://globalhealth.insurance/wp-content/uploads/2025/12/IPID_CoGenio_Classic_EN_0224.pdf
+  branch: sante
+  document_type: ipid
+  lang: en
+  product_name: 'CoGenio Classic'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/02/IPID_CoGenio_Classic_ES_0224.pdf
+  branch: sante
+  document_type: ipid
+  lang: es
+  product_name: 'CoGenio Classic'
+- url: https://globalhealth.insurance/wp-content/uploads/2025/12/IPID_CoGenio_Classic_FR_0224.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: 'CoGenio Classic'
+- url: https://globalhealth.insurance/wp-content/uploads/2025/12/IPID_CoGenio_Plus_DE_0524.pdf
+  branch: sante
+  document_type: ipid
+  lang: de
+  product_name: 'CoGenio Plus'
+- url: https://globalhealth.insurance/wp-content/uploads/2025/12/IPID_CoGenio_Plus_EN_0224.pdf
+  branch: sante
+  document_type: ipid
+  lang: en
+  product_name: 'CoGenio Plus'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/02/IPID_CoGenio_Plus_ES_0224.pdf
+  branch: sante
+  document_type: ipid
+  lang: es
+  product_name: 'CoGenio Plus'
+- url: https://globalhealth.insurance/wp-content/uploads/2025/12/IPID_CoGenio_Plus_FR_0224.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: 'CoGenio Plus'
+- url: https://globalhealth.insurance/wp-content/uploads/2025/12/IPID_CoGenio_Top_DE_0524.pdf
+  branch: sante
+  document_type: ipid
+  lang: de
+  product_name: 'CoGenio Top'
+- url: https://globalhealth.insurance/wp-content/uploads/2025/12/IPID_CoGenio_Top_EN_0224.pdf
+  branch: sante
+  document_type: ipid
+  lang: en
+  product_name: 'CoGenio Top'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/02/IPID_CoGenio_Top_ES_0224.pdf
+  branch: sante
+  document_type: ipid
+  lang: es
+  product_name: 'CoGenio Top'
+- url: https://globalhealth.insurance/wp-content/uploads/2025/12/IPID_EcoGenio_Classic_ES_0224.pdf
+  branch: sante
+  document_type: ipid
+  lang: es
+  product_name: 'EcoGenio Classic'
+- url: https://globalhealth.insurance/wp-content/uploads/2025/12/IPID_EcoGenio_Plus_ES_0224.pdf
+  branch: sante
+  document_type: ipid
+  lang: es
+  product_name: 'EcoGenio Plus'
+- url: https://globalhealth.insurance/wp-content/uploads/2025/12/IPID_EcoGenio_Top_ES_0224.pdf
+  branch: sante
+  document_type: ipid
+  lang: es
+  product_name: 'EcoGenio Top'
+- url: https://globalhealth.insurance/wp-content/uploads/2025/12/IPID_GH_Journey_Advanced_DE.pdf
+  branch: sante
+  document_type: ipid
+  lang: de
+  product_name: 'Journey Advanced'
+- url: https://globalhealth.insurance/wp-content/uploads/2025/12/IPID_GH_Journey_Advanced_EN.pdf
+  branch: sante
+  document_type: ipid
+  lang: en
+  product_name: 'Journey Advanced'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/03/IPID_GH_Journey_Advanced_ES_1225.pdf
+  branch: sante
+  document_type: ipid
+  lang: es
+  product_name: 'Journey Advanced'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/05/IPID_GH_Journey_Advanced_FR_0126.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: 'Journey Advanced'
+- url: https://globalhealth.insurance/wp-content/uploads/2025/12/IPID_GH_Journey_Basic_DE.pdf
+  branch: sante
+  document_type: ipid
+  lang: de
+  product_name: 'Journey Basic'
+- url: https://globalhealth.insurance/wp-content/uploads/2025/12/IPID_GH_Journey_Basic_EN.pdf
+  branch: sante
+  document_type: ipid
+  lang: en
+  product_name: 'Journey Basic'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/03/IPID_GH_Journey_Basic_ES_1225.pdf
+  branch: sante
+  document_type: ipid
+  lang: es
+  product_name: 'Journey Basic'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/05/IPID_GH_Journey_Basic_FR_0126.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: 'Journey Basic'
+- url: https://globalhealth.insurance/wp-content/uploads/2025/12/IPID_GH_Journey_Extensive_DE.pdf
+  branch: sante
+  document_type: ipid
+  lang: de
+  product_name: 'Journey Extensive'
+- url: https://globalhealth.insurance/wp-content/uploads/2025/12/IPID_GH_Journey_Extensive_EN.pdf
+  branch: sante
+  document_type: ipid
+  lang: en
+  product_name: 'Journey Extensive'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/03/IPID_GH_Journey_Extensive_ES_1225.pdf
+  branch: sante
+  document_type: ipid
+  lang: es
+  product_name: 'Journey Extensive'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/05/IPID_GH_Journey_Extensive_FR_0126.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: 'Journey Extensive'
+- url: https://globalhealth.insurance/wp-content/uploads/2025/12/IPID_GH_Journey_Premium_DE.pdf
+  branch: sante
+  document_type: ipid
+  lang: de
+  product_name: 'Journey Premium'
+- url: https://globalhealth.insurance/wp-content/uploads/2025/12/IPID_GH_Journey_Premium_EN.pdf
+  branch: sante
+  document_type: ipid
+  lang: en
+  product_name: 'Journey Premium'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/03/IPID_GH_Journey_Premium_ES_1225.pdf
+  branch: sante
+  document_type: ipid
+  lang: es
+  product_name: 'Journey Premium'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/05/IPID_GH_Journey_Premium_FR_0126.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: 'Journey Premium'
+- url: https://globalhealth.insurance/wp-content/uploads/2025/12/IPID_GH_Journey_Short_DE.pdf
+  branch: sante
+  document_type: ipid
+  lang: de
+  product_name: 'Journey Short'
+- url: https://globalhealth.insurance/wp-content/uploads/2025/12/IPID_GH_Journey_Short_EN.pdf
+  branch: sante
+  document_type: ipid
+  lang: en
+  product_name: 'Journey Short'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/03/IPID_GH_Journey_Short_ES_1225.pdf
+  branch: sante
+  document_type: ipid
+  lang: es
+  product_name: 'Journey Short'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/05/IPID_GH_Journey_Short_FR_0126.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: 'Journey Short'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/01/IPID_YouGenio_Germany_Plus_DE_0524.pdf
+  branch: sante
+  document_type: ipid
+  lang: de
+  product_name: 'YouGenio Germany Plus'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/01/IPID_YouGenio_Germany_Plus_EN_0224.pdf
+  branch: sante
+  document_type: ipid
+  lang: en
+  product_name: 'YouGenio Germany Plus'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/01/IPID_YouGenio_Germany_Top_DE_0524.pdf
+  branch: sante
+  document_type: ipid
+  lang: de
+  product_name: 'YouGenio Germany Top'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/01/IPID_YouGenio_Germany_Top_EN_0224.pdf
+  branch: sante
+  document_type: ipid
+  lang: en
+  product_name: 'YouGenio Germany Top'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/06/IPID_YouGenio_World_Classic_DE_0524.pdf
+  branch: sante
+  document_type: ipid
+  lang: de
+  product_name: 'YouGenio World Classic'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/06/IPID_YouGenio_World_Classic_EN_0224.pdf
+  branch: sante
+  document_type: ipid
+  lang: en
+  product_name: 'YouGenio World Classic'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/06/IPID_YouGenio_World_Classic_ES_0224.pdf
+  branch: sante
+  document_type: ipid
+  lang: es
+  product_name: 'YouGenio World Classic'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/06/IPID_YouGenio_World_Classic_FR_0224.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: 'YouGenio World Classic'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/06/IPID_YouGenio_World_Essential_DE_0524.pdf
+  branch: sante
+  document_type: ipid
+  lang: de
+  product_name: 'YouGenio World Essential'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/06/IPID_YouGenio_World_Essential_EN_0224.pdf
+  branch: sante
+  document_type: ipid
+  lang: en
+  product_name: 'YouGenio World Essential'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/06/IPID_YouGenio_World_Essential_ES_0224.pdf
+  branch: sante
+  document_type: ipid
+  lang: es
+  product_name: 'YouGenio World Essential'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/06/IPID_YouGenio_World_Essential_FR_0224.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: 'YouGenio World Essential'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/06/IPID_YouGenio_World_Plus_DE_0524.pdf
+  branch: sante
+  document_type: ipid
+  lang: de
+  product_name: 'YouGenio World Plus'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/06/IPID_YouGenio_World_Plus_EN_0224.pdf
+  branch: sante
+  document_type: ipid
+  lang: en
+  product_name: 'YouGenio World Plus'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/06/IPID_YouGenio_World_Plus_ES_0224.pdf
+  branch: sante
+  document_type: ipid
+  lang: es
+  product_name: 'YouGenio World Plus'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/06/IPID_YouGenio_World_Plus_FR_0224.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: 'YouGenio World Plus'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/06/IPID_YouGenio_World_Top_DE_0524.pdf
+  branch: sante
+  document_type: ipid
+  lang: de
+  product_name: 'YouGenio World Top'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/06/IPID_YouGenio_World_Top_EN_0224.pdf
+  branch: sante
+  document_type: ipid
+  lang: en
+  product_name: 'YouGenio World Top'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/06/IPID_YouGenio_World_Top_ES_0224.pdf
+  branch: sante
+  document_type: ipid
+  lang: es
+  product_name: 'YouGenio World Top'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/06/IPID_YouGenio_World_Top_FR_0224.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: 'YouGenio World Top'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/03/SCI_Journey_Basic-to-Premium_De_10122025.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: de
+  product_name: 'Journey Basic to Premium - conditions speciales'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/03/SCI_Journey_Basic-to-Premium_En_27012028.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: en
+  product_name: 'Journey Basic to Premium - conditions speciales'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/03/SCI_Journey_Basic-to-Premium_Es.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: es
+  product_name: 'Journey Basic to Premium - conditions speciales'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/03/SCI_Journey_Basic-to-Premium_FR_16012026.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: 'Journey Basic to Premium - conditions speciales'
+- url: https://globalhealth.insurance/wp-content/uploads/2025/12/SCI_Journey_Short_De.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: de
+  product_name: 'Journey Short - conditions speciales'
+- url: https://globalhealth.insurance/wp-content/uploads/2025/12/SCI_Journey_Short_En.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: en
+  product_name: 'Journey Short - conditions speciales'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/03/SCI_Journey_Short_Es_13032026.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: es
+  product_name: 'Journey Short - conditions speciales'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/01/SCI_Journey_Short_FR_15012026.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: 'Journey Short - conditions speciales'
+- url: https://globalhealth.insurance/wp-content/uploads/2025/12/SCI_Journey_T1-T4_De.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: de
+  product_name: 'Journey T1 T4 - conditions speciales'
+- url: https://globalhealth.insurance/wp-content/uploads/2025/12/SCI_Journey_T1-T4_En.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: en
+  product_name: 'Journey T1 T4 - conditions speciales'
+- url: https://globalhealth.insurance/wp-content/uploads/2026/01/SCI_Journey_T1-T4_FR_16012026.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: 'Journey T1 T4 - conditions speciales'

@@ -26,6 +26,12 @@ luxembourgeois interdit le cumul.
 L'identifiant entre parenthèses est un **LEI** (`529900AO3Z5MARFY0W76`, 20 caractères,
 ISO 17442), pas un RCS. Le registre du CAA ne publie pas de RCS.
 
+**Cela ne veut pas dire que l'entité n'en a pas** — précision ajoutée après lecture des documents,
+parce que la phrase ci-dessus pourrait se lire ainsi. Les conditions générales impriment
+`R.C. Luxembourg, B 45 762` et la forme `Société Anonyme`, repris en toutes lettres par les CGA
+BUSINESS TRAVEL : « immatriculée au R.C.S. Luxembourg B 45762 ». Le registre du superviseur et le
+registre de commerce sont deux sources différentes, et **c'est le document qui donne le RCS**.
+
 ## DKV n'est pas un partenaire de lalux : c'est une société du même groupe
 
 C'est le document lui-même qui le dit, et cela corrige la formulation du recensement

@@ -293,6 +293,7 @@ Jede aus dem Vertrag abgeleitete Forderung verjährt drei Jahre nach dem Zeitpun
 
 ## Documents liés
 
+- [EASY HEALTH - IPID](EASY%20HEALTH%20-%20IPID.md) - IPID / Fiche d'information
 - [EASY HEALTH - IPID - EN](EASY%20HEALTH%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 - [EASY HEALTH - IPID - DE](EASY%20HEALTH%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
 
