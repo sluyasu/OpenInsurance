@@ -60,7 +60,9 @@ connaissance générale du produit.
 
 Ce qu'un lecteur peut déjà retenir, parce que c'est mesuré : dans ce corpus, la protection juridique
 accompagne fréquemment la RC privée dans un même contrat **sans être portée par le même assureur** —
-le registre montre `FOYER-ARAG` détenant la seule branche 17, et le corpus français a livré le même
+le registre montre `FOYER-ARAG` ne détenant **que** la branche 17 — elle est l'un des trois seuls
+assureurs luxembourgeois mono-branche, avec Bolton (16) et DKV (2) ; **vingt et un des trente-cinq**
+détiennent la branche 17, dont FOYER ASSURANCES elle-même — et le corpus français a livré le même
 schéma sur des dizaines de contrats. Lire qui porte quoi, garantie par garantie.
 
 ## Cadre légal

@@ -687,7 +687,7 @@ agrément que celle qui vend un solde restant dû à Esch-sur-Alzette.
 **L'appartenance au marché de détail se décide à la découverte, pas au registre.** Le test
 opérant est celui que ce projet applique déjà : l'entreprise publie-t-elle, sur un site
 luxembourgeois, une bibliothèque de documents contractuels destinés à un particulier ?
-Foyer a été traité ainsi et le résultat — aucune conditions générales publiée, zéro ligne
+Foyer a été traité ainsi et le résultat — aucune conditions générales en libre accès, zéro ligne
 sur huit cents — n'aurait été lisible dans aucun registre.
 
 Le registre reste indispensable pour deux choses, et il faut s'y tenir : **nommer les
@@ -728,3 +728,43 @@ d'après le **client** qui échoue plutôt que d'après l'**en-tête** qui manqu
 « curl-hostile » ne se corrige pas, alors que « exige un en-tête `Accept` » se corrige en une ligne.
 Quand deux clients divergent, la question n'est jamais « lequel est bloqué » mais **« quel en-tête
 les sépare »**, et la réponse s'obtient en fixant un en-tête à la fois.
+
+
+## Correction (2026-08-04) — « Foyer ne publie aucune conditions générales » était faux
+
+Ce recensement, et le MOC après lui, ont répété que Foyer ne publie aucune conditions générales,
+sur la foi d'un balayage : zéro occurrence de *condition*, *AGB* ou *general terms* sur huit cents
+documents énumérés.
+
+Le balayage était juste, la conclusion non. Une seconde passe a lu la page
+`https://www.foyer.lu/fr/conditions-generales` au lieu de la compter : **c'est un formulaire**, qui
+demande un « Numéro Client » et un « Numéro Contrat » imprimés sur les conditions particulières
+reçues par courrier. Son gabarit de résultat, présent dans le HTML, annonce « Conditions Générales
+trouvées. Tous les documents […] sont au format PDF ».
+
+**Les conditions générales de Foyer existent donc bien en PDF. Elles sont servies au souscripteur
+identifié, contrat par contrat.** Ce n'est pas une absence de document, c'est une politique de
+publication — et pour ce dépôt, la conséquence pratique est la même (rien à ingérer), mais la
+description était fausse.
+
+**Aucune énumération n'a été tentée sur ce formulaire et aucune ne doit l'être.** Il demande des
+identifiants de client réels ; sonder son espace de paramètres reviendrait à deviner des numéros de
+contrat de personnes réelles. La règle du dépôt — n'énumérer que ce qui est publié à tous, ne jamais
+sonder un espace d'URL — s'applique ici dans sa forme la plus stricte.
+
+**La leçon de méthode :** compter les occurrences d'un mot dans une bibliothèque dit ce que la
+bibliothèque contient, jamais pourquoi. « Zéro résultat » a deux causes — le document n'existe pas,
+ou il n'est pas là où on cherche — et seules les deux se distinguent en lisant la page, pas en la
+comptant.
+
+## Correction (2026-08-04) — FOYER-ARAG n'est pas le seul détenteur de la branche 17
+
+Une note de ce dépôt disait « le registre montre FOYER-ARAG détenant la seule branche 17 », au sens
+de *ne détenant que* la branche 17. La phrase a été relue comme « le seul détenteur de la branche
+17 » et propagée ainsi dans un brief de découverte.
+
+Mesuré sur le CSV du CAA : **vingt et un des trente-cinq** assureurs non-vie luxembourgeois
+détiennent la branche 17, **dont FOYER ASSURANCES elle-même**.
+
+Ce qui est vrai, et qui était le sens d'origine : FOYER-ARAG est l'un des **trois seuls assureurs
+mono-branche** du registre, avec BOLTON INTERNATIONAL (16) et DKV LUXEMBOURG (2).

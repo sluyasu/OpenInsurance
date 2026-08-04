@@ -259,8 +259,12 @@ et laisse de côté, en le disant : les 8 conditions spéciales de droit frança
 souscription, 16 documents marketing, 9 RGPD, 4 ToB, 4 listes de juridictions, 3 étendues de
 prestations, 1 formulaire de sinistre) — même découpe que `lalux.yml`, `baloise.yml` et `dkv.yml`.
 
-Ce serait le premier assureur luxembourgeois du corpus dont **chaque produit** est documenté à la
-fois par son IPID et par son contrat.
+**Cinq gammes y seraient documentées à la fois par leur IPID et par leur contrat** — Journey,
+CoGenio, EcoGenio, YouGenio World, YouGenio Germany — ce qui n'existe encore pour aucun produit
+luxembourgeois du corpus. La couverture n'est toutefois pas totale : **Xtend, Corporate Travel et
+le socle Essential / Exclusive / Special ont des conditions générales mais aucun IPID publié**, et
+seule la gamme **EU Health** a un IPID sans conditions générales propres (elle s'appuie sur le socle
+`FGH-GCI`). Lacunes constatées côté éditeur, pas côté découverte.
 
 ### Les `listing_pages`, et pourquoi celles-là
 

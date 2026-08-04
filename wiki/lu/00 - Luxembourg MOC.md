@@ -143,8 +143,26 @@ Quatre absences sont délibérées, chacune vérifiée dans le texte :
 
 **Foyer**, premier groupe de détail du pays, est en découverte seule. Son `robots.txt` ferme les
 chemins de documents dans les trois langues puis en rouvre exactement deux — qui ne sont pas des
-documents contractuels. Mais le fait qui rend ce blocage secondaire est ailleurs : **Foyer ne publie
-aucune conditions générales**, zéro ligne sur huit cents. Détail dans `_meta/discovery/lu/foyer.md`.
+documents contractuels.
+
+**Correction (2026-08-04) : ses conditions générales existent, et l'affirmation « Foyer ne publie
+aucune conditions générales » était fausse.** Une première passe avait relevé zéro occurrence du mot
+sur huit cents documents et conclu à une absence. Une seconde a lu la page
+`/fr/conditions-generales` elle-même : **ce n'est pas une page de listing, c'est un formulaire**.
+
+> « Pour consulter vos conditions générales, merci de renseigner le **Numéro Client** et le
+> **Numéro Contrat** […] Ces informations sont imprimées sur vos Conditions Particulières reçues par
+> courrier postal. »
+
+Et le gabarit de résultat que la page porte déjà en HTML annonce « Conditions Générales trouvées.
+Tous les documents […] sont au format PDF ». Les contrats sont donc publiés **au souscripteur
+identifié, contrat par contrat** — ce qui est une politique de publication, pas une absence.
+
+**Aucune énumération n'a été tentée sur ce formulaire et aucune ne doit l'être** : il demande des
+identifiants de client réels. La limite est de méthode autant que de droit — ce dépôt n'énumère que
+ce qui est publié à tous.
+
+Détail dans `_meta/discovery/lu/foyer.md` et `_meta/discovery/lu/foyer-vie.md`.
 
 **AXA Luxembourg** est en découverte seule aussi, et c'est le cas le plus frustrant du corpus.
 **631 documents inventoriés, 0 récupérable** : `robots.txt` d'`axa.lu` porte `Disallow: /*.pdf`,
@@ -152,11 +170,11 @@ ancré à la racine, et aucune des 631 URL n'échappe au motif. Aucun PDF n'a é
 
 Ce qui rend ce blocage coûteux, c'est **ce qu'il y a derrière**. Au moins **302 de ces documents sont
 de vraies conditions d'assurance** — le contrat lui-même, pas le résumé imposé par la directive. À
-comparer aux quatre sur quatre-vingt-dix de lalux et au zéro sur huit cents de Foyer :
+comparer aux quatre sur quatre-vingt-dix de lalux et au zéro en libre accès de Foyer :
 
 | Porteur | Documents publiés | Vraies conditions générales |
 |---|---|---|
-| Foyer | ~800 | **0** |
+| Foyer | ~800 | **0 en libre accès** — servies au souscripteur identifié |
 | lalux | 90 | **4** |
 | AXA Luxembourg | 631 | **≥ 302**, toutes inaccessibles |
 
@@ -177,7 +195,7 @@ la fiche d'information, pas le contrat. Le corpus luxembourgeois le montre crûm
 
 | Porteur | Documents publiés | Vraies conditions générales |
 |---|---|---|
-| Foyer | ~800 | **0** |
+| Foyer | ~800 | **0 en libre accès** — servies au souscripteur identifié |
 | Baloise | 268 | **0** |
 | lalux | 90 | **4** (toutes en construction B2B) |
 | **DKV** | 60 | **9** |
