@@ -5,7 +5,7 @@ country: lu
 insurer_slug: dkv
 name: DKV Luxembourg
 website: https://www.dkv.lu
-products_count: 35
+products_count: 36
 branches_covered:
 - sante
 - voyage
@@ -24,7 +24,7 @@ generated: true
 
 ## Résumé
 
-**DKV Luxembourg** - [https://www.dkv.lu](https://www.dkv.lu). 35 document(s) across 2 branch(es).
+**DKV Luxembourg** - [https://www.dkv.lu](https://www.dkv.lu). 36 document(s) across 2 branch(es).
 
 ## Produits par branche
 
@@ -48,6 +48,7 @@ generated: true
 - [HOSPITAL HEALTH - IPID](../products/dkv/HOSPITAL%20HEALTH%20-%20IPID.md) - IPID / Fiche d'information
 - [HOSPITAL HEALTH - IPID - DE](../products/dkv/HOSPITAL%20HEALTH%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
 - [HOSPITAL HEALTH - IPID - EN](../products/dkv/HOSPITAL%20HEALTH%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+- [KRANKHEITSKOSTENVERSICHERUNG KRANKENHAUSTAGEGELDVERSICHERUNG - DE](../products/dkv/KRANKHEITSKOSTENVERSICHERUNG%20KRANKENHAUSTAGEGELDVERSICHERUNG%20-%20DE.md) - Conditions générales (01/21) · réf. AVB KK (01/21)
 - [Krankentagegeldversicherung - DE](../products/dkv/Krankentagegeldversicherung%20-%20DE.md) - Conditions générales (12/15) · réf. AVB KT (12/15)
 - [PLUS HEALTH - IPID - EN](../products/dkv/PLUS%20HEALTH%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 - [PLUS HEALTH - IPID](../products/dkv/PLUS%20HEALTH%20-%20IPID.md) - IPID / Fiche d'information

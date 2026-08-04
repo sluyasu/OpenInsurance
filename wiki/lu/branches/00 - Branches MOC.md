@@ -61,7 +61,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [easyPROTECT-Accident - IPID - EN](../products/lalux/easyPROTECT-Accident%20-%20IPID%20-%20EN.md) - [lalux](../insurers/lalux.md)
 - [easyPROTECT-Unfall - IPID - DE](../products/lalux/easyPROTECT-Unfall%20-%20IPID%20-%20DE.md) - [lalux](../insurers/lalux.md)
 
-### Complémentaire santé (25)
+### Complémentaire santé (26)
 - [COMPACT HEALTH - IPID](../products/dkv/COMPACT%20HEALTH%20-%20IPID.md) - [DKV Luxembourg](../insurers/DKV%20Luxembourg.md)
 - [COMPACT HEALTH - IPID - DE](../products/dkv/COMPACT%20HEALTH%20-%20IPID%20-%20DE.md) - [DKV Luxembourg](../insurers/DKV%20Luxembourg.md)
 - [COMPACT HEALTH - IPID - EN](../products/dkv/COMPACT%20HEALTH%20-%20IPID%20-%20EN.md) - [DKV Luxembourg](../insurers/DKV%20Luxembourg.md)
@@ -81,6 +81,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [HOSPITAL HEALTH - IPID](../products/dkv/HOSPITAL%20HEALTH%20-%20IPID.md) - [DKV Luxembourg](../insurers/DKV%20Luxembourg.md)
 - [HOSPITAL HEALTH - IPID - DE](../products/dkv/HOSPITAL%20HEALTH%20-%20IPID%20-%20DE.md) - [DKV Luxembourg](../insurers/DKV%20Luxembourg.md)
 - [HOSPITAL HEALTH - IPID - EN](../products/dkv/HOSPITAL%20HEALTH%20-%20IPID%20-%20EN.md) - [DKV Luxembourg](../insurers/DKV%20Luxembourg.md)
+- [KRANKHEITSKOSTENVERSICHERUNG KRANKENHAUSTAGEGELDVERSICHERUNG - DE](../products/dkv/KRANKHEITSKOSTENVERSICHERUNG%20KRANKENHAUSTAGEGELDVERSICHERUNG%20-%20DE.md) - [DKV Luxembourg](../insurers/DKV%20Luxembourg.md)
 - [Krankentagegeldversicherung - DE](../products/dkv/Krankentagegeldversicherung%20-%20DE.md) - [DKV Luxembourg](../insurers/DKV%20Luxembourg.md)
 - [PLUS HEALTH - IPID - EN](../products/dkv/PLUS%20HEALTH%20-%20IPID%20-%20EN.md) - [DKV Luxembourg](../insurers/DKV%20Luxembourg.md)
 - [PLUS HEALTH - IPID](../products/dkv/PLUS%20HEALTH%20-%20IPID.md) - [DKV Luxembourg](../insurers/DKV%20Luxembourg.md)

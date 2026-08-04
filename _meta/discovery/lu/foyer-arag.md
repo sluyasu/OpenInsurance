@@ -121,10 +121,11 @@ Chronos) et Foyer-ARAG (Arag Particulier). La marque de la page ne dit pas le po
 ## L'hypothèse « porteur nommé dans les documents d'autrui » n'est pas confirmée
 
 Les 160 PDF du corpus luxembourgeois déjà téléchargés (lalux, Baloise, DKV) ont été convertis en
-texte et fouillés : **zéro occurrence** de `FOYER-ARAG`, `ARAG`, `FOYER ASSURANCES`, `FOYER VIE` ou
-`Foyer Global Health`. Les seuls appariements bruts sur la chaîne `arag` étaient des occurrences de
-*garage* dans des contrats auto, et ceux sur `foyer` le nom commun (« les personnes vivant à son
-foyer »).
+texte — **160 sur 160 avec du texte extractible**, aucun scan d'image — coupures de ligne recollées
+et espaces normalisés, puis fouillés : **zéro occurrence** de `FOYER-ARAG`, `ARAG`,
+`FOYER ASSURANCES`, `FOYER VIE`, `Foyer Global Health` ou `Globality`. Les seuls appariements bruts
+sur la chaîne `arag` étaient des occurrences de *garage* dans des contrats auto, et ceux sur `foyer`
+le nom commun (« les personnes vivant à son foyer »).
 
 C'est cohérent, et il faut le dire dans ce sens : le corpus est composé de documents lalux, Baloise
 et DKV, c'est-à-dire de **concurrents**. Le document lalux classé en `protection-juridique`
