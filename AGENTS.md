@@ -26,9 +26,9 @@ navigate it without guessing. Do not edit by hand.
 | country | branch | product | insurer | regulation | concept |
 |---|---|---|---|---|---|
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
-| ch (Switzerland) | 0 | 3 | 1 | 0 | 5 |
-| fr (France) | 24 | 774 | 10 | 1 | 5 |
-| lu (Luxembourg) | 12 | 160 | 3 | 1 | 5 |
+| ch (Switzerland) | 0 | 12 | 1 | 0 | 5 |
+| fr (France) | 24 | 782 | 10 | 1 | 5 |
+| lu (Luxembourg) | 15 | 160 | 3 | 1 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
 
@@ -305,9 +305,18 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | be | voyage | touring | Touring Snowcard | 2026-07-05 | [pdf](https://www.touring.be/fr/remote-documents/ReferenceDocument-249/CONDITIONS_GENERALES.0079-8425900F-01042026.pdf) |
 | be | voyage | touring | Touring Travel | 2026-07-05 | [pdf](https://www.touring.be/fr/remote-documents/ReferenceDocument-252/CONDITIONS_GENERALES.0079-8424700F-01042026.pdf) |
 | be | voyage | touring | Touring Travel - IPID | 2026-07-05 | [pdf](https://www.touring.be/fr/remote-documents/ReferenceDocument-211/FICHE_IPID.0079-8426400F-01042026.pdf) |
+| ch | autres | vaudoise | Assurance Inventaire | 2026-07-21 | [pdf](https://www.vaudoise.ch/docs/default-source/documents-commerciaux/cga/ass_inventaire_fr_2024.pdf) |
+| ch | autres | vaudoise | Qualification de nos produits d'assurance - Fiche | 2026-07-21 | [pdf](https://www.vaudoise.ch/docs/default-source/documents-commerciaux/cga/informations_clients_oct_2021_f7ff6add008af6230abeeff04006a4bf0.pdf) |
 | ch | batiment | vaudoise | Building | 2026-07-21 | [pdf](https://www.vaudoise.ch/docs/default-source/documents-commerciaux/cga/building_cga_012023_f.pdf) |
+| ch | menage | vaudoise | Home in One | 2026-07-21 | [pdf](https://www.vaudoise.ch/docs/default-source/documents-commerciaux/cga/hio_cga_012023_f.pdf) |
+| ch | menage | vaudoise | Objets de valeur en propriété privée | 2026-07-21 | [pdf](https://www.vaudoise.ch/docs/default-source/documents-commerciaux/cga/cga_objet_de_valeur_fr.pdf) |
 | ch | protection-juridique | vaudoise | Assurance de protection juridique d'entreprise et de circulation | 2026-07-21 | [pdf](https://www.vaudoise.ch/docs/default-source/documents-commerciaux/cga/orion_pro_cga_fr.pdf) |
+| ch | rc-professionnelle | vaudoise | Business One Assurance Responsabilité civile | 2026-07-21 | [pdf](https://www.vaudoise.ch/docs/default-source/documents-commerciaux/cga/cga_commerce_rce_20220101_f.pdf) |
+| ch | technique | vaudoise | Assurances de construction | 2026-07-21 | [pdf](https://www.vaudoise.ch/docs/default-source/documents-commerciaux/cga/building_cga_012023_f1ba6c3d008af6230abeeff04006a4bf0.pdf) |
+| ch | technique | vaudoise | Tech in One | 2026-07-21 | [pdf](https://www.vaudoise.ch/docs/default-source/documents-commerciaux/cga/conditions-generales-assurance-technique-tech-in-one.pdf) |
+| ch | vehicules | vaudoise | Assistance Avenue | 2026-07-21 | [pdf](https://www.vaudoise.ch/docs/default-source/documents-commerciaux/cga/cga_assistance_avenue_20220101_f.pdf) |
 | ch | vehicules | vaudoise | Assurance véhicules automobiles | 2026-07-21 | [pdf](https://www.vaudoise.ch/docs/default-source/documents-commerciaux/cga/cga_vm8_20220101_f.pdf) |
+| ch | voyage | vaudoise | Assistance et Voyage | 2026-07-21 | [pdf](https://www.vaudoise.ch/docs/default-source/documents-commerciaux/cga/assistance-et-voyage.pdf) |
 | fr | agricole | thelem | Assurance Engins agricoles - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/Ipid-EA-2026.pdf) |
 | fr | agricole | thelem | Assurance Terrenis - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_-TERRENIS-01-2026.pdf) |
 | fr | animaux | macif | Contrat Chiens guides | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/CG-chiens-guides.pdf) |
@@ -599,6 +608,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | habitation | macif | Contrat PREM'S - Assurance logement - Assurance personnelle - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_habitation_prems.pdf) |
 | fr | habitation | macif | Contrat Prem's - Assurance Logement - Assurance Personnelle | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/CG_Prems.pdf) |
 | fr | habitation | macif | Contrat Sociétaire Non Occupant | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/CG_proprietaire_non_occupant.pdf) |
+| fr | habitation | macif | Contrat Sociétaire Non Occupant - Annexe spéciale Appartement ou maison particulière - Résidence secondaire | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/annexe_proprietaire_non_occupant_appartement_ou_maison_particuliere_residence_secondaire.pdf) |
 | fr | habitation | macif | Contrat Sociétaire Non Occupant - Annexe spéciale Bâtiments en cours de construction | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/annexe_proprietaire_non_occupant_construction.pdf) |
 | fr | habitation | macif | Contrat Sociétaire Non Occupant - Annexe spéciale Bâtiments inoccupés | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/annexe_societaire_non_occupant_batiments_inoccupes.pdf) |
 | fr | habitation | macif | Contrat Sociétaire Non Occupant - Annexe spéciale Immeubles en copropriété | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/annexe_proprietaire_non_occupant_immeuble_en_copropriete.pdf) |
@@ -699,6 +709,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | multirisque-professionnelle | maaf | Vétérinaires - Intercalaire | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Intercalaire_Veterinaires_11047.pdf) |
 | fr | multirisque-professionnelle | macif | Contrat Multigarantie Activité Professionnelle - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_multigarantie_activite_professionnelle.pdf) |
 | fr | multirisque-professionnelle | macif | Contrat Multigarantie Activités Sociales Vie Associative - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_multigarantie_activite_sociale_vie_associative.pdf) |
+| fr | multirisque-professionnelle | macif | Contrat Multigarantie Activités Sociales Vie Associative - IPID (2) | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_tres_petite_association.pdf) |
 | fr | multirisque-professionnelle | macif | Contrat Multigarantie Informatique - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_assurance_materiel_informatique.pdf) |
 | fr | multirisque-professionnelle | macif | Multigarantie Activité Professionnelle | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/CG_MAP.pdf) |
 | fr | multirisque-professionnelle | macif | Multigarantie Activité Professionnelle (2) | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/CG-ACTP-MAP-06-23.pdf) |
@@ -770,6 +781,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | obseques | groupama | GROUPAMA SÉRÉNITÉ OBSÈQUES - Fiche | 2026-07-30 | [pdf](https://www.pia.ggvie.fr/uploads/Offres_et_services/Prevoyance/Groupama/Groupama_Serenite_Obseques/1.Comment%20souscrire/3350-231388-032023%20DIC%20GSO.pdf) |
 | fr | obseques | groupama | GROUPAMA SÉRÉNITÉ OBSÈQUES - Tarifs | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/6UVUGprxtQSfzl6ryQuBEp/0c3c5dad7b54cd49e9b7f6a6a92f4917/Lisibilite%C3%8C__obse%C3%8C_ques_Groupama_032026.pdf) |
 | fr | obseques | groupama | Groupama Sérénité Obsèques (édition octobre 2021) - Fiche | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/3EwrRMbBVhIXDZ41vUiVjO/9e08763261c4f762c162be87a949f7a7/3350-231388-102021_DIC_GSO.pdf) |
+| fr | obseques | macif | Garantie Obsèques | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/NID_garantie_obseques.pdf) |
 | fr | obseques | macif | Garantie Obsèques - Doc | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/tableau-principaux-indicateurs-economiques-garantie-obseques.pdf) |
 | fr | obseques | macif | Garantie Obsèques - Fiche | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/synthese_garantie_obseques.pdf) |
 | fr | obseques | macif | Garantie Obsèques - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/DIC_garantie_obseques.pdf) |
@@ -835,6 +847,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | protection-juridique | maaf | Contrat Défense Juridique de l'Automobiliste | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/CG/MAAF_Conditions_generales_Defense_juridique_automobiliste_1968.pdf) |
 | fr | protection-juridique | maaf | Défense Juridique Familiale (Vie privée) | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/CG/MAAF_Conditions_generales_Defense_juridique_familiale_2326.pdf) |
 | fr | protection-juridique | maaf | Garanties Protection Juridique - Fiche | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/Tableaux_de_garanties/MAAF_TG_Tempo_habitation_protection_juridique.pdf) |
+| fr | protection-juridique | macif | Protection Juridique (PJ PRO&ESS) - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_PJ_Pro-ESS.pdf) |
 | fr | protection-juridique | macif | Protection Juridique (PRO&ESS) - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA%20PJ%20PRO%26ESS%2006-20.pdf) |
 | fr | protection-juridique | macif | Protection Juridique - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_protection_juridique_sur_mesure_des_professionnels.pdf) |
 | fr | protection-juridique | maif | Assurance Protection Juridique | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/conditions-generales-assurance-protection-juridique.pdf) |
@@ -998,6 +1011,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | sante | matmut | Bien à l'hôpital - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/mutuelle/pdf/notice-option-bien-a-hopital.pdf) |
 | fr | sante | matmut | CONTRAT COLLECTIF FRAIS DE SANTÉ - RÉGIME OBLIGATOIRE | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-1966-conditions-generales.pdf) |
 | fr | sante | matmut | Conditions Générales — Régime conventionnel de frais de santé à adhésion obligatoire, Convention Collective Nationale de | 2026-07-30 | [pdf](https://www.matmut.fr/mutuelle-sante-ociane/pdf/conditions-generales-CCN-alisfa.pdf) |
+| fr | sante | matmut | Contrat collectif Santé à adhésion obligatoire CCN Bâtiment et travaux publics (CCN Bâtiment et travaux publics — notice | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-BTP-notice-information.pdf) |
 | fr | sante | matmut | Contrat collectif santé à adhésion obligatoire | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/conditions-generales-contrat-obligatoire-ociane.pdf) |
 | fr | sante | matmut | Contrat collectif à adhésion obligatoire CCN Bâtiment et travaux publics | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-BTP-conditions-generales.pdf) |
 | fr | sante | matmut | Contrat « Matmut-Smac » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDSMAC.pdf) |
@@ -1048,6 +1062,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | sante | matmut | Santé vous bien ! - Fiche (3) | 2026-07-30 | [pdf](https://www.matmut.fr/mutuelle/pdf/fiche-produit-jeune-Sante-vous-bien.pdf) |
 | fr | sante | matmut | Santé vous bien ! - Fiche (4) | 2026-07-30 | [pdf](https://www.matmut.fr/mutuelle/pdf/fiche-produit-moins-chere-Sante-vous-bien.pdf) |
 | fr | sante | matmut | Santé vous bien ! - Fiche (5) | 2026-07-30 | [pdf](https://www.matmut.fr/mutuelle/pdf/fiche-produit-senior-Sante-vous-bien.pdf) |
+| fr | sante | matmut | Santé vous bien ! - Fiche (6) | 2026-07-30 | [pdf](https://www.matmut.fr/mutuelle/pdf/fiche-produit-hospitalisation-Sante-vous-bien.pdf) |
 | fr | sante | matmut | Santé vous bien avec la Mutuelle Ociane Matmut — Niveaux responsables - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/mutuelle/pdf/IPID-Sante-vous-bien.pdf) |
 | fr | sante | matmut | Statuts d'Ociane - Doc | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/Statuts-OCIANE.pdf) |
 | fr | sante | matmut | Statuts d'Ociane et Règlement mutualiste « individuels » — Complémentaire maladie accidents | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/Statuts-reglement-indiv.pdf) |
@@ -1057,6 +1072,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | sante | thelem | PRIMORDIALE 1, PRIMORDIALE 2, PRIMORDIALE 3 – Formules NON responsables et solidaires - Doc | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/Exemples_remboursements_TA_2026_NON_RESPONSABLE.pdf) |
 | fr | scolaire | maaf | Assurance scolaire — Tableau des garanties - Fiche | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/Tableaux_de_garanties/MAAF_TG_Tempo_Assurance_scolaire.pdf) |
 | fr | scolaire | macif | Extension de l'assurance scolaire | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/Contrat-EAS.pdf) |
+| fr | scolaire | matmut | Assurance de l'Étudiant et Matmut-Smac | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGETUDIANTS.pdf) |
 | fr | scolaire | matmut | Assurance scolaire | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGSCOL.pdf) |
 | fr | scolaire | matmut | Conditions de l'offre Assurance Scolaire - Tarifs | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/conditions-offre-scolaire.pdf) |
 | fr | scolaire | matmut | Contrat « Assurance de l'Étudiant et Matmut-Smac » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDETUDIANTS.pdf) |
@@ -1079,6 +1095,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | voyage | macif | Assistance médicale « Carte Visa Electron » - Déplacement privé (Notice d'Information valant Convention d'assistance n°  | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/socram/CVELEC2015S59.pdf) |
 | fr | voyage | macif | CARTE VISA Premier | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/notice-assurance_CVisaPremier.pdf) |
 | fr | voyage | macif | Notice d'Information valant Convention d'assistance - Carte Visa Electron n°922093 | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/notice-assistance-cb-visa-electron.pdf) |
+| fr | voyage | macif | Notice d'Information valant Convention d'assistance - Carte Visa Premier 922.083 | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/notice-assistance_CVisaPremier.pdf) |
 | fr | voyage | smacl | Assistance aux personnes (convention d'assistance) (SMACL Assurances (société d'assurance mutuelle)) | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/ca-assistance-personnes-sam.pdf) |
 | fr | voyage | smacl | Assistance aux personnes (convention d'assistance) (SMACL Assurances SA (société anonyme)) | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/ca-assistance-personnes.pdf) |
 | fr | voyage | smacl | CONVERGENCE - Annulation de séjour (conventions spéciales) | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-convergence-annulation-sejour_0.pdf) |

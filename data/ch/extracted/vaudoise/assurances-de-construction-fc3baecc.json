@@ -1,0 +1,1850 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "ch",
+  "insurer_slug": "vaudoise",
+  "insurer_name": "Vaudoise Assurances",
+  "product_name": "Assurances de construction",
+  "branch": "technique",
+  "branch_code": null,
+  "document_type": "conditions_generales",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "Le document ne désigne pas de public. Il s'adresse au « preneur d'assurance » en tant que « maître de l'ouvrage du projet de construction désigné dans la police et en tant que propriétaire du terrain qui en fait partie », et envisage que le preneur d'assurance soit « une société de personnes (par ex. une société en nom collectif), une communauté de propriétaires en main commune (par ex. une communauté d'héritiers) » ou qu'il ait « conclu l'assurance pour le compte de tiers (par ex. en sa qualité d'architecte ou d'entrepreneur général) » (art. B2, chiffre 1 CGA, page 20).",
+  "reference": "1.61.252/01.2022",
+  "edition_date": "01.01.2022",
+  "product_family": "Assurances de construction",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.vaudoise.ch/docs/default-source/documents-commerciaux/cga/building_cga_012023_f1ba6c3d008af6230abeeff04006a4bf0.pdf",
+  "source_pdf": "assurances-de-construction-fc3baecc.pdf",
+  "source_sha256": "28679fba2a6d6073a1d3e10cadf383de3bc9da997a09ac9a573b61c1db3233fb",
+  "source_pages": 35,
+  "fetched_at": "2026-07-21",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Conditions générales de la Vaudoise pour les assurances de construction, édition du 01.01.2022. Le document réunit deux assurances: l'assurance travaux de construction (partie A), qui couvre les détériorations et destructions soudaines et imprévues des prestations de construction — accident de construction, vol, vandalisme et, subsidiairement, incendie et événements naturels —, et l'assurance responsabilité civile du maître de l'ouvrage (partie B), qui couvre la responsabilité légale découlant du projet de construction désigné dans la police en cas de lésions corporelles, de dégâts matériels et de dommages économiques consécutifs. Une couverture complémentaire combinée (échafaudages, toits provisoires, outils et machines, terrains, ouvrages existants, mobilier) et six extensions de couverture ne sont assurées que si elles sont expressément convenues dans la police. Les parties C et D règlent la durée du contrat, les obligations contractuelles et la procédure en cas de sinistre; les sommes d'assurance et les franchises sont fixées dans la police.",
+  "definitions": [
+    {
+      "term": "Accident de construction",
+      "definition": "Il y a accident de construction au sens de l'assurance travaux de construction lorsque des prestations de construction selon art. A2 chiffre 1 CGA, ou d'autres choses expressément assurées contre ce risque, sont détériorées ou détruites à la suite d'un événement soudain et imprévu (par ex. effondrement d'une dalle, effondrement de la fouille, dégâts d'eau à la suite d'un événement soudain et imprévu).",
+      "page": 7
+    },
+    {
+      "term": "Vol avec effraction",
+      "definition": "Est réputé vol avec effraction le vol de choses dans des bâtiments, des locaux ou des constructions mobilières fermés à clé, que l'auteur du vol a forcés. Les bâtiments, les locaux ou les constructions mobilières sont réputés fermés à clé si la restriction de l'accès est d'un degré comparable au standard de bâtiments achevés.",
+      "page": 7
+    },
+    {
+      "term": "Vandalisme",
+      "definition": "Est réputé vandalisme, toute détérioration ou destruction intentionnelle de choses assurées.",
+      "page": 7
+    },
+    {
+      "term": "Incendie",
+      "definition": "Par incendie, il faut entendre: feu, fumée (effet soudain et accidentel), foudre, explosion, chute ou atterrissage forcé d'aéronefs, de véhicules spatiaux ou de parties qui s'en détachent.",
+      "page": 7
+    },
+    {
+      "term": "Evénements naturels",
+      "definition": "Par événements naturels, il faut entendre: hautes eaux, inondations, tempête (= vent de 75 km/h au moins, qui renverse des arbres ou qui découvre les maisons dans le voisinage du bâtiment assuré), grêle, avalanche, pression de la neige, éboulement de rochers, chute de pierres, glissements de terrain.",
+      "page": 7
+    },
+    {
+      "term": "Prestations de construction (objet de l'assurance)",
+      "definition": "Sont assurées les prestations de construction - y compris les matériaux et éléments de construction qui en font partie - si elles sont comprises dans la somme d'assurance. Sauf convention contraire l'ouvrage est assuré dans sa totalité - pour les bâtiments l'ouvrage \"clé en main\".",
+      "page": 8
+    },
+    {
+      "term": "Somme d'assurance (couverture de base)",
+      "definition": "La somme d'assurance doit correspondre au coût total prévu des travaux de construction, de rénovation et de montage, y compris les honoraires pour la planification et la conduite des travaux ainsi que les prestations effectuées par le maître de l'ouvrage lui-même sur la base du coût des matériaux de construction et des tarifs usuels des corps de métier. La somme d'assurance correspond ainsi aux prestations de construction selon le code des frais de construction (CFC), chapitres 1 à 4, y compris les honoraires et la TVA.",
+      "page": 9
+    },
+    {
+      "term": "Dommage total",
+      "definition": "Il y a dommage total lorsque les frais de remise en état excèdent la valeur actuelle de la chose endommagée.",
+      "page": 9
+    },
+    {
+      "term": "Valeur actuelle",
+      "definition": "Par valeur actuelle, il faut entendre la valeur à neuf sous déduction de la dépréciation due à l'ancienneté et/ou à l'usure;",
+      "page": 9
+    },
+    {
+      "term": "Sous-assurance",
+      "definition": "Si, dans le cadre d'un sinistre, la Vaudoise constate que les coûts de construction prévisibles sont supérieurs à la somme d'assurance convenue dans le contrat dans une proportion supérieure à 10%, le dommage n'est indemnisé que dans le rapport qui existe entre la somme d'assurance convenue et les coûts de construction prévisibles.",
+      "page": 9
+    },
+    {
+      "term": "Défauts",
+      "definition": "Les frais engagés pour remédier à des défauts; sont notamment considérés comme défauts: • la simple absence d'étanchéité ou la perméabilité du béton, à moins qu'elle ne soit la conséquence d'un accident de construction au sens de l'art. A1, chiffre 1 CGA; • l'inétanchéité de canalisations et de conduites ainsi que les déviations par rapport à l'alignement prévu; • les formations de fissures qui ne sont pas la conséquence d'un accident de construction au sens de l'art. A1, chiffre 1 CGA; • les dommages dus à un tassement qui ne sont pas consécutifs à un accident de construction au sens de l'art. A1, chiffre 1 CGA; • des pentes insuffisantes, des affaissements ou soulèvements ainsi que des déformations horizontales de conduites ou canalisations; • l'implantation inexacte d'une enceinte de fouilles par rapport au plan; • la portance insuffisante ou inférieure à celle attendue des pieux, leur abaissement/remontée suite, par exemple, à des vibrations ou à une autre cause.",
+      "page": 11
+    },
+    {
+      "term": "Défauts esthétiques",
+      "definition": "les défauts gênant pour l'œil mais qui ne portent pas préjudice à la fonctionnalité de l'ouvrage ou de la partie de l'ouvrage,",
+      "page": 11
+    },
+    {
+      "term": "Sites contaminés",
+      "definition": "Sont réputés sites contaminés les dépôts existants de déchets ainsi que les pollutions du sol ou des eaux. Les matériaux et les éléments de construction contaminés d'ouvrages existants sont assimilés aux sites contaminés.",
+      "page": 11
+    },
+    {
+      "term": "Terrorisme",
+      "definition": "Est considéré comme terrorisme, tout acte de violence ou toute menace de violence perpétrés pour des motifs politiques, religieux, ethniques, idéologiques ou similaires. L’acte de violence ou la menace de recourir à la violence sont de nature à répandre la peur ou la terreur dans la population ou dans une partie de celle-ci ou à exercer une influence sur un gouvernement ou des organismes d’Etat.",
+      "page": 12
+    },
+    {
+      "term": "Troubles intérieurs",
+      "definition": "Sont considérés comme troubles intérieurs les actes de violence dirigés contre des personnes ou des choses et perpétrés lors d'attroupements, de désordres ou de mouvements de rue, ainsi que les pillages en relation avec de tels troubles intérieurs.",
+      "page": 12
+    },
+    {
+      "term": "Toit provisoire",
+      "definition": "Par toit provisoire, il faut entendre une protection élaborée selon les règles de l'art, durable et apte à résister aux influences atmosphériques (ne constituent pas un toit provisoire de simples protections en matière plastique).",
+      "page": 13
+    },
+    {
+      "term": "Perte de rendement",
+      "definition": "La perte de rendement correspond à la différence entre le revenu réalisé pendant la durée de la garantie et celui escompté réellement sans l’interruption, • résultant de la vente de l’ensemble des marchandises commercialisées ou produites; • de prestations fournies; • résultant de la location des immeubles concernés; diminuée des frais économisés et des pénalités dues au maître de l'ouvrage.",
+      "page": 15
+    },
+    {
+      "term": "Frais supplémentaires (retard de construction / interruption d'exploitation)",
+      "definition": "Les frais supplémentaires effectifs nécessaires pour maintenir l'immeuble ou l'exploitation au niveau prévu (autrement dit, comme si le dommage n'était pas survenu) pendant la durée de l'interruption, et occasionnés à l'ayant droit, lors de l'exécution de son obligation de restreindre le dommage pour la perte de rendement, déduction faite des coûts économisés et des pénalités dues au maître de l'ouvrage.",
+      "page": 15
+    },
+    {
+      "term": "Lésions corporelles",
+      "definition": "lésions corporelles (mort, blessures ou autre atteinte à la santé de personnes);",
+      "page": 20
+    },
+    {
+      "term": "Dégâts matériels",
+      "definition": "dégâts matériels (destruction, détérioration ou perte de choses);",
+      "page": 20
+    },
+    {
+      "term": "Dommages économiques",
+      "definition": "dommages économiques (dommages appréciables en argent) consécutifs à des lésions corporelles assurées ou des dégâts matériels assurés causés à un lésé.",
+      "page": 20
+    },
+    {
+      "term": "Preneur d'assurance / personnes assurées",
+      "definition": "Lorsque la police ou les CGA font mention du \"preneur d’assurance\", elles visent toujours les personnes citées à l'art. B2, chiffre 1 CGA, y compris les sociétés et institutions assurées dans le contrat d’assurance (par ex. les filiales), alors que l’expression \"personnes assurées\" comprend toutes les personnes désignées à l'art. B2, chiffres 1 à 4 CGA.",
+      "page": 20
+    },
+    {
+      "term": "Choses de tiers (conduites et installations)",
+      "definition": "Sont considérées comme appartenant à des tiers les conduites et installations de tiers situées sur la parcelle mais ne desservant pas le projet assuré / la parcelle assurée ainsi que les conduites et installations de tiers situées sur la parcelle et desservant le projet assuré, jusqu’aux compteurs ou autres coffrets et boîtiers d’introduction (communication, multimédia, Internet, électricité, gaz, chauffage à distance, etc.).",
+      "page": 22
+    },
+    {
+      "term": "Date de survenance du dommage",
+      "definition": "Est considéré comme date de survenance du dommage le moment où celui-ci est constaté pour la première fois. Une lésion corporelle est censée être survenue, en cas de doute, au moment où le lésé consulte pour la première fois un médecin au sujet des symptômes relatifs à cette atteinte à la santé, même si le lien de causalité n’est établi qu’ultérieurement. Les dommages survenant après l'expiration du contrat sont considérés comme survenus le jour de la fin du contrat.",
+      "page": 24
+    },
+    {
+      "term": "Dommage en série",
+      "definition": "L'ensemble des prétentions résultant de dommages dus à la même cause (par ex. plusieurs prétentions élevées à la suite de dommages qui procèdent d'un même défaut tel que, notamment, une erreur dans la conception, la construction, la production ou les instructions, d'un vice ou défaut d'un produit ou d'une substance, ou du même acte, respectivement de la même omission), est considéré comme un seul et unique dommage (dommage en série). Le nombre de lésés, de demandeurs ou d'ayants droit est sans importance.",
+      "page": 24
+    },
+    {
+      "term": "Atteinte à l'environnement",
+      "definition": "Est considéré comme atteinte à l’environnement: • la perturbation durable de l’état de l’air, des eaux (y compris les eaux souterraines), du sol, de la flore ou de la faune, lorsque, à la suite de cette perturbation, il peut résulter ou il est résulté des effets dommageables ou autres à la santé de l’homme, aux biens matériels ou aux écosystèmes; • tout état de fait défini comme dommage à l’environnement par le droit applicable.",
+      "page": 25
+    },
+    {
+      "term": "Dommages économiques purs",
+      "definition": "Sont considérés comme dommages économiques purs les dommages appréciables en argent, qui ne découlent pas d'une lésion corporelle ou d'un dommage matériel au sens de l'art. B1 CGA.",
+      "page": 27
+    },
+    {
+      "term": "Réception (entrée en jouissance)",
+      "definition": "L'entrée en jouissance d'un ouvrage, d'une unité indépendante ou d'un lot de construction (unités préalablement achevées telles qu'un objet isolé faisant partie d'un projet global, garages, immeuble faisant partie d'un projet d'habitations, propriété par étages, lots de travaux de génie civil) vaut réception.",
+      "page": 28
+    },
+    {
+      "term": "Assurance de sommes / assurance de dommages",
+      "definition": "Votre assurance peut être une assurance de sommes ou de dommages. En cas d'assurance de sommes, la prestation d’assurance est due indépendamment du fait que l’événement assuré ait ou non provoqué un dommage pécuniaire et quelle que soit son ampleur effective. Pour une assurance dommages, un dommage pécuniaire constitue à la fois la condition et le critère pour le calcul de l’obligation de prestation de l’assureur.",
+      "page": 4
+    }
+  ],
+  "coverages": [
+    {
+      "name": "A1.1 – Accident de construction",
+      "description": "L’assurance couvre les détériorations et destructions survenant de manière soudaine et imprévue pendant la durée du contrat (accident de construction). Il y a accident de construction au sens de l'assurance travaux de construction lorsque des prestations de construction selon art. A2 chiffre 1 CGA, ou d'autres choses expressément assurées contre ce risque, sont détériorées ou détruites à la suite d'un événement soudain et imprévu (par ex. effondrement d'une dalle, effondrement de la fouille, dégâts d'eau à la suite d'un événement soudain et imprévu). Le vol, le vandalisme ainsi que les incendies et les événements naturels au sens de l'art. A1, chiffres 2 à 4 CGA, ne sont pas considérés comme des accidents de construction.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "En cas d'endommagement ou de destruction de prestations de construction selon l'art. A2, chiffre 1 CGA, la Vaudoise paie les frais qu'il faut engager pour rétablir la situation existant immédiatement avant la survenance du sinistre, mais au maximum la somme d'assurance convenue.",
+      "sub_limits": [],
+      "deductible": "La franchise convenue dans la police est déduite de chaque indemnité versée (art. A6 CGA).",
+      "conditions": [],
+      "page": 7
+    },
+    {
+      "name": "A1.2 – Vol",
+      "description": "L'assurance couvre la perte de prestations de construction assurées selon l'art. A2, chiffre 1 CGA à la suite: • du vol de choses fixées à l'ouvrage en construction; • d'un vol avec effraction de choses appartenant au maître de l'ouvrage. Sont réputées appartenant au maître de l'ouvrage les choses en sa propriété et déjà réceptionnées par lui. Est réputé vol avec effraction le vol de choses dans des bâtiments, des locaux ou des constructions mobilières fermés à clé, que l'auteur du vol a forcés. Les bâtiments, les locaux ou les constructions mobilières sont réputés fermés à clé si la restriction de l'accès est d'un degré comparable au standard de bâtiments achevés.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "La franchise convenue dans la police est déduite de chaque indemnité versée (art. A6 CGA).",
+      "conditions": [
+        "En cas de vol, le preneur d'assurance ou les parties participant à la construction doivent avertir la police immédiatement après avoir pris connaissance des faits, demander une enquête officielle et informer la Vaudoise si une chose volée est retrouvée ou s'ils en ont des nouvelles. La Vaudoise est libérée de son obligation de prestation envers les parties participant à la construction qui ont enfreint les dispositions ci-dessus."
+      ],
+      "page": 7
+    },
+    {
+      "name": "A1.3 – Vandalisme",
+      "description": "L'assurance couvre les actes de malveillance (vandalisme) commis sur des prestations de construction selon art. A2 chiffre 1 CGA ou d'autres choses expressément assurées contre ce risque. Est réputé vandalisme, toute détérioration ou destruction intentionnelle de choses assurées. Les dommages imputables à des troubles intérieurs ainsi que le fait que des choses aient disparu ne sont pas considérés comme des actes de malveillance.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "La franchise convenue dans la police est déduite de chaque indemnité versée (art. A6 CGA).",
+      "conditions": [],
+      "page": 7
+    },
+    {
+      "name": "A1.4 – Couverture subsidiaire incendie et événements naturels",
+      "description": "Pour autant qu'une assurance bâtiment avec couverture incendie et événements naturels ait été conclue et couvre les prestations de construction selon l'art. A2, chiffre 1 CGA pour toute la durée des travaux, l'assurance travaux de construction couvre également, subsidiairement à la couverture de l'assurance bâtiment, les dommages consécutifs à un incendie ou un événement naturel occasionnés aux prestations de construction qui ne pouvaient pas être incluses dans le cadre de l'assurance bâtiment (par ex. blindage de fouille, etc.).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "La franchise convenue dans la police est déduite de chaque indemnité versée (art. A6 CGA).",
+      "conditions": [
+        "Subsidiaire à l'assurance bâtiment: une assurance bâtiment avec couverture incendie et événements naturels doit avoir été conclue et couvrir les prestations de construction selon l'art. A2, chiffre 1 CGA pour toute la durée des travaux.",
+        "Par incendie, il faut entendre: feu, fumée (effet soudain et accidentel), foudre, explosion, chute ou atterrissage forcé d'aéronefs, de véhicules spatiaux ou de parties qui s'en détachent.",
+        "Par événements naturels, il faut entendre: hautes eaux, inondations, tempête (= vent de 75 km/h au moins, qui renverse des arbres ou qui découvre les maisons dans le voisinage du bâtiment assuré), grêle, avalanche, pression de la neige, éboulement de rochers, chute de pierres, glissements de terrain."
+      ],
+      "page": 7
+    },
+    {
+      "name": "A2.1 – Prestations de construction (objet de l'assurance)",
+      "description": "Sont assurées les prestations de construction - y compris les matériaux et éléments de construction qui en font partie - si elles sont comprises dans la somme d'assurance. Sauf convention contraire l'ouvrage est assuré dans sa totalité - pour les bâtiments l'ouvrage \"clé en main\".",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "La somme d'assurance doit correspondre au coût total prévu des travaux de construction, de rénovation et de montage, y compris les honoraires pour la planification et la conduite des travaux ainsi que les prestations effectuées par le maître de l'ouvrage lui-même sur la base du coût des matériaux de construction et des tarifs usuels des corps de métier. La somme d'assurance correspond ainsi aux prestations de construction selon le code des frais de construction (CFC), chapitres 1 à 4, y compris les honoraires et la TVA.",
+      "sub_limits": [],
+      "deductible": "La franchise convenue dans la police est déduite de chaque indemnité versée (art. A6 CGA).",
+      "conditions": [
+        "Si, dans le cadre d'un sinistre, la Vaudoise constate que les coûts de construction prévisibles sont supérieurs à la somme d'assurance convenue dans le contrat dans une proportion supérieure à 10%, le dommage n'est indemnisé que dans le rapport qui existe entre la somme d'assurance convenue et les coûts de construction prévisibles."
+      ],
+      "page": 8
+    },
+    {
+      "name": "A2.2 – Frais de localisation du dommage, de déblaiement, de décontamination et de démolition et reconstruction",
+      "description": "Sont assurés, jusqu'à la somme d'assurance convenue dans la police, les frais: • nécessaires à la localisation du dommage. Les frais de localisation d'un défaut n'en font pas partie; • nécessaires au déblaiement, du lieu du sinistre, des débris des choses assurées et de leur transport jusqu'au plus proche dépôt; • de décontamination du sol et des eaux d'extinction (en raison de décisions de droit public); • de démolition et de reconstruction de parties non endommagées de l'ouvrage pour autant que celle-ci permette la réparation de prestations de construction endommagées; pour autant qu’ils soient consécutifs à un accident de construction assuré selon l'art. A1, chiffre 1 CGA ou à un acte de vandalisme commis sur les prestations de construction selon l'art. A1, chiffre 3 CGA et qu'ils soient nécessaires à la remise en état. Cette couverture d'assurance intervient également subsidiairement à une assurance incendie et événements naturels dans le cadre de la couverture selon art. A1, chiffre 4 CGA. La Vaudoise intervient uniquement lorsque les prestations de cette assurance incendie et événements naturels sont épuisées.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Jusqu'à la somme d'assurance convenue dans la police; la Vaudoise rembourse ces frais \"jusqu'à la somme d'assurance convenue au premier risque\" (art. A5, chiffre 3 CGA).",
+      "sub_limits": [],
+      "deductible": "La franchise convenue dans la police est déduite de chaque indemnité versée (art. A6 CGA).",
+      "conditions": [],
+      "page": 8
+    },
+    {
+      "name": "A2.3 – Couvertures complémentaires (au premier risque)",
+      "description": "Sont assurés uniquement en vertu d'une condition particulière au premier risque, jusqu'à concurrence de la somme d'assurance convenue dans la police, les dommages et frais selon couvertures complémentaires décrites aux art. A9 CGA (couverture complémentaire combinée) et A10 CGA (extensions de couverture) pour les risques qui y sont expressément mentionnés.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "Les sommes d'assurance des couvertures complémentaires selon l'art. A2, chiffre 3 CGA sont convenues selon convention particulière au premier risque; il ne peut pas y avoir de sous-assurance.",
+      "sub_limits": [],
+      "deductible": "La franchise convenue dans la police est déduite de chaque indemnité versée (art. A6 CGA).",
+      "conditions": [
+        "Si tout ou partie de la somme d'assurance a été utilisée pour des paiements de sinistres, le preneur d'assurance peut demander, pour des sinistres non encore survenus, sa reconstitution moyennant une prime complémentaire à convenir.",
+        "Pour les couvertures complémentaires assurées moyennant convention particulière, la Vaudoise renonce à invoquer une sous-assurance."
+      ],
+      "page": 8
+    },
+    {
+      "name": "A9.2 – Echafaudages, constructions auxiliaires et installations de chantier",
+      "description": "Sont assurés au premier risque: • les échafaudages, étayages, palplanches, coffrages; • les constructions auxiliaires; • les baraquements et containers de chantier; • les structures portantes de toits provisoires; • les cintres de bétonnage; • les clôtures de chantier, installations de chantier; • les panneaux publicitaires; pour autant que les dommages résultent directement d'un accident de construction selon l'art. A1, chiffre 1 CGA et qu'ils soient à la charge des assurés.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "Au premier risque, jusqu'à hauteur de la somme d'assurance convenue. En cas de sinistre: \"la Vaudoise indemnise les frais de matériel engagés pour rétablir la situation immédiatement avant le sinistre, au maximum toutefois la valeur actuelle\" (page 13).",
+      "sub_limits": [],
+      "deductible": "La franchise convenue dans la police est déduite de chaque indemnité versée (art. A6 CGA).",
+      "conditions": [
+        "Pour autant qu'elle soit expressément convenue dans la police, la couverture complémentaire combinée comprend, jusqu'à hauteur de la somme d'assurance convenue, les dommages aux choses indiquées ci-dessous.",
+        "Les dépenses nécessaires pour le travail fourni lors du montage et du démontage ainsi que pour la mise à disposition du matériel sont assurées dans le cadre de la couverture de base selon l'art. A2, chiffre 1 CGA si ces coûts étaient compris dans les prestations assurées."
+      ],
+      "page": 12
+    },
+    {
+      "name": "A9.3 – Structure portante de toits provisoires",
+      "description": "Sont assurées au premier risque, les structures portantes de toits provisoires pour autant que les dommages résultent directement d'un accident de construction selon l'art. A1, chiffre 1 CGA ou à un acte de vandalisme selon l'art. A1, chiffre 3 CGA et qu'ils soient à la charge des assurés. Par toit provisoire, il faut entendre une protection élaborée selon les règles de l'art, durable et apte à résister aux influences atmosphériques (ne constituent pas un toit provisoire de simples protections en matière plastique).",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "Au premier risque; \"la Vaudoise indemnise les frais de matériel engagés pour rétablir la situation immédiatement avant le sinistre, au maximum toutefois la valeur actuelle\" (page 13).",
+      "sub_limits": [],
+      "deductible": "La franchise convenue dans la police est déduite de chaque indemnité versée (art. A6 CGA).",
+      "conditions": [
+        "Pour autant qu'elle soit expressément convenue dans la police, la couverture complémentaire combinée comprend, jusqu'à hauteur de la somme d'assurance convenue, les dommages aux choses indiquées ci-dessous."
+      ],
+      "page": 13
+    },
+    {
+      "name": "A9.4 – Outils, engins et machines de construction",
+      "description": "Sont assurés au premier risque les outils, engins et machines de construction, à l’exception des objets à propulsion autonome et des objets flottants, des grues, des véhicules à moteur, des aéronefs et des machines pour la construction de tunnels et de galeries, pour autant que les dommages résultent directement d'un accident de construction selon l'art. A1, chiffre 1 CGA et qu'ils soient à la charge des assurés.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "Au premier risque, jusqu'à hauteur de la somme d'assurance convenue.",
+      "sub_limits": [],
+      "deductible": "La franchise convenue dans la police est déduite de chaque indemnité versée (art. A6 CGA).",
+      "conditions": [
+        "Pour autant qu'elle soit expressément convenue dans la police, la couverture complémentaire combinée comprend, jusqu'à hauteur de la somme d'assurance convenue, les dommages aux choses indiquées ci-dessous."
+      ],
+      "page": 13
+    },
+    {
+      "name": "A9.5 – Terrains à bâtir et environnants",
+      "description": "Sont assurés au premier risque les frais nécessaires à la remise en état de terrains à bâtir et environnants qui ne font pas partie des prestations de construction assurées, pour autant que les dommages résultent directement d'un accident de construction selon l'art. A1, chiffre 1 CGA ou à un acte de vandalisme selon l'art. A1, chiffre 3 CGA et qu'ils soient à la charge des assurés. Cette couverture d'assurance intervient également subsidiairement à une assurance incendie et événements naturels (I/DN) dans le cadre de la couverture selon l'art. A1, chiffre 4 CGA. La Vaudoise intervient uniquement lorsque les prestations de cette assurance I/DN sont épuisées.",
+      "is_optional": true,
+      "territorial_scope": "Cette couverture s'étend à l'aire du chantier.",
+      "limits": "Au premier risque, jusqu'à hauteur de la somme d'assurance convenue.",
+      "sub_limits": [],
+      "deductible": "La franchise convenue dans la police est déduite de chaque indemnité versée (art. A6 CGA).",
+      "conditions": [
+        "Pour autant qu'elle soit expressément convenue dans la police, la couverture complémentaire combinée comprend, jusqu'à hauteur de la somme d'assurance convenue, les dommages aux choses indiquées ci-dessous."
+      ],
+      "page": 14
+    },
+    {
+      "name": "A9.6 – Ouvrages existants",
+      "description": "Sont assurés au premier risque les ouvrages existants faisant partie du projet de construction désigné dans la police de même que les bâtiments/ouvrages qui en font partie, y compris le bien-fonds qui en fait partie, ainsi que les ouvrages appartenant au maître de l'ouvrage ou aux personnes vivant en ménage commun avec lui, pour autant que ces dommages résultent directement d'un accident de construction selon l'art. A1, chiffre 1 CGA et qu'ils soient à la charge des assurés.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "Au premier risque, jusqu'à hauteur de la somme d'assurance convenue.",
+      "sub_limits": [],
+      "deductible": "La franchise convenue dans la police est déduite de chaque indemnité versée (art. A6 CGA).",
+      "conditions": [
+        "Pour autant qu'elle soit expressément convenue dans la police, la couverture complémentaire combinée comprend, jusqu'à hauteur de la somme d'assurance convenue, les dommages aux choses indiquées ci-dessous."
+      ],
+      "page": 14
+    },
+    {
+      "name": "A9.7 – Mobilier",
+      "description": "Sont assurés au premier risque les biens meubles dans des ouvrages existants pour autant que les dommages résultent directement d'un accident de construction selon l'art. A1, chiffre 1 CGA et qu’ils soient à la charge des assurés.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "Au premier risque, jusqu'à hauteur de la somme d'assurance convenue.",
+      "sub_limits": [],
+      "deductible": "La franchise convenue dans la police est déduite de chaque indemnité versée (art. A6 CGA).",
+      "conditions": [
+        "Pour autant qu'elle soit expressément convenue dans la police, la couverture complémentaire combinée comprend, jusqu'à hauteur de la somme d'assurance convenue, les dommages aux choses indiquées ci-dessous."
+      ],
+      "page": 14
+    },
+    {
+      "name": "A10.1 – Dommages dus aux retards de construction et aux interruptions de l'exploitation",
+      "description": "L’assurance couvre les pertes de rendement et les frais supplémentaires effectifs pour les nouvelles constructions ou transformations/extensions: • si le projet de construction assuré est endommagé ou détruit à la suite d'un accident de construction au sens de l'art. A1, chiffre 1 CGA ou à la suite d'un acte de vandalisme selon l'art. A1, chiffre 3 CGA et qu’il ne peut, de ce fait, pas être mis en service dans les délais prévus; • si les bâtiments, parties de bâtiments existants ou concernés par les travaux de construction, les installations techniques ou les installations d’exploitation qui y sont entreposées sont endommagés ou détruits à la suite d'un accident de construction au sens de l'art. A1, chiffre 1 CGA ou à la suite d'un acte de vandalisme selon l'art. A1, chiffre 3 CGA et ne peuvent de ce fait pas être mis en service dans les délais prévus, ou bien si les bâtiments et les installations existants sont devenus partiellement ou totalement inutilisables.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "La somme d’assurance est fixée au premier risque.",
+      "sub_limits": [
+        "a) Perte de rendement La perte de rendement correspond à la différence entre le revenu réalisé pendant la durée de la garantie et celui escompté réellement sans l’interruption, • résultant de la vente de l’ensemble des marchandises commercialisées ou produites; • de prestations fournies; • résultant de la location des immeubles concernés; diminuée des frais économisés et des pénalités dues au maître de l'ouvrage.",
+        "b) Frais supplémentaires Les frais supplémentaires effectifs nécessaires pour maintenir l'immeuble ou l'exploitation au niveau prévu (autrement dit, comme si le dommage n'était pas survenu) pendant la durée de l'interruption, et occasionnés à l'ayant droit, lors de l'exécution de son obligation de restreindre le dommage pour la perte de rendement, déduction faite des coûts économisés et des pénalités dues au maître de l'ouvrage. Il s’agit de: • frais supplémentaires pour les mesures de construction prises pour pouvoir utiliser le bâtiment dans les conditions antérieures; • frais d’installation dans d’autres locaux et/ou sites provisoires; • frais liés à l’utilisation d’installations et/ou d’équipements de tiers; • frais de déménagement et de transfert des activités; • frais de personnel pour les heures supplémentaires, le travail du dimanche, des jours fériés ou de nuit.",
+        "c) Dépenses spéciales en accord avec la Vaudoise • les frais nécessaires pour accélérer les travaux de construction; dans la mesure où ceux-ci sont propres à diminuer les dommages; • les frais de réduction du dommage pour le maintien de la production à son niveau existant."
+      ],
+      "deductible": "Sauf convention contraire expresse, le délai de carence est de 7 jours. Des retards d’une durée inférieure au délai de carence sont exclus de l’assurance. Si la durée de l'interruption est supérieure au délai de carence, le dommage est réparti sur la durée totale de l'interruption; la part proportionnelle relative au délai de carence n'est pas couverte. Si le délai de carence est remplacé par une franchise, celle-ci est alors déduite de l’indemnisation quelles que soient les autres franchises convenues.",
+      "conditions": [
+        "Pour autant que les extensions de couverture ci-après soient expressément convenues dans la police, la couverture complémentaire combinée selon l'art. A9 CGA s'étend également aux dommages et frais suivants, jusqu'à hauteur de la somme d'assurance convenue pour l'extension de couverture concernée.",
+        "L'assurance couvre les dommages économiques qui surviennent pendant la durée de garantie convenue, c'est-à-dire depuis la survenance du sinistre jusqu'à la reprise de la production, à la remise en service ou jusqu'à la reprise de possession des bâtiments, locaux ou installations techniques endommagés par l'accident de construction, au maximum toutefois pendant la durée de garantie convenue dans la police. Sauf convention contraire expresse, la durée de garantie est de 12 mois.",
+        "En dérogation partielle à l'art. A3 CGA et dans le cadre de l'assurance complémentaire combinée, cette extension de couverture couvre les intérêts du maître de l’ouvrage uniquement."
+      ],
+      "page": 15
+    },
+    {
+      "name": "A10.2 – Frais supplémentaires consécutifs à un sinistre",
+      "description": "Conformément à l’art. A5, chiffre 1 CGA, les conventions stipulées dans le contrat d’entreprise servent de base au calcul de l’indemnité. En dérogation aux présentes conditions contractuelles, sont également assurés d’autres coûts de construction incontournables et nécessaires pour rétablir l’état de fait existant juste avant la survenance d'un sinistre résultant d'un accident de construction selon l'art. A1, chiffre 1 CGA ou d'un acte de vandalisme selon l'art. A1, chiffre 3 CGA. En font partie: • les frais supplémentaires pour travaux en régie; • les frais supplémentaires pour les heures supplémentaires, le travail le samedi et le dimanche, les jours fériés et le travail de nuit; • les frais supplémentaires de transport express et aérien; dans la mesure où ils doivent être engagés pour réparer un dommage donnant droit à une indemnité en vertu de ce contrat.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "Jusqu'à hauteur de la somme d'assurance convenue pour l'extension de couverture concernée (art. A10 CGA).",
+      "sub_limits": [],
+      "deductible": "La franchise convenue dans la police est déduite de chaque indemnité versée (art. A6 CGA).",
+      "conditions": [
+        "Pour autant que les extensions de couverture ci-après soient expressément convenues dans la police, la couverture complémentaire combinée selon l'art. A9 CGA s'étend également aux dommages et frais suivants, jusqu'à hauteur de la somme d'assurance convenue pour l'extension de couverture concernée.",
+        "En cas de sinistre, la Vaudoise se réserve le droit de demander des offres relatives aux travaux précités."
+      ],
+      "page": 17
+    },
+    {
+      "name": "A10.3 – Rayures aux vitrages",
+      "description": "En dérogation à l'art. A7, chiffre 13 CGA, sont assurés au premier risque les rayures ainsi que les dommages causés par des travaux de ponçage sur les vitrages (fenêtres, revêtements de façade en verre, parois en verre), pour autant que les conditions posées par les directives de l'Institut suisse du verre dans le bâtiment (SIGAB) soient remplies et que les mesures nécessaires pour la protection et la sauvegarde de ces vitrages aient été prises et garanties, notamment lors du nettoyage pour lequel la directive SIGAB 102 doit être respectée.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "Au premier risque, jusqu'à hauteur de la somme d'assurance convenue pour l'extension de couverture concernée.",
+      "sub_limits": [],
+      "deductible": "La franchise convenue dans la police est déduite de chaque indemnité versée (art. A6 CGA).",
+      "conditions": [
+        "Pour autant que les extensions de couverture ci-après soient expressément convenues dans la police, la couverture complémentaire combinée selon l'art. A9 CGA s'étend également aux dommages et frais suivants, jusqu'à hauteur de la somme d'assurance convenue pour l'extension de couverture concernée.",
+        "Les dommages consistant en des rayures sur des vitrages sont évalués et réglés sur la base des directives SIGAB.",
+        "Cette couverture est valable exclusivement pour les prestations de construction assurées selon l'art. A2, chiffre 1 CGA et aux vitrages des ouvrages existants selon l'art. A9 chiffre 6 CGA, pour autant que ces dommages résultent directement d'un accident de construction selon l'art. A1, chiffre 1 CGA ou d'un acte de vandalisme selon l'art. A1, chiffre 3 CGA."
+      ],
+      "page": 18
+    },
+    {
+      "name": "A10.4 – Dommages causés par les graffitis",
+      "description": "En dérogation partielle à l'art. A7, chiffres 12 et 13 CGA, sont assurés au premier risque les dommages causés par les graffitis sur des prestations de construction assurées selon l'art. A2, chiffre 1 CGA, à condition que des mesures de protection appropriées aient été prises pour les prévenir (par ex. construction d’une clôture autour du chantier et/ou surveillance par une entreprise de sécurité) et pour autant qu'ils soient la conséquence directe d'actes de malveillance de tiers selon l'art. A1, chiffre 3 CGA.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "Au premier risque, jusqu'à hauteur de la somme d'assurance convenue pour l'extension de couverture concernée.",
+      "sub_limits": [],
+      "deductible": "La franchise convenue dans la police est déduite de chaque indemnité versée (art. A6 CGA).",
+      "conditions": [
+        "Pour autant que les extensions de couverture ci-après soient expressément convenues dans la police, la couverture complémentaire combinée selon l'art. A9 CGA s'étend également aux dommages et frais suivants, jusqu'à hauteur de la somme d'assurance convenue pour l'extension de couverture concernée.",
+        "Il n’y a dommage matériel assuré que si la peinture ne peut pas être enlevée par un nettoyage de la surface."
+      ],
+      "page": 18
+    },
+    {
+      "name": "A10.5 – Frais d'expertise durant la garantie",
+      "description": "Sont assurés au premier risque les frais d’expertise visant à clarifier s’il s’agit d’un dommage assuré ou d’un défaut non assuré.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "Au premier risque, jusqu'à hauteur de la somme d'assurance convenue pour l'extension de couverture concernée.",
+      "sub_limits": [],
+      "deductible": "La franchise convenue dans la police est déduite de chaque indemnité versée (art. A6 CGA).",
+      "conditions": [
+        "Pour autant que les extensions de couverture ci-après soient expressément convenues dans la police, la couverture complémentaire combinée selon l'art. A9 CGA s'étend également aux dommages et frais suivants, jusqu'à hauteur de la somme d'assurance convenue pour l'extension de couverture concernée.",
+        "La couverture est accordée pendant la durée de la construction et pendant deux ans dès la fin du contrat selon l'art. C1, chiffre 3 CGA.",
+        "L’assurance couvre les intérêts du maître de l'ouvrage et ceux du preneur d’assurance.",
+        "La Vaudoise désigne l'expert d'entente avec le preneur d'assurance."
+      ],
+      "page": 18
+    },
+    {
+      "name": "A10.6 – Choses déplacées sur le chantier",
+      "description": "Sont assurés au premier risque les dommages à des choses qui ne font pas partie des prestations de construction et qui sont déplacées dans l'enceinte du chantier par ex. au moyen de grues, chariots élévateurs, monte-charges ou véhicules à moteur pour autant que ces dommages résultent directement d'un accident de construction selon l'art. A1, chiffre 1 CGA.",
+      "is_optional": true,
+      "territorial_scope": "Dans l'enceinte du chantier.",
+      "limits": "Au premier risque, jusqu'à hauteur de la somme d'assurance convenue pour l'extension de couverture concernée.",
+      "sub_limits": [],
+      "deductible": "La franchise convenue dans la police est déduite de chaque indemnité versée (art. A6 CGA).",
+      "conditions": [
+        "Pour autant que les extensions de couverture ci-après soient expressément convenues dans la police, la couverture complémentaire combinée selon l'art. A9 CGA s'étend également aux dommages et frais suivants, jusqu'à hauteur de la somme d'assurance convenue pour l'extension de couverture concernée."
+      ],
+      "page": 18
+    },
+    {
+      "name": "A11 – Prolongation de couverture après la fin des travaux (maintenance)",
+      "description": "Sont assurés jusqu'à hauteur de la somme d'assurance convenue dans la police, pendant deux ans dès la fin du contrat selon l'art. C1, chiffre 3 CGA, les dommages touchant les prestations de construction assurées: • en rapport avec l'exécution de travaux effectués par les entrepreneurs assurés en vertu de leurs obligations contractuelles relatives à la garantie ou • pour lesquels il est avéré qu'ils ont été causés pendant la période de construction et qui sont imputables aux travaux de construction. La preuve incombe au preneur d'assurance. Cette couverture s'étend également aux frais de localisation du dommage, de déblaiement, de décontamination et de démolition et reconstruction inclus dans la couverture d'assurance selon l'art. A2, chiffre 2 CGA.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "Jusqu'à hauteur de la somme d'assurance convenue dans la police.",
+      "sub_limits": [],
+      "deductible": "La franchise convenue dans la police est déduite de chaque indemnité versée (art. A6 CGA).",
+      "conditions": [
+        "Couverture accordée \"pendant deux ans dès la fin du contrat selon l'art. C1, chiffre 3 CGA\".",
+        "Pour les dommages dont il est avéré qu'ils ont été causés pendant la période de construction: \"La preuve incombe au preneur d'assurance.\""
+      ],
+      "page": 19
+    },
+    {
+      "name": "B1 – Responsabilité civile du maître de l'ouvrage",
+      "description": "Est assurée la responsabilité fondée sur les dispositions légales en matière de responsabilité civile et découlant du projet de construction désigné dans la police en cas de: • lésions corporelles (mort, blessures ou autre atteinte à la santé de personnes); • dégâts matériels (destruction, détérioration ou perte de choses); • dommages économiques (dommages appréciables en argent) consécutifs à des lésions corporelles assurées ou des dégâts matériels assurés causés à un lésé.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "La somme d’assurance est une garantie unique pour toute la durée du contrat, elle n’est payée au maximum qu’une fois pour l’ensemble des dommages, des frais de prévention de dommages et des autres frais éventuellement assurés survenus pendant la durée du contrat.",
+      "sub_limits": [],
+      "deductible": "Franchise convenue dans la police; aucune franchise en cas de lésions corporelles (art. B4 CGA).",
+      "conditions": [
+        "L'assurance couvre les dommages: • causés pendant la durée du contrat • et qui surviennent pendant la durée du contrat ou dans un délai de 24 mois après son expiration et qui sont annoncés à la Vaudoise au plus tard dans un délai de 60 mois après la fin du contrat."
+      ],
+      "page": 20
+    },
+    {
+      "name": "B3.1 – Prestations: indemnisation des prétentions justifiées, défense contre les prétentions injustifiées et frais",
+      "description": "Les prestations de la Vaudoise consistent dans le paiement d'indemnités dues en cas de prétentions justifiées et dans la défense des personnes assurées contre les prétentions injustifiées. Elles comprennent également les intérêts du dommage et les intérêts moratoires, les frais de réduction du dommage, d'expertise, d'avocats, de justice, d'arbitrage, de médiation, les frais de prévention de dommages assurés et d'autres frais (par ex. les dépens alloués à la partie adverse) et sont limitées par la somme d'assurance, respectivement par la sous-limite, fixées dans la police, respectivement dans les conditions contractuelles, sous déduction de la franchise convenue.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "\"limitées par la somme d'assurance, respectivement par la sous-limite, fixées dans la police, respectivement dans les conditions contractuelles, sous déduction de la franchise convenue\".",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 21
+    },
+    {
+      "name": "B5.7 – Dommages aux conduites, tubes, canaux et chambres appartenant à des tiers (exception à l'exclusion)",
+      "description": "Sont cependant assurées les prétentions pour les dommages occasionnés à des conduites, tubes, canaux, chambres, etc. appartenant à des tiers et inscrits au registre foncier avec une servitude ou indiqués dans un cadastre officiel, à condition que l’entrepreneur mandaté ait consulté les plans et se soit renseigné sur leur tracé ou emplacement souterrain exact auprès des services compétents avant d’entreprendre des travaux dans le sol. Le terrain doit être sondé pour confirmer les positions. Ce devoir de consultation est supprimé si des ingénieurs ou architectes participant au projet, ou la direction des travaux se sont procuré les indications correspondantes ou les ont mises à disposition.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "\"à condition que l’entrepreneur mandaté ait consulté les plans et se soit renseigné sur leur tracé ou emplacement souterrain exact auprès des services compétents avant d’entreprendre des travaux dans le sol. Le terrain doit être sondé pour confirmer les positions.\""
+      ],
+      "page": 22
+    },
+    {
+      "name": "B5.8 – Responsabilité résultant de l'utilisation de drones non soumis à l'obligation d'assurance",
+      "description": "Demeure cependant assurée la responsabilité résultant de l'utilisation de drones pour lesquels il n'existe pas d'obligation légale de conclure une assurance responsabilité civile.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 22
+    },
+    {
+      "name": "B7 – Frais de prévention des dommages",
+      "description": "Lorsqu'à la suite d'un événement imprévu, la survenance d'un dommage corporel ou matériel assuré est imminente, l'assurance couvre également les frais incombant à un assuré pour les mesures appropriées et immédiates pour écarter ce danger (frais de prévention).",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "Comprise dans la somme d'assurance unique de l'art. B3, chiffre 2 CGA.",
+      "sub_limits": [],
+      "deductible": "Franchise convenue dans la police, une seule fois pour tous les dommages survenus pendant toute la durée du contrat; CHF 5'000 par parcelle cadastrale de tiers pour les travaux énumérés à l'art. B4, chiffre 3 CGA.",
+      "conditions": [],
+      "page": 24
+    },
+    {
+      "name": "B8.2 – Atteintes à l'environnement",
+      "description": "Les prétentions en responsabilité civile pour les lésions corporelles et dégâts matériels en rapport avec une atteinte à l’environnement ne sont assurées que si cette atteinte est la conséquence d’un événement unique, soudain et imprévu et qui nécessite, en outre, des mesures immédiates, telles que l’annonce aux autorités compétentes, l’alarme à la population, l’adoption de mesures de prévention ou de mesures propres à restreindre le dommage.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "La couverture n'est acquise que si l'atteinte \"est la conséquence d’un événement unique, soudain et imprévu\" nécessitant des mesures immédiates."
+      ],
+      "page": 25
+    },
+    {
+      "name": "B9 – Propriété par étages",
+      "description": "Si le projet de construction désigné dans la police se rapporte à un bien-fonds en propriété par étages et se limite à une partie de bâtiment faisant l’objet d’un droit exclusif, soit l’unité de propriété par étages, l'exclusion énoncée à l'art. B5, chiffre 7 CGA ne s’applique pas aux prétentions élevées pour des dommages aux autres unités de propriété par étages du bien-fonds ou aux parties de bâtiment utilisées en commun, y compris les installations et les équipements en faisant partie ou à des biens-fonds utilisés en commun.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "\"Les exclusions énoncées à l'art. B5, chiffres 1 et 2 CGA demeurent par ailleurs réservées.\""
+      ],
+      "page": 26
+    },
+    {
+      "name": "B10 – Protection juridique en matière pénale",
+      "description": "L'assurance s'étend également, jusqu'à hauteur de la somme d'assurance convenue pour l'extension de couverture concernée et dans la limite des autres dispositions contractuelles, à la protection juridique des personnes assurées dans le cadre de l'assurance responsabilité civile du maître de l'ouvrage en cas de procédure pénale. Lorsqu'un sinistre de responsabilité civile couvert découlant de l'activité assurée a pour conséquence l'ouverture d'une procédure pénale judiciaire ou de police, la Vaudoise couvre, dans le cadre de la somme d'assurance convenue, les dépenses occasionnées à la personne assurée par la procédure pénale (par ex. honoraires d'avocat, frais judiciaires, frais d'expertise, dépens alloués à la partie adverse, à l'exception des indemnités allouées à titre de dommages-intérêts) et les frais mis à la charge de la personne assurée par la procédure.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "Jusqu'à hauteur de la somme d'assurance convenue pour l'extension de couverture concernée.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "La Vaudoise désigne un avocat chargé de défendre la personne assurée dans la procédure engagée. La personne assurée qui s’oppose au choix de la Vaudoise peut proposer elle-même 3 noms d’avocats; la Vaudoise choisira l’un de ceux-ci.",
+        "La Vaudoise est en droit de refuser la prise en charge d’un recours contre une condamnation à l’amende ou l’appel contre un jugement de première instance si, au vu du dossier de l’enquête pénale ou de police, une telle procédure lui paraît dénuée de toute chance de succès.",
+        "Des indemnités judiciaires et autres dépens alloués à la personne assurée sont acquis à la Vaudoise jusqu'à concurrence de ses prestations, pour autant qu'ils ne constituent pas le remboursement de débours personnels de la personne assurée ou qu'ils ne soient pas destinés à dédommager la personne assurée pour des démarches et dépenses personnelles."
+      ],
+      "page": 26
+    },
+    {
+      "name": "B11 – Dommages économiques purs",
+      "description": "L'assurance s'étend également, jusqu'à hauteur de la somme d'assurance convenue et dans la limite des autres dispositions contractuelles, à la responsabilité civile en cas de dommages économiques résultant d'un événement imprévu, sortant du déroulement normal ou projeté des travaux.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "Jusqu'à hauteur de la somme d'assurance convenue.",
+      "sub_limits": [],
+      "deductible": "En cas de dommages économiques purs, le preneur d'assurance supporte une franchise de 10% du montant du dommage, mais au minimum CHF 5'000. Si une franchise plus élevée a été définie dans la police, celle-ci est applicable.",
+      "conditions": [],
+      "page": 27
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Différences de couverture résultant d'une sous-assurance dans l'assurance bâtiment",
+      "description": "les différences de couverture résultant d'une sous-assurance dans le cadre de l'assurance bâtiment, par ex. une augmentation de la valeur du bâtiment du fait des travaux;",
+      "applies_to": "A1.4 – Couverture subsidiaire incendie et événements naturels",
+      "page": 8
+    },
+    {
+      "name": "Prétentions résultant d'une violation d'une obligation contractuelle ou d'une fraude à l'assurance (assurance bâtiment)",
+      "description": "les prétentions résultant d'une violation d'une obligation contractuelle ou d'une fraude à l'assurance dans le cadre de l'assurance bâtiment;",
+      "applies_to": "A1.4 – Couverture subsidiaire incendie et événements naturels",
+      "page": 8
+    },
+    {
+      "name": "Franchises de l'assurance bâtiment",
+      "description": "les franchises de l'assurance bâtiment prescrites légalement ou convenues contractuellement.",
+      "applies_to": "A1.4 – Couverture subsidiaire incendie et événements naturels",
+      "page": 8
+    },
+    {
+      "name": "Frais liés à une épidémie ou une pandémie",
+      "description": "Ne sont pas assurés les frais de nettoyage, de détoxication, de décontamination, d'enlèvement, de désinfection et/ou tout acte ordonné par une autorité en relation avec une épidémie ou une pandémie.",
+      "applies_to": "A2.2 – Frais de localisation du dommage, de déblaiement, de décontamination et de démolition et reconstruction",
+      "page": 8
+    },
+    {
+      "name": "A7.1 – Moins-value",
+      "description": "Une éventuelle moins-value résultant de la remise en état ainsi que des dommages dus à une réparation ou à une remise en état inappropriées.",
+      "applies_to": "Assurance travaux de construction (partie A)",
+      "page": 10
+    },
+    {
+      "name": "A7.2 – Modifications de la manière de construire",
+      "description": "Les frais supplémentaires occasionnés par des modifications de la manière de construire ou occasionnés par des améliorations apportées lors de la remise en état (par ex. mesures de sécurisation des fouilles réalisées après coup).",
+      "applies_to": "Assurance travaux de construction (partie A)",
+      "page": 10
+    },
+    {
+      "name": "A7.3 – Dommages survenus ou causés graduellement",
+      "description": "Les dommages dont la cause est imputable à un effet graduel, tels que le tassement, l'usure, la rouille, la déformation, la poussière, la suie, les gaz, les vapeurs, un taux d'humidité trop élevé, sauf si l'effet graduel est la conséquence d'un accident de construction au sens de l'art. A1, chiffre 1 CGA.",
+      "applies_to": "Assurance travaux de construction (partie A)",
+      "page": 10
+    },
+    {
+      "name": "A7.4 – Frais qui auraient de toute façon dus être engagés",
+      "description": "Les frais supplémentaires en cas de sinistre, dans la mesure où ceux-ci auraient de toute façon dû être engagés si les travaux avaient été exécutés dès le commencement selon les règles de l'art.",
+      "applies_to": "Assurance travaux de construction (partie A)",
+      "page": 10
+    },
+    {
+      "name": "A7.5 – Prestations de construction réalisées inutilement",
+      "description": "Les frais pour les prestations de construction réalisées inutilement, les frais causés par l’abandon de forages ou pousses-tubes (frais de démantèlement, frais de remise en état) ainsi que les frais ou les frais supplémentaires dus aux écarts du tracé prévu ou à la suite de la rencontre d’obstacles lors de forages ou pousses-tubes.",
+      "applies_to": "Assurance travaux de construction (partie A)",
+      "page": 10
+    },
+    {
+      "name": "A7.6 – Influences atmosphériques normales",
+      "description": "Les dommages dus à des influences atmosphériques normales, compte tenu de la saison et des conditions locales, y compris les fissures dues à des effets thermiques ou surcharges (par ex. dilatations).",
+      "applies_to": "Assurance travaux de construction (partie A)",
+      "page": 10
+    },
+    {
+      "name": "A7.7 – Influences atmosphériques exceptionnelles",
+      "description": "Les dommages causés par des influences atmosphériques exceptionnelles si les participants à la construction n'ont pas pris les mesures adéquates que l'on peut raisonnablement attendre d'eux afin de prévenir les dommages.",
+      "applies_to": "Assurance travaux de construction (partie A)",
+      "page": 10
+    },
+    {
+      "name": "A7.8 – Dommages occasionnés par l'utilisation des choses assurées",
+      "description": "Les dommages occasionnés par l'utilisation des choses assurées et qui ne sont donc pas liés à l'activité de construction, même si la réception de l'ouvrage ou de la partie de l'ouvrage n'a pas encore eu lieu.",
+      "applies_to": "Assurance travaux de construction (partie A)",
+      "page": 10
+    },
+    {
+      "name": "A7.9 – Dommages qui doivent être supportés par l'assureur responsabilité civile d'un participant à la construction",
+      "description": "Les dommages qui doivent être supportés par l’assureur responsabilité civile d’un participant à la construction de l’ouvrage dont les intérêts sont également couverts par le présent contrat. Dans le cadre des présentes conditions, la Vaudoise fait cependant l’avance de la prestation due par l’assureur responsabilité civile, pour autant que l’ayant droit cède ses droits à la Vaudoise à concurrence de l’avance accordée. Si la prestation de l’assureur responsabilité civile n’atteint pas l’avance faite, l’assuré au bénéfice de l’assurance travaux de construction n’a pas, dans le cadre des présentes conditions, à restituer la différence entre la prestation de l’assureur responsabilité civile et l’avance faite par la Vaudoise.",
+      "applies_to": "Assurance travaux de construction (partie A)",
+      "page": 10
+    },
+    {
+      "name": "A7.10 – Dommages qui doivent être supportés par d'autres assureurs",
+      "description": "Les dommages qui doivent être pris en charge par d'autres assureurs de choses (par ex. bâtiment, inventaire, technique, montage). Si l’autre assureur refuse la couverture et qu’il existe un dommage donnant droit à une indemnité en vertu du présent contrat, la Vaudoise fait l’avance de la prestation due par l'autre assureur, pour autant que l’ayant droit cède ses droits à la Vaudoise à concurrence de l’avance accordée.",
+      "applies_to": "Assurance travaux de construction (partie A)",
+      "page": 11
+    },
+    {
+      "name": "A7.11 – Défauts",
+      "description": "Les frais engagés pour remédier à des défauts; sont notamment considérés comme défauts: • la simple absence d'étanchéité ou la perméabilité du béton, à moins qu'elle ne soit la conséquence d'un accident de construction au sens de l'art. A1, chiffre 1 CGA; • l'inétanchéité de canalisations et de conduites ainsi que les déviations par rapport à l'alignement prévu; • les formations de fissures qui ne sont pas la conséquence d'un accident de construction au sens de l'art. A1, chiffre 1 CGA; • les dommages dus à un tassement qui ne sont pas consécutifs à un accident de construction au sens de l'art. A1, chiffre 1 CGA; • des pentes insuffisantes, des affaissements ou soulèvements ainsi que des déformations horizontales de conduites ou canalisations; • l'implantation inexacte d'une enceinte de fouilles par rapport au plan; • la portance insuffisante ou inférieure à celle attendue des pieux, leur abaissement/remontée suite, par exemple, à des vibrations ou à une autre cause. Toutefois, si un défaut entraîne un accident de construction au sens de l'art. A1, chiffre 1 CGA, la Vaudoise répond du dommage sous déduction des dépenses qui, même sans la survenance du dommage, auraient dû être consenties pour l’élimination du défaut.",
+      "applies_to": "Assurance travaux de construction (partie A)",
+      "page": 11
+    },
+    {
+      "name": "A7.12 – Défauts esthétiques",
+      "description": "Les dépenses en vue d’éliminer des défauts esthétiques, c'est-à-dire les défauts gênant pour l'œil mais qui ne portent pas préjudice à la fonctionnalité de l'ouvrage ou de la partie de l'ouvrage, même lorsqu’ils sont la conséquence d’un événement donnant droit à une indemnité, tels que (énumération non exhaustive): les taches de peinture, de crépi ou de bitume, les coulures de lait de ciment, les différences de couleur ou de structure, les angles abîmés dans le béton ou les carreaux, la corrosion sur les éléments de façade et fenêtres, les nids de gravier (y.c. dans le béton apparent).",
+      "applies_to": "Assurance travaux de construction (partie A)",
+      "page": 11
+    },
+    {
+      "name": "A7.13 – Rayures, éclaboussures, tags et graffitis",
+      "description": "Les rayures, les éclaboussures de toutes sortes ainsi que les tags et les graffitis, sauf convention contraire.",
+      "applies_to": "Assurance travaux de construction (partie A)",
+      "page": 11
+    },
+    {
+      "name": "A7.14 – Peines conventionnelles",
+      "description": "Les peines conventionnelles pour inobservation des délais d’achèvement et de livraison ou d’autres engagements.",
+      "applies_to": "Assurance travaux de construction (partie A)",
+      "page": 11
+    },
+    {
+      "name": "A7.15 – Préjudices de fortune",
+      "description": "Les préjudices de fortune (par ex. gains manqués, intérêts) sauf convention contraire.",
+      "applies_to": "Assurance travaux de construction (partie A)",
+      "page": 11
+    },
+    {
+      "name": "A7.16 – Pertes de données informatiques",
+      "description": "Les dommages dus à des modifications ou à des pertes de systèmes d’exploitation ou de données informatiques qui ne sont pas la conséquence directe d’une détérioration ou d’une destruction du support d’information (par ex. piratage, erreur de manipulation, virus, vers informatiques).",
+      "applies_to": "Assurance travaux de construction (partie A)",
+      "page": 11
+    },
+    {
+      "name": "A7.17 – Sites contaminés",
+      "description": "Les dommages en relation avec des sites contaminés. Sont réputés sites contaminés les dépôts existants de déchets ainsi que les pollutions du sol ou des eaux. Les matériaux et les éléments de construction contaminés d'ouvrages existants sont assimilés aux sites contaminés.",
+      "applies_to": "Assurance travaux de construction (partie A)",
+      "page": 11
+    },
+    {
+      "name": "A7.18 – Evénements de guerre, tremblements de terre et autres événements catastrophiques",
+      "description": "Les dommages survenant lors d’événements de guerre, de violations de neutralité, de révolutions, de rébellions et de révoltes, de tremblements de terre, d'éruptions volcaniques, de modification de la structure du noyau de l'atome, de réaction nucléaire, de rayonnement nucléaire ou ionisant, ainsi que les dommages dus au dégel du permafrost ou dus au débordement ou à l'écoulement des eaux des lacs artificiels d'une capacité supérieure à 500'000 m3.",
+      "applies_to": "Assurance travaux de construction (partie A)",
+      "page": 12
+    },
+    {
+      "name": "A7.19 – Terrorisme",
+      "description": "Les dommages survenant lors d'actes de terrorisme de quelque nature qu'ils soient. Est considéré comme terrorisme, tout acte de violence ou toute menace de violence perpétrés pour des motifs politiques, religieux, ethniques, idéologiques ou similaires. L’acte de violence ou la menace de recourir à la violence sont de nature à répandre la peur ou la terreur dans la population ou dans une partie de celle-ci ou à exercer une influence sur un gouvernement ou des organismes d’Etat.",
+      "applies_to": "Assurance travaux de construction (partie A)",
+      "page": 12
+    },
+    {
+      "name": "A7.20 – Troubles intérieurs",
+      "description": "Les dommages résultant de troubles intérieurs, sauf convention contraire. Sont considérés comme troubles intérieurs les actes de violence dirigés contre des personnes ou des choses et perpétrés lors d'attroupements, de désordres ou de mouvements de rue, ainsi que les pillages en relation avec de tels troubles intérieurs.",
+      "applies_to": "Assurance travaux de construction (partie A)",
+      "page": 12
+    },
+    {
+      "name": "Echafaudages: dommages de déformation, dommages dus à l'usure, bâches, feuilles de plastique et filets de protection",
+      "description": "Restent exclus de l'assurance les dommages de déformation et les dommages dus à l'usure, ainsi que les dommages causés à des bâches, feuilles de plastique, filets de protection et autres couvertures d'échafaudage, etc.",
+      "applies_to": "A9.2 – Echafaudages, constructions auxiliaires et installations de chantier",
+      "page": 13
+    },
+    {
+      "name": "Toits provisoires: dommages de déformation, dommages dus à l'usure, bâches, feuilles de plastique et filets de protection",
+      "description": "Restent exclus de l'assurance les dommages de déformation et les dommages dus à l'usure, ainsi que les dommages causés à des bâches, feuilles de plastique, filets de protections et autres couvertures.",
+      "applies_to": "A9.3 – Structure portante de toits provisoires",
+      "page": 13
+    },
+    {
+      "name": "Accidents d'exploitation dus à une cause interne (casse, rupture, déformation, usure)",
+      "description": "les accidents d’exploitation dus à une cause interne, en particulier les dommages par suite de casse, rupture, déformation ou usure, quelle que soit leur cause (tels qu’influence découlant inévitablement du genre d’exploitation ou du transport, mise à contribution exagérée, gel, manque d’eau, d’huile ou de lubrifiant). Les dommages par suite de collision, de renversement ou de chute sont néanmoins couverts s’ils sont la conséquence de tels accidents;",
+      "applies_to": "A9.4 – Outils, engins et machines de construction",
+      "page": 13
+    },
+    {
+      "name": "Utilisation par des personnes non qualifiées ou non formées",
+      "description": "les dommages dus à l’utilisation des objets par des personnes non qualifiées ou qui n’ont pas reçu la formation prescrite par des autorités;",
+      "applies_to": "A9.4 – Outils, engins et machines de construction",
+      "page": 13
+    },
+    {
+      "name": "Vices et défauts connus des assurés",
+      "description": "les dommages dus à des vices et des défauts qui étaient ou devaient être connus des assurés ou de leurs organes;",
+      "applies_to": "A9.4 – Outils, engins et machines de construction",
+      "page": 13
+    },
+    {
+      "name": "Maintien en service d'une chose assurée après un sinistre",
+      "description": "les dommages survenant lors du maintien en service d’une chose assurée après un sinistre, mais avant la fin de la réparation définitive et la reprise de l’exploitation normale;",
+      "applies_to": "A9.4 – Outils, engins et machines de construction",
+      "page": 13
+    },
+    {
+      "name": "Cuillers, godets, bennes, grappins, galets et pneus",
+      "description": "les dommages aux cuillers, godets, bennes, grappins, galets et pneus. Ces dommages sont cependant couverts s’ils surviennent en corrélation avec un dommage assuré atteignant les objets eux-mêmes.",
+      "applies_to": "A9.4 – Outils, engins et machines de construction",
+      "page": 13
+    },
+    {
+      "name": "Ouvrages existants (bâtiments, murs de soutènement, rues, canalisations)",
+      "description": "Restent exclus de l'assurance les ouvrages existants tels que bâtiments, murs de soutènement, rues, canalisations.",
+      "applies_to": "A9.5 – Terrains à bâtir et environnants",
+      "page": 14
+    },
+    {
+      "name": "Simples formations de fissures et fissures rendant une étanchéité défectueuse",
+      "description": "les simples formations de fissures, de même que les fissures rendant une étanchéité défectueuse. Sont toutefois assurées les fissures entraînant la démolition ou la réparation inévitable d'une partie de l'ouvrage pour des raisons statiques;",
+      "applies_to": "A9.6 – Ouvrages existants",
+      "page": 14
+    },
+    {
+      "name": "Dommages causés au mobilier",
+      "description": "les dommages causés au mobilier (biens meubles qui ne sont pas considérés comme faisant partie du bâtiment ou comme installations de celui-ci);",
+      "applies_to": "A9.6 – Ouvrages existants",
+      "page": 14
+    },
+    {
+      "name": "Matières auxiliaires et d'exploitation",
+      "description": "les matières auxiliaires et d’exploitation qui ne sont pas des éléments de construction (combustibles, lubrifiants, marchandises, etc.);",
+      "applies_to": "A9.6 – Ouvrages existants",
+      "page": 14
+    },
+    {
+      "name": "Aménagements et décorations artistiques",
+      "description": "les dommages causés aux aménagements et décorations artistiques (stucs, fresques, etc.).",
+      "applies_to": "A9.6 – Ouvrages existants",
+      "page": 14
+    },
+    {
+      "name": "Valeurs pécuniaires",
+      "description": "les valeurs pécuniaires, soit espèces et billets de banque, papiers-valeurs, carnets d’épargne, métaux précieux (sous forme de stock, de lingots ou de marchandise), monnaies et médailles, pierres précieuses et perles;",
+      "applies_to": "A9.7 – Mobilier",
+      "page": 14
+    },
+    {
+      "name": "Objets de valeur, objets d'art, bijoux, fourrures, timbres-poste et antiquités",
+      "description": "les objets de valeur et les objets d’art, les bijoux, les fourrures et les timbres-poste, objets ayant valeur d'antiquité;",
+      "applies_to": "A9.7 – Mobilier",
+      "page": 14
+    },
+    {
+      "name": "Dommages causés peu à peu aux biens meubles déclarés",
+      "description": "les dommages causés peu à peu aux biens meubles déclarés sous l’effet des intempéries, de la température, de la fumée, de la poussière, de la suie, des gaz, des vapeurs ou d’ébranlements;",
+      "applies_to": "A9.7 – Mobilier",
+      "page": 14
+    },
+    {
+      "name": "Véhicules à moteur, aéronefs, remorques, bateaux et bicyclettes",
+      "description": "les véhicules à moteur et aéronefs, les remorques, les motocyclettes, cyclomoteurs, les caravanes, les mobile homes, les bateaux et bicyclettes, y compris leurs accessoires;",
+      "applies_to": "A9.7 – Mobilier",
+      "page": 14
+    },
+    {
+      "name": "Mobilier appartenant aux entrepreneurs et à leurs sous-traitants",
+      "description": "le mobilier appartenant aux entrepreneurs et à leurs sous-traitants participant à la construction.",
+      "applies_to": "A9.7 – Mobilier",
+      "page": 14
+    },
+    {
+      "name": "Immissions (bruit, vibrations, poussière)",
+      "description": "les immissions telles que le bruit, les vibrations, la poussière, etc. qui doivent être admises dans le cadre des travaux;",
+      "applies_to": "A10.1 – Dommages dus aux retards de construction et aux interruptions de l'exploitation",
+      "page": 16
+    },
+    {
+      "name": "Circonstances sans lien de causalité avec l'accident de construction assuré",
+      "description": "les circonstances qui ne présentent aucun lien de causalité avec l’accident de construction imprévu assuré;",
+      "applies_to": "A10.1 – Dommages dus aux retards de construction et aux interruptions de l'exploitation",
+      "page": 16
+    },
+    {
+      "name": "Lésions corporelles",
+      "description": "les lésions corporelles;",
+      "applies_to": "A10.1 – Dommages dus aux retards de construction et aux interruptions de l'exploitation",
+      "page": 16
+    },
+    {
+      "name": "Décisions de droit public",
+      "description": "les décisions de droit public;",
+      "applies_to": "A10.1 – Dommages dus aux retards de construction et aux interruptions de l'exploitation",
+      "page": 16
+    },
+    {
+      "name": "Agrandissements et innovations effectués après le sinistre",
+      "description": "les agrandissements des installations ou les innovations effectuées après le cas de sinistre;",
+      "applies_to": "A10.1 – Dommages dus aux retards de construction et aux interruptions de l'exploitation",
+      "page": 16
+    },
+    {
+      "name": "Frais de financement et manque de capitaux",
+      "description": "les frais de financement ainsi que le manque de capitaux, même si ces derniers ont été occasionnés par le dégât matériel ou le dommage d’interruption;",
+      "applies_to": "A10.1 – Dommages dus aux retards de construction et aux interruptions de l'exploitation",
+      "page": 16
+    },
+    {
+      "name": "Pannes ou dommages aux machines de chantier, engins, outils ou installations de construction",
+      "description": "les pannes ou dommages aux machines de chantiers, engins de construction, outils ou installations de construction;",
+      "applies_to": "A10.1 – Dommages dus aux retards de construction et aux interruptions de l'exploitation",
+      "page": 16
+    },
+    {
+      "name": "Dommages survenant après la réception des travaux ou le début de la production",
+      "description": "les dommages qui surviennent après la réception des travaux, le début de la production ou de l’exploitation;",
+      "applies_to": "A10.1 – Dommages dus aux retards de construction et aux interruptions de l'exploitation",
+      "page": 16
+    },
+    {
+      "name": "Expiration ou résiliation de contrats de leasing",
+      "description": "l’expiration ou la résiliation de contrats de leasing;",
+      "applies_to": "A10.1 – Dommages dus aux retards de construction et aux interruptions de l'exploitation",
+      "page": 16
+    },
+    {
+      "name": "Pertes de rendement et frais supplémentaires dans des exploitations tierces, amendes conventionnelles",
+      "description": "les pertes de rendement et les frais supplémentaires dans des exploitations tierces ainsi que les amendes conventionnelles (pénalités de tous genres);",
+      "applies_to": "A10.1 – Dommages dus aux retards de construction et aux interruptions de l'exploitation",
+      "page": 16
+    },
+    {
+      "name": "Détériorations des chemins et voies d'accès",
+      "description": "les détériorations des chemins et voies d'accès;",
+      "applies_to": "A10.1 – Dommages dus aux retards de construction et aux interruptions de l'exploitation",
+      "page": 16
+    },
+    {
+      "name": "Frais liés à la fermeture ou à la restriction de l'accès en relation avec une épidémie ou une pandémie",
+      "description": "les frais en relation avec la fermeture, la restriction ou la prévention de l'accès, en relation avec une épidémie ou une pandémie.",
+      "applies_to": "A10.1 – Dommages dus aux retards de construction et aux interruptions de l'exploitation",
+      "page": 16
+    },
+    {
+      "name": "Retards d'une durée inférieure au délai de carence",
+      "description": "Des retards d’une durée inférieure au délai de carence sont exclus de l’assurance.",
+      "applies_to": "A10.1 – Dommages dus aux retards de construction et aux interruptions de l'exploitation",
+      "page": 16
+    },
+    {
+      "name": "Mesures servant au respect du planning convenu initialement",
+      "description": "les mesures qui servent au respect du planning convenu initialement;",
+      "applies_to": "A10.2 – Frais supplémentaires consécutifs à un sinistre",
+      "page": 17
+    },
+    {
+      "name": "Frais supplémentaires en relation avec une épidémie ou une pandémie",
+      "description": "les frais supplémentaires en relation avec une épidémie ou une pandémie.",
+      "applies_to": "A10.2 – Frais supplémentaires consécutifs à un sinistre",
+      "page": 18
+    },
+    {
+      "name": "Peines conventionnelles (art. A7, chiffre 14 CGA)",
+      "description": "Les peines conventionnelles selon l'art. A7, chiffre 14 CGA restent exclues de cette extension de couverture.",
+      "applies_to": "A10.2 – Frais supplémentaires consécutifs à un sinistre",
+      "page": 18
+    },
+    {
+      "name": "Murs de clôture et de soutènement",
+      "description": "sur les murs de clôture et de soutènement;",
+      "applies_to": "A10.4 – Dommages causés par les graffitis",
+      "page": 18
+    },
+    {
+      "name": "Différences de coloris après le nettoyage",
+      "description": "à la suite de différences de coloris après le nettoyage;",
+      "applies_to": "A10.4 – Dommages causés par les graffitis",
+      "page": 18
+    },
+    {
+      "name": "Ouvrages de génie civil",
+      "description": "sur l’ensemble des ouvrages de génie civil.",
+      "applies_to": "A10.4 – Dommages causés par les graffitis",
+      "page": 18
+    },
+    {
+      "name": "Frais d'expertise en cas de défauts évidents ou d'expertise sans le consentement de la Vaudoise",
+      "description": "Ne sont pas pris en charge les frais d'expertise en cas de défauts évidents ou en cas de recours à l'expert sans le consentement de la Vaudoise.",
+      "applies_to": "A10.5 – Frais d'expertise durant la garantie",
+      "page": 18
+    },
+    {
+      "name": "Dommages aux joints, étanchéités et isolations",
+      "description": "les dommages aux joints, étanchéités, isolations, ainsi que les dommages qui en sont la conséquence;",
+      "applies_to": "A11 – Prolongation de couverture après la fin des travaux (maintenance)",
+      "page": 19
+    },
+    {
+      "name": "Dommages aux drainages et canalisations",
+      "description": "les dommages aux drainages et aux canalisations ainsi que les dommages qui en sont la conséquence;",
+      "applies_to": "A11 – Prolongation de couverture après la fin des travaux (maintenance)",
+      "page": 19
+    },
+    {
+      "name": "Simples fissurations",
+      "description": "les simples fissurations, de même que les fissures rendant une étanchéité défectueuse. Toutefois sont assurées les fissures entraînant la démolition ou la réparation inévitable d'une partie de l'ouvrage pour des raisons statiques;",
+      "applies_to": "A11 – Prolongation de couverture après la fin des travaux (maintenance)",
+      "page": 19
+    },
+    {
+      "name": "Dommages causés par incendie et événements naturels",
+      "description": "les dommages causés par incendie et événements naturels;",
+      "applies_to": "A11 – Prolongation de couverture après la fin des travaux (maintenance)",
+      "page": 19
+    },
+    {
+      "name": "Choses et frais assurés moyennant convention particulière",
+      "description": "les choses et les frais éventuellement assurés moyennant convention particulière.",
+      "applies_to": "A11 – Prolongation de couverture après la fin des travaux (maintenance)",
+      "page": 19
+    },
+    {
+      "name": "B5.1 – Preneur d'assurance",
+      "description": "Les prétentions du preneur d'assurance ainsi que les prétentions pour des dommages atteignant la personne du preneur d'assurance.",
+      "applies_to": "Assurance responsabilité civile du maître de l'ouvrage (partie B)",
+      "page": 21
+    },
+    {
+      "name": "B5.2 – Ménage commun",
+      "description": "Les prétentions de l'époux(se) ou du partenaire enregistré du preneur d'assurance ainsi que celles des personnes vivant en ménage commun avec la personne assurée responsable.",
+      "applies_to": "Assurance responsabilité civile du maître de l'ouvrage (partie B)",
+      "page": 21
+    },
+    {
+      "name": "B5.3 – Dommages économiques",
+      "description": "Les prétentions pour des dommages économiques ne résultant ni d'une lésion corporelle assurée ni d'un dégât matériel assuré causé à un lésé.",
+      "applies_to": "Assurance responsabilité civile du maître de l'ouvrage (partie B)",
+      "page": 21
+    },
+    {
+      "name": "B5.4 – Crime ou délit",
+      "description": "La responsabilité de l'auteur pour des dommages causés lors ou à l’occasion d’un crime ou d’un délit intentionnel.",
+      "applies_to": "Assurance responsabilité civile du maître de l'ouvrage (partie B)",
+      "page": 21
+    },
+    {
+      "name": "B5.5 – Responsabilité contractuelle",
+      "description": "Les prétentions fondées sur une responsabilité contractuelle excédant les prescriptions légales.",
+      "applies_to": "Assurance responsabilité civile du maître de l'ouvrage (partie B)",
+      "page": 22
+    },
+    {
+      "name": "B5.6 – Inexécution d'obligations d'assurance",
+      "description": "Les prétentions dérivant de l’inexécution d’obligations d’assurance légales ou contractuelles.",
+      "applies_to": "Assurance responsabilité civile du maître de l'ouvrage (partie B)",
+      "page": 22
+    },
+    {
+      "name": "B5.7 – Dommages concernant le projet de construction",
+      "description": "Les prétentions pour des dommages concernant le projet de construction désigné dans la police ainsi que les bâtiments/ouvrages qui en font partie, y compris les biens meubles (véhicules inclus) qu'ils renferment et le bien-fonds qui en fait partie.",
+      "applies_to": "Assurance responsabilité civile du maître de l'ouvrage (partie B)",
+      "page": 22
+    },
+    {
+      "name": "B5.8 – Détenteur et utilisateur de véhicules automobiles, cycles, bateaux et aéronefs",
+      "description": "La responsabilité comme détenteur et/ou résultant de l’utilisation de véhicules automobiles et de cycles tombant sous le coup de l’obligation d’assurance au sens de la législation routière suisse et des remorques ou véhicules tirés par eux, ainsi que la responsabilité comme détenteur ou résultant de l’utilisation de bateaux et d’aéronefs.",
+      "applies_to": "Assurance responsabilité civile du maître de l'ouvrage (partie B)",
+      "page": 22
+    },
+    {
+      "name": "B5.9 – Dégâts matériels survenus ou causés graduellement",
+      "description": "Les prétentions pour des dommages à des choses qui sont survenus ou qui ont été causés graduellement, par ex. par l'effet prolongé de fumée, de poussière, de suie, de gaz, de vapeurs, de liquides ou de vibrations, sauf si cet effet prolongé peut être imputé à un événement soudain et imprévu.",
+      "applies_to": "Assurance responsabilité civile du maître de l'ouvrage (partie B)",
+      "page": 22
+    },
+    {
+      "name": "B5.10 – Dommages prévisibles",
+      "description": "La responsabilité civile pour des dommages dont les assurés devaient s'attendre, avec un degré élevé de probabilité, à ce qu’ils se produisent, par ex. l’endommagement du sol, y compris les routes et les chemins pédestres, par le va-et-vient de personnes et de véhicules ou par le dépôt de décombres, de matériaux et d’engins. Il en va de même pour les dommages dont on sait par expérience qu'ils sont inévitables compte tenu de la méthode de construction choisie, par ex. les tassements et/ou les fissures provoqués par l'abaissement de la nappe phréatique, des reprises en sous-oeuvre, la mise en place et l'extraction de palplanches, les déplacements causés par des tirants d'ancrage et ou clous passifs, etc. Sont également considérés comme dommages prévisibles les dommages dont on a implicitement accepté la survenance en choisissant une certaine méthode de travail afin de diminuer les frais ou d’accélérer les travaux ou d’éviter les préjudices de fortune (par ex. en renonçant à la protection de la fouille).",
+      "applies_to": "Assurance responsabilité civile du maître de l'ouvrage (partie B)",
+      "page": 23
+    },
+    {
+      "name": "B5.11 – Ouvrages et bâtiments contigus",
+      "description": "Sur les ouvrages et bâtiments contigus ainsi que dans le cas de propriétés par étages, les simples formations de fissures, de même que les fissures rendant une étanchéité défectueuse. Sont toutefois assurées les fissures entraînant la démolition ou la réparation inévitable d'une partie de l'ouvrage pour des raisons statiques.",
+      "applies_to": "Assurance responsabilité civile du maître de l'ouvrage (partie B)",
+      "page": 23
+    },
+    {
+      "name": "B5.12 – Choses confiées, louées ou affermées",
+      "description": "Les prétentions pour des dommages à des choses prises ou reçues par un assuré pour être utilisées, travaillées, gardées, transportées ou pour d’autres raisons (par ex. en commission ou à des fins d’exposition) ou qui lui ont été louées, prises en leasing ou affermées. Entrent notamment dans le cadre de cette disposition les bâtiments entiers ou des terrains pris en charge par un assuré pour la durée de la construction.",
+      "applies_to": "Assurance responsabilité civile du maître de l'ouvrage (partie B)",
+      "page": 23
+    },
+    {
+      "name": "B5.13 – Choses travaillées",
+      "description": "Les prétentions pour des dommages à des choses résultant de l'exécution ou de l'inexécution d'une activité par un assuré sur ou avec ces choses (par ex. transformation, réparation, chargement ou déchargement d’un véhicule). On considère également comme activité au sens de la présente disposition l'élaboration de projets, la direction des travaux, les instructions et les ordres donnés, la surveillance et le contrôle ainsi que d’autres activités analogues, de même que les essais de fonctionnement, quelle que soit la personne qui exerce ces activités. Les bâtiments de tiers repris en sous-œuvre ou recoupés inférieurement ne sont pas considérés comme des choses travaillées au sens de la présente disposition, pour autant que ces travaux soient expressément mentionnés dans la police.",
+      "applies_to": "Assurance responsabilité civile du maître de l'ouvrage (partie B)",
+      "page": 23
+    },
+    {
+      "name": "B5.14 – Atteintes à l'environnement",
+      "description": "Les atteintes à l'environnement selon l'art. B8, chiffre 1 CGA, sous réserve de la couverture prévue à l'art. B8, chiffre 2 CGA.",
+      "applies_to": "Assurance responsabilité civile du maître de l'ouvrage (partie B)",
+      "page": 23
+    },
+    {
+      "name": "B5.15 – Sites contaminés",
+      "description": "Les prétentions en relation avec des sites contaminés.",
+      "applies_to": "Assurance responsabilité civile du maître de l'ouvrage (partie B)",
+      "page": 23
+    },
+    {
+      "name": "B5.16 – Amiante",
+      "description": "Les prétentions en relation avec des sites contaminés. 16. Amiante Les prétentions en relation avec de l'amiante.",
+      "applies_to": "Assurance responsabilité civile du maître de l'ouvrage (partie B)",
+      "page": 23
+    },
+    {
+      "name": "B5.17 – Sources, alimentation en eau",
+      "description": "Les prétentions pour des dommages dus à la diminution du débit ou au tarissement de sources.",
+      "applies_to": "Assurance responsabilité civile du maître de l'ouvrage (partie B)",
+      "page": 23
+    },
+    {
+      "name": "B5.18 – Evénements de guerre et autres événements catastrophiques",
+      "description": "Les dommages survenant lors d’événements de guerre, de violations de neutralité, de révolutions, de rébellions et de révoltes, de modification de la structure du noyau de l'atome, de réaction nucléaire, de rayonnement nucléaire ou ionisant.",
+      "applies_to": "Assurance responsabilité civile du maître de l'ouvrage (partie B)",
+      "page": 23
+    },
+    {
+      "name": "B5.19 – Terrorisme",
+      "description": "Les dommages survenant lors d'actes de terrorisme de quelque nature qu'ils soient. Est considéré comme terrorisme, tout acte de violence ou toute menace de violence perpétrés pour des motifs politiques, religieux, ethniques, idéologiques ou similaires. L’acte de violence ou la menace de recourir à la violence sont de nature à répandre la peur ou la terreur dans la population ou dans une partie de celle-ci ou à exercer une influence sur un gouvernement ou des organismes d’Etat.",
+      "applies_to": "Assurance responsabilité civile du maître de l'ouvrage (partie B)",
+      "page": 24
+    },
+    {
+      "name": "Tuyaux vides et conduites dont la position n'a pas été recherchée au préalable",
+      "description": "les dommages causés aux tuyaux vides et aux conduites dont la position n'a pas été recherchée au préalable, ainsi que les dommages consécutifs en résultant;",
+      "applies_to": "B5.7 – Dommages aux conduites, tubes, canaux et chambres appartenant à des tiers (exception à l'exclusion)",
+      "page": 22
+    },
+    {
+      "name": "Parties de conduites sur lesquelles une activité a été ou aurait dû être exécutée",
+      "description": "les dommages aux parties de conduites sur lesquelles, conformément au contrat, une activité a été ou aurait dû être exécutée. Le dégagement est également considéré comme une activité exécutée sur les conduites. Cette exclusion ne s’applique pas aux dommages aux conduites ne faisant pas l’objet d’activités déterminées contractuellement, même si ces conduites jouxtent immédiatement les parties sur lesquelles l’activité est exécutée.",
+      "applies_to": "B5.7 – Dommages aux conduites, tubes, canaux et chambres appartenant à des tiers (exception à l'exclusion)",
+      "page": 22
+    },
+    {
+      "name": "Mesures de prévention relevant de la bonne exécution du contrat",
+      "description": "les mesures de prévention constituant une activité relevant de la bonne exécution du contrat, comme l'élimination de défauts ou de dommages affectant des travaux effectués, ainsi que les frais qui en résultent;",
+      "applies_to": "B7 – Frais de prévention des dommages",
+      "page": 24
+    },
+    {
+      "name": "Frais pour les mesures prises après avoir écarté un danger",
+      "description": "les frais pour les mesures prises après avoir écarté un danger, telles que l’élimination des matériaux défectueux et le remplissage des installations, conteneurs et conduites;",
+      "applies_to": "B7 – Frais de prévention des dommages",
+      "page": 24
+    },
+    {
+      "name": "Frais pour remédier à un état de fait dangereux (art. C3 CGA)",
+      "description": "les frais pour remédier à un état de fait dangereux au sens de l'art. C3 CGA;",
+      "applies_to": "B7 – Frais de prévention des dommages",
+      "page": 24
+    },
+    {
+      "name": "Frais de prévention dus à des forages profonds, installations nucléaires, véhicules, bateaux et aéronefs",
+      "description": "les frais de prévention de dommages dus à des forages profonds et à des événements causés par des installations nucléaires, des véhicules automobiles, nautiques ou aéronefs ainsi que par leurs pièces ou accessoires;",
+      "applies_to": "B7 – Frais de prévention des dommages",
+      "page": 25
+    },
+    {
+      "name": "Frais de constatation de fuites, de vidange et de remplissage d'installations",
+      "description": "les frais occasionnés par la constatation de fuites, de perturbations de fonctionnement et des causes du dommage, la vidange et le remplissage d’installations, de récipients et de conduites, ainsi que les frais occasionnés par leurs réparations ou leurs transformations (par ex. les frais d’assainissement);",
+      "applies_to": "B7 – Frais de prévention des dommages",
+      "page": 25
+    },
+    {
+      "name": "Frais pour des mesures prises en raison de chute de neige ou de formation de glace",
+      "description": "les frais pour des mesures prises en raison de chute de neige ou de formation de glace.",
+      "applies_to": "B7 – Frais de prévention des dommages",
+      "page": 25
+    },
+    {
+      "name": "Plusieurs événements similaires quant à leurs effets",
+      "description": "en relation avec plusieurs événements similaires quant à leurs effets (par ex. infiltration goutte à goutte et occasionnelle de substances dommageables dans le sol, écoulements répétés de substances liquides hors de récipients mobiles) qui ne sont pas la conséquence d’un événement unique, soudain et imprévu. Les dispositions selon chiffre 2 ci-dessus demeurent réservées;",
+      "applies_to": "B8.2 – Atteintes à l'environnement",
+      "page": 25
+    },
+    {
+      "name": "Régénération d'espèces ou d'habitats protégés et dommages à l'environnement proprement dit",
+      "description": "en relation avec la régénération d’espèces ou d’habitats protégés, ainsi qu’avec des dommages à l’air et à des eaux non grevées d’un droit de propriété privée, aux sols, à la flore ou la faune (dommages à l'environnement proprement dit). Demeurent réservés les frais de prévention de dommages selon l’art. B7 CGA;",
+      "applies_to": "B8.2 – Atteintes à l'environnement",
+      "page": 25
+    },
+    {
+      "name": "Installations de dépôt, de traitement, de transfert ou d'élimination de déchets",
+      "description": "en relation avec des installations de dépôt, de traitement, de transfert ou d’élimination de résidus, d’autres déchets ou de matériaux recyclables. En revanche, la couverture est accordée pour des installations servant au compostage ainsi que pour des installations servant à l’entreposage intermédiaire de courte durée de résidus ou autres déchets propres à l’exploitation ou à l'épuration, respectivement au traitement préalable, des eaux usées du preneur d'assurance;",
+      "applies_to": "B8.2 – Atteintes à l'environnement",
+      "page": 25
+    },
+    {
+      "name": "Sites contaminés, dépôts de déchets et contaminations existant à l'entrée en vigueur du contrat",
+      "description": "en relation avec des sites contaminés, des dépôts de déchets et des contaminations du sol et des eaux qui existaient à la date de l’entrée en vigueur du contrat.",
+      "applies_to": "B8.2 – Atteintes à l'environnement",
+      "page": 25
+    },
+    {
+      "name": "Quote-part de propriété du maître de l'ouvrage sur les parties utilisées en commun",
+      "description": "Cependant, si des prétentions sont élevées pour des dommages sur des parties de bâtiment utilisées en commun, y compris les installations, les équipements et les biens-fonds en faisant partie, l’assurance ne couvre pas la part du dommage correspondant à la quote-part de propriété détenue par le maître de l’ouvrage en qualité de propriétaire de l’unité de propriété par étages à laquelle se limite le projet de construction.",
+      "applies_to": "B9 – Propriété par étages",
+      "page": 26
+    },
+    {
+      "name": "Projets de construction concernant des parties de bâtiment utilisées en commun",
+      "description": "Restent exclues de l'assurance les prétentions pour des dommages consécutifs à des projets de construction concernant des parties de bâtiment utilisées en commun, y compris les installations, les biens-fonds et les équipements en faisant partie.",
+      "applies_to": "B9 – Propriété par étages",
+      "page": 26
+    },
+    {
+      "name": "Obligations de caractère pénal (amendes) et frais de la première notification de l'amende",
+      "description": "Les obligations de caractère pénal (par ex. les amendes) ainsi que les frais figurant dans la première notification de l'amende sont toutefois toujours à la charge de la personne assurée.",
+      "applies_to": "B10 – Protection juridique en matière pénale",
+      "page": 26
+    },
+    {
+      "name": "Immissions (bruits, ébranlements, poussières, eaux polluées, odeurs)",
+      "description": "pour cause d'immissions (bruits, ébranlements, poussières, eaux polluées, odeurs, etc.);",
+      "applies_to": "B11 – Dommages économiques purs",
+      "page": 27
+    },
+    {
+      "name": "Non-respect de devis et de délais",
+      "description": "résultant du non-respect de devis et de délais;",
+      "applies_to": "B11 – Dommages économiques purs",
+      "page": 27
+    },
+    {
+      "name": "Dommages en rapport avec des atteintes à l'environnement (art. B8 CGA)",
+      "description": "concernant les dommages en rapport avec des atteintes à l'environnement selon l'art. B8 CGA;",
+      "applies_to": "B11 – Dommages économiques purs",
+      "page": 27
+    },
+    {
+      "name": "Prétentions des personnes assurées, des participants aux travaux et des fournisseurs",
+      "description": "des personnes assurées, des participants aux travaux et des fournisseurs;",
+      "applies_to": "B11 – Dommages économiques purs",
+      "page": 27
+    },
+    {
+      "name": "Peines conventionnelles",
+      "description": "résultant de peines conventionnelles;",
+      "applies_to": "B11 – Dommages économiques purs",
+      "page": 27
+    },
+    {
+      "name": "Crime ou délit intentionnel et non-observation intentionnelle de prescriptions légales ou officielles",
+      "description": "résultant des dommages causés par un crime ou un délit commis intentionnellement, ou par la non-observation intentionnelle de prescriptions légales ou officielles;",
+      "applies_to": "B11 – Dommages économiques purs",
+      "page": 27
+    },
+    {
+      "name": "Dommages devant être supportés par une autre assurance responsabilité civile (subsidiarité)",
+      "description": "pour des dommages qui doivent être supportés par une autre assurance responsabilité civile. Les prestations de la Vaudoise ne sont versées qu’à titre subsidiaire.",
+      "applies_to": "B11 – Dommages économiques purs",
+      "page": 27
+    },
+    {
+      "name": "Dommage en série dont le premier dommage survient avant le début du contrat",
+      "description": "Si le premier dommage d’une série survient avant le début du contrat, toutes les prétentions issues de cette série sont exclues de la couverture d’assurance.",
+      "applies_to": "Assurance responsabilité civile du maître de l'ouvrage (partie B)",
+      "page": 24
+    },
+    {
+      "name": "C9 – Clause sanction (sanctions économiques, commerciales ou financières)",
+      "description": "La couverture d'assurance n'est pas accordée dans la mesure et aussi longtemps que des sanctions économiques, commerciales ou financières légales applicables s'opposent à fournir la prestation contractuelle.",
+      "applies_to": "all",
+      "page": 32
+    }
+  ],
+  "deductibles": {
+    "standard": "La franchise convenue dans la police est déduite de chaque indemnité versée. Si lors d'un même événement, un dommage concerne plusieurs choses ou frais, il n'est tenu compte de la franchise qu'une seule fois. Si différentes franchises ont été convenues, le montant le plus élevé sera pris en considération. La Vaudoise n’intervient en cas de sinistre que dans la mesure où les prétentions dépassent la franchise convenue.",
+    "variable": null,
+    "per_coverage": {
+      "A – Assurance travaux de construction (art. A6 CGA)": "La franchise convenue dans la police est déduite de chaque indemnité versée. Si lors d'un même événement, un dommage concerne plusieurs choses ou frais, il n'est tenu compte de la franchise qu'une seule fois. Si différentes franchises ont été convenues, le montant le plus élevé sera pris en considération.",
+      "B – RC du maître de l'ouvrage, lésions corporelles (art. B4, chiffre 2 CGA)": "Aucune franchise n'est applicable en cas de lésions corporelles.",
+      "B – RC du maître de l'ouvrage, dégâts matériels et frais de prévention (art. B4, chiffre 3 CGA)": "En cas de dommages causés par: • des travaux de démolition, de battage, de vibrage et de dérochement; • des travaux d'excavation sur des pentes de plus de 25%; • des travaux d'excavation de plus de 6 mètres de profondeur; • des travaux d'excavation avec une paroi clouée; • un abaissement de la nappe phréatique; • des reprises en sous-œuvre/recoupements inférieurs/travaux de pousse-tubes et travaux de palplanches; le preneur d'assurance supporte une franchise de CHF 5'000 par parcelle cadastrale de tiers, mais au minimum la franchise convenue dans la police. En cas d'autres dégâts matériels et de frais de prévention de dommages, le preneur d'assurance supporte la franchise convenue dans la police, une seule fois pour tous les dommages survenus pendant toute la durée du contrat.",
+      "B – RC du maître de l'ouvrage, dommages économiques purs (art. B4, chiffre 4 CGA)": "En cas de dommages économiques purs, le preneur d'assurance supporte une franchise de 10% du montant du dommage, mais au minimum CHF 5'000. Si une franchise plus élevée a été définie dans la police, celle-ci est applicable.",
+      "A10.1 – Retards de construction / interruption d'exploitation (délai de carence ou franchise)": "Sauf convention contraire expresse, le délai de carence est de 7 jours. Des retards d’une durée inférieure au délai de carence sont exclus de l’assurance. Si la durée de l'interruption est supérieure au délai de carence, le dommage est réparti sur la durée totale de l'interruption; la part proportionnelle relative au délai de carence n'est pas couverte. Si le délai de carence est remplacé par une franchise, celle-ci est alors déduite de l’indemnisation quelles que soient les autres franchises convenues."
+    },
+    "page": 10
+  },
+  "waiting_periods": [
+    {
+      "coverage": "A10.1 – Dommages dus aux retards de construction et aux interruptions de l'exploitation",
+      "duration": "7 jours (sauf convention contraire expresse)",
+      "page": 16,
+      "description": "Sauf convention contraire expresse, le délai de carence est de 7 jours. Des retards d’une durée inférieure au délai de carence sont exclus de l’assurance. Si la durée de l'interruption est supérieure au délai de carence, le dommage est réparti sur la durée totale de l'interruption; la part proportionnelle relative au délai de carence n'est pas couverte."
+    },
+    {
+      "coverage": "A10.1 – Dommages dus aux retards de construction et aux interruptions de l'exploitation",
+      "duration": "Durée de garantie de 12 mois (sauf convention contraire expresse)",
+      "page": 16,
+      "description": "L'assurance couvre les dommages économiques qui surviennent pendant la durée de garantie convenue, c'est-à-dire depuis la survenance du sinistre jusqu'à la reprise de la production, à la remise en service ou jusqu'à la reprise de possession des bâtiments, locaux ou installations techniques endommagés par l'accident de construction, au maximum toutefois pendant la durée de garantie convenue dans la police. Sauf convention contraire expresse, la durée de garantie est de 12 mois."
+    }
+  ],
+  "obligations": [
+    {
+      "name": "Modification du risque",
+      "timing": "Pendant la durée de l'assurance",
+      "page": 4,
+      "description": "modification du risque: si un fait important subit des modifications pendant la durée de l’assurance, entraînant une aggravation ou une diminution du risque, vous devez en avertir la Vaudoise immédiatement par écrit ou par tout autre moyen d'en établir la preuve par un texte;",
+      "sanction": "Art. C2, chiffre 2 CGA: \"A défaut, la Vaudoise n’est plus liée, à l’avenir, par le contrat.\""
+    },
+    {
+      "name": "Etablissement des faits (collaboration)",
+      "timing": "En cas de sinistre / à la demande de la Vaudoise",
+      "page": 4,
+      "description": "établissement des faits: vous devez collaborer: • aux investigations relatives au contrat d’assurance, notamment en ce qui concerne des réticences, des aggravations du risque, des examens de prestations, etc.; • à l'établissement de la preuve du dommage. Sauf en cas de nécessité, vous ne devez prendre aucune mesure concernant le dommage sans l'accord de la Vaudoise. Vous devez fournir à la Vaudoise tous les renseignements et documents pertinents, les requérir auprès de tiers à l’intention de la Vaudoise et autoriser les tiers, par écrit, à remettre à la Vaudoise les informations, documents, etc. correspondants. En outre, la Vaudoise a le droit de procéder à ses propres investigations.",
+      "sanction": null
+    },
+    {
+      "name": "Annonce du sinistre",
+      "timing": "Immédiatement après la survenance",
+      "page": 4,
+      "description": "survenance du sinistre: l'événement assuré doit être annoncé immédiatement à la Vaudoise.",
+      "sanction": "Lorsqu’une personne assurée transgresse de manière fautive l’une de ses obligations contractuelles, la Vaudoise est déliée de toute obligation à son égard. Aucune réduction ou suppression des prestations n'est applicable dans les cas suivants: • il résulte des circonstances que la violation n’est pas imputable au preneur d’assurance ou à l’ayant droit; • le preneur d’assurance apporte la preuve que la violation n’a pas eu d’incidence sur le sinistre et sur l’étendue des prestations dues par la Vaudoise."
+    },
+    {
+      "name": "Vol: avis à la police et à la Vaudoise",
+      "timing": "Immédiatement après avoir pris connaissance des faits",
+      "page": 7,
+      "description": "En cas de vol, le preneur d'assurance ou les parties participant à la construction doivent avertir la police immédiatement après avoir pris connaissance des faits, demander une enquête officielle et informer la Vaudoise si une chose volée est retrouvée ou s'ils en ont des nouvelles.",
+      "sanction": "La Vaudoise est libérée de son obligation de prestation envers les parties participant à la construction qui ont enfreint les dispositions ci-dessus."
+    },
+    {
+      "name": "Retard de construction / interruption d'exploitation: obligations en cas de sinistre",
+      "timing": "Dès la survenance d'un événement assuré (avis dans les 48 heures)",
+      "page": 16,
+      "description": "Dès la survenance d’un événement assuré, le preneur d’assurance ou l’ayant droit doit: • en aviser la Vaudoise au plus tard dans les 48 heures et l’informer d’un dommage potentiel relevant de la couverture correspondante (avec indication de la durée de retard présumée et du montant du dommage); veiller à restreindre le dommage pendant l’interruption. Pour ce faire, la Vaudoise a le droit d’exiger l’application de toutes les dispositions qui lui semblent adaptées et de vérifier les mesures prises; • aviser la Vaudoise de la reprise du chantier ou de l’exploitation concerné(e) par le dommage; • garantir à la Vaudoise et aux experts la possibilité de mener l’enquête sur la cause et l’importance du sinistre. Pour ce faire, le preneur d’assurance doit présenter, sur demande de la Vaudoise et à ses propres frais, les documents importants pour évaluer le dommage (tels que les plans de réseau, programmes des travaux, contrôles d’état d’avancement des travaux, etc.).",
+      "sanction": "En cas de non-respect de ces obligations, la Vaudoise peut refuser les prestations si l’assuré ne prouve pas qu’il n’est pas responsable de ce qui s’est produit."
+    },
+    {
+      "name": "Retard de construction / interruption d'exploitation: obligations pendant la durée de construction",
+      "timing": "Pendant la durée de la construction",
+      "page": 17,
+      "description": "Sur demande de la Vaudoise, le preneur d’assurance remet des rapports mis à jour périodiquement ou les programmes des travaux actualisés portant sur l’état d’avancement de la construction et du montage. Si le risque initial subit d’importants changements, le preneur d’assurance doit en informer la Vaudoise dans les plus brefs délais, et ce notamment en cas de: • changement du planning prévu; • changement, modification ou extension du projet assuré; • dérogations vis-à-vis des conditions de construction et d’exploitation prescrites, de la mise en service et de la procédure test; • changement d’intérêt du preneur d’assurance (par ex. cessation d’activité, liquidation ou faillite).",
+      "sanction": null
+    },
+    {
+      "name": "C2.1 – Annonce de toute modification d'un fait important",
+      "timing": "Immédiatement, par écrit ou par tout autre moyen permettant d'en établir la preuve par un texte",
+      "page": 28,
+      "description": "Toute modification d’un fait important pour l’appréciation du risque, et dont les parties ont déterminé l’étendue lors de la conclusion du contrat, doit être annoncée immédiatement et par écrit ou par tout autre moyen permettant d'en établir la preuve par un texte à la Vaudoise.",
+      "sanction": null
+    },
+    {
+      "name": "C2.2 – Avis d'aggravation essentielle du risque",
+      "timing": "Immédiatement",
+      "page": 28,
+      "description": "Si, au cours de l’assurance, un fait important, déclaré dans la proposition ou d’une autre manière, subit une modification et qu’il en résulte une aggravation essentielle du risque (par ex. modification de l'exécution de la construction ou de la méthode de construction, agrandissement ou extension de l'ouvrage, modification des caractéristiques du risque décrites dans la proposition ou dans la police), le preneur d’assurance est tenu d’en informer immédiatement la Vaudoise par écrit ou par tout autre moyen permettant d'en établir la preuve par un texte.",
+      "sanction": "A défaut, la Vaudoise n’est plus liée, à l’avenir, par le contrat."
+    },
+    {
+      "name": "C3 – Protection de l'ouvrage et des ouvrages avoisinants",
+      "timing": "Pendant les travaux de démolition ou de construction",
+      "page": 29,
+      "description": "de prendre toutes les mesures nécessaires à la protection de l'ouvrage et des ouvrages avoisinants (immeubles et terrains) selon les règles généralement admises en matière de construction, et ce même si ces mesures ne s'avèrent nécessaires qu'au cours des travaux de démolition ou de construction. La Vaudoise se réserve, en tout temps, le droit de visiter le chantier, d’examiner tous les plans et documents de la direction des travaux et, suivant le cas, de demander un entretien avec les personnes occupées à la construction au sujet des mesures prises ou encore à prendre.",
+      "sanction": "La violation fautive des obligations contractuelles selon les art. C3 et C4 CGA par les personnes assurées entraîne la réduction ou la suppression du droit aux prestations, ceci dans la mesure où la cause du sinistre ou l’importance du dommage en a été influencée. Aucune réduction ou suppression des prestations n'est applicable dans les cas suivants: • il résulte des circonstances que la violation n’est pas imputable au preneur d’assurance ou à l’ayant droit; • le preneur d’assurance apporte la preuve que la violation n’a pas eu d’incidence sur le sinistre et sur l’étendue des prestations dues par la Vaudoise."
+    },
+    {
+      "name": "C3 – Elimination d'un état de fait dangereux",
+      "timing": "Dans un délai convenable, aux frais des assurés",
+      "page": 29,
+      "description": "de remédier à leurs frais et dans un délai convenable à un état de fait dangereux qui pourrait entraîner un dommage. Il en va de même lorsque la Vaudoise exige l'élimination d'un tel état.",
+      "sanction": "La violation fautive des obligations contractuelles selon les art. C3 et C4 CGA par les personnes assurées entraîne la réduction ou la suppression du droit aux prestations, ceci dans la mesure où la cause du sinistre ou l’importance du dommage en a été influencée. Aucune réduction ou suppression des prestations n'est applicable dans les cas suivants: • il résulte des circonstances que la violation n’est pas imputable au preneur d’assurance ou à l’ayant droit; • le preneur d’assurance apporte la preuve que la violation n’a pas eu d’incidence sur le sinistre et sur l’étendue des prestations dues par la Vaudoise."
+    },
+    {
+      "name": "C4.1 – Respect des prescriptions légales, des règles de l'art et des normes SIA",
+      "timing": "Lors de la réalisation de l'ouvrage",
+      "page": 29,
+      "description": "Lors de la réalisation de l'ouvrage, les personnes assurées et les hommes de métier participant au projet de construction (y compris la planification) sont tenus de respecter: • les prescriptions légales et officielles; • les règles reconnues de la technique et de l'art de construire; • les normes de la Société suisse des ingénieurs et des architectes (SIA); • les directives et prescriptions des autorités, de la SUVA et d’autres organismes, tels que le Bureau de prévention des accidents (BPA), l’Association des établissements cantonaux d’assurance incendie (AEAI), la Commission fédérale de coordination, pour la sécurité au travail (CFST), etc.; • les obligations qui leur sont imposées par le contrat d'entreprise et le mandat; • les obligations mises à leur charge par le présent contrat.",
+      "sanction": "La violation fautive des obligations contractuelles selon les art. C3 et C4 CGA par les personnes assurées entraîne la réduction ou la suppression du droit aux prestations, ceci dans la mesure où la cause du sinistre ou l’importance du dommage en a été influencée. Aucune réduction ou suppression des prestations n'est applicable dans les cas suivants: • il résulte des circonstances que la violation n’est pas imputable au preneur d’assurance ou à l’ayant droit; • le preneur d’assurance apporte la preuve que la violation n’a pas eu d’incidence sur le sinistre et sur l’étendue des prestations dues par la Vaudoise."
+    },
+    {
+      "name": "C4.2 – Projets de construction à risque: mandat écrit à un ingénieur civil ou géotechnicien",
+      "timing": "Avant le début des travaux",
+      "page": 29,
+      "description": "Si, dans le cadre du projet de construction: • une fouille de plus de 4 mètres de profondeur ou des excavations sur une pente de plus de 25% sont réalisées ou • un abaissement du niveau de la nappe phréatique est réalisé ou • des travaux provoquant de fortes vibrations (minage, battage, vibrage) sont réalisés ou • des palplanches sont mises en place ou extraites ou • des éléments de soutènement en tous genres sont posés, le maître de l’ouvrage ou le preneur d’assurance sont tenus de mandater par écrit un ingénieur civil ou un géotechnicien diplômé pour la planification et la direction de ces travaux. Le cas échéant, l'ingénieur civil décide si le concours d'un géotechnicien est nécessaire. Le maître de l’ouvrage ou le preneur d’assurance veille à ce qu’un rapport soit rédigé par un ingénieur civil ou un géotechnicien et soit présenté avant le début des travaux aux participants à la construction. Ce rapport doit avoir été établi conformément aux règles reconnues de la technique et de la construction et définir les risques acceptés ainsi que les critères d’intervention. Les instructions contenues dans le rapport doivent être suivies.",
+      "sanction": "La violation fautive des obligations contractuelles selon les art. C3 et C4 CGA par les personnes assurées entraîne la réduction ou la suppression du droit aux prestations, ceci dans la mesure où la cause du sinistre ou l’importance du dommage en a été influencée. Aucune réduction ou suppression des prestations n'est applicable dans les cas suivants: • il résulte des circonstances que la violation n’est pas imputable au preneur d’assurance ou à l’ayant droit; • le preneur d’assurance apporte la preuve que la violation n’a pas eu d’incidence sur le sinistre et sur l’étendue des prestations dues par la Vaudoise."
+    },
+    {
+      "name": "C4.3 – Travaux de battage, de vibration, de dérochement, d'abaissement de la nappe phréatique",
+      "timing": "A l'avance",
+      "page": 30,
+      "description": "Lors de travaux de battage et de vibration (y compris l'enlèvement de palplanches), de minage, de dérochement ou d'abaissement de la nappe phréatique, leurs effets sur les propriétés voisines sont à apprécier et à quantifier à l'avance par l'ingénieur. Les mesures de prévention et de contrôle appropriées doivent être ordonnées et surveillées.",
+      "sanction": "La violation fautive des obligations contractuelles selon les art. C3 et C4 CGA par les personnes assurées entraîne la réduction ou la suppression du droit aux prestations, ceci dans la mesure où la cause du sinistre ou l’importance du dommage en a été influencée. Aucune réduction ou suppression des prestations n'est applicable dans les cas suivants: • il résulte des circonstances que la violation n’est pas imputable au preneur d’assurance ou à l’ayant droit; • le preneur d’assurance apporte la preuve que la violation n’a pas eu d’incidence sur le sinistre et sur l’étendue des prestations dues par la Vaudoise."
+    },
+    {
+      "name": "C4.4 – Atteintes à la structure porteuse et reprises en sous-œuvre",
+      "timing": "Pour toute intervention modifiant la statique",
+      "page": 30,
+      "description": "Pour toute intervention modifiant la statique de l'ouvrage assuré ou d'ouvrages existants ainsi que pour toute reprise en sous-œuvre ou recoupage inférieur, un ingénieur civil diplômé doit être mandaté par écrit pour la planification, les calculs statiques ainsi que la surveillance des travaux qui s'y rapportent. Ses directives doivent être suivies.",
+      "sanction": "La violation fautive des obligations contractuelles selon les art. C3 et C4 CGA par les personnes assurées entraîne la réduction ou la suppression du droit aux prestations, ceci dans la mesure où la cause du sinistre ou l’importance du dommage en a été influencée. Aucune réduction ou suppression des prestations n'est applicable dans les cas suivants: • il résulte des circonstances que la violation n’est pas imputable au preneur d’assurance ou à l’ayant droit; • le preneur d’assurance apporte la preuve que la violation n’a pas eu d’incidence sur le sinistre et sur l’étendue des prestations dues par la Vaudoise."
+    },
+    {
+      "name": "C4.5 – Constatation de l'état des ouvrages avant le début des travaux",
+      "timing": "Avant le début des travaux",
+      "page": 30,
+      "description": "Pour les projets présentant les caractéristiques suivantes: • projets de construction à risque selon l'art. C4, chiffre 2 CGA; • travaux de battage, de vibration, de dérochement, d'abaissement de la nappe phréatique selon l'art. C4, chiffre 3 CGA; • atteintes à la structure porteuse ou reprises en sous-oeuvre selon l'art. C4, chiffre 4 CGA; • travaux de démolition; • travaux d'excavation à moins de 3 mètres des ouvrages voisins; les assurés sont tenus de relever avant le début des travaux d’une manière qui fait foi (par ex. protocole de fissures), l’état existant des propres ouvrages ainsi que des ouvrages de tiers se trouvant sur les parcelles adjacentes.",
+      "sanction": "La violation fautive des obligations contractuelles selon les art. C3 et C4 CGA par les personnes assurées entraîne la réduction ou la suppression du droit aux prestations, ceci dans la mesure où la cause du sinistre ou l’importance du dommage en a été influencée. Aucune réduction ou suppression des prestations n'est applicable dans les cas suivants: • il résulte des circonstances que la violation n’est pas imputable au preneur d’assurance ou à l’ayant droit; • le preneur d’assurance apporte la preuve que la violation n’a pas eu d’incidence sur le sinistre et sur l’étendue des prestations dues par la Vaudoise."
+    },
+    {
+      "name": "C4.6 – Travaux en toiture ou en façade: mise hors d'eau permanente",
+      "timing": "Pendant toute la durée des travaux, à la fin de chaque journée de travail",
+      "page": 30,
+      "description": "En cas de travaux en toiture et/ou en façade, une mise hors d'eau permanente résistant aux intempéries et aux tempêtes, adaptée à la saison, doit être assurée avec les moyens adéquats par une entreprise spécialisée pendant toute la durée des travaux. La protection ainsi que les éléments de raccord nécessaires doivent être exécutés de façon à ce que l’enveloppe du bâtiment soit étanche et appropriée à la fin de chaque journée de travail. La direction des travaux est tenue de vérifier ces mesures.",
+      "sanction": "La violation fautive des obligations contractuelles selon les art. C3 et C4 CGA par les personnes assurées entraîne la réduction ou la suppression du droit aux prestations, ceci dans la mesure où la cause du sinistre ou l’importance du dommage en a été influencée. Aucune réduction ou suppression des prestations n'est applicable dans les cas suivants: • il résulte des circonstances que la violation n’est pas imputable au preneur d’assurance ou à l’ayant droit; • le preneur d’assurance apporte la preuve que la violation n’a pas eu d’incidence sur le sinistre et sur l’étendue des prestations dues par la Vaudoise."
+    },
+    {
+      "name": "C4.7 – Diagnostic des substances dangereuses (amiante, PCB, plomb)",
+      "timing": "En cas de travaux de transformation, préalablement aux travaux",
+      "page": 30,
+      "description": "En cas de travaux de transformation, le maître de l'ouvrage ou le preneur d'assurance sont tenus: • de vérifier ou de faire vérifier si les parties touchées du bâtiment contiennent de l'amiante ou des PCB; • de s'assurer, avant tous travaux sur des peintures, que celles-ci ne contiennent pas de plomb. Si la présence de substances dangereuses est avérée, celles-ci devront être enlevées préalablement aux travaux par une entreprise spécialisée.",
+      "sanction": "La violation fautive des obligations contractuelles selon les art. C3 et C4 CGA par les personnes assurées entraîne la réduction ou la suppression du droit aux prestations, ceci dans la mesure où la cause du sinistre ou l’importance du dommage en a été influencée. Aucune réduction ou suppression des prestations n'est applicable dans les cas suivants: • il résulte des circonstances que la violation n’est pas imputable au preneur d’assurance ou à l’ayant droit; • le preneur d’assurance apporte la preuve que la violation n’a pas eu d’incidence sur le sinistre et sur l’étendue des prestations dues par la Vaudoise."
+    },
+    {
+      "name": "C4.8 – Mesures de sécurité contre la poussée hydraulique",
+      "timing": "Tant qu'il existe un danger de soulèvement de l'ouvrage",
+      "page": 30,
+      "description": "Tant qu'il existe un danger de soulèvement de l'ouvrage, il convient de prendre des mesures de sécurité contre la poussée hydraulique (par ex. possibilités de mise en eau, ancrage, ballast).",
+      "sanction": "La violation fautive des obligations contractuelles selon les art. C3 et C4 CGA par les personnes assurées entraîne la réduction ou la suppression du droit aux prestations, ceci dans la mesure où la cause du sinistre ou l’importance du dommage en a été influencée. Aucune réduction ou suppression des prestations n'est applicable dans les cas suivants: • il résulte des circonstances que la violation n’est pas imputable au preneur d’assurance ou à l’ayant droit; • le preneur d’assurance apporte la preuve que la violation n’a pas eu d’incidence sur le sinistre et sur l’étendue des prestations dues par la Vaudoise."
+    },
+    {
+      "name": "C4.9 – Conduites souterraines: consultation des plans et sondage du terrain",
+      "timing": "Avant le début des travaux dans le sol",
+      "page": 30,
+      "description": "Avant le début des travaux dans le sol (terrassement, excavation, forage, etc.), les entrepreneurs et experts participant au projet de construction (entrepreneur général, ouvriers, ingénieurs, architectes) sont tenus de consulter les plans auprès des services compétents et de se procurer toutes les indications sur l’emplacement exact des conduites et tubes souterrains. Si les plans n'indiquent pas avec précision la position des conduites et tubes souterrains, le terrain doit être sondé pour confirmer leur position.",
+      "sanction": "La violation fautive des obligations contractuelles selon les art. C3 et C4 CGA par les personnes assurées entraîne la réduction ou la suppression du droit aux prestations, ceci dans la mesure où la cause du sinistre ou l’importance du dommage en a été influencée. Aucune réduction ou suppression des prestations n'est applicable dans les cas suivants: • il résulte des circonstances que la violation n’est pas imputable au preneur d’assurance ou à l’ayant droit; • le preneur d’assurance apporte la preuve que la violation n’a pas eu d’incidence sur le sinistre et sur l’étendue des prestations dues par la Vaudoise."
+    },
+    {
+      "name": "C4.10 – Gestion des eaux de chantier (concept d'épuisement des eaux, norme SIA 431)",
+      "timing": "Avant le début des travaux",
+      "page": 31,
+      "description": "Avant le début des travaux, il convient d’élaborer un concept d’épuisement des eaux selon les règles reconnues de la technique et de l’art de construire, notamment la norme SIA 431. Le concept d'évacuation des eaux doit tenir compte d'éventuelles pannes de courant ou de défaillance des pompes, notamment en préparant des pompes de réserve d’une puissance suffisante et en état de fonctionnement pouvant si nécessaire être mises en service immédiatement.",
+      "sanction": "La violation fautive des obligations contractuelles selon les art. C3 et C4 CGA par les personnes assurées entraîne la réduction ou la suppression du droit aux prestations, ceci dans la mesure où la cause du sinistre ou l’importance du dommage en a été influencée. Aucune réduction ou suppression des prestations n'est applicable dans les cas suivants: • il résulte des circonstances que la violation n’est pas imputable au preneur d’assurance ou à l’ayant droit; • le preneur d’assurance apporte la preuve que la violation n’a pas eu d’incidence sur le sinistre et sur l’étendue des prestations dues par la Vaudoise."
+    },
+    {
+      "name": "C4.11 – Ouvrages provisoires",
+      "timing": "Pendant les travaux",
+      "page": 31,
+      "description": "Les ouvrages provisoires de toute nature sont soumis aux mêmes exigences de qualité et normes que les ouvrages et installations définitives.",
+      "sanction": "La violation fautive des obligations contractuelles selon les art. C3 et C4 CGA par les personnes assurées entraîne la réduction ou la suppression du droit aux prestations, ceci dans la mesure où la cause du sinistre ou l’importance du dommage en a été influencée. Aucune réduction ou suppression des prestations n'est applicable dans les cas suivants: • il résulte des circonstances que la violation n’est pas imputable au preneur d’assurance ou à l’ayant droit; • le preneur d’assurance apporte la preuve que la violation n’a pas eu d’incidence sur le sinistre et sur l’étendue des prestations dues par la Vaudoise."
+    },
+    {
+      "name": "C4.12 – Objets connectés: mesures de précaution contre les cyberattaques",
+      "timing": "Pendant les travaux",
+      "page": 31,
+      "description": "Dans le cas d'objets connectés (prestations de construction ou appareils et machines utilisées pour la construction), les mesures de précaution suivantes doivent au minimum être mises en place contre les cyberattaques: • logiciels antivirus et pare-feu (les actualiser régulièrement); • gestion des révisions et des correctifs (patch- and release management); • mise en place d'une stratégie de sauvegarde et vérification régulière de la capacité de restauration (capacité à restaurer les données); • sensibilisation des personnes autorisées à accéder aux plateformes correspondantes; • gestion des droits d'accès et des mots de passe.",
+      "sanction": "La violation fautive des obligations contractuelles selon les art. C3 et C4 CGA par les personnes assurées entraîne la réduction ou la suppression du droit aux prestations, ceci dans la mesure où la cause du sinistre ou l’importance du dommage en a été influencée. Aucune réduction ou suppression des prestations n'est applicable dans les cas suivants: • il résulte des circonstances que la violation n’est pas imputable au preneur d’assurance ou à l’ayant droit; • le preneur d’assurance apporte la preuve que la violation n’a pas eu d’incidence sur le sinistre et sur l’étendue des prestations dues par la Vaudoise."
+    },
+    {
+      "name": "C4.13 – Prestations réalisées par le preneur d'assurance lui-même",
+      "timing": "Lorsque le preneur d'assurance entreprend lui-même certains travaux",
+      "page": 31,
+      "description": "Lorsqu’un preneur d’assurance entreprend lui-même certains travaux et renonce à faire appel à des planificateurs et des entrepreneurs expérimentés, il est tenu de respecter les obligations contractuelles décrites dans l'art. C4 CGA ainsi que toutes les règles et obligations en matière de construction.",
+      "sanction": "La violation fautive des obligations contractuelles selon les art. C3 et C4 CGA par les personnes assurées entraîne la réduction ou la suppression du droit aux prestations, ceci dans la mesure où la cause du sinistre ou l’importance du dommage en a été influencée. Aucune réduction ou suppression des prestations n'est applicable dans les cas suivants: • il résulte des circonstances que la violation n’est pas imputable au preneur d’assurance ou à l’ayant droit; • le preneur d’assurance apporte la preuve que la violation n’a pas eu d’incidence sur le sinistre et sur l’étendue des prestations dues par la Vaudoise."
+    },
+    {
+      "name": "C4.14 – Devoir d'informer les personnes chargées de l'exécution des travaux",
+      "timing": "A temps",
+      "page": 31,
+      "description": "Le preneur d'assurance est responsable du fait que les obligations mises à sa charge par le présent contrat soient portées à temps à la connaissance des personnes chargées de l'exécution des travaux (y compris planification).",
+      "sanction": "La violation fautive des obligations contractuelles selon les art. C3 et C4 CGA par les personnes assurées entraîne la réduction ou la suppression du droit aux prestations, ceci dans la mesure où la cause du sinistre ou l’importance du dommage en a été influencée. Aucune réduction ou suppression des prestations n'est applicable dans les cas suivants: • il résulte des circonstances que la violation n’est pas imputable au preneur d’assurance ou à l’ayant droit; • le preneur d’assurance apporte la preuve que la violation n’a pas eu d’incidence sur le sinistre et sur l’étendue des prestations dues par la Vaudoise."
+    },
+    {
+      "name": "B8.4 – Obligations relatives aux substances dangereuses pour l'environnement",
+      "timing": "En permanence",
+      "page": 25,
+      "description": "Les personnes assurées ont l’obligation de veiller à ce que: • la production, le traitement, le ramassage, les installations utilisées pour les activités susmentionnées, y compris les dispositifs de sécurité et d’alarme, soient entretenus et maintenus en exploitation selon les règles de l’art, en respectant les prescriptions techniques et légales ainsi que celles édictées par les autorités; • les décisions rendues par les autorités pour l’assainissement et des mesures analogues soient exécutées dans les délais prescrits.",
+      "sanction": "La violation fautive des obligations contractuelles selon les art. C3 et C4 CGA par les personnes assurées entraîne la réduction ou la suppression du droit aux prestations, ceci dans la mesure où la cause du sinistre ou l’importance du dommage en a été influencée. Aucune réduction ou suppression des prestations n'est applicable dans les cas suivants: • il résulte des circonstances que la violation n’est pas imputable au preneur d’assurance ou à l’ayant droit; • le preneur d’assurance apporte la preuve que la violation n’a pas eu d’incidence sur le sinistre et sur l’étendue des prestations dues par la Vaudoise."
+    },
+    {
+      "name": "B10.6 – Protection juridique pénale: suivre les instructions de la Vaudoise",
+      "timing": "Pendant l'enquête ou la procédure pénale",
+      "page": 27,
+      "description": "La personne assurée est tenue de suivre les instructions de la Vaudoise et de porter immédiatement à sa connaissance toutes les communications verbales ou écrites relatives à l'enquête ou à la procédure pénale.",
+      "sanction": "Si, de son propre chef ou contrairement aux instructions de la Vaudoise, la personne assurée procède à des démarches quelconques, en particulier si elle fait valoir un moyen de droit sans l'assentiment formel de la Vaudoise, elle le fait à ses risques et frais."
+    },
+    {
+      "name": "D1.1 – Avis immédiat du sinistre et abstention de toute prise de position",
+      "timing": "Immédiatement",
+      "page": 33,
+      "description": "S’il survient un sinistre dont les suites prévisibles peuvent concerner l’assurance, ou si des prétentions en dommages-intérêts sont dirigées contre une personne assurée, le preneur d’assurance est tenu d’en aviser immédiatement la Vaudoise. La personne assurée doit seconder la Vaudoise dans son enquête sur les faits et s’abstenir de toute prise de position personnelle sur les réclamations du lésé. La personne assurée n’est notamment pas autorisée à reconnaître des réclamations en dommages-intérêts ou à indemniser le lésé.",
+      "sanction": "Les personnes assurées subissent elles-mêmes toutes les conséquences d’une violation fautive de l’obligation d’avis."
+    },
+    {
+      "name": "D1.2 – Avis en cas de contravention, de poursuite pénale ou d'action judiciaire du lésé",
+      "timing": "Immédiatement",
+      "page": 33,
+      "description": "Lorsque, à la suite d’un sinistre, la personne assurée fait l’objet d’une contravention ou d’une poursuite pénale, ou lorsque le lésé fait valoir ses droits par voie judiciaire, la Vaudoise doit en être également avisée immédiatement.",
+      "sanction": null
+    },
+    {
+      "name": "D1.3 – Documents et attestations à fournir",
+      "timing": "En cas de sinistre",
+      "page": 33,
+      "description": "En cas de sinistre, les assurés doivent fournir les plans de sécurité, de contrôle et de mesures requis par les normes SIA ainsi que les attestations appropriées (par ex. une attestation de stabilité), non seulement pour le projet de construction lui-même, mais également pour son environnement.",
+      "sanction": "Lorsqu’une personne assurée transgresse de manière fautive l’une de ses obligations contractuelles, la Vaudoise est déliée de toute obligation à son égard. Aucune réduction ou suppression des prestations n'est applicable dans les cas suivants: • il résulte des circonstances que la violation n’est pas imputable au preneur d’assurance ou à l’ayant droit; • le preneur d’assurance apporte la preuve que la violation n’a pas eu d’incidence sur le sinistre et sur l’étendue des prestations dues par la Vaudoise."
+    },
+    {
+      "name": "D1.4 – Assurance travaux de construction: justifier les prétentions, préserver les choses assurées, restreindre le dommage",
+      "timing": "En cas de sinistre",
+      "page": 33,
+      "description": "Le preneur d’assurance ou l’ayant droit doit justifier les prétentions et faire tout son possible pour conserver et préserver les choses assurées et pour restreindre le dommage. Le preneur d’assurance ou l’ayant droit doit lors de vol, de tentative de vol, d’actes de malveillance ou lors de troubles intérieurs, informer la police et ne pas modifier ni faire disparaître les traces sans son accord. L’ayant droit doit rembourser l’indemnité qui lui a été versée pour les objets retrouvés (déduction faite d’un certain montant pour une moins-value éventuelle) ou mettre ceux-ci à disposition de la Vaudoise.",
+      "sanction": "Lorsqu’une personne assurée transgresse de manière fautive l’une de ses obligations contractuelles, la Vaudoise est déliée de toute obligation à son égard. Aucune réduction ou suppression des prestations n'est applicable dans les cas suivants: • il résulte des circonstances que la violation n’est pas imputable au preneur d’assurance ou à l’ayant droit; • le preneur d’assurance apporte la preuve que la violation n’a pas eu d’incidence sur le sinistre et sur l’étendue des prestations dues par la Vaudoise."
+    },
+    {
+      "name": "D4 – Cession des prétentions contre des tiers",
+      "timing": "Après paiement de l'indemnité",
+      "page": 34,
+      "description": "L'ayant droit doit céder à la Vaudoise les prétentions qu'il a contre des tiers à concurrence de l'indemnité payée.",
+      "sanction": null
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Aviser immédiatement la Vaudoise",
+      "deadline": "Immédiatement",
+      "page": 33,
+      "description": "S’il survient un sinistre dont les suites prévisibles peuvent concerner l’assurance, ou si des prétentions en dommages-intérêts sont dirigées contre une personne assurée, le preneur d’assurance est tenu d’en aviser immédiatement la Vaudoise."
+    },
+    {
+      "step": "Retard de construction / interruption d'exploitation: aviser la Vaudoise",
+      "deadline": "Au plus tard dans les 48 heures",
+      "page": 16,
+      "description": "en aviser la Vaudoise au plus tard dans les 48 heures et l’informer d’un dommage potentiel relevant de la couverture correspondante (avec indication de la durée de retard présumée et du montant du dommage);"
+    },
+    {
+      "step": "En cas de vol, tentative de vol, actes de malveillance ou troubles intérieurs: informer la police",
+      "deadline": "Immédiatement (art. A1, chiffre 2 CGA)",
+      "page": 33,
+      "description": "Le preneur d’assurance ou l’ayant droit doit lors de vol, de tentative de vol, d’actes de malveillance ou lors de troubles intérieurs, informer la police et ne pas modifier ni faire disparaître les traces sans son accord."
+    },
+    {
+      "step": "Ne pas reconnaître de réclamation ni indemniser le lésé",
+      "deadline": null,
+      "page": 33,
+      "description": "La personne assurée doit seconder la Vaudoise dans son enquête sur les faits et s’abstenir de toute prise de position personnelle sur les réclamations du lésé. La personne assurée n’est notamment pas autorisée à reconnaître des réclamations en dommages-intérêts ou à indemniser le lésé."
+    },
+    {
+      "step": "Fournir les plans de sécurité, de contrôle et de mesures et les attestations",
+      "deadline": null,
+      "page": 33,
+      "description": "En cas de sinistre, les assurés doivent fournir les plans de sécurité, de contrôle et de mesures requis par les normes SIA ainsi que les attestations appropriées (par ex. une attestation de stabilité), non seulement pour le projet de construction lui-même, mais également pour son environnement."
+    },
+    {
+      "step": "Procédure d'expertise extra-judiciaire (art. A8 CGA)",
+      "deadline": null,
+      "page": 12,
+      "description": "Chaque partie peut demander l’application de la procédure d’expertise extra-judiciaire. Les parties désignent à cet effet chacune un expert et ces derniers nomment un arbitre avant de commencer à évaluer le dommage. Les experts déterminent la cause, l’importance et les circonstances exactes du sinistre y compris la valeur à neuf et la valeur actuelle de la chose endommagée immédiatement avant le sinistre et, pour autant qu’un défaut ait entraîné l’accident de construction, les frais qu’il aurait fallu engager pour éliminer le défaut sans l’accident de construction. Si les constatations des experts diffèrent, l'arbitre décide sur les points contestés dans le cadre des deux rapports. Les constatations faites par les experts dans les limites de leurs attributions lient les parties, s’il n’est pas prouvé qu’elles s’écartent manifestement et sensiblement de l’état de fait. La partie qui prétend que ces constatations s’écartent de l’état de fait est tenue de le prouver. Chaque partie supporte les frais de son expert; les frais de l’arbitre sont répartis par moitié entre les parties."
+    },
+    {
+      "step": "Evaluation du dommage d'interruption",
+      "deadline": "En principe à la fin de la durée de la garantie",
+      "page": 17,
+      "description": "Le montant du dommage d’interruption est en principe évalué à la fin de la durée de la garantie. D’un commun accord, le paiement des sinistres peut déjà intervenir pendant la durée de la garantie. L’ayant droit doit apporter la preuve du montant des réclamations pour sinistres (par ex. preuve des revenus possibles sous forme de contrats de vente et de contrats de bail). Si l’exploitation n’est pas ou n’est plus reprise après le sinistre, seules les pertes de rendement et les frais supplémentaires résultant effectivement du sinistre sont indemnisés."
+    },
+    {
+      "step": "RC: la Vaudoise conduit les pourparlers avec le lésé",
+      "deadline": null,
+      "page": 33,
+      "description": "La Vaudoise conduit les pourparlers avec le lésé et agit, à son choix, en son propre nom ou en qualité de représentante des personnes assurées. Ces dernières sont liées par la liquidation de la Vaudoise à l'égard des prétentions du lésé."
+    },
+    {
+      "step": "RC: versement de l'indemnité et remboursement de la franchise",
+      "deadline": null,
+      "page": 33,
+      "description": "La Vaudoise est en droit de verser l’indemnité directement au lésé, sans en déduire une éventuelle franchise. Dans ce cas, la personne assurée est tenue de rembourser la franchise et doit renoncer à toute opposition."
+    },
+    {
+      "step": "RC: procès et direction du procès",
+      "deadline": null,
+      "page": 33,
+      "description": "Lorsque, en relation avec des prétentions en responsabilité civile, les personnes assurées sont menacées d’une dénonciation à la police ou d’une plainte pénale ou que le lésé fait valoir ses prétentions par la voie judiciaire, la Vaudoise se réserve alors le droit de désigner un défenseur ou un avocat auquel la personne assurée doit donner procuration. La direction du procès doit être confiée à la Vaudoise et elle en supporte les frais. Si le juge alloue aux personnes assurées des dépens, ceux-ci appartiennent à la Vaudoise dans la mesure où ils ne sont pas destinés à couvrir les frais des personnes assurées."
+    },
+    {
+      "step": "RC: interdiction de céder les prétentions sans accord préalable",
+      "deadline": null,
+      "page": 33,
+      "description": "Sauf accord préalable de la Vaudoise, la personne assurée n’est pas autorisée à céder à des lésés ou à des tiers des prétentions issues de cette assurance."
+    },
+    {
+      "step": "RC: droit de recours de la Vaudoise contre la personne assurée",
+      "deadline": null,
+      "page": 33,
+      "description": "La Vaudoise dispose d’un droit de recours contre la personne assurée, pour autant qu’elle eût été autorisée à diminuer ou refuser ses prestations, si les dispositions du présent contrat ou de la LCA, limitant ou supprimant la garantie, ne peuvent être opposées au lésé de par la loi."
+    },
+    {
+      "step": "RC du maître de l'ouvrage: annonce des dommages après la fin du contrat",
+      "deadline": "Au plus tard dans un délai de 60 mois après la fin du contrat",
+      "page": 24,
+      "description": "L'assurance couvre les dommages: • causés pendant la durée du contrat • et qui surviennent pendant la durée du contrat ou dans un délai de 24 mois après son expiration et qui sont annoncés à la Vaudoise au plus tard dans un délai de 60 mois après la fin du contrat."
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "L'assurance prend effet à la date indiquée dans la police. L'assurance prend fin sans résiliation au moment où toutes les prestations de construction - ou, lors de prestations échelonnées, les prestations pour l'unité concernée - sont reçues selon la loi ou selon les normes SIA applicables, mais au plus tard à la date indiquée dans la police (sous réserve de l'art. A7, chiffre 8 CGA).",
+    "tacit_renewal": null,
+    "notice_period": "au plus tard 3 mois avant l’échéance du contrat ou, s’il en a été convenu ainsi, 3 mois avant la fin de l’année d’assurance. La résiliation est considérée comme intervenue à temps si elle parvient à la Vaudoise au plus tard le jour qui précède le début du délai de 3 mois.",
+    "methods": [
+      "par écrit",
+      "par tout autre moyen permettant d'établir la preuve par un texte"
+    ],
+    "special_rights": [
+      "Fin sans résiliation (art. C1, chiffre 3 CGA): L'assurance prend fin sans résiliation au moment où toutes les prestations de construction - ou, lors de prestations échelonnées, les prestations pour l'unité concernée - sont reçues selon la loi ou selon les normes SIA applicables, mais au plus tard à la date indiquée dans la police (sous réserve de l'art. A7, chiffre 8 CGA).",
+      "Résiliation par le preneur d'assurance à l'échéance: au plus tard 3 mois avant l’échéance du contrat ou, s’il en a été convenu ainsi, 3 mois avant la fin de l’année d’assurance. La résiliation est considérée comme intervenue à temps si elle parvient à la Vaudoise au plus tard le jour qui précède le début du délai de 3 mois. Les contrats limités dans le temps, sans clause de prolongation, prennent fin à la date indiquée dans la proposition, respectivement dans la police;",
+      "Résiliation par le preneur d'assurance après sinistre: après chaque évènement assuré pour lequel une prestation est due, mais au plus tard 14 jours après avoir eu connaissance du paiement final de l'indemnité par la Vaudoise. Dans ce cas, la responsabilité de la Vaudoise cesse 14 jours après la notification de la résiliation à la Vaudoise;",
+      "Résiliation par le preneur d'assurance en cas de modification du tarif: en cas de modification du tarif des primes par la Vaudoise. Dans ce cas, la résiliation doit parvenir à la Vaudoise au plus tard le dernier jour de l’année d’assurance;",
+      "Résiliation par le preneur d'assurance en cas de violation du devoir d'information (art. 3 LCA): si la Vaudoise ne remplit pas son devoir d’information légale selon l’art. 3 LCA. Ce droit de résiliation s’éteint 4 semaines après que vous ayez eu connaissance de cette violation, mais au plus tard 2 ans après la contravention.",
+      "Résiliation par la Vaudoise à l'échéance: au plus tard 3 mois avant l’échéance du contrat ou, s’il en a été convenu ainsi, 3 mois avant la fin de l’année d’assurance. La résiliation est considérée comme intervenue à temps si elle vous parvient au plus tard le jour qui précède le début du délai de 3 mois. Les contrats limités dans le temps, sans clause de prolongation, prennent fin à la date indiquée dans la proposition, respectivement dans la police;",
+      "Résiliation par la Vaudoise après sinistre: après chaque évènement assuré pour lequel une prestation est due, si le contrat est résilié au plus tard lors du paiement final de l’indemnité. Dans ce cas, la responsabilité de la Vaudoise cesse 14 jours après que la notification de la résiliation vous soit parvenue;",
+      "Résiliation par la Vaudoise en cas de réticence: dans les 4 semaines dès la connaissance de la réticence, si vous avez omis de déclarer ou avez inexactement déclaré un fait important que vous connaissiez ou deviez connaître et sur lequel vous avez été questionné par écrit. La résiliation prend effet lorsqu'elle vous parvient.",
+      "Départ du contrat par la Vaudoise: si vous avez été sommé de payer une prime en souffrance et que la Vaudoise a, par la suite, renoncé à engager des poursuites relatives à ce paiement; • en cas de fraude à l’assurance.",
+      "Aggravation du risque (art. C2, chiffre 2 CGA): En cas d’aggravation du risque, la Vaudoise peut procéder à une augmentation de prime proportionnelle pour le reste de la durée contractuelle, subordonner la poursuite du contrat à des conditions supplémentaires, ou encore résilier le contrat moyennant préavis de quatre semaines et dans le délai de quatre semaines dès réception de l’avis d’aggravation du risque. Le preneur d’assurance dispose du même droit de résiliation s’il n’est pas possible de parvenir à un accord sur l’augmentation de prime ou sur les conditions supplémentaires.",
+      "Diminution du risque (art. C2, chiffre 3 CGA): En cas de diminution importante du risque, le preneur d’assurance est en droit de résilier le contrat par écrit ou par tout autre moyen permettant d'en établir la preuve par un texte avec un préavis de quatre semaines ou d’exiger une réduction de la prime.",
+      "Couverture provisoire (art. C1, chiffre 2 CGA): Lorsqu'elle refuse l'acceptation définitive de l'assurance proposée, la Vaudoise peut résilier la couverture provisoire moyennant un délai de 14 jours.",
+      "Droit de révocation: Au sens des art. 2a et 2b LCA, vous disposez d'un droit de révocation de 14 jours dès la signature de la proposition d'assurance. Ce droit peut être exercé par écrit ou par tout autre moyen permettant d'en établir la preuve par un texte. Le délai de révocation est respecté si la révocation est envoyée le dernier jour du délai. Le droit de révocation n'est pas applicable pour les couvertures provisoires et les conventions d’une durée inférieure à un mois."
+    ],
+    "page": 28
+  },
+  "prescription_period": {
+    "description": "Le document ne fixe pas de délai de prescription général des prétentions de l'ayant droit. Il indique uniquement, au sujet de la réticence: \"Le droit de la Vaudoise au dit remboursement se prescrit par 1 an à compter du jour où les conditions de la réticence ont été établies et, dans tous les cas, par 10 ans dès la naissance du droit.\" Pour la RC du maître de l'ouvrage, les dommages doivent en outre être \"annoncés à la Vaudoise au plus tard dans un délai de 60 mois après la fin du contrat\" (art. B6, chiffre 1 CGA, page 24).",
+    "page": 5
+  },
+  "premium": {
+    "notes": [
+      "La prime est payable à l'avance pour toute la durée de la construction.",
+      "En cas de non-paiement, le preneur d'assurance est sommé, par écrit et à ses frais, d'effectuer le paiement dans les 14 jours à partir de l'envoi de la sommation, laquelle rappellera les conséquences du retard. Des frais administratifs de sommation et de réquisition de poursuite sont facturés. Si cette sommation reste sans effet, les obligations de la Vaudoise sont suspendues, dès l'expiration du délai de sommation et jusqu'au paiement complet des primes, droit de timbre fédéral et frais compris.",
+      "La proposition ou la police détermine le mode de calcul des primes.",
+      "La proposition, la police et les conditions contractuelles précisent les risques assurés ainsi que l'étendue de la couverture d'assurance. De même, la proposition ainsi que la police contiennent toutes les données relatives à la prime. En cas de paiement fractionné, un supplément peut être perçu.",
+      "En cas d’aggravation du risque, la Vaudoise peut procéder à une augmentation de prime proportionnelle pour le reste de la durée contractuelle, subordonner la poursuite du contrat à des conditions supplémentaires, ou encore résilier le contrat moyennant préavis de quatre semaines et dans le délai de quatre semaines dès réception de l’avis d’aggravation du risque. Le preneur d’assurance dispose du même droit de résiliation s’il n’est pas possible de parvenir à un accord sur l’augmentation de prime ou sur les conditions supplémentaires.",
+      "La réduction de la prime prend effet dès que la demande parvient à la Vaudoise.",
+      "La prime partielle calculée jusqu’à l’extinction de la couverture provisoire reste due à la Vaudoise.",
+      "Si tout ou partie de la somme d'assurance a été utilisée pour des paiements de sinistres, le preneur d'assurance peut demander, pour des sinistres non encore survenus, sa reconstitution moyennant une prime complémentaire à convenir."
+    ],
+    "indexation": null,
+    "page": 31
+  },
+  "special_conditions": [
+    {
+      "name": "Identité de l'assureur",
+      "page": 4,
+      "description": "L'assureur est la VAUDOISE GENERALE, Compagnie d'Assurances SA (ci-après appelée \"la Vaudoise\"). La Vaudoise est une société anonyme de droit suisse. Son siège social se trouve à l'avenue de Cour 41, 1007 Lausanne."
+    },
+    {
+      "name": "Nature de l'assurance (assurance de sommes ou de dommages)",
+      "page": 4,
+      "description": "Votre assurance peut être une assurance de sommes ou de dommages. En cas d'assurance de sommes, la prestation d’assurance est due indépendamment du fait que l’événement assuré ait ou non provoqué un dommage pécuniaire et quelle que soit son ampleur effective. Pour une assurance dommages, un dommage pécuniaire constitue à la fois la condition et le critère pour le calcul de l’obligation de prestation de l’assureur. Vous trouvez des informations sur la nature de votre produit d'assurance sur notre page internet : www.vaudoise.ch."
+    },
+    {
+      "name": "Protection des données et système d'information HIS",
+      "page": 6,
+      "description": "Les informations relatives à la protection des données et aux traitements de vos données personnelles sont disponibles sur le site web de la Vaudoise: www.vaudoise.ch/data. Ces informations peuvent être mises à jour de temps à autre en fonction des évolutions dans ce domaine. Seule la dernière version de ces informations publiée sur ce site fait foi. Vous pouvez vous adresser à votre conseiller afin d'obtenir un exemplaire de la dernière version de ces informations au format papier. Les compagnies d'assurance disposent d'un système d'information centralisé dénommé \"HIS\" (Hinweis- und Informationssystem) collectant des données relatives notamment aux preneurs d'assurance, aux assurés et aux lésés. Afin de lutter contre la fraude à l'assurance, la Vaudoise est autorisée en cas de sinistre à échanger des données dans le cadre de HIS. Celui-ci est géré par la Société SVV Solution AG, société de services de l'Association Suisse d'Assurances (ASA). Vous trouverez plus d'informations sur le site www.svv.ch en cas d'intérêt. Pour les assurances responsabilité civile obligatoires, vous autorisez la Vaudoise à transmettre aux autorités compétentes toutes les informations relatives à l'assurance et notamment à informer les autorités compétentes en cas de cessation ou de suspension de la couverture d'assurance, ainsi qu'en cas d'épuisement de la somme d'assurance."
+    },
+    {
+      "name": "A3 – Intérêts assurés",
+      "page": 8,
+      "description": "L’assurance couvre les détériorations ou destructions résultant d’accidents de construction imprévus selon l'art. A1, chiffre 1 CGA, qui, selon la législation ou les normes SIA, vont à la charge du maître de l’ouvrage, de ses mandataires (architectes, ingénieurs, etc.) et des entreprises participant au chantier, y compris leurs sous-traitants, pour autant que leurs prestations soient comprises dans la somme d'assurance."
+    },
+    {
+      "name": "A4 – Sommes d'assurance",
+      "page": 9,
+      "description": "La somme d'assurance doit correspondre au coût total prévu des travaux de construction, de rénovation et de montage, y compris les honoraires pour la planification et la conduite des travaux ainsi que les prestations effectuées par le maître de l'ouvrage lui-même sur la base du coût des matériaux de construction et des tarifs usuels des corps de métier. La somme d'assurance correspond ainsi aux prestations de construction selon le code des frais de construction (CFC), chapitres 1 à 4, y compris les honoraires et la TVA. Les sommes d'assurance des couvertures complémentaires selon l'art. A2, chiffre 3 CGA sont convenues selon convention particulière au premier risque; il ne peut pas y avoir de sous-assurance. Si tout ou partie de la somme d'assurance a été utilisée pour des paiements de sinistres, le preneur d'assurance peut demander, pour des sinistres non encore survenus, sa reconstitution moyennant une prime complémentaire à convenir."
+    },
+    {
+      "name": "A5 – Prestations de la Vaudoise (base de calcul, prestations de construction, frais de déblaiement, couvertures complémentaires, sous-assurance)",
+      "page": 9,
+      "description": "Les conventions en matière de prix stipulées dans le contrat d'entreprise constituent la base du calcul de l'indemnité. Les travaux de remise en état réalisés par les entrepreneurs assurés et impliqués dans la survenance du dommage, sont indemnisés au prix de revient. En cas d'endommagement ou de destruction de prestations de construction selon l'art. A2, chiffre 1 CGA, la Vaudoise paie les frais qu'il faut engager pour rétablir la situation existant immédiatement avant la survenance du sinistre, mais au maximum la somme d'assurance convenue. La Vaudoise rembourse, jusqu'à la somme d'assurance convenue au premier risque, les frais de localisation du dommage, de déblaiement, de décontamination et de démolition et reconstruction selon l'art. A2, chiffre 2 CGA. En cas de détérioration ou de destruction de choses assurées selon l'art. A2, chiffre 3 CGA, la Vaudoise rembourse: • en cas de dommage total: la valeur actuelle de ces choses immédiatement avant le sinistre. Il y a dommage total lorsque les frais de remise en état excèdent la valeur actuelle de la chose endommagée. Par valeur actuelle, il faut entendre la valeur à neuf sous déduction de la dépréciation due à l'ancienneté et/ou à l'usure; • en cas de dommage partiel: les frais de remise en état (pour les marchandises, tout au plus le prix courant); au maximum toutefois la somme d’assurance convenue au premier risque. Si, dans le cadre d'un sinistre, la Vaudoise constate que les coûts de construction prévisibles sont supérieurs à la somme d'assurance convenue dans le contrat dans une proportion supérieure à 10%, le dommage n'est indemnisé que dans le rapport qui existe entre la somme d'assurance convenue et les coûts de construction prévisibles. Pour les couvertures complémentaires assurées moyennant convention particulière, la Vaudoise renonce à invoquer une sous-assurance."
+    },
+    {
+      "name": "A8 – Procédure d'expertise",
+      "page": 12,
+      "description": "Chaque partie peut demander l’application de la procédure d’expertise extra-judiciaire. Les parties désignent à cet effet chacune un expert et ces derniers nomment un arbitre avant de commencer à évaluer le dommage. Les experts déterminent la cause, l’importance et les circonstances exactes du sinistre y compris la valeur à neuf et la valeur actuelle de la chose endommagée immédiatement avant le sinistre et, pour autant qu’un défaut ait entraîné l’accident de construction, les frais qu’il aurait fallu engager pour éliminer le défaut sans l’accident de construction. Si les constatations des experts diffèrent, l'arbitre décide sur les points contestés dans le cadre des deux rapports. Les constatations faites par les experts dans les limites de leurs attributions lient les parties, s’il n’est pas prouvé qu’elles s’écartent manifestement et sensiblement de l’état de fait. La partie qui prétend que ces constatations s’écartent de l’état de fait est tenue de le prouver. Chaque partie supporte les frais de son expert; les frais de l’arbitre sont répartis par moitié entre les parties."
+    },
+    {
+      "name": "B2 – Personnes assurées",
+      "page": 20,
+      "description": "L’assurance couvre la responsabilité civile: 1. Preneur d'assurance du preneur d’assurance en tant que maître de l’ouvrage du projet de construction désigné dans la police et en tant que propriétaire du terrain qui en fait partie. Si le preneur d’assurance est une société de personnes (par ex. une société en nom collectif), une communauté de propriétaires en main commune (par ex. une communauté d’héritiers) ou s’il a conclu l’assurance pour le compte de tiers (par ex. en sa qualité d’architecte ou d’entrepreneur général), les associés, les membres de la communauté ou les autres personnes au bénéfice de l’assurance ont les mêmes droits et obligations que le preneur d’assurance; des employés et autres auxiliaires du preneur d’assurance (à l’exception des entrepreneurs et hommes de métier indépendants auxquels le preneur a recours, tels que les entrepreneurs en bâtiment, architectes, ingénieurs civils, géologues, sous-traitants, etc.) dans l’accomplissement de leurs obligations contractuelles ou professionnelles en rapport avec l’ouvrage assuré et le bien-fonds correspondant; du propriétaire ou de celui qui ne jouit que d’un droit réel limité sur le terrain à bâtir et/ou sur le bâtiment, lorsque le preneur d’assurance n’est que maître de l'ouvrage et non propriétaire du terrain et/ou du bâtiment faisant partie de l’ouvrage assuré (par ex. droit de superficie, aménagements effectués par des locataires); du propriétaire d’un terrain grevé d’un droit de passage pour conduites ou à pied en vertu d’un contrat de servitude, pour des dommages en rapport avec la construction de l’ouvrage sur son terrain (conduite, canal, route, etc.). Cette couverture est limitée à la part de l’indemnité excédant la somme d’assurance de l’assurance que ce propriétaire a conclue pour couvrir la responsabilité civile lui incombant légalement du fait de la propriété du terrain (assurance complémentaire). Cette restriction devient caduque s’il n’existe par ailleurs aucune assurance responsabilité civile de ce genre pour le terrain en question."
+    },
+    {
+      "name": "B3.2 – Somme d'assurance: garantie unique pour toute la durée du contrat",
+      "page": 21,
+      "description": "La somme d’assurance est une garantie unique pour toute la durée du contrat, elle n’est payée au maximum qu’une fois pour l’ensemble des dommages, des frais de prévention de dommages et des autres frais éventuellement assurés survenus pendant la durée du contrat."
+    },
+    {
+      "name": "B6 – Validité dans le temps (principe, date de survenance, dommage en série)",
+      "page": 24,
+      "description": "L'assurance couvre les dommages: • causés pendant la durée du contrat • et qui surviennent pendant la durée du contrat ou dans un délai de 24 mois après son expiration et qui sont annoncés à la Vaudoise au plus tard dans un délai de 60 mois après la fin du contrat. Est considéré comme date de survenance du dommage le moment où celui-ci est constaté pour la première fois. Une lésion corporelle est censée être survenue, en cas de doute, au moment où le lésé consulte pour la première fois un médecin au sujet des symptômes relatifs à cette atteinte à la santé, même si le lien de causalité n’est établi qu’ultérieurement. Les dommages survenant après l'expiration du contrat sont considérés comme survenus le jour de la fin du contrat. Est considéré comme date de survenance pour les frais de prévention de dommages le moment où l’imminence d’un dommage est constatée pour la première fois. L'ensemble des prétentions résultant de dommages dus à la même cause (par ex. plusieurs prétentions élevées à la suite de dommages qui procèdent d'un même défaut tel que, notamment, une erreur dans la conception, la construction, la production ou les instructions, d'un vice ou défaut d'un produit ou d'une substance, ou du même acte, respectivement de la même omission), est considéré comme un seul et unique dommage (dommage en série). Le nombre de lésés, de demandeurs ou d'ayants droit est sans importance. En cas de dommage en série, tous les dommages sont censés être survenus au moment où le premier de ces dommages selon chiffre 2 ci-dessus est survenu. Si le premier dommage d’une série survient avant le début du contrat, toutes les prétentions issues de cette série sont exclues de la couverture d’assurance."
+    },
+    {
+      "name": "A10.1 – Intérêts couverts limités au maître de l'ouvrage",
+      "page": 16,
+      "description": "En dérogation partielle à l'art. A3 CGA et dans le cadre de l'assurance complémentaire combinée, cette extension de couverture couvre les intérêts du maître de l’ouvrage uniquement."
+    },
+    {
+      "name": "C1.2 – Couverture provisoire",
+      "page": 28,
+      "description": "Lorsqu’une couverture provisoire est convenue, la Vaudoise est liée pendant la durée de la couverture provisoire, mais peut refuser l’acceptation définitive de l’assurance proposée. Lorsqu'elle refuse l'acceptation définitive de l'assurance proposée, la Vaudoise peut résilier la couverture provisoire moyennant un délai de 14 jours. La prime partielle calculée jusqu’à l’extinction de la couverture provisoire reste due à la Vaudoise. La couverture provisoire prend fin dans tous les cas lors de la conclusion définitive du contrat d'assurance."
+    },
+    {
+      "name": "C5 – Conséquences de la violation des obligations contractuelles",
+      "page": 31,
+      "description": "La violation fautive des obligations contractuelles selon les art. C3 et C4 CGA par les personnes assurées entraîne la réduction ou la suppression du droit aux prestations, ceci dans la mesure où la cause du sinistre ou l’importance du dommage en a été influencée. Aucune réduction ou suppression des prestations n'est applicable dans les cas suivants: • il résulte des circonstances que la violation n’est pas imputable au preneur d’assurance ou à l’ayant droit; • le preneur d’assurance apporte la preuve que la violation n’a pas eu d’incidence sur le sinistre et sur l’étendue des prestations dues par la Vaudoise."
+    },
+    {
+      "name": "C8 – Communications",
+      "page": 32,
+      "description": "Toutes les communications à la Vaudoise doivent être adressées soit au siège social à Lausanne, soit à l'une de ses agences en Suisse. Toutes les communications incombant à la Vaudoise sont faites valablement à la dernière adresse qui lui a été communiquée."
+    },
+    {
+      "name": "C10 – For et droit applicable",
+      "page": 32,
+      "description": "Seuls les tribunaux suisses ou liechtensteinois sont compétents pour les litiges relevant du contrat d'assurance. Comme for de juridiction, la personne assurée a le choix entre le for ordinaire suisse ou liechtensteinois, le for de son domicile suisse ou liechtensteinois ou le for de son siège suisse ou liechtensteinois. Le contrat d’assurance est exclusivement régi par le droit suisse, en particulier par les dispositions de la Loi fédérale sur le contrat d'assurance (LCA). Pour les assurances dans la Principauté du Liechtenstein, les dispositions de la loi liechtensteinoise, et en particulier la Loi sur le contrat d'assurance liechtensteinoise, dont les dispositions impératives priment sur les dispositions contractuelles contraires, sont valables."
+    },
+    {
+      "name": "D3 – Conséquences de la violation du devoir d'avis et des obligations contractuelles",
+      "page": 34,
+      "description": "Les personnes assurées subissent elles-mêmes toutes les conséquences d’une violation fautive de l’obligation d’avis. Lorsqu’une personne assurée transgresse de manière fautive l’une de ses obligations contractuelles, la Vaudoise est déliée de toute obligation à son égard. Aucune réduction ou suppression des prestations n'est applicable dans les cas suivants: • il résulte des circonstances que la violation n’est pas imputable au preneur d’assurance ou à l’ayant droit; • le preneur d’assurance apporte la preuve que la violation n’a pas eu d’incidence sur le sinistre et sur l’étendue des prestations dues par la Vaudoise."
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Conditions générales Edition du 01.01.2022 Assurances de construction",
+      "context": "Page de couverture: titre et date d'édition",
+      "page": 1
+    },
+    {
+      "quote": "L'assureur est la VAUDOISE GENERALE, Compagnie d'Assurances SA (ci-après appelée \"la Vaudoise\"). La Vaudoise est une société anonyme de droit suisse. Son siège social se trouve à l'avenue de Cour 41, 1007 Lausanne.",
+      "context": "Porteur du risque nommé par le document",
+      "page": 4
+    },
+    {
+      "quote": "L’assurance couvre les détériorations et destructions survenant de manière soudaine et imprévue pendant la durée du contrat (accident de construction).",
+      "context": "Objet de la couverture de base - accident de construction",
+      "page": 7
+    },
+    {
+      "quote": "Il y a accident de construction au sens de l'assurance travaux de construction lorsque des prestations de construction selon art. A2 chiffre 1 CGA, ou d'autres choses expressément assurées contre ce risque, sont détériorées ou détruites à la suite d'un événement soudain et imprévu (par ex. effondrement d'une dalle, effondrement de la fouille, dégâts d'eau à la suite d'un événement soudain et imprévu).",
+      "context": "Définition de l'accident de construction",
+      "page": 7
+    },
+    {
+      "quote": "Le vol, le vandalisme ainsi que les incendies et les événements naturels au sens de l'art. A1, chiffres 2 à 4 CGA, ne sont pas considérés comme des accidents de construction.",
+      "context": "Délimitation du risque de base",
+      "page": 7
+    },
+    {
+      "quote": "L'assurance couvre les actes de malveillance (vandalisme) commis sur des prestations de construction selon art. A2 chiffre 1 CGA ou d'autres choses expressément assurées contre ce risque.",
+      "context": "Vandalisme",
+      "page": 7
+    },
+    {
+      "quote": "Pour autant qu'une assurance bâtiment avec couverture incendie et événements naturels ait été conclue et couvre les prestations de construction selon l'art. A2, chiffre 1 CGA pour toute la durée des travaux, l'assurance travaux de construction couvre également, subsidiairement à la couverture de l'assurance bâtiment, les dommages consécutifs à un incendie ou un événement naturel occasionnés aux prestations de construction qui ne pouvaient pas être incluses dans le cadre de l'assurance bâtiment (par ex. blindage de fouille, etc.).",
+      "context": "Couverture subsidiaire incendie et événements naturels",
+      "page": 7
+    },
+    {
+      "quote": "Sont assurées les prestations de construction - y compris les matériaux et éléments de construction qui en font partie - si elles sont comprises dans la somme d'assurance. Sauf convention contraire l'ouvrage est assuré dans sa totalité - pour les bâtiments l'ouvrage \"clé en main\".",
+      "context": "Objet de l'assurance",
+      "page": 8
+    },
+    {
+      "quote": "L’assurance couvre les détériorations ou destructions résultant d’accidents de construction imprévus selon l'art. A1, chiffre 1 CGA, qui, selon la législation ou les normes SIA, vont à la charge du maître de l’ouvrage, de ses mandataires (architectes, ingénieurs, etc.) et des entreprises participant au chantier, y compris leurs sous-traitants, pour autant que leurs prestations soient comprises dans la somme d'assurance.",
+      "context": "Intérêts assurés",
+      "page": 8
+    },
+    {
+      "quote": "La somme d'assurance doit correspondre au coût total prévu des travaux de construction, de rénovation et de montage, y compris les honoraires pour la planification et la conduite des travaux ainsi que les prestations effectuées par le maître de l'ouvrage lui-même sur la base du coût des matériaux de construction et des tarifs usuels des corps de métier. La somme d'assurance correspond ainsi aux prestations de construction selon le code des frais de construction (CFC), chapitres 1 à 4, y compris les honoraires et la TVA.",
+      "context": "Somme d'assurance de la couverture de base",
+      "page": 9
+    },
+    {
+      "quote": "Si, dans le cadre d'un sinistre, la Vaudoise constate que les coûts de construction prévisibles sont supérieurs à la somme d'assurance convenue dans le contrat dans une proportion supérieure à 10%, le dommage n'est indemnisé que dans le rapport qui existe entre la somme d'assurance convenue et les coûts de construction prévisibles.",
+      "context": "Règle de sous-assurance (10%)",
+      "page": 9
+    },
+    {
+      "quote": "La franchise convenue dans la police est déduite de chaque indemnité versée. Si lors d'un même événement, un dommage concerne plusieurs choses ou frais, il n'est tenu compte de la franchise qu'une seule fois. Si différentes franchises ont été convenues, le montant le plus élevé sera pris en considération.",
+      "context": "Franchise de l'assurance travaux de construction",
+      "page": 10
+    },
+    {
+      "quote": "Sont exclus de l'assurance: 1. Moins-value Une éventuelle moins-value résultant de la remise en état ainsi que des dommages dus à une réparation ou à une remise en état inappropriées.",
+      "context": "Chapeau des exclusions A7 et première exclusion",
+      "page": 10
+    },
+    {
+      "quote": "Les frais engagés pour remédier à des défauts; sont notamment considérés comme défauts: • la simple absence d'étanchéité ou la perméabilité du béton, à moins qu'elle ne soit la conséquence d'un accident de construction au sens de l'art. A1, chiffre 1 CGA; • l'inétanchéité de canalisations et de conduites ainsi que les déviations par rapport à l'alignement prévu; • les formations de fissures qui ne sont pas la conséquence d'un accident de construction au sens de l'art. A1, chiffre 1 CGA; • les dommages dus à un tassement qui ne sont pas consécutifs à un accident de construction au sens de l'art. A1, chiffre 1 CGA; • des pentes insuffisantes, des affaissements ou soulèvements ainsi que des déformations horizontales de conduites ou canalisations; • l'implantation inexacte d'une enceinte de fouilles par rapport au plan; • la portance insuffisante ou inférieure à celle attendue des pieux, leur abaissement/remontée suite, par exemple, à des vibrations ou à une autre cause.",
+      "context": "Exclusion des défauts (A7, chiffre 11)",
+      "page": 11
+    },
+    {
+      "quote": "Les dommages survenant lors d’événements de guerre, de violations de neutralité, de révolutions, de rébellions et de révoltes, de tremblements de terre, d'éruptions volcaniques, de modification de la structure du noyau de l'atome, de réaction nucléaire, de rayonnement nucléaire ou ionisant, ainsi que les dommages dus au dégel du permafrost ou dus au débordement ou à l'écoulement des eaux des lacs artificiels d'une capacité supérieure à 500'000 m3.",
+      "context": "Exclusion guerre / tremblements de terre / événements catastrophiques",
+      "page": 12
+    },
+    {
+      "quote": "Pour autant qu'elle soit expressément convenue dans la police, la couverture complémentaire combinée comprend, jusqu'à hauteur de la somme d'assurance convenue, les dommages aux choses indiquées ci-dessous.",
+      "context": "Caractère optionnel de la couverture complémentaire combinée",
+      "page": 12
+    },
+    {
+      "quote": "Pour autant que les extensions de couverture ci-après soient expressément convenues dans la police, la couverture complémentaire combinée selon l'art. A9 CGA s'étend également aux dommages et frais suivants, jusqu'à hauteur de la somme d'assurance convenue pour l'extension de couverture concernée.",
+      "context": "Caractère optionnel des extensions de couverture",
+      "page": 15
+    },
+    {
+      "quote": "Sauf convention contraire expresse, la durée de garantie est de 12 mois. Sauf convention contraire expresse, le délai de carence est de 7 jours. Des retards d’une durée inférieure au délai de carence sont exclus de l’assurance.",
+      "context": "Durée de garantie et délai de carence de l'extension retards/interruption",
+      "page": 16
+    },
+    {
+      "quote": "Sont assurés jusqu'à hauteur de la somme d'assurance convenue dans la police, pendant deux ans dès la fin du contrat selon l'art. C1, chiffre 3 CGA, les dommages touchant les prestations de construction assurées: • en rapport avec l'exécution de travaux effectués par les entrepreneurs assurés en vertu de leurs obligations contractuelles relatives à la garantie ou • pour lesquels il est avéré qu'ils ont été causés pendant la période de construction et qui sont imputables aux travaux de construction. La preuve incombe au preneur d'assurance.",
+      "context": "Prolongation de couverture après la fin des travaux (maintenance)",
+      "page": 19
+    },
+    {
+      "quote": "Est assurée la responsabilité fondée sur les dispositions légales en matière de responsabilité civile et découlant du projet de construction désigné dans la police en cas de: • lésions corporelles (mort, blessures ou autre atteinte à la santé de personnes); • dégâts matériels (destruction, détérioration ou perte de choses); • dommages économiques (dommages appréciables en argent) consécutifs à des lésions corporelles assurées ou des dégâts matériels assurés causés à un lésé.",
+      "context": "Objet de l'assurance RC du maître de l'ouvrage",
+      "page": 20
+    },
+    {
+      "quote": "La somme d’assurance est une garantie unique pour toute la durée du contrat, elle n’est payée au maximum qu’une fois pour l’ensemble des dommages, des frais de prévention de dommages et des autres frais éventuellement assurés survenus pendant la durée du contrat.",
+      "context": "Somme d'assurance RC: garantie unique",
+      "page": 21
+    },
+    {
+      "quote": "Aucune franchise n'est applicable en cas de lésions corporelles.",
+      "context": "Absence de franchise en cas de lésions corporelles",
+      "page": 21
+    },
+    {
+      "quote": "le preneur d'assurance supporte une franchise de CHF 5'000 par parcelle cadastrale de tiers, mais au minimum la franchise convenue dans la police.",
+      "context": "Franchise RC pour travaux à risque",
+      "page": 21
+    },
+    {
+      "quote": "En cas de dommages économiques purs, le preneur d'assurance supporte une franchise de 10% du montant du dommage, mais au minimum CHF 5'000. Si une franchise plus élevée a été définie dans la police, celle-ci est applicable.",
+      "context": "Franchise RC pour dommages économiques purs",
+      "page": 21
+    },
+    {
+      "quote": "Les prétentions pour des dommages concernant le projet de construction désigné dans la police ainsi que les bâtiments/ouvrages qui en font partie, y compris les biens meubles (véhicules inclus) qu'ils renferment et le bien-fonds qui en fait partie.",
+      "context": "Exclusion RC du projet de construction lui-même",
+      "page": 22
+    },
+    {
+      "quote": "L'assurance couvre les dommages: • causés pendant la durée du contrat • et qui surviennent pendant la durée du contrat ou dans un délai de 24 mois après son expiration et qui sont annoncés à la Vaudoise au plus tard dans un délai de 60 mois après la fin du contrat.",
+      "context": "Validité dans le temps de la RC",
+      "page": 24
+    },
+    {
+      "quote": "Les prétentions en responsabilité civile pour les lésions corporelles et dégâts matériels en rapport avec une atteinte à l’environnement ne sont assurées que si cette atteinte est la conséquence d’un événement unique, soudain et imprévu et qui nécessite, en outre, des mesures immédiates, telles que l’annonce aux autorités compétentes, l’alarme à la population, l’adoption de mesures de prévention ou de mesures propres à restreindre le dommage.",
+      "context": "Conditions de couverture des atteintes à l'environnement",
+      "page": 25
+    },
+    {
+      "quote": "Sont considérés comme dommages économiques purs les dommages appréciables en argent, qui ne découlent pas d'une lésion corporelle ou d'un dommage matériel au sens de l'art. B1 CGA.",
+      "context": "Définition des dommages économiques purs",
+      "page": 27
+    },
+    {
+      "quote": "L'assurance prend fin sans résiliation au moment où toutes les prestations de construction - ou, lors de prestations échelonnées, les prestations pour l'unité concernée - sont reçues selon la loi ou selon les normes SIA applicables, mais au plus tard à la date indiquée dans la police (sous réserve de l'art. A7, chiffre 8 CGA).",
+      "context": "Fin du contrat",
+      "page": 28
+    },
+    {
+      "quote": "La violation fautive des obligations contractuelles selon les art. C3 et C4 CGA par les personnes assurées entraîne la réduction ou la suppression du droit aux prestations, ceci dans la mesure où la cause du sinistre ou l’importance du dommage en a été influencée.",
+      "context": "Sanction de la violation des obligations contractuelles",
+      "page": 31
+    },
+    {
+      "quote": "La couverture d'assurance n'est pas accordée dans la mesure et aussi longtemps que des sanctions économiques, commerciales ou financières légales applicables s'opposent à fournir la prestation contractuelle.",
+      "context": "Clause sanction",
+      "page": 32
+    },
+    {
+      "quote": "Le contrat d’assurance est exclusivement régi par le droit suisse, en particulier par les dispositions de la Loi fédérale sur le contrat d'assurance (LCA).",
+      "context": "Droit applicable",
+      "page": 32
+    },
+    {
+      "quote": "1.61.252/01.2022",
+      "context": "Code de référence imprimé en dernière page",
+      "page": 35
+    }
+  ],
+  "gaps": [
+    "Date d'édition: le document imprime « Edition du 01.01.2022 » en page de couverture (page 1) et le code « 1.61.252/01.2022 » en dernière page (page 35), alors que le nom de fichier de l'URL source contient « 012023 ». Le document l'emporte: edition_date = 01.01.2022, vérifié sur un rendu de la page 1. Le manifeste du dépôt annonce la même date; c'est l'URL qui diverge.",
+    "Numéros d'articles (A1 à A11, B1 à B11, C1 à C10, D1 à D4): ils sont placés comme IMAGES bitmap dans la marge de gauche et sont donc totalement absents du calque texte, qui ne rend que l'intitulé vert (« Risques assurés », « Exclusions », …). Ils ont été lus au rendu (page.get_images + rendu à 6x). Les comptes ferment exactement: 36 images de badge réparties sur les 20 pages d'articles = 36 intitulés d'articles, et la largeur des images sépare les numéros à un chiffre (27-32 px) de ceux à deux chiffres (41-46 px). Lecture recoupée par les renvois internes du document lui-même, qui citent art. A1, A2, A3, A5, A7, A9, A10, B1, B2, B5, B7, B8, C1, C3 et C4 dans le corps du texte. Les libellés d'articles utilisés dans les champs « name » proviennent de cette lecture; ils ne figurent donc dans aucune citation de key_quotes.",
+    "Folio imprimé ≠ numéro de page PDF: le folio vaut page PDF + 1 sur tout le document (la couverture n'est pas foliotée) — la page PDF 7 imprime « 8 | Conditions générales · Vaudoise ». Tous les champs « page » citent le numéro de page PDF (marqueur [[page N]]), vérifié par recherche d'ancre bloc par bloc. La table des matières (pages PDF 2 et 3) énumère des folios, pas des pages PDF: ses renvois ont été conservés tels quels et non convertis.",
+    "target_audience laissé à null: le document ne désigne jamais son public. Il s'adresse au « preneur d'assurance » en tant que « maître de l'ouvrage » et envisage aussi bien une personne physique (personnes vivant en ménage commun avec lui, art. A9 chiffre 6 CGA) qu'une société de personnes, une communauté d'héritiers, un architecte ou un entrepreneur général (art. B2, chiffre 1 CGA). Aucune des valeurs de l'énumération ne peut porter cela sans en perdre une partie.",
+    "Aucun montant d'assurance n'est chiffré dans le contrat: les sommes d'assurance et les franchises sont systématiquement renvoyées à la police (« la somme d'assurance convenue dans la police », « la franchise convenue dans la police »). Les seuls montants monétaires imprimés dans les 35 pages sont les deux franchises de CHF 5'000 de l'art. B4 (page 21). Les autres valeurs chiffrées du document sont des seuils techniques (75 km/h, 500'000 m3, 25%, 10%, 6 mètres, 4 mètres, 3 mètres, norme SIA 431, directive SIGAB 102) et des délais (48 heures, 7 jours, 14 jours, 4 semaines, 3 mois, 12 mois, 2 ans, 24 mois, 60 mois, 1 an, 10 ans).",
+    "Etat du calque texte: apostrophes mélangées dans une même phrase — 394 apostrophes courbes (U+2019) et 513 apostrophes ASCII sur l'ensemble du document. Les key_quotes ont donc été découpées programmatiquement comme tranches exactes du calque texte, jamais retapées. Contrôles négatifs effectués sur ce document: aucun espace de largeur nulle, aucun trait d'union conditionnel, aucun glyphe de zone privée, aucune ligature fi/ff/fl perdue, aucun accent décomposé (NFD), aucun caractère de contrôle, aucune coupure de mot par césure typographique. Cinq mots composés à trait d'union réel se trouvent coupés en fin de ligne (eux-mêmes page 13, papiers-valeurs page 14, biens-fonds page 26, sous-œuvre page 30, moins-value page 33); aucune citation ne les traverse.",
+    "Ordre de lecture vérifié sur CE document (contrôle négatif, à ne pas généraliser à d'autres documents du même éditeur): la mise en page est une colonne d'intitulés à gauche (x0 ≈ 31-73 pt) et une colonne de corps de texte à droite (x0 ≈ 240 ou 271 pt selon la parité de la page), et le texte plat émet bien intitulé puis corps, de haut en bas. Les seules anomalies d'ordre (18 pages) sont la deuxième ligne d'un titre d'article vert émise juste avant le bloc de corps qui commence 11 pt plus haut: aucune inversion garanties/exclusions. La polarité de ce contrat n'est de toute façon pas portée par un marqueur ni par une colonne, mais par des phrases d'attaque explicites (« Sont exclus de l'assurance: », « Ne sont pas assurés: », « Restent exclus de l'assurance: », « Ne sont pas assurées: »). Les puces sont du texte (SymbolMT): 164 puces dans le calque graphique pour 164 lignes de puce dans le texte plat, les comptes ferment.",
+    "Texte blanc: le titre « Assurances de construction » (page 1) et le bloc d'adresse du siège social (page 35) sont en blanc dans le calque texte. Rendu vérifié: ils sont bien imprimés, en blanc sur aplat vert. Il ne s'agit donc pas de texte caché.",
+    "is_optional: fixé à true uniquement là où le document subordonne expressément la couverture à une convention — art. A2 chiffre 3 (« uniquement en vertu d'une condition particulière »), art. A9 (« Pour autant qu'elle soit expressément convenue dans la police »), art. A10 (« Pour autant que les extensions de couverture ci-après soient expressément convenues dans la police ») et art. B10 (« la somme d'assurance convenue pour l'extension de couverture concernée »). Laissé à null pour A11, B1, B3, B5 chiffres 7 et 8, B7, B8 chiffre 2, B9 et B11, où le document indique une somme d'assurance convenue sans dire si elle relève d'une option; la formulation exacte a été conservée dans « conditions ».",
+    "Etendue territoriale: le document n'énonce aucune étendue territoriale générale. Les deux seules indications de lieu sont « Cette couverture s'étend à l'aire du chantier » (art. A9, chiffre 5, page 14) et le déplacement de choses « dans l'enceinte du chantier » (art. A10, chiffre 6, page 18). Le for est suisse ou liechtensteinois et le droit applicable est le droit suisse (art. C10, page 32), ce qui n'est pas une étendue territoriale de couverture.",
+    "Pas de chapitre « Définitions » ni de lexique: les 29 entrées de definitions[] ont été relevées une par une dans les phrases définitoires du corps du texte (« Il y a … lorsque », « Est réputé … », « Par … il faut entendre », « Sont considérés comme … »).",
+    "Prescription: le contrat ne fixe aucun délai de prescription général des prétentions de l'ayant droit. Le seul délai de prescription imprimé concerne le droit de la Vaudoise au remboursement en cas de réticence (1 an, et dans tous les cas 10 ans, page 5). Le délai de 60 mois de l'art. B6 chiffre 1 est un délai d'annonce, pas une prescription; il est enregistré comme tel.",
+    "Porteur du risque: le document nomme « la VAUDOISE GENERALE, Compagnie d'Assurances SA … société anonyme de droit suisse … avenue de Cour 41, 1007 Lausanne » comme assureur (page 4), avec le verbe d'attribution du risque. Le champ insurer_name porte la dénomination canonique fournie par la tâche (« Vaudoise Assurances »); la raison sociale exacte imprimée par le document figure en citation et en special_conditions. Aucun tiers (gestionnaire, assisteur, courtier) n'est nommé dans ce document.",
+    "Complétude de la source: le texte fourni n'était pas tronqué — les 35 pages étaient présentes. Elles ont néanmoins été ré-extraites du PDF (data/ch/pdfs/vaudoise/technique/assurances-de-construction-fc3baecc.pdf) avec le même appel page.get_text(\"text\") page par page, et les 35 pages ressortent identiques caractère pour caractère; l'empreinte SHA-256 du fichier correspond à celle du manifeste. Aucune page n'est une image sans calque texte.",
+    "Profondeur: les parties A, B, C et D sont transcrites de façon exhaustive, article par article et chiffre par chiffre, y compris les listes d'exclusions internes aux couvertures complémentaires (art. A9), aux extensions (art. A10, A11), à l'art. B5 chiffre 7, aux frais de prévention (art. B7), aux atteintes à l'environnement (art. B8 chiffre 3) et aux dommages économiques purs (art. B11). L'information au preneur d'assurance (pages 4 à 6) est reprise dans obligations, duration_and_cancellation, premium et special_conditions."
+  ]
+}
