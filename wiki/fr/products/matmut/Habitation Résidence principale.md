@@ -48,7 +48,7 @@ generated: true
 
 Conditions générales du contrat d'assurance Multigaranties Habitation Matmut « Résidence principale », valant projet de contrat au sens de l'article L. 112-2 du Code des assurances. Le contrat garantit les responsabilités civiles de l'assuré et ses biens dans le cadre de la vie privée, en dehors de toute activité professionnelle : Responsabilité civile Vie privée et familiale, Responsabilité civile Immeuble, Dommages aux biens (incendie, dommages électriques, événements climatiques, dégâts des eaux, gel, inondation, catastrophes naturelles et technologiques, vol, vandalisme, bris de glaces), assistance Urgence après sinistre et Protection Juridique suite à accident. De nombreuses options sont proposées (Jardin/Piscine, Équipements de développement durable, Canalisations extérieures, Panne électroménager, Bris de glaces renforcé, Mobilité, Rééquipement à neuf étendu, Incidents domestiques, Accueil à domicile/Chambres louées, Protection Juridique relative aux biens assurés). La souscription est réservée aux Sociétaires et la Matmut est une société d'assurance mutuelle à cotisations variables.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales · Édition : 2023-12
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : Conditions générales · Édition : 2023-12
 
 ## Définitions
 

@@ -44,7 +44,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du produit «Bureaux de Voyages» distribué sous la marque LALUX Assurances, couvrant les formules 1 et 2. Le produit permet, en fonction de la formule ou des formules choisie(s) — les formules 1 et 2 étant cumulables — de couvrir différents éléments en lien avec les voyages dans le monde entier : perte ou vol des bagages, accidents de voyage, frais d'annulation d'un voyage, rapatriement en cas de maladie ou de décès, remboursement des frais médicaux à l'étranger. La Formule 1 réunit protection juridique, avance pour caution pénale, bagages, accidents de voyage, frais d'annulation ou de retard, départ manqué et retard d'avion ou prolongation de séjour ; la Formule 2 (assistance) réunit traitement ambulatoire, hospitalisation, soins dentaires et rapatriement, complétés par d'autres prestations et des services. L'assurance est souscrite et payée auprès du bureau de voyage dans lequel le voyage est réservé et court du départ du domicile au retour à celui-ci.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Voyage et assistance](<../../branches/Voyage et assistance.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

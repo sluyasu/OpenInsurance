@@ -41,7 +41,7 @@ generated: true
 
 Informationsblatt zu Versicherungsprodukten der DKV Luxembourg S.A. für den Tarif EU PLUS, eine private Krankenversicherung. Es handelt sich um einen Zusatzschutz zur Krankheitsfürsorge für EU-Beamte und deren Familien. Der Versicherungsschutz umfasst ambulante Heilbehandlung, zahnärztliche Behandlung und stationäre Heilbehandlung und erstreckt sich auf Europa.
 
-- Assureur : [DKV Luxembourg](../../insurers/DKV%20Luxembourg.md) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
+- Assureur : [DKV Luxembourg](<../../insurers/DKV Luxembourg.md>) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -208,8 +208,8 @@ Bei vorübergehenden Aufenthalten im außereuropäischen Ausland besteht auch w�
 
 ## Documents liés
 
-- [EU PLUS - IPID - EN](EU%20PLUS%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
-- [EU PLUS - IPID](EU%20PLUS%20-%20IPID.md) - IPID / Fiche d'information
+- [EU PLUS - IPID - EN](<EU PLUS - IPID - EN.md>) - IPID / Fiche d'information
+- [EU PLUS - IPID](<EU PLUS - IPID.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

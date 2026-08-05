@@ -42,7 +42,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du contrat « AUTO PRO » d'assurance Véhicule de MAAF Assurances SA. Le contrat a pour objectif premier de garantir le conducteur du véhicule contre les conséquences des dommages matériels ou corporels causés par le véhicule à des tiers (Responsabilité civile), assurance obligatoire ; il couvre également les dommages corporels du conducteur et peut inclure des garanties couvrant les dommages matériels au véhicule assuré. Les véhicules assurables sont les véhicules terrestres à moteur de moins de 3,5 tonnes et les mini-véhicules (quadricycles à moteur). Aux garanties de base s'ajoutent des garanties optionnelles, dont un jeu de garanties dédiées aux financements LOA/LLD.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 2025-06
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information · Édition : 2025-06
 
 ## Garanties
 

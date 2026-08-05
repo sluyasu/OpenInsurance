@@ -46,7 +46,7 @@ generated: true
 
 Conditions générales du contrat CONVERGENCE de SMACL Assurances, diffusées sous le bandeau « Associations ». Elles forment le socle commun du contrat : « Le présent contrat est régi tant par le Code des assurances que par les présentes conditions générales, les conditions spéciales se rapportant aux garanties souscrites, les conditions particulières spécifiques à la personne morale souscriptrice et les montants de garanties qui y sont annexés. » L'article 1 énumère les risques susceptibles d'être garantis selon les indications des conditions particulières (responsabilités, mandataires et dirigeants sociaux, dommages aux biens, protection financière, véhicules terrestres à moteur, auto-collaborateurs et bénévoles, indemnisation des accidents corporels), le contenu de chaque garantie relevant de la convention spéciale correspondante. Le document porte les définitions générales, dix exclusions communes à toutes les garanties, les obligations de l'assuré en cas de sinistre et leurs sanctions, le règlement des sinistres, puis la vie du contrat : formation, durée et tacite reconduction, déclarations, résiliation, cotisation et indexation, prescription, protection des données, lutte contre la fraude et le blanchiment, réclamations, médiation, autorité de contrôle et sanctions internationales.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : Conditions générales · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : Conditions générales · Édition : 01/2024
 
 ## Définitions
 
@@ -221,14 +221,14 @@ Risque énuméré à l'article 1 (Objet du contrat) : « Selon les indications p
 ## Documents liés
 
 - Édition courante de ce produit.
-- Extension liée : [CONVERGENCE Dommages aux biens](CONVERGENCE%20Dommages%20aux%20biens.md)
-- Extension liée : [CONVERGENCE - Tous risques informatique (Associatons)](CONVERGENCE%20-%20Tous%20risques%20informatique%20%28Associatons%29.md)
-- Extension liée : [CONVERGENCE Tous risques instruments de musique (Associatons)](CONVERGENCE%20Tous%20risques%20instruments%20de%20musique%20%28Associatons%29.md)
-- Extension liée : [CONVERGENCE Tous risques objets (Associatons)](CONVERGENCE%20Tous%20risques%20objets%20%28Associatons%29.md)
-- [CONVERGENCE Dommages aux biens](CONVERGENCE%20Dommages%20aux%20biens.md) - Conditions générales, éd. 01/2024
-- [CONVERGENCE - Tous risques informatique (Associatons)](CONVERGENCE%20-%20Tous%20risques%20informatique%20%28Associatons%29.md) - Conditions générales, éd. 04/2025
-- [CONVERGENCE Tous risques instruments de musique (Associatons)](CONVERGENCE%20Tous%20risques%20instruments%20de%20musique%20%28Associatons%29.md) - Conditions générales, éd. 01/2024
-- [CONVERGENCE Tous risques objets (Associatons)](CONVERGENCE%20Tous%20risques%20objets%20%28Associatons%29.md) - Conditions générales, éd. 01/2024
+- Extension liée : [CONVERGENCE Dommages aux biens](<CONVERGENCE Dommages aux biens.md>)
+- Extension liée : [CONVERGENCE - Tous risques informatique (Associatons)](<CONVERGENCE - Tous risques informatique (Associatons).md>)
+- Extension liée : [CONVERGENCE Tous risques instruments de musique (Associatons)](<CONVERGENCE Tous risques instruments de musique (Associatons).md>)
+- Extension liée : [CONVERGENCE Tous risques objets (Associatons)](<CONVERGENCE Tous risques objets (Associatons).md>)
+- [CONVERGENCE Dommages aux biens](<CONVERGENCE Dommages aux biens.md>) - Conditions générales, éd. 01/2024
+- [CONVERGENCE - Tous risques informatique (Associatons)](<CONVERGENCE - Tous risques informatique (Associatons).md>) - Conditions générales, éd. 04/2025
+- [CONVERGENCE Tous risques instruments de musique (Associatons)](<CONVERGENCE Tous risques instruments de musique (Associatons).md>) - Conditions générales, éd. 01/2024
+- [CONVERGENCE Tous risques objets (Associatons)](<CONVERGENCE Tous risques objets (Associatons).md>) - Conditions générales, éd. 01/2024
 
 ## Source & fidélité
 

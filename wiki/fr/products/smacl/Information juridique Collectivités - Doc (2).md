@@ -41,7 +41,7 @@ generated: true
 
 Convention décrivant le service d'information juridique par téléphone que SMACL Assurances met à disposition des assurés ayant souscrit son contrat Protection juridique, le bénéficiaire étant la personne morale de droit public désignée au contrat. Le service donne accès à des juristes qualifiés sur sept domaines du droit intéressant les collectivités (marchés publics, gestion de la collectivité, relations avec les usagers, enseignement, urbanisme et environnement, contentieux, fonction publique), avec possibilité de recevoir un courrier type après l'appel et un accès au site internet par login et mot de passe. Le document décrit le traitement des appels et la consignation des dossiers, énumère les cas d'exclusion de la prestation (notamment la consultation juridique personnalisée et toute réponse écrite) et précise les horaires de disponibilité du service.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Protection juridique](../../branches/Protection%20juridique.md) · Type : Document · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Protection juridique](<../../branches/Protection juridique.md>) · Type : Document · Édition : 01/2024
 
 ## Définitions
 
@@ -150,10 +150,10 @@ Un accès à des juristes experts qualifiés et formés en permanence. Les juris
 
 - Édition courante de ce produit.
 - Extension / option du produit : **Protection juridique**
-- [Information juridique Associations - Doc](Information%20juridique%20Associations%20-%20Doc.md) - Document, éd. 01/2024
-- [Information juridique Associations (SA) - Doc](Information%20juridique%20Associations%20%28SA%29%20-%20Doc.md) - Document, éd. 01/2024
-- [Information juridique Collectivités - Doc](Information%20juridique%20Collectivit%C3%A9s%20-%20Doc.md) - Document, éd. 01/2024
-- [Information juridique Sécurité élus - Doc](Information%20juridique%20S%C3%A9curit%C3%A9%20%C3%A9lus%20-%20Doc.md) - Document, éd. 07/2023
+- [Information juridique Associations - Doc](<Information juridique Associations - Doc.md>) - Document, éd. 01/2024
+- [Information juridique Associations (SA) - Doc](<Information juridique Associations (SA) - Doc.md>) - Document, éd. 01/2024
+- [Information juridique Collectivités - Doc](<Information juridique Collectivités - Doc.md>) - Document, éd. 01/2024
+- [Information juridique Sécurité élus - Doc](<Information juridique Sécurité élus - Doc.md>) - Document, éd. 07/2023
 
 ## Source & fidélité
 

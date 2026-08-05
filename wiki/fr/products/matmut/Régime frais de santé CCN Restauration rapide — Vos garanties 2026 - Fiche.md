@@ -42,7 +42,7 @@ generated: true
 
 Tableau de garanties du régime frais de santé de la CCN Restauration rapide, présentant trois niveaux de couverture (BASE 1, BASE 2, BASE 3) pour l'hospitalisation et les soins externes, les actes médicaux, la pharmacie remboursée et non remboursée, le dentaire, l'optique, l'appareillage, les aides auditives, diverses garanties complémentaires et le sport sur ordonnance. Les remboursements sont exprimés en pourcentage de la Base de Remboursement (BR) y compris la part du régime obligatoire, en pourcentage du Plafond Mensuel de la Sécurité Sociale (PMSS), en frais réels ou en forfaits en euros. Le document ajoute une assistance et une série de services inclus dans les trois niveaux, puis des exemples chiffrés de remboursements. Il précise être un document non contractuel.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Fiche produit
 
 ## Définitions
 

@@ -40,7 +40,7 @@ generated: true
 
 Fiche « Les Frais de l'assurance-vie » du contrat Gan Patrimoine Capitalisation, publiée au titre de l'engagement de transparence annuelle de Groupama Gan Vie et portant la mention « Dernière mise à jour le 01 septembre 2023 ». Elle indique le montant minimal de versement, les frais annuels de gestion du contrat (supports fonds euros, unités de compte, gestion déléguée), les frais moyens de gestion des unités de compte par classe d'actifs — actions, obligations, immobilier, diversifiés et Private Equity — avec les taux de rétrocessions de commissions correspondants, et les frais ponctuels par opération. Le document ne décrit ni garanties ni exclusions : il ne porte que sur les frais. Les mentions légales présentent Gan Patrimoine comme société d'intermédiation en assurance, mandataire exclusif de Groupama Gan Vie et de ses filiales.
 
-- Assureur : [Gan Assurances](../../insurers/Gan%20Assurances.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Conditions tarifaires · Édition : 2023-09-01
+- Assureur : [Gan Assurances](<../../insurers/Gan Assurances.md>) · Branche : [Assurance vie et épargne](<../../branches/Assurance vie et épargne.md>) · Type : Conditions tarifaires · Édition : 2023-09-01
 
 ## Définitions
 
@@ -102,8 +102,8 @@ Fiche « Les Frais de l'assurance-vie » du contrat Gan Patrimoine Capitalisatio
 
 ## Documents liés
 
-- [Gan Patrimoine Capitalisation - Fiche](Gan%20Patrimoine%20Capitalisation%20-%20Fiche.md) - Fiche produit, éd. 2025-03-07
-- [Gan Patrimoine Capitalisation - Tarifs](Gan%20Patrimoine%20Capitalisation%20-%20Tarifs%20%282%29.md) - Conditions tarifaires
+- [Gan Patrimoine Capitalisation - Fiche](<Gan Patrimoine Capitalisation - Fiche.md>) - Fiche produit, éd. 2025-03-07
+- [Gan Patrimoine Capitalisation - Tarifs](<Gan Patrimoine Capitalisation - Tarifs (2).md>) - Conditions tarifaires
 
 ## Source & fidélité
 

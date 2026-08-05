@@ -40,7 +40,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de l’assurance Tous Risques Sauf de Baloise Assurances Luxembourg S.A. Il s’agit d’une assurance couvrant en tous risques (sauf ceux qui sont expressément exclus) les biens assurés ainsi que les responsabilités relatives aux risques assurés. Les objets assurés sont les biens (bâtiment et contenu), les frais, pertes et responsabilités et la perte d’exploitation ; huit extensions facultatives sont proposées, dont la pollution accidentelle, le vol et les actes de vandalisme, les catastrophes naturelles, le bris de matériel électronique et le bris de machines. Les plafonds renvoient aux sommes assurées mentionnées aux conditions particulières.
 
-- Assureur : [Baloise Luxembourg](../../insurers/Baloise%20Luxembourg.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information
+- Assureur : [Baloise Luxembourg](<../../insurers/Baloise Luxembourg.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

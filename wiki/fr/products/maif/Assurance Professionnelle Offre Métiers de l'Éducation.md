@@ -50,7 +50,7 @@ generated: true
 
 Conditions générales du contrat MAIF « Assurance Professionnelle - Offre Métiers de l’Éducation », contrat professionnel souscrit par un sociétaire MAIF pour un ou plusieurs assurés nominativement désignés qui remplissent à la fois les conditions d’adhésion à L’Autonome de Solidarité Laïque et à MAIF. Le contrat comporte quatre ensembles de garanties : des garanties d’accompagnement juridique professionnel (protection juridique professionnelle et recours, plafond global de frais et honoraires de 16 000 € TTC), une garantie responsabilité civile/défense professionnelle avec soutien psychologique, une protection corporelle professionnelle en cas d’accident du travail ou de service et de maladie professionnelle (frais médicaux, perte de gains, AIPP, tierce personne, capitaux décès, préjudice patrimonial, prestations d’aide immédiate) et une garantie d’assistance en cas de déplacement professionnel mise en œuvre par IMA Assurances pour MAIF Assistance. Les garanties couvrent les activités professionnelles exercées en France métropolitaine, en Guadeloupe, en Martinique, à la Réunion, en Guyane, à Saint-Barthélemy, à Saint-Martin pour sa partie française et à Monaco sans limitation de durée, et dans tous les autres pays pour les séjours n’excédant pas un an.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : Conditions générales · Édition : 01/2026
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : Conditions générales · Édition : 01/2026
 
 ## Définitions
 

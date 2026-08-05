@@ -51,7 +51,7 @@ generated: true
 
 Règlement mutualiste du contrat « Macif Santé des Territoriaux », complémentaire santé individuelle dont les garanties sont en vigueur à compter du 1er juin 2026. Le contrat est assuré par la Mutuelle Nationale des Fonctionnaires des Collectivités Territoriales (MNFCT, SIREN 784 442 899), à laquelle Macif Santé Prévoyance (SIREN 779 558 501) se substitue intégralement pour les garanties d’assurance maladie et accident (branches 1 et 2) ; les garanties d’assistance sont assurées par IMA Assurances et l’allocation naissance ou adoption par Macif Santé Prévoyance. Il s’adresse aux fonctionnaires et agents des Fonctions Publiques Territoriale et Hospitalière et à leurs ayants droit, et se compose d’une formule « Soins » (PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE, EXCELLENCE) complétée d’un niveau d’« Equipements » (« - », 1, 2, 3, EXCELLENCE), soit douze combinaisons possibles, dont six labellisées et éligibles à la participation de l’employeur. Le contrat est solidaire et responsable et intègre l’offre 100 % Santé en dentaire, optique et audiologie ; il couvre l’hospitalisation, les soins courants, la prévention et le mieux-être, le dentaire, l’optique, les aides auditives, l’appareillage et les cures thermales, et comprend des prestations d’assistance étendues, dont un volet dédié au travailleur indépendant et un volet aidants et aidés.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : 2026-06
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Conditions générales · Édition : 2026-06
 
 ## Définitions
 
@@ -1275,8 +1275,8 @@ La prescription est le délai au-delà duquel une action n’est plus recevable.
 
 ## Documents liés
 
-- [CONTRAT MACIF SANTÉ DES TERRITORIAUX - IPID](CONTRAT%20MACIF%20SANT%C3%89%20DES%20TERRITORIAUX%20-%20IPID.md) - IPID / Fiche d'information, éd. 2026-06
-- [Macif Santé des Territoriaux - Fiche](Macif%20Sant%C3%A9%20des%20Territoriaux%20-%20Fiche.md) - Fiche produit, éd. 06/26
+- [CONTRAT MACIF SANTÉ DES TERRITORIAUX - IPID](<CONTRAT MACIF SANTÉ DES TERRITORIAUX - IPID.md>) - IPID / Fiche d'information, éd. 2026-06
+- [Macif Santé des Territoriaux - Fiche](<Macif Santé des Territoriaux - Fiche.md>) - Fiche produit, éd. 06/26
 
 ## Source & fidélité
 

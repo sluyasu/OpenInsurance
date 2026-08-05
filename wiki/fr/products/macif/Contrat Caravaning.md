@@ -45,7 +45,7 @@ generated: true
 
 Conditions générales du contrat Caravaning de la Macif (édition Avril 2015), assurance d'une caravane, d'un mobile home conservant ses moyens de mobilité ou d'une cellule amovible de camping-car, et de leur contenu. Le contrat couvre la Responsabilité civile de campeur-caravanier lorsque la caravane est dételée, les dommages accidentels et événements climatiques, le vol, l'incendie, l'explosion, les attentats et actes de terrorisme, les frais de remorquage et de transport, la privation de jouissance, les catastrophes naturelles et technologiques, la défense et le recours, ainsi qu'une assistance générale réalisée par Inter Mutuelles Assistance. Il précise le lexique contractuel, les exclusions communes et propres à chaque garantie, la procédure en cas de sinistre, la prescription biennale et les cas de résiliation. Les montants de garantie et franchises non chiffrés dans les conditions générales sont renvoyés aux conditions particulières.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Autres](../../branches/Autres.md) · Type : Conditions générales · Édition : Avril 2015
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Autres](<../../branches/Autres.md>) · Type : Conditions générales · Édition : Avril 2015
 
 > ⚠️ **Édition ancienne** : Avril 2015, soit 11 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 
@@ -373,7 +373,7 @@ Les garanties d'assistance aux personnes sont acquises dès lors qu'une assistan
 
 ## Documents liés
 
-- [Contrat Caravaning - IPID](Contrat%20Caravaning%20-%20IPID.md) - IPID / Fiche d'information, éd. 2018-10
+- [Contrat Caravaning - IPID](<Contrat Caravaning - IPID.md>) - IPID / Fiche d'information, éd. 2018-10
 
 ## Source & fidélité
 

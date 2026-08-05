@@ -43,7 +43,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (DIPA/IPID) de deux pages portant sur le Contrat Multigarantie Activités Sociales Vie Associative de la Macif, présenté comme une « Assurance des Associations ». Le contrat protège les associations lorsque leur responsabilité civile est recherchée dans le cadre de leurs activités sociales et culturelles, du fait de leurs membres, dirigeants, personnel et de tout participant aux activités, et couvre la responsabilité personnelle des mandataires dans la gestion et l’administration de l’association. Il prévoit aussi l’assurance des dommages corporels en cas d’accident survenu au cours ou à l’occasion des activités, la protection des droits (défense, recours, assistance juridique) et des services d’assistance. Le document distingue douze garanties systématiquement prévues au contrat (précédées d’une coche) de quatre garanties optionnelles.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information · Édition : 10/18
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : IPID / Fiche d'information · Édition : 10/18
 
 > ⚠️ **Édition ancienne** : 10/18, soit 8 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 
@@ -231,7 +231,7 @@ Garantie listée sous « LES GARANTIES OPTIONNELLES ».
 
 ## Documents liés
 
-- [Contrat Multigarantie Activités Sociales Vie Associative - IPID](Contrat%20Multigarantie%20Activit%C3%A9s%20Sociales%20Vie%20Associative%20-%20IPID.md) - IPID / Fiche d'information, éd. 10/18
+- [Contrat Multigarantie Activités Sociales Vie Associative - IPID](<Contrat Multigarantie Activités Sociales Vie Associative - IPID.md>) - IPID / Fiche d'information, éd. 10/18
 
 ## Source & fidélité
 

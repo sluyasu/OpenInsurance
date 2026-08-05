@@ -43,7 +43,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (DIPA) du contrat Garantie Hospitalisation, assurance complémentaire hospitalisation assurée par Apivia Macif Mutuelle (SIREN n°779 558 501), mutuelle régie par le Livre II du Code de la mutualité. Le contrat rembourse, en complément de la Sécurité sociale française, tout ou partie des frais de santé restant à la charge de l'assuré et de ses ayants droit bénéficiaires engagés dans le cadre d'une hospitalisation (hospitalisation à domicile incluse), en cas d'accident, de maladie ou de maternité. Il comprend des garanties frais de santé exprimées en pourcentage de la base de remboursement de la Sécurité sociale ou en euros, des garanties d'assistance et des services (réseau de soins, tiers payant), tous systématiquement prévus au contrat.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : IPID / Fiche d'information · Édition : 01/2022
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : IPID / Fiche d'information · Édition : 01/2022
 
 ## Garanties
 

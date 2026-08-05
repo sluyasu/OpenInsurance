@@ -41,7 +41,7 @@ generated: true
 
 Document d’informations clés (DIC/PRIIPs) de GAN PATRIMOINE SÉRÉNITÉ ESSENTIEL, contrat d’assurance de groupe vie entière à adhésion facultative souscrit auprès de Groupama Gan Vie par l’A3P (Association pour la Protection du Patrimoine et de la Personne), relevant des branches 1 (Accidents), 2 (Maladie), 20 (Vie-Décès), 18 (Assistance) et 17 (Protection juridique). Il prévoit le versement d’un capital au(x) bénéficiaire(s) désigné(s) au décès de l’investisseur assuré — ou au premier décès si deux personnes sont assurées — ainsi qu’à l’assuré en cas de PTIA, et propose des garanties complémentaires optionnelles. Le document, daté « 1er octobre 2018 », expose l’indicateur de risque (classe 1 sur 7), les coûts et les modalités de sortie ; il ne comporte ni tableau de garanties ni section d’exclusions.
 
-- Assureur : [Gan Assurances](../../insurers/Gan%20Assurances.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : Fiche produit · Édition : 2018-10-01
+- Assureur : [Gan Assurances](<../../insurers/Gan Assurances.md>) · Branche : [Obsèques](<../../branches/Obsèques.md>) · Type : Fiche produit · Édition : 2018-10-01
 
 ## Définitions
 
@@ -125,8 +125,8 @@ l’investisseur a la faculté d’effectuer, à tout moment et sans frais, un r
 
 ## Documents liés
 
-- ⚠️ Édition remplacée par une version plus récente : [GAN PATRIMOINE SÉRÉNITÉ ESSENTIEL - Fiche](GAN%20PATRIMOINE%20S%C3%89R%C3%89NIT%C3%89%20ESSENTIEL%20-%20Fiche.md)
-- [GAN PATRIMOINE SÉRÉNITÉ ESSENTIEL - Fiche](GAN%20PATRIMOINE%20S%C3%89R%C3%89NIT%C3%89%20ESSENTIEL%20-%20Fiche.md) - Fiche produit, éd. 2023-06-01
+- ⚠️ Édition remplacée par une version plus récente : [GAN PATRIMOINE SÉRÉNITÉ ESSENTIEL - Fiche](<GAN PATRIMOINE SÉRÉNITÉ ESSENTIEL - Fiche.md>)
+- [GAN PATRIMOINE SÉRÉNITÉ ESSENTIEL - Fiche](<GAN PATRIMOINE SÉRÉNITÉ ESSENTIEL - Fiche.md>) - Fiche produit, éd. 2023-06-01
 
 ## Source & fidélité
 

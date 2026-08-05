@@ -41,7 +41,7 @@ generated: true
 
 Document d'information sur le produit d'assurance de DKV Luxembourg S.A. pour le produit EASY HEALTH, présenté comme une assurance maladie complémentaire. Sont assurés le traitement ambulatoire (soins médicaux, médicaments et bandages, kinésithérapie, prestations des sages-femmes, appareillages, aides visuelles, chirurgie réfractive, traitements alternatifs), le traitement dentaire (soins dentaires, détartrage professionnel, prothèses dentaires, orthodontie), l'hospitalisation (prestations médicales, frais d'hébergement en chambre individuelle, One-Day-Clinic, rooming-in, transport en ambulance, indemnité journalière) ainsi que le tarif BEST CARE + / BEST CARE PREMIUM +. L'étendue de l'assurance comprend également la gratuité des prestations selon le tarif TRAVEL +.
 
-- Assureur : [DKV Luxembourg](../../insurers/DKV%20Luxembourg.md) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
+- Assureur : [DKV Luxembourg](<../../insurers/DKV Luxembourg.md>) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -206,9 +206,9 @@ Le domaine de validité s'étend à toute l'Europe. Pendant le premier mois, la 
 
 ## Documents liés
 
-- [EASY HEALTH - IPID - EN](EASY%20HEALTH%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
-- [EASY HEALTH - IPID - DE](EASY%20HEALTH%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
-- [EASY HEALTH - DE](EASY%20HEALTH%20-%20DE.md) - Conditions générales, éd. VERSION 2025 (09/25)
+- [EASY HEALTH - IPID - EN](<EASY HEALTH - IPID - EN.md>) - IPID / Fiche d'information
+- [EASY HEALTH - IPID - DE](<EASY HEALTH - IPID - DE.md>) - IPID / Fiche d'information
+- [EASY HEALTH - DE](<EASY HEALTH - DE.md>) - Conditions générales, éd. VERSION 2025 (09/25)
 
 ## Source & fidélité
 

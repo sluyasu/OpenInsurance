@@ -43,7 +43,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (DIP/IPID) du contrat « Habitation Matmut Étudiants et Matmut/Smac », présenté sous le bandeau « ÉTUDIANTS ». Le contrat a pour objet de garantir les assurés, étudiants âgés de moins de 28 ans, sans enfant, dans le cadre de leur vie privée, contre les conséquences des dommages corporels et matériels causés à des tiers (Responsabilité civile), et de couvrir des biens immobiliers et mobiliers en lien avec un logement (chambre, studio ou 2 pièces) occupé en qualité de locataire, colocataire ou occupant à titre gratuit. Quinze garanties sont prévues en inclusion (responsabilité civile et protection juridique, dommages aux biens, garanties corporelles, assistance) et une garantie est optionnelle.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information · Édition : 2024-05
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : IPID / Fiche d'information · Édition : 2024-05
 
 ## Garanties
 

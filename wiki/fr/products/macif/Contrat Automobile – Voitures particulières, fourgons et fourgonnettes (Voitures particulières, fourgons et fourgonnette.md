@@ -47,7 +47,7 @@ generated: true
 
 Document d'information (DIPA/IPID) du Contrat Automobile de la Macif, souscrit auprès de « Macif - France - Société d'assurance mutuelle à cotisations variables - SIREN n° 781 452 511 », entreprise régie par le code des assurances, siège social 1 rue Jacques Vandier 79000 Niort. Le contrat couvre l'assurance obligatoire de responsabilité civile du fait du véhicule fourgon ou fourgonnette (dommages causés aux tiers) ainsi que, le cas échéant, les dommages subis par ce dernier, et offre des services d'assistance au véhicule et aux personnes transportées. Sont systématiquement prévues au contrat la responsabilité civile, la défense et le recours, l'assistance (pour le souscripteur personne physique) et l'assistance constat amiable ; dix garanties de dommages au véhicule et cinq garanties optionnelles complètent le dispositif. Le véhicule assuré est le fourgon ou la fourgonnette dont le poids total autorisé en charge est inférieur ou égal à 3,5 tonnes, ainsi que sa remorque de 750 kg au plus.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 2022-06
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information · Édition : 2022-06
 
 ## Garanties
 
@@ -241,7 +241,7 @@ Pour le souscripteur personne morale : l'assistance au véhicule sans franchise 
 
 ## Documents liés
 
-- [Contrat Automobile - Voitures particulières, fourgons et fourgonnettes (Voitures particulières, fourgons et fourgonnette](Contrat%20Automobile%20-%20Voitures%20particuli%C3%A8res%2C%20fourgons%20et%20fourgonnettes%20%28Voitures%20particuli%C3%A8res%2C%20fourgons%20et%20fourgonnette.md) - Conditions générales, éd. avril 2015
+- [Contrat Automobile - Voitures particulières, fourgons et fourgonnettes (Voitures particulières, fourgons et fourgonnette](<Contrat Automobile - Voitures particulières, fourgons et fourgonnettes (Voitures particulières, fourgons et fourgonnette.md>) - Conditions générales, éd. avril 2015
 
 ## Source & fidélité
 

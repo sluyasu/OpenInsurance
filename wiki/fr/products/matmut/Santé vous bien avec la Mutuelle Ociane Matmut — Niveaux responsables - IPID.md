@@ -46,7 +46,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de la complémentaire santé collective « Santé vous bien avec la Mutuelle Ociane Matmut », niveaux responsables, portée par la Mutuelle Ociane (Livre II du Code de la mutualité, n° 434 243 085). Le produit rembourse tout ou partie des frais de santé restant à la charge des salariés de l'entreprise souscriptrice en cas d'accident, de maladie ou de maternité, en complément de l'Assurance Maladie Obligatoire, et respecte les conditions légales des contrats responsables, le panier de soins minimum de l'ANI et les exigences conventionnelles de la branche. Les garanties systématiquement prévues couvrent l'hospitalisation et la maternité, les soins courants, l'optique, le dentaire, les appareillages, le sport sur ordonnance et des prestations par tranche d'âge, complétées de services et d'une assistance ; quatre ensembles de garanties optionnelles sont proposés (Confort Hospi, Confort Pharma, Confort Médecines Douces, « Bien à l'hôpital », « Bien dans mon rôle d'aidant »). Les niveaux de remboursement ne figurent pas dans ce document et renvoient au tableau des garanties annexé.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : IPID / Fiche d'information · Édition : 0925
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : IPID / Fiche d'information · Édition : 0925
 
 ## Définitions
 
@@ -287,12 +287,12 @@ La garantie optionnelle « Bien dans mon rôle d'aidant » : conseils et service
 
 ## Documents liés
 
-- [Santé vous bien ! - Fiche](Sant%C3%A9%20vous%20bien%20%21%20-%20Fiche%20%282%29.md) - Fiche produit, éd. 2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)
-- [Santé vous bien ! - Fiche](Sant%C3%A9%20vous%20bien%20%21%20-%20Fiche%20%284%29.md) - Fiche produit, éd. 2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)
-- [Santé vous bien ! - Fiche](Sant%C3%A9%20vous%20bien%20%21%20-%20Fiche%20%286%29.md) - Fiche produit, éd. 08/25
-- [Santé vous bien ! - Fiche](Sant%C3%A9%20vous%20bien%20%21%20-%20Fiche%20%283%29.md) - Fiche produit, éd. 2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)
-- [Santé vous bien ! - Fiche](Sant%C3%A9%20vous%20bien%20%21%20-%20Fiche%20%285%29.md) - Fiche produit, éd. 2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)
-- [Santé vous bien ! - Fiche](Sant%C3%A9%20vous%20bien%20%21%20-%20Fiche.md) - Fiche produit, éd. 2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)
+- [Santé vous bien ! - Fiche](<Santé vous bien ! - Fiche (2).md>) - Fiche produit, éd. 2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)
+- [Santé vous bien ! - Fiche](<Santé vous bien ! - Fiche (4).md>) - Fiche produit, éd. 2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)
+- [Santé vous bien ! - Fiche](<Santé vous bien ! - Fiche (6).md>) - Fiche produit, éd. 08/25
+- [Santé vous bien ! - Fiche](<Santé vous bien ! - Fiche (3).md>) - Fiche produit, éd. 2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)
+- [Santé vous bien ! - Fiche](<Santé vous bien ! - Fiche (5).md>) - Fiche produit, éd. 2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)
+- [Santé vous bien ! - Fiche](<Santé vous bien ! - Fiche.md>) - Fiche produit, éd. 2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)
 
 ## Source & fidélité
 

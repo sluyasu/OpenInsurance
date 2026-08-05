@@ -46,7 +46,7 @@ generated: true
 
 Conditions générales du contrat « Risques statutaires ALÉASSUR » de SMACL Assurances, destiné aux collectivités employeurs. Le contrat a pour objet de garantir au souscripteur le remboursement de tout ou partie des prestations mises à sa charge par les dispositions statutaires du Code général de la Fonction publique, de la loi n° 86-33 du 9 janvier 1986 (Fonction publique hospitalière) et de la loi n° 84-16 du 11 janvier 1984 (Fonction publique de l’État), en prestations en nature (frais médicaux, pharmaceutiques et d’hospitalisation) et en espèces (traitement maintenu à l’agent en arrêt de travail). Ce document ne contient pas le détail des garanties : les catégories d’agents font l’objet de Conventions spéciales distinctes, et il ne porte que le socle commun (fonctionnement dans le temps, exclusions, formation et durée, déclaration du risque, cotisations, sinistres, dispositions diverses). Deux assureurs sont nommés : SMACL ASSURANCES SA et MAIF VIE pour la garantie décès.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : Conditions générales · Édition : 06/2026
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : Conditions générales · Édition : 06/2026
 
 ## Définitions
 
@@ -283,8 +283,8 @@ Conformément à l’article L.114-1 du Code, toutes actions dérivant d’un co
 
 ## Documents liés
 
-- [Aléassur - Risques statutaires CNRACL - IPID](Al%C3%A9assur%20-%20Risques%20statutaires%20CNRACL%20-%20IPID.md) - IPID / Fiche d'information, éd. 02/2025
-- [Aléassur - Risques statutaires IRCANTEC - IPID](Al%C3%A9assur%20-%20Risques%20statutaires%20IRCANTEC%20-%20IPID.md) - IPID / Fiche d'information, éd. 02/2025
+- [Aléassur - Risques statutaires CNRACL - IPID](<Aléassur - Risques statutaires CNRACL - IPID.md>) - IPID / Fiche d'information, éd. 02/2025
+- [Aléassur - Risques statutaires IRCANTEC - IPID](<Aléassur - Risques statutaires IRCANTEC - IPID.md>) - IPID / Fiche d'information, éd. 02/2025
 
 ## Source & fidélité
 

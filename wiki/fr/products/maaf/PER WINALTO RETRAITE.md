@@ -45,7 +45,7 @@ generated: true
 
 Notice d'information du PER WINALTO RETRAITE, Plan d'Épargne Retraite individuel prenant la forme d'un contrat d'assurance vie de groupe à adhésion facultative de type multisupport, souscrit par l'association ADERI auprès de MAAF Vie. Le contrat permet de constituer une épargne retraite répartie en trois compartiments (« Versements Individuels », « Collectif Entreprise », « Obligatoire Entreprise ») sur un support en euros à capital garanti et sur des supports en unités de compte non garantis, gérés selon une formule profilée 100 % euros, quatre formules à horizon ou une formule libre assortie de quatre options d'arbitrage automatique. À la liquidation, l'épargne est versée sous forme de rente viagère (classique, avec annuités garanties ou par paliers, avec options de réversion) ou de capital unique ou fractionné. En cas de décès pendant la phase de constitution, l'épargne est versée aux bénéficiaires désignés en capital ou en rente, complétée par une garantie plancher non optionnelle plafonnée à 100 000 €. Une garantie de renseignements juridiques par téléphone est également incluse.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Retraite supplémentaire](../../branches/Retraite%20suppl%C3%A9mentaire.md) · Type : Conditions générales · Édition : 01/2026
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Retraite supplémentaire](<../../branches/Retraite supplémentaire.md>) · Type : Conditions générales · Édition : 01/2026
 
 ## Définitions
 

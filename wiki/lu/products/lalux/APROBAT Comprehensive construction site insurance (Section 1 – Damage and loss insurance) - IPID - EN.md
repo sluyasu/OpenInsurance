@@ -44,7 +44,7 @@ generated: true
 
 Insurance Product Information Document (IPID) for Section 1 – Damage and loss insurance of APROBAT, the comprehensive construction site insurance presented under the brand "LALUX Assurances". Section 1 covers direct material damage comprising the destruction or damage of an insured object, excluding any immaterial damage, on the construction site(s) and property stipulated in the Special conditions. Cover runs during the construction-assembly-testing period and then during the maintenance period, and the insurable property includes the works and objects of the contracts, equipment, construction site huts and construction material and machinery. The document states that all those involved on the site are considered insured.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Assurances constructions](../../branches/Assurances%20constructions.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Assurances constructions](<../../branches/Assurances constructions.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 

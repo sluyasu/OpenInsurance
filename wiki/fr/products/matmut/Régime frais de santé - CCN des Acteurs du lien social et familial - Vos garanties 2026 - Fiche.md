@@ -45,7 +45,7 @@ generated: true
 
 Tableau des garanties 2026 du régime frais de santé de la CCN des Acteurs du lien social et familial (ALISFA), présentant trois niveaux : BASE, BASE + OPTION 1 et BASE + OPTION 2. Il détaille les remboursements en frais d'hospitalisation, frais médicaux, aides auditives, dentaire, optique, actes de prévention et actes divers, exprimés en pourcentage de la Base de Remboursement, en pourcentage du PMSS ou du Prix Limite de Vente, en frais réels ou en forfaits. Une grille optique détaillée (pages 4 et 5) fixe les montants par type de verre, monture et supplément, pour l'adulte et pour l'enfant. Le document précise qu'il est non contractuel et que le dispositif est mutualisé dans le cadre d'une coassurance de branche.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Fiche produit
 
 ## Définitions
 

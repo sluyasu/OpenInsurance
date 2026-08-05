@@ -40,7 +40,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de l'Assurance Véhicule de MAAF Assurances SA. Le contrat a pour objectif premier de garantir le conducteur du véhicule contre les conséquences des dommages matériels ou corporels causés par le véhicule à des tiers (Responsabilité civile), assurance obligatoire ; il couvre également les dommages corporels du conducteur et peut inclure des garanties couvrant les dommages matériels au véhicule assuré. Les garanties de base comprennent la Responsabilité civile / Défense, le Recours suite à accident garanti, les Dommages corporels du conducteur, l'Assistance aux personnes et au véhicule et les Renseignements juridiques ; de nombreuses garanties optionnelles, dont des garanties dédiées LOA/LLD, sont proposées.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 2025-06
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information · Édition : 2025-06
 
 ## Garanties
 
@@ -212,8 +212,8 @@ Garantie optionnelle dédiée LOA/LLD : mise à disposition d’un expert lors d
 
 ## Documents liés
 
-- [Camping-Car, Ambulance, Bazar forain, Véhicule de collection - IPID](Camping-Car%2C%20Ambulance%2C%20Bazar%20forain%2C%20V%C3%A9hicule%20de%20collection%20-%20IPID.md) - IPID / Fiche d'information, éd. 2025-06
-- [CARAVANE, REMORQUE, CAMION, VEHICULES DIVERS - IPID](CARAVANE%2C%20REMORQUE%2C%20CAMION%2C%20VEHICULES%20DIVERS%20-%20IPID.md) - IPID / Fiche d'information, éd. 2025-06
+- [Camping-Car, Ambulance, Bazar forain, Véhicule de collection - IPID](<Camping-Car, Ambulance, Bazar forain, Véhicule de collection - IPID.md>) - IPID / Fiche d'information, éd. 2025-06
+- [CARAVANE, REMORQUE, CAMION, VEHICULES DIVERS - IPID](<CARAVANE, REMORQUE, CAMION, VEHICULES DIVERS - IPID.md>) - IPID / Fiche d'information, éd. 2025-06
 
 ## Source & fidélité
 

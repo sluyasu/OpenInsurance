@@ -44,7 +44,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (DIP/IPID) du contrat « Assurance Loyers Impayés » de Matmut. Le contrat a pour objet de garantir le propriétaire bailleur d'un bien immobilier à usage exclusif d'habitation principale contre les conséquences financières et matérielles pouvant survenir dans les rapports locatifs (loyers impayés et dégradations locatives immobilières). Trois garanties sont systématiquement prévues en inclusion (Loyers impayés, Dégradations locatives immobilières, Recours) et une garantie est optionnelle (Vacance locative). Le montant total de l'indemnisation ne peut dépasser 100 000 € par sinistre.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : Crédit et caution · Type : IPID / Fiche d'information · Édition : 2024-10
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : Crédit et caution · Type : IPID / Fiche d'information · Édition : 2024-10
 
 ## Garanties
 
@@ -168,7 +168,7 @@ Garantie optionnelle. Vacance locative : prise en charge de la perte de loyers (
 
 ## Documents liés
 
-- [Assurance Loyers Impayés](Assurance%20Loyers%20Impay%C3%A9s.md) - Conditions générales, éd. 10/24
+- [Assurance Loyers Impayés](<Assurance Loyers Impayés.md>) - Conditions générales, éd. 10/24
 
 ## Source & fidélité
 

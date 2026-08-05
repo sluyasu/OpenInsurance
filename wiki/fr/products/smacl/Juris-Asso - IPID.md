@@ -47,7 +47,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (DIPA/IPID) du contrat « Juris-Asso » de SMACL Assurances, commercialisé sous le titre « Assurance Protection juridique des associations ». Le contrat, destiné aux associations avec ou sans salarié, a pour objet d’accompagner l’assuré dans la résolution des litiges l’opposant à des tiers (associations, collectivités, co-contractants ou personnes physiques) à l’amiable ou en cas de procédure judiciaire. Une garantie unique, systématiquement prévue, prend en charge les frais de défense et de recours (honoraires d’avocat, d’expertise et de procédure) pour une douzaine de types de litiges cités à titre d’exemple. L’indemnité est plafonnée aux montants indiqués au contrat sans pouvoir dépasser 25 000 € par litige, et seuls les litiges dont l’enjeu financier est supérieur à 200 € sont garantis.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Protection juridique](../../branches/Protection%20juridique.md) · Type : IPID / Fiche d'information · Édition : 02/2025
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Protection juridique](<../../branches/Protection juridique.md>) · Type : IPID / Fiche d'information · Édition : 02/2025
 
 ## Garanties
 
@@ -128,7 +128,7 @@ Garantie systématiquement prévue au contrat. « Protection juridique : prise e
 
 ## Documents liés
 
-- [JURIS-ASSO - Assurance Protection juridique des associations](JURIS-ASSO%20-%20Assurance%20Protection%20juridique%20des%20associations.md) - Conditions générales, éd. 01/2024
+- [JURIS-ASSO - Assurance Protection juridique des associations](<JURIS-ASSO - Assurance Protection juridique des associations.md>) - Conditions générales, éd. 01/2024
 
 ## Source & fidélité
 

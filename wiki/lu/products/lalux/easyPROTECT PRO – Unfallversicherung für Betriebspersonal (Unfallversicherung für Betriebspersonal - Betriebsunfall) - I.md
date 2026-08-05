@@ -44,7 +44,7 @@ generated: true
 
 Informationsdokument über das Versicherungsprodukt (IPID) zur Unfallversicherung für Betriebspersonal easyPROTECT PRO – Betriebsunfall, vertrieben unter der Marke LALUX Assurances. Die Versicherungsgesellschaft garantiert die Zahlung der in den Besonderen Bedingungen vereinbarten Leistungen, wenn der Versicherte während der Vertragslaufzeit Opfer eines Unfalls ist; der Schutz gilt sowohl für den Unternehmensleiter als auch für die Beschäftigten. Der Basis-Versicherungsschutz umfasst Leistungen im Todesfall, Leistungen bei dauerhafter Invalidität und die Erstattung der Behandlungskosten, jeweils in Höhe der in den Besonderen Bedingungen festgelegten Kapitalien bzw. der Deckungssumme; das Dokument nennt selbst keine Beträge. Die Versicherung gilt in ganz Europa sowie weltweit bei Aufenthalten außerhalb Europas von höchstens drei Monaten.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Assurance accidents](../../branches/Assurance%20accidents.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Assurance accidents](<../../branches/Assurance accidents.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -180,8 +180,8 @@ Die Versicherungsgesellschaft garantiert im Rahmen der Deckungssumme die Erstatt
 
 ## Documents liés
 
-- [easyPROTECT PRO – Accident entreprise - IPID](easyPROTECT%20PRO%20%E2%80%93%20Accident%20entreprise%20-%20IPID.md) - IPID / Fiche d'information
-- [easyPROTECT PRO – Company accident insurance - IPID - EN](easyPROTECT%20PRO%20%E2%80%93%20Company%20accident%20insurance%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+- [easyPROTECT PRO – Accident entreprise - IPID](<easyPROTECT PRO – Accident entreprise - IPID.md>) - IPID / Fiche d'information
+- [easyPROTECT PRO – Company accident insurance - IPID - EN](<easyPROTECT PRO – Company accident insurance - IPID - EN.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

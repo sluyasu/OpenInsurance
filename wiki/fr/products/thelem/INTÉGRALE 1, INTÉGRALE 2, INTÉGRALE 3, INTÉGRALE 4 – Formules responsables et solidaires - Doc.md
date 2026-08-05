@@ -41,7 +41,7 @@ generated: true
 
 Document « Exemples de remboursements 2026 » de Thélem assurances, établi au titre de la Lisibilité des contrats d’assurance complémentaire santé, pour les formules responsables et solidaires INTÉGRALE 1, INTÉGRALE 2, INTÉGRALE 3 et INTÉGRALE 4. Il présente, pour les principaux postes de soins (hospitalisation, soins courants, dentaire, optique, aides auditives), le tarif le plus souvent facturé ou le tarif réglementé, la base de remboursement de la sécurité sociale (BR), le remboursement de l’assurance maladie obligatoire (AMO), puis le remboursement de l’assurance maladie complémentaire (AMC) et le reste à charge pour chacune des quatre formules. Les contrats sont dits « responsables » quand ils respectent des obligations fixées par la règlementation, notamment des minimums et maximums de remboursement ainsi que des interdictions de prise en charge. Le document précise que ces exemples ne peuvent se substituer aux documents contractuels qui seuls engagent l’organisme de complémentaire santé.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Document
+- Assureur : [Thélem assurances](<../../insurers/Thélem assurances.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Document
 
 ## Définitions
 

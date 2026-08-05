@@ -42,7 +42,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du contrat « Multigaranties professionnelles des agents publics ». Le contrat a pour objet de garantir les agents de la Fonction Publique en cas de faute détachable du service contre les conséquences des dommages matériels ou corporels causés à des tiers (responsabilité civile). Il comprend également le versement d'un capital en cas d'accident corporel entraînant une inaptitude professionnelle et une garantie de Protection Juridique en lien avec la vie professionnelle des agents publics. Le bloc d'identité imprimé désigne AMF - Assurance Mutuelle des Fonctionnaires et Assimilés comme assureur et Matmut comme distributeur. Cinq garanties sont systématiquement prévues en inclusion ; le document n'en présente aucune comme optionnelle.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : IPID / Fiche d'information · Édition : 06/24
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : IPID / Fiche d'information · Édition : 06/24
 
 ## Garanties
 
@@ -146,7 +146,7 @@ Organisation d'un soutien psychologique en cas d'évènement traumatisant surven
 
 ## Documents liés
 
-- [Multigaranties Professionnelles des Agents Publics](Multigaranties%20Professionnelles%20des%20Agents%20Publics.md) - Conditions générales, éd. 06/24
+- [Multigaranties Professionnelles des Agents Publics](<Multigaranties Professionnelles des Agents Publics.md>) - Conditions générales, éd. 06/24
 
 ## Source & fidélité
 

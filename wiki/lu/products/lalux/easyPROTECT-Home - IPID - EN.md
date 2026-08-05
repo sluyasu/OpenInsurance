@@ -43,7 +43,7 @@ generated: true
 
 Insurance Product Information Document (IPID) for LALUX Assurances' multi-risk home insurance easyPROTECT-Home, for a private and individual home or condominium. The document states that easyPROTECT Home is a multi-risk insurance available in 3 formulas (Security, Comfort, Performance), covering the home and its contents whether it is a house, apartment or condominium and whether the insured is owner, co-owner or tenant, and that civil liability (excluding automobile) of the individuals living in the residence and building civil liability can also be covered. The covered box lists the SECURITY guarantees, the coverages added by COMFORT and by PERFORMANCE, five optional extensions for COMFORT and PERFORMANCE, annual travel insurance, home assistance and the easyPROTECT Discover component. All three lists carry the printed note "Non-exhaustive list".
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Assurance habitation](../../branches/Assurance%20habitation.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Assurance habitation](<../../branches/Assurance habitation.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

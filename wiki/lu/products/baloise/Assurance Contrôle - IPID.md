@@ -44,7 +44,7 @@ generated: true
 
 Fiche IPID de l’« Assurance Contrôle » de Baloise Assurances Luxembourg S.A., dont le titre imprimé précise « (Responsabilité Civile Décennale) ». Le document la décrit comme une assurance couvrant la responsabilité civile des constructeurs vis-à-vis du maître d’ouvrage en vertu des articles 1792 et 2270 du code civil pour des vices de construction affectant la stabilité de l’ouvrage, ainsi que vis-à-vis du maître d’ouvrage et/ou de tiers imputables aux travaux assurés. La couverture est scindée en deux périodes : avant la réception de l’ouvrage (dégâts compromettant la stabilité, responsabilité des assurés) et dans les 10 ans de la réception (responsabilité décennale et responsabilité de droit commun). L’ouvrage doit avoir fait l’objet du contrôle technique d’un organisme de contrôle agréé par Baloise, et les plafonds sont ceux mentionnés aux conditions particulières.
 
-- Assureur : [Baloise Luxembourg](../../insurers/Baloise%20Luxembourg.md) · Branche : [Assurances constructions](../../branches/Assurances%20constructions.md) · Type : IPID / Fiche d'information
+- Assureur : [Baloise Luxembourg](<../../insurers/Baloise Luxembourg.md>) · Branche : [Assurances constructions](<../../branches/Assurances constructions.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

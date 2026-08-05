@@ -44,7 +44,7 @@ generated: true
 
 IPID de l'assurance Responsabilité Civile Professionnelle des Professions Médicales et de Santé de Baloise Assurances Luxembourg S.A. Le produit couvre la responsabilité civile de l'assuré dans l'exercice de son activité médicale ou de santé et comprend tant la garantie des demandes fondées que la défense contre les demandes injustifiées. Les risques assurés sont la responsabilité civile contractuelle, la responsabilité civile extracontractuelle, la responsabilité civile en qualité de dépositaire, la pollution accidentelle et la défense et recours ; sept extensions facultatives sont proposées (packages Communication, Recouvrement et Infections, extensions Chef de service, Dommages immatériels purs, Objets confiés et Médecine esthétique). La couverture s'exerce au Grand-Duché de Luxembourg, dans l'Espace Economique Européen et en Suisse, et dans le monde entier pour les soins médicaux urgents non rémunérés, les stages de formation à l'étranger hors USA et Canada et les missions humanitaires reconnues.
 
-- Assureur : [Baloise Luxembourg](../../insurers/Baloise%20Luxembourg.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : IPID / Fiche d'information
+- Assureur : [Baloise Luxembourg](<../../insurers/Baloise Luxembourg.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

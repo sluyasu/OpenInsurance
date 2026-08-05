@@ -48,7 +48,7 @@ generated: true
 
 Conditions générales du contrat Moto - Assurance Multirisque de MAAF (réf. MO102004), qui assure le véhicule terrestre à moteur désigné aux Conditions particulières du type motocyclette, tricycle, quad et side-car d'une cylindrée supérieure à 80 cm3. Le contrat se décline en quatre formules - TIERS SIMPLE, TIERS MAXI, TIERCE COLLISION et TOUS RISQUES - qui comprennent toutes la Responsabilité civile/Défense, le Recours, les Dommages corporels du conducteur (niveau 1 ou niveau 2), l'Assistance de base et les Renseignements juridiques, et qui ajoutent selon la formule le Vol, l'Incendie Explosion Attentat, les Événements climatiques, les Catastrophes naturelles, le Bris de glace, la Tierce collision, les Dommages tous accidents et l'Équipement motard. Sept garanties peuvent être souscrites en option : Bagages et effets transportés, Accessoires hors-série, Assistance panne 0 kilomètre, Véhicule de remplacement, Indemnisation +, Réparations + et Défense juridique du motard. Le document contient également le lexique, les clauses légales Bonus/Malus, Catastrophes naturelles et fonctionnement des garanties Responsabilité civile dans le temps, ainsi que les règles de vie du contrat (déclaration du risque, cotisation, résiliation, réclamations, prescription, protection des données).
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Deux-roues, quads et voiturettes](../../branches/Deux-roues%2C%20quads%20et%20voiturettes.md) · Type : Conditions générales · Édition : 06/26
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Deux-roues, quads et voiturettes](<../../branches/Deux-roues, quads et voiturettes.md>) · Type : Conditions générales · Édition : 06/26
 
 ## Définitions
 

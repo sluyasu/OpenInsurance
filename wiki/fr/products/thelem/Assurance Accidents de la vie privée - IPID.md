@@ -43,7 +43,7 @@ generated: true
 
 L’Assurance Accidents de la vie privée de Thélem assurances est un contrat de garantie des accidents de la vie (document d’information sur le produit d’assurance). Elle a pour objectif de protéger l’assuré, et éventuellement sa famille, contre les conséquences des accidents de la vie privée, et inclut des prestations d’assistance. L’assuré a le choix entre une formule forfaitaire (capital garanti) et une formule indemnitaire (indemnisation individualisée fixée selon les règles légales d’évaluation des préjudices corporels). Le contrat couvre notamment le décès, l’invalidité, une aide financière en cas d’hospitalisation, les frais de recherche et de secours et des services d’assistance, avec des options Scolaire et Extra-scolaire, Accidents professionnels et Revalorisation du capital.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Garantie des accidents de la vie](../../branches/Garantie%20des%20accidents%20de%20la%20vie.md) · Type : IPID / Fiche d'information
+- Assureur : [Thélem assurances](<../../insurers/Thélem assurances.md>) · Branche : [Garantie des accidents de la vie](<../../branches/Garantie des accidents de la vie.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 

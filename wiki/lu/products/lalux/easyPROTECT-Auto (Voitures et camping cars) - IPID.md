@@ -44,7 +44,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) pour easyPROTECT-Auto de LALUX Assurances, assurance automobile pour voitures et camping cars. Le produit couvre la responsabilité civile automobile ainsi que les dommages causés au véhicule. Il est structuré en un tarif de base et trois formules en cascade — Sécurité, Confort et Performance — auxquelles s'ajoutent des garanties accessoires optionnelles (valeur à neuf pendant 3 ans, valeur d'achat véhicule d'occasion, bagages et effets personnels, garantie accident et garantie conducteur).
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

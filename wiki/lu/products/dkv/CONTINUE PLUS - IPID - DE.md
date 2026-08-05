@@ -41,7 +41,7 @@ generated: true
 
 Informationsblatt zu Versicherungsprodukten (IPID) der DKV Luxembourg S.A. für das Produkt CONTINUE PLUS, eine Krankentagegeldversicherung für Selbständige und Freiberufler. Versichert ist der vorübergehende Verdienstausfall bei Arbeitsunfähigkeit in Folge von Krankheit oder Unfall, mit Auszahlung eines vertraglich vereinbarten Krankentagegeldes an 7 Tagen pro Woche. Die Leistungsdauer beträgt je nach Tarif bis zu 350 oder bis zu 715 Tage. Behandlungskosten jeglicher Art sind nicht versichert.
 
-- Assureur : [DKV Luxembourg](../../insurers/DKV%20Luxembourg.md) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
+- Assureur : [DKV Luxembourg](<../../insurers/DKV Luxembourg.md>) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
 
 ## Garanties
 

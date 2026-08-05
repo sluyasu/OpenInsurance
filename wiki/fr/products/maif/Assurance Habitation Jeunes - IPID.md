@@ -42,7 +42,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du contrat Assurance Habitation Jeunes de MAIF, assurance multirisque habitation destinée au logement dont l'assuré est locataire ou occupant à titre gratuit. Il couvre les biens mobiliers (vol par effraction, dégât des eaux, incendie, explosion, événements climatiques, catastrophes naturelles et technologiques, attentats), le recours, la responsabilité civile/défense, l'assistance serrurerie, les frais supplémentaires après sinistre (déplacement d'objets, relogement) et l'assistance aux personnes en déplacement. Une option biens nomades est proposée. Le contrat est conclu pour un an, de la prise d'effet au 31 décembre suivant, puis reconduit automatiquement chaque 1er janvier.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information · Édition : 01/2025
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : IPID / Fiche d'information · Édition : 01/2025
 
 ## Garanties
 

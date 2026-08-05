@@ -40,7 +40,7 @@ generated: true
 
 Fiche de transparence des frais du PER Individuel Groupama Nouvelle Vie, publiée dans le cadre de l'engagement de Groupama Gan Vie à mettre à jour annuellement ces informations. Elle indique le montant minimal de versement, le droit d'adhésion à l'association souscriptrice, les frais annuels (gestion du plan sur supports en euros et en unités de compte, frais de gestion des fonds en gestion libre et en mode de gestion pilotée ou standardisée, avec les taux de rétrocessions de commissions), les autres frais annuels et les frais ponctuels par opération en taux maximal. Le document ne décrit aucune garantie ni exclusion : c'est un tableau de frais, pas un contrat.
 
-- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : [Retraite supplémentaire](../../branches/Retraite%20suppl%C3%A9mentaire.md) · Type : Conditions tarifaires
+- Assureur : [Groupama](<../../insurers/Groupama.md>) · Branche : [Retraite supplémentaire](<../../branches/Retraite supplémentaire.md>) · Type : Conditions tarifaires
 
 ## Définitions
 
@@ -94,7 +94,7 @@ Fiche de transparence des frais du PER Individuel Groupama Nouvelle Vie, publié
 
 ## Documents liés
 
-- [Groupama Nouvelle Vie - Tarifs](Groupama%20Nouvelle%20Vie%20-%20Tarifs.md) - Conditions tarifaires
+- [Groupama Nouvelle Vie - Tarifs](<Groupama Nouvelle Vie - Tarifs.md>) - Conditions tarifaires
 
 ## Source & fidélité
 

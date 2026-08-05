@@ -42,7 +42,7 @@ generated: true
 
 Document d’une page fixant les conditions d’une offre commerciale de remise à la souscription sur les contrats Multirisques Accidents de la Vie et Multirisques Accidents de la Vie Sérénité de la Matmut. La remise équivaut à 1 mois de cotisation et est déduite du montant total annuel ; elle suppose que le souscripteur, personne physique, souscrive simultanément ou soit déjà titulaire d’un contrat Habitation Résidence Principale, Multirisques 4 roues, Camping-car ou 2 roues éligible, en cours et ni suspendu ni résilié. L’offre est exclue en cas de nouvelle souscription faisant suite à une résiliation pour non-paiement, n’est pas cumulable, ne vaut qu’une seule fois, et la remise est annulée puis due par l’assuré s’il résilie moins de 12 mois après la souscription. Elle vaut pour toute nouvelle souscription éligible prenant effet entre le 01/01/2026 et le 30/04/2026 inclus. Le document ne décrit aucune garantie des contrats concernés.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Garantie des accidents de la vie](../../branches/Garantie%20des%20accidents%20de%20la%20vie.md) · Type : Conditions tarifaires · Édition : 01/26
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Garantie des accidents de la vie](<../../branches/Garantie des accidents de la vie.md>) · Type : Conditions tarifaires · Édition : 01/26
 
 ## Exclusions
 
@@ -151,9 +151,9 @@ Siège social : 66, rue de Sotteville 76100 Rouen - Adresse postale : 76030 Roue
 ## Documents liés
 
 - Extension / option du produit : **Multirisques Accidents de la Vie / Multirisques Accidents de la Vie Sérénité**
-- [Contrat « Multirisques Accidents de la Vie » - IPID](Contrat%20%C2%AB%20Multirisques%20Accidents%20de%20la%20Vie%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/26
-- [Multirisques Accidents de la Vie](Multirisques%20Accidents%20de%20la%20Vie.md) - Conditions générales
-- [Multirisques Accidents de la Vie Sérénité](Multirisques%20Accidents%20de%20la%20Vie%20S%C3%A9r%C3%A9nit%C3%A9.md) - Conditions générales, éd. 01/26
+- [Contrat « Multirisques Accidents de la Vie » - IPID](<Contrat « Multirisques Accidents de la Vie » - IPID.md>) - IPID / Fiche d'information, éd. 01/26
+- [Multirisques Accidents de la Vie](<Multirisques Accidents de la Vie.md>) - Conditions générales
+- [Multirisques Accidents de la Vie Sérénité](<Multirisques Accidents de la Vie Sérénité.md>) - Conditions générales, éd. 01/26
 
 ## Source & fidélité
 

@@ -45,7 +45,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (DIPA/IPID) relatif à « Convergence Auto collaborateurs - garantie complémentaire », assurance auto des collaborateurs des associations et des entreprises de l’économie sociale et solidaire. Souscrit par une personne morale (association avec salariés), le contrat intervient en complément du contrat d’assurance auto personnel de l’assuré qui utilise son véhicule pour les besoins de la personne morale souscriptrice. Il prévoit systématiquement une indemnité compensatoire pour les dommages au véhicule résultant d’un événement non garanti par le contrat personnel, le remboursement de la franchise laissée à la charge de l’assuré et la privation de jouissance liée à l’immobilisation du véhicule. L’indemnité est limitée à 100 000 000 € et la compagnie est SMACL Assurances SA.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 02/2025
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information · Édition : 02/2025
 
 ## Garanties
 
@@ -138,7 +138,7 @@ Privation de jouissance résultant de l’immobilisation du véhicule.
 
 ## Documents liés
 
-- [Convergence Auto collaborateurs - garantie en substitution - IPID](Convergence%20Auto%20collaborateurs%20-%20garantie%20en%20substitution%20-%20IPID.md) - IPID / Fiche d'information, éd. 02/2025
+- [Convergence Auto collaborateurs - garantie en substitution - IPID](<Convergence Auto collaborateurs - garantie en substitution - IPID.md>) - IPID / Fiche d'information, éd. 02/2025
 
 ## Source & fidélité
 

@@ -43,7 +43,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (DIPA/IPID) du contrat « Aléassur - Véhicules à moteur » de SMACL Assurances SA, présenté sous le titre « Assurance des Véhicules des collectivités territoriales ». Le contrat, destiné aux collectivités territoriales, garantit le véhicule terrestre à moteur, son propriétaire, son conducteur ou gardien contre notamment les conséquences des dommages matériels ou corporels causés à des tiers. Il comprend un socle de garanties systématiquement prévues (responsabilité civile automobile et extensions, défense pénale et recours, assurance du conducteur, objets transportés, accessoires, assistance pour les véhicules de moins de 3,5 T) et un ensemble de garanties optionnelles portant sur les dommages subis par le véhicule assuré et sur l’assistance. L’indemnité est limitée à 100 000 000 €.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 02/2025
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information · Édition : 02/2025
 
 ## Garanties
 

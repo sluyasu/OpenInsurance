@@ -46,7 +46,7 @@ generated: true
 
 Conditions générales du contrat Automobile de la Macif pour les voitures particulières, fourgons et fourgonnettes (édition avril 2015). Le contrat se décline en cinq formules — Economique, Essentielle, Elargie, Protectrice et Excellence — qui déterminent quelles garanties sont automatiquement incluses ou proposées en option. Il comprend treize garanties principales (responsabilité civile obligatoire, dommages au véhicule, actes de vandalisme, incendie et terrorisme, vol, bris de glace, tempête et grêle, événements climatiques, catastrophes naturelles et technologiques, frais de remorquage, assistance générale, insolvabilité du tiers responsable, défense et recours) et cinq garanties complémentaires (valeur majorée du véhicule, accessoires et contenu privé, assistance panne 0 km, garanties mécaniques Initiale et Plus), complétées par deux services associés. Le document contient également le lexique, les exclusions communes, la vie du contrat, les usages du véhicule, les clauses spéciales et la clause de réduction majoration dite bonus malus.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : avril 2015
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions générales · Édition : avril 2015
 
 > ⚠️ **Édition ancienne** : avril 2015, soit 11 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 
@@ -593,7 +593,7 @@ Toutes les actions dérivant d'un contrat d'assurance sont prescrites par deux a
 
 ## Documents liés
 
-- [Contrat Automobile – Voitures particulières, fourgons et fourgonnettes (Voitures particulières, fourgons et fourgonnette](Contrat%20Automobile%20%E2%80%93%20Voitures%20particuli%C3%A8res%2C%20fourgons%20et%20fourgonnettes%20%28Voitures%20particuli%C3%A8res%2C%20fourgons%20et%20fourgonnette.md) - IPID / Fiche d'information, éd. 2022-06
+- [Contrat Automobile – Voitures particulières, fourgons et fourgonnettes (Voitures particulières, fourgons et fourgonnette](<Contrat Automobile – Voitures particulières, fourgons et fourgonnettes (Voitures particulières, fourgons et fourgonnette.md>) - IPID / Fiche d'information, éd. 2022-06
 
 ## Source & fidélité
 

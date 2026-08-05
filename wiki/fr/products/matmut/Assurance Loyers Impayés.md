@@ -50,7 +50,7 @@ generated: true
 
 Conditions générales du contrat « Matmut Assurance loyers impayés », valant projet de contrat au sens de l'article L. 112-2 du Code des assurances. Le contrat a pour objet de couvrir les conséquences financières et matérielles qui peuvent surgir dans le cadre des rapports locatifs visant un bien immobilier à usage exclusif de résidence principale : le paiement des loyers et des charges du locataire défaillant, le remboursement des frais nécessaires à la remise en état du logement consécutive à des dégradations locatives immobilières causées par le locataire, et la perte de loyers consécutive à la non-location du logement. Trois garanties sont incluses — Loyers impayés, Dégradations locatives immobilières et Recours suite à loyers impayés et/ou à dégradations locatives — auxquelles s'ajoute la garantie optionnelle Vacance locative. Le contrat ne peut être souscrit que par un proposant admis au préalable comme Sociétaire de la Matmut ; la gestion de la garantie Recours et des sinistres est confiée à LSA COURTAGE. Le document comprend en outre les modalités d'examen des réclamations et la charte de protection des données à caractère personnel.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : Crédit et caution · Type : Conditions générales · Édition : 10/24
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : Crédit et caution · Type : Conditions générales · Édition : 10/24
 
 ## Définitions
 
@@ -345,7 +345,7 @@ Conformément à l'article L. 114-1 du Code des assurances, toutes actions déri
 
 ## Documents liés
 
-- [Contrat « Assurance Loyers Impayés » - IPID](Contrat%20%C2%AB%20Assurance%20Loyers%20Impay%C3%A9s%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information, éd. 2024-10
+- [Contrat « Assurance Loyers Impayés » - IPID](<Contrat « Assurance Loyers Impayés » - IPID.md>) - IPID / Fiche d'information, éd. 2024-10
 
 ## Source & fidélité
 

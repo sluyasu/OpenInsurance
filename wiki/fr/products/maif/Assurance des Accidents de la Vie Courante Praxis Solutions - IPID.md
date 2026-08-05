@@ -44,7 +44,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du contrat Assurance des Accidents de la Vie Courante Praxis Solutions de MAIF, une assurance corporelle. Il répare les dommages corporels subis lors d'un accident de la vie quotidienne, d'une activité culturelle, sportive ou de loisirs et des activités scolaires et parascolaires des enfants : frais médicaux restés à charge, perte de revenus, frais d'hospitalisation, mesures compensatoires en cas de handicap, incapacité permanente, tierce personne, préjudice esthétique, frais funéraires, capital décès et préjudice patrimonial. Il comprend aussi des prestations d'aides immédiates, une assistance en déplacement en France et dans le monde, un recours et une protection juridique. Le contrat est conclu pour un an et reconduit automatiquement chaque 1er janvier.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Garantie des accidents de la vie](../../branches/Garantie%20des%20accidents%20de%20la%20vie.md) · Type : IPID / Fiche d'information · Édition : 05/2024
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Garantie des accidents de la vie](<../../branches/Garantie des accidents de la vie.md>) · Type : IPID / Fiche d'information · Édition : 05/2024
 
 ## Garanties
 
@@ -202,7 +202,7 @@ La couverture juridique. Protection juridique : en cas d’accident corporel, d�
 
 ## Documents liés
 
-- [Praxis Solutions](Praxis%20Solutions.md) - Conditions générales, éd. 01/2026
+- [Praxis Solutions](<Praxis Solutions.md>) - Conditions générales, éd. 01/2026
 
 ## Source & fidélité
 

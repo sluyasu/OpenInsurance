@@ -43,7 +43,7 @@ generated: true
 
 Document d’information (DIPA) du contrat « Aléassur Auto collaborateurs », assurance automobile destinée aux collectivités territoriales. Il garantit, en substitution du contrat personnel de l’assuré, le véhicule terrestre à moteur utilisé pour les besoins de la personne morale souscriptrice, notamment contre les conséquences des dommages matériels ou corporels causés à des tiers. Sont systématiquement prévues la responsabilité civile automobile, la défense pénale et recours suite à accident et les garanties dommages subis par le véhicule (incendie, vol, bris de glace, événements climatiques, attentat, catastrophe naturelle, accidents et dégradations), ainsi que les objets et effets personnels transportés et les accessoires. Des garanties optionnelles (matériel et marchandises transportés, assistance, véhicule de remplacement) peuvent être souscrites. La compagnie indiquée est SMACL Assurances SA.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 02/2025
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information · Édition : 02/2025
 
 ## Garanties
 

@@ -49,7 +49,7 @@ generated: true
 
 Note d'information détaillée du contrat MACIF HOSPITALISATION, complémentaire santé centrée exclusivement sur l'hospitalisation (y compris ambulatoire). Il s'agit d'un contrat collectif à adhésion facultative souscrit par la Macif au profit de ses sociétaires, de leur conjoint, descendants ou ascendant, assuré par Macif Santé Prévoyance ; les garanties Macif Assistance sont assurées par IMA Assurances. Le tableau de garanties couvre notamment les honoraires chirurgicaux et médicaux, les honoraires paramédicaux, les analyses et la radiologie à 200 %, le forfait journalier hospitalier et le forfait patient urgences en remboursement intégral, les frais de transport et de séjour à 100 %, la chambre particulière à 50 € par nuit et la chambre d'accompagnant à 20 € par nuit. Le document précise qu'il ne s'agit pas d'un contrat solidaire et responsable au sens de l'article L.871-1 du Code de la sécurité sociale, qu'un délai d'attente de 3 mois s'applique, et qu'aucun questionnaire médical n'est demandé.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : 01/26
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Conditions générales · Édition : 01/26
 
 ## Définitions
 
@@ -689,9 +689,9 @@ La prescription est le délai au-delà duquel une action n'est plus recevable. L
 ## Documents liés
 
 - Édition courante de ce produit.
-- [contrat MACIF HOSPITALISATION - IPID](contrat%20MACIF%20HOSPITALISATION%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/26
-- [contrat MACIF HOSPITALISATION - IPID](contrat%20MACIF%20HOSPITALISATION%20-%20IPID%20%282%29.md) - IPID / Fiche d'information, éd. 10/22
-- [MACIF HOSPITALISATION](MACIF%20HOSPITALISATION%20%282%29.md) - Conditions générales, éd. 01/24
+- [contrat MACIF HOSPITALISATION - IPID](<contrat MACIF HOSPITALISATION - IPID.md>) - IPID / Fiche d'information, éd. 01/26
+- [contrat MACIF HOSPITALISATION - IPID](<contrat MACIF HOSPITALISATION - IPID (2).md>) - IPID / Fiche d'information, éd. 10/22
+- [MACIF HOSPITALISATION](<MACIF HOSPITALISATION (2).md>) - Conditions générales, éd. 01/24
 
 ## Source & fidélité
 

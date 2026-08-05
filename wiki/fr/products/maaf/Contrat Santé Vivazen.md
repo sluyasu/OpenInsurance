@@ -46,7 +46,7 @@ generated: true
 
 Conditions générales valant extrait du règlement mutualiste du contrat complémentaire santé individuel MAAF Vivazen, dispositions en vigueur au 01/01/2026. Le contrat rembourse les dépenses de santé des assurés désignés, dans la limite des frais engagés, au travers de trois modules — Soins courants, Hospitalisation et Optique-Dentaire — déclinés chacun en cinq niveaux de garanties, dont les niveaux 1 à 4 sont solidaires et responsables. Il comporte en outre des garanties d'assistance (assistance santé à domicile et « aide aux aidants ») relevant d'un contrat collectif souscrit par MAAF Santé auprès de MAAF Assurances SA et gérées par FIDELIA ASSISTANCE. Le document reproduit également le lexique du contrat et les statuts de la mutuelle MAAF Santé.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : 01/26
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Conditions générales · Édition : 01/26
 
 ## Définitions
 
@@ -737,10 +737,10 @@ Conformément à l'article L 221-11 du Code de la mutualité, toute action déri
 ## Documents liés
 
 - Édition courante de ce produit.
-- [COMPLÉMENTAIRE SANTÉ VIVAZEN (Niveaux 1 à 5) - Fiche](COMPL%C3%89MENTAIRE%20SANT%C3%89%20VIVAZEN%20%28Niveaux%201%20%C3%A0%205%29%20-%20Fiche.md) - Fiche produit, éd. Garanties en vigueur au 01/12/2025
-- [Contrat Santé Vivazen](Contrat%20Sant%C3%A9%20Vivazen%20%282%29.md) - Conditions générales, éd. 2026-01
-- [VIVAZEN (Niveaux 1 à 5) - Fiche](VIVAZEN%20%28Niveaux%201%20%C3%A0%205%29%20-%20Fiche.md) - Fiche produit, éd. Exemples chiffrés applicables à compter du 1er octobre 2026 susceptibles d’évoluer, à la hausse ou à la baisse, dans le temps.
-- [VIVAZEN - IPID](VIVAZEN%20-%20IPID.md) - IPID / Fiche d'information, éd. 2025-12
+- [COMPLÉMENTAIRE SANTÉ VIVAZEN (Niveaux 1 à 5) - Fiche](<COMPLÉMENTAIRE SANTÉ VIVAZEN (Niveaux 1 à 5) - Fiche.md>) - Fiche produit, éd. Garanties en vigueur au 01/12/2025
+- [Contrat Santé Vivazen](<Contrat Santé Vivazen (2).md>) - Conditions générales, éd. 2026-01
+- [VIVAZEN (Niveaux 1 à 5) - Fiche](<VIVAZEN (Niveaux 1 à 5) - Fiche.md>) - Fiche produit, éd. Exemples chiffrés applicables à compter du 1er octobre 2026 susceptibles d’évoluer, à la hausse ou à la baisse, dans le temps.
+- [VIVAZEN - IPID](<VIVAZEN - IPID.md>) - IPID / Fiche d'information, éd. 2025-12
 
 ## Source & fidélité
 

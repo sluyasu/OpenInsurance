@@ -40,7 +40,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) du contrat « Assurance Auto-Moto Vam » de MAIF, présenté sous l’intitulé « Assurance Auto Moto ». Le produit garantit le conducteur d’un véhicule terrestre à moteur contre les conséquences des dommages matériels ou corporels causés par son véhicule à un tiers (responsabilité civile), assurance présentée comme obligatoire. Il comporte également des garanties de dommages corporels du conducteur, des garanties de dommages au véhicule assuré, un accompagnement juridique et des services d’assistance, ainsi que cinq garanties optionnelles. Une restriction propre aux motos bénéficiant du Bonus Hivernage est prévue.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 10/2025
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information · Édition : 10/2025
 
 ## Garanties
 
@@ -281,7 +281,7 @@ amiable. Maroc et Tunisie séjour limité à 1 an. p. 2
 
 ## Documents liés
 
-- [Assurance Auto-Moto Vam](Assurance%20Auto-Moto%20Vam.md) - Conditions générales, éd. 01/2026
+- [Assurance Auto-Moto Vam](<Assurance Auto-Moto Vam.md>) - Conditions générales, éd. 01/2026
 
 ## Source & fidélité
 

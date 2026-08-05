@@ -42,7 +42,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (DIPA/IPID) relatif à l'assurance emprunteur adossée à un crédit à la consommation, porté conjointement par trois entreprises d'assurance : MATMUT VIE, MACIF VIE et AGPM-VIE. Le contrat garantit le remboursement du crédit à la consommation : versement du capital restant dû au titre du prêt conformément au tableau d'amortissement en cas de décès, de perte totale et irréversible d'autonomie et d'invalidité permanente, et versement des mensualités de crédit en cas d'incapacité temporaire de travail avec perte de revenus. Les garanties s'appliquent dans le monde entier et prennent effet dès la date de signature de la demande d'adhésion, jusqu'au remboursement intégral du crédit. Un délai de carence de 120 jours s'applique aux risques consécutifs à une maladie, et les mensualités d'incapacité temporaire ne sont versées qu'à partir de l'échéance suivant le 61ème jour d'arrêt continu de travail.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Assurance emprunteur](../../branches/Assurance%20emprunteur.md) · Type : IPID / Fiche d'information
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Assurance emprunteur](<../../branches/Assurance emprunteur.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

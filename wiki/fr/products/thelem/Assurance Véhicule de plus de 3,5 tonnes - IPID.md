@@ -43,7 +43,7 @@ generated: true
 
 L’assurance Véhicule de plus de 3,5 tonnes est un contrat d’assurance de véhicule terrestre à moteur portant sur les véhicules de plus de 3,5 tonnes nécessitant un permis de conduire spécifique ainsi que leurs remorques. Elle garantit systématiquement la responsabilité civile (dommages causés aux tiers par le véhicule, plafond illimité pour les dommages corporels / 100 millions € pour les dommages matériels) et la Défense Pénale et Recours Suite à Accident jusqu’à 16 000 €. En option, le contrat prévoit la Protection du conducteur jusqu’à 600 000 €, les Dommages au véhicule (bris de glaces, catastrophes naturelles et technologiques, attentats, forces de la nature, incendie et dommages électroniques, vol et tentative de vol, dommages tous accidents et vandalisme), le Contenu de la cabine jusqu’à 1 000 € et les Aménagements professionnels fixes jusqu’à 20 000 €. Le document est un IPID de 2 pages qui, selon ses propres termes, ne présente qu’un résumé des principales garanties et exclusions du contrat.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information
+- Assureur : [Thélem assurances](<../../insurers/Thélem assurances.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

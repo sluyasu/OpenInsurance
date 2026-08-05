@@ -46,7 +46,7 @@ generated: true
 
 Conditions générales du contrat Matmut Multirisques Accidents de la Vie (garantie des accidents de la vie), valant projet de contrat au sens de l'article L. 112-2 du Code des assurances. Le contrat garantit le paiement d'indemnités en cas d'accident corporel de la vie courante (accidents domestiques, scolaires, de sport ou de loisirs, accidents médicaux, accidents de service ou de travail, agressions et attentats) occasionnant une incapacité permanente à l'assuré ou entraînant son décès. Il se décline en trois formules (Famille, Couple, Individuelle) et deux niveaux de garantie (Niveau 1 et Niveau 2), avec un seuil de déclenchement de 10 % d'incapacité permanente (AIPP) pour la plupart des garanties en cas de blessures, et de 30 % pour les prestations d'accompagnement personnalisé. Le document comprend également les modalités d'examen des réclamations et la charte de protection des données à caractère personnel.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Garantie des accidents de la vie](../../branches/Garantie%20des%20accidents%20de%20la%20vie.md) · Type : Conditions générales
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Garantie des accidents de la vie](<../../branches/Garantie des accidents de la vie.md>) · Type : Conditions générales
 
 ## Définitions
 
@@ -428,10 +428,10 @@ Conformément à l'article L. 114-1 du Code des assurances, toutes actions déri
 
 ## Documents liés
 
-- Extension liée : [Conditions de l'offre — Remise à la souscription — Contrats Multirisques Accidents de la Vie et Multirisques Accidents d](Conditions%20de%20l%27offre%20%E2%80%94%20Remise%20%C3%A0%20la%20souscription%20%E2%80%94%20Contrats%20Multirisques%20Accidents%20de%20la%20Vie%20et%20Multirisques%20Accidents%20d.md)
-- [Conditions de l'offre — Remise à la souscription — Contrats Multirisques Accidents de la Vie et Multirisques Accidents d](Conditions%20de%20l%27offre%20%E2%80%94%20Remise%20%C3%A0%20la%20souscription%20%E2%80%94%20Contrats%20Multirisques%20Accidents%20de%20la%20Vie%20et%20Multirisques%20Accidents%20d.md) - Conditions tarifaires, éd. 01/26
-- [Contrat « Multirisques Accidents de la Vie » - IPID](Contrat%20%C2%AB%20Multirisques%20Accidents%20de%20la%20Vie%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/26
-- [Multirisques Accidents de la Vie Sérénité](Multirisques%20Accidents%20de%20la%20Vie%20S%C3%A9r%C3%A9nit%C3%A9.md) - Conditions générales, éd. 01/26
+- Extension liée : [Conditions de l'offre — Remise à la souscription — Contrats Multirisques Accidents de la Vie et Multirisques Accidents d](<Conditions de l'offre — Remise à la souscription — Contrats Multirisques Accidents de la Vie et Multirisques Accidents d.md>)
+- [Conditions de l'offre — Remise à la souscription — Contrats Multirisques Accidents de la Vie et Multirisques Accidents d](<Conditions de l'offre — Remise à la souscription — Contrats Multirisques Accidents de la Vie et Multirisques Accidents d.md>) - Conditions tarifaires, éd. 01/26
+- [Contrat « Multirisques Accidents de la Vie » - IPID](<Contrat « Multirisques Accidents de la Vie » - IPID.md>) - IPID / Fiche d'information, éd. 01/26
+- [Multirisques Accidents de la Vie Sérénité](<Multirisques Accidents de la Vie Sérénité.md>) - Conditions générales, éd. 01/26
 
 ## Source & fidélité
 

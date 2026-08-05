@@ -44,7 +44,7 @@ generated: true
 
 Tableau des garanties 2026 du régime frais de santé de la CCN Coiffure, décliné en trois formules (BASE, CONFORT, CONFORT +). Il détaille les niveaux de remboursement en hospitalisation, soins courants, médicaments, matériel médical, transports, dentaire, optique, aides auditives, naissance, bien-être et prévention, ainsi que les services inclus (Itelis, Medaviz, Livmed’s, deuxième avis médical, bilan de santé digital, Méta-coaching, Salvum et Protection juridique santé). Les pourcentages incluent la part de la Sécurité sociale. L’assureur de la garantie Santé est la Mutuelle Ociane ; le dispositif est mutualisé dans le cadre d’une coassurance Santé mise en place par les organisations paritaires de la Branche professionnelle. Les pages 5 à 9 illustrent les remboursements par des exemples chiffrés. Document non contractuel.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit · Édition : Vos garanties 2026 (référence GAMME COIFFURE-0925)
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Fiche produit · Édition : Vos garanties 2026 (référence GAMME COIFFURE-0925)
 
 ## Définitions
 

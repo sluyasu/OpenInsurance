@@ -41,7 +41,7 @@ generated: true
 
 Ce document n'est pas un contrat d'assurance : il énonce les conditions d'octroi de l'« Avantage Hiver Matmut », un avantage tarifaire commercial attaché aux contrats des gammes Multirisques 4 roues Référence, Essentiel et 2R Rider. Le souscripteur qui s'engage à remiser son véhicule et à ne pas l'utiliser pendant l'hiver obtient une réduction de cotisation dont le taux dépend du type de véhicule et de la durée d'hivernage : 5 % pour un 4 roues (3 mois), 10 % (2 mois) ou 20 % (4 mois) pour un 2 roues. Le document précise l'assiette de la réduction, sa prise d'effet, sa suppression, les sanctions en cas de non-respect des conditions (nullité du contrat ou réduction des indemnités) et sa date de validité (31/12/2026).
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Deux-roues, quads et voiturettes](../../branches/Deux-roues%2C%20quads%20et%20voiturettes.md) · Type : Conditions tarifaires · Édition : 01/26
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Deux-roues, quads et voiturettes](<../../branches/Deux-roues, quads et voiturettes.md>) · Type : Conditions tarifaires · Édition : 01/26
 
 ## Garanties
 

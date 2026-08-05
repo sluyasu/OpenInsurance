@@ -45,7 +45,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) relatif au contrat « Flotte de véhicules » de la Matmut, assurance automobile. Le contrat a pour objet de garantir l'ensemble d'une flotte de véhicules (2 roues, 3 roues ou 4 roues motorisés) contre les conséquences des dommages matériels et corporels causés à des tiers (Responsabilité civile), assurance obligatoire, et inclut systématiquement la Protection Juridique suite à accident. Une gamme étendue de garanties optionnelles peut être souscrite, dont certaines réservées aux voitures particulières et camping-cars ou aux motocyclettes et quads. Le document ne présente qu'un résumé des principales garanties et exclusions.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 2024-11
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information · Édition : 2024-11
 
 ## Garanties
 
@@ -245,7 +245,7 @@ Garantie optionnelle relevant de la rubrique « Garantie optionnelle (motocyclet
 
 ## Documents liés
 
-- [Flotte de véhicules](Flotte%20de%20v%C3%A9hicules.md) - Conditions générales
+- [Flotte de véhicules](<Flotte de véhicules.md>) - Conditions générales
 
 ## Source & fidélité
 

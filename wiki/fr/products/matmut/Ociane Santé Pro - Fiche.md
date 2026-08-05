@@ -42,7 +42,7 @@ generated: true
 
 Fiche produit de la complémentaire santé Ociane Santé Pro, offre dédiée aux travailleurs non salariés et éligible à la loi Madelin, assurée par la Mutuelle Ociane (Groupe Matmut). Elle présente le tableau des garanties 2026 en 6 niveaux (hospitalisation, soins courants, optique, dentaire, aides auditives, sport sur ordonnance, prévention et médecines douces, protection « Gros pépin », prestations complémentaires et services inclus), les renvois qui en fixent les conditions, et des exemples chiffrés de remboursement. Les soins du 100 % Santé (optique classe A, dentaire, aides auditives classe I) sont remboursés intégralement à tous les niveaux. Le document précise qu'il est non contractuel.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit · Édition : 10/25
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Fiche produit · Édition : 10/25
 
 ## Définitions
 
@@ -569,8 +569,8 @@ Avec la Mutuelle Ociane Matmut, bénéficiez du remboursement intégral des soin
 
 ## Documents liés
 
-- [Ociane Santé Pro](Ociane%20Sant%C3%A9%20Pro.md) - Conditions générales, éd. Édition février 2026
-- [Ociane Santé Pro - Niveaux 1 à 6 - IPID](Ociane%20Sant%C3%A9%20Pro%20-%20Niveaux%201%20%C3%A0%206%20-%20IPID.md) - IPID / Fiche d'information, éd. 0925 (référence bas de page « IPID.MOM.SANTE PRO – 0925 »)
+- [Ociane Santé Pro](<Ociane Santé Pro.md>) - Conditions générales, éd. Édition février 2026
+- [Ociane Santé Pro - Niveaux 1 à 6 - IPID](<Ociane Santé Pro - Niveaux 1 à 6 - IPID.md>) - IPID / Fiche d'information, éd. 0925 (référence bas de page « IPID.MOM.SANTE PRO – 0925 »)
 
 ## Source & fidélité
 

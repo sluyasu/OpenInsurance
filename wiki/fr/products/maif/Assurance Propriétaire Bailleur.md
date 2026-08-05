@@ -48,7 +48,7 @@ generated: true
 
 Conditions générales du contrat MAIF « Assurance Propriétaire Bailleur » (référence M5202APB, édition 01/2025), contrat habitation destiné au propriétaire qui donne son bien à bail écrit. Il couvre les biens immobiliers donnés à bail et les biens mobiliers déclarés qui y sont rattachés contre treize événements (incendie-explosion, dégât des eaux, événements climatiques, gel, catastrophes naturelles et technologiques, attentats, vol, vandalisme et dégradations locatives, bris de vitre, dommages électriques, choc de véhicule, autres dommages accidentels), et prend en charge les pertes de loyers, des frais supplémentaires et des mesures d’urgence. Il comprend également une garantie recours, une garantie responsabilité civile-défense du propriétaire et du propriétaire-bailleur, un accompagnement juridique (informations juridiques, renseignements personnalisés, protection juridique) et une assistance domestique (plomberie-électricité-chauffage, serrurerie). Les plafonds, la valeur mobilière assurée et les franchises sont fixés aux conditions particulières ; le document se termine par le barème des honoraires d’avocats, le barème des frais et l’IPID du produit.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales · Édition : 01/2025
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : Conditions générales · Édition : 01/2025
 
 ## Définitions
 
@@ -518,7 +518,7 @@ La prescription est le délai au-delà duquel aucune action n’est plus recevab
 
 ## Documents liés
 
-- [Assurance Propriétaire Bailleur - IPID](Assurance%20Propri%C3%A9taire%20Bailleur%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/2025
+- [Assurance Propriétaire Bailleur - IPID](<Assurance Propriétaire Bailleur - IPID.md>) - IPID / Fiche d'information, éd. 01/2025
 
 ## Source & fidélité
 

@@ -42,7 +42,7 @@ generated: true
 
 Informationsblatt zu Versicherungsprodukten für das Produkt „Sorgenfreier Urlaub“ von LALUX Assurances. Das Produkt deckt nach eigener Beschreibung Risiken ab, die in Verbindung mit der Vorbereitung oder Durchführung einer Reise auftreten können, und umfasst Assistance-Leistungen, Gepäck, Reiseunfälle (Todesfall und dauerhafte Invalidität), Erkrankung während der Reise sowie Rücktrittskosten. Der Versicherungsschutz gilt für die in den Besonderen Bedingungen festgelegte Zone: Zone 1 (ganz Europa sowie eine Länderliste) oder Zone 2 (weltweit); die Assistance-Leistungen gelten nur für Reisen außerhalb des Großherzogtums Luxemburg. Das Dokument nennt Höchstbeträge nur für einen Teil der Assistance-Leistungen und bezeichnet seine Listen ausdrücklich als „Nicht vollständige Liste“.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Voyage et assistance](<../../branches/Voyage et assistance.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 

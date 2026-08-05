@@ -40,7 +40,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du produit BUSINESS TRAVEL de DKV Luxembourg S.A. Le document indique qu'« Il s'agit d'une assurance maladie voyage à l'étranger ». Il énumère 14 prestations couvertes réparties en traitements ambulatoires, traitements dentaires / prothèses dentaires, hospitalisations, transport des malades et rapatriement, 12 prestations non assurées et 3 restrictions de couverture. Les prestations sont limitées aux montants maximaux précisés dans les conditions générales d'assurance, que l'IPID ne chiffre pas.
 
-- Assureur : [DKV Luxembourg](../../insurers/DKV%20Luxembourg.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : IPID / Fiche d'information
+- Assureur : [DKV Luxembourg](<../../insurers/DKV Luxembourg.md>) · Branche : [Voyage et assistance](<../../branches/Voyage et assistance.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -158,11 +158,11 @@ Organisation et prise en charge des frais de transfert en cas de décès de la p
 
 ## Documents liés
 
-- [BUSINESS TRAVEL - IPID - EN](BUSINESS%20TRAVEL%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
-- [BUSINESS TRAVEL](BUSINESS%20TRAVEL.md) - Conditions générales, éd. 04|2017
-- [BUSINESS TRAVEL - DE](BUSINESS%20TRAVEL%20-%20DE.md) - Conditions générales, éd. 04|2017
-- [BUSINESS TRAVEL - IPID - DE](BUSINESS%20TRAVEL%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
-- [BUSINESS TRAVEL - EN](BUSINESS%20TRAVEL%20-%20EN.md) - Conditions générales, éd. 04|2017
+- [BUSINESS TRAVEL - IPID - EN](<BUSINESS TRAVEL - IPID - EN.md>) - IPID / Fiche d'information
+- [BUSINESS TRAVEL](<BUSINESS TRAVEL.md>) - Conditions générales, éd. 04|2017
+- [BUSINESS TRAVEL - DE](<BUSINESS TRAVEL - DE.md>) - Conditions générales, éd. 04|2017
+- [BUSINESS TRAVEL - IPID - DE](<BUSINESS TRAVEL - IPID - DE.md>) - IPID / Fiche d'information
+- [BUSINESS TRAVEL - EN](<BUSINESS TRAVEL - EN.md>) - Conditions générales, éd. 04|2017
 
 ## Source & fidélité
 

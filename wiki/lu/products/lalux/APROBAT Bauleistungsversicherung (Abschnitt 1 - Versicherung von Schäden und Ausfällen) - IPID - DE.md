@@ -43,7 +43,7 @@ generated: true
 
 Informationsdokument über das Versicherungsprodukt für die APROBAT Bauleistungsversicherung, hier für "Abschnitt 1 - Versicherung von Schäden und Ausfällen", herausgegeben unter der Marke "LALUX Assurances". Die Versicherung deckt direkte materielle Schäden ab, die in der Zerstörung oder Beschädigung eines versicherten Objekts während der Bau-Aufbau-Testphase sowie während der Instandhaltungsphase bestehen; alle immateriellen Schäden sind ausgeschlossen. Als Versicherte gelten nach der Darstellung des Dokuments alle am Bau Beteiligten. Der Versicherungsschutz gilt für die in den Besonderen Bedingungen spezifizierten Baustelle(n) und Güter.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Assurances constructions](../../branches/Assurances%20constructions.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Assurances constructions](<../../branches/Assurances constructions.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -158,8 +158,8 @@ Entschädigt der Versicherer den Versicherungsnehmer für Schäden an denselben 
 
 ## Documents liés
 
-- Extension liée : [APROBAT - Bauleistungsversicherung (Abschnitt 2 - Haftpflichtversicherung) - IPID - DE](APROBAT%20-%20Bauleistungsversicherung%20%28Abschnitt%202%20-%20Haftpflichtversicherung%29%20-%20IPID%20-%20DE.md)
-- [APROBAT - Bauleistungsversicherung (Abschnitt 2 - Haftpflichtversicherung) - IPID - DE](APROBAT%20-%20Bauleistungsversicherung%20%28Abschnitt%202%20-%20Haftpflichtversicherung%29%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
+- Extension liée : [APROBAT - Bauleistungsversicherung (Abschnitt 2 - Haftpflichtversicherung) - IPID - DE](<APROBAT - Bauleistungsversicherung (Abschnitt 2 - Haftpflichtversicherung) - IPID - DE.md>)
+- [APROBAT - Bauleistungsversicherung (Abschnitt 2 - Haftpflichtversicherung) - IPID - DE](<APROBAT - Bauleistungsversicherung (Abschnitt 2 - Haftpflichtversicherung) - IPID - DE.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

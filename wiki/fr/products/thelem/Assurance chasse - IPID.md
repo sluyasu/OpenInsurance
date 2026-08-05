@@ -41,7 +41,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de l’Assurance chasse de Thélem assurances. Cette assurance a pour objectifs de garantir les dommages résultant d’actes de chasse, de l’organisation d’une chasse ainsi que les accidents causés par les chiens de l’assuré y compris en dehors de la chasse ; l’assurance de responsabilité civile chasse est obligatoire. Le contrat prévoit également en option la garantie des dommages corporels des chasseurs ainsi qu’une garantie frais de soins et mortalité pour les chiens de chasse.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Chasse](../../branches/Chasse.md) · Type : IPID / Fiche d'information
+- Assureur : [Thélem assurances](<../../insurers/Thélem assurances.md>) · Branche : [Chasse](<../../branches/Chasse.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 

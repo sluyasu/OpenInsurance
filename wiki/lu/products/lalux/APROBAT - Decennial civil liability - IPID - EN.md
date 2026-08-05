@@ -43,7 +43,7 @@ generated: true
 
 Insurance product information document (IPID) for APROBAT decennial civil liability, published under the header “LALUX Assurances - Product : APROBAT decennial CL”. Division A insures the decennial civil liability owed by the persons involved in the design and construction of the insured structure to the owner or purchaser under articles 1792 and 2270 of the Civil Code; Division B insures their liability to the owner, purchaser or third parties under articles 1382, 1383, 1384 and 1386 of the Luxembourg Civil Code for bodily injury, material and immaterial damage that results from an accident covered by Division A. Damage to major structures is covered for 10 years and minor structures (radiators, doors, windows, etc.) for 2 years. The cover is conditional on the works being overseen by an approved inspection body.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Assurances constructions](../../branches/Assurances%20constructions.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Assurances constructions](<../../branches/Assurances constructions.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -140,8 +140,8 @@ The policy covers the insured persons for financial compensation to which they m
 
 ## Documents liés
 
-- [APROBAT - Comprehensive construction site insurance (Section 2 – Liability insurance) - IPID - EN](APROBAT%20-%20Comprehensive%20construction%20site%20insurance%20%28Section%202%20%E2%80%93%20Liability%20insurance%29%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
-- [APROBAT - Responsabilité Civile Décennale - IPID](APROBAT%20-%20Responsabilit%C3%A9%20Civile%20D%C3%A9cennale%20-%20IPID.md) - IPID / Fiche d'information
+- [APROBAT - Comprehensive construction site insurance (Section 2 – Liability insurance) - IPID - EN](<APROBAT - Comprehensive construction site insurance (Section 2 – Liability insurance) - IPID - EN.md>) - IPID / Fiche d'information
+- [APROBAT - Responsabilité Civile Décennale - IPID](<APROBAT - Responsabilité Civile Décennale - IPID.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

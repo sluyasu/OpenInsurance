@@ -44,7 +44,7 @@ generated: true
 
 Document d'une page exposant les conditions d'octroi de l'avantage commercial « Bonus Booster Matmut ». Cet avantage accélère la progression du coefficient de réduction (bonus) au-delà de ce que prévoit l'Annexe à l'article A. 121-1 du Code des assurances, jusqu'à 36 % de bonus (coefficient 0,64) à l'échéance annuelle du contrat. Il est réservé aux personnes physiques titulaires d'un contrat Multirisques 4 roues Référence ou Essentiel Matmut ou 2R Rider, ayant opté pour un Usage Actif ou Sérénité, et n'ayant occasionné aucun sinistre responsable au cours de la période précédant l'échéance. Le document ne décrit aucune garantie d'assurance et précise que l'avantage ne remet pas en cause les règles réglementaires d'évolution du coefficient.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Deux-roues, quads et voiturettes](../../branches/Deux-roues%2C%20quads%20et%20voiturettes.md) · Type : Conditions tarifaires · Édition : 2026-01
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Deux-roues, quads et voiturettes](<../../branches/Deux-roues, quads et voiturettes.md>) · Type : Conditions tarifaires · Édition : 2026-01
 
 ## Exclusions
 

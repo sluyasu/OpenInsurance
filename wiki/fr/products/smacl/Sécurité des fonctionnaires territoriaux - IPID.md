@@ -45,7 +45,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du contrat « Sécurité des fonctionnaires territoriaux » de SMACL Assurances. Le contrat garantit la défense des intérêts de l'assuré (protection juridique) et la responsabilité personnelle qu'il peut encourir en raison des dommages corporels, matériels et immatériels causés à autrui dans le cadre de ses fonctions. Les garanties sont systématiquement prévues au contrat : frais de défense et de recours plafonnés à 16 000 €, perte de rémunération et frais de réorientation professionnelle consécutifs à une procédure pénale, et responsabilité personnelle plafonnée à 6 100 000 € tous dommages confondus avec quatre sous-limitations. La couverture s'exerce en France métropolitaine, dans les DROM, dans l'Union européenne et les pays frontaliers, et dans le monde entier pour les déplacements n'excédant pas trente jours consécutifs.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : IPID / Fiche d'information · Édition : 01/2022
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : IPID / Fiche d'information · Édition : 01/2022
 
 ## Garanties
 
@@ -140,7 +140,7 @@ Garantie de la responsabilité que l'assuré peut encourir personnellement en ra
 
 ## Documents liés
 
-- [Sécurité des fonctionnaires territoriaux](S%C3%A9curit%C3%A9%20des%20fonctionnaires%20territoriaux.md) - Conditions générales, éd. 11/2022
+- [Sécurité des fonctionnaires territoriaux](<Sécurité des fonctionnaires territoriaux.md>) - Conditions générales, éd. 11/2022
 
 ## Source & fidélité
 

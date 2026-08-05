@@ -45,7 +45,7 @@ generated: true
 
 Conventions spéciales « Annulation de séjour » du contrat CONVERGENCE, annexées aux conditions générales CONVERGENCE et diffusées sous le bandeau « Associations ». La garantie principale prend en charge les pertes pécuniaires supportées par la personne morale souscriptrice lorsqu'un assuré, régulièrement inscrit au séjour, doit annuler sa participation avant le commencement du séjour par suite de l'un des événements assurés énumérés à l'article 2.2 ; la prise en charge est plafonnée par le barème des frais d'annulation du Syndicat national des agents de voyages (SNAV) et par le montant annuel fixé au contrat. Une garantie optionnelle « Perte de bagages » indemnise le vol, la perte pendant l'acheminement et la destruction ou détérioration des bagages, à concurrence du montant fixé au contrat. Les montants de garantie sont précisés aux conditions particulières.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : Conditions générales · Édition : 07/2025
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Voyage et assistance](<../../branches/Voyage et assistance.md>) · Type : Conditions générales · Édition : 07/2025
 
 ## Définitions
 

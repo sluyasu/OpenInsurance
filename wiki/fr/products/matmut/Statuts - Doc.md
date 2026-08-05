@@ -45,7 +45,7 @@ generated: true
 
 Statuts de la Mutuelle assurance des travailleurs mutualistes (Matmut), société d’assurance mutuelle à cotisations variables régie par le Code des Assurances, dont le siège social est 66 rue de Sotteville à Rouen 76100. Le document n’est pas un contrat d’assurance : il fixe la constitution et l’objet de la Société, l’engagement social des sociétaires (adhésion, perte de la qualité de sociétaire, droit d’entrée, cotisations), l’administration (Conseil d’Administration, commissaires aux comptes, Direction Générale), les Assemblées Générales, les charges et contributions sociales, et les dispositions diverses (affiliation à la SGAM Matmut, prorogation, dissolution, publications). Il comporte 6 chapitres et 56 articles imprimés, dans l’édition datée 06/21.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Autres](../../branches/Autres.md) · Type : Document · Édition : 06/21
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Autres](<../../branches/Autres.md>) · Type : Document · Édition : 06/21
 
 ## Définitions
 

@@ -41,7 +41,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) pour la complémentaire santé Ociane Santé Pro - Niveaux 1 à 6, portée par Mutuelle Ociane, mutuelle soumise au Livre II du Code de la mutualité (n° 434 243 085). Le produit est réservé aux travailleurs indépendants et rembourse tout ou partie des frais de santé restant à la charge de l'adhérent et des éventuels ayants-droit en cas d'accident, de maladie ou de maternité, en complément de la Sécurité sociale française. Il respecte les conditions légales des contrats responsables et permet de bénéficier du « 100 % Santé » en optique, dentaire et aides auditives. Six garanties sont systématiquement prévues, huit sont optionnelles, et des services et une assistance sont inclus.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : IPID / Fiche d'information · Édition : 0925 (référence bas de page « IPID.MOM.SANTE PRO – 0925 »)
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : IPID / Fiche d'information · Édition : 0925 (référence bas de page « IPID.MOM.SANTE PRO – 0925 »)
 
 ## Garanties
 
@@ -243,8 +243,8 @@ Compris dans les soins courants et prescriptions médicales : forfait solidaire 
 
 ## Documents liés
 
-- [Ociane Santé Pro - Fiche](Ociane%20Sant%C3%A9%20Pro%20-%20Fiche.md) - Fiche produit, éd. 10/25
-- [Ociane Santé Pro](Ociane%20Sant%C3%A9%20Pro.md) - Conditions générales, éd. Édition février 2026
+- [Ociane Santé Pro - Fiche](<Ociane Santé Pro - Fiche.md>) - Fiche produit, éd. 10/25
+- [Ociane Santé Pro](<Ociane Santé Pro.md>) - Conditions générales, éd. Édition février 2026
 
 ## Source & fidélité
 

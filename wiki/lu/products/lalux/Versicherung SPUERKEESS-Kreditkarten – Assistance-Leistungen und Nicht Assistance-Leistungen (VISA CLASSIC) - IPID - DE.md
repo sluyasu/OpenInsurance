@@ -46,7 +46,7 @@ generated: true
 
 Informationsblatt zum Versicherungsprodukt (IPID) für die Versicherungen, die an die von der SPUERKEESS ausgegebene Kreditkarte VISA CLASSIC gekoppelt sind. Versichert sind der Karteninhaber, der Ehegatte/Lebenspartner und die Kinder unter 25 Jahren. Der Kasten « Was ist versichert ? » führt ausschließlich drei Nicht Assistance-Leistungen auf: REISEUNFALL (TOD / INVALIDITÄT), EINKAUFSSCHUTZ und LIEFERUNG VON INTERNETEINKÄUFEN. Die Versicherung gilt weltweit; für die Lieferung von Interneteinkäufen gilt eine eingeschränkte räumliche Geltung.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Autres](../../branches/Autres.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Autres](<../../branches/Autres.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -135,8 +135,8 @@ Im Kasten « Was ist versichert ? » unter der Überschrift « NICHT ASSISTANCE-
 
 ## Documents liés
 
-- [Versicherung SPUERKEESS-Kreditkarten – Assistance-Leistungen und Nicht Assistance-Leistungen (VISA PREMIER) - IPID - DE](Versicherung%20SPUERKEESS-Kreditkarten%20%E2%80%93%20Assistance-Leistungen%20und%20Nicht%20Assistance-Leistungen%20%28VISA%20PREMIER%29%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
-- [Versicherung SPUERKEESS-Kreditkarten – Assistance-Leistungen und Nicht Assistance-Leistungen (VISA INFINITE) - IPID - DE](Versicherung%20SPUERKEESS-Kreditkarten%20%E2%80%93%20Assistance-Leistungen%20und%20Nicht%20Assistance-Leistungen%20%28VISA%20INFINITE%29%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
+- [Versicherung SPUERKEESS-Kreditkarten – Assistance-Leistungen und Nicht Assistance-Leistungen (VISA PREMIER) - IPID - DE](<Versicherung SPUERKEESS-Kreditkarten – Assistance-Leistungen und Nicht Assistance-Leistungen (VISA PREMIER) - IPID - DE.md>) - IPID / Fiche d'information
+- [Versicherung SPUERKEESS-Kreditkarten – Assistance-Leistungen und Nicht Assistance-Leistungen (VISA INFINITE) - IPID - DE](<Versicherung SPUERKEESS-Kreditkarten – Assistance-Leistungen und Nicht Assistance-Leistungen (VISA INFINITE) - IPID - DE.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

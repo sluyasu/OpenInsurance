@@ -43,7 +43,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de deux pages présentant l’« ASSURANCE MULTI-VOYAGES A L’ANNEE - 507332 ». Le document désigne comme compagnie ALLIANZ DIRECT VERSICHERUNGS- AG, au capital social de 819 200,00 Euros, Königinstraße 28, 80802 Munich, Allemagne. Il s’agit d’un contrat annuel renouvelable à tacite reconduction qui prévoit, pour tout voyage privé, des garanties d’assurance ainsi que des prestations d’assistance : annulation, interruption ou prolongation, voyage retardé, dommages aux bagages, frais médicaux d’urgence à l’étranger, assistance médicale, individuelle accident, responsabilité civile, téléconsultation, garantie Sport et garantie Rachat de Franchise. Toutes les garanties précédées d’une coche sont systématiquement prévues au contrat.
 
-- Assureur : [Luko](../../insurers/Luko.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : IPID / Fiche d'information
+- Assureur : [Luko](<../../insurers/Luko.md>) · Branche : [Voyage et assistance](<../../branches/Voyage et assistance.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

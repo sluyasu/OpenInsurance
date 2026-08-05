@@ -41,7 +41,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (DIPA/IPID) de deux pages pour le Contrat Camping-car Autocaravane, présenté comme « Assurance camping-car ». Ce contrat couvre l’assurance obligatoire de responsabilité civile du fait du camping-car (dommages causés aux tiers) ainsi que, le cas échéant, les dommages subis par ce dernier. Le contrat ofre également des services d’assistance au véhicule et aux personnes transportées. Le document distingue le véhicule assuré, quatre garanties de base précédées d'une coche, onze garanties dommages au véhicule, une garantie optionnelle, les principales exclusions et restrictions, les obligations de l'assuré, le paiement, la durée et la résiliation.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 2018-10
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information · Édition : 2018-10
 
 > ⚠️ **Édition ancienne** : 2018-10, soit 8 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 

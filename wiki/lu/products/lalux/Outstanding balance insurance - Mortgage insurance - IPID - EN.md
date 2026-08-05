@@ -42,7 +42,7 @@ generated: true
 
 Insurance product information document (IPID) for the outstanding balance / mortgage insurance of LALUX Assurances-Vie. The document states that mortgage insurance, also known as "Outstanding balance insurance", is a form of risk insurance that covers a mortgage debt in the event of death. The primary coverage is death, repaying the mortgage loan balance and protecting family assets, for the amount of outstanding capital and interest since the last maturity according to the amortization table of the Special Conditions; it can cover one or two insured persons. An additional coverage pays the death benefit in the event of total and permanent physiological disability following an accident or illness. The guarantees are valid worldwide, with a three-month limit on stays outside Europe for the disability benefit. The document is dated 11.2018 in its footer.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : Assurance solde restant dû · Type : IPID / Fiche d'information · Édition : 11.2018
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : Assurance solde restant dû · Type : IPID / Fiche d'information · Édition : 11.2018
 
 > ⚠️ **Édition ancienne** : 11.2018, soit 8 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 

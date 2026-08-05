@@ -44,7 +44,7 @@ generated: true
 
 Notice d'information et Conditions générales du contrat d'assurance voyage « Medical & Assistance Gold Long trip 507656 V09 2025 », souscrit pour un voyage privé unique réservé auprès d'un organisme de voyage, d'une durée maximale de trois cent soixante-cinq (365) jours consécutifs, par une personne ayant sa résidence principale en France. L'assureur nommé est ALLIANZ DIRECT VERSICHERUNGS-AG (Munich, contrôlée par la BaFin), agissant par sa succursale française de Saint-Ouen-sur-Seine (contrôlée par l'ACPR) ; les demandes d'assistance et d'indemnisation sont traitées par AP Solutions GmbH succursale française. Le contrat réunit les garanties Interruption ou prolongation du voyage (8 000 €), Voyage retardé (1 500 €), Dommages aux bagages (3 000 €), Retard de bagages, Frais médicaux d'urgence à l'étranger (300 000 €), Assistance médicale (frais réels, recherche et secours 10 000 €), Responsabilité civile (4 500 000 € corporels / 450 000 € matériels par sinistre), Individuelle accident (25 000 €), Téléconsultation (2 séances), Frais juridiques (3 000 €) et Documents d'identité et clés (400 €). Il ne comporte aucune garantie Annulation et n'est pas renouvelable.
 
-- Assureur : [Luko](../../insurers/Luko.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : Conditions générales · Édition : V09 2025
+- Assureur : [Luko](<../../insurers/Luko.md>) · Branche : [Voyage et assistance](<../../branches/Voyage et assistance.md>) · Type : Conditions générales · Édition : V09 2025
 
 ## Définitions
 

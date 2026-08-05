@@ -45,7 +45,7 @@ generated: true
 
 Conditions Générales de DKV Luxembourg S.A. pour l’assurance maladie voyage à l’étranger TRAVEL. La Garantie couvre, lors d’un séjour temporaire à l’étranger, les traitements ambulatoires, l’hospitalisation, les soins dentaires, des services complémentaires d’assistance et le rapatriement, à concurrence d’un montant total maximal de cent cinquante mille EUR (150.000 €) par personne et par séjour assuré. La souscription est réservée aux personnes physiques déjà clientes de l’une des trois sociétés du Groupe LALUX, résidant au Luxembourg ou dans un pays limitrophe et affiliées à une assurance maladie légale. La durée de Garantie va de sept (7) à cinquante-six (56) jours et la prime est facturée par journée de Garantie.
 
-- Assureur : [DKV Luxembourg](../../insurers/DKV%20Luxembourg.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : Conditions générales · Édition : 03|2025
+- Assureur : [DKV Luxembourg](<../../insurers/DKV Luxembourg.md>) · Branche : [Voyage et assistance](<../../branches/Voyage et assistance.md>) · Type : Conditions générales · Édition : 03|2025
 
 ## Définitions
 
@@ -361,10 +361,10 @@ Toute action découlant du contrat d’assurance est prescrite à l’expiration
 ## Documents liés
 
 - Édition courante de ce produit.
-- [TRAVEL - DE](TRAVEL%20-%20DE.md) - Conditions générales, éd. 03|2025
-- [TRAVEL - EN](TRAVEL%20-%20EN.md) - Conditions générales, éd. 03|2025
-- [TRAVEL - TRAVEL + - IPID - DE](TRAVEL%20-%20TRAVEL%20%2B%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
-- [TRAVEL - TRAVEL + - IPID](TRAVEL%20-%20TRAVEL%20%2B%20-%20IPID.md) - IPID / Fiche d'information
+- [TRAVEL - DE](<TRAVEL - DE.md>) - Conditions générales, éd. 03|2025
+- [TRAVEL - EN](<TRAVEL - EN.md>) - Conditions générales, éd. 03|2025
+- [TRAVEL - TRAVEL + - IPID - DE](<TRAVEL - TRAVEL + - IPID - DE.md>) - IPID / Fiche d'information
+- [TRAVEL - TRAVEL + - IPID](<TRAVEL - TRAVEL + - IPID.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

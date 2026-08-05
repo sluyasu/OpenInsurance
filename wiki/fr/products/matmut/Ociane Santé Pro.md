@@ -47,7 +47,7 @@ generated: true
 
 Ociane Santé Pro est une notice d’information d’un régime frais de santé complémentaire souscrit sous la forme d’un contrat collectif à adhésion facultative, dans le cadre de la loi n° 94-126 du 11 février 1994 dite loi Madelin, par l’intermédiaire de l’association Ociane Professionnels Indépendants. Les garanties frais de soins sont portées par la Mutuelle Ociane Matmut, mutuelle soumise au Livre II du Code de la mutualité (Siren 434 243 085) ; la garantie Assistance est portée par la Matmut, société d’assurance mutuelle régie par le Code des assurances. Le contrat rembourse tout ou partie des frais de santé du membre participant et de ses ayants droit en complément de la Sécurité sociale — hospitalisation, chambre particulière, consultations, pharmacie, dentaire, optique, aides auditives, Protection « Gros pépin », prime naissance ou adoption, prévention et médecines douces, forfait santé de l’enfant — et remplit les critères du contrat responsable et de la réforme 100 % Santé. Une option Protection Hospitalière (indemnité de 15 €) est proposée ; les montants et niveaux de garantie figurent dans des tableaux annexés qui ne font pas partie de ce document.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : Édition février 2026
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Conditions générales · Édition : Édition février 2026
 
 ## Définitions
 
@@ -507,8 +507,8 @@ Toute action dérivant de l’adhésion d’un membre participant, qu’il s’a
 
 ## Documents liés
 
-- [Ociane Santé Pro - Fiche](Ociane%20Sant%C3%A9%20Pro%20-%20Fiche.md) - Fiche produit, éd. 10/25
-- [Ociane Santé Pro - Niveaux 1 à 6 - IPID](Ociane%20Sant%C3%A9%20Pro%20-%20Niveaux%201%20%C3%A0%206%20-%20IPID.md) - IPID / Fiche d'information, éd. 0925 (référence bas de page « IPID.MOM.SANTE PRO – 0925 »)
+- [Ociane Santé Pro - Fiche](<Ociane Santé Pro - Fiche.md>) - Fiche produit, éd. 10/25
+- [Ociane Santé Pro - Niveaux 1 à 6 - IPID](<Ociane Santé Pro - Niveaux 1 à 6 - IPID.md>) - IPID / Fiche d'information, éd. 0925 (référence bas de page « IPID.MOM.SANTE PRO – 0925 »)
 
 ## Source & fidélité
 

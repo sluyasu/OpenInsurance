@@ -42,7 +42,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de l’Assurance Professionnelle de MAIF. Le produit est destiné à protéger les biens professionnels, à couvrir les responsabilités civiles et à garantir les droits de l’assuré dans le cadre de son activité professionnelle déclarée. Il réunit une garantie « protection de vos biens » (treize événements garantis, indemnisation des locaux et de leur contenu), un recours, des responsabilités civiles exploitation, d’occupant / propriétaire / locataire et professionnelle, ainsi qu’une garantie défense. Le document liste les principales exclusions et restrictions, les obligations de l’assuré et les modalités de paiement, de durée et de résiliation.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : IPID / Fiche d'information · Édition : 01/2025
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : IPID / Fiche d'information · Édition : 01/2025
 
 ## Garanties
 
@@ -242,7 +242,7 @@ Défense des intérêts de l’assuré suite à un événement garanti qui engag
 
 ## Documents liés
 
-- [Assurance Professionnelle](Assurance%20Professionnelle.md) - Conditions générales, éd. 01/2025
+- [Assurance Professionnelle](<Assurance Professionnelle.md>) - Conditions générales, éd. 01/2025
 
 ## Source & fidélité
 

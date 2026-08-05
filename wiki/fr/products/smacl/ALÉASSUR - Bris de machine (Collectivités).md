@@ -45,7 +45,7 @@ generated: true
 
 Conventions spéciales « Bris de machine » du contrat ALÉASSUR, annexées aux conditions générales Aléassur et aux conventions spéciales Aléassur « Dommages aux biens » ou « Véhicules à moteur », auxquelles elles dérogent. Elles ont pour objet l'indemnisation des dommages matériels subis par les biens désignés aux conditions particulières Dommages aux biens et par les véhicules désignés aux conditions particulières Véhicules à moteur. La garantie couvre les bris ou destructions survenant dans les locaux, au cours de déplacements et lors de l'exploitation en tous lieux, qu'ils résultent de causes internes ou extérieures. L'indemnité est limitée à la valeur d'achat d'un matériel identique à l'état neuf sous déduction de la vétusté, avec application de la règle proportionnelle de capitaux.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : Conditions générales · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : Conditions générales · Édition : 01/2024
 
 ## Garanties
 
@@ -150,11 +150,11 @@ Bris ou destructions résultant d'accident de la circulation, les machines étan
 
 - Édition courante de ce produit.
 - Extension / option du produit : **conditions générales Aléassur et conventions spéciales Aléassur « Dommages aux biens » ou « Véhicules à moteur »**
-- [Aléassur (Collectivités)](Al%C3%A9assur%20%28Collectivit%C3%A9s%29.md) - Conditions générales, éd. 01/2024
-- [ALÉASSUR - Conventions spéciales Dommages aux biens](AL%C3%89ASSUR%20-%20Conventions%20sp%C3%A9ciales%20Dommages%20aux%20biens.md) - Conditions générales, éd. 01/2024
-- [ALÉASSUR - Conventions spéciales Tous risques instruments de musique](AL%C3%89ASSUR%20-%20Conventions%20sp%C3%A9ciales%20Tous%20risques%20instruments%20de%20musique.md) - Conditions générales, éd. 01/2024
-- [ALÉASSUR Tous risques informatique](AL%C3%89ASSUR%20Tous%20risques%20informatique.md) - Conditions générales, éd. 01/2024
-- [ALÉASSUR Tous risques objets (Collectivités)](AL%C3%89ASSUR%20Tous%20risques%20objets%20%28Collectivit%C3%A9s%29.md) - Conditions générales, éd. 01/2024
+- [Aléassur (Collectivités)](<Aléassur (Collectivités).md>) - Conditions générales, éd. 01/2024
+- [ALÉASSUR - Conventions spéciales Dommages aux biens](<ALÉASSUR - Conventions spéciales Dommages aux biens.md>) - Conditions générales, éd. 01/2024
+- [ALÉASSUR - Conventions spéciales Tous risques instruments de musique](<ALÉASSUR - Conventions spéciales Tous risques instruments de musique.md>) - Conditions générales, éd. 01/2024
+- [ALÉASSUR Tous risques informatique](<ALÉASSUR Tous risques informatique.md>) - Conditions générales, éd. 01/2024
+- [ALÉASSUR Tous risques objets (Collectivités)](<ALÉASSUR Tous risques objets (Collectivités).md>) - Conditions générales, éd. 01/2024
 
 ## Source & fidélité
 

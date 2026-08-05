@@ -52,7 +52,7 @@ generated: true
 
 Notice d'information du régime de frais de santé institué par l'Accord interbranche du 2 octobre 2019 pour la Convention collective nationale des établissements et services pour personnes inadaptées et handicapées du 15 mars 1966 (à laquelle est rattachée la CCN des médecins spécialistes qualifiés du 1er mars 1979) et pour les accords collectifs des centres d'hébergement et de réinsertion sociale. Il s'agit d'un contrat collectif à adhésion obligatoire souscrit par l'employeur au bénéfice de son personnel salarié, ayant pour objet de compléter les prestations en nature versées par la Sécurité sociale en remboursement des frais médico-chirurgicaux occasionnés par une maladie ou un accident. Cette édition décrit la variante dans laquelle l'employeur a retenu le niveau « base + option 1 » comme régime obligatoire pour le salarié et facultatif pour ses ayants droit, complété par un régime facultatif surcomplémentaire option 2. La garantie est un contrat « responsable » au sens des articles L. 871-1, R. 871-1 et R. 871-2 du Code de la Sécurité sociale ; la gestion est confiée à l'un des cinq organismes assureurs listés, dont la Mutuelle Ociane Matmut.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : janvier 2023
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Conditions générales · Édition : janvier 2023
 
 ## Définitions
 
@@ -560,7 +560,7 @@ Toute action dérivant des opérations mentionnées au présent contrat se presc
 
 ## Documents liés
 
-- [Régime de frais de santé – Contrat collectif (Accord interbranche CCN 66 - CHRS) (Base obligatoire)](R%C3%A9gime%20de%20frais%20de%20sant%C3%A9%20%E2%80%93%20Contrat%20collectif%20%28Accord%20interbranche%20CCN%2066%20-%20CHRS%29%20%28Base%20obligatoire%29.md) - Conditions générales, éd. janvier 2023
+- [Régime de frais de santé – Contrat collectif (Accord interbranche CCN 66 - CHRS) (Base obligatoire)](<Régime de frais de santé – Contrat collectif (Accord interbranche CCN 66 - CHRS) (Base obligatoire).md>) - Conditions générales, éd. janvier 2023
 
 ## Source & fidélité
 

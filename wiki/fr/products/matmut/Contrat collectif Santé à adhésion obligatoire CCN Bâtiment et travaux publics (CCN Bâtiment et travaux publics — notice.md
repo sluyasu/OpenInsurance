@@ -51,7 +51,7 @@ generated: true
 
 Notice d’information remise au salarié au titre du contrat collectif Santé à adhésion obligatoire de la CCN Bâtiment et travaux publics, édition septembre 2024. Elle décrit une couverture complémentaire santé « responsable » remboursant tout ou partie des frais de santé du salarié et de ses ayants droit en complément de la Sécurité sociale, assortie d’une garantie Assistance et d’une garantie Protection Juridique Santé incluses dans le contrat. Trois personnes morales distinctes portent ces garanties : la Mutuelle Ociane Matmut pour les Frais de Soins, la Matmut (société d’assurance mutuelle à cotisations variables) pour l’Assistance, et Matmut Protection Juridique (SA) pour la Protection Juridique Santé. Le document expose l’adhésion et les dispenses, la cessation des garanties (portabilité, loi Évin, suspension du contrat de travail), les cotisations, les modalités de calcul et de remboursement des prestations, les exclusions, le dispositif du contrat responsable et du 100 % Santé, et le détail des garanties d’assistance ; les tableaux de garanties chiffrés sont renvoyés à une annexe absente du fichier.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : septembre 2024
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Conditions générales · Édition : septembre 2024
 
 ## Définitions
 
@@ -640,7 +640,7 @@ Toute action dérivant du présent contrat, qu’il s’agisse de sa validité o
 
 ## Documents liés
 
-- [Contrat collectif santé à adhésion obligatoire](Contrat%20collectif%20sant%C3%A9%20%C3%A0%20adh%C3%A9sion%20obligatoire.md) - Conditions générales, éd. Édition janvier 2026
+- [Contrat collectif santé à adhésion obligatoire](<Contrat collectif santé à adhésion obligatoire.md>) - Conditions générales, éd. Édition janvier 2026
 
 ## Source & fidélité
 

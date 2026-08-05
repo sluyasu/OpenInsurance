@@ -41,7 +41,7 @@ generated: true
 
 Informationsblatt zu Versicherungsprodukten der DKV Luxembourg S.A. für das Produkt COMPLETE HEALTH, eine Krankheitskostenvollversicherung. Versichert sind ambulante Behandlung (ärztliche Behandlungen, Arznei- und Verbandmittel, Kinesitherapie, Hebammenleistungen, Hilfsmittel, Sehhilfen, refraktive Chirurgie, alternative Behandlungsmethoden), zahnärztliche Behandlung (Zahnbehandlungen, professionelle Zahnreinigung, Zahnersatz, Kieferorthopädie), stationäre Heilbehandlung (inkl. Chefarztleistungen, Einbettzimmer, One-Day-Clinic, Rooming-in, Krankentransport, Krankenhaustagegeld) sowie der Servicetarif BEST CARE + / BEST CARE PREMIUM +. Der Versicherungsumfang umfasst ebenfalls die kostenfreie Absicherung nach dem Tarif TRAVEL +.
 
-- Assureur : [DKV Luxembourg](../../insurers/DKV%20Luxembourg.md) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
+- Assureur : [DKV Luxembourg](<../../insurers/DKV Luxembourg.md>) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -208,8 +208,8 @@ Ihr Versicherungsschutz erstreckt sich auf Europa. Bei vorübergehenden Aufentha
 
 ## Documents liés
 
-- [COMPLETE HEALTH - IPID - EN](COMPLETE%20HEALTH%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
-- [COMPLETE HEALTH - IPID](COMPLETE%20HEALTH%20-%20IPID.md) - IPID / Fiche d'information
+- [COMPLETE HEALTH - IPID - EN](<COMPLETE HEALTH - IPID - EN.md>) - IPID / Fiche d'information
+- [COMPLETE HEALTH - IPID](<COMPLETE HEALTH - IPID.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

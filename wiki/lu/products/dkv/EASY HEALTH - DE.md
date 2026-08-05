@@ -44,7 +44,7 @@ generated: true
 
 Allgemeine Versicherungsbedingungen (AVB) der DKV Luxembourg S.A. für das Produkt EASY HEALTH, bestehend aus einer Krankheitskostenversicherung (Ersatz von Aufwendungen für Heilbehandlung) und einer Krankenhaustagegeldversicherung (Krankenhaustagegeld bei stationärer Behandlung). Der Versicherungsschutz erstreckt sich auf Heilbehandlungen in Europa und kann durch Vereinbarung auf außereuropäische Länder ausgedehnt werden; während des ersten Monats eines vorübergehenden außereuropäischen Aufenthaltes besteht er auch ohne besondere Vereinbarung. Art und Höhe der Versicherungsleistungen ergeben sich aus dem jeweils vereinbarten Tarif mit Tarifbedingungen, der nicht Teil dieses Dokuments ist. Das Dokument enthält denselben Bedingungstext in drei Sprachen (Deutsch, Französisch, Englisch); allein die deutsche Fassung ist die rechtlich verbindliche Version.
 
-- Assureur : [DKV Luxembourg](../../insurers/DKV%20Luxembourg.md) · Branche : Complémentaire santé · Type : Conditions générales · Édition : VERSION 2025 (09/25)
+- Assureur : [DKV Luxembourg](<../../insurers/DKV Luxembourg.md>) · Branche : Complémentaire santé · Type : Conditions générales · Édition : VERSION 2025 (09/25)
 
 ## Définitions
 
@@ -293,9 +293,9 @@ Jede aus dem Vertrag abgeleitete Forderung verjährt drei Jahre nach dem Zeitpun
 
 ## Documents liés
 
-- [EASY HEALTH - IPID](EASY%20HEALTH%20-%20IPID.md) - IPID / Fiche d'information
-- [EASY HEALTH - IPID - EN](EASY%20HEALTH%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
-- [EASY HEALTH - IPID - DE](EASY%20HEALTH%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
+- [EASY HEALTH - IPID](<EASY HEALTH - IPID.md>) - IPID / Fiche d'information
+- [EASY HEALTH - IPID - EN](<EASY HEALTH - IPID - EN.md>) - IPID / Fiche d'information
+- [EASY HEALTH - IPID - DE](<EASY HEALTH - IPID - DE.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

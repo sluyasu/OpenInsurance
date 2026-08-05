@@ -42,7 +42,7 @@ generated: true
 
 Insurance product information document (IPID) for Section 2 – Liability insurance of the APROBAT Comprehensive construction site insurance, published under the header “LALUX Assurances - Product : APROBAT Comprehensive construction site insurance”. Section 2 covers the financial compensation the insured persons may owe third parties under Articles 1382 and 1386 of the Civil Code for damage attributable to the performance on site of the insured works during the construction-assembly-testing period, and, by express agreement, the same liability during the maintenance period and liability under Article 544 of the Civil Code. Cover applies to the construction site(s) and property stipulated in the Special conditions. The document's own “What type of insurance is it ?” paragraph describes direct material damage to insured objects rather than liability, which does not match the Section 2 cover set out in the same page; both readings are recorded as printed.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Assurances constructions](../../branches/Assurances%20constructions.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Assurances constructions](<../../branches/Assurances constructions.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -134,8 +134,8 @@ Article 544 of the Civil Code: By express agreement, compensation for damages to
 
 ## Documents liés
 
-- [APROBAT - Decennial civil liability - IPID - EN](APROBAT%20-%20Decennial%20civil%20liability%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
-- [APROBAT - Responsabilité Civile Décennale - IPID](APROBAT%20-%20Responsabilit%C3%A9%20Civile%20D%C3%A9cennale%20-%20IPID.md) - IPID / Fiche d'information
+- [APROBAT - Decennial civil liability - IPID - EN](<APROBAT - Decennial civil liability - IPID - EN.md>) - IPID / Fiche d'information
+- [APROBAT - Responsabilité Civile Décennale - IPID](<APROBAT - Responsabilité Civile Décennale - IPID.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

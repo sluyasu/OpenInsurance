@@ -45,7 +45,7 @@ generated: true
 
 Tableau de garanties du régime frais de santé « CCN SYNTEC » pour 2026, assuré par la Mutuelle Ociane (mutuelle du Livre II du Code de la mutualité, SIREN 434 243 085, Bordeaux). Le document compare six niveaux de couverture — BASE 1, BASE 2, BASE 3, BASE 4, BASE 5 et une SURCOMPLÉMENTAIRE présentée comme « option non responsable » — sur 73 lignes de garanties réparties en hospitalisation, soins courants, dentaire, aides auditives, optique, sport sur ordonnance, assistance et services +, complétées par une grille optique détaillée (verres de classe B et monture, ADULTE/ENFANT) et par une option facultative « renfort hospitalisation ». Les remboursements sont exprimés en pourcentage de la Base de Remboursement (part Sécurité sociale incluse), en forfaits en euros ou en frais réels ; 31 renvois précisent les plafonds, périodicités et conditions. Le document est expressément non contractuel et se termine par dix pages d’exemples chiffrés de remboursement.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit · Édition : 2026
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Fiche produit · Édition : 2026
 
 ## Définitions
 

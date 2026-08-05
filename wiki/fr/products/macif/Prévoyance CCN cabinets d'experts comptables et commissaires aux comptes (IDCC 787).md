@@ -46,7 +46,7 @@ generated: true
 
 Conditions générales du contrat d’assurance collective à adhésion obligatoire « Prévoyance CCN cabinets d’experts comptables et commissaires aux comptes (IDCC 787) », en vigueur au 01/01/2026, régi par le Code de la mutualité. Le contrat est souscrit par une entreprise relevant de cette convention collective au profit de l’ensemble des salariés d’une catégorie de personnel définie aux conditions particulières. Il couvre le décès toutes causes et l’invalidité absolue et définitive (capital variant selon la situation de famille, majoré par enfant à charge), le doublement du capital en cas de décès accidentel, le capital décès simultané du conjoint, une allocation frais d’obsèques, des rentes optionnelles (rente éducation, rente temporaire décès), ainsi que l’incapacité temporaire de travail, l’invalidité et l’incapacité permanente professionnelle. Les montants, taux de prestation, franchises et taux de cotisation ne figurent pas dans les conditions générales : ils sont renvoyés aux conditions particulières.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : Conditions générales · Édition : 2026-01-01
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : Conditions générales · Édition : 2026-01-01
 
 ## Définitions
 

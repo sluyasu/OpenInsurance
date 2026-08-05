@@ -40,7 +40,7 @@ generated: true
 
 Tableau de garanties « Engagement lisibilité » 2026 de Solution Groupama Santé, contrat d'assurance santé responsable. Le document, expressément non contractuel, présente des extraits du tableau de garanties (garanties Métropole) sous forme d'exemples de remboursement chiffrés pour quatre niveaux de garantie (Niveau 1 à Niveau 4), répartis en Hospitalisation, Soins courants, Dentaire, Optique, Aides auditives, ainsi que d'autres exemples de remboursement en euros (orthodontie adulte, implantologie, médecines douces). Les garanties exprimées en pourcentage de la base de remboursement (BR) ou en euros intègrent les remboursements du régime obligatoire d'assurance maladie. Il ne peut se substituer aux documents contractuels, qui seuls engagent l'organisme de complémentaire santé.
 
-- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Document · Édition : JUILLET 2026
+- Assureur : [Groupama](<../../insurers/Groupama.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Document · Édition : JUILLET 2026
 
 ## Définitions
 
@@ -254,8 +254,8 @@ Autres exemples de remboursement en euros — Médecine Douce : médecines douce
 
 ## Documents liés
 
-- ⚠️ Édition remplacée par une version plus récente : [Solution Groupama Santé - Doc](Solution%20Groupama%20Sant%C3%A9%20-%20Doc.md)
-- [Solution Groupama Santé - Doc](Solution%20Groupama%20Sant%C3%A9%20-%20Doc.md) - Document, éd. 2026-07
+- ⚠️ Édition remplacée par une version plus récente : [Solution Groupama Santé - Doc](<Solution Groupama Santé - Doc.md>)
+- [Solution Groupama Santé - Doc](<Solution Groupama Santé - Doc.md>) - Document, éd. 2026-07
 
 ## Source & fidélité
 

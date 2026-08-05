@@ -43,7 +43,7 @@ generated: true
 
 Annexe « EXEMPLES DE REMBOURSEMENTS » du contrat d’assurance santé responsable DIRECT ASSURANCE SANTÉ, contrat d’assurance de groupe souscrit par l’Association Conseil Branche Santé (ACBS), présenté par Avanssur et assuré par AXA France Vie et Inter Partner Assistance. Le document, indiqué « Document non contractuel », déroule pour chacune des 15 formules de la gamme (ESSENTIELLE, ÉQUILIBRE, LIBERTÉ, TRANQUILLITÉ, BIEN-ÊTRE, leurs versions « + » renforcées en optique et en dentaire, CONFORT, CONFORT +, ZEN renforcées en hospitalisation et en dentaire, et HOSPI, HOSPI + couvrant uniquement l’hospitalisation) le même tableau de 44 lignes réparties en cinq rubriques : hospitalisation, soins courants, dentaire, optique et aides auditives. Chaque ligne indique le tarif le plus souvent facturé ou tarif réglementé, la base de remboursement de la Sécurité sociale (BR), le remboursement de l’assurance maladie obligatoire (AMO), le remboursement de l’assurance maladie complémentaire (AMC) et le reste à charge. Le document ne contient ni garanties contractuelles, ni exclusions, ni conditions de souscription, de sinistre ou de résiliation, et précise qu’il ne peut se substituer aux documents contractuels.
 
-- Assureur : [Direct Assurance](../../insurers/Direct%20Assurance.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Document
+- Assureur : [Direct Assurance](<../../insurers/Direct Assurance.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Document
 
 ## Définitions
 
@@ -615,9 +615,9 @@ AIDES AUDITIVES — Équipement hors 100 % santé. Ligne de tableau « Équipe
 
 ## Documents liés
 
-- [Direct Assurance Santé - contrat responsable (Formules Essentielle, Essentielle +, Equilibre, Equilibre +, Liberté, Libe](Direct%20Assurance%20Sant%C3%A9%20-%20contrat%20responsable%20%28Formules%20Essentielle%2C%20Essentielle%20%2B%2C%20Equilibre%2C%20Equilibre%20%2B%2C%20Libert%C3%A9%2C%20Libe.md) - IPID / Fiche d'information, éd. 12/2024
-- [Direct Assurance Santé - formules Hospi (contrat non responsable) (Formules Hospi et Hospi + (contrat non responsable)) ](Direct%20Assurance%20Sant%C3%A9%20-%20formules%20Hospi%20%28contrat%20non%20responsable%29%20%28Formules%20Hospi%20et%20Hospi%20%2B%20%28contrat%20non%20responsable%29%29%20.md) - IPID / Fiche d'information, éd. 12/2024
-- [Direct Assurance Santé](Direct%20Assurance%20Sant%C3%A9.md) - Conditions générales, éd. 12.24 (code de pied de page « SANTÉ_12.24_VF »)
+- [Direct Assurance Santé - contrat responsable (Formules Essentielle, Essentielle +, Equilibre, Equilibre +, Liberté, Libe](<Direct Assurance Santé - contrat responsable (Formules Essentielle, Essentielle +, Equilibre, Equilibre +, Liberté, Libe.md>) - IPID / Fiche d'information, éd. 12/2024
+- [Direct Assurance Santé - formules Hospi (contrat non responsable) (Formules Hospi et Hospi + (contrat non responsable)) ](<Direct Assurance Santé - formules Hospi (contrat non responsable) (Formules Hospi et Hospi + (contrat non responsable)) .md>) - IPID / Fiche d'information, éd. 12/2024
+- [Direct Assurance Santé](<Direct Assurance Santé.md>) - Conditions générales, éd. 12.24 (code de pied de page « SANTÉ_12.24_VF »)
 
 ## Source & fidélité
 

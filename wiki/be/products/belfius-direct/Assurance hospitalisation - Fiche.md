@@ -40,7 +40,7 @@ generated: true
 
 Document d'information relatif au produit d'assurance (IPID) pour l'Assurance hospitalisation. La garantie de base verse une indemnité journalière (montant fixé dans les conditions particulières) lorsque l'assuré ou ses enfants séjournent dans une institution reconnue à la suite d'une maladie ou d'un accident. La couverture est valable dans le monde entier pour les hôpitaux civils reconnus (sanatorium et préventorium reconnus uniquement en Belgique) et n'est soumise à aucune franchise.
 
-- Assureur : [Belfius Direct Assurances](../../insurers/Belfius%20Direct%20Assurances.md) · Branche : [Santé](../../branches/Sant%C3%A9.md) · Type : Fiche produit · Édition : 06/2021
+- Assureur : [Belfius Direct Assurances](<../../insurers/Belfius Direct Assurances.md>) · Branche : [Santé](<../../branches/Santé.md>) · Type : Fiche produit · Édition : 06/2021
 
 ## Garanties
 
@@ -107,7 +107,7 @@ Vous percevez une indemnité journalière lorsque vous ou vos enfants séjournez
 
 ## Documents liés
 
-- [Assurance Hospitalisation](Assurance%20Hospitalisation.md) - Conditions générales, éd. 2023-06
+- [Assurance Hospitalisation](<Assurance Hospitalisation.md>) - Conditions générales, éd. 2023-06
 
 ## Source & fidélité
 

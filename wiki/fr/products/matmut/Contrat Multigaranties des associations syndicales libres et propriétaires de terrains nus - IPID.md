@@ -50,7 +50,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du Contrat Multigaranties des associations syndicales libres et propriétaires de terrains nus, porté par Inter Mutuelles Entreprises. L'offre est destinée à assurer la responsabilité civile et la protection des droits des associations syndicales libres dans le cadre de leur mission de gestion, administration et conservation des parties communes d'un lotissement résidentiel, ainsi que la responsabilité civile et la protection des droits des propriétaires de terrains nus. Deux garanties sont systématiquement prévues au contrat (Responsabilité civile, plafonnée à 10 000 000 € tous dommages confondus avec de nombreux sous-plafonds, et Protection Juridique suite à accident) et trois garanties optionnelles peuvent être ajoutées. Les biens des co-lotis, locataires ou occupants, les murs de soutènement et les panneaux solaires ne sont pas assurés.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information · Édition : 11/25
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : IPID / Fiche d'information · Édition : 11/25
 
 ## Garanties
 

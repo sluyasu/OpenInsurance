@@ -41,7 +41,7 @@ generated: true
 
 Ce document n'est pas un contrat d'assurance : il énonce les conditions d'octroi de l'« Avantage Usage Sérénité », un avantage tarifaire commercial attaché au contrat d'assurance Multirisques 2R Rider de la Matmut. Le souscripteur qui s'engage à n'utiliser son deux-roues que pour des déplacements privés — à l'exclusion des déplacements professionnels et des trajets domicile/travail, études ou scolarité — bénéficie d'une réduction de 6 % de sa cotisation par rapport au tarif de l'Usage Actif. Le document définit les usages Sérénité et Actif, délimite l'assiette de la réduction, et fixe les sanctions en cas de non-respect des conditions (nullité du contrat ou réduction des indemnités) ainsi que sa date de validité (31/12/2026).
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Deux-roues, quads et voiturettes](../../branches/Deux-roues%2C%20quads%20et%20voiturettes.md) · Type : Conditions tarifaires · Édition : 01/26
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Deux-roues, quads et voiturettes](<../../branches/Deux-roues, quads et voiturettes.md>) · Type : Conditions tarifaires · Édition : 01/26
 
 ## Définitions
 

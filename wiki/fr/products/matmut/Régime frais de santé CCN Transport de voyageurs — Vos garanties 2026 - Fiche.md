@@ -42,7 +42,7 @@ generated: true
 
 Tableau de garanties du régime frais de santé de la CCN Transport de voyageurs, présentant trois niveaux de couverture (BASE, BASE + OPTION 1, BASE + OPTION 2) pour l'hospitalisation médicale et chirurgicale, les soins courants, la pharmacie, le dentaire, l'optique, les aides auditives, la cure thermale, la maternité, la prévention, le sport sur ordonnance et un « Pack Bien-être ». Les remboursements sont exprimés en pourcentage de la Base de Remboursement (BR) y compris la part du régime obligatoire, en pourcentage du Plafond Mensuel de la Sécurité Sociale (PMSS), en frais réels ou en forfaits en euros. Le document ajoute une assistance et une série de services inclus dans les trois niveaux, puis des exemples chiffrés de remboursements. Il précise être un document non contractuel.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Fiche produit
 
 ## Définitions
 

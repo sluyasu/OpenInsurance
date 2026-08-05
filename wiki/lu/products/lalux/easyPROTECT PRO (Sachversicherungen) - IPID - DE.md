@@ -46,7 +46,7 @@ generated: true
 
 Informationsdokument über das Versicherungsprodukt (IPID) für die Sachversicherung easyPROTECT PRO von LALUX Assurances. Das Produkt versichert Ereignisse, die die versicherten Güter beschädigen könnten, sofern Ereignisse und Güter in den Besonderen Bedingungen bezeichnet sind, und ausschließlich im Rahmen der dort angegebenen beruflichen Tätigkeit. Das Blatt nennt acht Tätigkeitsbereiche, sechs Kategorien versicherbarer Güter (Gebäude, Geräte, Waren, Ernten, Tiere, Landkraftfahrzeuge) und zwölf angebotene Deckungen von Feuer, Wasserschäden, Diebstahl und Glasbruch bis Betriebsausfall/-unterbrechung und Transport. Alle Aufzählungen sind vom Herausgeber als nicht vollständig gekennzeichnet.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -203,7 +203,7 @@ Versicherungsschutz für Waren und Geräte gegen Sachschäden, die während des 
 
 ## Documents liés
 
-- [easyPROTECT PRO – Assurance de choses - IPID](easyPROTECT%20PRO%20%E2%80%93%20Assurance%20de%20choses%20-%20IPID.md) - IPID / Fiche d'information
+- [easyPROTECT PRO – Assurance de choses - IPID](<easyPROTECT PRO – Assurance de choses - IPID.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

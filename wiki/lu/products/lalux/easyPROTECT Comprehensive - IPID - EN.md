@@ -42,7 +42,7 @@ generated: true
 
 Insurance Product Information Document for the comprehensive (all-risks) insurance for personal property included in the easyPROTECT product, headed "Comprehensive insurance for personal property" and issued under the brand "LALUX Assurances". Within the limits of the Special Conditions it covers loss, damage or material damage to the insured objects where the risk results from theft, fire, explosions, damage caused by water or an exclusively accidental cause. The policyholder chooses which categories of object are insured among musical instruments, cameras and similar devices, jewellery and furs, private collections of postage stamps, and cycles. Cover applies worldwide unless the General Terms and Conditions stipulate otherwise.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Autres](../../branches/Autres.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Autres](<../../branches/Autres.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -167,8 +167,8 @@ Cycles: cycles or any vehicle with at least two wheels, and which are propelled 
 
 ## Documents liés
 
-- Extension liée : [easyPROTECT - Alle Risiken - IPID - DE](easyPROTECT%20-%20Alle%20Risiken%20-%20IPID%20-%20DE.md)
-- [easyPROTECT - Alle Risiken - IPID - DE](easyPROTECT%20-%20Alle%20Risiken%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
+- Extension liée : [easyPROTECT - Alle Risiken - IPID - DE](<easyPROTECT - Alle Risiken - IPID - DE.md>)
+- [easyPROTECT - Alle Risiken - IPID - DE](<easyPROTECT - Alle Risiken - IPID - DE.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

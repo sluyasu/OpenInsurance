@@ -45,7 +45,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (DIPA) du contrat Dommages ouvrage de SMACL Assurances SA. Le contrat a pour objet de garantir l'opération de construction contre notamment les conséquences des dommages matériels importants survenus sur l'ouvrage ; il bénéficie au maître d'ouvrage, propriétaire de l'ouvrage, ainsi qu'à l'acquéreur en cas de transfert de propriété avant la fin de la garantie. Les garanties systématiquement prévues portent sur les dommages matériels affectant l'ouvrage réalisé et les ouvrages existants totalement incorporés ; des garanties optionnelles (équipements dissociables, existants non incorporés, dommages immatériels) peuvent être souscrites. La couverture s'exerce sur le site d'implantation du bâtiment, en France métropolitaine, pour une durée de 10 ans à compter de la réception des travaux.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Assurance construction](../../branches/Assurance%20construction.md) · Type : IPID / Fiche d'information · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Assurance construction](<../../branches/Assurance construction.md>) · Type : IPID / Fiche d'information · Édition : 01/2024
 
 ## Garanties
 
@@ -151,7 +151,7 @@ Garantie optionnelle : dommages immatériels après la réception des travaux et
 
 ## Documents liés
 
-- [Dommages ouvrage (SMACL Assurances SA)](Dommages%20ouvrage%20%28SMACL%20Assurances%20SA%29.md) - Conditions générales, éd. 01/2024
+- [Dommages ouvrage (SMACL Assurances SA)](<Dommages ouvrage (SMACL Assurances SA).md>) - Conditions générales, éd. 01/2024
 
 ## Source & fidélité
 

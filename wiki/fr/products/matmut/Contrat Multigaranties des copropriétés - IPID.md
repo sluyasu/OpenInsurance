@@ -45,7 +45,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du contrat « Multigaranties des copropriétés », une assurance multirisques copropriété. L'offre est destinée à assurer les dommages aux immeubles en copropriété, la responsabilité civile du syndicat de copropriétaires et des membres du conseil syndical — assurance que le document qualifie d'obligatoire — et la protection des droits du syndicat de copropriétaires. Les dommages à l'immeuble sont garantis en valeur à neuf de reconstruction ; dix garanties sont systématiquement prévues au contrat et sept sont proposées en option. Le porteur de risque nommé sur le document est Inter Mutuelles Entreprises.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information · Édition : 11/25
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : IPID / Fiche d'information · Édition : 11/25
 
 ## Définitions
 

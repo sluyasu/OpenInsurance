@@ -42,7 +42,7 @@ generated: true
 
 Informationsdokument über das Versicherungsprodukt (IPID) zur APROBAT Zehnjahres-Bauhaftpflichtversicherung. Der Vertrag deckt die zehnjährige Haftpflicht gegenüber dem Bauherrn bzw. dem Erwerber des Bauwerks (Teil A) sowie die Haftpflicht gegenüber dem Bauherrn, dem Erwerber und Dritten für körperliche, materielle und immaterielle Folgeschäden, die aus einem in Teil A gedeckten Schaden resultieren (Teil B). Schäden am Rohbau sind zehn Jahre, kleinere Gewerke (Heizkörper, Türen, Fenster usw.) zwei Jahre versichert; Voraussetzung für den Versicherungsschutz ist die Kontrolle der ausgeführten Arbeiten durch die zugelassene Stelle. Das Dokument nennt keine Versicherungssummen und keinen Selbstbehalt; die einzige bezifferte Deckungsgrenze ist die Begrenzung immaterieller Schäden in Teil B auf 25 % des für materielle Schäden versicherten Betrags.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Assurances constructions](../../branches/Assurances%20constructions.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Assurances constructions](<../../branches/Assurances constructions.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 

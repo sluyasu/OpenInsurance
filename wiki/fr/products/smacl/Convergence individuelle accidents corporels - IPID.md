@@ -48,7 +48,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (DIPA/IPID) du contrat « Convergence individuelle accidents corporels » de SMACL Assurances, commercialisé sous le titre « Assurance individuelle accidents corporels des associations et des entreprises de l’économie sociale et solidaire ». Le contrat, destiné aux associations avec salariés, a pour objet de garantir l’indemnisation des accidents corporels atteignant les personnes assurées au cours d’une activité garantie de l’association, sur la base des postes de préjudices définis au contrat. Trois garanties sont systématiquement prévues (capital décès, déficit fonctionnel permanent, dépenses de santé actuelles) et une garantie optionnelle est proposée (pertes de gains professionnels actuels). L’indemnité est limitée à 450 000 €.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : IPID / Fiche d'information · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : IPID / Fiche d'information · Édition : 01/2024
 
 ## Garanties
 
@@ -151,8 +151,8 @@ Garantie nommée uniquement à la rubrique « Où suis-je couvert(e) ? » de la 
 
 ## Documents liés
 
-- Extension liée : [CONVERGENCE - Individuelle accidents corporels (conventions spéciales)](CONVERGENCE%20-%20Individuelle%20accidents%20corporels%20%28conventions%20sp%C3%A9ciales%29.md)
-- [CONVERGENCE - Individuelle accidents corporels (conventions spéciales)](CONVERGENCE%20-%20Individuelle%20accidents%20corporels%20%28conventions%20sp%C3%A9ciales%29.md) - Conditions générales, éd. 01/2024
+- Extension liée : [CONVERGENCE - Individuelle accidents corporels (conventions spéciales)](<CONVERGENCE - Individuelle accidents corporels (conventions spéciales).md>)
+- [CONVERGENCE - Individuelle accidents corporels (conventions spéciales)](<CONVERGENCE - Individuelle accidents corporels (conventions spéciales).md>) - Conditions générales, éd. 01/2024
 
 ## Source & fidélité
 

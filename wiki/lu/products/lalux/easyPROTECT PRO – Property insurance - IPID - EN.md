@@ -46,7 +46,7 @@ generated: true
 
 Insurance Product Information Document (IPID) for easyPROTECT PRO - Property insurance, which covers events likely to damage insured property, provided that such events and property are designated in the Special Conditions and only in the context of the professional activity indicated in the Special Conditions. The document lists eight eligible sectors of activity, six categories of insurable property (building, equipment, goods, harvesting, animals, self-propelled land vehicles) and twelve guarantees offered, from fire, water damage, theft and climate risks to decontamination of soil, interruption of activity and transport. Three restrictions on cover carry figures: an annual terrorism intervention limit of EUR 10,000,000, a maximum compensation limit of EUR 100,000 for property damage, and a 25% cap on portable office automation and computer equipment. Both the covered list and the exclusion list are printed as "Non-exhaustive list".
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 

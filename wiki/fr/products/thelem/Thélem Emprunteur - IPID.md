@@ -44,7 +44,7 @@ generated: true
 
 Thélem Emprunteur est une assurance emprunteur (document d’information sur le produit d’assurance) souscrite auprès de Thélem prévoyance, S.A. à Conseil d’Administration. Elle a pour objectif de couvrir un prêt personnel ou professionnel contracté par l’assuré auprès d’un organisme prêteur, ce dernier étant le bénéficiaire acceptant du contrat. La garantie Décès / Perte Totale et Irréversible d’Autonomie (PTIA) est systématiquement prévue et donne lieu au versement du capital restant dû ; les garanties Invalidité Permanente Totale (IPT) et Partielle (IPP), Incapacité Temporaire Totale (ITT) dont aide à la famille, et l’Option Intégrale sont optionnelles. Les garanties sont acquises dans le monde entier.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Assurance emprunteur](../../branches/Assurance%20emprunteur.md) · Type : IPID / Fiche d'information
+- Assureur : [Thélem assurances](<../../insurers/Thélem assurances.md>) · Branche : [Assurance emprunteur](<../../branches/Assurance emprunteur.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 

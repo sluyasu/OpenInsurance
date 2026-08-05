@@ -45,7 +45,7 @@ generated: true
 
 Informationsblatt zum Versicherungsprodukt (IPID) für die Versicherungen, die an die von der SPUERKEESS ausgegebene Kreditkarte MILES & MORE LUXAIR VISA gekoppelt sind. Das Dokument unterscheidet Nicht Assistance-Leistungen (Reiseunfall, Reiserücktritt/Reiseabbruch, Gepäck, Flugzeugverspätung, Einkaufsschutz, Lieferung von Interneteinkäufen, Erlass der Selbstbeteiligung bei einem Mietfahrzeug) und Assistance-Leistungen (im Krankheits- oder Todesfall, Cash Emergency). Versichert sind der Karteninhaber, der Ehegatte/Lebenspartner und die Kinder unter 25 Jahren. Der Versicherungsschutz gilt weltweit und setzt voraus, dass mindestens 30% der Reisekosten mit der Karte bezahlt wurden.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Voyage et assistance](<../../branches/Voyage et assistance.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -196,7 +196,7 @@ Informationsblatt zum Versicherungsprodukt (IPID) für die Versicherungen, die a
 
 ## Documents liés
 
-- [Versicherung SPUERKEESS-Kreditkarten – Assistance-Leistungen und Nicht Assistance-Leistungen (MILES & MORE LUXAIR VISA B](Versicherung%20SPUERKEESS-Kreditkarten%20%E2%80%93%20Assistance-Leistungen%20und%20Nicht%20Assistance-Leistungen%20%28MILES%20%26%20MORE%20LUXAIR%20VISA%20B.md) - IPID / Fiche d'information
+- [Versicherung SPUERKEESS-Kreditkarten – Assistance-Leistungen und Nicht Assistance-Leistungen (MILES & MORE LUXAIR VISA B](<Versicherung SPUERKEESS-Kreditkarten – Assistance-Leistungen und Nicht Assistance-Leistungen (MILES & MORE LUXAIR VISA B.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

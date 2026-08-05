@@ -46,7 +46,7 @@ generated: true
 
 Conditions générales du contrat MAIF « Praxis Solutions », assurance des accidents de la vie courante (garantie des accidents de la vie) souscrite en version Famille ou Individu, les garanties étant identiques dans les deux versions. Le contrat répare les dommages corporels résultant d’un accident corporel de la vie privée, des activités culturelles, artistiques, sportives et de loisirs (y compris la chasse) et des activités scolaires, universitaires ou parascolaires des enfants, ainsi que ceux résultant d’un aléa thérapeutique non indemnisable par l’Oniam, pour lequel il prévoit une protection équivalente à celle des accidents corporels. Il comporte quatre volets : la protection corporelle (aides immédiates, frais médicaux, pertes de revenus, incapacité permanente indemnisée au-delà de 4 % avant 70 ans et au-delà de 9 % à 70 ans et plus, tierce personne, préjudice esthétique, capital décès de 5 000 euros et préjudice patrimonial), l’assistance en cas de déplacement mise en œuvre par IMA Assurances pour le compte de MAIF Assistance, la garantie recours et la garantie protection juridique. Le contrat indique ne comporter aucun plafond global au cumul des garanties par victime, seuls des plafonds par prestation étant prévus ; les dommages résultant d’une activité professionnelle ou de l’utilisation d’un véhicule terrestre à moteur sont exclus.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Garantie des accidents de la vie](../../branches/Garantie%20des%20accidents%20de%20la%20vie.md) · Type : Conditions générales · Édition : 01/2026
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Garantie des accidents de la vie](<../../branches/Garantie des accidents de la vie.md>) · Type : Conditions générales · Édition : 01/2026
 
 ## Définitions
 
@@ -621,7 +621,7 @@ La prescription est le délai au-delà duquel aucune action n’est plus recevab
 
 ## Documents liés
 
-- [Assurance des Accidents de la Vie Courante Praxis Solutions - IPID](Assurance%20des%20Accidents%20de%20la%20Vie%20Courante%20Praxis%20Solutions%20-%20IPID.md) - IPID / Fiche d'information, éd. 05/2024
+- [Assurance des Accidents de la Vie Courante Praxis Solutions - IPID](<Assurance des Accidents de la Vie Courante Praxis Solutions - IPID.md>) - IPID / Fiche d'information, éd. 05/2024
 
 ## Source & fidélité
 

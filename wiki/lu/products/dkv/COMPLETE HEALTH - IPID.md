@@ -40,7 +40,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du produit COMPLETE HEALTH de DKV Luxembourg S.A. Le document indique qu'« Il s'agit d'une assurance complète » et énumère 18 prestations couvertes en traitement ambulatoire, traitement dentaire et hospitalisation, plus 3 prestations du tarif BEST CARE + / BEST CARE PREMIUM +, 7 prestations non assurées et 4 restrictions de couverture ; le domaine de validité s'étend à toute l'Europe. Le même fichier PDF contient en pages 3-4 un second IPID distinct, celui du produit TRAVEL / TRAVEL +, dont les garanties sont reprises ici sous un préfixe explicite.
 
-- Assureur : [DKV Luxembourg](../../insurers/DKV%20Luxembourg.md) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
+- Assureur : [DKV Luxembourg](<../../insurers/DKV Luxembourg.md>) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -280,8 +280,8 @@ Organisation et prise en charge des frais de transfert en cas de décès de la p
 
 ## Documents liés
 
-- [COMPLETE HEALTH - IPID - DE](COMPLETE%20HEALTH%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
-- [COMPLETE HEALTH - IPID - EN](COMPLETE%20HEALTH%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+- [COMPLETE HEALTH - IPID - DE](<COMPLETE HEALTH - IPID - DE.md>) - IPID / Fiche d'information
+- [COMPLETE HEALTH - IPID - EN](<COMPLETE HEALTH - IPID - EN.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

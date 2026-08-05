@@ -46,7 +46,7 @@ generated: true
 
 Conditions générales du contrat Multirisques caravaning, contrat d'assurance d'une caravane (remorque équipée pour le séjour de personnes ou cellule amovible sur véhicule à plateau). Il comprend une garantie A de responsabilité civile satisfaisant à l'obligation d'assurance de l'article L.211.1 du Code, des garanties dommages subis par la caravane (B incendie/explosion/attentats, C vol, D bris de glaces, E dommages par accident, F catastrophes naturelles, G cataclysmes, H privation de jouissance), une option K couvrant les accessoires, l'auvent et le contenu, des garanties R1 défense pénale et R2 recours, et une garantie T d'insolvabilité des tiers. Seules jouent les garanties dont l'assurance est stipulée aux conditions particulières. Un tableau des garanties en page 20 chiffre les montants et les franchises.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales · Édition : 11/2022
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : Conditions générales · Édition : 11/2022
 
 ## Définitions
 

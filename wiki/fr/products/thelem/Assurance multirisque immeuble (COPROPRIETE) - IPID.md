@@ -48,7 +48,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de l'assurance multirisque immeuble - COPROPRIETE de Thélem assurances. Cette assurance a pour objectifs de garantir les dommages aux bâtiments (parties communes exclusivement) et les responsabilités civiles des représentants de copropriétés ; sont assurées les parties communes des bâtiments à usage d'habitation ou mixtes d'une superficie inférieure à 3 000 m², le contenu mobilier situé dans les parties communes, les approvisionnements et les matériels servant à son entretien. Les garanties systématiquement prévues couvrent l'incendie et les explosions, les dommages électriques et électroniques, les catastrophes technologiques, les attentats et actes de terrorisme, les événements climatiques, les dégâts des eaux et le gel, le vol et le vandalisme, le bris de glaces, les frais additionnels ainsi que les responsabilités civiles et la défense pénale et recours suite à accident. Trois garanties optionnelles sont proposées (émeutes, mouvements populaires et vandalisme extérieur ; augmentation du plafond pour les eaux de ruissellement ; renonciation à recours contre les locataires ou occupants).
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information · Édition : août 2025
+- Assureur : [Thélem assurances](<../../insurers/Thélem assurances.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : IPID / Fiche d'information · Édition : août 2025
 
 ## Garanties
 
@@ -209,7 +209,7 @@ Garantie optionnelle : renonciation à recours contre les locataires ou occupant
 
 ## Documents liés
 
-- [Assurance multirisque immeuble - PROPRIETAIRE NON OCCUPANT - IPID](Assurance%20multirisque%20immeuble%20-%20PROPRIETAIRE%20NON%20OCCUPANT%20-%20IPID.md) - IPID / Fiche d'information, éd. juillet 2023
+- [Assurance multirisque immeuble - PROPRIETAIRE NON OCCUPANT - IPID](<Assurance multirisque immeuble - PROPRIETAIRE NON OCCUPANT - IPID.md>) - IPID / Fiche d'information, éd. juillet 2023
 
 ## Source & fidélité
 

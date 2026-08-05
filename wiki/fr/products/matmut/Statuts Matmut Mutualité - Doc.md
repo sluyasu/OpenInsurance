@@ -44,7 +44,7 @@ generated: true
 
 Statuts de Matmut Mutualité, personne morale de droit privé soumise au Code de la Mutualité, inscrite au répertoire SIRENE sous le numéro 775 701 485 et dont le siège est à Rouen (76100), 66 rue de Sotteville. Le document compte 69 articles répartis en quatre titres : formation, objet et composition de la mutuelle ; administration (Assemblée Générale, Conseil d'Administration, Bureau et censeurs, dirigeant opérationnel, organisation financière) ; information des membres ; dispositions diverses. La mutuelle a pour objet la réalisation des opérations d'assurance des branches 1-2 de l'article R. 211-2 du Code de la Mutualité, une action de prévoyance, solidarité et entraide, et à titre accessoire la prévention des risques de dommages corporels et la protection de l'enfance, de la famille, des personnes âgées, dépendantes ou handicapées. Le fonds d'établissement est fixé à 1 000 000 d’euros et la mutuelle est affiliée à la SGAM Matmut.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Autres](../../branches/Autres.md) · Type : Document · Édition : 2021-06
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Autres](<../../branches/Autres.md>) · Type : Document · Édition : 2021-06
 
 ## Définitions
 

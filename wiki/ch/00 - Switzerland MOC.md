@@ -47,7 +47,7 @@ avec questionnaire de santé et droit de refus. Les confondre est l'erreur de le
 ## Assureurs
 
 <!-- BEGIN GENERATED: insurers -->
-- [Vaudoise Assurances](insurers/Vaudoise%20Assurances.md) (12 documents)
+- [Vaudoise Assurances](<insurers/Vaudoise Assurances.md>) (12 documents)
 <!-- END GENERATED -->
 
 Un seul porteur est entré dans le corpus, et partiellement : **13 documents énumérés dans

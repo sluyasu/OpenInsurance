@@ -40,7 +40,7 @@ generated: true
 
 Tableau descriptif des garanties du contrat Offre Métiers de l’Éducation, daté 03/2025. Le document est une table à deux colonnes — « Désignation des garanties » et « Montant et plafond des garanties » — couvrant l’accompagnement juridique professionnel (protection juridique, recours), la responsabilité civile-défense, les dommages corporels (blessures ou maladie professionnelle, puis décès) et l’assistance. Il indique qu’aucune franchise n’est applicable et renvoie aux conditions générales pour les modalités d’intervention et la liste des exclusions.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : Document · Édition : 03/2025
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : Document · Édition : 03/2025
 
 ## Garanties
 
@@ -180,7 +180,7 @@ Assistance au profit de l’assuré en cas de déplacement professionnel
 
 ## Documents liés
 
-- [Assurance Professionnelle Offre Métiers de l'Éducation - IPID](Assurance%20Professionnelle%20Offre%20M%C3%A9tiers%20de%20l%27%C3%89ducation%20-%20IPID.md) - IPID / Fiche d'information, éd. 07/2024
+- [Assurance Professionnelle Offre Métiers de l'Éducation - IPID](<Assurance Professionnelle Offre Métiers de l'Éducation - IPID.md>) - IPID / Fiche d'information, éd. 07/2024
 
 ## Source & fidélité
 

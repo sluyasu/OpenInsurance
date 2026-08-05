@@ -40,7 +40,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de la Multirisque Chambre de Métiers et de l'Artisanat MAAF, portée par MAAF Assurances SA (RCS Niort 542 073 580). Le contrat couvre les responsabilités et les biens des Chambres de Métiers et de l'Artisanat (CMA) et leur offre des garanties d'assistance aux locaux et aux personnes. Il comprend douze responsabilités nommément couvertes, les locaux et leur contenu contre neuf événements, l'assistance, la défense-recours et la mobilité, avec quatre extensions en option.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information · Édition : 2024-06
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : IPID / Fiche d'information · Édition : 2024-06
 
 ## Garanties
 
@@ -258,7 +258,7 @@ Imprimée sous « En option : ».
 
 ## Documents liés
 
-- [Multirisque Chambre de Métiers et de l'Artisanat](Multirisque%20Chambre%20de%20M%C3%A9tiers%20et%20de%20l%27Artisanat.md) - Conditions générales, éd. 01/26
+- [Multirisque Chambre de Métiers et de l'Artisanat](<Multirisque Chambre de Métiers et de l'Artisanat.md>) - Conditions générales, éd. 01/26
 
 ## Source & fidélité
 

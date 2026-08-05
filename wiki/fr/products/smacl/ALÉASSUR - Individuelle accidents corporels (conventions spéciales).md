@@ -44,7 +44,7 @@ generated: true
 
 Conventions spéciales « Individuelle accidents corporels » du contrat ALÉASSUR de SMACL Assurances, annexées aux conditions générales Aléassur auxquelles elles dérogent, et diffusées sous le bandeau « Collectivités ». Elles ont pour objet l'indemnisation des accidents corporels atteignant une ou plusieurs personnes assurées au cours d'une activité garantie, sur la base de postes de préjudices : décès, déficit fonctionnel permanent et dépenses de santé actuelles inclus au contrat, pertes de gains professionnels actuels en option. Les capitaux et montants sont fixés aux conditions particulières ; la garantie ne peut excéder 450 000 € par sinistre quel que soit le nombre de victimes. La garantie produit ses effets dans le monde entier, sous réserve d'une limite de 90 jours consécutifs hors de France métropolitaine, des DROM et de Monaco.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : Conditions générales · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : Conditions générales · Édition : 01/2024
 
 ## Définitions
 

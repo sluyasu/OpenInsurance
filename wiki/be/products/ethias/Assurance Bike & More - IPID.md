@@ -40,7 +40,7 @@ generated: true
 
 L'Assurance Bike & More d'Ethias est une assurance multirisque (omnium et accidents) destinée à couvrir l'assuré ainsi que son vélo ou engin de déplacement. Elle comprend les garanties facultatives Vol, Dégâts matériels, Conducteur & passagers et Dépannage en Belgique. La notion d'assuré vise le preneur d'assurance et les membres de sa famille vivant sous le même toit.
 
-- Assureur : [Ethias](../../insurers/Ethias.md) · Branche : [Vélo](../../branches/V%C3%A9lo.md) · Type : IPID / Fiche d'information · Édition : 03/25
+- Assureur : [Ethias](<../../insurers/Ethias.md>) · Branche : [Vélo](<../../branches/Vélo.md>) · Type : IPID / Fiche d'information · Édition : 03/25
 
 ## Définitions
 
@@ -137,7 +137,7 @@ Couvre l'assistance en cas d'accident, de panne mécanique, de panne électroniq
 
 ## Documents liés
 
-- [Assurance Bike & More](Assurance%20Bike%20%26%20More.md) - Conditions générales, éd. 03/25
+- [Assurance Bike & More](<Assurance Bike & More.md>) - Conditions générales, éd. 03/25
 
 ## Source & fidélité
 

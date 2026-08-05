@@ -43,7 +43,7 @@ generated: true
 
 Allgemeine Versicherungsbedingungen der Auslandsreise-Gruppendeckung BUSINESS TRAVEL der DKV Luxembourg S.A. Versicherungsnehmer ist eine juristische Person mit Gesellschaftssitz in Luxemburg, die ein Paket von 250 versicherten Reisetagen kauft, abrufbar innerhalb von drei Jahren; versichert sind Arbeitnehmer und gleichgestellte Mitarbeiter auf vom Versicherungsnehmer organisierten Reisen. Die Versicherung gilt weltweit und übernimmt bei Unfall, Krankheit und im Todesfall ambulante, stationäre und zahnärztliche Behandlung sowie Such- und Bergungskosten bis zu insgesamt 150.000 EUR pro Reise und Person, dazu Rückführung und Rücktransport. Die maximale Dauer beträgt 99 Tage pro versicherte Person und Kalenderjahr.
 
-- Assureur : [DKV Luxembourg](../../insurers/DKV%20Luxembourg.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : Conditions générales · Édition : 04|2017
+- Assureur : [DKV Luxembourg](<../../insurers/DKV Luxembourg.md>) · Branche : [Voyage et assistance](<../../branches/Voyage et assistance.md>) · Type : Conditions générales · Édition : 04|2017
 
 > ⚠️ **Édition ancienne** : 04|2017, soit 9 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 
@@ -273,11 +273,11 @@ Jedweder Anspruch, der sich aus dem Vertrag ergibt, verjährt drei Jahre nach de
 ## Documents liés
 
 - Édition courante de ce produit.
-- [BUSINESS TRAVEL - IPID - EN](BUSINESS%20TRAVEL%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
-- [BUSINESS TRAVEL](BUSINESS%20TRAVEL.md) - Conditions générales, éd. 04|2017
-- [BUSINESS TRAVEL - IPID - DE](BUSINESS%20TRAVEL%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
-- [BUSINESS TRAVEL - IPID](BUSINESS%20TRAVEL%20-%20IPID.md) - IPID / Fiche d'information
-- [BUSINESS TRAVEL - EN](BUSINESS%20TRAVEL%20-%20EN.md) - Conditions générales, éd. 04|2017
+- [BUSINESS TRAVEL - IPID - EN](<BUSINESS TRAVEL - IPID - EN.md>) - IPID / Fiche d'information
+- [BUSINESS TRAVEL](<BUSINESS TRAVEL.md>) - Conditions générales, éd. 04|2017
+- [BUSINESS TRAVEL - IPID - DE](<BUSINESS TRAVEL - IPID - DE.md>) - IPID / Fiche d'information
+- [BUSINESS TRAVEL - IPID](<BUSINESS TRAVEL - IPID.md>) - IPID / Fiche d'information
+- [BUSINESS TRAVEL - EN](<BUSINESS TRAVEL - EN.md>) - Conditions générales, éd. 04|2017
 
 ## Source & fidélité
 

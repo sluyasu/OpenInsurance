@@ -46,7 +46,7 @@ generated: true
 
 Conditions générales du volet d'assistance « Assistance "Avenue" », édition du 01.01.2022. Les prestations sont garanties et fournies par Europ Assistance (Suisse) SA sous le nom de Vaudoise Assistance et assurées par la VAUDOISE GÉNÉRALE, Compagnie d'Assurances SA. Le volet couvre le dépannage, le remorquage, l'hébergement, l'acheminement et la récupération des personnes assurées, le rapatriement du véhicule depuis l'étranger, l'envoi de pièces détachées, l'avance de frais de réparation, l'avance de caution pénale et les honoraires d'avocat en cas de poursuites judiciaires à l'étranger, les prestations liées au retrait immédiat du permis de conduire, ainsi que des informations de voyage. Il est lié à la validité d'un contrat d'assurance voiture, moto ou véhicule utilitaire comportant les risques Responsabilité Civile et Casco.
 
-- Assureur : [Vaudoise Assurances](../../insurers/Vaudoise%20Assurances.md) · Branche : Véhicules (RC + casco) · Type : Conditions générales · Édition : 01.01.2022
+- Assureur : [Vaudoise Assurances](<../../insurers/Vaudoise Assurances.md>) · Branche : Véhicules (RC + casco) · Type : Conditions générales · Édition : 01.01.2022
 
 ## Définitions
 

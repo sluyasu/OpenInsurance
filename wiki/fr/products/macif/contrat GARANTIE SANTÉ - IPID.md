@@ -44,7 +44,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (DIPA) du contrat GARANTIE SANTÉ, une assurance complémentaire santé assurée par Apivia Macif Mutuelle (SIREN n°779 558 501), mutuelle régie par le Livre II du Code de la mutualité. Le contrat rembourse, en complément de la Sécurité sociale française, tout ou partie des frais de santé restant à la charge de l’assuré et des éventuels bénéficiaires en cas d’accident, de maladie ou de maternité, et respecte les conditions légales des contrats responsables. Le document liste les garanties systématiquement prévues (hospitalisation, prime de naissance, soins courants, prévention, dentaire, optique, aides auditives, appareillage, assistance et services) et les garanties optionnelles selon la formule souscrite. Deux annexes donnent les tableaux de garanties : quatre formules « Soins » (ÉCONOMIQUE, ÉQUILIBRÉE, PROTECTRICE, EXCELLENCE) et cinq niveaux d’« Équipements » (0 à 4).
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : IPID / Fiche d'information · Édition : 01/2022
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : IPID / Fiche d'information · Édition : 01/2022
 
 ## Définitions
 
@@ -837,9 +837,9 @@ Plafonds par niveau d’« Équipements » ; les garanties exprimées en euros c
 ## Documents liés
 
 - Édition courante de ce produit.
-- [contrat GARANTIE SANTÉ - IPID](contrat%20GARANTIE%20SANT%C3%89%20-%20IPID%20%282%29.md) - IPID / Fiche d'information, éd. 09/2019
-- [Garantie Santé](Garantie%20Sant%C3%A9.md) - Conditions générales, éd. 2023-01
-- [Garantie Santé - Fiche](Garantie%20Sant%C3%A9%20-%20Fiche.md) - Fiche produit, éd. 2022-01-01
+- [contrat GARANTIE SANTÉ - IPID](<contrat GARANTIE SANTÉ - IPID (2).md>) - IPID / Fiche d'information, éd. 09/2019
+- [Garantie Santé](<Garantie Santé.md>) - Conditions générales, éd. 2023-01
+- [Garantie Santé - Fiche](<Garantie Santé - Fiche.md>) - Fiche produit, éd. 2022-01-01
 
 ## Source & fidélité
 

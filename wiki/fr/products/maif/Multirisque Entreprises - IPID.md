@@ -46,7 +46,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du contrat Multirisque Entreprises, présenté comme une « Assurance multirisque professionnelle » de MAIF, entreprise d'assurance immatriculée en France et régie par le Code des assurances (775709702). Le produit est destiné à protéger l'entreprise et ses membres (dirigeants, salariés), ses activités, les biens professionnels, à garantir les responsabilités encourues et la défense de leurs intérêts, ainsi que les pertes d'exploitation. Il réunit une responsabilité civile - défense, la protection des locaux professionnels et de leur contenu et une protection financière (pertes d'exploitation). Le document précise que les garanties sont accordées selon la combinaison choisie et qu'aucune garantie n'est systématiquement prévue au contrat.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information · Édition : 01/2023
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : IPID / Fiche d'information · Édition : 01/2023
 
 ## Garanties
 

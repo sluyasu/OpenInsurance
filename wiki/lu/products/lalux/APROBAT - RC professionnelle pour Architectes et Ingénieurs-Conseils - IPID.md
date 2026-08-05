@@ -45,7 +45,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de la RC professionnelle APROBAT pour Architectes et Ingénieurs-Conseils, distribuée sous la marque LALUX Assurances. L’assurance couvre les conséquences pécuniaires de la responsabilité civile encourue lors de l’exercice légal des activités professionnelles décrites aux Conditions Particulières, à la suite de dommages corporels, matériels et immatériels causés à des tiers, en RC professionnelle (erreur, négligence ou faute à caractère contractuel ou décennal vis-à-vis du maître de l’ouvrage) et en RC exploitation (responsabilité extra-contractuelle). Six garanties complémentaires s’y ajoutent : vol commis par les préposés, dommages aux biens des préposés, troubles de voisinage (art. 544 Code civil), sous-traitants, frais de Défense et d’Expertise et dépassement du budget. Les garanties sont accordées en base réclamation, dans le monde entier à l’exclusion des États-Unis d’Amérique et du Canada ; le document ne chiffre ni plafond, ni franchise, ni prime.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

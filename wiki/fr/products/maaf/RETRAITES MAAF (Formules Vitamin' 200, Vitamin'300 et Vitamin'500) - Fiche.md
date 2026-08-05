@@ -44,7 +44,7 @@ generated: true
 
 Document d’exemples chiffrés de remboursements en euros pour le contrat d’assurance santé responsable MAAF « Retraités MAAF », en vigueur au 1er janvier 2026. Pour chaque acte (hospitalisation, soins courants, dentaire, optique, lentilles, chirurgie réfractive, aides auditives) il met en regard le tarif le plus souvent facturé, la base de remboursement de la sécurité sociale, le remboursement de l’assurance maladie obligatoire, puis le remboursement de la complémentaire et le reste à charge pour chacune des trois formules Vitamin’ 200, Vitamin’300 et Vitamin’500. Le document indique qu’il ne peut se substituer aux documents contractuels et qu’il s’appuie sur le Glossaire de l’assurance complémentaire santé édicté par l’UNOCAM.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit · Édition : Exemples chiffrés en vigueur au 1er janvier 2026, susceptibles d’évoluer dans le temps, à la hausse ou à la baisse.
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Fiche produit · Édition : Exemples chiffrés en vigueur au 1er janvier 2026, susceptibles d’évoluer dans le temps, à la hausse ou à la baisse.
 
 ## Définitions
 

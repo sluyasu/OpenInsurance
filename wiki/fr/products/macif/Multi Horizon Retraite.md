@@ -46,7 +46,7 @@ generated: true
 
 Note d'information du contrat Multi Horizon Retraite, plan d'épargne retraite individuel prenant la forme d'un contrat d'assurance-vie de groupe (collectif) multisupport à adhésion facultative, souscrit par l'association AGEPER auprès de Mutavie et distribué par la Macif. Il relève des branches 20 et 22 de l'article R. 321-1 du Code des assurances. L'épargne se constitue sur un support en euros à capital garanti net de frais de gestion et sur des supports en unités de compte non garantis, en gestion libre ou en gestion horizon retraite (orientations Prudent, Équilibre, Dynamique) réparties sur trois compartiments réglementaires, et se dénoue au départ à la retraite en rente viagère et/ou en capital. Le contrat ne comporte pas de faculté de rachat hors les six cas légaux de l'article L. 224-4 du Code monétaire et financier, prévoit une garantie plancher décès obligatoire plafonnée à 100 000 euros et une garantie optionnelle « exonération de versement » en cas d'incapacité temporaire totale ou d'invalidité permanente totale. Le document intègre en tête un additif de septembre 2022 modifiant les articles 11 et 17 à compter du 1er janvier 2023.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Retraite supplémentaire](../../branches/Retraite%20suppl%C3%A9mentaire.md) · Type : Conditions générales · Édition : JUILLET 2022 (note d'information) ; additif SEPTEMBRE 2022 applicable à compter du 1er janvier 2023
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Retraite supplémentaire](<../../branches/Retraite supplémentaire.md>) · Type : Conditions générales · Édition : JUILLET 2022 (note d'information) ; additif SEPTEMBRE 2022 applicable à compter du 1er janvier 2023
 
 ## Définitions
 
@@ -321,7 +321,7 @@ Article 30 : en application de l'article L. 114-1 du Code des assurances, « tou
 
 ## Documents liés
 
-- [Multi Horizon Retraite - Tarifs](Multi%20Horizon%20Retraite%20-%20Tarifs.md) - Conditions tarifaires, éd. 2022-04
+- [Multi Horizon Retraite - Tarifs](<Multi Horizon Retraite - Tarifs.md>) - Conditions tarifaires, éd. 2022-04
 
 ## Source & fidélité
 

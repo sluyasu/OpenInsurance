@@ -46,7 +46,7 @@ generated: true
 
 Conditions générales de l'Assurance Inventaire de la gamme Business One de la Vaudoise (édition 01.12.2024), une assurance de choses pour les marchandises, installations d'exploitation, mobilier et valeurs pécuniaires d'une entreprise. Dans les limites du contrat, la Vaudoise rembourse les dommages résultant de la destruction, de la détérioration ou de la disparition des choses assurées, au titre des couvertures incendie, dommages naturels, vol, dégâts des eaux, bris de glaces, couvertures étendues (TIAM/EC), frais et prestations complémentaires, interruption d'exploitation, bureautique, aménagements extérieurs, produits sous température contrôlée, technique machines, transport et hygiène – denrées alimentaires. La police d'assurance mentionne l'étendue de la couverture, les franchises et les sommes d'assurance retenues; les CGA ne chiffrent ni les primes ni la plupart des sommes d'assurance. Le document comprend également les dispositions générales (durée, prime, obligations, prescription) et les règles applicables en cas de sinistre.
 
-- Assureur : [Vaudoise Assurances](../../insurers/Vaudoise%20Assurances.md) · Branche : Autres · Type : Conditions générales · Édition : 01.12.2024
+- Assureur : [Vaudoise Assurances](<../../insurers/Vaudoise Assurances.md>) · Branche : Autres · Type : Conditions générales · Édition : 01.12.2024
 
 ## Définitions
 

@@ -45,7 +45,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) pour le Service easyPROTECT - Services à la personne, distribué sous la marque LALUX Assurances au Luxembourg. Le document présente quatre services que la souscription d'un contrat easyPROTECT permet d'obtenir moyennant paiement des primes correspondantes : une Assurance Voyage annuelle (remboursement des frais d'annulation ou d'interruption), une Assistance annuelle valable jusqu'à 6 semaines lors des voyages à l'étranger (rapatriement, retour anticipé, frais de recherche et sauvetage), une Home assistance 24h/24 et 7j/7 et une Protection internet couvrant les risques informatiques de la vie privée. Les portées territoriales diffèrent par garantie : monde entier pour le voyage, l'étranger pour l'assistance, l'adresse du risque au Grand-Duché de Luxembourg pour la Home assistance.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Voyage et assistance](<../../branches/Voyage et assistance.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -312,8 +312,8 @@ assurée a sa résidence habituelle.
 ## Documents liés
 
 - Extension / option du produit : **easyPROTECT**
-- [easyPROTECT - Personal Services - IPID - EN](easyPROTECT%20-%20Personal%20Services%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
-- [Service easyPROTECT - Dienstleistungen - IPID - DE](Service%20easyPROTECT%20-%20Dienstleistungen%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
+- [easyPROTECT - Personal Services - IPID - EN](<easyPROTECT - Personal Services - IPID - EN.md>) - IPID / Fiche d'information
+- [Service easyPROTECT - Dienstleistungen - IPID - DE](<Service easyPROTECT - Dienstleistungen - IPID - DE.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

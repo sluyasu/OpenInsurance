@@ -40,7 +40,7 @@ generated: true
 
 Insurance Product Information Document (IPID) of DKV Luxembourg S.A. for the product EASY HEALTH, a private health insurance providing additional protection for holders of a statutory insurance. Cover comprises outpatient treatment, dental treatment and inpatient treatment, plus a BEST CARE + / BEST CARE PREMIUM + service tariff. The scope of insurance also includes the free of charge protection according to the TRAVEL + tariff, whose own information sheet is bound into the same PDF (pages 3-4). Insurance cover applies to Europe, extended to the first month of a temporary sojourn in a non-European country.
 
-- Assureur : [DKV Luxembourg](../../insurers/DKV%20Luxembourg.md) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
+- Assureur : [DKV Luxembourg](<../../insurers/DKV Luxembourg.md>) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -309,9 +309,9 @@ Organization and assumption of costs for a transfer in the event of the death of
 
 ## Documents liés
 
-- [EASY HEALTH - IPID](EASY%20HEALTH%20-%20IPID.md) - IPID / Fiche d'information
-- [EASY HEALTH - IPID - DE](EASY%20HEALTH%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
-- [EASY HEALTH - DE](EASY%20HEALTH%20-%20DE.md) - Conditions générales, éd. VERSION 2025 (09/25)
+- [EASY HEALTH - IPID](<EASY HEALTH - IPID.md>) - IPID / Fiche d'information
+- [EASY HEALTH - IPID - DE](<EASY HEALTH - IPID - DE.md>) - IPID / Fiche d'information
+- [EASY HEALTH - DE](<EASY HEALTH - DE.md>) - Conditions générales, éd. VERSION 2025 (09/25)
 
 ## Source & fidélité
 

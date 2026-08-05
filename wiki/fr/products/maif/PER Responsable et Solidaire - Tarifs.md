@@ -40,7 +40,7 @@ generated: true
 
 Tableau normalisé des frais du PER assurantiel « PER Responsable et Solidaire », arrêté au 02/06/2026. Il recense le montant minimal de versement initial, les frais d’adhésion à l’association souscriptrice, les frais annuels (frais des supports, frais de gestion des fonds en gestion libre et en gestion pilotée par horizon, avec le taux de rétrocessions de commissions) et les frais ponctuels par opérations (versement, changement de mode de gestion, arbitrage, transfert sortant, versements de rente, rachat). Le contrat collectif est souscrit par le GERP Futurs Solidaires auprès de MAIF VIE ; il ne décrit aucune garantie d’assurance.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Retraite supplémentaire](../../branches/Retraite%20suppl%C3%A9mentaire.md) · Type : Conditions tarifaires · Édition : 06/26
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Retraite supplémentaire](<../../branches/Retraite supplémentaire.md>) · Type : Conditions tarifaires · Édition : 06/26
 
 ## Prime
 
@@ -103,11 +103,11 @@ Tableau normalisé des frais du PER assurantiel « PER Responsable et Solidaire 
 
 ## Documents liés
 
-- Extension liée : [Fonds en euros du PER Responsable et Solidaire - Doc](Fonds%20en%20euros%20du%20PER%20Responsable%20et%20Solidaire%20-%20Doc.md)
-- [Fonds en euros du PER Responsable et Solidaire - Doc](Fonds%20en%20euros%20du%20PER%20Responsable%20et%20Solidaire%20-%20Doc.md) - Document, éd. 06/26
-- [PER Responsable et Solidaire](PER%20Responsable%20et%20Solidaire.md) - Conditions générales, éd. 06/26
-- [PER Responsable et Solidaire - Doc](PER%20Responsable%20et%20Solidaire%20-%20Doc%20%282%29.md) - Document, éd. 06/2026
-- [PER Responsable et Solidaire - Doc](PER%20Responsable%20et%20Solidaire%20-%20Doc.md) - Document, éd. 06/26
+- Extension liée : [Fonds en euros du PER Responsable et Solidaire - Doc](<Fonds en euros du PER Responsable et Solidaire - Doc.md>)
+- [Fonds en euros du PER Responsable et Solidaire - Doc](<Fonds en euros du PER Responsable et Solidaire - Doc.md>) - Document, éd. 06/26
+- [PER Responsable et Solidaire](<PER Responsable et Solidaire.md>) - Conditions générales, éd. 06/26
+- [PER Responsable et Solidaire - Doc](<PER Responsable et Solidaire - Doc (2).md>) - Document, éd. 06/2026
+- [PER Responsable et Solidaire - Doc](<PER Responsable et Solidaire - Doc.md>) - Document, éd. 06/26
 
 ## Source & fidélité
 

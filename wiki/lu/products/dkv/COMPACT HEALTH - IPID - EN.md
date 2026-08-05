@@ -41,7 +41,7 @@ generated: true
 
 Insurance Product Information Document (IPID) for DKV Luxembourg S.A.'s COMPACT HEALTH product. The document states the type of insurance as « Additional protection for holders of a statutory insurance, without aging reserves ». It lists 15 covered benefits across outpatient, dental and inpatient treatment, 4 further benefits under the « Optional service: Best Care Premium », 6 items that are not insured and 4 restrictions on cover. Cover applies to Europe, and to the first month of a temporary sojourn in a non-European country.
 
-- Assureur : [DKV Luxembourg](../../insurers/DKV%20Luxembourg.md) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
+- Assureur : [DKV Luxembourg](<../../insurers/DKV Luxembourg.md>) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -187,8 +187,8 @@ Further benefits and services are listed in the tariff brochure „Best Care Pre
 
 ## Documents liés
 
-- [COMPACT HEALTH - IPID](COMPACT%20HEALTH%20-%20IPID.md) - IPID / Fiche d'information
-- [COMPACT HEALTH - IPID - DE](COMPACT%20HEALTH%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
+- [COMPACT HEALTH - IPID](<COMPACT HEALTH - IPID.md>) - IPID / Fiche d'information
+- [COMPACT HEALTH - IPID - DE](<COMPACT HEALTH - IPID - DE.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

@@ -42,7 +42,7 @@ generated: true
 
 Document tarifaire d'une page énonçant les conditions d'octroi de l'Avantage « Bonus Matmut Famille » attaché au contrat d'assurance Multirisques 2R Rider. L'avantage permet à l'enfant de l'assuré du Groupe Matmut ou de son conjoint de bénéficier, lors de la souscription d'un premier contrat Multirisques 2R Rider, du report du bonus de ses parents dans la limite de 35 % (coefficient de réduction maximum de 0,65). Le document fixe les conditions tenant au bénéficiaire (personne physique, enfant d'un assuré, moins de 28 ans, sinistralité), les conditions de fidélisation des parents, l'assiette de cotisation sur laquelle l'avantage s'applique et sa date de validité. Il ne décrit aucune garantie d'assurance.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Deux-roues, quads et voiturettes](../../branches/Deux-roues%2C%20quads%20et%20voiturettes.md) · Type : Conditions tarifaires · Édition : 01/26
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Deux-roues, quads et voiturettes](<../../branches/Deux-roues, quads et voiturettes.md>) · Type : Conditions tarifaires · Édition : 01/26
 
 ## Délais d'attente
 

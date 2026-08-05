@@ -43,7 +43,7 @@ generated: true
 
 Document de lisibilité au format « exemples de prise en charge au 01/01/2026 » pour les travailleurs non-salariés, rattaché au produit Gan Solutions Prévoyance et portant sur les garanties incapacité, invalidité et décès. Chaque page met en regard le régime obligatoire (Sécurité sociale des indépendants) et le contrat de prévoyance de l’organisme assureur, puis en donne le total, sur la base d’un profil type de commerçant de 50 ans à 43 000 € de revenu annuel brut. Les garanties de l’assureur y sont décrites comme déterminées au moment de la souscription et laissées au choix de l’assuré, avec deux exemples chiffrés pour le capital décès, la rente éducation, la rente d’invalidité et les indemnités journalières complémentaires, plus six options facultatives. Le document précise qu’il ne peut se substituer aux documents contractuels.
 
-- Assureur : [Gan Assurances](../../insurers/Gan%20Assurances.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : Fiche produit · Édition : au 01/01/2026
+- Assureur : [Gan Assurances](<../../insurers/Gan Assurances.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : Fiche produit · Édition : au 01/01/2026
 
 ## Définitions
 
@@ -164,8 +164,8 @@ Option proposée par contrat de prévoyance (facultatif) : Remboursement des fra
 ## Documents liés
 
 - Édition courante de ce produit.
-- [Gan Solutions Prévoyance (Travailleurs non-salariés) - Fiche](Gan%20Solutions%20Pr%C3%A9voyance%20%28Travailleurs%20non-salari%C3%A9s%29%20-%20Fiche%20%282%29.md) - Fiche produit, éd. au 01/01/2025
-- [Gan Solutions Prévoyance - IPID](Gan%20Solutions%20Pr%C3%A9voyance%20-%20IPID.md) - IPID / Fiche d'information, éd. 032024
+- [Gan Solutions Prévoyance (Travailleurs non-salariés) - Fiche](<Gan Solutions Prévoyance (Travailleurs non-salariés) - Fiche (2).md>) - Fiche produit, éd. au 01/01/2025
+- [Gan Solutions Prévoyance - IPID](<Gan Solutions Prévoyance - IPID.md>) - IPID / Fiche d'information, éd. 032024
 
 ## Source & fidélité
 

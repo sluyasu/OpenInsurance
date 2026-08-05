@@ -44,7 +44,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (DIPA/IPID) du contrat « Aléassur - Risques statutaires IRCANTEC » de SMACL Assurances, destiné aux collectivités territoriales employeurs. Le contrat garantit à la collectivité employeur le remboursement par l’assureur de tout ou partie des prestations mises à sa charge par les textes régissant les statuts de la Fonction Publique, pour les agents titulaires ou non et stagiaires à temps non complet affiliés à l’IRCANTEC. Deux garanties sont systématiquement prévues — congés pour accident du travail ou maladie imputable au service, et arrêt de travail pour maladie ordinaire, grave maladie, maternité ou adoption, avec remboursement des indemnités journalières — complétées par sept prestations d’assistance et de services. Les garanties s’exercent sur l’ensemble du territoire français et, pour les missions, études ou stages, dans le monde entier pour les séjours n’excédant pas 3 mois.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : IPID / Fiche d'information · Édition : 02/2025
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : IPID / Fiche d'information · Édition : 02/2025
 
 ## Garanties
 
@@ -171,8 +171,8 @@ Prestation du bloc « Assistance et services », précédée d’une coche : ell
 
 ## Documents liés
 
-- [Aléassur - Risques statutaires CNRACL - IPID](Al%C3%A9assur%20-%20Risques%20statutaires%20CNRACL%20-%20IPID.md) - IPID / Fiche d'information, éd. 02/2025
-- [Risques statutaires ALÉASSUR](Risques%20statutaires%20AL%C3%89ASSUR.md) - Conditions générales, éd. 06/2026
+- [Aléassur - Risques statutaires CNRACL - IPID](<Aléassur - Risques statutaires CNRACL - IPID.md>) - IPID / Fiche d'information, éd. 02/2025
+- [Risques statutaires ALÉASSUR](<Risques statutaires ALÉASSUR.md>) - Conditions générales, éd. 06/2026
 
 ## Source & fidélité
 

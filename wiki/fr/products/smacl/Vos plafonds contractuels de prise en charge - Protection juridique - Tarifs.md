@@ -44,7 +44,7 @@ generated: true
 
 Barème des plafonds contractuels de prise en charge des honoraires d'avocat et frais de procédure du contrat de protection juridique SMACL Assurances. Il fixe, par type de juridiction et par acte de procédure (juridictions administratives, civiles, pénales, plus une rubrique « Autres »), un montant maximum en euros TTC, non indexé. Ces montants constituent la limite de prise en charge par décision obtenue, même en cas de pluralité ou de changement d'avocat. Le document est un tableau de plafonds : il ne décrit ni les garanties, ni les exclusions, ni la vie du contrat.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Protection juridique](../../branches/Protection%20juridique.md) · Type : Conditions tarifaires · Édition : 08/2022
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Protection juridique](<../../branches/Protection juridique.md>) · Type : Conditions tarifaires · Édition : 08/2022
 
 ## Garanties
 
@@ -267,7 +267,7 @@ Indemnités kilométriques (suivant justificatifs)
 ## Documents liés
 
 - Extension / option du produit : **Protection juridique**
-- [Protection juridique (Particuliers)](Protection%20juridique%20%28Particuliers%29.md) - Conditions générales, éd. 11/2022
+- [Protection juridique (Particuliers)](<Protection juridique (Particuliers).md>) - Conditions générales, éd. 11/2022
 
 ## Source & fidélité
 

@@ -45,7 +45,7 @@ generated: true
 
 Règlement mutualiste « Garantie Santé Territoriaux » (édition Janvier 2022) de la Mutuelle Nationale des Fonctionnaires des Collectivités Territoriales (MNFCT, SIREN 784 442 899), régie par le Code de la mutualité. Il définit une complémentaire santé individuelle remboursant les frais de soins en complément du Régime obligatoire, construite sur quatre formules « Soins » (Economique, Equilibrée, Protectrice, Excellence) couplées à un niveau d’« Equipements » de 0 à 4, et couvrant hospitalisation, soins courants, prévention, dentaire, optique, aides auditives, appareillage et cures thermales, avec le dispositif 100 % Santé au titre du contrat responsable. Apivia Macif Mutuelle (SIREN 779 558 501) se substitue intégralement à la MNFCT pour les garanties d’assurance maladie et accident (branches 1 et 2) ; les garanties d’assistance jointes sont assurées par IMA Assurances. Le règlement décrit également les prestations sans supplément de cotisation (réseau de soins, fonds de secours, assistance vie quotidienne, aide à l’accès aux soins, cautionnement de prêt immobilier) et deux prestations particulières supplémentaires (garantie obsèques, naissance-adoption).
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : Janvier 2022
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Conditions générales · Édition : Janvier 2022
 
 ## Définitions
 
@@ -1047,8 +1047,8 @@ Conformément aux dispositions de l’article L 221-11 du code de la mutualité,
 
 ## Documents liés
 
-- [contrat GARANTIE SANTE TERRITORIAUX - IPID](contrat%20GARANTIE%20SANTE%20TERRITORIAUX%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/2022
-- [Garantie Santé Territoriaux - Fiche](Garantie%20Sant%C3%A9%20Territoriaux%20-%20Fiche.md) - Fiche produit, éd. 10.01.2022
+- [contrat GARANTIE SANTE TERRITORIAUX - IPID](<contrat GARANTIE SANTE TERRITORIAUX - IPID.md>) - IPID / Fiche d'information, éd. 01/2022
+- [Garantie Santé Territoriaux - Fiche](<Garantie Santé Territoriaux - Fiche.md>) - Fiche produit, éd. 10.01.2022
 
 ## Source & fidélité
 

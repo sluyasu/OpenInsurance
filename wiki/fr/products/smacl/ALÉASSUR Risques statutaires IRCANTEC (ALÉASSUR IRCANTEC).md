@@ -46,7 +46,7 @@ generated: true
 
 Conventions spéciales ALÉASSUR « Risques statutaires IRCANTEC » : elles garantissent au souscripteur (employeur public) le remboursement de tout ou partie des prestations statutaires qu'il doit verser à ses agents titulaires ou non ou stagiaires à temps non complet affiliés à l'IRCANTEC. Le contrat est défini conjointement par les conditions générales Prestations statutaires et par ces conventions spéciales. Selon l'option choisie aux conditions particulières, sont pris en charge les congés pour maladie ordinaire, pour grave maladie, pour maternité ou adoption et pour accident du travail ou maladie imputable au service. Chaque garantie est déclinée en deux jeux d'articles, l'un pour les agents non titulaires (articles 5 à 8) et l'autre pour les agents titulaires ou stagiaires à temps non complet (articles 9 à 12), et distingue les agents effectuant moins de 150 h par trimestre de ceux effectuant 150 h ou plus.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : Conditions générales · Édition : 11/2025
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : Conditions générales · Édition : 11/2025
 
 ## Définitions
 
@@ -182,7 +182,7 @@ Lorsqu'un agent est placé en congé résultant d'un accident survenu dans l'exe
 
 ## Documents liés
 
-- [ALÉASSUR Risques statutaires CNRACL (ALÉASSUR CNRACL)](AL%C3%89ASSUR%20Risques%20statutaires%20CNRACL%20%28AL%C3%89ASSUR%20CNRACL%29.md) - Conditions générales, éd. 06/2025
+- [ALÉASSUR Risques statutaires CNRACL (ALÉASSUR CNRACL)](<ALÉASSUR Risques statutaires CNRACL (ALÉASSUR CNRACL).md>) - Conditions générales, éd. 06/2025
 
 ## Source & fidélité
 

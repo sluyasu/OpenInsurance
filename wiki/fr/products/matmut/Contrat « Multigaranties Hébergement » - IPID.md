@@ -43,7 +43,7 @@ generated: true
 
 Document d’information (IPID) du contrat « Multigaranties Hébergement » de la Matmut, assurance habitation. Le contrat garantit les assurés dans le cadre de leur vie privée contre les conséquences des dommages corporels et matériels causés à des tiers (Responsabilité civile), et vise également à couvrir leur responsabilité civile d’occupant et leurs biens mobiliers, le cas échéant. Deux garanties sont systématiquement prévues en inclusion (Responsabilité civile personnelle jusqu’à 100 000 000 € et Protection Juridique suite à accident jusqu’à 20 000 €) ; cinq ensembles de garanties sont proposés en option (responsabilité civile d’occupant, incendie et événements assimilés, événements climatiques et catastrophes naturelles, vol et vandalisme, bris de glaces). Le document précise qu’il ne présente qu’un résumé des principales garanties et exclusions du contrat.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information · Édition : 05/24
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : IPID / Fiche d'information · Édition : 05/24
 
 ## Garanties
 

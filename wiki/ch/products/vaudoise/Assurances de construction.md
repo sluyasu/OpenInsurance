@@ -47,7 +47,7 @@ generated: true
 
 Conditions générales de la Vaudoise pour les assurances de construction, édition du 01.01.2022. Le document réunit deux assurances: l'assurance travaux de construction (partie A), qui couvre les détériorations et destructions soudaines et imprévues des prestations de construction — accident de construction, vol, vandalisme et, subsidiairement, incendie et événements naturels —, et l'assurance responsabilité civile du maître de l'ouvrage (partie B), qui couvre la responsabilité légale découlant du projet de construction désigné dans la police en cas de lésions corporelles, de dégâts matériels et de dommages économiques consécutifs. Une couverture complémentaire combinée (échafaudages, toits provisoires, outils et machines, terrains, ouvrages existants, mobilier) et six extensions de couverture ne sont assurées que si elles sont expressément convenues dans la police. Les parties C et D règlent la durée du contrat, les obligations contractuelles et la procédure en cas de sinistre; les sommes d'assurance et les franchises sont fixées dans la police.
 
-- Assureur : [Vaudoise Assurances](../../insurers/Vaudoise%20Assurances.md) · Branche : Assurance technique · Type : Conditions générales · Édition : 01.01.2022
+- Assureur : [Vaudoise Assurances](<../../insurers/Vaudoise Assurances.md>) · Branche : Assurance technique · Type : Conditions générales · Édition : 01.01.2022
 
 ## Définitions
 

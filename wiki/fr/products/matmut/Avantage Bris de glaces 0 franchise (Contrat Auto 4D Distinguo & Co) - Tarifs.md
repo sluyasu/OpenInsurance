@@ -43,7 +43,7 @@ generated: true
 
 Document d'une page fixant les conditions d'octroi de l'Avantage Bris de glaces 0 franchise pour les titulaires d'un contrat Multirisques « Auto 4D Distinguo & Co » souscrit auprès de Matmut & Co. En cas de remplacement du pare-brise ou d'une autre glace endommagée par un réparateur glacier agréé Matmut, le souscripteur est exonéré de la franchise contractuelle des garanties Bris de pare-brise ou Bris de glaces, laquelle correspond à 15% du montant des dommages. L'avantage vise les sinistres survenus et déclarés auprès des services Matmut entre le 1er janvier 2026 et le 31 décembre 2026 inclus ; le document est valable jusqu'au 31/12/2026.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions tarifaires · Édition : 01-26
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions tarifaires · Édition : 01-26
 
 ## Définitions
 
@@ -117,10 +117,10 @@ Exonération de la franchise applicable contractuellement en cas de remplacement
 ## Documents liés
 
 - Extension / option du produit : **Contrat d'assurance Multirisques « Auto 4D Distinguo & Co »**
-- [Avantage Bris de glaces 0 franchise (Contrat Auto 3D Initiale & Co) - Tarifs](Avantage%20Bris%20de%20glaces%200%20franchise%20%28Contrat%20Auto%203D%20Initiale%20%26%20Co%29%20-%20Tarifs.md) - Conditions tarifaires, éd. 01/26
-- [Avantage Bris de glaces 0 franchise (Gammes Multirisques 4 roues Référence et Essentiel) - Tarifs](Avantage%20Bris%20de%20glaces%200%20franchise%20%28Gammes%20Multirisques%204%20roues%20R%C3%A9f%C3%A9rence%20et%20Essentiel%29%20-%20Tarifs.md) - Conditions tarifaires, éd. 01-26
-- [Avantage Bris de glaces 0 franchise (Contrat « Assurance Auto temporaire » Matmut) - Tarifs](Avantage%20Bris%20de%20glaces%200%20franchise%20%28Contrat%20%C2%AB%20Assurance%20Auto%20temporaire%20%C2%BB%20Matmut%29%20-%20Tarifs.md) - Conditions tarifaires, éd. 01/26
-- [Avantage Bris de glaces 0 franchise (Gamme Auto 4D) - Tarifs](Avantage%20Bris%20de%20glaces%200%20franchise%20%28Gamme%20Auto%204D%29%20-%20Tarifs.md) - Conditions tarifaires, éd. 01/26
+- [Avantage Bris de glaces 0 franchise (Contrat Auto 3D Initiale & Co) - Tarifs](<Avantage Bris de glaces 0 franchise (Contrat Auto 3D Initiale & Co) - Tarifs.md>) - Conditions tarifaires, éd. 01/26
+- [Avantage Bris de glaces 0 franchise (Gammes Multirisques 4 roues Référence et Essentiel) - Tarifs](<Avantage Bris de glaces 0 franchise (Gammes Multirisques 4 roues Référence et Essentiel) - Tarifs.md>) - Conditions tarifaires, éd. 01-26
+- [Avantage Bris de glaces 0 franchise (Contrat « Assurance Auto temporaire » Matmut) - Tarifs](<Avantage Bris de glaces 0 franchise (Contrat « Assurance Auto temporaire » Matmut) - Tarifs.md>) - Conditions tarifaires, éd. 01/26
+- [Avantage Bris de glaces 0 franchise (Gamme Auto 4D) - Tarifs](<Avantage Bris de glaces 0 franchise (Gamme Auto 4D) - Tarifs.md>) - Conditions tarifaires, éd. 01/26
 
 ## Source & fidélité
 

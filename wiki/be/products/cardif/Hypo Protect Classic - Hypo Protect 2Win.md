@@ -40,7 +40,7 @@ generated: true
 
 Conditions générales de l'assurance Hypo Protect Classic (couvre le décès d'un seul assuré pendant un délai déterminé) et Hypo Protect 2Win (couvre le décès de deux assurés), une assurance liée à un crédit hypothécaire. La garantie principale est le décès. Hypo Protect Classic permet d'ajouter les garanties complémentaires 'Décès par accident' et/ou 'Incapacité totale de travail' et la garantie facultative 'Perte d'emploi involontaire'. Les assureurs sont Cardif Assurance Vie SA (décès, décès par accident, incapacité de travail) et Cardif-Assurances Risques Divers SA (perte d'emploi involontaire).
 
-- Assureur : [BNP Paribas Cardif](../../insurers/BNP%20Paribas%20Cardif.md) · Branche : [Autres](../../branches/Autres.md) · Type : Conditions générales · Édition : 2024/06
+- Assureur : [BNP Paribas Cardif](<../../insurers/BNP Paribas Cardif.md>) · Branche : [Autres](<../../branches/Autres.md>) · Type : Conditions générales · Édition : 2024/06
 
 ## Définitions
 
@@ -162,8 +162,8 @@ Si vous avez choisi cette couverture et que l'assuré se retrouve involontaireme
 
 ## Documents liés
 
-- [Hypo Protect - Fiche](Hypo%20Protect%20-%20Fiche.md) - Fiche produit, éd. 06/2024
-- [Hypo Protect Classic - Hypo Protect 2Win Luxembourg](Hypo%20Protect%20Classic%20-%20Hypo%20Protect%202Win%20Luxembourg.md) - Conditions générales, éd. 2023/03
+- [Hypo Protect - Fiche](<Hypo Protect - Fiche.md>) - Fiche produit, éd. 06/2024
+- [Hypo Protect Classic - Hypo Protect 2Win Luxembourg](<Hypo Protect Classic - Hypo Protect 2Win Luxembourg.md>) - Conditions générales, éd. 2023/03
 
 ## Source & fidélité
 

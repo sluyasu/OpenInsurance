@@ -46,7 +46,7 @@ generated: true
 
 Xtend is a group International Occupational Health Insurance underwritten by Foyer Global Health S.A. and taken out by a legal person (the Policyholder) for its employees, who are registered as Insured Persons under a Group Contract. It reimburses outpatient and dental Medical Treatment for Diseases and Bodily Injuries, and also covers routine health checks, vaccinations and immunizations, pregnancy and childbirth, and professional teeth cleaning, at 100 % of the eligible expenses up to an annual overall limit per insured person and per insurance year. Four Plans are offered — Xtend 300, Xtend 600, Xtend 900 and Xtend 1200 — with annual overall limits of € 300.00, € 600.00, € 900.00 and € 1,200.00 respectively. Insurance cover is provided for stays in all the countries of the European Union and the European Economic Area excluding Switzerland; the policy runs for 12 months and is tacitly renewed at each renewal date of the Group Contract.
 
-- Assureur : [Foyer Global Health](../../insurers/Foyer%20Global%20Health.md) · Branche : Complémentaire santé · Type : Conditions générales
+- Assureur : [Foyer Global Health](<../../insurers/Foyer Global Health.md>) · Branche : Complémentaire santé · Type : Conditions générales
 
 ## Définitions
 
@@ -287,7 +287,7 @@ The statute of limitation period for any legal actions arising out of or in conn
 
 ## Documents liés
 
-- [Xtend - DE](Xtend%20-%20DE.md) - Conditions générales
+- [Xtend - DE](<Xtend - DE.md>) - Conditions générales
 
 ## Source & fidélité
 

@@ -44,7 +44,7 @@ generated: true
 
 Conditions générales du contrat « Tous risques chantier » de SMACL Assurances, destiné aux collectivités et associations maîtres d’ouvrage. La garantie de base couvre, pendant la durée des travaux, les pertes et dommages matériels, le vol et la tentative de vol subis par les ouvrages de l’opération de construction, les ouvrages provisoires et les matériaux destinés à y être incorporés, ainsi que les frais de transport, de douane et de déblaiement, avec extension aux catastrophes naturelles. Trois garanties optionnelles peuvent être souscrites : Dommages aux existants, Maintenance visite après travaux et Responsabilité civile du maître de l’ouvrage. Le contrat précise qu’il n’a pas pour objet de satisfaire aux obligations d’assurance instituées par la loi n° 78-12 du 4 janvier 1978 ; tous les montants de garantie et de franchise sont renvoyés aux conditions particulières.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Assurance construction](../../branches/Assurance%20construction.md) · Type : Conditions générales · Édition : 11/2022
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Assurance construction](<../../branches/Assurance construction.md>) · Type : Conditions générales · Édition : 11/2022
 
 ## Définitions
 
@@ -278,7 +278,7 @@ Conformément à l’article L.114-1 du Code, toutes actions dérivant d’un co
 
 ## Documents liés
 
-- [Tous risques chantier - IPID](Tous%20risques%20chantier%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/2024
+- [Tous risques chantier - IPID](<Tous risques chantier - IPID.md>) - IPID / Fiche d'information, éd. 01/2024
 
 ## Source & fidélité
 

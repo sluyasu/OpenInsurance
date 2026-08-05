@@ -41,7 +41,7 @@ generated: true
 
 Informationsblatt zum Versicherungsprodukt (IPID) der kombinierten Unternehmensversicherung « Business » der Baloise Assurances Luxembourg S.A. Das Dokument beschreibt sie als maßgeschneiderte Versicherung zum Schutz des Firmenvermögens und nennt als Gegenstand der Versicherung Gebäude, Inhalt und Haftpflicht. Als versicherbare Risiken werden unter anderem Feuer und verbundene Risiken, Sturm, Hagel, Wasserschäden, Glasbruch, Diebstahl, Betriebsausfall, Erdbeben, Überschwemmung, Maschinenbruch und Transport aufgeführt, dazu die betriebliche Haftpflicht, die Haftpflicht nach Lieferung, überlassene und bestehende Sachen, unvorhersehbare Umweltverschmutzung sowie Verteidigungs- und Regressschutz. Optionale Erweiterungen bestehen für Sach- und Haftpflichtversicherungen; die Deckungsobergrenzen sind die in den besonderen Bedingungen genannten Deckungsbeträge.
 
-- Assureur : [Baloise Luxembourg](../../insurers/Baloise%20Luxembourg.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information
+- Assureur : [Baloise Luxembourg](<../../insurers/Baloise Luxembourg.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -257,8 +257,8 @@ Unter « Optionale Erweiterungen » aufgeführte Erweiterung.
 
 ## Documents liés
 
-- [Business - IPID](Business%20-%20IPID.md) - IPID / Fiche d'information
-- [Business - IPID - EN](Business%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+- [Business - IPID](<Business - IPID.md>) - IPID / Fiche d'information
+- [Business - IPID - EN](<Business - IPID - EN.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

@@ -49,7 +49,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (DIPA/IPID) du contrat « Sécurité des salariés et bénévoles d’association » de SMACL Assurances, commercialisé sous le titre « Assurance Sécurité des salariés et bénévoles des associations et des entreprises de l’économie sociale et solidaire ». Le contrat, destiné aux associations avec salariés, a pour objet de garantir la protection juridique de l’assuré dans le cadre de ses activités bénévoles ou salariées au sein de l’association. Il prend en charge les frais de défense et de recours en cas de litige avec les tiers, y compris les faits de harcèlement ou de discrimination, et prévoit un maintien de salaire en cas de procédure pénale, une assistance psychologique et une information juridique. L’indemnité est plafonnée aux montants indiqués au contrat sans pouvoir dépasser 30 000 € par sinistre.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : IPID / Fiche d'information · Édition : 02/2025
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : IPID / Fiche d'information · Édition : 02/2025
 
 ## Garanties
 
@@ -150,7 +150,7 @@ Assistance et services — Information juridique. Le document ne détaille pas l
 
 ## Documents liés
 
-- [Sécurité des salariés et bénévoles d'association](S%C3%A9curit%C3%A9%20des%20salari%C3%A9s%20et%20b%C3%A9n%C3%A9voles%20d%27association.md) - Conditions générales, éd. 01/2024
+- [Sécurité des salariés et bénévoles d'association](<Sécurité des salariés et bénévoles d'association.md>) - Conditions générales, éd. 01/2024
 
 ## Source & fidélité
 

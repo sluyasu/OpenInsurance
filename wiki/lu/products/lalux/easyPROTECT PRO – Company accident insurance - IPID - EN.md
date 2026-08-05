@@ -40,7 +40,7 @@ generated: true
 
 Insurance Product Information Document for easyPROTECT PRO – Company accident insurance, issued under the LALUX Assurances brand. The Company guarantees payment of the benefits agreed in the Special Conditions when the insured person is the victim of an accident during the period of validity of the contract, the coverage being granted to both the company owner and employees. Three basic guarantees are described: benefits in the event of death, benefits in the event of permanent disability, and reimbursement of medical expenses. The insurance is valid throughout Europe and, by extension, worldwide for stays outside Europe of no more than three months.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Assurance accidents](../../branches/Assurance%20accidents.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Assurance accidents](<../../branches/Assurance accidents.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -147,8 +147,8 @@ The Company guarantees, within the limit of the amount insured, the reimbursemen
 
 ## Documents liés
 
-- [easyPROTECT PRO – Accident entreprise - IPID](easyPROTECT%20PRO%20%E2%80%93%20Accident%20entreprise%20-%20IPID.md) - IPID / Fiche d'information
-- [easyPROTECT PRO – Unfallversicherung für Betriebspersonal (Unfallversicherung für Betriebspersonal - Betriebsunfall) - I](easyPROTECT%20PRO%20%E2%80%93%20Unfallversicherung%20f%C3%BCr%20Betriebspersonal%20%28Unfallversicherung%20f%C3%BCr%20Betriebspersonal%20-%20Betriebsunfall%29%20-%20I.md) - IPID / Fiche d'information
+- [easyPROTECT PRO – Accident entreprise - IPID](<easyPROTECT PRO – Accident entreprise - IPID.md>) - IPID / Fiche d'information
+- [easyPROTECT PRO – Unfallversicherung für Betriebspersonal (Unfallversicherung für Betriebspersonal - Betriebsunfall) - I](<easyPROTECT PRO – Unfallversicherung für Betriebspersonal (Unfallversicherung für Betriebspersonal - Betriebsunfall) - I.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

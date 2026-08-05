@@ -42,7 +42,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de l'assurance prévoyance « Assurance perte de revenus » de MAAF Assurances SA. Le contrat garantit un complément de revenus en cas d'arrêt de travail ou d'invalidité consécutifs à un accident corporel ou une maladie, au moyen d'indemnités journalières forfaitaires et d'une rente d'invalidité, assorties d'une dispense de règlement des cotisations et d'une assistance aux personnes. Quatre garanties optionnelles complètent l'arrêt total de travail. La souscription est soumise à une acceptation médicale et la couverture s'exerce dans le monde entier.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : IPID / Fiche d'information · Édition : 2024-06
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : IPID / Fiche d'information · Édition : 2024-06
 
 ## Garanties
 

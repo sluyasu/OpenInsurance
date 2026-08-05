@@ -40,7 +40,7 @@ generated: true
 
 Tableau comparatif des valeurs de rachat du contrat Sollicitudes, contrat d'assurance prévoyance obsèques vie entière de MAIF VIE, dans sa version au 1er juillet 2025. Le document donne, pour trois capitaux obsèques garantis (4 000 €, 8 000 €, 12 000 €), trois âges de souscription (50, 60 et 70 ans), une souscription individuelle ou conjointe et une durée de paiement de 5 ou 10 ans, la valeur de rachat atteinte au bout de 5 à 45 ans. Il précise que les valeurs indiquées pour les adhésions conjointes supposent que les deux assurés sont en vie. Le document précise qu'il n'a pas de valeur contractuelle.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : Document · Édition : 07/2025
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Obsèques](<../../branches/Obsèques.md>) · Type : Document · Édition : 07/2025
 
 ## Prime
 
@@ -107,9 +107,9 @@ Tableau comparatif des valeurs de rachat du contrat Sollicitudes, contrat d'assu
 
 ## Documents liés
 
-- [Sollicitudes](Sollicitudes.md) - Conditions générales, éd. 01/2024
-- [Sollicitudes - IPID](Sollicitudes%20-%20IPID.md) - IPID / Fiche d'information, éd. 27/09/2023
-- [Sollicitudes - Tarifs](Sollicitudes%20-%20Tarifs.md) - Conditions tarifaires, éd. 07/2025
+- [Sollicitudes](<Sollicitudes.md>) - Conditions générales, éd. 01/2024
+- [Sollicitudes - IPID](<Sollicitudes - IPID.md>) - IPID / Fiche d'information, éd. 27/09/2023
+- [Sollicitudes - Tarifs](<Sollicitudes - Tarifs.md>) - Conditions tarifaires, éd. 07/2025
 
 ## Source & fidélité
 

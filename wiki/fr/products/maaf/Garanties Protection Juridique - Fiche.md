@@ -40,7 +40,7 @@ generated: true
 
 Tableau de garanties d'une page présentant l'option protection juridique du contrat TEMPO assurance habitation MAAF, pour les formules Classique et Intégrale. Il énonce que « Sont garantis les litiges survenant dans les domaines suivants » et liste dix domaines : consommation, santé, protection sociale, habitation assurée chez MAAF, fiscalité, conflits du travail, employés de maison, vente / achat de la résidence assurée chez MAAF, famille, successions donations legs. Le document précise que certaines garanties sont intégrées et d'autres à ajouter, et renvoie aux conditions générales du contrat Tempo Habitation pour le détail et les modalités. Il ne contient ni définitions, ni plafonds, ni exclusions, ni procédure de sinistre.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Protection juridique](../../branches/Protection%20juridique.md) · Type : Fiche produit · Édition : 06/2022
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Protection juridique](<../../branches/Protection juridique.md>) · Type : Fiche produit · Édition : 06/2022
 
 ## Garanties
 

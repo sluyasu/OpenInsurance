@@ -42,7 +42,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du contrat TEMPO ENFANTS, présenté comme une « Assurance Vie privée » de MAAF Assurances SA. Ce contrat d’assurance vous permet de couvrir les dommages matériels et corporels que peut subir votre enfant dans le cadre de sa vie privée et de ses activités scolaires et extra scolaires. L'assuré est « Votre enfant désigné aux conditions particulières ». Les garanties de base réunissent les frais de santé, la garantie Individuelle accident (plafond 200 000 €), les frais de transport, les dommages et vol de vêtements, le rachat de franchise Responsabilité civile, l'Assistance à domicile et l'Assistance aux personnes ; s'y ajoutent des garanties optionnelles (Responsabilité civile plafonnée à 10 000 000 €, Défense pénale et recours suite à accident plafonnée à 20 000 €) et, en fonction de l'âge de l'enfant, quatre garanties supplémentaires. Le document est un résumé et renvoie à la documentation précontractuelle et contractuelle.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Responsabilité civile vie privée](../../branches/Responsabilit%C3%A9%20civile%20vie%20priv%C3%A9e.md) · Type : IPID / Fiche d'information · Édition : 2026-05
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Responsabilité civile vie privée](<../../branches/Responsabilité civile vie privée.md>) · Type : IPID / Fiche d'information · Édition : 2026-05
 
 ## Garanties
 
@@ -170,7 +170,7 @@ Garantie optionnelle proposée « en fonction de l'âge de l'enfant » : « Domm
 
 ## Documents liés
 
-- [TEMPO ENFANTS](TEMPO%20ENFANTS.md) - Conditions générales, éd. 05/26
+- [TEMPO ENFANTS](<TEMPO ENFANTS.md>) - Conditions générales, éd. 05/26
 
 ## Source & fidélité
 

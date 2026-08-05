@@ -43,7 +43,7 @@ generated: true
 
 Notice d'information du contrat Matmut Prévoyance Obsèques, contrat d'assurance de groupe (contrat collectif) sur la vie de type vie entière à adhésion facultative, libellé en euros, souscrit par Matmut Mutualité au profit de ses membres auprès de Matmut Vie (l'assureur) et relevant de la branche 20 (Vie-Décès). Il garantit, en cas de décès de l'assuré, le paiement d'un capital garanti aux bénéficiaires désignés, selon deux formules : « Capital » (versement du capital aux bénéficiaires désignés) et « Prestations » (versement au bénéficiaire désigné pour financer les obsèques dans le cadre d'un contrat de prestations obsèques souscrit auprès d'OGF services funéraires). Le décès par accident est garanti dès la date d'effet de l'adhésion, le décès par maladie après un délai de carence d'un an. L'adhésion comporte des prestations d'assistance décrites dans une convention distincte, une revalorisation annuelle du capital garanti et une faculté de rachat total.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : Conditions générales
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Obsèques](<../../branches/Obsèques.md>) · Type : Conditions générales
 
 ## Définitions
 
@@ -237,8 +237,8 @@ Toutes actions dérivant d’un contrat d’assurance sont prescrites par deux a
 
 ## Documents liés
 
-- [Matmut Prévoyance Obsèques](Matmut%20Pr%C3%A9voyance%20Obs%C3%A8ques%20%282%29.md) - Conditions générales, éd. 04/23
-- [Matmut Prévoyance Obsèques - IPID](Matmut%20Pr%C3%A9voyance%20Obs%C3%A8ques%20-%20IPID.md) - IPID / Fiche d'information, éd. 2025-05-01
+- [Matmut Prévoyance Obsèques](<Matmut Prévoyance Obsèques (2).md>) - Conditions générales, éd. 04/23
+- [Matmut Prévoyance Obsèques - IPID](<Matmut Prévoyance Obsèques - IPID.md>) - IPID / Fiche d'information, éd. 2025-05-01
 
 ## Source & fidélité
 

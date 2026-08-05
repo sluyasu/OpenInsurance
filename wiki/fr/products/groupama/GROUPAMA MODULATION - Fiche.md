@@ -41,7 +41,7 @@ generated: true
 
 Document d'informations clés (DIC / PRIIPs) de Groupama Modulation, contrat d'assurance sur la vie de type multisupport, contrat de groupe à adhésion facultative souscrit auprès de Groupama Gan Vie par l'association A.N.A.D.A.V au profit de ses adhérents, relevant des branches 20 (Vie-Décès) et 22. Le produit permet la constitution d'une épargne par versements libres et/ou programmés répartis entre un fonds en euros et des unités de compte représentatives d'actifs éligibles au sens de l'article R.131-1 du Code des assurances, en gestion libre, gestion déléguée ou gestion à horizon. Au décès de l'investisseur, un capital égal à l'épargne constituée est versé aux bénéficiaires désignés, complété le cas échéant par une Garantie plancher optionnelle jouant avant 80 ans. Le document expose l'indicateur de risque, les coûts pour 10 000 EUR investis en versement initial, la durée de détention recommandée de 8 ans et les voies de réclamation.
 
-- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Fiche produit · Édition : Document produit le 01/06/2026
+- Assureur : [Groupama](<../../insurers/Groupama.md>) · Branche : [Assurance vie et épargne](<../../branches/Assurance vie et épargne.md>) · Type : Fiche produit · Édition : Document produit le 01/06/2026
 
 ## Définitions
 
@@ -157,7 +157,7 @@ Le document mentionne à trois reprises des « avances en cours consenties sur l
 
 ## Documents liés
 
-- [Groupama Modulation - Tarifs](Groupama%20Modulation%20-%20Tarifs.md) - Conditions tarifaires
+- [Groupama Modulation - Tarifs](<Groupama Modulation - Tarifs.md>) - Conditions tarifaires
 
 ## Source & fidélité
 

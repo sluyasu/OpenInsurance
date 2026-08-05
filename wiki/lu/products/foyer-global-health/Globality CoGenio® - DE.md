@@ -46,7 +46,7 @@ generated: true
 
 Allgemeine Versicherungsbedingungen der Gruppen-Krankenvollversicherung Globality CoGenio® der Foyer Global Health S.A. (Luxemburg), konzipiert für Expatriates: versicherungsfähig sind Mitarbeiter/Mitglieder eines Versicherungsnehmers, die sich für mindestens 3 Monate im Ausland aufhalten, sowie mitreisende Ehe- oder Lebenspartner und Kinder. Der Tarif besteht aus den Stufen Classic, Plus und Top mit ambulanten, stationären, zahnärztlichen und Assistance-Modulen; erstattungsfähige Aufwendungen werden je nach Tarifstufe zu 100 % ersetzt. Der Versicherungsschutz gilt in der Zielregion I (Weltweit mit USA) oder Zielregion II (Weltweit ohne USA); es bestehen keinerlei Wartezeiten. Das Dokument enthält daneben die Leistungsausschlüsse, die Obliegenheiten, die Beitragsregelungen und ein Definitionsverzeichnis.
 
-- Assureur : [Foyer Global Health](../../insurers/Foyer%20Global%20Health.md) · Branche : Complémentaire santé · Type : Conditions générales
+- Assureur : [Foyer Global Health](<../../insurers/Foyer Global Health.md>) · Branche : Complémentaire santé · Type : Conditions générales
 
 ## Définitions
 
@@ -736,10 +736,10 @@ Der Versicherungsschutz für Neugeborene beginnt ohne Wartezeiten unmittelbar zu
 
 ## Documents liés
 
-- [Globality CoGenio® - ES](Globality%20CoGenio%C2%AE%20-%20ES.md) - Conditions générales
-- [Globality CoGenio®](Globality%20CoGenio%C2%AE%20%282%29.md) - Conditions générales
-- [Globality CoGenio® - EN](Globality%20CoGenio%C2%AE%20-%20EN.md) - Conditions générales
-- [Globality CoGenio®](Globality%20CoGenio%C2%AE.md) - Conditions générales
+- [Globality CoGenio® - ES](<Globality CoGenio® - ES.md>) - Conditions générales
+- [Globality CoGenio®](<Globality CoGenio® (2).md>) - Conditions générales
+- [Globality CoGenio® - EN](<Globality CoGenio® - EN.md>) - Conditions générales
+- [Globality CoGenio®](<Globality CoGenio®.md>) - Conditions générales
 
 ## Source & fidélité
 

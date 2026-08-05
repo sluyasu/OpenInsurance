@@ -46,7 +46,7 @@ generated: true
 
 Notice d'information du contrat Matmut Prévoyance Obsèques, contrat d'assurance de groupe (contrat collectif) sur la vie de type vie entière, libellé en euros, à adhésion facultative, souscrit par Matmut Mutualité au profit de ses membres auprès de Matmut Vie (l'assureur) et relevant de la branche 20 (Vie-Décès) de l'article R. 321-1 du Code des assurances. En cas de décès de l'assuré, il garantit le paiement du capital garanti, selon la formule choisie : formule « Capital » (paiement aux bénéficiaires désignés) ou formule « Prestations » (paiement au bénéficiaire désigné pour financer les obsèques selon le contrat de prestations obsèques souscrit auprès de l'opérateur funéraire OGF). L'adhésion inclut des prestations d'assistance assurées par la Matmut et mises en œuvre par Inter Mutuelles Assistance GIE, décrites dans une convention transmise séparément. Le contrat comporte une faculté de rachat, une revalorisation annuelle du capital garanti au titre de la participation aux bénéfices, et ne comporte pas de garantie en capital au moins égale aux sommes versées nettes de frais.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : Conditions générales · Édition : 04/23
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Obsèques](<../../branches/Obsèques.md>) · Type : Conditions générales · Édition : 04/23
 
 ## Définitions
 
@@ -233,8 +233,8 @@ Toutes actions dérivant d'un contrat d'assurance sont prescrites par deux ans �
 
 ## Documents liés
 
-- [Matmut Prévoyance Obsèques - IPID](Matmut%20Pr%C3%A9voyance%20Obs%C3%A8ques%20-%20IPID.md) - IPID / Fiche d'information, éd. 2025-05-01
-- [Matmut Prévoyance Obsèques](Matmut%20Pr%C3%A9voyance%20Obs%C3%A8ques.md) - Conditions générales
+- [Matmut Prévoyance Obsèques - IPID](<Matmut Prévoyance Obsèques - IPID.md>) - IPID / Fiche d'information, éd. 2025-05-01
+- [Matmut Prévoyance Obsèques](<Matmut Prévoyance Obsèques.md>) - Conditions générales
 
 ## Source & fidélité
 

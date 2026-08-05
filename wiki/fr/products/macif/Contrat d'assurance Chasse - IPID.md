@@ -42,7 +42,7 @@ generated: true
 
 Document d’information (DIPA/IPID) du Contrat d’assurance Chasse de Macif, société d’assurance mutuelle à cotisations variables (SIREN n° 781 452 511), entreprise régie par le Code des assurances. Le contrat couvre l’assurance obligatoire de responsabilité civile du fait de l’assuré chasseur et de ses chiens dans le cadre des activités de chasse, et garantit également la protection de ses droits par une garantie défense et recours. Quatre garanties optionnelles sont proposées : garantie corporelle du chasseur, dommages aux chiens de chasse, dommages ou vol des fusils, et assistance. Le contrat est souscrit sans tacite reconduction et prend fin au 30 juin à minuit.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Chasse](../../branches/Chasse.md) · Type : IPID / Fiche d'information · Édition : 10/18
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Chasse](<../../branches/Chasse.md>) · Type : IPID / Fiche d'information · Édition : 10/18
 
 > ⚠️ **Édition ancienne** : 10/18, soit 8 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 

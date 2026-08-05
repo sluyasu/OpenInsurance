@@ -45,7 +45,7 @@ generated: true
 
 Conditions générales du Contrat Chasse de la Macif, également désigné « Multirisque Chasse » et « Contrat d'assurance chasse », édition décembre 2012. Le contrat permet à l'assuré de satisfaire à l'obligation d'assurance des chasseurs prévue aux articles L 423.16 à L 423.18 du Code de l'environnement. Il comporte deux garanties de base — la garantie A (responsabilité civile étendue du chasseur A1 à A3 et Défense A4) et la garantie E (Recours - protection des droits de l'assuré) — et quatre garanties complémentaires acquises seulement si mention est portée aux conditions particulières : garantie corporelle du chasseur (B), dommages accidentels causés aux chiens de chasse (C1), dommages aux fusils de chasse (C2) et assistance à l'assuré (D). Le contrat est souscrit auprès de la Macif, société d'assurance mutuelle à cotisations variables ; les prestations d'assistance sont réalisées par Inter Mutuelles Assistance GIE selon l'article 20 et par IMA ASSURANCES selon le dos de couverture.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Chasse](../../branches/Chasse.md) · Type : Conditions générales · Édition : décembre 2012
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Chasse](<../../branches/Chasse.md>) · Type : Conditions générales · Édition : décembre 2012
 
 > ⚠️ **Édition ancienne** : décembre 2012, soit 14 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 

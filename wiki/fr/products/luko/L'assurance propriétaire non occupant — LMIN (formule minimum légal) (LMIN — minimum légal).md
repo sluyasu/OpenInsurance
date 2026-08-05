@@ -43,7 +43,7 @@ generated: true
 
 Conditions générales du contrat d'assurance propriétaire non occupant distribué sous la marque Luko. Le contrat couvre, en France métropolitaine (hors Corse), les biens immobiliers déclarés d'un propriétaire, copropriétaire, propriétaire indivis, nu-propriétaire ou usufruitier qui met son logement en location de longue durée, en dehors de toute activité professionnelle. Le Titre III (assuré par Allianz Direct Versicherungs-AG, succursale France) réunit les événements garantis (incendie et événements assimilés, dommages causés par les services de secours, dégât des eaux et gel, évènements climatiques, catastrophes naturelles et technologiques, attentats et actes de terrorisme), l'option « Piscine, spa et jacuzzi », dix postes de frais et pertes, la responsabilité civile propriétaire d'immeuble et incendie/dégâts des eaux (10 000 000€ par sinistre) et la défense pénale et recours suite à un accident. Le Titre IV ajoute des prestations d'assistance dont OPTEVEN Assurances est l'assisteur/assureur ; le document détaille en outre les exclusions communes, la procédure de sinistre et l'indemnisation, la gestion du contrat et les définitions.
 
-- Assureur : [Luko](../../insurers/Luko.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales · Édition : 2504
+- Assureur : [Luko](<../../insurers/Luko.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : Conditions générales · Édition : 2504
 
 ## Définitions
 
@@ -607,7 +607,7 @@ La prescription est le délai à l'expiration duquel une action juridique ou jud
 
 ## Documents liés
 
-- [L'assurance propriétaire non occupant (LCE)](L%27assurance%20propri%C3%A9taire%20non%20occupant%20%28LCE%29.md) - Conditions générales
+- [L'assurance propriétaire non occupant (LCE)](<L'assurance propriétaire non occupant (LCE).md>) - Conditions générales
 
 ## Source & fidélité
 

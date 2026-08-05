@@ -48,7 +48,7 @@ generated: true
 
 Notice d’information du contrat obsèques « Sollicitudes » (dispositions contractuelles en vigueur à compter du 01/01/2024, code NI14 - 01/24). Il s’agit d’un contrat EN CAPITAL et non en prestations : le document précise que « Sollicitudes n’est pas une formule de financement d’obsèques à l’avance au sens des articles L 2223-34-1 et L 2223-35-1 du Code général des collectivités territoriales », que le capital décès est forfaitaire, défini à l’adhésion indépendamment du coût des prestations funéraires, et que l’adhérent conserve une totale liberté quant à la nature des prestations funéraires et au choix du prestataire. C’est une convention d’assurance collective à adhésion facultative, individuelle ou conjointe, souscrite par l’Association Solidarité Autonomie et Prévoyance (ASAP) auprès de MAIF VIE (garantie décès, branche 20 vie-décès) et de MAIF (garantie d’assistance), de type prévoyance rachetable. Le capital décès (4 000 € ou 8 000 € en adhésion individuelle, 8 000 € ou 12 000 € en adhésion conjointe) est versé en priorité aux prestataires funéraires ayant réalisé les obsèques (bénéficiaires de premier rang), le solde éventuel revenant aux bénéficiaires de second rang, et il est assorti d’une garantie d’assistance (rapatriement ou transport du défunt, aides aux proches, informations administratives et juridiques, soutien moral).
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : Conditions générales · Édition : 01/2024
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Obsèques](<../../branches/Obsèques.md>) · Type : Conditions générales · Édition : 01/2024
 
 ## Définitions
 
@@ -294,9 +294,9 @@ Conformément à l’article L 114-1 du Code des assurances, toute demande ou ac
 
 ## Documents liés
 
-- [Sollicitudes - IPID](Sollicitudes%20-%20IPID.md) - IPID / Fiche d'information, éd. 27/09/2023
-- [Sollicitudes - Tarifs](Sollicitudes%20-%20Tarifs.md) - Conditions tarifaires, éd. 07/2025
-- [Sollicitudes - Doc](Sollicitudes%20-%20Doc.md) - Document, éd. 07/2025
+- [Sollicitudes - IPID](<Sollicitudes - IPID.md>) - IPID / Fiche d'information, éd. 27/09/2023
+- [Sollicitudes - Tarifs](<Sollicitudes - Tarifs.md>) - Conditions tarifaires, éd. 07/2025
+- [Sollicitudes - Doc](<Sollicitudes - Doc.md>) - Document, éd. 07/2025
 
 ## Source & fidélité
 

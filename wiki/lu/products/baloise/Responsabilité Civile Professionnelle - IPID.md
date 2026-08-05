@@ -42,7 +42,7 @@ generated: true
 
 Fiche d’information (IPID) de l’assurance Responsabilité Civile Professionnelle de Baloise Assurances Luxembourg S.A. Le document la présente comme une assurance couvrant la responsabilité civile de l’assuré dans le cadre de l’exercice de son activité professionnelle, et précise qu’elle comprend tant la garantie des demandes fondées que la défense contre les demandes injustifiées. Les risques assurés sont la responsabilité civile contractuelle et extra-contractuelle, les dommages aux objets confiés et existants, la pollution accidentelle et la défense et recours, avec quatre extensions facultatives (droits intellectuels, recouvrement d’honoraires, risques internet, insolvabilité des tiers responsables). La portée territoriale distingue l’Union Européenne et la Suisse pour la responsabilité civile contractuelle du monde entier hors USA et Canada pour l’extra-contractuelle.
 
-- Assureur : [Baloise Luxembourg](../../insurers/Baloise%20Luxembourg.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : IPID / Fiche d'information
+- Assureur : [Baloise Luxembourg](<../../insurers/Baloise Luxembourg.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

@@ -41,7 +41,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de l’assurance Responsabilité Civile Associations et Manifestations de Baloise Assurances Luxembourg S.A. Il s’agit d’une assurance qui couvre la responsabilité civile d’une association et/ou d’un organisateur de manifestation pour les dommages causés aux tiers du fait de l’activité assurée, et qui comprend également la défense contre les demandes injustifiées. Les garanties de base sont la responsabilité civile extra-contractuelle, la pollution accidentelle, la responsabilité civile après-livraison, les objets confiés et existants, l’intoxication alimentaire et la protection juridique ; cinq extensions facultatives sont proposées, liées aux tribunes, buvettes, cantines et club-houses, aux dégâts aux salles et au montage et démontage des installations.
 
-- Assureur : [Baloise Luxembourg](../../insurers/Baloise%20Luxembourg.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : IPID / Fiche d'information
+- Assureur : [Baloise Luxembourg](<../../insurers/Baloise Luxembourg.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

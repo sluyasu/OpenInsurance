@@ -43,7 +43,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du contrat « Habitation Initiale & Co Propriétaire non occupant », porté par Matmut & Co. Le contrat garantit des biens immobiliers, et mobiliers le cas échéant, destinés à la location ou confiés à titre gratuit en dehors de toute activité professionnelle, et couvre la Responsabilité civile Immeuble des assurés. Sept garanties sont en inclusion systématique (Responsabilité civile Immeuble, Protection Juridique suite à accident, incendie et événements assimilés, événements climatiques et catastrophes naturelles, vol et vandalisme, bris de glaces, perte de loyers) et quatre garanties optionnelles peuvent être ajoutées. La responsabilité civile Vie privée et familiale n'est pas assurée par ce contrat.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information · Édition : 12-23
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : IPID / Fiche d'information · Édition : 12-23
 
 ## Garanties
 
@@ -173,11 +173,11 @@ Garantie en inclusion systématiquement prévue couvrant la perte de loyers à l
 
 ## Documents liés
 
-- [Contrat « Habitation Initiale & Co Résidence principale » - IPID](Contrat%20%C2%AB%20Habitation%20Initiale%20%26%20Co%20R%C3%A9sidence%20principale%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information, éd. 12-23
-- [Contrat « Habitation Initiale & Co Résidence secondaire » - IPID](Contrat%20%C2%AB%20Habitation%20Initiale%20%26%20Co%20R%C3%A9sidence%20secondaire%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information, éd. 12-23
-- [Habitation Initiale & Co Propriétaire Non Occupant](Habitation%20Initiale%20%26%20Co%20Propri%C3%A9taire%20Non%20Occupant.md) - Conditions générales, éd. 12/23
-- [Habitation Initiale & Co Résidence Principale](Habitation%20Initiale%20%26%20Co%20R%C3%A9sidence%20Principale.md) - Conditions générales, éd. 12/23
-- [Habitation Initiale & Co Résidence Secondaire](Habitation%20Initiale%20%26%20Co%20R%C3%A9sidence%20Secondaire.md) - Conditions générales, éd. 12/23
+- [Contrat « Habitation Initiale & Co Résidence principale » - IPID](<Contrat « Habitation Initiale & Co Résidence principale » - IPID.md>) - IPID / Fiche d'information, éd. 12-23
+- [Contrat « Habitation Initiale & Co Résidence secondaire » - IPID](<Contrat « Habitation Initiale & Co Résidence secondaire » - IPID.md>) - IPID / Fiche d'information, éd. 12-23
+- [Habitation Initiale & Co Propriétaire Non Occupant](<Habitation Initiale & Co Propriétaire Non Occupant.md>) - Conditions générales, éd. 12/23
+- [Habitation Initiale & Co Résidence Principale](<Habitation Initiale & Co Résidence Principale.md>) - Conditions générales, éd. 12/23
+- [Habitation Initiale & Co Résidence Secondaire](<Habitation Initiale & Co Résidence Secondaire.md>) - Conditions générales, éd. 12/23
 
 ## Source & fidélité
 

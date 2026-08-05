@@ -43,7 +43,7 @@ generated: true
 
 Document d'exemples chiffrés, de format normalisé, comparant la prise en charge par le régime obligatoire (Sécurité sociale des indépendants) et par un contrat de prévoyance complémentaire, pour un profil type de commerçant de 50 ans percevant 43 000 € bruts par an. Il couvre quatre risques : décès (capital décès), invalidité permanente (rente d'invalidité), incapacité de travail (indemnités journalières) et deux options facultatives (frais d'adaptation, pic d'activité). Le contrat de prévoyance est désigné « Energie prévoyance - Groupama Gan Vie » en page 1 et « ENERGIE – CAISSE REGIONALE GROUPAMA » en pages 2 et 3. Le document précise qu'il ne peut se substituer aux documents contractuels et n'énumère ni les garanties du contrat, ni ses exclusions.
 
-- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : Document
+- Assureur : [Groupama](<../../insurers/Groupama.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : Document
 
 ## Définitions
 

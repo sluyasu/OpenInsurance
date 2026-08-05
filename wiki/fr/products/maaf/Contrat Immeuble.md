@@ -45,7 +45,7 @@ generated: true
 
 Conditions générales du contrat Immeuble de MAAF, assurance multirisque de bâtiments à usage strictement privé. Le contrat se décline en trois formules — « Immeuble donné en location vide ou meublée », « Habitation inoccupée » et « Bâtiments divers » — qui déterminent la liste des garanties acquises. Il couvre les dommages aux bâtiments et, selon la formule, au mobilier (incendie et événements assimilés, dégâts des eaux, bris de vitres, événements climatiques, cambriolage, catastrophes naturelles et technologiques, actes de terrorisme), des garanties complémentaires (perte des loyers, dommages causés par les secours, mesures conservatoires, frais annexes), la responsabilité civile habitation avec défense pénale et recours suite à accident, ainsi que l'assistance aux personnes et une garantie de renseignements juridiques par téléphone. Le contrat ne garantit pas les appartements ou maisons individuelles donnés en location vide ou meublée.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales · Édition : 01/2026
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : Conditions générales · Édition : 01/2026
 
 ## Définitions
 
@@ -669,8 +669,8 @@ Article L 114-1 du code des assurances : toutes actions dérivant d'un contrat d
 
 ## Documents liés
 
-- [Assurance Propriétaire Non Occupant - Fiche](Assurance%20Propri%C3%A9taire%20Non%20Occupant%20-%20Fiche.md) - Fiche produit, éd. 06/2022
-- [IMMEUBLE - IPID](IMMEUBLE%20-%20IPID.md) - IPID / Fiche d'information
+- [Assurance Propriétaire Non Occupant - Fiche](<Assurance Propriétaire Non Occupant - Fiche.md>) - Fiche produit, éd. 06/2022
+- [IMMEUBLE - IPID](<IMMEUBLE - IPID.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

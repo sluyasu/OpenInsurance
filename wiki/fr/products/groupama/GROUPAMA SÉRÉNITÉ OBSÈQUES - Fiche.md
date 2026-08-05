@@ -41,7 +41,7 @@ generated: true
 
 Document d'informations clés (DIC) du contrat GROUPAMA SÉRÉNITÉ OBSÈQUES, assuré par Groupama Gan Vie. Il s'agit d'un contrat d'assurance de groupe prévoyance vie entière à adhésion facultative souscrit auprès de Groupama Gan Vie par l'ANADAV, relevant des branches 20 (Vie-Décès) et 18 (Assistance). Le produit prévoit le versement, au(x) bénéficiaire(s) désigné(s), d'un capital destiné au financement des obsèques de l'investisseur assuré, versé soit à l'opérateur funéraire, soit à la personne physique ayant acquitté la facture, dans la limite du capital garanti, et inclut des garanties d'assistance. Le document décrit l'indicateur de risque, les coûts, le délai de renonciation, la durée de détention recommandée et la procédure de réclamation ; il ne comporte ni tableau de garanties détaillé ni liste d'exclusions.
 
-- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : Fiche produit · Édition : Dernière mise à jour le 1er mars 2023
+- Assureur : [Groupama](<../../insurers/Groupama.md>) · Branche : [Obsèques](<../../branches/Obsèques.md>) · Type : Fiche produit · Édition : Dernière mise à jour le 1er mars 2023
 
 ## Définitions
 
@@ -148,8 +148,8 @@ L'investisseur a la faculté d'effectuer, à tout moment et sans frais, un racha
 ## Documents liés
 
 - Édition courante de ce produit.
-- [GROUPAMA SÉRÉNITÉ OBSÈQUES - Tarifs](GROUPAMA%20S%C3%89R%C3%89NIT%C3%89%20OBS%C3%88QUES%20-%20Tarifs.md) - Conditions tarifaires, éd. 032026
-- [Groupama Sérénité Obsèques (édition octobre 2021) - Fiche](Groupama%20S%C3%A9r%C3%A9nit%C3%A9%20Obs%C3%A8ques%20%28%C3%A9dition%20octobre%202021%29%20-%20Fiche.md) - Fiche produit, éd. Dernière mise à jour le 1er octobre 2021
+- [GROUPAMA SÉRÉNITÉ OBSÈQUES - Tarifs](<GROUPAMA SÉRÉNITÉ OBSÈQUES - Tarifs.md>) - Conditions tarifaires, éd. 032026
+- [Groupama Sérénité Obsèques (édition octobre 2021) - Fiche](<Groupama Sérénité Obsèques (édition octobre 2021) - Fiche.md>) - Fiche produit, éd. Dernière mise à jour le 1er octobre 2021
 
 ## Source & fidélité
 

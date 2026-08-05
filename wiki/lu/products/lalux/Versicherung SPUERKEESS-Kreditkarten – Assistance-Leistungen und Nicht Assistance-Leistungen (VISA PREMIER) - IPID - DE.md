@@ -46,7 +46,7 @@ generated: true
 
 Informationsblatt zum Versicherungsprodukt (IPID) für die Versicherungsleistungen, die an die von der SPUERKEESS ausgegebenen Kreditkarten VISA PREMIER geknüpft sind, unter der Marke LALUX Versicherungen. Es fasst sechs Nicht Assistance-Leistungen (Reiseunfall, Reiserücktritt/Reiseabbruch, Diebstahl/Verlust/Gepäckverspätung, Flugzeugverspätung oder Verlängerung des Aufenthalts, Einkaufsschutz, Lieferung von Interneteinkäufen) und zwei Assistance-Leistungen (im Krankheits- oder Todesfall, Cash Emergency) zusammen. Versicherte Personen sind der Karteninhaber sowie Ehegatte/Lebenspartner und Kinder unter 25 Jahren; die Versicherung gilt weltweit. Das Dokument nennt keine Versicherungssummen, keine Selbstbeteiligungen und keine Prämie und verweist auf Allgemeine Bedingungen, die es nicht wiedergibt.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Autres](../../branches/Autres.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Autres](<../../branches/Autres.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -176,8 +176,8 @@ Aufgeführt unter « ASSISTANCE-LEISTUNGEN ». Das Dokument gibt nur die Übersc
 
 ## Documents liés
 
-- [Versicherung SPUERKEESS-Kreditkarten – Assistance-Leistungen und Nicht Assistance-Leistungen (VISA INFINITE) - IPID - DE](Versicherung%20SPUERKEESS-Kreditkarten%20%E2%80%93%20Assistance-Leistungen%20und%20Nicht%20Assistance-Leistungen%20%28VISA%20INFINITE%29%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
-- [Versicherung SPUERKEESS-Kreditkarten – Assistance-Leistungen und Nicht Assistance-Leistungen (VISA CLASSIC) - IPID - DE](Versicherung%20SPUERKEESS-Kreditkarten%20%E2%80%93%20Assistance-Leistungen%20und%20Nicht%20Assistance-Leistungen%20%28VISA%20CLASSIC%29%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
+- [Versicherung SPUERKEESS-Kreditkarten – Assistance-Leistungen und Nicht Assistance-Leistungen (VISA INFINITE) - IPID - DE](<Versicherung SPUERKEESS-Kreditkarten – Assistance-Leistungen und Nicht Assistance-Leistungen (VISA INFINITE) - IPID - DE.md>) - IPID / Fiche d'information
+- [Versicherung SPUERKEESS-Kreditkarten – Assistance-Leistungen und Nicht Assistance-Leistungen (VISA CLASSIC) - IPID - DE](<Versicherung SPUERKEESS-Kreditkarten – Assistance-Leistungen und Nicht Assistance-Leistungen (VISA CLASSIC) - IPID - DE.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

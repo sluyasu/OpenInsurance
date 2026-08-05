@@ -44,7 +44,7 @@ generated: true
 
 Conventions spéciales « Véhicules à moteur » du contrat CONVERGENCE de SMACL Assurances, régies par les conditions générales CONVERGENCE auxquelles elles se réfèrent. Elles couvrent, selon la formule de garanties choisie par la personne morale souscriptrice (formules 1, 2, 3, C, D, G) : la responsabilité civile obligatoire au sens de l'article L.211-1 du Code des assurances, la défense pénale et recours, les dommages subis par le véhicule assuré (incendie, vol, bris de glace, événements climatiques, attentats, catastrophes naturelles, accidents et dégradations), l'assurance du conducteur et l'assistance. La responsabilité civile est accordée sans limitation de somme sauf pour les dommages matériels et immatériels, limités à 100 millions d'euros non indexés.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions générales · Édition : 01/2024
 
 ## Définitions
 
@@ -322,7 +322,7 @@ SMACL Assurances propose également la garantie optionnelle « mise à dispositi
 
 ## Documents liés
 
-- [Assurance véhicules des associations et des entreprises de l'économie sociale et solidaire - IPID](Assurance%20v%C3%A9hicules%20des%20associations%20et%20des%20entreprises%20de%20l%27%C3%A9conomie%20sociale%20et%20solidaire%20-%20IPID.md) - IPID / Fiche d'information, éd. 02/2024
+- [Assurance véhicules des associations et des entreprises de l'économie sociale et solidaire - IPID](<Assurance véhicules des associations et des entreprises de l'économie sociale et solidaire - IPID.md>) - IPID / Fiche d'information, éd. 02/2024
 
 ## Source & fidélité
 

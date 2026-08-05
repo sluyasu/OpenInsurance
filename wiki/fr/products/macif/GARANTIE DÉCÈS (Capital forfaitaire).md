@@ -45,7 +45,7 @@ generated: true
 
 Notice d'information détaillée du contrat GARANTIE DÉCÈS (Capital forfaitaire) de la Macif : un contrat d'assurance collectif temporaire décès à adhésion facultative, souscrit par la Macif au profit de ses sociétaires, de leur conjoint, descendants ou ascendants, et assuré par Macif Santé Prévoyance (mutuelle du Livre II du Code de la mutualité, SIREN 779 558 501). Il verse un capital forfaitaire aux bénéficiaires désignés en cas de décès, ou par anticipation à l'assuré en cas de Perte Totale et Irréversible d'Autonomie (PTIA), toutes causes (maladie ou accident), avec une option de doublement du capital en cas d'accident et la possibilité d'une avance de 4 000 € en cas de décès. Deux formules sont proposées : Formule Essentielle (capital de 15 000 € à 24 999 €, adhésion jusqu'à 50 ans inclus) et Garanties sur-mesure (capital de 25 000 € à 762 000 €, adhésion jusqu'à 67 ans inclus). Des garanties Macif Assistance, assurées par IMA Assurances, sont accordées en cas d'immobilisation temporaire et de décès.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : Conditions générales · Édition : 2026-01
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : Conditions générales · Édition : 2026-01
 
 ## Définitions
 
@@ -336,8 +336,8 @@ La prescription est le délai au-delà duquel une action n'est plus recevable. L
 
 ## Documents liés
 
-- [contrat GARANTIE DÉCÈS Capital forfaitaire - IPID](contrat%20GARANTIE%20D%C3%89C%C3%88S%20Capital%20forfaitaire%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/26
-- [contrat GARANTIE DÉCÈS (Décès, invalidité et arrêt de travail temporaire) - IPID](contrat%20GARANTIE%20D%C3%89C%C3%88S%20%28D%C3%A9c%C3%A8s%2C%20invalidit%C3%A9%20et%20arr%C3%AAt%20de%20travail%20temporaire%29%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/26
+- [contrat GARANTIE DÉCÈS Capital forfaitaire - IPID](<contrat GARANTIE DÉCÈS Capital forfaitaire - IPID.md>) - IPID / Fiche d'information, éd. 01/26
+- [contrat GARANTIE DÉCÈS (Décès, invalidité et arrêt de travail temporaire) - IPID](<contrat GARANTIE DÉCÈS (Décès, invalidité et arrêt de travail temporaire) - IPID.md>) - IPID / Fiche d'information, éd. 01/26
 
 ## Source & fidélité
 

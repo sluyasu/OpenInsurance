@@ -42,7 +42,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) du contrat « Assurance de l’Étudiant et Matmut/Smac ». Le contrat garantit les étudiants sans enfant, dans le cadre de leur vie privée, contre les conséquences des dommages corporels et matériels causés à des tiers (Responsabilité civile) ; il comprend également des garanties contre les conséquences corporelles d’accident de la vie privée et une garantie Protection études. Les garanties systématiquement prévues couvrent la Responsabilité civile personnelle jusqu’à 100 000 000 €, la Protection Juridique suite à accident jusqu’à 20 000 €, l’assistance juridique par téléphone, l’incapacité permanente jusqu’à 100 000 €, l’aide étudiant hospitalisé, un capital décès de 1 600 €, un capital Protection études de 2 000 € et des garanties d’assistance.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Scolaire et extrascolaire](../../branches/Scolaire%20et%20extrascolaire.md) · Type : IPID / Fiche d'information · Édition : 10/25
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Scolaire et extrascolaire](<../../branches/Scolaire et extrascolaire.md>) · Type : IPID / Fiche d'information · Édition : 10/25
 
 ## Garanties
 
@@ -158,7 +158,7 @@ En cas d’impossibilité, suite à un événement soudain et grave, de se prés
 
 ## Documents liés
 
-- [Assurance de l'Étudiant et Matmut-Smac](Assurance%20de%20l%27%C3%89tudiant%20et%20Matmut-Smac.md) - Conditions générales, éd. 10/25
+- [Assurance de l'Étudiant et Matmut-Smac](<Assurance de l'Étudiant et Matmut-Smac.md>) - Conditions générales, éd. 10/25
 
 ## Source & fidélité
 

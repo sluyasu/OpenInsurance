@@ -43,7 +43,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (DIPA/IPID) du contrat « Aléassur - Risques statutaires CNRACL », assurance des risques statutaires des collectivités territoriales pour les agents titulaires et stagiaires affiliés à la CNRACL. Le contrat garantit à la collectivité employeur le remboursement par l’assureur de tout ou partie des prestations mises à sa charge par les textes régissant les statuts de la Fonction Publique : capital-décès, congé pour accident du travail ou maladie contractée en service, arrêt de travail (maladie ordinaire, longue maladie, maladie de longue durée, maternité, paternité, adoption) et temps partiel pour raison thérapeutique. Des services et prestations d’assistance sont systématiquement prévus (expertise et contrôle médicaux, statistiques d’absentéisme, extranet, assistance psychologique, gestion des recours, aide au retour à l’emploi, outil d’aide au document unique). Le document nomme deux compagnies : SMACL Assurances SA et MUTEX pour la garantie décès.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : IPID / Fiche d'information · Édition : 02/2025
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : IPID / Fiche d'information · Édition : 02/2025
 
 ## Garanties
 
@@ -198,8 +198,8 @@ Mise en œuvre de programmes de réadaptation professionnels adaptés et individ
 
 ## Documents liés
 
-- [Aléassur - Risques statutaires IRCANTEC - IPID](Al%C3%A9assur%20-%20Risques%20statutaires%20IRCANTEC%20-%20IPID.md) - IPID / Fiche d'information, éd. 02/2025
-- [Risques statutaires ALÉASSUR](Risques%20statutaires%20AL%C3%89ASSUR.md) - Conditions générales, éd. 06/2026
+- [Aléassur - Risques statutaires IRCANTEC - IPID](<Aléassur - Risques statutaires IRCANTEC - IPID.md>) - IPID / Fiche d'information, éd. 02/2025
+- [Risques statutaires ALÉASSUR](<Risques statutaires ALÉASSUR.md>) - Conditions générales, éd. 06/2026
 
 ## Source & fidélité
 

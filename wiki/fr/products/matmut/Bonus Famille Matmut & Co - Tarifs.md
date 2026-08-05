@@ -43,7 +43,7 @@ generated: true
 
 Document d'une page fixant les conditions d'octroi du Bonus Famille Matmut & Co, avantage commercial adossé au contrat Multirisques « Auto 4D Distinguo & Co ». Il permet à l'enfant de l'assuré du Groupe Matmut ou de son conjoint, âgé de moins de 28 ans, de bénéficier lors de la souscription de son premier contrat du report du bonus de ses parents dans la limite de 35 % (coefficient de réduction maximum de 0,65). L'avantage suppose des conditions de fidélisation des parents auprès du Groupe Matmut et est supprimé à l'échéance annuelle suivant leur disparition. Le document est valable jusqu'au 31/12/2026.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions tarifaires · Édition : 01/26
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions tarifaires · Édition : 01/26
 
 ## Garanties
 

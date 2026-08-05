@@ -44,7 +44,7 @@ generated: true
 
 Conditions générales du contrat collectif santé à adhésion obligatoire souscrit par un employeur ou une personne morale auprès de la Mutuelle Ociane Matmut au profit de l’ensemble des salariés d’un collège (ou d’une catégorie professionnelle) défini aux conditions particulières. Le contrat garantit le remboursement complémentaire des frais de santé, en complément de l’Assurance maladie obligatoire française et dans le respect des dispositions applicables aux contrats responsables (article L. 871-1 du Code de la Sécurité sociale), avec tiers payant, portabilité des droits et régime d’accueil loi Évin. Le document décrit le lexique contractuel, le fonctionnement du contrat (affiliation, cotisations, résiliation), les bases et limites des remboursements, les risques exclus, la couverture des accidents, la subrogation, la prescription, la forclusion, le traitement des réclamations et la charte de protection des données personnelles. Les niveaux de garanties, forfaits et plafonds ne figurent pas dans ce document : ils sont renvoyés aux tableaux de garanties annexés aux conditions particulières et à la notice d’information.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : Édition janvier 2026
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Conditions générales · Édition : Édition janvier 2026
 
 ## Définitions
 
@@ -402,7 +402,7 @@ Toute action dérivant du présent contrat, qu’il s’agisse de sa validité o
 
 ## Documents liés
 
-- [Contrat collectif Santé à adhésion obligatoire CCN Bâtiment et travaux publics (CCN Bâtiment et travaux publics — notice](Contrat%20collectif%20Sant%C3%A9%20%C3%A0%20adh%C3%A9sion%20obligatoire%20CCN%20B%C3%A2timent%20et%20travaux%20publics%20%28CCN%20B%C3%A2timent%20et%20travaux%20publics%20%E2%80%94%20notice.md) - Conditions générales, éd. septembre 2024
+- [Contrat collectif Santé à adhésion obligatoire CCN Bâtiment et travaux publics (CCN Bâtiment et travaux publics — notice](<Contrat collectif Santé à adhésion obligatoire CCN Bâtiment et travaux publics (CCN Bâtiment et travaux publics — notice.md>) - Conditions générales, éd. septembre 2024
 
 ## Source & fidélité
 

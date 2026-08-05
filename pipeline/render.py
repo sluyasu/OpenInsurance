@@ -120,10 +120,19 @@ def mdlink(from_page: str, to_page: str, label: str) -> str:
     looks wrong. It gets worse per country added: the same name will exist in BE, CH and
     FR at once. A path says exactly which page is meant.
 
-    The path is percent-encoded, so spaces, parentheses and accents survive both Obsidian
-    and MkDocs. Unencoded parentheses would truncate the link at the first ')'."""
+    The destination is wrapped in angle brackets (`[label](<path.md>)`), the CommonMark
+    form for destinations carrying spaces — understood by Obsidian, Python-Markdown and
+    MkDocs alike, with no percent-encoding at all. The previous form (percent-encoded,
+    bare parentheses) was correct Markdown but the roamlinks plugin rewrites relative
+    links after DEcoding them, and its parser truncates any destination that combines
+    an apostrophe and parentheses ("L'assurance … (LCE).md"): 15 dead links on the
+    published site, none visible in the sources. Angle-bracket destinations do not
+    match the plugin's pattern, so they reach MkDocs untouched, and MkDocs itself
+    resolves .md targets to page URLs. Angle brackets themselves cannot appear in a
+    page name (safe_title never emits them); the defensive strip keeps a stray one
+    from producing a link that swallows the rest of the line."""
     rel = posixpath.relpath(to_page, posixpath.dirname(from_page))
-    return f"[{label}]({quote(rel)})"
+    return f"[{label}](<{rel.replace('<', '').replace('>', '')}>)"
 
 
 def _ref(target: str | None, label: str, self_page: str | None) -> str:

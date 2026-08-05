@@ -40,7 +40,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de l'assurance Véhicule MAAF, déclinaison MOTO, portée par MAAF Assurances SA (RCS Niort 542 073 580). Le contrat garantit en premier lieu la responsabilité civile du conducteur pour les dommages matériels ou corporels causés par le véhicule à des tiers, assurance obligatoire ; il couvre également les dommages corporels du conducteur et peut inclure des garanties de dommages au véhicule assuré. Les véhicules assurables sont les motocyclettes, tricycles, quads et side-cars d'une cylindrée supérieure à 80 cm3.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Deux-roues, quads et voiturettes](../../branches/Deux-roues%2C%20quads%20et%20voiturettes.md) · Type : IPID / Fiche d'information · Édition : 2025-06
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Deux-roues, quads et voiturettes](<../../branches/Deux-roues, quads et voiturettes.md>) · Type : IPID / Fiche d'information · Édition : 2025-06
 
 ## Garanties
 
@@ -209,7 +209,7 @@ Garantie optionnelle.
 
 ## Documents liés
 
-- [CYCLO - IPID](CYCLO%20-%20IPID.md) - IPID / Fiche d'information, éd. 2025-06
+- [CYCLO - IPID](<CYCLO - IPID.md>) - IPID / Fiche d'information, éd. 2025-06
 
 ## Source & fidélité
 

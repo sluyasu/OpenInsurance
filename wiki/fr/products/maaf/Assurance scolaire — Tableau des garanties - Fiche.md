@@ -40,7 +40,7 @@ generated: true
 
 Tableau des garanties de l’assurance scolaire MAAF, comparant trois formules — Baby, Maternelle et Junior — sur trois ensembles de garanties : « La protection personnelle » (frais de soins et frais supplémentaires, prothèses, lunettes, invalidité suite à accident, frais d’aménagement du cadre de vie, frais d’obsèques), « Les garanties complémentaires » (frais de transport, vol de fournitures scolaires, dommages au matériel confié, au vélo, à un instrument de musique et aux vêtements, rachat de franchise, assistance à domicile et assistance aux personnes) et « Responsabilité Civile - Défense et Recours ». Chaque ligne indique le type de montant (plafond, plafond/jour, maximum, franchise) et le montant garanti ; les sommes indiquées constituent le maximum garanti par sinistre. Le document renvoie au lexique des conditions générales du contrat Tempo Enfants pour les termes suivis d’un astérisque.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Scolaire et extrascolaire](../../branches/Scolaire%20et%20extrascolaire.md) · Type : Fiche produit · Édition : 06/2022
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Scolaire et extrascolaire](<../../branches/Scolaire et extrascolaire.md>) · Type : Fiche produit · Édition : 06/2022
 
 ## Garanties
 

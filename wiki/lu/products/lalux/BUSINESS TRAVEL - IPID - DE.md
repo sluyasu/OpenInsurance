@@ -43,7 +43,7 @@ generated: true
 
 Informationsblatt zu Versicherungsprodukten (IPID) zum Tarif BUSINESS TRAVEL der DKV Luxembourg S.A., im Kopfbanner als « Private Krankenversicherung » bezeichnet. Das Dokument hält fest: « Es handelt sich um eine Auslandsreisekrankenversicherung. » Versichert sind ambulante Heilbehandlungen, zahnärztliche Behandlungen, stationäre Behandlungen, Krankentransporte sowie Rückführung und Rücktransport, jeweils im Rahmen der in den Versicherungsbedingungen genannten Höchstbeträge. Der Versicherungsschutz gilt für die im Antrag angegebene vorübergehende Auslandsreise und endet automatisch mit der im Vertrag genannten Ablauffrist, ohne automatische Verlängerung.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -178,7 +178,7 @@ Rückführung und Rücktransport: Organisation und Übernahme der Kosten für ei
 
 ## Documents liés
 
-- [BUSINESS TRAVEL - IPID - EN](BUSINESS%20TRAVEL%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+- [BUSINESS TRAVEL - IPID - EN](<BUSINESS TRAVEL - IPID - EN.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

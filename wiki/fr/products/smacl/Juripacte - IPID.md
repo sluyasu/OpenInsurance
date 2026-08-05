@@ -42,7 +42,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (DIPA/IPID) du contrat Juripacte, assurance de protection juridique destinée aux collectivités territoriales. Le contrat a pour objet d'accompagner l'assuré dans la résolution, à l'amiable ou en cas de procédure judiciaire, des litiges l'opposant à des tiers : autres collectivités ou l'État, administrés, co-contractants et préposés. Quatre familles de litiges et un service d'information juridique sont systématiquement prévus au contrat ; l'indemnité est plafonnée aux montants indiqués au contrat sans pouvoir dépasser 50 000 € par litige, et la garantie n'est acquise en action judiciaire que pour les litiges dont l'enjeu financier est supérieur à 750 €. Le document liste sept exclusions principales et trois postes non assurés.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Protection juridique](../../branches/Protection%20juridique.md) · Type : IPID / Fiche d'information · Édition : 02/2025
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Protection juridique](<../../branches/Protection juridique.md>) · Type : IPID / Fiche d'information · Édition : 02/2025
 
 ## Garanties
 
@@ -161,7 +161,7 @@ Sous la rubrique « Assistance et services : », le document prévoit systémati
 
 ## Documents liés
 
-- [JURIPACTE](JURIPACTE.md) - Conditions générales, éd. 05/2025
+- [JURIPACTE](<JURIPACTE.md>) - Conditions générales, éd. 05/2025
 
 ## Source & fidélité
 

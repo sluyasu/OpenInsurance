@@ -44,7 +44,7 @@ generated: true
 
 Document commercial de Matmut Vie présentant, sous forme de tableaux, des exemples chiffrés de prise en charge par la Sécurité sociale des indépendants et par le contrat de prévoyance « Ma Prévoyance Pro » destiné aux travailleurs non-salariés. Il illustre les garanties Décès (capital décès, doublement accident, triplement accident de la circulation), Rente Éducation, Rente de conjoint, Rente invalidité, Incapacité de travail (indemnités journalières complémentaires puis principales, remboursement des frais professionnels, rachat des maladies non objectivables) et Maladies Redoutées et Graves. Les montants indiqués sont ceux d'un profil type (commerçant de 50 ans, revenu annuel brut de 43 000 €) et non ceux d'un contrat réel. Le document précise qu'il ne se substitue pas aux documents contractuels, seuls engageants pour l'organisme assureur.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : Fiche produit · Édition : 01/25
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : Fiche produit · Édition : 01/25
 
 ## Définitions
 

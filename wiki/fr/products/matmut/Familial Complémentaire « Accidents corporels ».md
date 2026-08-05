@@ -46,7 +46,7 @@ generated: true
 
 Conditions générales, valant projet de contrat au sens de l’article L. 112-2 du Code des assurances, du contrat Matmut Familial Complémentaire « Accidents Corporels ». Matmut garantit le paiement d’indemnités en cas de survenance d’un accident occasionnant une incapacité permanente à l’assuré ou entraînant son décès, pour les accidents domestiques, scolaires, de sports, de loisirs, de travail ou de service. Deux garanties sont prévues : Incapacité permanente (capital de 16 000 €, porté à 32 000 € en présence d’une assistance permanente par tierce personne d’au moins 2 heures par jour, sous réserve d’un taux d’incapacité au moins égal à 10 %) et Capital décès (7 700 €). Trois formules de contrat sont proposées : Famille, Couple et Individuelle. Le document comprend en outre les modalités d’examen des réclamations et la charte de protection des données à caractère personnel.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Garantie des accidents de la vie](../../branches/Garantie%20des%20accidents%20de%20la%20vie.md) · Type : Conditions générales · Édition : 10/24
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Garantie des accidents de la vie](<../../branches/Garantie des accidents de la vie.md>) · Type : Conditions générales · Édition : 10/24
 
 ## Définitions
 
@@ -263,7 +263,7 @@ Article 16 : conformément à l’article L.114-1 du Code des assurances, toutes
 
 ## Documents liés
 
-- [Conditions de l'offre Contrat Familial Complémentaire - Tarifs](Conditions%20de%20l%27offre%20Contrat%20Familial%20Compl%C3%A9mentaire%20-%20Tarifs.md) - Conditions tarifaires, éd. 01/26
+- [Conditions de l'offre Contrat Familial Complémentaire - Tarifs](<Conditions de l'offre Contrat Familial Complémentaire - Tarifs.md>) - Conditions tarifaires, éd. 01/26
 
 ## Source & fidélité
 

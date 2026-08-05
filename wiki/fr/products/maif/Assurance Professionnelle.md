@@ -46,7 +46,7 @@ generated: true
 
 Conditions générales du contrat MAIF « Assurance Professionnelle » (référence M5202APRA), souscrit par une entreprise personne morale ou par un chef d’entreprise agissant en tant qu’entrepreneur individuel, pour les activités citées aux conditions particulières. Le contrat se décline en deux formules : la formule 1 réunit les garanties Responsabilité civile exploitation, Responsabilité civile professionnelle, l’option Responsabilité civile d’occupant temporaire et la garantie Défense ; la formule 2 y ajoute la Responsabilité civile du fait du local et des biens professionnels, la garantie Recours et la protection des biens professionnels contre l’incendie-explosion, le dégât des eaux, les événements climatiques et catastrophes naturelles, le gel, les catastrophes technologiques, les attentats, le vol et le vandalisme, le bris de vitre sur immobilier, les dommages électriques, les chocs de véhicules et les autres dommages accidentels. Les garanties de responsabilité civile sont déclenchées par le fait dommageable survenu pendant la période de garantie et par une première réclamation formulée jusqu’à l’expiration d’un délai de 5 ans à compter de la date d’expiration ou de résiliation des garanties. Les garanties s’appliquent sans limitation de durée en France métropolitaine, en Guadeloupe, Martinique, Réunion, à Saint-Barthélemy, Saint-Martin pour sa partie française et à Monaco, et pour tout déplacement professionnel n’excédant pas trois mois dans les pays limitrophes ayant une frontière terrestre avec la France métropolitaine.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : Conditions générales · Édition : 01/2025
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : Conditions générales · Édition : 01/2025
 
 ## Définitions
 
@@ -495,7 +495,7 @@ Toute action dérivant du contrat est prescrite par deux ans à compter de l’�
 
 ## Documents liés
 
-- [Assurance Professionnelle - IPID](Assurance%20Professionnelle%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/2025
+- [Assurance Professionnelle - IPID](<Assurance Professionnelle - IPID.md>) - IPID / Fiche d'information, éd. 01/2025
 
 ## Source & fidélité
 

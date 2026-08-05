@@ -42,7 +42,7 @@ generated: true
 
 Document de comparaison tarifaire, explicitement non contractuel, portant sur le contrat d'assurance prévoyance obsèques vie entière GROUPAMA SÉRÉNITÉ OBSÈQUES, assuré par Groupama Gan Vie. Il présente six tableaux : pour trois âges de souscription (50, 60 et 70 ans) et un capital obsèques garanti de 5 000 € pris à titre d'exemple, un tableau comparatif des cotisations (cotisation annuelle et cumul des cotisations payées en cas de décès à différents âges) et un tableau comparatif des valeurs de rachat (au bout de 5 à 45 ans). Les modalités de paiement comparées sont le viager (jusqu'au décès), le temporaire (25, 20, 15, 10 ou 5 ans) et la prime unique. Le document ne contient ni tableau de garanties, ni liste d'exclusions, ni conditions contractuelles.
 
-- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : Conditions tarifaires · Édition : 032026
+- Assureur : [Groupama](<../../insurers/Groupama.md>) · Branche : [Obsèques](<../../branches/Obsèques.md>) · Type : Conditions tarifaires · Édition : 032026
 
 ## Garanties
 
@@ -97,8 +97,8 @@ Garanties incluses dans la cotisation au titre du contrat (assistance ou autres)
 
 ## Documents liés
 
-- [GROUPAMA SÉRÉNITÉ OBSÈQUES - Fiche](GROUPAMA%20S%C3%89R%C3%89NIT%C3%89%20OBS%C3%88QUES%20-%20Fiche.md) - Fiche produit, éd. Dernière mise à jour le 1er mars 2023
-- [Groupama Sérénité Obsèques (édition octobre 2021) - Fiche](Groupama%20S%C3%A9r%C3%A9nit%C3%A9%20Obs%C3%A8ques%20%28%C3%A9dition%20octobre%202021%29%20-%20Fiche.md) - Fiche produit, éd. Dernière mise à jour le 1er octobre 2021
+- [GROUPAMA SÉRÉNITÉ OBSÈQUES - Fiche](<GROUPAMA SÉRÉNITÉ OBSÈQUES - Fiche.md>) - Fiche produit, éd. Dernière mise à jour le 1er mars 2023
+- [Groupama Sérénité Obsèques (édition octobre 2021) - Fiche](<Groupama Sérénité Obsèques (édition octobre 2021) - Fiche.md>) - Fiche produit, éd. Dernière mise à jour le 1er octobre 2021
 
 ## Source & fidélité
 

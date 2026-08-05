@@ -46,7 +46,7 @@ generated: true
 
 Conditions générales du contrat Multirisques patrimoine de SMACL Assurances SA, destiné aux propriétaires, copropriétaires, syndics, SCI et associations syndicales pour l'assurance d'un patrimoine immobilier. Le contrat couvre les dommages aux biens (treize familles d'évènements dénommés, de l'incendie aux émeutes en passant par les catastrophes naturelles et technologiques), dix extensions (mesures de sauvetage, perte de loyers, frais de démolition et de déblais, assurance dommages ouvrage, pertes indirectes, honoraires d'expert d'assuré, etc.), trois garanties annexes de responsabilité (risques locatifs, recours des locataires, recours des voisins et des tiers), la responsabilité civile du propriétaire d'immeuble et une garantie défense pénale et recours. Deux options de dommages (bris de machine, tous risques sauf) et deux options de responsabilité civile (syndic bénévole, syndic professionnel) complètent la couverture. La garantie est acquise en France métropolitaine hors région Corse ; tous les montants et franchises sont renvoyés aux conditions particulières et au « Tableau des montants de garantie » annexé.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : Conditions générales · Édition : 05/2025
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : Conditions générales · Édition : 05/2025
 
 ## Définitions
 
@@ -532,8 +532,8 @@ Conformément à l'article L.114-1 du Code, toutes actions dérivant d'un contra
 
 ## Documents liés
 
-- [Multirisques patrimoine - IPID](Multirisques%20patrimoine%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/2024
-- [Multirisques patrimoine - Fiche](Multirisques%20patrimoine%20-%20Fiche.md) - Fiche produit, éd. 01/2023
+- [Multirisques patrimoine - IPID](<Multirisques patrimoine - IPID.md>) - IPID / Fiche d'information, éd. 01/2024
+- [Multirisques patrimoine - Fiche](<Multirisques patrimoine - Fiche.md>) - Fiche produit, éd. 01/2023
 
 ## Source & fidélité
 

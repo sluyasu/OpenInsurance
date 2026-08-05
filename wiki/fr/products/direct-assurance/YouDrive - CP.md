@@ -43,7 +43,7 @@ generated: true
 
 Conditions Particulières du contrat d’assurance automobile connectée YouDrive de Direct Assurance (assureur AXA France IARD). Le document ne définit aucune garantie : il précise les conditions spécifiques d’utilisation du boîtier télématique, de l’espace personnel et de l’appli mobile YouDrive, ainsi que le traitement des données personnelles collectées ; le fonctionnement, les limites et les exclusions des garanties relèvent des Conditions Générales. L’offre repose sur un boîtier Bluetooth collé au pare-brise et connecté à l’appli mobile, qui mesure le kilométrage et calcule un score de conduite (accélération, freinage, prise de virage, allure) donnant droit à un remboursement mensuel d’une partie de la cotisation de base pouvant atteindre 40 %, majoré de 10 % en cas de parcours inférieur à 500 km sur le mois. En cas de désactivation de l’offre, le contrat bascule sur l’offre auto standard avec une franchise spécifique de 1 500 € en cas de sinistre.
 
-- Assureur : [Direct Assurance](../../insurers/Direct%20Assurance.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions particulières · Édition : 04.26
+- Assureur : [Direct Assurance](<../../insurers/Direct Assurance.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions particulières · Édition : 04.26
 
 ## Définitions
 

@@ -45,7 +45,7 @@ generated: true
 
 Document unique réunissant les conditions générales de deux contrats de prévoyance distincts commercialisés sous le nom « Garanties Homme Clé MAAF Entreprise » (Réf.HC.017-06/2026). Le contrat « Assurance Perte de Revenus » est un contrat d'assurance individuel assuré par MAAF Assurances SA, versant à l'entreprise des indemnités journalières pendant une durée maximale d'un an en cas d'incapacité temporaire totale de travail de l'Homme Clé assuré, avec trois options (½ indemnité en cas de reprise partielle d'activité, ½ indemnité au-delà de 90 jours, indemnité journalière relais professions libérales). Le contrat « Assurance Décès » est une notice d'information relative au contrat d'assurance de groupe sur la vie n° 02120 à adhésion facultative souscrit par l'Association Nationale des Souscripteurs Vie Covéa auprès de MAAF Vie, versant à l'entreprise un capital de 10 000 à 2 000 000 euros en cas de décès ou de perte totale et irréversible d'autonomie de l'assuré, avec une option de doublement du capital en cas de décès accidentel. Les deux contrats sont complétés par des prestations d'assistance aux personnes, un accompagnement psychologique et une garantie de renseignements juridiques par téléphone.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : Conditions générales · Édition : 06/2026
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : Conditions générales · Édition : 06/2026
 
 ## Définitions
 

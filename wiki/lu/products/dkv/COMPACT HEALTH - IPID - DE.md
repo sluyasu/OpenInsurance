@@ -42,7 +42,7 @@ generated: true
 
 Informationsblatt zu Versicherungsprodukten der DKV Luxembourg S.A. für den Tarif COMPACT HEALTH, eine private Krankenversicherung. Es handelt sich um ein Ergänzungsprodukt für gesetzlich Versicherte, das ohne Alterungsrückstellung angeboten wird. Der Versicherungsschutz umfasst Sehhilfen, zahnärztliche Behandlung und stationäre Heilbehandlung sowie die optionale Serviceleistung Best Care Premium; er erstreckt sich auf Europa.
 
-- Assureur : [DKV Luxembourg](../../insurers/DKV%20Luxembourg.md) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
+- Assureur : [DKV Luxembourg](<../../insurers/DKV Luxembourg.md>) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -193,8 +193,8 @@ Bei vorübergehenden Aufenthalten im außereuropäischen Ausland besteht auch w�
 
 ## Documents liés
 
-- [COMPACT HEALTH - IPID](COMPACT%20HEALTH%20-%20IPID.md) - IPID / Fiche d'information
-- [COMPACT HEALTH - IPID - EN](COMPACT%20HEALTH%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+- [COMPACT HEALTH - IPID](<COMPACT HEALTH - IPID.md>) - IPID / Fiche d'information
+- [COMPACT HEALTH - IPID - EN](<COMPACT HEALTH - IPID - EN.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

@@ -43,7 +43,7 @@ generated: true
 
 Insurance Product Information Document (IPID) for the Carefree Holidays travel product of LALUX Assurances. The product is intended for people wishing to insure themselves against certain risks that may arise in connection with preparing or undertaking a trip, the items insured depending on the policyholder's choice and on the coverage area chosen (Area 1 or Area 2). The guarantees granted, if stipulated in the Special Conditions, are assistance to insured persons, luggage, travel accidents, illness during the trip and cancellation fees. Area 1 covers the whole of Europe plus a list of named countries, Area 2 is worldwide, and the Assistance guarantee only takes effect for travel outside the Grand Duchy of Luxembourg.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Voyage et assistance](<../../branches/Voyage et assistance.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 

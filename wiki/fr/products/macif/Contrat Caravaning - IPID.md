@@ -44,7 +44,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (DIPA/IPID) de deux pages pour le « Contrat Caravaning » de la Macif, société d'assurance mutuelle à cotisations variables (SIREN n° 781 452 511), code d'édition LOIS CARAV 10/18. Le contrat couvre la responsabilité civile du fait d'une caravane utilisée à des fins de loisirs — y compris la caravane dételée et les activités de campeur-caravanier — ainsi que les dommages subis par la caravane, ses accessoires, l'auvent et les effets personnels des occupants : accident, vandalisme, grêle et tempête, dégât des eaux et inondation, avalanche, poids de la neige, glissement de terrain, vol, incendie, explosion, attentats et actes de terrorisme, catastrophes naturelles et technologiques. S'y ajoutent les frais de remorquage et de transport, la privation de jouissance (nourriture et hébergement), la protection des droits de l'assuré (défense et recours, dans la limite de 16 000 euros de frais et honoraires par sinistre) et des services d'assistance matérielle à la caravane et aux caravaniers. Les douze postes présentés sont tous systématiquement prévus au contrat ; aucune option n'est présentée. La garantie est acquise en France métropolitaine et lors de déplacements touristiques dans l'Union Européenne et une liste de pays associés.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Autres](../../branches/Autres.md) · Type : IPID / Fiche d'information · Édition : 2018-10
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Autres](<../../branches/Autres.md>) · Type : IPID / Fiche d'information · Édition : 2018-10
 
 > ⚠️ **Édition ancienne** : 2018-10, soit 8 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 
@@ -207,7 +207,7 @@ Les services d’assistance : (rubrique « Qu’est-ce qui est assuré ? » — 
 
 ## Documents liés
 
-- [Contrat Caravaning](Contrat%20Caravaning.md) - Conditions générales, éd. Avril 2015
+- [Contrat Caravaning](<Contrat Caravaning.md>) - Conditions générales, éd. Avril 2015
 
 ## Source & fidélité
 

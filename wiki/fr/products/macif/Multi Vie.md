@@ -47,7 +47,7 @@ generated: true
 
 Note d'information du contrat Multi Vie, un contrat d'assurance-vie de groupe de type multisupport, à adhésion facultative et régi par le Code des assurances, relevant de la branche 22. Il permet à l'adhérent de se constituer un capital disponible à tout moment au moyen de versements répartis entre un support euros — assorti d'une garantie en capital au moins égale aux sommes versées nettes de frais après imputation des frais annuels de gestion — et neuf supports en unités de compte non garantis. En cas de décès, le capital constitué est versé au(x) bénéficiaire(s) désigné(s), éventuellement augmenté d'une garantie décès complémentaire. Le document comprend la note d'information (articles 1 à 27) et trois annexes : la gamme des supports en unités de compte, le Document d'Informations Spécifiques du support euros et le Document d'Informations Clés du contrat.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Conditions générales · Édition : JUIN 2019
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Assurance vie et épargne](<../../branches/Assurance vie et épargne.md>) · Type : Conditions générales · Édition : JUIN 2019
 
 > ⚠️ **Édition ancienne** : JUIN 2019, soit 7 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 
@@ -431,7 +431,7 @@ En application de l'article L. 114-1 du Code des assurances, toute action dériv
 
 ## Documents liés
 
-- [Multi Vie - Tarifs](Multi%20Vie%20-%20Tarifs.md) - Conditions tarifaires
+- [Multi Vie - Tarifs](<Multi Vie - Tarifs.md>) - Conditions tarifaires
 
 ## Source & fidélité
 

@@ -42,7 +42,7 @@ generated: true
 
 Conditions générales du contrat d'assurance habitation Luko destiné au propriétaire, copropriétaire, propriétaire indivis, nu-propriétaire ou usufruitier non occupant d'un bien mis en location de longue durée, en dehors de toute activité professionnelle. Le Titre III (assurance propriétaire non occupant, souscrite auprès d'Allianz Direct Versicherungs-AG succursale France, opérant sous la marque Luko) couvre les dommages aux bâtiments et biens mobiliers appartenant à l'assuré (incendie et événements assimilés, dégât des eaux et gel, événements climatiques, vol et vandalisme, bris de vitres, dommages électriques, catastrophes naturelles et technologiques, attentats), trois options (aménagements extérieurs, canalisations extérieures, piscine/spa/jacuzzi), des frais et pertes dont la perte de loyer, ainsi que la responsabilité civile propriétaire d'immeuble et la défense pénale et recours. Le Titre IV regroupe des prestations d'assistance délivrées par OPTEVEN Assurances (nuisibles, plomberie, retour prématuré, nettoyage et diagnostics au départ d'un locataire, assistance travaux). Les garanties s'exercent en France Métropolitaine (hors Corse) ; une option « Assistance Juridique » proposée par Ekie est décrite en annexe.
 
-- Assureur : [Luko](../../insurers/Luko.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales
+- Assureur : [Luko](<../../insurers/Luko.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : Conditions générales
 
 ## Définitions
 
@@ -708,7 +708,7 @@ La prescription est le délai à l'expiration duquel une action juridique ou jud
 
 ## Documents liés
 
-- [L'assurance propriétaire non occupant — LMIN (formule minimum légal) (LMIN — minimum légal)](L%27assurance%20propri%C3%A9taire%20non%20occupant%20%E2%80%94%20LMIN%20%28formule%20minimum%20l%C3%A9gal%29%20%28LMIN%20%E2%80%94%20minimum%20l%C3%A9gal%29.md) - Conditions générales, éd. 2504
+- [L'assurance propriétaire non occupant — LMIN (formule minimum légal) (LMIN — minimum légal)](<L'assurance propriétaire non occupant — LMIN (formule minimum légal) (LMIN — minimum légal).md>) - Conditions générales, éd. 2504
 
 ## Source & fidélité
 

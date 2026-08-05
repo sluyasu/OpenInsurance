@@ -48,7 +48,7 @@ generated: true
 
 Conditions Générales de l’Assurance Loyers Impayés distribuée sous la marque MAIF : le contrat est « proposé par la MAIF, géré par l’intermédiaire de Gestion Assurances SA (une marque de la société Groupe Solly Azar) et assuré auprès de SADA Assurances (porteur du risque) ». Il garantit au bailleur (personne physique ou SCI) le remboursement des loyers impayés dus par le locataire défaillant, les frais de contentieux engagés pour les recouvrer et les frais de réparation des détériorations immobilières occasionnées par le locataire, ainsi qu’une indemnité en cas de départ prématuré du locataire et une garantie squat plafonnée à 25 000€. Les garanties s’exercent exclusivement en France Métropolitaine (hors Corse et DOM-COM) et sont subordonnées à la vérification de la solvabilité du locataire selon des taux d’effort barémés et à l’agrément du locataire par le centre de gestion. Les montants garantis, la franchise et le plafond global figurent aux Dispositions Particulières et ne sont pas chiffrés dans les Conditions Générales.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : Crédit et caution · Type : Conditions générales · Édition : Mars 2023
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : Crédit et caution · Type : Conditions générales · Édition : Mars 2023
 
 ## Définitions
 
@@ -330,9 +330,9 @@ Aux termes de l’article L.114-1 du Code : « Toutes actions dérivant d’un c
 
 ## Documents liés
 
-- [Assurance Loyers Impayés - Doc](Assurance%20Loyers%20Impay%C3%A9s%20-%20Doc.md) - Document
-- [Assurance Loyers Impayés MF (SADA Assurances) - IPID](Assurance%20Loyers%20Impay%C3%A9s%20MF%20%28SADA%20Assurances%29%20-%20IPID.md) - IPID / Fiche d'information, éd. Mars 2023
-- [Assurance Loyers Impayés - WAKAM (porteur du risque)](Assurance%20Loyers%20Impay%C3%A9s%20-%20WAKAM%20%28porteur%20du%20risque%29.md) - Conditions générales, éd. Septembre 2025
+- [Assurance Loyers Impayés - Doc](<Assurance Loyers Impayés - Doc.md>) - Document
+- [Assurance Loyers Impayés MF (SADA Assurances) - IPID](<Assurance Loyers Impayés MF (SADA Assurances) - IPID.md>) - IPID / Fiche d'information, éd. Mars 2023
+- [Assurance Loyers Impayés - WAKAM (porteur du risque)](<Assurance Loyers Impayés - WAKAM (porteur du risque).md>) - Conditions générales, éd. Septembre 2025
 
 ## Source & fidélité
 

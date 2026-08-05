@@ -42,7 +42,7 @@ generated: true
 
 Tableau des garanties 2026 du régime frais de santé de la CCN Bois et Lin, présentant trois niveaux : BASE, OPTION 1 et OPTION 2. Il détaille les remboursements en actes médicaux, hospitalisation, pharmacie, dentaire, autres prescriptions, aides auditives, optique et maternité, exprimés en pourcentage de la Base de Remboursement, en remboursement intégral, en frais réels ou en forfaits, avec une distinction entre médecins signataires et non signataires du Dispositif de Pratique Tarifaire Maîtrisée. Les renvois fixent notamment un forfait dentaire unique cumulé sur l'ensemble des postes prothèses et une limite de deux implants par an. Le document est mutualisé dans le cadre d'une coassurance de branche.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Fiche produit
 
 ## Définitions
 

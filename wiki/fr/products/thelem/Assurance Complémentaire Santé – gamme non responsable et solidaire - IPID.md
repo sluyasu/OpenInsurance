@@ -41,7 +41,7 @@ generated: true
 
 Document d’information (IPID) de l’Assurance Complémentaire Santé de Thélem assurances, gamme non responsable et solidaire. Le produit est destiné à rembourser tout ou partie des frais de santé restant à la charge de l’assuré et des éventuels bénéficiaires en cas d’accident, de maladie ou de maternité, en complément de la Sécurité Sociale française. Sont systématiquement prévus l’hospitalisation, les soins courants, les soins dentaires, le réseau de soins et un service de télémédecine ; la chambre particulière, les médicaments non remboursés, l’optique, l’orthodontie et les prothèses dentaires remboursées, les aides auditives, les prestations d’assistance et la franchise prépayée sont optionnels. L’offre ne s’inscrit pas dans le cadre réglementaire des contrats responsables et solidaires et n’intègre donc pas le dispositif 100% santé.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : IPID / Fiche d'information
+- Assureur : [Thélem assurances](<../../insurers/Thélem assurances.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -186,7 +186,7 @@ Franchise prépayée : possibilité, en fonction de ses dépenses de santé, de 
 
 ## Documents liés
 
-- [Assurance Complémentaire Santé – gamme responsable et solidaire - IPID](Assurance%20Compl%C3%A9mentaire%20Sant%C3%A9%20%E2%80%93%20gamme%20responsable%20et%20solidaire%20-%20IPID.md) - IPID / Fiche d'information
+- [Assurance Complémentaire Santé – gamme responsable et solidaire - IPID](<Assurance Complémentaire Santé – gamme responsable et solidaire - IPID.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

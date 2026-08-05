@@ -40,7 +40,7 @@ generated: true
 
 Fiche d’information sur les frais du contrat Gan Prevoyance Retraite Active, présentée sous le titre « Les Frais de l’assurance-vie ». Le document est un tableau de frais : montant minimal de versement, frais d’adhésion à l’association, frais annuels de gestion du contrat et des supports (fonds euros, unités de compte), frais de gestion des unités de compte par catégorie de fonds avec le taux de rétrocession de commissions, et frais ponctuels par opération. Il ne décrit aucune garantie ni aucune exclusion. Les mentions légales nomment Gan Prévoyance (société d’intermédiation en assurance, mandataire de Groupama Gan Vie) et Groupama Gan Vie, qui s’engage à mettre à jour ces informations annuellement.
 
-- Assureur : [Gan Assurances](../../insurers/Gan%20Assurances.md) · Branche : [Retraite supplémentaire](../../branches/Retraite%20suppl%C3%A9mentaire.md) · Type : Conditions tarifaires
+- Assureur : [Gan Assurances](<../../insurers/Gan Assurances.md>) · Branche : [Retraite supplémentaire](<../../branches/Retraite supplémentaire.md>) · Type : Conditions tarifaires
 
 ## Définitions
 
@@ -100,7 +100,7 @@ Fiche d’information sur les frais du contrat Gan Prevoyance Retraite Active, p
 
 ## Documents liés
 
-- [Gan Prévoyance Retraite Active - Fiche](Gan%20Pr%C3%A9voyance%20Retraite%20Active%20-%20Fiche.md) - Fiche produit, éd. 05/03/2025
+- [Gan Prévoyance Retraite Active - Fiche](<Gan Prévoyance Retraite Active - Fiche.md>) - Fiche produit, éd. 05/03/2025
 
 ## Source & fidélité
 

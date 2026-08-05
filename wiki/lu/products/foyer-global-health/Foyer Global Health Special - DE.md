@@ -43,7 +43,7 @@ generated: true
 
 Spezielle Bedingungen des internationalen Krankenversicherungsplans „Foyer Global Health Special" (Referenz SPECIAL – FGHSCV2 / 03.2024), in deutscher Sprache. Versicherbar sind Personen, die sich vorübergehend für mindestens 3 aufeinander folgende Monate im Ausland aufhalten; die Deckung gilt je nach Police für Region 1 (weltweit) oder Region 2 (weltweit ohne USA), wobei sich bei Region 1 die festgelegten Obergrenzen und Höchstbeträge verdoppeln. Der Plan übernimmt zu 100 % die leistungsberechtigten medizinischen Kosten für stationäre Behandlung, ambulante Behandlung und Zahnbehandlung im beschriebenen Umfang, mit einer wählbaren Selbstbeteiligung von 0, 250, 500 oder 1.000 Euro je Versicherungsjahr, die nur für ambulante Behandlungen gilt. Teil II des Dokuments regelt die weltweit gültigen medizinischen Assistenzleistungen sowie die nur bei entsprechender Vereinbarung im Versicherungsschein geschuldeten Zusatzleistungen; Teil III enthält das Glossar.
 
-- Assureur : [Foyer Global Health](../../insurers/Foyer%20Global%20Health.md) · Branche : Complémentaire santé · Type : Conditions générales · Édition : 03.2024
+- Assureur : [Foyer Global Health](<../../insurers/Foyer Global Health.md>) · Branche : Complémentaire santé · Type : Conditions générales · Édition : 03.2024
 
 ## Définitions
 
@@ -587,7 +587,7 @@ Falls erforderlich vermittelt der Versicherer ein landesspezifisches und interku
 ## Documents liés
 
 - Édition courante de ce produit.
-- [Foyer Global Health Special](Foyer%20Global%20Health%20Special.md) - Conditions générales, éd. 03.2024
+- [Foyer Global Health Special](<Foyer Global Health Special.md>) - Conditions générales, éd. 03.2024
 
 ## Source & fidélité
 

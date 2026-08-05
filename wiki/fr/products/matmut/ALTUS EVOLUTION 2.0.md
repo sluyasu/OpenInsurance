@@ -44,7 +44,7 @@ generated: true
 
 Conditions générales de l’assurance emprunteur « ALTUS EVOLUTION 2.0 », délivrée par MUTLOG (décès, décès accidentel, perte totale et irréversible d’autonomie) et MUTLOG Garanties (incapacité temporaire, invalidité permanente, perte d’emploi indemnisée), deux mutuelles soumises au Livre II du Code de la Mutualité, et distribuée sous la marque Matmut. L’assurance a pour objet le paiement de tout ou partie des sommes dues par l’adhérent à l’établissement prêteur ; elle constitue un accessoire du prêt et couvre les prêts personnels, professionnels, immobiliers amortissables ou in fine, ainsi que les prêts relais inférieurs à 36 mois. Chaque adhérent doit au minimum souscrire la garantie décès et la PTIA ; l’incapacité temporaire totale (franchise 90 jours), l’invalidité permanente totale et, pour les actifs, la perte d’emploi indemnisée (franchise 90 jours) sont ouvertes à la souscription, tandis que le supplément décès accidentel, l’ITT à franchise 30 ou 180 jours, l’invalidité permanente partielle et la prise en charge sans condition des maladies non objectivables sont proposés en option. Le document comporte aussi un chapitre « Les plus solidaires » (accompagnement retour emploi, accompagnement création d’entreprise, aide aux aidants, fonds d’entraide).
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance emprunteur](../../branches/Assurance%20emprunteur.md) · Type : Conditions générales · Édition : 08/2020
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Assurance emprunteur](<../../branches/Assurance emprunteur.md>) · Type : Conditions générales · Édition : 08/2020
 
 ## Définitions
 

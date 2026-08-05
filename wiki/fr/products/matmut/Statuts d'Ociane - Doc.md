@@ -45,7 +45,7 @@ generated: true
 
 Statuts de la Mutuelle Ociane, mutuelle soumise aux dispositions du Livre II du Code de la mutualité, approuvés par l’assemblée générale du 19 octobre 2002 et modifiés jusqu’aux assemblées générales du 12 juin et du 5 décembre 2024. Ce n’est pas un contrat d’assurance mais l’acte constitutif de l’organisme : il définit la dénomination, le siège, l’objet de la mutuelle (opérations d’assurance des branches 1-Accidents, 2-Maladie, 20-Vie-décès et 21-Nuptialité-natalité, co-assurance, réassurance, substitution, souscription de contrats collectifs, activités sociales accessoires), les catégories de membres et leurs ayants droit, les conditions d’adhésion, de démission, de radiation et d’exclusion, puis l’administration de la mutuelle (assemblée générale, conseil d’administration, président et bureau, gouvernance, organisation financière) et des dispositions diverses (information des adhérents, contrôle par l’ACPR, fonds d’entraide mutualiste, protection des données, échanges informatisés, réclamations et médiation).
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Document · Édition : 12/24
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Document · Édition : 12/24
 
 ## Définitions
 

@@ -40,7 +40,7 @@ generated: true
 
 Conditions générales de l'assurance ACTEL Auto (marque de P&V Assurances). Le contrat se divise en 5 volets dont seul le premier est obligatoire, les autres pouvant être souscrits selon les besoins : I. Responsabilité Civile et Assistance Accident, II. Dommages au véhicule, III. Protection juridique, IV. Protection du conducteur, V. Assistance. Le volet Responsabilité Civile couvre, conformément à la loi du 21 novembre 1989, la RC encourue par les assurés à la suite d'un sinistre causé par le véhicule désigné, avec garantie illimitée pour les lésions corporelles et limitée à 100 millions d'EUR par sinistre pour les dommages matériels. Le volet Dommages au véhicule comprend les garanties Incendie, Vol, Bris de glaces, Forces de la nature et animaux, et Dégâts matériels. Chaque garantie n'est acquise que si mention en est faite aux conditions particulières.
 
-- Assureur : [Actel](../../insurers/Actel.md) · Branche : [Auto](../../branches/Auto.md) · Type : Conditions générales · Édition : 06-2016
+- Assureur : [Actel](<../../insurers/Actel.md>) · Branche : [Auto](<../../branches/Auto.md>) · Type : Conditions générales · Édition : 06-2016
 
 > ⚠️ **Édition ancienne** : 06-2016, soit 10 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 
@@ -358,8 +358,8 @@ Protection juridique (Titre 3, Article 13) : conformément à l'article 88 de la
 
 ## Documents liés
 
-- Extension liée : [Couverture « Bob »](Couverture%20%C2%AB%20Bob%20%C2%BB.md)
-- [Couverture « Bob »](Couverture%20%C2%AB%20Bob%20%C2%BB.md) - Conditions générales
+- Extension liée : [Couverture « Bob »](<Couverture « Bob ».md>)
+- [Couverture « Bob »](<Couverture « Bob ».md>) - Conditions générales
 
 ## Source & fidélité
 

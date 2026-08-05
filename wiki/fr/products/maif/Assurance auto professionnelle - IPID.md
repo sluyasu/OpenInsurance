@@ -43,7 +43,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de l’« Assurance auto professionnelle » de MAIF, entreprise d’assurance immatriculée en France et régie par le Code des assurances (775 709 702). Le produit a pour objectif premier de garantir le conducteur d’un véhicule terrestre à moteur contre les conséquences des dommages matériels ou corporels causés par son véhicule à un tiers (responsabilité civile), assurance obligatoire qui couvre principalement les déplacements professionnels de l’entrepreneur indépendant. Il inclut également des garanties complémentaires couvrant les dommages matériels au véhicule assuré et les dommages corporels du conducteur, un accompagnement juridique, ainsi que des services d’assistance aux véhicules et aux personnes. Le document précise qu’il ne présente qu’un résumé des principales garanties et exclusions.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 03/2026
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information · Édition : 03/2026
 
 ## Garanties
 
@@ -269,7 +269,7 @@ Véhicule de remplacement en cas d’accident, de vol ou de panne.
 
 ## Documents liés
 
-- [Assurance auto professionnelle](Assurance%20auto%20professionnelle.md) - Conditions générales, éd. 2026-03
+- [Assurance auto professionnelle](<Assurance auto professionnelle.md>) - Conditions générales, éd. 2026-03
 
 ## Source & fidélité
 

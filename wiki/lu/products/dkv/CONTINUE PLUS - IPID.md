@@ -41,7 +41,7 @@ generated: true
 
 Document d’information sur le produit d’assurance de DKV Luxembourg S.A. pour le produit CONTINUE PLUS, une assurance maladie privée. Il s’agit d’une garantie d’indemnités journalières pour indépendants et libéraux en cas d’incapacité de travail temporaire pour cause de maladie ou d’accident. Le montant de l’indemnité journalière est convenu individuellement dans le contrat et la durée maximale d’indemnisation dépend du tarif souscrit.
 
-- Assureur : [DKV Luxembourg](../../insurers/DKV%20Luxembourg.md) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
+- Assureur : [DKV Luxembourg](<../../insurers/DKV Luxembourg.md>) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -140,7 +140,7 @@ En cas de maladie aiguë ou d’accident survenu(e) dans un pays européen, l’
 
 ## Documents liés
 
-- [CONTINUE PLUS - IPID - EN](CONTINUE%20PLUS%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+- [CONTINUE PLUS - IPID - EN](<CONTINUE PLUS - IPID - EN.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

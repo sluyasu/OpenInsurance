@@ -43,7 +43,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de LALUX Assurances pour le produit « Tous Risques - ORANGE », souscrit comme option d’un abonnement ORANGE. L’assurance couvre les appareils (téléphoniques) mobiles en formule « Assurance individuelle » et, en formule « Assurance Famille », également les appareils numériques (tablettes ou ordinateurs portables), contre la casse accidentelle, le vol par effraction, agression et à la tire, l’oxydation accidentelle et la panne, ainsi que l’usage frauduleux du téléphone portable à la suite d’un vol. La couverture est valable dans le monde entier, la limite par sinistre est de 1.400 EUR (individuelle) ou 2.000 EUR (famille) et une franchise de 50 EUR s’applique à chaque réparation ou remplacement.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Autres](../../branches/Autres.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Autres](<../../branches/Autres.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 

@@ -41,7 +41,7 @@ generated: true
 
 Assurance Terrenis est le contrat d'assurance multirisque agricole de Thélem assurances. Il permet à l'assuré, en tant que professionnel actif ou retraité du monde agricole, de couvrir ses responsabilités et biens professionnels (bâtiments, matériels, marchandises, animaux et récoltes). L'offre est présentée comme totalement modulaire : les garanties indispensables portent sur les responsabilités (RC propriétaire d'immeuble, RC agricole, Défense Pénale et Recours Suite à Accident) et sur les dommages aux locaux professionnels et à leur contenu (incendie, tempêtes, grêle et neige sur toitures, catastrophes naturelles, attentats matériels, dégâts des eaux, dommages électriques). Des garanties optionnelles complètent le contrat (vol, bris de glaces, bris de machines, contenus des congélateurs, tanks à lait et chambres froides, cuves, entraide agricole, pertes financières).
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Assurance agricole](../../branches/Assurance%20agricole.md) · Type : IPID / Fiche d'information
+- Assureur : [Thélem assurances](<../../insurers/Thélem assurances.md>) · Branche : [Assurance agricole](<../../branches/Assurance agricole.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

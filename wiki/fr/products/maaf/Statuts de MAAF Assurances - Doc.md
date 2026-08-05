@@ -44,7 +44,7 @@ generated: true
 
 Statuts de MAAF Assurances, société d'assurance mutuelle à cotisations variables régie par le code des assurances, mis à jour à l'issue de l'assemblée générale extraordinaire du 4 juin 2021. Le document fixe la constitution et l'objet de la société (44 articles répartis en cinq titres) : sociétariat et droit d'adhésion, cotisations, assemblées générales, conseil d'administration et direction générale, affiliation à la SGAM Covéa, commissaires aux comptes, charges sociales et dispositions diverses. Il ne s'agit pas d'un document de produit d'assurance : il ne décrit ni garanties ni exclusions de police.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Autres](../../branches/Autres.md) · Type : Document · Édition : 08/21
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Autres](<../../branches/Autres.md>) · Type : Document · Édition : 08/21
 
 ## Définitions
 
@@ -164,7 +164,7 @@ La société peut, plus généralement, effectuer toutes opérations financière
 ## Documents liés
 
 - Édition courante de ce produit.
-- [Statuts de MAAF Assurances - Doc](Statuts%20de%20MAAF%20Assurances%20-%20Doc%20%282%29.md) - Document, éd. 06/15
+- [Statuts de MAAF Assurances - Doc](<Statuts de MAAF Assurances - Doc (2).md>) - Document, éd. 06/15
 
 ## Source & fidélité
 

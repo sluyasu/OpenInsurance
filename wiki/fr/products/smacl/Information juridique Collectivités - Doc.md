@@ -41,7 +41,7 @@ generated: true
 
 Convention décrivant le service d’information juridique par téléphone que SMACL Assurances met à disposition des collectivités ayant souscrit auprès d’elle le contrat Protection juridique. Le service couvre sept domaines de droit (marchés publics, gestion de la collectivité, relations avec les usagers, enseignement, urbanisme et environnement, contentieux, fonction publique) et donne accès à des juristes ainsi qu’à un site internet par login et mot de passe. Le document précise les modalités de traitement des appels, les sources documentaires des juristes, les horaires d’ouverture et les cas d’exclusion de la prestation. Il s’agit d’une prestation d’information, qui ne comporte ni montant garanti ni franchise.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Protection juridique](../../branches/Protection%20juridique.md) · Type : Document · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Protection juridique](<../../branches/Protection juridique.md>) · Type : Document · Édition : 01/2024
 
 ## Définitions
 
@@ -136,10 +136,10 @@ Domaine de droit couvert par le service d’information juridique : Le fonctionn
 
 - Édition courante de ce produit.
 - Extension / option du produit : **Protection juridique**
-- [Information juridique Associations - Doc](Information%20juridique%20Associations%20-%20Doc.md) - Document, éd. 01/2024
-- [Information juridique Associations (SA) - Doc](Information%20juridique%20Associations%20%28SA%29%20-%20Doc.md) - Document, éd. 01/2024
-- [Information juridique Collectivités - Doc](Information%20juridique%20Collectivit%C3%A9s%20-%20Doc%20%282%29.md) - Document, éd. 01/2024
-- [Information juridique Sécurité élus - Doc](Information%20juridique%20S%C3%A9curit%C3%A9%20%C3%A9lus%20-%20Doc.md) - Document, éd. 07/2023
+- [Information juridique Associations - Doc](<Information juridique Associations - Doc.md>) - Document, éd. 01/2024
+- [Information juridique Associations (SA) - Doc](<Information juridique Associations (SA) - Doc.md>) - Document, éd. 01/2024
+- [Information juridique Collectivités - Doc](<Information juridique Collectivités - Doc (2).md>) - Document, éd. 01/2024
+- [Information juridique Sécurité élus - Doc](<Information juridique Sécurité élus - Doc.md>) - Document, éd. 07/2023
 
 ## Source & fidélité
 

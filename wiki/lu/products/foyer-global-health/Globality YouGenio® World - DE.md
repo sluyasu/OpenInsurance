@@ -44,7 +44,7 @@ generated: true
 
 Allgemeine Versicherungsbedingungen (AVB) des Tarifs Globality YouGenio® World, einer weltweiten privaten Krankenvollversicherung der Foyer Global Health S.A. (Leudelange, Luxemburg), die für Expatriates konzipiert ist und Personen offensteht, die sich mindestens drei Monate im Ausland aufhalten. Der Tarif gliedert sich in die vier Tarifstufen Essential, Classic, Plus und Top mit Jahreshöchstbeträgen von € 2.000.000, € 3.000.000, € 5.000.000 bzw. € 7.500.000; erstattungsfähige Aufwendungen werden zu 100 % bis zu diesem Jahreshöchstbetrag ersetzt, soweit die Leistungsübersichten nichts anderes bestimmen. Gedeckt sind stationäre und ambulante Heilbehandlung, zahnärztliche Heilbehandlung, medizinische Assistance und zusätzliche Assistance; der Geltungsbereich ist die vereinbarte Zielregion I (weltweit mit USA) oder Zielregion II (weltweit ohne USA). Der Vertrag wird zunächst für ein Versicherungsjahr geschlossen und jeweils um 12 Monate verlängert; es gilt luxemburgisches Recht, und das Dokument bezeichnet Englisch als Vertragssprache mit Vorrang der englischen Fassung.
 
-- Assureur : [Foyer Global Health](../../insurers/Foyer%20Global%20Health.md) · Branche : Complémentaire santé · Type : Conditions générales
+- Assureur : [Foyer Global Health](<../../insurers/Foyer Global Health.md>) · Branche : Complémentaire santé · Type : Conditions générales
 
 ## Définitions
 
@@ -876,8 +876,8 @@ Alle Ansprüche aus diesem Versicherungsvertrag unterliegen vom Zeitpunkt der En
 
 ## Documents liés
 
-- [Globality YouGenio® World](Globality%20YouGenio%C2%AE%20World.md) - Conditions générales
-- [Globality YouGenio® World - ES](Globality%20YouGenio%C2%AE%20World%20-%20ES.md) - Conditions générales
+- [Globality YouGenio® World](<Globality YouGenio® World.md>) - Conditions générales
+- [Globality YouGenio® World - ES](<Globality YouGenio® World - ES.md>) - Conditions générales
 
 ## Source & fidélité
 

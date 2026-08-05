@@ -47,7 +47,7 @@ generated: true
 
 Document d’information d’un produit d’assurance (DIPA/IPID) du produit Gan Solutions Prévoyance, un contrat d’assurance de groupe de prévoyance individuelle souscrit auprès de Groupama Gan Vie par l’association DEMAIN, avec Mutuaide Assistance pour les garanties d’assistance. Le contrat garantit le maintien de revenus en cas d’incapacité ou d’invalidité consécutive à une maladie ou un accident et protège les proches en cas de décès, l’indemnisation se faisant sans déduction des indemnités du régime obligatoire. Les garanties se répartissent entre garanties systématiques (symbole ✔) et garanties optionnelles (symbole •) : capital ou rente décès, décès accidentel, rente d’éducation, rente de conjoint, PTIA, capital maladies redoutées, allocation journalière d’hospitalisation, indemnités journalières d’arrêt de travail selon quatre formules, rentes ou capitaux d’invalidité, et services d’assistance. Le document résume également les exclusions et restrictions principales, les obligations, le paiement des cotisations et les conditions de résiliation.
 
-- Assureur : [Gan Assurances](../../insurers/Gan%20Assurances.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : IPID / Fiche d'information · Édition : 032024
+- Assureur : [Gan Assurances](<../../insurers/Gan Assurances.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : IPID / Fiche d'information · Édition : 032024
 
 ## Définitions
 
@@ -253,8 +253,8 @@ L’indemnisation se fait sans déduction des indemnités du régime obligatoire
 
 ## Documents liés
 
-- [Gan Solutions Prévoyance (Travailleurs non-salariés) - Fiche](Gan%20Solutions%20Pr%C3%A9voyance%20%28Travailleurs%20non-salari%C3%A9s%29%20-%20Fiche.md) - Fiche produit, éd. au 01/01/2026
-- [Gan Solutions Prévoyance (Travailleurs non-salariés) - Fiche](Gan%20Solutions%20Pr%C3%A9voyance%20%28Travailleurs%20non-salari%C3%A9s%29%20-%20Fiche%20%282%29.md) - Fiche produit, éd. au 01/01/2025
+- [Gan Solutions Prévoyance (Travailleurs non-salariés) - Fiche](<Gan Solutions Prévoyance (Travailleurs non-salariés) - Fiche.md>) - Fiche produit, éd. au 01/01/2026
+- [Gan Solutions Prévoyance (Travailleurs non-salariés) - Fiche](<Gan Solutions Prévoyance (Travailleurs non-salariés) - Fiche (2).md>) - Fiche produit, éd. au 01/01/2025
 
 ## Source & fidélité
 

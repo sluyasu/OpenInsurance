@@ -47,7 +47,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (DIPA/IPID) du produit « Sécurité élus » de SMACL Assurances, intitulé « Assurance personnelle des élus des collectivités territoriales et établissements publics ». Le contrat, destiné aux élus des collectivités territoriales et des établissements publics, garantit dans le cadre des fonctions électives la protection juridique de l’assuré, sa responsabilité personnelle et l’indemnisation de ses préjudices en cas d’accident corporel. Toutes les garanties présentées sont systématiquement prévues au contrat : responsabilité personnelle plafonnée à 10 000 000 €, protection juridique (frais de défense et recours 30 000 €), accidents corporels (500 000 € en cas de blessures, capital décès 50 000 €), reconstitution d’image (6 000 €), perte de revenus (200 € par jour dans la limite de 8 jours) et prestations d’assistance. La compagnie désignée est SMACL Assurances, société d’assurance mutuelle à cotisations fixes, agrément 301 309 605.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : IPID / Fiche d'information · Édition : 11/2022
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : IPID / Fiche d'information · Édition : 11/2022
 
 ## Garanties
 
@@ -177,7 +177,7 @@ Assistance psychologique : de 1 à 5 entretiens téléphoniques individuels avec
 
 ## Documents liés
 
-- [Sécurité élus](S%C3%A9curit%C3%A9%20%C3%A9lus.md) - Conditions générales, éd. 11/2022
+- [Sécurité élus](<Sécurité élus.md>) - Conditions générales, éd. 11/2022
 
 ## Source & fidélité
 

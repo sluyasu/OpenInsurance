@@ -47,7 +47,7 @@ generated: true
 
 Convention d’assistance « Assistance Patrimoine des associations » adossée au contrat d’assurance Dommages aux biens de SMACL Assurances : les bénéficiaires sont les personnes morales souscriptrices de ce contrat et les locaux assurés sont les bâtiments garantis à ce titre. Les prestations sont mises en œuvre par SMACL Assistance, groupement d’intérêt économique immatriculé au RCS de Niort sous le numéro 433.240.991, qui en assume la prise en charge pour le compte de SMACL Assurances, 7 j / 7 et 24 h / 24. La convention couvre, en cas de sinistre, l’envoi et la première heure de main d’œuvre d’un prestataire (chauffage, couverture, électricité, maçonnerie, menuiserie, nettoyage, plomberie, serrurerie, vitrerie), le gardiennage des locaux dans la limite de 48 heures et le déménagement ou l’entreposage du mobilier lorsque les locaux sont inutilisables, ainsi qu’une assistance en cas de panne domestique. Elle s’applique aux locaux situés en France métropolitaine et dans les DROM, à l’exclusion d’Andorre et de Monaco.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : Conditions générales · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : Conditions générales · Édition : 01/2024
 
 ## Définitions
 
@@ -181,7 +181,7 @@ Conformément à l’article L.114-1 du Code, toutes actions dérivant d’un co
 
 - Édition courante de ce produit.
 - Extension / option du produit : **contrat d’assurance Dommages aux biens**
-- [Assistance Patrimoine des associations](Assistance%20Patrimoine%20des%20associations.md) - Conditions générales, éd. 01/2024
+- [Assistance Patrimoine des associations](<Assistance Patrimoine des associations.md>) - Conditions générales, éd. 01/2024
 
 ## Source & fidélité
 

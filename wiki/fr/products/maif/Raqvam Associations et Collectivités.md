@@ -53,7 +53,7 @@ generated: true
 
 Conditions générales du contrat d'assurance multirisque MAIF « Raqvam Associations et Collectivités » (référence M6202RACA, édition 01/2026), destiné aux personnes morales de l'économie sociale et solidaire : associations loi 1901, fondations, établissements publics et scolaires, comités sociaux et économiques, sociétés coopératives et mutuelles. Le contrat réunit quatre garanties de base — Responsabilité civile-Défense (générale, produits livrés, atteintes à l'environnement, médicale, dirigeants et mandataires sociaux, agence de voyages), Dommages aux biens, Indemnisation des dommages corporels et Recours-Protection juridique — complétées par une convention d'assistance mise en œuvre par IMA Assurances et un service de conseil juridique par téléphone réservé aux collectivités. Les garanties sont acquises à la collectivité souscriptrice et à toute personne physique qui l'administre, la gère, l'anime, lui apporte son aide bénévole, en est membre ou adhérent, ou prend part à l'activité à laquelle elle s'est inscrite, sous réserve de déclaration préalable de l'activité. Les montants de garantie et les franchises renvoient aux conditions particulières ; le document d'information sur le produit d'assurance (IPID) reproduit en fin de PDF (pages 69-70) en indique les valeurs de référence.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : Conditions générales · Édition : 01/2026
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : Conditions générales · Édition : 01/2026
 
 ## Définitions
 
@@ -884,8 +884,8 @@ Art. 15 : « Toutes les actions dérivant du présent contrat sont prescrites, c
 
 ## Documents liés
 
-- [Raqvam Associations et Collectivités - IPID](Raqvam%20Associations%20et%20Collectivit%C3%A9s%20-%20IPID.md) - IPID / Fiche d'information, éd. 03-2025
-- [Raqvam Associations et Collectivités - CP](Raqvam%20Associations%20et%20Collectivit%C3%A9s%20-%20CP.md) - Conditions particulières, éd. 11-2021
+- [Raqvam Associations et Collectivités - IPID](<Raqvam Associations et Collectivités - IPID.md>) - IPID / Fiche d'information, éd. 03-2025
+- [Raqvam Associations et Collectivités - CP](<Raqvam Associations et Collectivités - CP.md>) - Conditions particulières, éd. 11-2021
 
 ## Source & fidélité
 

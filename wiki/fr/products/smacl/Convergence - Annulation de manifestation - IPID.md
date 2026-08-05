@@ -43,7 +43,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (DIPA/IPID) du contrat « Convergence - Annulation de manifestation » de SMACL Assurances SA, destiné aux associations avec salariés et aux entreprises de l'économie sociale et solidaire. Le contrat garantit le remboursement des frais engagés supportés par l'association assurée au cas où la manifestation est annulée, ajournée ou écourtée à la suite d'événements couverts (intempérie, retrait d'autorisation administrative, impossibilité d'accès, blocage du matériel, indisponibilité des artistes, deuil national, etc.). L'indemnité est limitée à 150 000 €. Les garanties s'exercent en France métropolitaine et dans les départements et régions d'Outre-mer.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Autres](../../branches/Autres.md) · Type : IPID / Fiche d'information · Édition : 02/2025
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Autres](<../../branches/Autres.md>) · Type : IPID / Fiche d'information · Édition : 02/2025
 
 ## Garanties
 
@@ -167,8 +167,8 @@ Garantie systématiquement prévue au contrat (précédée d'une coche).
 
 ## Documents liés
 
-- Extension liée : [CONVERGENCE - Annulation de manifestation (conventions spéciales)](CONVERGENCE%20-%20Annulation%20de%20manifestation%20%28conventions%20sp%C3%A9ciales%29.md)
-- [CONVERGENCE - Annulation de manifestation (conventions spéciales)](CONVERGENCE%20-%20Annulation%20de%20manifestation%20%28conventions%20sp%C3%A9ciales%29.md) - Conditions générales, éd. 01/2024
+- Extension liée : [CONVERGENCE - Annulation de manifestation (conventions spéciales)](<CONVERGENCE - Annulation de manifestation (conventions spéciales).md>)
+- [CONVERGENCE - Annulation de manifestation (conventions spéciales)](<CONVERGENCE - Annulation de manifestation (conventions spéciales).md>) - Conditions générales, éd. 01/2024
 
 ## Source & fidélité
 

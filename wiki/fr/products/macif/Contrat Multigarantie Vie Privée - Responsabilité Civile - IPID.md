@@ -45,7 +45,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (DIPA/IPID) de la garantie Responsabilité Civile du Contrat Multigarantie Vie Privée de la Macif. Le contrat protège l'assuré contre les conséquences d'évènements mettant en cause sa responsabilité civile personnelle ou celle des membres de sa famille pour les dommages causés à des tiers, et garantit la protection de ses droits. Il couvre la responsabilité civile vie privée dans la limite de 100 millions d'euros dont 10 millions pour les dommages matériels et immatériels consécutifs, la responsabilité d'occupant d'une location saisonnière de moins de 90 jours dans la limite de 100 millions d'euros, ainsi que la défense, le recours et l'information juridique par téléphone. Les cinq garanties sont toutes systématiquement prévues au contrat ; aucune option n'est présentée.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Responsabilité civile vie privée](../../branches/Responsabilit%C3%A9%20civile%20vie%20priv%C3%A9e.md) · Type : IPID / Fiche d'information · Édition : 10/18
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Responsabilité civile vie privée](<../../branches/Responsabilité civile vie privée.md>) · Type : IPID / Fiche d'information · Édition : 10/18
 
 > ⚠️ **Édition ancienne** : 10/18, soit 8 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 

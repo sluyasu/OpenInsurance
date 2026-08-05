@@ -49,7 +49,7 @@ generated: true
 
 Document de lisibilité au format « tableaux d’exemples de prise en charge au 01/01/2025 » pour les actifs salariés du secteur privé, portant sur les garanties incapacité, invalidité et décès. Pour chaque risque, il juxtapose trois colonnes — le régime obligatoire de la Sécurité sociale, les obligations légales de l’employeur et/ou de la convention collective, et la garantie du contrat collectif de prévoyance souscrit par l’employeur — puis en donne le total, sur la base d’un profil type de salarié à 24 000 € de salaire annuel brut. Les garanties de l’assureur y sont décrites comme déterminées contractuellement par l’employeur, avec deux exemples chiffrés de niveaux de couverture pour le capital décès, la rente éducation, les frais d’obsèques, la rente d’invalidité et les indemnités journalières complémentaires. Le document précise qu’il ne peut se substituer aux documents contractuels et que les garanties sont accordées sous réserve des limitations et exclusions définies au contrat souscrit par l’employeur.
 
-- Assureur : [Gan Assurances](../../insurers/Gan%20Assurances.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : Fiche produit · Édition : au 01/01/2025
+- Assureur : [Gan Assurances](<../../insurers/Gan Assurances.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : Fiche produit · Édition : au 01/01/2025
 
 ## Définitions
 

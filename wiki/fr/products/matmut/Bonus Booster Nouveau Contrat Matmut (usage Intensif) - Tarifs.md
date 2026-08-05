@@ -42,7 +42,7 @@ generated: true
 
 Ce document n'est pas un contrat d'assurance : il énonce les conditions d'octroi du « Bonus Booster Nouveau Contrat Matmut », un avantage commercial attaché à la souscription d'un contrat d'assurance Multirisques 2R Rider de la Matmut avec usage Intensif. À la souscription, le souscripteur venant d'un assureur extérieur au Groupe Matmut et pouvant prétendre à un coefficient de réduction de 0,50 se voit appliquer un coefficient plus favorable (0.42, 0,40 ou 0,36 selon l'ancienneté du 0,50). L'avantage s'applique sur la cotisation hors taxes des garanties Responsabilité civile et, lorsqu'elles sont souscrites, Dommages au véhicule assuré ; il est personnel et incessible, ne remet pas en cause les règles réglementaires d'évolution du bonus/malus, et le document est valable jusqu'au 31/12/2026.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Deux-roues, quads et voiturettes](../../branches/Deux-roues%2C%20quads%20et%20voiturettes.md) · Type : Conditions tarifaires · Édition : 01/26
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Deux-roues, quads et voiturettes](<../../branches/Deux-roues, quads et voiturettes.md>) · Type : Conditions tarifaires · Édition : 01/26
 
 ## Garanties
 
@@ -100,7 +100,7 @@ Le Bonus Booster Nouveau Contrat Matmut permet de bénéficier, dans les conditi
 ## Documents liés
 
 - Extension / option du produit : **Contrat d’assurance Multirisques 2R Rider**
-- [Bonus Booster Nouveau Contrat Matmut (usages Actif ou Sérénité) - Tarifs](Bonus%20Booster%20Nouveau%20Contrat%20Matmut%20%28usages%20Actif%20ou%20S%C3%A9r%C3%A9nit%C3%A9%29%20-%20Tarifs.md) - Conditions tarifaires, éd. 01/26
+- [Bonus Booster Nouveau Contrat Matmut (usages Actif ou Sérénité) - Tarifs](<Bonus Booster Nouveau Contrat Matmut (usages Actif ou Sérénité) - Tarifs.md>) - Conditions tarifaires, éd. 01/26
 
 ## Source & fidélité
 

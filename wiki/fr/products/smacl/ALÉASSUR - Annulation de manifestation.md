@@ -43,7 +43,7 @@ generated: true
 
 Conventions spéciales « Annulation de manifestation » annexées aux conditions générales ALÉASSUR de SMACL Assurances, destinées aux collectivités. Elles garantissent le remboursement des frais engagés restant à la charge de la personne morale souscriptrice lorsqu'une manifestation assurée est annulée, ajournée ou écourtée à la suite d'un événement limitativement énuméré : intempérie (3.1) ou l'un des autres événements dénommés (3.2, retrait d'autorisation, impossibilité d'accès, destruction du site, vol de matériel, indisponibilité des artistes, carence électrique, deuil national…). Le montant de la garantie s'exerce à concurrence de la somme précisée contractuellement, et neuf exclusions particulières s'ajoutent à celles des conditions générales.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Autres](../../branches/Autres.md) · Type : Conditions générales · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Autres](<../../branches/Autres.md>) · Type : Conditions générales · Édition : 01/2024
 
 ## Définitions
 

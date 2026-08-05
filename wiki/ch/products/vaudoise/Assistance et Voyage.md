@@ -48,7 +48,7 @@ generated: true
 
 Conditions générales du produit « Assistance et Voyage » de la Vaudoise (édition 01.06.2025), une assurance de dommages dont l'assureur est la Vaudoise Générale, Compagnie d'Assurances SA et dont les prestations d'assistance sont sous-traitées à Europ Assistance (Suisse) SA. Le contrat réunit sept modules : annulation de voyage, secours médical, dépannage routier, aide numérique, ligne de conseil juridique, domicile et informations de voyage. Il se décline en deux niveaux de couverture, « Classic » et « Comfort », le second portant la durée maximale de voyage de 30 à 365 jours, relevant les plafonds (annulation : CHF 10'000.- par événement en « Classic » contre CHF 150'000.- en « Comfort ») et ouvrant des prestations additionnelles ainsi que les modules dépannage routier, aide numérique et domicile. Les personnes assurées doivent avoir leur domicile en Suisse, en variante « Personne seule » ou « Famille ».
 
-- Assureur : [Vaudoise Assurances](../../insurers/Vaudoise%20Assurances.md) · Branche : Voyage et assistance · Type : Conditions générales · Édition : Édition 01.06.2025
+- Assureur : [Vaudoise Assurances](<../../insurers/Vaudoise Assurances.md>) · Branche : Voyage et assistance · Type : Conditions générales · Édition : Édition 01.06.2025
 
 ## Définitions
 

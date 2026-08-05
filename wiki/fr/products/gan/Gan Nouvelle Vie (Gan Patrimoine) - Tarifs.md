@@ -40,7 +40,7 @@ generated: true
 
 Fiche de transparence des frais du PER Individuel Gan Nouvelle Vie (Gan Patrimoine), publiée au titre de l'engagement de Groupama Gan Vie de mettre à jour annuellement l'information sur les frais. Elle indique le montant minimal de versement, les frais d'adhésion à l'association souscriptrice, les frais annuels de gestion du plan (supports fonds euros, unités de compte, gestion déléguée évolutive), les frais moyens de gestion des fonds en gestion libre, en gestion pilotée par horizon (profils prudent, équilibré, dynamique) et en gestion déléguée évolutive avec la part rétrocédée à l'assureur, ainsi que les frais ponctuels par opération. Le document ne décrit ni les garanties ni les exclusions du plan.
 
-- Assureur : [Gan Assurances](../../insurers/Gan%20Assurances.md) · Branche : [Retraite supplémentaire](../../branches/Retraite%20suppl%C3%A9mentaire.md) · Type : Conditions tarifaires
+- Assureur : [Gan Assurances](<../../insurers/Gan Assurances.md>) · Branche : [Retraite supplémentaire](<../../branches/Retraite supplémentaire.md>) · Type : Conditions tarifaires
 
 ## Définitions
 
@@ -110,8 +110,8 @@ Fiche de transparence des frais du PER Individuel Gan Nouvelle Vie (Gan Patrimoi
 
 ## Documents liés
 
-- [Gan Assurance Nouvelle Vie (Gan Assurances) - Tarifs](Gan%20Assurance%20Nouvelle%20Vie%20%28Gan%20Assurances%29%20-%20Tarifs.md) - Conditions tarifaires
-- [Gan Patrimoine Nouvelle Vie - Tarifs](Gan%20Patrimoine%20Nouvelle%20Vie%20-%20Tarifs.md) - Conditions tarifaires
+- [Gan Assurance Nouvelle Vie (Gan Assurances) - Tarifs](<Gan Assurance Nouvelle Vie (Gan Assurances) - Tarifs.md>) - Conditions tarifaires
+- [Gan Patrimoine Nouvelle Vie - Tarifs](<Gan Patrimoine Nouvelle Vie - Tarifs.md>) - Conditions tarifaires
 
 ## Source & fidélité
 

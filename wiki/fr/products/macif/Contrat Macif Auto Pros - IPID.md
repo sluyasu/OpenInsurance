@@ -45,7 +45,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (DIPA/IPID) du Contrat Macif Auto Pros, contrat d'assurance automobile de la Macif s'adressant aux professionnels et aux associations. Il couvre l'assurance obligatoire de responsabilité civile du fait du véhicule (dommages causés aux tiers) ainsi que, le cas échéant, les dommages subis par le véhicule, et offre des services d'assistance au véhicule et aux personnes transportées. Les garanties précédées d'une coche sont systématiquement prévues au contrat ; les autres sont listées comme garanties des dommages subis par le véhicule et garanties complémentaires.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 01/26
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information · Édition : 01/26
 
 ## Garanties
 
@@ -251,7 +251,7 @@ La garantie corporelle du conducteur.
 
 ## Documents liés
 
-- [Contrat Macif Auto Pros](Contrat%20Macif%20Auto%20Pros.md) - Conditions générales, éd. Version 06/2022 (page 7 : « Version juin 2022 » ; pied de page : « Macif Auto Pros - Version 06/2022 »)
+- [Contrat Macif Auto Pros](<Contrat Macif Auto Pros.md>) - Conditions générales, éd. Version 06/2022 (page 7 : « Version juin 2022 » ; pied de page : « Macif Auto Pros - Version 06/2022 »)
 
 ## Source & fidélité
 

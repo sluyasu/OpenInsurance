@@ -42,7 +42,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de l’assurance Responsabilité Civile Professionnelle des Avocats de Baloise Assurances Luxembourg S.A. Le produit couvre la responsabilité civile contractuelle et extra-contractuelle de l’assuré dans l’exercice de son activité professionnelle d’avocat, et comprend tant la garantie des demandes fondées que la défense contre les demandes injustifiées. La garantie de 1er rang est plafonnée à 2 500 000 € par sinistre ; une extension facultative USA/Canada porte un plafond de 2 500 000 € par sinistre et 5 000 000 € par année d’assurance. La couverture est étendue après la fin du contrat au titre de l’assurance de la postériorité.
 
-- Assureur : [Baloise Luxembourg](../../insurers/Baloise%20Luxembourg.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : IPID / Fiche d'information
+- Assureur : [Baloise Luxembourg](<../../insurers/Baloise Luxembourg.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

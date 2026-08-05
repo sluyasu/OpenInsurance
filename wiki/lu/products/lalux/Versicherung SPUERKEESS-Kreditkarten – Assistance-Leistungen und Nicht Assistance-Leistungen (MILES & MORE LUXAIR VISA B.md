@@ -47,7 +47,7 @@ generated: true
 
 Zweiseitiges Informationsblatt zum Versicherungsprodukt (IPID) für die Versicherung der SPUERKEESS-Kreditkarte MILES & MORE LUXAIR VISA BUSINESS, vermarktet unter der Marke LALUX Versicherungen. Versichert sind der Karteninhaber sowie Ehegatte/Lebenspartner und Kinder unter 25 Jahren auf ihren Reisen. Der Kasten « Was ist versichert ? » führt sechs NICHT ASSISTANCE-LEISTUNGEN (Reiseunfall, Reiserücktritt/Reiseabbruch, Gepäck, Flugverspätung, versäumte Abreise, Erlass der Selbstbeteiligung bei Mietfahrzeug/E-Mobility) und zwei ASSISTANCE-LEISTUNGEN (im Krankheits- oder Todesfall, Cash Emergency) auf, jeweils nur als Titel ohne Beschreibung oder Betrag. Die Deckung setzt voraus, dass mindestens 30% der Reisekosten mit der Karte bezahlt wurden, und gilt nicht für Reisen von mehr als 91 aufeinanderfolgenden Tagen.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Voyage et assistance](<../../branches/Voyage et assistance.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -189,7 +189,7 @@ Im Kasten « Was ist versichert ? » unter der Überschrift « ASSISTANCE-LEISTU
 
 ## Documents liés
 
-- [Kreditkarten - MILES & MORE LUXAIR VISA - IPID - DE](Kreditkarten%20-%20MILES%20%26%20MORE%20LUXAIR%20VISA%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
+- [Kreditkarten - MILES & MORE LUXAIR VISA - IPID - DE](<Kreditkarten - MILES & MORE LUXAIR VISA - IPID - DE.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

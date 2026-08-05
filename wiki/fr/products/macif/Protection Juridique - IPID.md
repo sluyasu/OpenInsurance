@@ -45,7 +45,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (DIPA/IPID) d'un contrat de protection juridique porté par Thémis, société anonyme au capital de 2 499 840 € (SIREN n°582 067 922). Le contrat couvre la prise en charge des frais et honoraires de procédure de l'assuré, en demande comme en défense, en cas de litige l'opposant à un tiers et relevant de son activité professionnelle non salariée. La garantie de base comprend l'information juridique, l'exercice d'une action amiable et la prise en charge des honoraires de l'avocat du choix de l'assuré dans la limite d'un plafond global par sinistre de 16 000 euros hors taxes. Trois options sont proposées : recouvrement de créances, risque fiscal (plafond de 3 100 euros hors taxes) et dirigeant ; les sinistres ne sont pris en charge qu'au-delà d'un enjeu initial de 380 euros hors taxes, porté à 760 euros hors taxes pour deux des options.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Protection juridique](../../branches/Protection%20juridique.md) · Type : IPID / Fiche d'information · Édition : 10/18
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Protection juridique](<../../branches/Protection juridique.md>) · Type : IPID / Fiche d'information · Édition : 10/18
 
 > ⚠️ **Édition ancienne** : 10/18, soit 8 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 
@@ -165,8 +165,8 @@ Prise en charge des honoraires de l'avocat de l'assuré, ainsi que des frais de 
 
 ## Documents liés
 
-- [Protection Juridique (PRO&ESS) - IPID](Protection%20Juridique%20%28PRO%26ESS%29%20-%20IPID.md) - IPID / Fiche d'information, éd. 2020-06
-- [Protection Juridique (PJ PRO&ESS) - IPID](Protection%20Juridique%20%28PJ%20PRO%26ESS%29%20-%20IPID.md) - IPID / Fiche d'information, éd. 06/20
+- [Protection Juridique (PRO&ESS) - IPID](<Protection Juridique (PRO&ESS) - IPID.md>) - IPID / Fiche d'information, éd. 2020-06
+- [Protection Juridique (PJ PRO&ESS) - IPID](<Protection Juridique (PJ PRO&ESS) - IPID.md>) - IPID / Fiche d'information, éd. 06/20
 
 ## Source & fidélité
 

@@ -47,7 +47,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du contrat Multirisques « Auto-mission » de la Matmut. Le contrat permet à une entité souscriptrice (entreprise, association, comité d'entreprise, mutuelle ou collectivité) de garantir les risques découlant de l'utilisation occasionnelle, par ses préposés, salariés ou administrateurs, de leur véhicule à moteur personnel lors de déplacements professionnels ; il se substitue au contrat personnel de ces personnes exclusivement dans ces situations. Il garantit la responsabilité civile, les dommages corporels du conducteur, les dommages matériels subis par le véhicule assuré, l'assistance au véhicule et aux personnes transportées et des garanties de protection juridique. La cotisation est ajustée sur le nombre de kilomètres réellement parcourus, déclaré chaque année au plus tard le 31 janvier.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 01/24
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information · Édition : 01/24
 
 ## Garanties
 
@@ -197,7 +197,7 @@ Indisponibilité du véhicule : prise en charge des frais journaliers engagés (
 
 ## Documents liés
 
-- [Auto-mission](Auto-mission.md) - Conditions générales, éd. 01/24
+- [Auto-mission](<Auto-mission.md>) - Conditions générales, éd. 01/24
 
 ## Source & fidélité
 

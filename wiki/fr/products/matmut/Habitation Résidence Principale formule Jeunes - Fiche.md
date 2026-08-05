@@ -43,7 +43,7 @@ generated: true
 
 Fiche d'une page intitulée « LES GARANTIES DE L’ASSURANCE HABITATION RÉSIDENCE PRINCIPALE FORMULE JEUNES », présentant un tableau à une seule formule (« FORMULE JEUNES ») et une colonne « CAPITAL MOBILIER » portant la valeur 6 000 €. Le contrat est réservé aux jeunes de moins de 28 ans sans enfant, propriétaires, locataires ou occupants à titre gratuit d'un appartement d'une à deux pièces de 66 m2 maximum. Le tableau comporte cinq lignes de garanties, toutes cochées dans la formule : responsabilité civile Vie privée et Immeuble ; incendie et événements assimilés (dont chute de la foudre et phénomènes électriques plafonnés à 500 €, attentat ou acte de terrorisme, catastrophes technologiques) ; événements climatiques, dégâts des eaux, inondation et catastrophes naturelles ; vol, tentative de vol ou acte de vandalisme (plafond de 1 000 €) ; Protection Juridique suite à accident. Le document ne contient ni exclusions, ni définitions, ni conditions de durée, de résiliation ou de sinistre.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Fiche produit
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : Fiche produit
 
 ## Garanties
 
@@ -99,7 +99,7 @@ Ligne « Protection Juridique suite à accident », dernière ligne du tableau
 
 ## Documents liés
 
-- [Habitation Résidence principale - Jeunes - Contrat d'assurance Multigaranties](Habitation%20R%C3%A9sidence%20principale%20-%20Jeunes%20-%20Contrat%20d%27assurance%20Multigaranties.md) - Conditions générales, éd. 05/24
+- [Habitation Résidence principale - Jeunes - Contrat d'assurance Multigaranties](<Habitation Résidence principale - Jeunes - Contrat d'assurance Multigaranties.md>) - Conditions générales, éd. 05/24
 
 ## Source & fidélité
 

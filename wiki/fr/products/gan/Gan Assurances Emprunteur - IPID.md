@@ -41,7 +41,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (DIN/IPID) « ASSURANCE DE PRÊT » pour le produit Gan Assurances Emprunteur. Il s’agit d’un produit d’assurance de groupe réservé aux adhérents au contrat souscrit par l’association DEMAIN, dont l’objet est le remboursement du capital restant dû ou de tout ou partie des échéances de prêt à l’organisme de crédit en cas de décès, d’incapacité, d’invalidité ou de perte d’emploi de l’emprunteur. La garantie décès / Perte Totale et Irréversible d’Autonomie est accordée systématiquement ; arrêt de travail, invalidité totale, invalidité partielle, option « Sécurité », prise en charge des cotisations et perte d’emploi sont optionnels. Les compagnies indiquées sont Groupama Gan Vie et Gan Assurances.
 
-- Assureur : [Gan Assurances](../../insurers/Gan%20Assurances.md) · Branche : [Assurance emprunteur](../../branches/Assurance%20emprunteur.md) · Type : IPID / Fiche d'information · Édition : 062023
+- Assureur : [Gan Assurances](<../../insurers/Gan Assurances.md>) · Branche : [Assurance emprunteur](<../../branches/Assurance emprunteur.md>) · Type : IPID / Fiche d'information · Édition : 062023
 
 ## Définitions
 
@@ -174,8 +174,8 @@ En cas de perte d’emploi ouvrant droit au versement des allocations de chômag
 
 ## Documents liés
 
-- [Gan Patrimoine Emprunteur - IPID](Gan%20Patrimoine%20Emprunteur%20-%20IPID.md) - IPID / Fiche d'information, éd. 032026
-- [Gan Prévoyance Emprunteur - IPID](Gan%20Pr%C3%A9voyance%20Emprunteur%20-%20IPID.md) - IPID / Fiche d'information, éd. 042021
+- [Gan Patrimoine Emprunteur - IPID](<Gan Patrimoine Emprunteur - IPID.md>) - IPID / Fiche d'information, éd. 032026
+- [Gan Prévoyance Emprunteur - IPID](<Gan Prévoyance Emprunteur - IPID.md>) - IPID / Fiche d'information, éd. 042021
 
 ## Source & fidélité
 

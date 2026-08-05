@@ -43,7 +43,7 @@ generated: true
 
 Convention décrivant le service d'information juridique par téléphone et par internet mis en place par SMACL Assurances au profit des assurés ayant souscrit auprès d'elle le contrat Habitation. Le service apporte, sur simple appel, une information juridique dans neuf domaines de droit relevant de la vie privée (véhicule, logement, emploi, droits en matière médicale, vie pratique, consommation, justice, famille, fiscalité), avec possibilité d'envoi d'un courrier type. Il ne s'agit pas d'une garantie d'assurance de protection juridique : le document exclut expressément tout conseil au sens de l'article 54 de la loi n°71-1130 du 31 décembre 1971, toute consultation juridique personnalisée, toute réponse écrite et toute prise en charge de frais. Le document précise le traitement des appels, les sources documentaires des juristes et les horaires de disponibilité.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Protection juridique](../../branches/Protection%20juridique.md) · Type : Document · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Protection juridique](<../../branches/Protection juridique.md>) · Type : Document · Édition : 01/2024
 
 ## Définitions
 
@@ -207,7 +207,7 @@ les différents impôts des particuliers ; la taxe sur la valeur ajoutée (TVA) 
 ## Documents liés
 
 - Extension / option du produit : **contrat Habitation**
-- [Convention Information juridique – Particuliers (SMACL Assurances (société d'assurance mutuelle)) - Doc](Convention%20Information%20juridique%20%E2%80%93%20Particuliers%20%28SMACL%20Assurances%20%28soci%C3%A9t%C3%A9%20d%27assurance%20mutuelle%29%29%20-%20Doc.md) - Document, éd. 01/2024
+- [Convention Information juridique – Particuliers (SMACL Assurances (société d'assurance mutuelle)) - Doc](<Convention Information juridique – Particuliers (SMACL Assurances (société d'assurance mutuelle)) - Doc.md>) - Document, éd. 01/2024
 
 ## Source & fidélité
 

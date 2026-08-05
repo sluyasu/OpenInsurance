@@ -40,7 +40,7 @@ generated: true
 
 Publication d’informations en matière de durabilité relative au contrat PER Responsable et Solidaire, souscrit par le GERP Futurs Solidaires auprès de MAIF VIE. Le document expose comment les enjeux environnementaux, sociaux et de gouvernance sont intégrés aux investissements du fonds en euros et des unités de compte : classement du contrat à l’article 8 du règlement SFDR sans objectif d’investissement durable, engagement d’au moins 40 % d’investissements durables sur le fonds en euros (dont 25 % minimum de part verte et 15 % minimum de part sociale), politique d’exclusion MAIF, stratégie et contrôle des investissements, sources et limites des données, diligence raisonnable et politiques d’engagement. Une annexe liste les quatorze unités de compte accessibles, avec leur code ISIN, leur société de gestion et leur classification SFDR. Le document ne décrit aucune garantie d’assurance.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Retraite supplémentaire](../../branches/Retraite%20suppl%C3%A9mentaire.md) · Type : Document · Édition : 06/2026
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Retraite supplémentaire](<../../branches/Retraite supplémentaire.md>) · Type : Document · Édition : 06/2026
 
 ## Définitions
 
@@ -162,11 +162,11 @@ Publication d’informations en matière de durabilité relative au contrat PER 
 ## Documents liés
 
 - Édition courante de ce produit.
-- Extension liée : [Fonds en euros du PER Responsable et Solidaire - Doc](Fonds%20en%20euros%20du%20PER%20Responsable%20et%20Solidaire%20-%20Doc.md)
-- [Fonds en euros du PER Responsable et Solidaire - Doc](Fonds%20en%20euros%20du%20PER%20Responsable%20et%20Solidaire%20-%20Doc.md) - Document, éd. 06/26
-- [PER Responsable et Solidaire](PER%20Responsable%20et%20Solidaire.md) - Conditions générales, éd. 06/26
-- [PER Responsable et Solidaire - Tarifs](PER%20Responsable%20et%20Solidaire%20-%20Tarifs.md) - Conditions tarifaires, éd. 06/26
-- [PER Responsable et Solidaire - Doc](PER%20Responsable%20et%20Solidaire%20-%20Doc.md) - Document, éd. 06/26
+- Extension liée : [Fonds en euros du PER Responsable et Solidaire - Doc](<Fonds en euros du PER Responsable et Solidaire - Doc.md>)
+- [Fonds en euros du PER Responsable et Solidaire - Doc](<Fonds en euros du PER Responsable et Solidaire - Doc.md>) - Document, éd. 06/26
+- [PER Responsable et Solidaire](<PER Responsable et Solidaire.md>) - Conditions générales, éd. 06/26
+- [PER Responsable et Solidaire - Tarifs](<PER Responsable et Solidaire - Tarifs.md>) - Conditions tarifaires, éd. 06/26
+- [PER Responsable et Solidaire - Doc](<PER Responsable et Solidaire - Doc.md>) - Document, éd. 06/26
 
 ## Source & fidélité
 

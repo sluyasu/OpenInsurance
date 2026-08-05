@@ -47,7 +47,7 @@ generated: true
 
 Conditions générales du contrat Macif Pann'Auto (édition Novembre 2020), garantie de panne mécanique, électrique ou électronique du véhicule terrestre à moteur désigné aux conditions particulières. Le contrat propose deux formules : la formule Sécurité, qui prend en charge la main d'œuvre liée à la remise en état de fonctionnement du véhicule, et la formule Tranquillité, qui ajoute les pièces nécessaires à cette remise en état, indemnisées sans application de vétusté. Les garanties sont subordonnées à l'entretien du véhicule conformément aux prescriptions du constructeur, à la réalisation des contrôles techniques obligatoires et à l'accord préalable de la Macif avant réparation ; l'indemnité totale par sinistre ne peut excéder la valeur de remplacement du véhicule. Les prestations sont mises en œuvre par IMA TECHNOLOGIES.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : Novembre 2020
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions générales · Édition : Novembre 2020
 
 ## Définitions
 
@@ -211,7 +211,7 @@ Toutes les actions dérivant d'un contrat d'assurance sont prescrites par deux a
 
 ## Documents liés
 
-- [Contrat Macif Pann'Auto - IPID](Contrat%20Macif%20Pann%27Auto%20-%20IPID.md) - IPID / Fiche d'information, éd. 12/22
+- [Contrat Macif Pann'Auto - IPID](<Contrat Macif Pann'Auto - IPID.md>) - IPID / Fiche d'information, éd. 12/22
 
 ## Source & fidélité
 

@@ -40,7 +40,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) relatif au produit « Responsabilité Civile Chef d’Entreprise/ Professions libérales » de Thélem assurances. Ce contrat d’assurance permet, en tant que professionnel des secteurs Artisanat/Industrie/Bâtiment, Commerces, Services et Professions libérales, de couvrir vos responsabilités civiles professionnelles en raison des dommages causés à des tiers résultant de vos activités déclarées. Les garanties systématiquement prévues couvrent la responsabilité civile du fait de l’exploitation de l’entreprise, la responsabilité en tant qu’employeur, la responsabilité du fait d’atteintes accidentelles à l’environnement, la responsabilité professionnelle de l’entreprise, la responsabilité civile biens confiés ainsi que la défense pénale et recours suite à accident. Les frais de retrait de produits défectueux et les dommages immatériels non consécutifs sont proposés en garanties et services optionnels.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : IPID / Fiche d'information
+- Assureur : [Thélem assurances](<../../insurers/Thélem assurances.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

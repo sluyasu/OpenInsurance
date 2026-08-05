@@ -44,7 +44,7 @@ generated: true
 
 Document d'une page fixant les conditions d'octroi du Bonus Booster Matmut & Co, un avantage commercial adossé au contrat Multirisques « Auto 4D Distinguo & Co ». L'avantage accélère la progression du coefficient de réduction à l'échéance annuelle par rapport à l'Annexe à l'article A. 121-1 du Code des assurances, jusqu'à 36 % de bonus (coefficient 0,64). Il est réservé aux personnes physiques titulaires du contrat pour une voiture particulière hors camping-car ou une camionnette, en usage Actif, Actif « éco-mobilité », Privé ou Retraité, et s'applique sur la cotisation hors taxes des garanties Responsabilité civile et Dommages au véhicule assuré. Le document est valable jusqu'au 31/12/2026.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions tarifaires · Édition : 01/26
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions tarifaires · Édition : 01/26
 
 ## Garanties
 

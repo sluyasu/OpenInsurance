@@ -44,7 +44,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du contrat Multirisque des Professionnels du Bâtiment et des Travaux Publics de MAAF Assurances SA, présenté sous le titre commercial « Assurance professionnelle du BTP ». Le contrat permet de satisfaire à l'obligation d'assurance responsabilité décennale des professionnels du Bâtiment et couvre également les besoins des professionnels des Travaux Publics. Il couvre la responsabilité civile construction, professionnelle et d'exploitation (plafond de 8 000 000 € par sinistre, tous dommages confondus), les dommages en cours de chantier, les locaux professionnels et leur contenu, l'assistance, les pertes d'exploitation, la protection juridique (plafond de 20 000 € par sinistre) et les dommages aux matériels hors des locaux, avec plusieurs garanties proposées en option.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information · Édition : 2024-06
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : IPID / Fiche d'information · Édition : 2024-06
 
 ## Garanties
 
@@ -246,11 +246,11 @@ En option, au titre de « Votre mobilité » : Vol de vos matériels hors des lo
 
 ## Documents liés
 
-- Extension liée : [Entreprises de travaux publics - Intercalaire](Entreprises%20de%20travaux%20publics%20-%20Intercalaire.md)
-- Extension liée : [Nomenclature MAAF Assurances SA des activités du Bâtiment et des Travaux Publics - Doc](Nomenclature%20MAAF%20Assurances%20SA%20des%20activit%C3%A9s%20du%20B%C3%A2timent%20et%20des%20Travaux%20Publics%20-%20Doc.md)
-- [Entreprises de travaux publics - Intercalaire](Entreprises%20de%20travaux%20publics%20-%20Intercalaire.md) - Conditions générales, éd. 01/25
-- [Multirisque des Professionnels du Bâtiment et des Travaux Publics](Multirisque%20des%20Professionnels%20du%20B%C3%A2timent%20et%20des%20Travaux%20Publics.md) - Conditions générales, éd. 01/26
-- [Nomenclature MAAF Assurances SA des activités du Bâtiment et des Travaux Publics - Doc](Nomenclature%20MAAF%20Assurances%20SA%20des%20activit%C3%A9s%20du%20B%C3%A2timent%20et%20des%20Travaux%20Publics%20-%20Doc.md) - Document, éd. 06/2026
+- Extension liée : [Entreprises de travaux publics - Intercalaire](<Entreprises de travaux publics - Intercalaire.md>)
+- Extension liée : [Nomenclature MAAF Assurances SA des activités du Bâtiment et des Travaux Publics - Doc](<Nomenclature MAAF Assurances SA des activités du Bâtiment et des Travaux Publics - Doc.md>)
+- [Entreprises de travaux publics - Intercalaire](<Entreprises de travaux publics - Intercalaire.md>) - Conditions générales, éd. 01/25
+- [Multirisque des Professionnels du Bâtiment et des Travaux Publics](<Multirisque des Professionnels du Bâtiment et des Travaux Publics.md>) - Conditions générales, éd. 01/26
+- [Nomenclature MAAF Assurances SA des activités du Bâtiment et des Travaux Publics - Doc](<Nomenclature MAAF Assurances SA des activités du Bâtiment et des Travaux Publics - Doc.md>) - Document, éd. 06/2026
 
 ## Source & fidélité
 

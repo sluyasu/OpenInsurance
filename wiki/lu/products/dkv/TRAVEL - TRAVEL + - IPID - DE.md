@@ -41,7 +41,7 @@ generated: true
 
 Informationsblatt zu Versicherungsprodukten (IPID) der DKV Luxembourg S.A. für das Produkt TRAVEL / TRAVEL +, eine Auslandsreisekrankenversicherung. Versichert sind ambulante Heilbehandlungen, zahnärztliche Behandlungen, stationäre Behandlungen, Krankentransporte einschliesslich Such- und Bergungskosten sowie Rückführung und Rücktransport. Der Versicherungsschutz gilt für die im Antrag angegebene vorübergehende Auslandsreise. Für die genannten Leistungen gelten die in den Versicherungsbedingungen genannten Höchstbeträge.
 
-- Assureur : [DKV Luxembourg](../../insurers/DKV%20Luxembourg.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : IPID / Fiche d'information
+- Assureur : [DKV Luxembourg](<../../insurers/DKV Luxembourg.md>) · Branche : [Voyage et assistance](<../../branches/Voyage et assistance.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -183,10 +183,10 @@ Organisation und Übernahme der Kosten für eine Überführung im Todesfall der 
 
 ## Documents liés
 
-- [TRAVEL](TRAVEL.md) - Conditions générales, éd. 03|2025
-- [TRAVEL - DE](TRAVEL%20-%20DE.md) - Conditions générales, éd. 03|2025
-- [TRAVEL - EN](TRAVEL%20-%20EN.md) - Conditions générales, éd. 03|2025
-- [TRAVEL - TRAVEL + - IPID](TRAVEL%20-%20TRAVEL%20%2B%20-%20IPID.md) - IPID / Fiche d'information
+- [TRAVEL](<TRAVEL.md>) - Conditions générales, éd. 03|2025
+- [TRAVEL - DE](<TRAVEL - DE.md>) - Conditions générales, éd. 03|2025
+- [TRAVEL - EN](<TRAVEL - EN.md>) - Conditions générales, éd. 03|2025
+- [TRAVEL - TRAVEL + - IPID](<TRAVEL - TRAVEL + - IPID.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

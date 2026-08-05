@@ -45,7 +45,7 @@ generated: true
 
 Insurance product information document (IPID) for the easyPROTECT - Discover service distributed under the LALUX Assurances brand. The service is a package of guarantees for insured persons whose main residence is in the Grand Duchy of Luxembourg, aged between 15 and 27 years and preparing to begin their professional life (students, apprentices and similar categories). The basic package comprises civil liability for private and student life excluding professional activities — with a "Student accommodation" extension for tenants of student housing located in Europe — and legal protection. Mobile IT coverage, Assistance (tuition and apprenticeship fees, return costs, recovery of lost computer data) and Medical emergency (outpatient treatment, dental care, hospitalisation abroad and repatriation) are available as options for an additional premium, each subject to a stated monetary cap.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Responsabilité civile familiale](../../branches/Responsabilit%C3%A9%20civile%20familiale.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Responsabilité civile familiale](<../../branches/Responsabilité civile familiale.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -173,9 +173,9 @@ The insurance covers damage occurring during the term of the contract, even if t
 
 ## Documents liés
 
-- [easyPROTECT - Discover - IPID](easyPROTECT%20-%20Discover%20-%20IPID.md) - IPID / Fiche d'information
-- [easyPROTECT-Haftpflicht (Haftpflicht — Familie, Gebäude und Jagd (DE)) - IPID - DE](easyPROTECT-Haftpflicht%20%28Haftpflicht%20%E2%80%94%20Familie%2C%20Geb%C3%A4ude%20und%20Jagd%20%28DE%29%29%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
-- [Responsabilité Civile Familiale, Immeuble et Chasse - IPID](Responsabilit%C3%A9%20Civile%20Familiale%2C%20Immeuble%20et%20Chasse%20-%20IPID.md) - IPID / Fiche d'information
+- [easyPROTECT - Discover - IPID](<easyPROTECT - Discover - IPID.md>) - IPID / Fiche d'information
+- [easyPROTECT-Haftpflicht (Haftpflicht — Familie, Gebäude und Jagd (DE)) - IPID - DE](<easyPROTECT-Haftpflicht (Haftpflicht — Familie, Gebäude und Jagd (DE)) - IPID - DE.md>) - IPID / Fiche d'information
+- [Responsabilité Civile Familiale, Immeuble et Chasse - IPID](<Responsabilité Civile Familiale, Immeuble et Chasse - IPID.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

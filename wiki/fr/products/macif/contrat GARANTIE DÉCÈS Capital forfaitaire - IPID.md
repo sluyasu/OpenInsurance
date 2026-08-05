@@ -44,7 +44,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (DIPA/IPID) du contrat GARANTIE DÉCÈS Capital forfaitaire, assuré par Macif Santé Prévoyance. Le contrat permet de bénéficier, sous réserve de satisfaire aux formalités d'adhésion, du versement d'un capital forfaitaire compris entre 15 000 € et 762 000 € au choix de l'assuré en cas de maladie ou d'accident entraînant son décès ou une perte totale et irréversible d'autonomie (PTIA). Deux garanties complémentaires sont possibles si le capital souscrit est d'au moins 25 000 € (doublement du capital en cas d'accident, avance de 4 000 € à un bénéficiaire de premier rang) et deux garanties d'assistance sont systématiquement prévues.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : IPID / Fiche d'information · Édition : 01/26
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : IPID / Fiche d'information · Édition : 01/26
 
 ## Garanties
 
@@ -182,8 +182,8 @@ Si la demande fait l'objet d'une étude par le service médical de l'assureur, l
 
 ## Documents liés
 
-- [contrat GARANTIE DÉCÈS (Décès, invalidité et arrêt de travail temporaire) - IPID](contrat%20GARANTIE%20D%C3%89C%C3%88S%20%28D%C3%A9c%C3%A8s%2C%20invalidit%C3%A9%20et%20arr%C3%AAt%20de%20travail%20temporaire%29%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/26
-- [GARANTIE DÉCÈS (Capital forfaitaire)](GARANTIE%20D%C3%89C%C3%88S%20%28Capital%20forfaitaire%29.md) - Conditions générales, éd. 2026-01
+- [contrat GARANTIE DÉCÈS (Décès, invalidité et arrêt de travail temporaire) - IPID](<contrat GARANTIE DÉCÈS (Décès, invalidité et arrêt de travail temporaire) - IPID.md>) - IPID / Fiche d'information, éd. 01/26
+- [GARANTIE DÉCÈS (Capital forfaitaire)](<GARANTIE DÉCÈS (Capital forfaitaire).md>) - Conditions générales, éd. 2026-01
 
 ## Source & fidélité
 

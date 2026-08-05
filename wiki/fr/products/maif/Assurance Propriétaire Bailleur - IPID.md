@@ -41,7 +41,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du contrat Assurance Propriétaire Bailleur de MAIF, assurance multirisque habitation pour les biens immobiliers et mobiliers déclarés dont l'assuré est propriétaire-bailleur. Il couvre les dommages aux biens (incendie-explosion, dégât des eaux, événements climatiques, gel, catastrophes naturelles et technologiques, attentats, vol, vandalisme et dégradations locatives, bris de vitre, dommages électriques, choc de véhicule, autres dommages accidentels), les pertes de loyers, le recours, la responsabilité civile-défense, l'accompagnement juridique avec protection juridique et l'assistance dépannage. Les garanties s'exercent en France métropolitaine, Guadeloupe, Martinique, Réunion, Saint-Barthélemy, Saint-Martin pour sa partie française et Monaco.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information · Édition : 01/2025
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : IPID / Fiche d'information · Édition : 01/2025
 
 ## Garanties
 
@@ -213,7 +213,7 @@ Assistance plomberie, électricité, chauffage et serrurerie : frais de déplace
 
 ## Documents liés
 
-- [Assurance Propriétaire Bailleur](Assurance%20Propri%C3%A9taire%20Bailleur.md) - Conditions générales, éd. 01/2025
+- [Assurance Propriétaire Bailleur](<Assurance Propriétaire Bailleur.md>) - Conditions générales, éd. 01/2025
 
 ## Source & fidélité
 

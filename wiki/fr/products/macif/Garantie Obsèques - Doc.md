@@ -41,7 +41,7 @@ generated: true
 
 Publication annuelle d'information et de transparence sur les droits exprimés en euros de la Garantie Obsèques : un tableau d'une page reprenant les principaux indicateurs économiques du contrat pour les exercices 2024 et 2025. Il donne le rendement garanti moyen, le taux moyen des frais prélevés par la mutuelle, le rendement net moyen servi à l'adhérent, le taux des taxes et prélèvements sociaux et le taux moyen de la participation aux bénéfices, ainsi que l'éligibilité des contrats aux affaires nouvelles. Le document ne décrit ni garanties, ni exclusions, ni modalités contractuelles : c'est une publication chiffrée, pas une notice.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : Document
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Obsèques](<../../branches/Obsèques.md>) · Type : Document
 
 ## Prime
 
@@ -73,10 +73,10 @@ Publication annuelle d'information et de transparence sur les droits exprimés e
 
 ## Documents liés
 
-- [contrat GARANTIE OBSÈQUES - IPID](contrat%20GARANTIE%20OBS%C3%88QUES%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/26
-- [Garantie Obsèques - IPID](Garantie%20Obs%C3%A8ques%20-%20IPID.md) - IPID / Fiche d'information, éd. 1er juillet 2026
-- [Garantie Obsèques - Fiche](Garantie%20Obs%C3%A8ques%20-%20Fiche.md) - Fiche produit, éd. Garanties en vigueur au 1er juillet 2026
-- [Garantie Obsèques](Garantie%20Obs%C3%A8ques.md) - Conditions générales, éd. 2026-07
+- [contrat GARANTIE OBSÈQUES - IPID](<contrat GARANTIE OBSÈQUES - IPID.md>) - IPID / Fiche d'information, éd. 01/26
+- [Garantie Obsèques - IPID](<Garantie Obsèques - IPID.md>) - IPID / Fiche d'information, éd. 1er juillet 2026
+- [Garantie Obsèques - Fiche](<Garantie Obsèques - Fiche.md>) - Fiche produit, éd. Garanties en vigueur au 1er juillet 2026
+- [Garantie Obsèques](<Garantie Obsèques.md>) - Conditions générales, éd. 2026-07
 
 ## Source & fidélité
 

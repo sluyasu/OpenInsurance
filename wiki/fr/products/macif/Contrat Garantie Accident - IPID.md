@@ -44,7 +44,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (DIPA/IPID) du Contrat Garantie Accident de la Macif, une assurance des accidents corporels. Le contrat protège le sociétaire et sa famille contre les conséquences des accidents corporels survenant au cours de la vie privée, au moyen de garanties Incapacité permanente, Décès accidentel (capital au conjoint survivant, rente éducation, frais d'obsèques), de garanties supplémentaires pour les assurés scolarisés et de garanties d'assistance. Les montants des prestations Incapacité permanente et Décès dépendent de la formule souscrite — Économique (3), Essentielle (6), Étendue (9) ou Excellence (12) — et de la valeur de l'unité de compte déterminée par le Conseil d'administration de la Macif.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Garantie des accidents de la vie](../../branches/Garantie%20des%20accidents%20de%20la%20vie.md) · Type : IPID / Fiche d'information · Édition : 29/01/26
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Garantie des accidents de la vie](<../../branches/Garantie des accidents de la vie.md>) · Type : IPID / Fiche d'information · Édition : 29/01/26
 
 ## Garanties
 
@@ -233,10 +233,10 @@ L'assistance psychologique.
 
 ## Documents liés
 
-- [Contrat Garantie Accident](Contrat%20Garantie%20Accident%20%284%29.md) - Conditions générales, éd. Avril 2021
-- [Contrat Garantie Accident](Contrat%20Garantie%20Accident%20%283%29.md) - Conditions générales, éd. janvier 2018
-- [Contrat Garantie Accident](Contrat%20Garantie%20Accident.md) - Conditions générales, éd. 29 janvier 2026
-- [Garantie Accident](Garantie%20Accident.md) - Conditions générales, éd. Avril 2021
+- [Contrat Garantie Accident](<Contrat Garantie Accident (4).md>) - Conditions générales, éd. Avril 2021
+- [Contrat Garantie Accident](<Contrat Garantie Accident (3).md>) - Conditions générales, éd. janvier 2018
+- [Contrat Garantie Accident](<Contrat Garantie Accident.md>) - Conditions générales, éd. 29 janvier 2026
+- [Garantie Accident](<Garantie Accident.md>) - Conditions générales, éd. Avril 2021
 
 ## Source & fidélité
 

@@ -48,7 +48,7 @@ generated: true
 
 Conventions spéciales « Responsabilité civile des dirigeants » du contrat CONVERGENCE de SMACL Assurances, diffusées sous le bandeau « Associations » ; « Le contrat est composé des conditions générales Convergence, des présentes conventions spéciales et des conditions particulières. » La garantie couvre les conséquences pécuniaires et les frais de défense résultant de la mise en cause de la responsabilité personnelle des dirigeants de droit ou de fait de la personne morale souscriptrice ou de ses filiales, à la suite d'une faute commise dans l'exercice de leurs fonctions. Six extensions de garantie sont prévues (faute non séparable des fonctions, frais de défense conjointe, frais de défense devant une autorité administrative, frais de comparution, frais de constitution de caution pénale, frais de défense engagés d'urgence), complétées par des prestations d'assistance (gestion de crise, communication de crise, gestion de l'image, protection du dirigeant, assistance psychologique) et par un service d'information juridique par téléphone. La garantie est déclenchée par la réclamation, avec un délai subséquent de cinq ans, s'exerce en France métropolitaine, dans les DROM, à Monaco, en Andorre et dans les pays de l'Union européenne, et à concurrence des montants indiqués aux conditions particulières, par période d'assurance et sans reconstitution.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : Conditions générales · Édition : 04/2025
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : Conditions générales · Édition : 04/2025
 
 ## Définitions
 
@@ -249,7 +249,7 @@ Conventions spéciales « Responsabilité civile des dirigeants » du contrat CO
 ## Documents liés
 
 - Extension / option du produit : **conditions générales Convergence**
-- [Convergence - Responsabilité civile des dirigeants - IPID](Convergence%20-%20Responsabilit%C3%A9%20civile%20des%20dirigeants%20-%20IPID.md) - IPID / Fiche d'information, éd. 02/2025
+- [Convergence - Responsabilité civile des dirigeants - IPID](<Convergence - Responsabilité civile des dirigeants - IPID.md>) - IPID / Fiche d'information, éd. 02/2025
 
 ## Source & fidélité
 

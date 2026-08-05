@@ -43,7 +43,7 @@ generated: true
 
 Comparatif sur deux pages des trois formules de l'assurance Mobile Home de MAAF, contrat « Mobile home et constructions légères ». Les trois formules correspondent à l'usage du bien : résidence donnée en location ou inhabitée, résidence secondaire, résidence principale. Le tableau liste 23 garanties réparties en cinq rubriques (garanties habitation, garanties complémentaires, garanties hors domicile, responsabilité civile, prestations d'assistance) et indique par une coche celles retenues dans chaque formule. Le document ne donne ni montants, ni franchises, ni exclusions et renvoie aux conditions générales du contrat.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Fiche produit · Édition : 06/2022
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : Fiche produit · Édition : 06/2022
 
 ## Garanties
 

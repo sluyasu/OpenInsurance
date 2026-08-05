@@ -43,84 +43,84 @@ generated: true
 
 ## Produits par branche
 
-### [Assurance agricole](../branches/Assurance%20agricole.md)
-- [Assurance Engins agricoles - IPID](../products/thelem/Assurance%20Engins%20agricoles%20-%20IPID.md) - IPID / Fiche d'information
-- [Assurance Terrenis - IPID](../products/thelem/Assurance%20Terrenis%20-%20IPID.md) - IPID / Fiche d'information
+### [Assurance agricole](<../branches/Assurance agricole.md>)
+- [Assurance Engins agricoles - IPID](<../products/thelem/Assurance Engins agricoles - IPID.md>) - IPID / Fiche d'information
+- [Assurance Terrenis - IPID](<../products/thelem/Assurance Terrenis - IPID.md>) - IPID / Fiche d'information
 
-### [Assurance auto](../branches/Assurance%20auto.md)
-- [Assurance Automobile - IPID](../products/thelem/Assurance%20Automobile%20-%20IPID.md) - IPID / Fiche d'information
-- [Assurance Camping-Car - IPID](../products/thelem/Assurance%20Camping-Car%20-%20IPID.md) - IPID / Fiche d'information
-- [Assurance Caravane - IPID](../products/thelem/Assurance%20Caravane%20-%20IPID.md) - IPID / Fiche d'information
-- [Assurance Engins de chantiers et de manutention - IPID](../products/thelem/Assurance%20Engins%20de%20chantiers%20et%20de%20manutention%20-%20IPID.md) - IPID / Fiche d'information
-- [Assurance Flotte Automobile - IPID](../products/thelem/Assurance%20Flotte%20Automobile%20-%20IPID.md) - IPID / Fiche d'information
-- [Assurance Véhicule de collection - IPID](../products/thelem/Assurance%20V%C3%A9hicule%20de%20collection%20-%20IPID.md) - IPID / Fiche d'information
-- [Assurance Véhicule de plus de 3,5 tonnes - IPID](../products/thelem/Assurance%20V%C3%A9hicule%20de%20plus%20de%203%2C5%20tonnes%20-%20IPID.md) - IPID / Fiche d'information
+### [Assurance auto](<../branches/Assurance auto.md>)
+- [Assurance Automobile - IPID](<../products/thelem/Assurance Automobile - IPID.md>) - IPID / Fiche d'information
+- [Assurance Camping-Car - IPID](<../products/thelem/Assurance Camping-Car - IPID.md>) - IPID / Fiche d'information
+- [Assurance Caravane - IPID](<../products/thelem/Assurance Caravane - IPID.md>) - IPID / Fiche d'information
+- [Assurance Engins de chantiers et de manutention - IPID](<../products/thelem/Assurance Engins de chantiers et de manutention - IPID.md>) - IPID / Fiche d'information
+- [Assurance Flotte Automobile - IPID](<../products/thelem/Assurance Flotte Automobile - IPID.md>) - IPID / Fiche d'information
+- [Assurance Véhicule de collection - IPID](<../products/thelem/Assurance Véhicule de collection - IPID.md>) - IPID / Fiche d'information
+- [Assurance Véhicule de plus de 3,5 tonnes - IPID](<../products/thelem/Assurance Véhicule de plus de 3,5 tonnes - IPID.md>) - IPID / Fiche d'information
 
-### [Chasse](../branches/Chasse.md)
-- [Assurance chasse - IPID](../products/thelem/Assurance%20chasse%20-%20IPID.md) - IPID / Fiche d'information
+### [Chasse](<../branches/Chasse.md>)
+- [Assurance chasse - IPID](<../products/thelem/Assurance chasse - IPID.md>) - IPID / Fiche d'information
 
-### [Assurance construction](../branches/Assurance%20construction.md)
-- [DCBAT - Responsabilité Décennale des entreprises du Bâtiment - IPID](../products/thelem/DCBAT%20-%20Responsabilit%C3%A9%20D%C3%A9cennale%20des%20entreprises%20du%20B%C3%A2timent%20-%20IPID.md) - IPID / Fiche d'information · réf. DCBAT
+### [Assurance construction](<../branches/Assurance construction.md>)
+- [DCBAT - Responsabilité Décennale des entreprises du Bâtiment - IPID](<../products/thelem/DCBAT - Responsabilité Décennale des entreprises du Bâtiment - IPID.md>) - IPID / Fiche d'information · réf. DCBAT
 
-### [EDPM et mobilités douces](../branches/EDPM%20et%20mobilit%C3%A9s%20douces.md)
-- [Assurance EDPM - IPID](../products/thelem/Assurance%20EDPM%20-%20IPID.md) - IPID / Fiche d'information
+### [EDPM et mobilités douces](<../branches/EDPM et mobilités douces.md>)
+- [Assurance EDPM - IPID](<../products/thelem/Assurance EDPM - IPID.md>) - IPID / Fiche d'information
 
-### [Assurance emprunteur](../branches/Assurance%20emprunteur.md)
-- [Thélem Emprunteur - IPID](../products/thelem/Th%C3%A9lem%20Emprunteur%20-%20IPID.md) - IPID / Fiche d'information
+### [Assurance emprunteur](<../branches/Assurance emprunteur.md>)
+- [Thélem Emprunteur - IPID](<../products/thelem/Thélem Emprunteur - IPID.md>) - IPID / Fiche d'information
 
-### [Garantie des accidents de la vie](../branches/Garantie%20des%20accidents%20de%20la%20vie.md)
-- [Assurance Accidents de la vie privée - IPID](../products/thelem/Assurance%20Accidents%20de%20la%20vie%20priv%C3%A9e%20-%20IPID.md) - IPID / Fiche d'information
+### [Garantie des accidents de la vie](<../branches/Garantie des accidents de la vie.md>)
+- [Assurance Accidents de la vie privée - IPID](<../products/thelem/Assurance Accidents de la vie privée - IPID.md>) - IPID / Fiche d'information
 
-### [Multirisque habitation](../branches/Multirisque%20habitation.md)
-- [Assurance Dommages aux biens - IPID](../products/thelem/Assurance%20Dommages%20aux%20biens%20-%20IPID.md) - IPID / Fiche d'information
-- [Assurance multirisque habitation - IPID](../products/thelem/Assurance%20multirisque%20habitation%20-%20IPID.md) - IPID / Fiche d'information (janvier 2026)
-- [Assurance multirisque habitation Propriétaire non occupant - IPID](../products/thelem/Assurance%20multirisque%20habitation%20Propri%C3%A9taire%20non%20occupant%20-%20IPID.md) - IPID / Fiche d'information (janvier 2026)
-- [Assurance multirisque habitation du mobil home - IPID](../products/thelem/Assurance%20multirisque%20habitation%20du%20mobil%20home%20-%20IPID.md) - IPID / Fiche d'information (janvier 2026)
-- [Assurance multirisque immeuble (COPROPRIETE) - IPID](../products/thelem/Assurance%20multirisque%20immeuble%20%28COPROPRIETE%29%20-%20IPID.md) - IPID / Fiche d'information (août 2025)
-- [Assurance multirisque immeuble - PROPRIETAIRE NON OCCUPANT - IPID](../products/thelem/Assurance%20multirisque%20immeuble%20-%20PROPRIETAIRE%20NON%20OCCUPANT%20-%20IPID.md) - IPID / Fiche d'information (juillet 2023)
+### [Multirisque habitation](<../branches/Multirisque habitation.md>)
+- [Assurance Dommages aux biens - IPID](<../products/thelem/Assurance Dommages aux biens - IPID.md>) - IPID / Fiche d'information
+- [Assurance multirisque habitation - IPID](<../products/thelem/Assurance multirisque habitation - IPID.md>) - IPID / Fiche d'information (janvier 2026)
+- [Assurance multirisque habitation Propriétaire non occupant - IPID](<../products/thelem/Assurance multirisque habitation Propriétaire non occupant - IPID.md>) - IPID / Fiche d'information (janvier 2026)
+- [Assurance multirisque habitation du mobil home - IPID](<../products/thelem/Assurance multirisque habitation du mobil home - IPID.md>) - IPID / Fiche d'information (janvier 2026)
+- [Assurance multirisque immeuble (COPROPRIETE) - IPID](<../products/thelem/Assurance multirisque immeuble (COPROPRIETE) - IPID.md>) - IPID / Fiche d'information (août 2025)
+- [Assurance multirisque immeuble - PROPRIETAIRE NON OCCUPANT - IPID](<../products/thelem/Assurance multirisque immeuble - PROPRIETAIRE NON OCCUPANT - IPID.md>) - IPID / Fiche d'information (juillet 2023)
 
-### [Deux-roues, quads et voiturettes](../branches/Deux-roues%2C%20quads%20et%20voiturettes.md)
-- [Assurance Cyclo - IPID](../products/thelem/Assurance%20Cyclo%20-%20IPID.md) - IPID / Fiche d'information (01/2026)
-- [Assurance Moto - IPID](../products/thelem/Assurance%20Moto%20-%20IPID.md) - IPID / Fiche d'information (01/2026)
-- [Assurance Quad - IPID](../products/thelem/Assurance%20Quad%20-%20IPID.md) - IPID / Fiche d'information (01/2026)
-- [Assurance Voiturette - IPID](../products/thelem/Assurance%20Voiturette%20-%20IPID.md) - IPID / Fiche d'information (01/2026)
+### [Deux-roues, quads et voiturettes](<../branches/Deux-roues, quads et voiturettes.md>)
+- [Assurance Cyclo - IPID](<../products/thelem/Assurance Cyclo - IPID.md>) - IPID / Fiche d'information (01/2026)
+- [Assurance Moto - IPID](<../products/thelem/Assurance Moto - IPID.md>) - IPID / Fiche d'information (01/2026)
+- [Assurance Quad - IPID](<../products/thelem/Assurance Quad - IPID.md>) - IPID / Fiche d'information (01/2026)
+- [Assurance Voiturette - IPID](<../products/thelem/Assurance Voiturette - IPID.md>) - IPID / Fiche d'information (01/2026)
 
-### [Multirisque professionnelle](../branches/Multirisque%20professionnelle.md)
-- [Assurance Garauto - IPID](../products/thelem/Assurance%20Garauto%20-%20IPID.md) - IPID / Fiche d'information
-- [Assurance multirisque professionnelle - IPID](../products/thelem/Assurance%20multirisque%20professionnelle%20-%20IPID.md) - IPID / Fiche d'information
-- [Bris de machine - IPID](../products/thelem/Bris%20de%20machine%20-%20IPID.md) - IPID / Fiche d'information
+### [Multirisque professionnelle](<../branches/Multirisque professionnelle.md>)
+- [Assurance Garauto - IPID](<../products/thelem/Assurance Garauto - IPID.md>) - IPID / Fiche d'information
+- [Assurance multirisque professionnelle - IPID](<../products/thelem/Assurance multirisque professionnelle - IPID.md>) - IPID / Fiche d'information
+- [Bris de machine - IPID](<../products/thelem/Bris de machine - IPID.md>) - IPID / Fiche d'information
 
-### [Obsèques](../branches/Obs%C3%A8ques.md)
-- [Assurance Initiative Obsèques Capital - IPID](../products/thelem/Assurance%20Initiative%20Obs%C3%A8ques%20Capital%20-%20IPID.md) - IPID / Fiche d'information
-- [Assurance Initiative Obsèques Services - IPID](../products/thelem/Assurance%20Initiative%20Obs%C3%A8ques%20Services%20-%20IPID.md) - IPID / Fiche d'information
+### [Obsèques](<../branches/Obsèques.md>)
+- [Assurance Initiative Obsèques Capital - IPID](<../products/thelem/Assurance Initiative Obsèques Capital - IPID.md>) - IPID / Fiche d'information
+- [Assurance Initiative Obsèques Services - IPID](<../products/thelem/Assurance Initiative Obsèques Services - IPID.md>) - IPID / Fiche d'information
 
-### [Prévoyance](../branches/Pr%C3%A9voyance.md)
-- [Assurance Capital Décès - IPID](../products/thelem/Assurance%20Capital%20D%C3%A9c%C3%A8s%20-%20IPID.md) - IPID / Fiche d'information
-- [Assurance Protection Famille - IPID](../products/thelem/Assurance%20Protection%20Famille%20-%20IPID.md) - IPID / Fiche d'information
-- [Prévoyance Agri - IPID](../products/thelem/Pr%C3%A9voyance%20Agri%20-%20IPID.md) - IPID / Fiche d'information
-- [Prévoyance Pro - IPID](../products/thelem/Pr%C3%A9voyance%20Pro%20-%20IPID.md) - IPID / Fiche d'information
-- [Prévoyance Pro Madelin - IPID](../products/thelem/Pr%C3%A9voyance%20Pro%20Madelin%20-%20IPID.md) - IPID / Fiche d'information
+### [Prévoyance](<../branches/Prévoyance.md>)
+- [Assurance Capital Décès - IPID](<../products/thelem/Assurance Capital Décès - IPID.md>) - IPID / Fiche d'information
+- [Assurance Protection Famille - IPID](<../products/thelem/Assurance Protection Famille - IPID.md>) - IPID / Fiche d'information
+- [Prévoyance Agri - IPID](<../products/thelem/Prévoyance Agri - IPID.md>) - IPID / Fiche d'information
+- [Prévoyance Pro - IPID](<../products/thelem/Prévoyance Pro - IPID.md>) - IPID / Fiche d'information
+- [Prévoyance Pro Madelin - IPID](<../products/thelem/Prévoyance Pro Madelin - IPID.md>) - IPID / Fiche d'information
 
-### [Protection juridique](../branches/Protection%20juridique.md)
-- [Assurance Protection Juridique du Professionnel - IPID](../products/thelem/Assurance%20Protection%20Juridique%20du%20Professionnel%20-%20IPID.md) - IPID / Fiche d'information
-- [Assurance Protection Juridique du Professionnel agricole - IPID](../products/thelem/Assurance%20Protection%20Juridique%20du%20Professionnel%20agricole%20-%20IPID.md) - IPID / Fiche d'information
-- [Assurance Protection Juridique du particulier - IPID](../products/thelem/Assurance%20Protection%20Juridique%20du%20particulier%20-%20IPID.md) - IPID / Fiche d'information
+### [Protection juridique](<../branches/Protection juridique.md>)
+- [Assurance Protection Juridique du Professionnel - IPID](<../products/thelem/Assurance Protection Juridique du Professionnel - IPID.md>) - IPID / Fiche d'information
+- [Assurance Protection Juridique du Professionnel agricole - IPID](<../products/thelem/Assurance Protection Juridique du Professionnel agricole - IPID.md>) - IPID / Fiche d'information
+- [Assurance Protection Juridique du particulier - IPID](<../products/thelem/Assurance Protection Juridique du particulier - IPID.md>) - IPID / Fiche d'information
 
-### [Responsabilité civile vie privée](../branches/Responsabilit%C3%A9%20civile%20vie%20priv%C3%A9e.md)
-- [Assurance responsabilité civile association - IPID](../products/thelem/Assurance%20responsabilit%C3%A9%20civile%20association%20-%20IPID.md) - IPID / Fiche d'information
-- [Assurance responsabilité civile vie privée - IPID](../products/thelem/Assurance%20responsabilit%C3%A9%20civile%20vie%20priv%C3%A9e%20-%20IPID.md) - IPID / Fiche d'information
+### [Responsabilité civile vie privée](<../branches/Responsabilité civile vie privée.md>)
+- [Assurance responsabilité civile association - IPID](<../products/thelem/Assurance responsabilité civile association - IPID.md>) - IPID / Fiche d'information
+- [Assurance responsabilité civile vie privée - IPID](<../products/thelem/Assurance responsabilité civile vie privée - IPID.md>) - IPID / Fiche d'information
 
-### [RC professionnelle](../branches/RC%20professionnelle.md)
-- [Responsabilité Civile Chef d'Entreprise- Professions libérales - IPID](../products/thelem/Responsabilit%C3%A9%20Civile%20Chef%20d%27Entreprise-%20Professions%20lib%C3%A9rales%20-%20IPID.md) - IPID / Fiche d'information
+### [RC professionnelle](<../branches/RC professionnelle.md>)
+- [Responsabilité Civile Chef d'Entreprise- Professions libérales - IPID](<../products/thelem/Responsabilité Civile Chef d'Entreprise- Professions libérales - IPID.md>) - IPID / Fiche d'information
 
-### [Complémentaire santé](../branches/Compl%C3%A9mentaire%20sant%C3%A9.md)
-- [Assurance Complémentaire Santé – gamme non responsable et solidaire - IPID](../products/thelem/Assurance%20Compl%C3%A9mentaire%20Sant%C3%A9%20%E2%80%93%20gamme%20non%20responsable%20et%20solidaire%20-%20IPID.md) - IPID / Fiche d'information
-- [Assurance Complémentaire Santé – gamme responsable et solidaire - IPID](../products/thelem/Assurance%20Compl%C3%A9mentaire%20Sant%C3%A9%20%E2%80%93%20gamme%20responsable%20et%20solidaire%20-%20IPID.md) - IPID / Fiche d'information
-- [INTÉGRALE 1, INTÉGRALE 2, INTÉGRALE 3, INTÉGRALE 4 – Formules responsables et solidaires - Doc](../products/thelem/INT%C3%89GRALE%201%2C%20INT%C3%89GRALE%202%2C%20INT%C3%89GRALE%203%2C%20INT%C3%89GRALE%204%20%E2%80%93%20Formules%20responsables%20et%20solidaires%20-%20Doc.md) - Document
-- [PRIMORDIALE 1, PRIMORDIALE 2, PRIMORDIALE 3 – Formules NON responsables et solidaires - Doc](../products/thelem/PRIMORDIALE%201%2C%20PRIMORDIALE%202%2C%20PRIMORDIALE%203%20%E2%80%93%20Formules%20NON%20responsables%20et%20solidaires%20-%20Doc.md) - Document
+### [Complémentaire santé](<../branches/Complémentaire santé.md>)
+- [Assurance Complémentaire Santé – gamme non responsable et solidaire - IPID](<../products/thelem/Assurance Complémentaire Santé – gamme non responsable et solidaire - IPID.md>) - IPID / Fiche d'information
+- [Assurance Complémentaire Santé – gamme responsable et solidaire - IPID](<../products/thelem/Assurance Complémentaire Santé – gamme responsable et solidaire - IPID.md>) - IPID / Fiche d'information
+- [INTÉGRALE 1, INTÉGRALE 2, INTÉGRALE 3, INTÉGRALE 4 – Formules responsables et solidaires - Doc](<../products/thelem/INTÉGRALE 1, INTÉGRALE 2, INTÉGRALE 3, INTÉGRALE 4 – Formules responsables et solidaires - Doc.md>) - Document
+- [PRIMORDIALE 1, PRIMORDIALE 2, PRIMORDIALE 3 – Formules NON responsables et solidaires - Doc](<../products/thelem/PRIMORDIALE 1, PRIMORDIALE 2, PRIMORDIALE 3 – Formules NON responsables et solidaires - Doc.md>) - Document
 
-### [Scolaire et extrascolaire](../branches/Scolaire%20et%20extrascolaire.md)
-- [Assurance scolaire et extra-scolaire - IPID](../products/thelem/Assurance%20scolaire%20et%20extra-scolaire%20-%20IPID.md) - IPID / Fiche d'information
+### [Scolaire et extrascolaire](<../branches/Scolaire et extrascolaire.md>)
+- [Assurance scolaire et extra-scolaire - IPID](<../products/thelem/Assurance scolaire et extra-scolaire - IPID.md>) - IPID / Fiche d'information
 
 ## Source
 

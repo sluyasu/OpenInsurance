@@ -45,7 +45,7 @@ generated: true
 
 Conditions d'octroi de l'Avantage Hiver Matmut & Co, avantage tarifaire adossé au contrat multirisques « Auto 4D Distinguo & Co » porté par Matmut & Co SA. Le souscripteur qui s'engage à remiser et à ne pas utiliser son véhicule pendant l'hiver bénéficie d'une réduction de 5 % sur le montant de sa cotisation, la garantie Responsabilité civile et, si elles sont souscrites, les garanties Dommages au véhicule demeurant acquises pendant la période d'hivernage. Le document énumère les conditions d'octroi, les modalités de prise d'effet et de suppression, et les sanctions applicables en cas de non-respect. Il est valable jusqu'au 31/12/2026.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions tarifaires · Édition : 2026-01
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions tarifaires · Édition : 2026-01
 
 ## Garanties
 
@@ -115,7 +115,7 @@ Pendant cette période d'hivernage, et sous réserve que toutes les conditions s
 
 - Édition courante de ce produit.
 - Extension / option du produit : **Contrat Auto 4D Distinguo & Co**
-- [Avantage Hiver Matmut & Co - Tarifs](Avantage%20Hiver%20Matmut%20%26%20Co%20-%20Tarifs%20%282%29.md) - Conditions tarifaires, éd. 2026-01
+- [Avantage Hiver Matmut & Co - Tarifs](<Avantage Hiver Matmut & Co - Tarifs (2).md>) - Conditions tarifaires, éd. 2026-01
 
 ## Source & fidélité
 

@@ -44,7 +44,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du contrat « Association » de la Matmut, présenté sous le titre « Assurance des associations ». Le contrat garantit les risques encourus par les associations contre les conséquences des dommages matériels ou corporels causés à des tiers (Responsabilité Civile) dans le cadre des activités déclarées, et peut comprendre des garanties complémentaires destinées à couvrir des biens mobiliers et immobiliers. Les garanties en inclusion comprennent la Responsabilité Civile Vie Associative, Immeuble et Dirigeants, l'assistance aux adhérents en déplacement, les dommages corporels des participants aux activités et deux garanties de Protection Juridique. Neuf garanties optionnelles, réparties en deux ensembles (assurance des locaux associatifs et assistance aux locaux associatifs), peuvent être ajoutées.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information · Édition : 07/23
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : IPID / Fiche d'information · Édition : 07/23
 
 ## Garanties
 
@@ -209,7 +209,7 @@ Garantie optionnelle d'assistance, listée sous l'intitulé « Assistance aux lo
 
 ## Documents liés
 
-- [Association](Association.md) - Conditions générales, éd. 11/24
+- [Association](<Association.md>) - Conditions générales, éd. 11/24
 
 ## Source & fidélité
 

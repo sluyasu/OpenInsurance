@@ -43,7 +43,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de l’Assurance Vélo MAIF. Le produit couvre les dommages corporels des utilisateurs ayant qualité d’assurés (avec des plafonds chiffrés par poste), les dommages au vélo et à ses accessoires pour une liste d’événements, le recours et l’assistance au vélo en cas de déplacement. Une garantie optionnelle « Responsabilité civile-défense » est proposée. Le contrat est conclu pour un an et reconduit automatiquement chaque 1er janvier.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [EDPM et mobilités douces](../../branches/EDPM%20et%20mobilit%C3%A9s%20douces.md) · Type : IPID / Fiche d'information · Édition : 06/2026
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [EDPM et mobilités douces](<../../branches/EDPM et mobilités douces.md>) · Type : IPID / Fiche d'information · Édition : 06/2026
 
 ## Définitions
 

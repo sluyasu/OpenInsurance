@@ -50,7 +50,7 @@ generated: true
 
 Règlement mutualiste et notice d’information détaillée du contrat GARANTIE AUTONOMIE ET DÉPENDANCE, garanties en vigueur au 1er janvier 2026. Le produit couvre la perte d’autonomie évaluée sur la grille AGGIR : un capital premiers frais forfaitaire de 4 000 € versé une seule fois dès un classement en GIR 1 à 4, et une rente dépendance mensuelle versée en cas de classement en GIR 1 à 3, dont le montant dépend de l’une des six formules souscrites (ESSENTIELLE, ESSENTIELLE +, MÉDIANE, CONFORT, CONFORT +, ÉTABLISSEMENT) et du lieu de vie (Rente Domicile ou Rente Établissement). S’y ajoutent des garanties d’assistance accessibles dès l’adhésion, en cas de dépendance et au profit des aidants. Le document se compose de deux parties : le règlement mutualiste du contrat individuel (particuliers) et la notice d’information des deux contrats collectifs à adhésion facultative souscrits par l’APPIC pour les travailleurs indépendants (cadre loi Madelin).
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : Conditions générales · Édition : 2026-01-01
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : Conditions générales · Édition : 2026-01-01
 
 ## Définitions
 
@@ -419,7 +419,7 @@ Organisation et prise en charge, selon la situation, de 1 à 5 entretiens télé
 
 ## Documents liés
 
-- [contrat GARANTIE AUTONOMIE ET DÉPENDANCE - IPID](contrat%20GARANTIE%20AUTONOMIE%20ET%20D%C3%89PENDANCE%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/26
+- [contrat GARANTIE AUTONOMIE ET DÉPENDANCE - IPID](<contrat GARANTIE AUTONOMIE ET DÉPENDANCE - IPID.md>) - IPID / Fiche d'information, éd. 01/26
 
 ## Source & fidélité
 

@@ -46,7 +46,7 @@ generated: true
 
 General Conditions of Insurance for the Globality YouGenio® for Germany international private medical insurance plan of Foyer Global Health S.A. (Luxembourg), designed for expatriates who temporarily reside abroad for at least three months. The plan comprises three plan levels - Classic, Plus and Top - covering inpatient, outpatient, dental, medical assistance and additional assistance benefits, with 100 % reimbursement of eligible expenses according to the level chosen. Cover applies in geographical area I (worldwide including USA) or II (worldwide excluding USA), with the maximum sums doubled under area I. Existing medical conditions are excluded as a matter of principle unless included at application or through the moratorium clause, qualifying periods of 8 months apply to pregnancy, childbirth, psychotherapy and major dental performances, and cover for a person residing in Germany ends after a maximum period of 5 years.
 
-- Assureur : [Foyer Global Health](../../insurers/Foyer%20Global%20Health.md) · Branche : Complémentaire santé · Type : Conditions générales
+- Assureur : [Foyer Global Health](<../../insurers/Foyer Global Health.md>) · Branche : Complémentaire santé · Type : Conditions générales
 
 ## Définitions
 
@@ -733,8 +733,8 @@ Insofar as the agreed plan level also provides for corresponding reimbursements,
 
 ## Documents liés
 
-- [Globality YouGenio® for Germany (for Germany (Tarifstufen Classic, Plus und Top)) - DE](Globality%20YouGenio%C2%AE%20for%20Germany%20%28for%20Germany%20%28Tarifstufen%20Classic%2C%20Plus%20und%20Top%29%29%20-%20DE.md) - Conditions générales
-- [Globality YouGenio® World - EN](Globality%20YouGenio%C2%AE%20World%20-%20EN.md) - Conditions générales
+- [Globality YouGenio® for Germany (for Germany (Tarifstufen Classic, Plus und Top)) - DE](<Globality YouGenio® for Germany (for Germany (Tarifstufen Classic, Plus und Top)) - DE.md>) - Conditions générales
+- [Globality YouGenio® World - EN](<Globality YouGenio® World - EN.md>) - Conditions générales
 
 ## Source & fidélité
 

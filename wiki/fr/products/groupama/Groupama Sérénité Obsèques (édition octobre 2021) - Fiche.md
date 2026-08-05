@@ -41,7 +41,7 @@ generated: true
 
 Document d'informations clés (DIC / PRIIPs) de Groupama Sérénité Obsèques, contrat d'assurance de groupe prévoyance vie entière à adhésion facultative souscrit auprès de Groupama Gan Vie par l'ANADAV, relevant des branches 20 (Vie-Décès) et 18 (Assistance). Le produit prévoit le versement, au décès de l'adhérent, d'un capital destiné au financement de ses obsèques, payé soit à l'opérateur funéraire, soit à la personne physique ayant acquitté la facture, le solde éventuel revenant aux bénéficiaires désignés. Le financement se fait par cotisations périodiques (temporaires de 2 à 20 ans ou viagères) ou par prime unique, dont le montant dépend de l'âge à l'adhésion et du capital garanti. Le document présente l'indicateur de risque (1 sur 7), les coûts, la durée de détention recommandée de 8 ans et les voies de réclamation.
 
-- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : Fiche produit · Édition : Dernière mise à jour le 1er octobre 2021
+- Assureur : [Groupama](<../../insurers/Groupama.md>) · Branche : [Obsèques](<../../branches/Obsèques.md>) · Type : Fiche produit · Édition : Dernière mise à jour le 1er octobre 2021
 
 ## Définitions
 
@@ -152,9 +152,9 @@ Le fonds en euros est décrit dans un document d'informations clés spécifique 
 
 ## Documents liés
 
-- ⚠️ Édition remplacée par une version plus récente : [GROUPAMA SÉRÉNITÉ OBSÈQUES - Fiche](GROUPAMA%20S%C3%89R%C3%89NIT%C3%89%20OBS%C3%88QUES%20-%20Fiche.md)
-- [GROUPAMA SÉRÉNITÉ OBSÈQUES - Tarifs](GROUPAMA%20S%C3%89R%C3%89NIT%C3%89%20OBS%C3%88QUES%20-%20Tarifs.md) - Conditions tarifaires, éd. 032026
-- [GROUPAMA SÉRÉNITÉ OBSÈQUES - Fiche](GROUPAMA%20S%C3%89R%C3%89NIT%C3%89%20OBS%C3%88QUES%20-%20Fiche.md) - Fiche produit, éd. Dernière mise à jour le 1er mars 2023
+- ⚠️ Édition remplacée par une version plus récente : [GROUPAMA SÉRÉNITÉ OBSÈQUES - Fiche](<GROUPAMA SÉRÉNITÉ OBSÈQUES - Fiche.md>)
+- [GROUPAMA SÉRÉNITÉ OBSÈQUES - Tarifs](<GROUPAMA SÉRÉNITÉ OBSÈQUES - Tarifs.md>) - Conditions tarifaires, éd. 032026
+- [GROUPAMA SÉRÉNITÉ OBSÈQUES - Fiche](<GROUPAMA SÉRÉNITÉ OBSÈQUES - Fiche.md>) - Fiche produit, éd. Dernière mise à jour le 1er mars 2023
 
 ## Source & fidélité
 

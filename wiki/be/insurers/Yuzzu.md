@@ -28,14 +28,14 @@ generated: true
 
 ## Produits par branche
 
-### [Auto](../branches/Auto.md)
-- [Assurance Auto - IPID](../products/yuzzu/Assurance%20Auto%20-%20IPID.md) - IPID / Fiche d'information (12/05/2026) · réf. TCAR08
-- [Assurance Auto](../products/yuzzu/Assurance%20Auto.md) - Conditions générales (2026-05-12) · réf. AUTO-07-FR
-- [Assurance Auto](../products/yuzzu/Assurance%20Auto%20%282%29.md) - Conditions générales (2026-05-12) · réf. AUTO-08-FR
+### [Auto](<../branches/Auto.md>)
+- [Assurance Auto - IPID](<../products/yuzzu/Assurance Auto - IPID.md>) - IPID / Fiche d'information (12/05/2026) · réf. TCAR08
+- [Assurance Auto](<../products/yuzzu/Assurance Auto.md>) - Conditions générales (2026-05-12) · réf. AUTO-07-FR
+- [Assurance Auto](<../products/yuzzu/Assurance Auto (2).md>) - Conditions générales (2026-05-12) · réf. AUTO-08-FR
 
-### [Habitation](../branches/Habitation.md)
-- [Assurance Habitation - IPID](../products/yuzzu/Assurance%20Habitation%20-%20IPID.md) - IPID / Fiche d'information (12/05/2026)
-- [Assurance Habitation](../products/yuzzu/Assurance%20Habitation.md) - Conditions générales (2026-05-12) · réf. HF-05-FR
+### [Habitation](<../branches/Habitation.md>)
+- [Assurance Habitation - IPID](<../products/yuzzu/Assurance Habitation - IPID.md>) - IPID / Fiche d'information (12/05/2026)
+- [Assurance Habitation](<../products/yuzzu/Assurance Habitation.md>) - Conditions générales (2026-05-12) · réf. HF-05-FR
 
 ## Source
 

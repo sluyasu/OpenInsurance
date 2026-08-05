@@ -40,7 +40,7 @@ generated: true
 
 Tableau commercial d'une page présentant « Ce que couvre l'assurance multirisques habitation ». Il énumère, par familles (indemnisation du logement et de son contenu, biens extérieurs, responsabilités civiles, garanties d'aide, garanties enfants/vacances, panel de services), les garanties proposées, avec des renvois de notes indiquant quelles garanties composent la protection minimale, quelle protection ne couvre que la responsabilité civile vie privée, et quelles garanties ne sont pas accessibles au devis en ligne. Le document énonce que chaque protection inclut au minimum 10 garanties essentielles, et que la piscine extérieure et les panneaux photovoltaïques sont automatiquement couverts s'ils sont déclarés. Il ne contient ni montants, ni plafonds, ni franchises, ni exclusions.
 
-- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Document
+- Assureur : [Groupama](<../../insurers/Groupama.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : Document
 
 ## Garanties
 

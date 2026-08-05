@@ -40,7 +40,7 @@ generated: true
 
 Fiche « Exemples de remboursements » de la complémentaire santé SYNERGIE SANTÉ ESSENTIELLE de Groupama, présentée comme un « Contrat d'assurance santé responsable ». Le document compare, poste par poste, le tarif habituellement facturé, la base de remboursement de la Sécurité sociale, le remboursement de l'assurance maladie obligatoire, celui de l'assurance maladie complémentaire et le reste à charge, pour cinq formules (Formule 1 à Formule 5) sur les rubriques Hospitalisation, Soins courants, Aides auditives, Dentaire et Optique. Le document précise qu'il ne se substitue pas aux documents contractuels, qui seuls engagent l'organisme de complémentaire santé.
 
-- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Document · Édition : 052022
+- Assureur : [Groupama](<../../insurers/Groupama.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Document · Édition : 052022
 
 ## Définitions
 

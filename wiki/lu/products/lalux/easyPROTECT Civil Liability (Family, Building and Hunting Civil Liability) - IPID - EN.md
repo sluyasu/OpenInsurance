@@ -46,7 +46,7 @@ generated: true
 
 Two-page Insurance Product Information Document (IPID) for easyPROTECT Civil Liability, covering Family, Building and Hunting civil liability. Family CL covers the policyholder and any person living in the same household for damage caused to a third party in private life, excluding any professional activity, and adds legal protection. Building CL covers damage caused to third parties by a building or land owned by an insured person who does not live on the land or in the building, and adds legal protection. Hunting CL covers the financial consequences of civil liability for bodily injury and material damage caused to third parties during hunting. Both the exclusions box and the restrictions box carry the printed note “Non-exhaustive list”.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Responsabilité civile familiale](../../branches/Responsabilit%C3%A9%20civile%20familiale.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Responsabilité civile familiale](<../../branches/Responsabilité civile familiale.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

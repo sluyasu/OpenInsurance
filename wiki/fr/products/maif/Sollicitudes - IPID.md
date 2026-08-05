@@ -41,7 +41,7 @@ generated: true
 
 Document d'informations clés (DIC / KID PRIIPs) du contrat Sollicitudes, conçu et géré par MAIF VIE, filiale assurance vie de MAIF. Sollicitudes est un contrat collectif d'assurance obsèques à adhésion individuelle ou conjointe souscrit auprès de MAIF et MAIF VIE par l'ASAP (Association Solidarité Autonomie et Prévoyance) ; c'est un contrat d'assurance sur la vie. Il comprend deux garanties indissociables : une garantie décès portée par MAIF VIE et une garantie d'assistance portée par MAIF. Le document présente l'indicateur de risque (3 sur 7), des scénarios de performance, les coûts et la période de détention recommandée de 30 ans.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : IPID / Fiche d'information · Édition : 27/09/2023
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Obsèques](<../../branches/Obsèques.md>) · Type : IPID / Fiche d'information · Édition : 27/09/2023
 
 ## Définitions
 
@@ -116,9 +116,9 @@ Une garantie d'assistance dont l'assureur est MAIF qui permet d'apporter des pre
 
 ## Documents liés
 
-- [Sollicitudes](Sollicitudes.md) - Conditions générales, éd. 01/2024
-- [Sollicitudes - Tarifs](Sollicitudes%20-%20Tarifs.md) - Conditions tarifaires, éd. 07/2025
-- [Sollicitudes - Doc](Sollicitudes%20-%20Doc.md) - Document, éd. 07/2025
+- [Sollicitudes](<Sollicitudes.md>) - Conditions générales, éd. 01/2024
+- [Sollicitudes - Tarifs](<Sollicitudes - Tarifs.md>) - Conditions tarifaires, éd. 07/2025
+- [Sollicitudes - Doc](<Sollicitudes - Doc.md>) - Document, éd. 07/2025
 
 ## Source & fidélité
 

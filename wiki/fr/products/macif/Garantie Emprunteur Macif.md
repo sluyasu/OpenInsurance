@@ -47,7 +47,7 @@ generated: true
 
 Note d'information détaillée du contrat Garantie Emprunteur Macif, assurance emprunteur adossée au contrat collectif n°207003 souscrit par la Macif au profit de ses sociétaires auprès d'Apivia Macif Mutuelle, gérée par SECURIMUT. Elle couvre, dans le cadre de prêts immobiliers ou professionnels, le décès, la Perte Totale et Irréversible d'Autonomie (P.T.I.A.), l'Incapacité Temporaire Totale de Travail (I.T.T.) et l'Invalidité Partielle ou Totale (I.P.T.), ainsi qu'une Garantie d'Aide à la Famille. Les prestations sont pondérées par la quotité souscrite et les garanties s'exercent dans le monde entier.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Assurance emprunteur](../../branches/Assurance%20emprunteur.md) · Type : Conditions générales
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Assurance emprunteur](<../../branches/Assurance emprunteur.md>) · Type : Conditions générales
 
 ## Définitions
 

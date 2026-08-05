@@ -45,7 +45,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de l’assurance Assistance et Frais d’Annulation ou de Retard proposée avec les voyages Luxair Tours, distribuée sous la marque LALUX Assurances. Le produit réunit, en fonction des éléments/formules choisis, une série de couvertures d’assistance en cours de voyage (protection juridique, caution pénale, bagages, accident de voyage, franchise véhicule de location et assistance aux assurés avec rapatriement, frais médicaux à l’étranger, frais de recherche et de sauvetage et retour anticipé) et la garantie des frais d’annulation, d’interruption de voyage ou de départ retardé. Les seuls montants imprimés sont des plafonds : 50 000 EUR pour les frais médicaux à l’étranger, 5 000 EUR pour les frais de recherche et de sauvetage, 5 000 EUR pour la protection juridique, 12 500 EUR pour la caution pénale et 2 000 EUR pour les bagages. L’assurance est valable dans le monde entier.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Voyage et assistance](<../../branches/Voyage et assistance.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

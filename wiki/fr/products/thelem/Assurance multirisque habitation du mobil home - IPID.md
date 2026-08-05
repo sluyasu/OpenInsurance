@@ -42,7 +42,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de l'assurance multirisque habitation du mobil home de Thélem assurances. Cette assurance habitation a pour objectifs de garantir le mobil home occupé en qualité de propriétaire ou de locataire, les responsabilités civiles en tant qu'occupant et dans le cadre de la vie privée ; le mobil home assuré est celui dont la valeur vénale est inférieure à 50 000 € situé à l'adresse déclarée aux Conditions Particulières. Les garanties systématiquement prévues couvrent les responsabilités civiles et la défense des droits (dont Défense Pénale et Recours Suite à Accident jusqu'à 16 000 €), les dommages à l'habitation et son contenu (incendie et explosions, catastrophes naturelles, technologiques et attentat, événements climatiques, dégâts des eaux et gel, vol, détériorations immobilières et vandalisme, bris de glaces, frais additionnels, équipements photovoltaïques jusqu'à 5 000 €, biens en plein air et végétaux) et des prestations d'assistance.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information · Édition : janvier 2026
+- Assureur : [Thélem assurances](<../../insurers/Thélem assurances.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : IPID / Fiche d'information · Édition : janvier 2026
 
 ## Garanties
 

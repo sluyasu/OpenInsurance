@@ -46,7 +46,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (DIPA/IPID) du contrat MACIF HOSPITALISATION, assuré par Macif Santé Prévoyance. Le contrat est destiné à rembourser, en complément de la Sécurité sociale française, tout ou partie des frais de santé restant à la charge de l'assuré et de ses éventuels ayants droit bénéficiaires, réalisés par l'hôpital entre la date d'entrée et la date de sortie de l'hospitalisation, en cas d'accident, de maladie ou de maternité. Treize garanties frais de santé, six garanties d'assistance et deux services sont systématiquement prévus au contrat. Le document précise que ce contrat n'est pas un contrat solidaire et responsable au sens de l'article L. 871 - 1 du Code de la sécurité sociale.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : IPID / Fiche d'information · Édition : 01/26
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : IPID / Fiche d'information · Édition : 01/26
 
 ## Garanties
 
@@ -296,9 +296,9 @@ Service « Tiers payant » listé parmi « LES SERVICES SYSTÉMATIQUEMENT PRÉVU
 ## Documents liés
 
 - Édition courante de ce produit.
-- [contrat MACIF HOSPITALISATION - IPID](contrat%20MACIF%20HOSPITALISATION%20-%20IPID%20%282%29.md) - IPID / Fiche d'information, éd. 10/22
-- [MACIF HOSPITALISATION](MACIF%20HOSPITALISATION%20%282%29.md) - Conditions générales, éd. 01/24
-- [Macif Hospitalisation](Macif%20Hospitalisation.md) - Conditions générales, éd. 01/26
+- [contrat MACIF HOSPITALISATION - IPID](<contrat MACIF HOSPITALISATION - IPID (2).md>) - IPID / Fiche d'information, éd. 10/22
+- [MACIF HOSPITALISATION](<MACIF HOSPITALISATION (2).md>) - Conditions générales, éd. 01/24
+- [Macif Hospitalisation](<Macif Hospitalisation.md>) - Conditions générales, éd. 01/26
 
 ## Source & fidélité
 

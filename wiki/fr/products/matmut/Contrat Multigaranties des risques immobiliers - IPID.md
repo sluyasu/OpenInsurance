@@ -46,7 +46,7 @@ generated: true
 
 Document d'information (IPID) du « Contrat Multigaranties des risques immobiliers », présenté sous l'intitulé « ASSURANCE MULTIRISQUES PROPRIÉTAIRE NON OCCUPANT/PROPRIETAIRE NON EXPLOITANT ». Le porteur de risque nommé est Inter Mutuelles Entreprises, Société Anonyme à directoire et conseil de surveillance au capital de 22 763 000 € entièrement libéré, N° 493 147 011 RCS Rouen. L'offre est destinée à assurer les dommages aux biens immobiliers loués à des tiers, la Responsabilité civile du propriétaire du bien loué et la protection des droits du propriétaire du bien loué. Dix garanties sont présentées comme systématiquement prévues au contrat (dommages à l'immeuble en valeur à neuf de reconstruction, responsabilités liées à l'immeuble, responsabilité civile du propriétaire jusqu'à 10 000 000 €, Protection Juridique suite à accident) et cinq garanties sont proposées en option.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information · Édition : 11/25
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : IPID / Fiche d'information · Édition : 11/25
 
 ## Garanties
 

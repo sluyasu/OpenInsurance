@@ -47,7 +47,7 @@ generated: true
 
 Conditions générales du contrat « Sécurité des salariés et bénévoles d'association » de SMACL Assurances, diffusées sous le bandeau « Associations » : « Le contrat […] est régi par le Code des assurances et composé des présentes conditions générales et des conditions particulières. » Selon les indications des conditions particulières, il garantit trois risques - protection juridique de l'assuré, assistance psychologique et maintien du salaire - au bénéfice de toute personne physique, salariée ou bénévole de la personne morale souscriptrice. La protection juridique couvre la défense de l'assuré devant les tribunaux civils, répressifs et administratifs et le recours contre un tiers, avec une extension aux litiges de harcèlement sexuel ou moral et de discrimination ; l'assistance psychologique est organisée par SMACL Assistance ; le maintien du salaire verse à l'employeur le dernier salaire net mensuel de l'assuré, pendant six mois maximum, lorsque celui-ci ne peut plus exercer ses fonctions du fait d'une procédure pénale. Un service d'information juridique en ligne et par téléphone complète ces garanties. Les garanties s'appliquent en France métropolitaine, dans les DROM et dans l'Union européenne, et dans le monde entier pour les déplacements n'excédant pas trois mois consécutifs.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : Conditions générales · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : Conditions générales · Édition : 01/2024
 
 ## Définitions
 
@@ -229,7 +229,7 @@ Conditions générales du contrat « Sécurité des salariés et bénévoles d'a
 
 ## Documents liés
 
-- [Sécurité des salariés et bénévoles d'association - IPID](S%C3%A9curit%C3%A9%20des%20salari%C3%A9s%20et%20b%C3%A9n%C3%A9voles%20d%27association%20-%20IPID.md) - IPID / Fiche d'information, éd. 02/2025
+- [Sécurité des salariés et bénévoles d'association - IPID](<Sécurité des salariés et bénévoles d'association - IPID.md>) - IPID / Fiche d'information, éd. 02/2025
 
 ## Source & fidélité
 

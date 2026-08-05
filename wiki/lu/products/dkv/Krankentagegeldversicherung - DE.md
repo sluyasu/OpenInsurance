@@ -40,7 +40,7 @@ generated: true
 
 Allgemeine Versicherungsbedingungen (Bedingungsteil) der DKV Luxembourg S.A. für die Krankentagegeldversicherung, Ausgabe AVB KT (12/15). Der Versicherer bietet Versicherungsschutz gegen Verdienstausfall als Folge von Krankheiten oder Unfällen, soweit dadurch Arbeitsunfähigkeit verursacht wird, und zahlt für deren Dauer ein Krankentagegeld in vertraglichem Umfang. Der Versicherungsschutz erstreckt sich auf das Großherzogtum Luxemburg, mit Leistung bei stationärer Heilbehandlung im europäischen Ausland. Höhe und Dauer der Leistungen ergeben sich aus dem Tarif, der diesem Dokument nicht beigefügt ist. Dasselbe Heft enthält denselben Bedingungstext auch auf Französisch und auf Englisch.
 
-- Assureur : [DKV Luxembourg](../../insurers/DKV%20Luxembourg.md) · Branche : Complémentaire santé · Type : Conditions générales · Édition : 12/15
+- Assureur : [DKV Luxembourg](<../../insurers/DKV Luxembourg.md>) · Branche : Complémentaire santé · Type : Conditions générales · Édition : 12/15
 
 > ⚠️ **Édition ancienne** : 12/15, soit 11 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 

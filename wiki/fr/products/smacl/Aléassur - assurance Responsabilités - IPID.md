@@ -40,7 +40,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (DIPA) du contrat Aléassur - assurance Responsabilités, présenté sous le titre « Assurance Responsabilités des collectivités territoriales ». Le contrat garantit les conséquences pécuniaires de la responsabilité encourue par l’assuré pour les dommages causés aux tiers (y compris agents, élus et collaborateurs bénévoles du service public) en raison des activités qui sont légalement les siennes. L’indemnité est limitée à 17 000 000 €, avec des plafonds propres à certaines garanties, et douze garanties sont systématiquement prévues aux côtés de huit garanties optionnelles.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : IPID / Fiche d'information · Édition : 02/2025
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : IPID / Fiche d'information · Édition : 02/2025
 
 ## Garanties
 

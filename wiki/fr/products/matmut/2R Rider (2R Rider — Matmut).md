@@ -49,7 +49,7 @@ generated: true
 
 Conditions générales du contrat d'assurance Multirisques « 2R Rider » de la Matmut, valant projet de contrat au sens de l'article L. 112-2 du Code des assurances. Le contrat garantit les risques découlant de la propriété, de l'usage et/ou de la garde d'un véhicule terrestre à moteur à 2 ou 3 roues ou de type « quad » immatriculé en France ou à Monaco, et ne peut être souscrit que par un proposant admis au préalable comme Sociétaire. Trois formules sont commercialisées (Tiers, Tiers-Vol-Incendie, Équilibre), la formule Urbaine n'étant plus commercialisée depuis le 1er janvier 2022 ; chaque formule associe des garanties en inclusion (Responsabilité civile et défense civile, Protection Juridique suite à accident, Assistance au véhicule et aux personnes transportées) et des garanties optionnelles (Dommages corporels du conducteur à 2 niveaux, Protection Juridique relative au bien assuré, Assistance panne 0 kilomètre/rétention administrative du permis de conduire). Le document comprend également les modalités d'examen des réclamations, la fiche d'information relative au fonctionnement des garanties « Responsabilité civile » dans le temps et la charte de protection des données à caractère personnel.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Deux-roues, quads et voiturettes](../../branches/Deux-roues%2C%20quads%20et%20voiturettes.md) · Type : Conditions générales
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Deux-roues, quads et voiturettes](<../../branches/Deux-roues, quads et voiturettes.md>) · Type : Conditions générales
 
 ## Définitions
 
@@ -552,7 +552,7 @@ Conformément à l'article L.114-1 du Code des assurances, toutes actions dériv
 
 ## Documents liés
 
-- [2 roues Initiale & Co (Initiale & Co — Matmut & Co)](2%20roues%20Initiale%20%26%20Co%20%28Initiale%20%26%20Co%20%E2%80%94%20Matmut%20%26%20Co%29.md) - Conditions générales
+- [2 roues Initiale & Co (Initiale & Co — Matmut & Co)](<2 roues Initiale & Co (Initiale & Co — Matmut & Co).md>) - Conditions générales
 
 ## Source & fidélité
 

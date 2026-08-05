@@ -45,7 +45,7 @@ generated: true
 
 Conditions générales de l'assurance Loyers impayés de SMACL Assurances, souscrite par une personne morale propriétaire bailleur d'un bien immobilier situé en France métropolitaine (bandeau de couverture « Collectivités »). La garantie principale rembourse les loyers, charges et indemnités d'occupation non payés par le locataire défaillant, à concurrence de 20 000 € par logement, dans la limite de 2 000 € par mois et pendant une durée maximale de vingt-quatre (24) mois, du premier terme impayé jusqu'à l'expiration du sixième mois suivant la signification du jugement d'expulsion. Deux garanties optionnelles peuvent être souscrites : l'option A « Détériorations immobilières » et l'option B « Carence locative ». La garantie est subordonnée à la vérification de la solvabilité du locataire (loyer ≤ 30 % du revenu net mensuel), à l'engagement du recouvrement dans les trois mois du premier impayé et à la déclaration du sinistre dans les six mois.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : Crédit et caution · Type : Conditions générales · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : Crédit et caution · Type : Conditions générales · Édition : 01/2024
 
 ## Définitions
 
@@ -259,7 +259,7 @@ Conformément à l'article L.114-1 du Code, toutes actions dérivant d'un contra
 ## Documents liés
 
 - Édition courante de ce produit.
-- [Assurance loyers impayés](Assurance%20loyers%20impay%C3%A9s.md) - Conditions générales, éd. 01/2024
+- [Assurance loyers impayés](<Assurance loyers impayés.md>) - Conditions générales, éd. 01/2024
 
 ## Source & fidélité
 

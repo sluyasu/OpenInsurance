@@ -42,7 +42,7 @@ generated: true
 
 Document d'informations clés (DIC) du produit d'investissement fondé sur l'assurance Gan Patrimoine Capitalisation, produit le 07/03/2025 par Groupama Gan Vie. Il s'agit d'un contrat de capitalisation nominatif de type multisupport relevant de la branche 24 du Code des assurances, souscrit pour une durée de 99 ans, dont les garanties sont libellées en unités de compte et en euros. Le document décrit l'objectif d'épargne par capitalisation de versements libres ou programmés, les investisseurs visés, l'indicateur de risque, le dispositif de garantie en cas de défaillance de l'assureur (FGAP, plafond de 70 000 €), les coûts au fil du temps et leur composition, le délai de renonciation, la période de détention recommandée de 8 ans et la procédure de réclamation. La rubrique « Prestations d'assurances » porte la mention « NA ».
 
-- Assureur : [Gan Assurances](../../insurers/Gan%20Assurances.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Fiche produit · Édition : 2025-03-07
+- Assureur : [Gan Assurances](<../../insurers/Gan Assurances.md>) · Branche : [Assurance vie et épargne](<../../branches/Assurance vie et épargne.md>) · Type : Fiche produit · Édition : 2025-03-07
 
 ## Définitions
 
@@ -134,8 +134,8 @@ Document d'informations clés (DIC) du produit d'investissement fondé sur l'ass
 
 ## Documents liés
 
-- [Gan Patrimoine Capitalisation - Tarifs](Gan%20Patrimoine%20Capitalisation%20-%20Tarifs.md) - Conditions tarifaires, éd. 2023-09-01
-- [Gan Patrimoine Capitalisation - Tarifs](Gan%20Patrimoine%20Capitalisation%20-%20Tarifs%20%282%29.md) - Conditions tarifaires
+- [Gan Patrimoine Capitalisation - Tarifs](<Gan Patrimoine Capitalisation - Tarifs.md>) - Conditions tarifaires, éd. 2023-09-01
+- [Gan Patrimoine Capitalisation - Tarifs](<Gan Patrimoine Capitalisation - Tarifs (2).md>) - Conditions tarifaires
 
 ## Source & fidélité
 

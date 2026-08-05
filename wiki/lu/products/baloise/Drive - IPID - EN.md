@@ -42,7 +42,7 @@ generated: true
 
 English-language IPID for "Drive", the motor insurance of Baloise Assurances Luxembourg S.A. — the entity named on the identity line of both pages. The document describes it as "Non-life insurance, damage insurance type (I.A.R.D)" intended to cover the insured against the consequences of property damage or bodily injury caused by his/her vehicle to third parties, and his/her civil liability, and also damage caused to the insured by a third-party vehicle. Five covers are listed as included (civil liability, legal expenses, breakdown assistance, accident assistance, driver protection) alongside four further packages — Damage, Compensation, Mobility and Equipment — listed under "Depending on the tariff and vehicle". Cover applies on the territory of the Grand Duchy of Luxembourg or of a country shown on the green card.
 
-- Assureur : [Baloise Luxembourg](../../insurers/Baloise%20Luxembourg.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information
+- Assureur : [Baloise Luxembourg](<../../insurers/Baloise Luxembourg.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -208,9 +208,9 @@ Item of the Equipment Package.
 
 ## Documents liés
 
-- [Drive - IPID](Drive%20-%20IPID.md) - IPID / Fiche d'information
-- [Drive - IPID - DE](Drive%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
-- [Drive Flottes - IPID](Drive%20Flottes%20-%20IPID.md) - IPID / Fiche d'information
+- [Drive - IPID](<Drive - IPID.md>) - IPID / Fiche d'information
+- [Drive - IPID - DE](<Drive - IPID - DE.md>) - IPID / Fiche d'information
+- [Drive Flottes - IPID](<Drive Flottes - IPID.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

@@ -43,7 +43,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du contrat « Multigaranties Terrain/Bâtiment non habitable » de la Matmut. Le contrat garantit les assurés dans le cadre de leur vie privée contre les dommages corporels et matériels causés à des tiers (Responsabilité civile) du fait des biens immobiliers : terrain, bâtiment non destiné à l'habitation, maison en cours de construction ou de rénovation et aménagements immobiliers extérieurs de structure. Deux garanties sont en inclusion systématique (Responsabilité civile Immeuble et Protection Juridique suite à accident) et six garanties complémentaires peuvent s'y ajouter selon la nature et la destination des biens assurés, pour couvrir les dommages aux biens. Le document résume les principales garanties et exclusions ; le détail figure aux Conditions générales.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information · Édition : 05/24
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : IPID / Fiche d'information · Édition : 05/24
 
 ## Garanties
 

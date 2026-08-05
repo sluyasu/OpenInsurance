@@ -43,7 +43,7 @@ generated: true
 
 IPID de l'assurance Transport – CMR de Baloise Assurances Luxembourg S.A. Le produit couvre la responsabilité civile contractuelle du transporteur routier envers l'ayant-droit à la marchandise, pour les pertes, avaries ou retards à la livraison des marchandises transportées par route avec les véhicules lui appartenant, lorsqu'ils résultent d'un incendie ou d'une explosion, d'un accident survenu au véhicule, de l'influence des conditions météorologiques, d'un vol ou d'une tentative de vol, ou des opérations de chargement, déchargement ou transbordement. La garantie découle des réglementations de la convention CMR, des réglementations nationales dans l'Europe Economique et des réglementations allemandes sur le transport de marchandises. Quatre extensions facultatives sont proposées et les plafonds de garantie sont chiffrés dans le document.
 
-- Assureur : [Baloise Luxembourg](../../insurers/Baloise%20Luxembourg.md) · Branche : [Autres](../../branches/Autres.md) · Type : IPID / Fiche d'information
+- Assureur : [Baloise Luxembourg](<../../insurers/Baloise Luxembourg.md>) · Branche : [Autres](<../../branches/Autres.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

@@ -48,7 +48,7 @@ generated: true
 
 Convention d'assistance mise en œuvre par SMACL Assistance pour les assurés de SMACL Assurances souscripteurs d'un contrat navigation de plaisance. Elle couvre l'assistance aux personnes (rapatriement sanitaire, frais médicaux à l'étranger à concurrence de 80 000 € par bénéficiaire, assistance en cas de décès, assistance aux personnes valides, garanties complémentaires, avance de fonds) et l'assistance au bateau (frais de secours à hauteur de 5 000 €, renflouement, retirement, dépannage-remorquage, grutage, expertise, envoi de pièces détachées, acheminement d'équipier, rapatriement du bateau, mise en épave et frais de port à l'étranger), ainsi qu'un service d'informations. SMACL Assistance intervient 7 j / 7, 24 h / 24. L'assistance aux personnes est acquise dans le monde entier sans franchise de distance ; l'assistance au bateau est acquise dans la limite de l'étendue géographique du contrat d'assurance couvrant le bateau.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Navigation de plaisance](../../branches/Navigation%20de%20plaisance.md) · Type : Conditions générales · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Navigation de plaisance](<../../branches/Navigation de plaisance.md>) · Type : Conditions générales · Édition : 01/2024
 
 ## Définitions
 

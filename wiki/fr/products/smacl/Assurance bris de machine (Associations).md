@@ -44,7 +44,7 @@ generated: true
 
 Conventions spéciales « Bris de machine », annexées aux conditions générales ASA auxquelles elles dérogent autant que besoin, ayant pour objet l'indemnisation des dommages matériels subis par les biens désignés à l'intercalaire B « État des biens assurés » ou par les véhicules désignés à l'intercalaire V « État des véhicules assurés ». L'article 1 couvre les bris ou destructions survenant dans les locaux, au cours de déplacements et lors de l'exploitation, résultant de neuf familles de causes (causes internes, causes extérieures, forces naturelles, dommages électriques, opérations de manutention, bris accidentel par action mécanique subite, événements de force majeure, incendie/foudre/explosion, accident de la circulation). L'article 2 énumère les exclusions propres à ces conventions, qui s'ajoutent à celles de l'article 23 des conditions générales. Le document ne comporte ni définitions, ni montants, ni franchises, ni durée.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : Conditions générales · Édition : 11/2022
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : Conditions générales · Édition : 11/2022
 
 ## Garanties
 

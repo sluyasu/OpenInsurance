@@ -47,7 +47,7 @@ generated: true
 
 Informationsdokument über das Versicherungsprodukt (IPID) für easyPROTECT-Haftpflicht, vertrieben unter der Marke LALUX Assurances. Das Dokument fasst DREI getrennte Haftpflichtdeckungen in einem Blatt zusammen: die Familienhaftpflicht für Schäden, die Dritten im Rahmen des Privatlebens zugefügt werden (jede berufliche Tätigkeit ist ausgeschlossen), die Gebäudehaftpflicht für Schäden aufgrund eines Gebäudes oder Grundstücks, dessen Eigentümer der Versicherte ist, das aber nicht von ihm bewohnt wird, und die Jagdhaftpflicht für Körper- und Sachschäden, die während der Jagd Dritten zugefügt werden. Zur Familien- und zur Gebäudehaftpflicht tritt jeweils ein Rechtsschutz hinzu. Die Deckungssummen sind nach Deckung verschieden (2.700 EUR und 36.000 EUR Index 100 bei der Familienhaftpflicht, 1.500.000 EUR bzw. 125.000 EUR bei der Jagdhaftpflicht) und die räumliche Geltung ebenfalls.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Responsabilité civile familiale](../../branches/Responsabilit%C3%A9%20civile%20familiale.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Responsabilité civile familiale](<../../branches/Responsabilité civile familiale.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -208,9 +208,9 @@ die Haftpflicht des Versicherungsnehmers in seiner Eigenschaft als Eigentümer o
 
 ## Documents liés
 
-- [easyPROTECT - Discover - IPID](easyPROTECT%20-%20Discover%20-%20IPID.md) - IPID / Fiche d'information
-- [Responsabilité Civile Familiale, Immeuble et Chasse - IPID](Responsabilit%C3%A9%20Civile%20Familiale%2C%20Immeuble%20et%20Chasse%20-%20IPID.md) - IPID / Fiche d'information
-- [Service easyPROTECT - Discover - IPID - EN](Service%20easyPROTECT%20-%20Discover%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+- [easyPROTECT - Discover - IPID](<easyPROTECT - Discover - IPID.md>) - IPID / Fiche d'information
+- [Responsabilité Civile Familiale, Immeuble et Chasse - IPID](<Responsabilité Civile Familiale, Immeuble et Chasse - IPID.md>) - IPID / Fiche d'information
+- [Service easyPROTECT - Discover - IPID - EN](<Service easyPROTECT - Discover - IPID - EN.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

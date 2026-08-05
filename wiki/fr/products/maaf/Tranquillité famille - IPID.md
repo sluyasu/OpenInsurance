@@ -44,7 +44,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de la garantie des accidents de la vie « Tranquillité famille » de MAAF Assurances SA. Le contrat couvre les accidents corporels survenus dans le cadre de la vie privée, y compris lors de l'utilisation d'un engin de déplacement personnel motorisé, d'une agression ou d'un attentat, et selon la formule choisie les accidents corporels subis lors de la conduite d'un véhicule loué, prêté ou confié ainsi que les accidents médicaux. Il indemnise les blessures (incapacité temporaire totale supérieure à 5 jours, incapacité permanente partielle supérieure à 5 %) et le décès, et comporte une assistance à domicile, une aide aux aidants, une assistance aux personnes et des renseignements juridiques. Le document précise que les niveaux d'indemnisation sont détaillés dans le tableau des garanties, non joint.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Garantie des accidents de la vie](../../branches/Garantie%20des%20accidents%20de%20la%20vie.md) · Type : IPID / Fiche d'information · Édition : 2026-03
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Garantie des accidents de la vie](<../../branches/Garantie des accidents de la vie.md>) · Type : IPID / Fiche d'information · Édition : 2026-03
 
 ## Garanties
 
@@ -193,7 +193,7 @@ Selon la formule de garantie choisie, le contrat peut également couvrir les acc
 
 ## Documents liés
 
-- [CONTRAT TRANQUILLITÉ FAMILLE](CONTRAT%20TRANQUILLIT%C3%89%20FAMILLE.md) - Conditions générales, éd. 03/26
+- [CONTRAT TRANQUILLITÉ FAMILLE](<CONTRAT TRANQUILLITÉ FAMILLE.md>) - Conditions générales, éd. 03/26
 
 ## Source & fidélité
 

@@ -45,7 +45,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (DIPA/IPID) d'une assurance multirisques immeuble Macif destinée au sociétaire non occupant, pour un appartement ou une maison particulière tenant lieu de résidence secondaire. Le contrat protège l'assuré contre les conséquences d'événements affectant son appartement ou sa maison particulière qu'il loue vide ou meublé(e) à des tiers, ou encore sa résidence secondaire qu'il loue ou prête à des tiers. Il garantit également sa responsabilité civile du fait des biens assurés, dans la limite de 50 millions d'euros dont 10 millions pour les dommages matériels et immatériels consécutifs, ainsi que le recours et la protection juridique. Les garanties précédées d'une coche sont systématiquement prévues au contrat.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information · Édition : 10/18
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : IPID / Fiche d'information · Édition : 10/18
 
 > ⚠️ **Édition ancienne** : 10/18, soit 8 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 
@@ -306,9 +306,9 @@ Protection des droits de l'assuré : le recours de l'assuré et sa protection ju
 
 ## Documents liés
 
-- [Sociétaire non occupant - Bâtiment en cours de construction - IPID](Soci%C3%A9taire%20non%20occupant%20-%20B%C3%A2timent%20en%20cours%20de%20construction%20-%20IPID.md) - IPID / Fiche d'information, éd. 10/18
-- [Sociétaire non occupant - Bâtiments inoccupés - IPID](Soci%C3%A9taire%20non%20occupant%20-%20B%C3%A2timents%20inoccup%C3%A9s%20-%20IPID.md) - IPID / Fiche d'information, éd. 10/18
-- [Sociétaire non occupant - Immeubles en copropriété - IPID](Soci%C3%A9taire%20non%20occupant%20-%20Immeubles%20en%20copropri%C3%A9t%C3%A9%20-%20IPID.md) - IPID / Fiche d'information, éd. 10/18
+- [Sociétaire non occupant - Bâtiment en cours de construction - IPID](<Sociétaire non occupant - Bâtiment en cours de construction - IPID.md>) - IPID / Fiche d'information, éd. 10/18
+- [Sociétaire non occupant - Bâtiments inoccupés - IPID](<Sociétaire non occupant - Bâtiments inoccupés - IPID.md>) - IPID / Fiche d'information, éd. 10/18
+- [Sociétaire non occupant - Immeubles en copropriété - IPID](<Sociétaire non occupant - Immeubles en copropriété - IPID.md>) - IPID / Fiche d'information, éd. 10/18
 
 ## Source & fidélité
 

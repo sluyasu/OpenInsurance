@@ -42,7 +42,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) relatif au contrat « Multirisques 4 Roues Essentiel » de la Matmut, assurance automobile. Le contrat garantit le conducteur d'un véhicule automobile ou d'un engin attelé contre les conséquences des dommages matériels et corporels causés à des tiers (responsabilité civile), garantie obligatoire, et comprend en inclusion la Protection Juridique suite à accident et l'Assistance au véhicule et aux personnes transportées. Il peut accorder des garanties complémentaires optionnelles couvrant les dommages corporels du conducteur, les dommages matériels subis par le véhicule assuré ou la défense des intérêts de l'assuré. Le document ne présente qu'un résumé des principales garanties et exclusions.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 2018-01
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information · Édition : 2018-01
 
 > ⚠️ **Édition ancienne** : 2018-01, soit 8 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 

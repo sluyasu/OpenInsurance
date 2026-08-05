@@ -43,7 +43,7 @@ generated: true
 
 Document d’exemples chiffrés de remboursements en euros pour le contrat d’assurance santé responsable MAAF « Santé Profil TNS », en vigueur au 1er janvier 2026. Pour chaque acte (hospitalisation, soins courants, dentaire, optique, chirurgie réfractive, aides auditives) il met en regard le tarif le plus souvent facturé, la base de remboursement de la sécurité sociale, le remboursement de l’assurance maladie obligatoire, puis le remboursement de la complémentaire et le reste à charge pour chacune des cinq formules F1 à F5. Le document précise qu’il ne peut se substituer aux documents contractuels et qu’il a été construit en s’appuyant sur le Glossaire de l’assurance complémentaire santé édicté par l’UNOCAM.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit · Édition : Exemples chiffrés applicables en vigueur au 1er janvier 2026 susceptibles d’évoluer dans le temps, à la hausse ou à la baisse.
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Fiche produit · Édition : Exemples chiffrés applicables en vigueur au 1er janvier 2026 susceptibles d’évoluer dans le temps, à la hausse ou à la baisse.
 
 ## Définitions
 
@@ -677,7 +677,7 @@ Document d’exemples chiffrés de remboursements en euros pour le contrat d’a
 
 ## Documents liés
 
-- [SANTÉ PROFIL TNS](SANT%C3%89%20PROFIL%20TNS.md) - Conditions générales, éd. 09.2025
+- [SANTÉ PROFIL TNS](<SANTÉ PROFIL TNS.md>) - Conditions générales, éd. 09.2025
 
 ## Source & fidélité
 

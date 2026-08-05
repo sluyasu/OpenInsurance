@@ -42,7 +42,7 @@ generated: true
 
 Conditions Générales du contrat collectif frais de santé « Assurance SANTÉ PROFIL SALARIÉS » (Santé collective), à adhésion obligatoire, souscrit par une entreprise au profit de l'ensemble de ses salariés ou d'une catégorie objective de personnel. Les garanties frais de santé sont assurées par MAAF Santé, mutuelle régie par le Code de la Mutualité ; les garanties d'assistance santé à domicile sont assurées par MAAF Assurances SA, entreprise régie par le Code des assurances, et gérées par FIDELIA ASSISTANCE. Le contrat est décliné en 5 niveaux de garanties (Hospitalisation, Soins courants, Optique, Dentaire, Aides auditives, Prévention) et satisfait aux conditions du contrat « solidaire et responsable ».
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : 10.2025
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Conditions générales · Édition : 10.2025
 
 ## Garanties
 
@@ -389,8 +389,8 @@ Un réseau de professionnels de santé qui se sont engagés contractuellement su
 ## Documents liés
 
 - Édition courante de ce produit.
-- [SANTÉ PROFIL SALARIÉS - Fiche](SANT%C3%89%20PROFIL%20SALARI%C3%89S%20-%20Fiche.md) - Fiche produit, éd. 1er janvier 2026
-- [SANTÉ PROFIL SALARIÉS](SANT%C3%89%20PROFIL%20SALARI%C3%89S.md) - Conditions générales, éd. 10.2025
+- [SANTÉ PROFIL SALARIÉS - Fiche](<SANTÉ PROFIL SALARIÉS - Fiche.md>) - Fiche produit, éd. 1er janvier 2026
+- [SANTÉ PROFIL SALARIÉS](<SANTÉ PROFIL SALARIÉS.md>) - Conditions générales, éd. 10.2025
 
 ## Source & fidélité
 

@@ -40,7 +40,7 @@ generated: true
 
 Barème d’une page publié par SMACL Assurances qui fixe, pour la garantie protection juridique, le montant maximum de prise en charge des frais et honoraires selon le type d’intervention, de démarche ou de juridiction (30 postes, du budget amiable de 750 € à 3 000 € devant la Cour d’assises ou pour les frais d’expert judiciaire). Les montants sont TTC, s’entendent par décision obtenue même en cas de changement d’avocat, et incluent les frais habituels de gestion du dossier. Le document ne décrit pas l’étendue de la garantie elle-même, ni ses exclusions.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Protection juridique](../../branches/Protection%20juridique.md) · Type : Conditions tarifaires · Édition : 07/2025
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Protection juridique](<../../branches/Protection juridique.md>) · Type : Conditions tarifaires · Édition : 07/2025
 
 ## Garanties
 

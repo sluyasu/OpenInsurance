@@ -40,7 +40,7 @@ generated: true
 
 L’assurance Caravane a pour objectif de garantir les responsabilités liées à l’utilisation de la caravane lorsqu’elle est dételée ou en mode camping. Le contrat couvre aussi les dommages de la caravane (attelée ou dételée) selon les formules souscrites. Sont assurées les caravanes utilisées à des fins touristiques, et dont la carte grise est de type RESP ou CARAVANE. Ce document d’information (IPID) présente un résumé des principales garanties et exclusions du contrat.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information
+- Assureur : [Thélem assurances](<../../insurers/Thélem assurances.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

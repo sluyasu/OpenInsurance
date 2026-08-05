@@ -46,7 +46,7 @@ generated: true
 
 Conditions générales du contrat Assurance loyers impayés, souscrit par une personne morale propriétaire bailleur d'un bien immobilier situé en France métropolitaine. La garantie principale rembourse les loyers (ou indemnités d'occupation) non payés par un locataire défaillant, à compter du premier terme impayé et jusqu'à l'expiration du sixième mois suivant la signification du jugement d'expulsion, à concurrence de 20 000 € par logement, dans la limite de 2 000 € par mois et pendant vingt-quatre mois au maximum. Deux options peuvent être souscrites : détériorations immobilières (option A) et carence locative (option B). Le bénéfice de la garantie est subordonné au respect de règles de solvabilité du locataire (loyer n'excédant pas 30 % du revenu net mensuel), à la mise en recouvrement dans les trois mois et à la déclaration du sinistre dans les six mois suivant le premier loyer impayé.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : Crédit et caution · Type : Conditions générales · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : Crédit et caution · Type : Conditions générales · Édition : 01/2024
 
 ## Définitions
 
@@ -222,7 +222,7 @@ Conformément à l'article L.114-1 du Code, toutes actions dérivant d'un contra
 ## Documents liés
 
 - Édition courante de ce produit.
-- [Assurance loyers impayés](Assurance%20loyers%20impay%C3%A9s%20%282%29.md) - Conditions générales, éd. 01/2024
+- [Assurance loyers impayés](<Assurance loyers impayés (2).md>) - Conditions générales, éd. 01/2024
 
 ## Source & fidélité
 

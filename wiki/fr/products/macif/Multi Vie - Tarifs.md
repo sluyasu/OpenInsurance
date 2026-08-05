@@ -40,7 +40,7 @@ generated: true
 
 Tableau standardisé des frais du contrat d'assurance vie Multi Vie, sur une page, édition JUIN 2024. Il présente le montant minimal de versement initial (50 €), les frais annuels (frais de gestion du contrat par support, frais de gestion des unités de compte en gestion libre avec la part rétrocédée au distributeur, autres frais annuels) et les frais ponctuels par opération (versement, arbitrage, changement de mode de gestion, transfert sortant, versements de rente, rachat). Le contrat est assuré par Mutavie SE, entreprise régie par le Code des assurances. Le document ne décrit ni les garanties ni les modalités contractuelles : il ne porte que sur les frais du dernier exercice clos.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Conditions tarifaires
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Assurance vie et épargne](<../../branches/Assurance vie et épargne.md>) · Type : Conditions tarifaires
 
 ## Définitions
 
@@ -111,7 +111,7 @@ Tableau standardisé des frais du contrat d'assurance vie Multi Vie, sur une pag
 
 ## Documents liés
 
-- [Multi Vie](Multi%20Vie.md) - Conditions générales, éd. JUIN 2019
+- [Multi Vie](<Multi Vie.md>) - Conditions générales, éd. JUIN 2019
 
 ## Source & fidélité
 

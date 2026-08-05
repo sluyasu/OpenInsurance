@@ -46,7 +46,7 @@ generated: true
 
 Notice d’information (édition janvier 2026) remise au salarié d’une entreprise ayant souscrit un contrat collectif Santé à adhésion obligatoire auprès de la Mutuelle Ociane Matmut. Établie en application de l’article L. 221-6 du Code de la mutualité, elle définit les garanties frais de santé et d’assistance, leurs modalités d’entrée en vigueur, les formalités à accomplir en cas de réalisation du risque, ainsi que les clauses de nullité, de déchéance, d’exclusion et les délais de prescription. Elle décrit le fonctionnement du contrat (bénéficiaires, dispenses d’affiliation, adhésion, événements en cours d’adhésion, cessation des garanties, portabilité et régime d’accueil loi Évin, cotisations), la mise en œuvre des prestations (données de santé, calcul et limites des remboursements, couverture des accidents, exclusions, contrôle médical, subrogation, prescription et forclusion), les modalités pratiques de remboursement et le dispositif réglementaire du contrat responsable et du 100 % Santé. Deux organismes portent le risque selon la garantie : la Mutuelle Ociane Matmut pour les frais de soins, la Matmut pour l’assistance ; la Protection Juridique Santé est réalisée par Matmut Protection Juridique.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : Édition janvier 2026
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Conditions générales · Édition : Édition janvier 2026
 
 ## Définitions
 

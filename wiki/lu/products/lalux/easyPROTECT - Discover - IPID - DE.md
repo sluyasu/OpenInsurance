@@ -47,7 +47,7 @@ generated: true
 
 Informationsdokument über das Versicherungsprodukt (IPID) auf zwei Seiten für « Service easyPROTECT - Discover », ein Paket von Versicherungsleistungen für Versicherte mit Hauptwohnsitz im Großherzogtum Luxemburg, die zwischen 15 und 27 Jahre alt sind und ihren Eintritt ins Berufsleben vorbereiten (Studenten, Lehrlinge und vergleichbare Gruppen). Die Basisvariante umfasst die Haftpflicht für das Privat- und Studentenleben mit der Erweiterung „Studentenwohnung“ sowie den damit zusammenhängenden Rechtsschutz. Optional und gegen Prämienaufschlag kommen der Versicherungsschutz IT mobil, Assistance-Leistungen und der medizinische Notfall hinzu. Beide Ausschlusskästen tragen den gedruckten Vermerk « Nicht vollständige Liste » und verweisen für die vollständigen Ausschlüsse auf die Allgemeinen Versicherungsbedingungen des Produkts easyPROTECT.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Responsabilité civile familiale](../../branches/Responsabilit%C3%A9%20civile%20familiale.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Responsabilité civile familiale](<../../branches/Responsabilité civile familiale.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

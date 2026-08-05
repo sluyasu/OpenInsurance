@@ -42,7 +42,7 @@ generated: true
 
 Document d’information client de la Vaudoise qui qualifie chacun de ses produits d’assurance d’assurance de sommes (AS) ou d’assurance de dommages (AD), conformément à l’obligation d’information de la société d’assurance prévue à l’art. 3 de la Loi fédérale sur le contrat d’assurance (LCA) dans sa teneur à partir du 1er janvier 2022. Le tableau compte 73 lignes réparties en quatre colonnes (Branche, Produit d’assurance, Variante, Nature de l’assurance), dont 43 qualifiées AD et 30 qualifiées AS, couvrant les branches Véhicules à moteur yc bateaux, Assistance, RC, Choses et APNV. Le document rappelle que la prestation d’une assurance de sommes est due indépendamment de tout dommage pécuniaire, alors qu’une assurance de dommages fait du dommage pécuniaire la condition et le critère de calcul de la prestation. Il ne contient ni garantie, ni exclusion, ni limite: c’est une liste de qualification, susceptible d’être modifiée ou complétée en tout temps sans préavis.
 
-- Assureur : [Vaudoise Assurances](../../insurers/Vaudoise%20Assurances.md) · Branche : Autres · Type : Fiche produit · Édition : 10.2021
+- Assureur : [Vaudoise Assurances](<../../insurers/Vaudoise Assurances.md>) · Branche : Autres · Type : Fiche produit · Édition : 10.2021
 
 ## Définitions
 

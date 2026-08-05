@@ -43,7 +43,7 @@ generated: true
 
 Informationsdokument über das Versicherungsprodukt (IPID) zum Abschnitt 2 – Haftpflichtversicherung der APROBAT Bauleistungsversicherung, vertrieben unter der Marke LALUX Assurances. Der Abschnitt 2 deckt die Kosten für Reparaturen, zu denen die Versicherten gemäß den Artikeln 1382 bis 1386 des luxemburgischen Code civil gegenüber Dritten verpflichtet sein könnten, während der Bau-Aufbau-Testphase und – im Rahmen einer ausdrücklichen Vereinbarung – während der Instandhaltungsphase, sowie – ebenfalls im Rahmen einer ausdrücklichen Vereinbarung – die Haftung nach Artikel 544 des luxemburgischen Code Civil für Schäden an angrenzenden Gebäuden. Der Versicherungsschutz gilt für die in den Besonderen Bedingungen spezifizierten Baustellen und Güter. Das Dokument nennt keinerlei Deckungssummen, Selbstbeteiligungen oder Prämienbeträge.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Assurances constructions](../../branches/Assurances%20constructions.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Assurances constructions](<../../branches/Assurances constructions.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -133,7 +133,7 @@ im Rahmen einer ausdrücklichen Vereinbarung: Reparatur der Dritten entstandenen
 ## Documents liés
 
 - Extension / option du produit : **APROBAT Bauleistungsversicherung**
-- [APROBAT Bauleistungsversicherung (Abschnitt 1 - Versicherung von Schäden und Ausfällen) - IPID - DE](APROBAT%20Bauleistungsversicherung%20%28Abschnitt%201%20-%20Versicherung%20von%20Sch%C3%A4den%20und%20Ausf%C3%A4llen%29%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
+- [APROBAT Bauleistungsversicherung (Abschnitt 1 - Versicherung von Schäden und Ausfällen) - IPID - DE](<APROBAT Bauleistungsversicherung (Abschnitt 1 - Versicherung von Schäden und Ausfällen) - IPID - DE.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

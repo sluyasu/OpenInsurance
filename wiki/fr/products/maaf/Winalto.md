@@ -44,7 +44,7 @@ generated: true
 
 Notice d'information du contrat Winalto, contrat d'assurance vie de groupe à adhésion facultative souscrit par l'Association Nationale des Souscripteurs Vie Covéa (ANS Vie-Covéa) auprès de MAAF Vie. Winalto est un contrat d'assurance sur la vie en unités de compte relevant de la branche 22 (assurances liées à des fonds d'investissement), multisupport, proposant un support en euros assorti d'une garantie en capital et trente supports en unités de compte dont la valeur n'est pas garantie. Le contrat prévoit le paiement d'un capital ou d'une rente en cas de vie de l'assuré à partir de l'épargne constituée, et trois garanties en cas de décès : le capital décès, une garantie plancher plafonnée à 100 000 € et une garantie de doublement du capital en cas de décès accidentel plafonnée à 50 000 €, ces deux dernières étant non optionnelles. Six formules de gestion sont proposées (Classique, Vitalité 20, Vitalité 30, Vitalité 40, Horizon Personnalisé et Libre) et la notice comprend en annexe les dispositions fiscales et sociales, la liste des supports en unités de compte, la garantie de renseignements juridiques et l'assistance succession incluant la notice d'information de la Protection Juridique Succession.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Conditions générales · Édition : 01/26
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Assurance vie et épargne](<../../branches/Assurance vie et épargne.md>) · Type : Conditions générales · Édition : 01/26
 
 ## Définitions
 
@@ -440,8 +440,8 @@ Conformément à l'article L.114-1 du code des assurances, toutes actions dériv
 
 ## Documents liés
 
-- Extension liée : [Winalto Donatio](Winalto%20Donatio.md)
-- [Winalto Donatio](Winalto%20Donatio.md) - Conditions générales, éd. 01/26
+- Extension liée : [Winalto Donatio](<Winalto Donatio.md>)
+- [Winalto Donatio](<Winalto Donatio.md>) - Conditions générales, éd. 01/26
 
 ## Source & fidélité
 

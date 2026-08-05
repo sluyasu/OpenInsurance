@@ -45,7 +45,7 @@ generated: true
 
 Intercalaire MAAF Assurances SA réf. 11048 (03/24) destiné aux professions médicales et paramédicales. Il a pour objet de se substituer à la garantie « Responsabilité civile professionnelle » définie à l'article 7 des Conditions générales Multirisque professionnelle référencées 11031. Il redéfinit la garantie de base (dommages corporels, matériels et immatériels consécutifs causés aux tiers du fait d'actes prescrits et cotés par la nomenclature générale des actes professionnels), la garantie du remplaçant, six dispositions particulières (biens confiés, biens existants, intoxications alimentaires, produit défectueux, atteinte accidentelle à l'environnement et frais de prévention, engagements contractuels particuliers), un tableau de plafonds et de franchises, et dix exclusions qui s'ajoutent à celles des articles 10 et 27 des Conditions générales.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : Conditions générales · Édition : 03/24
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : Conditions générales · Édition : 03/24
 
 ## Définitions
 
@@ -176,14 +176,14 @@ Nous garantissons les conséquences pécuniaires de la responsabilité que vous 
 ## Documents liés
 
 - Extension / option du produit : **Conditions générales Multirisque professionnelle référencé 11031 — article 7 « Responsabilité civile professionnelle »**
-- [CAPEB — INTERCALAIRE](CAPEB%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales, éd. 03/24
-- [COMMERCES D'ALIMENTATION — INTERCALAIRE](COMMERCES%20D%27ALIMENTATION%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales, éd. 01/26
-- [Commerces et Services — Intercalaire](Commerces%20et%20Services%20%E2%80%94%20Intercalaire.md) - Conditions générales, éd. 01/26
-- [MULTIRISQUE PROFESSIONNELLE](MULTIRISQUE%20PROFESSIONNELLE%20%28MAAF%29.md) - Conditions générales, éd. 01/26
-- [Multirisque Professionnelle - IPID](Multirisque%20Professionnelle%20-%20IPID.md) - IPID / Fiche d'information, éd. 2024-06
-- [MULTISERVICE À LA PERSONNE — INTERCALAIRE](MULTISERVICE%20%C3%80%20LA%20PERSONNE%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales, éd. 01/25
-- [PROFESSIONS DE LA RESTAURATION ET DE L'HÔTELLERIE — INTERCALAIRE](PROFESSIONS%20DE%20LA%20RESTAURATION%20ET%20DE%20L%27H%C3%94TELLERIE%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales, éd. 01/25
-- [SYNDICATS PROFESSIONNELS ARTISANAUX — INTERCALAIRE](SYNDICATS%20PROFESSIONNELS%20ARTISANAUX%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales, éd. 03/24
+- [CAPEB — INTERCALAIRE](<CAPEB — INTERCALAIRE.md>) - Conditions générales, éd. 03/24
+- [COMMERCES D'ALIMENTATION — INTERCALAIRE](<COMMERCES D'ALIMENTATION — INTERCALAIRE.md>) - Conditions générales, éd. 01/26
+- [Commerces et Services — Intercalaire](<Commerces et Services — Intercalaire.md>) - Conditions générales, éd. 01/26
+- [MULTIRISQUE PROFESSIONNELLE](<MULTIRISQUE PROFESSIONNELLE (MAAF).md>) - Conditions générales, éd. 01/26
+- [Multirisque Professionnelle - IPID](<Multirisque Professionnelle - IPID.md>) - IPID / Fiche d'information, éd. 2024-06
+- [MULTISERVICE À LA PERSONNE — INTERCALAIRE](<MULTISERVICE À LA PERSONNE — INTERCALAIRE.md>) - Conditions générales, éd. 01/25
+- [PROFESSIONS DE LA RESTAURATION ET DE L'HÔTELLERIE — INTERCALAIRE](<PROFESSIONS DE LA RESTAURATION ET DE L'HÔTELLERIE — INTERCALAIRE.md>) - Conditions générales, éd. 01/25
+- [SYNDICATS PROFESSIONNELS ARTISANAUX — INTERCALAIRE](<SYNDICATS PROFESSIONNELS ARTISANAUX — INTERCALAIRE.md>) - Conditions générales, éd. 03/24
 
 ## Source & fidélité
 

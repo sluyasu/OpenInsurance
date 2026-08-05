@@ -42,7 +42,7 @@ generated: true
 
 Annexe 3 à la notice d'information valant conditions générales du contrat santé « SANTÉ TNS - Gamme Essentielle » de Groupama : elle contient exclusivement le tableau des garanties, décliné en cinq formules (FORMULE 1 à FORMULE 5), pour les postes Hospitalisation, Maternité, Soins courants, Aides auditives, Optique, Dentaire, Prévention et santé au quotidien et télémédecine. Deux blocs supplémentaires donnent les niveaux applicables chez les opticiens et chirurgiens-dentistes partenaires du réseau Sévéane. Les montants sont exprimés en complément des remboursements du régime obligatoire, en % BR, % FR, % PMSS, TM ou en euros, et onze renvois précisent les limitations (délai de trois mois sur les honoraires et actes chirurgicaux, hospitalisation hors UE/AELE, non-cumul réseau/hors réseau, planchers et plafonds réglementaires optique).
 
-- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : 092021
+- Assureur : [Groupama](<../../insurers/Groupama.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Conditions générales · Édition : 092021
 
 ## Définitions
 

@@ -40,7 +40,7 @@ generated: true
 
 Tableau comparatif des cotisations du contrat Sollicitudes, contrat d'assurance prévoyance obsèques vie entière de MAIF VIE, dans sa version au 1er juillet 2025. Le document compare les cotisations annuelles TTC (assistance incluse) et le cumul des cotisations payées en cas de décès, pour trois capitaux obsèques garantis (4 000 €, 8 000 €, 12 000 €), trois âges de souscription (50, 60 et 70 ans), une souscription individuelle ou conjointe et une durée de paiement de 5 ou 10 ans. Il rappelle les deux garanties incluses dans la cotisation (décès portée par MAIF VIE, assistance portée par MAIF) et les modalités de revalorisation. Le document précise qu'il n'a pas de valeur contractuelle.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : Conditions tarifaires · Édition : 07/2025
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Obsèques](<../../branches/Obsèques.md>) · Type : Conditions tarifaires · Édition : 07/2025
 
 ## Garanties
 
@@ -121,9 +121,9 @@ Une garantie d'assistance dont l'assureur est MAIF, à laquelle sont adjointes d
 
 ## Documents liés
 
-- [Sollicitudes](Sollicitudes.md) - Conditions générales, éd. 01/2024
-- [Sollicitudes - IPID](Sollicitudes%20-%20IPID.md) - IPID / Fiche d'information, éd. 27/09/2023
-- [Sollicitudes - Doc](Sollicitudes%20-%20Doc.md) - Document, éd. 07/2025
+- [Sollicitudes](<Sollicitudes.md>) - Conditions générales, éd. 01/2024
+- [Sollicitudes - IPID](<Sollicitudes - IPID.md>) - IPID / Fiche d'information, éd. 27/09/2023
+- [Sollicitudes - Doc](<Sollicitudes - Doc.md>) - Document, éd. 07/2025
 
 ## Source & fidélité
 

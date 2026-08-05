@@ -47,7 +47,7 @@ generated: true
 
 Convention de services « DIAG » de SMACL Assurances, annexée à l'assurance des véhicules de la personne morale souscriptrice. Elle réunit deux prestations : « Diagnostic devis », une vérification téléphonique de la pertinence des devis de réparation supérieurs à 800 € TTC, avec négociation auprès du réparateur ; et « Diagnostic réparations », une assistance à distance des ateliers de réparation intégrés du souscripteur pour l'entretien et la recherche de panne, assortie de formations possibles. Les deux services s'appliquent sans délai de carence, quels que soient la formule de garanties, l'âge et la marque du véhicule, en France métropolitaine et dans les départements et régions d'outre-mer. Il s'agit de prestations de conseil : le document ne prévoit ni indemnisation, ni plafond, ni franchise.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Document · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Document · Édition : 01/2024
 
 ## Garanties
 
@@ -138,7 +138,7 @@ Des formations présentielles ou en classe virtuelle sur des cas concrets peuven
 
 ## Documents liés
 
-- [Votre convention Diagnostic devis et diagnostic réparation (CAISSE RÉGIONALE DE CRÉDIT AGRICOLE) - Doc](Votre%20convention%20Diagnostic%20devis%20et%20diagnostic%20r%C3%A9paration%20%28CAISSE%20R%C3%89GIONALE%20DE%20CR%C3%89DIT%20AGRICOLE%29%20-%20Doc.md) - Document, éd. 01/2024
+- [Votre convention Diagnostic devis et diagnostic réparation (CAISSE RÉGIONALE DE CRÉDIT AGRICOLE) - Doc](<Votre convention Diagnostic devis et diagnostic réparation (CAISSE RÉGIONALE DE CRÉDIT AGRICOLE) - Doc.md>) - Document, éd. 01/2024
 
 ## Source & fidélité
 

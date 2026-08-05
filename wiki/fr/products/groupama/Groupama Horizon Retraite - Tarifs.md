@@ -40,7 +40,7 @@ generated: true
 
 Fiche de transparence des frais du PER Individuel Groupama Horizon Retraite, publiée dans le cadre de l'engagement de Groupama Gan Vie à mettre à jour annuellement ces informations. Elle indique le montant minimal de versement, les frais annuels (frais de gestion du plan sur les supports en euros et en unités de compte, frais de gestion des fonds en gestion libre et en gestion pilotée/à horizon, avec le taux de rétrocessions de commissions), les autres frais annuels et les frais ponctuels par opération exprimés en taux maximal. Le document ne décrit aucune garantie, aucune exclusion et aucune modalité contractuelle : c'est un tableau de frais, pas un contrat.
 
-- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : [Retraite supplémentaire](../../branches/Retraite%20suppl%C3%A9mentaire.md) · Type : Conditions tarifaires
+- Assureur : [Groupama](<../../insurers/Groupama.md>) · Branche : [Retraite supplémentaire](<../../branches/Retraite supplémentaire.md>) · Type : Conditions tarifaires
 
 ## Définitions
 
@@ -89,7 +89,7 @@ Fiche de transparence des frais du PER Individuel Groupama Horizon Retraite, pub
 
 ## Documents liés
 
-- [Groupama Horizon Retraite - Fiche](Groupama%20Horizon%20Retraite%20-%20Fiche.md) - Fiche produit, éd. 01/06/2026
+- [Groupama Horizon Retraite - Fiche](<Groupama Horizon Retraite - Fiche.md>) - Fiche produit, éd. 01/06/2026
 
 ## Source & fidélité
 

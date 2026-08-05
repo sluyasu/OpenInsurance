@@ -51,7 +51,7 @@ generated: true
 
 Notice d'information du régime conventionnel obligatoire de frais de santé mis en place par la Convention Collective Nationale des Acteurs du Lien Social et Familial du 4 juin 1983 (IDCC n° 1261), modifiée en dernier lieu par l'avenant n° 07-22 du 27 octobre 2022. Le contrat collectif à adhésion obligatoire, souscrit par l'employeur au bénéfice de l'ensemble de son personnel, complète les prestations en nature de la Sécurité sociale pour les frais médico-chirurgicaux occasionnés par une maladie ou un accident. La gestion est confiée à l'un des organismes assureurs listés : le groupement de co-assurance APICIL Prévoyance / SOLIMUT Mutuelle de France, AESIO Mutuelle, Harmonie Mutuelle ou Mutuelle Ociane Matmut. Le tableau de garanties (annexe II, en vigueur au 01/01/2025) décline trois niveaux : base conventionnelle obligatoire, base + option 1 et base + option 2, pour les postes soins courants, hospitalisation, optique, dentaire, aides auditives et prévention, dans le cadre du contrat responsable et du 100 % Santé.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : 12-2024
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Conditions générales · Édition : 12-2024
 
 ## Définitions
 

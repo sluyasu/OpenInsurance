@@ -42,7 +42,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du contrat « Assurance scolaire » de la Matmut. Le contrat garantit les enfants de moins de 20 ans, scolarisés de la maternelle à la terminale, contre les conséquences des dommages matériels ou corporels causés à des tiers dans le cadre de la vie scolaire et périscolaire (responsabilité civile), et comprend des garanties corporelles en cas de blessures. Les garanties en inclusion sont la Responsabilité civile Vie scolaire (jusqu’à 100 000 000 €), la Protection Juridique suite à accident (jusqu’à 20 000 €), l'Incapacité permanente (jusqu’à 100 000 €) et l'Aide enfant hospitalisé (50 €/jour, jusqu’à 1 500 €). Des garanties optionnelles couvrent les dommages aux biens de l'enfant ainsi que les dommages corporels et l'accompagnement de l'enfant.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Scolaire et extrascolaire](../../branches/Scolaire%20et%20extrascolaire.md) · Type : IPID / Fiche d'information · Édition : 12/23
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Scolaire et extrascolaire](<../../branches/Scolaire et extrascolaire.md>) · Type : IPID / Fiche d'information · Édition : 12/23
 
 ## Garanties
 
@@ -192,8 +192,8 @@ Participation aux frais d'obsèques. Garantie optionnelle du groupe « Dommages 
 
 ## Documents liés
 
-- [Assurance scolaire](Assurance%20scolaire.md) - Conditions générales, éd. 2023-12
-- [Conditions de l'offre Assurance Scolaire - Tarifs](Conditions%20de%20l%27offre%20Assurance%20Scolaire%20-%20Tarifs.md) - Conditions tarifaires, éd. 05/26
+- [Assurance scolaire](<Assurance scolaire.md>) - Conditions générales, éd. 2023-12
+- [Conditions de l'offre Assurance Scolaire - Tarifs](<Conditions de l'offre Assurance Scolaire - Tarifs.md>) - Conditions tarifaires, éd. 05/26
 
 ## Source & fidélité
 

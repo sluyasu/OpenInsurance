@@ -40,7 +40,7 @@ generated: true
 
 Document tarifaire d'une page (« Les frais du Jeewan Patrimoine ») présentant le tableau des frais du contrat d'assurance vie Jeewan Patrimoine, daté JUIN 2024. Il indique le montant minimal de versement initial (20 000 €), les frais annuels de gestion du contrat par support (fonds en euros, unités de compte, Eurocroissance) et par mode de gestion (Gestion Horizon Projet, Gestion Sous Mandat Pilotée), les frais moyens de gestion des unités de compte par catégorie de fonds avec la part rétrocédée au distributeur et au gestionnaire, ainsi que les frais ponctuels par opération (versement, changement de mode de gestion, arbitrage, transfert sortant, versements de rente, rachat). Le contrat est assuré par MUTAVIE SE, entreprise régie par le Code des assurances (RCS Niort B 315 652 263). Le document ne décrit aucune garantie ni aucune exclusion.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Conditions tarifaires · Édition : 2024-06
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Assurance vie et épargne](<../../branches/Assurance vie et épargne.md>) · Type : Conditions tarifaires · Édition : 2024-06
 
 ## Définitions
 

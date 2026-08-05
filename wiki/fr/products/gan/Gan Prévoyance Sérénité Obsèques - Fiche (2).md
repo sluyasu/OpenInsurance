@@ -42,7 +42,7 @@ generated: true
 
 Document d’informations clés (DIC) de Gan Prévoyance Sérénité Obsèques, un contrat d’assurance de groupe prévoyance vie entière à adhésion facultative souscrit auprès de Groupama Gan Vie par l’association A3P, relevant des branches 20 (Vie-Décès) et 18 (Assistance). Le contrat verse au(x) bénéficiaire(s) désigné(s) un capital destiné au financement des obsèques de l’assuré, payable soit à l’opérateur funéraire, soit à la personne physique qui a acquitté la facture, dans la limite du capital garanti. Il est alimenté par des cotisations périodiques (temporaires de 2 à 20 ans ou viagères) ou par une prime unique d’adhésion, dont le montant dépend de l’âge de l’assuré à la date d’effet et du capital garanti, et inclut des garanties d’assistance. Le document précise l’indicateur de risque (1 sur 7), les coûts, le délai de renonciation et les modalités de rachat.
 
-- Assureur : [Gan Assurances](../../insurers/Gan%20Assurances.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : Fiche produit · Édition : Dernière mise à jour le 1er mars 2023
+- Assureur : [Gan Assurances](<../../insurers/Gan Assurances.md>) · Branche : [Obsèques](<../../branches/Obsèques.md>) · Type : Fiche produit · Édition : Dernière mise à jour le 1er mars 2023
 
 ## Définitions
 
@@ -162,8 +162,8 @@ En cas de défaillance de Groupama Gan Vie, les contrats d’assurance, bons et 
 
 ## Documents liés
 
-- ⚠️ Édition remplacée par une version plus récente : [Gan Prévoyance Sérénité Obsèques - Fiche](Gan%20Pr%C3%A9voyance%20S%C3%A9r%C3%A9nit%C3%A9%20Obs%C3%A8ques%20-%20Fiche.md)
-- [Gan Prévoyance Sérénité Obsèques - Fiche](Gan%20Pr%C3%A9voyance%20S%C3%A9r%C3%A9nit%C3%A9%20Obs%C3%A8ques%20-%20Fiche.md) - Fiche produit, éd. 032026
+- ⚠️ Édition remplacée par une version plus récente : [Gan Prévoyance Sérénité Obsèques - Fiche](<Gan Prévoyance Sérénité Obsèques - Fiche.md>)
+- [Gan Prévoyance Sérénité Obsèques - Fiche](<Gan Prévoyance Sérénité Obsèques - Fiche.md>) - Fiche produit, éd. 032026
 
 ## Source & fidélité
 

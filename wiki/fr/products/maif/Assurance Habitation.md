@@ -44,7 +44,7 @@ generated: true
 
 Conditions générales du contrat Assurance Habitation de MAIF (référence M5202AHA, édition 01/2025), destiné aux particuliers locataires ou propriétaires. Le contrat protège la famille, les biens, les droits et les responsabilités de l'assuré dans le cadre de la vie privée et du logement, et se décline en trois formules (F1, F2, F3) couvrant, de façon croissante, l'incendie-explosion, le dégât des eaux, les événements climatiques, le gel, les catastrophes naturelles et technologiques, les attentats, le vol et le vandalisme, le bris de vitre, le déménagement, puis les dommages électriques, le choc de véhicule, les autres dommages accidentels et la panne. Quelle que soit la formule, il comprend la protection des enfants scolarisés, la garantie recours, la responsabilité civile-défense, l'accompagnement juridique, le soutien psychologique et l'assistance. Des options complètent le contrat : biens nomades multimédias, biens nomades sport-loisirs et jardin + en formule 2, ainsi que les options transverses Chasse, Accueil de personnes et Annulation voyages-loisirs.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales · Édition : 01/2025
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : Conditions générales · Édition : 01/2025
 
 ## Définitions
 
@@ -878,7 +878,7 @@ La prescription est le délai au-delà duquel aucune action n'est plus recevable
 
 ## Documents liés
 
-- [Assurance Habitation - IPID](Assurance%20Habitation%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/2025
+- [Assurance Habitation - IPID](<Assurance Habitation - IPID.md>) - IPID / Fiche d'information, éd. 01/2025
 
 ## Source & fidélité
 

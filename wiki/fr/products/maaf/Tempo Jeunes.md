@@ -49,7 +49,7 @@ generated: true
 
 Conditions générales du contrat multirisque TEMPO JEUNES de MAAF Assurances SA, qui associe une assurance personnelle (frais de santé et individuelle accident suite à accident, garanties supplémentaires « Spécial Jeunes » : annulation de voyage, capital études, équipement professionnel, matériel confié), une responsabilité civile vie privée avec défense pénale et recours suite à accident, et l’assurance du logement dont l’assuré est locataire (responsabilité civile habitation, incendie, dégâts des eaux, bris de vitres, émeutes, tempête, vol, dommages électriques, garanties complémentaires, garanties hors domicile, catastrophes naturelles et technologiques, actes de terrorisme). Il comprend une assistance à domicile et une assistance aux personnes. Le contrat se décline en trois formules — PERSONNELLE, LOGEMENT et TOUS RISQUES — dont le périmètre est fixé par le tableau des formules de la page 5.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales · Édition : 2026-05
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : Conditions générales · Édition : 2026-05
 
 ## Définitions
 
@@ -569,9 +569,9 @@ Article L 114-1 du code des assurances : toutes actions dérivant d’un contrat
 
 ## Documents liés
 
-- [Assurance habitation jeune - Fiche](Assurance%20habitation%20jeune%20-%20Fiche.md) - Fiche produit, éd. 06/2023
-- [Assurance habitation jeune - Formule Logement - Fiche](Assurance%20habitation%20jeune%20-%20Formule%20Logement%20-%20Fiche.md) - Fiche produit, éd. 06/2023
-- [Assurance habitation jeune - Formule Tous risques - Fiche](Assurance%20habitation%20jeune%20-%20Formule%20Tous%20risques%20-%20Fiche.md) - Fiche produit, éd. 06/2023
+- [Assurance habitation jeune - Fiche](<Assurance habitation jeune - Fiche.md>) - Fiche produit, éd. 06/2023
+- [Assurance habitation jeune - Formule Logement - Fiche](<Assurance habitation jeune - Formule Logement - Fiche.md>) - Fiche produit, éd. 06/2023
+- [Assurance habitation jeune - Formule Tous risques - Fiche](<Assurance habitation jeune - Formule Tous risques - Fiche.md>) - Fiche produit, éd. 06/2023
 
 ## Source & fidélité
 

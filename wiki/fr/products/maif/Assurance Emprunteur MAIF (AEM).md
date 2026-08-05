@@ -50,7 +50,7 @@ generated: true
 
 Notice d'information du contrat Assurance Emprunteur MAIF (AEM), contrat d'assurance à adhésion facultative adossé à un contrat collectif souscrit par l'Association Solidarité Autonomie et Prévoyance (ASAP) auprès de MAIF VIE, assureur, et géré par SECURIMUT. Il couvre, dans le cadre de prêts immobiliers, le décès, la perte totale et irréversible d'autonomie (PTIA), l'incapacité temporaire totale de travail (ITT), l'invalidité permanente totale (IPT) et l'invalidité permanente partielle (IPP), selon trois formules de garanties. Le décès et la PTIA donnent lieu au versement du capital restant dû pondéré de la quotité ; l'ITT, l'IPT et l'IPP donnent lieu à une indemnité forfaitaire égale aux mensualités, pondérée de la quotité, après une franchise de 90 jours et dans la limite de 9 000 € par mois et par assuré. Le contrat prévoit aussi une garantie invalidité spécifique AERAS (GIS) et une garantie provisoire décès accidentel.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Assurance emprunteur](../../branches/Assurance%20emprunteur.md) · Type : Conditions générales · Édition : 11/24
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Assurance emprunteur](<../../branches/Assurance emprunteur.md>) · Type : Conditions générales · Édition : 11/24
 
 ## Définitions
 

@@ -45,7 +45,7 @@ generated: true
 
 Ma Moto, Mon Cyclo est une offre d’assurance deux roues dont la compagnie d’assurance indiquée au document est AXA France IARD. Elle garantit systématiquement la responsabilité civile automobile (assurance obligatoire, illimitée pour les dommages corporels et limitée à 100 millions d’€ pour les dommages matériels), la responsabilité civile pour préjudice écologique, la défense pénale et recours suite à accident, le décès du conducteur, la sécurité du conducteur à 100 000 € et une assistance à 30 kms. Des garanties optionnelles peuvent compléter l’offre : sécurité du conducteur à 500 000 €, protection juridique, assistance 0 km, dommages tous accidents, incendie et vol, attentats, événements climatiques, catastrophes naturelles et technologiques, bris de glace, accessoires, équipement du motard, contenu du top-case, véhicule de remplacement et indemnisation renforcée. Ce document est un document d’information sur le produit d’assurance (DIP) qui résume les principales garanties et exclusions du contrat.
 
-- Assureur : [Direct Assurance](../../insurers/Direct%20Assurance.md) · Branche : [Deux-roues, quads et voiturettes](../../branches/Deux-roues%2C%20quads%20et%20voiturettes.md) · Type : IPID / Fiche d'information · Édition : 09 2024
+- Assureur : [Direct Assurance](<../../insurers/Direct Assurance.md>) · Branche : [Deux-roues, quads et voiturettes](<../../branches/Deux-roues, quads et voiturettes.md>) · Type : IPID / Fiche d'information · Édition : 09 2024
 
 ## Garanties
 
@@ -204,7 +204,7 @@ indemnisation du véhicule ou prise en charge des réparations en cas de vol ou 
 
 ## Documents liés
 
-- [Assurance Ma Moto – Mon Cyclo](Assurance%20Ma%20Moto%20%E2%80%93%20Mon%20Cyclo.md) - Conditions générales, éd. Mars 2024
+- [Assurance Ma Moto – Mon Cyclo](<Assurance Ma Moto – Mon Cyclo.md>) - Conditions générales, éd. Mars 2024
 
 ## Source & fidélité
 

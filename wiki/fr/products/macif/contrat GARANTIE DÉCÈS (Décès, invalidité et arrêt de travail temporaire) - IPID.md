@@ -42,7 +42,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (DIPA) du contrat GARANTIE DÉCÈS, assuré par Macif Santé Prévoyance (SIREN n°779 558 501), mutuelle régie par le Livre II du Code de la mutualité. Contrat de prévoyance temporaire destiné aux particuliers, couvrant les risques de décès, de perte totale et irréversible d'autonomie (PTIA), d'invalidité ou d'arrêt de travail temporaire consécutifs à une maladie ou un accident, avec des garanties d'assistance. C'est un contrat « à la carte » : l'assuré sélectionne les garanties et le niveau de couverture, sous réserve des formalités d'adhésion.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : IPID / Fiche d'information · Édition : 01/26
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : IPID / Fiche d'information · Édition : 01/26
 
 ## Garanties
 
@@ -196,8 +196,8 @@ Lorsque la demande fait l'objet d'une étude par le service médical de l'assure
 
 ## Documents liés
 
-- [contrat GARANTIE DÉCÈS Capital forfaitaire - IPID](contrat%20GARANTIE%20D%C3%89C%C3%88S%20Capital%20forfaitaire%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/26
-- [GARANTIE DÉCÈS (Capital forfaitaire)](GARANTIE%20D%C3%89C%C3%88S%20%28Capital%20forfaitaire%29.md) - Conditions générales, éd. 2026-01
+- [contrat GARANTIE DÉCÈS Capital forfaitaire - IPID](<contrat GARANTIE DÉCÈS Capital forfaitaire - IPID.md>) - IPID / Fiche d'information, éd. 01/26
+- [GARANTIE DÉCÈS (Capital forfaitaire)](<GARANTIE DÉCÈS (Capital forfaitaire).md>) - Conditions générales, éd. 2026-01
 
 ## Source & fidélité
 

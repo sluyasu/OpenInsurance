@@ -45,7 +45,7 @@ generated: true
 
 Convention spéciale « Tous risques instruments de musique » du contrat Convergence de SMACL Assurances, destinée au marché associatif. Elle a pour objet l'indemnisation des dommages matériels subis, en tous lieux, par les instruments et matériels de sonorisation (enregistrement, production, reproduction, émission) déclarés aux conditions particulières, et couvre les frais de remplacement ou de réparation à la suite des évènements des conventions spéciales Dommages aux biens comme des destructions, détériorations, avaries ou disparitions accidentelles, avec une extension aux housses et étuis et aux partitions commercialisées et une garantie vol en véhicule sous conditions de fermeture et de remisage nocturne. La garantie s'exerce sur le territoire de France métropolitaine et dans les départements et régions d'outre-mer, dans la limite de la valeur de remplacement à neuf sous déduction de vétusté et sous règle proportionnelle de capitaux. Le texte complète les conditions générales et les conventions spéciales Dommages aux biens Convergence, qui ne sont pas reproduites ici.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : Conditions générales · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : Conditions générales · Édition : 01/2024
 
 ## Garanties
 
@@ -134,12 +134,12 @@ La garantie vol des instruments et des matériels de sonorisation laissés dans 
 
 ## Documents liés
 
-- ⚠️ Édition remplacée par une version plus récente : [CONVERGENCE - Tous risques informatique (Associatons)](CONVERGENCE%20-%20Tous%20risques%20informatique%20%28Associatons%29.md)
+- ⚠️ Édition remplacée par une version plus récente : [CONVERGENCE - Tous risques informatique (Associatons)](<CONVERGENCE - Tous risques informatique (Associatons).md>)
 - Extension / option du produit : **conditions générales Convergence et conventions spéciales Dommages aux biens Convergence**
-- [CONVERGENCE (conditions générales)](CONVERGENCE%20%28conditions%20g%C3%A9n%C3%A9rales%29.md) - Conditions générales, éd. 01/2024
-- [CONVERGENCE Dommages aux biens](CONVERGENCE%20Dommages%20aux%20biens.md) - Conditions générales, éd. 01/2024
-- [CONVERGENCE - Tous risques informatique (Associatons)](CONVERGENCE%20-%20Tous%20risques%20informatique%20%28Associatons%29.md) - Conditions générales, éd. 04/2025
-- [CONVERGENCE Tous risques objets (Associatons)](CONVERGENCE%20Tous%20risques%20objets%20%28Associatons%29.md) - Conditions générales, éd. 01/2024
+- [CONVERGENCE (conditions générales)](<CONVERGENCE (conditions générales).md>) - Conditions générales, éd. 01/2024
+- [CONVERGENCE Dommages aux biens](<CONVERGENCE Dommages aux biens.md>) - Conditions générales, éd. 01/2024
+- [CONVERGENCE - Tous risques informatique (Associatons)](<CONVERGENCE - Tous risques informatique (Associatons).md>) - Conditions générales, éd. 04/2025
+- [CONVERGENCE Tous risques objets (Associatons)](<CONVERGENCE Tous risques objets (Associatons).md>) - Conditions générales, éd. 01/2024
 
 ## Source & fidélité
 

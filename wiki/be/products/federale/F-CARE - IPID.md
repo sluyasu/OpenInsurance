@@ -40,7 +40,7 @@ generated: true
 
 F-CARE est un contrat d'assurance collectif soins de santé lié à l'activité professionnelle ayant pour objet de protéger les assurés des conséquences financières d'une hospitalisation et de certains traitements médicaux en dehors d'une hospitalisation (soins ambulatoires). Il comporte une garantie de base assurée par Fédérale Assurance (frais d'hospitalisation et/ou de soins ambulatoires, en Belgique et hors Belgique) et une garantie complémentaire assurée par Europ Assistance (frais consécutifs à un incident médical imprévisible, hors Belgique exclusivement). La garantie est acquise dans le monde entier.
 
-- Assureur : [Fédérale Assurance](../../insurers/F%C3%A9d%C3%A9rale%20Assurance.md) · Branche : [Santé](../../branches/Sant%C3%A9.md) · Type : IPID / Fiche d'information · Édition : 11/20
+- Assureur : [Fédérale Assurance](<../../insurers/Fédérale Assurance.md>) · Branche : [Santé](<../../branches/Santé.md>) · Type : IPID / Fiche d'information · Édition : 11/20
 
 ## Garanties
 
@@ -148,7 +148,7 @@ Hors Belgique exclusivement : le remboursement de frais d'hospitalisation et/ou 
 
 ## Documents liés
 
-- [F-CARE](F-CARE.md) - Conditions générales, éd. 11/20
+- [F-CARE](<F-CARE.md>) - Conditions générales, éd. 11/20
 
 ## Source & fidélité
 

@@ -42,7 +42,7 @@ generated: true
 
 Globality YouGenio® World es un seguro de salud internacional para expatriados suscrito con Foyer Global Health S.A. (Luxemburgo), que reembolsa los gastos por tratamientos médicamente necesarios derivados de enfermedad, accidente y otras circunstancias recogidas en las Condiciones Generales. Se comercializa en cuatro modalidades — Essential, Classic, Plus y Top — con un límite total anual que va de 2.000.000 €/2.600.000 $/1.680.000 £ a 7.500.000 €/9.750.000 $/6.300.000 £ por persona y anualidad. Las coberturas se agrupan en prestaciones hospitalarias, asistencia médica ambulatoria, servicios odontológicos, servicios asistenciales y servicios adicionales, y su alcance depende de la modalidad contratada. La cobertura se aplica en la zona de destino I (todo el mundo, incluyendo EE.UU) o II (todo el mundo, excluyendo EE.UU); la póliza se contrata inicialmente por un año y está garantizada como renovable.
 
-- Assureur : [Foyer Global Health](../../insurers/Foyer%20Global%20Health.md) · Branche : Complémentaire santé · Type : Conditions générales
+- Assureur : [Foyer Global Health](<../../insurers/Foyer Global Health.md>) · Branche : Complémentaire santé · Type : Conditions générales
 
 ## Définitions
 
@@ -977,8 +977,8 @@ Todas las reclamaciones realizadas según este contrato tendrán un límite temp
 
 ## Documents liés
 
-- [Globality YouGenio® World](Globality%20YouGenio%C2%AE%20World.md) - Conditions générales
-- [Globality YouGenio® World - DE](Globality%20YouGenio%C2%AE%20World%20-%20DE.md) - Conditions générales
+- [Globality YouGenio® World](<Globality YouGenio® World.md>) - Conditions générales
+- [Globality YouGenio® World - DE](<Globality YouGenio® World - DE.md>) - Conditions générales
 
 ## Source & fidélité
 

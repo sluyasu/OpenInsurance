@@ -48,7 +48,7 @@ generated: true
 
 Document d'information (DIPA/IPID) du contrat MACIF SANTÉ DES TERRITORIAUX, assurance complémentaire santé. Le contrat est assuré par la Mutuelle Nationale des Fonctionnaires des Collectivités Territoriales (MNFCT), mutuelle enregistrée en France et régie par le livre II du code de la Mutualité, SIREN n°784 442 899. Il est destiné à rembourser, en complément de la Sécurité sociale française, tout ou partie des frais de santé restant à la charge de l'assuré et des éventuels bénéficiaires en cas d'accident, de maladie ou de maternité ; il respecte les conditions légales des contrats responsables et figure sur la liste des offres labellisées sur le site de la DGCL. Huit garanties sont systématiquement prévues (hospitalisation, prime de naissance, soins courants, prévention et mieux-être, dentaire, optique, aides auditives, appareillage), complétées par six garanties optionnelles selon la formule souscrite, trois prestations d'assistance et quatre services. Les montants des prestations sont soumis à des plafonds qui varient selon le niveau de garanties choisi et figurent dans les tableaux de garanties.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : IPID / Fiche d'information · Édition : 2026-06
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : IPID / Fiche d'information · Édition : 2026-06
 
 ## Garanties
 
@@ -252,8 +252,8 @@ Tiers payant. (Service systématiquement prévu, précédé d'une coche verte. L
 
 ## Documents liés
 
-- [Macif Santé des Territoriaux - Fiche](Macif%20Sant%C3%A9%20des%20Territoriaux%20-%20Fiche.md) - Fiche produit, éd. 06/26
-- [Macif Santé des Territoriaux](Macif%20Sant%C3%A9%20des%20Territoriaux.md) - Conditions générales, éd. 2026-06
+- [Macif Santé des Territoriaux - Fiche](<Macif Santé des Territoriaux - Fiche.md>) - Fiche produit, éd. 06/26
+- [Macif Santé des Territoriaux](<Macif Santé des Territoriaux.md>) - Conditions générales, éd. 2026-06
 
 ## Source & fidélité
 

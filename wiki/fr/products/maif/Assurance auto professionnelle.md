@@ -48,7 +48,7 @@ generated: true
 
 Conditions générales du contrat MAIF « Assurance auto professionnelle » (Aap), assurance de véhicules terrestres à moteur et de leurs remorques souscrite par un chef d’entreprise entrepreneur individuel. Le contrat répare les dommages corporels et matériels et garantit les droits et responsabilités lors d’accidents découlant de la propriété ou de l’utilisation des véhicules assurés, hors transport onéreux de personnes ou de marchandises. Il se décline en quatre formules — Tiers éco, Tiers confort, Tous risques éco et Tous risques confort — auxquelles s’ajoutent des options (assistance panne 0 km, véhicule de remplacement), et couvre la responsabilité civile/défense, l’accompagnement juridique (informations juridiques, renseignements personnalisés, recours, protection juridique), la protection des personnes (dommages corporels), la protection du véhicule (événements climatiques, catastrophes naturelles et technologiques, attentats, vol, incendie, bris d’élément vitré, vandalisme et autres événements accidentels) et des solutions d’assistance au véhicule et aux personnes mises en œuvre par IMA Assurances pour MAIF Assistance. Les garanties ne sont acquises que s’il en est fait mention aux conditions particulières, qui fixent également les plafonds et les franchises.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : 2026-03
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions générales · Édition : 2026-03
 
 ## Définitions
 
@@ -889,7 +889,7 @@ La prescription est le délai au-delà duquel aucune action n’est plus recevab
 
 ## Documents liés
 
-- [Assurance auto professionnelle - IPID](Assurance%20auto%20professionnelle%20-%20IPID.md) - IPID / Fiche d'information, éd. 03/2026
+- [Assurance auto professionnelle - IPID](<Assurance auto professionnelle - IPID.md>) - IPID / Fiche d'information, éd. 03/2026
 
 ## Source & fidélité
 

@@ -45,7 +45,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (DIPA) portant sur la Section 1 « Assurance des dégâts et pertes » du produit APROBAT Tous Risques Chantier. L'assurance couvre les dommages matériels directs consistant en la destruction ou la détérioration d'un objet assuré pendant la période de construction-montage-essais ainsi que pendant la période d'entretien, à l'exclusion de tout dommage immatériel. Les biens assurables sont les ouvrages et objets des marchés, les équipements, les baraquements de chantier et le matériel et engins de chantier. Le document précise que tous les intervenants sur le chantier sont considérés comme assurés, de sorte que la recherche du responsable est inutile.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Assurances constructions](../../branches/Assurances%20constructions.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Assurances constructions](<../../branches/Assurances constructions.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -171,8 +171,8 @@ l'assureur indemnise le preneur des dégâts aux mêmes biens érigés à titre 
 
 ## Documents liés
 
-- Extension liée : [APROBAT - Tous Risques Chantier — Section 2 - Assurance de responsabilités - IPID](APROBAT%20-%20Tous%20Risques%20Chantier%20%E2%80%94%20Section%202%20-%20Assurance%20de%20responsabilit%C3%A9s%20-%20IPID.md)
-- [APROBAT - Tous Risques Chantier — Section 2 - Assurance de responsabilités - IPID](APROBAT%20-%20Tous%20Risques%20Chantier%20%E2%80%94%20Section%202%20-%20Assurance%20de%20responsabilit%C3%A9s%20-%20IPID.md) - IPID / Fiche d'information
+- Extension liée : [APROBAT - Tous Risques Chantier — Section 2 - Assurance de responsabilités - IPID](<APROBAT - Tous Risques Chantier — Section 2 - Assurance de responsabilités - IPID.md>)
+- [APROBAT - Tous Risques Chantier — Section 2 - Assurance de responsabilités - IPID](<APROBAT - Tous Risques Chantier — Section 2 - Assurance de responsabilités - IPID.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

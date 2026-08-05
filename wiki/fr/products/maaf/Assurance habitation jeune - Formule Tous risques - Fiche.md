@@ -44,7 +44,7 @@ generated: true
 
 Tableau des garanties de la formule Tous risques de l'assurance habitation jeune MAAF, contrat TEMPO JEUNES, présenté sur deux pages. Le document est une liste de garanties cochées, réparties en quatre rubriques : « Votre assurance personnelle », « Votre responsabilité civile », « Vos garanties logement » et « Vos prestations d'assistance ». Il est présenté comme adapté aux étudiants, apprentis et alternants locataires d'un appartement, studio ou chambre, avec des biens personnels importants. Le document ne décrit ni les montants, ni les franchises, ni les exclusions et renvoie aux conditions générales du contrat TEMPO JEUNES pour le détail et les modalités.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Fiche produit · Édition : 06/2023
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : Fiche produit · Édition : 06/2023
 
 ## Garanties
 
@@ -185,9 +185,9 @@ Garantie listée sous la rubrique « Vos prestations d'assistance » de la formu
 
 ## Documents liés
 
-- [Assurance habitation jeune - Fiche](Assurance%20habitation%20jeune%20-%20Fiche.md) - Fiche produit, éd. 06/2023
-- [Assurance habitation jeune - Formule Logement - Fiche](Assurance%20habitation%20jeune%20-%20Formule%20Logement%20-%20Fiche.md) - Fiche produit, éd. 06/2023
-- [Tempo Jeunes](Tempo%20Jeunes.md) - Conditions générales, éd. 2026-05
+- [Assurance habitation jeune - Fiche](<Assurance habitation jeune - Fiche.md>) - Fiche produit, éd. 06/2023
+- [Assurance habitation jeune - Formule Logement - Fiche](<Assurance habitation jeune - Formule Logement - Fiche.md>) - Fiche produit, éd. 06/2023
+- [Tempo Jeunes](<Tempo Jeunes.md>) - Conditions générales, éd. 2026-05
 
 ## Source & fidélité
 

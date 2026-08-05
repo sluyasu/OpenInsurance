@@ -40,7 +40,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (DIPA/IPID) de deux pages pour le Contrat Macif Habitation - Formule Construction, assurance multirisques habitation pour une Maison en construction. Ce contrat d’assurance habitation protège l’assuré contre les conséquences d’événements affectant sa maison en construction. Ce contrat garantit aussi sa responsabilité civile du fait des biens immobiliers assurés. Le document résume les biens immobiliers assurés, les garanties systématiquement prévues, deux options, les principales exclusions et restrictions, les obligations de l'assuré, les modalités de paiement, la durée et les modalités de résiliation.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information · Édition : 2025-06
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : IPID / Fiche d'information · Édition : 2025-06
 
 ## Garanties
 
@@ -209,11 +209,11 @@ Piscines et spas extérieurs (choix parmi 3 plafonds entre 10 000 € et 70 000
 
 ## Documents liés
 
-- [Contrat Habitation - Formule Protectrice - Résidence principale](Contrat%20Habitation%20-%20Formule%20Protectrice%20-%20R%C3%A9sidence%20principale%20%282%29.md) - Conditions générales, éd. Avril 2024
-- [Contrat Macif Habitation - Formule Logement locatif - IPID](Contrat%20Macif%20Habitation%20-%20Formule%20Logement%20locatif%20-%20IPID.md) - IPID / Fiche d'information, éd. 2025-06
-- [Contrat Macif Habitation - Formules Économique, Équilibrée, Confort (Assurance multirisques habitation - Résidence princ](Contrat%20Macif%20Habitation%20-%20Formules%20%C3%89conomique%2C%20%C3%89quilibr%C3%A9e%2C%20Confort%20%28Assurance%20multirisques%20habitation%20-%20R%C3%A9sidence%20princ.md) - IPID / Fiche d'information, éd. 06/25
-- [Contrat Macif Habitation - Formules Économique, Équilibrée, Confort (Résidence secondaire) - IPID](Contrat%20Macif%20Habitation%20-%20Formules%20%C3%89conomique%2C%20%C3%89quilibr%C3%A9e%2C%20Confort%20%28R%C3%A9sidence%20secondaire%29%20-%20IPID.md) - IPID / Fiche d'information, éd. 06/25
-- [Macif Habitation](Macif%20Habitation.md) - Conditions générales, éd. 06/25 (Version 06/2025)
+- [Contrat Habitation - Formule Protectrice - Résidence principale](<Contrat Habitation - Formule Protectrice - Résidence principale (2).md>) - Conditions générales, éd. Avril 2024
+- [Contrat Macif Habitation - Formule Logement locatif - IPID](<Contrat Macif Habitation - Formule Logement locatif - IPID.md>) - IPID / Fiche d'information, éd. 2025-06
+- [Contrat Macif Habitation - Formules Économique, Équilibrée, Confort (Assurance multirisques habitation - Résidence princ](<Contrat Macif Habitation - Formules Économique, Équilibrée, Confort (Assurance multirisques habitation - Résidence princ.md>) - IPID / Fiche d'information, éd. 06/25
+- [Contrat Macif Habitation - Formules Économique, Équilibrée, Confort (Résidence secondaire) - IPID](<Contrat Macif Habitation - Formules Économique, Équilibrée, Confort (Résidence secondaire) - IPID.md>) - IPID / Fiche d'information, éd. 06/25
+- [Macif Habitation](<Macif Habitation.md>) - Conditions générales, éd. 06/25 (Version 06/2025)
 
 ## Source & fidélité
 

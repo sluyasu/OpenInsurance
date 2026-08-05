@@ -42,7 +42,7 @@ generated: true
 
 Informationsblatt zu Versicherungsprodukten der DKV Luxembourg S.A. für das Produkt HOSPITAL HEALTH: ein stationäres Ergänzungsprodukt für gesetzlich Versicherte, das ohne Alterungsrückstellung angeboten wird. Versichert ist die stationäre Heilbehandlung — ärztliche Leistungen, Chefarztkosten, Aufenthalts- und zusätzliche Unterkunftskosten, One-Day-Clinic, Rooming-in, Krankentransport sowie ein Krankenhaustagegeld von 30 € pro Tag. Als optionale Serviceleistung wird Best Care Premium angeboten (Zugang zum Spezialisten, Terminvereinbarung innerhalb von 5 Werktagen, Zweitmeinung). Der Versicherungsschutz erstreckt sich auf Europa, mit Deckung während des ersten Monats eines vorübergehenden außereuropäischen Aufenthalts.
 
-- Assureur : [DKV Luxembourg](../../insurers/DKV%20Luxembourg.md) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
+- Assureur : [DKV Luxembourg](<../../insurers/DKV Luxembourg.md>) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -176,8 +176,8 @@ Ihr Versicherungsschutz erstreckt sich auf Europa. Bei vorübergehenden Aufentha
 
 ## Documents liés
 
-- [HOSPITAL HEALTH - IPID](HOSPITAL%20HEALTH%20-%20IPID.md) - IPID / Fiche d'information
-- [HOSPITAL HEALTH - IPID - EN](HOSPITAL%20HEALTH%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+- [HOSPITAL HEALTH - IPID](<HOSPITAL HEALTH - IPID.md>) - IPID / Fiche d'information
+- [HOSPITAL HEALTH - IPID - EN](<HOSPITAL HEALTH - IPID - EN.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

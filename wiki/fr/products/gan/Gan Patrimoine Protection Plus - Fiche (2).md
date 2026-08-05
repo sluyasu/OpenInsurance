@@ -42,7 +42,7 @@ generated: true
 
 Tableau d’exemples de prise en charge au 01/01/2025 pour les garanties incapacité / invalidité / décès du contrat « Gan Patrimoine Protection Plus », destiné aux travailleurs non-salariés. Le document met en regard, colonne par colonne, les prestations du régime obligatoire (Sécurité sociale des indépendants), celles du contrat de prévoyance et le total, sur un profil type chiffré (commerçant de 50 ans, revenu annuel brut 43 000 €). Il couvre le capital décès, la rente éducation, l’invalidité permanente et l’incapacité de travail, avec deux niveaux d’exemple et deux niveaux de franchise. Il ne s’agit pas d’un document contractuel : « Ils ne peuvent se substituer aux documents contractuels qui seuls engagent l’organisme assureur. »
 
-- Assureur : [Gan Assurances](../../insurers/Gan%20Assurances.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : Fiche produit · Édition : 01/01/2025
+- Assureur : [Gan Assurances](<../../insurers/Gan Assurances.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : Fiche produit · Édition : 01/01/2025
 
 ## Définitions
 
@@ -173,8 +173,8 @@ Option proposée par contrat de prévoyance (facultatif) : Remboursement des fra
 
 ## Documents liés
 
-- ⚠️ Édition remplacée par une version plus récente : [Gan Patrimoine Protection Plus - Fiche](Gan%20Patrimoine%20Protection%20Plus%20-%20Fiche.md)
-- [Gan Patrimoine Protection Plus - Fiche](Gan%20Patrimoine%20Protection%20Plus%20-%20Fiche.md) - Fiche produit, éd. 01/01/2026
+- ⚠️ Édition remplacée par une version plus récente : [Gan Patrimoine Protection Plus - Fiche](<Gan Patrimoine Protection Plus - Fiche.md>)
+- [Gan Patrimoine Protection Plus - Fiche](<Gan Patrimoine Protection Plus - Fiche.md>) - Fiche produit, éd. 01/01/2026
 
 ## Source & fidélité
 

@@ -46,7 +46,7 @@ generated: true
 
 Statuts de MAAF Assurances, société d'assurance mutuelle à cotisations variables régie par le Code des assurances, mis à jour à l'issue de l'assemblée générale extraordinaire du 13/06/2015. Le document n'est pas un contrat d'assurance : il fixe la formation et l'objet de la société (opérations d'assurance de toute nature, à l'exclusion des assurances sur la vie humaine), le statut de sociétaire et le droit d'adhésion, le régime des cotisations variables et leur maximum, le fonctionnement des assemblées générales de délégués, l'administration par le conseil d'administration et la direction générale, l'affiliation à la SGAM Covéa, les commissaires aux comptes, les charges et contributions sociales, les emprunts, les excédents de recettes, l'attribution de juridiction et la dissolution anticipée. Il contient toutefois des règles directement opposables au sociétaire, notamment le maximum de cotisation fixé à deux fois la cotisation normale et la possibilité d'un rappel de cotisation.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Autres](../../branches/Autres.md) · Type : Document · Édition : 06/15
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Autres](<../../branches/Autres.md>) · Type : Document · Édition : 06/15
 
 ## Définitions
 
@@ -178,8 +178,8 @@ Statuts de MAAF Assurances, société d'assurance mutuelle à cotisations variab
 
 ## Documents liés
 
-- ⚠️ Édition remplacée par une version plus récente : [Statuts de MAAF Assurances - Doc](Statuts%20de%20MAAF%20Assurances%20-%20Doc.md)
-- [Statuts de MAAF Assurances - Doc](Statuts%20de%20MAAF%20Assurances%20-%20Doc.md) - Document, éd. 08/21
+- ⚠️ Édition remplacée par une version plus récente : [Statuts de MAAF Assurances - Doc](<Statuts de MAAF Assurances - Doc.md>)
+- [Statuts de MAAF Assurances - Doc](<Statuts de MAAF Assurances - Doc.md>) - Document, éd. 08/21
 
 ## Source & fidélité
 

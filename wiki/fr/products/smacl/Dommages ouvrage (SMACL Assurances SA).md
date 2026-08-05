@@ -46,7 +46,7 @@ generated: true
 
 Conditions générales du contrat Dommages ouvrage de SMACL Assurances SA, assurance de dommages obligatoire prévue par l'article L.242-1 du Code des assurances, souscrite par un maître d'ouvrage pour une opération de construction désignée aux conditions particulières. La garantie de base paie, en dehors de toute recherche de responsabilité, les travaux de réparation des dommages de nature décennale affectant l'ouvrage réalisé et les existants totalement incorporés. Trois garanties facultatives peuvent être adjointes aux conditions particulières : éléments d'équipement dissociables (art. 1792-3 du Code civil), dommages immatériels après réception et dommages aux existants non totalement incorporés, chacune limitée à 20 % du montant de la garantie de base. Le contrat fixe les délais légaux d'instruction du sinistre (60 jours pour la décision sur le principe de la garantie, 90 jours pour l'offre d'indemnité).
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Assurance construction](../../branches/Assurance%20construction.md) · Type : Conditions générales · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Assurance construction](<../../branches/Assurance construction.md>) · Type : Conditions générales · Édition : 01/2024
 
 ## Définitions
 
@@ -241,7 +241,7 @@ Conformément à l'article L.114-1 du Code, toutes actions dérivant d'un contra
 
 ## Documents liés
 
-- [Dommages ouvrage - IPID](Dommages%20ouvrage%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/2024
+- [Dommages ouvrage - IPID](<Dommages ouvrage - IPID.md>) - IPID / Fiche d'information, éd. 01/2024
 
 ## Source & fidélité
 

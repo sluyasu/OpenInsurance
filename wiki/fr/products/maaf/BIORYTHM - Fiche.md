@@ -40,7 +40,7 @@ generated: true
 
 Document d'exemples chiffrés de remboursements pour le contrat d'assurance santé responsable BIORYTHM de MAAF. Il compare, poste de soins par poste de soins (hospitalisation, soins courants, dentaire, optique, aides auditives), le tarif le plus souvent facturé ou réglementé, la base de remboursement de la sécurité sociale, le remboursement de l'assurance maladie obligatoire, puis le remboursement de la complémentaire BIORYTHM et le reste à charge, pour quatre niveaux de couverture (Niv. 1 à Niv. 4). Le document précise qu'il ne peut se substituer aux documents contractuels, qui seuls engagent l'organisme de complémentaire santé.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Fiche produit
 
 ## Définitions
 
@@ -226,8 +226,8 @@ Chirurgie réfractive. Tarif : Prix moyen national. Base de remboursement de la 
 
 ## Documents liés
 
-- [ASSURANCE SANTÉ BIORYTHM (Niveaux 1 à 4) - Fiche](ASSURANCE%20SANT%C3%89%20BIORYTHM%20%28Niveaux%201%20%C3%A0%204%29%20-%20Fiche.md) - Fiche produit, éd. Prestations en vigueur au 01/12/2025
-- [Contrat Santé BIORYTHM](Contrat%20Sant%C3%A9%20BIORYTHM.md) - Conditions générales, éd. 01/26
+- [ASSURANCE SANTÉ BIORYTHM (Niveaux 1 à 4) - Fiche](<ASSURANCE SANTÉ BIORYTHM (Niveaux 1 à 4) - Fiche.md>) - Fiche produit, éd. Prestations en vigueur au 01/12/2025
+- [Contrat Santé BIORYTHM](<Contrat Santé BIORYTHM.md>) - Conditions générales, éd. 01/26
 
 ## Source & fidélité
 

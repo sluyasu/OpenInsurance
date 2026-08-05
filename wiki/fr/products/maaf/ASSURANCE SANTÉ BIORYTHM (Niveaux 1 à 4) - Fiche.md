@@ -40,7 +40,7 @@ generated: true
 
 Tableau des garanties de la complémentaire santé MAAF Biorythm, présentant pour quatre niveaux (Niveau 1 à Niveau 4) les prestations des trois modules Hospitalisation, Soins courants et Appareillages et prothèses. Les prestations sont exprimées en pourcentage de la base de remboursement (BR) de la Sécurité sociale ou en euros, prestations en vigueur au 01/12/2025. Le document précise que les garanties santé sont assurées par MAAF Santé, les garanties d’assistance par MAAF Assurances SA, et que le contrat est distribué par MAAF Assurances SA. Il indique lui-même que les informations sont non exhaustives et renvoie aux Conditions Générales du contrat Biorythm valant extrait du règlement mutualiste.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit · Édition : Prestations en vigueur au 01/12/2025
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Fiche produit · Édition : Prestations en vigueur au 01/12/2025
 
 ## Définitions
 
@@ -517,8 +517,8 @@ Tableau des garanties de la complémentaire santé MAAF Biorythm, présentant po
 
 ## Documents liés
 
-- [BIORYTHM - Fiche](BIORYTHM%20-%20Fiche.md) - Fiche produit
-- [Contrat Santé BIORYTHM](Contrat%20Sant%C3%A9%20BIORYTHM.md) - Conditions générales, éd. 01/26
+- [BIORYTHM - Fiche](<BIORYTHM - Fiche.md>) - Fiche produit
+- [Contrat Santé BIORYTHM](<Contrat Santé BIORYTHM.md>) - Conditions générales, éd. 01/26
 
 ## Source & fidélité
 

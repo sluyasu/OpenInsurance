@@ -44,7 +44,7 @@ generated: true
 
 Conditions générales du contrat MAIF Assurance Navigation, qui couvre les risques découlant de la propriété ou de l'usage d'un bateau de plaisance (voilier, dériveur léger, bateau à moteur, véhicule nautique) désigné aux conditions particulières et destiné à la navigation d'agrément et de loisir. Le contrat se décline en trois formules — au tiers, tous risques et « à la demande » (cette dernière n'étant plus commercialisée) — qui déterminent l'étendue des garanties : dommages au bateau, dommages corporels, objets et effets personnels, recours, responsabilité civile/défense, accompagnement juridique (informations juridiques, renseignements personnalisés, protection juridique) et assistance aux personnes et au bateau, mise en œuvre par IMA Assurances pour MAIF Assistance. Les plafonds, capitaux et franchises sont fixés aux conditions particulières ; le document comprend un lexique, les barèmes de prise en charge des honoraires d'avocats et des frais, et reproduit en dernières pages l'IPID du produit.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Navigation de plaisance](../../branches/Navigation%20de%20plaisance.md) · Type : Conditions générales · Édition : 04/2026
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Navigation de plaisance](<../../branches/Navigation de plaisance.md>) · Type : Conditions générales · Édition : 04/2026
 
 ## Définitions
 
@@ -683,8 +683,8 @@ La prescription est le délai au-delà duquel aucune action n’est plus recevab
 
 ## Documents liés
 
-- [Assurance Navigation (RGAA) - IPID](Assurance%20Navigation%20%28RGAA%29%20-%20IPID.md) - IPID / Fiche d'information, éd. 12/2023
-- [Assurance Navigation - IPID](Assurance%20Navigation%20-%20IPID.md) - IPID / Fiche d'information, éd. 12/2023
+- [Assurance Navigation (RGAA) - IPID](<Assurance Navigation (RGAA) - IPID.md>) - IPID / Fiche d'information, éd. 12/2023
+- [Assurance Navigation - IPID](<Assurance Navigation - IPID.md>) - IPID / Fiche d'information, éd. 12/2023
 
 ## Source & fidélité
 

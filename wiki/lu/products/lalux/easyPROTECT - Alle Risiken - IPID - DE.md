@@ -44,7 +44,7 @@ generated: true
 
 Informationsblatt zu Versicherungsprodukten (IPID) für die « Allgefahrenversicherung für Gegenstände », die im Produkt easyPROTECT von LALUX Assurances enthalten ist. Die Deckung erstreckt sich im Rahmen der in den Besonderen Bedingungen vorgesehenen Deckungsgrenzen auf Verlust und Sachschäden an den versicherten Objekten, sofern diese im Zusammenhang mit Diebstahl, Feuer, Explosionen, Wasserschäden oder ausschließlich versehentlichen Schäden entstehen. Optional versicherbar sind Musikinstrumente, Foto- und Tongeräte, Schmuckstücke und Pelze, private Briefmarkensammlungen sowie Fahrräder. Der Versicherungsschutz gilt weltweit.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Autres](../../branches/Autres.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Autres](<../../branches/Autres.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -173,7 +173,7 @@ Optional versicherbares Element der Allgefahrenversicherung: Fahrräder. Als Fah
 ## Documents liés
 
 - Extension / option du produit : **easyPROTECT**
-- [easyPROTECT Comprehensive - IPID - EN](easyPROTECT%20Comprehensive%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+- [easyPROTECT Comprehensive - IPID - EN](<easyPROTECT Comprehensive - IPID - EN.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

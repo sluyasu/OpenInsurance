@@ -46,7 +46,7 @@ generated: true
 
 Conditions générales du contrat « Assurance du conducteur » de SMACL Assurances SA, destiné aux particuliers dont au moins un véhicule terrestre à moteur est assuré par SMACL Assurances. En cas d'accident corporel de la circulation, le contrat indemnise le préjudice corporel subi par le conducteur assuré (dépenses de santé, frais divers, pertes de gains, déficit fonctionnel permanent et tierce personne, préjudice esthétique permanent, souffrances endurées, préjudice d'agrément, frais de logement et de véhicule adaptés, assistance psychologique) ou le préjudice des bénéficiaires en cas de décès (frais d'obsèques, capital décès de 50 000 euros). La limite contractuelle d'indemnité maximale par sinistre est de 1 million d'euros tous postes de préjudice confondus. Le contrat se substitue intégralement à la garantie protection du conducteur du contrat Assurance automobile et ne peut se cumuler avec elle.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : 11/2022
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions générales · Édition : 11/2022
 
 ## Définitions
 

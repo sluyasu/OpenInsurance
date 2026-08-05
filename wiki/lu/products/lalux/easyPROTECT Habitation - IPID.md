@@ -46,7 +46,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de l’assurance multirisques habitation easyPROTECT Habitation de la marque LALUX Assurances, pour l’habitation privée et individuelle et la copropriété. Le produit est décliné en trois formules cumulatives (Sécurité, Confort, Performance) et couvre le logement et son contenu, que l’assuré soit propriétaire, co-propriétaire ou locataire ; la Responsabilité Civile (hors automobile) des personnes vivant dans le logement et la Responsabilité Civile Immeuble peuvent également être couvertes. Le document énumère les garanties de chaque formule, cinq extensions optionnelles pour Confort et Performance, ainsi qu’une assurance voyage annuelle, Home Assistance et easyPROTECT Discover (pour lequel un document d’information séparé existe). Il qualifie ses énumérations de « Liste non exhaustive » et renvoie aux conditions générales et/ou particulières.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Assurance habitation](../../branches/Assurance%20habitation.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Assurance habitation](<../../branches/Assurance habitation.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

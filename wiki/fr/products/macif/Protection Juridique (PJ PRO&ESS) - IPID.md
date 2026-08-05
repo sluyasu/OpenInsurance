@@ -43,7 +43,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (DIPA/IPID) de deux pages portant sur le contrat Protection Juridique destiné aux professionnels et à l’économie sociale et solidaire (ESS). Le contrat couvre la prise en charge des frais et honoraires de procédure de l’assuré, en demande comme en défense, en cas de litige l’opposant à un tiers et relevant de son activité professionnelle non salariée ou de son activité à but non lucratif. Le document décrit trois prestations fournies (renseignements juridiques, action amiable, prise en charge des honoraires d’avocat et frais de procédure dans la limite d’un plafond global par sinistre de 16 000 euros hors taxes) et sept domaines d’intervention : prud’hommes, relations contractuelles, organismes sociaux et administratifs, locaux professionnels, défense du dirigeant, recouvrement de créances et risque fiscal. La compagnie nommée par le document est Thémis.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Protection juridique](../../branches/Protection%20juridique.md) · Type : IPID / Fiche d'information · Édition : 06/20
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Protection juridique](<../../branches/Protection juridique.md>) · Type : IPID / Fiche d'information · Édition : 06/20
 
 ## Garanties
 
@@ -192,8 +192,8 @@ Prise en charge des honoraires (de l’avocat ou de l’expert comptable de l’
 
 ## Documents liés
 
-- [Protection Juridique (PRO&ESS) - IPID](Protection%20Juridique%20%28PRO%26ESS%29%20-%20IPID.md) - IPID / Fiche d'information, éd. 2020-06
-- [Protection Juridique - IPID](Protection%20Juridique%20-%20IPID.md) - IPID / Fiche d'information, éd. 10/18
+- [Protection Juridique (PRO&ESS) - IPID](<Protection Juridique (PRO&ESS) - IPID.md>) - IPID / Fiche d'information, éd. 2020-06
+- [Protection Juridique - IPID](<Protection Juridique - IPID.md>) - IPID / Fiche d'information, éd. 10/18
 
 ## Source & fidélité
 

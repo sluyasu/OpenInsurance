@@ -47,7 +47,7 @@ generated: true
 
 Condiciones Generales del seguro de salud internacional Globality CoGenio®, un seguro colectivo de gastos médicos destinado a expatriados y suscrito por una entidad u organización (tomador del seguro) en beneficio de sus trabajadores o miembros desplazados al extranjero, así como de sus cónyuges o parejas de hecho e hijos acompañantes. El producto se articula en tres modalidades —Classic, Plus y Top— compuestas por los módulos ambulatorio, hospitalario, odontológico y de asistencia, y reembolsa el 100 % de los gastos cubiertos salvo que el cuadro de coberturas indique un límite distinto. La cobertura se contrata para la Zona de destino I (todo el mundo incluido EE.UU.) o la Zona de destino II (todo el mundo excepto EE.UU.), no aplica periodo de carencia y prevé una franquicia que sólo afecta a la asistencia médica ambulatoria. El contrato se rige por la ley del Gran Ducado de Luxemburgo.
 
-- Assureur : [Foyer Global Health](../../insurers/Foyer%20Global%20Health.md) · Branche : Complémentaire santé · Type : Conditions générales
+- Assureur : [Foyer Global Health](<../../insurers/Foyer Global Health.md>) · Branche : Complémentaire santé · Type : Conditions générales
 
 ## Définitions
 
@@ -746,10 +746,10 @@ En caso de contratar la cobertura de seguro para la Zona de destino II (todo el 
 
 ## Documents liés
 
-- [Globality CoGenio® - DE](Globality%20CoGenio%C2%AE%20-%20DE.md) - Conditions générales
-- [Globality CoGenio®](Globality%20CoGenio%C2%AE%20%282%29.md) - Conditions générales
-- [Globality CoGenio® - EN](Globality%20CoGenio%C2%AE%20-%20EN.md) - Conditions générales
-- [Globality CoGenio®](Globality%20CoGenio%C2%AE.md) - Conditions générales
+- [Globality CoGenio® - DE](<Globality CoGenio® - DE.md>) - Conditions générales
+- [Globality CoGenio®](<Globality CoGenio® (2).md>) - Conditions générales
+- [Globality CoGenio® - EN](<Globality CoGenio® - EN.md>) - Conditions générales
+- [Globality CoGenio®](<Globality CoGenio®.md>) - Conditions générales
 
 ## Source & fidélité
 

@@ -43,7 +43,7 @@ generated: true
 
 Conventions spéciales « Dommages aux biens » du contrat CONVERGENCE de SMACL Assurances : un module qui s'ajoute aux Conditions Générales CONVERGENCE et garantit la Personne Morale Sociétaire contre les dommages atteignant ses bâtiments, son contenu, ses biens extérieurs et ses archives, avec abandon de la règle proportionnelle de l'article L.121-5 du Code des assurances. La garantie joue en France métropolitaine et dans les départements et territoires d'Outre-mer, pour les événements énumérés à l'article 4 (incendie, explosions, foudre, électricité, chute d'aéronefs, choc de véhicule, fumées, tempête-grêle-neige, dégâts des eaux, vol et vandalisme, bris de glaces, attentats, catastrophes naturelles, émeutes) dans la mesure où mention en est faite à l'intercalaire B. Elle comprend des extensions (frais de déplacement des biens mobiliers, privation de jouissance, perte des loyers, cotisation d'assurance dommages-ouvrage) et des garanties annexes de responsabilité envers les propriétaires, locataires, voisins et tiers. Les montants de garantie et les franchises ne figurent pas dans ce document : ils renvoient au « Tableau récapitulatif des montants de garanties et franchises ».
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : Conditions générales · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : Conditions générales · Édition : 01/2024
 
 ## Définitions
 
@@ -330,10 +330,10 @@ La responsabilité que l'assuré peut encourir par application des articles 1382
 
 - Édition courante de ce produit.
 - Extension / option du produit : **CONVERGENCE**
-- [CONVERGENCE (conditions générales)](CONVERGENCE%20%28conditions%20g%C3%A9n%C3%A9rales%29.md) - Conditions générales, éd. 01/2024
-- [CONVERGENCE - Tous risques informatique (Associatons)](CONVERGENCE%20-%20Tous%20risques%20informatique%20%28Associatons%29.md) - Conditions générales, éd. 04/2025
-- [CONVERGENCE Tous risques instruments de musique (Associatons)](CONVERGENCE%20Tous%20risques%20instruments%20de%20musique%20%28Associatons%29.md) - Conditions générales, éd. 01/2024
-- [CONVERGENCE Tous risques objets (Associatons)](CONVERGENCE%20Tous%20risques%20objets%20%28Associatons%29.md) - Conditions générales, éd. 01/2024
+- [CONVERGENCE (conditions générales)](<CONVERGENCE (conditions générales).md>) - Conditions générales, éd. 01/2024
+- [CONVERGENCE - Tous risques informatique (Associatons)](<CONVERGENCE - Tous risques informatique (Associatons).md>) - Conditions générales, éd. 04/2025
+- [CONVERGENCE Tous risques instruments de musique (Associatons)](<CONVERGENCE Tous risques instruments de musique (Associatons).md>) - Conditions générales, éd. 01/2024
+- [CONVERGENCE Tous risques objets (Associatons)](<CONVERGENCE Tous risques objets (Associatons).md>) - Conditions générales, éd. 01/2024
 
 ## Source & fidélité
 

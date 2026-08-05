@@ -45,7 +45,7 @@ generated: true
 
 Informationsdokument über das Versicherungsprodukt (IPID) zur Versicherung REISEAGENTUREN – Variante 1 und 2, angeboten unter der Marke „LALUX Assurances“ und in der Reiseagentur abgeschlossen, in der die Reise gebucht wurde. Variante 1 umfasst Rechtsschutz, Vorschuss für Haftkaution, Gepäck, Reiseunfälle, Storno- oder Verspätungskosten, verpasste Abfahrt sowie Flugverspätung und/oder Verlängerung des Aufenthalts; Variante 2 umfasst ambulante, stationäre und zahnärztliche Behandlung sowie Rückführung, ergänzt um weitere Assistance- und Serviceleistungen. Die beiden Varianten sind wählbar und kumulierbar. Der Versicherungsschutz gilt weltweit und läuft vom Verlassen der Wohnung am Abreisedatum bis zur Rückkehr in diese Wohnung.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Voyage et assistance](<../../branches/Voyage et assistance.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 

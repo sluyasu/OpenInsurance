@@ -44,7 +44,7 @@ generated: true
 
 Convention d'assistance rattachée au contrat Flotte Entreprises de SMACL Assurances, pour les établissements privés possédant ou louant des véhicules de plus de 3,5 tonnes (porteur, tracteur routier, semi-remorque, remorque). Les garanties d'assistance sont accordées par SMACL Assistance, joignable 7 j/7 et 24 h/24, et se composent d'un socle (immobilisation du véhicule, immobilisation du conducteur, assistance aux bénéficiaires blessés ou malades) et de deux garanties optionnelles : l'assistance en cas de panne avec une franchise de 50 km et l'indemnisation des frais de location d'un véhicule de remplacement. Les prestations s'appliquent en France et dans une liste limitative de pays étrangers, pour tout déplacement professionnel d'une durée inférieure à quatre-vingt-dix (90) jours.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : 07/2025
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions générales · Édition : 07/2025
 
 ## Définitions
 
@@ -369,8 +369,8 @@ présentation d’une facture · Franchise : panne à plus de 50 km du siège so
 ## Documents liés
 
 - Extension / option du produit : **Flotte Entreprises**
-- [Flotte entreprises](Flotte%20entreprises.md) - Conditions générales, éd. 05/2025
-- [Flotte entreprises - IPID](Flotte%20entreprises%20-%20IPID.md) - IPID / Fiche d'information, éd. 02/2024
+- [Flotte entreprises](<Flotte entreprises.md>) - Conditions générales, éd. 05/2025
+- [Flotte entreprises - IPID](<Flotte entreprises - IPID.md>) - IPID / Fiche d'information, éd. 02/2024
 
 ## Source & fidélité
 

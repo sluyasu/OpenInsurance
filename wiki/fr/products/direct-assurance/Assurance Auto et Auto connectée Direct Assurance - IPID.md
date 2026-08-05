@@ -44,7 +44,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) du contrat d’assurance automobile « Assurance Auto et Auto connectée Direct Assurance », assuré par AXA France IARD et distribué par Direct Assurance, marque d’Avanssur SA. Le produit couvre le conducteur d’un véhicule automobile contre les conséquences pécuniaires des dommages matériels ou corporels causés par son véhicule à des tiers (Responsabilité Civile), garantie obligatoire, à laquelle s’ajoutent systématiquement la Défense Pénale et Recours Suite à Accident, la Garantie Personnelle du Conducteur et des prestations d’assistance. Selon le contrat souscrit, des garanties optionnelles peuvent couvrir les dommages au véhicule (incendie, vol, bris de glace, dommages tous accidents, événements climatiques, catastrophes naturelles et technologiques, attentats) ainsi que diverses extensions de garanties et de services. Le contrat est conclu pour un an avec reconduction tacite.
 
-- Assureur : [Direct Assurance](../../insurers/Direct%20Assurance.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 02/2026
+- Assureur : [Direct Assurance](<../../insurers/Direct Assurance.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information · Édition : 02/2026
 
 ## Garanties
 

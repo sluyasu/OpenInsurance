@@ -45,7 +45,7 @@ generated: true
 
 Conditions générales du contrat d'assurance Multigaranties « Hébergement » de la Matmut, valant projet de contrat au sens de l'article L. 112-2 du Code des assurances. Le contrat couvre, dans le cadre de la vie privée et en dehors de toute activité professionnelle, la Responsabilité civile Vie privée et familiale, la Responsabilité civile d'occupant et les biens mobiliers, en fonction de la formule souscrite et de la qualité d'occupant. Trois formules sont proposées — Solo Matmut, Famille Matmut et Prima Matmut — la formule Prima étant exclusivement destinée aux personnes occupant une chambre en maison de retraite ou médicalisée ou en institut spécialisé, et la seule à couvrir les dommages aux biens mobiliers. Les qualités d'occupant visées sont l'occupant d'une chambre en maison de retraite ou médicalisée ou en institut spécialisé, l'hébergé à titre gratuit, le colocataire et la personne sans résidence principale. Le document comprend également les modalités d'examen des réclamations, la fiche d'information sur le fonctionnement des garanties « Responsabilité civile » dans le temps et la charte de protection des données à caractère personnel.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales · Édition : 05/24
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : Conditions générales · Édition : 05/24
 
 ## Définitions
 

@@ -43,7 +43,7 @@ generated: true
 
 Conventions spéciales « Annulation de manifestation » du contrat CONVERGENCE de SMACL Assurances, annexées aux conditions générales CONVERGENCE et destinées aux associations. La garantie porte sur le remboursement des frais engagés restant à la charge de la personne morale souscriptrice lorsque la manifestation assurée est annulée, ajournée ou écourtée du fait d'un évènement prévu à l'article 3 (intempérie ou l'un des neuf autres événements dénommés). La garantie s'exerce à concurrence de la somme précisée contractuellement. Le document comprend cinq articles : définitions, objet de la garantie, évènements assurés, exclusions et montant de la garantie.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Autres](../../branches/Autres.md) · Type : Conditions générales · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Autres](<../../branches/Autres.md>) · Type : Conditions générales · Édition : 01/2024
 
 ## Définitions
 
@@ -175,7 +175,7 @@ Article 3.2 - Annulation de manifestation suite à autres événements dénommé
 ## Documents liés
 
 - Extension / option du produit : **conditions générales CONVERGENCE**
-- [Convergence - Annulation de manifestation - IPID](Convergence%20-%20Annulation%20de%20manifestation%20-%20IPID.md) - IPID / Fiche d'information, éd. 02/2025
+- [Convergence - Annulation de manifestation - IPID](<Convergence - Annulation de manifestation - IPID.md>) - IPID / Fiche d'information, éd. 02/2025
 
 ## Source & fidélité
 

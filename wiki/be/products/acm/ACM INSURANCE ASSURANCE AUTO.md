@@ -40,7 +40,7 @@ generated: true
 
 Conditions générales de l'assurance auto ACM Insurance (ACM Belgium SA) applicables aux voitures de tourisme et d'affaires, voitures à double usage et minibus. Le contrat comprend la garantie légale Responsabilité Civile obligatoire (avec indemnisation des usagers faibles et victimes innocentes, extensions et garantie BOB), les formules dégâts propres Mini Omnium, Mini Omnium Plus (Premium perte totale) et Full Omnium (dégâts matériels), ainsi que les garanties optionnelles Protection juridique, Protection du conducteur et Assistance (Mini Assistance incluse dans la RC, Maxi Assistance optionnelle). Les garanties souscrites et les franchises figurent dans les conditions particulières, qui prévalent sur les conditions générales.
 
-- Assureur : [ACM Belgium](../../insurers/ACM%20Belgium.md) · Branche : [Auto](../../branches/Auto.md) · Type : Conditions générales · Édition : 09/2025
+- Assureur : [ACM Belgium](<../../insurers/ACM Belgium.md>) · Branche : [Auto](<../../branches/Auto.md>) · Type : Conditions générales · Édition : 09/2025
 
 ## Définitions
 
@@ -353,9 +353,9 @@ Dépenses imprévues (avance de fonds à l'étranger), transport des biens et du
 
 ## Documents liés
 
-- [ACM INSURANCE ASSURANCE AUTO (auto-pros)](ACM%20INSURANCE%20ASSURANCE%20AUTO%20%28auto-pros%29.md) - Conditions générales, éd. 09/2025
-- [ACM Insurance Assurance Auto - IPID](ACM%20Insurance%20Assurance%20Auto%20-%20IPID%20%282%29.md) - IPID / Fiche d'information, éd. 09/2025
-- [ACM Insurance Assurance Auto - IPID](ACM%20Insurance%20Assurance%20Auto%20-%20IPID.md) - IPID / Fiche d'information, éd. 09/2025
+- [ACM INSURANCE ASSURANCE AUTO (auto-pros)](<ACM INSURANCE ASSURANCE AUTO (auto-pros).md>) - Conditions générales, éd. 09/2025
+- [ACM Insurance Assurance Auto - IPID](<ACM Insurance Assurance Auto - IPID (2).md>) - IPID / Fiche d'information, éd. 09/2025
+- [ACM Insurance Assurance Auto - IPID](<ACM Insurance Assurance Auto - IPID.md>) - IPID / Fiche d'information, éd. 09/2025
 
 ## Source & fidélité
 

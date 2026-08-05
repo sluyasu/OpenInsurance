@@ -47,7 +47,7 @@ generated: true
 
 Conditions générales du contrat MAIF « Assurance Protection Juridique » (référence M5202PJ, code interne 2442 PJH – 01/2025). Le contrat offre un accès au droit et une défense des intérêts de l’assuré lorsqu’il subit un préjudice résultant d’un événement engageant la responsabilité d’un tiers ou lorsqu’il fait l’objet d’une mise en cause émanant d’un tiers ; il se compose de deux formules au choix, PJ1 et PJ2. Chaque formule comprend trois garanties : les informations juridiques sur Internet, les renseignements juridiques personnalisés par téléphone et la protection juridique proprement dite, dont les domaines couverts sont plus larges en PJ2 qu’en PJ1. La prise en charge globale des frais et honoraires (avocat, conseil, expert) est plafonnée à 20 000 € TTC en PJ1 et 50 000 € TTC en PJ2, avec un barème d’honoraires d’avocat par acte de procédure en annexe, des délais de carence de six mois (contrat de travail) et d’un an (voisinage/servitudes/mitoyenneté, et en PJ2 construction-travaux et urbanisme-environnement), et un seuil d’intervention judiciaire de 625 €.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Protection juridique](../../branches/Protection%20juridique.md) · Type : Conditions générales · Édition : 01/2025
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Protection juridique](<../../branches/Protection juridique.md>) · Type : Conditions générales · Édition : 01/2025
 
 ## Définitions
 
@@ -466,7 +466,7 @@ La prescription est le délai au-delà duquel aucune action n’est plus recevab
 
 ## Documents liés
 
-- [Assurance Protection Juridique - IPID](Assurance%20Protection%20Juridique%20-%20IPID.md) - IPID / Fiche d'information, éd. 05/2023
+- [Assurance Protection Juridique - IPID](<Assurance Protection Juridique - IPID.md>) - IPID / Fiche d'information, éd. 05/2023
 
 ## Source & fidélité
 

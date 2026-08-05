@@ -40,7 +40,7 @@ generated: true
 
 _(pas de résumé)_
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Deux-roues, quads et voiturettes](../../branches/Deux-roues%2C%20quads%20et%20voiturettes.md) · Type : Conditions générales · Édition : 2018-11-25
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Deux-roues, quads et voiturettes](<../../branches/Deux-roues, quads et voiturettes.md>) · Type : Conditions générales · Édition : 2018-11-25
 
 > ⚠️ **Édition ancienne** : 2018-11-25, soit 8 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 

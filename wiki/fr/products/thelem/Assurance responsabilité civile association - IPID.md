@@ -41,7 +41,7 @@ generated: true
 
 L’assurance responsabilité civile association de Thélem assurances garantit les conséquences pécuniaires de la responsabilité civile que l’assuré peut encourir en raison des dommages corporels, matériels et immatériels consécutifs causés à autrui à l’occasion de ses activités associatives, y compris de ses manifestations temporaires privées ou publiques déclarées. Les assurés sont le souscripteur, le président et les membres du bureau ainsi que les adhérents. Le contrat prévoit systématiquement la responsabilité civile de l’association, la responsabilité en tant qu’organisateur de manifestations privées ou publiques déclarées et la défense pénale et recours suite à accident ; une garantie optionnelle couvre les indemnités contractuelles en cas d’accident (décès, invalidité permanente, frais de recherche et de secours). Le présent document est un document d’information sur le produit d’assurance (IPID) qui présente un résumé des principales garanties et exclusions du contrat.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Responsabilité civile vie privée](../../branches/Responsabilit%C3%A9%20civile%20vie%20priv%C3%A9e.md) · Type : IPID / Fiche d'information
+- Assureur : [Thélem assurances](<../../insurers/Thélem assurances.md>) · Branche : [Responsabilité civile vie privée](<../../branches/Responsabilité civile vie privée.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 

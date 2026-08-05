@@ -46,7 +46,7 @@ generated: true
 
 Document d’information (IPID/DDA) du contrat « Gan Prévoyance Protection », présenté sous l’intitulé « MULTIRISQUES PRÉVOYANCE INDIVIDUELLE ». Il s’agit d’un produit d’assurance de groupe à adhésion individuelle, souscrit par l’association A3P, garantissant le maintien de revenus en cas d’incapacité ou d’invalidité consécutive à une maladie ou à un accident et le versement de prestations aux proches en cas de décès. L’assuré choisit les garanties (décès, PTIA, maladies redoutées, hospitalisation, indemnités journalières, invalidité), le type d’indemnité journalière et la durée de versement. Deux compagnies sont imprimées : Groupama Gan Vie (RCS Paris 340 427 616) pour l’assurance et Mutuaide Assistance (RCS Bobigny 383 974 086) pour l’assistance ; « Gan Assurances » n’apparaît nulle part.
 
-- Assureur : [Gan Assurances](../../insurers/Gan%20Assurances.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : IPID / Fiche d'information · Édition : 122023
+- Assureur : [Gan Assurances](<../../insurers/Gan Assurances.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : IPID / Fiche d'information · Édition : 122023
 
 ## Définitions
 
@@ -249,8 +249,8 @@ Pour l’ensemble des garanties : le contrat inclut des garanties d’assistance
 
 ## Documents liés
 
-- [Gan Patrimoine Protection Plus - IPID](Gan%20Patrimoine%20Protection%20Plus%20-%20IPID.md) - IPID / Fiche d'information, éd. 122023
-- [Gan Patrimoine Protection Plus - IPID](Gan%20Patrimoine%20Protection%20Plus%20-%20IPID%20%282%29.md) - IPID / Fiche d'information, éd. 042022
+- [Gan Patrimoine Protection Plus - IPID](<Gan Patrimoine Protection Plus - IPID.md>) - IPID / Fiche d'information, éd. 122023
+- [Gan Patrimoine Protection Plus - IPID](<Gan Patrimoine Protection Plus - IPID (2).md>) - IPID / Fiche d'information, éd. 042022
 
 ## Source & fidélité
 

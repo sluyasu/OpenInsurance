@@ -45,7 +45,7 @@ generated: true
 
 Conditions générales du contrat Défense Juridique de l’Automobiliste, réf. 1968 (01/17). Contrat de protection juridique distinct, souscrit auprès d’Assistance Protection Juridique (société anonyme d’assurance, R.C.S Bobigny 334 656 386) et présenté par MAAF Assurances SA ; il vient compléter l’assurance des véhicules souscrite auprès de MAAF Assurances SA. Il couvre deux garanties : les litiges de la consommation liés aux véhicules terrestres à moteur de moins de 3,5 tonnes (achat, réparation, revente, maintenance, panne aléatoire) et la défense pénale du conducteur en cas d’infraction au Code de la Route passible de suspension du permis ou d’un retrait de points. La prise en charge des frais et honoraires est plafonnée à 16 000 € par sinistre, avec un barème détaillé de plafonds d’honoraires d’avocat par juridiction et par type d’intervention, un seuil d’intervention de 150 € et un seuil de 800 € pour la saisine des tribunaux.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Protection juridique](../../branches/Protection%20juridique.md) · Type : Conditions générales · Édition : 01/17
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Protection juridique](<../../branches/Protection juridique.md>) · Type : Conditions générales · Édition : 01/17
 
 > ⚠️ **Édition ancienne** : 01/17, soit 9 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 

@@ -44,7 +44,7 @@ generated: true
 
 Conditions d'octroi de l'« Avantage Hiver Matmut & Co », avantage tarifaire attaché au contrat Multirisques « Auto 3D Initiale & Co ». Le souscripteur, s'engageant à remiser et à ne pas utiliser son véhicule pendant l'hiver, bénéficie d'une réduction de 5 % sur le montant de la cotisation hors taxes des garanties de Responsabilité civile et, lorsqu'elles sont souscrites, de Dommages au véhicule assuré, pour une période d'hivernage de 3 mois du 1er décembre au 1er mars de l'année suivante à 0 heure. Pendant l'hivernage, la garantie Responsabilité civile et, si elles sont souscrites, les garanties Dommages au véhicule demeurent acquises. Le document est valable jusqu'au 31/12/2026.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions tarifaires · Édition : 2026-01
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions tarifaires · Édition : 2026-01
 
 ## Garanties
 
@@ -120,7 +120,7 @@ Pendant cette période d'hivernage, et sous réserve que toutes les conditions c
 
 - Édition courante de ce produit.
 - Extension / option du produit : **Multirisques « Auto 3D Initiale & Co »**
-- [Avantage Hiver Matmut & Co - Tarifs](Avantage%20Hiver%20Matmut%20%26%20Co%20-%20Tarifs.md) - Conditions tarifaires, éd. 2026-01
+- [Avantage Hiver Matmut & Co - Tarifs](<Avantage Hiver Matmut & Co - Tarifs.md>) - Conditions tarifaires, éd. 2026-01
 
 ## Source & fidélité
 

@@ -43,7 +43,7 @@ generated: true
 
 Conventions spéciales « Tous risques expositions clou à clou » du contrat ALÉASSUR de SMACL Assurances. Elles ont pour objet l'indemnisation des dommages matériels subis par les objets référencés lors d'une exposition et désignés aux conditions particulières, et complètent les conditions générales et les conventions spéciales Dommages aux biens Aléassur. La garantie couvre les objets présentés à l'intérieur d'un bâtiment ainsi que, en extension « clou à clou », le trajet aller-retour depuis le lieu d'origine, y compris montage, démontage, chargement, déchargement et transport. Elle est délivrée en France métropolitaine et dans les départements et régions d'outre-mer, dans la limite du montant figurant au contrat et sous réserve de la franchise prévue aux conditions particulières.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : Marchandises transportées · Type : Conditions générales · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : Marchandises transportées · Type : Conditions générales · Édition : 01/2024
 
 ## Définitions
 

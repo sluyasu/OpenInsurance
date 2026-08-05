@@ -43,7 +43,7 @@ generated: true
 
 Document tarifaire d’une page fixant les conditions d’octroi de la réduction « Âge du véhicule » sur le contrat Multirisques 2 roues Initiale & Co (formules Urbaine ou Équilibre) souscrit auprès de Matmut & Co. La réduction porte sur la cotisation des garanties Dommages au véhicule et s’élève à 5 % lorsque le véhicule assuré a plus de 5 ans et 10 % lorsqu’il a plus de 10 ans, à compter de l’année suivant celle du 5e ou du 10e anniversaire du véhicule depuis sa 1re année de mise en circulation. Les véhicules éligibles sont les motocyclettes et tricycles à moteur de plus de 50 cm3 et/ou dont la vitesse dépasse 45 km/h au sens de l’article R. 311-1 du Code de la route. Le document ne décrit aucune garantie, aucune exclusion et aucune modalité de sinistre : il ne porte que sur le mécanisme de la réduction, et il est valable jusqu’au 31/12/2026.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Deux-roues, quads et voiturettes](../../branches/Deux-roues%2C%20quads%20et%20voiturettes.md) · Type : Conditions tarifaires · Édition : 01-26
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Deux-roues, quads et voiturettes](<../../branches/Deux-roues, quads et voiturettes.md>) · Type : Conditions tarifaires · Édition : 01-26
 
 ## Prime
 
@@ -121,8 +121,8 @@ Siège social : 66 rue de Sotteville 76100 Rouen p. 1
 ## Documents liés
 
 - Extension / option du produit : **Multirisques 2 roues Initiale & Co**
-- [Conditions de l'Avantage Usage Sérénité — Gamme 2 roues Initiale & Co - Tarifs](Conditions%20de%20l%27Avantage%20Usage%20S%C3%A9r%C3%A9nit%C3%A9%20%E2%80%94%20Gamme%202%20roues%20Initiale%20%26%20Co%20-%20Tarifs.md) - Conditions tarifaires, éd. 01-26
-- [Contrat Multirisques « 2 Roues Initiale & Co » (Matmut & Co) - IPID](Contrat%20Multirisques%20%C2%AB%202%20Roues%20Initiale%20%26%20Co%20%C2%BB%20%28Matmut%20%26%20Co%29%20-%20IPID.md) - IPID / Fiche d'information, éd. 10/24
+- [Conditions de l'Avantage Usage Sérénité — Gamme 2 roues Initiale & Co - Tarifs](<Conditions de l'Avantage Usage Sérénité — Gamme 2 roues Initiale & Co - Tarifs.md>) - Conditions tarifaires, éd. 01-26
+- [Contrat Multirisques « 2 Roues Initiale & Co » (Matmut & Co) - IPID](<Contrat Multirisques « 2 Roues Initiale & Co » (Matmut & Co) - IPID.md>) - IPID / Fiche d'information, éd. 10/24
 
 ## Source & fidélité
 

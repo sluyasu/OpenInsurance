@@ -46,7 +46,7 @@ generated: true
 
 Conditions générales du contrat d’assurance Multirisques « Auto 3D Initiale & Co », valant projet de contrat au sens de l’article L. 112-2 du Code des assurances, garantissant les risques découlant de la propriété, de l’usage et/ou de la garde d’un véhicule terrestre à moteur à 4 roues (voiture particulière, véhicule utilitaire ou camionnette, camping-car, voiturette) immatriculé en France ou à Monaco. Trois formules de garanties sont proposées : Tiers, Tiers-Vol-Incendie et Tous risques ; toutes comprennent la Responsabilité civile et défense civile, la garantie du conducteur, la Protection Juridique suite à accident et l’Assistance au véhicule et aux personnes transportées, les garanties des Dommages au véhicule assuré (bris de pare-brise, bris de glaces, vol, incendie-attentat-tempête, catastrophes naturelles et technologiques, dommages accidents-vandalisme-événements naturels, accessoires-aménagements) n’étant acquises que selon la formule souscrite. Le document comprend également les modalités d’examen des réclamations, la fiche d’information relative au fonctionnement des garanties « Responsabilité civile » dans le temps et la charte de protection des données à caractère personnel.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : 10/24
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions générales · Édition : 10/24
 
 ## Définitions
 

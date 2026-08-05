@@ -46,7 +46,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de l’assurance liée aux cartes de crédit SPUERKEESS, gamme MILES & MORE LUXAIR VISA BUSINESS, présenté sous la marque LALUX Assurances. Il énumère six garanties « HORS ASSISTANCE » (accident de voyage décès/invalidité, annulation/interruption de voyage, vol perte et retard de bagages, retard d’avion et/ou prolongation de séjour si blocage, départ manqué, exonération de la franchise du véhicule de location /e-mobility) et deux garanties « ASSISTANCE » (assistance aux personnes en cas de maladie ou décès, cash emergency), sans en décrire le contenu ni les montants. Les assurés sont le titulaire de la carte, son conjoint/partenaire et ses enfants de moins de 25 ans du même ménage ; la couverture vaut dans le monde entier et suppose qu’au moins 30% des coûts du voyage aient été réglés avec la carte. Les déclarations de sinistre hors assistance sont réceptionnées par Willis Towers Watson Luxembourg S.A. et transmises au Service Indemnisation de LA LUXEMBOURGEOISE, dans les 30 jours ouvrés.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Voyage et assistance](<../../branches/Voyage et assistance.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 

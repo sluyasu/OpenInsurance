@@ -47,7 +47,7 @@ generated: true
 
 Conditions générales du contrat Macif Deux-roues, version 05/2026, assurance de véhicules terrestres à moteur de type cyclomoteur, motocyclette, tricycle ou quad, ainsi que du side-car ou de la remorque attelé(e). Le contrat est proposé en trois formules - Économique, Élargie et Protectrice - la garantie « Responsabilité civile », l'« Assistance générale » et les garanties « Défense et Recours » étant incluses dans les trois. Selon la formule, il peut également couvrir les dommages par accident et actes de vandalisme, l'incendie et les attentats, le vol, le bris d'optiques de phare, les événements climatiques, les catastrophes naturelles et technologiques, les frais de remorquage, l'insolvabilité du tiers responsable et l'équipement du motard ; les accessoires, le véhicule de prêt et l'assistance panne 0 km sont proposés en option. Le document décrit également les exclusions communes, la territorialité, la procédure de sinistre, l'indemnisation, le bonus-malus, la résiliation et la prescription.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Deux-roues, quads et voiturettes](../../branches/Deux-roues%2C%20quads%20et%20voiturettes.md) · Type : Conditions générales · Édition : 05/2026
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Deux-roues, quads et voiturettes](<../../branches/Deux-roues, quads et voiturettes.md>) · Type : Conditions générales · Édition : 05/2026
 
 ## Définitions
 
@@ -590,7 +590,7 @@ La prescription est le délai au-delà duquel une action n'est plus recevable. C
 
 ## Documents liés
 
-- [Contrat Macif Deux-roues (PART) - IPID](Contrat%20Macif%20Deux-roues%20%28PART%29%20-%20IPID.md) - IPID / Fiche d'information, éd. 2026-05
+- [Contrat Macif Deux-roues (PART) - IPID](<Contrat Macif Deux-roues (PART) - IPID.md>) - IPID / Fiche d'information, éd. 2026-05
 
 ## Source & fidélité
 

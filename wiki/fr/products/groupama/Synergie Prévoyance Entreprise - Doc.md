@@ -44,7 +44,7 @@ generated: true
 
 Document d'exemples chiffrés, de format normalisé, intitulé « Actifs salariés du secteur privé — Tableaux d'exemples de prise en charge au 01/01/2025 des garanties Incapacité / invalidité / décès en vigueur ». Il compare, pour un profil type de salarié de 36 ans percevant 24 000 € bruts par an, ce que versent le régime obligatoire de la Sécurité sociale, les obligations légales de l'employeur, la convention collective le cas échéant, et le contrat collectif de prévoyance souscrit par l'employeur. Cinq risques sont traités : capital décès, rente éducation, frais d'obsèques, invalidité permanente et incapacité de travail. Le seul nom de produit imprimé est « Synergie Prévoyance Entreprise » ; tous les montants exprimés sont bruts de prélèvements sociaux.
 
-- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : Document · Édition : 01/01/2025
+- Assureur : [Groupama](<../../insurers/Groupama.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : Document · Édition : 01/01/2025
 
 ## Définitions
 

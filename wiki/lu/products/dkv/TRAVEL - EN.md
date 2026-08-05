@@ -46,7 +46,7 @@ generated: true
 
 General Terms and Conditions of the TRAVEL health insurance for foreign travel, issued by DKV Luxembourg S.A. Cover applies to a temporary stay abroad specified in the insurance application, for a minimum of seven days and a maximum of fifty-six days, and reimburses medically necessary outpatient, hospital and dental treatment plus additional services and repatriation, up to a maximum total of EUR 150,000 per person and per insured stay. Eligibility is restricted to existing customers of one of the three companies of the LALUX Group who reside in Luxembourg or a neighbouring country and are affiliated to a compulsory statutory health insurance scheme. The premium is charged per day of cover: EUR 2.00 per person per day up to age 69, EUR 8.00 from age 70.
 
-- Assureur : [DKV Luxembourg](../../insurers/DKV%20Luxembourg.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : Conditions générales · Édition : 03|2025
+- Assureur : [DKV Luxembourg](<../../insurers/DKV Luxembourg.md>) · Branche : [Voyage et assistance](<../../branches/Voyage et assistance.md>) · Type : Conditions générales · Édition : 03|2025
 
 ## Définitions
 
@@ -322,10 +322,10 @@ Any action arising from the insurance contract is time-barred on expiry of a per
 ## Documents liés
 
 - Édition courante de ce produit.
-- [TRAVEL](TRAVEL.md) - Conditions générales, éd. 03|2025
-- [TRAVEL - DE](TRAVEL%20-%20DE.md) - Conditions générales, éd. 03|2025
-- [TRAVEL - TRAVEL + - IPID - DE](TRAVEL%20-%20TRAVEL%20%2B%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
-- [TRAVEL - TRAVEL + - IPID](TRAVEL%20-%20TRAVEL%20%2B%20-%20IPID.md) - IPID / Fiche d'information
+- [TRAVEL](<TRAVEL.md>) - Conditions générales, éd. 03|2025
+- [TRAVEL - DE](<TRAVEL - DE.md>) - Conditions générales, éd. 03|2025
+- [TRAVEL - TRAVEL + - IPID - DE](<TRAVEL - TRAVEL + - IPID - DE.md>) - IPID / Fiche d'information
+- [TRAVEL - TRAVEL + - IPID](<TRAVEL - TRAVEL + - IPID.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

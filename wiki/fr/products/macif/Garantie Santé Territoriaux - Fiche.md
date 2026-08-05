@@ -44,7 +44,7 @@ generated: true
 
 Synthèse du contrat Garantie Santé Territoriaux, complémentaire santé individuelle régie par le code de la mutualité, réservée aux fonctionnaires et agents des collectivités territoriales et de leurs établissements publics ainsi qu'à leurs retraités. Le contrat rembourse les frais de soins de santé en complément du régime obligatoire (hospitalisation, soins courants, prévention, dentaire, optique, aides auditives, appareillage, cures thermales), prend en charge de façon forfaitaire certains soins non remboursés et donne accès à des garanties d'assistance. Les garanties se composent d'une formule « Soins » (Economique, Equilibrée, Protectrice, Excellence) couplée à un niveau d'« Equipements » (0 à 4). Le contrat est solidaire et responsable au sens de l'article L.871-1 du Code de la sécurité sociale et labellisé au titre du décret du 8 novembre 2011.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit · Édition : 10.01.2022
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Fiche produit · Édition : 10.01.2022
 
 ## Définitions
 
@@ -533,8 +533,8 @@ Il s'agit du délai au-delà duquel toute demande relative au contrat d'assuranc
 
 ## Documents liés
 
-- [contrat GARANTIE SANTE TERRITORIAUX - IPID](contrat%20GARANTIE%20SANTE%20TERRITORIAUX%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/2022
-- [Garantie Santé Territoriaux](Garantie%20Sant%C3%A9%20Territoriaux.md) - Conditions générales, éd. Janvier 2022
+- [contrat GARANTIE SANTE TERRITORIAUX - IPID](<contrat GARANTIE SANTE TERRITORIAUX - IPID.md>) - IPID / Fiche d'information, éd. 01/2022
+- [Garantie Santé Territoriaux](<Garantie Santé Territoriaux.md>) - Conditions générales, éd. Janvier 2022
 
 ## Source & fidélité
 

@@ -40,7 +40,7 @@ generated: true
 
 Conditions Spéciales nºBCR202506 du produit d'assurance Cyber « CyberClear by Hiscox » de Hiscox SA. Le document définit les termes contractuels puis décrit les garanties : une garantie Assistance en cas de cyber-attaque, des garanties First Party (dommages subis par l'assuré : cyber-extorsion, enquêtes et sanctions, violation de données personnelles, atteinte aux données confidentielles, interruption des activités professionnelles, récupération de données, améliorations, surfacturation), une garantie Third Party (dommages causés aux tiers, responsabilité civile) et une garantie mixte (cyber-fraude). Il énumère enfin 31 exclusions de garantie. Les plafonds de garantie, sous-limites et franchises sont fixés dans les Conditions particulières.
 
-- Assureur : [Hiscox SA](../../insurers/Hiscox%20SA.md) · Branche : [Cyber](../../branches/Cyber.md) · Type : Conditions particulières · Édition : 2025-06
+- Assureur : [Hiscox SA](<../../insurers/Hiscox SA.md>) · Branche : [Cyber](<../../branches/Cyber.md>) · Type : Conditions particulières · Édition : 2025-06
 
 ## Définitions
 
@@ -290,7 +290,7 @@ Garantie en cas de fraude subie par vous, entendue comme tout acte illicite comm
 
 ## Documents liés
 
-- [CyberClear by Hiscox - IPID](CyberClear%20by%20Hiscox%20-%20IPID.md) - IPID / Fiche d'information, éd. 2025-06
+- [CyberClear by Hiscox - IPID](<CyberClear by Hiscox - IPID.md>) - IPID / Fiche d'information, éd. 2025-06
 
 ## Source & fidélité
 

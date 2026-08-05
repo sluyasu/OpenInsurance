@@ -40,7 +40,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de la Multirisque Professionnelle MAAF, portée par MAAF Assurances SA (RCS Niort 542 073 580). Le contrat permet au professionnel des secteurs Artisanat/Industrie, Commerces, Services et Professions libérales de couvrir ses responsabilités et ses biens professionnels, et de bénéficier d'une protection financière en cas de sinistre et d'une protection juridique face à des litiges. Les garanties couvrent les responsabilités, les locaux professionnels et leur contenu, l'assistance, les pertes financières, la protection juridique et la mobilité, avec plusieurs extensions en option.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information · Édition : 2024-06
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : IPID / Fiche d'information · Édition : 2024-06
 
 ## Garanties
 
@@ -232,21 +232,21 @@ Imprimée sous « En option : ».
 
 ## Documents liés
 
-- Extension liée : [CAPEB — INTERCALAIRE](CAPEB%20%E2%80%94%20INTERCALAIRE.md)
-- Extension liée : [COMMERCES D'ALIMENTATION — INTERCALAIRE](COMMERCES%20D%27ALIMENTATION%20%E2%80%94%20INTERCALAIRE.md)
-- Extension liée : [Commerces et Services — Intercalaire](Commerces%20et%20Services%20%E2%80%94%20Intercalaire.md)
-- Extension liée : [MULTISERVICE À LA PERSONNE — INTERCALAIRE](MULTISERVICE%20%C3%80%20LA%20PERSONNE%20%E2%80%94%20INTERCALAIRE.md)
-- Extension liée : [PROFESSIONS DE LA RESTAURATION ET DE L'HÔTELLERIE — INTERCALAIRE](PROFESSIONS%20DE%20LA%20RESTAURATION%20ET%20DE%20L%27H%C3%94TELLERIE%20%E2%80%94%20INTERCALAIRE.md)
-- Extension liée : [Professions médicales et paramédicales — Intercalaire](Professions%20m%C3%A9dicales%20et%20param%C3%A9dicales%20%E2%80%94%20Intercalaire.md)
-- Extension liée : [SYNDICATS PROFESSIONNELS ARTISANAUX — INTERCALAIRE](SYNDICATS%20PROFESSIONNELS%20ARTISANAUX%20%E2%80%94%20INTERCALAIRE.md)
-- [CAPEB — INTERCALAIRE](CAPEB%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales, éd. 03/24
-- [COMMERCES D'ALIMENTATION — INTERCALAIRE](COMMERCES%20D%27ALIMENTATION%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales, éd. 01/26
-- [Commerces et Services — Intercalaire](Commerces%20et%20Services%20%E2%80%94%20Intercalaire.md) - Conditions générales, éd. 01/26
-- [MULTIRISQUE PROFESSIONNELLE](MULTIRISQUE%20PROFESSIONNELLE%20%28MAAF%29.md) - Conditions générales, éd. 01/26
-- [MULTISERVICE À LA PERSONNE — INTERCALAIRE](MULTISERVICE%20%C3%80%20LA%20PERSONNE%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales, éd. 01/25
-- [PROFESSIONS DE LA RESTAURATION ET DE L'HÔTELLERIE — INTERCALAIRE](PROFESSIONS%20DE%20LA%20RESTAURATION%20ET%20DE%20L%27H%C3%94TELLERIE%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales, éd. 01/25
-- [Professions médicales et paramédicales — Intercalaire](Professions%20m%C3%A9dicales%20et%20param%C3%A9dicales%20%E2%80%94%20Intercalaire.md) - Conditions générales, éd. 03/24
-- [SYNDICATS PROFESSIONNELS ARTISANAUX — INTERCALAIRE](SYNDICATS%20PROFESSIONNELS%20ARTISANAUX%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales, éd. 03/24
+- Extension liée : [CAPEB — INTERCALAIRE](<CAPEB — INTERCALAIRE.md>)
+- Extension liée : [COMMERCES D'ALIMENTATION — INTERCALAIRE](<COMMERCES D'ALIMENTATION — INTERCALAIRE.md>)
+- Extension liée : [Commerces et Services — Intercalaire](<Commerces et Services — Intercalaire.md>)
+- Extension liée : [MULTISERVICE À LA PERSONNE — INTERCALAIRE](<MULTISERVICE À LA PERSONNE — INTERCALAIRE.md>)
+- Extension liée : [PROFESSIONS DE LA RESTAURATION ET DE L'HÔTELLERIE — INTERCALAIRE](<PROFESSIONS DE LA RESTAURATION ET DE L'HÔTELLERIE — INTERCALAIRE.md>)
+- Extension liée : [Professions médicales et paramédicales — Intercalaire](<Professions médicales et paramédicales — Intercalaire.md>)
+- Extension liée : [SYNDICATS PROFESSIONNELS ARTISANAUX — INTERCALAIRE](<SYNDICATS PROFESSIONNELS ARTISANAUX — INTERCALAIRE.md>)
+- [CAPEB — INTERCALAIRE](<CAPEB — INTERCALAIRE.md>) - Conditions générales, éd. 03/24
+- [COMMERCES D'ALIMENTATION — INTERCALAIRE](<COMMERCES D'ALIMENTATION — INTERCALAIRE.md>) - Conditions générales, éd. 01/26
+- [Commerces et Services — Intercalaire](<Commerces et Services — Intercalaire.md>) - Conditions générales, éd. 01/26
+- [MULTIRISQUE PROFESSIONNELLE](<MULTIRISQUE PROFESSIONNELLE (MAAF).md>) - Conditions générales, éd. 01/26
+- [MULTISERVICE À LA PERSONNE — INTERCALAIRE](<MULTISERVICE À LA PERSONNE — INTERCALAIRE.md>) - Conditions générales, éd. 01/25
+- [PROFESSIONS DE LA RESTAURATION ET DE L'HÔTELLERIE — INTERCALAIRE](<PROFESSIONS DE LA RESTAURATION ET DE L'HÔTELLERIE — INTERCALAIRE.md>) - Conditions générales, éd. 01/25
+- [Professions médicales et paramédicales — Intercalaire](<Professions médicales et paramédicales — Intercalaire.md>) - Conditions générales, éd. 03/24
+- [SYNDICATS PROFESSIONNELS ARTISANAUX — INTERCALAIRE](<SYNDICATS PROFESSIONNELS ARTISANAUX — INTERCALAIRE.md>) - Conditions générales, éd. 03/24
 
 ## Source & fidélité
 

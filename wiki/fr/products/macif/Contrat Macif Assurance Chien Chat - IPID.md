@@ -42,7 +42,7 @@ generated: true
 
 Document d’information (DIPA/IPID) du contrat Macif Assurance Chien Chat, souscrit auprès de Macif - France, société d’assurance mutuelle à cotisations variables (SIREN n° 781 452 511). Le contrat apporte une couverture santé pour le chien ou le chat du sociétaire Macif en remboursant une partie des frais de soins vétérinaires consécutifs à un accident ou une maladie de l’animal, ainsi que des frais préventifs, de médecine douce, de décès, d’annonce, de garde ou de transport, une assistance et un service d’information et conseils par téléphone. Le remboursement des frais médicaux s’effectue à hauteur de 80 % des frais engagés par l’assuré et les garanties peuvent être soumises à des plafonds de prise en charge. La couverture porte sur la France métropolitaine, l’assistance à l’étranger s’exerçant dans les DROM, l’Union européenne et une liste de pays énumérés.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Animaux](../../branches/Animaux.md) · Type : IPID / Fiche d'information · Édition : 06/22
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Animaux](<../../branches/Animaux.md>) · Type : IPID / Fiche d'information · Édition : 06/22
 
 ## Garanties
 
@@ -191,7 +191,7 @@ L’assistance : aide à la recherche de l’animal disparu, aide psychologique 
 
 ## Documents liés
 
-- [Contrat Macif Assurance Chien Chat](Contrat%20Macif%20Assurance%20Chien%20Chat.md) - Conditions générales, éd. Version 06/2022 (page de garde : « Version juin 2022 »)
+- [Contrat Macif Assurance Chien Chat](<Contrat Macif Assurance Chien Chat.md>) - Conditions générales, éd. Version 06/2022 (page de garde : « Version juin 2022 »)
 
 ## Source & fidélité
 

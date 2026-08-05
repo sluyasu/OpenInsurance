@@ -40,7 +40,7 @@ generated: true
 
 L’assurance Engins de chantiers a pour objectif de garantir le souscripteur d’un véhicule « engins de chantiers » contre les conséquences des dommages matériels ou corporels causés par son véhicule à un tiers (responsabilité civile). C’est une assurance obligatoire. Ce contrat inclut également la couverture des dommages corporels du conducteur. Selon les formules souscrites, ce contrat couvre aussi les dommages matériels du véhicule assuré.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information
+- Assureur : [Thélem assurances](<../../insurers/Thélem assurances.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

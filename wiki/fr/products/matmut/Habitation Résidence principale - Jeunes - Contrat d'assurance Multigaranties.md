@@ -46,7 +46,7 @@ generated: true
 
 Conditions générales du contrat d'assurance Multigaranties Matmut « Résidence principale - Jeunes », valant projet de contrat au sens de l'article L. 112-2 du Code des assurances. Le contrat couvre le souscripteur en qualité de locataire ou de propriétaire d'un appartement à usage de résidence principale n'excédant pas 66 m² et 2 pièces principales, et garantit ses responsabilités civiles et ses biens dans le cadre de la vie privée, en dehors de toute activité professionnelle. Il comprend des garanties de Responsabilité civile personnelle et Immeuble, des garanties Dommages aux biens (incendie, événements climatiques, dégâts des eaux, gel, inondation, catastrophes naturelles et technologiques, vol/vandalisme, bris de glaces), une garantie d'Assistance « Urgence après sinistre survenant au domicile » et une garantie de Protection Juridique suite à accident. La souscription est réservée aux personnes de moins de 28 ans sans enfants, admises au préalable comme Sociétaire, et les garanties cessent à l'échéance annuelle suivant le vingt-huitième anniversaire du souscripteur.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales · Édition : 05/24
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : Conditions générales · Édition : 05/24
 
 ## Définitions
 
@@ -640,7 +640,7 @@ Conformément à l'article L.114-1 du Code des assurances, toutes actions dériv
 
 ## Documents liés
 
-- [Habitation Résidence Principale formule Jeunes - Fiche](Habitation%20R%C3%A9sidence%20Principale%20formule%20Jeunes%20-%20Fiche.md) - Fiche produit
+- [Habitation Résidence Principale formule Jeunes - Fiche](<Habitation Résidence Principale formule Jeunes - Fiche.md>) - Fiche produit
 
 ## Source & fidélité
 

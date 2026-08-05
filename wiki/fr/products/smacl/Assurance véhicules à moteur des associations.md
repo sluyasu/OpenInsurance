@@ -46,7 +46,7 @@ generated: true
 
 Conditions générales de l'assurance des véhicules à moteur des associations de SMACL Assurances. Le contrat satisfait à l'obligation d'assurance de l'article L.211-1 du Code des assurances, indemnise les dommages corporels subis par le conducteur et, selon la formule choisie (1, 2 ou 3), indemnise l'association pour les dommages atteignant le véhicule assuré (incendie, bris de glaces, vol, accidents et dégradations, événements climatiques, attentats, catastrophes naturelles). La garantie de responsabilité civile s'exerce sans limitation de somme pour les dommages corporels et à concurrence de cent millions d'euros pour les dommages matériels et immatériels. Les garanties s'exercent en France métropolitaine, dans les départements et régions d'outre-mer et, sauf la défense pénale et recours, dans une liste exhaustive de pays étrangers.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions générales · Édition : 01/2024
 
 ## Définitions
 

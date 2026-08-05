@@ -44,7 +44,7 @@ generated: true
 
 Conditions Générales du contrat multirisque habitation Direct Assurance (assureur AXA France IARD, gestion déléguée à Avanssur / Direct Assurance ; assistance AXA Assistance France). Le contrat garantit les Dommages subis par l’habitation et les biens (dégâts des eaux, incendie et événements assimilés, événements climatiques, vol et vandalisme, bris de vitre, attentats, catastrophes naturelles et technologiques) ainsi que les responsabilités civiles de l’assuré, avec une Défense Pénale et Recours et des prestations d’assistance. Il est décliné en formules Essentielle, Confort, Confort Plus et Propriétaire Non Occupant, complétées par des options (dommages électriques, rééquipement à neuf, dépannage d’urgence, jardin, piscine, assurance scolaire, protection du mobilier). Le document comprend un Guide des garanties sans valeur contractuelle, les Conditions Générales, le tableau des plafonds et franchises, un lexique et l’annexe sur le fonctionnement des garanties de responsabilité civile dans le temps.
 
-- Assureur : [Direct Assurance](../../insurers/Direct%20Assurance.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales · Édition : 03.26
+- Assureur : [Direct Assurance](<../../insurers/Direct Assurance.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : Conditions générales · Édition : 03.26
 
 ## Définitions
 

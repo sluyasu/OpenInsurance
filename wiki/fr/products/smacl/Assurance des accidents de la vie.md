@@ -44,7 +44,7 @@ generated: true
 
 Conditions générales du contrat « Assurance des accidents de la vie » de SMACL Assurances (garantie accidents de la vie, ou GAV), destiné aux particuliers. La garantie a pour objet l’indemnisation, sur la base du droit commun, des préjudices corporels de l’assuré résultant de façon directe, certaine et exclusive d’un accident garanti survenu dans le cadre de la vie privée, ayant pour conséquence soit le décès, soit un déficit fonctionnel permanent au moins égal au seuil d’intervention choisi à la souscription (5 % — 1 % pour les enfants jusqu’à 12 ans — ou 25 %), dans la limite de 1,5 million d’euros par sinistre (300 000 euros au-delà de 75 ans). Le contrat comporte également une garantie perte d’emploi forfaitaire de 1 000 € après une franchise de trois mois, et des prestations d’assistance définies par la Convention « Assistance des Accidents de la Vie ». Trois formules d’assurés sont proposées : SOLO, DUO et FAMILLE.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Garantie des accidents de la vie](../../branches/Garantie%20des%20accidents%20de%20la%20vie.md) · Type : Conditions générales · Édition : 11/2022
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Garantie des accidents de la vie](<../../branches/Garantie des accidents de la vie.md>) · Type : Conditions générales · Édition : 11/2022
 
 ## Définitions
 

@@ -47,7 +47,7 @@ generated: true
 
 Conventions spéciales « Auto-collaborateurs (garantie en substitution au contrat personnel) » du contrat CONVERGENCE de SMACL Assurances. Elles couvrent le véhicule personnel d'un collaborateur (administrateur, salarié, bénévole) d'une personne morale souscriptrice lorsqu'il est utilisé pour les besoins et dans l'intérêt exclusif de celle-ci, en se substituant au contrat personnel du collaborateur. Elles ont pour objet de satisfaire à l'obligation d'assurance de l'article L.211-1 du Code et d'indemniser l'assuré du préjudice subi du fait d'un dommage atteignant un véhicule assuré. La garantie s'exerce selon la FORMULE 3 des conventions spéciales Véhicules à moteur, dont ce document ne reproduit ni le contenu ni les montants.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : 04/2025
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions générales · Édition : 04/2025
 
 ## Définitions
 
@@ -121,7 +121,7 @@ La garantie de SMACL Assurances s'exerce selon la FORMULE 3 telle que définie �
 
 - Édition courante de ce produit.
 - Extension / option du produit : **CONVERGENCE**
-- [Conventions spéciales CONVERGENCE - Auto collaborateurs, garantie complémentaire au contrat personnel (Associatons)](Conventions%20sp%C3%A9ciales%20CONVERGENCE%20-%20Auto%20collaborateurs%2C%20garantie%20compl%C3%A9mentaire%20au%20contrat%20personnel%20%28Associatons%29.md) - Conditions générales, éd. 04/2025
+- [Conventions spéciales CONVERGENCE - Auto collaborateurs, garantie complémentaire au contrat personnel (Associatons)](<Conventions spéciales CONVERGENCE - Auto collaborateurs, garantie complémentaire au contrat personnel (Associatons).md>) - Conditions générales, éd. 04/2025
 
 ## Source & fidélité
 

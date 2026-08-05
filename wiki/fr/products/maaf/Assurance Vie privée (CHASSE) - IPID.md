@@ -40,7 +40,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de deux pages portant l'intitulé « Assurance Vie privée » et la mention « CHASSE », émis par MAAF Assurances SA (entreprise régie par le code des assurances, RCS Niort 542 073 580). Le contrat couvre la responsabilité civile de l'assuré pour les dommages causés à un tiers à l'occasion de la chasse et d'activités annexes, avec défense pénale et recours suite à accident, et propose en option la garantie des dommages aux chiens en action de chasse. Les dommages corporels et la défense pénale sont garantis sans limitation de somme ; les dommages matériels sont plafonnés à 1 524 491 € et le recours à 20 000 €. Le contrat est conclu jusqu'au 30 juin à 24h suivant la souscription et ne se renouvelle pas par tacite reconduction.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Chasse](../../branches/Chasse.md) · Type : IPID / Fiche d'information
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Chasse](<../../branches/Chasse.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

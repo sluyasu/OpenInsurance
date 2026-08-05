@@ -44,7 +44,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (DIPA) du contrat GARANTIE SANTÉ, une assurance complémentaire santé assurée par Macif-Mutualité (SIREN n°779 558 501) ou Apivia Mutuelle (SIREN n°775 709 710), mutuelles régies par le Livre II du Code de la mutualité. Le contrat rembourse, en complément de la Sécurité sociale française, tout ou partie des frais de santé restant à la charge de l’assuré et des éventuels bénéficiaires en cas d’accident, de maladie ou de maternité, et respecte les conditions légales des contrats responsables. Les garanties systématiques couvrent l’hospitalisation, la prime de naissance, les soins courants, la prévention, le dentaire, l’optique, les aides auditives et l’appareillage, complétées par des garanties optionnelles, une assistance et les services Santéclair et tiers payant. Deux annexes chiffrent les plafonds : quatre formules « SOINS » (ÉCONOMIQUE, ÉQUILIBRÉE, PROTECTRICE, EXCELLENCE) et cinq niveaux d’« ÉQUIPEMENTS » (0 à 4).
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : IPID / Fiche d'information · Édition : 09/2019
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : IPID / Fiche d'information · Édition : 09/2019
 
 ## Définitions
 
@@ -588,10 +588,10 @@ Pour les “autres prothèses remboursées par le RO*” et “l’orthodontie�
 
 ## Documents liés
 
-- ⚠️ Édition remplacée par une version plus récente : [contrat GARANTIE SANTÉ - IPID](contrat%20GARANTIE%20SANT%C3%89%20-%20IPID.md)
-- [contrat GARANTIE SANTÉ - IPID](contrat%20GARANTIE%20SANT%C3%89%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/2022
-- [Garantie Santé](Garantie%20Sant%C3%A9.md) - Conditions générales, éd. 2023-01
-- [Garantie Santé - Fiche](Garantie%20Sant%C3%A9%20-%20Fiche.md) - Fiche produit, éd. 2022-01-01
+- ⚠️ Édition remplacée par une version plus récente : [contrat GARANTIE SANTÉ - IPID](<contrat GARANTIE SANTÉ - IPID.md>)
+- [contrat GARANTIE SANTÉ - IPID](<contrat GARANTIE SANTÉ - IPID.md>) - IPID / Fiche d'information, éd. 01/2022
+- [Garantie Santé](<Garantie Santé.md>) - Conditions générales, éd. 2023-01
+- [Garantie Santé - Fiche](<Garantie Santé - Fiche.md>) - Fiche produit, éd. 2022-01-01
 
 ## Source & fidélité
 

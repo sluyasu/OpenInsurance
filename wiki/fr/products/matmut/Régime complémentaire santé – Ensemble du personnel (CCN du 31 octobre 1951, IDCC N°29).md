@@ -55,7 +55,7 @@ generated: true
 
 Notice d'information du régime complémentaire santé institué pour l'ensemble du personnel par la Convention Collective Nationale des établissements privés d'hospitalisation, de soins, de cure et de garde à but non lucratif du 31 octobre 1951 (IDCC N°29), en application de l'avenant n°2015-01 du 27 janvier 2015 complété jusqu'à l'additif n°5 du 7 juillet 2022 rectifié. L'employeur souscrit un contrat collectif à adhésion obligatoire ayant pour objet de compléter les prestations en nature versées par la Sécurité sociale en remboursement des frais médico-chirurgicaux occasionnés par une maladie ou un accident. Le régime de base obligatoire existe en trois niveaux au choix de l'employeur — Base 1 conventionnel, Base 2 (option 1) et Base 3 (option 2) — auxquels s'ajoutent un régime de base facultatif pour les ayants droit et un ou plusieurs régimes optionnels facultatifs sur-complémentaires. La garantie respecte le cahier des charges du contrat responsable et du 100 % santé ; la gestion est confiée à l'un des organismes assureurs listés, dont OCIANE MATMUT.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : Juillet 2024
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Conditions générales · Édition : Juillet 2024
 
 ## Définitions
 

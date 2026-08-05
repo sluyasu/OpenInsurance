@@ -43,7 +43,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du contrat « Caducée » de la Matmut, présenté sous le titre « Assurance des professionnels de santé ». Le contrat garantit les professionnels de santé, au cours de leurs activités, contre les conséquences des dommages matériels ou corporels causés à des tiers (Responsabilité Civile) en dehors de toute relation contractuelle, et des garanties de Protection Juridique sont également acquises. Il peut comprendre des garanties de Responsabilité Civile du fait d'un immeuble ou liées à une activité de prévention, de diagnostic ou de soins, ainsi que des garanties complémentaires (Dommages aux biens, Assistance, Préjudices financiers). Trois garanties sont systématiquement incluses et quatorze garanties optionnelles sont proposées, dont deux ensembles relatifs aux locaux professionnels.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information · Édition : 07/23
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : IPID / Fiche d'information · Édition : 07/23
 
 ## Garanties
 
@@ -207,8 +207,8 @@ Garantie optionnelle d'assistance, listée sous l'intitulé « Assistance aux lo
 
 ## Documents liés
 
-- [Caducée](Caduc%C3%A9e.md) - Conditions générales, éd. 05/23
-- [Matmut « Caducée »](Matmut%20%C2%AB%20Caduc%C3%A9e%20%C2%BB.md) - Conditions générales
+- [Caducée](<Caducée.md>) - Conditions générales, éd. 05/23
+- [Matmut « Caducée »](<Matmut « Caducée ».md>) - Conditions générales
 
 ## Source & fidélité
 

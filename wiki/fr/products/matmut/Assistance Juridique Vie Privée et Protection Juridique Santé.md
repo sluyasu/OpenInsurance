@@ -44,7 +44,7 @@ generated: true
 
 Notice d'information d'un contrat collectif d'assurance de Protection Juridique (branche 17) souscrit par la Mutuelle Ociane Matmut auprès de Matmut Protection Juridique au profit des adhérents du contrat collectif Santé et de leurs ayants droit. Elle met à disposition un service d'information juridique préventive par téléphone, une garantie d'Assistance Juridique Vie Privée en cas de différend, et une garantie de Protection Juridique Santé en cas de sinistre (Recours Médical, Mesures de Protection de la Personne Majeure, Consommation Santé, Protection Sociale Santé). La prise en charge des frais et honoraires est plafonnée à 20 000 € TTC par sinistre, avec des sous-plafonds et des montants forfaitaires par juridiction fixés en annexe. Les garanties s'appliquent en France métropolitaine, dans les DROM et en principauté de Monaco.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Protection juridique](../../branches/Protection%20juridique.md) · Type : Conditions générales · Édition : 10/25
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Protection juridique](<../../branches/Protection juridique.md>) · Type : Conditions générales · Édition : 10/25
 
 ## Définitions
 

@@ -43,7 +43,7 @@ generated: true
 
 Insurance product information document (IPID) for the Company Multi-risk Insurance sold under the product name Business by Baloise Assurances Luxembourg S.A. It insures the building, the content (equipment, goods or other) and civil liability, against a long list of insurable risks running from fire, storms, water damage, theft and glass breakage to loss of operation, electronic risks, machine breakage, transport and assistance, together with operational civil liability, civil liability after delivery, existing and consigned objects, accidental pollution and legal expenses cover. Material damage and civil liability extensions or packs are available as options. Coverage limits are the amounts insured mentioned in the special conditions and the document quantifies no amount.
 
-- Assureur : [Baloise Luxembourg](../../insurers/Baloise%20Luxembourg.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information
+- Assureur : [Baloise Luxembourg](<../../insurers/Baloise Luxembourg.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -263,8 +263,8 @@ Optional extension: civil liability extensions or packs.
 
 ## Documents liés
 
-- [Business - IPID](Business%20-%20IPID.md) - IPID / Fiche d'information
-- [Business - IPID - DE](Business%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
+- [Business - IPID](<Business - IPID.md>) - IPID / Fiche d'information
+- [Business - IPID - DE](<Business - IPID - DE.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

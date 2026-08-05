@@ -21,7 +21,8 @@ sys.path.insert(0, str(REPO / "pipeline"))
 import render  # noqa: E402
 
 WIKI = REPO / "wiki" / "be"
-MDLINK = re.compile(r"\[[^\]]*\]\(([^)]+\.md)\)")
+# Both destination forms — angle brackets (mdlink's output) and the legacy encoded one.
+MDLINK = re.compile(r"\[[^\]]*\]\((?:<([^>]+\.md)>|([^)<]+\.md))\)")
 
 
 def _frontmatter(p: Path) -> dict:
@@ -42,7 +43,7 @@ def _generated_pages() -> list[Path]:
 
 def _links(p: Path):
     for m in MDLINK.finditer(p.read_text(encoding="utf-8")):
-        raw = m.group(1)
+        raw = m.group(1) or m.group(2)
         if "://" not in raw:
             yield raw, (p.parent / unquote(raw)).resolve()
 
@@ -213,16 +214,20 @@ def test_edition_age_is_measured_against_collection_not_today():
 
 
 @pytest.mark.parametrize("frm,to,expected", [
-    ("products/axa/A.md", "insurers/AXA.md", "[l](../../insurers/AXA.md)"),
-    ("products/axa/A.md", "products/axa/B.md", "[l](B.md)"),
-    ("insurers/AXA.md", "products/axa/A.md", "[l](../products/axa/A.md)"),
+    ("products/axa/A.md", "insurers/AXA.md", "[l](<../../insurers/AXA.md>)"),
+    ("products/axa/A.md", "products/axa/B.md", "[l](<B.md>)"),
+    ("insurers/AXA.md", "products/axa/A.md", "[l](<../products/axa/A.md>)"),
 ])
 def test_mdlink_paths(frm, to, expected):
     assert render.mdlink(frm, to, "l") == expected
 
 
-def test_mdlink_encodes_characters_that_would_break_the_link():
-    """An unencoded ')' ends the link early, so 'X (IPID).md' would truncate."""
-    out = render.mdlink("insurers/A.md", "products/p/X (IPID).md", "X")
-    assert "(IPID)" not in out.split("](")[1]
-    assert "%28IPID%29" in out and "%20" in out
+def test_mdlink_survives_characters_that_broke_the_encoded_form():
+    """Angle-bracket destinations carry spaces, parentheses and apostrophes verbatim.
+
+    The percent-encoded form was valid Markdown, but the roamlinks plugin decodes
+    relative links before rewriting them and its output broke on names combining an
+    apostrophe and parentheses — 15 dead links on the published site. The destination
+    must stay inside one <...> group and never leak past the closing parenthesis."""
+    out = render.mdlink("insurers/A.md", "products/p/L'assurance X (IPID).md", "X")
+    assert out == "[X](<../products/p/L'assurance X (IPID).md>)"

@@ -45,7 +45,7 @@ generated: true
 
 Document d'information (IPID) de l'« Assurance tous risques chantier », produit « Tous risques chantier », porté par SMACL Assurances SA (RCS Niort n° 833 817 224). Le contrat garantit l'opération de construction contre notamment les conséquences des dommages matériels survenus sur l'ouvrage pendant les travaux, au bénéfice du maître d'ouvrage et de tout constructeur lié à lui par un contrat de louage d'ouvrage, sous-traitants compris. Sont systématiquement prévus les dommages matériels, pertes, incendie, vol ou tentative de vol sur l'ouvrage en construction, les catastrophes naturelles et les frais de transport consécutifs à un sinistre garanti (5 % du coût définitif de la construction). En option : les dommages aux existants, la maintenance visite après travaux et la responsabilité civile du maître d'ouvrage plafonnée à 5 000 000 €.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Assurance construction](../../branches/Assurance%20construction.md) · Type : IPID / Fiche d'information · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Assurance construction](<../../branches/Assurance construction.md>) · Type : IPID / Fiche d'information · Édition : 01/2024
 
 ## Garanties
 
@@ -172,7 +172,7 @@ Dommages causés à des tiers dans le cadre de l'opération de construction et t
 
 ## Documents liés
 
-- [Tous risques chantier](Tous%20risques%20chantier.md) - Conditions générales, éd. 11/2022
+- [Tous risques chantier](<Tous risques chantier.md>) - Conditions générales, éd. 11/2022
 
 ## Source & fidélité
 

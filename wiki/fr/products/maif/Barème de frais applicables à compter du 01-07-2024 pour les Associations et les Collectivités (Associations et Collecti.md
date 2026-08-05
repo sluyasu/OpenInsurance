@@ -46,7 +46,7 @@ generated: true
 
 Barème de frais MAIF applicable à compter du 01/07/2024 aux contrats des Associations et des Collectivités. Le document d’une page répertorie, hors tout contrat particulier, le droit d’adhésion, les frais de fractionnement de la cotisation annuelle (paiement en 2 fois et en 12 fois), les frais d’impayés et la contribution « solidarité victimes terrorisme infractions », avec pour chaque somme le montant HT, le montant TTC et le taux de taxes. Il ne décrit aucune garantie et n’énonce aucune exclusion.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Autres](../../branches/Autres.md) · Type : Conditions tarifaires · Édition : 07/2024
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Autres](<../../branches/Autres.md>) · Type : Conditions tarifaires · Édition : 07/2024
 
 ## Prime
 
@@ -83,7 +83,7 @@ Barème de frais MAIF applicable à compter du 01/07/2024 aux contrats des Assoc
 
 ## Documents liés
 
-- [Barème de frais - Tarifs](Bar%C3%A8me%20de%20frais%20-%20Tarifs.md) - Conditions tarifaires, éd. 03/2026
+- [Barème de frais - Tarifs](<Barème de frais - Tarifs.md>) - Conditions tarifaires, éd. 03/2026
 
 ## Source & fidélité
 

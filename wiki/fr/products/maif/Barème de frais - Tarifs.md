@@ -42,7 +42,7 @@ generated: true
 
 Barème de frais MAIF d’une page, édition 03/2026, transverse aux contrats détenus. Il répertorie le droit d’adhésion, les frais de paiement appliqués en cas de fractionnement de la cotisation annuelle (2 fois et 12 fois), les frais d’impayés et la contribution « solidarité victimes terrorisme infractions », en indiquant pour chaque somme le montant ou le taux HT, le montant ou le taux TTC et le taux de taxes. Il ne décrit aucune garantie et n’énonce aucune exclusion.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Autres](../../branches/Autres.md) · Type : Conditions tarifaires · Édition : 03/2026
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Autres](<../../branches/Autres.md>) · Type : Conditions tarifaires · Édition : 03/2026
 
 ## Prime
 
@@ -78,7 +78,7 @@ Barème de frais MAIF d’une page, édition 03/2026, transverse aux contrats d�
 
 ## Documents liés
 
-- [Barème de frais applicables à compter du 01-07-2024 pour les Associations et les Collectivités (Associations et Collecti](Bar%C3%A8me%20de%20frais%20applicables%20%C3%A0%20compter%20du%2001-07-2024%20pour%20les%20Associations%20et%20les%20Collectivit%C3%A9s%20%28Associations%20et%20Collecti.md) - Conditions tarifaires, éd. 07/2024
+- [Barème de frais applicables à compter du 01-07-2024 pour les Associations et les Collectivités (Associations et Collecti](<Barème de frais applicables à compter du 01-07-2024 pour les Associations et les Collectivités (Associations et Collecti.md>) - Conditions tarifaires, éd. 07/2024
 
 ## Source & fidélité
 

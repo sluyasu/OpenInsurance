@@ -40,7 +40,7 @@ generated: true
 
 Touring Explore est un contrat d'assurance voyage temporaire par lequel l'assureur (AG Insurance) intervient au bénéfice de l'assuré lorsque celui-ci, à la suite de certains événements, a besoin d'assistance lors d'un séjour à l'étranger. Le produit comprend la garantie Assistance aux personnes à l'étranger et, en option, trois Packs : Pack Assistance Dépannage Véhicule, Pack Assurance Annulation, et Pack Assurance Compensation de voyage & Bagages. L'assisteur est Touring SA et l'assureur AG Insurance (code 0079). Les personnes assurées sont les personnes physiques indiquées aux conditions particulières et domiciliées en Belgique.
 
-- Assureur : [Touring](../../insurers/Touring.md) · Branche : [Voyage](../../branches/Voyage.md) · Type : Conditions générales · Édition : 01/04/2026
+- Assureur : [Touring](<../../insurers/Touring.md>) · Branche : [Voyage](<../../branches/Voyage.md>) · Type : Conditions générales · Édition : 01/04/2026
 
 ## Définitions
 
@@ -465,7 +465,7 @@ Le délai de prescription est de trois ans pour toute action découlant du contr
 
 ## Documents liés
 
-- [Touring Explore - IPID](Touring%20Explore%20-%20IPID.md) - IPID / Fiche d'information, éd. 01042026
+- [Touring Explore - IPID](<Touring Explore - IPID.md>) - IPID / Fiche d'information, éd. 01042026
 
 ## Source & fidélité
 

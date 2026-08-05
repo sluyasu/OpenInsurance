@@ -49,7 +49,7 @@ generated: true
 
 Dispositions Générales et Garanties du contrat PROFIL ÉLUS (gamme Collectivités) de Groupama, destiné aux élus locaux exerçant un mandat au sein d'une collectivité ou d'un établissement public. Le contrat a pour objet d'accorder les garanties Responsabilité personnelle, Protection juridique, Accidents corporels, Pertes de revenus et Assistance, celles retenues étant indiquées aux Conditions Personnelles. Le document définit les termes du contrat, l'étendue territoriale, les exclusions générales et particulières, le fonctionnement (durée, cotisation, indexation, résiliation, prescription), les obligations en cas de sinistre et les dispositions diverses (données personnelles, dématérialisation, réclamations, sanctions internationales). Les montants de garantie et les franchises ne figurent pas dans ce fascicule : ils renvoient systématiquement au Tableau des Montants de Garantie et des Franchises et aux Conditions Personnelles.
 
-- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : Conditions générales
+- Assureur : [Groupama](<../../insurers/Groupama.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : Conditions générales
 
 ## Définitions
 
@@ -608,8 +608,8 @@ Aux termes de l'article L.114-1 du Code des assurances, toutes actions dérivant
 
 ## Documents liés
 
-- [PROFIL ELUS - IPID](PROFIL%20ELUS%20-%20IPID.md) - IPID / Fiche d'information, éd. V012026
-- [Profil élus - Tableau des montants de garantie et des franchises - Tarifs](Profil%20%C3%A9lus%20-%20Tableau%20des%20montants%20de%20garantie%20et%20des%20franchises%20-%20Tarifs.md) - Conditions tarifaires, éd. janvier 2026
+- [PROFIL ELUS - IPID](<PROFIL ELUS - IPID.md>) - IPID / Fiche d'information, éd. V012026
+- [Profil élus - Tableau des montants de garantie et des franchises - Tarifs](<Profil élus - Tableau des montants de garantie et des franchises - Tarifs.md>) - Conditions tarifaires, éd. janvier 2026
 
 ## Source & fidélité
 

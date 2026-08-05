@@ -45,7 +45,7 @@ generated: true
 
 Conditions générales du contrat MAIF « Pacs » (assurance corporelle conducteur et passagers), un contrat de personnes qui indemnise les dommages corporels subis lors d’un accident de la circulation découlant de l’utilisation d’un véhicule terrestre à moteur, d’un train, d’un tramway, d’un métro ou d’un vélo en libre-service, que l’assuré soit conducteur ou passager, hors transport onéreux de personnes ou de marchandises. Il couvre les frais médicaux restés à charge, les pertes de revenus, l’incapacité permanente, le préjudice esthétique, la tierce personne et, en cas de décès, un capital décès, une prestation pour frais funéraires et le préjudice patrimonial, selon des barèmes contractuels annexés. Il ajoute des prestations d’aide immédiate et de services (aide à la personne, assistance à domicile, soutien psychologique, accompagnement social, enseignement à domicile), une garantie d’assistance en cas de déplacement mise en œuvre par IMA Assurances pour MAIF Assistance, et une couverture juridique (garantie recours et aide à faire valoir ses droits). Les indemnités ne sont pas dues lorsqu’un tiers est tenu à réparation : MAIF intervient alors à titre d’avance sur recours, et ses prestations ne se cumulent pas avec les prestations à caractère indemnitaire des organismes sociaux et de prévoyance.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : 03/2026
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions générales · Édition : 03/2026
 
 ## Définitions
 
@@ -574,7 +574,7 @@ La prescription est le délai au-delà duquel aucune action n’est plus recevab
 
 ## Documents liés
 
-- [Assurance corporelle conducteur passagers - Pacs - IPID](Assurance%20corporelle%20conducteur%20passagers%20-%20Pacs%20-%20IPID.md) - IPID / Fiche d'information, éd. 11/2023
+- [Assurance corporelle conducteur passagers - Pacs - IPID](<Assurance corporelle conducteur passagers - Pacs - IPID.md>) - IPID / Fiche d'information, éd. 11/2023
 
 ## Source & fidélité
 

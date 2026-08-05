@@ -45,7 +45,7 @@ generated: true
 
 Conditions générales valant notice d'information et règlement du contrat complémentaire santé individuel MAAF Santé BIORYTHM, dispositions en vigueur au 01/01/2026. Le contrat rembourse les dépenses de santé dans la limite des frais engagés au travers de trois modules — Hospitalisation, Soins courants, Appareillages et Prothèses — déclinés chacun en quatre niveaux, complétés par une option facultative Indemnité Journalière Hospitalisation à trois niveaux et par une garantie « Dispense de paiement ». Les garanties sont solidaires et responsables et sont soumises à des délais d'attente de 3 ou 6 mois sur les niveaux 3 et 4. Le contrat comporte en outre des garanties d'assistance (assistance santé à domicile et « aide aux aidants ») relevant d'un contrat collectif souscrit par MAAF Santé auprès de MAAF Assurances SA et gérées par FIDELIA ASSISTANCE.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : 01/26
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Conditions générales · Édition : 01/26
 
 ## Définitions
 
@@ -719,8 +719,8 @@ Conformément à l'article L.221-11 du Code de la mutualité, toute action déri
 
 ## Documents liés
 
-- [ASSURANCE SANTÉ BIORYTHM (Niveaux 1 à 4) - Fiche](ASSURANCE%20SANT%C3%89%20BIORYTHM%20%28Niveaux%201%20%C3%A0%204%29%20-%20Fiche.md) - Fiche produit, éd. Prestations en vigueur au 01/12/2025
-- [BIORYTHM - Fiche](BIORYTHM%20-%20Fiche.md) - Fiche produit
+- [ASSURANCE SANTÉ BIORYTHM (Niveaux 1 à 4) - Fiche](<ASSURANCE SANTÉ BIORYTHM (Niveaux 1 à 4) - Fiche.md>) - Fiche produit, éd. Prestations en vigueur au 01/12/2025
+- [BIORYTHM - Fiche](<BIORYTHM - Fiche.md>) - Fiche produit
 
 ## Source & fidélité
 

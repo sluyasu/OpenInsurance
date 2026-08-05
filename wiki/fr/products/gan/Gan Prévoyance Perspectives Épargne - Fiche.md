@@ -41,7 +41,7 @@ generated: true
 
 Document d’informations clés (DIC/KID) du produit d’investissement Gan Prévoyance Perspectives Épargne, produit le 05/03/2025 par Groupama Gan Vie. Il s’agit d’un contrat d’assurance sur la vie de type multisupport, contrat de groupe à adhésion facultative souscrit auprès de Groupama Gan Vie par l’Association pour la Protection du Patrimoine et de la Personne (A3P), relevant des branches 20 (Vie-Décès) et 22. Le contrat permet la constitution d’une épargne par versements libres et/ou programmés répartis entre un fonds en euros et des unités de compte, en gestion libre ou gestion déléguée ; en cas de décès un capital égal à l’épargne constituée est versé aux bénéficiaires désignés, avec une Garantie plancher optionnelle avant 65 ans. Le document détaille l’indicateur de risque, le mécanisme du FGAP, les coûts sur 1 an et 8 ans, la période de détention recommandée de 8 ans et la procédure de réclamation.
 
-- Assureur : [Gan Assurances](../../insurers/Gan%20Assurances.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Fiche produit · Édition : 05/03/2025
+- Assureur : [Gan Assurances](<../../insurers/Gan Assurances.md>) · Branche : [Assurance vie et épargne](<../../branches/Assurance vie et épargne.md>) · Type : Fiche produit · Édition : 05/03/2025
 
 ## Définitions
 
@@ -134,7 +134,7 @@ Le produit comporte une Garantie plancher ( optionnelle en gestion libre ou gest
 
 ## Documents liés
 
-- [Gan Prevoyance Perspectives Epargne - Tarifs](Gan%20Prevoyance%20Perspectives%20Epargne%20-%20Tarifs.md) - Conditions tarifaires
+- [Gan Prevoyance Perspectives Epargne - Tarifs](<Gan Prevoyance Perspectives Epargne - Tarifs.md>) - Conditions tarifaires
 
 ## Source & fidélité
 

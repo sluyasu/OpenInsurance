@@ -45,7 +45,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (DIPA) du « Contrat d'assurance Chiens guides », intitulé « Assurance des chiens d'assistance », assuré par Macif - France - Société d'assurance mutuelle à cotisations variables - SIREN n° 781 452 511. Le contrat apporte une couverture santé pour les chiens guides ou chiens d'assistance mis à disposition des personnes en situation de handicap et offre également des services d'assistance à l'assuré et à son chien. Les garanties de base remboursent les frais de soins vétérinaires et les frais chirurgicaux du chien assuré suite à un accident ou une maladie, dans la limite de 2 000 euros par année d'assurance et à concurrence de 80 % des frais réels, et comprennent une assistance de proximité dans un rayon de 50 km du domicile. Une garantie optionnelle étend l'assistance au maître et à son chien au-delà de 50 km du domicile, dans le monde entier.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Animaux](../../branches/Animaux.md) · Type : IPID / Fiche d'information · Édition : 10/18
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Animaux](<../../branches/Animaux.md>) · Type : IPID / Fiche d'information · Édition : 10/18
 
 > ⚠️ **Édition ancienne** : 10/18, soit 8 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 

@@ -53,7 +53,7 @@ generated: true
 
 Conditions générales du contrat d'assurance véhicules terrestres à moteur « Vam » de MAIF dans sa version destinée aux associations et collectivités, c'est-à-dire aux personnes morales sociétaires (associations loi 1901, fondations, établissements publics et scolaires, CSE, coopératives, mutuelles). Le contrat couvre les risques découlant de la propriété ou de l'usage des véhicules désignés aux conditions particulières et comprend un socle commun à toutes les formules (responsabilité civile, accompagnement juridique, indemnisation des dommages corporels, événements climatiques et catastrophes naturelles, attentats, assistance) complété par quatre formules souscriptibles (Initiale, Essentiel, Différence, Plénitude) plus la formule Pertinence fermée à la souscription. Trois garanties optionnelles sont proposées : Assistance panne 0 km, Service véhicule de remplacement et Protection des objets transportés. Les montants garantis, capitaux et franchises sont renvoyés aux conditions particulières et à l'avis d'échéance.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions générales
 
 ## Définitions
 
@@ -892,7 +892,7 @@ Toute action dérivant du présent contrat est prescrite deux ans à compter de 
 
 ## Documents liés
 
-- [Vam Associations et Collectivités - IPID](Vam%20Associations%20et%20Collectivit%C3%A9s%20-%20IPID.md) - IPID / Fiche d'information, éd. 10/2025
+- [Vam Associations et Collectivités - IPID](<Vam Associations et Collectivités - IPID.md>) - IPID / Fiche d'information, éd. 10/2025
 
 ## Source & fidélité
 

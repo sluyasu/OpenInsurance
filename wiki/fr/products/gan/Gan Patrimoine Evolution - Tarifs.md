@@ -40,7 +40,7 @@ generated: true
 
 Fiche de transparence des frais du contrat Gan Patrimoine Evolution, publiée sous le titre « Les Frais de l’assurance-vie : Gan Patrimoine Evolution ». Elle détaille le montant minimal de versement, un droit unique de 15 € à l’adhésion, les frais annuels de gestion du contrat (fonds euros, unités de compte, gestion déléguée), les frais moyens de gestion des unités de compte en gestion libre et en gestion pilotée ou standardisée avec les taux de rétrocessions de commissions, et les frais ponctuels par opération. Le document indique que Groupama Gan Vie s’engage à mettre à jour annuellement ces informations ; les mentions légales désignent Gan Patrimoine comme mandataire exclusif de Groupama Gan Vie et de ses filiales. Le document ne décrit ni garanties ni exclusions.
 
-- Assureur : [Gan Assurances](../../insurers/Gan%20Assurances.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Conditions tarifaires
+- Assureur : [Gan Assurances](<../../insurers/Gan Assurances.md>) · Branche : [Assurance vie et épargne](<../../branches/Assurance vie et épargne.md>) · Type : Conditions tarifaires
 
 ## Définitions
 
@@ -98,7 +98,7 @@ d'une moyenne et la valeur exacte dépendra des Unités de Compte constituant l'
 
 ## Documents liés
 
-- [Gan Patrimoine Evolution - Fiche](Gan%20Patrimoine%20Evolution%20-%20Fiche.md) - Fiche produit, éd. 2025-03-05
+- [Gan Patrimoine Evolution - Fiche](<Gan Patrimoine Evolution - Fiche.md>) - Fiche produit, éd. 2025-03-05
 
 ## Source & fidélité
 

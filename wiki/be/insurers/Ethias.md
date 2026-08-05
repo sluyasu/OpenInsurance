@@ -34,39 +34,39 @@ generated: true
 
 ## Produits par branche
 
-### [Accidents](../branches/Accidents.md)
-- [Assurance Sports](../products/ethias/Assurance%20Sports.md) - Conditions générales (03/25) · réf. 1252-430
-- [Assurance Sports - IPID](../products/ethias/Assurance%20Sports%20-%20IPID.md) - IPID / Fiche d'information (03/25) · réf. 1252-430/1
+### [Accidents](<../branches/Accidents.md>)
+- [Assurance Sports](<../products/ethias/Assurance Sports.md>) - Conditions générales (03/25) · réf. 1252-430
+- [Assurance Sports - IPID](<../products/ethias/Assurance Sports - IPID.md>) - IPID / Fiche d'information (03/25) · réf. 1252-430/1
 
-### [Auto](../branches/Auto.md)
-- [Assurance Auto - IPID](../products/ethias/Assurance%20Auto%20-%20IPID.md) - IPID / Fiche d'information (04/26) · réf. 1251-044/1 • 04/26
-- [Véhicules automoteurs](../products/ethias/V%C3%A9hicules%20automoteurs.md) - Conditions générales (03/25) · réf. 1251-040 • 03/25
+### [Auto](<../branches/Auto.md>)
+- [Assurance Auto - IPID](<../products/ethias/Assurance Auto - IPID.md>) - IPID / Fiche d'information (04/26) · réf. 1251-044/1 • 04/26
+- [Véhicules automoteurs](<../products/ethias/Véhicules automoteurs.md>) - Conditions générales (03/25) · réf. 1251-040 • 03/25
 
-### [Habitation](../branches/Habitation.md)
-- [Assurance Habitation](../products/ethias/Assurance%20Habitation.md) - Conditions générales (03/25) · réf. 1252-050 • 03/25
+### [Habitation](<../branches/Habitation.md>)
+- [Assurance Habitation](<../products/ethias/Assurance Habitation.md>) - Conditions générales (03/25) · réf. 1252-050 • 03/25
 
-### [Protection juridique](../branches/Protection%20juridique.md)
-- [Assurance Aide Juridique](../products/ethias/Assurance%20Aide%20Juridique.md) - Conditions générales (03/25) · réf. 1252-076
-- [Assurance Aide Juridique - IPID](../products/ethias/Assurance%20Aide%20Juridique%20-%20IPID.md) - IPID / Fiche d'information (03/25) · réf. 1252-076/1
+### [Protection juridique](<../branches/Protection juridique.md>)
+- [Assurance Aide Juridique](<../products/ethias/Assurance Aide Juridique.md>) - Conditions générales (03/25) · réf. 1252-076
+- [Assurance Aide Juridique - IPID](<../products/ethias/Assurance Aide Juridique - IPID.md>) - IPID / Fiche d'information (03/25) · réf. 1252-076/1
 
-### [Santé](../branches/Sant%C3%A9.md)
-- [Care+ - IPID](../products/ethias/Care%2B%20-%20IPID.md) - IPID / Fiche d'information (01/26) · réf. 1252-437/1
-- [Care+ - Assurance soins ambulatoires et soins dentaires](../products/ethias/Care%2B%20-%20Assurance%20soins%20ambulatoires%20et%20soins%20dentaires.md) - Conditions générales (01/26) · réf. 1252-437_Soins Ambulatoires Care+
-- [Hospi Quality](../products/ethias/Hospi%20Quality.md) - Conditions générales (03/25) · réf. 1252-434
-- [Hospi Quality+ - IPID](../products/ethias/Hospi%20Quality%2B%20-%20IPID.md) - IPID / Fiche d'information (03/25) · réf. 1252-432/1
+### [Santé](<../branches/Santé.md>)
+- [Care+ - IPID](<../products/ethias/Care+ - IPID.md>) - IPID / Fiche d'information (01/26) · réf. 1252-437/1
+- [Care+ - Assurance soins ambulatoires et soins dentaires](<../products/ethias/Care+ - Assurance soins ambulatoires et soins dentaires.md>) - Conditions générales (01/26) · réf. 1252-437_Soins Ambulatoires Care+
+- [Hospi Quality](<../products/ethias/Hospi Quality.md>) - Conditions générales (03/25) · réf. 1252-434
+- [Hospi Quality+ - IPID](<../products/ethias/Hospi Quality+ - IPID.md>) - IPID / Fiche d'information (03/25) · réf. 1252-432/1
 
-### [Vélo](../branches/V%C3%A9lo.md)
-- [Assurance Bike & More - IPID](../products/ethias/Assurance%20Bike%20%26%20More%20-%20IPID.md) - IPID / Fiche d'information (03/25) · réf. 1251-051/1
-- [Assurance Bike & More](../products/ethias/Assurance%20Bike%20%26%20More.md) - Conditions générales (03/25) · réf. 1251-051
+### [Vélo](<../branches/Vélo.md>)
+- [Assurance Bike & More - IPID](<../products/ethias/Assurance Bike & More - IPID.md>) - IPID / Fiche d'information (03/25) · réf. 1251-051/1
+- [Assurance Bike & More](<../products/ethias/Assurance Bike & More.md>) - Conditions générales (03/25) · réf. 1251-051
 
-### [Vie privée](../branches/Vie%20priv%C3%A9e.md)
-- [Assurance Familiale](../products/ethias/Assurance%20Familiale.md) - Conditions générales (2025-03) · réf. 1252-003 • 03/25
+### [Vie privée](<../branches/Vie privée.md>)
+- [Assurance Familiale](<../products/ethias/Assurance Familiale.md>) - Conditions générales (2025-03) · réf. 1252-003 • 03/25
 
-### [Voyage](../branches/Voyage.md)
-- [Assistance Voyage (Police temporaire) - IPID](../products/ethias/Assistance%20Voyage%20%28Police%20temporaire%29%20-%20IPID.md) - IPID / Fiche d'information (03/25) · réf. 1275-304/1
-- [Assistance temporaire](../products/ethias/Assistance%20temporaire.md) - Conditions générales (03/25) · réf. 1275-304
-- [Assurance Assistance Family (Annuelle)](../products/ethias/Assurance%20Assistance%20Family%20%28Annuelle%29.md) - Conditions générales (03/25) · réf. 1275-013
-- [Assurance Assistance Family (annuelle) - IPID](../products/ethias/Assurance%20Assistance%20Family%20%28annuelle%29%20-%20IPID.md) - IPID / Fiche d'information (09/24) · réf. 1275-013/1
+### [Voyage](<../branches/Voyage.md>)
+- [Assistance Voyage (Police temporaire) - IPID](<../products/ethias/Assistance Voyage (Police temporaire) - IPID.md>) - IPID / Fiche d'information (03/25) · réf. 1275-304/1
+- [Assistance temporaire](<../products/ethias/Assistance temporaire.md>) - Conditions générales (03/25) · réf. 1275-304
+- [Assurance Assistance Family (Annuelle)](<../products/ethias/Assurance Assistance Family (Annuelle).md>) - Conditions générales (03/25) · réf. 1275-013
+- [Assurance Assistance Family (annuelle) - IPID](<../products/ethias/Assurance Assistance Family (annuelle) - IPID.md>) - IPID / Fiche d'information (09/24) · réf. 1275-013/1
 
 ## Source
 

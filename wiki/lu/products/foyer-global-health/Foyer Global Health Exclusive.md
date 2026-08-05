@@ -45,7 +45,7 @@ generated: true
 
 Les Conditions Spéciales Exclusive décrivent le plan de santé internationale Foyer Global Health Exclusive, destiné aux personnes résidant temporairement à l’étranger pendant au moins 3 mois consécutifs. Le contrat couvre les traitements hospitaliers, ambulatoires et dentaires, remboursés à hauteur de 100 % des frais médicaux éligibles, avec des plafonds propres à certaines prestations (par exemple 20 000 euros pour la grossesse et l’accouchement, 200 000 euros pour les maladies congénitales sur la vie entière de l’assuré, 500 euros pour le bilan de santé, 250 euros pour les aides visuelles) et une Franchise au choix de 0, 250, 500 ou 1 000 euros applicable uniquement aux traitements ambulatoires. La couverture s’exerce dans la Région 1 (monde entier y compris les États-Unis) ou la Région 2 (monde entier à l’exclusion des États-Unis) ; pour la Région 1, les limites et montants maximaux des articles 4.3.2, 4.3.3 et 4.3.4 sont doublés. Le document comporte en outre des Conditions d’Assistance Médicale, valables dans le monde entier, et une garantie « Assistance Additionnelle » qui n’existe que si elle a été convenue au certificat d’assurance.
 
-- Assureur : [Foyer Global Health](../../insurers/Foyer%20Global%20Health.md) · Branche : Complémentaire santé · Type : Conditions générales · Édition : 03.2024
+- Assureur : [Foyer Global Health](<../../insurers/Foyer Global Health.md>) · Branche : Complémentaire santé · Type : Conditions générales · Édition : 03.2024
 
 ## Définitions
 
@@ -544,7 +544,7 @@ Garantie « Assistance Additionnelle » (partie II, article 3.3). Si nécessaire
 ## Documents liés
 
 - Édition courante de ce produit.
-- [Foyer Global Health Exclusive - DE](Foyer%20Global%20Health%20Exclusive%20-%20DE.md) - Conditions générales, éd. 03.2024
+- [Foyer Global Health Exclusive - DE](<Foyer Global Health Exclusive - DE.md>) - Conditions générales, éd. 03.2024
 
 ## Source & fidélité
 

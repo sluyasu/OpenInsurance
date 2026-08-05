@@ -43,7 +43,7 @@ generated: true
 
 L'assurance Automobile de Thélem assurances a pour objectif de garantir l'assuré contre les conséquences des dommages matériels ou corporels causés par son véhicule à des tiers (responsabilité civile) ; c'est une assurance obligatoire. Sont assurés les véhicules terrestres à moteur 4 roues jusqu'à 3,5 Tonnes nécessitant un permis de conduire et leurs remorques. Le contrat inclut également les dommages corporels du conducteur ainsi que des prestations d'assistance au véhicule et aux personnes. Selon les formules souscrites, il couvre aussi les dommages matériels du véhicule assuré (bris de glaces, incendie, vol, tempête, tous accidents et vandalisme, etc.).
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information
+- Assureur : [Thélem assurances](<../../insurers/Thélem assurances.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

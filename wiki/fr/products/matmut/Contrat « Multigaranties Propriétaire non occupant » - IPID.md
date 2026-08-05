@@ -44,7 +44,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) du contrat Matmut « Multigaranties Propriétaire non occupant », assurance habitation. Le contrat garantit des biens immobiliers, et mobiliers le cas échéant, destinés à la location ou confiés à titre gratuit en dehors de toute activité professionnelle, ainsi que la Responsabilité civile Immeuble des assurés (jusqu’à 100 000 000 €, tous dommages confondus, avec une limitation à 5 000 000 € pour le recours des voisins et des tiers). Sept garanties sont incluses systématiquement : Responsabilité civile Immeuble, Protection Juridique suite à accident (20 000 €), Incendie et événements assimilés, Événements climatiques et catastrophes naturelles, Vol et vandalisme, Bris de glaces et Perte de loyers. Sept garanties optionnelles sont proposées, dont la Protection Juridique relative aux biens assurés. Les franchises sont de 170 € en Responsabilité civile (dommages matériels) et pour les dommages aux biens, 380 € en Inondation et 1520 € en catastrophe naturelle sécheresse.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information · Édition : 2023-12
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : IPID / Fiche d'information · Édition : 2023-12
 
 ## Garanties
 

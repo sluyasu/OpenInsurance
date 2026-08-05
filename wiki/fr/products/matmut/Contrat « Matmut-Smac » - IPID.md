@@ -41,7 +41,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) du contrat « Matmut/Smac », assurance des particuliers regroupant assistance, accidents corporels et Protection Juridique. Le contrat a pour objet d’apporter à l’assuré, confronté à des difficultés matérielles, des garanties d’assistance aux personnes en déplacement et d’assistance à domicile, ainsi que le versement de forfaits immédiats en cas de blessures graves (20 000 € ou 40 000 € selon le taux d’incapacité permanente) ou de décès suite à accident (1 500 €). Une garantie Protection Juridique Vie privée peut également être souscrite.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : IPID / Fiche d'information · Édition : 10/25
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : IPID / Fiche d'information · Édition : 10/25
 
 ## Garanties
 
@@ -139,7 +139,7 @@ En cas de différend ou sinistre avec un tiers, prise en charge de la défense d
 
 ## Documents liés
 
-- [Matmut-Smac Catégories A, B et C](Matmut-Smac%20Cat%C3%A9gories%20A%2C%20B%20et%20C.md) - Conditions générales, éd. 10/25
+- [Matmut-Smac Catégories A, B et C](<Matmut-Smac Catégories A, B et C.md>) - Conditions générales, éd. 10/25
 
 ## Source & fidélité
 

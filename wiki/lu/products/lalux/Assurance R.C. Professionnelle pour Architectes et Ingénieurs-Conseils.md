@@ -44,7 +44,7 @@ generated: true
 
 Conditions générales de l'assurance de responsabilité civile professionnelle pour architectes et ingénieurs-conseils de LA LUXEMBOURGEOISE Société Anonyme d'Assurances (R.C.S. Luxembourg B31035), édition 01.05.2025. Le contrat couvre les conséquences pécuniaires de la responsabilité civile encourue lors de l'exercice légal des activités professionnelles décrites aux Conditions Particulières, à la suite de dommages corporels, matériels et immatériels causés à des Tiers, au travers de deux garanties de base — responsabilité civile professionnelle (y compris contractuelle et décennale vis-à-vis du maître de l'ouvrage) et responsabilité civile exploitation — complétées par une série de garanties complémentaires (vol par les préposés, troubles de voisinage, sous-traitants, frais de défense et d'expertise, frais de sauvetage, dépassement du budget, atteinte à l'environnement, etc.). La garantie fonctionne en base «réclamation» pendant la période de validité du contrat, s'exerce dans le monde entier hors États-Unis d'Amérique et Canada, et s'applique jusqu'à concurrence des sommes assurées fixées aux Conditions Particulières, sous déduction d'une Franchise également fixée aux Conditions Particulières. Le document réunit trois fascicules : Conditions Générales, Conditions Administratives et Définitions.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : Conditions générales · Édition : 2025-05-01
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : Conditions générales · Édition : 2025-05-01
 
 ## Définitions
 

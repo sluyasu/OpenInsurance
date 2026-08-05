@@ -42,7 +42,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (DIP/IPID) du contrat « Familial complémentaire Accidents corporels » de Matmut, présenté sous le bandeau « ASSURANCE ACCIDENTS DE LA VIE ». Le contrat a pour objet de garantir les conséquences corporelles des accidents de la vie privée et professionnelle. Trois formules sont proposées (Individuelle, Couple ou Famille) et les garanties donnent lieu à l'application de plafonds d'indemnisation. Deux garanties sont systématiquement prévues selon la nature des dommages : l'incapacité permanente (jusqu'à 32 000 €) et le capital décès (7 700 €).
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Garantie des accidents de la vie](../../branches/Garantie%20des%20accidents%20de%20la%20vie.md) · Type : IPID / Fiche d'information · Édition : 2024-10
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Garantie des accidents de la vie](<../../branches/Garantie des accidents de la vie.md>) · Type : IPID / Fiche d'information · Édition : 2024-10
 
 ## Garanties
 

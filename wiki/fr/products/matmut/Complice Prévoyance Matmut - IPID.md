@@ -43,7 +43,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du produit « Complice Prévoyance Matmut », intitulé « ASSURANCE TEMPORAIRE DÉCÈS » et porté par Matmut Vie SA. Le produit, dédié aux personnes de plus de 18 ans et moins de 65 ans, prévoit le versement d'un capital garanti aux bénéficiaires désignés en cas de décès de l'assuré avant le 31 décembre suivant son 75e anniversaire, ou à l'assuré en cas de Perte totale et irréversible d'autonomie (PTIA) avant le 31 décembre suivant son 65e anniversaire. Deux garanties sont systématiquement prévues : Décès consécutif à un accident ou à une maladie et PTIA, pour un capital compris entre 20 000 € et 200 000 € au choix de l'assuré.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : IPID / Fiche d'information · Édition : 10/25
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : IPID / Fiche d'information · Édition : 10/25
 
 ## Définitions
 

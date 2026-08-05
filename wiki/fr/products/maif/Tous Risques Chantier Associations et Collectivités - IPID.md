@@ -44,7 +44,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de l’assurance Tous Risques Chantier MAIF destinée aux Associations et Collectivités, présentée sous la bannière « Assurance Construction ». MAIF garantit les pertes matérielles ou dommages matériels de caractère accidentel dans la limite du coût total de la construction déclarée, au titre de deux garanties : Dommages matériels à l’ouvrage (de la déclaration d’ouverture de chantier à la réception) et Maintenance visite (après réception). Deux garanties optionnelles sont citées : dommages aux existants et responsabilité civile en cours de travaux. Le document résume les principales exclusions et restrictions ainsi que les obligations du souscripteur.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Assurance construction](../../branches/Assurance%20construction.md) · Type : IPID / Fiche d'information · Édition : 08/2025
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Assurance construction](<../../branches/Assurance construction.md>) · Type : IPID / Fiche d'information · Édition : 08/2025
 
 ## Définitions
 

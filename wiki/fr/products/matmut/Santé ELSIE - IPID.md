@@ -43,7 +43,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de la complémentaire santé « Santé ELSIE », portée par Mutuelle Ociane (Livre II du Code de la mutualité, n° 434 243 085). Le produit rembourse tout ou partie des frais de santé restant à la charge de l'adhérent et des éventuels ayants-droit en cas d'accident, de maladie ou de maternité, en complément de la Sécurité sociale française, et respecte les conditions légales des contrats responsables. Sept postes de garantie et huit services sont systématiquement prévus ; deux garanties optionnelles (lentilles, dentaire non remboursé) et trois renforts optionnels payants (Hospi, Pharma, Mieux-être) complètent l'offre. Les niveaux de remboursement ne figurent pas dans ce document : ils renvoient au tableau de garanties.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : IPID / Fiche d'information · Édition : 09/24
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : IPID / Fiche d'information · Édition : 09/24
 
 ## Garanties
 

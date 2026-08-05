@@ -43,7 +43,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de l’Assurance Professionnelle Offre Métiers de l’Éducation de MAIF. Le produit est destiné à couvrir l’assuré dans l’exercice des activités professionnelles exercées au sein de structures consacrées à l’enseignement, l’éducation ou toute autre activité qui les complète ou les prolonge, ou à l’accueil de personnes handicapées. Il regroupe un accompagnement juridique professionnel (recours et protection juridique), une responsabilité civile / défense professionnelle, une protection corporelle professionnelle (blessures, décès, aides immédiates) et une assistance en cas de déplacement professionnel. Le document précise les principales exclusions et restrictions ainsi que les obligations de l’assuré.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : IPID / Fiche d'information · Édition : 07/2024
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : IPID / Fiche d'information · Édition : 07/2024
 
 ## Garanties
 
@@ -200,7 +200,7 @@ Frais de secours en montagne.
 
 ## Documents liés
 
-- [Offre Métiers de l'Éducation - Doc](Offre%20M%C3%A9tiers%20de%20l%27%C3%89ducation%20-%20Doc.md) - Document, éd. 03/2025
+- [Offre Métiers de l'Éducation - Doc](<Offre Métiers de l'Éducation - Doc.md>) - Document, éd. 03/2025
 
 ## Source & fidélité
 

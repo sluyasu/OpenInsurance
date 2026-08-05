@@ -46,7 +46,7 @@ generated: true
 
 Document d’information (IPID/DDA) du contrat « Gan Prévoyance Protection Homme Clé », présenté sous l’intitulé « PRÉVOYANCE HOMME CLÉ ». Il s’agit d’un produit d’assurance de groupe réservé aux adhérents au contrat souscrit par l’association A3P, dont l’objet est de compenser les conséquences financières pour l’entreprise du décès, de l’arrêt de travail ou de l’invalidité d’une personne ayant un rôle déterminant dans son fonctionnement. La garantie décès/PTIA verse un capital à l’entreprise ; en option, l’entreprise peut souscrire des indemnités journalières, une indemnité de remboursement des frais supplémentaires d’exploitation et un capital en cas d’invalidité totale. La compagnie imprimée est Groupama Gan Vie (RCS Paris 340 427 616) ; « Gan Assurances » n’apparaît nulle part.
 
-- Assureur : [Gan Assurances](../../insurers/Gan%20Assurances.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : IPID / Fiche d'information · Édition : 102023
+- Assureur : [Gan Assurances](<../../insurers/Gan Assurances.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : IPID / Fiche d'information · Édition : 102023
 
 ## Définitions
 

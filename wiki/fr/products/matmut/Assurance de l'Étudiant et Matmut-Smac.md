@@ -45,7 +45,7 @@ generated: true
 
 Conditions générales, valant projet de contrat au sens de l'article L. 112-2 du Code des assurances, du contrat d'assurance Multigaranties « Assurance de l'Étudiant » et du contrat « Matmut/Smac », porté par la Matmut (Mutuelle assurance des travailleurs mutualistes, société d'assurance mutuelle à cotisations variables, RCS Rouen n° 775 701 477). Le contrat individuel, réservé à un souscripteur ayant la qualité d'étudiant et sans enfants et préalablement admis comme Sociétaire, couvre la vie privée en dehors de toute activité professionnelle : Responsabilité civile Vie privée (liée ou non à un contrat), garanties des Dommages corporels (Aide étudiant hospitalisé, Incapacité permanente, Décès), Protection études, Assistance en déplacement et Assistance psychologique, Protection Juridique suite à accident et Assistance Juridique par téléphone. Il est conclu pour une durée courant de sa date d'effet au 31 août suivant à 24 heures, sans tacite reconduction. Les garanties « Assistance psychologique suite à événement traumatisant » et « Assistance Juridique par téléphone » sont acquises au titre du contrat Matmut/Smac.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Scolaire et extrascolaire](../../branches/Scolaire%20et%20extrascolaire.md) · Type : Conditions générales · Édition : 10/25
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Scolaire et extrascolaire](<../../branches/Scolaire et extrascolaire.md>) · Type : Conditions générales · Édition : 10/25
 
 ## Définitions
 
@@ -741,7 +741,7 @@ Conformément à l'article L.114-1 du Code des assurances, toutes actions dériv
 
 ## Documents liés
 
-- [Contrat « Assurance de l'Étudiant et Matmut-Smac » - IPID](Contrat%20%C2%AB%20Assurance%20de%20l%27%C3%89tudiant%20et%20Matmut-Smac%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information, éd. 10/25
+- [Contrat « Assurance de l'Étudiant et Matmut-Smac » - IPID](<Contrat « Assurance de l'Étudiant et Matmut-Smac » - IPID.md>) - IPID / Fiche d'information, éd. 10/25
 
 ## Source & fidélité
 

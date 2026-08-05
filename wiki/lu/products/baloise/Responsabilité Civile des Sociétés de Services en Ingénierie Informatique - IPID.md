@@ -41,7 +41,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de l’assurance Responsabilité Civile des Sociétés de Services en Ingénierie Informatique de Baloise Assurances Luxembourg S.A. Il s’agit d’une assurance couvrant la responsabilité civile professionnelle des Sociétés de Services en Ingénierie Informatique, à l’exclusion de toute activité à destination du domaine médical, aéronautique et spatial, nucléaire, militaire et off-shore. Les risques assurés sont la responsabilité civile professionnelle/contractuelle, la responsabilité civile exploitation, la responsabilité civile après livraison, la pollution accidentelle, la responsabilité civile objets confiés et existants, l’intoxication alimentaire et la protection juridique. Les plafonds renvoient aux sommes assurées mentionnées aux conditions particulières.
 
-- Assureur : [Baloise Luxembourg](../../insurers/Baloise%20Luxembourg.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : IPID / Fiche d'information
+- Assureur : [Baloise Luxembourg](<../../insurers/Baloise Luxembourg.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

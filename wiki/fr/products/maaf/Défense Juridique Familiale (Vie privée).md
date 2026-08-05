@@ -44,7 +44,7 @@ generated: true
 
 Conditions générales du contrat Défense Juridique Familiale - Vie privée (réf. 2326 - 01/18), protection juridique souscrite auprès d'Assistance Protection Juridique et présentée par MAAF Assurances SA. Le contrat intervient sur les sinistres survenant dans le cadre de la vie privée de l'assuré, l'opposant à un tiers identifié, dans huit domaines de litiges. Deux formules existent : la formule N couvre consommation, santé, résidence principale ou secondaire et fiscalité ; la formule M ajoute conflits du travail, protection sociale, famille et successions, donations et legs. Le plafond de garantie est de 16 000 € par sinistre, avec un seuil d'intervention amiable de 150 € et un seuil d'intervention en justice de 1 000 €, et un barème détaillé de plafonds d'honoraires d'avocat par juridiction.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Protection juridique](../../branches/Protection%20juridique.md) · Type : Conditions générales · Édition : 01/18
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Protection juridique](<../../branches/Protection juridique.md>) · Type : Conditions générales · Édition : 01/18
 
 > ⚠️ **Édition ancienne** : 01/18, soit 8 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 

@@ -46,7 +46,7 @@ generated: true
 
 Notice d'information valant convention d'assistance attachée à la carte bancaire Visa Electron (contrat n° 922093, valable à compter du 01/01/2021). Elle ouvre droit à des prestations d'assistance médicale lors des déplacements privés de l'Assuré à l'Étranger, pendant les 90 premiers jours du déplacement : transport / rapatriement, retour des accompagnants, présence au chevet et frais d'hébergement, accompagnement et garde des enfants de moins de 15 ans, rapatriement des animaux domestiques, avance des frais d'hospitalisation et remboursement complémentaire des frais médicaux jusqu'à 11 000 € par Assuré et par événement, transport du corps en cas de décès, retour anticipé et assistance en cas de poursuites judiciaires. Les prestations sont souscrites par Visa Europe Limited, mandatée par la banque émettrice de la carte, auprès de Fragonard Assurances, et mises en œuvre par AWP France SAS ; les deux sociétés opèrent sous la dénomination commerciale « Mondial Assistance » et sont conjointement dénommées « Assistance Visa ».
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : Conditions générales · Édition : 01/01/2021
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Voyage et assistance](<../../branches/Voyage et assistance.md>) · Type : Conditions générales · Édition : 01/01/2021
 
 ## Définitions
 

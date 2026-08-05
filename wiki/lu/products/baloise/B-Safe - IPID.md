@@ -43,7 +43,7 @@ generated: true
 
 IPID de l'assurance accident B-Safe de Baloise Assurances Luxembourg S.A. Le produit couvre les conséquences des dommages corporels ou du décès de l'assuré résultant d'un accident, d'un accident de la circulation ou d'un événement assimilé à un accident, au profit des personnes désignées aux conditions particulières. Les garanties de base sont le décès et l'invalidité permanente ; selon la formule choisie, l'âge et la profession de l'assuré s'y ajoutent la rente viagère d'invalidité, l'incapacité de travail permanente, la chirurgie esthétique, les indemnités journalières d'hospitalisation, divers frais (aménagements, rooming in, rattrapage scolaire, garde d'enfants, matériel médical, sauvetage et assistance) et l'aide ménagère et de soins à domicile. Les couvertures acquises sont assurées dans le monde entier et les plafonds sont ceux mentionnés aux conditions particulières.
 
-- Assureur : [Baloise Luxembourg](../../insurers/Baloise%20Luxembourg.md) · Branche : [Assurance accidents](../../branches/Assurance%20accidents.md) · Type : IPID / Fiche d'information
+- Assureur : [Baloise Luxembourg](<../../insurers/Baloise Luxembourg.md>) · Branche : [Assurance accidents](<../../branches/Assurance accidents.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

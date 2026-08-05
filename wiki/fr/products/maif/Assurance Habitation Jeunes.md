@@ -44,7 +44,7 @@ generated: true
 
 Conditions générales du contrat MAIF « Assurance Habitation Jeunes », une multirisque habitation destinée aux personnes de moins de 30 ans, locataires ou colocataires et sans enfant, occupant un logement de trois pièces maximum (quatre en colocation intégrale). Elle garantit les biens mobiliers au domicile contre l’incendie-explosion, le dégât des eaux, les événements climatiques, les catastrophes naturelles et technologiques, les attentats et le vol ou tentative de vol avec effraction, ruse ou agression, dans la limite du plafond de la tranche mobilière souscrite (7 000 €, 10 000 € ou 14 000 € selon le nombre de pièces), et couvre la responsabilité civile et la défense de l’assuré, le recours contre un tiers responsable, des services d’urgence, une assistance dépannage serrurerie et une assistance aux personnes en déplacement mise en œuvre par IMA Assurances pour MAIF Assistance. Une option facultative « biens nomades » étend la couverture des biens portables en tous lieux, avec des plafonds de 2 000 € et un événement par année civile pour le vol hors domicile et pour le bris. Un seul contrat couvre l’ensemble d’une colocation de quatre personnes maximum, avec des garanties identiques pour tous les colocataires.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales · Édition : 01/2025
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : Conditions générales · Édition : 01/2025
 
 ## Définitions
 

@@ -40,7 +40,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) du contrat « Vam Associations et Collectivités » de MAIF, présenté sous l’intitulé « Assurance Auto professionnelle ». Le produit garantit les conducteurs des véhicules terrestres à moteur de la structure contre les conséquences des dommages matériels et/ou corporels causés par ces véhicules à des tiers (responsabilité civile), assurance présentée comme obligatoire. Il comporte également des garanties de dommages corporels des conducteurs et passagers, des garanties de dommages aux véhicules assurés, un accompagnement juridique et des services d’assistance aux véhicules et aux personnes, ainsi que cinq garanties optionnelles.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 10/2025
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information · Édition : 10/2025
 
 ## Garanties
 
@@ -289,7 +289,7 @@ informations et conseils juridiques, recours-protection juridique.
 
 ## Documents liés
 
-- [Assurance véhicules Vam Associations et Collectivités](Assurance%20v%C3%A9hicules%20Vam%20Associations%20et%20Collectivit%C3%A9s.md) - Conditions générales
+- [Assurance véhicules Vam Associations et Collectivités](<Assurance véhicules Vam Associations et Collectivités.md>) - Conditions générales
 
 ## Source & fidélité
 

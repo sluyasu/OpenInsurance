@@ -40,7 +40,7 @@ generated: true
 
 Publication annuelle de MAIF VIE présentant, sous forme d’un tableau unique, l’historique 2021-2025 des rendements du support en euros de neuf contrats d’assurance vie de MAIF VIE. Pour chaque contrat, le tableau indique le taux de rendement garanti moyen net, le taux net moyen de participation aux bénéfices, le taux moyen des frais prélevés par l’entreprise, le rendement net moyen servi à l’assuré, le taux des taxes et des prélèvements sociaux, ainsi que les dates de début et de fin de commercialisation et l’éligibilité aux affaires nouvelles en 2025. Le document ne décrit aucune garantie et ne comporte aucune exclusion.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Document · Édition : 01/2026
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Assurance vie et épargne](<../../branches/Assurance vie et épargne.md>) · Type : Document · Édition : 01/2026
 
 ## Définitions
 

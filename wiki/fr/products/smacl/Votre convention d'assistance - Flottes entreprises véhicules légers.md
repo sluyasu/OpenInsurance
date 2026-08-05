@@ -43,7 +43,7 @@ generated: true
 
 Convention d'assistance attachée au contrat Flotte Entreprises de SMACL Assurances, applicable aux établissements privés possédant ou louant des véhicules de moins de 3,5 tonnes. Elle décrit les garanties d'assistance mises en œuvre par SMACL Assistance 7 j / 7 et 24 h / 24 : garanties socle pour le véhicule immobilisé (dépannage, remorquage, rapatriement, attente sur place, récupération du véhicule, clés), garanties socle pour les bénéficiaires blessés, malades ou décédés (transport sanitaire, frais médicaux à l'étranger, présence d'un proche, rapatriement de corps, retour anticipé, avance de fonds) et deux garanties optionnelles de véhicule de remplacement. Les garanties s'appliquent en France et dans une liste de pays étrangers, pour des déplacements professionnels ou personnels de moins de quatre-vingt-dix jours.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : 07/2025
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions générales · Édition : 07/2025
 
 ## Définitions
 

@@ -46,7 +46,7 @@ generated: true
 
 General Conditions of Insurance for the Globality YouGenio® World international private medical insurance plan of Foyer Global Health S.A. (Luxembourg), designed for expatriates staying abroad for at least three months. The plan has four plan levels - Essential, Classic, Plus and Top - covering inpatient, outpatient, dental, medical assistance and additional assistance benefits, with annual overall limits from € 2,000,000/ $ 2,600,000/ £ 1,680,000 (Essential) to € 7,500,000/ $ 9,750,000/ £ 6,300,000 (Top). Cover applies in geographical area I (worldwide including USA) or II (worldwide excluding USA); maximum sums are doubled under geographical area I. Pre-existing medical conditions are not covered unless included at application or through the moratorium clause, and waiting periods apply to maternity, psychiatric treatment, psychotherapy, infertility treatment and major dental services.
 
-- Assureur : [Foyer Global Health](../../insurers/Foyer%20Global%20Health.md) · Branche : Complémentaire santé · Type : Conditions générales
+- Assureur : [Foyer Global Health](<../../insurers/Foyer Global Health.md>) · Branche : Complémentaire santé · Type : Conditions générales
 
 ## Définitions
 
@@ -809,8 +809,8 @@ All claims made on this contract must be made within three years, beginning from
 
 ## Documents liés
 
-- [Globality YouGenio® for Germany (for Germany (Tarifstufen Classic, Plus und Top)) - DE](Globality%20YouGenio%C2%AE%20for%20Germany%20%28for%20Germany%20%28Tarifstufen%20Classic%2C%20Plus%20und%20Top%29%29%20-%20DE.md) - Conditions générales
-- [Globality YouGenio® for Germany - EN](Globality%20YouGenio%C2%AE%20for%20Germany%20-%20EN.md) - Conditions générales
+- [Globality YouGenio® for Germany (for Germany (Tarifstufen Classic, Plus und Top)) - DE](<Globality YouGenio® for Germany (for Germany (Tarifstufen Classic, Plus und Top)) - DE.md>) - Conditions générales
+- [Globality YouGenio® for Germany - EN](<Globality YouGenio® for Germany - EN.md>) - Conditions générales
 
 ## Source & fidélité
 

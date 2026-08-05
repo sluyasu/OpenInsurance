@@ -44,7 +44,7 @@ generated: true
 
 Informationsdokument über das Versicherungsprodukt (IPID) auf zwei Seiten für die ORANGE-Versicherung « Alle Risiken - ORANGE », vertrieben über ein ORANGE-Abonnement. Versichert sind mobile (Telefon-) Geräte in der Einzelversicherung und zusätzlich digitale Geräte (Tablets, tragbare Rechner) in der Familienversicherung, jeweils als Neugerät im Rahmen eines ORANGE-Abonnements gekauft. Gedeckte Ereignisse sind versehentlicher Bruch, Diebstahl durch gewaltsames Eindringen/Überfall/Taschendiebstahl, versehentliche Oxidation, Panne und die betrügerische Nutzung des tragbaren Telefons im Anschluss an einen Diebstahl. Die Deckungssumme beträgt 1.400 EUR pro Schadensfall (ein Fall pro Jahr) in der Einzelversicherung und 2.000 EUR pro Schadensfall (bis zu drei Fälle pro Jahr) in der Familienversicherung; die Versicherung gilt weltweit.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Autres](../../branches/Autres.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Autres](<../../branches/Autres.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 

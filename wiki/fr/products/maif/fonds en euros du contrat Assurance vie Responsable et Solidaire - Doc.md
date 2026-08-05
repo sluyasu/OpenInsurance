@@ -40,7 +40,7 @@ generated: true
 
 Annexe précontractuelle SFDR (modèle d'informations précontractuelles pour les produits financiers visés à l'article 8 du règlement SFDR) portant sur le fonds en euros du contrat Assurance vie Responsable et Solidaire de MAIF VIE. Le produit ne poursuit pas d'objectif d'investissement durable mais promeut des caractéristiques environnementales et sociales, avec un objectif de 23 % d'investissements durables. Le document décrit les indicateurs de durabilité (part ISR, part sociale et taux d'impact social au sens du label Finansol, part verte au sens du label Greenfin), la prise en compte des principales incidences négatives, la politique d'exclusion MAIF, la politique de bonne gouvernance et l'allocation d'actifs cible. Il ne décrit aucune garantie d'assurance.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Document · Édition : 06/26
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Assurance vie et épargne](<../../branches/Assurance vie et épargne.md>) · Type : Document · Édition : 06/26
 
 ## Définitions
 
@@ -135,12 +135,12 @@ Annexe précontractuelle SFDR (modèle d'informations précontractuelles pour le
 
 - Édition courante de ce produit.
 - Extension / option du produit : **Assurance vie Responsable et Solidaire**
-- [Assurance vie Responsable et Solidaire - Tarifs](Assurance%20vie%20Responsable%20et%20Solidaire%20-%20Tarifs.md) - Conditions tarifaires, éd. 06/2026
-- [Assurance vie Responsable et Solidaire - Annexes à la Notice d'information](Assurance%20vie%20Responsable%20et%20Solidaire%20-%20Annexes%20%C3%A0%20la%20Notice%20d%27information.md) - Conditions générales, éd. 06/26
-- [Assurance vie Responsable et Solidaire - IPID](Assurance%20vie%20Responsable%20et%20Solidaire%20-%20IPID.md) - IPID / Fiche d'information, éd. 06/26
-- [Assurance vie Responsable et Solidaire](Assurance%20vie%20Responsable%20et%20Solidaire.md) - Conditions générales, éd. 04/25
-- [ASSURANCE VIE Responsable et Solidaire - Les documents d'informations clés - Doc](ASSURANCE%20VIE%20Responsable%20et%20Solidaire%20-%20Les%20documents%20d%27informations%20cl%C3%A9s%20-%20Doc.md) - Document, éd. 06/26
-- [Fonds en euros - Doc](Fonds%20en%20euros%20-%20Doc.md) - Document, éd. 06/26
+- [Assurance vie Responsable et Solidaire - Tarifs](<Assurance vie Responsable et Solidaire - Tarifs.md>) - Conditions tarifaires, éd. 06/2026
+- [Assurance vie Responsable et Solidaire - Annexes à la Notice d'information](<Assurance vie Responsable et Solidaire - Annexes à la Notice d'information.md>) - Conditions générales, éd. 06/26
+- [Assurance vie Responsable et Solidaire - IPID](<Assurance vie Responsable et Solidaire - IPID.md>) - IPID / Fiche d'information, éd. 06/26
+- [Assurance vie Responsable et Solidaire](<Assurance vie Responsable et Solidaire.md>) - Conditions générales, éd. 04/25
+- [ASSURANCE VIE Responsable et Solidaire - Les documents d'informations clés - Doc](<ASSURANCE VIE Responsable et Solidaire - Les documents d'informations clés - Doc.md>) - Document, éd. 06/26
+- [Fonds en euros - Doc](<Fonds en euros - Doc.md>) - Document, éd. 06/26
 
 ## Source & fidélité
 

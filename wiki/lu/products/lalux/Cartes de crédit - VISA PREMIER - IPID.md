@@ -44,7 +44,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) relatif à l’« Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance » de LALUX Assurances, pour la carte VISA PREMIER. Les assurés profitent lors de leurs voyages d’une série de couvertures d’assurance, réparties en un volet HORS ASSISTANCE (six garanties) et un volet ASSISTANCE (deux garanties). Les couvertures ne sont pas acquises si un minimum de 30% des coûts du voyage assuré n’est pas réglé par la carte de crédit VISA PREMIER, et les déplacements supérieurs à 91 jours consécutifs ne sont pas couverts. Les deux listes d’exclusions portent la mention imprimée « Liste non exhaustive ».
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Autres](../../branches/Autres.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Autres](<../../branches/Autres.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 

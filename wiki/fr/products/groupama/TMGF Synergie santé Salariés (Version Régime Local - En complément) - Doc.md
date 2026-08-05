@@ -42,7 +42,7 @@ generated: true
 
 Tableau de garanties du contrat santé collectif Groupama « Synergie santé Salariés », version Régime Local. Il présente, poste par poste (Hospitalisation, Maternité, Soins courants, Pack Pharmacie, Aides auditives, Optique adulte et enfant, réseaux Sévéane optique et dentaire, Dentaire, Pack Prévention/médecines douces, Services inclus), le niveau de prise en charge dans dix formules (FORMULE 1, 1+, 2, 2+, 3, 3+, 4, 4+, 5, 5+), en regard du remboursement du régime obligatoire. Les montants sont exprimés en % BR, % FR, TM, en euros ou en mentions « Inclus ». Le document porte la mention « Document non contractuel » et renvoie aux conditions générales pour les définitions, conditions et limites.
 
-- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Document
+- Assureur : [Groupama](<../../insurers/Groupama.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Document
 
 ## Définitions
 
@@ -507,9 +507,9 @@ renouvellement anticipé est prévu, notamment en cas d'évolution de la vue, fi
 
 ## Documents liés
 
-- [SYNERGIE SANTÉ SALARIÉS - Doc](SYNERGIE%20SANT%C3%89%20SALARI%C3%89S%20-%20Doc.md) - Document, éd. 052022
-- [SYNERGIE SANTÉ SALARIÉS (Régime local d'assurance maladie d'Alsace Moselle) - Doc](SYNERGIE%20SANT%C3%89%20SALARI%C3%89S%20%28R%C3%A9gime%20local%20d%27assurance%20maladie%20d%27Alsace%20Moselle%29%20-%20Doc.md) - Document, éd. 052022
-- [TMGF Synergie santé Salariés (Version Régime général - En complément) - Doc](TMGF%20Synergie%20sant%C3%A9%20Salari%C3%A9s%20%28Version%20R%C3%A9gime%20g%C3%A9n%C3%A9ral%20-%20En%20compl%C3%A9ment%29%20-%20Doc.md) - Document
+- [SYNERGIE SANTÉ SALARIÉS - Doc](<SYNERGIE SANTÉ SALARIÉS - Doc.md>) - Document, éd. 052022
+- [SYNERGIE SANTÉ SALARIÉS (Régime local d'assurance maladie d'Alsace Moselle) - Doc](<SYNERGIE SANTÉ SALARIÉS (Régime local d'assurance maladie d'Alsace Moselle) - Doc.md>) - Document, éd. 052022
+- [TMGF Synergie santé Salariés (Version Régime général - En complément) - Doc](<TMGF Synergie santé Salariés (Version Régime général - En complément) - Doc.md>) - Document
 
 ## Source & fidélité
 

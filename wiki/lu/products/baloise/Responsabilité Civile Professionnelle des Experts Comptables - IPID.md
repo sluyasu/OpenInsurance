@@ -44,7 +44,7 @@ generated: true
 
 Fiche IPID de l’assurance Responsabilité Civile Professionnelle des Experts Comptables de Baloise Assurances Luxembourg S.A. Le document la décrit comme une assurance couvrant la responsabilité civile de l’assuré dans l’exercice de son activité professionnelle d’expert-comptable, y compris les activités définies à l’article 1er de la loi du 10 juin 1999 sur l’organisation de la profession, celles de commissaire à la liquidation, de liquidateur et de curateur judiciaire. Trois risques sont assurés avec des plafonds chiffrés : responsabilité civile contractuelle à 1 500 000 € (par sinistre et par année), responsabilité civile extracontractuelle à 2 500 000 € dont 250 000 € pour les dommages matériels et immatériels consécutifs (par sinistre), et protection juridique à 12 500 € (par sinistre). L’assurance comprend tant la garantie des demandes fondées que la défense contre les demandes injustifiées.
 
-- Assureur : [Baloise Luxembourg](../../insurers/Baloise%20Luxembourg.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : IPID / Fiche d'information
+- Assureur : [Baloise Luxembourg](<../../insurers/Baloise Luxembourg.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

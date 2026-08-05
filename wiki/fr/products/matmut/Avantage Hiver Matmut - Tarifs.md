@@ -42,7 +42,7 @@ generated: true
 
 Document d'une page fixant les conditions d'octroi de l'« Avantage Hiver Matmut », un avantage tarifaire attaché au contrat d'assurance auto « Auto 4D ». Le souscripteur qui s'engage à remiser et à ne pas utiliser son véhicule pendant la période d'hivernage (du 1er décembre au 1er mars de l'année suivante à 0 heure) bénéficie d'une réduction de 5 % sur le montant de sa cotisation, calculée sur la cotisation hors taxes des garanties Responsabilité civile et, lorsqu'elles sont souscrites, Dommages au véhicule. Pendant l'hivernage ces mêmes garanties demeurent acquises. Le document précise les conditions d'éligibilité, la prise d'effet, la suppression de l'avantage et les sanctions en cas de non-respect.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions tarifaires · Édition : 01/26
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions tarifaires · Édition : 01/26
 
 ## Définitions
 

@@ -40,7 +40,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de l’assurance Tous risques chantier de Baloise Assurances Luxembourg S.A. Il s’agit d’une assurance couvrant les dommages matériels aux biens à ériger ainsi que les dommages causés aux tiers imputables aux travaux. Le produit est structuré en deux sections : une SECTION I d’assurance de choses, qui couvre les biens à ériger à titre définitif et, selon la formule choisie, les autres biens assurables du chantier ; et une SECTION II d’assurance de responsabilité, présentée « En option : », qui couvre la responsabilité des assurés envers les tiers sur les fondements des articles 1382 à 1386 et 544 du code civil et de la responsabilité croisée. Les plafonds renvoient aux sommes assurées mentionnées aux conditions particulières.
 
-- Assureur : [Baloise Luxembourg](../../insurers/Baloise%20Luxembourg.md) · Branche : [Assurances constructions](../../branches/Assurances%20constructions.md) · Type : IPID / Fiche d'information
+- Assureur : [Baloise Luxembourg](<../../insurers/Baloise Luxembourg.md>) · Branche : [Assurances constructions](<../../branches/Assurances constructions.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

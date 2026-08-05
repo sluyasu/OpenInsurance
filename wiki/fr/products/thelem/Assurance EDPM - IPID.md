@@ -41,7 +41,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de l’Assurance EDPM de Thélem assurances. L’assurance EDPM a pour objectif de garantir l’assuré contre les conséquences des dommages matériels ou corporels causés par son véhicule à un tiers (responsabilité civile) ; c’est une assurance obligatoire. Le contrat prévoit également les dommages corporels du conducteur et, selon les formules souscrites, il couvre aussi les dommages matériels du véhicule assuré. Sont concernés les engins de déplacement personnels motorisés (trottinettes électriques, monoroues, gyropodes, hoverboards, etc…) dont la vitesse maximum est de 25km/h.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [EDPM et mobilités douces](../../branches/EDPM%20et%20mobilit%C3%A9s%20douces.md) · Type : IPID / Fiche d'information
+- Assureur : [Thélem assurances](<../../insurers/Thélem assurances.md>) · Branche : [EDPM et mobilités douces](<../../branches/EDPM et mobilités douces.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 

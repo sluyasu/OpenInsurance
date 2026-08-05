@@ -48,7 +48,7 @@ generated: true
 
 Encart de présentation des garanties et des cotisations de la Complémentaire santé de la Branche de l'Aide, de l'Accompagnement, des Soins et des Services à Domicile, régime général, distribuée par la Macif et assurée par Apivia Macif Mutuelle. Le document présente un tableau de garanties à trois niveaux — « Base prime » (base conventionnelle) et deux formules améliorées au choix du salarié, « Confort » et « Confort plus » — couvrant l'hospitalisation, les soins courants, le dentaire, les aides auditives, la prévention, la maternité et l'optique, ainsi qu'une grille optique par formule. Les garanties sont en vigueur au 1er janvier 2023 et les pourcentages sont, sauf indication contraire, exprimés par rapport aux bases de remboursement de la Sécurité sociale. Il indique aussi les cotisations mensuelles TTC 2023, exprimées en pourcentage du PMSS, pour le salarié, le conjoint et l'enfant.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit · Édition : 01/2023
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Fiche produit · Édition : 01/2023
 
 ## Définitions
 

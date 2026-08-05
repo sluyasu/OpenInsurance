@@ -40,7 +40,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (DIPA/IPID) de deux pages pour le Contrat Multigarantie Informatique, présenté comme « Assurance du matériel informatique ». Ce contrat d’assurance protège le matériel informatique de l’assuré contre les dommages accidentels (bris, destruction ou perte). Le document liste quatre garanties toutes précédées d'une coche, deux catégories de biens non assurés, onze exclusions principales, une restriction de franchise indexée, les obligations de l'assuré, le paiement, la durée et la résiliation. Les garanties sont soumises à des plafonds choisis par l’assuré et indiqués dans les conditions particulières. Les plafonds sont indexés sur l’indice des Risques Industriels.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information · Édition : 2018-10
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : IPID / Fiche d'information · Édition : 2018-10
 
 > ⚠️ **Édition ancienne** : 2018-10, soit 8 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 

@@ -46,7 +46,7 @@ generated: true
 
 Document d’informations clés (DIC / PRIIPs) de trois pages portant sur Matmut Prévoyance Obsèques, présenté comme « un produit de Matmut Vie » et soumis au contrôle de l’ACPR. Il s’agit d’un contrat d’assurance vie de groupe, libellé en euros, à adhésion facultative, sans date d’échéance, dont l’objet est le versement, au décès de l’adhérent, d’un capital destiné au financement des obsèques ou, selon la formule choisie, la prise en charge de prestations funéraires auprès du prestataire funéraire OGF services funéraires. Le document classe le produit en risque 2 sur 7, chiffre des scénarios de performance pour une cotisation de 1 000 €/an souscrite à 60 ans, et détaille les coûts (coûts d’entrée 3,41 € ou 15 %, autres coûts récurrents 3 € ou 0,5 % basés sur le capital, coûts de sortie et commissions à 0). Il indique une période de détention recommandée viagère, la possibilité d’un rachat total à tout moment mais l’impossibilité du rachat partiel, et un droit de renonciation de 30 jours calendaires révolus.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : IPID / Fiche d'information · Édition : 2025-05-01
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Obsèques](<../../branches/Obsèques.md>) · Type : IPID / Fiche d'information · Édition : 2025-05-01
 
 ## Garanties
 
@@ -421,8 +421,8 @@ ou 15 % » alors que l’investissement de référence est de 1 000 € — les 
 
 ## Documents liés
 
-- [Matmut Prévoyance Obsèques](Matmut%20Pr%C3%A9voyance%20Obs%C3%A8ques%20%282%29.md) - Conditions générales, éd. 04/23
-- [Matmut Prévoyance Obsèques](Matmut%20Pr%C3%A9voyance%20Obs%C3%A8ques.md) - Conditions générales
+- [Matmut Prévoyance Obsèques](<Matmut Prévoyance Obsèques (2).md>) - Conditions générales, éd. 04/23
+- [Matmut Prévoyance Obsèques](<Matmut Prévoyance Obsèques.md>) - Conditions générales
 
 ## Source & fidélité
 

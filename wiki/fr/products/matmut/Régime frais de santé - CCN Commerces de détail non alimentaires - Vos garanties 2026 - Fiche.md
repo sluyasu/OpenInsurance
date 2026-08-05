@@ -44,7 +44,7 @@ generated: true
 
 Tableau des garanties 2026 du régime frais de santé de la CCN des Commerces de détail non alimentaires, présentant quatre niveaux (BASE 1 à BASE 4). Il détaille les remboursements en soins courants, hospitalisation, optique, dentaire, aides auditives, prévention (« Kit confort » et médecines douces), maternité/contraception et sport sur ordonnance, exprimés en pourcentage de la Base de Remboursement, en pourcentage du PMSS, en remboursement intégral, en frais réels ou en forfaits annuels, en distinguant systématiquement les praticiens signataires OPTAM/OPTAM ACO, non signataires et non conventionnés. Il liste des services inclus (Itelis, Medaviz, Livmed's, deuxième avis médical, bilan de santé digital, Méta-Coaching, Salvum, assistance et protection juridique santé). Le document précise qu'il est non contractuel.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Fiche produit
 
 ## Définitions
 

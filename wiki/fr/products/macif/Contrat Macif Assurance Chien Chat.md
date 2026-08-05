@@ -44,7 +44,7 @@ generated: true
 
 Conditions générales du contrat Macif Assurance Chien Chat (version juin 2022), assurance santé animale couvrant le chat ou le chien désigné aux conditions particulières. Le contrat est proposé en deux formules : la Formule Économique, qui ne comprend que la garantie Frais médicaux (remboursement à hauteur de 80 % des frais vétérinaires, au-delà d’un seuil par facture), et la Formule Protectrice, qui y ajoute le Forfait prévention, les Frais de médecine douce, les Frais liés au décès, les Frais d’annonce, les Frais de garde et de transport et l’Assistance. Les garanties s’appliquent en France métropolitaine, sauf les prestations d’assistance à l’étranger, accordées pour des déplacements de moins de 90 jours dans une liste de pays. Le document énumère les exclusions propres à chaque garantie et neuf exclusions communes, puis la procédure de sinistre, la prescription biennale, la vie du contrat et un lexique.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Animaux](../../branches/Animaux.md) · Type : Conditions générales · Édition : Version 06/2022 (page de garde : « Version juin 2022 »)
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Animaux](<../../branches/Animaux.md>) · Type : Conditions générales · Édition : Version 06/2022 (page de garde : « Version juin 2022 »)
 
 ## Définitions
 
@@ -301,7 +301,7 @@ La prescription est le délai au-delà duquel une action n’est plus recevable.
 
 ## Documents liés
 
-- [Contrat Macif Assurance Chien Chat - IPID](Contrat%20Macif%20Assurance%20Chien%20Chat%20-%20IPID.md) - IPID / Fiche d'information, éd. 06/22
+- [Contrat Macif Assurance Chien Chat - IPID](<Contrat Macif Assurance Chien Chat - IPID.md>) - IPID / Fiche d'information, éd. 06/22
 
 ## Source & fidélité
 

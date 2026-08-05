@@ -44,7 +44,7 @@ generated: true
 
 Informationsblatt zu Versicherungsprodukten (IPID) zur Unfallversicherung easyPROTECT-Unfall der Marke LALUX Assurances. Es handelt sich um eine Personenversicherung, mit der sich der Versicherte und seine Familie gegen Unfälle in der Freizeit und bei den täglichen Tätigkeiten des Privat- und Berufslebens versichern können; Unfälle bei der Berufsausübung können zusätzlich versichert werden. Das Produkt wird in zwei Varianten angeboten, KOMFORT (PAUSCHALE) mit den Leistungen Tod, Invalidität und Erstattung der Behandlungskosten, und PERFORMANCE (AUF ENTSCHÄDIGUNGSBASIS) mit Tod und körperlichen Beeinträchtigungen nach den im allgemeinen luxemburgischen Recht üblichen Regeln; häusliche Hilfsdienste sind in beiden Varianten optional. Das Dokument bezeichnet seine Aufzählungen als « Nicht vollständige Liste » und verweist auf die Allgemeinen Versicherungsbedingungen und/oder die Besonderen Bedingungen.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Assurance accidents](../../branches/Assurance%20accidents.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Assurance accidents](<../../branches/Assurance accidents.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 

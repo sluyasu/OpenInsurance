@@ -42,7 +42,7 @@ generated: true
 
 Tableau de garanties de deux pages présentant l'assurance Propriétaire Non Occupant de MAAF, déclinée en trois formules selon le type de bien : « Immeuble donné en location vide ou meublée », « Habitation inoccupée » et « Bâtiments divers ». Il énumère vingt lignes de garanties, des dommages aux biens (incendie, dégâts des eaux, tempête, catastrophes naturelles et technologiques, terrorisme, cambriolage) aux garanties de responsabilité et de protection (responsabilité civile habitation, défense/recours bâtiment, protection juridique du propriétaire bailleur), ainsi que la perte des loyers ou des revenus, et une garantie « Assistance aux personnes » présentée en option. Aucun plafond, aucune franchise et aucune exclusion n'y figurent : le document renvoie aux conditions générales du contrat Immeuble.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Fiche produit · Édition : 06/2022
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : Fiche produit · Édition : 06/2022
 
 ## Garanties
 
@@ -148,8 +148,8 @@ Covéa Protection Juridique et/ou APGIS. », sans indiquer lequel porte la prote
 
 ## Documents liés
 
-- [Contrat Immeuble](Contrat%20Immeuble.md) - Conditions générales, éd. 01/2026
-- [IMMEUBLE - IPID](IMMEUBLE%20-%20IPID.md) - IPID / Fiche d'information
+- [Contrat Immeuble](<Contrat Immeuble.md>) - Conditions générales, éd. 01/2026
+- [IMMEUBLE - IPID](<IMMEUBLE - IPID.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

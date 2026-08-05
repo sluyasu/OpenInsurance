@@ -40,7 +40,7 @@ generated: true
 
 Conditions générales d’assurance (édition 05/2018) de l’assurance de protection juridique d’entreprise et de circulation émises par Orion Assurance de Protection Juridique SA. Le contrat existe en deux couvertures (protection juridique d’entreprise, protection juridique de circulation) et en deux variantes de produit (Standard et Premium), la police indiquant la variante sélectionnée, les personnes assurées, les sommes d’assurance et les conditions particulières. La protection juridique d’entreprise (art. B1) couvre 21 domaines juridiques, la protection juridique de circulation Standard (art. C1) en couvre 8, et la protection juridique de circulation Premium (art. D1) couvre les litiges dans tous les domaines du droit pour les qualités assurées de l’art. A2 ch. 2 à 8. Les sommes d’assurance sont de CHF 600 000 par cas juridique pour le produit Standard et de CHF 1 000 000 pour le produit Premium, avec un maximum annuel de CHF 1 200 000, respectivement CHF 2 000 000.
 
-- Assureur : [Vaudoise Assurances](../../insurers/Vaudoise%20Assurances.md) · Branche : Protection juridique · Type : Conditions générales · Édition : Edition 05/2018
+- Assureur : [Vaudoise Assurances](<../../insurers/Vaudoise Assurances.md>) · Branche : Protection juridique · Type : Conditions générales · Édition : Edition 05/2018
 
 > ⚠️ **Édition ancienne** : Edition 05/2018, soit 8 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 

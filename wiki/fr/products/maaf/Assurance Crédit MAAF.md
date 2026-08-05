@@ -48,7 +48,7 @@ generated: true
 
 Notice d'information du contrat d'assurance de groupe n° 02112 « Assurance Crédit MAAF », établie en application de l'article L.141-4 du Code des assurances et valable pour toute adhésion effectuée à partir du 1er juillet 2025. Il s'agit d'un contrat collectif à adhésion facultative souscrit par l'Association Nationale des Souscripteurs Vie Covéa (ANS Vie-Covéa) auprès de MAAF Vie pour les risques de décès et de perte totale et irréversible d'autonomie, et auprès de MAAF Assurances SA pour les risques d'arrêt de travail et de perte d'emploi ; la gestion de l'adhésion est confiée par mandat à Kereis France. Le contrat prend en charge tout ou partie des échéances de remboursement ou du capital restant dû d'un prêt, selon la garantie de base (décès, perte totale et irréversible d'autonomie) et la garantie complémentaire (incapacité temporaire totale de travail, invalidité permanente totale, en option invalidité permanente partielle, perte d'emploi), la Garantie Aide à la Famille étant incluse dans les garanties ITT et IPT. Le bénéficiaire des prestations est l'organisme prêteur, bénéficiaire acceptant.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Assurance emprunteur](../../branches/Assurance%20emprunteur.md) · Type : Conditions générales · Édition : 07/25
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Assurance emprunteur](<../../branches/Assurance emprunteur.md>) · Type : Conditions générales · Édition : 07/25
 
 ## Définitions
 

@@ -45,7 +45,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (DIPA) du contrat GARANTIE OBSÈQUES, assuré par Macif Santé Prévoyance, mutuelle régie par le Livre II du Code de la mutualité et adhérente à la Mutualité Française (SIREN 779 558 501). Il s’agit d’un contrat d’assurance sur la vie à adhésion facultative, destiné à organiser et financer les obsèques ou à en financer tout ou partie par le versement d’un capital, souscrit sans formalité médicale. Selon la formule choisie, la garantie décès prend la forme de prestations obsèques organisées par une entreprise de pompes funèbres conventionnée (équivalentes à un capital de 3 800 € ou de 4 580 €) ou du versement d’un capital de 2 000 € ou 3 000 € au(x) bénéficiaire(s) désigné(s) ; des capitaux complémentaires sont souscriptibles en option. Deux garanties d’assistance aux proches sont systématiquement prévues.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : IPID / Fiche d'information · Édition : 01/26
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Obsèques](<../../branches/Obsèques.md>) · Type : IPID / Fiche d'information · Édition : 01/26
 
 ## Définitions
 
@@ -192,10 +192,10 @@ Assistance des proches après les obsèques (assistance administrative, soutien 
 ## Documents liés
 
 - Édition courante de ce produit.
-- [Garantie Obsèques - Doc](Garantie%20Obs%C3%A8ques%20-%20Doc.md) - Document
-- [Garantie Obsèques - IPID](Garantie%20Obs%C3%A8ques%20-%20IPID.md) - IPID / Fiche d'information, éd. 1er juillet 2026
-- [Garantie Obsèques - Fiche](Garantie%20Obs%C3%A8ques%20-%20Fiche.md) - Fiche produit, éd. Garanties en vigueur au 1er juillet 2026
-- [Garantie Obsèques](Garantie%20Obs%C3%A8ques.md) - Conditions générales, éd. 2026-07
+- [Garantie Obsèques - Doc](<Garantie Obsèques - Doc.md>) - Document
+- [Garantie Obsèques - IPID](<Garantie Obsèques - IPID.md>) - IPID / Fiche d'information, éd. 1er juillet 2026
+- [Garantie Obsèques - Fiche](<Garantie Obsèques - Fiche.md>) - Fiche produit, éd. Garanties en vigueur au 1er juillet 2026
+- [Garantie Obsèques](<Garantie Obsèques.md>) - Conditions générales, éd. 2026-07
 
 ## Source & fidélité
 

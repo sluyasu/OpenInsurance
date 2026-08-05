@@ -47,7 +47,7 @@ generated: true
 
 Conditions générales du contrat MAIF Assurance Vélo, qui répare les dommages corporels et matériels survenus lors d'accidents découlant de la propriété ou de l'utilisation du vélo assuré. Le vélo assuré, décrit aux conditions particulières, est soit un vélo à assistance électrique (moteur limité à 250W, assistance coupée à 25 km/h), soit un vélo sans aucune assistance au pédalage ; il est garanti pour les déplacements privés ou familiaux et les trajets domicile-travail. Le socle du contrat comprend la garantie dommages au vélo et à ses accessoires (vol, incendie, événements climatiques, catastrophes naturelles et technologiques, attentats, autres dommages accidentels), la garantie dommages corporels avec services d'aide à la personne, l'assistance au vélo mise en œuvre par IMA Assurances, la garantie recours et les informations juridiques sur Internet. La responsabilité civile-défense envers les tiers n'est acquise que si l'option correspondante a été souscrite. Plafonds et franchises sont fixés aux conditions particulières ; le document comprend un lexique, les barèmes de prise en charge des honoraires d'avocats et des frais, et reproduit en dernières pages l'IPID du produit.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Vélo](../../branches/V%C3%A9lo.md) · Type : Conditions générales · Édition : 07/2024
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Vélo](<../../branches/Vélo.md>) · Type : Conditions générales · Édition : 07/2024
 
 ## Définitions
 

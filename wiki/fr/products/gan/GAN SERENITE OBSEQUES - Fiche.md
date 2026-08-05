@@ -40,7 +40,7 @@ generated: true
 
 Document de lisibilité obsèques du contrat GAN SERENITE OBSEQUES, présenté comme un « CONTRAT D’ASSURANCE PRÉVOYANCE OBSÈQUES VIE ENTIÈRE » assuré par Groupama Gan Vie. Il ne contient que des tableaux comparatifs chiffrés : les cotisations (annuelles et cumulées en cas de décès à différents âges) et les valeurs de rachat, pour trois âges de souscription (50, 60 et 70 ans) et un capital obsèques garanti de 5 000 € pris à titre d’exemple. Le document précise lui-même que ces tableaux « n’ont pas de valeur contractuelle » et ne décrit ni les garanties, ni les exclusions, ni les modalités du contrat.
 
-- Assureur : [Gan Assurances](../../insurers/Gan%20Assurances.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : Fiche produit
+- Assureur : [Gan Assurances](<../../insurers/Gan Assurances.md>) · Branche : [Obsèques](<../../branches/Obsèques.md>) · Type : Fiche produit
 
 ## Garanties
 
@@ -145,7 +145,7 @@ Les cotisations ci-dessus ne prennent pas en compte les garanties optionnelles n
 
 ## Documents liés
 
-- [GAN SÉRÉNITÉ OBSÈQUES - Fiche](GAN%20S%C3%89R%C3%89NIT%C3%89%20OBS%C3%88QUES%20-%20Fiche.md) - Fiche produit, éd. 2023-03-01
+- [GAN SÉRÉNITÉ OBSÈQUES - Fiche](<GAN SÉRÉNITÉ OBSÈQUES - Fiche.md>) - Fiche produit, éd. 2023-03-01
 
 ## Source & fidélité
 

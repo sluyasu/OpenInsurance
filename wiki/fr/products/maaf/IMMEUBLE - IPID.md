@@ -43,7 +43,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) relatif au contrat IMMEUBLE, une assurance Habitation portée par MAAF Assurances SA, entreprise régie par le code des assurances (RCS Niort 542 073 580). Le contrat couvre les dommages que peut subir un bien immobilier donné en location ou inoccupé et son contenu, ainsi que la responsabilité civile pour les dommages que ce bien peut causer à un tiers. Les garanties de base regroupent sept garanties Habitation (incendie, dégâts des eaux, événements climatiques, émeutes, catastrophes naturelles, catastrophes technologiques, terrorisme), la perte des loyers plafonnée à 2 ans de loyers ou de valeur locative, les dommages causés par les secours, les frais annexes, la responsabilité civile habitation (plafond 20 000 000 €), la défense pénale et recours suite à accident (plafond 20 000 €), l'assistance aux personnes et les renseignements juridiques. Le document précise qu'il ne présente qu'un résumé des principales garanties et exclusions.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -172,8 +172,8 @@ Garantie de base. Le document se limite à l'intitulé, sans description, sans p
 
 ## Documents liés
 
-- [Assurance Propriétaire Non Occupant - Fiche](Assurance%20Propri%C3%A9taire%20Non%20Occupant%20-%20Fiche.md) - Fiche produit, éd. 06/2022
-- [Contrat Immeuble](Contrat%20Immeuble.md) - Conditions générales, éd. 01/2026
+- [Assurance Propriétaire Non Occupant - Fiche](<Assurance Propriétaire Non Occupant - Fiche.md>) - Fiche produit, éd. 06/2022
+- [Contrat Immeuble](<Contrat Immeuble.md>) - Conditions générales, éd. 01/2026
 
 ## Source & fidélité
 

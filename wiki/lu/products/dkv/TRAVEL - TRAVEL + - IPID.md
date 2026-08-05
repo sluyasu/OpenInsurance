@@ -41,7 +41,7 @@ generated: true
 
 Document d’information sur le produit d’assurance de DKV Luxembourg S.A. pour le produit TRAVEL / TRAVEL +. Il s’agit d’une assurance voyage à l’étranger couvrant les traitements ambulatoires, les traitements et prothèses dentaires, l’hospitalisation, le transport des malades et le rapatriement. Les prestations sont limitées aux montants maximaux précisés dans les conditions générales d’assurance. La couverture est valable lors d’un voyage temporaire à l’étranger, tous les pays hors Grand-Duché de Luxembourg et pays de résidence habituel étant considérés comme étrangers.
 
-- Assureur : [DKV Luxembourg](../../insurers/DKV%20Luxembourg.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : IPID / Fiche d'information
+- Assureur : [DKV Luxembourg](<../../insurers/DKV Luxembourg.md>) · Branche : [Voyage et assistance](<../../branches/Voyage et assistance.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -168,10 +168,10 @@ Tous les pays, en dehors du Grand-Duché de Luxembourg et du pays de résidence 
 
 ## Documents liés
 
-- [TRAVEL](TRAVEL.md) - Conditions générales, éd. 03|2025
-- [TRAVEL - DE](TRAVEL%20-%20DE.md) - Conditions générales, éd. 03|2025
-- [TRAVEL - EN](TRAVEL%20-%20EN.md) - Conditions générales, éd. 03|2025
-- [TRAVEL - TRAVEL + - IPID - DE](TRAVEL%20-%20TRAVEL%20%2B%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
+- [TRAVEL](<TRAVEL.md>) - Conditions générales, éd. 03|2025
+- [TRAVEL - DE](<TRAVEL - DE.md>) - Conditions générales, éd. 03|2025
+- [TRAVEL - EN](<TRAVEL - EN.md>) - Conditions générales, éd. 03|2025
+- [TRAVEL - TRAVEL + - IPID - DE](<TRAVEL - TRAVEL + - IPID - DE.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

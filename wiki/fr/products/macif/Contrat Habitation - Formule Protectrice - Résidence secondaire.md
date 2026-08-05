@@ -45,7 +45,7 @@ generated: true
 
 Conditions générales du contrat Habitation Macif, formule Protectrice, pour une résidence secondaire (édition Avril 2024). Le contrat couvre les biens immobiliers et mobiliers assurés contre l'incendie, l'action de l'électricité et la foudre, le vol et le vandalisme, le dégât des eaux, le bris des vitres et des glaces, le choc de véhicules et la chute d'appareils de navigation aérienne, les événements climatiques, les catastrophes naturelles et technologiques, les actes de terrorisme et les émeutes, complétés de garanties complémentaires (frais de déblaiement, remise en conformité, gardiennage, déplacement du mobilier, prime Dommages Ouvrage, pertes indirectes), de garanties annexes et de garanties optionnelles (biens extérieurs, piscines et courts de tennis, canalisations extérieures, valeur à neuf du mobilier, panne électroménager, Garanties Plus, matériel en tout lieu). Il comprend également l'assistance habitation Macif Assistance, les responsabilités civiles (du fait des biens assurés, de locataire, à l'égard des voisins et des tiers) et les garanties Défense - Recours. Les garanties sont accordées dans les conditions et limites des conditions générales et des conditions particulières.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales · Édition : Avril 2024
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : Conditions générales · Édition : Avril 2024
 
 ## Définitions
 
@@ -647,14 +647,14 @@ Toutes les actions dérivant d'un contrat d'assurance sont prescrites par deux a
 
 ## Documents liés
 
-- [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire - IPID](Contrat%20Habitation%20-%20Formule%20%C3%89conomique%20-%20R%C3%A9sidence%20principale%20-%20R%C3%A9sidence%20secondaire%20-%20IPID.md) - IPID / Fiche d'information, éd. 04/24
-- [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire](Contrat%20Habitation%20-%20Formule%20%C3%89conomique%20-%20R%C3%A9sidence%20principale%20-%20R%C3%A9sidence%20secondaire.md) - Conditions générales, éd. Avril 2024
-- [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire](Contrat%20Habitation%20-%20Formule%20%C3%89conomique%20-%20R%C3%A9sidence%20principale%20-%20R%C3%A9sidence%20secondaire%20%282%29.md) - Conditions générales, éd. 05/18
-- [Contrat Habitation - Formule Protectrice - Résidence principale](Contrat%20Habitation%20-%20Formule%20Protectrice%20-%20R%C3%A9sidence%20principale%20%283%29.md) - Conditions générales, éd. 05/18
-- [Contrat Habitation - Formule Protectrice - Résidence principale](Contrat%20Habitation%20-%20Formule%20Protectrice%20-%20R%C3%A9sidence%20principale%20%284%29.md) - Conditions générales, éd. Avril 2021
-- [Contrat Habitation - Formule Protectrice - Résidence principale](Contrat%20Habitation%20-%20Formule%20Protectrice%20-%20R%C3%A9sidence%20principale.md) - Conditions générales, éd. Avril 2024
-- [Contrat Habitation - Formule Protectrice - Résidence principale - IPID](Contrat%20Habitation%20-%20Formule%20Protectrice%20-%20R%C3%A9sidence%20principale%20-%20IPID.md) - IPID / Fiche d'information, éd. 04/24
-- [Contrat Habitation - Formule Protectrice - Résidence secondaire - IPID](Contrat%20Habitation%20-%20Formule%20Protectrice%20-%20R%C3%A9sidence%20secondaire%20-%20IPID.md) - IPID / Fiche d'information, éd. 04/24
+- [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire - IPID](<Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire - IPID.md>) - IPID / Fiche d'information, éd. 04/24
+- [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire](<Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire.md>) - Conditions générales, éd. Avril 2024
+- [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire](<Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire (2).md>) - Conditions générales, éd. 05/18
+- [Contrat Habitation - Formule Protectrice - Résidence principale](<Contrat Habitation - Formule Protectrice - Résidence principale (3).md>) - Conditions générales, éd. 05/18
+- [Contrat Habitation - Formule Protectrice - Résidence principale](<Contrat Habitation - Formule Protectrice - Résidence principale (4).md>) - Conditions générales, éd. Avril 2021
+- [Contrat Habitation - Formule Protectrice - Résidence principale](<Contrat Habitation - Formule Protectrice - Résidence principale.md>) - Conditions générales, éd. Avril 2024
+- [Contrat Habitation - Formule Protectrice - Résidence principale - IPID](<Contrat Habitation - Formule Protectrice - Résidence principale - IPID.md>) - IPID / Fiche d'information, éd. 04/24
+- [Contrat Habitation - Formule Protectrice - Résidence secondaire - IPID](<Contrat Habitation - Formule Protectrice - Résidence secondaire - IPID.md>) - IPID / Fiche d'information, éd. 04/24
 
 ## Source & fidélité
 

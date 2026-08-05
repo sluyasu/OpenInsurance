@@ -41,7 +41,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) présentant l’assurance protection juridique des associations de SMACL Assurances, contrat destiné aux associations sans salarié. Le contrat a pour objet d’accompagner l’assuré dans la résolution des litiges l’opposant à des tiers, à l’amiable ou en cas de procédure judiciaire, par la prise en charge des frais de défense et de recours (honoraires d’avocat, d’expertise et de procédures) dans quatre domaines : consommation, administration, protection pénale et protection des locaux, assortis d’une garantie d’Information Juridique. L’indemnité est plafonnée aux montants indiqués au contrat, sans pouvoir dépasser 25 000 € par litige, et l’intervention est soumise à un seuil d’enjeu financier de 200 € en solution amiable et de 500 € en action judiciaire.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Protection juridique](../../branches/Protection%20juridique.md) · Type : IPID / Fiche d'information · Édition : 11/2022
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Protection juridique](<../../branches/Protection juridique.md>) · Type : IPID / Fiche d'information · Édition : 11/2022
 
 ## Garanties
 

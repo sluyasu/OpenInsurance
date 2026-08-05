@@ -42,7 +42,7 @@ generated: true
 
 Fiche IPID de l’assurance voyage « Travel » de Baloise Assurances Luxembourg S.A. Le document la décrit comme une assurance vacances à la « carte » destinée à protéger l’assuré ainsi que sa famille des conséquences financières suite à un aléa dans le cadre d’un voyage. Cinq garanties sont listées selon la formule choisie : les assistances des personnes à l’étranger, les assistances des véhicules, l’annulation de voyage, tous risques bagages et l’assurance accident de voyage, des options de couverture étant possibles pour l’ensemble des garanties. Les couvertures acquises jouent dans le monde entier, sauf pour la garantie d’assistance aux véhicules, et les plafonds sont ceux mentionnés aux conditions particulières.
 
-- Assureur : [Baloise Luxembourg](../../insurers/Baloise%20Luxembourg.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : IPID / Fiche d'information
+- Assureur : [Baloise Luxembourg](<../../insurers/Baloise Luxembourg.md>) · Branche : [Voyage et assistance](<../../branches/Voyage et assistance.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

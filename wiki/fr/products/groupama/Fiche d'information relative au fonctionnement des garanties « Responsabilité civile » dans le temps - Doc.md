@@ -46,7 +46,7 @@ generated: true
 
 Fiche d'information réglementaire délivrée en application de l'article L.112-2 du Code des assurances, expliquant le fonctionnement dans le temps des garanties de responsabilité civile. Elle définit quatre notions (fait dommageable, réclamation, période de validité de la garantie, période subséquente), puis expose le déclenchement par le fait dommageable pour la responsabilité civile vie privée, et les deux modes possibles — fait dommageable ou réclamation — pour la responsabilité civile encourue du fait d'une activité professionnelle. Elle détaille ensuite quelle garantie joue en cas de changement d'assureur, selon les quatre combinaisons de modes de déclenchement, et en cas de réclamations multiples se rattachant à un même fait dommageable. Ce document ne décrit aucun produit : il ne comporte ni garantie, ni montant, ni tarif.
 
-- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : Document · Édition : 032026
+- Assureur : [Groupama](<../../insurers/Groupama.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : Document · Édition : 032026
 
 ## Définitions
 

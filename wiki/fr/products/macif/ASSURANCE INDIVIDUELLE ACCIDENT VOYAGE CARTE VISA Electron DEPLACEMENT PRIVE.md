@@ -44,7 +44,7 @@ generated: true
 
 Notice d’information de l’assurance individuelle accident voyage attachée à la Carte Visa Electron (contrat n° 8314/4007), établie conformément à l’article L112-2 du Code des assurances. Le contrat est souscrit par Visa Europe Limited pour le compte des titulaires de la carte, auprès d’AXA France IARD et AXA France Vie, et géré par le courtier CWI Distribution. La garantie couvre le Décès accidentel (46.000 €) et l’Infirmité Permanente Accidentelle (46.000 € en cas d’Infirmité Permanente Totale, 23.000 € en cas d’Infirmité Permanente Partielle) résultant d’un Accident Garanti survenu au cours d’un Voyage Garanti, dans le monde entier, à titre privé, dès lors que le titre de transport ou la location du véhicule a été réglé, totalement ou partiellement, au moyen de la carte. La notice vaut Conditions Générales.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : Conditions générales · Édition : 2017-01
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Voyage et assistance](<../../branches/Voyage et assistance.md>) · Type : Conditions générales · Édition : 2017-01
 
 > ⚠️ **Édition ancienne** : 2017-01, soit 9 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 
@@ -201,7 +201,7 @@ Les dispositions relatives à la prescription des actions dérivant du contrat d
 
 ## Documents liés
 
-- [ASSURANCE INDIVIDUELLE ACCIDENT VOYAGE CARTE VISA DEPLACEMENT PRIVE](ASSURANCE%20INDIVIDUELLE%20ACCIDENT%20VOYAGE%20CARTE%20VISA%20DEPLACEMENT%20PRIVE.md) - Conditions générales, éd. 2017-01
+- [ASSURANCE INDIVIDUELLE ACCIDENT VOYAGE CARTE VISA DEPLACEMENT PRIVE](<ASSURANCE INDIVIDUELLE ACCIDENT VOYAGE CARTE VISA DEPLACEMENT PRIVE.md>) - Conditions générales, éd. 2017-01
 
 ## Source & fidélité
 

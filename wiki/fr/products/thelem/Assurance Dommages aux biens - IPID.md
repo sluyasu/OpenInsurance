@@ -43,7 +43,7 @@ generated: true
 
 L’Assurance Dommages aux biens de Thélem assurances est un document d’information sur le produit d’assurance rattaché au produit « Assurance multirisque habitation ». Elle a pour objectifs de garantir les biens dans le cadre d’un contrat Tous risques objets ou Tous risques exposition. Sont assurés les objets mentionnés dans les conditions particulières, avec des plafonds de remboursement différents indiqués au contrat : détérioration accidentelle imprévisible ou fortuite (y compris les actes de vandalisme) et vol sous certaines conditions en Tous risques Objet ; réparation du préjudice pécuniaire subi par les objets présentés à une exposition publique ou privée en Tous risques exposition. La garantie s’exerce au lieu ou à l’adresse indiqué aux Conditions Particulières.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information
+- Assureur : [Thélem assurances](<../../insurers/Thélem assurances.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 

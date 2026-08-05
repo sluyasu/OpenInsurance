@@ -43,7 +43,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) relatif au contrat TEMPO HABITATION Responsabilité civile, une assurance Vie privée portée par MAAF Assurances SA, entreprise régie par le code des assurances (RCS Niort 542 073 580). Le contrat couvre la responsabilité civile des personnes désignées au contrat pour les dommages qu'elles peuvent causer à un tiers. Les garanties de base sont la Responsabilité civile vie privée (plafond 20 000 000 €), la Défense et recours suite à accident (plafond 20 000 €), la Responsabilité civile location occasionnelle (plafond 5 000 000 €), l'Assistance aux personnes et les Renseignements juridiques. Le document précise qu'il ne présente qu'un résumé des principales garanties et exclusions.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Responsabilité civile vie privée](../../branches/Responsabilit%C3%A9%20civile%20vie%20priv%C3%A9e.md) · Type : IPID / Fiche d'information
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Responsabilité civile vie privée](<../../branches/Responsabilité civile vie privée.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

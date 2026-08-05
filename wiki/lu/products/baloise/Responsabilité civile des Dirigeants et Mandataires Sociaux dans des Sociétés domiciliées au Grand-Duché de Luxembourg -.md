@@ -45,7 +45,7 @@ generated: true
 
 Fiche d’information sur le produit d’assurance (IPID) de l’assurance Responsabilité civile des Dirigeants et Mandataires Sociaux dans des Sociétés domiciliées au Grand-Duché de Luxembourg, émise par Baloise Assurances Luxembourg S.A. Le produit couvre la responsabilité civile des assurés pour les fautes commises dans l’exercice de leur mandat d’administrateur, ainsi que les frais de défense civile, pénale et administrative. La couverture est mondiale à l’exception des demandes relevant des juridictions, territoires ou du droit des USA et du Canada, et elle est étendue de 60 mois après la fin du contrat (postériorité) et de 60 mois avant sa prise d’effet (reprise du passé inconnu). Les plafonds sont ceux mentionnés aux conditions particulières.
 
-- Assureur : [Baloise Luxembourg](../../insurers/Baloise%20Luxembourg.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : IPID / Fiche d'information
+- Assureur : [Baloise Luxembourg](<../../insurers/Baloise Luxembourg.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

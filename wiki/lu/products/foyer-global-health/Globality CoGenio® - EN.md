@@ -48,7 +48,7 @@ generated: true
 
 Globality CoGenio® is a worldwide private health insurance underwritten under a group contract concluded by an organization (employer or association) with Foyer Global Health S.A. in Luxembourg, and designed for expatriates who temporarily reside in a foreign country for at least three months. Cover is granted for illnesses, accidents and other events specified in the General Conditions of Insurance and comprises inpatient, outpatient, dental and assistance modules across three plan levels - Classic, Plus and Top - whose benefit tables state, benefit by benefit, whether reimbursement is insured or excluded for each level. Two geographical areas can be agreed (I: worldwide including USA; II: worldwide excluding USA), there are no waiting periods, and deductibles of € 250/€ 500/€ 1,000 (with USD and GBP equivalents) apply exclusively to outpatient expenses. The document also sets out the general exclusions, the claims procedure, the duties of the insured, premium payment rules, and Luxembourg law and jurisdiction.
 
-- Assureur : [Foyer Global Health](../../insurers/Foyer%20Global%20Health.md) · Branche : Complémentaire santé · Type : Conditions générales
+- Assureur : [Foyer Global Health](<../../insurers/Foyer Global Health.md>) · Branche : Complémentaire santé · Type : Conditions générales
 
 ## Définitions
 
@@ -719,10 +719,10 @@ Referral to special institutions which provide specific training for the country
 
 ## Documents liés
 
-- [Globality CoGenio® - DE](Globality%20CoGenio%C2%AE%20-%20DE.md) - Conditions générales
-- [Globality CoGenio® - ES](Globality%20CoGenio%C2%AE%20-%20ES.md) - Conditions générales
-- [Globality CoGenio®](Globality%20CoGenio%C2%AE%20%282%29.md) - Conditions générales
-- [Globality CoGenio®](Globality%20CoGenio%C2%AE.md) - Conditions générales
+- [Globality CoGenio® - DE](<Globality CoGenio® - DE.md>) - Conditions générales
+- [Globality CoGenio® - ES](<Globality CoGenio® - ES.md>) - Conditions générales
+- [Globality CoGenio®](<Globality CoGenio® (2).md>) - Conditions générales
+- [Globality CoGenio®](<Globality CoGenio®.md>) - Conditions générales
 
 ## Source & fidélité
 

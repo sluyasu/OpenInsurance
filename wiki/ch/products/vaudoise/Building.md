@@ -41,7 +41,7 @@ generated: true
 
 « Building » est le produit d'assurance de la VAUDOISE GENERALE, Compagnie d'Assurances SA destiné aux bâtiments et à la responsabilité civile de leur propriétaire, régi par la Loi fédérale sur le contrat d'assurance (LCA). Le volet Bâtiment se compose d'une couverture de base (incendie et dommages naturels, terrorisme, frais consécutifs, revenu locatif, vol avec effraction et détroussement, dégâts des eaux, frais de réparation et de dégagement des conduites, bris de glaces), d'une couverture élargie (vandalisme, troubles civils, collision, écoulement de masses en fusion, effondrement, fouines, aménagements extérieurs, roussissement, énergie électrique, ustensiles et matériel) et d'extensions à souscrire expressément (Casco Bâtiment, Technique du bâtiment, Casco Travaux, Insectes et nuisibles, Bornes de recharge pour véhicules électriques). Le volet RC Propriétaire d'immeubles couvre les prétentions de tiers pour lésions corporelles et dégâts matériels liés à l'état, à l'entretien ou à l'exercice des droits réels sur les immeubles désignés dans la police, avec une couverture élargie facultative (RC du maître de l'ouvrage, protection juridique pénale). Les sommes d'assurance et les franchises ne figurent pas dans les conditions générales : elles sont fixées dans la police.
 
-- Assureur : [Vaudoise Assurances](../../insurers/Vaudoise%20Assurances.md) · Branche : Assurance bâtiment · Type : Conditions générales · Édition : 01.01.2023
+- Assureur : [Vaudoise Assurances](<../../insurers/Vaudoise Assurances.md>) · Branche : Assurance bâtiment · Type : Conditions générales · Édition : 01.01.2023
 
 ## Définitions
 

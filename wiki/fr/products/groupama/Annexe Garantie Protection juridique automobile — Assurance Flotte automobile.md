@@ -44,7 +44,7 @@ generated: true
 
 Annexe au contrat d'assurance Flotte automobile portant la garantie Protection juridique automobile. Par extension à la garantie « Défense pénale et recours suite à accident » des Conditions Générales, elle couvre les litiges que l'Assuré rencontre et mettant en cause un ou plusieurs véhicules du parc automobile assuré, dans deux domaines d'intervention : les infractions au Code de la route (garantie Circulation) et les litiges relatifs à l'achat, la location, la vente, la réparation ou le contrôle technique du véhicule garanti. Les prestations vont de l'information juridique téléphonique à la prise en charge amiable puis judiciaire des frais et honoraires. Le document définit les exclusions, le seuil d'intervention, les modalités de paiement, les formalités de déclaration du litige, le libre choix du défenseur et l'arbitrage ; tous les montants sont renvoyés au Tableau des Montants de Garantie et des Franchises, qui n'y figure pas.
 
-- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : [Protection juridique](../../branches/Protection%20juridique.md) · Type : Conditions générales · Édition : 032020
+- Assureur : [Groupama](<../../insurers/Groupama.md>) · Branche : [Protection juridique](<../../branches/Protection juridique.md>) · Type : Conditions générales · Édition : 032020
 
 ## Définitions
 

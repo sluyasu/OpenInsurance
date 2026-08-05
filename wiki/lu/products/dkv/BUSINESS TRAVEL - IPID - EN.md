@@ -41,7 +41,7 @@ generated: true
 
 Insurance Product Information Document issued by DKV Luxembourg S.A. for the BUSINESS TRAVEL product, badged Private Health Insurance. It is travel health insurance for journeys abroad, covering outpatient treatments, dental treatments, inpatient treatments, ambulance services and repatriation and return transport. The maximum amounts specified in the General Terms and Conditions of insurance apply to the benefits specified. Cover is valid for the journey abroad indicated on the insurance application.
 
-- Assureur : [DKV Luxembourg](../../insurers/DKV%20Luxembourg.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : IPID / Fiche d'information
+- Assureur : [DKV Luxembourg](<../../insurers/DKV Luxembourg.md>) · Branche : [Voyage et assistance](<../../branches/Voyage et assistance.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -167,11 +167,11 @@ Considered as foreign countries are all territories outside the Grand Duchy of L
 
 ## Documents liés
 
-- [BUSINESS TRAVEL](BUSINESS%20TRAVEL.md) - Conditions générales, éd. 04|2017
-- [BUSINESS TRAVEL - DE](BUSINESS%20TRAVEL%20-%20DE.md) - Conditions générales, éd. 04|2017
-- [BUSINESS TRAVEL - IPID - DE](BUSINESS%20TRAVEL%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
-- [BUSINESS TRAVEL - IPID](BUSINESS%20TRAVEL%20-%20IPID.md) - IPID / Fiche d'information
-- [BUSINESS TRAVEL - EN](BUSINESS%20TRAVEL%20-%20EN.md) - Conditions générales, éd. 04|2017
+- [BUSINESS TRAVEL](<BUSINESS TRAVEL.md>) - Conditions générales, éd. 04|2017
+- [BUSINESS TRAVEL - DE](<BUSINESS TRAVEL - DE.md>) - Conditions générales, éd. 04|2017
+- [BUSINESS TRAVEL - IPID - DE](<BUSINESS TRAVEL - IPID - DE.md>) - IPID / Fiche d'information
+- [BUSINESS TRAVEL - IPID](<BUSINESS TRAVEL - IPID.md>) - IPID / Fiche d'information
+- [BUSINESS TRAVEL - EN](<BUSINESS TRAVEL - EN.md>) - Conditions générales, éd. 04|2017
 
 ## Source & fidélité
 

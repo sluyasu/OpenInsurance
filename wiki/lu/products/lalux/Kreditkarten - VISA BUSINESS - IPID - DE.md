@@ -45,7 +45,7 @@ generated: true
 
 Informationsblatt zum Versicherungsprodukt (IPID) für die Versicherungen, die an die von der SPUERKEESS ausgegebene Kreditkarte VISA BUSINESS gekoppelt sind. Gedeckt sind eine Nicht Assistance-Leistung (REISEUNFALL - TOD / INVALIDITÄT) sowie zwei Assistance-Leistungen (IM KRANKHEITS- ODER TODESFALL, CASH EMERGENCY); unter "Wo bin ich versichert ?" wird zusätzlich eine Garantie betreffend die Lieferung von Interneteinkäufen erwähnt. Versichert sind der Karteninhaber sowie Ehegatte/Lebenspartner und Kinder unter 25 Jahren; die Versicherung gilt weltweit. Das Blatt nennt weder Versicherungssummen noch Selbstbehalte, Prämien oder Wartezeiten und bezeichnet seine Deckungs- und Ausschlussliste ausdrücklich als "Nicht vollständige Liste".
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Autres](../../branches/Autres.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Autres](<../../branches/Autres.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 

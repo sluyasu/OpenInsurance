@@ -43,7 +43,7 @@ generated: true
 
 Document d'information (DIPA/IPID) du contrat Protection Juridique des professionnels et de l'ESS, souscrit auprès de Thémis - Société Anonyme (SIREN n°582 067 922), entreprise régie par le Code des assurances, siège 2 et 4 rue de Pied de Fond 79000 Niort. Le contrat prend en charge les frais et honoraires de procédure de l'assuré, en demande comme en défense, en cas de litige l'opposant à un tiers et relevant de son activité professionnelle non salariée ou de son activité à but non lucratif. Il comprend des renseignements juridiques, l'exercice d'une action amiable et la prise en charge des honoraires de l'avocat du choix de l'assuré dans la limite d'un plafond global par sinistre de 16 000 euros hors taxes, sur sept domaines d'intervention (prud'hommes, relations contractuelles, organismes sociaux et administratifs, locaux professionnels, défense du dirigeant, recouvrement de créances, risque fiscal). Les garanties s'exercent en France, Monaco, Andorre, Suisse, Royaume-Uni et dans les pays membres de l'Union Européenne.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Protection juridique](../../branches/Protection%20juridique.md) · Type : IPID / Fiche d'information · Édition : 2020-06
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Protection juridique](<../../branches/Protection juridique.md>) · Type : IPID / Fiche d'information · Édition : 2020-06
 
 ## Garanties
 
@@ -179,8 +179,8 @@ Prise en charge des honoraires (de l'avocat ou de l'expert comptable de l'assur�
 
 ## Documents liés
 
-- [Protection Juridique (PJ PRO&ESS) - IPID](Protection%20Juridique%20%28PJ%20PRO%26ESS%29%20-%20IPID.md) - IPID / Fiche d'information, éd. 06/20
-- [Protection Juridique - IPID](Protection%20Juridique%20-%20IPID.md) - IPID / Fiche d'information, éd. 10/18
+- [Protection Juridique (PJ PRO&ESS) - IPID](<Protection Juridique (PJ PRO&ESS) - IPID.md>) - IPID / Fiche d'information, éd. 06/20
+- [Protection Juridique - IPID](<Protection Juridique - IPID.md>) - IPID / Fiche d'information, éd. 10/18
 
 ## Source & fidélité
 

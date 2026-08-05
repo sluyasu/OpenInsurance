@@ -42,7 +42,7 @@ generated: true
 
 Tableau de garanties du régime frais de santé de la CCN Services de l'automobile, présentant quatre niveaux de couverture (BASE 1 à BASE 4) pour les soins courants, l'hospitalisation (y compris maternité), le dentaire, l'optique, les aides auditives, des forfaits divers et le sport sur ordonnance. Les remboursements sont exprimés en pourcentage de la Base de Remboursement (BR) y compris la part du régime obligatoire, ou en forfaits en euros. Le document ajoute une assistance et une série de services (Itelis, Medaviz, Livmed's, deuxième avis médical, bilan de santé digital, Méta-Coaching, Salvum, protection juridique santé) inclus dans les quatre bases, puis des exemples chiffrés de remboursements. Il précise être un document non contractuel.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Fiche produit
 
 ## Définitions
 

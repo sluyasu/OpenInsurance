@@ -44,7 +44,7 @@ generated: true
 
 Conditions générales du contrat Protection juridique de SMACL Assurances pour les particuliers. Le contrat associe un service d’information juridique par téléphone et une garantie protection juridique qui prend en charge, à l’amiable puis devant les juridictions, les frais et honoraires engagés pour régler les litiges relevant des domaines de droit limitativement énumérés. Trois formules — Essentielle, Équilibre et Performance — élargissent progressivement la liste des domaines garantis (de la consommation, l’automobile et l’habitation jusqu’à la fiscalité, la succession, le divorce ou la construction), avec une option protection juridique du bailleur. La garantie est plafonnée à 20 000 € TTC par sinistre et deux sinistres par an (formules Essentielle et Équilibre), 50 000 € TTC par sinistre et quatre sinistres par an (formule Performance), et 7 500 € TTC par sinistre à l’étranger, dans la limite d’un barème de prise en charge annexé. L’assureur désigné à l’article 1 est SMACL Assurances SA.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Protection juridique](../../branches/Protection%20juridique.md) · Type : Conditions générales · Édition : 11/2022
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Protection juridique](<../../branches/Protection juridique.md>) · Type : Conditions générales · Édition : 11/2022
 
 ## Définitions
 
@@ -382,8 +382,8 @@ Conformément à l’article L.114-1 du Code, toutes actions dérivant d’un co
 
 ## Documents liés
 
-- Extension liée : [Vos plafonds contractuels de prise en charge - Protection juridique - Tarifs](Vos%20plafonds%20contractuels%20de%20prise%20en%20charge%20-%20Protection%20juridique%20-%20Tarifs.md)
-- [Vos plafonds contractuels de prise en charge - Protection juridique - Tarifs](Vos%20plafonds%20contractuels%20de%20prise%20en%20charge%20-%20Protection%20juridique%20-%20Tarifs.md) - Conditions tarifaires, éd. 08/2022
+- Extension liée : [Vos plafonds contractuels de prise en charge - Protection juridique - Tarifs](<Vos plafonds contractuels de prise en charge - Protection juridique - Tarifs.md>)
+- [Vos plafonds contractuels de prise en charge - Protection juridique - Tarifs](<Vos plafonds contractuels de prise en charge - Protection juridique - Tarifs.md>) - Conditions tarifaires, éd. 08/2022
 
 ## Source & fidélité
 

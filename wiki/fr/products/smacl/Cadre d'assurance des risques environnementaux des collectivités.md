@@ -46,7 +46,7 @@ generated: true
 
 Conditions générales du « Cadre d’assurance des risques environnementaux des collectivités » de SMACL Assurances. Le contrat couvre les conséquences pécuniaires de la responsabilité civile ou administrative de la collectivité souscriptrice en cas de dommages corporels, matériels et immatériels résultant d’une atteinte à l’environnement et en cas de préjudice écologique, ainsi que les frais d’urgence associés. S’y ajoutent, lorsque les options correspondantes sont souscrites, des garanties de pertes pécuniaires (responsabilité environnementale au sens de la directive 2004/35/CE, frais de dépollution suite à une atteinte causée ou subie par l’assuré, frais de dépollution du littoral) et d’autres garanties optionnelles (épandage de boues ou effluents, déchets livrés, transport, biens confiés, biens des préposés). Les garanties responsabilité civile et préjudice écologique sont déclenchées par la réclamation avec un délai subséquent de cinq ans ; les montants d’engagement et les franchises figurent aux conditions particulières. L’assureur désigné par le contrat est SMACL Assurances SA.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : Conditions générales · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : Conditions générales · Édition : 01/2024
 
 ## Définitions
 

@@ -42,7 +42,7 @@ generated: true
 
 Insurance Product Information Document for DKV Luxembourg S.A.'s PLUS HEALTH product, described as additional protection for holders of a statutory insurance. It covers outpatient treatment (medical treatments, drugs and dressings, remedies, midwife services, medical aids, visual aids, Lasik surgeries, alternative treatment methods), dental treatment (treatment, deep cleaning, replacement teeth, orthodontic treatment), inpatient treatment (medical treatment including chief physician, accommodation including single room, One-Day-Clinic, rooming-in, ambulance transportation, hospital daily benefit) and the BEST CARE + / BEST CARE PREMIUM + tariff. The scope of insurance also includes free of charge protection according to the TRAVEL + tariff. Cover applies to Europe, and during the first month of a temporary sojourn in a non-European country.
 
-- Assureur : [DKV Luxembourg](../../insurers/DKV%20Luxembourg.md) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
+- Assureur : [DKV Luxembourg](<../../insurers/DKV Luxembourg.md>) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -206,8 +206,8 @@ Insurance cover applies to Europe. Insurance cover is provided during the first 
 
 ## Documents liés
 
-- [PLUS HEALTH - IPID](PLUS%20HEALTH%20-%20IPID.md) - IPID / Fiche d'information
-- [PLUS HEALTH - IPID - DE](PLUS%20HEALTH%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
+- [PLUS HEALTH - IPID](<PLUS HEALTH - IPID.md>) - IPID / Fiche d'information
+- [PLUS HEALTH - IPID - DE](<PLUS HEALTH - IPID - DE.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

@@ -49,7 +49,7 @@ generated: true
 
 Conditions générales du contrat Macif Auto Pros (version juin 2022), assurance automobile destinée aux professionnels, associations et CSE. Le contrat est proposé en quatre formules — Économique, Élargie, Protectrice et Confort — et comprend 21 articles de garanties : la responsabilité civile obligatoire (sans limitation de somme pour les dommages corporels, 100 millions d’euros pour les dommages matériels dont 1 300 000 € pour le préjudice écologique), les garanties de dommages subis par le véhicule (accident et vandalisme, incendie et terrorisme, vol, bris de glace, événements climatiques, catastrophes naturelles et technologiques), les garanties complémentaires (remorquage, insolvabilité du tiers responsable, Indemnisation Plus, matériel professionnel et marchandises transportées, aménagements professionnels et peintures publicitaires, contenu privé, accessoires, véhicule de prêt), les garanties d’assistance (assistance au véhicule et aux personnes, Service Aléas Mobilité, Urgence Mobilité, panne 0 km, services exclusifs de la formule Confort), la garantie corporelle du conducteur et la protection juridique Défense et Recours plafonnée à 20 000 € TTC par sinistre. L’échéance du contrat est fixée au 1er avril.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : Version 06/2022 (page 7 : « Version juin 2022 » ; pied de page : « Macif Auto Pros - Version 06/2022 »)
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions générales · Édition : Version 06/2022 (page 7 : « Version juin 2022 » ; pied de page : « Macif Auto Pros - Version 06/2022 »)
 
 ## Définitions
 
@@ -507,7 +507,7 @@ La prescription est le délai au-delà duquel une action n’est plus recevable.
 
 ## Documents liés
 
-- [Contrat Macif Auto Pros - IPID](Contrat%20Macif%20Auto%20Pros%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/26
+- [Contrat Macif Auto Pros - IPID](<Contrat Macif Auto Pros - IPID.md>) - IPID / Fiche d'information, éd. 01/26
 
 ## Source & fidélité
 

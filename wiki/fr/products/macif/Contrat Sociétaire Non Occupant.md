@@ -44,7 +44,7 @@ generated: true
 
 Conditions générales du Contrat Sociétaire Non Occupant de la Macif (édition avril 2015), assurance multirisque des bâtiments pour un propriétaire ou un locataire principal non occupant. Le contrat couvre les bâtiments, le matériel, le mobilier, les approvisionnements et les espèces monnayées contre l'incendie, l'action de l'électricité, les chocs de véhicules et chutes d'aéronefs, les fumées, les événements naturels, les catastrophes naturelles, les dégâts causés par l'eau, le vol et les actes de vandalisme, le bris des glaces et les actes de terrorisme, émeutes et mouvements populaires. Il ajoute des frais complémentaires (perte de loyers, déblaiement, gardiennage, pertes indirectes, valeur à neuf), les responsabilités garanties (responsabilité civile générale, recours des locataires, des voisins et des tiers, responsabilité locative, défense de l'assuré) et la protection des droits de l'assuré (recours de l'assuré, protection juridique). Les montants, limites et franchises ne figurent pas dans ce document : ils renvoient au tableau récapitulatif des garanties des Annexes.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales · Édition : avril 2015
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : Conditions générales · Édition : avril 2015
 
 > ⚠️ **Édition ancienne** : avril 2015, soit 11 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 
@@ -381,16 +381,16 @@ Toutes les actions dérivant d'un contrat d'assurance sont prescrites par deux a
 ## Documents liés
 
 - Édition courante de ce produit.
-- Extension liée : [Contrat Sociétaire Non Occupant - Annexe spéciale Appartement ou maison particulière - Résidence secondaire](Contrat%20Soci%C3%A9taire%20Non%20Occupant%20-%20Annexe%20sp%C3%A9ciale%20Appartement%20ou%20maison%20particuli%C3%A8re%20-%20R%C3%A9sidence%20secondaire.md)
-- Extension liée : [Contrat Sociétaire Non Occupant - Annexe spéciale Bâtiments en cours de construction](Contrat%20Soci%C3%A9taire%20Non%20Occupant%20-%20Annexe%20sp%C3%A9ciale%20B%C3%A2timents%20en%20cours%20de%20construction.md)
-- Extension liée : [Contrat Sociétaire Non Occupant - Annexe spéciale Bâtiments inoccupés](Contrat%20Soci%C3%A9taire%20Non%20Occupant%20-%20Annexe%20sp%C3%A9ciale%20B%C3%A2timents%20inoccup%C3%A9s.md)
-- Extension liée : [Contrat Sociétaire Non Occupant - Annexe spéciale Immeubles en copropriété](Contrat%20Soci%C3%A9taire%20Non%20Occupant%20-%20Annexe%20sp%C3%A9ciale%20Immeubles%20en%20copropri%C3%A9t%C3%A9.md)
-- Extension liée : [Contrat Sociétaire Non Occupant - Conditions Générales - Annexe spéciale Immeubles locatifs](Contrat%20Soci%C3%A9taire%20Non%20Occupant%20-%20Conditions%20G%C3%A9n%C3%A9rales%20-%20Annexe%20sp%C3%A9ciale%20Immeubles%20locatifs.md)
-- [Contrat Sociétaire Non Occupant - Annexe spéciale Appartement ou maison particulière - Résidence secondaire](Contrat%20Soci%C3%A9taire%20Non%20Occupant%20-%20Annexe%20sp%C3%A9ciale%20Appartement%20ou%20maison%20particuli%C3%A8re%20-%20R%C3%A9sidence%20secondaire.md) - Conditions générales, éd. 03/11
-- [Contrat Sociétaire Non Occupant - Annexe spéciale Bâtiments en cours de construction](Contrat%20Soci%C3%A9taire%20Non%20Occupant%20-%20Annexe%20sp%C3%A9ciale%20B%C3%A2timents%20en%20cours%20de%20construction.md) - Conditions générales
-- [Contrat Sociétaire Non Occupant - Annexe spéciale Bâtiments inoccupés](Contrat%20Soci%C3%A9taire%20Non%20Occupant%20-%20Annexe%20sp%C3%A9ciale%20B%C3%A2timents%20inoccup%C3%A9s.md) - Conditions générales, éd. 03/11
-- [Contrat Sociétaire Non Occupant - Annexe spéciale Immeubles en copropriété](Contrat%20Soci%C3%A9taire%20Non%20Occupant%20-%20Annexe%20sp%C3%A9ciale%20Immeubles%20en%20copropri%C3%A9t%C3%A9.md) - Conditions générales, éd. 03/11
-- [Contrat Sociétaire Non Occupant - Conditions Générales - Annexe spéciale Immeubles locatifs](Contrat%20Soci%C3%A9taire%20Non%20Occupant%20-%20Conditions%20G%C3%A9n%C3%A9rales%20-%20Annexe%20sp%C3%A9ciale%20Immeubles%20locatifs.md) - Conditions générales
+- Extension liée : [Contrat Sociétaire Non Occupant - Annexe spéciale Appartement ou maison particulière - Résidence secondaire](<Contrat Sociétaire Non Occupant - Annexe spéciale Appartement ou maison particulière - Résidence secondaire.md>)
+- Extension liée : [Contrat Sociétaire Non Occupant - Annexe spéciale Bâtiments en cours de construction](<Contrat Sociétaire Non Occupant - Annexe spéciale Bâtiments en cours de construction.md>)
+- Extension liée : [Contrat Sociétaire Non Occupant - Annexe spéciale Bâtiments inoccupés](<Contrat Sociétaire Non Occupant - Annexe spéciale Bâtiments inoccupés.md>)
+- Extension liée : [Contrat Sociétaire Non Occupant - Annexe spéciale Immeubles en copropriété](<Contrat Sociétaire Non Occupant - Annexe spéciale Immeubles en copropriété.md>)
+- Extension liée : [Contrat Sociétaire Non Occupant - Conditions Générales - Annexe spéciale Immeubles locatifs](<Contrat Sociétaire Non Occupant - Conditions Générales - Annexe spéciale Immeubles locatifs.md>)
+- [Contrat Sociétaire Non Occupant - Annexe spéciale Appartement ou maison particulière - Résidence secondaire](<Contrat Sociétaire Non Occupant - Annexe spéciale Appartement ou maison particulière - Résidence secondaire.md>) - Conditions générales, éd. 03/11
+- [Contrat Sociétaire Non Occupant - Annexe spéciale Bâtiments en cours de construction](<Contrat Sociétaire Non Occupant - Annexe spéciale Bâtiments en cours de construction.md>) - Conditions générales
+- [Contrat Sociétaire Non Occupant - Annexe spéciale Bâtiments inoccupés](<Contrat Sociétaire Non Occupant - Annexe spéciale Bâtiments inoccupés.md>) - Conditions générales, éd. 03/11
+- [Contrat Sociétaire Non Occupant - Annexe spéciale Immeubles en copropriété](<Contrat Sociétaire Non Occupant - Annexe spéciale Immeubles en copropriété.md>) - Conditions générales, éd. 03/11
+- [Contrat Sociétaire Non Occupant - Conditions Générales - Annexe spéciale Immeubles locatifs](<Contrat Sociétaire Non Occupant - Conditions Générales - Annexe spéciale Immeubles locatifs.md>) - Conditions générales
 
 ## Source & fidélité
 

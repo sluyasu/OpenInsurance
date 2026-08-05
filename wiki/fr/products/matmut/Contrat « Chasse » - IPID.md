@@ -45,7 +45,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) du contrat « Chasse » de la Matmut. Le contrat garantit l’assuré contre les conséquences des dommages corporels et matériels causés à des tiers dans le cadre de son activité de chasseur ou de rabatteur (responsabilité civile) ; il s’agit d’une assurance obligatoire. Sont systématiquement prévues la responsabilité civile « Chasseur », la responsabilité civile « Rabatteur », la responsabilité civile de « Conducteur de chien de sang » et la protection juridique suite à accident ; la responsabilité civile « Organisateur », les armes de chasse et les chiens de chasse sont proposées en options. Le contrat est sans tacite reconduction : les garanties cessent le 1er juillet suivant à 0 heure.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Chasse](../../branches/Chasse.md) · Type : IPID / Fiche d'information · Édition : 04/26
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Chasse](<../../branches/Chasse.md>) · Type : IPID / Fiche d'information · Édition : 04/26
 
 ## Garanties
 
@@ -154,7 +154,7 @@ Chiens de chasse : dommages accidentels (blessures ou décès) aux chiens de cha
 
 ## Documents liés
 
-- [Chasse](Chasse%20%28Matmut%29.md) - Conditions générales, éd. CG CHASSE – 04/26 (mention de pied de page 37 ; aucune autre date d'édition n'est imprimée)
+- [Chasse](<Chasse (Matmut).md>) - Conditions générales, éd. CG CHASSE – 04/26 (mention de pied de page 37 ; aucune autre date d'édition n'est imprimée)
 
 ## Source & fidélité
 

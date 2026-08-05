@@ -42,7 +42,7 @@ generated: true
 
 Insurance Product Information Document for DKV Luxembourg S.A.'s TRAVEL / TRAVEL + product, a travel insurance for journeys abroad. It covers outpatient and dental treatments, inpatient treatments, ambulance services and repatriation/return transport incurred abroad, up to the maximum amounts specified in the General Terms and Conditions of insurance. Cover is valid for the journey abroad indicated on the insurance application, foreign countries being all territories outside the Grand Duchy of Luxembourg and the country of permanent residence.
 
-- Assureur : [DKV Luxembourg](../../insurers/DKV%20Luxembourg.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : IPID / Fiche d'information
+- Assureur : [DKV Luxembourg](<../../insurers/DKV Luxembourg.md>) · Branche : [Voyage et assistance](<../../branches/Voyage et assistance.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

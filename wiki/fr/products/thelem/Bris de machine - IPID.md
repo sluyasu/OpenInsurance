@@ -41,7 +41,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) du contrat Bris de machine de Thélem assurances, destiné aux professionnels des secteurs Artisanat/Industrie, Commerces, Services et Professions libérales. Il couvre les dommages matériels accidentels subis directement par les matériels, machines, engins, équipements et installations techniques assurés au contrat, du fait de causes internes, humaines, externes, des effets du courant électrique et de phénomènes naturels. Des garanties et services optionnels portent sur l’incendie, le vol et les dégâts des eaux d’origine externe, la garantie en tous lieux y compris en cours de transport, les frais de reconstitution des supports d’information et les frais supplémentaires d’exploitation. Le montant de la garantie est la valeur déclarée au contrat, correspondant à la valeur d’achat.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information
+- Assureur : [Thélem assurances](<../../insurers/Thélem assurances.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

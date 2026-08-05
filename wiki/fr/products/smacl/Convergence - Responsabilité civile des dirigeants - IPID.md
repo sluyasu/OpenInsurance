@@ -43,7 +43,7 @@ generated: true
 
 Document d’information (DIPA) du produit « Convergence - Responsabilité civile des dirigeants », assurance de responsabilité civile des dirigeants des associations et des entreprises de l’économie sociale et solidaire, destinée aux associations avec salariés. Le contrat garantit les conséquences pécuniaires et les frais de défense résultant de la mise en cause personnelle des dirigeants de la personne morale souscriptrice ou de ses filiales, à la suite d’une faute commise dans l’exercice de leurs fonctions. L’indemnité est limitée à 2 000 000 € et le contrat comprend un volet Assistance et services (gestion de crise 100 000 €, assistance psychologique, information juridique). L’assureur désigné au colophon est SMACL Assurances, société d’assurance mutuelle à cotisations fixes (agrément 301 309 605).
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : IPID / Fiche d'information · Édition : 02/2025
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : IPID / Fiche d'information · Édition : 02/2025
 
 ## Garanties
 
@@ -165,8 +165,8 @@ Garantie systématiquement prévue au contrat : information juridique.
 
 ## Documents liés
 
-- Extension liée : [CONVERGENCE - Responsabilité civile des dirigeants (conventions spéciales)](CONVERGENCE%20-%20Responsabilit%C3%A9%20civile%20des%20dirigeants%20%28conventions%20sp%C3%A9ciales%29.md)
-- [CONVERGENCE - Responsabilité civile des dirigeants (conventions spéciales)](CONVERGENCE%20-%20Responsabilit%C3%A9%20civile%20des%20dirigeants%20%28conventions%20sp%C3%A9ciales%29.md) - Conditions générales, éd. 04/2025
+- Extension liée : [CONVERGENCE - Responsabilité civile des dirigeants (conventions spéciales)](<CONVERGENCE - Responsabilité civile des dirigeants (conventions spéciales).md>)
+- [CONVERGENCE - Responsabilité civile des dirigeants (conventions spéciales)](<CONVERGENCE - Responsabilité civile des dirigeants (conventions spéciales).md>) - Conditions générales, éd. 04/2025
 
 ## Source & fidélité
 

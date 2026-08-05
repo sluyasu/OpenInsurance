@@ -45,7 +45,7 @@ generated: true
 
 Conditions générales du contrat d'assurance prévoyance « TRANQUILLITÉ FAMILLE » de MAAF Assurances SA, une garantie des accidents de la vie. Le contrat garantit un service d'assistance au quotidien et le versement de prestations à la suite d'un accident corporel survenu dans le cadre de la vie privée : frais de soins, capitaux d'incapacité temporaire totale et d'incapacité permanente partielle, aménagement du cadre de vie, assistance d'une tierce personne, frais d'obsèques et capitaux décès au conjoint et aux enfants. Il est proposé en deux formules, Essentielle et Intégrale, la formule Intégrale portant les capitaux à +50 % et ajoutant les accidents de la circulation au volant d'un véhicule loué ou emprunté ainsi que les accidents médicaux. S'y ajoutent des prestations d'assistance à domicile, d'aide aux aidants et d'assistance aux personnes, et une garantie Renseignements juridiques par téléphone.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Garantie des accidents de la vie](../../branches/Garantie%20des%20accidents%20de%20la%20vie.md) · Type : Conditions générales · Édition : 03/26
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Garantie des accidents de la vie](<../../branches/Garantie des accidents de la vie.md>) · Type : Conditions générales · Édition : 03/26
 
 ## Définitions
 
@@ -624,7 +624,7 @@ Article L 114-1 du code des assurances : toutes actions dérivant d'un contrat d
 
 ## Documents liés
 
-- [Tranquillité famille - IPID](Tranquillit%C3%A9%20famille%20-%20IPID.md) - IPID / Fiche d'information, éd. 2026-03
+- [Tranquillité famille - IPID](<Tranquillité famille - IPID.md>) - IPID / Fiche d'information, éd. 2026-03
 
 ## Source & fidélité
 

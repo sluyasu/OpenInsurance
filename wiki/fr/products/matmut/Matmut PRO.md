@@ -49,7 +49,7 @@ generated: true
 
 Conditions Générales du contrat Matmut PRO, multirisque professionnelle valant projet de contrat au sens de l'article L. 112-2 du Code des assurances. Le contrat assure, en fonction de la formule souscrite (« Responsabilité civile », « Responsabilité civile Plus Mobilité », « Locaux pro », « Locaux pro Plus Mobilité ») et de l'activité professionnelle déclarée aux Conditions Particulières, la responsabilité civile Exploitation et Professionnelle, la responsabilité civile liée à un local, les dommages aux biens immobiliers et mobiliers professionnels (incendie et événements assimilés, bris de glaces, événements climatiques, dégâts des eaux, inondation, catastrophes naturelles, vol, bris de matériel informatique), l'assistance aux locaux professionnels, les préjudices financiers (pertes d'exploitation, perte de la valeur vénale du fonds de commerce) et la protection juridique. Les garanties de Responsabilité civile liée à l'activité sont déclenchées par la réclamation avec un délai subséquent de cinq ans ; celles liées à un local sont déclenchées par le fait dommageable. Le document intègre les modalités d'examen des réclamations, la fiche d'information sur le fonctionnement des garanties « Responsabilité civile » dans le temps et la charte de protection des données à caractère personnel.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : Conditions générales · Édition : 11/24
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : Conditions générales · Édition : 11/24
 
 ## Définitions
 
@@ -864,7 +864,7 @@ Article 43 — Prescription : « Toute action dérivant du présent contrat, qu'
 
 ## Documents liés
 
-- [Contrat « Matmut Pro » - IPID](Contrat%20%C2%AB%20Matmut%20Pro%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information, éd. 10/25
+- [Contrat « Matmut Pro » - IPID](<Contrat « Matmut Pro » - IPID.md>) - IPID / Fiche d'information, éd. 10/25
 
 ## Source & fidélité
 

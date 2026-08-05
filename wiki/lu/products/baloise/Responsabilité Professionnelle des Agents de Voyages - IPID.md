@@ -42,7 +42,7 @@ generated: true
 
 IPID de l'assurance Responsabilité Professionnelle des Agents de Voyages de Baloise Assurances Luxembourg S.A. Le produit couvre la responsabilité professionnelle des agents de voyages, tant sur le terrain contractuel qu'extra-contractuel. Quatre extensions facultatives sont proposées : la pollution accidentelle, la protection juridique, l'assurance des frais exposés pour éviter ou réduire les conséquences d'un sinistre et le dépassement de devis. La couverture s'exerce dans le monde entier pour les voyages, missions, réunions, séminaires ou colloques auxquels l'assuré pourrait participer dans le cadre de ses activités professionnelles, et pour les activités exercées au Grand-Duché de Luxembourg ; les plafonds sont ceux mentionnés aux conditions particulières.
 
-- Assureur : [Baloise Luxembourg](../../insurers/Baloise%20Luxembourg.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : IPID / Fiche d'information
+- Assureur : [Baloise Luxembourg](<../../insurers/Baloise Luxembourg.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

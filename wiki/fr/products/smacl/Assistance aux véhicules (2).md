@@ -45,7 +45,7 @@ generated: true
 
 Convention d’assistance « Assistance aux véhicules », mise en œuvre par SMACL Assistance pour le compte de SMACL Assurances au bénéfice de toute personne voyageant à bord d’un véhicule assuré auprès de SMACL Assurances. Elle couvre l’assistance aux personnes transportées (rapatriement sanitaire, hébergement, frais médicaux, rapatriement du corps, retour des bénéficiaires, frais de justice et caution pénale à l’étranger), l’assistance aux véhicules (dépannage/remorquage, chauffeur de remplacement, garanties complémentaires à l’étranger, véhicule tracté, fin de course, taxi mobilité, retour des bagages) et des services d’information. Trois options peuvent être souscrites : assistance aux véhicules de plus de 3,5 tonnes, véhicule de remplacement en France pour les véhicules de moins de 3,5 tonnes, et Auto-collaborateurs. Les prestations sont mises en œuvre par INTER MUTUELLES ASSISTANCE GIE (IMA GIE).
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : 11/2022
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions générales · Édition : 11/2022
 
 ## Définitions
 

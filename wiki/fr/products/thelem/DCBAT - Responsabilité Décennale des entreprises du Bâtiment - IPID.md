@@ -41,7 +41,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) du contrat DCBAT / Responsabilité Décennale des entreprises du Bâtiment de Thélem assurances. En tant que professionnels du bâtiment, ce contrat d’assurance permet de satisfaire à l’obligation d’assurance responsabilité décennale ; seules les activités professionnelles déclarées sont garanties. Il comporte la garantie obligatoire de responsabilité décennale visée aux articles 1792 et 2270 du code civil, des garanties facultatives (sous-traitant, bon fonctionnement, dommages intermédiaires, existants, immatériels consécutifs, travaux non constitutifs d’ouvrages, ouvrages non soumis à obligation d’assurance) ainsi que des garanties pour les dommages en cours de chantier.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Assurance construction](../../branches/Assurance%20construction.md) · Type : IPID / Fiche d'information
+- Assureur : [Thélem assurances](<../../insurers/Thélem assurances.md>) · Branche : [Assurance construction](<../../branches/Assurance construction.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

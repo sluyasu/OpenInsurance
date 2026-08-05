@@ -41,7 +41,7 @@ generated: true
 
 Document d’informations clés (DIC/PRIIPs) de GAN SÉRÉNITÉ OBSÈQUES, contrat d’assurance de groupe prévoyance vie entière à adhésion facultative souscrit auprès de Groupama Gan Vie par l’association DEMAIN, relevant des branches 20 (Vie-Décès) et 18 (Assistance). Il prévoit le paiement au(x) bénéficiaire(s) désigné(s) d’un capital destiné au financement des obsèques de l’investisseur assuré, versé soit à l’opérateur funéraire, soit à la personne physique ayant acquitté la facture, dans la limite du capital garanti, et inclut des garanties d’assistance. Le document décrit principalement les risques (classe de risque 1 sur 7), les coûts et les modalités de sortie ; il ne contient pas de tableau de garanties ni de section d’exclusions contractuelles.
 
-- Assureur : [Gan Assurances](../../insurers/Gan%20Assurances.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : Fiche produit · Édition : 2023-03-01
+- Assureur : [Gan Assurances](<../../insurers/Gan Assurances.md>) · Branche : [Obsèques](<../../branches/Obsèques.md>) · Type : Fiche produit · Édition : 2023-03-01
 
 ## Définitions
 
@@ -146,7 +146,7 @@ l’investisseur a la faculté d’effectuer, à tout moment et sans frais, un r
 
 ## Documents liés
 
-- [GAN SERENITE OBSEQUES - Fiche](GAN%20SERENITE%20OBSEQUES%20-%20Fiche.md) - Fiche produit
+- [GAN SERENITE OBSEQUES - Fiche](<GAN SERENITE OBSEQUES - Fiche.md>) - Fiche produit
 
 ## Source & fidélité
 

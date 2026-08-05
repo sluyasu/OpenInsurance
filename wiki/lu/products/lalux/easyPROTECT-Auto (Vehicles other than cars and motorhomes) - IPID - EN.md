@@ -42,7 +42,7 @@ generated: true
 
 Insurance product information document (IPID) for easyPROTECT-Auto, published under the banner “Motor vehicle insurance - Vehicles other than cars and motorhomes” and the product line “LALUX Assurances - Product : easyPROTECT-Auto”. The document states that easyPROTECT-Auto covers motor vehicle third party liability as well as damage caused to the vehicle, and sets out seven guarantees: civil liability, legal protection (costs and fees up to EUR 10,000), fire, theft, glass breakage, damage to the vehicle, and an optional accessory driver’s guarantee reserved for van type vehicles. Cover applies in the countries indicated on the green card, with an explicit 42-territory list for damage to the vehicle, and the contract runs from year to year by tacit renewal.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -185,10 +185,10 @@ Guarantee named only in the “Special provisions per guarantee:” block of pag
 
 ## Documents liés
 
-- [easyPROTECT-Auto (PKWs und Wohnmobile) - IPID - DE](easyPROTECT-Auto%20%28PKWs%20und%20Wohnmobile%29%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
-- [easyPROTECT-Auto (Véhicules autres que voitures ou camping cars) - IPID](easyPROTECT-Auto%20%28V%C3%A9hicules%20autres%20que%20voitures%20ou%20camping%20cars%29%20-%20IPID.md) - IPID / Fiche d'information
-- [easyPROTECT-Auto - IPID - EN](easyPROTECT-Auto%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
-- [easyPROTECT-Auto (Andere Fahrzeuge als PKW und Wohnmobile) - IPID - DE](easyPROTECT-Auto%20%28Andere%20Fahrzeuge%20als%20PKW%20und%20Wohnmobile%29%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
+- [easyPROTECT-Auto (PKWs und Wohnmobile) - IPID - DE](<easyPROTECT-Auto (PKWs und Wohnmobile) - IPID - DE.md>) - IPID / Fiche d'information
+- [easyPROTECT-Auto (Véhicules autres que voitures ou camping cars) - IPID](<easyPROTECT-Auto (Véhicules autres que voitures ou camping cars) - IPID.md>) - IPID / Fiche d'information
+- [easyPROTECT-Auto - IPID - EN](<easyPROTECT-Auto - IPID - EN.md>) - IPID / Fiche d'information
+- [easyPROTECT-Auto (Andere Fahrzeuge als PKW und Wohnmobile) - IPID - DE](<easyPROTECT-Auto (Andere Fahrzeuge als PKW und Wohnmobile) - IPID - DE.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

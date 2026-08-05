@@ -42,7 +42,7 @@ generated: true
 
 Fiche IPID de l'assurance « Tous risques électroniques » de Baloise Assurances Luxembourg S.A., l'entité nommée en tête des deux pages. Le document la décrit comme une assurance tous risques pour le matériel électronique et/ou bureautique, portant sur le matériel électrique, électronique, bureautique et informatique fixe et/ou portable ainsi que sur les supports de données, contre le vol et contre la destruction ou la détérioration suite à accident. Deux extensions facultatives sont proposées : l'assurance des données et programmes et l'assurance des frais supplémentaires. Le matériel fixe est couvert à l'adresse du risque, le matériel portable dans le monde entier.
 
-- Assureur : [Baloise Luxembourg](../../insurers/Baloise%20Luxembourg.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information
+- Assureur : [Baloise Luxembourg](<../../insurers/Baloise Luxembourg.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

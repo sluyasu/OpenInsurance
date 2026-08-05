@@ -40,7 +40,7 @@ generated: true
 
 VIVIUM AUTO est un contrat d'assurance automobile de P&V Assurances SCRL (marque VIVIUM) régi par la loi du 21 novembre 1989. Les conditions générales se divisent en 5 volets : I. Responsabilité Civile et Assistance Accident (seul obligatoire), II. Dommages au véhicule (Incendie, Vol, Bris de glaces, Forces de la nature et animaux, Dégâts matériels), III. Protection juridique, IV. Protection du conducteur (Droit commun ou Formule forfaitaire) et V. Assistance (aux personnes et au véhicule). Sauf la RC obligatoire, chaque garantie n'est acquise que si mention en est faite aux conditions particulières.
 
-- Assureur : [Vivium](../../insurers/Vivium.md) · Branche : [Auto](../../branches/Auto.md) · Type : Conditions générales · Édition : 02.2016
+- Assureur : [Vivium](<../../insurers/Vivium.md>) · Branche : [Auto](<../../branches/Auto.md>) · Type : Conditions générales · Édition : 02.2016
 
 > ⚠️ **Édition ancienne** : 02.2016, soit 10 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 
@@ -410,7 +410,7 @@ Conformément à l'article 88 de la loi du 4 avril 2014 relative aux assurances,
 
 ## Documents liés
 
-- [VIVIUM Auto - IPID](VIVIUM%20Auto%20-%20IPID.md) - IPID / Fiche d'information, éd. 01.2025
+- [VIVIUM Auto - IPID](<VIVIUM Auto - IPID.md>) - IPID / Fiche d'information, éd. 01.2025
 
 ## Source & fidélité
 

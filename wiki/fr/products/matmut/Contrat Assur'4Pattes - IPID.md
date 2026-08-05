@@ -44,7 +44,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du contrat Assur'4Pattes, une assurance santé animale destinée à rembourser une partie des frais de soins vétérinaires consécutifs à une maladie ou à un accident d'un chien ou d'un chat identifié par puce électronique ou tatouage, âgé de 3 mois ou plus et de moins de 8 ans à la date d'effet du contrat. Deux niveaux de protection sont proposés (formule Prim', formule Max'), avec application de taux de remboursement et de plafonds d'indemnisation. Le contrat comprend en outre des prestations d'assistance et peut accorder des garanties de prévention ainsi qu'une participation aux frais d'obsèques. L'assureur nommé au pied du document est Matmut & Co, société anonyme, N°487 597 510 RCS Rouen.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Animaux](../../branches/Animaux.md) · Type : IPID / Fiche d'information · Édition : 01-24
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Animaux](<../../branches/Animaux.md>) · Type : IPID / Fiche d'information · Édition : 01-24
 
 ## Garanties
 
@@ -154,7 +154,7 @@ Participation aux frais d’obsèques (frais d’euthanasie, frais funéraires).
 
 ## Documents liés
 
-- [Assur'4Pattes Matmut & Co](Assur%274Pattes%20Matmut%20%26%20Co.md) - Conditions générales, éd. 01/24
+- [Assur'4Pattes Matmut & Co](<Assur'4Pattes Matmut & Co.md>) - Conditions générales, éd. 01/24
 
 ## Source & fidélité
 

@@ -45,7 +45,7 @@ generated: true
 
 Conditions générales du contrat Responsabilité civile chasse de SMACL Assurances, garantie obligatoire au titre de l'article L.423-16 du Code de l'environnement. Le contrat garantit les conséquences pécuniaires de la responsabilité civile du chasseur assuré pour les dommages occasionnés à des tiers par tout acte de chasse ou de destruction d'animaux nuisibles, y compris du fait de ses chiens, ainsi que la défense pénale et recours. Deux garanties optionnelles complètent le contrat : l'individuelle accident corporel du chasseur (dépenses de santé, déficit fonctionnel permanent, frais d'obsèques) et la mortalité des chiens assurés. Les garanties s'appliquent en France métropolitaine et en Guadeloupe, Martinique, Guyane et à La Réunion ; le contrat court jusqu'au 30 juin suivant sa date d'effet et ne se renouvelle pas par tacite reconduction.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Chasse](../../branches/Chasse.md) · Type : Conditions générales · Édition : 11/2022
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Chasse](<../../branches/Chasse.md>) · Type : Conditions générales · Édition : 11/2022
 
 ## Définitions
 

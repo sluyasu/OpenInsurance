@@ -43,7 +43,7 @@ generated: true
 
 Document d'une page énonçant les conditions d'octroi de l'« Avantage Bris de glaces 0 franchise » applicable aux gammes Multirisques Flotte de véhicules Matmut. L'avantage consiste, en cas de remplacement du pare-brise ou d'une autre glace endommagée par un réparateur glacier agréé Matmut, en une exonération de la franchise applicable contractuellement (25 % du montant des dommages au titre de la garantie Bris de pare-brise, 15 % au titre de la garantie Bris de glaces). Il vise les sinistres survenus et déclarés entre le 1er janvier 2026 et le 31 décembre 2026 inclus et le document est valable jusqu'au 31/12/2026. L'assureur nommé est la Matmut, Mutuelle assurance des travailleurs mutualistes, N° 775 701 477 RCS Rouen.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions tarifaires · Édition : 01-26
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions tarifaires · Édition : 01-26
 
 ## Définitions
 

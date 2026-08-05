@@ -48,7 +48,7 @@ generated: true
 
 Conditions générales du contrat d'assurance Navigation de Plaisance Matmut (référence CG NDEP – 06/24), valant projet de contrat au sens de l'article L. 112-2 du Code des assurances. Le contrat a pour objet de garantir les risques découlant de la propriété, de l'usage et/ou de la garde du bateau assuré dans le cadre de la navigation de plaisance, entendue comme la pratique de toutes activités d'agrément ou de loisir consistant à utiliser un bateau à titre privé, dans un but non lucratif. Les garanties énumérées à l'article 2-1 sont la Responsabilité civile, les Frais de retirement de l'épave du bateau, les Pertes, avaries, incendie et vandalisme subis par le bateau et Assistance maritime au bateau, le Vol - Tentative de vol, la Protection Juridique suite à accident, la Protection Juridique relative au bien assuré, l'Individuelle marine, les Objets et effets transportés et l'Assistance ; elles ne sont acquises que lorsqu'elles ont été souscrites et figurent aux Conditions particulières. Le contrat ne peut être souscrit que par un proposant admis au préalable comme sociétaire ; il est soumis au droit français et régi par le Code des assurances ainsi que par les lois et usages maritimes applicables à la navigation de plaisance.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Navigation de plaisance](../../branches/Navigation%20de%20plaisance.md) · Type : Conditions générales · Édition : 06/24
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Navigation de plaisance](<../../branches/Navigation de plaisance.md>) · Type : Conditions générales · Édition : 06/24
 
 ## Définitions
 
@@ -696,7 +696,7 @@ Conformément à l'article L.114-1 du Code des assurances, toutes actions dériv
 
 ## Documents liés
 
-- [Contrat « Navigation de Plaisance » - IPID](Contrat%20%C2%AB%20Navigation%20de%20Plaisance%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information, éd. 06-24
+- [Contrat « Navigation de Plaisance » - IPID](<Contrat « Navigation de Plaisance » - IPID.md>) - IPID / Fiche d'information, éd. 06-24
 
 ## Source & fidélité
 

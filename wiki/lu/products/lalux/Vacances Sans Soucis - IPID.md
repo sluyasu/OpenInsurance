@@ -44,7 +44,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) pour Vacances Sans Soucis, produit d'assurance voyage distribué sous la marque LALUX Assurances au Luxembourg. Le document décrit onze garanties réparties en cinq blocs - Assistance aux assurés (six prestations), Bagages, Accidents de voyage (décès et invalidité permanente), Maladie en cours de voyage et Frais d'annulation - accordées si elles sont stipulées dans les Conditions particulières. La couverture dépend de la zone souscrite : la zone 1 couvre toute l'Europe ainsi qu'une liste de pays définis, la zone 2 le monde entier, et la garantie Assistance ne joue qu'en cas de déplacement hors du Grand-Duché de Luxembourg. Les plafonds par prestation et par zone (5.000 EUR, 2.500 EUR, 1.250 EUR) sont imprimés dans la rubrique des exclusions à la couverture.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Voyage et assistance](<../../branches/Voyage et assistance.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

@@ -48,7 +48,7 @@ generated: true
 
 Conditions générales du contrat JURIPACTE de protection juridique de SMACL Assurances, diffusées sous le bandeau « Collectivités ». Le contrat garantit « les litiges liés à l'existence de la personne morale souscriptrice, aux activités qui sont les siennes et aux attributions qui lui sont dévolues par les textes en vigueur », dans ses rapports avec les autres collectivités ou l'État, avec les administrés, avec ses co-contractants et avec ses préposés. Il comprend un service d'information juridique par téléphone, la recherche obligatoire d'une solution amiable, puis, en cas d'échec, la défense des intérêts de l'assuré devant les juridictions avec prise en charge des honoraires d'avocats et d'experts et des frais d'auxiliaires de justice, dans la limite d'un tableau de plafonds contractuels annexé aux conditions particulières et au-delà d'un seuil d'intervention. Les montants sont dégressifs (100 %, 50 %, 25 %) pour les contentieux dits sériels. Vingt et une exclusions sont énumérées à l'article 7. Les garanties s'exercent en France métropolitaine, dans les DROM, dans l'Union européenne, dans les États frontaliers et dans le monde entier pour les déplacements n'excédant pas trente jours consécutifs ; le litige doit être déclaré dans les trente jours ouvrés, sous peine de déchéance.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Protection juridique](../../branches/Protection%20juridique.md) · Type : Conditions générales · Édition : 05/2025
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Protection juridique](<../../branches/Protection juridique.md>) · Type : Conditions générales · Édition : 05/2025
 
 ## Définitions
 
@@ -214,7 +214,7 @@ Conditions générales du contrat JURIPACTE de protection juridique de SMACL Ass
 
 ## Documents liés
 
-- [Juripacte - IPID](Juripacte%20-%20IPID.md) - IPID / Fiche d'information, éd. 02/2025
+- [Juripacte - IPID](<Juripacte - IPID.md>) - IPID / Fiche d'information, éd. 02/2025
 
 ## Source & fidélité
 

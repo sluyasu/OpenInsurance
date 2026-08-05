@@ -42,7 +42,7 @@ generated: true
 
 Le contrat d’assurance Capital Décès de Thélem prévoyance est un contrat de type vie entière qui permet à l’assuré de soutenir un ou plusieurs proches, même sans lien de parenté, en leur transmettant un capital exonéré des droits de succession. Le capital, choisi à la souscription de 7 000 € à 100 000 € par tranche de 1 000 €, est versé aux bénéficiaires désignés aux conditions particulières en cas de décès suite à accident ou maladie. Les garanties ne sont soumises à aucune sélection médicale, la cotisation est fixe dans le temps et payable sur 10 ans ou durant toute la vie de l’assuré. Les indemnités sont versées après application de délais d’attente : aucun pour un décès suite à accident, 2 ans pour un décès suite à maladie.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : IPID / Fiche d'information
+- Assureur : [Thélem assurances](<../../insurers/Thélem assurances.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 

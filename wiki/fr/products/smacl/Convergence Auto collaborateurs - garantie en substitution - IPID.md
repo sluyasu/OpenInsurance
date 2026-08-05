@@ -43,7 +43,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (DIPA/IPID) du contrat « Convergence Auto collaborateurs - garantie en substitution » de SMACL Assurances SA, destiné aux associations avec salariés et aux entreprises de l'économie sociale et solidaire. Le contrat garantit, en substitution du contrat personnel de l'assuré, le véhicule terrestre à moteur utilisé pour les besoins de la personne morale souscriptrice, notamment contre les conséquences des dommages matériels ou corporels causés à des tiers. L'indemnité est limitée à 100 000 000 €. Des garanties optionnelles (matériel et marchandises transportés, assistance, véhicule de remplacement) peuvent être souscrites.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 02/2025
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information · Édition : 02/2025
 
 ## Garanties
 
@@ -164,7 +164,7 @@ Garantie optionnelle, rubrique « GARANTIES OPTIONNELLES » / « Assistance et s
 
 ## Documents liés
 
-- [Convergence Auto collaborateurs - garantie complémentaire - IPID](Convergence%20Auto%20collaborateurs%20-%20garantie%20compl%C3%A9mentaire%20-%20IPID.md) - IPID / Fiche d'information, éd. 02/2025
+- [Convergence Auto collaborateurs - garantie complémentaire - IPID](<Convergence Auto collaborateurs - garantie complémentaire - IPID.md>) - IPID / Fiche d'information, éd. 02/2025
 
 ## Source & fidélité
 

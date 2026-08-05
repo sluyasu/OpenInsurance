@@ -46,7 +46,7 @@ generated: true
 
 Conditions générales de l'assurance Responsabilité civile du produit Business One de la Vaudoise, édition 01.01.2022. Le contrat couvre la responsabilité civile légale de l'entreprise assurée et de ses collaborateurs pour les lésions corporelles et les dégâts matériels causés à des tiers, au titre du risque installations, du risque exploitation et du risque produit. Il comprend des extensions nommées (frais de prévention de dommages, frais d'information en cas de rappel, atteintes à l'environnement, véhicules non soumis à obligation d'assurance, voyages d'affaires y compris aux USA et au Canada, protection juridique pénale et administrative, propriétaire d'immeuble, maître de l'ouvrage, locaux loués, clés et badges, chargement et déchargement, dossiers de clients, vestiaires) et une liste de 26 limitations générales de l'étendue de l'assurance à l'art. A3. Les sommes d'assurance et les franchises ne figurent pas dans les CGA: elles sont fixées dans la police.
 
-- Assureur : [Vaudoise Assurances](../../insurers/Vaudoise%20Assurances.md) · Branche : RC professionnelle · Type : Conditions générales · Édition : 01.01.2022
+- Assureur : [Vaudoise Assurances](<../../insurers/Vaudoise Assurances.md>) · Branche : RC professionnelle · Type : Conditions générales · Édition : 01.01.2022
 
 ## Définitions
 

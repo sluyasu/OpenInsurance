@@ -49,7 +49,7 @@ generated: true
 
 Note d'information du contrat Rassurcap Solutions, contrat individuel d'assurance décès de MAIF VIE, d'une durée d'un an renouvelable par tacite reconduction, régi par le Code des assurances (branche 20 : Vie-décès). Il garantit le versement d'un capital en cas de décès ou de perte totale et irréversible d'autonomie (PTIA) quelle qu'en soit la cause, accident ou maladie, sauf exclusions, avec un capital au choix du souscripteur d'un minimum de 20 000 €, et une garantie maladie grave apportant un capital supplémentaire de 5 000 €. Le capital décès peut être versé sous forme de capital, de rente viagère ou temporaire, ou selon un versement mixte famille. Le contrat prévoit également une garantie provisoire en cas d'accident, une avance de 4 000 € au conjoint/partenaire de Pacs et des services d'accompagnement.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : Conditions générales · Édition : 01/24
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : Conditions générales · Édition : 01/24
 
 ## Définitions
 
@@ -317,7 +317,7 @@ La prescription Toute action dérivant du présent contrat est prescrite pour de
 
 ## Documents liés
 
-- [Rassurcap Solutions - IPID](Rassurcap%20Solutions%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/2025
+- [Rassurcap Solutions - IPID](<Rassurcap Solutions - IPID.md>) - IPID / Fiche d'information, éd. 01/2025
 
 ## Source & fidélité
 

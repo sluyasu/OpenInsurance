@@ -42,7 +42,7 @@ generated: true
 
 Document d’exemples chiffrés de remboursements en euros pour le contrat d’assurance santé responsable MAAF VIVAZEN. Pour chaque acte (hospitalisation, soins courants, dentaire, optique, lentilles, chirurgie réfractive, aides auditives) il met en regard le tarif le plus souvent facturé, la base de remboursement de la sécurité sociale, le remboursement de l’assurance maladie obligatoire, puis le remboursement de la complémentaire et le reste à charge pour chacun des cinq niveaux Niv. 1 à Niv. 5. Le document précise que ces exemples ne peuvent se substituer aux documents contractuels qui seuls engagent l’organisme de complémentaire santé, et qu’ils s’appuient sur le Glossaire de l’assurance complémentaire santé édicté par l’UNOCAM.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit · Édition : Exemples chiffrés applicables à compter du 1er octobre 2026 susceptibles d’évoluer, à la hausse ou à la baisse, dans le temps.
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Fiche produit · Édition : Exemples chiffrés applicables à compter du 1er octobre 2026 susceptibles d’évoluer, à la hausse ou à la baisse, dans le temps.
 
 ## Définitions
 
@@ -774,10 +774,10 @@ Document d’exemples chiffrés de remboursements en euros pour le contrat d’a
 ## Documents liés
 
 - Édition courante de ce produit.
-- [COMPLÉMENTAIRE SANTÉ VIVAZEN (Niveaux 1 à 5) - Fiche](COMPL%C3%89MENTAIRE%20SANT%C3%89%20VIVAZEN%20%28Niveaux%201%20%C3%A0%205%29%20-%20Fiche.md) - Fiche produit, éd. Garanties en vigueur au 01/12/2025
-- [Contrat Santé Vivazen](Contrat%20Sant%C3%A9%20Vivazen%20%282%29.md) - Conditions générales, éd. 2026-01
-- [Contrat Santé Vivazen](Contrat%20Sant%C3%A9%20Vivazen.md) - Conditions générales, éd. 01/26
-- [VIVAZEN - IPID](VIVAZEN%20-%20IPID.md) - IPID / Fiche d'information, éd. 2025-12
+- [COMPLÉMENTAIRE SANTÉ VIVAZEN (Niveaux 1 à 5) - Fiche](<COMPLÉMENTAIRE SANTÉ VIVAZEN (Niveaux 1 à 5) - Fiche.md>) - Fiche produit, éd. Garanties en vigueur au 01/12/2025
+- [Contrat Santé Vivazen](<Contrat Santé Vivazen (2).md>) - Conditions générales, éd. 2026-01
+- [Contrat Santé Vivazen](<Contrat Santé Vivazen.md>) - Conditions générales, éd. 01/26
+- [VIVAZEN - IPID](<VIVAZEN - IPID.md>) - IPID / Fiche d'information, éd. 2025-12
 
 ## Source & fidélité
 

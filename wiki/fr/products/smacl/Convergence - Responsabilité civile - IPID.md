@@ -46,7 +46,7 @@ generated: true
 
 Document d'information (IPID) de l'« Assurance Responsabilités des associations et des entreprises de l'économie sociale et solidaire », produit « Convergence - Responsabilité civile », porté par SMACL Assurances SA (RCS Niort n° 833 817 224). Le contrat, destiné aux associations avec salariés, garantit les conséquences pécuniaires de la responsabilité encourue par l'assuré en raison des dommages causés aux tiers dans le cadre des activités assurées, l'indemnité étant limitée à 8 000 000 €. Sont systématiquement prévues la responsabilité civile et la défense des droits (dommages corporels, matériels à hauteur de 3 000 000 €, immatériels non consécutifs à hauteur de 800 000 €, faute inexcusable ou intentionnelle à hauteur de 2 000 000 €, atteinte accidentelle à l'environnement, biens confiés, biens des salariés), la défense pénale et recours et l'assistance aux personnes. Cinq garanties optionnelles sont proposées, dont la responsabilité vestiaire, régisseur et la responsabilité civile professionnelle liée à la vente de voyages ou séjours.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : IPID / Fiche d'information · Édition : 02/2025
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : IPID / Fiche d'information · Édition : 02/2025
 
 ## Garanties
 

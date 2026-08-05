@@ -44,7 +44,7 @@ generated: true
 
 Document d'une page fixant les conditions d'octroi du Bonus Booster Nouveau Contrat Matmut & Co, avantage commercial applicable à la souscription d'un Nouveau Contrat Multirisques « Auto 4D Distinguo & Co » par un souscripteur en usage Actif, Actif « éco-mobilité », Privé ou Retraité produisant un relevé d'informations d'une compagnie extérieure au Groupe Matmut. Selon le coefficient réglementaire de départ (0,68 à 0,50) et l'ancienneté du bonus de 50 %, le coefficient appliqué à la souscription est porté de 0,60 jusqu'à 0,36. L'avantage s'applique sur la cotisation hors taxes des garanties Responsabilité civile et Dommages au véhicule assuré ; le document est valable jusqu'au 31/12/2026.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions tarifaires · Édition : 01-26
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions tarifaires · Édition : 01-26
 
 ## Garanties
 
@@ -117,7 +117,7 @@ Avantage commercial permettant de bénéficier, dans les conditions visées au �
 ## Documents liés
 
 - Extension / option du produit : **Contrat Multirisques « Auto 4D Distinguo & Co »**
-- [Bonus Booster Nouveau Contrat Matmut & Co (usage Professionnel) - Tarifs](Bonus%20Booster%20Nouveau%20Contrat%20Matmut%20%26%20Co%20%28usage%20Professionnel%29%20-%20Tarifs.md) - Conditions tarifaires, éd. 01-26
+- [Bonus Booster Nouveau Contrat Matmut & Co (usage Professionnel) - Tarifs](<Bonus Booster Nouveau Contrat Matmut & Co (usage Professionnel) - Tarifs.md>) - Conditions tarifaires, éd. 01-26
 
 ## Source & fidélité
 

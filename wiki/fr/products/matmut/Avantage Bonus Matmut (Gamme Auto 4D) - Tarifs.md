@@ -43,7 +43,7 @@ generated: true
 
 Document d'une page énonçant les conditions d'octroi de l'Avantage Bonus Matmut pour la gamme Auto 4D. Le Bonus Matmut est présenté comme un avantage commercial permettant au coefficient de réduction d'évoluer au-delà du bonus maximum réglementaire de 50 % (coefficient 0,50) jusqu'à 65 % (coefficient 0,35), sans remettre en cause les règles des articles 4 et 5 de l'Annexe à l'article A. 121-1 du Code des assurances. Il décrit qui peut en bénéficier, les véhicules visés, l'ancienneté de bonus à 50 % sans sinistre responsable exigée (5 ou 6 ans selon l'usage) et l'assiette de cotisation sur laquelle l'avantage s'applique. Le document ne contient aucun texte de garantie : il porte sur la tarification, pas sur la couverture.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions tarifaires · Édition : 01/26
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions tarifaires · Édition : 01/26
 
 ## Définitions
 

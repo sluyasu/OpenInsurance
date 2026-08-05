@@ -44,7 +44,7 @@ generated: true
 
 Insurance Product Information Document (IPID) for the accident insurance easyPROTECT-Accident, presented under the brand "LALUX Assurances". It covers accidents suffered by the insured person in their private life, on the journey to or from work and while doing sport, with accidents in the exercise of the profession available in addition. Two packages are offered: a COMFORT PACKAGE (FLAT RATE) with death, disability and reimbursement of medical expenses, and a PERFORMANCE PACKAGE (INDEMNITY) compensating death and physical injuries under the usual rules of Luxembourg common law; home assistance is an optional guarantee of both packages. Cover applies throughout Europe and, by extension, worldwide for stays outside Europe not exceeding three months.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Assurance accidents](../../branches/Assurance%20accidents.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Assurance accidents](<../../branches/Assurance accidents.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -207,7 +207,7 @@ Optional guarantee of the Comfort and Performance packages: Housekeeping service
 
 ## Documents liés
 
-- [easyPROTECT-Accident - IPID](easyPROTECT-Accident%20-%20IPID.md) - IPID / Fiche d'information
+- [easyPROTECT-Accident - IPID](<easyPROTECT-Accident - IPID.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

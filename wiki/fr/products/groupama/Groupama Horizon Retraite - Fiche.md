@@ -42,7 +42,7 @@ generated: true
 
 Document d'informations clés (DIC/PRIIPs) de Groupama Horizon Retraite, produit d'investissement assuré par Groupama Gan Vie. Il s'agit d'un contrat d'assurance vie de type multisupport, libellé en unités de compte et en euros, contrat d'assurance de groupe à adhésion facultative souscrit auprès de Groupama Gan Vie par l'Association A.N.A.D.A.V. au profit de ses adhérents, à capital différé avec contre-assurance et sortie en rente viagère ou en capital retraite. Le document décrit l'objectif du produit, les investisseurs visés, la prestation en cas de décès et la garantie plancher optionnelle, l'indicateur de risque, les coûts et leur incidence, la durée de détention recommandée (8 ans), le délai de renonciation et la procédure de réclamation.
 
-- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : [Retraite supplémentaire](../../branches/Retraite%20suppl%C3%A9mentaire.md) · Type : Fiche produit · Édition : 01/06/2026
+- Assureur : [Groupama](<../../insurers/Groupama.md>) · Branche : [Retraite supplémentaire](<../../branches/Retraite supplémentaire.md>) · Type : Fiche produit · Édition : 01/06/2026
 
 ## Définitions
 
@@ -124,7 +124,7 @@ Le produit comporte une Garantie plancher optionnelle destinée à compléter la
 
 ## Documents liés
 
-- [Groupama Horizon Retraite - Tarifs](Groupama%20Horizon%20Retraite%20-%20Tarifs.md) - Conditions tarifaires
+- [Groupama Horizon Retraite - Tarifs](<Groupama Horizon Retraite - Tarifs.md>) - Conditions tarifaires
 
 ## Source & fidélité
 

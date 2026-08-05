@@ -46,7 +46,7 @@ generated: true
 
 Convention spéciale « Tous risques expositions clou à clou » du contrat Convergence de SMACL Assurances, destinée au marché associatif. Elle a pour objet l’indemnisation des dommages matériels subis par les objets référencés lors d’une exposition et désignés aux conditions particulières, et couvre les évènements des conventions spéciales Dommages aux biens ainsi que les risques de destruction, détérioration, avarie ou disparition accidentelle imprévisible ou fortuite des objets présentés à l’intérieur d’un bâtiment. La garantie est étendue « clou à clou », du départ du lieu d’origine et de la prise en charge par l’assuré jusqu’au retour au même point, montage, démontage, chargement, déchargement et transport compris. Elle s’exerce uniquement en France métropolitaine et dans les départements et régions d’outre-mer, l’indemnité étant déterminée à dire d’expert dans la limite du montant figurant au contrat, sous franchise des conditions particulières et sous règle proportionnelle de capitaux. Le texte complète les conditions générales et les conventions spéciales Dommages aux biens Convergence, qui ne sont pas reproduites ici.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : Marchandises transportées · Type : Conditions générales · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : Marchandises transportées · Type : Conditions générales · Édition : 01/2024
 
 ## Définitions
 

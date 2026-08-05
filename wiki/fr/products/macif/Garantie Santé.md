@@ -43,7 +43,7 @@ generated: true
 
 Note d'information détaillée du contrat Garantie Santé, complémentaire santé individuelle distribuée par la Macif et assurée par Apivia Macif Mutuelle. WORK IN PROGRESS.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : 2023-01
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Conditions générales · Édition : 2023-01
 
 ## Lacunes d'extraction
 
@@ -52,9 +52,9 @@ Note d'information détaillée du contrat Garantie Santé, complémentaire sant�
 
 ## Documents liés
 
-- [contrat GARANTIE SANTÉ - IPID](contrat%20GARANTIE%20SANT%C3%89%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/2022
-- [contrat GARANTIE SANTÉ - IPID](contrat%20GARANTIE%20SANT%C3%89%20-%20IPID%20%282%29.md) - IPID / Fiche d'information, éd. 09/2019
-- [Garantie Santé - Fiche](Garantie%20Sant%C3%A9%20-%20Fiche.md) - Fiche produit, éd. 2022-01-01
+- [contrat GARANTIE SANTÉ - IPID](<contrat GARANTIE SANTÉ - IPID.md>) - IPID / Fiche d'information, éd. 01/2022
+- [contrat GARANTIE SANTÉ - IPID](<contrat GARANTIE SANTÉ - IPID (2).md>) - IPID / Fiche d'information, éd. 09/2019
+- [Garantie Santé - Fiche](<Garantie Santé - Fiche.md>) - Fiche produit, éd. 2022-01-01
 
 ## Source & fidélité
 

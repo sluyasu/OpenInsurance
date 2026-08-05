@@ -43,7 +43,7 @@ generated: true
 
 Conditions générales de l'assurance « Objets de valeur en propriété privée » de la VAUDOISE GÉNÉRALE, Compagnie d'Assurances SA, édition 01.03.2015. Sont assurés les objets désignés dans la police (bijoux, fourrures, instruments de musique, tableaux), propriété du preneur d'assurance et des membres de sa famille faisant ménage commun avec lui, contre les dommages causés par le vol, le détroussement, la perte, la disparition, la destruction ou la détérioration. L'indemnité correspond à la somme qu'exige l'acquisition d'une chose nouvelle au moment du sinistre, au plus la somme assurée convenue pour l'objet en cause, sous déduction d'une franchise de 10% de l'indemnité, au minimum CHF 200.- par événement, en cas de vol, de détroussement, de perte ou de disparition. Le document comprend l'information au preneur d'assurance au sens de l'art. 3 LCA (pages 3 à 5) et les conditions contractuelles A à E (pages 6 à 10).
 
-- Assureur : [Vaudoise Assurances](../../insurers/Vaudoise%20Assurances.md) · Branche : Assurance ménage · Type : Conditions générales · Édition : 01.03.2015
+- Assureur : [Vaudoise Assurances](<../../insurers/Vaudoise Assurances.md>) · Branche : Assurance ménage · Type : Conditions générales · Édition : 01.03.2015
 
 > ⚠️ **Édition ancienne** : 01.03.2015, soit 11 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 

@@ -43,7 +43,7 @@ generated: true
 
 Document d'une page fixant les conditions d'octroi de l'« Avantage Bonus Matmut Famille » attaché au contrat d'assurance auto Multirisques « Auto 4D ». L'avantage permet à l'enfant de l'assuré du Groupe Matmut ou de son conjoint de bénéficier, lors de la souscription d'un premier contrat « Auto 4D » auprès du Groupe Matmut, du report du bonus de ses parents dans la limite de 35 % (coefficient de réduction maximum de 0,65). Il est subordonné à des conditions tenant à l'enfant (personne physique, moins de 28 ans, sinistralité) et à des conditions de fidélisation des parents (ancienneté de 12 mois ou détention d'au moins deux contrats). Le document précise l'assiette de l'avantage, sa date de validité et les cas de suppression.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions tarifaires · Édition : 01/26
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions tarifaires · Édition : 01/26
 
 ## Définitions
 

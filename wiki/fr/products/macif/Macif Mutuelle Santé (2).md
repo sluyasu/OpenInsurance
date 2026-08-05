@@ -46,7 +46,7 @@ generated: true
 
 Note d'information détaillée du contrat MACIF MUTUELLE SANTÉ, complémentaire santé individuelle prenant la forme d'un contrat collectif à adhésion facultative, assuré par Apivia Macif Mutuelle (Livre II du Code de la mutualité) et distribué par la Macif. Le contrat est solidaire et responsable au sens de l'article L.871-1 du Code de la sécurité sociale et intègre l'offre 100 % Santé. Il se compose d'une formule "Soins" (PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE, EXCELLENCE) complétée d'un niveau "Équipements" (niveau de base sans numéro, 1, 2, 3, EXCELLENCE), soit 12 combinaisons possibles. Les garanties d'assistance (Macif Assistance) sont assurées par IMA Assurances.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : 01/24
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Conditions générales · Édition : 01/24
 
 ## Définitions
 
@@ -870,13 +870,13 @@ Toute action dérivant du contrat est prescrite par un délai de 2 ans à partir
 
 ## Documents liés
 
-- ⚠️ Édition remplacée par une version plus récente : [MACIF MUTUELLE SANTÉ](MACIF%20MUTUELLE%20SANT%C3%89.md)
-- [contrat MACIF MUTUELLE SANTÉ - IPID](contrat%20MACIF%20MUTUELLE%20SANT%C3%89%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/26
-- [contrat MACIF MUTUELLE SANTÉ - IPID](contrat%20MACIF%20MUTUELLE%20SANT%C3%89%20-%20IPID%20%282%29.md) - IPID / Fiche d'information, éd. 10/22
-- [Macif Mutuelle Santé - Fiche](Macif%20Mutuelle%20Sant%C3%A9%20-%20Fiche.md) - Fiche produit, éd. Garanties en vigueur au 1er janvier 2026
-- [MACIF MUTUELLE SANTÉ](MACIF%20MUTUELLE%20SANT%C3%89.md) - Conditions générales, éd. 06/2026 (Garanties en vigueur au 1er juin 2026)
-- [Macif Mutuelle Santé - Fiche](Macif%20Mutuelle%20Sant%C3%A9%20-%20Fiche%20%282%29.md) - Fiche produit, éd. 06/26
-- [Macif Mutuelle Santé - Macif Hospitalisation - Fiche](Macif%20Mutuelle%20Sant%C3%A9%20-%20Macif%20Hospitalisation%20-%20Fiche.md) - Fiche produit, éd. 01/06/2026
+- ⚠️ Édition remplacée par une version plus récente : [MACIF MUTUELLE SANTÉ](<MACIF MUTUELLE SANTÉ.md>)
+- [contrat MACIF MUTUELLE SANTÉ - IPID](<contrat MACIF MUTUELLE SANTÉ - IPID.md>) - IPID / Fiche d'information, éd. 01/26
+- [contrat MACIF MUTUELLE SANTÉ - IPID](<contrat MACIF MUTUELLE SANTÉ - IPID (2).md>) - IPID / Fiche d'information, éd. 10/22
+- [Macif Mutuelle Santé - Fiche](<Macif Mutuelle Santé - Fiche.md>) - Fiche produit, éd. Garanties en vigueur au 1er janvier 2026
+- [MACIF MUTUELLE SANTÉ](<MACIF MUTUELLE SANTÉ.md>) - Conditions générales, éd. 06/2026 (Garanties en vigueur au 1er juin 2026)
+- [Macif Mutuelle Santé - Fiche](<Macif Mutuelle Santé - Fiche (2).md>) - Fiche produit, éd. 06/26
+- [Macif Mutuelle Santé - Macif Hospitalisation - Fiche](<Macif Mutuelle Santé - Macif Hospitalisation - Fiche.md>) - Fiche produit, éd. 01/06/2026
 
 ## Source & fidélité
 

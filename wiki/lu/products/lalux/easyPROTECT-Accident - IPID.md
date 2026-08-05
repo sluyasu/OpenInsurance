@@ -46,7 +46,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (DIPA) relatif à easyPROTECT-Accident, une assurance de personne couvrant l'assuré et sa famille contre les accidents de la vie privée, du trajet vers et du lieu de travail et de la pratique sportive. Le produit se décline en deux formules : Confort (indemnisation forfaitaire : décès, invalidité, remboursement des frais médicaux) et Performance (indemnisation selon le droit commun luxembourgeois : décès et lésions corporelles). Les accidents survenus dans l'exercice de la profession peuvent être couverts en complément, et une garantie optionnelle d'assistance à domicile est proposée dans les deux formules. Les garanties valent dans toute l'Europe et, par extension, dans le monde entier pour les séjours hors Europe n'excédant pas trois mois.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Assurance accidents](../../branches/Assurance%20accidents.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Assurance accidents](<../../branches/Assurance accidents.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -198,7 +198,7 @@ Service d'aide ménagère (repassage, ménage, préparation des repas) ; service
 
 ## Documents liés
 
-- [easyPROTECT-Accident - IPID - EN](easyPROTECT-Accident%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+- [easyPROTECT-Accident - IPID - EN](<easyPROTECT-Accident - IPID - EN.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

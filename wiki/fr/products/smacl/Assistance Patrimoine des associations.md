@@ -44,7 +44,7 @@ generated: true
 
 Convention d’assistance annexée au contrat d’assurance Dommages aux biens des associations, dont les prestations sont mises en œuvre par SMACL Assistance, groupement d’intérêt économique immatriculé au RCS de Niort sous le numéro 433.240.991, pour le compte de SMACL Assurances désignée comme l’assureur. Elle couvre, pour les locaux assurés situés en France, l’envoi et la prise en charge d’un prestataire en cas de sinistre, le gardiennage du local sinistré, le déménagement et l’entreposage du mobilier lorsque les locaux deviennent inutilisables, ainsi que l’assistance en cas de panne domestique. SMACL Assistance intervient 7 j / 7, 24 h / 24 sur appel des bénéficiaires.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : Conditions générales · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : Conditions générales · Édition : 01/2024
 
 ## Définitions
 
@@ -168,7 +168,7 @@ Conformément à l’article L.114-1 du Code, toutes actions dérivant d’un co
 
 - Édition courante de ce produit.
 - Extension / option du produit : **contrat Dommages aux biens**
-- [Assistance Patrimoine des associations](Assistance%20Patrimoine%20des%20associations%20%282%29.md) - Conditions générales, éd. 01/2024
+- [Assistance Patrimoine des associations](<Assistance Patrimoine des associations (2).md>) - Conditions générales, éd. 01/2024
 
 ## Source & fidélité
 

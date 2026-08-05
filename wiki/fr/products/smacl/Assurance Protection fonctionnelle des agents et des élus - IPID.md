@@ -43,7 +43,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (DIPA) du produit Promut de SMACL Assurances, portant sur l'assurance Protection fonctionnelle des agents et des élus. Le contrat prend en charge le coût des obligations de protection fonctionnelle des agents et des élus mises à la charge de la collectivité souscriptrice, avec cinq garanties systématiquement prévues et plafonnées (protection juridique 75 000 €, condamnations civiles 2 000 000 €, frais de protection 20 000 €, frais d'indemnisation 200 000 €, reconstitution d'image 5 500 €) ainsi qu'une assistance psychologique et une information juridique. Sont notamment exclus la faute intentionnelle ou dolosive, la faute personnelle détachable du service et les sinistres opposant l'agent ou l'élu à la personne morale souscriptrice. Le contrat est conclu pour une durée ferme et les cotisations sont payables d'avance annuellement par virement.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Protection juridique](../../branches/Protection%20juridique.md) · Type : IPID / Fiche d'information · Édition : 03/2020
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Protection juridique](<../../branches/Protection juridique.md>) · Type : IPID / Fiche d'information · Édition : 03/2020
 
 ## Garanties
 
@@ -158,7 +158,7 @@ trente jours consécutifs.
 
 ## Documents liés
 
-- [PROMUT](PROMUT.md) - Conditions générales, éd. 05/2025
+- [PROMUT](<PROMUT.md>) - Conditions générales, éd. 05/2025
 
 ## Source & fidélité
 

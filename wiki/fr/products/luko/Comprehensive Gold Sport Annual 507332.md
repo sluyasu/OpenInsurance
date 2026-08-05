@@ -45,7 +45,7 @@ generated: true
 
 Notice d'information et Conditions générales d'un contrat d'assurance voyage annuel « Comprehensive Gold Sport Annual 507332 » (édition 03 2025) distribué en France, dont l'assureur est ALLIANZ DIRECT VERSICHERUNGS-AG (Munich, contrôlée par la BaFin) agissant par sa succursale française de Saint-Ouen-sur-Seine, elle-même contrôlée par l'ACPR. Le contrat est souscrit pour un (1) an renouvelable par tacite reconduction et couvre des voyages d'une durée maximale de soixante (60) jours consécutifs, pour des personnes de moins de quatre-vingt-dix-neuf (99) ans ayant leur résidence principale en France. Il comprend les garanties Annulation du voyage (8 000 €, franchise 5 %), Interruption ou prolongation (8 000 €), Voyage retardé (1 500 €), Dommages aux bagages (3 000 €), Retard de bagages, Frais médicaux d'urgence à l'étranger (300 000 €), Assistance médicale (frais réels, recherche et secours 10 000 €), Responsabilité civile (4 500 000 €), Individuelle accident (25 000 €), les garanties Sport (activité manquée, équipement sportif, équipement de location, recherche et secours, 500 € à 5 000 €), Téléconsultation (10 téléconsultations), Frais juridiques (3 000 €), Documents d'identité et clés (400 €) et Rachat de franchise (1 000 €). La gestion des sinistres et de l'assistance est assurée par AP Solutions GmbH succursale française.
 
-- Assureur : [Luko](../../insurers/Luko.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : Conditions générales · Édition : 03 2025
+- Assureur : [Luko](<../../insurers/Luko.md>) · Branche : [Voyage et assistance](<../../branches/Voyage et assistance.md>) · Type : Conditions générales · Édition : 03 2025
 
 ## Définitions
 
@@ -621,7 +621,7 @@ Les dispositions relatives à la prescription des actions dérivant du présent 
 
 ## Documents liés
 
-- [Comprehensive Gold Long Trip 507655](Comprehensive%20Gold%20Long%20Trip%20507655.md) - Conditions générales, éd. 09 2025
+- [Comprehensive Gold Long Trip 507655](<Comprehensive Gold Long Trip 507655.md>) - Conditions générales, éd. 09 2025
 
 ## Source & fidélité
 

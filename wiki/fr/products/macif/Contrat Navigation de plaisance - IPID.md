@@ -43,7 +43,7 @@ generated: true
 
 Document d’information (DIPA/IPID) du Contrat Navigation de plaisance de Macif, société d’assurance mutuelle à cotisations variables (SIREN n° 781 452 511), entreprise régie par le Code des assurances. Le contrat couvre la responsabilité civile de l’assuré du fait du bateau utilisé dans le cadre de la navigation de plaisance à titre privé et dans un but non lucratif, offre des services d’assistance au bateau et aux personnes transportées et garantit la protection des droits (défense et recours, protection juridique). Trois types d’embarcations sont assurables : le véhicule nautique à moteur de moins de 4 mètres de long, la planche à voile ou le flysurf/kitesurf, et le bateau ou navire de mer ou de navigation intérieure. En option, le contrat peut couvrir les dommages matériels subis par le bateau (Protection du bateau), les dommages corporels de l’assuré (Individuelle marine) et les objets et effets transportés.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Navigation de plaisance](../../branches/Navigation%20de%20plaisance.md) · Type : IPID / Fiche d'information · Édition : 10/18
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Navigation de plaisance](<../../branches/Navigation de plaisance.md>) · Type : IPID / Fiche d'information · Édition : 10/18
 
 > ⚠️ **Édition ancienne** : 10/18, soit 8 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 

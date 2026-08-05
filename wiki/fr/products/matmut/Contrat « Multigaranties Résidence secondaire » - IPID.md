@@ -43,7 +43,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du contrat « Multigaranties Résidence secondaire » de la Matmut, en assurance habitation. Le contrat garantit des biens immobiliers et mobiliers en lien avec une résidence secondaire occupée en qualité de locataire ou de propriétaire, en dehors de toute activité professionnelle, et garantit la Responsabilité civile Immeuble des assurés. Les garanties en inclusion couvrent notamment la Responsabilité civile Immeuble jusqu'à 100 000 000 €, la Protection Juridique suite à accident, l'incendie, les événements climatiques et catastrophes naturelles, le vol, le bris de glaces et l'Assistance Urgence. Des garanties optionnelles peuvent être ajoutées pour répondre à des besoins spécifiques ou renforcer la protection.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information · Édition : 12-23
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : IPID / Fiche d'information · Édition : 12-23
 
 ## Garanties
 

@@ -45,7 +45,7 @@ generated: true
 
 Conditions Générales du contrat auto de Direct Assurance (marque d'Avanssur, l'assureur étant AXA France IARD et l'assisteur AXA Assistance France Assurances), déclinées en quatre formules : Tiers, Tiers Maxi, Tous Risques et Tous Risques Maxi. Le socle commun à toutes les formules comprend la Responsabilité civile (Dommages causés à Autrui), la Défense Pénale et Recours, l'Assistance 24H/24 et 7j/7, le véhicule de prêt pendant les réparations dans un garage partenaire et la Garantie Personnelle du Conducteur ; les formules supérieures ajoutent notamment le Bris de glace, l'Incendie, le Vol, les Catastrophes naturelles et technologiques, les Attentats, la Tempête, les Dommages tous accidents et le Contenu du véhicule. Des options sont proposées : Protection personnelle (garantie du conducteur portée à 1 500 000 €), Assistance étendue 0 km, Véhicule de prêt étendu, Zéro franchise Bris de glace et Leasing – Perte financière. Le document contient également le Guide de vos garanties (sans valeur contractuelle), les tableaux des plafonds et franchises, la clause de réduction-majoration et un Lexique.
 
-- Assureur : [Direct Assurance](../../insurers/Direct%20Assurance.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : 02.26
+- Assureur : [Direct Assurance](<../../insurers/Direct Assurance.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions générales · Édition : 02.26
 
 ## Définitions
 

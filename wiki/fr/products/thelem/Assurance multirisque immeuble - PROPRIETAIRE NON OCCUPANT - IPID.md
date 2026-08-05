@@ -47,7 +47,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de l’assurance multirisque immeuble « propriétaire non occupant » de Thélem assurances. Le contrat garantit les bâtiments loués à usage d’habitation ou mixtes (habitation et professionnels) d’une superficie inférieure à 3 000 m², le contenu mobilier des parties communes, ainsi que les responsabilités civiles du propriétaire non-occupant. Les garanties systématiquement prévues couvrent les dommages aux bâtiments (incendie, explosions, dommages électriques et électroniques, catastrophes technologiques, attentats, événements climatiques, dégâts des eaux et gel, vol et vandalisme, bris de glaces, frais additionnels) et les responsabilités civiles (propriétaire d’immeuble, vis-à-vis du locataire, des voisins ou des tiers, défense pénale et recours suite à accident). Des garanties optionnelles (émeutes et vandalisme extérieur, augmentation du plafond eaux de ruissellement, renonciation à recours contre les locataires) peuvent être souscrites.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information · Édition : juillet 2023
+- Assureur : [Thélem assurances](<../../insurers/Thélem assurances.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : IPID / Fiche d'information · Édition : juillet 2023
 
 ## Définitions
 
@@ -212,7 +212,7 @@ Garantie optionnelle : Renonciation à recours contre les locataires ou occupant
 
 ## Documents liés
 
-- [Assurance multirisque immeuble (COPROPRIETE) - IPID](Assurance%20multirisque%20immeuble%20%28COPROPRIETE%29%20-%20IPID.md) - IPID / Fiche d'information, éd. août 2025
+- [Assurance multirisque immeuble (COPROPRIETE) - IPID](<Assurance multirisque immeuble (COPROPRIETE) - IPID.md>) - IPID / Fiche d'information, éd. août 2025
 
 ## Source & fidélité
 

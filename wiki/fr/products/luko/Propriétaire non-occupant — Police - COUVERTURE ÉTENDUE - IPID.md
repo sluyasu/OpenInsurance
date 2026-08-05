@@ -45,7 +45,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de deux pages présentant l’assurance Propriétaire non-occupant et assistance distribuée sous la marque Luko, dans sa formule « COUVERTURE ÉTENDUE ». Le produit est destiné à protéger les logements à usage d’habitation non occupés par leur propriétaire contre les dommages aux biens ainsi que les frais et pertes subies, et couvre également la responsabilité civile de l’assuré en sa qualité de propriétaire bailleur. Les garanties de base couvrent notamment l’incendie, les dommages causés par les services de secours, les événements climatiques, les dégâts des eaux, les catastrophes naturelles et technologiques, les attentats, le vol et le vandalisme, le bris des vitres et des appareils sanitaires, le dommage électrique et les frais et pertes, complétés par des prestations d’assistance liées à la gestion locative. Le risque est porté par Allianz Direct Versicherungs-AG succursale France (Luko) et l’assistance par Opteven Assurances.
 
-- Assureur : [Luko](../../insurers/Luko.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information
+- Assureur : [Luko](<../../insurers/Luko.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -230,7 +230,7 @@ Assistance : retour prématuré en cas de sinistre (prise en charge du transport
 
 ## Documents liés
 
-- [Propriétaire non-occupant — Police - COUVERTURE MINIMUM LÉGAL - IPID](Propri%C3%A9taire%20non-occupant%20%E2%80%94%20Police%20-%20COUVERTURE%20MINIMUM%20L%C3%89GAL%20-%20IPID.md) - IPID / Fiche d'information
+- [Propriétaire non-occupant — Police - COUVERTURE MINIMUM LÉGAL - IPID](<Propriétaire non-occupant — Police - COUVERTURE MINIMUM LÉGAL - IPID.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

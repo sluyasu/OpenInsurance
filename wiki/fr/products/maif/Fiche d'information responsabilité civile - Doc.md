@@ -40,7 +40,7 @@ generated: true
 
 Fiche d'information réglementaire remise par MAIF en application de l'article L112-2 du Code des assurances et conforme à l'annexe de l'article A112 du même code. Elle n'est pas un contrat : elle explique le fonctionnement dans le temps de la garantie responsabilité civile et précise que la garantie du contrat MAIF est déclenchée par le fait dommageable. Elle définit les notions de fait dommageable, de réclamation et de période de validité de la garantie, et indique à quel assureur la déclaration de sinistre doit être adressée.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Responsabilité civile vie privée](../../branches/Responsabilit%C3%A9%20civile%20vie%20priv%C3%A9e.md) · Type : Document · Édition : 10/2021
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Responsabilité civile vie privée](<../../branches/Responsabilité civile vie privée.md>) · Type : Document · Édition : 10/2021
 
 ## Définitions
 

@@ -136,10 +136,10 @@ Quatre absences sont délibérées, chacune vérifiée dans le texte :
 ## Assureurs
 
 <!-- BEGIN GENERATED: insurers -->
-- [Baloise Luxembourg](insurers/Baloise%20Luxembourg.md) (34 documents)
-- [DKV Luxembourg](insurers/DKV%20Luxembourg.md) (36 documents)
-- [Foyer Global Health](insurers/Foyer%20Global%20Health.md) (34 documents)
-- [lalux](insurers/lalux.md) (90 documents)
+- [Baloise Luxembourg](<insurers/Baloise Luxembourg.md>) (34 documents)
+- [DKV Luxembourg](<insurers/DKV Luxembourg.md>) (36 documents)
+- [Foyer Global Health](<insurers/Foyer Global Health.md>) (34 documents)
+- [lalux](<insurers/lalux.md>) (90 documents)
 <!-- END GENERATED -->
 
 **Foyer**, premier groupe de détail du pays, est en découverte seule. Son `robots.txt` ferme les

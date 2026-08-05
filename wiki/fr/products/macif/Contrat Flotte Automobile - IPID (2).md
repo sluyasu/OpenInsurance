@@ -43,7 +43,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (DIPA/IPID) du Contrat Flotte Automobile de la Macif, présenté sous le titre « Assurance des Professionnels et des Associations ». Le contrat a pour objet de garantir le souscripteur contre les conséquences des dommages matériels et corporels causés à des tiers (responsabilité civile automobile obligatoire) et peut accorder des garanties complémentaires couvrant les dommages matériels subis par le véhicule assuré utilisé dans le cadre d'activités sociales ou professionnelles. Trois garanties sont systématiquement prévues au contrat (responsabilité civile automobile, responsabilité civile de fonctionnement, défense et recours) ; les dommages au véhicule et treize garanties optionnelles complètent l'offre.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 10/18
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information · Édition : 10/18
 
 ## Garanties
 
@@ -285,8 +285,8 @@ Les dommages aux accessoires et contenu privé du véhicule
 
 ## Documents liés
 
-- ⚠️ Édition remplacée par une version plus récente : [Contrat Flotte Automobile - IPID](Contrat%20Flotte%20Automobile%20-%20IPID.md)
-- [Contrat Flotte Automobile - IPID](Contrat%20Flotte%20Automobile%20-%20IPID.md) - IPID / Fiche d'information, éd. 06/19
+- ⚠️ Édition remplacée par une version plus récente : [Contrat Flotte Automobile - IPID](<Contrat Flotte Automobile - IPID.md>)
+- [Contrat Flotte Automobile - IPID](<Contrat Flotte Automobile - IPID.md>) - IPID / Fiche d'information, éd. 06/19
 
 ## Source & fidélité
 

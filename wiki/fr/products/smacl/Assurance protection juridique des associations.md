@@ -45,7 +45,7 @@ generated: true
 
 Conditions générales de l'assurance protection juridique des associations de SMACL Assurances, société d'assurance mutuelle. Le contrat associe un service d'information juridique par téléphone (chapitre 2) et une garantie protection juridique (chapitre 3) qui prend en charge la recherche d'une solution amiable puis, en cas d'échec, la défense des intérêts de l'assuré devant les juridictions, dans quatre domaines de droit limitativement énumérés : consommation, administration, protection pénale et protection des locaux. La prise en charge des frais et honoraires est limitée par un barème annexé (plafonds par juridiction, de 100 € à 3 800 €) et par un plafond global de 25 000 € par litige, avec des seuils d'intervention de 200 € TTC à l'amiable et 500 € TTC en judiciaire. L'assuré a le libre choix de son avocat et peut recourir à une procédure d'arbitrage en cas de désaccord avec l'assureur.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Protection juridique](../../branches/Protection%20juridique.md) · Type : Conditions générales · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Protection juridique](<../../branches/Protection juridique.md>) · Type : Conditions générales · Édition : 01/2024
 
 ## Définitions
 

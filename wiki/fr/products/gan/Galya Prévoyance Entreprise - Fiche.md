@@ -44,7 +44,7 @@ generated: true
 
 Tableau d’exemples de prise en charge au 01/01/2025 des garanties incapacité / invalidité / décès pour les actifs salariés du secteur privé, portant le nom de produit « Galya Prévoyance Entreprise ». Le document met en regard, colonne par colonne, le régime obligatoire (Sécurité sociale), les obligations légales de l’employeur, les obligations éventuelles de la convention collective, la garantie du contrat collectif de prévoyance souscrit par l’employeur, et le total. Il traite le capital décès, la rente éducation, les frais d’obsèques, l’invalidité permanente et l’incapacité de travail, sur un profil type chiffré (salarié de 36 ans, salaire brut de référence 24 000 €). Il ne s’agit pas d’un document contractuel : « Ils ne peuvent se substituer aux documents contractuels qui seuls engagent votre employeur et/ou votre organisme assureur. »
 
-- Assureur : [Gan Assurances](../../insurers/Gan%20Assurances.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : Fiche produit · Édition : 01/01/2025
+- Assureur : [Gan Assurances](<../../insurers/Gan Assurances.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : Fiche produit · Édition : 01/01/2025
 
 ## Définitions
 

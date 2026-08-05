@@ -44,7 +44,7 @@ generated: true
 
 Fiche d’information sur le produit d’assurance (IPID) de l’assurance Navigation de Plaisance, émise par Baloise Assurances Luxembourg S.A. Le produit couvre les bateaux à voile, catamarans ou bateaux à moteur utilisés à des fins sportives, récréatives et de loisirs. Les risques assurés sont la responsabilité civile, présentée comme obligatoire, et l’assistance juridique ; cinq extensions facultatives sont proposées (RC Skipper, dommages au bateau, remorquage de skieurs nautiques, cautionnement, frais de renflouement, d’assistance, de sauvetage, de recherche et de retirement). Les plafonds sont ceux mentionnés aux conditions particulières et le document ne chiffre aucun montant.
 
-- Assureur : [Baloise Luxembourg](../../insurers/Baloise%20Luxembourg.md) · Branche : [Autres](../../branches/Autres.md) · Type : IPID / Fiche d'information
+- Assureur : [Baloise Luxembourg](<../../insurers/Baloise Luxembourg.md>) · Branche : [Autres](<../../branches/Autres.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

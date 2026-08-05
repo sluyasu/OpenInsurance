@@ -43,7 +43,7 @@ generated: true
 
 Note d'information du contrat Livret Vie, contrat d'assurance-vie de groupe en euros à adhésion facultative régi par le Code des assurances et relevant de la branche 20. L'adhérent se constitue une épargne par versements libres ou mensuels (50 euros minimum), rémunérée par un taux d'intérêt minimum garanti et des intérêts complémentaires, avec redistribution d'au moins 95% des produits financiers nets ; l'épargne est disponible à tout moment par avance ou par rachat. Au décès, le capital constitué est versé aux bénéficiaires désignés, éventuellement augmenté d'une prestation complémentaire au titre de la garantie décès (20% de l'épargne moyenne gérée en 2018, plancher 250 euros, plafond 5 000 euros dégressif jusqu'à 2 000 euros). Le PDF réunit la note d'information de janvier 2018 et deux additifs (janvier 2022 et juillet 2022) qui en modifient l'encadré, les articles 8 et 9 et la garantie décès.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Conditions générales · Édition : JANVIER 2018
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Assurance vie et épargne](<../../branches/Assurance vie et épargne.md>) · Type : Conditions générales · Édition : JANVIER 2018
 
 > ⚠️ **Édition ancienne** : JANVIER 2018, soit 8 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 

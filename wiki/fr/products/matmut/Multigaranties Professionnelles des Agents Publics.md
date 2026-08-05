@@ -48,7 +48,7 @@ generated: true
 
 Conditions générales du contrat d'assurance « Multigaranties Professionnelles des Agents Publics », contrat professionnel souscrit par une personne physique agent de la Fonction Publique et destiné à garantir les risques découlant des activités exercées dans le cadre de sa profession. Il réunit cinq garanties : Responsabilité civile professionnelle « faute détachable du service » et Défense civile, Forfait Inaptitude professionnelle, Assistance en déplacement professionnel, Assistance psychologique Vie professionnelle et Protection juridique Vie professionnelle. Les garanties de responsabilité civile, de dommages corporels et d'assistance sont accordées par l'Assurance Mutuelle des Fonctionnaires et Assimilés (AMF), la Protection juridique au titre d'un contrat collectif souscrit par AMF auprès de la Matmut et gérée par Matmut Protection Juridique, et les prestations d'assistance sont réalisées par le GIE Inter Mutuelles Assistance (IMA). Le document comprend en outre les modalités d'examen des réclamations, la fiche d'information relative au fonctionnement des garanties « Responsabilité Civile » dans le temps et la charte de protection des données à caractère personnel.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : Conditions générales · Édition : 06/24
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : Conditions générales · Édition : 06/24
 
 ## Définitions
 
@@ -488,7 +488,7 @@ Conformément à l'article L.114-1 du Code des assurances, toutes actions dériv
 
 ## Documents liés
 
-- [Contrat « Multigaranties professionnelles des agents publics » - IPID](Contrat%20%C2%AB%20Multigaranties%20professionnelles%20des%20agents%20publics%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information, éd. 06/24
+- [Contrat « Multigaranties professionnelles des agents publics » - IPID](<Contrat « Multigaranties professionnelles des agents publics » - IPID.md>) - IPID / Fiche d'information, éd. 06/24
 
 ## Source & fidélité
 

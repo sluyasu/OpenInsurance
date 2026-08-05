@@ -44,7 +44,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (DIPA) du contrat Macif Mutuelle Entreprises, contrat collectif à adhésion obligatoire d’assurance complémentaire santé souscrit par l’employeur au profit de ses salariés et de leurs éventuels ayants droit affiliés, assuré par Apivia Macif Mutuelle (mutuelle régie par le Livre II du Code de la mutualité). Le contrat rembourse, en complément de la Sécurité sociale française, tout ou partie des frais de santé restant à la charge de l’assuré en cas d’accident, de maladie ou de maternité : hospitalisation, soins courants, dentaire, optique, aides auditives, appareillage et autres remboursements, avec assistance et services (réseau de soins, téléconsultation, tiers payant). Le document intègre le tableau de garanties « Garanties en vigueur au 1er janvier 2025 » à six formules — ESSENTIELLE, ESSENTIELLE +, ÉQUILIBRÉE, CONFORT, ÉTENDUE, EXCELLENCE. Le produit respecte les conditions légales des contrats responsables.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : IPID / Fiche d'information · Édition : 01/25
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : IPID / Fiche d'information · Édition : 01/25
 
 ## Définitions
 
@@ -434,15 +434,15 @@ Tiers payant. Service systématiquement prévu au contrat.
 
 ## Documents liés
 
-- [Macif Mutuelle Entreprises](Macif%20Mutuelle%20Entreprises.md) - Conditions générales, éd. 2025-01
-- [Macif Mutuelle Entreprises - Fiche](Macif%20Mutuelle%20Entreprises%20-%20Fiche.md) - Fiche produit, éd. 01/26
-- [Macif Mutuelle Entreprises](Macif%20Mutuelle%20Entreprises%20%282%29.md) - Conditions générales
-- [Macif Mutuelle Entreprises - Formule Confort - Régime Général - Fiche](Macif%20Mutuelle%20Entreprises%20-%20Formule%20Confort%20-%20R%C3%A9gime%20G%C3%A9n%C3%A9ral%20-%20Fiche.md) - Fiche produit, éd. 2026-01
-- [Macif Mutuelle Entreprises - Formule Equilibrée - Régime Général - Fiche](Macif%20Mutuelle%20Entreprises%20-%20Formule%20Equilibr%C3%A9e%20-%20R%C3%A9gime%20G%C3%A9n%C3%A9ral%20-%20Fiche.md) - Fiche produit, éd. au 1er janvier 2026
-- [Macif Mutuelle Entreprises - Formule Essentielle Plus - Régime Général - Fiche](Macif%20Mutuelle%20Entreprises%20-%20Formule%20Essentielle%20Plus%20-%20R%C3%A9gime%20G%C3%A9n%C3%A9ral%20-%20Fiche.md) - Fiche produit, éd. au 1er janvier 2026
-- [Macif Mutuelle Entreprises - Formule Essentielle - Régime Général - Fiche](Macif%20Mutuelle%20Entreprises%20-%20Formule%20Essentielle%20-%20R%C3%A9gime%20G%C3%A9n%C3%A9ral%20-%20Fiche.md) - Fiche produit, éd. au 1er janvier 2026
-- [Macif Mutuelle Entreprises - Formule Etendue - Régime Général - Fiche](Macif%20Mutuelle%20Entreprises%20-%20Formule%20Etendue%20-%20R%C3%A9gime%20G%C3%A9n%C3%A9ral%20-%20Fiche.md) - Fiche produit, éd. 2026-01
-- [Macif Mutuelle Entreprises - Formule Excellence - Régime Général - Fiche](Macif%20Mutuelle%20Entreprises%20-%20Formule%20Excellence%20-%20R%C3%A9gime%20G%C3%A9n%C3%A9ral%20-%20Fiche.md) - Fiche produit, éd. au 1er janvier 2026
+- [Macif Mutuelle Entreprises](<Macif Mutuelle Entreprises.md>) - Conditions générales, éd. 2025-01
+- [Macif Mutuelle Entreprises - Fiche](<Macif Mutuelle Entreprises - Fiche.md>) - Fiche produit, éd. 01/26
+- [Macif Mutuelle Entreprises](<Macif Mutuelle Entreprises (2).md>) - Conditions générales
+- [Macif Mutuelle Entreprises - Formule Confort - Régime Général - Fiche](<Macif Mutuelle Entreprises - Formule Confort - Régime Général - Fiche.md>) - Fiche produit, éd. 2026-01
+- [Macif Mutuelle Entreprises - Formule Equilibrée - Régime Général - Fiche](<Macif Mutuelle Entreprises - Formule Equilibrée - Régime Général - Fiche.md>) - Fiche produit, éd. au 1er janvier 2026
+- [Macif Mutuelle Entreprises - Formule Essentielle Plus - Régime Général - Fiche](<Macif Mutuelle Entreprises - Formule Essentielle Plus - Régime Général - Fiche.md>) - Fiche produit, éd. au 1er janvier 2026
+- [Macif Mutuelle Entreprises - Formule Essentielle - Régime Général - Fiche](<Macif Mutuelle Entreprises - Formule Essentielle - Régime Général - Fiche.md>) - Fiche produit, éd. au 1er janvier 2026
+- [Macif Mutuelle Entreprises - Formule Etendue - Régime Général - Fiche](<Macif Mutuelle Entreprises - Formule Etendue - Régime Général - Fiche.md>) - Fiche produit, éd. 2026-01
+- [Macif Mutuelle Entreprises - Formule Excellence - Régime Général - Fiche](<Macif Mutuelle Entreprises - Formule Excellence - Régime Général - Fiche.md>) - Fiche produit, éd. au 1er janvier 2026
 
 ## Source & fidélité
 

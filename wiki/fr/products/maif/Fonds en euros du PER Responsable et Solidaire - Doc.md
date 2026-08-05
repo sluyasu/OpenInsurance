@@ -40,7 +40,7 @@ generated: true
 
 Annexe d’informations précontractuelles SFDR (article 8 du règlement (UE) 2019/2088 et article 6 du règlement (UE) 2020/852) portant sur le compartiment en euros du PER Responsable et Solidaire, dénommé « Fonds en euros du PER Responsable et Solidaire » (identifiant d’entité juridique 969500ZQDM3R7A4STD74). Le document indique que ce produit financier promeut des caractéristiques environnementales et/ou sociales sans avoir pour objectif l’investissement durable, tout en étant associé à un objectif de 40 % d’investissements durables, dont au moins 25 % au titre de la part verte et 15 % au titre de la part sociale. Il détaille les indicateurs de durabilité, la prise en considération des principales incidences négatives, la stratégie d’investissement et la politique d’exclusion MAIF, l’allocation des actifs et l’alignement sur la taxinomie de l’UE, fixé à 0 % à date. Il ne décrit aucune garantie d’assurance.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Retraite supplémentaire](../../branches/Retraite%20suppl%C3%A9mentaire.md) · Type : Document · Édition : 06/26
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Retraite supplémentaire](<../../branches/Retraite supplémentaire.md>) · Type : Document · Édition : 06/26
 
 ## Définitions
 
@@ -138,10 +138,10 @@ Annexe d’informations précontractuelles SFDR (article 8 du règlement (UE) 20
 
 - Édition courante de ce produit.
 - Extension / option du produit : **PER Responsable et Solidaire**
-- [PER Responsable et Solidaire](PER%20Responsable%20et%20Solidaire.md) - Conditions générales, éd. 06/26
-- [PER Responsable et Solidaire - Tarifs](PER%20Responsable%20et%20Solidaire%20-%20Tarifs.md) - Conditions tarifaires, éd. 06/26
-- [PER Responsable et Solidaire - Doc](PER%20Responsable%20et%20Solidaire%20-%20Doc%20%282%29.md) - Document, éd. 06/2026
-- [PER Responsable et Solidaire - Doc](PER%20Responsable%20et%20Solidaire%20-%20Doc.md) - Document, éd. 06/26
+- [PER Responsable et Solidaire](<PER Responsable et Solidaire.md>) - Conditions générales, éd. 06/26
+- [PER Responsable et Solidaire - Tarifs](<PER Responsable et Solidaire - Tarifs.md>) - Conditions tarifaires, éd. 06/26
+- [PER Responsable et Solidaire - Doc](<PER Responsable et Solidaire - Doc (2).md>) - Document, éd. 06/2026
+- [PER Responsable et Solidaire - Doc](<PER Responsable et Solidaire - Doc.md>) - Document, éd. 06/26
 
 ## Source & fidélité
 

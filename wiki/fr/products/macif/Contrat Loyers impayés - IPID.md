@@ -44,7 +44,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (DIPA/IPID) du contrat Loyers impayés de la Macif, porté par « Macif - France - Société d'assurance mutuelle à cotisations variables - SIREN n° 781 452 511 ». Le contrat garantit à l'assuré propriétaire d'un bien immobilier, meublé ou non, à usage exclusif de résidence principale ou mixte (habitation/professionnel) donné en location, le paiement des loyers impayés et des dégradations immobilières du fait du locataire, et lui offre une protection juridique pour ses litiges avec son locataire en lien avec l'exécution du contrat de bail. Trois garanties de base (Loyers impayés et Contentieux locatif, Dégradations immobilières, Protection juridique du bailleur) et une garantie optionnelle (Inoccupation anticipée du bien assuré) ; la couverture s'exerce en France.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : Crédit et caution · Type : IPID / Fiche d'information · Édition : 2020-03
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : Crédit et caution · Type : IPID / Fiche d'information · Édition : 2020-03
 
 ## Garanties
 

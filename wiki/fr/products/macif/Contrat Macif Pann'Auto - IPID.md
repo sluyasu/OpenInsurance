@@ -45,7 +45,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (DIPA) du « Contrat Macif Pann'Auto », assuré par Macif - France - Société d'assurance mutuelle à cotisations variables - SIREN n° 781 452 511. Le contrat est destiné à couvrir, en cas de panne mécanique, électrique ou électronique, les frais de remise en état de fonctionnement d'un véhicule terrestre à moteur à quatre roues dont le poids total autorisé en charge est inférieur ou égal à 3,5 tonnes. Les garanties systématiquement prévues portent sur le coût de la main d'œuvre et sur le coût des pièces, le plafond de prise en charge correspondant à la valeur de remplacement du véhicule. Un seuil d'intervention est appliqué en cas de sinistre et les véhicules électriques, hybrides, les voiturettes et les usages professionnels (transport, auto-école, location) sont exclus.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 12/22
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information · Édition : 12/22
 
 ## Définitions
 
@@ -144,7 +144,7 @@ Le coût des pièces nécessaires à la remise en état de fonctionnement du vé
 
 ## Documents liés
 
-- [Contrat Macif Pann'Auto](Contrat%20Macif%20Pann%27Auto.md) - Conditions générales, éd. Novembre 2020
+- [Contrat Macif Pann'Auto](<Contrat Macif Pann'Auto.md>) - Conditions générales, éd. Novembre 2020
 
 ## Source & fidélité
 

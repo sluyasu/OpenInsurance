@@ -43,7 +43,7 @@ generated: true
 
 Document d'exemples chiffrés de remboursements en euros pour le contrat d'assurance santé responsable « SANTÉ PROFIL SALARIÉS » de MAAF, présentant pour cinq niveaux de formule (F1 à F5) le tarif habituellement facturé, la base de remboursement de la sécurité sociale (BR), le remboursement de l'assurance maladie obligatoire, celui de l'assurance maladie complémentaire et le reste à charge. Il couvre l'hospitalisation, les soins courants, le dentaire, l'optique, la chirurgie réfractive et les aides auditives. Les garanties santé sont assurées par MAAF Santé, mutuelle du livre II du Code de la Mutualité ; les garanties d'assistance par MAAF Assurances SA, entreprise régie par le Code des assurances. Le document précise lui-même qu'il ne peut se substituer aux documents contractuels.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit · Édition : 1er janvier 2026
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Fiche produit · Édition : 1er janvier 2026
 
 ## Définitions
 
@@ -206,8 +206,8 @@ Prix moyen national. Base de remboursement : BR. Remboursement de l'assurance ma
 
 ## Documents liés
 
-- [Assurance SANTÉ PROFIL SALARIÉS](Assurance%20SANT%C3%89%20PROFIL%20SALARI%C3%89S.md) - Conditions générales, éd. 10.2025
-- [SANTÉ PROFIL SALARIÉS](SANT%C3%89%20PROFIL%20SALARI%C3%89S.md) - Conditions générales, éd. 10.2025
+- [Assurance SANTÉ PROFIL SALARIÉS](<Assurance SANTÉ PROFIL SALARIÉS.md>) - Conditions générales, éd. 10.2025
+- [SANTÉ PROFIL SALARIÉS](<SANTÉ PROFIL SALARIÉS.md>) - Conditions générales, éd. 10.2025
 
 ## Source & fidélité
 

@@ -45,7 +45,7 @@ generated: true
 
 Conditions générales du contrat « Ma Moto – Mon Cyclo », assurance des véhicules terrestres à moteur à 2 ou 3 roues et quadricycles à moteur (moto, cyclomoteur, quad, buggy, SSV, enduro, trial, cross, vélo électrique immatriculé). Le socle obligatoire est la Responsabilité civile automobile, complétée par la Défense pénale et recours suite à accident, la Sécurité du conducteur, la Protection juridique (portée par JURIDICA), l’Assistance (portée par AXA Assistance France Assurance) et, selon la formule souscrite, les garanties dommages : bris de glace, incendie, vol, catastrophes naturelles et technologiques, événements climatiques, attentats, dommages tous accidents, accessoires, équipement, casque et gants, gilet et pantalon airbag, contenu du top case, indemnisation renforcée et véhicule de remplacement. Le document décrit cinq formules (Tiers Essentielle, Tiers Étendue, Tous risques Essentielle, Tous risques Équilibre, Tous risques Étendue) et renvoie aux Conditions particulières pour les plafonds, seuils et franchises.
 
-- Assureur : [Direct Assurance](../../insurers/Direct%20Assurance.md) · Branche : [Deux-roues, quads et voiturettes](../../branches/Deux-roues%2C%20quads%20et%20voiturettes.md) · Type : Conditions générales · Édition : Mars 2024
+- Assureur : [Direct Assurance](<../../insurers/Direct Assurance.md>) · Branche : [Deux-roues, quads et voiturettes](<../../branches/Deux-roues, quads et voiturettes.md>) · Type : Conditions générales · Édition : Mars 2024
 
 ## Définitions
 
@@ -854,7 +854,7 @@ Conformément aux dispositions prévues par l’article L 114-1 du Code des assu
 
 ## Documents liés
 
-- [Ma Moto, Mon Cyclo - IPID](Ma%20Moto%2C%20Mon%20Cyclo%20-%20IPID.md) - IPID / Fiche d'information, éd. 09 2024
+- [Ma Moto, Mon Cyclo - IPID](<Ma Moto, Mon Cyclo - IPID.md>) - IPID / Fiche d'information, éd. 09 2024
 
 ## Source & fidélité
 

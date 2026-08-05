@@ -43,7 +43,7 @@ generated: true
 
 Document d’information (IPID) de l’Assurance scolaire et extra-scolaire de Thélem assurances. Le contrat a pour objet de garantir les dommages qu’un élève ou qu’un étudiant pourrait occasionner à autrui mais aussi les dommages corporels qu’il pourrait subir. Les garanties systématiquement prévues sont la Responsabilité Civile (jusqu’à 5 000 000 €), la Défense pénale et recours suite à accident (jusqu’à 8 000 €), les Indemnités contractuelles en cas d’accidents (capital décès jusqu’à 3 200 € et invalidité permanente jusqu’à 145 000 €), les Frais de soins et les Frais de recherche et de secours (à concurrence de 1 600 €). Une garantie optionnelle « Ecole continue après maladie et accident » est proposée.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Scolaire et extrascolaire](../../branches/Scolaire%20et%20extrascolaire.md) · Type : IPID / Fiche d'information
+- Assureur : [Thélem assurances](<../../insurers/Thélem assurances.md>) · Branche : [Scolaire et extrascolaire](<../../branches/Scolaire et extrascolaire.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 

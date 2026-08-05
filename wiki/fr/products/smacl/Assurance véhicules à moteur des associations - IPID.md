@@ -43,7 +43,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (DIPA) du contrat « Assurance véhicules à moteur des associations » de SMACL Assurances SA. Le contrat, destiné aux associations sans salarié, garantit le véhicule terrestre à moteur propriété de l’association souscriptrice, notamment contre les conséquences des dommages matériels ou corporels causés à des tiers, avec une indemnité limitée à 100 000 000 € tous dommages confondus. Les garanties systématiquement prévues sont la responsabilité civile automobile, la défense pénale et recours (75 000 €), l’assurance du conducteur (décès 5 000 €, déficit fonctionnel permanent 20 000 €, dépenses de santé actuelles 5 000 €) et l’assistance sans franchise kilométrique pour les véhicules de moins de 3,5 T. Des garanties optionnelles couvrent les dommages subis par le véhicule assuré, les objets et effets personnels transportés, les accessoires, les aménagements et l’assistance pour les véhicules de plus de 3,5 T.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 02/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information · Édition : 02/2024
 
 ## Garanties
 

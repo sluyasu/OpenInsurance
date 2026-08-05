@@ -43,7 +43,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de l'assurance véhicule de MAAF Assurances SA pour les camping-cars, ambulances, bazars forains et véhicules de collection. Le contrat a pour objectif premier de garantir le conducteur contre les conséquences des dommages matériels ou corporels causés par le véhicule à des tiers (Responsabilité civile), assurance obligatoire, illimitée en dommages corporels et plafonnée à 100 millions d'euros en dommages matériels et immatériels. Il couvre également les dommages corporels du conducteur (plafond de 660 000 € ou de 990 000 €), le recours suite à accident (16 000 €), l'assistance et les renseignements juridiques. Des garanties optionnelles couvrent les dommages au véhicule assuré, le contenu privé et professionnel, l'assistance panne 0 km, la défense juridique de l'automobiliste et l'immobilisation.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 2025-06
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information · Édition : 2025-06
 
 ## Garanties
 
@@ -216,8 +216,8 @@ Garantie optionnelle proposée « En plus pour ambulance et bazar forain ». Le 
 
 ## Documents liés
 
-- [Assurance Véhicule - IPID](Assurance%20V%C3%A9hicule%20-%20IPID.md) - IPID / Fiche d'information, éd. 2025-06
-- [CARAVANE, REMORQUE, CAMION, VEHICULES DIVERS - IPID](CARAVANE%2C%20REMORQUE%2C%20CAMION%2C%20VEHICULES%20DIVERS%20-%20IPID.md) - IPID / Fiche d'information, éd. 2025-06
+- [Assurance Véhicule - IPID](<Assurance Véhicule - IPID.md>) - IPID / Fiche d'information, éd. 2025-06
+- [CARAVANE, REMORQUE, CAMION, VEHICULES DIVERS - IPID](<CARAVANE, REMORQUE, CAMION, VEHICULES DIVERS - IPID.md>) - IPID / Fiche d'information, éd. 2025-06
 
 ## Source & fidélité
 

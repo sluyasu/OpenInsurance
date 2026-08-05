@@ -44,7 +44,7 @@ generated: true
 
 Intercalaire de 4 pages destiné aux entreprises de travaux publics, qui se substitue à l'article 6.3 et complète les articles 8.1, 8.2 et 8.3 des garanties « Vos responsabilités » des Conditions générales Multirisque des professionnels du Bâtiment et des Travaux Publics n°11036. Il définit la garantie de responsabilité civile relative aux ouvrages non soumis à l'obligation d'assurance pour une liste limitative d'ouvrages neufs de travaux publics (voiries, ouvrages piétonniers, réseaux, canalisations, parcs de stationnement non couverts, terrassement et forme d'ouvrages sportifs non couverts), plafonnée à 250 000 € par sinistre et réservée aux marchés dont le montant ne dépasse pas 150 000 € hors taxe sauf accord préalable. Il étend par ailleurs la responsabilité civile professionnelle à quatre prestations complémentaires : location de matériels et engins de chantier, négoce et transport de matériaux de construction pour le compte de tiers, et réparation de ses propres matériels. Le document ne contient ni définitions, ni procédure sinistre, ni clauses de durée ou de cotisation : elles renvoient aux Conditions générales n°11036.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : Conditions générales · Édition : 01/25
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : Conditions générales · Édition : 01/25
 
 ## Garanties
 
@@ -139,9 +139,9 @@ Le document ne traite pas de la prescription des actions dérivant du contrat d'
 ## Documents liés
 
 - Extension / option du produit : **Conditions générales Multirisque des professionnels du Bâtiment et des Travaux Publics référencées 11036**
-- [Multirisque des Professionnels du Bâtiment et des Travaux Publics](Multirisque%20des%20Professionnels%20du%20B%C3%A2timent%20et%20des%20Travaux%20Publics.md) - Conditions générales, éd. 01/26
-- [Multirisque des Professionnels du Bâtiment et des Travaux Publics - IPID](Multirisque%20des%20Professionnels%20du%20B%C3%A2timent%20et%20des%20Travaux%20Publics%20-%20IPID.md) - IPID / Fiche d'information, éd. 2024-06
-- [Nomenclature MAAF Assurances SA des activités du Bâtiment et des Travaux Publics - Doc](Nomenclature%20MAAF%20Assurances%20SA%20des%20activit%C3%A9s%20du%20B%C3%A2timent%20et%20des%20Travaux%20Publics%20-%20Doc.md) - Document, éd. 06/2026
+- [Multirisque des Professionnels du Bâtiment et des Travaux Publics](<Multirisque des Professionnels du Bâtiment et des Travaux Publics.md>) - Conditions générales, éd. 01/26
+- [Multirisque des Professionnels du Bâtiment et des Travaux Publics - IPID](<Multirisque des Professionnels du Bâtiment et des Travaux Publics - IPID.md>) - IPID / Fiche d'information, éd. 2024-06
+- [Nomenclature MAAF Assurances SA des activités du Bâtiment et des Travaux Publics - Doc](<Nomenclature MAAF Assurances SA des activités du Bâtiment et des Travaux Publics - Doc.md>) - Document, éd. 06/2026
 
 ## Source & fidélité
 

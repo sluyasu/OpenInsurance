@@ -40,7 +40,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de l'Assistance Voyage de Belfius Direct Assurances. Le contrat couvre certaines prestations d'assistance lorsque l'assuré rencontre un problème pour sa personne (Assistance aux personnes, garantie de base) ou avec son véhicule (Assistance au véhicule, garanties optionnelles Start et Plus), en Belgique et à l'étranger. Il donne un aperçu des principales couvertures et exclusions et n'est pas exhaustif.
 
-- Assureur : [Belfius Direct Assurances](../../insurers/Belfius%20Direct%20Assurances.md) · Branche : [Voyage](../../branches/Voyage.md) · Type : Fiche produit · Édition : 03/2025
+- Assureur : [Belfius Direct Assurances](<../../insurers/Belfius Direct Assurances.md>) · Branche : [Voyage](<../../branches/Voyage.md>) · Type : Fiche produit · Édition : 03/2025
 
 ## Garanties
 
@@ -188,7 +188,7 @@ Assistance au Véhicule Start et également en Belgique, véhicule de remplaceme
 
 ## Documents liés
 
-- [ASSISTANCE VOYAGE](ASSISTANCE%20VOYAGE.md) - Conditions générales, éd. 15/03/2025
+- [ASSISTANCE VOYAGE](<ASSISTANCE VOYAGE.md>) - Conditions générales, éd. 15/03/2025
 
 ## Source & fidélité
 

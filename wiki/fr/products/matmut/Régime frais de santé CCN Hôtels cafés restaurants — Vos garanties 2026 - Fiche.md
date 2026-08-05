@@ -42,7 +42,7 @@ generated: true
 
 Tableau de garanties du régime frais de santé de la CCN Hôtels cafés restaurants, présentant deux niveaux de couverture (BASE 1 et BASE 2) pour l'hospitalisation, le dentaire, les aides auditives, les soins courants, la médecine additionnelle et de prévention, l'optique et le sport sur ordonnance. Les remboursements sont exprimés en pourcentage de la Base de Remboursement (BR) y compris la part du régime obligatoire, en pourcentage du Plafond Mensuel de la Sécurité Sociale (PMSS), en frais réels ou en forfaits en euros. L'optique à tarif libre est tarifée par bande de correction dioptrique. Le document ajoute une assistance et une série de services inclus dans les deux niveaux, puis des exemples chiffrés de remboursements. Il précise être un document non contractuel et renvoie aux Conditions Générales sur plusieurs points.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Fiche produit
 
 ## Définitions
 

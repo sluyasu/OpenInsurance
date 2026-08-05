@@ -40,7 +40,7 @@ generated: true
 
 Allgemeine Versicherungsbedingungen der DKV Luxembourg S.A. für die Krankheitskostenversicherung und die Krankenhaustagegeldversicherung, Ausgabe AVB KK (01/21). Der Versicherer ersetzt in der Krankheitskostenversicherung Aufwendungen für Heilbehandlung und sonst vereinbarte Leistungen und zahlt in der Krankenhaustagegeldversicherung bei stationärer Behandlung ein Krankenhaustagegeld; Art und Höhe der Leistungen ergeben sich aus dem jeweils vereinbarten Tarif, den dieses Bedingungsheft nicht enthält. Der Versicherungsschutz erstreckt sich auf Heilbehandlungen in Europa und, ohne besondere Vereinbarung, auf den ersten Monat eines vorübergehenden außereuropäischen Aufenthalts. Die Datei ist dreisprachig: dieselben zwanzig Paragrafen stehen auf Deutsch (S. 4-12), Französisch (S. 13-21) und Englisch (S. 22-31); allein die deutsche Fassung ist die Rechtsfassung.
 
-- Assureur : [DKV Luxembourg](../../insurers/DKV%20Luxembourg.md) · Branche : Complémentaire santé · Type : Conditions générales · Édition : 01/21
+- Assureur : [DKV Luxembourg](<../../insurers/DKV Luxembourg.md>) · Branche : Complémentaire santé · Type : Conditions générales · Édition : 01/21
 
 ## Définitions
 

@@ -40,7 +40,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) du contrat « Véhicules entreprises » de MAIF, présenté sous l’intitulé « Assurance Auto professionnelle ». Le produit garantit les conducteurs des véhicules terrestres à moteur de l’entreprise contre les conséquences des dommages matériels et/ou corporels causés par ces véhicules à des tiers (responsabilité civile), assurance présentée comme obligatoire. Il comporte également une protection des dommages corporels des conducteurs et passagers, des garanties de dommages aux véhicules assurés, une garantie pertes financières, un accompagnement juridique, des services d’assistance et trois garanties optionnelles.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 09-2022
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information · Édition : 09-2022
 
 ## Garanties
 

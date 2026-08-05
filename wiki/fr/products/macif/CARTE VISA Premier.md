@@ -46,7 +46,7 @@ generated: true
 
 Notice d’Information des assurances attachées à la CARTE VISA Premier (contrat n° 5073788704), établie conformément à l’article L112-2 du Code des assurances et valant Conditions Générales. Le contrat est souscrit par Visa Europe Limited pour le compte des titulaires de la carte et de leur famille, auprès d’AXA FRANCE IARD et AXA FRANCE VIE, la gestion étant assurée par le courtier CWI Distribution. Les garanties couvrent, au cours d’un Voyage Garanti réglé au moyen de la carte, le décès et l’invalidité accidentels, le retard de transport et de bagages, la perte, le vol ou la détérioration des bagages, la responsabilité civile à l’étranger, la franchise du véhicule de location, la modification, l’annulation et l’interruption de voyage, ainsi qu’un ensemble de garanties Neige et Montagne. Un tableau synoptique de territorialité précise, garantie par garantie, la couverture selon que le déplacement excède ou non 100 km du domicile et se situe en France ou à l’étranger.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : Conditions générales
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Voyage et assistance](<../../branches/Voyage et assistance.md>) · Type : Conditions générales
 
 ## Définitions
 
@@ -458,7 +458,7 @@ Conformément aux dispositions prévues par l’article L.114-1 du Code des assu
 
 ## Documents liés
 
-- [Notice d'Information valant Convention d'assistance - Carte Visa Premier 922.083](Notice%20d%27Information%20valant%20Convention%20d%27assistance%20-%20Carte%20Visa%20Premier%20922.083.md) - Conditions générales, éd. 01/01/2021
+- [Notice d'Information valant Convention d'assistance - Carte Visa Premier 922.083](<Notice d'Information valant Convention d'assistance - Carte Visa Premier 922.083.md>) - Conditions générales, éd. 01/01/2021
 
 ## Source & fidélité
 

@@ -43,7 +43,7 @@ generated: true
 
 Conditions Spéciales du plan d’assurance santé internationale « Foyer Global Health Special » (référence SPECIAL – FGHSCV2 / 03.2024), en français. Sont assurables les personnes résidant temporairement à l’étranger pendant au moins 3 mois consécutifs ; la couverture porte, selon la Police d’Assurance, sur la Région 1 (monde entier y compris les États-Unis) ou la Région 2 (monde entier à l’exclusion des États-Unis), les limites et montants maximaux étant doublés en Région 1. L’Assureur rembourse les frais médicaux éligibles à hauteur de 100 % pour les traitements stationnaires, ambulatoires et dentaires décrits, avec une Franchise au choix de 0, 250, 500 ou 1 000 euros par Année d’Assurance et par Assuré, applicable uniquement aux traitements ambulatoires. La partie II régit les services d’Assistance Médicale, valables dans le monde entier, ainsi que les services d’Assistance Additionnelle dus uniquement s’ils ont été convenus dans les conditions particulières ; la partie III contient le glossaire.
 
-- Assureur : [Foyer Global Health](../../insurers/Foyer%20Global%20Health.md) · Branche : Complémentaire santé · Type : Conditions générales · Édition : 03.2024
+- Assureur : [Foyer Global Health](<../../insurers/Foyer Global Health.md>) · Branche : Complémentaire santé · Type : Conditions générales · Édition : 03.2024
 
 ## Définitions
 
@@ -577,7 +577,7 @@ Si nécessaire, l’Assureur organise avec un prestataire spécialisé une forma
 ## Documents liés
 
 - Édition courante de ce produit.
-- [Foyer Global Health Special - DE](Foyer%20Global%20Health%20Special%20-%20DE.md) - Conditions générales, éd. 03.2024
+- [Foyer Global Health Special - DE](<Foyer Global Health Special - DE.md>) - Conditions générales, éd. 03.2024
 
 ## Source & fidélité
 

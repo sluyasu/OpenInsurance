@@ -15,7 +15,10 @@ jobs:
           python-version: "3.11"
       # jsonschema is required, not optional: validate now checks the extracted JSON
       # against the committed schema, which is the only gate that runs without the PDFs.
-      - run: python -m pip install pyyaml "mcp[cli]" pytest jsonschema
+      # mcp is pinned below 2: mcp 2.0.0 removed `mcp.server.fastmcp`, which broke this
+      # job the day it shipped — an unpinned install means the build red-or-greens on
+      # someone else's release calendar. Bump deliberately, with the import fixed.
+      - run: python -m pip install pyyaml "mcp[cli]>=1.2,<2" pytest jsonschema
       # Every country in sources/, not just Belgium: a second country must be gated from
       # its first commit, or it inherits the drift the first one took months to clear.
       - name: Wiki gates (frontmatter, links, citations, publish surface)

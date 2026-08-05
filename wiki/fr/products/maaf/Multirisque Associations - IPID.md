@@ -41,7 +41,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du contrat Multirisque Associations de MAAF Assurances SA, présenté sous le titre commercial « Assurance association ». Le contrat s'adresse aux associations Loi 1901 (sportives et non sportives), syndicats, comités d'entreprise et fédérations. Il couvre les responsabilités de l'association (plafond de 8 000 000 € par sinistre, tous dommages confondus), les locaux associatifs et leur contenu, l'assistance aux locaux et aux personnes, l'individuelle accidents des dirigeants et bénévoles, la protection juridique (plafond de 20 000 € par sinistre) et les dommages aux biens hors des locaux, avec plusieurs garanties proposées en option.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information · Édition : 2024-06
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : IPID / Fiche d'information · Édition : 2024-06
 
 ## Garanties
 
@@ -235,7 +235,7 @@ En option, au titre de la mobilité de l’association : Vol des biens de l’as
 
 ## Documents liés
 
-- [Multirisque Associations](Multirisque%20Associations.md) - Conditions générales, éd. 01/26
+- [Multirisque Associations](<Multirisque Associations.md>) - Conditions générales, éd. 01/26
 
 ## Source & fidélité
 

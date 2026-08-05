@@ -43,7 +43,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) portant sur la Section 2 « Assurance de responsabilités » du contrat APROBAT Tous Risques Chantier de LALUX Assurances. La Section 2 garantit les réparations pécuniaires auxquelles les assurés pourraient être tenus en vertu des articles 1382 et 1386 du Code civil à raison de dommages causés aux tiers et imputables à l’exécution sur chantier des travaux assurés, pendant la période de construction-montage-essais, ainsi que — moyennant convention expresse — pendant la période d’entretien et au titre de l’article 544 du Code civil. Tous les intervenants sur le chantier sont considérés comme assurés. Les garanties valent pour le ou les chantiers et biens stipulés dans les Conditions Particulières.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Assurances constructions](../../branches/Assurances%20constructions.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Assurances constructions](<../../branches/Assurances constructions.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -127,7 +127,7 @@ Moyennant convention expresse, réparation des dommages aux tiers imputés à l�
 ## Documents liés
 
 - Extension / option du produit : **APROBAT Tous Risques Chantier**
-- [APROBAT Tous Risques Chantier (Section 1 - Assurance des dégâts et pertes) - IPID](APROBAT%20Tous%20Risques%20Chantier%20%28Section%201%20-%20Assurance%20des%20d%C3%A9g%C3%A2ts%20et%20pertes%29%20-%20IPID.md) - IPID / Fiche d'information
+- [APROBAT Tous Risques Chantier (Section 1 - Assurance des dégâts et pertes) - IPID](<APROBAT Tous Risques Chantier (Section 1 - Assurance des dégâts et pertes) - IPID.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

@@ -46,7 +46,7 @@ generated: true
 
 Conditions générales du contrat multirisque habitation TEMPO Habitation en construction de MAAF Assurances SA, destiné aux propriétaires d’une maison, d’un appartement ou d’un immeuble en construction ou en rénovation, non habité et à usage privé. Il couvre les bâtiments en cours de construction ou de rénovation et, lorsqu’un capital contenu est souscrit, les matériaux, fournitures, outils et matériels entreposés, contre l’incendie, les dommages électriques, le choc de véhicules, le bris de vitres, les émeutes, les dégâts des eaux, les événements climatiques, les catastrophes naturelles et technologiques, les actes de terrorisme et le vol, avec une option Cadre de vie pour les aménagements du terrain. Il comprend des garanties complémentaires (perte d’usage, mensualités de prêt, honoraires d’architecte, cotisation dommages ouvrage, frais annexes, dommages causés par les secours, mesures conservatoires), une responsabilité civile de propriétaire avec défense pénale et recours, une assistance aux personnes et une garantie de renseignements juridiques. Les garanties s’appliquent jusqu’à la date de réception de l’habitation ou des travaux et le contrat ne constitue pas une assurance dommages ouvrage.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales · Édition : 2026-01
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : Conditions générales · Édition : 2026-01
 
 ## Définitions
 

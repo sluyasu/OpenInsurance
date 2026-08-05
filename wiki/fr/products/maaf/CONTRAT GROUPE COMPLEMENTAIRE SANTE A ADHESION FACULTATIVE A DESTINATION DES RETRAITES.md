@@ -45,7 +45,7 @@ generated: true
 
 Convention d'assurance du contrat groupe complémentaire santé à adhésion facultative destiné aux retraités de l'UES MAAF ASSURANCES, dispositions en vigueur au 01.01.2026. Le contrat est souscrit par MAAF Assurances (société d'assurance mutuelle), désignée contractante, auprès de MAAF Santé, désignée assureur pour l'ensemble des garanties, à l'exception des garanties d'assistance santé à domicile assurées par MAAF Assurances SA. Il propose trois formules — VITAMIN’200, VITAMIN’300 et VITAMIN’500 — couvrant l'hospitalisation, les soins courants, l'optique, le dentaire, la cure thermale, les aides auditives, le transport, une indemnité décès et l'assistance santé à domicile. Le contrat est « responsable » et « solidaire » ; toute nouvelle adhésion est impossible depuis le 01/01/2018.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : Dispositions en vigueur au 01.01.2026
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Conditions générales · Édition : Dispositions en vigueur au 01.01.2026
 
 ## Définitions
 

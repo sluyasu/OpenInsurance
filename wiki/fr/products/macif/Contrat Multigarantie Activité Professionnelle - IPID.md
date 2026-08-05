@@ -42,7 +42,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (DIPA/IPID) du Contrat Multigarantie Activité Professionnelle de la Macif, assurance des professionnels. Le contrat garantit les risques encourus par des professionnels (artisans, commerçants et prestataires de services) contre les conséquences des dommages matériels ou corporels causés à des tiers pendant l’exercice de leur activité professionnelle (responsabilité civile). Selon les besoins, il peut également couvrir les biens mobiliers et immobiliers liés à l’activité professionnelle ainsi que les pertes financières consécutives à un événement garanti endommageant ces biens. Les garanties de responsabilité civile sont acquises dans la limite de 8 millions d’euros tous dommages confondus.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information · Édition : 06/23
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : IPID / Fiche d'information · Édition : 06/23
 
 ## Garanties
 
@@ -263,8 +263,8 @@ Protection financière.
 
 ## Documents liés
 
-- [Multigarantie Activité Professionnelle](Multigarantie%20Activit%C3%A9%20Professionnelle%20%282%29.md) - Conditions générales, éd. 06/2023
-- [Multigarantie Activité Professionnelle](Multigarantie%20Activit%C3%A9%20Professionnelle.md) - Conditions générales, éd. Version 12/2025 (Version décembre 2025)
+- [Multigarantie Activité Professionnelle](<Multigarantie Activité Professionnelle (2).md>) - Conditions générales, éd. 06/2023
+- [Multigarantie Activité Professionnelle](<Multigarantie Activité Professionnelle.md>) - Conditions générales, éd. Version 12/2025 (Version décembre 2025)
 
 ## Source & fidélité
 

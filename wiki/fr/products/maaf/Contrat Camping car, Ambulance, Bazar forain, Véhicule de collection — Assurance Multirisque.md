@@ -50,7 +50,7 @@ generated: true
 
 Conditions générales du contrat d'assurance multirisque MAAF pour les camping-cars, ambulances, bazars forains et véhicules de collection. Le contrat se décline en trois formules — TIERS SIMPLE, TIERS MAXI et TOUS RISQUES — dont le contenu varie selon la famille de véhicule assurée. Toutes les formules incluent la Responsabilité civile obligatoire et sa Défense, la garantie Recours, les garanties Dommages corporels du conducteur (niveau 1 ou 2), l'Assistance de base et les Renseignements juridiques ; les formules TIERS MAXI et TOUS RISQUES ajoutent le Bris de glace, les Catastrophes naturelles, les Événements climatiques, l'Incendie Explosion Attentat et le Vol, la formule TOUS RISQUES ajoutant seule les Dommages tous accidents. Des garanties optionnelles complètent l'ensemble : Contenu privé, Contenu professionnel, Immobilisation, Assistance panne 0 km et Défense juridique de l'automobiliste. Le document contient également le barème du coefficient bonus/malus, les clauses légales et un lexique.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : 06/26
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions générales · Édition : 06/26
 
 ## Définitions
 

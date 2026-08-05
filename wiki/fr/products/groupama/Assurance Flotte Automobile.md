@@ -49,7 +49,7 @@ generated: true
 
 Conditions Générales du contrat d'assurance Flotte Automobile de Groupama, en 87 pages et sept chapitres (le contrat, les garanties, les exclusions, les dispositions en cas de sinistre, le fonctionnement du contrat, les dispositions diverses, le lexique). Le contrat couvre une flotte de véhicules terrestres à moteur, remorques, semi-remorques et appareils attelés, avec la garantie obligatoire Responsabilité civile automobile et, selon ce qui est stipulé aux Conditions Particulières, la Responsabilité civile fonctionnement comme outil, la Défense pénale et recours suite à accident, les Accidents corporels du conducteur, quatorze garanties de protection du véhicule (incendie, appareillage électrique ou électronique, événements climatiques, attentats, catastrophes naturelles, vol, bris de glaces et complémentaire, dommages tous accidents, pertes financières, vandalisme, pneumatiques, collision, dépannage-remorquage-relevage-gardiennage), les effets personnels et contenu, les marchandises transportées pour propre compte, les frais de remplacement du préposé accidenté et la location d'un véhicule de remplacement. Tous les montants de garantie et toutes les franchises sont renvoyés aux Conditions Particulières et au Tableau des Montants de Garantie et des Franchises, qui ne font pas partie de ce document.
 
-- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : 122020
+- Assureur : [Groupama](<../../insurers/Groupama.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions générales · Édition : 122020
 
 ## Définitions
 

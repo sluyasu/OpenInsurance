@@ -47,7 +47,7 @@ generated: true
 
 Conditions générales du contrat d'assurance Multirisques Accidents de la Vie « Sérénité » de la Matmut, valant projet de contrat au sens de l'article L. 112-2 du Code des assurances. Le contrat garantit le paiement d'indemnités en cas de survenance d'un accident occasionnant une incapacité permanente à l'assuré ou entraînant son décès : accidents domestiques, de sport ou de loisirs, accidents médicaux, accidents de service ou de travail, agressions et attentats. Trois formules sont proposées — Famille, Couple et Individuelle — et le contrat est réservé aux foyers dont au moins un assuré est âgé de 61 à 75 ans à la prise d'effet, tous les assurés devant avoir moins de 76 ans. Les garanties en cas de blessures (incapacité permanente et professionnelle, souffrances endurées, préjudice esthétique permanent, frais de prothèse, logement et véhicule adaptés, services à la personne, prestations d'accompagnement, forfait hospitalisation, pertes de revenus) et en cas de décès (frais d'obsèques, préjudice patrimonial, prestations d'accompagnement) s'accompagnent d'une extension au petit-enfant mineur non désigné aux Conditions particulières.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Garantie des accidents de la vie](../../branches/Garantie%20des%20accidents%20de%20la%20vie.md) · Type : Conditions générales · Édition : 01/26
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Garantie des accidents de la vie](<../../branches/Garantie des accidents de la vie.md>) · Type : Conditions générales · Édition : 01/26
 
 ## Définitions
 
@@ -405,10 +405,10 @@ Conditions générales du contrat d'assurance Multirisques Accidents de la Vie �
 
 ## Documents liés
 
-- Extension liée : [Conditions de l'offre — Remise à la souscription — Contrats Multirisques Accidents de la Vie et Multirisques Accidents d](Conditions%20de%20l%27offre%20%E2%80%94%20Remise%20%C3%A0%20la%20souscription%20%E2%80%94%20Contrats%20Multirisques%20Accidents%20de%20la%20Vie%20et%20Multirisques%20Accidents%20d.md)
-- [Conditions de l'offre — Remise à la souscription — Contrats Multirisques Accidents de la Vie et Multirisques Accidents d](Conditions%20de%20l%27offre%20%E2%80%94%20Remise%20%C3%A0%20la%20souscription%20%E2%80%94%20Contrats%20Multirisques%20Accidents%20de%20la%20Vie%20et%20Multirisques%20Accidents%20d.md) - Conditions tarifaires, éd. 01/26
-- [Contrat « Multirisques Accidents de la Vie » - IPID](Contrat%20%C2%AB%20Multirisques%20Accidents%20de%20la%20Vie%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/26
-- [Multirisques Accidents de la Vie](Multirisques%20Accidents%20de%20la%20Vie.md) - Conditions générales
+- Extension liée : [Conditions de l'offre — Remise à la souscription — Contrats Multirisques Accidents de la Vie et Multirisques Accidents d](<Conditions de l'offre — Remise à la souscription — Contrats Multirisques Accidents de la Vie et Multirisques Accidents d.md>)
+- [Conditions de l'offre — Remise à la souscription — Contrats Multirisques Accidents de la Vie et Multirisques Accidents d](<Conditions de l'offre — Remise à la souscription — Contrats Multirisques Accidents de la Vie et Multirisques Accidents d.md>) - Conditions tarifaires, éd. 01/26
+- [Contrat « Multirisques Accidents de la Vie » - IPID](<Contrat « Multirisques Accidents de la Vie » - IPID.md>) - IPID / Fiche d'information, éd. 01/26
+- [Multirisques Accidents de la Vie](<Multirisques Accidents de la Vie.md>) - Conditions générales
 
 ## Source & fidélité
 

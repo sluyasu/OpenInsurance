@@ -42,7 +42,7 @@ generated: true
 
 L’assurance Initiative Obsèques Services est un contrat de type « Vie Entière » qui prévoit le financement des prestations funéraires, porté par Thélem Prévoyance, et l’organisation des obsèques, réalisée par Le Choix Funéraire. L’assuré personnalise sa formule avec les services suivants : préparation et organisation des obsèques, transport du défunt, choix du cercueil et de la cérémonie funéraire ; le montant du capital est fonction des prestations choisies (3 500 €, 4 500 € ou 6 000 €). Le bénéficiaire est Le Choix Funéraire (SA UDIFE) et les garanties ne sont soumises à aucune sélection médicale, la cotisation étant fixe dans le temps et payable sur 10, 15, 20 ou 25 ans ou de manière viagère. Le contrat comprend également des prestations d’assistance (rapatriement du corps, aide-ménagère, garde des enfants et des animaux de compagnie, accompagnement psychologique, assistance téléphonique).
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : IPID / Fiche d'information
+- Assureur : [Thélem assurances](<../../insurers/Thélem assurances.md>) · Branche : [Obsèques](<../../branches/Obsèques.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -207,7 +207,7 @@ Assistance téléphonique, résolution des questions administratives et juridiqu
 
 ## Documents liés
 
-- [Assurance Initiative Obsèques Capital - IPID](Assurance%20Initiative%20Obs%C3%A8ques%20Capital%20-%20IPID.md) - IPID / Fiche d'information
+- [Assurance Initiative Obsèques Capital - IPID](<Assurance Initiative Obsèques Capital - IPID.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

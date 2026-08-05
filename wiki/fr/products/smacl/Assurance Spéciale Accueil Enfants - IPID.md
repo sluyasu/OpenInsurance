@@ -47,7 +47,7 @@ generated: true
 
 Document d'information (IPID) de l'« Assurance multi-garanties des structures d'accueil », produit « Assurance Spéciale Accueil Enfants », porté par SMACL Assurances, société d'assurance mutuelle à cotisations fixes (agrément 301 309 605). Le contrat couvre les responsabilités des structures d'accueil de jeunes enfants et les défend en cas de sinistre, avec des garanties de responsabilité plafonnées à 8 000 000 €, la défense pénale et recours jusqu'à 75 000 €, l'information juridique et l'assistance aux personnes. Pour les fédérations, accueils périscolaires, accueils de loisirs et établissements d'accueil de jeunes enfants s'y ajoutent la responsabilité civile des dirigeants (2 000 000 €), la protection juridique, l'indemnisation des accidents corporels des bénévoles et personnes accueillies (450 000 € / sinistre) et l'auto collaborateurs en substitution. En option, les dommages aux biens immobiliers, leur contenu et les biens extérieurs (plafond 18 000 000 € par sinistre) et la responsabilité à l'égard des locataires, propriétaires, voisins et tiers (15 000 000 €).
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : IPID / Fiche d'information · Édition : 01/2024
 
 ## Garanties
 

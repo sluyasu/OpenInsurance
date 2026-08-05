@@ -43,7 +43,7 @@ generated: true
 
 L'assurance Engins agricoles de Thélem assurances a pour objectif de garantir le souscripteur contre les conséquences des dommages matériels ou corporels causés par son véhicule automoteur et les matériels tractés à un tiers (responsabilité civile) ; c'est une assurance obligatoire. Sont assurés les véhicules automoteurs de type engins agricoles ainsi que les remorques et matériels lorsqu'ils sont attelés. Le contrat inclut également la couverture des dommages corporels du conducteur, les dommages aux matériels tractés ainsi que les marchandises et animaux transportés. Selon les formules souscrites, il couvre aussi les dommages matériels au véhicule automoteur (bris de glaces, incendie, vol, tous accidents, bris mécaniques, etc.).
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Assurance agricole](../../branches/Assurance%20agricole.md) · Type : IPID / Fiche d'information
+- Assureur : [Thélem assurances](<../../insurers/Thélem assurances.md>) · Branche : [Assurance agricole](<../../branches/Assurance agricole.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

@@ -40,7 +40,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) pour P&V Auto - Moto, une assurance véhicule automoteur couvrant les risques liés à la détention et l'usage d'une moto. Seule la garantie Responsabilité civile est légalement obligatoire; l'assuré peut renforcer sa protection avec des options liées à lui-même, à son véhicule ou à sa mobilité (Protection juridique, Protection du conducteur, Dommages au véhicule, Assistance).
 
-- Assureur : [Actel](../../insurers/Actel.md) · Branche : [Auto](../../branches/Auto.md) · Type : IPID / Fiche d'information · Édition : P08.2018
+- Assureur : [Actel](<../../insurers/Actel.md>) · Branche : [Auto](<../../branches/Auto.md>) · Type : IPID / Fiche d'information · Édition : P08.2018
 
 > ⚠️ **Édition ancienne** : P08.2018, soit 8 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 
@@ -127,7 +127,7 @@ Dans le cadre de l'assistance au véhicule, en cas d'accident, vol, panne ou aut
 
 ## Documents liés
 
-- [P&V Auto - IPID](P%26V%20Auto%20-%20IPID.md) - IPID / Fiche d'information, éd. P11.2018
+- [P&V Auto - IPID](<P&V Auto - IPID.md>) - IPID / Fiche d'information, éd. P11.2018
 
 ## Source & fidélité
 

@@ -45,7 +45,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du contrat Multirisques Camping-car « Auto 4D » de la Matmut. Le contrat a pour objet de garantir le conducteur ou le gardien d'un camping-car ou d'un engin attelé contre les conséquences des dommages matériels et corporels causés à des tiers (Responsabilité civile) ; le document précise qu'il s'agit d'une assurance obligatoire. Il comprend en inclusion une garantie du conducteur, la Protection Juridique suite à accident et l'assistance au véhicule et aux personnes transportées, et propose une large liste de garanties optionnelles (dommages au véhicule, vol, incendie, panne mécanique, véhicule de remplacement, autopartage, etc.). Les plafonds détaillés figurent aux Conditions générales.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 10/24
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information · Édition : 10/24
 
 ## Garanties
 
@@ -224,8 +224,8 @@ Mise en location du véhicule assuré (autopartage). Garantie optionnelle. Le do
 
 ## Documents liés
 
-- [Auto 4D (Matmut)](Auto%204D%20%28Matmut%29.md) - Conditions générales
-- [Auto 4D Distinguo & Co](Auto%204D%20Distinguo%20%26%20Co.md) - Conditions générales
+- [Auto 4D (Matmut)](<Auto 4D (Matmut).md>) - Conditions générales
+- [Auto 4D Distinguo & Co](<Auto 4D Distinguo & Co.md>) - Conditions générales
 
 ## Source & fidélité
 

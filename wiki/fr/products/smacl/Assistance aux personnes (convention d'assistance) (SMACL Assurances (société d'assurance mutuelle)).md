@@ -48,7 +48,7 @@ generated: true
 
 Convention d'assistance aux personnes de SMACL Assurances, mise en œuvre par SMACL Assistance et diffusée sous les bandeaux « Collectivités » et « Associations ». Elle couvre les bénéficiaires - la personne morale souscriptrice et les personnes physiques assurées au titre d'un contrat souscrit auprès de SMACL Assurances - lors de tout déplacement d'une durée inférieure à un an effectué dans le cadre des activités de la personne morale, en France et dans les autres pays du monde, hors du domicile. Les prestations comprennent l'assistance aux blessés et malades (rapatriement sanitaire, frais médicaux jusqu'à 80 000 € à l'étranger, frais de secours et de recherche), l'assistance en cas de décès, l'assistance aux personnes valides, des garanties complémentaires (documents perdus ou volés, matériel, événement climatique majeur, soutien psychologique) et des avances de fonds (frais de justice à l'étranger 3 000 €, caution pénale 10 000 €), complétées par des services d'informations (conseils médicaux, renseignements pratiques, assistance linguistique, messages urgents). L'assistance est joignable 7 j / 7, 24 h / 24.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : Conditions générales · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Voyage et assistance](<../../branches/Voyage et assistance.md>) · Type : Conditions générales · Édition : 01/2024
 
 ## Définitions
 
@@ -305,7 +305,7 @@ Convention d'assistance aux personnes de SMACL Assurances, mise en œuvre par SM
 ## Documents liés
 
 - Extension / option du produit : **contrat souscrit par la personne morale auprès de SMACL Assurances**
-- [Assistance aux personnes (convention d'assistance) (SMACL Assurances SA (société anonyme))](Assistance%20aux%20personnes%20%28convention%20d%27assistance%29%20%28SMACL%20Assurances%20SA%20%28soci%C3%A9t%C3%A9%20anonyme%29%29.md) - Conditions générales, éd. 01/2024
+- [Assistance aux personnes (convention d'assistance) (SMACL Assurances SA (société anonyme))](<Assistance aux personnes (convention d'assistance) (SMACL Assurances SA (société anonyme)).md>) - Conditions générales, éd. 01/2024
 
 ## Source & fidélité
 

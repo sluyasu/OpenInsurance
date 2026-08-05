@@ -50,7 +50,10 @@ def resolution_targets(prefer_cc: str | None = None) -> dict[str, str]:
     return targets
 
 
-MDLINK_RE = re.compile(r"\[[^\]]*\]\(([^)]+\.md)\)")
+# Both destination forms: `(<path.md>)` (angle brackets, what mdlink emits — spaces and
+# parentheses in the clear) and `(path%20encoded.md)` (the historical form, still present
+# in hand-authored pages). Group 1 xor group 2 carries the target.
+MDLINK_RE = re.compile(r"\[[^\]]*\]\((?:<([^>]+\.md)>|([^)<]+\.md))\)")
 
 
 def mdlinks(md: Path, body: str) -> list[tuple[str, Path | None]]:
@@ -61,7 +64,7 @@ def mdlinks(md: Path, body: str) -> list[tuple[str, Path | None]]:
     the file is there or the published site 404s."""
     out = []
     for m in MDLINK_RE.finditer(body):
-        raw = m.group(1)
+        raw = m.group(1) or m.group(2)
         if "://" in raw:
             continue
         target = (md.parent / unquote(raw)).resolve()

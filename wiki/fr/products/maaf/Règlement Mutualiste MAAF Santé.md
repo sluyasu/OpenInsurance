@@ -50,7 +50,7 @@ generated: true
 
 Règlement mutualiste de MAAF Santé, mutuelle soumise aux dispositions du livre II du Code de la Mutualité (Siren n° 331 542 142), approuvé par le Conseil d’administration du 23 septembre 2025. Il définit le contenu des engagements contractuels entre chaque membre participant et la mutuelle : un chapitre 1 de dispositions communes (adhésion, cotisation, durée, prescription, déclaration du risque, justificatifs, résiliation, données personnelles, assistance) et un chapitre 2 de dispositions spécifiques regroupant la garantie indemnités journalières (11 catégories E, J et E3) et les tableaux de garanties frais médicaux de six gammes : MÉDIKA, VITAMINE (dont formules 101-102), VITAPRO (professions médicales), VITAMINE BANQUE POPULAIRE, BIORYTHM et VIVAZEN. Les garanties frais de santé sont assurées par MAAF Santé ; les garanties d’assistance sont assurées par MAAF Assurances SA au titre d’un contrat collectif et gérées par FIDELIA ASSISTANCE.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : 2026-01
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Conditions générales · Édition : 2026-01
 
 ## Définitions
 

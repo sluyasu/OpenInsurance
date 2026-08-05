@@ -42,7 +42,7 @@ generated: true
 
 Le contrat d’assurance Initiative Obsèques Capital est un contrat d’assurance de type vie entière, porté par Thélem prévoyance, qui permet à l’assuré de se constituer un capital afin de financer ses funérailles. Le capital, choisi à la souscription de 2 000 € à 12 000 €, est obligatoirement versé à l’opérateur des pompes funèbres qui aura eu en charge les obsèques ou à la personne physique qui règlera les obsèques, le solde revenant aux bénéficiaires désignés sur les Conditions Particulières. Les garanties ne sont soumises à aucune sélection médicale et la cotisation est fixe dans le temps, payable sur 10, 15, 20 ou 25 ans ou durant toute la vie de l’assuré. Le contrat comprend également des prestations d’assistance (rapatriement du corps, aide-ménagère, garde des enfants et des animaux de compagnie, accompagnement psychologique, assistance téléphonique).
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : IPID / Fiche d'information
+- Assureur : [Thélem assurances](<../../insurers/Thélem assurances.md>) · Branche : [Obsèques](<../../branches/Obsèques.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -188,7 +188,7 @@ Assistance téléphonique, résolution des questions administratives et juridiqu
 
 ## Documents liés
 
-- [Assurance Initiative Obsèques Services - IPID](Assurance%20Initiative%20Obs%C3%A8ques%20Services%20-%20IPID.md) - IPID / Fiche d'information
+- [Assurance Initiative Obsèques Services - IPID](<Assurance Initiative Obsèques Services - IPID.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

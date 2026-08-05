@@ -40,7 +40,7 @@ generated: true
 
 L’assurance Flottes Automobile a pour objectif de garantir l’assuré contre les conséquences des dommages matériels ou corporels causés par ses véhicules à un tiers (responsabilité civile). C’est une assurance obligatoire. Ce contrat prévoit également en option les dommages corporels du conducteur. Selon les formules souscrites, il couvre aussi les dommages matériels des véhicules assurés.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information
+- Assureur : [Thélem assurances](<../../insurers/Thélem assurances.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

@@ -46,7 +46,7 @@ generated: true
 
 Convention Spéciale d'assistance annexée au contrat d'assurance Flotte automobile de Groupama, applicable aux véhicules d'un P.T.A.C. supérieur à 3,5 tonnes. Elle organise deux ensembles de prestations : l'Assistance Voyageurs (rapatriement sanitaire, rapatriement du corps, frais médicaux à l'étranger, retour prématuré, avance de caution pénale, frais de justice, incarcération, remplacement de l'Assuré, transmission de messages) et l'Assistance Véhicule (remorquage, hébergement ou rapatriement, véhicule volé, envoi de pièces, mécanicien spécialisé, rapatriement du véhicule, abandon, gardiennage, autocar de remplacement, constat amiable, soutien psychologique). Les prestations sont mises en œuvre par Mutuaide Assistance, filiale du Groupe Groupama, et ne se déclenchent que sur appel téléphonique préalable. Les montants et franchises renvoient à un Tableau des Montants de Garanties et des Franchises qui n'est pas inclus dans ce document.
 
-- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales
+- Assureur : [Groupama](<../../insurers/Groupama.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions générales
 
 ## Définitions
 

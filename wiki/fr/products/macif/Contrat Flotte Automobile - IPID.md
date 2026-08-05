@@ -45,7 +45,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (DIPA) du Contrat Flotte Automobile de la Macif, assurance des flottes de véhicules. Le contrat garantit le souscripteur contre les conséquences des dommages corporels, matériels et immatériels consécutifs causés à des tiers par ses véhicules (responsabilité civile automobile obligatoire, dommages corporels sans limitation de somme et dommages matériels et immatériels consécutifs dans la limite de 100 000 000 € par sinistre) et couvre les dommages matériels subis par les véhicules assurés durant leur utilisation dans le cadre de l'activité professionnelle ou sociale déclarée. Il propose également une responsabilité civile fonctionnement pour les véhicules utilisés comme outil de travail, la défense et le recours, les dommages subis par le véhicule et son contenu, les dommages subis par le conducteur et des garanties d'assistance. Seules la responsabilité civile automobile et la défense et le recours sont précédées d'une coche, c'est-à-dire systématiquement prévues au contrat.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 06/19
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information · Édition : 06/19
 
 > ⚠️ **Édition ancienne** : 06/19, soit 7 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 
@@ -306,7 +306,7 @@ Transport sanitaire, frais médicaux, présence d'un proche.
 ## Documents liés
 
 - Édition courante de ce produit.
-- [Contrat Flotte Automobile - IPID](Contrat%20Flotte%20Automobile%20-%20IPID%20%282%29.md) - IPID / Fiche d'information, éd. 10/18
+- [Contrat Flotte Automobile - IPID](<Contrat Flotte Automobile - IPID (2).md>) - IPID / Fiche d'information, éd. 10/18
 
 ## Source & fidélité
 

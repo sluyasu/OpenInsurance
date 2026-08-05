@@ -40,7 +40,7 @@ generated: true
 
 Informationsblatt zum Versicherungsprodukt (IPID) der Kfz-Versicherung « Drive » der Baloise Assurances Luxembourg S.A. Es handelt sich um eine Nicht-Lebensversicherung, Typ Schadensversicherung (I.A.R.D.). Die Versicherung sichert den Versicherten gegen die Folgen von Sach- und Personenschäden ab, die durch sein Fahrzeug Dritten entstehen, und deckt außerdem seine Haftpflicht ab; daneben sind Schäden versichert, die dem Versicherten durch ein fremdes Fahrzeug entstehen. Neben der Haftpflichtversicherung, Verteidigung und Regress, Pannenhilfe, Unfallhilfe und Fahrerschutz können je nach Tarif und Fahrzeug ein Schadens-, Entschädigungs-, Mobilitäts- und Ausstattungspaket hinzukommen.
 
-- Assureur : [Baloise Luxembourg](../../insurers/Baloise%20Luxembourg.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information
+- Assureur : [Baloise Luxembourg](<../../insurers/Baloise Luxembourg.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -251,9 +251,9 @@ Ausstattungspaket, je nach Tarif und Fahrzeug. Umfasst: Versicherung des Zubehö
 
 ## Documents liés
 
-- [Drive - IPID - EN](Drive%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
-- [Drive - IPID](Drive%20-%20IPID.md) - IPID / Fiche d'information
-- [Drive Flottes - IPID](Drive%20Flottes%20-%20IPID.md) - IPID / Fiche d'information
+- [Drive - IPID - EN](<Drive - IPID - EN.md>) - IPID / Fiche d'information
+- [Drive - IPID](<Drive - IPID.md>) - IPID / Fiche d'information
+- [Drive Flottes - IPID](<Drive Flottes - IPID.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

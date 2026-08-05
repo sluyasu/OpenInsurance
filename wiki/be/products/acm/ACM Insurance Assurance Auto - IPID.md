@@ -40,7 +40,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de l'assurance ACM Insurance Assurance Auto d'ACM Belgium SA. Il s'agit d'une assurance automobile qui couvre la responsabilité civile obligatoire, incluse avec la Garantie BOB et la Mini Assistance dans la prime. La couverture peut être étendue par les garanties optionnelles Protection juridique, Protection du conducteur, Maxi Assistance et les garanties Omnium (Mini Omnium, Mini Omnium Plus et Full Omnium). Ce document résume les principales caractéristiques du produit; les conditions générales et particulières du contrat sont contractuelles et prévalent.
 
-- Assureur : [ACM Belgium](../../insurers/ACM%20Belgium.md) · Branche : [Auto](../../branches/Auto.md) · Type : IPID / Fiche d'information · Édition : 09/2025
+- Assureur : [ACM Belgium](<../../insurers/ACM Belgium.md>) · Branche : [Auto](<../../branches/Auto.md>) · Type : IPID / Fiche d'information · Édition : 09/2025
 
 ## Définitions
 
@@ -171,9 +171,9 @@ Mini Omnium Plus + garantie Dégâts matériels.
 ## Documents liés
 
 - Édition courante de ce produit.
-- [ACM INSURANCE ASSURANCE AUTO (auto-pros)](ACM%20INSURANCE%20ASSURANCE%20AUTO%20%28auto-pros%29.md) - Conditions générales, éd. 09/2025
-- [ACM Insurance Assurance Auto - IPID](ACM%20Insurance%20Assurance%20Auto%20-%20IPID%20%282%29.md) - IPID / Fiche d'information, éd. 09/2025
-- [ACM INSURANCE ASSURANCE AUTO](ACM%20INSURANCE%20ASSURANCE%20AUTO.md) - Conditions générales, éd. 09/2025
+- [ACM INSURANCE ASSURANCE AUTO (auto-pros)](<ACM INSURANCE ASSURANCE AUTO (auto-pros).md>) - Conditions générales, éd. 09/2025
+- [ACM Insurance Assurance Auto - IPID](<ACM Insurance Assurance Auto - IPID (2).md>) - IPID / Fiche d'information, éd. 09/2025
+- [ACM INSURANCE ASSURANCE AUTO](<ACM INSURANCE ASSURANCE AUTO.md>) - Conditions générales, éd. 09/2025
 
 ## Source & fidélité
 

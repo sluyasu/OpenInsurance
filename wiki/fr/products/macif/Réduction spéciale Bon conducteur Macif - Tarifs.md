@@ -45,7 +45,7 @@ generated: true
 
 Document tarifaire décrivant la « Réduction spéciale Bon conducteur Macif », un dispositif commercial qui accorde une réduction de cotisation supplémentaire aux sociétaires dont le Cœfficient de Réduction / Majoration (CRM) est égal à 0,50 depuis au moins un an sans sinistre, sur un contrat Macif portant sur un véhicule concerné par le CRM. La réduction est de 2 % par année d'assurance sans sinistre dans la limite de 10 % pour les véhicules particuliers, véhicules de société, camping-cars et deux-roues, et de 5 % par année dans la limite de 20 % pour les fourgons, fourgonnettes, camions et véhicules automoteurs spécialisés. Elle s'applique exclusivement sur la cotisation des garanties Responsabilité civile, Dommages par accident (ou Dommages au véhicule), Vol, Incendie, Bris de glace et Valeur majorée (ou Indemnisation +) lorsque celles-ci ont été souscrites. Le document énumère les cas de suspension et de suppression de la réduction et précise que la Macif peut la modifier ou y mettre fin à tout moment.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions tarifaires · Édition : 2024-12
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions tarifaires · Édition : 2024-12
 
 ## Définitions
 

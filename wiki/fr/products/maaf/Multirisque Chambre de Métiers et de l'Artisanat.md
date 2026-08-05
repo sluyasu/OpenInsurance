@@ -47,7 +47,7 @@ generated: true
 
 Conditions générales du contrat Multirisque Chambre de Métiers et de l’Artisanat de MAAF, une multirisque professionnelle destinée aux Chambres de Métiers et de l’Artisanat et aux Centres de Formation d’Apprentis qui leur sont intégrés. Le contrat réunit quatre ensembles de garanties souscrits selon les Conditions particulières : « Vos locaux et leur contenu » (incendie et événements assimilés, dommages électriques, dégâts des eaux, événements climatiques, bris des vitres/vitrines/enseignes, choc de véhicules, émeutes et mouvements populaires, responsabilité civile du fait des locaux, et en option dommages aux aménagements extérieurs, vol/tentative de vol et vandalisme, bris de matériel, plus des garanties complémentaires), « Vos responsabilités » (responsabilité civile avant livraison, après livraison et professionnelle, avec une option responsabilité civile liée aux véhicules confiés), « Votre Tranquillité mobilité » (dommages aux biens hors des locaux, et en option vol de ces biens) et « Votre défense pénale – recours ». S’y ajoutent les garanties légales catastrophes naturelles et actes de terrorisme, ainsi que des services d’assistance aux locaux, d’assistance aux personnes et de renseignements juridiques par téléphone. Les garanties de responsabilité civile et la défense pénale fonctionnent en base réclamation avec un délai subséquent de cinq ans, porté à dix ans dans les cas visés par le décret n° 2004-1284.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : Conditions générales · Édition : 01/26
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : Conditions générales · Édition : 01/26
 
 ## Définitions
 
@@ -978,7 +978,7 @@ Article L.114-1 du Code des assurances : toutes actions dérivant d’un contrat
 
 ## Documents liés
 
-- [Multirisque Chambre de Métiers et de l'Artisanat - IPID](Multirisque%20Chambre%20de%20M%C3%A9tiers%20et%20de%20l%27Artisanat%20-%20IPID.md) - IPID / Fiche d'information, éd. 2024-06
+- [Multirisque Chambre de Métiers et de l'Artisanat - IPID](<Multirisque Chambre de Métiers et de l'Artisanat - IPID.md>) - IPID / Fiche d'information, éd. 2024-06
 
 ## Source & fidélité
 

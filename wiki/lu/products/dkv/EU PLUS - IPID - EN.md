@@ -41,7 +41,7 @@ generated: true
 
 Insurance Product Information Document (IPID) for DKV Luxembourg S.A.'s EU PLUS product. The document states the type of insurance as « Additional protection for EU officials and their families ». It lists 22 covered benefits across outpatient, dental and inpatient treatment, 6 items that are not insured and 4 restrictions on cover. Cover applies to Europe, and to the first month of a temporary sojourn in a non-European country.
 
-- Assureur : [DKV Luxembourg](../../insurers/DKV%20Luxembourg.md) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
+- Assureur : [DKV Luxembourg](<../../insurers/DKV Luxembourg.md>) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -200,8 +200,8 @@ Transportation to the hospital in an ambulance up to 100 km
 
 ## Documents liés
 
-- [EU PLUS - IPID - DE](EU%20PLUS%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
-- [EU PLUS - IPID](EU%20PLUS%20-%20IPID.md) - IPID / Fiche d'information
+- [EU PLUS - IPID - DE](<EU PLUS - IPID - DE.md>) - IPID / Fiche d'information
+- [EU PLUS - IPID](<EU PLUS - IPID.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

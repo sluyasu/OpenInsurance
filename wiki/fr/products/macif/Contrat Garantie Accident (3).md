@@ -46,7 +46,7 @@ generated: true
 
 Conditions générales du contrat Garantie Accident de la Macif (édition janvier 2018), une assurance des accidents corporels de la vie privée à caractère familial. Le contrat couvre les accidents survenus au cours de la vie privée ou lors d'un trajet domicile-travail et se décompose en trois rubriques : les garanties en cas d'invalidité (rente viagère à partir de la date de consolidation, ou capital constitutif lorsque le taux est inférieur à 50 %), les garanties en cas de décès (capital conjoint, rente éducation, frais d'obsèques) et l'assistance aux personnes (assistance en déplacement, frais de recherche et de secours, assistance à domicile, assistance psychologique). Les montants sont exprimés en unités de compte et dépendent de l'option souscrite : économique (3), essentielle (6), étendue (9) ou excellence (12).
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Garantie des accidents de la vie](../../branches/Garantie%20des%20accidents%20de%20la%20vie.md) · Type : Conditions générales · Édition : janvier 2018
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Garantie des accidents de la vie](<../../branches/Garantie des accidents de la vie.md>) · Type : Conditions générales · Édition : janvier 2018
 
 ## Définitions
 
@@ -464,11 +464,11 @@ Toutes les actions dérivant d'un contrat d'assurance sont prescrites par deux a
 
 ## Documents liés
 
-- ⚠️ Édition remplacée par une version plus récente : [Contrat Garantie Accident](Contrat%20Garantie%20Accident.md)
-- [Contrat Garantie Accident - IPID](Contrat%20Garantie%20Accident%20-%20IPID.md) - IPID / Fiche d'information, éd. 29/01/26
-- [Contrat Garantie Accident](Contrat%20Garantie%20Accident%20%284%29.md) - Conditions générales, éd. Avril 2021
-- [Contrat Garantie Accident](Contrat%20Garantie%20Accident.md) - Conditions générales, éd. 29 janvier 2026
-- [Garantie Accident](Garantie%20Accident.md) - Conditions générales, éd. Avril 2021
+- ⚠️ Édition remplacée par une version plus récente : [Contrat Garantie Accident](<Contrat Garantie Accident.md>)
+- [Contrat Garantie Accident - IPID](<Contrat Garantie Accident - IPID.md>) - IPID / Fiche d'information, éd. 29/01/26
+- [Contrat Garantie Accident](<Contrat Garantie Accident (4).md>) - Conditions générales, éd. Avril 2021
+- [Contrat Garantie Accident](<Contrat Garantie Accident.md>) - Conditions générales, éd. 29 janvier 2026
+- [Garantie Accident](<Garantie Accident.md>) - Conditions générales, éd. Avril 2021
 
 ## Source & fidélité
 

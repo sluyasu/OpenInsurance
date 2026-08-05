@@ -44,7 +44,7 @@ generated: true
 
 Fiche produit de la complémentaire santé individuelle « Santé vous bien ! », présentée comme « la mutuelle santé personnalisable », assurée par la Mutuelle Ociane (Groupe Matmut). Les garanties 2026 se composent de deux tableaux combinables : « Bien pour ma tête » (optique, dentaire, aides auditives) en trois niveaux TÊTE 1 à TÊTE 3, et « Bien pour mon corps » (hospitalisation, pharmacie, soins courants, services de médecine à distance, sport sur ordonnance) en trois niveaux CORPS 1 à CORPS 3, avec des rubriques de confort (chambre particulière, médicaments à SMR modéré ou faible, médecines douces, cure thermale). S'y ajoutent des packs inclus évoluant avec l'âge, des services (assistance, coaching, gestes qui sauvent), des forfaits fidélité et des garanties supplémentaires en option. Le document est non contractuel.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit · Édition : 2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Fiche produit · Édition : 2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)
 
 ## Définitions
 
@@ -713,12 +713,12 @@ Renvoi (3) : forfaits pour les équipements à tarifs libres incluant le rembour
 ## Documents liés
 
 - Édition courante de ce produit.
-- [Santé vous bien ! - Fiche](Sant%C3%A9%20vous%20bien%20%21%20-%20Fiche%20%284%29.md) - Fiche produit, éd. 2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)
-- [Santé vous bien ! - Fiche](Sant%C3%A9%20vous%20bien%20%21%20-%20Fiche%20%286%29.md) - Fiche produit, éd. 08/25
-- [Santé vous bien ! - Fiche](Sant%C3%A9%20vous%20bien%20%21%20-%20Fiche%20%283%29.md) - Fiche produit, éd. 2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)
-- [Santé vous bien avec la Mutuelle Ociane Matmut — Niveaux responsables - IPID](Sant%C3%A9%20vous%20bien%20avec%20la%20Mutuelle%20Ociane%20Matmut%20%E2%80%94%20Niveaux%20responsables%20-%20IPID.md) - IPID / Fiche d'information, éd. 0925
-- [Santé vous bien ! - Fiche](Sant%C3%A9%20vous%20bien%20%21%20-%20Fiche%20%285%29.md) - Fiche produit, éd. 2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)
-- [Santé vous bien ! - Fiche](Sant%C3%A9%20vous%20bien%20%21%20-%20Fiche.md) - Fiche produit, éd. 2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)
+- [Santé vous bien ! - Fiche](<Santé vous bien ! - Fiche (4).md>) - Fiche produit, éd. 2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)
+- [Santé vous bien ! - Fiche](<Santé vous bien ! - Fiche (6).md>) - Fiche produit, éd. 08/25
+- [Santé vous bien ! - Fiche](<Santé vous bien ! - Fiche (3).md>) - Fiche produit, éd. 2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)
+- [Santé vous bien avec la Mutuelle Ociane Matmut — Niveaux responsables - IPID](<Santé vous bien avec la Mutuelle Ociane Matmut — Niveaux responsables - IPID.md>) - IPID / Fiche d'information, éd. 0925
+- [Santé vous bien ! - Fiche](<Santé vous bien ! - Fiche (5).md>) - Fiche produit, éd. 2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)
+- [Santé vous bien ! - Fiche](<Santé vous bien ! - Fiche.md>) - Fiche produit, éd. 2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)
 
 ## Source & fidélité
 

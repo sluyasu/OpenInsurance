@@ -44,7 +44,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) pour l'Assurance Solde Restant Dû – Assurance hypothécaire, émis sous la marque LALUX Assurances-Vie. Le document la décrit comme « une forme d'assurance risque dont le but principal consiste à couvrir en cas de décès une dette hypothécaire ». La garantie principale Décès rembourse le capital restant dû et les intérêts depuis la dernière échéance suivant le tableau d'amortissement défini aux Conditions Particulières, pour un ou deux assurés ; une garantie complémentaire Invalidité permanente totale paie le capital décès en cas d'invalidité physiologique totale et permanente à la suite d'un accident ou d'une maladie. Les garanties valent dans le monde entier, avec une restriction de trois mois hors d'Europe pour l'invalidité. Huit exclusions sont imprimées, dont cinq « sans dérogation possible ».
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : Assurance solde restant dû · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : Assurance solde restant dû · Type : IPID / Fiche d'information
 
 ## Garanties
 

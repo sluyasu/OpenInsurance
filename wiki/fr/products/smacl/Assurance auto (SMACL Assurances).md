@@ -42,7 +42,7 @@ generated: true
 
 Conditions générales du contrat Assurance auto de SMACL Assurances (l’assureur est défini à l’article 3.5 comme SMACL Assurances SA), pour les particuliers. Le contrat couvre la responsabilité civile obligatoire, la défense pénale et recours, les dommages subis par le véhicule (incendie, foudre, attentat, tempête, vol, bris de glace, dommages par accident, dégradations et vandalisme, catastrophes naturelles et technologiques, évènements naturels), l’insolvabilité des tiers, les prestations d’assistance et une garantie protection du conducteur plafonnée à 60 000 euros par sinistre. Des garanties complémentaires optionnelles sont prévues (accessoires et contenu privé, valeur à neuf ou valeur majorée, options d’assistance). Le tableau des garanties de la page 30 répartit ces garanties entre trois formules : TIERS, MÉDIANE et TOUS RISQUES.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : 07/2023
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions générales · Édition : 07/2023
 
 ## Définitions
 

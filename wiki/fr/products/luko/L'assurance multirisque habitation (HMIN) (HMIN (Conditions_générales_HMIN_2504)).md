@@ -44,7 +44,7 @@ generated: true
 
 Conditions générales du contrat multirisque habitation distribué sous la marque Luko en France, porté par Allianz Direct Versicherungs-AG (succursale France) pour le volet assurance (Titre III) et par OPTEVEN Assurances pour le volet assistance (Titre IV), sous la référence interne Conditions_générales_HMIN_2504. Le contrat couvre le logement à usage strictement privatif, principal ou secondaire, situé en France Métropolitaine (hors Corse), contre l'incendie et événements assimilés, la fumée et la suie, la foudre, le choc de véhicule et la chute d'objets, les dommages causés par les services de secours, le dégât des eaux et le gel, les événements climatiques, les catastrophes naturelles et technologiques, les attentats et actes de terrorisme, avec une liste de frais et pertes annexes, une responsabilité civile habitation, « Voyage et Cocktail » et vie privée, une garantie Défense pénale et Recours suite à un accident, et des prestations d'assistance. Les options décrites dans ce formulaire sont « Piscine, spa et jacuzzi », « Frais de réparation des canalisations intérieures », « Assurance scolaire » et l'option FAMILLE de l'assistance ; les garanties acquises sont uniquement celles souscrites et mentionnées aux Conditions Particulières.
 
-- Assureur : [Luko](../../insurers/Luko.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales
+- Assureur : [Luko](<../../insurers/Luko.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : Conditions générales
 
 ## Définitions
 

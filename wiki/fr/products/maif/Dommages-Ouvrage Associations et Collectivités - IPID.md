@@ -42,7 +42,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de l’assurance Dommages-Ouvrage MAIF destinée aux Associations et Collectivités, présentée sous la bannière « Assurance Construction ». Le contrat garantit le paiement des travaux de réparation en dehors de toute recherche de responsabilité, dans la limite du coût total de construction déclaré, pendant dix ans à compter de la réception de l’ouvrage. Trois garanties optionnelles sont citées (bon fonctionnement, dommages immatériels consécutifs, dommages aux existants). Le document résume les principales exclusions et les obligations du souscripteur.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Assurance construction](../../branches/Assurance%20construction.md) · Type : IPID / Fiche d'information · Édition : 08/2025
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Assurance construction](<../../branches/Assurance construction.md>) · Type : IPID / Fiche d'information · Édition : 08/2025
 
 ## Définitions
 

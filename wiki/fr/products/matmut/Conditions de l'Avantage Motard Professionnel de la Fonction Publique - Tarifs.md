@@ -44,7 +44,7 @@ generated: true
 
 Document d'une page fixant les conditions d'octroi de l'Avantage Motard Professionnel de la Fonction Publique, une réduction tarifaire de 5 % sur le contrat d'assurance Multirisques 2R Rider de la Matmut. L'avantage est réservé au souscripteur personne physique résidant en France, dont le contrat garantit une motocyclette ou un tricycle à moteur de plus de 50 cm3 et/ou dépassant 45 km/h, et dont lui-même ou son conjoint désigné aux Conditions particulières est motard professionnel en activité de la Gendarmerie Nationale, de la Police Nationale ou des Douanes. La réduction s'applique sur les cotisations hors taxes des garanties souscrites, à l'exception de la garantie Dommages corporels du conducteur. Le document ne décrit aucune garantie : il porte sur la tarification, pas sur la couverture.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Deux-roues, quads et voiturettes](../../branches/Deux-roues%2C%20quads%20et%20voiturettes.md) · Type : Conditions tarifaires · Édition : 01/26
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Deux-roues, quads et voiturettes](<../../branches/Deux-roues, quads et voiturettes.md>) · Type : Conditions tarifaires · Édition : 01/26
 
 ## Définitions
 
@@ -105,7 +105,7 @@ Document d'une page fixant les conditions d'octroi de l'Avantage Motard Professi
 ## Documents liés
 
 - Extension / option du produit : **Contrat d’assurance Multirisques 2R Rider**
-- [Contrat Multirisques « 2R Rider » - IPID](Contrat%20Multirisques%20%C2%AB%202R%20Rider%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information, éd. 10/24
+- [Contrat Multirisques « 2R Rider » - IPID](<Contrat Multirisques « 2R Rider » - IPID.md>) - IPID / Fiche d'information, éd. 10/24
 
 ## Source & fidélité
 

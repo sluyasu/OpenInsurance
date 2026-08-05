@@ -47,7 +47,7 @@ generated: true
 
 Conditions générales du contrat MAIF « Assurance Auto-Moto Vam », contrat d'assurance des véhicules terrestres à moteur (voitures et deux-roues motorisés) et de leurs remorques, souscrit auprès de MAIF, société d'assurance mutuelle à cotisations variables (Siren 775 709 702), contrôlée par l'ACPR. Le contrat répare les dommages corporels et matériels et garantit les droits et responsabilités de l'assuré lors d'accidents découlant de la propriété ou de l'utilisation des véhicules assurés : responsabilité civile et défense, garantie dommages corporels du conducteur et des occupants, dommages au véhicule (événements climatiques, catastrophes naturelles et technologiques, attentats, vol, incendie, bris d'élément vitré, autres événements accidentels), accompagnement juridique (informations, renseignements, recours, protection juridique), assistance aux personnes et au véhicule et service véhicule de remplacement. Il se décline en cinq formules (Initiale, Essentiel, Différence, Pertinence — qui ne peut plus être souscrite — et Plénitude) et en options (assistance panne 0 km, véhicule de remplacement, objets transportés jusqu'à 1 750 € ou 5 000 €).
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : 01/2026
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions générales · Édition : 01/2026
 
 ## Définitions
 
@@ -642,7 +642,7 @@ La prescription est le délai au-delà duquel aucune action n'est plus recevable
 
 ## Documents liés
 
-- [Assurance Auto-Moto Vam - IPID](Assurance%20Auto-Moto%20Vam%20-%20IPID.md) - IPID / Fiche d'information, éd. 10/2025
+- [Assurance Auto-Moto Vam - IPID](<Assurance Auto-Moto Vam - IPID.md>) - IPID / Fiche d'information, éd. 10/2025
 
 ## Source & fidélité
 

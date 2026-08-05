@@ -44,7 +44,7 @@ generated: true
 
 Conventions spéciales « Véhicules à moteur » annexées aux conditions générales ALÉASSUR de SMACL Assurances, destinées aux collectivités. Elles couvrent, selon la formule choisie (1, C, 2 ou 3), la responsabilité civile obligatoire de l'article L.211-1 du Code, la défense pénale et recours, l'assurance facultative des dommages subis par le véhicule assuré (incendie, vol, bris de glace, événements climatiques, attentat, catastrophe naturelle, accident et dégradations) et l'assurance du conducteur (dépenses de santé, capital invalidité, capital décès). Une garantie d'assistance sans franchise kilométrique est acquise pour les véhicules de moins de 3,5 t, avec deux options (assistance pour les véhicules de plus de 3,5 t et mise à disposition d'un véhicule de remplacement). Les prestations d'assistance sont assurées par SMACL Assistance, en application de la convention assistance aux véhicules en vigueur à la date de souscription.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions générales · Édition : 01/2024
 
 ## Définitions
 
@@ -326,7 +326,7 @@ SMACL Assurances propose également la garantie optionnelle « mise à dispositi
 ## Documents liés
 
 - Extension / option du produit : **ALÉASSUR (conditions générales Aléassur)**
-- [ALÉASSUR Auto collaborateurs - conventions spéciales](AL%C3%89ASSUR%20Auto%20collaborateurs%20-%20conventions%20sp%C3%A9ciales.md) - Conditions générales, éd. 01/2024
+- [ALÉASSUR Auto collaborateurs - conventions spéciales](<ALÉASSUR Auto collaborateurs - conventions spéciales.md>) - Conditions générales, éd. 01/2024
 
 ## Source & fidélité
 

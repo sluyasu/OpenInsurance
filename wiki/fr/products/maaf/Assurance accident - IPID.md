@@ -44,7 +44,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) relatif à l'« Assurance accident », une assurance prévoyance portée par MAAF Assurances SA, entreprise régie par le code des assurances (RCS Niort 542 073 580). Le contrat prévoit le versement d'indemnités journalières et/ou d'un capital pour l'incapacité et/ou le décès consécutifs à un accident corporel survenu à l'assuré dans l'exercice de sa profession et/ou dans le cadre de sa vie privée. Trois garanties sont systématiquement prévues : incapacité temporaire de travail, incapacité permanente et décès, chacune assortie d'une assistance aux personnes. Le montant de l'indemnisation est versé dans la limite du montant souscrit et revalorisé chaque année.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : IPID / Fiche d'information
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

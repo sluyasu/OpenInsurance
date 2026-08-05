@@ -44,7 +44,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (DIPA/IPID) du contrat Macif Deux-roues, présenté en tête comme une « Assurance deux-roues ». La compagnie désignée est « Macif - France - Société d'assurance mutuelle à cotisations variables - SIREN n° 781 452 511 ». Le contrat s'adresse aux personnes physiques et couvre l'assurance obligatoire de responsabilité civile (dommages causés aux tiers) du fait du véhicule tel que cyclomoteur, motocyclette, quad, ainsi que, le cas échéant, les dommages subis par ce dernier ; il offre également des services d'assistance au véhicule et aux personnes transportées. Les garanties de base comprennent la responsabilité civile (sans limitation de somme pour les dommages corporels, 100 millions d'euros pour les dommages matériels et immatériels consécutifs dont 1 300 000 euros pour le préjudice écologique), la défense et le recours, l'assistance au véhicule et l'assistance constat amiable ; s'y ajoutent des garanties de dommages subis par le véhicule et des garanties complémentaires.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Deux-roues, quads et voiturettes](../../branches/Deux-roues%2C%20quads%20et%20voiturettes.md) · Type : IPID / Fiche d'information · Édition : 2026-05
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Deux-roues, quads et voiturettes](<../../branches/Deux-roues, quads et voiturettes.md>) · Type : IPID / Fiche d'information · Édition : 2026-05
 
 ## Garanties
 
@@ -256,7 +256,7 @@ La panne 0 km : assistance en cas de panne sans franchise kilométrique.
 
 ## Documents liés
 
-- [Macif Deux-roues](Macif%20Deux-roues.md) - Conditions générales, éd. 05/2026
+- [Macif Deux-roues](<Macif Deux-roues.md>) - Conditions générales, éd. 05/2026
 
 ## Source & fidélité
 

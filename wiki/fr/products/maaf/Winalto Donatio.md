@@ -46,7 +46,7 @@ generated: true
 
 Convention spéciale applicable aux contrats Winalto Donatio, contrat d'assurance vie de groupe souscrit par l'Association Nationale des Souscripteurs Vie Covéa (ANS Vie-Covéa) auprès de MAAF Vie. Elle n'est pas un document autonome : elle se substitue à la Notice d'information du contrat Winalto tant que l'adhérent donataire est mineur ou jusqu'au terme du pacte adjoint, les dispositions de la Notice non visées par la convention demeurant pleinement applicables, et la Notice s'appliquant intégralement dès que le donataire devient majeur ou au terme du pacte adjoint. Winalto Donatio s'inscrit dans le cadre juridique et fiscal du don manuel : le contrat est ouvert au nom du donataire, le versement initial étant effectué par le donateur, qui peut conditionner son don par un pacte adjoint prévoyant une clause d'indisponibilité temporaire du capital et une clause de retour conventionnel. La vie du contrat est régie par deux périodes : pendant la première, les versements sont exclusivement investis sur le support en euros, qui bénéficie d'une garantie en capital, et les opérations sont limitées ; pendant la seconde, le donataire accède à l'ensemble des supports de Winalto et gère librement son capital.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Conditions générales · Édition : 01/26
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Assurance vie et épargne](<../../branches/Assurance vie et épargne.md>) · Type : Conditions générales · Édition : 01/26
 
 ## Définitions
 
@@ -147,7 +147,7 @@ En cas de décès du donataire, le contrat est interrompu et le capital décès 
 ## Documents liés
 
 - Extension / option du produit : **Notice d'information du contrat Winalto**
-- [Winalto](Winalto.md) - Conditions générales, éd. 01/26
+- [Winalto](<Winalto.md>) - Conditions générales, éd. 01/26
 
 ## Source & fidélité
 

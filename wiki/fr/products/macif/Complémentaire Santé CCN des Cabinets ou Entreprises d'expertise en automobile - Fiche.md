@@ -47,7 +47,7 @@ generated: true
 
 Tableau de garanties de la Complémentaire Santé CCN des Cabinets ou Entreprises d'expertise en automobile, en vigueur au 1er janvier 2026. Le document compare trois formules — ESSENTIELLE, CONFORT et EXCELLENCE — sur 52 postes de remboursement répartis en six sections : Hospitalisation (y compris maternité), Soins courants, Optique, Dentaire, Aides auditives et Autres remboursements, plus une ligne « ASSISTANCE INCLUSE ». Les remboursements sont exprimés en pourcentage de la base de remboursement de la Sécurité sociale, en pourcentage du plafond mensuel de la Sécurité sociale ou en euros, prestations du Régime obligatoire incluses. Le contrat est assuré par Macif Santé Prévoyance et distribué par la Macif ; les garanties d'assistance sont assurées par IMA ASSURANCES.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit · Édition : Garanties en vigueur au 1er janvier 2026
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Fiche produit · Édition : Garanties en vigueur au 1er janvier 2026
 
 ## Définitions
 

@@ -44,7 +44,7 @@ generated: true
 
 Document d'information (DIPA/IPID) du produit PROFIL ELUS, relevant de l'Assurance Des Collectivités Publiques de Groupama. Le contrat couvre la Responsabilité Civile personnelle de l'élu assuré ainsi que la Protection juridique dans le cadre de fautes qualifiées de personnelles commises à l'occasion de ses fonctions au sein de la ou des Collectivité(s) / Etablissement(s). La couverture peut être étendue à l'assurance des accidents corporels subis par l'élu assuré dans le cadre de ses fonctions ainsi qu'à l'assistance de celui-ci à l'occasion de ses déplacements liés au(x) mandat(s) qu'il exerce. Le document précise qu'il présente un résumé des principales garanties et exclusions du contrat et ne prend pas en compte les besoins et demandes spécifiques du souscripteur.
 
-- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : IPID / Fiche d'information · Édition : V012026
+- Assureur : [Groupama](<../../insurers/Groupama.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : IPID / Fiche d'information · Édition : V012026
 
 ## Garanties
 
@@ -184,8 +184,8 @@ Si l'assistance en déplacement a été souscrite, cette garantie est automatiqu
 
 ## Documents liés
 
-- [PROFIL ÉLUS](PROFIL%20%C3%89LUS.md) - Conditions générales
-- [Profil élus - Tableau des montants de garantie et des franchises - Tarifs](Profil%20%C3%A9lus%20-%20Tableau%20des%20montants%20de%20garantie%20et%20des%20franchises%20-%20Tarifs.md) - Conditions tarifaires, éd. janvier 2026
+- [PROFIL ÉLUS](<PROFIL ÉLUS.md>) - Conditions générales
+- [Profil élus - Tableau des montants de garantie et des franchises - Tarifs](<Profil élus - Tableau des montants de garantie et des franchises - Tarifs.md>) - Conditions tarifaires, éd. janvier 2026
 
 ## Source & fidélité
 

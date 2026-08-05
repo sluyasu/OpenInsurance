@@ -40,7 +40,7 @@ generated: true
 
 Conditions générales de l'assurance RC Vie Privée d'AMMA Assurances (droit belge). Le contrat couvre la responsabilité civile qui peut incomber aux assurés dans le cadre de leur vie privée, y compris les troubles de voisinage, ainsi que de nombreux cas particuliers (enfants, animaux, déplacements et moyens de locomotion, bateaux, véhicules aériens, séjours temporaires, immeubles, loisirs/sports, biens gardés et garantie Bob). Il comprend en outre un chapitre distinct « Assistance en Justice et Recours » (défense pénale, recours contre les tiers responsables, insolvabilité des tiers, caution pénale, recours en grâce) et des dispositions administratives sur la durée, la cotisation, l'indexation et la résiliation.
 
-- Assureur : [AMMA Assurances](../../insurers/AMMA%20Assurances.md) · Branche : [Vie privée](../../branches/Vie%20priv%C3%A9e.md) · Type : Conditions générales · Édition : 2023-01
+- Assureur : [AMMA Assurances](<../../insurers/AMMA Assurances.md>) · Branche : [Vie privée](<../../branches/Vie privée.md>) · Type : Conditions générales · Édition : 2023-01
 
 ## Définitions
 
@@ -290,7 +290,7 @@ AMMA Assurances prend en charge : 1. les frais de constitution du dossier ; 2. l
 
 ## Documents liés
 
-- [RC Vie Privée - IPID](RC%20Vie%20Priv%C3%A9e%20-%20IPID.md) - IPID / Fiche d'information, éd. 2025
+- [RC Vie Privée - IPID](<RC Vie Privée - IPID.md>) - IPID / Fiche d'information, éd. 2025
 
 ## Source & fidélité
 

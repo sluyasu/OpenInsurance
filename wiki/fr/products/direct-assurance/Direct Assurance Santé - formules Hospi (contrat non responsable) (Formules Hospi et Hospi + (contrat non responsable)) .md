@@ -45,7 +45,7 @@ generated: true
 
 Cette fiche IPID porte sur les formules Hospi et Hospi + de l’assurance complémentaire santé Direct Assurance Santé, destinées à rembourser tout ou partie des frais d’hospitalisation restant à charge des bénéficiaires en cas d’accident, de maladie ou de maternité, en complément des remboursements de la Sécurité sociale française, et à mettre à disposition des prestations d’assistance. Le contrat est composé de deux contrats indissociables : un contrat d’assurance de groupe à adhésion facultative qui ne répond pas aux conditions du contrat responsable au sens du Code de la sécurité sociale, et un contrat d’assurance collective de groupe à adhésion facultative de prestations d’assistance santé. Les garanties systématiquement prévues portent sur l’hospitalisation (honoraires, frais de séjour, forfait journalier hospitalier, hospitalisation à domicile, frais de transport et frais pré/post opératoires) et sur l’assistance ; la chambre particulière, le lit d’accompagnant et le confort à l’hôpital ne sont pas systématiquement prévus.
 
-- Assureur : [Direct Assurance](../../insurers/Direct%20Assurance.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : IPID / Fiche d'information · Édition : 12/2024
+- Assureur : [Direct Assurance](<../../insurers/Direct Assurance.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : IPID / Fiche d'information · Édition : 12/2024
 
 ## Garanties
 
@@ -180,9 +180,9 @@ Hospitalisation: Chambre particuliere, lit d’accompagnant et confort à l’h�
 
 ## Documents liés
 
-- [Direct Assurance Santé - Exemples de remboursements - Doc](Direct%20Assurance%20Sant%C3%A9%20-%20Exemples%20de%20remboursements%20-%20Doc.md) - Document
-- [Direct Assurance Santé - contrat responsable (Formules Essentielle, Essentielle +, Equilibre, Equilibre +, Liberté, Libe](Direct%20Assurance%20Sant%C3%A9%20-%20contrat%20responsable%20%28Formules%20Essentielle%2C%20Essentielle%20%2B%2C%20Equilibre%2C%20Equilibre%20%2B%2C%20Libert%C3%A9%2C%20Libe.md) - IPID / Fiche d'information, éd. 12/2024
-- [Direct Assurance Santé](Direct%20Assurance%20Sant%C3%A9.md) - Conditions générales, éd. 12.24 (code de pied de page « SANTÉ_12.24_VF »)
+- [Direct Assurance Santé - Exemples de remboursements - Doc](<Direct Assurance Santé - Exemples de remboursements - Doc.md>) - Document
+- [Direct Assurance Santé - contrat responsable (Formules Essentielle, Essentielle +, Equilibre, Equilibre +, Liberté, Libe](<Direct Assurance Santé - contrat responsable (Formules Essentielle, Essentielle +, Equilibre, Equilibre +, Liberté, Libe.md>) - IPID / Fiche d'information, éd. 12/2024
+- [Direct Assurance Santé](<Direct Assurance Santé.md>) - Conditions générales, éd. 12.24 (code de pied de page « SANTÉ_12.24_VF »)
 
 ## Source & fidélité
 

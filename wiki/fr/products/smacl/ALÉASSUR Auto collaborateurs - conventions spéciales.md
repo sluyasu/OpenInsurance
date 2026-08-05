@@ -48,7 +48,7 @@ generated: true
 
 Conventions spéciales « Auto collaborateurs » du contrat ALÉASSUR de SMACL Assurances, en 4 pages (couverture, sommaire, texte, dos). Elles s’appliquent conformément aux conditions générales ALÉASSUR et aux conventions spéciales ALÉASSUR « Véhicules à moteur » et, par dérogation partielle à l’article 3 de ces dernières, définissent les bénéficiaires, l’assuré et le véhicule assuré. Leur objet est de satisfaire, pour les véhicules assurés, à l’obligation d’assurance prescrite par l’article L.211-1 du Code et d’indemniser l’assuré pour le préjudice qu’il subit du fait d’un dommage atteignant un véhicule assuré. La garantie s’exerce selon la FORMULE 3 définie à l’article 3.3 des conventions spéciales « Véhicules à moteur » et toute déclaration de sinistre doit être accompagnée d’une attestation manuscrite sur l’honneur du représentant légal de la personne morale souscriptrice.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions générales · Édition : 01/2024
 
 ## Définitions
 
@@ -123,7 +123,7 @@ Mentionnée à l’article 1.2 : « Pour l’assurance facultative des dommages 
 ## Documents liés
 
 - Extension / option du produit : **conditions générales ALÉASSUR et conventions spéciales ALÉASSUR « Véhicules à moteur »**
-- [ALÉASSUR - Véhicules à moteur](AL%C3%89ASSUR%20-%20V%C3%A9hicules%20%C3%A0%20moteur.md) - Conditions générales, éd. 01/2024
+- [ALÉASSUR - Véhicules à moteur](<ALÉASSUR - Véhicules à moteur.md>) - Conditions générales, éd. 01/2024
 
 ## Source & fidélité
 

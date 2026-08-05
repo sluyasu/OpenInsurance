@@ -40,7 +40,7 @@ generated: true
 
 Informationsblatt zu Versicherungsprodukten (IPID) für das Produkt EASY HEALTH der DKV Luxembourg S.A. Das Dokument nennt als Versicherungsart « Es handelt sich um eine Zusatzkrankenversicherung » und führt 18 versicherte Leistungen in ambulanter, zahnärztlicher und stationärer Heilbehandlung auf, dazu 3 Leistungen des Servicetarifs BEST CARE + / BEST CARE PREMIUM +, 7 nicht versicherte Punkte und 4 Deckungsbeschränkungen; der Versicherungsschutz erstreckt sich auf Europa. Dieselbe PDF-Datei enthält auf den Seiten 3-4 ein zweites, eigenständiges IPID für das Produkt TRAVEL / TRAVEL +, dessen Leistungen hier mit ausdrücklichem Präfix wiedergegeben werden.
 
-- Assureur : [DKV Luxembourg](../../insurers/DKV%20Luxembourg.md) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
+- Assureur : [DKV Luxembourg](<../../insurers/DKV Luxembourg.md>) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -279,9 +279,9 @@ Organisation und Übernahme der Kosten für eine Überführung im Todesfall der 
 
 ## Documents liés
 
-- [EASY HEALTH - IPID](EASY%20HEALTH%20-%20IPID.md) - IPID / Fiche d'information
-- [EASY HEALTH - IPID - EN](EASY%20HEALTH%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
-- [EASY HEALTH - DE](EASY%20HEALTH%20-%20DE.md) - Conditions générales, éd. VERSION 2025 (09/25)
+- [EASY HEALTH - IPID](<EASY HEALTH - IPID.md>) - IPID / Fiche d'information
+- [EASY HEALTH - IPID - EN](<EASY HEALTH - IPID - EN.md>) - IPID / Fiche d'information
+- [EASY HEALTH - DE](<EASY HEALTH - DE.md>) - Conditions générales, éd. VERSION 2025 (09/25)
 
 ## Source & fidélité
 

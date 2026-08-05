@@ -41,7 +41,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) du contrat Assurance multirisque professionnelle de Thélem assurances, destiné aux professionnels des secteurs Artisanat/Industrie, Commerces, Services et Professions libérales. Il couvre les responsabilités et biens professionnels, avec des garanties systématiques portant sur les responsabilités civiles professionnelles (plafond de 7 000 000 € par sinistre), la défense pénale et recours suite à accident, les locaux professionnels et leur contenu (incendie, explosions, tempêtes, catastrophes naturelles, attentats, dégâts des eaux, gel et inondation, vol et vandalisme extérieur, bris de glaces et d’enseignes, bris de machines et dommages électriques) ainsi que des prestations d’assistance. Des garanties et services optionnels sont proposés par pack ou contrat spécifique (honoraires d’expert, pertes d’exploitation, valeur à neuf, perte de valeur vénale du fonds de commerce, denrées en chambres froides, mobilité, matériels informatiques portables, aménagements extérieurs).
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information
+- Assureur : [Thélem assurances](<../../insurers/Thélem assurances.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

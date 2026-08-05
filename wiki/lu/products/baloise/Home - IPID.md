@@ -43,7 +43,7 @@ generated: true
 
 Fiche IPID de l’assurance habitation « Home » de Baloise Assurances Luxembourg S.A. Le document décrit une assurance multirisque habitation permettant à un propriétaire (occupant ou non) ou à un locataire d’assurer un local d’habitation, dont l’objet principal, selon les garanties souscrites, est de couvrir les bâtiments et leurs contenus, et qui permet également d’assurer la responsabilité civile du souscripteur et des éventuels occupants du logement. Dix garanties sont présentées comme systématiquement prévues et douze comme options facultatives. Les garanties dommages jouent au lieu de situation de l’immeuble au Grand-Duché de Luxembourg, tandis que la Responsabilité Civile Vie privée est acquise dans le monde entier.
 
-- Assureur : [Baloise Luxembourg](../../insurers/Baloise%20Luxembourg.md) · Branche : [Assurance habitation](../../branches/Assurance%20habitation.md) · Type : IPID / Fiche d'information
+- Assureur : [Baloise Luxembourg](<../../insurers/Baloise Luxembourg.md>) · Branche : [Assurance habitation](<../../branches/Assurance habitation.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -232,7 +232,7 @@ Garantie listée sous « Les options facultatives : ».
 
 ## Documents liés
 
-- [Home - IPID - DE](Home%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
+- [Home - IPID - DE](<Home - IPID - DE.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

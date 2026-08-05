@@ -40,7 +40,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de l'assurance Scoot' & Bike Serenity d'ACM Belgium SA, une assurance véhicule automoteurs pour les cyclomoteurs, les speed pedelecs et les quads de moins de 50cc. Elle couvre la responsabilité civile obligatoire et une Mini Assistance incluse dans la prime. La couverture peut être étendue à des garanties optionnelles : Protection Juridique, Protection du Conducteur et la garantie Mini Omnium.
 
-- Assureur : [ACM Belgium](../../insurers/ACM%20Belgium.md) · Branche : [Auto](../../branches/Auto.md) · Type : IPID / Fiche d'information · Édition : 10/2024
+- Assureur : [ACM Belgium](<../../insurers/ACM Belgium.md>) · Branche : [Auto](<../../branches/Auto.md>) · Type : IPID / Fiche d'information · Édition : 10/2024
 
 ## Garanties
 
@@ -122,7 +122,7 @@ Couverture supplémentaire : incendie, vol, bris de vitrage, forces de la nature
 
 ## Documents liés
 
-- [Scoot' & Bike Serenity](Scoot%27%20%26%20Bike%20Serenity.md) - Conditions générales, éd. 10/2024
+- [Scoot' & Bike Serenity](<Scoot' & Bike Serenity.md>) - Conditions générales, éd. 10/2024
 
 ## Source & fidélité
 

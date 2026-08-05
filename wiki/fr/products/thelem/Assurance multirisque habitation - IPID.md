@@ -43,7 +43,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de l'assurance multirisque habitation de Thélem assurances. L'assurance habitation a pour objectifs de garantir les locaux d'habitation occupés en tant que propriétaire ou locataire, les responsabilités civiles en tant qu'occupant ou dans le cadre de la vie privée, pour les appartements et maisons de moins de 15 pièces principales situés à l'adresse déclarée aux Conditions Particulières. Les garanties systématiquement prévues couvrent les responsabilités civiles et la défense des droits, les dommages à l'habitation et son contenu (incendie et explosions, catastrophes naturelles, technologiques et attentat, événements climatiques, dégâts des eaux et gel, vol, détériorations immobilières et vandalisme, bris de glaces, frais additionnels, colocation) ainsi que des prestations d'assistance. Des garanties et services optionnels peuvent être ajoutés (inondation et frais de relogement, vol des objets de valeurs, installations d'énergies renouvelables, dommages électriques et électroniques, etc.).
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information · Édition : janvier 2026
+- Assureur : [Thélem assurances](<../../insurers/Thélem assurances.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : IPID / Fiche d'information · Édition : janvier 2026
 
 ## Garanties
 
@@ -241,7 +241,7 @@ Service optionnel : assistance et services liés au déménagement.
 
 ## Documents liés
 
-- [Assurance multirisque habitation Propriétaire non occupant - IPID](Assurance%20multirisque%20habitation%20Propri%C3%A9taire%20non%20occupant%20-%20IPID.md) - IPID / Fiche d'information, éd. janvier 2026
+- [Assurance multirisque habitation Propriétaire non occupant - IPID](<Assurance multirisque habitation Propriétaire non occupant - IPID.md>) - IPID / Fiche d'information, éd. janvier 2026
 
 ## Source & fidélité
 

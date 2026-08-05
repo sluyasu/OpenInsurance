@@ -42,7 +42,7 @@ generated: true
 
 Tableau « Contenu et montant maximum des garanties » et « Franchises » du contrat ASSURANCE MULTIRISQUE Raqvam Associations et Collectivités de MAIF, société d'assurance mutuelle à cotisations variables régie par le Code des assurances (CS 90000 - 79038 Niort cedex 9). Le document récapitule, par renvoi aux articles des conditions générales, les plafonds des garanties responsabilité civile - défense (art. 20 à 24), dommages aux biens assurés (art. 25 à 33), indemnisation des dommages corporels (art. 34 à 41), recours protection juridique (art. 42 à 47) et assistance (art. 54), ainsi que les franchises contractuelles et légales. Référence imprimée : 3443 G - 11-2021.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : Conditions particulières · Édition : 11-2021
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : Conditions particulières · Édition : 11-2021
 
 ## Garanties
 
@@ -232,8 +232,8 @@ Les participants aux activités de la collectivité assurée souscriptrice du co
 
 ## Documents liés
 
-- [Raqvam Associations et Collectivités - IPID](Raqvam%20Associations%20et%20Collectivit%C3%A9s%20-%20IPID.md) - IPID / Fiche d'information, éd. 03-2025
-- [Raqvam Associations et Collectivités](Raqvam%20Associations%20et%20Collectivit%C3%A9s.md) - Conditions générales, éd. 01/2026
+- [Raqvam Associations et Collectivités - IPID](<Raqvam Associations et Collectivités - IPID.md>) - IPID / Fiche d'information, éd. 03-2025
+- [Raqvam Associations et Collectivités](<Raqvam Associations et Collectivités.md>) - Conditions générales, éd. 01/2026
 
 ## Source & fidélité
 

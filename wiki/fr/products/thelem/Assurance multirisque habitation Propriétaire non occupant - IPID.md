@@ -45,7 +45,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de l’assurance multirisque habitation « Propriétaire non occupant » de Thélem assurances. Le contrat garantit les locaux d’habitation (maison, appartement) non occupés par le propriétaire — appartements et maisons loués de moins de 15 pièces principales — ainsi que les responsabilités civiles en tant que propriétaire non occupant et propriétaire d’immeuble, et inclut des prestations d’assistance en cas de sinistre. Les garanties systématiquement prévues couvrent la responsabilité civile et la défense des droits (dont Atteintes à l’environnement et Défense Pénale et Recours Suite à Accident jusqu’à 16 000 €), les dommages à l’habitation et son contenu (incendie, catastrophes naturelles, technologiques et attentat, événements climatiques, dégâts des eaux, gel et inondation, vol et vandalisme, bris de glaces, frais additionnels, équipements photovoltaïques, dommages électriques et électroniques, protection juridique bailleur) et l’assistance. Des garanties et services optionnels sont disponibles (biens en plein air et végétaux, installations d’énergies renouvelables jusqu’à 40 000 €, piscine et spa, responsabilité civile vie privée).
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information · Édition : janvier 2026
+- Assureur : [Thélem assurances](<../../insurers/Thélem assurances.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : IPID / Fiche d'information · Édition : janvier 2026
 
 ## Définitions
 
@@ -226,7 +226,7 @@ Garantie ou service optionnel : Responsabilité civile vie privée.
 
 ## Documents liés
 
-- [Assurance multirisque habitation - IPID](Assurance%20multirisque%20habitation%20-%20IPID.md) - IPID / Fiche d'information, éd. janvier 2026
+- [Assurance multirisque habitation - IPID](<Assurance multirisque habitation - IPID.md>) - IPID / Fiche d'information, éd. janvier 2026
 
 ## Source & fidélité
 

@@ -45,7 +45,7 @@ generated: true
 
 Conditions générales du contrat d'assurance Multirisques automobile « 4 roues Référence » de la Matmut, valant projet de contrat au sens de l'article L. 112-2 du Code des assurances. Le contrat garantit les risques découlant de la propriété, de l'usage et/ou de la garde d'un véhicule terrestre à moteur à 4 roues (voiture particulière, véhicule utilitaire ou camionnette, camping-car, scooter électrique modulaire, voiturette, microtracteur), d'une caravane, d'une remorque ou d'un engin attelé de plus de 500 kg. Il est décliné en 6 formules (Tiers, Tiers-Bris de glaces, Tiers-Vol-Incendie, Urbaine, Équilibre, Performance ; la formule Confiance n'est plus commercialisée depuis juin 2014) combinant garanties en inclusion et garanties optionnelles : Responsabilité civile, dommages au véhicule (bris de glaces, vol et tentative de vol, incendie-attentat-tempête, catastrophes naturelles et technologiques, dommages collision et dommages accidents-vandalisme), accessoires et aménagements, contenu privé, marchandises et outillage professionnels, garanties mobilité (assistance, indisponibilité du véhicule, panne mécanique), dommages corporels du conducteur et deux garanties de Protection Juridique. Le contrat ne peut être souscrit que par un proposant préalablement admis comme Sociétaire.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : 10/24
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions générales · Édition : 10/24
 
 ## Définitions
 

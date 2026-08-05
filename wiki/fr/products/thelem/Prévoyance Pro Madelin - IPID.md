@@ -43,7 +43,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) du contrat Prévoyance Pro Madelin de Thélem prévoyance. La Prévoyance Pro permet de garantir au chef d’entreprise le maintien de son revenu en cas d’arrêt de travail et de protéger financièrement sa famille en cas de décès ou d’invalidité, les garanties étant déclenchées après accident ou maladie. Sont systématiquement prévus un capital décès/PTIA, un soutien psychologique, des indemnités journalières, les frais généraux professionnels permanents ou frais de remplacement, une rente invalidité et l’exonération des cotisations. En souscrivant le contrat Prévoyance Pro Madelin, l’assuré bénéficie des avantages fiscaux de la Loi Madelin et adhère à l’association AREP.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : IPID / Fiche d'information
+- Assureur : [Thélem assurances](<../../insurers/Thélem assurances.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -219,7 +219,7 @@ Revalorisation du capital décès/PTIA, IJ, FGPP ou frais de remplacement, (et r
 
 ## Documents liés
 
-- [Prévoyance Pro - IPID](Pr%C3%A9voyance%20Pro%20-%20IPID.md) - IPID / Fiche d'information
+- [Prévoyance Pro - IPID](<Prévoyance Pro - IPID.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

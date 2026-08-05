@@ -41,7 +41,7 @@ generated: true
 
 Document d'informations clés (DIC) du produit d'investissement fondé sur l'assurance Gan Patrimoine Évolution, produit le 05/03/2025 par Groupama Gan Vie. Il s'agit d'un contrat d'assurance sur la vie de type multisupport, contrat de groupe à adhésion facultative souscrit auprès de Groupama Gan Vie par l'Association pour la Protection du Patrimoine et de la Personne (A3P) au profit de ses adhérents, relevant des branches 20 (Vie-Décès) et 22 (Assurances liées à des fonds d'investissements), pour une durée viagère. En cas de décès de l'investisseur, un capital égal à l'épargne constituée est versé aux bénéficiaires désignés ; une Garantie plancher optionnelle porte ce montant au minimum à la somme des versements nets de frais pour un décès avant 75 ans. Le document décrit également l'indicateur de risque, le dispositif FGAP (plafond de 70 000 €), les coûts au fil du temps et leur composition, le délai de renonciation, la période de détention recommandée de 8 ans et la procédure de réclamation.
 
-- Assureur : [Gan Assurances](../../insurers/Gan%20Assurances.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Fiche produit · Édition : 2025-03-05
+- Assureur : [Gan Assurances](<../../insurers/Gan Assurances.md>) · Branche : [Assurance vie et épargne](<../../branches/Assurance vie et épargne.md>) · Type : Fiche produit · Édition : 2025-03-05
 
 ## Définitions
 
@@ -149,7 +149,7 @@ Le produit comporte une Garantie plancher optionnelle destinée à compléter la
 
 ## Documents liés
 
-- [Gan Patrimoine Evolution - Tarifs](Gan%20Patrimoine%20Evolution%20-%20Tarifs.md) - Conditions tarifaires
+- [Gan Patrimoine Evolution - Tarifs](<Gan Patrimoine Evolution - Tarifs.md>) - Conditions tarifaires
 
 ## Source & fidélité
 

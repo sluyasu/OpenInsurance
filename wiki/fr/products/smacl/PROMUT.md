@@ -45,7 +45,7 @@ generated: true
 
 Conditions générales du contrat PROMUT de SMACL Assurances (société d'assurance mutuelle), qui garantit à une collectivité territoriale le coût de ses obligations de protection fonctionnelle envers ses agents et ses élus, au titre notamment de l'article 11 de la loi n°83-634 du 13/07/83 et des textes qui l'ont modifié. Le contrat comprend sept garanties : protection juridique (frais de défense en demande et en défense), condamnations civiles, frais de protection (mise en sécurité du bénéficiaire), frais d'indemnisation (réparation due au bénéficiaire), assistance psychologique, service d'information juridique et reconstitution d'image. Les montants sont fixés par un « tableau des montants de garanties » et un « tableau des plafonds contractuels de prise en charge » annexés aux conditions particulières, non reproduits dans ce fascicule. Les garanties protection juridique, frais de protection et frais d'indemnisation supposent que la protection fonctionnelle ait été régulièrement accordée et que la demande intervienne dans les trente-six (36) mois suivant la résiliation ; la garantie condamnations civiles est déclenchée par la réclamation avec un délai subséquent de cinq (5) ans.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Protection juridique](../../branches/Protection%20juridique.md) · Type : Conditions générales · Édition : 05/2025
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Protection juridique](<../../branches/Protection juridique.md>) · Type : Conditions générales · Édition : 05/2025
 
 ## Définitions
 
@@ -315,7 +315,7 @@ Conformément à l'article L.114-1 du Code, toutes actions dérivant d'un contra
 
 ## Documents liés
 
-- [Assurance Protection fonctionnelle des agents et des élus - IPID](Assurance%20Protection%20fonctionnelle%20des%20agents%20et%20des%20%C3%A9lus%20-%20IPID.md) - IPID / Fiche d'information, éd. 03/2020
+- [Assurance Protection fonctionnelle des agents et des élus - IPID](<Assurance Protection fonctionnelle des agents et des élus - IPID.md>) - IPID / Fiche d'information, éd. 03/2020
 
 ## Source & fidélité
 

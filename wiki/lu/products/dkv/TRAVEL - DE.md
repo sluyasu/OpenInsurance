@@ -46,7 +46,7 @@ generated: true
 
 Allgemeine Versicherungsbedingungen der Auslandsreisekrankenversicherung TRAVEL der DKV Luxembourg S.A. Die Garantie deckt bei einem vorübergehenden Auslandsaufenthalt die Aufwendungen für medizinisch notwendige Heilbehandlungen sowie Rücktransport und Rückführung. Für die Kostenkategorien der Artikel 11.1 bis 11.4 gilt ein Höchstbetrag von 150.000 € pro Person und pro versichertem Aufenthalt. Der Vertrag wird für mindestens sieben und höchstens sechsundfünfzig Tage abgeschlossen; die Tagesprämie beträgt 2,00 € bis 69 Jahre und 8,00 € ab 70 Jahren, jeweils inklusive Versicherungssteuer.
 
-- Assureur : [DKV Luxembourg](../../insurers/DKV%20Luxembourg.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : Conditions générales · Édition : 03|2025
+- Assureur : [DKV Luxembourg](<../../insurers/DKV Luxembourg.md>) · Branche : [Voyage et assistance](<../../branches/Voyage et assistance.md>) · Type : Conditions générales · Édition : 03|2025
 
 ## Définitions
 
@@ -327,10 +327,10 @@ Jede sich aus dem Versicherungsvertrag ergebende Forderung verjährt mit Ablauf 
 ## Documents liés
 
 - Édition courante de ce produit.
-- [TRAVEL](TRAVEL.md) - Conditions générales, éd. 03|2025
-- [TRAVEL - EN](TRAVEL%20-%20EN.md) - Conditions générales, éd. 03|2025
-- [TRAVEL - TRAVEL + - IPID - DE](TRAVEL%20-%20TRAVEL%20%2B%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
-- [TRAVEL - TRAVEL + - IPID](TRAVEL%20-%20TRAVEL%20%2B%20-%20IPID.md) - IPID / Fiche d'information
+- [TRAVEL](<TRAVEL.md>) - Conditions générales, éd. 03|2025
+- [TRAVEL - EN](<TRAVEL - EN.md>) - Conditions générales, éd. 03|2025
+- [TRAVEL - TRAVEL + - IPID - DE](<TRAVEL - TRAVEL + - IPID - DE.md>) - IPID / Fiche d'information
+- [TRAVEL - TRAVEL + - IPID](<TRAVEL - TRAVEL + - IPID.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

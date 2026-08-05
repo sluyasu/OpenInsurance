@@ -45,7 +45,7 @@ generated: true
 
 Conditions générales du contrat multirisque Tempo Mobil Home et Constructions légères de MAAF Assurances SA (réf. 2246 - 01/26). Le contrat garantit l'assuré, sa famille et son habitation — mobil home ou habitation légère de loisirs — contre les dommages et responsabilités définis au contrat, pour un usage de résidence principale, de résidence secondaire ou d'habitation donnée en location. Il se décline en trois formules : Résidence principale, Résidence secondaire, et Donné en location ou non habité. Il comprend les garanties Habitation (incendie, dommages électriques, choc de véhicules, bris de vitres, émeutes, dégâts des eaux, événements climatiques, catastrophes naturelles et technologiques, actes de terrorisme, vol), des garanties complémentaires, des garanties hors domicile, l'assistance aux personnes, les renseignements juridiques, la responsabilité civile et la défense des intérêts. Les dispositions de ce contrat ne s'appliquent pas dans les Départements et Régions d'Outre-Mer (DROM).
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales · Édition : 01/26
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : Conditions générales · Édition : 01/26
 
 ## Définitions
 
@@ -519,15 +519,15 @@ Règles spéciales applicables aux assurances de dommages non maritimes et aux a
 
 ## Documents liés
 
-- [Assurance Habitation - Fiche](Assurance%20Habitation%20-%20Fiche.md) - Fiche produit, éd. 06/2022
-- [FICHE D'INFORMATION RELATIVE A LA VENTE A DISTANCE DE VOTRE CONTRAT TEMPO HABITATION (vente à distance) - Doc](FICHE%20D%27INFORMATION%20RELATIVE%20A%20LA%20VENTE%20A%20DISTANCE%20DE%20VOTRE%20CONTRAT%20TEMPO%20HABITATION%20%28vente%20%C3%A0%20distance%29%20-%20Doc.md) - Document
-- [Tempo Habitation - Fiche](Tempo%20Habitation%20-%20Fiche.md) - Fiche produit, éd. 06/2022
-- [Tempo Habitation (DROM)](Tempo%20Habitation%20%28DROM%29.md) - Conditions générales, éd. 01/23
-- [Tempo Habitation](Tempo%20Habitation.md) - Conditions générales, éd. 03/26
-- [TEMPO HABITATION EN CONSTRUCTION - IPID](TEMPO%20HABITATION%20EN%20CONSTRUCTION%20-%20IPID.md) - IPID / Fiche d'information, éd. 2026-01
-- [Tempo Habitation — Logement donné en location](Tempo%20Habitation%20%E2%80%94%20Logement%20donn%C3%A9%20en%20location.md) - Conditions générales, éd. 03/25
-- [TEMPO HABITATION Logement donné en location - IPID](TEMPO%20HABITATION%20Logement%20donn%C3%A9%20en%20location%20-%20IPID.md) - IPID / Fiche d'information, éd. 2025-03
-- [TEMPO HABITATION Résidence principale Résidence secondaire - IPID](TEMPO%20HABITATION%20R%C3%A9sidence%20principale%20R%C3%A9sidence%20secondaire%20-%20IPID.md) - IPID / Fiche d'information, éd. 2026-03
+- [Assurance Habitation - Fiche](<Assurance Habitation - Fiche.md>) - Fiche produit, éd. 06/2022
+- [FICHE D'INFORMATION RELATIVE A LA VENTE A DISTANCE DE VOTRE CONTRAT TEMPO HABITATION (vente à distance) - Doc](<FICHE D'INFORMATION RELATIVE A LA VENTE A DISTANCE DE VOTRE CONTRAT TEMPO HABITATION (vente à distance) - Doc.md>) - Document
+- [Tempo Habitation - Fiche](<Tempo Habitation - Fiche.md>) - Fiche produit, éd. 06/2022
+- [Tempo Habitation (DROM)](<Tempo Habitation (DROM).md>) - Conditions générales, éd. 01/23
+- [Tempo Habitation](<Tempo Habitation.md>) - Conditions générales, éd. 03/26
+- [TEMPO HABITATION EN CONSTRUCTION - IPID](<TEMPO HABITATION EN CONSTRUCTION - IPID.md>) - IPID / Fiche d'information, éd. 2026-01
+- [Tempo Habitation — Logement donné en location](<Tempo Habitation — Logement donné en location.md>) - Conditions générales, éd. 03/25
+- [TEMPO HABITATION Logement donné en location - IPID](<TEMPO HABITATION Logement donné en location - IPID.md>) - IPID / Fiche d'information, éd. 2025-03
+- [TEMPO HABITATION Résidence principale Résidence secondaire - IPID](<TEMPO HABITATION Résidence principale Résidence secondaire - IPID.md>) - IPID / Fiche d'information, éd. 2026-03
 
 ## Source & fidélité
 

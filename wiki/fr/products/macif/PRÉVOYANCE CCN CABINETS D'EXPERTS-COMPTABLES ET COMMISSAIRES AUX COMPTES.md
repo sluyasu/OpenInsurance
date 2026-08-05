@@ -48,7 +48,7 @@ generated: true
 
 Notice d'information du contrat de prévoyance collectif à adhésion obligatoire « Prévoyance CCN cabinets d'experts comptables et commissaires aux comptes (IDCC 787) », en vigueur au 01/01/2026. Le contrat couvre le décès et l'invalidité absolue et définitive (capital selon la situation de famille, majoration par enfant à charge, capital doublement accident, capital décès simultané, allocation frais d'obsèques), des rentes optionnelles (rente éducation, rente temporaire décès) et, lorsqu'elles sont souscrites, l'incapacité temporaire totale de travail et l'invalidité ou l'incapacité permanente professionnelle, en complément des prestations de la Sécurité sociale. Il est souscrit par l'employeur au bénéfice d'une catégorie de personnel, auprès de Macif Santé Prévoyance, mutuelle régie par le Livre II du Code de la mutualité (SIREN 779 558 501) ; les garanties d'assistance sont assurées par IMA Assurances. Les montants des garanties ne figurent pas dans la notice : ils sont portés au certificat d'affiliation et aux conditions particulières.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : Conditions générales · Édition : 2026-01
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : Conditions générales · Édition : 2026-01
 
 ## Définitions
 
@@ -300,7 +300,7 @@ La prescription est le délai au-delà duquel une action n'est plus recevable. L
 
 ## Documents liés
 
-- [Prévoyance CCN Cabinets d'experts comptables et commissaires aux comptes (IDCC 787) - IPID](Pr%C3%A9voyance%20CCN%20Cabinets%20d%27experts%20comptables%20et%20commissaires%20aux%20comptes%20%28IDCC%20787%29%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/26
+- [Prévoyance CCN Cabinets d'experts comptables et commissaires aux comptes (IDCC 787) - IPID](<Prévoyance CCN Cabinets d'experts comptables et commissaires aux comptes (IDCC 787) - IPID.md>) - IPID / Fiche d'information, éd. 01/26
 
 ## Source & fidélité
 

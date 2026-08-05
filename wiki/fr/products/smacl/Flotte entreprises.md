@@ -44,7 +44,7 @@ generated: true
 
 Conditions générales du contrat « Flotte entreprises » de SMACL Assurances, assurance des flottes automobiles d’entreprise. Le titre 2 couvre les véhicules à moteur : garanties de responsabilité civile (RC automobile, RC travaux, responsabilité environnementale et quatre extensions automatiques), garantie défense pénale et recours, et garanties de dommages (incendie, vol, bris de glace et bris de glace +, évènements climatiques, attentats, catastrophes naturelles, accidents et dégradations, extensions automatiques roues / transport de blessés / contenu / accessoires, marchandises transportées, dommages aux pneumatiques, bris de machine, indemnisation en valeur à neuf, pertes financières, véhicule de remplacement, remplacement d’un préposé accidenté, dommages corporels du conducteur), ainsi que les prestations d’assistance mises en œuvre par SMACL Assistance. Le titre 3 organise une assurance auto mission pour les déplacements professionnels occasionnels des préposés au moyen d’un véhicule personnel. Les titres 4 et 5 traitent du règlement du sinistre puis de la vie du contrat (formation, durée, déclarations, résiliation, cotisations, prescription, données personnelles, réclamations, médiation, contrôle par l’ACPR et sanctions internationales). L’assureur est défini à l’article 4.6 comme SMACL Assurances SA.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : 05/2025
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions générales · Édition : 05/2025
 
 ## Définitions
 
@@ -521,9 +521,9 @@ Article 45 : conformément à l’article L.114-1 du Code, toutes actions dériv
 
 ## Documents liés
 
-- Extension liée : [Votre convention d'assistance Flottes entreprises poids lourds](Votre%20convention%20d%27assistance%20Flottes%20entreprises%20poids%20lourds.md)
-- [Flotte entreprises - IPID](Flotte%20entreprises%20-%20IPID.md) - IPID / Fiche d'information, éd. 02/2024
-- [Votre convention d'assistance Flottes entreprises poids lourds](Votre%20convention%20d%27assistance%20Flottes%20entreprises%20poids%20lourds.md) - Conditions générales, éd. 07/2025
+- Extension liée : [Votre convention d'assistance Flottes entreprises poids lourds](<Votre convention d'assistance Flottes entreprises poids lourds.md>)
+- [Flotte entreprises - IPID](<Flotte entreprises - IPID.md>) - IPID / Fiche d'information, éd. 02/2024
+- [Votre convention d'assistance Flottes entreprises poids lourds](<Votre convention d'assistance Flottes entreprises poids lourds.md>) - Conditions générales, éd. 07/2025
 
 ## Source & fidélité
 

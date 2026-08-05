@@ -47,7 +47,7 @@ generated: true
 
 Conditions générales du contrat MAAF Multirisque Associations (réf. 11034 - 01/26), contrat modulaire de 86 pages destiné aux associations. Il regroupe six ensembles de garanties — « Vos locaux et leur contenu », « Vos responsabilités », « Votre tranquillité mobilité », « Votre tranquillité financière », « Votre tranquillité juridique » et « Votre défense pénale – recours » — auxquels s'ajoutent les garanties légales (catastrophes naturelles, actes de terrorisme et attentats) et « Vos services » (assistance aux locaux, assistance aux personnes, renseignements juridiques). Le tableau des garanties distingue 19 garanties incluses de base et 6 garanties optionnelles, chaque ensemble n'étant souscrit que si les Conditions particulières le précisent. Les garanties de responsabilité civile et de défense pénale fonctionnent en base réclamation avec un délai subséquent de cinq ans.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : Conditions générales · Édition : 01/26
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : Conditions générales · Édition : 01/26
 
 ## Définitions
 
@@ -658,7 +658,7 @@ L'article 36 « La prescription » figure dans la partie « La vie du contrat »
 
 ## Documents liés
 
-- [Multirisque Associations - IPID](Multirisque%20Associations%20-%20IPID.md) - IPID / Fiche d'information, éd. 2024-06
+- [Multirisque Associations - IPID](<Multirisque Associations - IPID.md>) - IPID / Fiche d'information, éd. 2024-06
 
 ## Source & fidélité
 

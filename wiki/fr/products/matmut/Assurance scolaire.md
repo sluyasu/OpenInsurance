@@ -44,7 +44,7 @@ generated: true
 
 Conditions générales, valant projet de contrat au sens de l’article L. 112-2 du Code des assurances, du contrat Assurance scolaire de la Matmut. Le contrat garantit les conséquences des dommages corporels ou matériels causés par l’assuré à des tiers dans le cadre de la vie scolaire et périscolaire (Responsabilité civile Vie scolaire et défense civile, plafond de 100 000 000 € par sinistre), une garantie Incapacité permanente (capital forfaitaire de 3 000 € à 100 000 € à partir d’un taux d’AIPP de 10 %), une garantie Aide enfant hospitalisé (50 €/jour, 1 500 € maximum) et une garantie de Protection Juridique suite à accident (20 000 € TTC). Il est proposé en deux formules, Essentielle et Tranquillité ; la formule Tranquillité ajoute les garanties de dommages aux biens de l’assuré (objets personnels, cartable et fournitures scolaires, bicyclette, fauteuil roulant non motorisé et matériel informatique adapté au handicap). L’option Tranquillité Plus, souscrite en complément de la formule Tranquillité, ajoute un Forfait blessures, des Frais médicaux, des prestations d’assistance et une participation aux frais d’obsèques. L’assuré doit être âgé de moins de 20 ans et scolarisé, de la maternelle à la terminale, et le souscripteur doit être admis comme Sociétaire.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Scolaire et extrascolaire](../../branches/Scolaire%20et%20extrascolaire.md) · Type : Conditions générales · Édition : 2023-12
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Scolaire et extrascolaire](<../../branches/Scolaire et extrascolaire.md>) · Type : Conditions générales · Édition : 2023-12
 
 ## Définitions
 
@@ -546,8 +546,8 @@ Conformément à l’article L.114-1 du Code des assurances, toutes actions dér
 
 ## Documents liés
 
-- [Conditions de l'offre Assurance Scolaire - Tarifs](Conditions%20de%20l%27offre%20Assurance%20Scolaire%20-%20Tarifs.md) - Conditions tarifaires, éd. 05/26
-- [Contrat « Assurance scolaire » - IPID](Contrat%20%C2%AB%20Assurance%20scolaire%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information, éd. 12/23
+- [Conditions de l'offre Assurance Scolaire - Tarifs](<Conditions de l'offre Assurance Scolaire - Tarifs.md>) - Conditions tarifaires, éd. 05/26
+- [Contrat « Assurance scolaire » - IPID](<Contrat « Assurance scolaire » - IPID.md>) - IPID / Fiche d'information, éd. 12/23
 
 ## Source & fidélité
 

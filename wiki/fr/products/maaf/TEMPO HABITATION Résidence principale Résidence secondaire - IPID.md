@@ -43,7 +43,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du contrat « TEMPO HABITATION Résidence principale Résidence secondaire » de MAAF Assurances SA. Le contrat permet, en tant que propriétaire ou locataire, de couvrir les dommages que peut subir l'habitation principale ou secondaire et son contenu. Il couvre également la responsabilité civile du souscripteur et celle des personnes vivant sous son toit pour les dommages susceptibles d'être causés à un tiers, y compris l'assurance locative obligatoire. Aux garanties de base (garanties Habitation, perte d'usage, responsabilités civiles, défense pénale et recours, assistance) s'ajoutent treize garanties optionnelles.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information · Édition : 2026-03
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : IPID / Fiche d'information · Édition : 2026-03
 
 ## Garanties
 
@@ -248,15 +248,15 @@ Garantie optionnelle.
 
 ## Documents liés
 
-- [Assurance Habitation - Fiche](Assurance%20Habitation%20-%20Fiche.md) - Fiche produit, éd. 06/2022
-- [FICHE D'INFORMATION RELATIVE A LA VENTE A DISTANCE DE VOTRE CONTRAT TEMPO HABITATION (vente à distance) - Doc](FICHE%20D%27INFORMATION%20RELATIVE%20A%20LA%20VENTE%20A%20DISTANCE%20DE%20VOTRE%20CONTRAT%20TEMPO%20HABITATION%20%28vente%20%C3%A0%20distance%29%20-%20Doc.md) - Document
-- [Tempo Habitation - Fiche](Tempo%20Habitation%20-%20Fiche.md) - Fiche produit, éd. 06/2022
-- [Tempo Habitation (DROM)](Tempo%20Habitation%20%28DROM%29.md) - Conditions générales, éd. 01/23
-- [Tempo Habitation](Tempo%20Habitation.md) - Conditions générales, éd. 03/26
-- [TEMPO HABITATION EN CONSTRUCTION - IPID](TEMPO%20HABITATION%20EN%20CONSTRUCTION%20-%20IPID.md) - IPID / Fiche d'information, éd. 2026-01
-- [Tempo Habitation — Logement donné en location](Tempo%20Habitation%20%E2%80%94%20Logement%20donn%C3%A9%20en%20location.md) - Conditions générales, éd. 03/25
-- [TEMPO HABITATION Logement donné en location - IPID](TEMPO%20HABITATION%20Logement%20donn%C3%A9%20en%20location%20-%20IPID.md) - IPID / Fiche d'information, éd. 2025-03
-- [Tempo Mobil Home et Constructions légères](Tempo%20Mobil%20Home%20et%20Constructions%20l%C3%A9g%C3%A8res.md) - Conditions générales, éd. 01/26
+- [Assurance Habitation - Fiche](<Assurance Habitation - Fiche.md>) - Fiche produit, éd. 06/2022
+- [FICHE D'INFORMATION RELATIVE A LA VENTE A DISTANCE DE VOTRE CONTRAT TEMPO HABITATION (vente à distance) - Doc](<FICHE D'INFORMATION RELATIVE A LA VENTE A DISTANCE DE VOTRE CONTRAT TEMPO HABITATION (vente à distance) - Doc.md>) - Document
+- [Tempo Habitation - Fiche](<Tempo Habitation - Fiche.md>) - Fiche produit, éd. 06/2022
+- [Tempo Habitation (DROM)](<Tempo Habitation (DROM).md>) - Conditions générales, éd. 01/23
+- [Tempo Habitation](<Tempo Habitation.md>) - Conditions générales, éd. 03/26
+- [TEMPO HABITATION EN CONSTRUCTION - IPID](<TEMPO HABITATION EN CONSTRUCTION - IPID.md>) - IPID / Fiche d'information, éd. 2026-01
+- [Tempo Habitation — Logement donné en location](<Tempo Habitation — Logement donné en location.md>) - Conditions générales, éd. 03/25
+- [TEMPO HABITATION Logement donné en location - IPID](<TEMPO HABITATION Logement donné en location - IPID.md>) - IPID / Fiche d'information, éd. 2025-03
+- [Tempo Mobil Home et Constructions légères](<Tempo Mobil Home et Constructions légères.md>) - Conditions générales, éd. 01/26
 
 ## Source & fidélité
 

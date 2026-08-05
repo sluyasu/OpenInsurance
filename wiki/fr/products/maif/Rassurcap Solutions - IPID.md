@@ -45,7 +45,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du contrat Rassurcap Solutions, présenté dans la gamme Assurance Décès de MAIF VIE. Le produit est un contrat individuel d'assurance décès, contrat d'assurance sur la vie, dont l'objet est de garantir le versement d'un capital aux bénéficiaires en cas de survenue des risques définis au contrat. Trois garanties sont systématiquement prévues : le décès, la perte totale et irréversible d'autonomie et la maladie grave, cette dernière ouvrant droit à un capital supplémentaire de 5 000 euros. Les garanties sont acquises en France et à l'étranger et la cotisation est perçue au plus tard jusqu'à l'échéance qui suit le 75e anniversaire.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : IPID / Fiche d'information · Édition : 01/2025
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : IPID / Fiche d'information · Édition : 01/2025
 
 ## Définitions
 
@@ -159,7 +159,7 @@ Le risque couvert est la survenance d'une maladie grave, sauf exclusions, en pro
 
 ## Documents liés
 
-- [Rassurcap Solutions](Rassurcap%20Solutions.md) - Conditions générales, éd. 01/24
+- [Rassurcap Solutions](<Rassurcap Solutions.md>) - Conditions générales, éd. 01/24
 
 ## Source & fidélité
 

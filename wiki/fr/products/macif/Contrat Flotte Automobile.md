@@ -47,7 +47,7 @@ generated: true
 
 Conditions générales du contrat Flotte Automobile de la Macif, assurance de flotte de véhicules pour les professionnels et les entreprises. Le contrat couvre l'assurance obligatoire de responsabilité civile du fait des véhicules, la responsabilité civile fonctionnement lorsque le véhicule est utilisé comme outil de travail, les dommages subis par le véhicule ou son contenu (dommages par accident, actes de vandalisme, incendie, vol, bris de glace, forces de la nature, catastrophes naturelles, bris de machine, matériel professionnel et marchandises transportées, aménagements professionnels et peintures publicitaires, contenu privé), les dommages subis par le conducteur, et la protection juridique (Défense et Recours). Les garanties sont souscrites véhicule par véhicule et ne sont acquises que si elles sont mentionnées aux conditions particulières.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : Juin 2019
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions générales · Édition : Juin 2019
 
 > ⚠️ **Édition ancienne** : Juin 2019, soit 7 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 

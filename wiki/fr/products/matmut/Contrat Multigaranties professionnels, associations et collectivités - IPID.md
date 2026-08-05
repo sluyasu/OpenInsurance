@@ -44,7 +44,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) du Contrat Multigaranties professionnels, associations et collectivités, assurance multirisques entreprises portée par Inter Mutuelles Entreprises. L’offre est destinée à assurer les dommages, les responsabilités et la Protection Juridique des professionnels, des associations et des collectivités. Les offres sont modulables et construites à partir d’une liste de garanties (incendie et événements assimilés, événements climatiques, dégâts des eaux, vol, bris de machines et de matériel informatique, pertes d’exploitation, responsabilités civiles professionnelle, exploitation et immeuble, Protection Juridique, indemnités forfaitaires accidents corporels), proposées en fonction du risque et des besoins exprimés par le client ; les montants sont soumis à des plafonds qui varient selon le risque et le niveau de protection choisi.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information · Édition : 11/25
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : IPID / Fiche d'information · Édition : 11/25
 
 ## Garanties
 

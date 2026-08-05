@@ -43,7 +43,7 @@ generated: true
 
 IPID de l'assurance Responsabilité Civile Professionnelle des Architectes et Ingénieurs-Conseils de Baloise Assurances Luxembourg S.A. Le produit couvre la responsabilité civile de l'assuré dans l'exercice de son activité professionnelle et comprend tant la garantie des demandes fondées que la défense contre les demandes injustifiées. Les risques assurés sont la responsabilité civile contractuelle, la responsabilité civile extra-contractuelle, la pollution accidentelle et la défense et recours ; six extensions facultatives sont proposées. Le document chiffre des capitaux minimum pour les garanties de base — 248 000 € en responsabilité civile contractuelle, 1 240 000 € en responsabilité civile extra-contractuelle et 25 000 € en défense et recours — les plafonds effectifs étant ceux mentionnés aux conditions particulières.
 
-- Assureur : [Baloise Luxembourg](../../insurers/Baloise%20Luxembourg.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : IPID / Fiche d'information
+- Assureur : [Baloise Luxembourg](<../../insurers/Baloise Luxembourg.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

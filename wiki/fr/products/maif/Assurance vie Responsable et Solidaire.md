@@ -49,7 +49,7 @@ generated: true
 
 Assurance vie Responsable et Solidaire est un contrat d’assurance vie de groupe de type multisupport à adhésion individuelle et facultative et à versements libres souscrit auprès de MAIF VIE par MAIF, 200 avenue Salvador Allende, 79000 Niort. Les droits et obligations de l’adhérent peuvent être modifiés par des avenants au contrat conclus entre MAIF VIE et MAIF. L’adhérent est préalablement informé de ces modifications. Assurance vie Responsable et Solidaire comprend deux garanties principales indissociables : — une garantie en cas de vie qui permet la constitution d’une épargne (valeur de l’adhésion) qui sera versée au terme de l’adhésion ou au moment du rachat. L’adhérent pourra opter entre le versement du capital, en une ou plusieurs fois ou le paiement sous la forme d’une rente viagère (page 34) ; — une garantie en cas de décès qui prévoit le versement de l’épargne ainsi constituée au(x) bénéficiaire(s) désigné(s) par l’adhérent si celui-ci décède en cours d’adhésion (page 36). L’adhésion comprend une garantie complémentaire en cas de décès de l’assuré, permettant sous certaines conditions, le versement d’un capital supplémentaire en euros (page 37).
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Conditions générales · Édition : 04/25
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Assurance vie et épargne](<../../branches/Assurance vie et épargne.md>) · Type : Conditions générales · Édition : 04/25
 
 ## Définitions
 
@@ -431,17 +431,17 @@ Prescription : le délai pour agir La prescription fixe le délai durant lequel 
 
 ## Documents liés
 
-- ⚠️ Édition remplacée par une version plus récente : [Assurance vie Responsable et Solidaire - Annexes à la Notice d'information](Assurance%20vie%20Responsable%20et%20Solidaire%20-%20Annexes%20%C3%A0%20la%20Notice%20d%27information.md)
-- Extension liée : [Assurance vie Responsable et Solidaire - Annexes à la Notice d'information](Assurance%20vie%20Responsable%20et%20Solidaire%20-%20Annexes%20%C3%A0%20la%20Notice%20d%27information.md)
-- Extension liée : [ASSURANCE VIE Responsable et Solidaire - Les documents d'informations clés - Doc](ASSURANCE%20VIE%20Responsable%20et%20Solidaire%20-%20Les%20documents%20d%27informations%20cl%C3%A9s%20-%20Doc.md)
-- Extension liée : [Fonds en euros - Doc](Fonds%20en%20euros%20-%20Doc.md)
-- Extension liée : [fonds en euros du contrat Assurance vie Responsable et Solidaire - Doc](fonds%20en%20euros%20du%20contrat%20Assurance%20vie%20Responsable%20et%20Solidaire%20-%20Doc.md)
-- [Assurance vie Responsable et Solidaire - Tarifs](Assurance%20vie%20Responsable%20et%20Solidaire%20-%20Tarifs.md) - Conditions tarifaires, éd. 06/2026
-- [Assurance vie Responsable et Solidaire - Annexes à la Notice d'information](Assurance%20vie%20Responsable%20et%20Solidaire%20-%20Annexes%20%C3%A0%20la%20Notice%20d%27information.md) - Conditions générales, éd. 06/26
-- [Assurance vie Responsable et Solidaire - IPID](Assurance%20vie%20Responsable%20et%20Solidaire%20-%20IPID.md) - IPID / Fiche d'information, éd. 06/26
-- [ASSURANCE VIE Responsable et Solidaire - Les documents d'informations clés - Doc](ASSURANCE%20VIE%20Responsable%20et%20Solidaire%20-%20Les%20documents%20d%27informations%20cl%C3%A9s%20-%20Doc.md) - Document, éd. 06/26
-- [Fonds en euros - Doc](Fonds%20en%20euros%20-%20Doc.md) - Document, éd. 06/26
-- [fonds en euros du contrat Assurance vie Responsable et Solidaire - Doc](fonds%20en%20euros%20du%20contrat%20Assurance%20vie%20Responsable%20et%20Solidaire%20-%20Doc.md) - Document, éd. 06/26
+- ⚠️ Édition remplacée par une version plus récente : [Assurance vie Responsable et Solidaire - Annexes à la Notice d'information](<Assurance vie Responsable et Solidaire - Annexes à la Notice d'information.md>)
+- Extension liée : [Assurance vie Responsable et Solidaire - Annexes à la Notice d'information](<Assurance vie Responsable et Solidaire - Annexes à la Notice d'information.md>)
+- Extension liée : [ASSURANCE VIE Responsable et Solidaire - Les documents d'informations clés - Doc](<ASSURANCE VIE Responsable et Solidaire - Les documents d'informations clés - Doc.md>)
+- Extension liée : [Fonds en euros - Doc](<Fonds en euros - Doc.md>)
+- Extension liée : [fonds en euros du contrat Assurance vie Responsable et Solidaire - Doc](<fonds en euros du contrat Assurance vie Responsable et Solidaire - Doc.md>)
+- [Assurance vie Responsable et Solidaire - Tarifs](<Assurance vie Responsable et Solidaire - Tarifs.md>) - Conditions tarifaires, éd. 06/2026
+- [Assurance vie Responsable et Solidaire - Annexes à la Notice d'information](<Assurance vie Responsable et Solidaire - Annexes à la Notice d'information.md>) - Conditions générales, éd. 06/26
+- [Assurance vie Responsable et Solidaire - IPID](<Assurance vie Responsable et Solidaire - IPID.md>) - IPID / Fiche d'information, éd. 06/26
+- [ASSURANCE VIE Responsable et Solidaire - Les documents d'informations clés - Doc](<ASSURANCE VIE Responsable et Solidaire - Les documents d'informations clés - Doc.md>) - Document, éd. 06/26
+- [Fonds en euros - Doc](<Fonds en euros - Doc.md>) - Document, éd. 06/26
+- [fonds en euros du contrat Assurance vie Responsable et Solidaire - Doc](<fonds en euros du contrat Assurance vie Responsable et Solidaire - Doc.md>) - Document, éd. 06/26
 
 ## Source & fidélité
 

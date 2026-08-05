@@ -46,7 +46,7 @@ generated: true
 
 Conditions générales du contrat d’assurance Multigaranties Habitation « Propriétaire Non Occupant » de la Matmut, valant projet de contrat au sens de l’article L. 112-2 du Code des assurances. Le contrat garantit la Responsabilité civile Immeuble du propriétaire et les biens immobiliers et mobiliers à usage d’habitation qu’il donne en location ou confie à titre gratuit, en dehors de toute activité professionnelle : incendie et événements assimilés, événements climatiques, dégâts des eaux et gel, inondation, catastrophes naturelles et technologiques, vol, tentative de vol et vandalisme, bris de glaces, perte de loyers, ainsi qu’une garantie de Protection Juridique suite à accident. Des options complètent le socle : aménagements immobiliers extérieurs, arbres et arbustes, meubles d’extérieur, piscines et spas, équipements de développement durable, canalisations extérieures, rééquipement à neuf étendu et Protection Juridique relative aux biens assurés. La souscription est réservée aux personnes préalablement admises comme Sociétaires et la cotisation est variable (rappel possible plafonné à deux fois la cotisation annuelle appelée).
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales · Édition : 12/23
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : Conditions générales · Édition : 12/23
 
 ## Définitions
 

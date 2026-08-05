@@ -47,7 +47,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de deux pages pour easyPROTECT-PRO - Auto, déclinaison « Véhicules autres que voitures ou camping cars » (taxis, voitures de location sans chauffeur, camionnettes, camions, tracteurs de semi-remorques, autobus, tracteurs, caravanes, motocycles). Le produit couvre la responsabilité civile automobile et les dommages causés au véhicule dans le cadre d’une activité professionnelle. Le document présente huit intitulés de garantie : Responsabilité civile, Protection juridique, Incendie, Vol, Bris des glaces, Dégâts au véhicule, Garantie décès, invalidité et frais médicaux pour occupants d’un véhicule désigné, et Garantie conducteur (Formule A). Les deux listes d’exclusions sont explicitement présentées comme non exhaustives (« Liste non exhaustive »).
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -185,8 +185,8 @@ Préjudice des bénéficiaires résultant d’une lésion corporelle subie par l
 
 ## Documents liés
 
-- [easyPROTECT PRO-Auto (Vehicles other than cars and motorhomes) - IPID - EN](easyPROTECT%20PRO-Auto%20%28Vehicles%20other%20than%20cars%20and%20motorhomes%29%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
-- [easyPROTECT PRO-Auto (Andere Fahrzeuge als PKW und Wohnmobile) - IPID - DE](easyPROTECT%20PRO-Auto%20%28Andere%20Fahrzeuge%20als%20PKW%20und%20Wohnmobile%29%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
+- [easyPROTECT PRO-Auto (Vehicles other than cars and motorhomes) - IPID - EN](<easyPROTECT PRO-Auto (Vehicles other than cars and motorhomes) - IPID - EN.md>) - IPID / Fiche d'information
+- [easyPROTECT PRO-Auto (Andere Fahrzeuge als PKW und Wohnmobile) - IPID - DE](<easyPROTECT PRO-Auto (Andere Fahrzeuge als PKW und Wohnmobile) - IPID - DE.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

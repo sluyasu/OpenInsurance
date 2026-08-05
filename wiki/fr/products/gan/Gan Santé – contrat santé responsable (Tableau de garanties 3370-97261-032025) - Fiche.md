@@ -40,7 +40,7 @@ generated: true
 
 Tableau de garanties du contrat complémentaire santé Gan Santé, présenté comme un « contrat santé responsable » et comme un document non contractuel fourni à titre d’information. Le document donne, pour cinq formules (Niveau 1 à Niveau 5), les niveaux de prise en charge en hospitalisation, soins courants, dentaire, optique et aide auditive, ainsi que des exemples de remboursement en euros pour l’optique, le dentaire et la prévention. Les prises en charge sont exprimées en pourcentage de la base de remboursement (BR), en « 100 % prix limite de vente » ou « 100 % Honoraires Limite de Facturation » pour le panier 100 % santé, ou en forfaits en euros, avec des montants majorés au sein du réseau Sévéane. Le document précise qu’il présente des extraits du tableau de garanties et ne peut se substituer aux documents contractuels.
 
-- Assureur : [Gan Assurances](../../insurers/Gan%20Assurances.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit · Édition : 03/2025
+- Assureur : [Gan Assurances](<../../insurers/Gan Assurances.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Fiche produit · Édition : 03/2025
 
 ## Définitions
 
@@ -429,8 +429,8 @@ Tableau de garanties, rubrique « Autres exemples de remboursement en euros – 
 
 ## Documents liés
 
-- ⚠️ Édition remplacée par une version plus récente : [Gan Santé – contrat santé responsable (Tableau de garanties 3370-97261-022026) - Fiche](Gan%20Sant%C3%A9%20%E2%80%93%20contrat%20sant%C3%A9%20responsable%20%28Tableau%20de%20garanties%203370-97261-022026%29%20-%20Fiche.md)
-- [Gan Santé – contrat santé responsable (Tableau de garanties 3370-97261-022026) - Fiche](Gan%20Sant%C3%A9%20%E2%80%93%20contrat%20sant%C3%A9%20responsable%20%28Tableau%20de%20garanties%203370-97261-022026%29%20-%20Fiche.md) - Fiche produit, éd. 02/2026
+- ⚠️ Édition remplacée par une version plus récente : [Gan Santé – contrat santé responsable (Tableau de garanties 3370-97261-022026) - Fiche](<Gan Santé – contrat santé responsable (Tableau de garanties 3370-97261-022026) - Fiche.md>)
+- [Gan Santé – contrat santé responsable (Tableau de garanties 3370-97261-022026) - Fiche](<Gan Santé – contrat santé responsable (Tableau de garanties 3370-97261-022026) - Fiche.md>) - Fiche produit, éd. 02/2026
 
 ## Source & fidélité
 

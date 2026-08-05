@@ -49,7 +49,7 @@ generated: true
 
 Conditions générales du contrat Multigarantie Activité Professionnelle de la Macif (version 12/2025), multirisque destinée à l'exercice d'activités professionnelles déclarées. Le contrat couvre la protection des biens (locaux professionnels, biens professionnels, modèles, archives et documents) contre l'incendie, l'action de l'électricité, le choc de véhicules terrestres et la chute d'appareils de navigation aérienne, les événements climatiques, les catastrophes naturelles, le dégât des eaux, le bris des glaces et des enseignes, les actes de terrorisme et attentats, les émeutes et mouvements populaires, le vol et les actes de vandalisme, ainsi que des frais complémentaires et une assistance locaux professionnels. Il couvre la protection de l'activité par les responsabilités civiles (exploitation, professionnelle, occupant des locaux professionnels, biens confiés) et la protection des droits de l'assuré (défense et recours). Il propose enfin une protection financière optionnelle (pertes d'exploitation et perte de la valeur du fonds d'exploitation). Les garanties sont accordées sous réserve qu'elles soient mentionnées dans les conditions particulières.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : Conditions générales · Édition : Version 12/2025 (Version décembre 2025)
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : Conditions générales · Édition : Version 12/2025 (Version décembre 2025)
 
 ## Définitions
 
@@ -626,8 +626,8 @@ La prescription est le délai au-delà duquel une action n'est plus recevable. C
 ## Documents liés
 
 - Édition courante de ce produit.
-- [Contrat Multigarantie Activité Professionnelle - IPID](Contrat%20Multigarantie%20Activit%C3%A9%20Professionnelle%20-%20IPID.md) - IPID / Fiche d'information, éd. 06/23
-- [Multigarantie Activité Professionnelle](Multigarantie%20Activit%C3%A9%20Professionnelle%20%282%29.md) - Conditions générales, éd. 06/2023
+- [Contrat Multigarantie Activité Professionnelle - IPID](<Contrat Multigarantie Activité Professionnelle - IPID.md>) - IPID / Fiche d'information, éd. 06/23
+- [Multigarantie Activité Professionnelle](<Multigarantie Activité Professionnelle (2).md>) - Conditions générales, éd. 06/2023
 
 ## Source & fidélité
 

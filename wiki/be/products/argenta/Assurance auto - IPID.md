@@ -40,7 +40,7 @@ generated: true
 
 Document d'information (IPID) relatif à l'Assurance auto d'Argenta Assurances SA pour voiture particulière, véhicule utilitaire léger, camping-car ou véhicule ancêtre. L'assurance comprend toujours la garantie responsabilité civile (légalement obligatoire) et permet d'ajouter des garanties optionnelles : protection juridique, dégâts matériels au véhicule assuré (Omnium partielle/complète), dommages corporels du conducteur (Conducteur+), assistance dépannage et assurance voyage. Assistance dépannage et Assurance voyage sont des produits de l'assureur Europ Assistance Belgium, avec lequel Argenta collabore.
 
-- Assureur : [Argenta Assurances](../../insurers/Argenta%20Assurances.md) · Branche : [Auto](../../branches/Auto.md) · Type : IPID / Fiche d'information · Édition : 01/10/2025
+- Assureur : [Argenta Assurances](<../../insurers/Argenta Assurances.md>) · Branche : [Auto](<../../branches/Auto.md>) · Type : IPID / Fiche d'information · Édition : 01/10/2025
 
 ## Garanties
 
@@ -151,8 +151,8 @@ Assistance médicale à l'étranger (dans le monde entier) en cas de maladie, ac
 
 ## Documents liés
 
-- [Assurance Auto](Assurance%20Auto%20%282%29.md) - Conditions générales, éd. 01-10-2024
-- [Assurance Auto](Assurance%20Auto.md) - Conditions générales, éd. 2024-11-01
+- [Assurance Auto](<Assurance Auto (2).md>) - Conditions générales, éd. 01-10-2024
+- [Assurance Auto](<Assurance Auto.md>) - Conditions générales, éd. 2024-11-01
 
 ## Source & fidélité
 

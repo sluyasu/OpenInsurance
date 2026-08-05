@@ -42,7 +42,7 @@ generated: true
 
 Tableau de garanties du régime frais de santé de la CCN Transport sanitaire, présentant trois niveaux de couverture (BASE, BASE + OPTION 1, BASE + OPTION 2) pour les soins courants, l'hospitalisation, le dentaire, l'optique, les aides auditives, la prévention et les médecines douces, le sport sur ordonnance et divers forfaits. Les remboursements sont exprimés en pourcentage de la Base de Remboursement (BR) y compris la part du régime obligatoire, en pourcentage du Plafond Mensuel de la Sécurité Sociale (PMSS) ou en forfaits en euros. L'optique à tarif libre suit une grille de six combinaisons d'équipement (A à F). Le document ajoute une assistance et une série de services inclus dans les trois niveaux, puis des exemples chiffrés de remboursements. Il précise être un document non contractuel.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Fiche produit
 
 ## Définitions
 

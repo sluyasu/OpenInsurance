@@ -48,7 +48,7 @@ generated: true
 
 « Caducée » est le contrat d’assurance de la Matmut destiné aux professions médicales et auxiliaires médicaux, proposé en trois formules : « Cabinet médical », « Responsabilité civile médicale professionnelle » et « Responsabilité civile médicale de l’Interne en médecine ». Selon la formule souscrite, il couvre la responsabilité civile médicale ou d’auxiliaire médical, la responsabilité civile Exploitation et la responsabilité civile liée au local, les dommages aux biens du cabinet (incendie, événements climatiques, dégâts des eaux, vol, bris de matériel médical, informatique ou bureautique), l’assistance au local professionnel, les préjudices financiers (pertes d’exploitation, perte de la valeur vénale de la patientèle ou du fonds de commerce) et des garanties de Protection Juridique. La garantie « Responsabilité civile médicale professionnelle » est déclenchée par la réclamation conformément aux articles L. 1142-2 du Code de la Santé Publique et L. 251-2 du Code des Assurances, avec une garantie subséquente de cinq ans, portée à dix ans en cas de cessation définitive d’activité professionnelle ou de décès de l’assuré ; la garantie « Responsabilité civile liée au local » est en revanche déclenchée par le fait dommageable. Les garanties ne s’exercent que pour la profession, l’activité ou la spécialité déclarée aux Conditions Particulières, dont dépendent également les plafonds de biens et le montant des franchises.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : Conditions générales · Édition : 05/23
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : Conditions générales · Édition : 05/23
 
 ## Définitions
 
@@ -868,8 +868,8 @@ Toute action dérivant du présent contrat, qu’il s’agisse de sa validité o
 
 ## Documents liés
 
-- [Contrat « Caducée » - IPID](Contrat%20%C2%AB%20Caduc%C3%A9e%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information, éd. 07/23
-- [Matmut « Caducée »](Matmut%20%C2%AB%20Caduc%C3%A9e%20%C2%BB.md) - Conditions générales
+- [Contrat « Caducée » - IPID](<Contrat « Caducée » - IPID.md>) - IPID / Fiche d'information, éd. 07/23
+- [Matmut « Caducée »](<Matmut « Caducée ».md>) - Conditions générales
 
 ## Source & fidélité
 

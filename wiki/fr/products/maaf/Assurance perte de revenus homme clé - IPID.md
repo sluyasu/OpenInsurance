@@ -44,7 +44,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de l'« Assurance perte de revenus homme clé », contrat de prévoyance de MAAF Assurances SA. Ce contrat d’assurance prévoit l’indemnisation de l’entreprise suite à l’arrêt de travail de l’homme clé (personne jouant un rôle déterminant dans l’entreprise) consécutifs à un accident corporel ou une maladie. Les garanties systématiquement prévues portent sur l'arrêt total de travail (versement d'indemnités journalières, dispense de règlement des cotisations et assistance aux personnes) ; trois garanties optionnelles complètent l'arrêt total de travail. La souscription est soumise à une acceptation médicale et l'indemnisation est versée dans la limite du montant souscrit, revalorisé chaque année ; la couverture s'exerce dans le monde entier.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : IPID / Fiche d'information · Édition : 2024-06
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : IPID / Fiche d'information · Édition : 2024-06
 
 ## Définitions
 

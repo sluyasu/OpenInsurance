@@ -45,7 +45,7 @@ generated: true
 
 Document d’information (DIPA) du contrat « Assurance multirisque association », destiné aux associations sans salarié. Il couvre les responsabilités de l’association (indemnité limitée à 8 000 000€), les dommages aux biens mobiliers avec choix entre trois plafonds, des garanties dommages spécifiques (tous risques informatiques, tous risques exposition, contenu des congélateurs), les frais et pertes annexes, l’indemnisation des accidents corporels des membres du bureau et des prestations d’assistance. Onze garanties optionnelles peuvent être ajoutées, dont la RC professionnelle voyages et séjours, les dommages aux biens immobiliers et plusieurs garanties « tous risques ». La compagnie indiquée est SMACL Assurances SA.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : IPID / Fiche d'information · Édition : 01/2024
 
 ## Garanties
 

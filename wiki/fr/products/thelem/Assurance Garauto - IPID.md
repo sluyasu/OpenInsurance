@@ -43,7 +43,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) du contrat Assurance Garauto de Thélem assurances, destiné au professionnel de l’automobile. Il garantit à titre obligatoire la responsabilité civile pour les dommages matériels ou corporels causés à des tiers du fait de l’utilisation des véhicules personnels de l’assuré ou des véhicules qui lui sont confiés dans le cadre de ses activités, ainsi que la défense pénale et recours suite à accident. Des garanties optionnelles couvrent les dommages subis par les véhicules (incendie, forces de la nature, attentats, vol, bris de glaces, dommages tous accidents et vandalisme), les responsabilités civiles après-vente, exploitation et travaux, les dommages corporels du conducteur responsable et des prestations d’assistance au véhicule et aux personnes. Le document résume les principales garanties et exclusions du contrat.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information
+- Assureur : [Thélem assurances](<../../insurers/Thélem assurances.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

@@ -45,7 +45,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) des couvertures attachées à la carte de crédit MILES & MORE LUXAIR VISA émise par SPUERKEESS. Il énumère sept garanties « hors assistance » (accident de voyage décès/invalidité, annulation/interruption de voyage, vol, perte et retard de bagages, retard d’avion et/ou prolongation de séjour si blocage, protection des achats, livraison de biens achetés via Internet, exonération de la franchise du véhicule de location/e-mobility) et deux garanties « assistance » (aux personnes en cas de maladie ou décès, cash emergency). Sont assurés le titulaire de la carte, son conjoint/partenaire et ses enfants de moins de 25 ans ; l’assurance est valable dans le monde entier, sauf règle propre à la garantie livraison de biens achetés sur Internet. Le document ne chiffre aucun capital, aucune franchise et aucune prime, et qualifie ses listes de « Liste non exhaustive ».
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Voyage et assistance](<../../branches/Voyage et assistance.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 

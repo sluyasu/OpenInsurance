@@ -54,7 +54,7 @@ generated: true
 
 Direct Assurance Santé est une complémentaire santé (frais de santé) distribuée par Avanssur sous la marque Direct Assurance et prise sous la forme d'un contrat d'assurance de groupe à adhésion facultative souscrit par l'Association Conseil Branche Santé (ACBS) auprès d'AXA France Vie ; les garanties d'assistance sont portées par Inter Partner Assistance (AXA Assistance) au titre d'un contrat collectif indissociable. La présente Notice d'information décrit deux contrats : un contrat « responsable » (référencé 375044936006), conforme au dispositif des contrats responsables et à la réforme 100 % Santé, décliné en treize formules (Essentielle, Équilibre, Liberté, Tranquillité, Bien-être, leurs versions « + » renforcées en optique et en dentaire, et Confort, Confort +, Zen renforcées en hospitalisation et en dentaire), et un contrat « non responsable » (référencé 375044936007) décliné en deux formules, Hospi et Hospi +, qui ne couvrent que l'hospitalisation. Elle précise les niveaux de remboursement poste par poste (hospitalisation, soins courants, transport, médecines douces, prévention, optique, dentaire, aides auditives, cures thermales), les prestations d'assistance et les services « Santé au quotidien », ainsi que le fonctionnement de l'adhésion : conditions d'adhésion, bénéficiaires, cotisations, délais applicables les 3 premiers mois, résiliation et prescription.
 
-- Assureur : [Direct Assurance](../../insurers/Direct%20Assurance.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : 12.24 (code de pied de page « SANTÉ_12.24_VF »)
+- Assureur : [Direct Assurance](<../../insurers/Direct Assurance.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Conditions générales · Édition : 12.24 (code de pied de page « SANTÉ_12.24_VF »)
 
 ## Définitions
 
@@ -889,9 +889,9 @@ Conformément aux dispositions de l'article L 114-1 du Code des assurances, tout
 
 ## Documents liés
 
-- [Direct Assurance Santé - Exemples de remboursements - Doc](Direct%20Assurance%20Sant%C3%A9%20-%20Exemples%20de%20remboursements%20-%20Doc.md) - Document
-- [Direct Assurance Santé - contrat responsable (Formules Essentielle, Essentielle +, Equilibre, Equilibre +, Liberté, Libe](Direct%20Assurance%20Sant%C3%A9%20-%20contrat%20responsable%20%28Formules%20Essentielle%2C%20Essentielle%20%2B%2C%20Equilibre%2C%20Equilibre%20%2B%2C%20Libert%C3%A9%2C%20Libe.md) - IPID / Fiche d'information, éd. 12/2024
-- [Direct Assurance Santé - formules Hospi (contrat non responsable) (Formules Hospi et Hospi + (contrat non responsable)) ](Direct%20Assurance%20Sant%C3%A9%20-%20formules%20Hospi%20%28contrat%20non%20responsable%29%20%28Formules%20Hospi%20et%20Hospi%20%2B%20%28contrat%20non%20responsable%29%29%20.md) - IPID / Fiche d'information, éd. 12/2024
+- [Direct Assurance Santé - Exemples de remboursements - Doc](<Direct Assurance Santé - Exemples de remboursements - Doc.md>) - Document
+- [Direct Assurance Santé - contrat responsable (Formules Essentielle, Essentielle +, Equilibre, Equilibre +, Liberté, Libe](<Direct Assurance Santé - contrat responsable (Formules Essentielle, Essentielle +, Equilibre, Equilibre +, Liberté, Libe.md>) - IPID / Fiche d'information, éd. 12/2024
+- [Direct Assurance Santé - formules Hospi (contrat non responsable) (Formules Hospi et Hospi + (contrat non responsable)) ](<Direct Assurance Santé - formules Hospi (contrat non responsable) (Formules Hospi et Hospi + (contrat non responsable)) .md>) - IPID / Fiche d'information, éd. 12/2024
 
 ## Source & fidélité
 

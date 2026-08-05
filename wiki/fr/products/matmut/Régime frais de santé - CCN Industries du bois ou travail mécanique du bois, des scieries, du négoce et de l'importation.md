@@ -45,7 +45,7 @@ generated: true
 
 Tableau des garanties 2026 du régime frais de santé de la CCN des Industries du bois ou travail mécanique du bois, des scieries, du négoce et de l'importation des bois, présentant quatre niveaux : BASE, RÉGIME 1, RÉGIME 2 et RÉGIME 3. Il détaille les remboursements en soins courants, hospitalisation, dentaire (paniers 100 % Santé, tarifs maîtrisés et tarifs libres), optique et aides auditives, exprimés en pourcentage de la Base de Remboursement, en frais réels, en remboursement intégral ou en forfaits, avec une distinction entre praticiens DPTM et non DPTM. Plusieurs postes ne sont pas servis au niveau BASE. Le document précise qu'il est non contractuel et que le dispositif est mutualisé dans le cadre d'une coassurance de branche.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Fiche produit
 
 ## Définitions
 

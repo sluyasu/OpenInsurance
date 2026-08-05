@@ -41,7 +41,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de l'Assurance Emprunteur Crédit Auto Acquisition, souscrite auprès de MAIF VIE pour sécuriser le remboursement d'un prêt en cas de perte brutale de revenus. Trois garanties sont présentées : le décès, l'invalidité permanente absolue et l'incapacité temporaire de travail, cette dernière après une franchise de 90 jours continus. La garantie prend effet au premier déblocage des fonds par Socram Banque et court jusqu'au remboursement intégral du crédit, avec des âges limites de 65 ans (incapacité temporaire de travail) et 75 ans (décès et invalidité permanente absolue). Les cotisations sont incluses dans chaque échéance de remboursement du crédit.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Assurance emprunteur](../../branches/Assurance%20emprunteur.md) · Type : IPID / Fiche d'information · Édition : 10-2021
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Assurance emprunteur](<../../branches/Assurance emprunteur.md>) · Type : IPID / Fiche d'information · Édition : 10-2021
 
 ## Définitions
 

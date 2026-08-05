@@ -43,7 +43,7 @@ generated: true
 
 Document d'une page énonçant les conditions d'octroi de l'Avantage Bonus Matmut pour les gammes Multirisques 4 roues Référence, Essentiel et 2R Rider. Le Bonus Matmut est présenté comme un avantage commercial permettant au coefficient de réduction d'évoluer au-delà du bonus maximum réglementaire de 50 % (coefficient 0,50) jusqu'à 65 % (coefficient 0,35), sans remettre en cause les règles des articles 4 et 5 de l'Annexe à l'article A. 121-1 du Code des assurances. Il décrit qui peut en bénéficier, les véhicules visés, l'ancienneté de bonus à 50 % sans sinistre responsable exigée (5 ou 6 ans selon l'usage) et la cotisation de référence sur laquelle l'avantage s'applique, à l'exception d'une liste de garanties écartées. Le document ne contient aucun texte de garantie : il porte sur la tarification, pas sur la couverture.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Deux-roues, quads et voiturettes](../../branches/Deux-roues%2C%20quads%20et%20voiturettes.md) · Type : Conditions tarifaires · Édition : 01/26
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Deux-roues, quads et voiturettes](<../../branches/Deux-roues, quads et voiturettes.md>) · Type : Conditions tarifaires · Édition : 01/26
 
 ## Définitions
 

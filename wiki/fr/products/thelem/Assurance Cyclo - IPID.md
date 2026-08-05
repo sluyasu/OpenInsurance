@@ -43,7 +43,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de l’Assurance Cyclo de Thélem assurances, qui couvre les véhicules terrestres à moteur 2 roues dont la cylindrée est inférieure ou égale à 50 cm3. L’assurance a pour objectif de garantir l’assuré contre les conséquences des dommages matériels ou corporels causés par son véhicule à un tiers (responsabilité civile) ; c’est une assurance obligatoire. Le contrat prévoit également les dommages corporels du conducteur (jusqu’à 600 000 €, portés à 1.2 M€ si port du gilet airbag), la Défense Pénale et Recours Suite à Accident jusqu’à 16 000 €, l’indemnisation des casques, gants et gilets airbag, et des prestations d’assistance au véhicule. Selon les formules souscrites, il couvre aussi les dommages matériels du véhicule assuré (catastrophes naturelles et technologiques, forces de la nature, vol et tentative de vol, incendie, dommages tous accidents et vandalisme).
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Deux-roues, quads et voiturettes](../../branches/Deux-roues%2C%20quads%20et%20voiturettes.md) · Type : IPID / Fiche d'information · Édition : 01/2026
+- Assureur : [Thélem assurances](<../../insurers/Thélem assurances.md>) · Branche : [Deux-roues, quads et voiturettes](<../../branches/Deux-roues, quads et voiturettes.md>) · Type : IPID / Fiche d'information · Édition : 01/2026
 
 ## Définitions
 

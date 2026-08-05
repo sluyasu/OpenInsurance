@@ -40,7 +40,7 @@ generated: true
 
 Document tarifaire d'une page (« Les frais du Macif Épargne Vie ») daté JUIN 2024, présentant le tableau des frais du contrat d'assurance vie Macif Épargne Vie. Il indique le montant minimal de versement initial (50€ / 30€ pour les mineurs), les frais annuels de gestion du contrat par support (support en euros, supports en unités de compte, support Eurocroissance) et en Gestion Pilotée, les frais liés aux prestations complémentaires en cas de décès, les frais moyens de gestion des unités de compte par catégorie de fonds et par profil de Gestion Pilotée (ISR et Solidaire) avec la part rétrocédée au distributeur et au gestionnaire, puis les frais ponctuels par opération (versement, changement de modes de gestion, arbitrage, transfert sortant, versements de rente, rachat). Le contrat est assuré par MUTAVIE SE, entreprise régie par le Code des assurances (RCS Niort B 315 652 263). Le document ne décrit aucune garantie ni aucune exclusion.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Conditions tarifaires · Édition : 2024-06
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Assurance vie et épargne](<../../branches/Assurance vie et épargne.md>) · Type : Conditions tarifaires · Édition : 2024-06
 
 ## Définitions
 

@@ -46,7 +46,7 @@ generated: true
 
 Conditions générales du contrat JURIS-ASSO, « Assurance Protection juridique des associations » de SMACL Assurances, diffusées sous le bandeau « Associations ». Le contrat garantit les litiges liés à l'existence de l'association et à ses activités statutaires, dans ses rapports avec les autres personnes morales, avec les tiers et avec ses co-contractants. Il comporte une phase d'assistance technique - information et conseil juridique, prévention, transaction et recherche de solution amiable, conciliation et arbitrage - puis, en cas d'échec, une aide juridique prenant en charge les frais de constitution du dossier, les honoraires d'avocats, les frais d'avoués et auxiliaires de justice et les honoraires d'experts, dans la limite du plafond fixé aux conditions particulières et au-delà d'un seuil d'intervention également fixé aux conditions particulières. Vingt exclusions sont énumérées à l'article 6. Les garanties s'exercent en France métropolitaine, dans les DOM-TOM, dans les pays de l'Union européenne et dans les États frontaliers de la France métropolitaine ; le litige doit être déclaré dans les huit jours de sa connaissance, sous peine de déchéance.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Protection juridique](../../branches/Protection%20juridique.md) · Type : Conditions générales · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Protection juridique](<../../branches/Protection juridique.md>) · Type : Conditions générales · Édition : 01/2024
 
 ## Définitions
 
@@ -208,7 +208,7 @@ Conditions générales du contrat JURIS-ASSO, « Assurance Protection juridique 
 
 ## Documents liés
 
-- [Juris-Asso - IPID](Juris-Asso%20-%20IPID.md) - IPID / Fiche d'information, éd. 02/2025
+- [Juris-Asso - IPID](<Juris-Asso - IPID.md>) - IPID / Fiche d'information, éd. 02/2025
 
 ## Source & fidélité
 

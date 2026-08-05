@@ -43,7 +43,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du contrat « Mobile-home » Formule Nature, une assurance habitation. Le contrat a pour objet de garantir les biens immobiliers et mobiliers en lien avec une résidence mobile de loisirs, une habitation légère de loisirs ou une caravane. L'étendue des garanties diffère selon la destination de l'habitation assurée (résidence principale, résidence secondaire ou donnée en location) : sept garanties sont systématiquement prévues et six garanties complémentaires s'ajoutent selon cette destination. Le document indique les principaux plafonds, les exclusions légales et contractuelles, les franchises et les seuils d'intervention en Protection Juridique.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information · Édition : 05/24
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : IPID / Fiche d'information · Édition : 05/24
 
 ## Définitions
 

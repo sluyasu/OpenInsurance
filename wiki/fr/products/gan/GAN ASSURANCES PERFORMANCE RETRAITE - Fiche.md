@@ -42,7 +42,7 @@ generated: true
 
 Document d'informations clés (DIC/PRIIPs) du contrat Gan Performance Retraite, produit d'investissement fondé sur l'assurance dont l'assureur est Groupama Gan Vie. Il s'agit d'un contrat d'assurance sur la vie multisupport, de groupe à adhésion facultative, souscrit auprès de Groupama Gan Vie par l'Association RIP au profit de ses adhérents, destiné à constituer une retraite par capitalisation servie en rente viagère ou en capital retraite. Le document décrit le fonctionnement du contrat, l'indicateur de risque, les coûts au fil du temps et leur composition, le délai de renonciation, la période de détention recommandée de 8 ans et la procédure de réclamation. En cas de décès avant la liquidation de la retraite, un capital égal à l'épargne constituée est versé aux bénéficiaires désignés, complété le cas échéant par une garantie plancher optionnelle.
 
-- Assureur : [Gan Assurances](../../insurers/Gan%20Assurances.md) · Branche : [Retraite supplémentaire](../../branches/Retraite%20suppl%C3%A9mentaire.md) · Type : Fiche produit · Édition : 01/06/2026
+- Assureur : [Gan Assurances](<../../insurers/Gan Assurances.md>) · Branche : [Retraite supplémentaire](<../../branches/Retraite supplémentaire.md>) · Type : Fiche produit · Édition : 01/06/2026
 
 ## Définitions
 
@@ -146,7 +146,7 @@ Le produit comporte une Garantie plancher optionnelle destinée à compléter la
 
 ## Documents liés
 
-- [Gan Performance Retraite - Tarifs](Gan%20Performance%20Retraite%20-%20Tarifs.md) - Conditions tarifaires
+- [Gan Performance Retraite - Tarifs](<Gan Performance Retraite - Tarifs.md>) - Conditions tarifaires
 
 ## Source & fidélité
 

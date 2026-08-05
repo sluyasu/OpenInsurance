@@ -45,7 +45,7 @@ generated: true
 
 Document d'information (IPID) de l'« Assurance dommages aux biens des associations et des entreprises de l'économie sociale et solidaire », produit « Convergence dommages aux biens », porté par SMACL Assurances SA (RCS Niort n° 833 817 224). Le contrat, destiné aux associations avec salariés, garantit les bâtiments, leurs contenus, les biens extérieurs et les archives à la suite d'un événement assuré, ainsi que les conséquences pécuniaires des responsabilités à l'égard des locataires, propriétaires, voisins et tiers. L'indemnité est limitée à 18 000 000 €. Dix-huit événements et frais annexes sont systématiquement prévus (incendie, dégâts des eaux, vol et vandalisme à hauteur de 120 000 €, catastrophes naturelles, frais de remplacement de serrure à hauteur de 12 000 €, etc.) et dix-sept garanties optionnelles sont proposées, du tous risques informatique aux honoraires d'expert d'assuré.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : IPID / Fiche d'information · Édition : 01/2024
 
 ## Garanties
 

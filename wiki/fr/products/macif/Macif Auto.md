@@ -47,7 +47,7 @@ generated: true
 
 Conditions générales du contrat Macif Auto (version 01/2026), assurance de véhicules terrestres à moteur souscrite auprès de la MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce, société d'assurance mutuelle à cotisations variables régie par le Code des assurances, siège social 1 rue Jacques Vandié - 79000 Niort, soumise au contrôle de l'ACPR. Le contrat couvre le véhicule désigné aux conditions particulières et sa remorque de moins de 750 kg, avec la garantie obligatoire « Responsabilité civile » présente dans les quatre formules (Économique, Élargie, Protectrice, Confort), des garanties de dommages au véhicule (accident et vandalisme, incendie, vol, bris de glace, événements climatiques, catastrophes naturelles et technologiques), des garanties complémentaires (frais de remorquage, insolvabilité du tiers responsable, Indemnisation Plus, contenu privé, accessoires, véhicule de prêt), des garanties d'assistance mises en œuvre par le groupe IMA et les garanties « Défense et Recours ». Les montants maximums garantis figurent à la partie 19 et le contrat détaille le coefficient bonus malus, les modalités de résiliation et la prescription biennale.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : 2026-01
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions générales · Édition : 2026-01
 
 ## Définitions
 
@@ -565,7 +565,7 @@ Toutes actions dérivant d'un contrat d'assurance sont prescrites par deux ans �
 
 ## Documents liés
 
-- [Contrat Macif Auto - IPID](Contrat%20Macif%20Auto%20-%20IPID.md) - IPID / Fiche d'information, éd. 06/22
+- [Contrat Macif Auto - IPID](<Contrat Macif Auto - IPID.md>) - IPID / Fiche d'information, éd. 06/22
 
 ## Source & fidélité
 

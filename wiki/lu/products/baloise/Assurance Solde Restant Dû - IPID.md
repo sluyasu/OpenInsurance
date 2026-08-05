@@ -42,7 +42,7 @@ generated: true
 
 Fiche IPID de l'assurance solde restant dû adossée à un prêt hypothécaire, émise par Baloise Vie Luxembourg S.A. — l'entité nommée en tête des deux pages sous la mention « Compagnie : ». La garantie principale est le décès : au décès d'un des assurés, l'assurance rembourse le capital restant dû à la date du décès, le capital assuré étant décrit comme dégressif en fonction de la durée du contrat. Une garantie Invalidité Totale Permanente est proposée en couverture complémentaire selon le choix du client. Le document liste quatre exclusions propres à la garantie décès et neuf propres à la garantie invalidité, et indique que les garanties sont valables dans le monde entier.
 
-- Assureur : [Baloise Luxembourg](../../insurers/Baloise%20Luxembourg.md) · Branche : Assurance solde restant dû · Type : IPID / Fiche d'information
+- Assureur : [Baloise Luxembourg](<../../insurers/Baloise Luxembourg.md>) · Branche : Assurance solde restant dû · Type : IPID / Fiche d'information
 
 ## Garanties
 

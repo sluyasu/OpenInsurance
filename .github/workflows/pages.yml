@@ -24,7 +24,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - run: python -m pip install mkdocs-material mkdocs-roamlinks-plugin
+      # Pinned to the versions the link-gate below is verified against (same lesson as
+      # mcp<2 in validate.yml: an unpinned toolchain fails on its own schedule).
+      - run: python -m pip install "mkdocs-material==9.7.7" "mkdocs-roamlinks-plugin==0.3.2"
       - name: Stage site sources (the wiki, untouched, plus an index page)
         run: |
           mkdir -p site-src

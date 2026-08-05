@@ -46,7 +46,7 @@ generated: true
 
 Conditions générales du contrat SMACL Assurances « Assurance navigation de plaisance », qui garantit les bateaux (navires de mer ou de navigation intérieure, véhicules nautiques à moteur, planches à voile, kitesurf / flysurf) utilisés dans le cadre de la navigation de plaisance à titre privé dans un but non lucratif et/ou d’activités relevant d’une mission de service public non commerciale. Le contrat comprend la responsabilité civile (A1) et les frais de retirement de l’épave (A2), les dommages subis par le bateau — pertes, avaries, incendie, vandalisme et assistance maritime (B1) — le vol et la tentative de vol (B2), l’individuelle marine (D), les objets et effets transportés (E), la défense pénale et les recours (C1 et C2), ainsi qu’une assistance navigation mise en œuvre par Inter Mutuelle Assistance GIE. Les garanties souscrites, les formules choisies et les franchises sont indiquées aux conditions particulières. L’assureur désigné par le contrat est SMACL Assurances SA ; la gestion des sinistres est assurée par le GIE Navimut Gestion Sinistres Plaisance.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Navigation de plaisance](../../branches/Navigation%20de%20plaisance.md) · Type : Conditions générales · Édition : 12/2023
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Navigation de plaisance](<../../branches/Navigation de plaisance.md>) · Type : Conditions générales · Édition : 12/2023
 
 ## Définitions
 
@@ -409,7 +409,7 @@ Conformément à l’article L.114-1 du Code, toutes actions dérivant d’un co
 
 ## Documents liés
 
-- [Assurance navigation de plaisance (SAM (société d'assurance mutuelle))](Assurance%20navigation%20de%20plaisance%20%28SAM%20%28soci%C3%A9t%C3%A9%20d%27assurance%20mutuelle%29%29.md) - Conditions générales, éd. 01/2024
+- [Assurance navigation de plaisance (SAM (société d'assurance mutuelle))](<Assurance navigation de plaisance (SAM (société d'assurance mutuelle)).md>) - Conditions générales, éd. 01/2024
 
 ## Source & fidélité
 

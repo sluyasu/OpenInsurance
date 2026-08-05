@@ -43,7 +43,7 @@ generated: true
 
 L’assurance Camping-car est un contrat d’assurance de véhicule terrestre à moteur portant sur les camping-cars de moins de 3,5 tonnes. Elle garantit systématiquement la responsabilité civile (plafond illimité pour les dommages corporels / 100 millions € pour les dommages matériels, préjudice écologique), la responsabilité civile camping, la Défense Pénale et Recours Suite à Accident jusqu’à 16 000 €, les Dommages au véhicule (bris de glaces, catastrophes naturelles et technologiques, forces de la nature, incendie du camping-car et de son contenu, vol et tentative de vol) et le Contenu du camping-car jusqu’à 3 200 €. Le contrat prévoit en option la Protection du conducteur jusqu’à 600 000 €, les Dommages tous accidents et vandalisme, la Privation de jouissance (jusqu’à 50 € durant 20 jours) et les Frais de dépannage et de remorquage (190 €, et 300 € nuits, week-end, jour férié), ainsi que des prestations d’assistance au véhicule et aux personnes. Le document est un IPID de 2 pages qui, selon ses propres termes, ne présente qu’un résumé des principales garanties et exclusions du contrat.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information
+- Assureur : [Thélem assurances](<../../insurers/Thélem assurances.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

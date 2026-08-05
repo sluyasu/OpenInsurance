@@ -40,7 +40,7 @@ generated: true
 
 Statuts de MAAF Assurances SA, société anonyme à conseil d'administration régie par le code des assurances, modifiés par l'assemblée générale du 15 juin 2018. Le document n'est pas un contrat d'assurance : il fixe la forme juridique, l'objet, la dénomination, le siège, la durée de la Société, le capital social (160 000 000 euros divisé en 20 169 915 actions), le régime des actions et de leur cession, la composition et le fonctionnement du conseil d'administration et de la direction générale, les assemblées générales, l'exercice social, les comptes annuels, l'affectation du résultat, les commissaires aux comptes, la dissolution-liquidation et les contestations. Il ne comporte donc ni garanties ni exclusions de garantie au sens d'un contrat d'assurance.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Autres](../../branches/Autres.md) · Type : Document · Édition : Juin 2018
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Autres](<../../branches/Autres.md>) · Type : Document · Édition : Juin 2018
 
 > ⚠️ **Édition ancienne** : Juin 2018, soit 8 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 

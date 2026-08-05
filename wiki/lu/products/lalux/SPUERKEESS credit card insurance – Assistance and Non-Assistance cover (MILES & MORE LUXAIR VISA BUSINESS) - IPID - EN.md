@@ -47,7 +47,7 @@ generated: true
 
 Insurance product information document (IPID) for the insurance attached to the MILES & MORE LUXAIR VISA BUSINESS credit cards issued by SPUERKEESS, distributed under the LALUX Assurances brand. Insured persons benefit from a range of insurance cover when travelling; the insured persons are the holder of a valid credit card issued by SPUERKEESS, the spouse/partner and children under 25. The document splits the cover into Non-Assistance cover (accident while travelling, cancellation/interruption of a trip, luggage, flight delay or extension of stay, missed departure, exemption from the rental vehicle / e-mobility excess) and Assistance cover (in the event of illness or death, cash emergency). The cover is valid worldwide, takes effect on the date the payment card becomes effective and terminates ipso jure on non-renewal or withdrawal of the card.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Voyage et assistance](<../../branches/Voyage et assistance.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -157,7 +157,7 @@ Named only in the "Where does the cover apply ?" section, which states: "For the
 
 ## Documents liés
 
-- [SPUERKEESS credit card insurance – Assistance and Non-Assistance cover (MILES & MORE LUXAIR VISA credit cards) - IPID - ](SPUERKEESS%20credit%20card%20insurance%20%E2%80%93%20Assistance%20and%20Non-Assistance%20cover%20%28MILES%20%26%20MORE%20LUXAIR%20VISA%20credit%20cards%29%20-%20IPID%20-%20.md) - IPID / Fiche d'information
+- [SPUERKEESS credit card insurance – Assistance and Non-Assistance cover (MILES & MORE LUXAIR VISA credit cards) - IPID - ](<SPUERKEESS credit card insurance – Assistance and Non-Assistance cover (MILES & MORE LUXAIR VISA credit cards) - IPID - .md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

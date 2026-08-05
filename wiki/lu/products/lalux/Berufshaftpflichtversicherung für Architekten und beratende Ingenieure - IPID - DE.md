@@ -44,7 +44,7 @@ generated: true
 
 Informationsblatt zu Versicherungsprodukten (IPID) zur Berufshaftpflichtversicherung für Architekten und beratende Ingenieure, im Titel als „APROBAT - Berufshaftpflicht für Architekten und beratende Ingenieure“ und unter der Marke „LALUX Assurances“ ausgewiesen. Der Vertrag deckt die finanziellen Folgen der Haftpflicht im Rahmen der Ausübung der Berufstätigkeit ab und umfasst neben dem Basis-Versicherungsschutz die Berufshaftpflicht (Fehler oder Mängel vertraglicher Art oder im Rahmen der zehnjährigen Haftpflicht gegenüber dem Bauherrn) und die Betriebshaftpflicht (außervertragliche Haftung) sowie sechs Positionen zusätzlichen Versicherungsschutzes. Der Versicherungsschutz gilt weltweit mit Ausnahme der Vereinigten Staaten von Amerika und Kanadas und ist auf Reklamationen beschränkt, die während der Gültigkeitsdauer des Vertrags an den Versicherungsnehmer herangetragen werden.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 

@@ -46,7 +46,7 @@ generated: true
 
 Conditions générales du contrat Matmut « Caducée », contrat d'assurance destiné aux professions médicales et aux auxiliaires médicaux, valant projet de contrat au sens de l'article L. 112-2 du Code des assurances. Il a pour objet, en fonction de la formule souscrite, d'assurer les responsabilités et/ou les biens dans le cadre de l'activité professionnelle de l'assuré ou de son Internat en Médecine. Trois formules sont proposées : « Cabinet médical », « Responsabilité civile médicale professionnelle » et « Responsabilité civile médicale de l'Interne en médecine », combinant selon les cas la responsabilité civile (médicale, exploitation, liée au local), les dommages aux biens, l'assistance au local professionnel, les préjudices financiers et la protection juridique. La garantie « Responsabilité civile médicale professionnelle » est déclenchée par la réclamation conformément aux articles L. 1142-2 du Code de la Santé Publique et L. 251-2 du Code des assurances, avec une période subséquente de cinq ans (dix ans en cas de cessation définitive d'activité ou de décès).
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : Conditions générales
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : Conditions générales
 
 ## Définitions
 
@@ -633,8 +633,8 @@ Toute action dérivant du présent contrat, qu'il s'agisse de sa validité ou de
 
 ## Documents liés
 
-- [Caducée](Caduc%C3%A9e.md) - Conditions générales, éd. 05/23
-- [Contrat « Caducée » - IPID](Contrat%20%C2%AB%20Caduc%C3%A9e%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information, éd. 07/23
+- [Caducée](<Caducée.md>) - Conditions générales, éd. 05/23
+- [Contrat « Caducée » - IPID](<Contrat « Caducée » - IPID.md>) - IPID / Fiche d'information, éd. 07/23
 
 ## Source & fidélité
 

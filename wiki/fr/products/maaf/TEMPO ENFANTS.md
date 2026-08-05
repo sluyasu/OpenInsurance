@@ -46,7 +46,7 @@ generated: true
 
 Conditions générales du contrat TEMPO ENFANTS (Multirisque Enfants) de MAAF, réf. 11002 - 05/26. Le contrat assure l'enfant désigné aux conditions particulières en cas d'accident 24h/24, dans le cadre de sa vie privée, de ses activités scolaires et extra-scolaires, de sa garde en crèche ou chez une assistante maternelle, de ses activités sportives, des trajets domicile-établissement scolaire et des stages et séquences éducatives non rémunérés. Il regroupe la protection personnelle (frais de santé et individuelle accident), des garanties complémentaires (frais de transport, dommages matériels, rachat de franchise responsabilité civile, assistance à domicile et assistance aux personnes) et, si elles sont souscrites, les garanties Responsabilité civile, Défense pénale suite à accident et Recours suite à accident. Il est décliné en trois formules — BABY, MATERNELLE et JUNIOR — qui n'ouvrent pas les mêmes garanties.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Responsabilité civile vie privée](../../branches/Responsabilit%C3%A9%20civile%20vie%20priv%C3%A9e.md) · Type : Conditions générales · Édition : 05/26
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Responsabilité civile vie privée](<../../branches/Responsabilité civile vie privée.md>) · Type : Conditions générales · Édition : 05/26
 
 ## Définitions
 
@@ -590,7 +590,7 @@ Règles spéciales applicables aux assurances de dommages non maritimes et aux a
 
 ## Documents liés
 
-- [TEMPO ENFANTS - IPID](TEMPO%20ENFANTS%20-%20IPID.md) - IPID / Fiche d'information, éd. 2026-05
+- [TEMPO ENFANTS - IPID](<TEMPO ENFANTS - IPID.md>) - IPID / Fiche d'information, éd. 2026-05
 
 ## Source & fidélité
 

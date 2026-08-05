@@ -45,7 +45,7 @@ generated: true
 
 Insurance Product Information Document (IPID) for BUSINESS TRAVEL, described on the page as private health insurance and, in the product-type box, as travel health insurance for journeys abroad. The header band names DKV Luxembourg S.A. as the company. The document lists fourteen benefits in five groups - outpatient treatments, dental treatments, inpatient treatments, ambulance services, and repatriation and return transport - and states that the maximum amounts specified in the General Terms and Conditions of insurance apply to them. Cover is valid for the journey abroad indicated on the insurance application, foreign countries being all territories outside the Grand Duchy of Luxembourg and the country of permanent residence, and the contract ends automatically on the termination date shown on the policy with no automatic renewal.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -305,7 +305,7 @@ your permanent residence.
 
 ## Documents liés
 
-- [BUSINESS TRAVEL - IPID - DE](BUSINESS%20TRAVEL%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
+- [BUSINESS TRAVEL - IPID - DE](<BUSINESS TRAVEL - IPID - DE.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

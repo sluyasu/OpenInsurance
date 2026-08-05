@@ -45,7 +45,7 @@ generated: true
 
 Allgemeine Versicherungsbedingungen der internationalen betrieblichen Krankenzusatzversicherung «Xtend» der Foyer Global Health S.A., einer luxemburgischen Krankenversicherungsgesellschaft unter der Aufsicht des Commissariat aux Assurances. Der Vertrag wird als Gruppenvertrag mit einer juristischen Person abgeschlossen; versichert sind die vom Versicherungsnehmer angemeldeten Angestellten. Der Versicherer erstattet 100 % der erstattungsfähigen Kosten für ambulante und zahnärztliche Heilbehandlungen bis zum jährlichen Höchstbetrag des gewählten Tarifs (300,00 €, 600,00 €, 900,00 € oder 1.200,00 € pro versicherte Person und Versicherungsjahr). Der Versicherungsschutz gilt für Aufenthalte in der EU und im EWR mit Ausnahme der Schweiz.
 
-- Assureur : [Foyer Global Health](../../insurers/Foyer%20Global%20Health.md) · Branche : Complémentaire santé · Type : Conditions générales
+- Assureur : [Foyer Global Health](<../../insurers/Foyer Global Health.md>) · Branche : Complémentaire santé · Type : Conditions générales
 
 ## Définitions
 
@@ -299,7 +299,7 @@ Die Verjährungsfrist aller rechtlichen Ansprüche, die sich aus oder im Zusamme
 
 ## Documents liés
 
-- [Xtend - EN](Xtend%20-%20EN.md) - Conditions générales
+- [Xtend - EN](<Xtend - EN.md>) - Conditions générales
 
 ## Source & fidélité
 

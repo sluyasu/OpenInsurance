@@ -44,7 +44,7 @@ generated: true
 
 Conditions Spéciales du produit d’assurance santé internationale « Journey », applicables aux quatre Plans Basic, Extensive, Advanced et Premium. La Police d’Assurance est destinée aux personnes expatriées séjournant à l’étranger pendant au moins 3 (trois) mois et rembourse, selon le Plan et la Zone Géographique choisis, les frais de Traitements Médicalement Nécessaires : prestations hospitalières, ambulatoires, santé mentale et bien-être, maternité, aides visuelles et soins dentaires, assistance médicale et assistance additionnelle. L’étendue des Prestations est présentée sous forme de tableau à quatre colonnes, où une coche signifie que la Prestation est assurée et une croix que le remboursement est exclu du champ d’application des garanties. Le document précise les Franchises, Co-Paiements et Plafonds De Reste À Charge par Plan, les Délais de Carence, et une liste d’exclusions générales ainsi que des exclusions dentaires spécifiques.
 
-- Assureur : [Foyer Global Health](../../insurers/Foyer%20Global%20Health.md) · Branche : Complémentaire santé · Type : Conditions générales
+- Assureur : [Foyer Global Health](<../../insurers/Foyer Global Health.md>) · Branche : Complémentaire santé · Type : Conditions générales
 
 ## Définitions
 
@@ -968,20 +968,20 @@ L’Assureur offre à toutes les Personnes Assurées l’accès aux services de 
 
 ## Documents liés
 
-- [Journey](Journey%20%282%29.md) - Conditions générales
-- [Journey](Journey.md) - Conditions générales
-- [Journey - ES](Journey%20-%20ES.md) - Conditions générales
-- [Journey (Tarif Short) - DE](Journey%20%28Tarif%20Short%29%20-%20DE.md) - Conditions générales
-- [Journey (Tarife Basic, Extensive, Advanced und Premium) - DE](Journey%20%28Tarife%20Basic%2C%20Extensive%2C%20Advanced%20und%20Premium%29%20-%20DE%20%282%29.md) - Conditions générales
-- [Journey (Tarife Basic, Extensive, Advanced und Premium) - DE](Journey%20%28Tarife%20Basic%2C%20Extensive%2C%20Advanced%20und%20Premium%29%20-%20DE.md) - Conditions générales
-- [Journey (Plans Basic, Extensive, Advanced and Premium) - EN](Journey%20%28Plans%20Basic%2C%20Extensive%2C%20Advanced%20and%20Premium%29%20-%20EN.md) - Conditions générales
-- [Journey (Modalidades Basic, Extensive, Advanced y Premium) - ES](Journey%20%28Modalidades%20Basic%2C%20Extensive%2C%20Advanced%20y%20Premium%29%20-%20ES.md) - Conditions générales
-- [Journey (Modalidad Short) - ES](Journey%20%28Modalidad%20Short%29%20-%20ES.md) - Conditions générales
-- [Journey (Plan Short)](Journey%20%28Plan%20Short%29.md) - Conditions générales
-- [Journey - EN](Journey%20-%20EN%20%282%29.md) - Conditions générales
-- [Journey (Plan Short) - EN](Journey%20%28Plan%20Short%29%20-%20EN.md) - Conditions générales
-- [Journey - EN](Journey%20-%20EN.md) - Conditions générales
-- [Journey - DE](Journey%20-%20DE.md) - Conditions générales
+- [Journey](<Journey (2).md>) - Conditions générales
+- [Journey](<Journey.md>) - Conditions générales
+- [Journey - ES](<Journey - ES.md>) - Conditions générales
+- [Journey (Tarif Short) - DE](<Journey (Tarif Short) - DE.md>) - Conditions générales
+- [Journey (Tarife Basic, Extensive, Advanced und Premium) - DE](<Journey (Tarife Basic, Extensive, Advanced und Premium) - DE (2).md>) - Conditions générales
+- [Journey (Tarife Basic, Extensive, Advanced und Premium) - DE](<Journey (Tarife Basic, Extensive, Advanced und Premium) - DE.md>) - Conditions générales
+- [Journey (Plans Basic, Extensive, Advanced and Premium) - EN](<Journey (Plans Basic, Extensive, Advanced and Premium) - EN.md>) - Conditions générales
+- [Journey (Modalidades Basic, Extensive, Advanced y Premium) - ES](<Journey (Modalidades Basic, Extensive, Advanced y Premium) - ES.md>) - Conditions générales
+- [Journey (Modalidad Short) - ES](<Journey (Modalidad Short) - ES.md>) - Conditions générales
+- [Journey (Plan Short)](<Journey (Plan Short).md>) - Conditions générales
+- [Journey - EN](<Journey - EN (2).md>) - Conditions générales
+- [Journey (Plan Short) - EN](<Journey (Plan Short) - EN.md>) - Conditions générales
+- [Journey - EN](<Journey - EN.md>) - Conditions générales
+- [Journey - DE](<Journey - DE.md>) - Conditions générales
 
 ## Source & fidélité
 

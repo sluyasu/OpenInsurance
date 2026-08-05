@@ -43,7 +43,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (DIPA/IPID) de la Formule Responsabilité civile du Contrat Macif Habitation. Le contrat protège l'assuré contre les conséquences d'événements mettant en cause sa responsabilité civile personnelle, ou celle des membres de sa famille, pour les dommages causés à des tiers, et garantit également la protection de ses droits (défense et recours, informations juridiques). Cinq garanties sont systématiquement prévues au contrat et quatre options couvrent le vol et les dommages accidentels subis en tous lieux par certains biens (vélos, mobiles et appareils nomades, instruments de musique et matériels de loisirs, prothèses auditives).
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Responsabilité civile vie privée](../../branches/Responsabilit%C3%A9%20civile%20vie%20priv%C3%A9e.md) · Type : IPID / Fiche d'information · Édition : 06/25
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Responsabilité civile vie privée](<../../branches/Responsabilité civile vie privée.md>) · Type : IPID / Fiche d'information · Édition : 06/25
 
 ## Garanties
 

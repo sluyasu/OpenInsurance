@@ -46,7 +46,7 @@ generated: true
 
 Conditions générales du contrat multigaranties Matmut Mobile-home formule Nature, valant projet de contrat au sens de l'article L. 112-2 du Code des assurances. Le contrat couvre les résidences mobiles de loisirs (mobile-homes), les habitations légères de loisirs (chalets, bungalows…) et les caravanes, à usage de résidence principale, secondaire ou données en location, et garantit les responsabilités civiles et les biens de l'assuré dans le cadre de sa vie privée, en dehors de toute activité professionnelle. Les garanties comprennent la Responsabilité civile personnelle et Immeuble, les Dommages aux biens (incendie, événements climatiques, dégâts des eaux, vol, bris de glaces, catastrophes naturelles et technologiques), la perte de loyers, une garantie d'Assistance et deux garanties de Protection Juridique. L'étendue des garanties, des biens assurés et des personnes assurées varie selon que l'habitation est déclarée en « Résidence principale », « Résidence secondaire » ou « Propriétaire non occupant ».
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales · Édition : 05/24
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : Conditions générales · Édition : 05/24
 
 ## Définitions
 

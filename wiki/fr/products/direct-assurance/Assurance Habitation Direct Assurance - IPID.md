@@ -41,7 +41,7 @@ generated: true
 
 Assurance Habitation Direct Assurance est un contrat multirisques habitation dont la compagnie d’assurance est AXA France IARD et le distributeur Direct Assurance, marque d’Avanssur SA. Il couvre une habitation et son contenu en cas de sinistre, que l’assuré soit responsable ou victime, et s’adresse aux locataires, propriétaires occupants (résidence principale ou secondaire) et propriétaires non occupants. Les garanties systématiquement prévues sont la responsabilité civile, la défense pénale et recours suite à accident, l’incendie et évènements assimilés, les dégâts des eaux, les évènements climatiques, les catastrophes naturelles et technologiques, les attentats et l’assistance. Des garanties optionnelles peuvent être ajoutées (bris de vitre accidentel, vol et vandalisme, dommages électriques, vol et casse des objets de loisir, objets de valeur, rééquipement à neuf, assurance scolaire, dépannage d’urgence, jardin, piscine).
 
-- Assureur : [Direct Assurance](../../insurers/Direct%20Assurance.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information · Édition : 02/2025
+- Assureur : [Direct Assurance](<../../insurers/Direct Assurance.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : IPID / Fiche d'information · Édition : 02/2025
 
 ## Garanties
 

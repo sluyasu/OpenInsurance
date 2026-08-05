@@ -49,7 +49,7 @@ generated: true
 
 Note d'information détaillée de la garantie Perte d'Emploi, proposée en option complémentaire d'une garantie emprunteur Décès/Incapacité, régie par le contrat collectif n°690701 souscrit par SECURIMUT auprès de MNCAP SA, qui en est l'assureur ; SECURIMUT en est le gestionnaire mandaté. La garantie verse à l'assuré privé d'emploi par licenciement économique, départ négocié pour motif économique, licenciement pour inaptitude suite à maladie ou accident, licenciement pour faute (hors faute lourde) ou certaines démissions délimitées, et indemnisé par le Pôle Emploi ou équivalent, un forfait mensuel garanti dans la limite de 100 % des échéances du dossier de financement. Les prestations sont forfaitaires, versées sous forme d'indemnité journalière égale à 1/30ème du forfait mensuel, après une franchise de 90 jours, pour 360 jours maximum par période de chômage et 1440 jours cumulés par dossier de financement. La garantie n'est définitivement acquise qu'à l'issue d'un délai de carence de 180 ou 365 jours continus selon les conditions de souscription.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Assurance emprunteur](../../branches/Assurance%20emprunteur.md) · Type : Conditions générales
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Assurance emprunteur](<../../branches/Assurance emprunteur.md>) · Type : Conditions générales
 
 ## Définitions
 

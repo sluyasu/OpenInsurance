@@ -49,7 +49,7 @@ generated: true
 
 Résumé des garanties, non contractuel, du contrat Multirisques patrimoine de SMACL Assurances : une assurance de l'immeuble et de son contenu souscrite par des propriétaires non-occupants, copropriétaires, syndics, SCI, syndicats de copropriétaires, associations syndicales libres et conseils syndicaux. Il présente la garantie dommages aux biens (treize évènements dommageables, plafond global de 15 000 000 € par sinistre), ses extensions « frais et pertes annexes » (dans la limite de 3 000 000 € sur justificatifs), ses garanties annexes de responsabilité du fait des biens (6 000 000 €) et deux options (bris de machine, tous risques sauf). Il présente également les garanties de responsabilité civile (plafond global 10 000 000 € par sinistre) : responsabilité civile du propriétaire d'immeuble, défense pénale et recours (25 000 €) et, en option, la responsabilité civile du syndic bénévole et du syndic professionnel de copropriété. Le document renvoie aux conditions générales Multirisques patrimoine - Modèle 02 (09/2016) pour l'étendue exacte du contrat et de ses exclusions.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : Fiche produit · Édition : 01/2023
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : Fiche produit · Édition : 01/2023
 
 ## Garanties
 
@@ -295,8 +295,8 @@ Ligne « TOUS DOMMAGES CONFONDUS » du tableau « GARANTIES RESPONSABILITÉ CIVI
 
 ## Documents liés
 
-- [Multirisques patrimoine - IPID](Multirisques%20patrimoine%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/2024
-- [Multirisques patrimoine (SMACL Assurances SA)](Multirisques%20patrimoine%20%28SMACL%20Assurances%20SA%29.md) - Conditions générales, éd. 05/2025
+- [Multirisques patrimoine - IPID](<Multirisques patrimoine - IPID.md>) - IPID / Fiche d'information, éd. 01/2024
+- [Multirisques patrimoine (SMACL Assurances SA)](<Multirisques patrimoine (SMACL Assurances SA).md>) - Conditions générales, éd. 05/2025
 
 ## Source & fidélité
 

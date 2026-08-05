@@ -46,7 +46,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (DIPA) du Contrat Macif Deux-roues Pros, une assurance deux-roues destinée aux professionnels et aux associations. Il couvre l'assurance obligatoire de responsabilité civile (dommages causés aux tiers) du fait du véhicule tel que cyclomoteur, motocyclette, quad, ainsi que, le cas échéant, les dommages subis par ce dernier. Le contrat offre également des services d'assistance au véhicule et aux personnes transportées.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Deux-roues, quads et voiturettes](../../branches/Deux-roues%2C%20quads%20et%20voiturettes.md) · Type : IPID / Fiche d'information · Édition : 06/22
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Deux-roues, quads et voiturettes](<../../branches/Deux-roues, quads et voiturettes.md>) · Type : IPID / Fiche d'information · Édition : 06/22
 
 ## Garanties
 

@@ -46,7 +46,7 @@ generated: true
 
 Document d’information (IPID/DDA) du contrat « Gan Patrimoine Protection Plus », présenté sous l’intitulé « MULTIRISQUES PRÉVOYANCE INDIVIDUELLE ». Il s’agit d’un produit d’assurance de groupe à adhésion individuelle, souscrit par l’association A3P, garantissant le maintien de revenus en cas d’incapacité ou d’invalidité consécutive à une maladie ou à un accident et le versement de prestations aux proches en cas de décès. L’assuré choisit les garanties (décès, PTIA, maladies redoutées, hospitalisation, indemnités journalières, invalidité), le type d’indemnité journalière et la durée de versement. La compagnie imprimée sur le document est Groupama Gan Vie (RCS Paris 340 427 616) ; « Gan Assurances » n’apparaît nulle part.
 
-- Assureur : [Gan Assurances](../../insurers/Gan%20Assurances.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : IPID / Fiche d'information · Édition : 042022
+- Assureur : [Gan Assurances](<../../insurers/Gan Assurances.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : IPID / Fiche d'information · Édition : 042022
 
 ## Définitions
 
@@ -246,9 +246,9 @@ Pour l’ensemble des garanties : le contrat inclut des garanties d’assistance
 
 ## Documents liés
 
-- ⚠️ Édition remplacée par une version plus récente : [Gan Patrimoine Protection Plus - IPID](Gan%20Patrimoine%20Protection%20Plus%20-%20IPID.md)
-- [Gan Patrimoine Protection Plus - IPID](Gan%20Patrimoine%20Protection%20Plus%20-%20IPID.md) - IPID / Fiche d'information, éd. 122023
-- [Gan Prévoyance Protection - IPID](Gan%20Pr%C3%A9voyance%20Protection%20-%20IPID.md) - IPID / Fiche d'information, éd. 122023
+- ⚠️ Édition remplacée par une version plus récente : [Gan Patrimoine Protection Plus - IPID](<Gan Patrimoine Protection Plus - IPID.md>)
+- [Gan Patrimoine Protection Plus - IPID](<Gan Patrimoine Protection Plus - IPID.md>) - IPID / Fiche d'information, éd. 122023
+- [Gan Prévoyance Protection - IPID](<Gan Prévoyance Protection - IPID.md>) - IPID / Fiche d'information, éd. 122023
 
 ## Source & fidélité
 

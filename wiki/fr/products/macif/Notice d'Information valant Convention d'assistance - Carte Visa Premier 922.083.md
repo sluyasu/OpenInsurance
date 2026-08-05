@@ -45,7 +45,7 @@ generated: true
 
 Notice d’Information valant Convention d’assistance n° 922.083 attachée à la carte Visa Premier, valable à compter du 01/01/2021. Elle décrit 26 prestations d’assistance médicale et de voyage (transport/rapatriement, présence au chevet, hébergement, garde et accompagnement des Enfants, transport des animaux domestiques, avance des frais d’Hospitalisation et remboursement complémentaire des frais médicaux jusqu’à 155 000 €, transport du corps, chauffeur de remplacement, retour anticipé, poursuites judiciaires, aide à la poursuite du voyage, acheminement d’objets et informations avant le départ), rendues par « Premier Assistance ». Les prestations sont souscrites par Visa Europe Limited, mandatée par la Banque Emettrice, auprès de Fragonard Assurances, et mises en œuvre par AWP France SAS. La couverture est liée à la durée de validité de la carte et, à l’Etranger, limitée aux 90 premiers jours du déplacement.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : Conditions générales · Édition : 01/01/2021
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Voyage et assistance](<../../branches/Voyage et assistance.md>) · Type : Conditions générales · Édition : 01/01/2021
 
 ## Définitions
 
@@ -404,7 +404,7 @@ Premier Assistance informe l’Assuré, du lundi au samedi, hors jours fériés,
 
 ## Documents liés
 
-- [CARTE VISA Premier](CARTE%20VISA%20Premier.md) - Conditions générales
+- [CARTE VISA Premier](<CARTE VISA Premier.md>) - Conditions générales
 
 ## Source & fidélité
 

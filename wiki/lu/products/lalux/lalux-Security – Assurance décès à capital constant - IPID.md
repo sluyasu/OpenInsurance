@@ -40,7 +40,7 @@ generated: true
 
 DIPA de lalux-Security, présenté sur la page comme une assurance décès à capital constant et qualifié par le document de « couverture de risque ». La garantie principale verse au bénéficiaire désigné le capital fixé aux Conditions Particulières si l'assuré décède pendant la période couverte, et le contrat peut couvrir un seul assuré ou deux assurés. Deux garanties complémentaires sont décrites : Décès par Accident et Accident de la Circulation, qui garantit un multiple du capital décès doublé en cas d'accident de circulation, et Invalidité Totale, qui exonère des primes en cas d'invalidité totale économique et attribue la prestation principale en cas d'invalidité totale physiologique. Les garanties sont valables dans le monde entier, avec une limite de durée de séjour hors d'Europe pour l'Invalidité Totale.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Prévoyance et décès](../../branches/Pr%C3%A9voyance%20et%20d%C3%A9c%C3%A8s.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Prévoyance et décès](<../../branches/Prévoyance et décès.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

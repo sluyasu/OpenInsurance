@@ -45,7 +45,7 @@ generated: true
 
 Guide pédagogique MAAF PRO intitulé « Comprendre la garantie Décennale pour mieux vous protéger », consacré aux responsabilités civiles construction. Il expose le régime légal issu de la loi Spinetta (loi 78-12 du 4 janvier 1978, articles 1792 et suivants du Code civil) : garantie de parfait achèvement sur 1 an, garantie de bon fonctionnement sur 2 ans, garantie décennale sur 10 ans, assurance dommages ouvrage, ainsi que les garanties non obligatoires que MAAF déclare inclure dans son contrat (sous-traitants, dommages aux existants divisibles, dommages immatériels consécutifs, dommages intermédiaires). Il liste les ouvrages exclus de l'obligation d'assurance et présente les autres assurances professionnelles liées aux travaux de construction, un lexique et un mémo des pièces à fournir. Le document n'est pas un contrat : il renvoie aux conditions générales du contrat Multirisque des professionnels du bâtiment et des travaux publics.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Assurance construction](../../branches/Assurance%20construction.md) · Type : Fiche produit · Édition : 04/18
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Assurance construction](<../../branches/Assurance construction.md>) · Type : Fiche produit · Édition : 04/18
 
 > ⚠️ **Édition ancienne** : 04/18, soit 8 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 

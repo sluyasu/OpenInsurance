@@ -45,7 +45,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de deux pages présentant l’assurance multirisques habitation et assistance distribuée sous la marque Luko, dans sa formule « COUVERTURE MINIMUM LÉGAL ». Le produit est destiné à protéger les résidences principales et secondaires à usage d’habitation contre les dommages aux biens ainsi que les frais et pertes subies, et inclut des prestations d’assistance en cas de sinistre au domicile. Les garanties de base listées se limitent à l’incendie et événements assimilés, aux événements climatiques, aux dégâts des eaux, aux catastrophes naturelles et technologiques, aux attentats et actes de terrorisme et aux frais et pertes, complétés par la responsabilité civile vie privée, la responsabilité civile incendie/dégât des eaux et la défense-recours. Le risque multirisques habitation est porté par Allianz Direct Versicherungs-AG succursale France (Luko) et l’assistance par Opteven Assurances.
 
-- Assureur : [Luko](../../insurers/Luko.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information
+- Assureur : [Luko](<../../insurers/Luko.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -185,7 +185,7 @@ Assistance : le stockage de vos bien meubles à concurrence de 500 € TTC.
 
 ## Documents liés
 
-- [Multirisques habitation et assistance — Police - COUVERTURE ÉTENDUE - IPID](Multirisques%20habitation%20et%20assistance%20%E2%80%94%20Police%20-%20COUVERTURE%20%C3%89TENDUE%20-%20IPID.md) - IPID / Fiche d'information
+- [Multirisques habitation et assistance — Police - COUVERTURE ÉTENDUE - IPID](<Multirisques habitation et assistance — Police - COUVERTURE ÉTENDUE - IPID.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

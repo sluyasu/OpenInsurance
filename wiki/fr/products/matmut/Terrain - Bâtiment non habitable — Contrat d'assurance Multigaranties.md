@@ -46,7 +46,7 @@ generated: true
 
 Conditions générales du contrat d'assurance multigaranties Matmut « Terrain - Bâtiment non habitable », valant projet de contrat au sens de l'article L. 112-2 du Code des assurances. Le contrat garantit la Responsabilité civile Immeuble du souscripteur dans le cadre de sa vie privée, en dehors de toute activité professionnelle, et, lorsque la formule souscrite le prévoit, les bâtiments non destinés à l'habitation, les biens mobiliers ou la maison en construction ou en rénovation. Trois formules sont proposées : Responsabilité civile Immeuble ; Responsabilité civile Immeuble et Dommages aux biens ; Maison en construction/rénovation. Le document comprend en outre les modalités d'examen des réclamations, la fiche d'information relative au fonctionnement des garanties « Responsabilité civile » dans le temps et la charte de protection des données à caractère personnel.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales · Édition : 05/24
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : Conditions générales · Édition : 05/24
 
 ## Définitions
 

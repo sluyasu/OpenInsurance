@@ -43,7 +43,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de l'Assurance Quad de Thélem assurances, qui couvre les quads homologués dont la cylindrée est supérieure ou égale à 50cm3. L'assurance a pour objectif de garantir l'assuré contre les conséquences des dommages matériels ou corporels causés par son véhicule à un tiers (responsabilité civile) ; c'est une assurance obligatoire. Le contrat prévoit également, de façon systématique, la Défense Pénale et Recours Suite à Accident, l'indemnisation des casques / gants / gilets airbag, la Protection du conducteur et des prestations d'assistance au véhicule et aux personnes. Selon les formules souscrites, il couvre aussi les dommages matériels du véhicule assuré au titre de garanties optionnelles.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Deux-roues, quads et voiturettes](../../branches/Deux-roues%2C%20quads%20et%20voiturettes.md) · Type : IPID / Fiche d'information · Édition : 01/2026
+- Assureur : [Thélem assurances](<../../insurers/Thélem assurances.md>) · Branche : [Deux-roues, quads et voiturettes](<../../branches/Deux-roues, quads et voiturettes.md>) · Type : IPID / Fiche d'information · Édition : 01/2026
 
 ## Garanties
 

@@ -40,7 +40,7 @@ generated: true
 
 Fiche d’information d’une page éditée par SMACL Assurances qui délimite la validité territoriale des garanties du contrat Véhicules à moteur (VAM). Elle distingue trois zones : la France métropolitaine et les départements et régions d’outre-mer où les garanties sont acquises ; une zone de couverture étendue à une liste exhaustive de pays européens et assimilés au titre de l’article L.211-4 du Code, dont la garantie Défense pénale et recours est exclue ; et six pays pour lesquels la carte internationale d’assurance automobile est nécessaire et un contact préalable avec l’assureur obligatoire. La fiche ne décrit pas le contenu des garanties elles-mêmes.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Document · Édition : 01/01/2026
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Document · Édition : 01/01/2026
 
 ## Définitions
 

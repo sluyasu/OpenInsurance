@@ -47,7 +47,7 @@ generated: true
 
 Conditions générales du Contrat Loyers impayés de la Macif (version juin 2023), assurance souscrite par le bailleur d’un bien immobilier loué à usage d’habitation principale ou mixte dont le loyer, charges et taxes comprises, n’excède pas 2 500 € par mois. Trois garanties principales : Loyers impayés et Contentieux locatif (remboursement des loyers, charges, taxes et indemnités d’occupation, et prise en charge des honoraires d’avocat et d’huissier), Dégradations immobilières (coût des travaux de remise en état fixés à dire d’expert, sous vétusté plafonnée à 50 %) et Protection juridique du bailleur. Une garantie optionnelle, Inoccupation anticipée du bien assuré, indemnise de façon dégressive la vacance qui suit le départ du locataire dans six cas énumérés. Les plafonds sont renvoyés aux conditions particulières ; l’indemnisation intervient sous une franchise absolue égale au dépôt de garantie, et la garantie s’exerce exclusivement en France métropolitaine.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : Crédit et caution · Type : Conditions générales · Édition : Version 06/2023 (page 5 : « Version juin 2023 »)
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : Crédit et caution · Type : Conditions générales · Édition : Version 06/2023 (page 5 : « Version juin 2023 »)
 
 ## Définitions
 

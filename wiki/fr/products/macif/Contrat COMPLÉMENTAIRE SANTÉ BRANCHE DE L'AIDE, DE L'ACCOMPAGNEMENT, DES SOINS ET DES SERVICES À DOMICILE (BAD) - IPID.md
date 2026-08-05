@@ -45,7 +45,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (DIPA) du contrat collectif à adhésion obligatoire Complémentaire santé de la Branche de l’Aide, de l’Accompagnement, des Soins et des Services à Domicile (BAD), souscrit par l’employeur au profit de ses salariés. Le contrat a pour objet le remboursement de tout ou partie des frais de santé restant à la charge des assurés en cas d’accident, de maladie ou de maternité, en complément de la Sécurité sociale française. Le salarié peut étendre la couverture à ses ayants droit et adhérer à des options facultatives. Le document porte en dernière page le tableau des garanties en vigueur au 1er janvier 2019, à trois formules (BASE PRIME, CONFORT, CONFORT+) déclinées en secteur conventionné et secteur non conventionné. Le produit respecte les conditions légales des contrats responsables.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : IPID / Fiche d'information · Édition : 01/19
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : IPID / Fiche d'information · Édition : 01/19
 
 > ⚠️ **Édition ancienne** : 01/19, soit 7 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 

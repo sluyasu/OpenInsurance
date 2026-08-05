@@ -44,7 +44,7 @@ generated: true
 
 Tableau des montants de garantie et des franchises du contrat « Profil élus » Collectivités (Modèle TPEL 07 - Édition janvier 2026). Le document ne comporte que des barèmes : il chiffre, garantie par garantie, le montant de garantie, la franchise ou le seuil d'intervention, sans définir les garanties ni énoncer d'exclusions. Il couvre la responsabilité personnelle de l'élu (y compris atteinte à l'environnement et préjudice écologique), la défense de l'assuré, la reconstitution de l'image de l'élu, l'accompagnement psychologique, l'atteinte permanente à l'intégrité physique et/ou psychique et le décès, l'information juridique téléphonique, la protection juridique (budgets amiable et judiciaire), les pertes de revenus selon trois formules, et un ensemble de prestations d'assistance aux personnes en déplacement. Les montants sont indexés sur l'indice FFB ou sur l'indice AGIRC-ARRCO selon les tableaux, sauf mentions non indexées.
 
-- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : Conditions tarifaires · Édition : janvier 2026
+- Assureur : [Groupama](<../../insurers/Groupama.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : Conditions tarifaires · Édition : janvier 2026
 
 ## Garanties
 
@@ -218,8 +218,8 @@ Prestation : Réservation/organisation des déplacements, d'événements culture
 
 ## Documents liés
 
-- [PROFIL ELUS - IPID](PROFIL%20ELUS%20-%20IPID.md) - IPID / Fiche d'information, éd. V012026
-- [PROFIL ÉLUS](PROFIL%20%C3%89LUS.md) - Conditions générales
+- [PROFIL ELUS - IPID](<PROFIL ELUS - IPID.md>) - IPID / Fiche d'information, éd. V012026
+- [PROFIL ÉLUS](<PROFIL ÉLUS.md>) - Conditions générales
 
 ## Source & fidélité
 

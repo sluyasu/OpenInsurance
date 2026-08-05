@@ -44,7 +44,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) pour easyPROTECT-PRO - Auto, une assurance automobile souscrite sous la marque LALUX Assurances et destinée aux véhicules utilisés dans le cadre d'une activité professionnelle (voitures, voitures des auto-écoles, ambulances pour le transport gratuit des malades, véhicules sapeurs-pompiers et camping-cars). Elle couvre la responsabilité civile automobile ainsi que les dommages causés au véhicule. Le document décrit quinze garanties — dont Top Assistance, Protection juridique (10.000 EUR), Incendie, Vol, Bris des glaces, Collision avec un animal errant, Forces de la nature, Dégâts au véhicule, Véhicule de remplacement, Bagages et effets personnels, Assurance valeur Plus, Valeur à neuf pendant 3 ans, et deux garanties corporelles — et deux encadrés de restrictions, tous deux marqués « Liste non exhaustive ».
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -194,7 +194,7 @@ Préjudice des bénéficiaires résultant d’une lésion corporelle subie par l
 
 ## Documents liés
 
-- [easyPROTECT PRO-Auto (cars and motorhomes vehicle types) - IPID - EN](easyPROTECT%20PRO-Auto%20%28cars%20and%20motorhomes%20vehicle%20types%29%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+- [easyPROTECT PRO-Auto (cars and motorhomes vehicle types) - IPID - EN](<easyPROTECT PRO-Auto (cars and motorhomes vehicle types) - IPID - EN.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

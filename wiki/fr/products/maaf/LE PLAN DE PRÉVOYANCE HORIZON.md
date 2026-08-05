@@ -45,7 +45,7 @@ generated: true
 
 Le Plan de Prévoyance Horizon regroupe trois contrats de prévoyance destinés aux professionnels indépendants et chefs d’entreprise : « Assurance Perte de Revenus » (garantie I Indemnités Journalières avec quatre options, garantie II Rente d’Invalidité), « Assurance Accident » (garantie I Décès, garantie II Incapacité Permanente, garantie III Indemnités Journalières) et « Assurance Décès » (garantie I capital décès ou perte totale et irréversible d’autonomie avec option de doublement en cas de décès accidentel, garantie II rente éducation, garantie III les deux). Ces contrats peuvent être souscrits indépendamment les uns des autres ou ensemble, et dans le cadre de la Loi Madelin ou non. Les contrats « Assurance Perte de Revenus » et « Assurance Accident » sont assurés par MAAF Assurances SA, le contrat « Assurance Décès » par MAAF Vie ; les prestations d’assistance aux personnes et la garantie Renseignements juridiques sont assurées par MAAF Assurances, société d’assurance mutuelle. Le document réunit les conditions générales des deux premiers contrats et la notice d’information du troisième.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : Conditions générales · Édition : 06/2026
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : Conditions générales · Édition : 06/2026
 
 ## Définitions
 

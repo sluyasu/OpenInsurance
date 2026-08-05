@@ -44,7 +44,7 @@ generated: true
 
 Conditions générales du contrat collectif santé à adhésion obligatoire mis en place au titre de la convention collective nationale du Bâtiment et des travaux publics, souscrit par un employeur auprès de la Mutuelle Ociane (Mutuelle Ociane Matmut, Livre II du Code de la mutualité, Siren 434 243 085) au profit de ses salariés et de leurs ayants droit. Le contrat est un contrat responsable au sens de l'article L. 871-1 du Code de la Sécurité sociale, bénéficie du tiers payant et couvre les soins en France métropolitaine, dans les DROM et à l'étranger en complément de l'Assurance maladie obligatoire française. Le document décrit le fonctionnement du contrat (affiliation, cotisations, portabilité, régime d'accueil loi Évin, résiliation), les bases et limites des remboursements, les risques exclus, la subrogation, la prescription biennale et la forclusion. Le tableau des prestations n'y figure pas : il est renvoyé aux conditions particulières et à la notice d'information.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : Édition mai 2024
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Conditions générales · Édition : Édition mai 2024
 
 ## Définitions
 

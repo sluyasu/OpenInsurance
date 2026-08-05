@@ -42,7 +42,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de l'Assurance Loyers Impayés MF, distribuée sous le nom « ASSURANCE DES LOYERS IMPAYES ». Le document désigne comme concepteur le courtier Groupe Solly Azar SA et comme compagnie d'assurances SADA. Le produit garantit les propriétaires bailleurs contre les loyers impayés (jusqu'à 30 mois, maximum 90.000 € par sinistre), le départ prématuré du locataire, les frais de contentieux, les détériorations immobilières (limite de 10 000 € par sinistre) et le squat (jusqu'à 12 mois, maximum 25.000 € par sinistre dont 3 000 € de frais de contentieux). Les garanties s'exercent exclusivement en France Métropolitaine (hors Corse) ; le contrat est conclu pour 1 an avec tacite reconduction.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : Crédit et caution · Type : IPID / Fiche d'information · Édition : Mars 2023
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : Crédit et caution · Type : IPID / Fiche d'information · Édition : Mars 2023
 
 ## Garanties
 
@@ -156,9 +156,9 @@ Garantie SQUAT : Prise en charge des loyers hors charges le temps de l’occupat
 
 ## Documents liés
 
-- [Assurance Loyers Impayés - Doc](Assurance%20Loyers%20Impay%C3%A9s%20-%20Doc.md) - Document
-- [Assurance Loyers Impayés - SADA Assurances (porteur du risque)](Assurance%20Loyers%20Impay%C3%A9s%20-%20SADA%20Assurances%20%28porteur%20du%20risque%29.md) - Conditions générales, éd. Mars 2023
-- [Assurance Loyers Impayés - WAKAM (porteur du risque)](Assurance%20Loyers%20Impay%C3%A9s%20-%20WAKAM%20%28porteur%20du%20risque%29.md) - Conditions générales, éd. Septembre 2025
+- [Assurance Loyers Impayés - Doc](<Assurance Loyers Impayés - Doc.md>) - Document
+- [Assurance Loyers Impayés - SADA Assurances (porteur du risque)](<Assurance Loyers Impayés - SADA Assurances (porteur du risque).md>) - Conditions générales, éd. Mars 2023
+- [Assurance Loyers Impayés - WAKAM (porteur du risque)](<Assurance Loyers Impayés - WAKAM (porteur du risque).md>) - Conditions générales, éd. Septembre 2025
 
 ## Source & fidélité
 

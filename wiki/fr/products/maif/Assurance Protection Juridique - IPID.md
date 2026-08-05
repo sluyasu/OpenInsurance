@@ -40,7 +40,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du contrat Assurance Protection Juridique de MAIF. Le produit est destiné à protéger l'assuré lorsqu'il subit un préjudice résultant d'un événement non accidentel engageant la responsabilité d'un tiers ou lorsqu'il fait l'objet d'une mise en cause émanant d'un tiers. Il comprend des informations juridiques sur Internet, des renseignements juridiques personnalisés et une garantie de protection juridique (interventions amiables puis judiciaires) sur une liste de matières, avec prise en charge des honoraires d'avocats et de conseils selon deux niveaux liés à la formule souscrite (PJ1 ou PJ2).
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Protection juridique](../../branches/Protection%20juridique.md) · Type : IPID / Fiche d'information · Édition : 05/2023
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Protection juridique](<../../branches/Protection juridique.md>) · Type : IPID / Fiche d'information · Édition : 05/2023
 
 ## Garanties
 
@@ -136,7 +136,7 @@ Honoraires d'avocats et de conseils : deux niveaux de prise en charge en fonctio
 
 ## Documents liés
 
-- [Assurance Protection Juridique](Assurance%20Protection%20Juridique.md) - Conditions générales, éd. 01/2025
+- [Assurance Protection Juridique](<Assurance Protection Juridique.md>) - Conditions générales, éd. 01/2025
 
 ## Source & fidélité
 

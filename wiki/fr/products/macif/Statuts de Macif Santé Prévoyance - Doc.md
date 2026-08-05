@@ -44,7 +44,7 @@ generated: true
 
 Statuts de la mutuelle Macif Santé Prévoyance, adoptés par l’assemblée générale du 14 juin 2025. Ce n’est pas un contrat d’assurance mais l’acte constitutif d’un organisme : il fixe la dénomination et le siège, l’objet et les branches d’assurance agréées (branches 1 Accidents, 2 Maladie, 20 Vie-décès et 21 Nuptialité), le fonds d’établissement, les règles d’adhésion, de démission, de radiation et d’exclusion des membres, puis la gouvernance (assemblée générale, conseil d’administration, présidence, mandataires mutualistes, commissaires aux comptes). Il porte enfin l’information des adhérents, le principe indemnitaire, la dissolution et le fonds d’action sociale. La mutuelle est régie par le Livre II du Code de la mutualité et affiliée à la SGAM Macif, elle-même affiliée à la SGAM Aéma Groupe.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Autres](../../branches/Autres.md) · Type : Document · Édition : adoptés par l’assemblée générale du 14 juin 2025
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Autres](<../../branches/Autres.md>) · Type : Document · Édition : adoptés par l’assemblée générale du 14 juin 2025
 
 ## Définitions
 

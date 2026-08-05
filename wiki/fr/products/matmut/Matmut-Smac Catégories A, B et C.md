@@ -47,7 +47,7 @@ generated: true
 
 Conditions générales du contrat Matmut/Smac Catégories A, B et C, contrat d'assurance complémentaire souscrit par un sociétaire de la Matmut également adhérent de Matmut Mutualité, valant projet de contrat au sens de l'article L. 112-2 du Code des assurances et L. 221-4 du Code de la mutualité, et valant règlement mutualiste pour les prestations de Matmut Mutualité. Pour les membres participants des catégories A et B, deux formules sont proposées : la formule « Restreinte » (assistance aux personnes en déplacement, assistance à domicile, forfait immédiat en cas de blessures graves suite à accident et forfait immédiat en cas de décès suite à accident) et la formule « Renforcée » qui ajoute la Protection Juridique Vie privée, y compris l'Assistance Juridique par téléphone. Pour les membres participants de la catégorie C, le contrat accorde l'Assistance Juridique par téléphone et l'Assistance psychologique suite à événement traumatisant. Les montants des forfaits blessures graves et décès ne figurent pas dans les Conditions générales : ils sont indiqués au bulletin d'adhésion.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : 10/25
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Conditions générales · Édition : 10/25
 
 ## Définitions
 
@@ -715,7 +715,7 @@ Conformément aux articles L.114-1 du Code des assurances et L.221-11 du Code de
 
 ## Documents liés
 
-- [Contrat « Matmut-Smac » - IPID](Contrat%20%C2%AB%20Matmut-Smac%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information, éd. 10/25
+- [Contrat « Matmut-Smac » - IPID](<Contrat « Matmut-Smac » - IPID.md>) - IPID / Fiche d'information, éd. 10/25
 
 ## Source & fidélité
 

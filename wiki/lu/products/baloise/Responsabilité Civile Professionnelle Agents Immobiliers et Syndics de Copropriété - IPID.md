@@ -45,7 +45,7 @@ generated: true
 
 Fiche d’information sur le produit d’assurance (IPID) de l’assurance Responsabilité Civile Professionnelle Agents Immobiliers et Syndics de Copropriété, émise par Baloise Assurances Luxembourg SA. Elle couvre la responsabilité civile contractuelle et extra-contractuelle de l’assuré dans l’exercice de son activité professionnelle d’agent immobilier et de syndic de copropriété, avec extension possible à la promotion immobilière, et comprend tant la garantie des demandes fondées que la défense contre les demandes injustifiées. Quatre extensions facultatives sont proposées : pollution accidentelle, intoxication alimentaire, objets confiés et existants, protection juridique. Les plafonds sont ceux mentionnés aux conditions particulières et le document ne chiffre aucun montant de garantie.
 
-- Assureur : [Baloise Luxembourg](../../insurers/Baloise%20Luxembourg.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : IPID / Fiche d'information
+- Assureur : [Baloise Luxembourg](<../../insurers/Baloise Luxembourg.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

@@ -40,7 +40,7 @@ generated: true
 
 NN Car Insurance Essential est une assurance automobile belge faisant partie de l'offre d'assurances mobilité de NN. Elle comprend l'assurance Responsabilité Civile Véhicules Automoteurs légalement obligatoire, un service après sinistre, et plusieurs garanties optionnelles : Omnium et Mini-Omnium (dégâts au véhicule assuré : tous risques, incendie, vol, bris de glace, forces de la nature et collision avec animaux), Protection juridique, Conducteur+ (indemnisation du conducteur blessé ou décédé), Assistance véhicule, Assistance aux personnes incluant assistance voyage et vélo, et Autopartage. Le document doit être lu conjointement avec les « Conditions minimales de responsabilité civile véhicules automoteurs » et les « NN Assurance des risques de mobilité – Dispositions générales ».
 
-- Assureur : [NN Insurance Belgium](../../insurers/NN%20Insurance%20Belgium.md) · Branche : [Auto](../../branches/Auto.md) · Type : Conditions générales · Édition : 2025-12-01
+- Assureur : [NN Insurance Belgium](<../../insurers/NN Insurance Belgium.md>) · Branche : [Auto](<../../branches/Auto.md>) · Type : Conditions générales · Édition : 2025-12-01
 
 ## Définitions
 
@@ -559,7 +559,7 @@ Protection juridique : le délai de prescription légal est de trois ans. Ce dé
 
 ## Documents liés
 
-- [NN CAR Insurance Essential - IPID](NN%20CAR%20Insurance%20Essential%20-%20IPID.md) - IPID / Fiche d'information, éd. 12/2025
+- [NN CAR Insurance Essential - IPID](<NN CAR Insurance Essential - IPID.md>) - IPID / Fiche d'information, éd. 12/2025
 
 ## Source & fidélité
 

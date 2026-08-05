@@ -42,7 +42,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de DKV Luxembourg S.A. pour le produit COMPACT HEALTH, une assurance maladie privée complémentaire destinée aux personnes affiliées à la caisse de maladie légale. La couverture porte sur les aides visuelles, le traitement dentaire et le traitement stationnaire, avec une indemnité journalière d’hospitalisation. Une couverture optionnelle Best Care Premium ajoute un service de second avis et de prise de rendez-vous. Le domaine de validité s’étend sur toute l’Europe.
 
-- Assureur : [DKV Luxembourg](../../insurers/DKV%20Luxembourg.md) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
+- Assureur : [DKV Luxembourg](<../../insurers/DKV Luxembourg.md>) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -189,8 +189,8 @@ Forfait de 500 € pour vos dépenses (frais de voyage, coûts de consultation e
 
 ## Documents liés
 
-- [COMPACT HEALTH - IPID - DE](COMPACT%20HEALTH%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
-- [COMPACT HEALTH - IPID - EN](COMPACT%20HEALTH%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+- [COMPACT HEALTH - IPID - DE](<COMPACT HEALTH - IPID - DE.md>) - IPID / Fiche d'information
+- [COMPACT HEALTH - IPID - EN](<COMPACT HEALTH - IPID - EN.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

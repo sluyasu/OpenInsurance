@@ -47,7 +47,7 @@ generated: true
 
 Globality CoGenio® est une assurance santé internationale souscrite sous la forme d’un contrat d’assurance de groupe et conçue pour les expatriés, ainsi que pour leurs conjoints/compagnons et enfants co-assurés. La couverture se décline en trois formules — Classic, Plus et Top — qui combinent des modules de prestations hospitalières, ambulatoires, dentaires, d’assistance médicale et d’assistance supplémentaire, avec prise en charge à 100 % des frais remboursables sauf mention contraire dans les tableaux des garanties. Elle s’applique dans deux régions de destination (le monde entier avec ou sans les Etats-Unis) et n’impose aucun délai d’attente. Les conditions générales décrivent les garanties, leurs plafonds en euros, dollars américains et livres sterling, les franchises applicables aux seuls traitements ambulatoires, les exclusions, la procédure de règlement des prestations, les obligations des assurés et le paiement de la prime.
 
-- Assureur : [Foyer Global Health](../../insurers/Foyer%20Global%20Health.md) · Branche : Complémentaire santé · Type : Conditions générales
+- Assureur : [Foyer Global Health](<../../insurers/Foyer Global Health.md>) · Branche : Complémentaire santé · Type : Conditions générales
 
 ## Définitions
 
@@ -942,10 +942,10 @@ Notre centre de services de Globality Health désigne des prestataires spéciali
 
 ## Documents liés
 
-- [Globality CoGenio® - DE](Globality%20CoGenio%C2%AE%20-%20DE.md) - Conditions générales
-- [Globality CoGenio® - ES](Globality%20CoGenio%C2%AE%20-%20ES.md) - Conditions générales
-- [Globality CoGenio®](Globality%20CoGenio%C2%AE%20%282%29.md) - Conditions générales
-- [Globality CoGenio® - EN](Globality%20CoGenio%C2%AE%20-%20EN.md) - Conditions générales
+- [Globality CoGenio® - DE](<Globality CoGenio® - DE.md>) - Conditions générales
+- [Globality CoGenio® - ES](<Globality CoGenio® - ES.md>) - Conditions générales
+- [Globality CoGenio®](<Globality CoGenio® (2).md>) - Conditions générales
+- [Globality CoGenio® - EN](<Globality CoGenio® - EN.md>) - Conditions générales
 
 ## Source & fidélité
 

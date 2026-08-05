@@ -47,7 +47,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de la police APROBAT de responsabilité civile professionnelle des agents immobiliers, administrateurs de biens et syndics de copropriété. La police a pour objet de garantir les conséquences pécuniaires de la responsabilité civile exploitation et professionnelle de l’assuré pour les dommages aux tiers découlant d’un exercice normal et licite des activités assurées. Elle couvre deux volets principaux (responsabilité civile professionnelle et responsabilité civile exploitation) et sept garanties complémentaires, dont une garantie financière, le vol commis par les préposés, les frais de défense et d’expertise, les frais de sauvetage et l’atteinte à l’environnement. La couverture est limitée aux activités exercées au Grand-duché de Luxembourg ; le document ne mentionne ni montant de garantie, ni franchise, ni prime chiffrée, et qualifie ses listes de « Liste non exhaustive ».
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

@@ -41,7 +41,7 @@ generated: true
 
 Globality YouGenio® for Germany ist eine internationale Krankenversicherung für Expatriates; das vorliegende Dokument enthält die Allgemeinen Versicherungsbedingungen. Der Tarif gliedert sich in die Tarifstufen Classic, Plus und Top, die sich nach Art und Höhe der vereinbarten Leistungen unterscheiden. Versichert sind stationäre, ambulante und zahnärztliche Heilbehandlungen sowie medizinische und zusätzliche Assistance-Leistungen, jeweils bis zu den in den Leistungsübersichten (Nrn. 4.3 bis 4.7) je Tarifstufe angegebenen Beträgen; der Versicherungsschutz gilt wahlweise in Zielregion I (weltweit mit USA) oder Zielregion II (weltweit ohne USA). Auf den Vertrag ist das Recht des Großherzogtums Luxemburg anwendbar.
 
-- Assureur : [Foyer Global Health](../../insurers/Foyer%20Global%20Health.md) · Branche : Complémentaire santé · Type : Conditions générales
+- Assureur : [Foyer Global Health](<../../insurers/Foyer Global Health.md>) · Branche : Complémentaire santé · Type : Conditions générales
 
 ## Définitions
 
@@ -891,8 +891,8 @@ Das zuständige Globality Health Servicecenter benennt Spezialanbieter, bei dene
 
 ## Documents liés
 
-- [Globality YouGenio® for Germany - EN](Globality%20YouGenio%C2%AE%20for%20Germany%20-%20EN.md) - Conditions générales
-- [Globality YouGenio® World - EN](Globality%20YouGenio%C2%AE%20World%20-%20EN.md) - Conditions générales
+- [Globality YouGenio® for Germany - EN](<Globality YouGenio® for Germany - EN.md>) - Conditions générales
+- [Globality YouGenio® World - EN](<Globality YouGenio® World - EN.md>) - Conditions générales
 
 ## Source & fidélité
 

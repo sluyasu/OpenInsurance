@@ -42,7 +42,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de la garantie Responsabilité Civile Maître d'Ouvrage de MAIF, dans la gamme Assurance Construction, version Associations et Collectivités. Le produit est destiné à couvrir les conséquences pécuniaires de la responsabilité encourue par le maître d'ouvrage pour les dommages accidentels causés aux tiers à l'occasion des travaux qu'il fait réaliser. Il comprend une responsabilité civile générale, une responsabilité civile en cas d'atteintes à l'environnement accidentelles et la défense des intérêts de l'assuré. La couverture court de la déclaration d'ouverture de chantier jusqu'à la réception des travaux ou l'occupation même partielle des locaux.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : IPID / Fiche d'information · Édition : 08/2025
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : IPID / Fiche d'information · Édition : 08/2025
 
 ## Définitions
 

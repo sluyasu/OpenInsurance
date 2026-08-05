@@ -42,7 +42,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de la garantie « Accident entreprise » du produit easyPROTECT PRO de LALUX Assurances. La Compagnie garantit le paiement des prestations convenues aux Conditions Particulières lorsque l’assuré est victime d’un accident pendant la durée de validité du contrat, la couverture étant accordée aussi bien au patron de l’entreprise qu’aux employés. Les garanties de base sont les prestations en cas de décès, les prestations en cas d’invalidité permanente et le remboursement des frais médicaux. L’assurance est valable dans toute l’Europe, et par extension dans le monde entier pour les séjours hors d’Europe ne dépassant pas trois mois.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Assurance accidents](../../branches/Assurance%20accidents.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Assurance accidents](<../../branches/Assurance accidents.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -157,8 +157,8 @@ La Compagnie garantit dans la limite de la somme assurée, le remboursement des 
 
 ## Documents liés
 
-- [easyPROTECT PRO – Company accident insurance - IPID - EN](easyPROTECT%20PRO%20%E2%80%93%20Company%20accident%20insurance%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
-- [easyPROTECT PRO – Unfallversicherung für Betriebspersonal (Unfallversicherung für Betriebspersonal - Betriebsunfall) - I](easyPROTECT%20PRO%20%E2%80%93%20Unfallversicherung%20f%C3%BCr%20Betriebspersonal%20%28Unfallversicherung%20f%C3%BCr%20Betriebspersonal%20-%20Betriebsunfall%29%20-%20I.md) - IPID / Fiche d'information
+- [easyPROTECT PRO – Company accident insurance - IPID - EN](<easyPROTECT PRO – Company accident insurance - IPID - EN.md>) - IPID / Fiche d'information
+- [easyPROTECT PRO – Unfallversicherung für Betriebspersonal (Unfallversicherung für Betriebspersonal - Betriebsunfall) - I](<easyPROTECT PRO – Unfallversicherung für Betriebspersonal (Unfallversicherung für Betriebspersonal - Betriebsunfall) - I.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

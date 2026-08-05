@@ -44,7 +44,7 @@ generated: true
 
 Conditions générales de l'assurance véhicules automobiles de la VAUDOISE GENERALE, Compagnie d'Assurances SA (édition du 01.01.2022), régie par la Loi fédérale sur le contrat d'assurance (LCA). Le contrat regroupe quatre volets: A Responsabilité civile, B Casco (collision, vol, incendie et forces de la nature, bris de glaces, bris de glaces Plus, dommages particuliers, dommages de parc, mobilité, effets personnels), C Accidents des occupants et D Protection juridique. Les prestations de protection juridique sont fournies par ORION Assurance de Protection Juridique SA. Les risques casco et les couvertures optionnelles ne sont acquis que s'ils sont choisis et mentionnés dans la police.
 
-- Assureur : [Vaudoise Assurances](../../insurers/Vaudoise%20Assurances.md) · Branche : Véhicules (RC + casco) · Type : Conditions générales · Édition : 2022-01-01
+- Assureur : [Vaudoise Assurances](<../../insurers/Vaudoise Assurances.md>) · Branche : Véhicules (RC + casco) · Type : Conditions générales · Édition : 2022-01-01
 
 ## Définitions
 

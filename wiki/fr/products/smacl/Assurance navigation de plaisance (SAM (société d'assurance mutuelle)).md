@@ -48,7 +48,7 @@ generated: true
 
 Conditions générales de l'assurance navigation de plaisance de SMACL Assurances (société d'assurance mutuelle), qui garantit les bateaux utilisés à titre privé dans un but non lucratif et/ou au titre d'une mission de service public non commerciale. Le contrat comporte huit garanties repérées par des codes : responsabilité civile (A1), frais de retirement de l'épave (A2), pertes, avaries, incendie, vandalisme et assistance maritime au bateau (B1), vol et tentative de vol (B2), défense pénale et recours (C1 et C2), individuelle marine (D), objets et effets transportés (E), plus une assistance navigation mise en œuvre par Inter Mutuelle Assistance GIE. Les montants sont chiffrés à l'article 4 (jusqu'à 20 000 000 € tous dommages confondus en responsabilité civile, 30 000 € de frais de retirement, formules au choix de l'assuré en individuelle marine et objets transportés) et à l'article 12.5 pour la défense pénale et recours. La gestion des sinistres est assurée par le GIE Navimut Gestion Sinistres Plaisance.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Navigation de plaisance](../../branches/Navigation%20de%20plaisance.md) · Type : Conditions générales · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Navigation de plaisance](<../../branches/Navigation de plaisance.md>) · Type : Conditions générales · Édition : 01/2024
 
 ## Définitions
 
@@ -399,7 +399,7 @@ Conformément à l'article L.114-1 du Code, toutes actions dérivant d'un contra
 
 ## Documents liés
 
-- [Assurance navigation de plaisance](Assurance%20navigation%20de%20plaisance.md) - Conditions générales, éd. 12/2023
+- [Assurance navigation de plaisance](<Assurance navigation de plaisance.md>) - Conditions générales, éd. 12/2023
 
 ## Source & fidélité
 

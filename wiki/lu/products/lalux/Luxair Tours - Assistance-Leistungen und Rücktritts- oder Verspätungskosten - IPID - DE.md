@@ -46,7 +46,7 @@ generated: true
 
 Informationsdokument über das Versicherungsprodukt (IPID) für die an Luxair-Tours-Reisen gekoppelten Versicherungen: Assistance-Leistungen während der Reise sowie Rücktritts- oder Verspätungskosten. Je nach gewählten Elementen/Varianten profitiert der Versicherte von Assistance-Leistungen während einer Reise und ist gegen die Erstattung der Kosten bei Rücktritt von einer im Voraus gebuchten Reise versichert; der Versicherer gewährt auch Versicherungsschutz bei Unterbrechung einer Reise oder einer verspäteten Abfahrt. Die Assistance-Garantien umfassen Rechtsschutz, Haftkaution, Gepäck, Reiseunfall, Selbstbeteiligung Mietfahrzeug sowie Rückführung, Behandlungskosten im Ausland, Such- und Bergungskosten und vorzeitige Rückreise. Die Versicherung gilt weltweit.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Voyage et assistance](<../../branches/Voyage et assistance.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

@@ -43,7 +43,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) du contrat « Multigaranties Résidence principale - Jeunes » de la Matmut, une assurance habitation. Le contrat garantit les assurés âgés de moins de 28 ans, sans enfants, dans le cadre de leur vie privée contre les conséquences des dommages corporels et matériels causés à des tiers (Responsabilité civile), et couvre les biens immobiliers et mobiliers en lien avec un appartement de 2 pièces maximum n’excédant pas 66 m² à usage de résidence principale occupée en qualité de propriétaire, locataire ou colocataire. Les garanties en inclusion systématiquement prévues comprennent la Responsabilité civile personnelle et Immeuble, la Protection Juridique suite à accident, l’incendie et risques assimilés, les événements climatiques et catastrophes naturelles, le vol, le bris de glaces et l’Assistance Urgence après sinistre. Le document précise que seuls les principaux plafonds sont indiqués et renvoie aux Conditions générales pour le détail.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information · Édition : 05-24
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : IPID / Fiche d'information · Édition : 05-24
 
 ## Garanties
 
@@ -181,7 +181,7 @@ Garantie en inclusion systématiquement prévue.
 
 ## Documents liés
 
-- [Contrat « Multigaranties Résidence principale » - IPID](Contrat%20%C2%AB%20Multigaranties%20R%C3%A9sidence%20principale%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information, éd. 12-23
+- [Contrat « Multigaranties Résidence principale » - IPID](<Contrat « Multigaranties Résidence principale » - IPID.md>) - IPID / Fiche d'information, éd. 12-23
 
 ## Source & fidélité
 

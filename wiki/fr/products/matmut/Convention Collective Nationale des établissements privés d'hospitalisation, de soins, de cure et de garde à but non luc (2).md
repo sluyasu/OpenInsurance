@@ -47,7 +47,7 @@ generated: true
 
 Conditions générales, édition juillet 2024, du contrat d’assurance collective à adhésion obligatoire mettant en œuvre le régime frais de santé de la Convention Collective Nationale des établissements privés d’hospitalisation, de soins, de cure et de garde à but non lucratif du 31 octobre 1951 (IDCC n°29). Le contrat complète les prestations en nature de la Sécurité sociale au profit des salariés obligatoirement affiliés, selon le niveau retenu par l’entreprise (régime de base 1, ou base 1 assortie d’un régime optionnel Base 2 ou Base 3). Il définit l’affiliation et les dispenses, l’ouverture, la suspension, le maintien et la cessation des garanties (loi Evin et portabilité), les obligations des parties, les cotisations, la résiliation, la prescription, l’étendue des garanties dans le cadre du contrat responsable et du 100 % Santé, les modalités de calcul et de paiement des prestations, ainsi que trois annexes : maintien des garanties, tableaux des garanties et coordonnées des organismes assureurs. Six organismes assureurs sont référencés par la branche, dont OCIANE MATMUT ; l’entreprise en choisit un.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : Juillet 2024
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Conditions générales · Édition : Juillet 2024
 
 ## Définitions
 
@@ -397,8 +397,8 @@ Toutes les actions dérivant des opérations mentionnées au Contrat sont prescr
 
 ## Documents liés
 
-- Extension liée : [Convention Collective Nationale des établissements privés d'hospitalisation, de soins, de cure et de garde à but non luc](Convention%20Collective%20Nationale%20des%20%C3%A9tablissements%20priv%C3%A9s%20d%27hospitalisation%2C%20de%20soins%2C%20de%20cure%20et%20de%20garde%20%C3%A0%20but%20non%20luc.md)
-- [Convention Collective Nationale des établissements privés d'hospitalisation, de soins, de cure et de garde à but non luc](Convention%20Collective%20Nationale%20des%20%C3%A9tablissements%20priv%C3%A9s%20d%27hospitalisation%2C%20de%20soins%2C%20de%20cure%20et%20de%20garde%20%C3%A0%20but%20non%20luc.md) - Conditions générales, éd. Juillet 2024
+- Extension liée : [Convention Collective Nationale des établissements privés d'hospitalisation, de soins, de cure et de garde à but non luc](<Convention Collective Nationale des établissements privés d'hospitalisation, de soins, de cure et de garde à but non luc.md>)
+- [Convention Collective Nationale des établissements privés d'hospitalisation, de soins, de cure et de garde à but non luc](<Convention Collective Nationale des établissements privés d'hospitalisation, de soins, de cure et de garde à but non luc.md>) - Conditions générales, éd. Juillet 2024
 
 ## Source & fidélité
 

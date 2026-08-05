@@ -46,7 +46,7 @@ generated: true
 
 Notice d'information du contrat Matmut Vie Générations, contrat collectif d'assurance sur la vie libellé en euros, à adhésion facultative, relevant de la branche 20 (vie-décès) de l'article R. 321-1 du Code des assurances. Il est souscrit par Matmut Mutualité auprès de Matmut Vie et réservé aux adhérents âgés de moins de 18 ans, l'adhésion prenant fin au plus tard le 1er avril qui suit le 28e anniversaire de l'adhérent. Le capital disponible est payé au terme si l'assuré est en vie, ou au(x) bénéficiaire(s) désigné(s) en cas de décès, et reste rachetable à tout moment. Le contrat ne comporte pas de taux d'intérêt garanti, ni garantie de fidélité, ni valeur de réduction ; il ne prélève aucun frais d'entrée ni frais sur versements, et des frais de gestion annuels de 0,50 % des capitaux disponibles moyens gérés dans l'exercice.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Conditions générales · Édition : 01/25
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Assurance vie et épargne](<../../branches/Assurance vie et épargne.md>) · Type : Conditions générales · Édition : 01/25
 
 ## Définitions
 
@@ -225,7 +225,7 @@ Toutes actions dérivant d'un contrat d'assurance sont prescrites par deux ans �
 
 ## Documents liés
 
-- [Matmut Vie Générations - IPID](Matmut%20Vie%20G%C3%A9n%C3%A9rations%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/02/2025
+- [Matmut Vie Générations - IPID](<Matmut Vie Générations - IPID.md>) - IPID / Fiche d'information, éd. 01/02/2025
 
 ## Source & fidélité
 

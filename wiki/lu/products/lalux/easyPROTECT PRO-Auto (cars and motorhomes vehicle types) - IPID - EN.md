@@ -44,7 +44,7 @@ generated: true
 
 Insurance Product Information Document (IPID) for easyPROTECT PRO-Auto, the LALUX Assurances motor vehicle insurance for cars and motorhomes vehicle types. It covers motor vehicle third party liability as well as damage caused to the vehicle when exercising a professional activity, for cars, driving school cars, ambulances for the free transport of patients, fire engines and motorhomes. Alongside civil liability the document lists legal protection, fire, theft, glass breakage, collision with a stray animal, forces of nature, damage to the vehicle, a replacement vehicle, luggage and personal effects, Value Plus, replacement value for three years, occupant and driver cover and Top Assistance.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -200,7 +200,7 @@ In the event of an accident or attempted theft that immobilises the insured vehi
 
 ## Documents liés
 
-- [easyPROTECT-PRO - Auto (Auto — Véhicules de type voiture ou camping car) - IPID](easyPROTECT-PRO%20-%20Auto%20%28Auto%20%E2%80%94%20V%C3%A9hicules%20de%20type%20voiture%20ou%20camping%20car%29%20-%20IPID.md) - IPID / Fiche d'information
+- [easyPROTECT-PRO - Auto (Auto — Véhicules de type voiture ou camping car) - IPID](<easyPROTECT-PRO - Auto (Auto — Véhicules de type voiture ou camping car) - IPID.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

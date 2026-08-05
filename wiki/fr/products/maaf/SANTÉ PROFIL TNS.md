@@ -45,7 +45,7 @@ generated: true
 
 Notice d'information du contrat SANTÉ PROFIL TNS de MAAF, complémentaire santé individuelle destinée aux travailleurs non salariés non agricoles affiliés au régime français de Sécurité sociale des indépendants et résidant en France, souscriptible dans le cadre de la loi « Madelin ». Elle garantit le remboursement des frais médicaux et chirurgicaux en complément des prestations en nature d'un Régime Obligatoire maladie français, selon cinq Niveaux de Garanties (NIVEAU 1 à NIVEAU 5) couvrant l'Hospitalisation, les Soins courants, l'Optique, le Dentaire, les Aides auditives et la Prévention. Les Garanties santé sont assurées par MAAF Santé, mutuelle du livre II du Code de la Mutualité ; les garanties d'assistance santé à domicile, accessoires et incluses dans la cotisation, sont assurées par MAAF Assurances SA et gérées par FIDELIA ASSISTANCE. Le Contrat est « responsable et solidaire » au sens de l'article L.871-1 du Code de la Sécurité sociale et donne accès au réseau de professionnels de santé partenaires Santéclair.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : 09.2025
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Conditions générales · Édition : 09.2025
 
 ## Définitions
 
@@ -982,7 +982,7 @@ Conformément à l'article L.221-11 du Code de la mutualité, toute action déri
 
 ## Documents liés
 
-- [SANTÉ PROFIL TNS (Formules F1 à F5) - Fiche](SANT%C3%89%20PROFIL%20TNS%20%28Formules%20F1%20%C3%A0%20F5%29%20-%20Fiche.md) - Fiche produit, éd. Exemples chiffrés applicables en vigueur au 1er janvier 2026 susceptibles d’évoluer dans le temps, à la hausse ou à la baisse.
+- [SANTÉ PROFIL TNS (Formules F1 à F5) - Fiche](<SANTÉ PROFIL TNS (Formules F1 à F5) - Fiche.md>) - Fiche produit, éd. Exemples chiffrés applicables en vigueur au 1er janvier 2026 susceptibles d’évoluer dans le temps, à la hausse ou à la baisse.
 
 ## Source & fidélité
 

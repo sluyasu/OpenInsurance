@@ -42,7 +42,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du contrat Assurance Habitation de MAIF, assurance multirisque habitation. Le produit couvre les biens immobiliers et mobiliers déclarés (incendie explosion, dégât des eaux, événements climatiques, gel, catastrophes naturelles et technologiques, attentats, vol et vandalisme, bris de vitre, déménagement, dommages électriques, choc de véhicule et aéronef, autres dommages accidentels, panne), le recours, la protection des enfants scolarisés, l'accompagnement juridique, la responsabilité civile-défense, le soutien psychologique et l'assistance. Des garanties optionnelles (Jardin+, biens nomades, accueil de personnes, annulation voyages/loisirs, chasse) sont proposées. Le contrat court de la date de prise d'effet au 31 décembre suivant, puis est reconduit automatiquement chaque 1er janvier.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information · Édition : 01/2025
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : IPID / Fiche d'information · Édition : 01/2025
 
 ## Garanties
 
@@ -251,7 +251,7 @@ Citée dans la liste « Garanties optionnelles » : Jardin+, Biens nomades multi
 
 ## Documents liés
 
-- [Assurance Habitation](Assurance%20Habitation.md) - Conditions générales, éd. 01/2025
+- [Assurance Habitation](<Assurance Habitation.md>) - Conditions générales, éd. 01/2025
 
 ## Source & fidélité
 

@@ -42,7 +42,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du contrat « Matmut Pro », assurance des professionnels (artisans, commerçants et services). Le contrat garantit les risques encourus par des professionnels contre les conséquences des dommages matériels ou corporels causés à des tiers (Responsabilité Civile) et peut comprendre des garanties complémentaires couvrant les biens mobiliers et immobiliers liés à l'activité professionnelle ainsi que les pertes financières consécutives à un évènement garanti. Cinq garanties sont prévues en inclusion (trois Responsabilités Civiles et deux Protections Juridiques) et des garanties optionnelles couvrent les locaux et l'assistance aux locaux. Le document précise que seuls les principaux plafonds des garanties en inclusion sont indiqués, le détail figurant aux conditions générales.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information · Édition : 10/25
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : IPID / Fiche d'information · Édition : 10/25
 
 ## Garanties
 
@@ -198,7 +198,7 @@ Garantie optionnelle, rubrique « Assistance aux locaux ».
 
 ## Documents liés
 
-- [Matmut PRO](Matmut%20PRO.md) - Conditions générales, éd. 11/24
+- [Matmut PRO](<Matmut PRO.md>) - Conditions générales, éd. 11/24
 
 ## Source & fidélité
 

@@ -43,7 +43,7 @@ generated: true
 
 Conditions générales du contrat « Responsabilité civile vie privée » de SMACL Assurances, destiné aux particuliers. Le contrat garantit les conséquences pécuniaires de la responsabilité civile que l’assuré peut encourir dans le cadre de sa vie privée et en dehors de toute activité professionnelle, en vertu des articles 1382 à 1386 du Code civil, pour les dommages matériels, corporels et immatériels consécutifs causés aux tiers à la suite d’un accident, à concurrence de 100 millions d’euros non indexés (dont 15 millions pour les dommages matériels et immatériels consécutifs et 2 millions pour la pollution). Il comprend une garantie de défense pénale et recours plafonnée à 30 000 € par année d’assurance, et deux garanties optionnelles : l’activité d’assistance maternelle agréée et la propriété de chiens de seconde catégorie. Les garanties s’exercent en France métropolitaine et dans quatre départements et régions d’outre-mer, avec extensions de voyage à l’Union européenne, à sept États tiers et, pour la seule responsabilité civile vie privée, au monde entier pour des séjours n’excédant pas 90 jours consécutifs.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Responsabilité civile vie privée](../../branches/Responsabilit%C3%A9%20civile%20vie%20priv%C3%A9e.md) · Type : Conditions générales · Édition : 11/2022
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Responsabilité civile vie privée](<../../branches/Responsabilité civile vie privée.md>) · Type : Conditions générales · Édition : 11/2022
 
 ## Définitions
 

@@ -46,7 +46,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du contrat « Navigation de Plaisance ». Le contrat a pour objet de garantir le propriétaire, le pilote ou le gardien de l'embarcation assurée dans le cadre de la navigation de plaisance contre les conséquences des dommages matériels ou corporels causés à des tiers (responsabilité civile). Quatre garanties sont systématiquement prévues en inclusion (responsabilité civile, frais de retirement, assistance au bateau et aux personnes embarquées, protection juridique suite à accident) et six garanties optionnelles peuvent renforcer la protection. Le document indique que les garanties donnent lieu à l'application de plafonds d'indemnisation, dont seuls les principaux sont repris.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Navigation de plaisance](../../branches/Navigation%20de%20plaisance.md) · Type : IPID / Fiche d'information · Édition : 06-24
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Navigation de plaisance](<../../branches/Navigation de plaisance.md>) · Type : IPID / Fiche d'information · Édition : 06-24
 
 ## Garanties
 
@@ -174,7 +174,7 @@ Garantie optionnelle.
 
 ## Documents liés
 
-- [Navigation de Plaisance Matmut](Navigation%20de%20Plaisance%20Matmut.md) - Conditions générales, éd. 06/24
+- [Navigation de Plaisance Matmut](<Navigation de Plaisance Matmut.md>) - Conditions générales, éd. 06/24
 
 ## Source & fidélité
 

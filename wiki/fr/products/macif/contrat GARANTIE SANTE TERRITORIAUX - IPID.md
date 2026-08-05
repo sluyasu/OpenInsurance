@@ -47,7 +47,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (DIPA/IPID) du contrat Garantie Santé Territoriaux, une complémentaire santé assurée par la Mutuelle Nationale des Fonctionnaires des Collectivités Territoriales (MNFCT). Le contrat rembourse, en complément de la Sécurité sociale française, tout ou partie des frais de santé restant à la charge de l'assuré et des éventuels bénéficiaires en cas d'accident, de maladie ou de maternité ; il respecte les conditions légales des contrats responsables et figure sur la liste des offres labellisées de la DGCL. Il couvre systématiquement l'hospitalisation, les soins courants, la prévention, le dentaire, l'optique, les aides auditives et l'appareillage, ainsi qu'une prime de naissance de 100 € par enfant, des prestations d'assistance et des services (réseau de soins, tiers payant, cautionnement de prêt pour les fonctionnaires). L'annexe présente deux axes de choix indépendants : quatre formules « Soins » (Economique, Equilibrée, Protectrice, Excellence) et cinq niveaux d'« Équipements » (0 à 4).
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : IPID / Fiche d'information · Édition : 01/2022
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : IPID / Fiche d'information · Édition : 01/2022
 
 ## Définitions
 
@@ -488,8 +488,8 @@ Service systématiquement prévu au contrat : cautionnement de prêt pour les fo
 
 ## Documents liés
 
-- [Garantie Santé Territoriaux - Fiche](Garantie%20Sant%C3%A9%20Territoriaux%20-%20Fiche.md) - Fiche produit, éd. 10.01.2022
-- [Garantie Santé Territoriaux](Garantie%20Sant%C3%A9%20Territoriaux.md) - Conditions générales, éd. Janvier 2022
+- [Garantie Santé Territoriaux - Fiche](<Garantie Santé Territoriaux - Fiche.md>) - Fiche produit, éd. 10.01.2022
+- [Garantie Santé Territoriaux](<Garantie Santé Territoriaux.md>) - Conditions générales, éd. Janvier 2022
 
 ## Source & fidélité
 

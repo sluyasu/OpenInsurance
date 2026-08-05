@@ -41,7 +41,7 @@ generated: true
 
 Insurance Product Information Document for DKV Luxembourg S.A.'s CONTINUE PLUS product: daily sickness payments for self-employed and freelance professionals. It insures against the temporary loss of earnings incurred through illness or accidents insofar as this causes temporary incapacity to work, paying a daily sickness benefit in accordance with the contractually agreed amount and period. Benefits run up to 350 days in tariff PLUS CONTINUE TF1/TS1 and up to 715 days in tariff PLUS CONTINUE TF2/TS2.
 
-- Assureur : [DKV Luxembourg](../../insurers/DKV%20Luxembourg.md) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
+- Assureur : [DKV Luxembourg](<../../insurers/DKV Luxembourg.md>) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -133,7 +133,7 @@ Your insurance cover is valid in Luxembourg and/or the country of residence of t
 
 ## Documents liés
 
-- [CONTINUE PLUS - IPID](CONTINUE%20PLUS%20-%20IPID.md) - IPID / Fiche d'information
+- [CONTINUE PLUS - IPID](<CONTINUE PLUS - IPID.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

@@ -45,7 +45,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (DIPA) du contrat Multirisques patrimoine de SMACL Assurances SA. Le contrat est destiné aux propriétaires non occupants d’immeubles collectifs ou en copropriété ainsi qu’aux associations syndicales libres, syndics bénévoles de copropriété, syndicat des copropriétaires ou conseil syndical. Il couvre les dommages aux biens immobiliers et à leur contenu, les dommages causés aux tiers du fait d’un événement garanti, et la responsabilité de l’assuré en sa qualité de propriétaire d’immeuble. Vingt-neuf garanties sont systématiquement prévues et trois garanties optionnelles peuvent être souscrites ; la couverture s’exerce en France métropolitaine, hors région Corse.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : IPID / Fiche d'information · Édition : 01/2024
 
 ## Garanties
 
@@ -267,8 +267,8 @@ LES GARANTIES OPTIONNELLES — L’indemnité est plafonnée par sinistre  aux m
 
 ## Documents liés
 
-- [Multirisques patrimoine - Fiche](Multirisques%20patrimoine%20-%20Fiche.md) - Fiche produit, éd. 01/2023
-- [Multirisques patrimoine (SMACL Assurances SA)](Multirisques%20patrimoine%20%28SMACL%20Assurances%20SA%29.md) - Conditions générales, éd. 05/2025
+- [Multirisques patrimoine - Fiche](<Multirisques patrimoine - Fiche.md>) - Fiche produit, éd. 01/2023
+- [Multirisques patrimoine (SMACL Assurances SA)](<Multirisques patrimoine (SMACL Assurances SA).md>) - Conditions générales, éd. 05/2025
 
 ## Source & fidélité
 

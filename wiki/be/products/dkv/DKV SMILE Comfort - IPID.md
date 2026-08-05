@@ -42,7 +42,7 @@ generated: true
 
 DKV SMILE Comfort est une assurance individuelle soins dentaires à caractère indemnitaire, complémentaire à l'intervention de l'assurance maladie légale/statutaire belge. Elle rembourse les frais dentaires restant à charge de l'assuré (ticket modérateur et suppléments d'honoraires) pour les soins dentaires de base, spécialisés et les accidents, avec libre choix du dentiste. Elle peut être souscrite par toute personne physique résidant en Belgique, assujettie à la sécurité sociale belge, n'ayant pas atteint 70 ans à la conclusion du contrat. La couverture est valable en Belgique.
 
-- Assureur : [DKV Belgium](../../insurers/DKV%20Belgium.md) · Branche : [Santé](../../branches/Sant%C3%A9.md) · Type : IPID / Fiche d'information · Édition : 202212
+- Assureur : [DKV Belgium](<../../insurers/DKV Belgium.md>) · Branche : [Santé](<../../branches/Santé.md>) · Type : IPID / Fiche d'information · Édition : 202212
 
 ## Garanties
 
@@ -128,10 +128,10 @@ Remboursement des soins dentaires de base et/ou spécialisés (y compris soins d
 
 ## Documents liés
 
-- [DKV Smile Essential](DKV%20Smile%20Essential.md) - Conditions générales, éd. 07/2024
-- [DKV SMILE Essential - IPID](DKV%20SMILE%20Essential%20-%20IPID.md) - IPID / Fiche d'information, éd. 202212
-- [DKV SMILE Premium - IPID](DKV%20SMILE%20Premium%20-%20IPID.md) - IPID / Fiche d'information, éd. 202212
-- [DKV Smile Premium](DKV%20Smile%20Premium.md) - Conditions générales, éd. 2024-07
+- [DKV Smile Essential](<DKV Smile Essential.md>) - Conditions générales, éd. 07/2024
+- [DKV SMILE Essential - IPID](<DKV SMILE Essential - IPID.md>) - IPID / Fiche d'information, éd. 202212
+- [DKV SMILE Premium - IPID](<DKV SMILE Premium - IPID.md>) - IPID / Fiche d'information, éd. 202212
+- [DKV Smile Premium](<DKV Smile Premium.md>) - Conditions générales, éd. 2024-07
 
 ## Source & fidélité
 

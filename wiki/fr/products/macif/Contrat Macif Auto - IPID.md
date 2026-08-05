@@ -44,7 +44,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (DIPA/IPID) du Contrat Macif Auto, assurance automobile de la Macif destinée aux personnes physiques. Il couvre l’assurance obligatoire de responsabilité civile du fait du véhicule (dommages causés aux tiers) ainsi que, le cas échéant, les dommages subis par le véhicule, et comprend des services d’assistance au véhicule et aux personnes transportées. Les garanties précédées d’une coche (véhicule assuré, responsabilité civile, défense et recours, assistance, Service Aléas Mobilité, Urgence Mobilité, assistance constat amiable) sont systématiquement prévues au contrat ; les garanties des dommages subis par le véhicule et les garanties complémentaires sont présentées sans coche. Le document résume les principales exclusions et restrictions, l’étendue territoriale, les obligations de l’assuré, les modalités de paiement et de résiliation.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 06/22
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information · Édition : 06/22
 
 ## Garanties
 
@@ -293,7 +293,7 @@ La panne 0 km : assistance en cas de panne sans franchise kilométrique.
 
 ## Documents liés
 
-- [Macif Auto](Macif%20Auto.md) - Conditions générales, éd. 2026-01
+- [Macif Auto](<Macif Auto.md>) - Conditions générales, éd. 2026-01
 
 ## Source & fidélité
 

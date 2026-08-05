@@ -47,7 +47,7 @@ generated: true
 
 Insurance product information document (IPID) for APROBAT - Professional liability for architects and consulting engineers. The Insurer indemnifies the policyholder and/or the insured against the financial consequences of civil liability incurred during the legal exercise of the professional activities described in the Special Conditions, following physical, material and immaterial damage caused to third parties. The cover comprises professional liability (errors, negligence or fault of a contractual or ten-yearly nature towards the client) and operating liability (extra-contractual liability), plus six additional guarantees. The warranty is granted for damages that occur worldwide excluding the United States of America and Canada.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 

@@ -45,7 +45,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de LALUX Assurances portant, sous le titre « Responsabilité Civile Familiale, Immeuble et Chasse », sur trois responsabilités civiles de la gamme easyPROTECT. La RC Familiale couvre la responsabilité civile des assurés pour les dommages causés au cours de la vie privée, par les enfants, par l’habitation privée et en tant que gardien d’animaux domestiques, avec une protection juridique associée. La RC Immeuble couvre les dommages causés aux tiers du fait d’un immeuble dont l’assuré est propriétaire mais qu’il n’habite pas, également avec une protection juridique. La RC Chasse couvre, conformément à la législation en vigueur, les dégâts corporels et matériels causés à des tiers du fait d’un acte de chasse, d’une arme de chasse ou de chiens de chasse.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Responsabilité civile familiale](../../branches/Responsabilit%C3%A9%20civile%20familiale.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Responsabilité civile familiale](<../../branches/Responsabilité civile familiale.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -209,9 +209,9 @@ La responsabilité civile du preneur en sa qualité de propriétaire ou gardien 
 
 ## Documents liés
 
-- [easyPROTECT - Discover - IPID](easyPROTECT%20-%20Discover%20-%20IPID.md) - IPID / Fiche d'information
-- [easyPROTECT-Haftpflicht (Haftpflicht — Familie, Gebäude und Jagd (DE)) - IPID - DE](easyPROTECT-Haftpflicht%20%28Haftpflicht%20%E2%80%94%20Familie%2C%20Geb%C3%A4ude%20und%20Jagd%20%28DE%29%29%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
-- [Service easyPROTECT - Discover - IPID - EN](Service%20easyPROTECT%20-%20Discover%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+- [easyPROTECT - Discover - IPID](<easyPROTECT - Discover - IPID.md>) - IPID / Fiche d'information
+- [easyPROTECT-Haftpflicht (Haftpflicht — Familie, Gebäude und Jagd (DE)) - IPID - DE](<easyPROTECT-Haftpflicht (Haftpflicht — Familie, Gebäude und Jagd (DE)) - IPID - DE.md>) - IPID / Fiche d'information
+- [Service easyPROTECT - Discover - IPID - EN](<Service easyPROTECT - Discover - IPID - EN.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

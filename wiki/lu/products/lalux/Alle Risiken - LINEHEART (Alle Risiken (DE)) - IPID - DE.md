@@ -44,7 +44,7 @@ generated: true
 
 Informationsdokument über das Versicherungsprodukt (IPID) für die LINEHEART-Versicherung « Alle Risiken », vertrieben unter der Marke LALUX Assurances und im Schadensfall von der Versicherungsgesellschaft LA LUXEMBOURGEOISE getragen. Versichert werden iPhones oder andere Apple-Geräte (und Zubehör) gegen versehentlichen Bruch, Diebstahl durch gewaltsames Eindringen, Überfall und Taschendiebstahl sowie versehentliche Oxidation, mit einer Deckungssumme von 1.100 EUR pro Schadensfall für iPhones und zwischen 500 EUR und 6.000 EUR für sonstige Geräte, jeweils bei maximal drei Schadensfällen pro Versicherungsjahr. Zusätzlich kann eine Erweiterung der Herstellergarantie um 12 oder 24 Monate abgeschlossen werden. Die Versicherung gilt weltweit; es gilt eine Selbstbeteiligung von 58,50 EUR incl. Mehrwertsteuer.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Autres](../../branches/Autres.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Autres](<../../branches/Autres.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 

@@ -46,20 +46,20 @@ generated: true
 
 _(pas de résumé)_
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales · Édition : 05/18
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : Conditions générales · Édition : 05/18
 
 > ⚠️ **Édition ancienne** : 05/18, soit 8 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 
 ## Documents liés
 
-- [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire - IPID](Contrat%20Habitation%20-%20Formule%20%C3%89conomique%20-%20R%C3%A9sidence%20principale%20-%20R%C3%A9sidence%20secondaire%20-%20IPID.md) - IPID / Fiche d'information, éd. 04/24
-- [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire](Contrat%20Habitation%20-%20Formule%20%C3%89conomique%20-%20R%C3%A9sidence%20principale%20-%20R%C3%A9sidence%20secondaire.md) - Conditions générales, éd. Avril 2024
-- [Contrat Habitation - Formule Protectrice - Résidence principale](Contrat%20Habitation%20-%20Formule%20Protectrice%20-%20R%C3%A9sidence%20principale%20%283%29.md) - Conditions générales, éd. 05/18
-- [Contrat Habitation - Formule Protectrice - Résidence principale](Contrat%20Habitation%20-%20Formule%20Protectrice%20-%20R%C3%A9sidence%20principale%20%284%29.md) - Conditions générales, éd. Avril 2021
-- [Contrat Habitation - Formule Protectrice - Résidence principale](Contrat%20Habitation%20-%20Formule%20Protectrice%20-%20R%C3%A9sidence%20principale.md) - Conditions générales, éd. Avril 2024
-- [Contrat Habitation - Formule Protectrice - Résidence principale - IPID](Contrat%20Habitation%20-%20Formule%20Protectrice%20-%20R%C3%A9sidence%20principale%20-%20IPID.md) - IPID / Fiche d'information, éd. 04/24
-- [Contrat Habitation - Formule Protectrice - Résidence secondaire](Contrat%20Habitation%20-%20Formule%20Protectrice%20-%20R%C3%A9sidence%20secondaire.md) - Conditions générales, éd. Avril 2024
-- [Contrat Habitation - Formule Protectrice - Résidence secondaire - IPID](Contrat%20Habitation%20-%20Formule%20Protectrice%20-%20R%C3%A9sidence%20secondaire%20-%20IPID.md) - IPID / Fiche d'information, éd. 04/24
+- [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire - IPID](<Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire - IPID.md>) - IPID / Fiche d'information, éd. 04/24
+- [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire](<Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire.md>) - Conditions générales, éd. Avril 2024
+- [Contrat Habitation - Formule Protectrice - Résidence principale](<Contrat Habitation - Formule Protectrice - Résidence principale (3).md>) - Conditions générales, éd. 05/18
+- [Contrat Habitation - Formule Protectrice - Résidence principale](<Contrat Habitation - Formule Protectrice - Résidence principale (4).md>) - Conditions générales, éd. Avril 2021
+- [Contrat Habitation - Formule Protectrice - Résidence principale](<Contrat Habitation - Formule Protectrice - Résidence principale.md>) - Conditions générales, éd. Avril 2024
+- [Contrat Habitation - Formule Protectrice - Résidence principale - IPID](<Contrat Habitation - Formule Protectrice - Résidence principale - IPID.md>) - IPID / Fiche d'information, éd. 04/24
+- [Contrat Habitation - Formule Protectrice - Résidence secondaire](<Contrat Habitation - Formule Protectrice - Résidence secondaire.md>) - Conditions générales, éd. Avril 2024
+- [Contrat Habitation - Formule Protectrice - Résidence secondaire - IPID](<Contrat Habitation - Formule Protectrice - Résidence secondaire - IPID.md>) - IPID / Fiche d'information, éd. 04/24
 
 ## Source & fidélité
 

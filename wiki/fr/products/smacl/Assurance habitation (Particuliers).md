@@ -44,7 +44,7 @@ generated: true
 
 Conditions générales du contrat d’assurance habitation de SMACL Assurances pour les particuliers. Le contrat couvre les bâtiments, les objets mobiliers et les objets de valeur situés à l’adresse indiquée aux conditions particulières, les frais et pertes assurés, et les responsabilités de l’assuré à l’égard du propriétaire, des voisins et des tiers ou des locataires (à concurrence de 15 000 000 € non indexés par sinistre). Les évènements dommageables garantis vont de l’incendie et des dégâts des eaux aux catastrophes naturelles et technologiques, avec quatre garanties optionnelles et une convention d’assistance (SMACL Assistance) ainsi qu’un service Diagnostic devis. Les garanties et franchises varient selon trois formules — Essentielle, Confort et Intégrale (avec franchise au choix ou sans franchise). Le document est édité par SMACL ASSURANCES SA (RCS Niort n° 833817224).
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales · Édition : 11/2022
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : Conditions générales · Édition : 11/2022
 
 ## Définitions
 

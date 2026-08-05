@@ -47,7 +47,7 @@ generated: true
 
 Conventions spéciales « Assurance Responsabilités » du contrat ALÉASSUR de SMACL Assurances, annexées aux conditions générales Aléassur et diffusées sous le bandeau « Collectivités ». Elles garantissent la responsabilité générale de la personne morale souscriptrice - celle qu'elle encourt en raison même de son existence, de ses activités légales et des responsabilités mises à sa charge par les textes - ainsi que onze responsabilités spécifiques (dommages subis par les élus, par les requis civils et collaborateurs bénévoles, dommages impliquant les personnels de l'État ou d'autres collectivités, faute inexcusable et faute intentionnelle, maladies professionnelles non classées, essais professionnels et stages, véhicules personnels des agents, biens confiés, locaux occasionnels d'activités, responsabilité après travaux et après livraison, compétences GEMAPI). Une garantie défense pénale et recours est incluse. Vingt-cinq exclusions particulières sont énumérées à l'article 4 ; la garantie est déclenchée par la réclamation, avec un délai subséquent de 5 ans, et s'exerce à concurrence des montants indiqués aux conditions particulières. Un intercalaire remplace l'exclusion 4.20 pour les contrats prenant effet à compter du 1er janvier 2022.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : Conditions générales · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : Conditions générales · Édition : 01/2024
 
 ## Définitions
 

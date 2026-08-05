@@ -44,7 +44,7 @@ generated: true
 
 Fiche « Exemples de remboursement au 01/01/2022 » du contrat d’assurance santé responsable Garantie Santé, établie pour le régime général. Le document est constitué de onze grilles identiques, une par formule (Economique 0, Economique 1, Economique 2, Equilibrée 1, Equilibrée 2, Equilibrée 3, Excellence 3, Excellence 4, Protectrice 2, Protectrice 3, Protectrice 4), chacune tenant sur deux pages. Chaque grille compare, poste par poste et sur cinq colonnes, le tarif le plus souvent facturé ou tarif réglementé, la base de remboursement de la Sécurité sociale, le remboursement de l’assurance maladie obligatoire, le remboursement Garantie Santé Macif de la formule concernée et le reste à charge, pour les postes Hospitalisation, Soins courants, Dentaire, Optique et Aides auditives. Il ne contient ni conditions générales, ni exclusions contractuelles, ni tarifs de cotisation.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit · Édition : 2022-01-01
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Fiche produit · Édition : 2022-01-01
 
 ## Définitions
 
@@ -389,9 +389,9 @@ Poste « Équipement (hors 100 % santé) » (Aides auditives). Tarif le plus sou
 
 ## Documents liés
 
-- [contrat GARANTIE SANTÉ - IPID](contrat%20GARANTIE%20SANT%C3%89%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/2022
-- [contrat GARANTIE SANTÉ - IPID](contrat%20GARANTIE%20SANT%C3%89%20-%20IPID%20%282%29.md) - IPID / Fiche d'information, éd. 09/2019
-- [Garantie Santé](Garantie%20Sant%C3%A9.md) - Conditions générales, éd. 2023-01
+- [contrat GARANTIE SANTÉ - IPID](<contrat GARANTIE SANTÉ - IPID.md>) - IPID / Fiche d'information, éd. 01/2022
+- [contrat GARANTIE SANTÉ - IPID](<contrat GARANTIE SANTÉ - IPID (2).md>) - IPID / Fiche d'information, éd. 09/2019
+- [Garantie Santé](<Garantie Santé.md>) - Conditions générales, éd. 2023-01
 
 ## Source & fidélité
 

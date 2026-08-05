@@ -42,7 +42,7 @@ generated: true
 
 L’assurance Protection Juridique du particulier de Thélem assurances met à la disposition de l’assuré un service d’information juridique (téléphone et internet) pour répondre à ses questions en prévention des litiges et, en cas de litige, les moyens juridiques et financiers en vue d’une solution amiable ou judiciaire. Elle intervient pour les litiges de la vie privée et salariée dans les domaines de la protection de la personne, de la vie quotidienne, de l’habitation, de la construction, de l’automobile, des loisirs, du travail, de la santé, de la défense pénale et du droit de la famille. Les frais engagés ou diligentés sont pris en charge lorsque le litige est supérieur à 220 €, dans la limite de 20 000 € par litige ; en dessous de ce seuil, un accompagnement juridique par téléphone est prévu. Le présent document est un document d’information sur le produit d’assurance (IPID) qui présente un résumé des principales garanties et exclusions du contrat.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Protection juridique](../../branches/Protection%20juridique.md) · Type : IPID / Fiche d'information
+- Assureur : [Thélem assurances](<../../insurers/Thélem assurances.md>) · Branche : [Protection juridique](<../../branches/Protection juridique.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 

@@ -45,7 +45,7 @@ generated: true
 
 Tableau de garanties du régime frais de santé de la CCN Production agricole cadres, présentant une formule unique nommée « Garantie CADRES Ociane » pour les soins courants, la pharmacie, le matériel médical, l'hospitalisation, la maternité, l'optique, le dentaire, les aides auditives, les cures thermales et le sport sur ordonnance. Les remboursements sont exprimés en pourcentage de la Base de Remboursement (BR) y compris la part du régime obligatoire, en frais réels, en crédits annuels par bénéficiaire ou en forfaits en euros. Le document ajoute une assistance et une série de services inclus, puis des exemples chiffrés de remboursements. Il précise être un document non contractuel.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Fiche produit
 
 ## Définitions
 

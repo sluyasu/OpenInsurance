@@ -41,7 +41,7 @@ generated: true
 
 Document d’information sur le produit d’assurance de DKV Luxembourg S.A. pour le produit PLUS HEALTH, une assurance maladie privée. Il s’agit d’une assurance maladie complémentaire couvrant le traitement ambulatoire, le traitement dentaire et l’hospitalisation, ainsi que le tarif BEST CARE + / BEST CARE PREMIUM +. Le domaine de validité s’étend à toute l’Europe. Le document indique que l’étendue de l’assurance comprend également la gratuité des prestations selon le tarif TRAVEL + ; la fiche d’information TRAVEL / TRAVEL + correspondante est reliée dans le même PDF aux pages 3-4.
 
-- Assureur : [DKV Luxembourg](../../insurers/DKV%20Luxembourg.md) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
+- Assureur : [DKV Luxembourg](<../../insurers/DKV Luxembourg.md>) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -291,8 +291,8 @@ Tous les pays, en dehors du Grand-Duché de Luxembourg et du pays de résidence 
 
 ## Documents liés
 
-- [PLUS HEALTH - IPID - EN](PLUS%20HEALTH%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
-- [PLUS HEALTH - IPID - DE](PLUS%20HEALTH%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
+- [PLUS HEALTH - IPID - EN](<PLUS HEALTH - IPID - EN.md>) - IPID / Fiche d'information
+- [PLUS HEALTH - IPID - DE](<PLUS HEALTH - IPID - DE.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

@@ -45,7 +45,7 @@ generated: true
 
 Document d'information (IPID) de l'« Assurance des flottes de véhicules professionnels », produit « Flotte entreprises », porté par SMACL Assurances SA (RCS Niort n° 833 817 224). Le contrat répond à l'assurance obligatoire des véhicules terrestres à moteur et de leurs remorques de moins de 750 kg composant le parc automobile de l'entreprise, et couvre la responsabilité de l'entreprise pour les dommages causés aux tiers. Sont systématiquement prévues les garanties de responsabilité et de défense (dommages causés aux tiers, responsabilité civile travaux, responsabilité environnementale, défense pénale et recours) et l'assistance aux véhicules et aux personnes. En option : les dommages subis par les véhicules, des biens garantis en option, des frais et pertes, les dommages corporels du conducteur, l'assurance auto-mission et un véhicule de remplacement.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 02/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information · Édition : 02/2024
 
 ## Garanties
 
@@ -279,9 +279,9 @@ Mise à disposition d'un véhicule de remplacement pour les véhicules de moins 
 
 ## Documents liés
 
-- Extension liée : [Votre convention d'assistance Flottes entreprises poids lourds](Votre%20convention%20d%27assistance%20Flottes%20entreprises%20poids%20lourds.md)
-- [Flotte entreprises](Flotte%20entreprises.md) - Conditions générales, éd. 05/2025
-- [Votre convention d'assistance Flottes entreprises poids lourds](Votre%20convention%20d%27assistance%20Flottes%20entreprises%20poids%20lourds.md) - Conditions générales, éd. 07/2025
+- Extension liée : [Votre convention d'assistance Flottes entreprises poids lourds](<Votre convention d'assistance Flottes entreprises poids lourds.md>)
+- [Flotte entreprises](<Flotte entreprises.md>) - Conditions générales, éd. 05/2025
+- [Votre convention d'assistance Flottes entreprises poids lourds](<Votre convention d'assistance Flottes entreprises poids lourds.md>) - Conditions générales, éd. 07/2025
 
 ## Source & fidélité
 

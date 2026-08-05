@@ -44,7 +44,7 @@ generated: true
 
 Deutschsprachiges Produktinformationsblatt der Wohngebäude- und Hausratversicherung « Home » der Baloise Assurances Luxembourg S.A. — der Gesellschaft, die in der Kopfzeile beider Seiten genannt wird. Das Produkt erlaubt einem Eigentümer (selbstnutzend oder nicht) oder einem Mieter, einen Wohnraum zu versichern; Hauptzweck ist je nach abgeschlossenem Versicherungsschutz die Versicherung der Gebäude und deren Inhalte sowie der Haftpflicht des Versicherungsnehmers und der möglichen Bewohner. Zehn Leistungen sind systematisch vorgesehen, zwölf weitere werden als optionale Komponenten aufgeführt. Sachschäden sind am mitgeteilten Ort im Grossherzogtum Luxemburg versichert, die Privathaftpflicht weltweit.
 
-- Assureur : [Baloise Luxembourg](../../insurers/Baloise%20Luxembourg.md) · Branche : [Assurance habitation](../../branches/Assurance%20habitation.md) · Type : IPID / Fiche d'information
+- Assureur : [Baloise Luxembourg](<../../insurers/Baloise Luxembourg.md>) · Branche : [Assurance habitation](<../../branches/Assurance habitation.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -231,7 +231,7 @@ Optionale Komponente.
 
 ## Documents liés
 
-- [Home - IPID](Home%20-%20IPID.md) - IPID / Fiche d'information
+- [Home - IPID](<Home - IPID.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

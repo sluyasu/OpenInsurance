@@ -40,7 +40,7 @@ generated: true
 
 Fiche « Les Frais de l'assurance-vie » du contrat Chromatys Evolution, publiée au titre de l'engagement de transparence annuelle de Groupama Gan Vie. Elle indique le montant minimal de versement, le droit d'adhésion à l'association souscriptrice, les frais annuels de gestion du contrat (supports fonds euros, unités de compte, gestion déléguée), les frais moyens de gestion des unités de compte par classe d'actifs avec les taux de rétrocessions de commissions correspondants, et les frais ponctuels par opération. Le document ne décrit ni garanties ni exclusions : il ne porte que sur les frais. Les mentions légales indiquent que Gan Assurances distribue les produits de Groupama Gan Vie.
 
-- Assureur : [Gan Assurances](../../insurers/Gan%20Assurances.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Conditions tarifaires
+- Assureur : [Gan Assurances](<../../insurers/Gan Assurances.md>) · Branche : [Assurance vie et épargne](<../../branches/Assurance vie et épargne.md>) · Type : Conditions tarifaires
 
 ## Définitions
 
@@ -101,7 +101,7 @@ Fiche « Les Frais de l'assurance-vie » du contrat Chromatys Evolution, publié
 
 ## Documents liés
 
-- [GAN ASSURANCES CHROMATYS EVOLUTION - Fiche](GAN%20ASSURANCES%20CHROMATYS%20EVOLUTION%20-%20Fiche.md) - Fiche produit, éd. 2026-06-01
+- [GAN ASSURANCES CHROMATYS EVOLUTION - Fiche](<GAN ASSURANCES CHROMATYS EVOLUTION - Fiche.md>) - Fiche produit, éd. 2026-06-01
 
 ## Source & fidélité
 

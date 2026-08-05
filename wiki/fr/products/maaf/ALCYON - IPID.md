@@ -40,7 +40,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) du contrat ALCYON de MAAF Assurances SA, présenté sous la bannière « Assurance Vie privée ». Le contrat couvre les dommages que peut subir le bateau assuré ainsi que les dommages matériels et corporels qu’il peut occasionner à un tiers, et les personnes transportées gratuitement par le bateau en cas d’accident corporel ; il s’applique exclusivement à la navigation de plaisance. Les garanties de base sont la responsabilité civile et les frais de retirement de l’épave, la défense pénale et recours suite à accident garanti (plafond 20 000 €), la garantie Individuelle marine, l’assistance aux personnes, l’assistance relative au bateau et les renseignements juridiques ; quatre garanties sont optionnelles (dommages au bateau assuré, dommages aux objets transportés, dommages aux moteurs hors bord, protection juridique plaisance). Le document est un résumé et renvoie à la documentation précontractuelle et contractuelle pour l’information complète.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Navigation de plaisance](../../branches/Navigation%20de%20plaisance.md) · Type : IPID / Fiche d'information · Édition : 2025-05
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Navigation de plaisance](<../../branches/Navigation de plaisance.md>) · Type : IPID / Fiche d'information · Édition : 2025-05
 
 ## Garanties
 

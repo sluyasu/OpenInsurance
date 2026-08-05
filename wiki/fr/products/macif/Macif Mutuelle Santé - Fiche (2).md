@@ -40,7 +40,7 @@ generated: true
 
 Tableau de garanties du contrat de complémentaire santé Macif Mutuelle Santé, garanties en vigueur au 1er juin 2026. La couverture se compose de deux grilles distinctes : une grille « SOINS » à six formules (PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE, EXCELLENCE) couvrant l’hospitalisation, la prime naissance, les soins courants et la prévention/mieux-être, et une grille « ÉQUIPEMENTS » à cinq niveaux (0, 1, 2, 3, EXCELLENCE) couvrant le dentaire, l’optique, les aides auditives, l’appareillage et les cures thermales. Les remboursements en pourcentage s’entendent par rapport aux bases de remboursement de la Sécurité sociale, remboursement de celle-ci inclus ; ceux exprimés en euros correspondent au remboursement de la mutuelle seule. Macif Mutuelle Santé est un contrat responsable au sens de l’article L. 871-1 du Code de la sécurité sociale, distribué par la Macif et assuré par Macif Santé Prévoyance.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit · Édition : 06/26
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Fiche produit · Édition : 06/26
 
 ## Définitions
 
@@ -1065,13 +1065,13 @@ Ligne du tableau de garanties, section « CURES THERMALES REMBOURSÉES PAR LE R�
 
 ## Documents liés
 
-- ⚠️ Édition remplacée par une version plus récente : [Macif Mutuelle Santé - Macif Hospitalisation - Fiche](Macif%20Mutuelle%20Sant%C3%A9%20-%20Macif%20Hospitalisation%20-%20Fiche.md)
-- [contrat MACIF MUTUELLE SANTÉ - IPID](contrat%20MACIF%20MUTUELLE%20SANT%C3%89%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/26
-- [contrat MACIF MUTUELLE SANTÉ - IPID](contrat%20MACIF%20MUTUELLE%20SANT%C3%89%20-%20IPID%20%282%29.md) - IPID / Fiche d'information, éd. 10/22
-- [Macif Mutuelle Santé - Fiche](Macif%20Mutuelle%20Sant%C3%A9%20-%20Fiche.md) - Fiche produit, éd. Garanties en vigueur au 1er janvier 2026
-- [MACIF MUTUELLE SANTÉ](MACIF%20MUTUELLE%20SANT%C3%89.md) - Conditions générales, éd. 06/2026 (Garanties en vigueur au 1er juin 2026)
-- [Macif Mutuelle Santé](Macif%20Mutuelle%20Sant%C3%A9%20%282%29.md) - Conditions générales, éd. 01/24
-- [Macif Mutuelle Santé - Macif Hospitalisation - Fiche](Macif%20Mutuelle%20Sant%C3%A9%20-%20Macif%20Hospitalisation%20-%20Fiche.md) - Fiche produit, éd. 01/06/2026
+- ⚠️ Édition remplacée par une version plus récente : [Macif Mutuelle Santé - Macif Hospitalisation - Fiche](<Macif Mutuelle Santé - Macif Hospitalisation - Fiche.md>)
+- [contrat MACIF MUTUELLE SANTÉ - IPID](<contrat MACIF MUTUELLE SANTÉ - IPID.md>) - IPID / Fiche d'information, éd. 01/26
+- [contrat MACIF MUTUELLE SANTÉ - IPID](<contrat MACIF MUTUELLE SANTÉ - IPID (2).md>) - IPID / Fiche d'information, éd. 10/22
+- [Macif Mutuelle Santé - Fiche](<Macif Mutuelle Santé - Fiche.md>) - Fiche produit, éd. Garanties en vigueur au 1er janvier 2026
+- [MACIF MUTUELLE SANTÉ](<MACIF MUTUELLE SANTÉ.md>) - Conditions générales, éd. 06/2026 (Garanties en vigueur au 1er juin 2026)
+- [Macif Mutuelle Santé](<Macif Mutuelle Santé (2).md>) - Conditions générales, éd. 01/24
+- [Macif Mutuelle Santé - Macif Hospitalisation - Fiche](<Macif Mutuelle Santé - Macif Hospitalisation - Fiche.md>) - Fiche produit, éd. 01/06/2026
 
 ## Source & fidélité
 

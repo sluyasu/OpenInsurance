@@ -44,7 +44,7 @@ generated: true
 
 Fiche IPID de l'assurance Responsabilité Civile Professionnelle des Réviseurs d'Entreprises de Baloise Assurances Luxembourg S.A., l'entité nommée en tête des deux pages. Le document la décrit comme une assurance couvrant la responsabilité civile de l'assuré dans l'exercice de son activité professionnelle de réviseur d'entreprises, les activités assurées étant celles de l'article 1er de la loi du 23 juillet 2016 relative à la profession d'audit ainsi qu'une liste d'activités connexes (domiciliataire, contrôle des comptes, travaux comptables, conseil fiscal, expert judiciaire, commissaire, liquidateur, curateur). Trois risques sont couverts : responsabilité civile contractuelle, responsabilité civile extracontractuelle et protection juridique, les plafonds étant renvoyés aux conditions particulières. La couverture contractuelle s'étend au monde entier hors USA, Canada et pays appliquant le droit américain ; l'extracontractuelle au monde entier hors USA et Canada.
 
-- Assureur : [Baloise Luxembourg](../../insurers/Baloise%20Luxembourg.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : IPID / Fiche d'information
+- Assureur : [Baloise Luxembourg](<../../insurers/Baloise Luxembourg.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

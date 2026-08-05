@@ -41,7 +41,7 @@ generated: true
 
 Informationsblatt zu Versicherungsprodukten (IPID) der DKV Luxembourg S.A. für das Produkt PLUS HEALTH, eine private Zusatzkrankenversicherung. Der Versicherungsschutz umfasst ambulante Behandlung, zahnärztliche Behandlung und stationäre Heilbehandlung sowie einen Servicetarif BEST CARE + / BEST CARE PREMIUM +. Der Versicherungsumfang umfasst ebenfalls die kostenfreie Absicherung nach dem Tarif TRAVEL +, dessen eigenes Informationsblatt in dieselbe PDF eingebunden ist (Seiten 3-4). Der Versicherungsschutz erstreckt sich auf Europa, bei vorübergehenden Aufenthalten im außereuropäischen Ausland auch während des ersten Monats.
 
-- Assureur : [DKV Luxembourg](../../insurers/DKV%20Luxembourg.md) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
+- Assureur : [DKV Luxembourg](<../../insurers/DKV Luxembourg.md>) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -312,8 +312,8 @@ Organisation und Übernahme der Kosten für eine Überführung im Todesfall der 
 
 ## Documents liés
 
-- [PLUS HEALTH - IPID - EN](PLUS%20HEALTH%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
-- [PLUS HEALTH - IPID](PLUS%20HEALTH%20-%20IPID.md) - IPID / Fiche d'information
+- [PLUS HEALTH - IPID - EN](<PLUS HEALTH - IPID - EN.md>) - IPID / Fiche d'information
+- [PLUS HEALTH - IPID](<PLUS HEALTH - IPID.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

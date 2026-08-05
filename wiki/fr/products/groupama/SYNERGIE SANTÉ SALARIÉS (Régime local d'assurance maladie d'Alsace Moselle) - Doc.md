@@ -42,7 +42,7 @@ generated: true
 
 Fiche « Exemples de remboursements » de la complémentaire santé SYNERGIE SANTÉ SALARIÉS de Groupama, dans sa version régime local d'Alsace Moselle, présentée comme un « Contrat d'assurance santé responsable ». Le tableau compare, poste par poste, le tarif habituellement facturé, la base de remboursement de la Sécurité sociale, le remboursement de l'assurance maladie obligatoire, celui du régime local d'assurance maladie d'Alsace Moselle, celui de l'assurance maladie complémentaire et le reste à charge, pour dix formules (Formule 1, 1+, 2, 2+, 3, 3+, 4, 4+, 5 et 5+) sur les rubriques Hospitalisation, Soins courants, Aides auditives, Dentaire et Optique. Le document précise qu'il ne se substitue pas aux documents contractuels, qui seuls engagent l'organisme de complémentaire santé.
 
-- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Document · Édition : 052022
+- Assureur : [Groupama](<../../insurers/Groupama.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Document · Édition : 052022
 
 ## Définitions
 
@@ -441,9 +441,9 @@ Poste « Chrirurgie réfractive » de la rubrique Optique. Tarif le plus souvent
 
 ## Documents liés
 
-- [SYNERGIE SANTÉ SALARIÉS - Doc](SYNERGIE%20SANT%C3%89%20SALARI%C3%89S%20-%20Doc.md) - Document, éd. 052022
-- [TMGF Synergie santé Salariés (Version Régime Local - En complément) - Doc](TMGF%20Synergie%20sant%C3%A9%20Salari%C3%A9s%20%28Version%20R%C3%A9gime%20Local%20-%20En%20compl%C3%A9ment%29%20-%20Doc.md) - Document
-- [TMGF Synergie santé Salariés (Version Régime général - En complément) - Doc](TMGF%20Synergie%20sant%C3%A9%20Salari%C3%A9s%20%28Version%20R%C3%A9gime%20g%C3%A9n%C3%A9ral%20-%20En%20compl%C3%A9ment%29%20-%20Doc.md) - Document
+- [SYNERGIE SANTÉ SALARIÉS - Doc](<SYNERGIE SANTÉ SALARIÉS - Doc.md>) - Document, éd. 052022
+- [TMGF Synergie santé Salariés (Version Régime Local - En complément) - Doc](<TMGF Synergie santé Salariés (Version Régime Local - En complément) - Doc.md>) - Document
+- [TMGF Synergie santé Salariés (Version Régime général - En complément) - Doc](<TMGF Synergie santé Salariés (Version Régime général - En complément) - Doc.md>) - Document
 
 ## Source & fidélité
 

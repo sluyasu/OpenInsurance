@@ -43,7 +43,7 @@ generated: true
 
 Document « Engagement lisibilité des garanties — exemples de remboursements en euros 2026 » pour Solution Groupama Santé, contrat d'assurance santé responsable. Il reprend le tableau normalisé issu de l'avis du CCSF du 11 mai 2021 (mise à jour juin 2025) et chiffre, pour une trentaine d'actes courants (hospitalisation, soins courants, dentaire, optique, aides auditives, médecine douce), le tarif facturé, la base de remboursement, le remboursement de l'assurance maladie obligatoire puis le remboursement de l'assurance maladie complémentaire et le reste à charge dans les quatre niveaux de garantie du contrat (Niveau 1 à Niveau 4). Il porte en tête de chaque page la mention « Document non contractuel, fourni à titre d'information » et précise qu'il ne peut se substituer aux documents contractuels.
 
-- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Document · Édition : 2026-07
+- Assureur : [Groupama](<../../insurers/Groupama.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Document · Édition : 2026-07
 
 ## Définitions
 
@@ -320,7 +320,7 @@ Ligne de la section « Autres exemples de remboursement en euros », rubrique «
 ## Documents liés
 
 - Édition courante de ce produit.
-- [Solution Groupama Santé - Doc](Solution%20Groupama%20Sant%C3%A9%20-%20Doc%20%282%29.md) - Document, éd. JUILLET 2026
+- [Solution Groupama Santé - Doc](<Solution Groupama Santé - Doc (2).md>) - Document, éd. JUILLET 2026
 
 ## Source & fidélité
 

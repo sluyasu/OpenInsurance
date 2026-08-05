@@ -41,7 +41,7 @@ generated: true
 
 Insurance Product Information Document issued by DKV Luxembourg S.A. for the COMPLETE HEALTH tariff, a Private Health Insurance described as complete protection independent from statutory health insurance. Cover concerns outpatient treatment, dental treatment and inpatient treatment, plus the BEST CARE + / BEST CARE PREMIUM + tariff services, and applies to Europe. The document states that the scope of insurance also includes the free of charge protection according to the TRAVEL + tariff; the corresponding TRAVEL / TRAVEL + information sheet is bound into the same PDF on pages 3-4.
 
-- Assureur : [DKV Luxembourg](../../insurers/DKV%20Luxembourg.md) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
+- Assureur : [DKV Luxembourg](<../../insurers/DKV Luxembourg.md>) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -296,8 +296,8 @@ Considered as foreign countries are all territories outside the Grand Duchy of L
 
 ## Documents liés
 
-- [COMPLETE HEALTH - IPID - DE](COMPLETE%20HEALTH%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
-- [COMPLETE HEALTH - IPID](COMPLETE%20HEALTH%20-%20IPID.md) - IPID / Fiche d'information
+- [COMPLETE HEALTH - IPID - DE](<COMPLETE HEALTH - IPID - DE.md>) - IPID / Fiche d'information
+- [COMPLETE HEALTH - IPID](<COMPLETE HEALTH - IPID.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

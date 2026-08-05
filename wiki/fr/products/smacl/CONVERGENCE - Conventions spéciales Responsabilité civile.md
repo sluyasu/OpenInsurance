@@ -44,7 +44,7 @@ generated: true
 
 Conventions spéciales « Responsabilité civile » du contrat Convergence, qui complètent les conditions générales Convergence et n'ont pas d'existence autonome. Elles garantissent les conséquences pécuniaires de la responsabilité que la personne morale souscriptrice peut encourir en raison des dommages corporels, matériels et immatériels causés à autrui dans le cadre des activités garanties, ainsi que la défense pénale et le recours. Le texte détaille une responsabilité civile générale décomposée en quinze rubriques (article 3.1), seize responsabilités spécifiques (article 3.2) et vingt-quatre exclusions particulières (article 4) qui s'ajoutent aux exclusions de l'article 3 des conditions générales. Aucun montant de garantie ni aucune franchise n'est chiffré dans ce document : ils renvoient au « Tableau récapitulatif des montants de garanties et franchises » figurant aux conditions particulières.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : Conditions générales · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : Conditions générales · Édition : 01/2024
 
 ## Définitions
 

@@ -19,7 +19,8 @@ classifiers = [
   "Topic :: Office/Business :: Financial",
 ]
 dependencies = [
-  "mcp[cli]>=1.2",
+  # <2: mcp 2.0.0 removed `mcp.server.fastmcp` — the server does not start against it.
+  "mcp[cli]>=1.2,<2",
   "pyyaml>=6.0",
 ]
 

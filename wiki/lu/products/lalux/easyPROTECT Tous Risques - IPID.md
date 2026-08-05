@@ -44,7 +44,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) relatif à l’« Assurance Tous Risques relative aux biens » de LALUX Assurances, commercialisée sous le nom easyPROTECT Tous Risques. Le document indique que l’assurance Tous Risques intégrée dans le produit easyPROTECT couvre, dans les limites prévues aux conditions particulières, les risques de perte, avaries ou dommages matériels subis par les objets assurés, à condition qu’ils proviennent de vols, incendies, explosions, de dégâts occasionnés par les eaux ou d’une cause exclusivement accidentelle. L’assuré choisit les catégories d’objets à assurer parmi cinq : instruments de musique, appareils photographiques et similaires, bijoux et fourrures, collections privées de timbres-poste et cycles. La garantie vaut dans le monde entier sauf stipulation contraire des Conditions générales.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Autres](../../branches/Autres.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Autres](<../../branches/Autres.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 

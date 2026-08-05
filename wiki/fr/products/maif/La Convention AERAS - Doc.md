@@ -41,7 +41,7 @@ generated: true
 
 Note d'information éditée par MAIF sur la Convention AERAS (« S'assurer et emprunter avec un risque aggravé de santé »), signée en 2006 par les pouvoirs publics, les établissements de crédit, les assureurs et les associations de malades et de consommateurs. Ce n'est pas un contrat : le document décrit les dispositifs conventionnels applicables aux candidats à l'assurance emprunteur présentant un risque aggravé de santé - droit à l'oubli, grille de référence AERAS, écrêtement des surprimes, garantie invalidité spécifique et PTIA, libre choix de l'assureur - ainsi que le processus d'instruction des dossiers en trois niveaux et les trois instances de la Convention. Il rappelle également la suppression du questionnaire médical introduite par la loi du 28 février 2022.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Assurance emprunteur](../../branches/Assurance%20emprunteur.md) · Type : Document
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Assurance emprunteur](<../../branches/Assurance emprunteur.md>) · Type : Document
 
 ## Définitions
 

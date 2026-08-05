@@ -46,7 +46,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (DIPA) du contrat COMPLÉMENTAIRE SANTÉ CCN DES CABINETS OU ENTREPRISES D’EXPERTISES EN AUTOMOBILE, contrat collectif à adhésion obligatoire souscrit par l’employeur au profit de ses salariés et de leurs éventuels ayants droit affiliés, et assuré par Apivia Macif Mutuelle (SIRENE n° 779 558 501), mutuelle régie par le livre II du Code de la mutualité. Le contrat rembourse, en complément de la Sécurité sociale française, tout ou partie des frais de santé restant à la charge de l’assuré en cas d’accident, de maladie ou de maternité, et respecte les conditions légales des contrats responsables. Les garanties systématiques couvrent l’hospitalisation, les soins courants, le dentaire, l’optique, les aides auditives et d’autres remboursements (transport, cures thermales), complétées par une garantie optionnelle de parodontologie, une assistance et les services de réseau de soins et de tiers payant. L’employeur opte pour l’une des trois formules de garantie, dont les niveaux de remboursement figurent dans un tableau de garanties non reproduit ici.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : IPID / Fiche d'information · Édition : 01/25
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : IPID / Fiche d'information · Édition : 01/25
 
 ## Garanties
 

@@ -43,7 +43,7 @@ generated: true
 
 Document d’une page fixant les conditions d’une offre promotionnelle commerciale — une « Remise à la souscription » — portant sur le contrat Familial Complémentaire de la Matmut. La remise équivaut à 6 mois de cotisation et suppose que le souscripteur, personne physique, souscrive simultanément ou détienne déjà auprès de la Matmut au moins un contrat Habitation Résidence Principale d’une gamme distribuée depuis le 9 octobre 2013 (hors Jeunes, Matmut Etudiants et Hébergement) ou un contrat Multirisques 4 roues, Camping-car ou 2 roues garantissant l’un de cinq types de véhicules énumérés. L’offre vise les nouvelles souscriptions prenant effet entre le 01/01/2026 et le 30/04/2026 inclus. Le document ne décrit aucune garantie d’assurance : il ne porte que sur le prix.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Garantie des accidents de la vie](../../branches/Garantie%20des%20accidents%20de%20la%20vie.md) · Type : Conditions tarifaires · Édition : 01/26
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Garantie des accidents de la vie](<../../branches/Garantie des accidents de la vie.md>) · Type : Conditions tarifaires · Édition : 01/26
 
 ## Exclusions
 
@@ -99,7 +99,7 @@ Document d’une page fixant les conditions d’une offre promotionnelle commerc
 
 ## Documents liés
 
-- [Familial Complémentaire « Accidents corporels »](Familial%20Compl%C3%A9mentaire%20%C2%AB%20Accidents%20corporels%20%C2%BB.md) - Conditions générales, éd. 10/24
+- [Familial Complémentaire « Accidents corporels »](<Familial Complémentaire « Accidents corporels ».md>) - Conditions générales, éd. 10/24
 
 ## Source & fidélité
 

@@ -44,7 +44,7 @@ generated: true
 
 Fiche d’information (IPID) de l’assurance Responsabilité Civile des Dirigeants et Mandataires Sociaux dans les Entreprises de Baloise Assurances Luxembourg S.A. Le document la présente comme une assurance destinée à protéger le patrimoine de l’entreprise contre les demandes en réparation formulées à l’encontre d’un ou de plusieurs assurés en raison de fautes commises dans l’exercice de leur fonction d’administrateur, de dirigeant de droit ou de fait. Sont assurés la responsabilité civile, les frais de défense civile, pénale et administrative et les frais de constitution d’une caution pénale, avec les mandats extérieurs en extension facultative. La couverture s’étend au monde entier hormis les demandes relevant des juridictions ou du droit des USA, du Canada, de la Nouvelle-Zélande et de l’Australie.
 
-- Assureur : [Baloise Luxembourg](../../insurers/Baloise%20Luxembourg.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : IPID / Fiche d'information
+- Assureur : [Baloise Luxembourg](<../../insurers/Baloise Luxembourg.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

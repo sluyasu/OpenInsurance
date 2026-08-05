@@ -45,7 +45,7 @@ generated: true
 
 Notice de la convention d’Assistance Santé attachée au contrat Santé de la Mutuelle Ociane Matmut, édition 12/25. Les garanties sont assurées par la Matmut, société d’assurance mutuelle à cotisations variables régie par le Code des assurances, et gérées par IMA Assurances (dénommée « Assistance Matmut ») ; le document est délivré en complément des statuts régissant la Mutuelle Ociane. L’assistance a pour objet de donner rapidement aux bénéficiaires confrontés à des difficultés du fait d’un accident, d’une maladie, d’une maternité, d’une chirurgie ambulatoire ou d’un handicap les moyens de réorganiser leur vie quotidienne : présence d’un proche, prise en charge des enfants, aide à domicile, portage de repas, livraison de courses et de médicaments, portage d’espèces, coiffeur à domicile, transfert de convalescence, téléassistance, soutien scolaire, auxiliaire de vie et bilan ergothérapique en cas de perte d’autonomie, enveloppe de 100 unités de services en cas de pathologie lourde, assistance psychologique et remboursement des frais médicaux à l’étranger jusqu’à 7 650 € TTC.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : 12/25
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Conditions générales · Édition : 12/25
 
 ## Définitions
 

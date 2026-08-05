@@ -41,7 +41,7 @@ generated: true
 
 Annexe de deux pages aux Conditions Générales du Contrat Habitation – Formule Protectrice – Résidence Principale, qui complète les dispositions relatives à l’option assistance juridique figurant aux pages 59 à 64. Elle énonce la liste exhaustive des six domaines supplémentaires couverts en cas de souscription de l’option “Plus” : droit du travail, droit de la famille, matière fiscale, protection sociale / prévoyance / retraite, copropriété et baux d’habitation, chacun assorti de ses exclusions propres. L’intervention s’effectue dans les mêmes conditions que celles de la garantie optionnelle assistance juridique. L’annexe ajoute un tableau de plafonds de remboursement TTC des frais et honoraires pour les juridictions nouvelles (Conseil des prud’hommes, Tribunal des affaires sociales, Tribunal du contentieux de l’incapacité) et fixe un plafond de garantie de 16 000 € par sinistre.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales · Édition : 2016-04
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Multirisque habitation](<../../branches/Multirisque habitation.md>) · Type : Conditions générales · Édition : 2016-04
 
 > ⚠️ **Édition ancienne** : 2016-04, soit 10 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 

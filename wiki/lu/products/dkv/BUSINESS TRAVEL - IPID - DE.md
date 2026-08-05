@@ -42,7 +42,7 @@ generated: true
 
 Informationsblatt zu Versicherungsprodukten der DKV Luxembourg S.A. für das Produkt BUSINESS TRAVEL, eine Auslandsreisekrankenversicherung. Versichert sind ambulante Heilbehandlungen, zahnärztliche Behandlungen, stationäre Behandlungen, Krankentransporte sowie Rückführung und Rücktransport, jeweils bis zu den in den Versicherungsbedingungen genannten Höchstbeträgen. Der Versicherungsschutz gilt für die im Antrag angegebene vorübergehende Auslandsreise; als Ausland gelten alle Länder außerhalb des Großherzogtums Luxemburg und des Landes des ständigen Wohnsitzes.
 
-- Assureur : [DKV Luxembourg](../../insurers/DKV%20Luxembourg.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : IPID / Fiche d'information
+- Assureur : [DKV Luxembourg](<../../insurers/DKV Luxembourg.md>) · Branche : [Voyage et assistance](<../../branches/Voyage et assistance.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -168,11 +168,11 @@ Ihr Versicherungsschutz gilt für die im Antrag angegebene vorübergehende Ausla
 
 ## Documents liés
 
-- [BUSINESS TRAVEL - IPID - EN](BUSINESS%20TRAVEL%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
-- [BUSINESS TRAVEL](BUSINESS%20TRAVEL.md) - Conditions générales, éd. 04|2017
-- [BUSINESS TRAVEL - DE](BUSINESS%20TRAVEL%20-%20DE.md) - Conditions générales, éd. 04|2017
-- [BUSINESS TRAVEL - IPID](BUSINESS%20TRAVEL%20-%20IPID.md) - IPID / Fiche d'information
-- [BUSINESS TRAVEL - EN](BUSINESS%20TRAVEL%20-%20EN.md) - Conditions générales, éd. 04|2017
+- [BUSINESS TRAVEL - IPID - EN](<BUSINESS TRAVEL - IPID - EN.md>) - IPID / Fiche d'information
+- [BUSINESS TRAVEL](<BUSINESS TRAVEL.md>) - Conditions générales, éd. 04|2017
+- [BUSINESS TRAVEL - DE](<BUSINESS TRAVEL - DE.md>) - Conditions générales, éd. 04|2017
+- [BUSINESS TRAVEL - IPID](<BUSINESS TRAVEL - IPID.md>) - IPID / Fiche d'information
+- [BUSINESS TRAVEL - EN](<BUSINESS TRAVEL - EN.md>) - Conditions générales, éd. 04|2017
 
 ## Source & fidélité
 

@@ -40,7 +40,7 @@ generated: true
 
 Document tarifaire d'une page présentant le tableau des principaux frais du Plan Épargne Retraite individuel, daté JUIN 2024 (référence « MUT/ FC/ FRAIS/PERin - 06/24 »). Il indique le montant minimal de versement initial (150 €), les frais annuels (frais de gestion du plan par support, frais de gestion des fonds en gestion libre et en gestion pilotée par horizon, avec les taux de rétrocessions de commissions) et les frais ponctuels par opération (versement, changement de mode de gestion, arbitrage, transfert sortant, versements de rente, rachat). Le plan est souscrit par l'AGEPER et assuré par Mutavie. Le document ne définit aucune garantie et ne contient aucune clause d'exclusion, de sinistre, de durée ou de résiliation.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Retraite supplémentaire](../../branches/Retraite%20suppl%C3%A9mentaire.md) · Type : Conditions tarifaires · Édition : JUIN 2024
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Retraite supplémentaire](<../../branches/Retraite supplémentaire.md>) · Type : Conditions tarifaires · Édition : JUIN 2024
 
 ## Définitions
 

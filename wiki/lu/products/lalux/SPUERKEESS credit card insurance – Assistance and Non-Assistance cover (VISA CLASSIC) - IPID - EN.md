@@ -46,7 +46,7 @@ generated: true
 
 Insurance product information document for the insurance cover attached to VISA CLASSIC credit cards issued by SPUERKEESS, distributed under the LALUX Assurances brand. The “What is covered by the insurance ?” box lists three NON-ASSISTANCE covers: ACCIDENT WHILE TRAVELLING (DEATH / DISABILITY), PROTECTION OF PURCHASES and DELIVERY OF GOODS PURCHASED VIA THE INTERNET; although the title of the document and the exclusions box both refer to ASSISTANCE cover, no ASSISTANCE cover is listed anywhere in the document. The insured persons are the holder of a valid SPUERKEESS credit card and their spouse/partner and children under 25, and the insurance is valid worldwide, with a territorial restriction for the internet-delivery cover. The document states no amounts, sub-limits, deductibles or premium and refers throughout to General Terms and Conditions that it does not reproduce.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Autres](../../branches/Autres.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Autres](<../../branches/Autres.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -138,9 +138,9 @@ DELIVERY OF GOODS PURCHASED VIA THE INTERNET — listed under the heading “NON
 
 ## Documents liés
 
-- [SPUERKEESS credit card insurance – Assistance and Non-Assistance (VISA BUSINESS credit cards) - IPID - EN](SPUERKEESS%20credit%20card%20insurance%20%E2%80%93%20Assistance%20and%20Non-Assistance%20%28VISA%20BUSINESS%20credit%20cards%29%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
-- [SPUERKEESS credit card insurance – Assistance and Non-Assistance cover (VISA PREMIER) - IPID - EN](SPUERKEESS%20credit%20card%20insurance%20%E2%80%93%20Assistance%20and%20Non-Assistance%20cover%20%28VISA%20PREMIER%29%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
-- [SPUERKEESS credit card insurance – Assistance and Non-Assistance cover (VISA INFINITE) - IPID - EN](SPUERKEESS%20credit%20card%20insurance%20%E2%80%93%20Assistance%20and%20Non-Assistance%20cover%20%28VISA%20INFINITE%29%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+- [SPUERKEESS credit card insurance – Assistance and Non-Assistance (VISA BUSINESS credit cards) - IPID - EN](<SPUERKEESS credit card insurance – Assistance and Non-Assistance (VISA BUSINESS credit cards) - IPID - EN.md>) - IPID / Fiche d'information
+- [SPUERKEESS credit card insurance – Assistance and Non-Assistance cover (VISA PREMIER) - IPID - EN](<SPUERKEESS credit card insurance – Assistance and Non-Assistance cover (VISA PREMIER) - IPID - EN.md>) - IPID / Fiche d'information
+- [SPUERKEESS credit card insurance – Assistance and Non-Assistance cover (VISA INFINITE) - IPID - EN](<SPUERKEESS credit card insurance – Assistance and Non-Assistance cover (VISA INFINITE) - IPID - EN.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

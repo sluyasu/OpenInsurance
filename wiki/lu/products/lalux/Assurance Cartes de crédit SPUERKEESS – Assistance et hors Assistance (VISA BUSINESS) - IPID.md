@@ -46,7 +46,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) portant sur les couvertures d'assurance attachées à la carte de crédit VISA BUSINESS émise par SPUERKEESS, présenté sous l'en-tête « LALUX Assurances - Produit : Cartes de crédit - VISA BUSINESS ». Le document distingue un volet « hors Assistance » (accident de voyage : décès / invalidité) et un volet « Assistance » (assistance aux personnes en cas de maladie ou décès, cash emergency). Les assurés sont le titulaire d'une carte SPUERKEESS en cours de validité ainsi que son conjoint/partenaire et ses enfants de moins de 25 ans. Les couvertures ne sont pas acquises si un minimum de 30 % des coûts du voyage assuré n'a pas été réglé par la carte, et les déplacements de plus de 91 jours consécutifs sont écartés.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Autres](../../branches/Autres.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Autres](<../../branches/Autres.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -142,8 +142,8 @@ Garantie nommée uniquement dans la rubrique « Où suis-je couvert(e) ? » de l
 
 ## Documents liés
 
-- [Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance (VISA INFINITE) - IPID](Assurance%20Cartes%20de%20cr%C3%A9dit%20SPUERKEESS%20%E2%80%93%20Assistance%20et%20hors%20Assistance%20%28VISA%20INFINITE%29%20-%20IPID.md) - IPID / Fiche d'information
-- [Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance (VISA CLASSIC) - IPID](Assurance%20Cartes%20de%20cr%C3%A9dit%20SPUERKEESS%20%E2%80%93%20Assistance%20et%20hors%20Assistance%20%28VISA%20CLASSIC%29%20-%20IPID.md) - IPID / Fiche d'information
+- [Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance (VISA INFINITE) - IPID](<Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance (VISA INFINITE) - IPID.md>) - IPID / Fiche d'information
+- [Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance (VISA CLASSIC) - IPID](<Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance (VISA CLASSIC) - IPID.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

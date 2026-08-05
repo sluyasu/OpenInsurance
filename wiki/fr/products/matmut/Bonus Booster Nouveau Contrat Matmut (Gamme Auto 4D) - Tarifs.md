@@ -43,7 +43,7 @@ generated: true
 
 Conditions d'octroi de l'avantage tarifaire « Bonus Booster Nouveau Contrat Matmut » pour la Gamme Auto 4D. L'avantage permet de bénéficier d'une progression automatique du bonus plus rapide que celle normalement prévue à l'Annexe à l'article A. 121-1 du Code des assurances (clause bonus/malus), lors de la souscription d'un nouveau contrat Auto 4D pour lequel le souscripteur fournit un relevé d'informations émanant d'une compagnie d'assurance autre qu'une compagnie du Groupe Matmut. Un tableau à neuf colonnes fait correspondre chaque coefficient réglementaire éligible (0,68 à 0,50) au coefficient appliqué au contrat après Bonus Booster (0,60 à 0,36). L'avantage s'applique sur le montant de la cotisation hors taxes des garanties Responsabilité civile et, lorsqu'elles sont souscrites, de Dommages au véhicule assuré. Le document est valable jusqu'au 31/12/2026.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions tarifaires · Édition : 2026-01
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions tarifaires · Édition : 2026-01
 
 ## Obligations de l'assuré
 
@@ -111,7 +111,7 @@ Conditions d'octroi de l'avantage tarifaire « Bonus Booster Nouveau Contrat Mat
 ## Documents liés
 
 - Extension / option du produit : **Multirisques « Auto 4D »**
-- [Bonus Booster Nouveau Contrat Matmut (usage Professionnel) - Tarifs](Bonus%20Booster%20Nouveau%20Contrat%20Matmut%20%28usage%20Professionnel%29%20-%20Tarifs.md) - Conditions tarifaires, éd. 01/26
+- [Bonus Booster Nouveau Contrat Matmut (usage Professionnel) - Tarifs](<Bonus Booster Nouveau Contrat Matmut (usage Professionnel) - Tarifs.md>) - Conditions tarifaires, éd. 01/26
 
 ## Source & fidélité
 

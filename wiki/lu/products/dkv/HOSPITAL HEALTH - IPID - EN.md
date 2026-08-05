@@ -41,7 +41,7 @@ generated: true
 
 Insurance Product Information Document issued by DKV Luxembourg S.A. for the HOSPITAL HEALTH tariff, a Private Health Insurance. It is additional protection for inpatient treatment without aging reserves. Cover concerns inpatient treatment (medical treatment, chief physician, accommodation, ambulance transport, hospital daily benefit) plus the optional Best Care Premium service, and applies to Europe.
 
-- Assureur : [DKV Luxembourg](../../insurers/DKV%20Luxembourg.md) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
+- Assureur : [DKV Luxembourg](<../../insurers/DKV Luxembourg.md>) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -174,8 +174,8 @@ Insurance cover is provided during the first month of a temporary sojourn in a n
 
 ## Documents liés
 
-- [HOSPITAL HEALTH - IPID](HOSPITAL%20HEALTH%20-%20IPID.md) - IPID / Fiche d'information
-- [HOSPITAL HEALTH - IPID - DE](HOSPITAL%20HEALTH%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
+- [HOSPITAL HEALTH - IPID](<HOSPITAL HEALTH - IPID.md>) - IPID / Fiche d'information
+- [HOSPITAL HEALTH - IPID - DE](<HOSPITAL HEALTH - IPID - DE.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

@@ -49,7 +49,7 @@ generated: true
 
 Notice d'information du contrat collectif à adhésion obligatoire « Complémentaire santé CCN des cabinets ou entreprises d'expertises en automobile », en vigueur au 01/01/2026. Le contrat rembourse tout ou partie des frais de santé en complément des prestations en nature de la Sécurité sociale, ainsi que certains frais médicaux non remboursés par elle et expressément prévus au tableau de garanties ; il respecte le cahier des charges du contrat responsable et intègre le dispositif 100 % Santé en optique, dentaire et aides auditives. Il est souscrit par l'entreprise relevant de la Convention Collective Nationale des cabinets ou entreprises d'expertises en automobile du 20 novembre 1996 au profit de ses salariés et de leurs ayants droit, avec trois formules au choix de l'entreprise (Essentielle, Confort, Excellence) et des options facultatives à la charge du salarié. Le contrat est assuré par Macif Santé Prévoyance (mutuelle du Livre II du Code de la mutualité, SIREN 779 558 501) et distribué par la Macif ; les garanties d'assistance sont assurées par IMA Assurances.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : 2026-01
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Conditions générales · Édition : 2026-01
 
 ## Définitions
 

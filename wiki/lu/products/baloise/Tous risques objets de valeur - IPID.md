@@ -41,7 +41,7 @@ generated: true
 
 Fiche IPID du produit « Tous risques objets de valeur » de Baloise Assurances Luxembourg S.A. Le document le décrit comme une assurance « tous risques » couvrant les objets de valeur mentionnés au contrat. Les objets assurés sont ceux mentionnés aux conditions particulières et les risques assurés sont le vol ainsi que la destruction ou la détérioration (dommages matériels) suite à accident, dans la limite des sommes assurées aux conditions particulières. La couverture joue dans le monde entier sauf mention contraire aux conditions particulières.
 
-- Assureur : [Baloise Luxembourg](../../insurers/Baloise%20Luxembourg.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information
+- Assureur : [Baloise Luxembourg](<../../insurers/Baloise Luxembourg.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

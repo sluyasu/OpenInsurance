@@ -45,7 +45,7 @@ generated: true
 
 Conditions générales du contrat « Rachat de franchise » de SMACL Assurances, destiné aux particuliers détenteurs d'un contrat Multirisque automobile souscrit auprès de SMACL Assurances. Le contrat rembourse à l'assuré la franchise prévue par le contrat de location d'un véhicule terrestre à moteur de tourisme ou utilitaire, en cas de dommages, incendie, vandalisme, vol ou perte d'usage survenant pendant la période de location. Deux formules existent : journalière et annuelle, toutes deux plafonnées à 2 500 € par sinistre et par location, la formule annuelle étant en outre plafonnée à 2 sinistres par an ou à 5 000 € par an. La garantie s'applique en France métropolitaine, dans les DOM-TOM, dans les pays de l'Union européenne et en Suisse.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : 11/2022
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions générales · Édition : 11/2022
 
 ## Définitions
 

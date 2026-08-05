@@ -44,7 +44,7 @@ generated: true
 
 Statuts de la société MAAF Vie, mis à jour à l'issue de l'assemblée générale du 4 juin 2021 et datés d'août 2021. Le document n'est pas un contrat d'assurance : il ne décrit aucune garantie, aucune exclusion, aucune cotisation ni aucune procédure de sinistre, mais organise la société elle-même en vingt-quatre articles répartis en sept titres — forme juridique, objet, dénomination, siège et durée ; capital social et actions ; administration par un conseil d'administration et une direction générale ; assemblées générales ; fonctionnement, comptes et affectation du résultat ; dissolution et contestations. L'objet social énumère les catégories d'opérations d'assurance que la société peut réaliser, notamment les opérations dont l'exécution dépend de la durée de la vie humaine, celles liées à un fonds d'investissement, la capitalisation, la prévoyance collective, les rentes viagères et l'acceptation en réassurance.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Autres](../../branches/Autres.md) · Type : Document · Édition : Août 2021
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Autres](<../../branches/Autres.md>) · Type : Document · Édition : Août 2021
 
 ## Définitions
 

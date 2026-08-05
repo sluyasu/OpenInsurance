@@ -46,7 +46,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (DIPA) du produit « Convergence véhicules à moteur » de SMACL Assurances SA, présenté sous le titre « Assurance véhicules des associations et des entreprises de l’économie sociale et solidaire ». Destiné aux associations avec salariés, le contrat garantit le véhicule terrestre à moteur, son propriétaire, son conducteur ou gardien, notamment contre les conséquences des dommages matériels ou corporels causés à des tiers, l’indemnité étant limitée à 100 000 000 €. Les garanties systématiquement prévues comprennent la responsabilité civile automobile et ses extensions aux dommages subis par les préposés, la défense pénale et recours (75 000 €), l’assurance du conducteur (dépenses de santé actuelles 5 000 €, capital invalidité 150 000 €, capital décès 50 000 €) et l’assistance sans franchise kilométrique pour les véhicules de moins de 3,5 T. Onze garanties optionnelles couvrent les dommages subis par le véhicule, les biens transportés, le bris de machine, les pertes financières en location longue durée et des prestations d’assistance complémentaires.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 02/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information · Édition : 02/2024
 
 ## Garanties
 
@@ -216,7 +216,7 @@ Garantie optionnelle : diagnostic des devis en cas de panne et/ou assistance au 
 
 ## Documents liés
 
-- [Vos conventions spéciales CONVERGENCE - Véhicules à moteur](Vos%20conventions%20sp%C3%A9ciales%20CONVERGENCE%20-%20V%C3%A9hicules%20%C3%A0%20moteur.md) - Conditions générales, éd. 01/2024
+- [Vos conventions spéciales CONVERGENCE - Véhicules à moteur](<Vos conventions spéciales CONVERGENCE - Véhicules à moteur.md>) - Conditions générales, éd. 01/2024
 
 ## Source & fidélité
 

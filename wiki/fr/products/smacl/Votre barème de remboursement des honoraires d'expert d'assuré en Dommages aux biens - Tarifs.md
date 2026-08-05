@@ -41,7 +41,7 @@ generated: true
 
 Document tarifaire d’une page publié par SMACL Assurances : le barème de remboursement des honoraires de l’expert d’assuré en Dommages aux biens. Il fixe, par tranches du montant contractuel de l’indemnité d’assurance exprimé en multiples de l’indice FFB, le taux limite de remboursement de ces honoraires (de 4,50 % sur la première tranche à 0,05 % sur le surplus au-delà de 98 000 fois l’indice). Deux plafonds absolus s’ajoutent au calcul : le montant des honoraires réellement payés et, le cas échéant, le capital maximum garanti aux conditions particulières. Le document ne décrit aucune garantie, aucune exclusion générale et aucune condition de souscription.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : Conditions tarifaires · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : Conditions tarifaires · Édition : 01/2024
 
 ## Définitions
 

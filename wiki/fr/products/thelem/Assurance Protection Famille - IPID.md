@@ -42,7 +42,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) du contrat Assurance Protection Famille de Thélem prévoyance. L’assurance Protection Famille permet de préserver la famille de l’assuré, sur une période qu’il juge sensible, en lui assurant le versement d’un capital si l’assuré décède ou s’il subit une Perte Totale et Irréversible d’Autonomie (PTIA). Les garanties décès et PTIA sont systématiquement prévues, avec choix du montant du capital de 10 000 € à 250 000 €, choix du ou des bénéficiaires et revalorisation du capital. En option, le contrat prévoit une majoration du capital en cas de décès accidentel et une rente éducation.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : IPID / Fiche d'information
+- Assureur : [Thélem assurances](<../../insurers/Thélem assurances.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 

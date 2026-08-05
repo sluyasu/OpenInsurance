@@ -42,7 +42,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du produit HOSPITAL HEALTH de DKV Luxembourg S.A. Le document indique qu'« Il s'agit d'une assurance stationnaire complémentaire pour les personnes affiliées à la caisse de maladie légale » et que « Le tarif peut être proposé avec ou sans réserve d'âge ». Il énumère 10 prestations stationnaires couvertes plus 5 prestations de la couverture optionnelle Best Care Premium, 6 prestations non assurées et 4 restrictions de couverture. Le domaine de validité s'étend à toute l'Europe.
 
-- Assureur : [DKV Luxembourg](../../insurers/DKV%20Luxembourg.md) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
+- Assureur : [DKV Luxembourg](<../../insurers/DKV Luxembourg.md>) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -170,8 +170,8 @@ Description détaillée dans la brochure « BEST CARE »
 
 ## Documents liés
 
-- [HOSPITAL HEALTH - IPID - DE](HOSPITAL%20HEALTH%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
-- [HOSPITAL HEALTH - IPID - EN](HOSPITAL%20HEALTH%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+- [HOSPITAL HEALTH - IPID - DE](<HOSPITAL HEALTH - IPID - DE.md>) - IPID / Fiche d'information
+- [HOSPITAL HEALTH - IPID - EN](<HOSPITAL HEALTH - IPID - EN.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

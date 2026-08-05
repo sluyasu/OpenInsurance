@@ -44,7 +44,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du contrat TEMPO JEUNES, une assurance Vie privée émise par MAAF Assurances SA. Le contrat couvre l'assuré et les personnes désignées au contrat en cas d'accident (frais de santé, individuelle accident) et couvre leur responsabilité civile pour les dommages causés à un tiers, y compris l'assurance locative obligatoire. Les garanties de base comprennent la responsabilité civile vie privée (20 000 000 €), la défense pénale et recours suite à accident (20 000 €), les frais de santé, l'individuelle accident (200 000 €), des garanties supplémentaires « spécial jeunes » et l'assistance aux personnes. En option figurent la responsabilité civile habitation (20 000 000 €), onze garanties Habitation et l'assistance à domicile.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Responsabilité civile vie privée](../../branches/Responsabilit%C3%A9%20civile%20vie%20priv%C3%A9e.md) · Type : IPID / Fiche d'information · Édition : 2026-05
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Responsabilité civile vie privée](<../../branches/Responsabilité civile vie privée.md>) · Type : IPID / Fiche d'information · Édition : 2026-05
 
 ## Garanties
 
@@ -202,7 +202,7 @@ Garantie optionnelle, dernier poste de la colonne « Qu'est-ce qui est assuré ?
 
 ## Documents liés
 
-- [Assurance jeune (Formule Personnelle) - Fiche](Assurance%20jeune%20%28Formule%20Personnelle%29%20-%20Fiche.md) - Fiche produit, éd. 06/2023
+- [Assurance jeune (Formule Personnelle) - Fiche](<Assurance jeune (Formule Personnelle) - Fiche.md>) - Fiche produit, éd. 06/2023
 
 ## Source & fidélité
 

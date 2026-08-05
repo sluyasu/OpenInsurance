@@ -40,7 +40,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de l'assurance Accidents Vie Privée d'ACM Belgium SA. Elle offre une protection pour les dommages corporels causés par un accident de la vie privée et garantit une indemnité forfaitaire en cas d'invalidité permanente d'au moins 5 % ou d'incapacité temporaire de travail à partir du 31ième jour, selon quatre formules (Solo, Duo, Mono, Famille). La couverture peut être étendue à la garantie optionnelle décès et inclut une garantie assistance, même à l'étranger.
 
-- Assureur : [ACM Belgium](../../insurers/ACM%20Belgium.md) · Branche : [Accidents](../../branches/Accidents.md) · Type : IPID / Fiche d'information · Édition : 10/2024
+- Assureur : [ACM Belgium](<../../insurers/ACM Belgium.md>) · Branche : [Accidents](<../../branches/Accidents.md>) · Type : IPID / Fiche d'information · Édition : 10/2024
 
 ## Garanties
 
@@ -133,7 +133,7 @@ Versement d'un capital de référence de 37.500 euros en cas de décès suite à
 
 ## Documents liés
 
-- [Accidents Vie Privée](Accidents%20Vie%20Priv%C3%A9e.md) - Conditions générales, éd. 10/2024
+- [Accidents Vie Privée](<Accidents Vie Privée.md>) - Conditions générales, éd. 10/2024
 
 ## Source & fidélité
 

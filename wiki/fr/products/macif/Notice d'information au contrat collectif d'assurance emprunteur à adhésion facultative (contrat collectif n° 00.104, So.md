@@ -49,7 +49,7 @@ generated: true
 
 Notice d'information du contrat collectif d'assurance emprunteur n° 00.104 à adhésion facultative, souscrit par Socram Banque pour le compte des emprunteurs auprès d'un pool de coassurance composé de MATMUT VIE, MACIF VIE et AGPM-VIE, MACIF VIE étant société apéritrice. Le contrat couvre le décès, la perte totale et irréversible d'autonomie, l'incapacité temporaire de travail avec perte de revenus et l'invalidité permanente pouvant survenir pendant la durée du prêt consenti par Socram Banque à un emprunteur et/ou un co-emprunteur. En décès, PTIA et invalidité permanente l'assureur rembourse le capital restant dû selon le tableau d'amortissement ; en incapacité temporaire il prend en charge les échéances à partir de celle suivant le 61ème jour d'arrêt continu de travail. Les risques consécutifs à un accident sont garantis immédiatement, ceux consécutifs à une maladie après un délai de carence de 120 jours.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Assurance emprunteur](../../branches/Assurance%20emprunteur.md) · Type : Conditions générales
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Assurance emprunteur](<../../branches/Assurance emprunteur.md>) · Type : Conditions générales
 
 ## Définitions
 

@@ -42,7 +42,7 @@ generated: true
 
 Tableau des garanties 2026 du régime frais de santé « Collectif Santé Flex », présentant huit niveaux de garanties (NIVEAU 1 à NIVEAU 8). Il détaille les remboursements en hospitalisation, soins courants, optique, dentaire et appareillage, aides auditives, prévention et médecines douces, une protection « Gros Pépin » et le sport sur ordonnance, exprimés en pourcentage de la Base de Remboursement, en remboursement intégral, en frais réels ou en forfaits annuels. Les renvois précisent une grille de forfaits optique par niveau et par âge et les conditions de chaque poste. Il liste des services inclus (Itelis, Medaviz, Livmed's, deuxième avis médical, bilan de santé digital, Méta-Coaching, Salvum, assistance et protection juridique santé). Le document précise qu'il est non contractuel.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Fiche produit
 
 ## Définitions
 

@@ -42,7 +42,7 @@ generated: true
 
 Notice d’information d’une page de SMACL Assurances sur le droit de renonciation applicable aux contrats d’assurance conclus à distance par des personnes physiques agissant hors de leur activité commerciale ou professionnelle. Elle indique un délai de 14 jours calendaires courant de la conclusion du contrat ou de la réception des conditions contractuelles, s’exerçant sans motif ni pénalité, les deux cas où ce droit ne s’applique pas (contrat déjà intégralement exécuté à la demande expresse du souscripteur, contrat intégrant la responsabilité civile automobile obligatoire), et les conséquences financières de la renonciation (cotisation due au prorata, remboursement et restitution sous 30 jours). Elle contient un modèle de lettre recommandée à adresser au Pôle Partenariat. Le document ne décrit aucune garantie.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Autres](../../branches/Autres.md) · Type : Document · Édition : 09/2025
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Autres](<../../branches/Autres.md>) · Type : Document · Édition : 09/2025
 
 ## Exclusions
 

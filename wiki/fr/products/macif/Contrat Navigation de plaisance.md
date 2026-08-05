@@ -46,7 +46,7 @@ generated: true
 
 Conditions générales du contrat Navigation de plaisance de la Macif, destiné à garantir les bateaux utilisés dans le cadre de la navigation de plaisance, c'est-à-dire à titre privé et dans un but non lucratif. Le contrat couvre la responsabilité civile et les frais de retirement de l'épave, les pertes, avaries, incendie et vandalisme subis par le bateau ainsi que l'assistance maritime, le vol et la tentative de vol, l'individuelle marine, les objets et effets transportés, la Défense - Recours, la Protection juridique et une assistance générale aux personnes et au bateau. Les garanties s'exercent sans limitation de navigation dans le monde entier, sauf la Protection juridique limitée à la France, à l'Union Européenne, à Andorre, la Norvège, la République de San-Marin et la Suisse. Les bateaux de moins de 72 mois bénéficient d'une indemnisation en prix d'acquisition.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Navigation de plaisance](../../branches/Navigation%20de%20plaisance.md) · Type : Conditions générales · Édition : 2017-01
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Navigation de plaisance](<../../branches/Navigation de plaisance.md>) · Type : Conditions générales · Édition : 2017-01
 
 > ⚠️ **Édition ancienne** : 2017-01, soit 9 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 

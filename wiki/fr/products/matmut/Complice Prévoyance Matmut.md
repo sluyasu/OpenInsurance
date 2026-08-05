@@ -44,7 +44,7 @@ generated: true
 
 Notice d’information du contrat Complice Prévoyance Matmut, contrat collectif d’assurance sur la vie à adhésion facultative souscrit par Matmut Mutualité au profit de ses membres auprès de Matmut Vie, société d’assurance vie du Groupe Matmut. C’est un contrat temporaire Décès à fonds perdus comportant en sus une garantie Perte Totale et Irréversible d’Autonomie (PTIA) : il garantit le versement d’un capital forfaitaire au bénéficiaire désigné en cas de décès avant le 31 décembre suivant le 75e anniversaire de l’adhérent, ou par anticipation à l’assuré en cas de PTIA survenue avant son 65e anniversaire. Le capital souscrit va de 20 000 € à 200 000 €. Le contrat ne comporte ni valeur de réduction, ni valeur de rachat, ni taux garanti, ni garantie de fidélité. La notice décrit le lexique, la territorialité, les exclusions, les critères d’adhésion et les formalités médicales, la clause bénéficiaire, les cotisations, la durée et la fin de l’adhésion, la renonciation, l’évolution des garanties, le règlement des prestations, les conséquences des fausses déclarations, la fiscalité et les dispositions diverses.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : Conditions générales · Édition : 03/25
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : Conditions générales · Édition : 03/25
 
 ## Définitions
 

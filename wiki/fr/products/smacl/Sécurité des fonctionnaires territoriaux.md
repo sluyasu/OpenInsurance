@@ -48,7 +48,7 @@ generated: true
 
 Conditions générales du contrat « Sécurité Fonctionnaires Territoriaux » de SMACL Assurances, souscrit par une personne exerçant des fonctions au sein d’une personne morale de droit public. Selon les indications portées aux conditions particulières, le contrat accorde trois garanties : la responsabilité personnelle de l’assuré pour les dommages corporels, matériels et immatériels causés à autrui dans le cadre de ses fonctions (garantie déclenchée par la réclamation, délai subséquent de cinq ans) ; la protection juridique de l’assuré, en défense devant les instances juridictionnelles, financières ou disciplinaires et en recours contre les tiers, avec prise en charge des frais et honoraires dans la limite d’un barème annexé ; et les pertes financières, qui compensent les pertes de rémunération et la réorientation professionnelle consécutives à une procédure pénale, à concurrence de 20 % de la rémunération globale nette des 12 mois précédents pour chacun des deux postes. Les garanties s’exercent en France métropolitaine, dans les DROM, dans l’Union européenne, dans les pays frontaliers et dans le monde entier pour des déplacements n’excédant pas trente jours consécutifs.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : Conditions générales · Édition : 11/2022
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : Conditions générales · Édition : 11/2022
 
 ## Définitions
 
@@ -298,7 +298,7 @@ Conformément à l’article L.114-1 du Code, toutes actions dérivant d’un co
 
 ## Documents liés
 
-- [Sécurité des fonctionnaires territoriaux - IPID](S%C3%A9curit%C3%A9%20des%20fonctionnaires%20territoriaux%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/2022
+- [Sécurité des fonctionnaires territoriaux - IPID](<Sécurité des fonctionnaires territoriaux - IPID.md>) - IPID / Fiche d'information, éd. 01/2022
 
 ## Source & fidélité
 

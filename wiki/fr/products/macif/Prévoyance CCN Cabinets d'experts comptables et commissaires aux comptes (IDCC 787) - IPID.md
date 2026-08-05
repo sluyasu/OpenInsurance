@@ -47,7 +47,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (DIPA) du contrat de prévoyance collective à adhésion obligatoire de la CCN des cabinets d'experts comptables et commissaires aux comptes (IDCC 787), assuré par Macif Santé Prévoyance (SIREN n° 779 558 501), mutuelle régie par le Livre II du Code de la mutualité. Il fait bénéficier tous les membres de la catégorie de personnel déterminée par le souscripteur, n'ayant pas liquidé leurs droits à prestations de retraite, du versement d'un capital en cas de décès ou d'invalidité absolue et définitive (IAD), et du versement d'indemnités journalières ou d'une rente en cas d'incapacité temporaire totale de travail (ITT) ou d'invalidité ou incapacité professionnelle permanente (IPP). Le montant des prestations varie selon les niveaux de garantie et options souscrits aux conditions particulières.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : IPID / Fiche d'information · Édition : 01/26
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : IPID / Fiche d'information · Édition : 01/26
 
 ## Garanties
 
@@ -197,7 +197,7 @@ Rubrique « GARANTIES D'ASSISTANCE », citée sans détail dans ce document : au
 
 ## Documents liés
 
-- [PRÉVOYANCE CCN CABINETS D'EXPERTS-COMPTABLES ET COMMISSAIRES AUX COMPTES](PR%C3%89VOYANCE%20CCN%20CABINETS%20D%27EXPERTS-COMPTABLES%20ET%20COMMISSAIRES%20AUX%20COMPTES.md) - Conditions générales, éd. 2026-01
+- [PRÉVOYANCE CCN CABINETS D'EXPERTS-COMPTABLES ET COMMISSAIRES AUX COMPTES](<PRÉVOYANCE CCN CABINETS D'EXPERTS-COMPTABLES ET COMMISSAIRES AUX COMPTES.md>) - Conditions générales, éd. 2026-01
 
 ## Source & fidélité
 

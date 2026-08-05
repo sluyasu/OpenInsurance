@@ -49,7 +49,7 @@ generated: true
 
 Conditions générales du contrat Sécurité élus de SMACL Assurances (société d'assurance mutuelle), destiné aux titulaires d'un mandat électif au sein d'une collectivité territoriale, d'une entreprise publique locale ou d'un établissement public. Le contrat couvre six risques : la responsabilité personnelle de l'élu, la protection juridique de l'élu, les accidents corporels de l'élu, l'interruption d'activité professionnelle, la reconstitution d'image et des prestations d'assistance, complétés par un service d'information juridique. Le montant maximum de l'indemnité est fixé à 10 000 000 € non indexé par sinistre, avec des sous-limites détaillées au tableau n° 1 (30 000 € en protection juridique, 500 000 € pour l'ensemble des dommages corporels, 50 000 € de capital décès, 3 000 € de frais d'obsèques, 200 € par jour dans la limite de 8 jours pour l'interruption d'activité, 6 000 € pour la reconstitution d'image), toutes sans franchise. L'indemnisation du déficit fonctionnel permanent suit un barème de valeur du point par âge et par taux d'invalidité (tableau n° 2) et celle du préjudice esthétique et des souffrances endurées un barème par degré de gravité (tableau n° 3).
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : Conditions générales · Édition : 11/2022
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [RC professionnelle](<../../branches/RC professionnelle.md>) · Type : Conditions générales · Édition : 11/2022
 
 ## Définitions
 
@@ -395,7 +395,7 @@ Conformément à l'article L.114-1 du Code, toutes actions dérivant d'un contra
 
 ## Documents liés
 
-- [Sécurité élus - IPID](S%C3%A9curit%C3%A9%20%C3%A9lus%20-%20IPID.md) - IPID / Fiche d'information, éd. 11/2022
+- [Sécurité élus - IPID](<Sécurité élus - IPID.md>) - IPID / Fiche d'information, éd. 11/2022
 
 ## Source & fidélité
 

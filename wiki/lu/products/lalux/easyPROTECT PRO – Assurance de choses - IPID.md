@@ -44,7 +44,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de la garantie « Assurance de choses » du produit professionnel easyPROTECT PRO de LALUX Assurances. Le produit couvre les événements susceptibles d’endommager les biens assurés, pour autant que ces événements et biens soient désignés dans les Conditions Particulières et uniquement dans le cadre de l’activité professionnelle qui y est mentionnée. Il propose douze garanties (incendie, dégâts des eaux, vol, détériorations immobilières, bris de glaces, périls climatiques, véhicules terrestres automoteurs, bris de matériel bureautique et informatique, bris du matériel professionnel, décontamination du sol, chômage commercial, transport) sur six catégories de biens assurables, pour huit secteurs d’activité. Le contrat est annuel à reconduction tacite.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -208,7 +208,7 @@ couverture des marchandises et matériaux contre les dommages matériels survena
 
 ## Documents liés
 
-- [easyPROTECT PRO (Sachversicherungen) - IPID - DE](easyPROTECT%20PRO%20%28Sachversicherungen%29%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
+- [easyPROTECT PRO (Sachversicherungen) - IPID - DE](<easyPROTECT PRO (Sachversicherungen) - IPID - DE.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

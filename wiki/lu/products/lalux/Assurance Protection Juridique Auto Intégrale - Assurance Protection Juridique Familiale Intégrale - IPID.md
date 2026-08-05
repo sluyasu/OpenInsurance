@@ -46,7 +46,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) couvrant deux produits de protection juridique de LALUX Assurances, imprimés ensemble sur le même document : « Assurance Protection Juridique Auto Intégrale » et « Assurance Protection Juridique Familiale Intégrale ». L’assurance consiste pour l’assureur à prendre en charge des frais de procédure judiciaire et à fournir d’autres services directement liés à la couverture, en vue d’obtenir une indemnisation pour un dommage subi par l’assuré ou de défendre ou représenter l’assuré dans une procédure civile, pénale, administrative ou autre. Le volet Vie Privée compte sept garanties (litiges RC familiale, santé, habitation, consommation, services à vocation éducative, travail, loisirs) et le volet Automobile trois (litiges RC Auto garantis, litiges contractuels, défense pénale « circulation »). Les garanties s’exercent dans tous les pays de l’Union européenne ainsi qu’en Andorre, à Monaco, en Suisse et au Lichtenstein, et le contrat est annuel à reconduction tacite.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Protection juridique](../../branches/Protection%20juridique.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Protection juridique](<../../branches/Protection juridique.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 

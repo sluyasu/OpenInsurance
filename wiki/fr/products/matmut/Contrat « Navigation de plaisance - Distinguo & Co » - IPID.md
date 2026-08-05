@@ -46,7 +46,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du contrat « Navigation de plaisance - Distinguo & Co ». Le contrat garantit le propriétaire, le pilote ou le gardien de l'embarcation assurée dans le cadre de la navigation de plaisance contre les conséquences des dommages matériels ou corporels causés à des tiers (responsabilité civile), plafonnée à 20 000 000 € tous dommages confondus. Sont également en inclusion les frais de retirement (30 000 €), l'assistance aux personnes et au bateau et la protection juridique suite à accident (20 000 €). Six garanties optionnelles sont proposées, dont les dommages au bateau, le vol, l'individuelle marine et la mise en location.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Navigation de plaisance](../../branches/Navigation%20de%20plaisance.md) · Type : IPID / Fiche d'information · Édition : 05-25
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Navigation de plaisance](<../../branches/Navigation de plaisance.md>) · Type : IPID / Fiche d'information · Édition : 05-25
 
 ## Garanties
 
@@ -175,7 +175,7 @@ Garantie optionnelle listée sous « Garanties optionnelles ». Le document n'en
 
 ## Documents liés
 
-- [Navigation de Plaisance Distinguo & Co](Navigation%20de%20Plaisance%20Distinguo%20%26%20Co.md) - Conditions générales, éd. 2025-05
+- [Navigation de Plaisance Distinguo & Co](<Navigation de Plaisance Distinguo & Co.md>) - Conditions générales, éd. 2025-05
 
 ## Source & fidélité
 

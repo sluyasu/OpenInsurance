@@ -43,7 +43,7 @@ generated: true
 
 Fiche d’information sur le produit d’assurance (IPID) de l’assurance Responsabilité Civile Vie Privée, émise par Baloise Assurances Luxembourg S.A. Elle couvre l’assuré contre les conséquences des dommages corporels, matériels et immatériels consécutifs mis à sa charge au titre de sa responsabilité civile dans le cadre de sa vie privée, et comprend une garantie défense recours. Le document indique que des extensions de garantie sont possibles sans les nommer. Les plafonds sont ceux mentionnés aux conditions particulières et aucun montant n’est chiffré.
 
-- Assureur : [Baloise Luxembourg](../../insurers/Baloise%20Luxembourg.md) · Branche : [Responsabilité civile familiale](../../branches/Responsabilit%C3%A9%20civile%20familiale.md) · Type : IPID / Fiche d'information
+- Assureur : [Baloise Luxembourg](<../../insurers/Baloise Luxembourg.md>) · Branche : [Responsabilité civile familiale](<../../branches/Responsabilité civile familiale.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

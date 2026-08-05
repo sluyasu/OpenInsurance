@@ -44,7 +44,7 @@ generated: true
 
 Document tarifaire d'une page de la Matmut énonçant les conditions d'octroi de la réduction « Âge du véhicule » pour les gammes 4 roues Référence et Essentiel et pour le contrat 2R Rider. Le souscripteur bénéficie, à compter de l'année suivant celle du 5e, du 8e ou du 10e anniversaire du véhicule assuré depuis sa 1re année de mise en circulation, d'une réduction sur le montant de la cotisation des garanties Dommages au véhicule, dont le taux varie selon la formule de garantie choisie et l'âge atteint (5 %, 8 % ou 10 %). Le document précise les contrats et formules éligibles, les catégories de véhicules concernées, l'assiette de la réduction, sa prise d'effet et sa date de validité. Il ne décrit aucune garantie d'assurance.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Deux-roues, quads et voiturettes](../../branches/Deux-roues%2C%20quads%20et%20voiturettes.md) · Type : Conditions tarifaires · Édition : 01/26
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Deux-roues, quads et voiturettes](<../../branches/Deux-roues, quads et voiturettes.md>) · Type : Conditions tarifaires · Édition : 01/26
 
 ## Garanties
 

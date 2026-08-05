@@ -48,7 +48,7 @@ generated: true
 
 Corporate Travel is a group business-travel insurance underwritten by Foyer Global Health S.A. (Luxembourg), subscribed by a company (the Policyholder) under a Group Contract for the benefit of its employees travelling on Business trips, with accompanying partner and children optionally insurable. Cover applies worldwide and is organised in eight sections — Medical Travel, Domestic Travel, Travel Delay, Personal Liability, Travel Cancellation and Curtailment, Replacement Employee, Travel Accident (Death and Disability) and Luggage Loss and Delay — sold in five Plans (Essential, Classic, Care, Plus, Premium) with different sums insured. The maximum continuous trip duration is 180 days per trip unless the Group Contract provides otherwise, no waiting periods apply, and the policy is governed by Luxembourg law.
 
-- Assureur : [Foyer Global Health](../../insurers/Foyer%20Global%20Health.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : Conditions générales · Édition : 10.24
+- Assureur : [Foyer Global Health](<../../insurers/Foyer Global Health.md>) · Branche : [Voyage et assistance](<../../branches/Voyage et assistance.md>) · Type : Conditions générales · Édition : 10.24
 
 ## Définitions
 

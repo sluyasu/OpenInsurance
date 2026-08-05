@@ -47,7 +47,7 @@ generated: true
 
 Direct Assurance Santé est une assurance complémentaire santé qui rembourse tout ou partie des frais de santé restant à charge des bénéficiaires en cas d’accident, de maladie ou de maternité, en complément des remboursements de la Sécurité sociale française, et met à disposition des prestations d’assistance santé. Le contrat est composé de deux contrats indissociables : un contrat d’assurance de groupe à adhésion facultative respectant les conditions légales des contrats responsables et éligible au dispositif Madelin, et un contrat d’assurance de groupe à adhésion facultative de prestations d’assistance santé. Cette fiche IPID couvre les formules Essentielle, Essentielle +, Equilibre, Equilibre +, Liberté, Liberté +, Tranquillité, Tranquillité +, Bien-être, Bien-être +, Confort, Confort + et Zen. Les postes garantis sont l’hospitalisation et la maternité, les soins courants, l’optique, le dentaire, les aides auditives, la prévention, l’assistance, ainsi que la médecine douce et les cures thermales, certaines garanties n’étant pas systématiquement prévues au contrat.
 
-- Assureur : [Direct Assurance](../../insurers/Direct%20Assurance.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : IPID / Fiche d'information · Édition : 12/2024
+- Assureur : [Direct Assurance](<../../insurers/Direct Assurance.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : IPID / Fiche d'information · Édition : 12/2024
 
 ## Garanties
 
@@ -262,9 +262,9 @@ Cures thermales : Frais médicaux, de séjour et de transport
 
 ## Documents liés
 
-- [Direct Assurance Santé - Exemples de remboursements - Doc](Direct%20Assurance%20Sant%C3%A9%20-%20Exemples%20de%20remboursements%20-%20Doc.md) - Document
-- [Direct Assurance Santé - formules Hospi (contrat non responsable) (Formules Hospi et Hospi + (contrat non responsable)) ](Direct%20Assurance%20Sant%C3%A9%20-%20formules%20Hospi%20%28contrat%20non%20responsable%29%20%28Formules%20Hospi%20et%20Hospi%20%2B%20%28contrat%20non%20responsable%29%29%20.md) - IPID / Fiche d'information, éd. 12/2024
-- [Direct Assurance Santé](Direct%20Assurance%20Sant%C3%A9.md) - Conditions générales, éd. 12.24 (code de pied de page « SANTÉ_12.24_VF »)
+- [Direct Assurance Santé - Exemples de remboursements - Doc](<Direct Assurance Santé - Exemples de remboursements - Doc.md>) - Document
+- [Direct Assurance Santé - formules Hospi (contrat non responsable) (Formules Hospi et Hospi + (contrat non responsable)) ](<Direct Assurance Santé - formules Hospi (contrat non responsable) (Formules Hospi et Hospi + (contrat non responsable)) .md>) - IPID / Fiche d'information, éd. 12/2024
+- [Direct Assurance Santé](<Direct Assurance Santé.md>) - Conditions générales, éd. 12.24 (code de pied de page « SANTÉ_12.24_VF »)
 
 ## Source & fidélité
 

@@ -29,17 +29,17 @@ generated: true
 
 ## Produits par branche
 
-### [Auto](../branches/Auto.md)
-- [P&V Auto](../products/pv/P%26V%20Auto.md) - Conditions générales (11.2019) · réf. 000058-1000101-20191101
-- [P&V Auto - IPID](../products/pv/P%26V%20Auto%20-%20IPID.md) - IPID / Fiche d'information (01.2025) · réf. 010/1294 - 01.2025
+### [Auto](<../branches/Auto.md>)
+- [P&V Auto](<../products/pv/P&V Auto.md>) - Conditions générales (11.2019) · réf. 000058-1000101-20191101
+- [P&V Auto - IPID](<../products/pv/P&V Auto - IPID.md>) - IPID / Fiche d'information (01.2025) · réf. 010/1294 - 01.2025
 
-### [Habitation](../branches/Habitation.md)
-- [Ideal Habitation](../products/pv/Ideal%20Habitation.md) - Conditions générales (04-2023) · réf. P&V 292/04-2023
-- [P&V Ideal Habitation - IPID](../products/pv/P%26V%20Ideal%20Habitation%20-%20IPID.md) - IPID / Fiche d'information (01.2025) · réf. 010/1282
+### [Habitation](<../branches/Habitation.md>)
+- [Ideal Habitation](<../products/pv/Ideal Habitation.md>) - Conditions générales (04-2023) · réf. P&V 292/04-2023
+- [P&V Ideal Habitation - IPID](<../products/pv/P&V Ideal Habitation - IPID.md>) - IPID / Fiche d'information (01.2025) · réf. 010/1282
 
-### [Vie privée](../branches/Vie%20priv%C3%A9e.md)
-- [P&V Assurance Familiale](../products/pv/P%26V%20Assurance%20Familiale.md) - Conditions générales (04-2025) · réf. PV 551/04-2025
-- [P&V Assurance Familiale - IPID](../products/pv/P%26V%20Assurance%20Familiale%20-%20IPID.md) - IPID / Fiche d'information (04.2025) · réf. 010/1274
+### [Vie privée](<../branches/Vie privée.md>)
+- [P&V Assurance Familiale](<../products/pv/P&V Assurance Familiale.md>) - Conditions générales (04-2025) · réf. PV 551/04-2025
+- [P&V Assurance Familiale - IPID](<../products/pv/P&V Assurance Familiale - IPID.md>) - IPID / Fiche d'information (04.2025) · réf. 010/1274
 
 ## Source
 

@@ -51,7 +51,7 @@ generated: true
 
 Condiciones Generales del seguro de salud internacional Globality EcoGenio®, un seguro de gastos médicos suscrito en el marco de un contrato colectivo y diseñado para expatriados desplazados al extranjero por el tomador del seguro durante un periodo mínimo de tres meses, así como para sus cónyuges o parejas de hecho e hijos acompañantes. El producto incluye las modalidades Classic, Plus y Top, compuestas por los módulos ambulatorio, hospitalario, odontológico y de asistencia, y reembolsa los gastos por tratamientos médicos necesarios desde el punto de vista médico hasta el límite total anual, el límite máximo de cobertura ambulatoria y el límite máximo de cobertura dental propios de cada modalidad. La cobertura se contrata para la Zona de destino I (todo el mundo incluido EE.UU.) o la Zona de destino II (todo el mundo excepto EE.UU.), no se aplica ningún periodo de carencia y el contrato se rige por la ley del Gran Ducado de Luxemburgo.
 
-- Assureur : [Foyer Global Health](../../insurers/Foyer%20Global%20Health.md) · Branche : Complémentaire santé · Type : Conditions générales
+- Assureur : [Foyer Global Health](<../../insurers/Foyer Global Health.md>) · Branche : Complémentaire santé · Type : Conditions générales
 
 ## Définitions
 

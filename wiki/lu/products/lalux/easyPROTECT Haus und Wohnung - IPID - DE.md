@@ -46,7 +46,7 @@ generated: true
 
 Informationsblatt zu Versicherungsprodukten (IPID) für easyPROTECT Haus und Wohnung, eine luxemburgische Mehrgefahrenversicherung für Wohnraum, die unter der Marke LALUX Assurances vertrieben wird. Das Produkt wird in drei aufeinander aufbauenden Formeln angeboten - SICHERHEIT (Brand, elektrische Schäden und Haushaltsschäden, Wasserschäden, Glasbruch, Sturm/Hagel/Tornados/Erdbeben), KOMFORT = Sicherheit zuzüglich Diebstahl, Gebäudeschäden aus Diebstahl und Anschläge/Vandalismus/Graffiti, und PERFORMANZ = KOMFORT zuzüglich sechs weiterer Garantien, die für KOMFORT optional sind. Hinzu kommen fünf optionale Erweiterungen für KOMFORT und PERFORMANZ, eine jährliche Reiseversicherung, Home Assistance und easyPROTECT Discover für Versicherte von 15 bis 27 Jahren. Der Versicherungsschutz gilt an der in den Besonderen Bedingungen angegebenen Risikoanschrift im Großherzogtum Luxemburg.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Assurance habitation](../../branches/Assurance%20habitation.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Assurance habitation](<../../branches/Assurance habitation.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 

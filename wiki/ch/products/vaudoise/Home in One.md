@@ -45,7 +45,7 @@ generated: true
 
 Conditions générales «Home in One» de la Vaudoise (édition 01.01.2023), un contrat combiné suisse regroupant trois volets : la responsabilité civile privée (parties A à C), l’assurance ménage sur l’inventaire du ménage (parties D à F) et l’assurance bâtiment (parties G à I). Chaque volet est construit sur trois niveaux : une couverture de base, une couverture élargie et des extensions de couverture qui ne sont acquises que moyennant disposition expresse dans la police. Le document contient également l’information au preneur d’assurance au sens de l’art. 3 LCA, les règles de prime, de sinistre, de durée et de résiliation, ainsi qu’une annexe (partie N, édition 2012) fixant les règles pour l’assurance des bâtiments des assureurs privés dans les cantons sans établissement cantonal d’assurance.
 
-- Assureur : [Vaudoise Assurances](../../insurers/Vaudoise%20Assurances.md) · Branche : Assurance ménage · Type : Conditions générales · Édition : 01.01.2023
+- Assureur : [Vaudoise Assurances](<../../insurers/Vaudoise Assurances.md>) · Branche : Assurance ménage · Type : Conditions générales · Édition : 01.01.2023
 
 ## Définitions
 

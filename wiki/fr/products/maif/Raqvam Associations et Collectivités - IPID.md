@@ -46,7 +46,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du contrat Raqvam Associations et Collectivités, présenté comme une « Assurance Multirisque professionnelle » de MAIF, entreprise d'assurance immatriculée en France et régie par le Code des assurances (775709702). Le produit est destiné à protéger la collectivité et ses membres (dirigeants, bénévoles, salariés, adhérents, participants), ses activités, les biens et les responsabilités encourues dans le cadre des activités ainsi que leurs droits. Il réunit une responsabilité civile - défense plafonnée à 30 000 000 € tous dommages confondus, des garanties dommages aux biens, dommages corporels et recours-protection juridique. Douze garanties optionnelles sont proposées en complément.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information · Édition : 03-2025
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : IPID / Fiche d'information · Édition : 03-2025
 
 ## Garanties
 
@@ -332,8 +332,8 @@ Garantie optionnelle : Garanties de subsistance/Financière/Hors centre destiné
 
 ## Documents liés
 
-- [Raqvam Associations et Collectivités](Raqvam%20Associations%20et%20Collectivit%C3%A9s.md) - Conditions générales, éd. 01/2026
-- [Raqvam Associations et Collectivités - CP](Raqvam%20Associations%20et%20Collectivit%C3%A9s%20-%20CP.md) - Conditions particulières, éd. 11-2021
+- [Raqvam Associations et Collectivités](<Raqvam Associations et Collectivités.md>) - Conditions générales, éd. 01/2026
+- [Raqvam Associations et Collectivités - CP](<Raqvam Associations et Collectivités - CP.md>) - Conditions particulières, éd. 11-2021
 
 ## Source & fidélité
 

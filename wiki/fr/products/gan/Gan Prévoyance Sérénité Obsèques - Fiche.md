@@ -40,7 +40,7 @@ generated: true
 
 Document de lisibilité (engagement de place) pour le contrat d’assurance prévoyance obsèques vie entière Gan Prévoyance Sérénité Obsèques, assuré par Groupama Gan Vie. Il est composé exclusivement de six tableaux comparatifs — trois « tableaux comparatifs des cotisations » et trois « tableaux comparatifs des valeurs de rachat » — établis pour des souscriptions à 50, 60 et 70 ans et un capital obsèques garanti de 5 000 € pris à titre d’exemple. Chaque tableau confronte les modalités de paiement (viager, temporaire 25/20/15/10/5 ans, prime unique) et porte la mention qu’il « n’a pas de valeur contractuelle ». Le document ne décrit ni les garanties, ni les carences, ni les exclusions du contrat, auxquelles il se contente de renvoyer.
 
-- Assureur : [Gan Assurances](../../insurers/Gan%20Assurances.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : Fiche produit · Édition : 032026
+- Assureur : [Gan Assurances](<../../insurers/Gan Assurances.md>) · Branche : [Obsèques](<../../branches/Obsèques.md>) · Type : Fiche produit · Édition : 032026
 
 ## Garanties
 
@@ -124,7 +124,7 @@ Le document signale l’existence de garanties optionnelles non incluses dans la
 ## Documents liés
 
 - Édition courante de ce produit.
-- [Gan Prévoyance Sérénité Obsèques - Fiche](Gan%20Pr%C3%A9voyance%20S%C3%A9r%C3%A9nit%C3%A9%20Obs%C3%A8ques%20-%20Fiche%20%282%29.md) - Fiche produit, éd. Dernière mise à jour le 1er mars 2023
+- [Gan Prévoyance Sérénité Obsèques - Fiche](<Gan Prévoyance Sérénité Obsèques - Fiche (2).md>) - Fiche produit, éd. Dernière mise à jour le 1er mars 2023
 
 ## Source & fidélité
 

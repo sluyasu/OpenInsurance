@@ -42,7 +42,7 @@ generated: true
 
 Intercalaire vétérinaires MAAF (réf. 11047 - 03/24) qui se substitue à la garantie « Responsabilité civile professionnelle » des Conditions générales Multirisque professionnelle référencées 11031. Il décrit l'article 7 (garantie Responsabilité civile professionnelle) et ses six dispositions particulières : dommages aux biens confiés, dommages aux biens existants, intoxications alimentaires, produit défectueux, atteinte accidentelle à l'environnement (dommages et frais de prévention) et engagements contractuels particuliers. Il comporte un tableau de garanties plafonné à 8 000 000 € par sinistre et par année d'assurance tous dommages confondus, et neuf exclusions qui s'ajoutent à celles des articles 10 et 27 des Conditions générales.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : Conditions générales · Édition : 03/24
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : Conditions générales · Édition : 03/24
 
 ## Définitions
 

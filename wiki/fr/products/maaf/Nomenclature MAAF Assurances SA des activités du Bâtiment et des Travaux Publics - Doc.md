@@ -47,7 +47,7 @@ generated: true
 
 Nomenclature MAAF Assurances SA réf. 11056 (06/2026) des activités du Bâtiment et des Travaux Publics. Elle complète les Conditions générales du contrat Multirisque des Professionnels du Bâtiment et des Travaux Publics réf. 11036 et recense 67 activités réparties en cinq familles (Préparation et aménagement du site, Structure et gros œuvre, Clos et couvert, Divisions – Aménagements, Lots techniques). Chaque activité porte une pastille de couleur indiquant son statut — assurable (55 activités), assurable exclusivement en prestation complémentaire d'une autre activité (6), ou non assurable par MAAF Assurances SA (6) — et une définition délimitant ce que l'activité comprend et ce qui en est exclu.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : Document · Édition : 06/2026
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : Document · Édition : 06/2026
 
 ## Définitions
 
@@ -691,9 +691,9 @@ Réalisation de l’entretien et/ou de la maintenance ponctuelle ou périodique,
 ## Documents liés
 
 - Extension / option du produit : **Conditions générales du contrat MULTIRISQUE DES PROFESSIONNELS DU BÂTIMENT ET DES TRAVAUX PUBLICS - Réf 11036**
-- [Entreprises de travaux publics - Intercalaire](Entreprises%20de%20travaux%20publics%20-%20Intercalaire.md) - Conditions générales, éd. 01/25
-- [Multirisque des Professionnels du Bâtiment et des Travaux Publics](Multirisque%20des%20Professionnels%20du%20B%C3%A2timent%20et%20des%20Travaux%20Publics.md) - Conditions générales, éd. 01/26
-- [Multirisque des Professionnels du Bâtiment et des Travaux Publics - IPID](Multirisque%20des%20Professionnels%20du%20B%C3%A2timent%20et%20des%20Travaux%20Publics%20-%20IPID.md) - IPID / Fiche d'information, éd. 2024-06
+- [Entreprises de travaux publics - Intercalaire](<Entreprises de travaux publics - Intercalaire.md>) - Conditions générales, éd. 01/25
+- [Multirisque des Professionnels du Bâtiment et des Travaux Publics](<Multirisque des Professionnels du Bâtiment et des Travaux Publics.md>) - Conditions générales, éd. 01/26
+- [Multirisque des Professionnels du Bâtiment et des Travaux Publics - IPID](<Multirisque des Professionnels du Bâtiment et des Travaux Publics - IPID.md>) - IPID / Fiche d'information, éd. 2024-06
 
 ## Source & fidélité
 

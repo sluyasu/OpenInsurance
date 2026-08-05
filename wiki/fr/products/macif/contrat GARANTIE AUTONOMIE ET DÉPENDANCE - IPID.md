@@ -48,7 +48,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (DIPA/IPID) du contrat GARANTIE AUTONOMIE ET DÉPENDANCE, assuré par Macif Santé Prévoyance. Le contrat propose un dispositif humain et financier pour aider l'assuré et ses proches à se préserver des conséquences d'une perte d'autonomie liée à l'âge, à un accident ou une maladie. Il comporte 5 formules de garantie prévoyant le versement de prestations dépendance lorsque l'assuré est reconnu en état de dépendance au sens du contrat, plus une formule “Établissement” mise en jeu uniquement lorsque l'assuré est accueilli en établissement : un capital forfaitaire “Premiers frais” de 4 000 € (GIR 1 à 4), une rente dépendance à domicile ou en établissement (GIR 1 à 3), et cinq ensembles de garanties d'assistance systématiquement prévus.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : IPID / Fiche d'information · Édition : 01/26
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Prévoyance](<../../branches/Prévoyance.md>) · Type : IPID / Fiche d'information · Édition : 01/26
 
 ## Garanties
 
@@ -214,7 +214,7 @@ Des garanties d'assistance dédiées aux aidants (intervention d'une aide à dom
 
 ## Documents liés
 
-- [GARANTIE AUTONOMIE ET DÉPENDANCE](GARANTIE%20AUTONOMIE%20ET%20D%C3%89PENDANCE.md) - Conditions générales, éd. 2026-01-01
+- [GARANTIE AUTONOMIE ET DÉPENDANCE](<GARANTIE AUTONOMIE ET DÉPENDANCE.md>) - Conditions générales, éd. 2026-01-01
 
 ## Source & fidélité
 

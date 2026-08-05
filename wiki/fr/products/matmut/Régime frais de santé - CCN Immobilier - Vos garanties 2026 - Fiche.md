@@ -42,7 +42,7 @@ generated: true
 
 Tableau des garanties 2026 du régime frais de santé de la CCN Immobilier, présentant quatre niveaux (BASE 1 à BASE 4). Il détaille les remboursements en soins courants, hospitalisation, optique, dentaire, aides auditives, médecines douces et sport sur ordonnance, exprimés en pourcentage de la Base de Remboursement, en pourcentage du PMSS, en remboursement intégral, en frais réels ou en forfaits, avec une distinction systématique entre praticiens adhérents et non adhérents aux dispositifs de pratique tarifaire maîtrisée. Les renvois détaillent une grille de forfaits optique par base pour l'adulte et pour l'enfant. Le document précise qu'il est non contractuel.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Fiche produit
 
 ## Définitions
 

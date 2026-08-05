@@ -48,7 +48,7 @@ generated: true
 
 Convention spéciale « Auto collaborateurs - garantie complémentaire au contrat personnel » du contrat Convergence de SMACL Assurances, destinée au marché associatif. SMACL Assurances s’engage à verser à l’assuré une indemnité destinée à compenser le préjudice qu’il subit à la suite d’un sinistre garanti, c’est-à-dire les dommages subis par un véhicule de moins 3,5 t lui appartenant, ou à son conjoint ou concubin, alors qu’il le conduit pour les besoins de la personne morale souscriptrice et dans son intérêt exclusif. Le préjudice indemnisable comprend les dommages consécutifs à l’incendie, la tempête/ouragan/cyclone, les attentats ou actes de terrorisme, les catastrophes naturelles et les accidents/dégradations lorsque le véhicule n’est pas garanti contre ces événements — ou, dans le cas contraire, la franchise laissée à charge — ainsi que la privation de jouissance liée à l’immobilisation du véhicule. La garantie s’exerce en France métropolitaine et dans les départements et régions d’outre-mer, et dans les pays où l’assureur régulier du véhicule accorde sa couverture, dans la limite des montants fixés aux conditions particulières.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : 04/2025
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions générales · Édition : 04/2025
 
 ## Définitions
 
@@ -150,7 +150,7 @@ Second poste du « Préjudice » indemnisable (article 2.2) : « la privation de
 
 - Édition courante de ce produit.
 - Extension / option du produit : **conditions générales Convergence**
-- [CONVERGENCE - Auto collaborateurs - Garantie en substitution au contrat personnel (Associatons)](CONVERGENCE%20-%20Auto%20collaborateurs%20-%20Garantie%20en%20substitution%20au%20contrat%20personnel%20%28Associatons%29.md) - Conditions générales, éd. 04/2025
+- [CONVERGENCE - Auto collaborateurs - Garantie en substitution au contrat personnel (Associatons)](<CONVERGENCE - Auto collaborateurs - Garantie en substitution au contrat personnel (Associatons).md>) - Conditions générales, éd. 04/2025
 
 ## Source & fidélité
 

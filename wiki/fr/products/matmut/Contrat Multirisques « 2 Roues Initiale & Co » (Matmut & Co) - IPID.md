@@ -40,7 +40,7 @@ generated: true
 
 Document d'information (IPID) du contrat Multirisques « 2 Roues Initiale & Co », assurance d'un véhicule à moteur à 2 ou 3 roues ou de type « quad » portée par Matmut & Co (société anonyme). La garantie Responsabilité civile, obligatoire, couvre les dommages causés aux tiers (dommages corporels illimités ; dommages matériels, immatériels consécutifs et préjudice écologique confondus jusqu'à 100 000 000 €) ; sont également incluses la Protection Juridique suite à accident jusqu'à 20 000 € et l'Assistance au véhicule et aux personnes transportées. Quinze garanties optionnelles sont proposées (bris de glaces, vol, incendie-attentat-tempête, catastrophes naturelles et technologiques, dommages au véhicule, dommages corporels du conducteur, assistance panne 0 km, mise en location du véhicule assuré, etc.).
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Deux-roues, quads et voiturettes](../../branches/Deux-roues%2C%20quads%20et%20voiturettes.md) · Type : IPID / Fiche d'information · Édition : 10/24
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Deux-roues, quads et voiturettes](<../../branches/Deux-roues, quads et voiturettes.md>) · Type : IPID / Fiche d'information · Édition : 10/24
 
 ## Garanties
 
@@ -183,10 +183,10 @@ Protection Juridique relative au bien assuré : prise en charge de la défense d
 
 ## Documents liés
 
-- Extension liée : [Conditions de la réduction Âge du véhicule — Contrat 2 roues Initiale & Co - Tarifs](Conditions%20de%20la%20r%C3%A9duction%20%C3%82ge%20du%20v%C3%A9hicule%20%E2%80%94%20Contrat%202%20roues%20Initiale%20%26%20Co%20-%20Tarifs.md)
-- Extension liée : [Conditions de l'Avantage Usage Sérénité — Gamme 2 roues Initiale & Co - Tarifs](Conditions%20de%20l%27Avantage%20Usage%20S%C3%A9r%C3%A9nit%C3%A9%20%E2%80%94%20Gamme%202%20roues%20Initiale%20%26%20Co%20-%20Tarifs.md)
-- [Conditions de la réduction Âge du véhicule — Contrat 2 roues Initiale & Co - Tarifs](Conditions%20de%20la%20r%C3%A9duction%20%C3%82ge%20du%20v%C3%A9hicule%20%E2%80%94%20Contrat%202%20roues%20Initiale%20%26%20Co%20-%20Tarifs.md) - Conditions tarifaires, éd. 01-26
-- [Conditions de l'Avantage Usage Sérénité — Gamme 2 roues Initiale & Co - Tarifs](Conditions%20de%20l%27Avantage%20Usage%20S%C3%A9r%C3%A9nit%C3%A9%20%E2%80%94%20Gamme%202%20roues%20Initiale%20%26%20Co%20-%20Tarifs.md) - Conditions tarifaires, éd. 01-26
+- Extension liée : [Conditions de la réduction Âge du véhicule — Contrat 2 roues Initiale & Co - Tarifs](<Conditions de la réduction Âge du véhicule — Contrat 2 roues Initiale & Co - Tarifs.md>)
+- Extension liée : [Conditions de l'Avantage Usage Sérénité — Gamme 2 roues Initiale & Co - Tarifs](<Conditions de l'Avantage Usage Sérénité — Gamme 2 roues Initiale & Co - Tarifs.md>)
+- [Conditions de la réduction Âge du véhicule — Contrat 2 roues Initiale & Co - Tarifs](<Conditions de la réduction Âge du véhicule — Contrat 2 roues Initiale & Co - Tarifs.md>) - Conditions tarifaires, éd. 01-26
+- [Conditions de l'Avantage Usage Sérénité — Gamme 2 roues Initiale & Co - Tarifs](<Conditions de l'Avantage Usage Sérénité — Gamme 2 roues Initiale & Co - Tarifs.md>) - Conditions tarifaires, éd. 01-26
 
 ## Source & fidélité
 

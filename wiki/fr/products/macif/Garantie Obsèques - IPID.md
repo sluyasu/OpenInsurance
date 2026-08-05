@@ -44,7 +44,7 @@ generated: true
 
 Document d'informations clés du contrat Garantie Obsèques, contrat d'assurance collectif à adhésion facultative couvrant le risque décès, souscrit par la Macif auprès de Macif Santé Prévoyance au profit de ses sociétaires. Le contrat verse au décès de l'assuré un capital affecté au financement de tout ou partie des obsèques au(x) bénéficiaire(s) désigné(s) et donne accès à des garanties d'assistance, sans formalité médicale mais avec un délai d'attente d'un an en cas de décès consécutif à une maladie. La cotisation est périodique, sur une durée temporaire (5 ans, 10 ans ou jusqu'aux 80 ans de l'assuré) ou viagère, et un mécanisme annuel de participation aux bénéfices peut revaloriser le capital garanti et les cotisations restant à payer. Le produit est classé en classe de risque 2 sur 7 pour une détention sur 30 ans ; seul un rachat total est possible.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : IPID / Fiche d'information · Édition : 1er juillet 2026
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Obsèques](<../../branches/Obsèques.md>) · Type : IPID / Fiche d'information · Édition : 1er juillet 2026
 
 ## Définitions
 
@@ -182,11 +182,11 @@ Macif Santé Prévoyance est soumise à des règles prudentielles strictes visan
 
 ## Documents liés
 
-- ⚠️ Édition remplacée par une version plus récente : [contrat GARANTIE OBSÈQUES - IPID](contrat%20GARANTIE%20OBS%C3%88QUES%20-%20IPID.md)
-- [contrat GARANTIE OBSÈQUES - IPID](contrat%20GARANTIE%20OBS%C3%88QUES%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/26
-- [Garantie Obsèques - Doc](Garantie%20Obs%C3%A8ques%20-%20Doc.md) - Document
-- [Garantie Obsèques - Fiche](Garantie%20Obs%C3%A8ques%20-%20Fiche.md) - Fiche produit, éd. Garanties en vigueur au 1er juillet 2026
-- [Garantie Obsèques](Garantie%20Obs%C3%A8ques.md) - Conditions générales, éd. 2026-07
+- ⚠️ Édition remplacée par une version plus récente : [contrat GARANTIE OBSÈQUES - IPID](<contrat GARANTIE OBSÈQUES - IPID.md>)
+- [contrat GARANTIE OBSÈQUES - IPID](<contrat GARANTIE OBSÈQUES - IPID.md>) - IPID / Fiche d'information, éd. 01/26
+- [Garantie Obsèques - Doc](<Garantie Obsèques - Doc.md>) - Document
+- [Garantie Obsèques - Fiche](<Garantie Obsèques - Fiche.md>) - Fiche produit, éd. Garanties en vigueur au 1er juillet 2026
+- [Garantie Obsèques](<Garantie Obsèques.md>) - Conditions générales, éd. 2026-07
 
 ## Source & fidélité
 

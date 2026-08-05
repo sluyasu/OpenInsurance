@@ -43,7 +43,7 @@ generated: true
 
 Document d’information (DIPA/IPID) sur l’Assurance des Moyens de paiement souscrite dans le cadre d’un compte de dépôt détenu auprès de Socram Banque, assurée par Macif, société d’assurance mutuelle à cotisations variables (SIREN n° 781 452 511), entreprise régie par le Code des assurances. Le contrat rembourse les pertes pécuniaires subies à la suite de la perte ou du vol des moyens de paiement émis par la Banque (carte bancaire et formules de chèques), dans la limite de 3 000 euros par année et par garantie. Il couvre également le vol d’espèces par agression dans les 24 heures suivant un retrait et les frais de renouvellement des papiers officiels perdus ou volés, chacun dans la limite de 300 euros par année. Les quatre garanties sont systématiquement prévues au contrat et la couverture s’exerce dans le monde entier.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Autres](../../branches/Autres.md) · Type : IPID / Fiche d'information · Édition : 10/18
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Autres](<../../branches/Autres.md>) · Type : IPID / Fiche d'information · Édition : 10/18
 
 > ⚠️ **Édition ancienne** : 10/18, soit 8 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 

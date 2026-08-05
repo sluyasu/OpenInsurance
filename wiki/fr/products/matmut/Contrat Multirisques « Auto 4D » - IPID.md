@@ -42,7 +42,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) relatif au contrat Multirisques « Auto 4D » de la Matmut, assurance automobile. Le contrat garantit le conducteur ou le gardien d'un véhicule automobile ou d'un engin attelé contre les conséquences des dommages matériels et corporels causés à des tiers (Responsabilité civile), assurance obligatoire, et comprend en outre une garantie du conducteur, la Protection Juridique suite à accident et l'Assistance au véhicule et aux personnes transportées. Des garanties complémentaires optionnelles permettent de renforcer la couverture des dommages corporels du conducteur, de couvrir les dommages matériels subis par le véhicule assuré ou la défense des intérêts de l'assuré. Le document ne présente qu'un résumé des principales garanties et exclusions.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 2024-10
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information · Édition : 2024-10
 
 ## Garanties
 
@@ -226,7 +226,7 @@ Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie.
 
 ## Documents liés
 
-- [Contrat Multirisques « Auto 4D Distinguo & Co » - IPID](Contrat%20Multirisques%20%C2%AB%20Auto%204D%20Distinguo%20%26%20Co%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information, éd. 2025-07
+- [Contrat Multirisques « Auto 4D Distinguo & Co » - IPID](<Contrat Multirisques « Auto 4D Distinguo & Co » - IPID.md>) - IPID / Fiche d'information, éd. 2025-07
 
 ## Source & fidélité
 

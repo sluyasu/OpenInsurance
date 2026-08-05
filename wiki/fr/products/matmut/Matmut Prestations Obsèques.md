@@ -44,7 +44,7 @@ generated: true
 
 Conditions générales du contrat de Prestations Obsèques « Matmut Prestations Obsèques ». Il ne s'agit pas d'un contrat d'assurance mais d'un contrat de prestations funéraires conclu entre le souscripteur et OGF services funéraires, qui s'engage à réaliser le jour venu les obsèques décrites dans le descriptif auquel le souscripteur a adhéré. Ce contrat est indissociablement lié à l'adhésion, préalable ou concomitante, à un contrat collectif d'assurance Obsèques souscrit auprès de Matmut Vie, qui finance les prestations. Le contrat se compose de deux blocs : le bloc A (prestations obligatoires et non obligatoires exécutées par OGF, financées par une part affectée du capital souscrit revalorisé et par le capital affecté à l'avantage Sérénité Totale) et le bloc B (frais avancés pour le compte de la personne ayant qualité à pourvoir aux funérailles, financés par le solde du capital). L'avantage « Sérénité Totale », ouvert si le souscripteur accepte continument l'évolution de la cotisation, met à la charge d'OGF les écarts éventuels sur le bloc A sans que la famille puisse être sollicitée.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : Conditions générales · Édition : 10/25
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Obsèques](<../../branches/Obsèques.md>) · Type : Conditions générales · Édition : 10/25
 
 ## Définitions
 

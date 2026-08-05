@@ -43,7 +43,7 @@ generated: true
 
 Note d'information du contrat Actiplus, contrat d'assurance-vie de groupe (collectif) en euros à adhésion facultative, régi par le Code des assurances et assuré par Mutavie. Il permet à l'adhérent de constituer un capital disponible à tout moment par versements et capitalisation, avec une garantie de capital au moins égale aux sommes versées hors frais sur versements, une participation aux bénéfices d'au moins 95% des produits financiers nets, et le versement au(x) bénéficiaire(s) désigné(s) du capital constitué au décès, éventuellement augmenté d'une garantie décès supplémentaire. Le document est daté de janvier 2018 et comporte en page 7 un additif qui modifie la clause de fiscalité du rachat (article 14.1) pour introduire le prélèvement forfaitaire unique.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Conditions générales · Édition : JANVIER 2018
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Assurance vie et épargne](<../../branches/Assurance vie et épargne.md>) · Type : Conditions générales · Édition : JANVIER 2018
 
 > ⚠️ **Édition ancienne** : JANVIER 2018, soit 8 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 

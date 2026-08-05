@@ -47,7 +47,7 @@ generated: true
 
 Notice d'information de l'« Offre communale », complémentaire santé souscrite dans le cadre du contrat d'assurance de groupe n° 02016 à adhésion facultative souscrit par MAAF Assurances au profit de ses sociétaires auprès de MAAF Santé, dispositions en vigueur au 01/01/2026. Les garanties frais de santé (soins courants, hospitalisation, optique, dentaire) sont assurées par MAAF Santé et déclinées en quatre formules de garantie (formules 1 à 4), exprimées en pourcentage de la base de remboursement de la Sécurité sociale ou en euros, dans la limite des frais réels engagés. S'y ajoutent des garanties d'assistance « Assistance santé à domicile » assurées par MAAF Assurances SA (gestion confiée à FIDELIA ASSISTANCE) et une garantie « Renseignements juridiques » par téléphone assurée par MAAF Assurances société d'assurance mutuelle. L'adhésion est ouverte aux sociétaires de MAAF Assurances affiliés à un régime d'assurance maladie obligatoire français et résidant dans la commune ayant signé la convention d'indication avec MAAF Assurances SA.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : 01/26
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Conditions générales · Édition : 01/26
 
 ## Définitions
 

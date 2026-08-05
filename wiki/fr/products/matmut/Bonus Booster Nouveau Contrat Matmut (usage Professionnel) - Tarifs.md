@@ -44,7 +44,7 @@ generated: true
 
 Document tarifaire d’une page fixant les conditions d’octroi de l’Avantage « Bonus Booster Nouveau Contrat Matmut » sur la gamme Auto 4D, émis par la Mutuelle assurance des travailleurs mutualistes. L’avantage accélère, à la souscription d’un nouveau contrat Multirisques « Auto 4D » en usage Professionnel, l’évolution du coefficient de réduction au-delà du bonus maximum réglementaire de 50 % : un souscripteur qui pourrait normalement prétendre à un coefficient de 0,50 se voit appliquer 0.42 (58 % de bonus) s’il détient ce coefficient depuis moins d’un an, 0,40 (60 %) depuis au moins un an et moins de trois ans, et 0,36 (64 %) depuis trois ans et plus. Il suppose de fournir un relevé d’informations émanant d’une compagnie d’assurance extérieure au Groupe Matmut, et s’applique sur la cotisation hors taxes des garanties Responsabilité civile et, lorsqu’elles sont souscrites, Dommages au véhicule assuré. Le document ne décrit aucune garantie et aucune exclusion de garantie ; il est indiqué valable jusqu’au 31/12/2026.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions tarifaires · Édition : 01/26
+- Assureur : [Matmut](<../../insurers/Matmut.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : Conditions tarifaires · Édition : 01/26
 
 ## Garanties
 
@@ -192,7 +192,7 @@ Adresse postale : 76030 Rouen Cedex 1  p. 1
 ## Documents liés
 
 - Extension / option du produit : **contrat d’assurance Multirisques « Auto 4D »**
-- [Bonus Booster Nouveau Contrat Matmut (Gamme Auto 4D) - Tarifs](Bonus%20Booster%20Nouveau%20Contrat%20Matmut%20%28Gamme%20Auto%204D%29%20-%20Tarifs.md) - Conditions tarifaires, éd. 2026-01
+- [Bonus Booster Nouveau Contrat Matmut (Gamme Auto 4D) - Tarifs](<Bonus Booster Nouveau Contrat Matmut (Gamme Auto 4D) - Tarifs.md>) - Conditions tarifaires, éd. 2026-01
 
 ## Source & fidélité
 

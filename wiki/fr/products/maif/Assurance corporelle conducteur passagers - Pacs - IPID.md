@@ -46,7 +46,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) du contrat « Assurance corporelle conducteur passagers - Pacs » de MAIF. Le produit répare les dommages corporels, propose des solutions d’assistance et protège les droits de l’assuré en cas d’accident de la circulation découlant de l’utilisation d’un véhicule terrestre à moteur, d’une trottinette électrique, d’un train, d’un tramway, d’un métro ou d’un vélo en libre-service, dans ou sur lequel il se trouve. La protection corporelle est sans plafond global au cumul des garanties : elle couvre, avant et après consolidation, les frais médicaux restés à charge, la perte de revenus, les frais divers d’hospitalisation, les mesures compensatoires en cas de handicap, la perte d’une année scolaire, l’incapacité permanente, la tierce personne et le préjudice esthétique, et en cas de décès les frais funéraires, un capital décès et le préjudice patrimonial. S’y ajoutent des prestations d’aides immédiates, une assistance en cas de déplacement en France et dans le monde et une couverture juridique (recours). Le contrat est conclu pour un an, de la date de prise d’effet au 31 décembre suivant, puis reconduit automatiquement chaque 1er janvier.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 11/2023
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information · Édition : 11/2023
 
 ## Garanties
 
@@ -214,7 +214,7 @@ Couverture juridique. Recours : lorsque que vous subissez un préjudice résult
 
 ## Documents liés
 
-- [Assurance corporelle conducteur passagers - Pacs](Assurance%20corporelle%20conducteur%20passagers%20-%20Pacs.md) - Conditions générales, éd. 03/2026
+- [Assurance corporelle conducteur passagers - Pacs](<Assurance corporelle conducteur passagers - Pacs.md>) - Conditions générales, éd. 03/2026
 
 ## Source & fidélité
 

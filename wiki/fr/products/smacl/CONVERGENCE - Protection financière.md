@@ -46,7 +46,7 @@ generated: true
 
 Conventions spéciales « Protection financière » du contrat Convergence de SMACL Assurances : une garantie de pertes d'exploitation qui complète les conventions spéciales Dommages aux biens et les conditions générales Convergence. Elle verse à l'assuré, après un sinistre dommages aux biens garanti, une indemnité destinée à compenser la perte de marge brute due à l'interruption totale ou à la réduction de l'activité assurée et à supporter les frais supplémentaires engagés pour limiter cette baisse. L'indemnité est calculée selon la formule perte de marge brute + frais supplémentaires - diminution des charges fixes, dans la limite de la somme assurée, et la garantie n'est acquise qu'en France métropolitaine et dans les départements et régions d'outre-mer. Neuf exclusions particulières s'ajoutent à celles des conditions générales et des conventions spéciales Dommages aux biens.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Autres](../../branches/Autres.md) · Type : Conditions générales · Édition : 01/2024
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Autres](<../../branches/Autres.md>) · Type : Conditions générales · Édition : 01/2024
 
 ## Définitions
 

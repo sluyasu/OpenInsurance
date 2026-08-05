@@ -40,7 +40,7 @@ generated: true
 
 Fiche d’information sur les frais du PER Individuel Gan Prévoyance Nouvelle Vie. Le document est un tableau de frais : montant minimal de versement, droit d’adhésion à l’association, frais annuels de gestion du plan et des supports (fonds euros, unités de compte), frais de gestion des fonds en gestion libre et en gestion pilotée par horizon avec les taux de rétrocession de commissions, et frais ponctuels par opération (versement, transfert sortant, versements de rente). Il ne décrit aucune garantie ni aucune exclusion. Les mentions légales nomment Gan Prévoyance (société d’intermédiation en assurance, mandataire de Groupama Gan Vie) et Groupama Gan Vie, qui s’engage à mettre à jour ces informations annuellement.
 
-- Assureur : [Gan Assurances](../../insurers/Gan%20Assurances.md) · Branche : [Retraite supplémentaire](../../branches/Retraite%20suppl%C3%A9mentaire.md) · Type : Conditions tarifaires
+- Assureur : [Gan Assurances](<../../insurers/Gan Assurances.md>) · Branche : [Retraite supplémentaire](<../../branches/Retraite supplémentaire.md>) · Type : Conditions tarifaires
 
 ## Définitions
 

@@ -44,7 +44,7 @@ generated: true
 
 Notice d'information destinée aux affiliés d'un Contrat collectif Frais de santé à adhésion obligatoire souscrit par une entreprise, dont l'objet est de garantir le remboursement des frais médicaux et chirurgicaux en complément des prestations en nature servies par un Régime Obligatoire maladie français. Les garanties santé sont assurées par MAAF Santé et déclinées en cinq Niveaux de Garanties (NIVEAU 1 à NIVEAU 5) couvrant l'Hospitalisation, les Soins courants, l'Optique, le Dentaire, les Aides auditives et la Prévention ; le Niveau est choisi par l'entreprise et est le même pour l'ensemble des Garanties. S'y ajoutent des garanties d'assistance santé à domicile assurées par MAAF Assurances SA et gérées par FIDELIA ASSISTANCE, ainsi que l'accès aux services du réseau Santéclair. Le Contrat est « responsable et solidaire » au sens des articles L.871-1 et L.911-7 du Code de la Sécurité sociale et le remboursement, indemnitaire, ne peut être supérieur au montant des frais restant à charge.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : 10.2025
+- Assureur : [MAAF](<../../insurers/MAAF.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Conditions générales · Édition : 10.2025
 
 ## Définitions
 
@@ -1295,8 +1295,8 @@ Conformément à l'article L.221-11 du Code de la mutualité, toute action déri
 ## Documents liés
 
 - Édition courante de ce produit.
-- [Assurance SANTÉ PROFIL SALARIÉS](Assurance%20SANT%C3%89%20PROFIL%20SALARI%C3%89S.md) - Conditions générales, éd. 10.2025
-- [SANTÉ PROFIL SALARIÉS - Fiche](SANT%C3%89%20PROFIL%20SALARI%C3%89S%20-%20Fiche.md) - Fiche produit, éd. 1er janvier 2026
+- [Assurance SANTÉ PROFIL SALARIÉS](<Assurance SANTÉ PROFIL SALARIÉS.md>) - Conditions générales, éd. 10.2025
+- [SANTÉ PROFIL SALARIÉS - Fiche](<SANTÉ PROFIL SALARIÉS - Fiche.md>) - Fiche produit, éd. 1er janvier 2026
 
 ## Source & fidélité
 

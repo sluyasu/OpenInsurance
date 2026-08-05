@@ -41,7 +41,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de DKV Luxembourg S.A. pour le produit EU PLUS, une assurance maladie privée complémentaire destinée aux fonctionnaires de l’UE et à leurs familles. La couverture porte sur le traitement ambulatoire, le traitement dentaire et les prothèses dentaires, et le traitement stationnaire. Le domaine de validité s’étend sur toute l’Europe, avec extension au premier mois d’un séjour hors d’Europe.
 
-- Assureur : [DKV Luxembourg](../../insurers/DKV%20Luxembourg.md) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
+- Assureur : [DKV Luxembourg](<../../insurers/DKV Luxembourg.md>) · Branche : Complémentaire santé · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -216,8 +216,8 @@ Prothèses dentaires, p.ex. couronnes, inlays, prothèses amovibles ou fixes, im
 
 ## Documents liés
 
-- [EU PLUS - IPID - EN](EU%20PLUS%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
-- [EU PLUS - IPID - DE](EU%20PLUS%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
+- [EU PLUS - IPID - EN](<EU PLUS - IPID - EN.md>) - IPID / Fiche d'information
+- [EU PLUS - IPID - DE](<EU PLUS - IPID - DE.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

@@ -43,7 +43,7 @@ generated: true
 
 Document d'information (IPID) de l'« Assurance Dommages aux biens des collectivités territoriales », produit « Aléassur - Dommages aux biens », porté par SMACL Assurances SA (RCS Niort n° 833 817 224). Le contrat garantit l'ensemble du patrimoine immobilier de la collectivité, y compris le contenu des bâtiments assurés, les ouvrages participant à l'adduction et au traitement des eaux, les ouvrages d'art, le mobilier urbain, l'éclairage public, les édifices ruraux et monuments aux morts. L'indemnité est limitée à 15 000 000 €. Une longue liste d'événements et de frais annexes est systématiquement prévue (incendie, dégâts des eaux, avalanches à hauteur de 4 000 000 €, vol et vandalisme à hauteur de 100 000 €, catastrophes naturelles, mesures conservatoires, contenu des congélateurs à hauteur de 15 000 €, etc.), ainsi que la responsabilité à l'égard des propriétaires, locataires, voisins et tiers. Sept garanties optionnelles sont proposées, dont le bris de machines et les inondations hors catastrophes naturelles.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information · Édition : 02/2025
+- Assureur : [SMACL Assurances](<../../insurers/SMACL Assurances.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : IPID / Fiche d'information · Édition : 02/2025
 
 ## Garanties
 

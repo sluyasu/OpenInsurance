@@ -43,7 +43,7 @@ generated: true
 
 Tableau de garanties du contrat de complémentaire santé Macif Santé des Territoriaux, garanties en vigueur au 1er juin 2026. La couverture combine deux grilles distinctes : une grille « SOINS » à six formules (PRIMO, ÉCONOMIQUE, ESSENTIELLE, ÉQUILIBRÉE, ÉTENDUE, EXCELLENCE) couvrant l’hospitalisation, la prime naissance, les soins courants et la prévention/mieux-être, et une grille « ÉQUIPEMENTS » à cinq niveaux couvrant le dentaire, l’optique, les aides auditives, l’appareillage et les cures thermales. Les remboursements en pourcentage s’entendent par rapport aux bases de remboursement de la Sécurité sociale, remboursement de celle-ci inclus ; ceux exprimés en euros correspondent au remboursement de la mutuelle seule. Le contrat est distribué par la Macif et assuré par la MNFCT, elle-même substituée par Macif Santé Prévoyance. Macif Santé des Territoriaux est un contrat responsable au sens de l’article L.871-1 du Code de la sécurité sociale.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit · Édition : 06/26
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Complémentaire santé](<../../branches/Complémentaire santé.md>) · Type : Fiche produit · Édition : 06/26
 
 ## Définitions
 
@@ -1126,8 +1126,8 @@ Ligne du tableau de garanties, section « CURES THERMALES REMBOURSÉES PAR LE R�
 
 ## Documents liés
 
-- [CONTRAT MACIF SANTÉ DES TERRITORIAUX - IPID](CONTRAT%20MACIF%20SANT%C3%89%20DES%20TERRITORIAUX%20-%20IPID.md) - IPID / Fiche d'information, éd. 2026-06
-- [Macif Santé des Territoriaux](Macif%20Sant%C3%A9%20des%20Territoriaux.md) - Conditions générales, éd. 2026-06
+- [CONTRAT MACIF SANTÉ DES TERRITORIAUX - IPID](<CONTRAT MACIF SANTÉ DES TERRITORIAUX - IPID.md>) - IPID / Fiche d'information, éd. 2026-06
+- [Macif Santé des Territoriaux](<Macif Santé des Territoriaux.md>) - Conditions générales, éd. 2026-06
 
 ## Source & fidélité
 

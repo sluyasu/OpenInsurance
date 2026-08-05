@@ -45,7 +45,7 @@ generated: true
 
 Insurance product information document (IPID) for the insurance attached to SPUERKEESS credit cards, in the MILES & MORE LUXAIR VISA variant, presented under the LALUX Assurances brand. It sets out two groups of cover: NON-ASSISTANCE COVER (accident while travelling, cancellation or interruption of a trip, flight/loss/delay of luggage, flight delay or extension of stay if blocked, protection of purchases, delivery of goods purchased via the internet, and exemption from the rental vehicle / e-mobility excess) and ASSISTANCE COVER (in the event of illness or death, and cash emergency). The insured persons are the cardholder, the spouse/partner and children under the age of 25 under the stated conditions. The cover is valid worldwide and is conditional on at least 30% of the cost of the insured trip being paid with the card. The document lists the cover by title only and gives no amounts, limits or deductibles.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](<../../insurers/lalux.md>) · Branche : [Voyage et assistance](<../../branches/Voyage et assistance.md>) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -189,7 +189,7 @@ Insurance product information document (IPID) for the insurance attached to SPUE
 
 ## Documents liés
 
-- [SPUERKEESS credit card insurance – Assistance and Non-Assistance cover (MILES & MORE LUXAIR VISA BUSINESS) - IPID - EN](SPUERKEESS%20credit%20card%20insurance%20%E2%80%93%20Assistance%20and%20Non-Assistance%20cover%20%28MILES%20%26%20MORE%20LUXAIR%20VISA%20BUSINESS%29%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+- [SPUERKEESS credit card insurance – Assistance and Non-Assistance cover (MILES & MORE LUXAIR VISA BUSINESS) - IPID - EN](<SPUERKEESS credit card insurance – Assistance and Non-Assistance cover (MILES & MORE LUXAIR VISA BUSINESS) - IPID - EN.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

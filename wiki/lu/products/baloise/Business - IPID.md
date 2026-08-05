@@ -41,7 +41,7 @@ generated: true
 
 Fiche d’information (IPID) de l’assurance multirisques entreprise « Business » de Bâloise Assurances Luxembourg S.A. Le document la présente comme une assurance à la carte destinée à préserver le patrimoine de l’entreprise, portant sur le bâtiment, le contenu et la responsabilité civile. L’encadré des garanties énumère une vingtaine de risques assurables (incendie et périls connexes, tempête, dégâts des eaux, vol, perte d’exploitation, bris de machine, transport, etc.) ainsi que les garanties de responsabilité civile exploitation, après livraison, objets confiés et existants, pollution accidentelle et défense et recours, avec des extensions facultatives dommages aux biens et responsabilité civile. Les plafonds sont les sommes assurées mentionnées aux conditions particulières.
 
-- Assureur : [Baloise Luxembourg](../../insurers/Baloise%20Luxembourg.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information
+- Assureur : [Baloise Luxembourg](<../../insurers/Baloise Luxembourg.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -260,8 +260,8 @@ Extension listée sous « Extensions facultatives » dans l’encadré « Qu’e
 
 ## Documents liés
 
-- [Business - IPID - EN](Business%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
-- [Business - IPID - DE](Business%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
+- [Business - IPID - EN](<Business - IPID - EN.md>) - IPID / Fiche d'information
+- [Business - IPID - DE](<Business - IPID - DE.md>) - IPID / Fiche d'information
 
 ## Source & fidélité
 

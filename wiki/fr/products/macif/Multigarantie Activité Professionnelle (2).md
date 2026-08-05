@@ -44,7 +44,7 @@ generated: true
 
 Conditions générales, version 06/2023, du contrat Multigarantie Activité Professionnelle de la Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l’Industrie et du Commerce, société d’assurance mutuelle à cotisations variables, siège social 1 rue Jacques Vandier - 79000 Niort). Il s’agit d’une multirisque professionnelle organisée en trois volets : la protection des biens (locaux professionnels, biens professionnels, modèles, archives et documents, avec les événements garantis des articles 1 à 9, les frais complémentaires de l’article 10 et l’assistance locaux professionnels de l’article 11 réalisée par IMA Assurances), la protection de l’activité (responsabilité civile exploitation, responsabilité civile professionnelle, responsabilité d’occupant des locaux professionnels, responsabilité civile biens confiés, défense et recours) et la protection financière (pertes d’exploitation et perte de la valeur du fonds d’exploitation, garanties optionnelles). Les garanties ne sont accordées que si elles sont mentionnées aux conditions particulières ; les limites de garantie et les franchises figurent dans un tableau des montants garantis indexé sur l’indice RI. Les garanties de responsabilité civile sont déclenchées par la réclamation, avec un délai subséquent de 5 ans.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : Conditions générales · Édition : 06/2023
+- Assureur : [Macif](<../../insurers/Macif.md>) · Branche : [Multirisque professionnelle](<../../branches/Multirisque professionnelle.md>) · Type : Conditions générales · Édition : 06/2023
 
 ## Définitions
 
@@ -939,9 +939,9 @@ Toutes les actions dérivant d’un contrat d’assurance sont prescrites par de
 
 ## Documents liés
 
-- ⚠️ Édition remplacée par une version plus récente : [Multigarantie Activité Professionnelle](Multigarantie%20Activit%C3%A9%20Professionnelle.md)
-- [Contrat Multigarantie Activité Professionnelle - IPID](Contrat%20Multigarantie%20Activit%C3%A9%20Professionnelle%20-%20IPID.md) - IPID / Fiche d'information, éd. 06/23
-- [Multigarantie Activité Professionnelle](Multigarantie%20Activit%C3%A9%20Professionnelle.md) - Conditions générales, éd. Version 12/2025 (Version décembre 2025)
+- ⚠️ Édition remplacée par une version plus récente : [Multigarantie Activité Professionnelle](<Multigarantie Activité Professionnelle.md>)
+- [Contrat Multigarantie Activité Professionnelle - IPID](<Contrat Multigarantie Activité Professionnelle - IPID.md>) - IPID / Fiche d'information, éd. 06/23
+- [Multigarantie Activité Professionnelle](<Multigarantie Activité Professionnelle.md>) - Conditions générales, éd. Version 12/2025 (Version décembre 2025)
 
 ## Source & fidélité
 

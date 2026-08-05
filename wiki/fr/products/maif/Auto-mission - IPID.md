@@ -43,7 +43,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) du contrat « Auto-mission » de MAIF, présenté sous l’intitulé « Assurance Auto professionnelle ». Le produit garantit les conducteurs de véhicules terrestres à moteur membres d’une structure contre les conséquences des dommages matériels et/ou corporels causés à des tiers lors de l’utilisation de leur véhicule personnel pour les besoins de la structure et dans son intérêt exclusif (responsabilité civile). Il comporte en outre des garanties de dommages au véhicule, une garantie recours-protection juridique et des services d’assistance au véhicule et aux personnes.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 02-2025
+- Assureur : [MAIF](<../../insurers/MAIF.md>) · Branche : [Assurance auto](<../../branches/Assurance auto.md>) · Type : IPID / Fiche d'information · Édition : 02-2025
 
 ## Garanties
 
