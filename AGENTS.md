@@ -982,6 +982,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | sante | macif | Garantie Santé Territoriaux | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/GST-reglement-mutualiste.pdf) |
 | fr | sante | macif | Garantie Santé Territoriaux - Fiche | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/GST-fiche-synthese.pdf) |
 | fr | sante | macif | MACIF HOSPITALISATION (2) | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/NID/NID_MH_COMPLET_20240101.pdf) |
+| fr | sante | macif | MACIF MUTUELLE SANTÉ | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/NID/NID_assurance_sante.pdf) |
 | fr | sante | macif | Macif Hospitalisation | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/NID/NID_assurance_hospitalisation.pdf) |
 | fr | sante | macif | Macif Mutuelle Entreprises | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/conditions-generales-macif-mutuelle-entreprises.pdf) |
 | fr | sante | macif | Macif Mutuelle Entreprises (2) | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/nid-macif-mutuelle-entreprises.pdf) |
@@ -993,7 +994,6 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | sante | macif | Macif Mutuelle Entreprises - Formule Essentielle Plus - Régime Général - Fiche | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/exemples-de-remboursements-mme-2-formule-essentielle-plus.pdf) |
 | fr | sante | macif | Macif Mutuelle Entreprises - Formule Etendue - Régime Général - Fiche | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/exemples-de-remboursements-mme-5-formule-etendue.pdf) |
 | fr | sante | macif | Macif Mutuelle Entreprises - Formule Excellence - Régime Général - Fiche | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/exemples-de-remboursements-mme-6-formule-excellence.pdf) |
-| fr | sante | macif | Macif Mutuelle Santé | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/NID/NID_assurance_sante.pdf) |
 | fr | sante | macif | Macif Mutuelle Santé (2) | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/NID/NID_MMS_COMPLET_20240101.pdf) |
 | fr | sante | macif | Macif Mutuelle Santé - Fiche | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/Remboursement_assurance_sante.pdf) |
 | fr | sante | macif | Macif Mutuelle Santé - Fiche (2) | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/TableauGaranties_assurance_sante.pdf) |
