@@ -59,11 +59,16 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      # deploy-pages hard-caps its poll at 10 minutes: a `timeout:` input above the
+      # cap is silently clamped (Math.min in the action's source), so "wait longer"
+      # is not an available fix. On 2026-08-06 five consecutive deploys of
+      # byte-identical content died on "Timeout reached, aborting!" while the build
+      # stayed green and githubstatus said "operational". What CAN be done is try
+      # twice: a second 10-minute window catches the backend hiccup the first one
+      # sat through.
       - id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          # The action polls the Pages deployment and aborts at 10 min by default.
-          # On 2026-08-06 the Pages queue slowed and three consecutive deploys died
-          # on "Timeout reached, aborting!" while the build job stayed green. A slow
-          # queue is not a failed deploy: give it half an hour before calling it one.
-          timeout: 1800000
+        continue-on-error: true
+      - id: retry
+        if: steps.deployment.outcome == 'failure'
+        uses: actions/deploy-pages@v4
