@@ -215,13 +215,19 @@ def write_knowledge_graph_html() -> None:
           f"{top[0][0]} · {top[0][1]})")
 
 
-def shoot(html_name: str, png_name: str, width: int) -> None:
-    """assets/<html> -> assets/<png> (2x), via Playwright."""
+def shoot(html_name: str, stem: str, width: int) -> str | None:
+    """assets/<html> -> assets/<stem>-<sha8>.png (2x), via Playwright.
+
+    The filename carries a content hash because github.com serves README images
+    through a caching proxy (camo) keyed on the URL: replacing a PNG in place
+    kept showing the OLD figure on the repo page long after the push. A new
+    content means a new name, so the proxy cannot serve a stale image. Older
+    hashed variants are removed; README references are rewritten by main()."""
     try:
         from playwright.sync_api import sync_playwright
     except ImportError:
-        print(f"playwright not installed; skipping {png_name}")
-        return
+        print(f"playwright not installed; skipping {stem}.png")
+        return None
     with sync_playwright() as pw:
         browser = pw.chromium.launch()
         page = browser.new_page(viewport={"width": width, "height": 800},
@@ -232,15 +238,36 @@ def shoot(html_name: str, png_name: str, width: int) -> None:
         page.wait_for_timeout(300)
         height = page.evaluate("document.body.scrollHeight")
         page.set_viewport_size({"width": width, "height": height})
-        page.screenshot(path=str(ASSETS / png_name))
+        png = page.screenshot()
         browser.close()
-    print(f"wrote assets/{png_name}")
+    import hashlib
+    name = f"{stem}-{hashlib.sha256(png).hexdigest()[:8]}.png"
+    for old in ASSETS.glob(f"{stem}*.png"):
+        if old.name != name:
+            old.unlink()
+    (ASSETS / name).write_bytes(png)
+    print(f"wrote assets/{name}")
+    return name
+
+
+def repoint_readme(names: list[str]) -> None:
+    import re
+    readme = REPO / "README.md"
+    text = orig = readme.read_text(encoding="utf-8")
+    for name in names:
+        stem = name.rsplit("-", 1)[0]
+        text = re.sub(rf"assets/{re.escape(stem)}(-[0-9a-f]{{8}})?\.png",
+                      f"assets/{name}", text)
+    if text != orig:
+        readme.write_text(text, encoding="utf-8")
+        print("README image references updated")
 
 
 def main() -> int:
     write_knowledge_graph_html()
-    shoot("knowledge-graph.html", "knowledge-graph.png", 760)
-    shoot("architecture.html", "architecture.png", 1180)
+    names = [shoot("knowledge-graph.html", "knowledge-graph", 760),
+             shoot("architecture.html", "architecture", 1180)]
+    repoint_readme([n for n in names if n])
     return 0
 
 

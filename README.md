@@ -18,7 +18,7 @@ Markdown page that preserves the maximum of what the PDF actually says, with a c
 cross-linked into a navigable graph of products, insurers, branches, regulations and concepts.
 
 <p align="center">
-  <img src="assets/knowledge-graph.png" alt="The insurance knowledge web: 1,189 product dots gathered around their branch hubs, 39 insurers in indigo, 4 countries" width="720">
+  <img src="assets/knowledge-graph-662a0d77.png" alt="The insurance knowledge web: 1,189 product dots gathered around their branch hubs, 39 insurers in indigo, 4 countries" width="720">
 </p>
 
 As far as we know, this is the **only open-source, machine-readable, source-cited database of insurance
@@ -86,7 +86,7 @@ The goal is that **any** AI agent can answer insurance questions from documents 
 picks the architecture:
 
 <p align="center">
-  <img src="assets/architecture.png" alt="Pipeline: sources → download → extract → build; then 3 tiers of agent access" width="900">
+  <img src="assets/architecture-b1843d99.png" alt="Pipeline: sources → download → extract → build; then 3 tiers of agent access" width="900">
 </p>
 
 **Why MCP.** The [Model Context Protocol](https://modelcontextprotocol.io) is the standard socket between AI
