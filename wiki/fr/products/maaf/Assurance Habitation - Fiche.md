@@ -238,7 +238,6 @@ Garantie listée sous la rubrique « Vos garanties habitation (suite) » du comp
 ## Documents liés
 
 - Édition courante de ce produit.
-- [FICHE D'INFORMATION RELATIVE A LA VENTE A DISTANCE DE VOTRE CONTRAT TEMPO HABITATION (vente à distance) - Doc](<FICHE D'INFORMATION RELATIVE A LA VENTE A DISTANCE DE VOTRE CONTRAT TEMPO HABITATION (vente à distance) - Doc.md>) - Document
 - [Tempo Habitation - Fiche](<Tempo Habitation - Fiche.md>) - Fiche produit, éd. 06/2022
 - [Tempo Habitation (DROM)](<Tempo Habitation (DROM).md>) - Conditions générales, éd. 01/23
 - [Tempo Habitation](<Tempo Habitation.md>) - Conditions générales, éd. 03/26

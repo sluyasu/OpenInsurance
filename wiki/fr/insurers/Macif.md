@@ -5,7 +5,7 @@ country: fr
 insurer_slug: macif
 name: Macif
 website: https://www.macif.fr
-products_count: 156
+products_count: 154
 branches_covered:
 - animaux
 - assurance-vie
@@ -43,7 +43,7 @@ generated: true
 
 ## Résumé
 
-**Macif** - [https://www.macif.fr](https://www.macif.fr). 156 document(s) across 21 branch(es).
+**Macif** - [https://www.macif.fr](https://www.macif.fr). 154 document(s) across 21 branch(es).
 
 ## Produits par branche
 
@@ -76,13 +76,11 @@ generated: true
 - [Contrat Macif Pann'Auto - IPID](<../products/macif/Contrat Macif Pann'Auto - IPID.md>) - IPID / Fiche d'information (12/22) · réf. VEH/GPM/05 12/22
 - [Contrat d'assurance automobile — Voitures particulières, fourgons et fourgonnettes](<../products/macif/Contrat d'assurance automobile — Voitures particulières, fourgons et fourgonnettes.md>) - Conditions générales (janvier 2018) · réf. VEH/AUTO/19-01/18-N828
 - [Macif Auto](<../products/macif/Macif Auto.md>) - Conditions générales (2026-01) · réf. VEH/AUTO PART/05 - 01/26 - N338
-- [Réduction spéciale Bon conducteur Macif - Tarifs](<../products/macif/Réduction spéciale Bon conducteur Macif - Tarifs.md>) - Conditions tarifaires (2024-12)
 
 ### [Autres](<../branches/Autres.md>)
 - [Banque - Notice d'information d'Assurance des Moyens de paiement - IPID](<../products/macif/Banque - Notice d'information d'Assurance des Moyens de paiement - IPID.md>) - IPID / Fiche d'information (10/18) · réf. BQ MP 10/18
 - [Contrat Caravaning](<../products/macif/Contrat Caravaning.md>) - Conditions générales (Avril 2015) · réf. LOIS/CARACC/05 - 04/15 - N073
 - [Contrat Caravaning - IPID](<../products/macif/Contrat Caravaning - IPID.md>) - IPID / Fiche d'information (2018-10) · réf. LOIS CARAV 10/18
-- [Statuts de Macif Santé Prévoyance - Doc](<../products/macif/Statuts de Macif Santé Prévoyance - Doc.md>) - Document (adoptés par l’assemblée générale du 14 juin 2025) · réf. U197 - PREI/MSP/Statuts - 01/26
 
 ### [Chasse](<../branches/Chasse.md>)
 - [Contrat Chasse](<../products/macif/Contrat Chasse.md>) - Conditions générales (décembre 2012) · réf. LOIS/CHA/05 - 12/12 - NM12

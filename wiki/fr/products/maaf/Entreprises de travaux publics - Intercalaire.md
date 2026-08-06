@@ -141,7 +141,6 @@ Le document ne traite pas de la prescription des actions dérivant du contrat d'
 - Extension / option du produit : **Conditions générales Multirisque des professionnels du Bâtiment et des Travaux Publics référencées 11036**
 - [Multirisque des Professionnels du Bâtiment et des Travaux Publics](<Multirisque des Professionnels du Bâtiment et des Travaux Publics.md>) - Conditions générales, éd. 01/26
 - [Multirisque des Professionnels du Bâtiment et des Travaux Publics - IPID](<Multirisque des Professionnels du Bâtiment et des Travaux Publics - IPID.md>) - IPID / Fiche d'information, éd. 2024-06
-- [Nomenclature MAAF Assurances SA des activités du Bâtiment et des Travaux Publics - Doc](<Nomenclature MAAF Assurances SA des activités du Bâtiment et des Travaux Publics - Doc.md>) - Document, éd. 06/2026
 
 ## Source & fidélité
 

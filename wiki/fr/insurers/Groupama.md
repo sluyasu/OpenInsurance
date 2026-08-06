@@ -5,7 +5,7 @@ country: fr
 insurer_slug: groupama
 name: Groupama
 website: https://www.groupama.fr
-products_count: 31
+products_count: 30
 branches_covered:
 - assurance-vie
 - auto
@@ -31,7 +31,7 @@ generated: true
 
 ## Résumé
 
-**Groupama** - [https://www.groupama.fr](https://www.groupama.fr). 31 document(s) across 9 branch(es).
+**Groupama** - [https://www.groupama.fr](https://www.groupama.fr). 30 document(s) across 9 branch(es).
 
 ## Produits par branche
 
@@ -63,7 +63,6 @@ generated: true
 - [Annexe Garantie Protection juridique automobile — Assurance Flotte automobile](<../products/groupama/Annexe Garantie Protection juridique automobile — Assurance Flotte automobile.md>) - Conditions générales (032020) · réf. 3350-214931-032020 - PAO/SP3
 
 ### [RC professionnelle](<../branches/RC professionnelle.md>)
-- [Fiche d'information relative au fonctionnement des garanties « Responsabilité civile » dans le temps - Doc](<../products/groupama/Fiche d'information relative au fonctionnement des garanties « Responsabilité civile » dans le temps - Doc.md>) - Document (032026) · réf. 3350-216063-032026
 - [PROFIL ELUS - IPID](<../products/groupama/PROFIL ELUS - IPID.md>) - IPID / Fiche d'information (V012026) · réf. V012026
 - [PROFIL ÉLUS](<../products/groupama/PROFIL ÉLUS.md>) - Conditions générales · réf. RÉF. 3350-213452-012026 • MODÈLE PEL05
 - [Profil élus - Tableau des montants de garantie et des franchises - Tarifs](<../products/groupama/Profil élus - Tableau des montants de garantie et des franchises - Tarifs.md>) - Conditions tarifaires (janvier 2026) · réf. 3350-213453-012026 • MODÈLE TPEL 07

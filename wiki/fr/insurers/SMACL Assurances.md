@@ -5,7 +5,7 @@ country: fr
 insurer_slug: smacl
 name: SMACL Assurances
 website: https://www.smacl.fr
-products_count: 111
+products_count: 101
 branches_covered:
 - auto
 - autres
@@ -37,7 +37,7 @@ generated: true
 
 ## Résumé
 
-**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 111 document(s) across 15 branch(es).
+**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 101 document(s) across 15 branch(es).
 
 ## Produits par branche
 
@@ -62,8 +62,6 @@ generated: true
 - [Rachat de franchise](<../products/smacl/Rachat de franchise.md>) - Conditions générales (11/2022) · réf. PP_CG_RachatFranchise_03(02_2023)
 - [Territorialité des garanties - Contrat Véhicules à moteur - Doc](<../products/smacl/Territorialité des garanties - Contrat Véhicules à moteur - Doc.md>) - Document (01/01/2026) · réf. FICHE_TERRITORIALITE_01(12_2025)
 - [Vos conventions spéciales CONVERGENCE - Véhicules à moteur](<../products/smacl/Vos conventions spéciales CONVERGENCE - Véhicules à moteur.md>) - Conditions générales (01/2024) · réf. CONVERGENCE_CS_VAM_SA_07(08_2016)
-- [Votre convention Diagnostic devis et diagnostic réparation (CAISSE RÉGIONALE DE CRÉDIT AGRICOLE) - Doc](<../products/smacl/Votre convention Diagnostic devis et diagnostic réparation (CAISSE RÉGIONALE DE CRÉDIT AGRICOLE) - Doc.md>) - Document (01/2024) · réf. CONVENTION_DIAG_PP_ CA_01(06_2016)
-- [Votre convention Diagnostic devis et diagnostic réparations automobile - Doc](<../products/smacl/Votre convention Diagnostic devis et diagnostic réparations automobile - Doc.md>) - Document (01/2024) · réf. CONVENTION_DIAG_PM_01(09_2016)
 - [Votre convention d'assistance - Flottes entreprises véhicules légers](<../products/smacl/Votre convention d'assistance - Flottes entreprises véhicules légers.md>) - Conditions générales (07/2025) · réf. ENTREPRISE_CA_ASSISTANCEVL_02(01_2021)
 - [Votre convention d'assistance Flottes entreprises poids lourds](<../products/smacl/Votre convention d'assistance Flottes entreprises poids lourds.md>) - Conditions générales (07/2025) · réf. ENTREPRISE_CA_ASSISTANCEPL_02(01_2021)
 
@@ -73,7 +71,6 @@ generated: true
 - [CONVERGENCE - Annulation de manifestation (conventions spéciales)](<../products/smacl/CONVERGENCE - Annulation de manifestation (conventions spéciales).md>) - Conditions générales (01/2024) · réf. CONVERGENCE_CS_MANIF_SA_04(06_2018)
 - [CONVERGENCE - Protection financière](<../products/smacl/CONVERGENCE - Protection financière.md>) - Conditions générales (01/2024) · réf. CONVERGENCE_CS_PF_SA_05(05_2016)
 - [Convergence - Annulation de manifestation - IPID](<../products/smacl/Convergence - Annulation de manifestation - IPID.md>) - IPID / Fiche d'information (02/2025) · réf. CONVERGENCE_DIPA_MANIF_SA_03(09_2022)
-- [Votre droit de renonciation (hors contrat « Assurance Auto ») - Doc](<../products/smacl/Votre droit de renonciation (hors contrat « Assurance Auto ») - Doc.md>) - Document (09/2025)
 
 ### [Chasse](<../branches/Chasse.md>)
 - [Responsabilité civile chasse](<../products/smacl/Responsabilité civile chasse.md>) - Conditions générales (11/2022) · réf. PP_CG_RCChasse_05(02_2023)
@@ -141,13 +138,6 @@ generated: true
 - [Assurance Protection fonctionnelle des agents et des élus - IPID](<../products/smacl/Assurance Protection fonctionnelle des agents et des élus - IPID.md>) - IPID / Fiche d'information (03/2020) · réf. PROMUT_DIPA_PROMUT_02 (03_2020)
 - [Assurance des associations - protection juridique des associations - IPID](<../products/smacl/Assurance des associations - protection juridique des associations - IPID.md>) - IPID / Fiche d'information (11/2022) · réf. ADA_DIPA_PJ_02(07_2020)
 - [Assurance protection juridique des associations](<../products/smacl/Assurance protection juridique des associations.md>) - Conditions générales (01/2024) · réf. ADA_CG_PJASSO_03(02_2023)
-- [Convention Information juridique – Particuliers (SMACL Assurances (société d'assurance mutuelle)) - Doc](<../products/smacl/Convention Information juridique – Particuliers (SMACL Assurances (société d'assurance mutuelle)) - Doc.md>) - Document (01/2024) · réf. CONVENTION_IJ_PARTICULIER_02(02_2023)_TEL
-- [Convention Information juridique – Particuliers (SMACL Assurances SA (société anonyme)) - Doc](<../products/smacl/Convention Information juridique – Particuliers (SMACL Assurances SA (société anonyme)) - Doc.md>) - Document (01/2024) · réf. CONVENTION_IJ_PARTICULIER_SA_02(02_2023)_TEL
-- [Information juridique Associations - Doc](<../products/smacl/Information juridique Associations - Doc.md>) - Document (01/2024) · réf. CONVENTION_IJ_ASSOCIATIONS_02(02_2023)
-- [Information juridique Associations (SA) - Doc](<../products/smacl/Information juridique Associations (SA) - Doc.md>) - Document (01/2024) · réf. CONVENTION_IJ_ASSOCIATIONS_SA_02(02_2023)_TEL
-- [Information juridique Collectivités - Doc](<../products/smacl/Information juridique Collectivités - Doc (2).md>) - Document (01/2024) · réf. CONVENTION_IJ_COLLECTIVITES_SA_02(09_2022)
-- [Information juridique Collectivités - Doc](<../products/smacl/Information juridique Collectivités - Doc.md>) - Document (01/2024) · réf. CONVENTION_IJ_COLLECTIVITES_AO_02(02_2023)_TEL
-- [Information juridique Sécurité élus - Doc](<../products/smacl/Information juridique Sécurité élus - Doc.md>) - Document (07/2023) · réf. CONVENTION_IJ_ELUS_02(02_2023)_TEL
 - [JURIPACTE](<../products/smacl/JURIPACTE.md>) - Conditions générales (05/2025) · réf. JURIPACTE_CG_PJ_11(02_2023)
 - [JURIS-ASSO - Assurance Protection juridique des associations](<../products/smacl/JURIS-ASSO - Assurance Protection juridique des associations.md>) - Conditions générales (01/2024)
 - [Juripacte - IPID](<../products/smacl/Juripacte - IPID.md>) - IPID / Fiche d'information (02/2025) · réf. JURIPACTE_DIPA_PJ_01(06/2021)

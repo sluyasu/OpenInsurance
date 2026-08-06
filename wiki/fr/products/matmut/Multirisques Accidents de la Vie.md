@@ -428,8 +428,6 @@ Conformément à l'article L. 114-1 du Code des assurances, toutes actions déri
 
 ## Documents liés
 
-- Extension liée : [Conditions de l'offre — Remise à la souscription — Contrats Multirisques Accidents de la Vie et Multirisques Accidents d](<Conditions de l'offre — Remise à la souscription — Contrats Multirisques Accidents de la Vie et Multirisques Accidents d.md>)
-- [Conditions de l'offre — Remise à la souscription — Contrats Multirisques Accidents de la Vie et Multirisques Accidents d](<Conditions de l'offre — Remise à la souscription — Contrats Multirisques Accidents de la Vie et Multirisques Accidents d.md>) - Conditions tarifaires, éd. 01/26
 - [Contrat « Multirisques Accidents de la Vie » - IPID](<Contrat « Multirisques Accidents de la Vie » - IPID.md>) - IPID / Fiche d'information, éd. 01/26
 - [Multirisques Accidents de la Vie Sérénité](<Multirisques Accidents de la Vie Sérénité.md>) - Conditions générales, éd. 01/26
 

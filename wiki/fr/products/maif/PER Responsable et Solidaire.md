@@ -512,8 +512,6 @@ La prescription des actions dérivant du PER Responsable et Solidaire est régie
 
 ## Documents liés
 
-- Extension liée : [Fonds en euros du PER Responsable et Solidaire - Doc](<Fonds en euros du PER Responsable et Solidaire - Doc.md>)
-- [Fonds en euros du PER Responsable et Solidaire - Doc](<Fonds en euros du PER Responsable et Solidaire - Doc.md>) - Document, éd. 06/26
 - [PER Responsable et Solidaire - Tarifs](<PER Responsable et Solidaire - Tarifs.md>) - Conditions tarifaires, éd. 06/26
 - [PER Responsable et Solidaire - Doc](<PER Responsable et Solidaire - Doc (2).md>) - Document, éd. 06/2026
 - [PER Responsable et Solidaire - Doc](<PER Responsable et Solidaire - Doc.md>) - Document, éd. 06/26

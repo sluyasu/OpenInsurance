@@ -247,10 +247,8 @@ En option, au titre de « Votre mobilité » : Vol de vos matériels hors des lo
 ## Documents liés
 
 - Extension liée : [Entreprises de travaux publics - Intercalaire](<Entreprises de travaux publics - Intercalaire.md>)
-- Extension liée : [Nomenclature MAAF Assurances SA des activités du Bâtiment et des Travaux Publics - Doc](<Nomenclature MAAF Assurances SA des activités du Bâtiment et des Travaux Publics - Doc.md>)
 - [Entreprises de travaux publics - Intercalaire](<Entreprises de travaux publics - Intercalaire.md>) - Conditions générales, éd. 01/25
 - [Multirisque des Professionnels du Bâtiment et des Travaux Publics](<Multirisque des Professionnels du Bâtiment et des Travaux Publics.md>) - Conditions générales, éd. 01/26
-- [Nomenclature MAAF Assurances SA des activités du Bâtiment et des Travaux Publics - Doc](<Nomenclature MAAF Assurances SA des activités du Bâtiment et des Travaux Publics - Doc.md>) - Document, éd. 06/2026
 
 ## Source & fidélité
 

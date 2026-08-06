@@ -968,10 +968,8 @@ Toutes actions dérivant du contrat d'assurance sont prescrites par deux ans à 
 ## Documents liés
 
 - Extension liée : [Entreprises de travaux publics - Intercalaire](<Entreprises de travaux publics - Intercalaire.md>)
-- Extension liée : [Nomenclature MAAF Assurances SA des activités du Bâtiment et des Travaux Publics - Doc](<Nomenclature MAAF Assurances SA des activités du Bâtiment et des Travaux Publics - Doc.md>)
 - [Entreprises de travaux publics - Intercalaire](<Entreprises de travaux publics - Intercalaire.md>) - Conditions générales, éd. 01/25
 - [Multirisque des Professionnels du Bâtiment et des Travaux Publics - IPID](<Multirisque des Professionnels du Bâtiment et des Travaux Publics - IPID.md>) - IPID / Fiche d'information, éd. 2024-06
-- [Nomenclature MAAF Assurances SA des activités du Bâtiment et des Travaux Publics - Doc](<Nomenclature MAAF Assurances SA des activités du Bâtiment et des Travaux Publics - Doc.md>) - Document, éd. 06/2026
 
 ## Source & fidélité
 

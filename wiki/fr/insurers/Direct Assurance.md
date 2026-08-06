@@ -5,7 +5,7 @@ country: fr
 insurer_slug: direct-assurance
 name: Direct Assurance
 website: https://www.direct-assurance.fr
-products_count: 11
+products_count: 10
 branches_covered:
 - auto
 - habitation
@@ -26,7 +26,7 @@ generated: true
 
 ## Résumé
 
-**Direct Assurance** - [https://www.direct-assurance.fr](https://www.direct-assurance.fr). 11 document(s) across 4 branch(es).
+**Direct Assurance** - [https://www.direct-assurance.fr](https://www.direct-assurance.fr). 10 document(s) across 4 branch(es).
 
 ## Produits par branche
 
@@ -45,7 +45,6 @@ generated: true
 
 ### [Complémentaire santé](<../branches/Complémentaire santé.md>)
 - [Direct Assurance Santé](<../products/direct-assurance/Direct Assurance Santé.md>) - Conditions générales (12.24 (code de pied de page « SANTÉ_12.24_VF »)) · réf. SANTÉ_12.24_VF — N° IDU : FR232655_03PSOH ; contrats de groupe référencés 375044936006 (« responsable ») et 375044936007 (« non responsable ») ; contrat d'assistance N° 0804221
-- [Direct Assurance Santé - Exemples de remboursements - Doc](<../products/direct-assurance/Direct Assurance Santé - Exemples de remboursements - Doc.md>) - Document · réf. SAND1000_11.25 VW_V1
 - [Direct Assurance Santé - contrat responsable (Formules Essentielle, Essentielle +, Equilibre, Equilibre +, Liberté, Libe](<../products/direct-assurance/Direct Assurance Santé - contrat responsable (Formules Essentielle, Essentielle +, Equilibre, Equilibre +, Liberté, Libe.md>) - IPID / Fiche d'information (12/2024) · réf. IPID SANTE
 - [Direct Assurance Santé - formules Hospi (contrat non responsable) (Formules Hospi et Hospi + (contrat non responsable)) ](<../products/direct-assurance/Direct Assurance Santé - formules Hospi (contrat non responsable) (Formules Hospi et Hospi + (contrat non responsable)) .md>) - IPID / Fiche d'information (12/2024) · réf. IPID SANTE
 

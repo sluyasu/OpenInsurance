@@ -262,7 +262,6 @@ Cures thermales : Frais médicaux, de séjour et de transport
 
 ## Documents liés
 
-- [Direct Assurance Santé - Exemples de remboursements - Doc](<Direct Assurance Santé - Exemples de remboursements - Doc.md>) - Document
 - [Direct Assurance Santé - formules Hospi (contrat non responsable) (Formules Hospi et Hospi + (contrat non responsable)) ](<Direct Assurance Santé - formules Hospi (contrat non responsable) (Formules Hospi et Hospi + (contrat non responsable)) .md>) - IPID / Fiche d'information, éd. 12/2024
 - [Direct Assurance Santé](<Direct Assurance Santé.md>) - Conditions générales, éd. 12.24 (code de pied de page « SANTÉ_12.24_VF »)
 

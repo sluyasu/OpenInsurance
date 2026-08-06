@@ -18,15 +18,15 @@ products** (the closest equivalents are commercial and closed). Point it at **an
 data, not code, and adding a country is a documented recipe ([`_meta/BOOTSTRAP-COUNTRY.md`](_meta/BOOTSTRAP-COUNTRY.md)).
 
 The dataset covers **four countries - Belgium, France, Luxembourg and Switzerland** - for a total of
-**38 insurers and 1,206 product pages** (auto, home, health, liability, travel, legal protection, ...), each
+**39 insurers and 1,189 product pages** (auto, home, health, liability, travel, legal protection, ...), each
 page cited to its source document:
 
 | Country | Insurers | Product pages | Branch pages | State |
 |---|---:|---:|---:|---|
 | Belgium (`be`) | 24 | 269 | 17 | Reference country: the only complete hand-authored layer - a branch page for every populated branch, 3 regulation pages, a country glossary |
-| France (`fr`) | 10 | 774 | 24 | Largest by volume; the enumerated market is far from exhausted |
-| Luxembourg (`lu`) | 3 | 160 | 13 | Core resident insurers ingested |
-| Switzerland (`ch`) | 1 | 3 | 0 | A first vertical slice, nothing more |
+| France (`fr`) | 10 | 714 | 24 | Largest by volume; the enumerated market is far from exhausted |
+| Luxembourg (`lu`) | 4 | 194 | 15 | Core resident insurers ingested |
+| Switzerland (`ch`) | 1 | 12 | 0 | A first vertical slice, nothing more |
 
 The recipe was proven on Belgium first and has since been run three more times, which is what turned
 "country-agnostic" from a design claim into a tested one. Live counts are the generated coverage table in
@@ -36,7 +36,7 @@ The recipe was proven on Belgium first and has since been run three more times, 
 
 ## Use it in 2 minutes - no API key needed
 
-The dataset **ships in the repo, already built**: 1,206 product pages across four countries, insurer pages,
+The dataset **ships in the repo, already built**: 1,189 product pages across four countries, insurer pages,
 glossary, plus the structured JSON behind them. You only need an LLM key to *re-extract from scratch*, never
 to *use* it.
 

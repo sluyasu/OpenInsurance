@@ -130,8 +130,6 @@ Recueil des documents d’informations clés (DIC au sens du règlement PRIIPs) 
 ## Documents liés
 
 - Édition courante de ce produit.
-- Extension liée : [Fonds en euros du PER Responsable et Solidaire - Doc](<Fonds en euros du PER Responsable et Solidaire - Doc.md>)
-- [Fonds en euros du PER Responsable et Solidaire - Doc](<Fonds en euros du PER Responsable et Solidaire - Doc.md>) - Document, éd. 06/26
 - [PER Responsable et Solidaire](<PER Responsable et Solidaire.md>) - Conditions générales, éd. 06/26
 - [PER Responsable et Solidaire - Tarifs](<PER Responsable et Solidaire - Tarifs.md>) - Conditions tarifaires, éd. 06/26
 - [PER Responsable et Solidaire - Doc](<PER Responsable et Solidaire - Doc (2).md>) - Document, éd. 06/2026

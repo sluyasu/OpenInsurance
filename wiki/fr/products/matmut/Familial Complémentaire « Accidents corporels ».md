@@ -261,10 +261,6 @@ Article 16 : conformément à l’article L.114-1 du Code des assurances, toutes
 - Les trois formules Famille / Couple / Individuelle ne sont pas des variantes de distribution mais des formules internes au même contrat, différenciées par le périmètre des personnes assurées (article 4-1) : variant est donc laissé null et le détail figure dans les conditions de chaque garantie et dans special_conditions.
 - Aucun tableau à cases cochées (tableau des garanties par formule) dans ce document : les périmètres des formules sont énoncés en texte à l'article 4-1. Aucune récupération graphique n'a donc été nécessaire.
 
-## Documents liés
-
-- [Conditions de l'offre Contrat Familial Complémentaire - Tarifs](<Conditions de l'offre Contrat Familial Complémentaire - Tarifs.md>) - Conditions tarifaires, éd. 01/26
-
 ## Source & fidélité
 
 - Source : [https://www.matmut.fr/services-en-ligne/doc/CG/FCAC1.pdf](https://www.matmut.fr/services-en-ligne/doc/CG/FCAC1.pdf) - téléchargé le 2026-07-30 - 30 pages

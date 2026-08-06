@@ -193,7 +193,6 @@ Participation aux frais d'obsèques. Garantie optionnelle du groupe « Dommages 
 ## Documents liés
 
 - [Assurance scolaire](<Assurance scolaire.md>) - Conditions générales, éd. 2023-12
-- [Conditions de l'offre Assurance Scolaire - Tarifs](<Conditions de l'offre Assurance Scolaire - Tarifs.md>) - Conditions tarifaires, éd. 05/26
 
 ## Source & fidélité
 

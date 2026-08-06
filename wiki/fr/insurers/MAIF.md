@@ -5,11 +5,10 @@ country: fr
 insurer_slug: maif
 name: MAIF
 website: https://www.maif.fr
-products_count: 69
+products_count: 59
 branches_covered:
 - assurance-vie
 - auto
-- autres
 - credit-caution
 - decennale
 - edpm
@@ -40,7 +39,7 @@ generated: true
 
 ## Résumé
 
-**MAIF** - [https://www.maif.fr](https://www.maif.fr). 69 document(s) across 18 branch(es).
+**MAIF** - [https://www.maif.fr](https://www.maif.fr). 59 document(s) across 17 branch(es).
 
 ## Produits par branche
 
@@ -50,11 +49,6 @@ generated: true
 - [Assurance vie Responsable et Solidaire - IPID](<../products/maif/Assurance vie Responsable et Solidaire - IPID.md>) - IPID / Fiche d'information (06/26) · réf. DIC16 - 06/26
 - [Assurance vie Responsable et Solidaire](<../products/maif/Assurance vie Responsable et Solidaire.md>) - Conditions générales (04/25)
 - [Assurance vie Responsable et Solidaire - Annexes à la Notice d'information](<../products/maif/Assurance vie Responsable et Solidaire - Annexes à la Notice d'information.md>) - Conditions générales (06/26) · réf. NIA16
-- [Fonds en euros - Doc](<../products/maif/Fonds en euros - Doc.md>) - Document (06/26) · réf. DIS16 - 06/26
-- [Historique des rendements du support en euros - Doc](<../products/maif/Historique des rendements du support en euros - Doc.md>) - Document (01/2026) · réf. PALP - 01/2026
-- [Informations réglementaires sur les actifs référencés dans le contrat - Doc](<../products/maif/Informations réglementaires sur les actifs référencés dans le contrat - Doc.md>) - Document · réf. Relevé annuel 2025
-- [Publication relative aux contrats d'assurance vie non réglés (art. L. 132-9-4) - Doc](<../products/maif/Publication relative aux contrats d'assurance vie non réglés (art. L. 132-9-4) - Doc.md>) - Document (04/2026) · réf. TLOIE - 04/2026
-- [fonds en euros du contrat Assurance vie Responsable et Solidaire - Doc](<../products/maif/fonds en euros du contrat Assurance vie Responsable et Solidaire - Doc.md>) - Document (06/26) · réf. CESC€16 - 06/26
 
 ### [Assurance auto](<../branches/Assurance auto.md>)
 - [Assurance Auto-Moto Vam - IPID](<../products/maif/Assurance Auto-Moto Vam - IPID.md>) - IPID / Fiche d'information (10/2025) · réf. IPID VAM
@@ -67,11 +61,6 @@ generated: true
 - [Auto-mission - IPID](<../products/maif/Auto-mission - IPID.md>) - IPID / Fiche d'information (02-2025) · réf. IPID AUTO-MISSION
 - [Vam Associations et Collectivités - IPID](<../products/maif/Vam Associations et Collectivités - IPID.md>) - IPID / Fiche d'information (10/2025) · réf. IPID VAM A&C
 - [Véhicules entreprises - IPID](<../products/maif/Véhicules entreprises - IPID.md>) - IPID / Fiche d'information (09-2022) · réf. IPID VÉHI ENT
-
-### [Autres](<../branches/Autres.md>)
-- [Barème de frais - Tarifs](<../products/maif/Barème de frais - Tarifs.md>) - Conditions tarifaires (03/2026)
-- [Barème de frais applicables à compter du 01-07-2024 pour les Associations et les Collectivités (Associations et Collecti](<../products/maif/Barème de frais applicables à compter du 01-07-2024 pour les Associations et les Collectivités (Associations et Collecti.md>) - Conditions tarifaires (07/2024)
-- [Notice juridique sur l'assurance à distance - Doc](<../products/maif/Notice juridique sur l'assurance à distance - Doc.md>) - Document (06/2026) · réf. 2113NJ
 
 ### Crédit et caution
 - [Assurance Loyers Impayés - Doc](<../products/maif/Assurance Loyers Impayés - Doc.md>) - Document
@@ -89,7 +78,6 @@ generated: true
 ### [Assurance emprunteur](<../branches/Assurance emprunteur.md>)
 - [Assurance Emprunteur Crédit Auto Acquisition - IPID](<../products/maif/Assurance Emprunteur Crédit Auto Acquisition - IPID.md>) - IPID / Fiche d'information (10-2021)
 - [Assurance Emprunteur MAIF (AEM)](<../products/maif/Assurance Emprunteur MAIF (AEM).md>) - Conditions générales (11/24) · réf. NIAEM
-- [La Convention AERAS - Doc](<../products/maif/La Convention AERAS - Doc.md>) - Document
 
 ### [Garantie des accidents de la vie](<../branches/Garantie des accidents de la vie.md>)
 - [Assurance des Accidents de la Vie Courante Praxis Solutions - IPID](<../products/maif/Assurance des Accidents de la Vie Courante Praxis Solutions - IPID.md>) - IPID / Fiche d'information (05/2024) · réf. IPID PRAXIS SOLUTIONS
@@ -140,7 +128,6 @@ generated: true
 - [Responsabilité Civile Maître d'Ouvrage Associations et Collectivités - IPID](<../products/maif/Responsabilité Civile Maître d'Ouvrage Associations et Collectivités - IPID.md>) - IPID / Fiche d'information (08/2025) · réf. IPID RCMO A&C
 
 ### [Retraite supplémentaire](<../branches/Retraite supplémentaire.md>)
-- [Fonds en euros du PER Responsable et Solidaire - Doc](<../products/maif/Fonds en euros du PER Responsable et Solidaire - Doc.md>) - Document (06/26) · réf. CESC€21
 - [PER Responsable et Solidaire](<../products/maif/PER Responsable et Solidaire.md>) - Conditions générales (06/26) · réf. NI21-06/26
 - [PER Responsable et Solidaire - Tarifs](<../products/maif/PER Responsable et Solidaire - Tarifs.md>) - Conditions tarifaires (06/26) · réf. TDF21
 - [PER Responsable et Solidaire - Doc](<../products/maif/PER Responsable et Solidaire - Doc (2).md>) - Document (06/2026) · réf. RSFDR21Fr

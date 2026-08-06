@@ -131,15 +131,15 @@ né d'un contrat que le classement en [[EDPM et mobilités douces]] aurait mal d
 ## Assureurs documentés
 
 <!-- BEGIN GENERATED: insurers -->
-- [Direct Assurance](<insurers/Direct Assurance.md>) (11 documents)
+- [Direct Assurance](<insurers/Direct Assurance.md>) (10 documents)
 - [Gan Assurances](<insurers/Gan Assurances.md>) (50 documents)
-- [Groupama](<insurers/Groupama.md>) (31 documents)
+- [Groupama](<insurers/Groupama.md>) (30 documents)
 - [Luko](<insurers/Luko.md>) (14 documents)
-- [MAAF](<insurers/MAAF.md>) (94 documents)
-- [Macif](<insurers/Macif.md>) (156 documents)
-- [MAIF](<insurers/MAIF.md>) (69 documents)
-- [Matmut](<insurers/Matmut.md>) (203 documents)
-- [SMACL Assurances](<insurers/SMACL Assurances.md>) (111 documents)
+- [MAAF](<insurers/MAAF.md>) (88 documents)
+- [Macif](<insurers/Macif.md>) (154 documents)
+- [MAIF](<insurers/MAIF.md>) (59 documents)
+- [Matmut](<insurers/Matmut.md>) (163 documents)
+- [SMACL Assurances](<insurers/SMACL Assurances.md>) (101 documents)
 - [Thélem assurances](<insurers/Thélem assurances.md>) (45 documents)
 <!-- END GENERATED -->
 

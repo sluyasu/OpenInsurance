@@ -162,8 +162,6 @@ Publication d’informations en matière de durabilité relative au contrat PER 
 ## Documents liés
 
 - Édition courante de ce produit.
-- Extension liée : [Fonds en euros du PER Responsable et Solidaire - Doc](<Fonds en euros du PER Responsable et Solidaire - Doc.md>)
-- [Fonds en euros du PER Responsable et Solidaire - Doc](<Fonds en euros du PER Responsable et Solidaire - Doc.md>) - Document, éd. 06/26
 - [PER Responsable et Solidaire](<PER Responsable et Solidaire.md>) - Conditions générales, éd. 06/26
 - [PER Responsable et Solidaire - Tarifs](<PER Responsable et Solidaire - Tarifs.md>) - Conditions tarifaires, éd. 06/26
 - [PER Responsable et Solidaire - Doc](<PER Responsable et Solidaire - Doc.md>) - Document, éd. 06/26

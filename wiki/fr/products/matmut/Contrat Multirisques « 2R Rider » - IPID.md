@@ -179,11 +179,6 @@ Protection Juridique relative au bien assuré : prise en charge de la défense d
 - Le texte comporte 5 glyphes de zone privée Unicode U+F0FC (puces Wingdings converties) en tête des garanties en inclusion et des deux paragraphes de la rubrique « Où suis-je couvert(e) ? ». Les citations verbatim ont été découpées de façon à ne jamais les traverser.
 - Texte du document vérifié caractère par caractère contre le PDF source (PyMuPDF, page.get_text("text")) : les 2 pages du prompt sont identiques à celles du PDF. Aucune troncature.
 
-## Documents liés
-
-- Extension liée : [Conditions de l'Avantage Motard Professionnel de la Fonction Publique - Tarifs](<Conditions de l'Avantage Motard Professionnel de la Fonction Publique - Tarifs.md>)
-- [Conditions de l'Avantage Motard Professionnel de la Fonction Publique - Tarifs](<Conditions de l'Avantage Motard Professionnel de la Fonction Publique - Tarifs.md>) - Conditions tarifaires, éd. 01/26
-
 ## Source & fidélité
 
 - Source : [https://www.matmut.fr/services-en-ligne/doc/IPID/ipid-2r-rider.pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/ipid-2r-rider.pdf) - téléchargé le 2026-07-30 - 2 pages

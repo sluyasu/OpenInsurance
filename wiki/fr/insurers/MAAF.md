@@ -5,11 +5,10 @@ country: fr
 insurer_slug: maaf
 name: MAAF
 website: https://www.maaf.fr/
-products_count: 94
+products_count: 88
 branches_covered:
 - assurance-vie
 - auto
-- autres
 - chasse
 - decennale
 - emprunteur
@@ -39,7 +38,7 @@ generated: true
 
 ## Résumé
 
-**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 94 document(s) across 17 branch(es).
+**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 88 document(s) across 16 branch(es).
 
 ## Produits par branche
 
@@ -54,12 +53,6 @@ generated: true
 - [Camping-Car, Ambulance, Bazar forain, Véhicule de collection - IPID](<../products/maaf/Camping-Car, Ambulance, Bazar forain, Véhicule de collection - IPID.md>) - IPID / Fiche d'information (2025-06) · réf. PU0_IPIDAU_00-250622-ZCh9d6-3-1-2-05:04:15- AUT11023
 - [Contrat Auto - Assurance Multirisque](<../products/maaf/Contrat Auto - Assurance Multirisque.md>) - Conditions générales (2026-06) · réf. A0622M
 - [Contrat Camping car, Ambulance, Bazar forain, Véhicule de collection — Assurance Multirisque](<../products/maaf/Contrat Camping car, Ambulance, Bazar forain, Véhicule de collection — Assurance Multirisque.md>) - Conditions générales (06/26) · réf. 6056
-
-### [Autres](<../branches/Autres.md>)
-- [Statuts de MAAF Assurances - Doc](<../products/maaf/Statuts de MAAF Assurances - Doc.md>) - Document (08/21) · réf. Réf. 1865 - 08/21
-- [Statuts de MAAF Assurances - Doc](<../products/maaf/Statuts de MAAF Assurances - Doc (2).md>) - Document (06/15) · réf. 1865
-- [Statuts de MAAF Assurances SA - Doc](<../products/maaf/Statuts de MAAF Assurances SA - Doc.md>) - Document (Juin 2018)
-- [Statuts de MAAF Vie - Doc](<../products/maaf/Statuts de MAAF Vie - Doc.md>) - Document (Août 2021)
 
 ### [Chasse](<../branches/Chasse.md>)
 - [Assurance Vie privée (CHASSE) - IPID](<../products/maaf/Assurance Vie privée (CHASSE) - IPID.md>) - IPID / Fiche d'information · réf. MU0_IPIDIR_00-260518-V45nc0-1-1-2-05:01:24- IRD11004
@@ -82,7 +75,6 @@ generated: true
 - [Assurance habitation jeune - Formule Logement - Fiche](<../products/maaf/Assurance habitation jeune - Formule Logement - Fiche.md>) - Fiche produit (06/2023)
 - [Assurance habitation jeune - Formule Tous risques - Fiche](<../products/maaf/Assurance habitation jeune - Formule Tous risques - Fiche.md>) - Fiche produit (06/2023)
 - [Contrat Immeuble](<../products/maaf/Contrat Immeuble.md>) - Conditions générales (01/2026) · réf. 2222
-- [FICHE D'INFORMATION RELATIVE A LA VENTE A DISTANCE DE VOTRE CONTRAT TEMPO HABITATION (vente à distance) - Doc](<../products/maaf/FICHE D'INFORMATION RELATIVE A LA VENTE A DISTANCE DE VOTRE CONTRAT TEMPO HABITATION (vente à distance) - Doc.md>) - Document
 - [IMMEUBLE - IPID](<../products/maaf/IMMEUBLE - IPID.md>) - IPID / Fiche d'information · réf. MU0_IPIDHA_00-250315-GqMS1D-1-1-2-22:19:13- HAB11009
 - [MOBIL HOME ET CONSTRUCTIONS LEGERES - IPID](<../products/maaf/MOBIL HOME ET CONSTRUCTIONS LEGERES - IPID.md>) - IPID / Fiche d'information (2026-01) · réf. HAB11027
 - [TEMPO HABITATION EN CONSTRUCTION - IPID](<../products/maaf/TEMPO HABITATION EN CONSTRUCTION - IPID.md>) - IPID / Fiche d'information (2026-01) · réf. MU0_IPIDHA_00-260126-LDFkGz-2-1-2-05:01:17- HAB11028
@@ -117,7 +109,6 @@ generated: true
 - [Multirisque Professionnelle - IPID](<../products/maaf/Multirisque Professionnelle - IPID.md>) - IPID / Fiche d'information (2024-06) · réf. PRO10001
 - [Multirisque des Professionnels du Bâtiment et des Travaux Publics](<../products/maaf/Multirisque des Professionnels du Bâtiment et des Travaux Publics.md>) - Conditions générales (01/26) · réf. 11036
 - [Multirisque des Professionnels du Bâtiment et des Travaux Publics - IPID](<../products/maaf/Multirisque des Professionnels du Bâtiment et des Travaux Publics - IPID.md>) - IPID / Fiche d'information (2024-06) · réf. MU0_IPIDPO_00-240616-FVDftz-3-1-2-01:01:24- PRO10005
-- [Nomenclature MAAF Assurances SA des activités du Bâtiment et des Travaux Publics - Doc](<../products/maaf/Nomenclature MAAF Assurances SA des activités du Bâtiment et des Travaux Publics - Doc.md>) - Document (06/2026) · réf. 11056
 - [PROFESSIONS DE LA RESTAURATION ET DE L'HÔTELLERIE — INTERCALAIRE](<../products/maaf/PROFESSIONS DE LA RESTAURATION ET DE L'HÔTELLERIE — INTERCALAIRE.md>) - Conditions générales (01/25) · réf. 11045 - 01/25
 - [Professions médicales et paramédicales — Intercalaire](<../products/maaf/Professions médicales et paramédicales — Intercalaire.md>) - Conditions générales (03/24) · réf. 11048
 - [SYNDICATS PROFESSIONNELS ARTISANAUX — INTERCALAIRE](<../products/maaf/SYNDICATS PROFESSIONNELS ARTISANAUX — INTERCALAIRE.md>) - Conditions générales (03/24) · réf. 11042 - 03/24

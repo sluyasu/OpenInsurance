@@ -180,7 +180,6 @@ Hospitalisation: Chambre particuliere, lit d’accompagnant et confort à l’h�
 
 ## Documents liés
 
-- [Direct Assurance Santé - Exemples de remboursements - Doc](<Direct Assurance Santé - Exemples de remboursements - Doc.md>) - Document
 - [Direct Assurance Santé - contrat responsable (Formules Essentielle, Essentielle +, Equilibre, Equilibre +, Liberté, Libe](<Direct Assurance Santé - contrat responsable (Formules Essentielle, Essentielle +, Equilibre, Equilibre +, Liberté, Libe.md>) - IPID / Fiche d'information, éd. 12/2024
 - [Direct Assurance Santé](<Direct Assurance Santé.md>) - Conditions générales, éd. 12.24 (code de pied de page « SANTÉ_12.24_VF »)
 

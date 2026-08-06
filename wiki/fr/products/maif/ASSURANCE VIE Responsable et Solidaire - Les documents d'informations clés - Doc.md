@@ -34,7 +34,7 @@ extraction_model: claude-code-subagent:scale
 prompt_version: '1.1'
 product_family: assurance-vie-responsable-et-solidaire
 variant: null
-edition_status: current
+edition_status: null
 edition_age_years: 0
 superseded: null
 extends: Assurance vie Responsable et Solidaire
@@ -124,14 +124,11 @@ Recueil des documents d’informations clés (DIC / PRIIPs) des unités de compt
 
 ## Documents liés
 
-- Édition courante de ce produit.
 - Extension / option du produit : **Assurance vie Responsable et Solidaire**
 - [Assurance vie Responsable et Solidaire - Tarifs](<Assurance vie Responsable et Solidaire - Tarifs.md>) - Conditions tarifaires, éd. 06/2026
 - [Assurance vie Responsable et Solidaire - Annexes à la Notice d'information](<Assurance vie Responsable et Solidaire - Annexes à la Notice d'information.md>) - Conditions générales, éd. 06/26
 - [Assurance vie Responsable et Solidaire - IPID](<Assurance vie Responsable et Solidaire - IPID.md>) - IPID / Fiche d'information, éd. 06/26
 - [Assurance vie Responsable et Solidaire](<Assurance vie Responsable et Solidaire.md>) - Conditions générales, éd. 04/25
-- [Fonds en euros - Doc](<Fonds en euros - Doc.md>) - Document, éd. 06/26
-- [fonds en euros du contrat Assurance vie Responsable et Solidaire - Doc](<fonds en euros du contrat Assurance vie Responsable et Solidaire - Doc.md>) - Document, éd. 06/26
 
 ## Source & fidélité
 
