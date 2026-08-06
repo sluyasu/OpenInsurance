@@ -18,8 +18,8 @@ from pathlib import Path
 
 import httpx
 
-from common import (fallback_branch, insurer_configs, pdfs_dir, load_manifest,
-                    save_manifest, slugify, today, REPO)
+from common import (fallback_branch, insurer_configs, out_of_scope_urls, pdfs_dir,
+                    load_manifest, save_manifest, slugify, today, REPO)
 
 UA = "openinsurance-wiki/0.1 (+https://github.com/sluyasu/OpenInsurance; polite public-document fetcher)"
 
@@ -103,6 +103,10 @@ def gather_entries(cc: str, only: str | None) -> list[dict]:
         ins = cfg.get("insurer", {})
         slug = ins.get("slug")
         for pdf in cfg.get("pdfs", []) or []:
+            if pdf.get("out_of_scope"):
+                # A recorded scope decision, not a fetch failure: the row documents a
+                # real URL that is deliberately not ingested (see CONTRIBUTING, Scope).
+                continue
             entries.append({
                 "insurer_slug": slug,
                 "insurer_name": ins.get("name"),

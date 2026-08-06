@@ -14,7 +14,7 @@ precisely what was asked and reproduce the identical extraction with their own m
 | `OUTPUT_SPEC.md` | The output contract: a single JSON object conforming to `schema/product.schema.json`, field by field. |
 | `EXTRACTION_TASK.md` | The user-prompt template (placeholders filled per PDF by `pipeline/extract.py`). |
 | `providers/` | Thin adapters implementing a common `complete(system, prompt) -> text`. |
-| `VERSION` | Prompt version string. Part of the extraction cache key - **bump it when you edit any prompt file**. |
+| `VERSION` | Prompt version string. Part of the extraction cache key - **bump it when an edit changes what a correct extraction of an in-scope document contains** (bumping declares every committed extraction stale and re-runs the LLM on all of them). An edit that only adds a refusal path for documents that must never be extracted (the scope gate) does not invalidate existing extractions, so it does not bump. |
 
 ## How `extract.py` assembles the call
 

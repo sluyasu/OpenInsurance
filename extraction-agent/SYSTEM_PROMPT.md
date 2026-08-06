@@ -38,6 +38,9 @@ are the whole job.
    document states. `summary` is a factual description, never an opinion.
 7. **One JSON object only.** Output strictly the JSON object - no prose before or after, no Markdown fences with
    commentary. It must parse and validate against the schema.
+8. **Products only (scope gate).** If the document is not a contractual or pre-contractual document of a
+   specific insurance product, return the single out-of-scope object defined in the output specification
+   instead of an extraction. Decide this first, before extracting anything.
 
 ## Method
 

@@ -139,12 +139,22 @@ def _extracted(cc: str) -> list[tuple[Path, dict]]:
         if base.is_dir():
             for jf in sorted(base.glob("*/*.json")):
                 try:
-                    out.append((jf, json.loads(jf.read_text(encoding="utf-8"))))
+                    obj = json.loads(jf.read_text(encoding="utf-8"))
                 except Exception as e:
                     # Serve the rest, but never silently: a skipped file is a
                     # product that vanished from every tool.
                     print(f"[insurance-wiki-mcp] skipping unreadable {jf}: {e}",
                           file=sys.stderr)
+                    continue
+                # Mirrors build_wiki.load_products (duplicated on purpose: the server
+                # ships standalone from PyPI and cannot import pipeline/): a document
+                # judged out of scope by the extraction agent is not a product and
+                # must not be served as one.
+                if obj.get("out_of_scope_reason"):
+                    print(f"[insurance-wiki-mcp] skipping out-of-scope {jf.name}",
+                          file=sys.stderr)
+                    continue
+                out.append((jf, obj))
         _EXTRACTED_CACHE[cc] = out
     return _EXTRACTED_CACHE[cc]
 

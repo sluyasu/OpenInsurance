@@ -21,7 +21,8 @@ import sys
 from pathlib import Path
 
 from common import (AGENT, SCHEMA, REPO, country_dir, load_manifest, extracted_dir,
-                    read_json, write_json, slugify, branch_slugs, prompt_version, today)
+                    out_of_scope_urls, read_json, write_json, slugify, branch_slugs,
+                    prompt_version, today)
 
 # Make the hyphenated extraction-agent/providers package importable.
 sys.path.insert(0, str(AGENT))
@@ -341,6 +342,17 @@ def main() -> int:
 
     manifest = load_manifest(cc)
     items = [r for r in manifest.values() if r.get("local_path")]
+    # Extraction runs off the manifest, not off sources/, so a source row marked
+    # out_of_scope after its PDF was downloaded would happily re-enter the dataset
+    # here. Honour the marker at this stage too; validate reports the stale manifest
+    # entry so it gets cleaned up rather than skipped forever.
+    marked = out_of_scope_urls(cc)
+    excluded = [r for r in items if r.get("url") in marked]
+    if excluded:
+        items = [r for r in items if r.get("url") not in marked]
+        print(f"[extract] {len(excluded)} manifest entr{'ies' if len(excluded) > 1 else 'y'} "
+              f"marked out_of_scope in sources/{cc}/ skipped "
+              f"(stale: remove them from the manifest and delete the PDFs)")
     if args.insurer:
         items = [r for r in items if r.get("insurer_slug") == args.insurer]
     if args.url:
@@ -399,6 +411,19 @@ def main() -> int:
         except Exception as ex:
             print(f"[extract] FAIL {pdf.name}: {ex}")
             record_gap(cc, rec, f"extraction failed ({type(ex).__name__}): {str(ex)[:200]}")
+            n_fail += 1
+            continue
+
+        # Scope verdict (see OUTPUT_SPEC): the document is real but is not a product
+        # document, so NO extraction is written - a page must not exist for it. The
+        # decision is recorded in gaps.json (loud, committed) and the fix is a human
+        # one: mark the source row `out_of_scope:` so download stops fetching it.
+        if obj.get("out_of_scope_reason"):
+            reason = str(obj["out_of_scope_reason"])[:300]
+            print(f"[extract] OUT OF SCOPE {pdf.name}: {reason}\n"
+                  f"[extract]   -> mark the row `out_of_scope:` in sources/{cc}/"
+                  f"{rec.get('insurer_slug')}.yml, remove the manifest entry and the PDF")
+            record_gap(cc, rec, f"out of scope: {reason}")
             n_fail += 1
             continue
 

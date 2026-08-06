@@ -34,6 +34,14 @@ PDFs and extracts them into a rich, source-cited Markdown wiki. Read this before
    `edition_date`; group by `product_family`; the newer edition supersedes the older (linked, not deleted).
    Variants (channel/formula) are parallel, not superseded. An extension/option is not a standalone product
    (`is_extension`/`extends`). See CONTRIBUTING.md "Versions, editions & extensions".
+9. **Insurance products only.** A wiki page documents a contractual or pre-contractual document of a specific
+   insurance product (CG, CP, IPID/DIC, product-specific tariff or limits table, product sheet, notice,
+   règlement mutualiste, assistance convention). Company statutes, financial/fund reports, activity
+   nomenclatures, generic legal notices tied to no single product, commercial-discount riders, industry-wide
+   conventions and service conventions carrying no insurance cover are **out of scope**: mark the source row
+   `out_of_scope: "<reason>"` instead of ingesting it (the row stays, the decision is recorded). The
+   extraction agent refuses them (`out_of_scope_reason`), and validate blocks any that slip through.
+   See CONTRIBUTING.md "Scope: what belongs in the wiki".
 
 ## The two layers (do not blur them)
 

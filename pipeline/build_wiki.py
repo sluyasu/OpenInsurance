@@ -63,7 +63,7 @@ def load_products(cc: str) -> list[dict]:
     One unreadable file used to abort the whole build with a JSONDecodeError that did not
     say which file. Reporting and continuing means 268 good products still publish, and
     the broken one is named instead of hidden behind a stack trace."""
-    out, broken = [], []
+    out, broken, out_of_scope = [], [], []
     base = extracted_dir(cc)
     if base.is_dir():
         for p in sorted(base.glob("*/*.json")):
@@ -72,10 +72,17 @@ def load_products(cc: str) -> list[dict]:
             except Exception as e:                              # noqa: BLE001
                 broken.append(f"{p.relative_to(REPO)}: {e}")
                 continue
+            # An out-of-scope verdict must never become a product page, even if the
+            # file was committed by mistake; validate reports it as an error.
+            if obj and obj.get("out_of_scope_reason"):
+                out_of_scope.append(str(p.relative_to(REPO)))
+                continue
             if obj:
                 out.append(obj)
     for b in broken:
         print(f"[build] UNREADABLE {b}")
+    for o in out_of_scope:
+        print(f"[build] OUT OF SCOPE (no page rendered) {o}")
     if broken:
         print(f"[build] {len(broken)} unreadable extraction(s) skipped; "
               f"`make validate` reports them as errors")

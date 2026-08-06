@@ -11,6 +11,36 @@ page.
   robots and terms; the downloader is polite (rate-limited, identifies itself) - keep it that way.
 - Every product fact must trace to a `source_url` + page. No source, no page.
 
+## Scope: what belongs in the wiki
+
+A wiki page documents **a contractual or pre-contractual document of a specific insurance product**. In scope:
+conditions générales / particulières, IPID and PRIIPs DIC, product sheets and product-specific tariff or limits
+tables, notices d'information, règlements mutualistes, assistance conventions (assistance is an insurance
+branch), option/extension riders (`is_extension: true`).
+
+Out of scope, even when published in the insurer's own document library: company statutes/bylaws, financial and
+fund performance reports, activity nomenclatures, generic legal notices tied to no single product
+(distance-selling information, renunciation rights), industry-wide conventions (e.g. AERAS), conditions of
+commercial discounts or promotional offers, and service conventions carrying no insurance cover. France made
+this rule necessary: the mutuelles' download pages mix all of the above with the real product documents.
+
+Three gates enforce it:
+
+1. **Sources** - when enumeration finds such a URL, keep the row and mark it instead of ingesting or deleting:
+
+   ```yaml
+   - url: "https://…/statuts.pdf"
+     out_of_scope: "statuts de l'entreprise, pas un document produit"
+   ```
+
+   The row records the decision (a deleted row cannot stop the next discovery pass from re-proposing the same
+   URL); `download.py` and `extract.py` skip it.
+2. **Extraction** - the agent checks scope first and returns `{"out_of_scope_reason": "…"}` instead of an
+   extraction (see `extraction-agent/OUTPUT_SPEC.md`). `extract.py` then writes no JSON and records the verdict
+   in `data/<cc>/gaps.json`; your follow-up is to mark the source row.
+3. **Validate** - an extraction carrying an out-of-scope verdict, an extraction whose source row is marked, or
+   a stale manifest entry for a marked URL are all **errors** (CI-blocking).
+
 ## How the pipeline works
 
 ```
@@ -60,6 +90,8 @@ pdfs:                            # optional: direct URLs (bypass discovery)
     branch: auto
     document_type: conditions_generales   # conditions_generales | ipid | conditions_particulieres
     lang: fr
+  - url: "https://…/statuts.pdf"
+    out_of_scope: "statuts de l'entreprise, pas un document produit"   # recorded scope decision: never ingested
 selectors:                       # optional: CSS selectors for discover.py
   pdf_link: "a[href$='.pdf']"
 ```

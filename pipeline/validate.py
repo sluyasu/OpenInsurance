@@ -108,11 +108,12 @@ def data_layer_errors(cc: str) -> list[str]:
     CI, where it is the only thing standing between a drifted extraction and the dataset
     other people install from PyPI."""
     import jsonschema
-    from common import read_json, extracted_dir, load_country
+    from common import read_json, extracted_dir, load_country, load_manifest, out_of_scope_urls
 
     schema = read_json(REPO / "schema" / "product.schema.json")
     v = jsonschema.Draft202012Validator(schema)
     branches = set((load_country(cc).get("branches") or {}).keys())
+    marked = out_of_scope_urls(cc)
     out = []
     for f in sorted(extracted_dir(cc).glob("*/*.json")):
         rel = f.relative_to(REPO)
@@ -121,10 +122,29 @@ def data_layer_errors(cc: str) -> list[str]:
         except Exception as e:                                   # noqa: BLE001
             out.append(f"{rel}: unreadable ({e})")
             continue
+        # Scope gate. Both halves are ERRORS because both publish a product page for
+        # something that is not a product: an extraction carrying the agent's own
+        # out-of-scope verdict should never have been written, and an extraction whose
+        # source row was since marked out_of_scope should have been purged with it.
+        if obj.get("out_of_scope_reason"):
+            out.append(f"{rel}: out of scope per its own extraction "
+                       f"({str(obj['out_of_scope_reason'])[:120]}) - delete it and mark "
+                       f"the source row `out_of_scope:`")
+            continue
+        if obj.get("source_url") in marked:
+            out.append(f"{rel}: source row is marked out_of_scope in sources/{cc}/ "
+                       f"({marked[obj['source_url']][:120]}) - delete this extraction")
+            continue
         for e in list(v.iter_errors(obj))[:3]:
             out.append(f"{rel}: {'/'.join(map(str, e.path))}: {e.message[:160]}")
         if obj.get("branch") not in branches:
             out.append(f"{rel}: branch '{obj.get('branch')}' is not in the {cc} taxonomy")
+    # A marked row whose PDF was fetched before the marking leaves a manifest entry
+    # behind; extract skips it on every run, so without this it would be skipped
+    # forever instead of cleaned up.
+    for url in sorted(set(load_manifest(cc)) & set(marked)):
+        out.append(f"data/{cc}/manifest.json: entry for out-of-scope url {url} - "
+                   f"remove it (and its PDF)")
     return out
 
 

@@ -3,6 +3,22 @@
 Return **exactly one JSON object** conforming to `schema/product.schema.json`. No text outside the JSON. It must
 parse and validate. Below is what each part must contain; the schema is authoritative for types and field names.
 
+## Scope gate (check this before extracting anything)
+
+The wiki documents **insurance products**. If the text is NOT a contractual or pre-contractual document of a
+specific insurance product - for example company statutes/bylaws, a financial or fund performance report, an
+activity nomenclature, a generic legal notice belonging to no single product (distance-selling information,
+renunciation rights, an industry-wide convention), the conditions of a commercial discount or promotional
+offer, or a service convention carrying no insurance cover - then do NOT extract it. Return exactly:
+
+```json
+{"out_of_scope_reason": "<one short sentence: what the document is and why it is not a product document>"}
+```
+
+and nothing else. Product-specific annexes DO stay in scope: a limits/tariff table of a named product, an
+option/extension/rider (`is_extension: true`), an assistance convention (assistance is an insurance branch),
+a règlement mutualiste, an IPID or PRIIPs DIC. When unsure, extract rather than refuse.
+
 ## Metadata (fill what the document/context gives you)
 
 - `schema_version`: "1.0". `prompt_version`: provided in the task (echo it back).

@@ -130,6 +130,26 @@ def insurer_configs(cc: str, only: str | None = None) -> list[dict]:
     return out
 
 
+def out_of_scope_urls(cc: str) -> dict[str, str]:
+    """URL -> reason for every source row marked `out_of_scope:`.
+
+    The marker records a SCOPE DECISION in the census itself: this URL is a real,
+    reachable document of the insurer, but it is not a contractual or pre-contractual
+    document of an insurance product (company statutes, fund performance sheets,
+    commercial-discount riders, service conventions carrying no insurance cover...).
+    The row stays in the YAML rather than being deleted, because a deleted row cannot
+    stop the next discovery pass from re-proposing the same URL, and cannot tell a
+    reader why it is absent. One shared reader, so download, extract and validate can
+    never disagree on what is excluded."""
+    out = {}
+    for cfg in insurer_configs(cc):
+        for pdf in cfg.get("pdfs", []) or []:
+            reason = pdf.get("out_of_scope")
+            if reason:
+                out[pdf["url"]] = str(reason)
+    return out
+
+
 # --- json / manifest ---------------------------------------------------------
 
 def read_json(p: Path, default=None):
