@@ -1,48 +1,199 @@
 <!doctype html>
-<html><head><meta charset="utf-8"><style>
-  * { margin:0; padding:0; box-sizing:border-box; }
-  body { background:#0d1117; color:#e6edf3; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif; width:1280px; padding:44px 48px; }
-  h1 { font-size:26px; font-weight:700; margin-bottom:4px; }
-  h1 .accent { color:#818cf8; }
-  .sub { color:#8b949e; font-size:14px; margin-bottom:30px; }
-  .lane-label { font-size:12px; letter-spacing:.12em; text-transform:uppercase; color:#6e7681; margin:26px 0 12px; }
-  .row { display:flex; align-items:stretch; gap:0; }
-  .box { background:#161b22; border:1px solid #30363d; border-radius:12px; padding:14px 16px; flex:1; min-width:0; }
-  .box .t { font-weight:600; font-size:15px; }
-  .box .d { color:#8b949e; font-size:12.5px; margin-top:4px; line-height:1.35; }
-  .box.llm { border-color:#6366f1; background:#1a1d33; }
-  .box.out { border-color:#10b981; }
-  .arrow { display:flex; align-items:center; color:#6366f1; font-size:22px; padding:0 10px; }
-  .free { display:inline-block; font-size:10.5px; color:#3fb950; border:1px solid #238636; border-radius:999px; padding:1px 8px; margin-top:8px; }
-  .key { display:inline-block; font-size:10.5px; color:#d29922; border:1px solid #9e6a03; border-radius:999px; padding:1px 8px; margin-top:8px; }
-  .tiers { display:flex; gap:14px; }
-  .tier { flex:1; background:#161b22; border:1px solid #30363d; border-left:3px solid #6366f1; border-radius:10px; padding:12px 14px; }
-  .tier .t { font-weight:600; font-size:13.5px; }
-  .tier .d { color:#8b949e; font-size:12px; margin-top:3px; line-height:1.35; }
-  .agent { margin-top:14px; text-align:center; background:#1a1d33; border:1px dashed #6366f1; border-radius:10px; padding:11px; font-size:14px; }
-  .foot { margin-top:26px; color:#6e7681; font-size:12px; }
-</style></head><body>
-  <h1>open<span class="accent">insurance</span>-wiki — turning a country's insurance documents into a knowledge base</h1>
-  <div class="sub">Self-sufficient &amp; reproducible: everything below runs from a clone. Not RAG — a real, source-cited wiki.</div>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>openinsurance-wiki - architecture</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #f7f6f2;
+    --card: #ffffff;
+    --ink: #1a1a21;
+    --ink-2: #52525c;
+    --cap: #8e8e98;
+    --hair: rgba(26, 26, 33, 0.14);
+    --hair-strong: rgba(26, 26, 33, 0.28);
+    --accent: #4f46e5;
+    --accent-deep: #3730a3;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1180px;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Inter", -apple-system, sans-serif;
+    padding: 44px 48px 34px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .eyebrow {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--accent-deep);
+    margin-bottom: 12px;
+  }
+  h1 {
+    font-family: "Newsreader", Georgia, serif;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+    margin-bottom: 10px;
+  }
+  h1 em { font-style: italic; color: var(--accent); }
+  .sub { font-size: 14.5px; color: var(--ink-2); margin-bottom: 30px; }
 
-  <div class="lane-label">Pipeline — scrape → extract → build</div>
-  <div class="row">
-    <div class="box"><div class="t">Sources</div><div class="d">Committed per-insurer YAML: where the public PDFs live.</div></div>
+  .row-label {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 10.5px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--cap);
+    margin: 0 0 10px;
+  }
+  .pipeline { display: flex; align-items: stretch; gap: 0; margin-bottom: 28px; }
+  .stage {
+    flex: 1;
+    background: var(--card);
+    border: 1px solid var(--hair);
+    border-radius: 10px;
+    padding: 16px 18px 15px;
+  }
+  .stage .num {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 10px;
+    color: var(--cap);
+    letter-spacing: 0.12em;
+    margin-bottom: 6px;
+  }
+  .stage h3 { font-size: 15px; font-weight: 600; margin-bottom: 5px; }
+  .stage p { font-size: 12.5px; line-height: 1.45; color: var(--ink-2); }
+  .stage p code {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 11px;
+    color: var(--ink);
+  }
+  .chip {
+    display: inline-block;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 10px;
+    letter-spacing: 0.02em;
+    color: var(--accent-deep);
+    border: 1px solid var(--accent);
+    border-radius: 999px;
+    padding: 2px 9px;
+    margin-top: 8px;
+  }
+  .chip.plain { color: var(--ink-2); border-color: var(--hair-strong); }
+  .arrow {
+    align-self: center;
+    padding: 0 9px;
+    color: var(--accent);
+    font-size: 17px;
+    font-family: "JetBrains Mono", monospace;
+  }
+
+  .tiers { display: flex; gap: 14px; margin-bottom: 24px; }
+  .tier {
+    flex: 1;
+    background: var(--card);
+    border: 1px solid var(--hair);
+    border-left: 2px solid var(--accent);
+    border-radius: 10px;
+    padding: 14px 16px 13px;
+  }
+  .tier .letter {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 10px;
+    color: var(--accent-deep);
+    letter-spacing: 0.12em;
+    margin-bottom: 5px;
+  }
+  .tier h3 { font-size: 14px; font-weight: 600; margin-bottom: 4px; }
+  .tier p { font-size: 12px; line-height: 1.45; color: var(--ink-2); }
+  .tier p code {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 10.5px;
+    color: var(--ink);
+  }
+
+  .payoff {
+    border-top: 1px solid var(--hair-strong);
+    border-bottom: 1px solid var(--hair-strong);
+    padding: 13px 4px;
+    text-align: center;
+    font-size: 14.5px;
+    font-weight: 500;
+    color: var(--ink);
+    margin-bottom: 22px;
+  }
+  .payoff .lead { color: var(--accent); font-family: "JetBrains Mono", monospace; }
+
+  .fig {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 10.5px;
+    color: var(--cap);
+  }
+</style>
+</head>
+<body>
+  <div class="eyebrow">openinsurance-wiki</div>
+  <h1>A country's insurance documents, turned into a <em>knowledge base</em></h1>
+  <div class="sub">Self-sufficient and reproducible: everything below runs from a clone. Not RAG: a real, source-cited wiki.</div>
+
+  <div class="row-label">Pipeline · scrape → extract → build</div>
+  <div class="pipeline">
+    <div class="stage">
+      <div class="num">01</div>
+      <h3>Sources</h3>
+      <p>Committed per-insurer YAML: where the public PDFs live. Scope decisions recorded in place (<code>out_of_scope</code>).</p>
+    </div>
     <div class="arrow">→</div>
-    <div class="box"><div class="t">Download</div><div class="d">httpx + Playwright fallback. Public general conditions &amp; IPID PDFs.<span class="free">free stack, no key</span></div></div>
+    <div class="stage">
+      <div class="num">02</div>
+      <h3>Download</h3>
+      <p>httpx + Playwright fallback. Public general conditions &amp; IPID PDFs.</p>
+      <span class="chip plain">free stack, no key</span>
+    </div>
     <div class="arrow">→</div>
-    <div class="box llm"><div class="t">Extract</div><div class="d">PyMuPDF text → LLM with committed, provider-agnostic prompts → structured JSON.<span class="key">your model, your key</span></div></div>
+    <div class="stage">
+      <div class="num">03</div>
+      <h3>Extract</h3>
+      <p>PyMuPDF text → LLM with committed, provider-agnostic prompts → structured JSON.</p>
+      <span class="chip">your model, your key</span>
+    </div>
     <div class="arrow">→</div>
-    <div class="box out"><div class="t">Build</div><div class="d">Rich, page-cited Markdown. Versions/editions &amp; extensions linked.</div></div>
+    <div class="stage">
+      <div class="num">04</div>
+      <h3>Build</h3>
+      <p>Rich, page-cited Markdown. Versions, editions &amp; extensions linked; grounding verified.</p>
+    </div>
   </div>
 
-  <div class="lane-label">Plug into any agent — 3 tiers</div>
+  <div class="row-label">Plug into any agent · three tiers</div>
   <div class="tiers">
-    <div class="tier"><div class="t">Markdown + manifest</div><div class="d">Any file/git-capable agent reads the wiki; AGENTS.md indexes it.</div></div>
-    <div class="tier"><div class="t">MCP server</div><div class="d">search · compare_products · find_overlap · get_product …</div></div>
-    <div class="tier"><div class="t">Structured data</div><div class="d">data/&lt;country&gt;/ JSON + JSON Schema for machine use.</div></div>
+    <div class="tier">
+      <div class="letter">A</div>
+      <h3>Markdown + manifest</h3>
+      <p>Any file-reading agent browses the wiki; a generated <code>AGENTS.md</code> indexes it.</p>
+    </div>
+    <div class="tier">
+      <div class="letter">B</div>
+      <h3>MCP server</h3>
+      <p><code>search</code> · <code>get_product</code> · <code>get_coverage</code> · <code>compare_products</code> · <code>find_overlap</code> · <code>verify_claim</code> ...</p>
+    </div>
+    <div class="tier">
+      <div class="letter">C</div>
+      <h3>Structured data</h3>
+      <p>One JSON per source document under <code>data/&lt;cc&gt;/</code>, validated against a committed schema.</p>
+    </div>
   </div>
-  <div class="agent">→ any AI agent (Claude, Cursor, an SDK agent, an MCP client) reads a whole national insurance market</div>
 
-  <div class="foot">Country-agnostic: the taxonomy is data, not code. Information only, no advice — every fact traces to its source PDF.</div>
-</body></html>
+  <div class="payoff"><span class="lead">→</span> any AI agent (Claude, Cursor, an SDK agent, an MCP client) reads a whole national insurance market</div>
+
+  <div class="fig">fig. 2 · country-agnostic: the taxonomy is data, not code · information, not advice · every fact traces to its source PDF</div>
+</body>
+</html>
