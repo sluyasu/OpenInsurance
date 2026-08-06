@@ -3,6 +3,14 @@ name: pages
 on:
   push:
     branches: [main]
+    # Only what the built site is made of. README and assets pushes were each
+    # triggering a full rebuild + deploy of byte-identical content - three of
+    # them piled onto a slow Pages queue the day this line was added.
+    paths:
+      - "wiki/**"
+      - "mkdocs.yml"
+      - "pipeline/check_site_links.py"
+      - ".github/workflows/pages.yml"
   workflow_dispatch:
 
 permissions:
