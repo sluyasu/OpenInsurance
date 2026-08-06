@@ -18,7 +18,7 @@ Markdown page that preserves the maximum of what the PDF actually says, with a c
 cross-linked into a navigable graph of products, insurers, branches, regulations and concepts.
 
 <p align="center">
-  <img src="assets/knowledge-graph.png" alt="The insurance knowledge graph: products, insurers, branches, regulations and concepts, all interlinked" width="880">
+  <img src="assets/knowledge-graph.png" alt="The insurance knowledge web: 1,189 product dots gathered around their branch hubs, 39 insurers in indigo, 4 countries" width="720">
 </p>
 
 As far as we know, this is the **only open-source, machine-readable, source-cited database of insurance
