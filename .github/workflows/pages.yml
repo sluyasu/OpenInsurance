@@ -53,3 +53,9 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          # The action polls the Pages deployment and aborts at 10 min by default.
+          # On 2026-08-06 the Pages queue slowed and three consecutive deploys died
+          # on "Timeout reached, aborting!" while the build job stayed green. A slow
+          # queue is not a failed deploy: give it half an hour before calling it one.
+          timeout: 1800000
