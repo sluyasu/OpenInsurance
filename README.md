@@ -1,8 +1,16 @@
 # openinsurance-wiki
 
+[![validate](https://github.com/sluyasu/OpenInsurance/actions/workflows/validate.yml/badge.svg)](https://github.com/sluyasu/OpenInsurance/actions/workflows/validate.yml)
+[![site](https://github.com/sluyasu/OpenInsurance/actions/workflows/pages.yml/badge.svg)](https://sluyasu.github.io/OpenInsurance/)
+[![PyPI](https://img.shields.io/pypi/v/openinsurance-wiki-mcp)](https://pypi.org/project/openinsurance-wiki-mcp/)
+[![license](https://img.shields.io/badge/license-MIT%20%2B%20CC--BY--4.0-blue)](#licensing--provenance)
+
 > **A brain for a country's insurance market.** A self-sufficient, open-source, country-agnostic framework that
 > turns a nation's public insurance documents into a rich, interconnected, source-cited knowledge base that any
 > AI agent can read.
+
+**Read it live: [sluyasu.github.io/OpenInsurance](https://sluyasu.github.io/OpenInsurance/)** - every page in
+this repo, browsable and searchable, no install.
 
 Not a chatbot. Not a RAG black box. A **transparent, reproducible knowledge graph**: the repo contains the whole
 chain - it finds insurers' public general-conditions PDFs, downloads them, and turns each one into a faithful
@@ -40,9 +48,9 @@ The dataset **ships in the repo, already built**: 1,189 product pages across fou
 glossary, plus the structured JSON behind them. You only need an LLM key to *re-extract from scratch*, never
 to *use* it.
 
-**1. Browse it.** Open the repo as an [Obsidian](https://obsidian.md) vault (the `[[wikilinks]]` become a
-navigable graph). Note: github.com does not render `[[wikilinks]]` as links, so the vault or the website is
-the comfortable way to read.
+**1. Read it.** Online at [sluyasu.github.io/OpenInsurance](https://sluyasu.github.io/OpenInsurance/), or open
+the cloned repo as an [Obsidian](https://obsidian.md) vault and the `[[wikilinks]]` become a navigable graph.
+(github.com itself does not render `[[wikilinks]]` as links - the site or the vault is the comfortable way.)
 
 **2. Plug it into an agent (MCP).** The MCP server is keyless and read-only:
 
@@ -58,6 +66,9 @@ Then register it with any MCP client, e.g. Claude Code:
 claude mcp add insurance-wiki -- "$(pwd)/.venv/bin/python" "$(pwd)/mcp/insurance_wiki_mcp.py"
 ```
 
+(Or take the released server from PyPI - `uvx openinsurance-wiki-mcp` with `INSURANCE_WIKI_REPO` pointing at
+the clone; the in-repo server above is always the one matching the committed dataset.)
+
 You get `search`, `get_product`, `get_coverage` (only what's relevant to one question, with verbatim quotes),
 `compare_products`, `find_overlap` (candidate duplicate cover when combining two policies), `verify_claim`
 (verbatim evidence for a fact-check), `get_branch_overview`, ... See [`mcp/README.md`](mcp/README.md).
@@ -69,16 +80,14 @@ file-reading agent can navigate without guessing.
 
 ---
 
-## How it works
+## Why an MCP server (and not a chatbot, a RAG stack or a REST API)
+
+The goal is that **any** AI agent can answer insurance questions from documents it can cite. That constraint
+picks the architecture:
 
 <p align="center">
   <img src="assets/architecture.png" alt="Pipeline: sources → download → extract → build; then 3 tiers of agent access" width="900">
 </p>
-
-## Why an MCP server (and not a chatbot, a RAG stack or a REST API)
-
-The goal is that **any** AI agent can answer insurance questions from documents it can cite. That constraint
-picks the architecture.
 
 **Why MCP.** The [Model Context Protocol](https://modelcontextprotocol.io) is the standard socket between AI
 assistants and data: one server, and Claude, ChatGPT, Cursor or your own agent plugs in with three lines of
@@ -130,7 +139,7 @@ the **open insurance** agenda (OPIN, the EU FIDA proposal) pushes for machine-re
 data. This project is the missing *public documents* layer of that picture: what the products actually say,
 in the open.
 
-Three things make it different:
+Four things make it different:
 
 1. **Self-sufficient & reproducible.** Clone it, add your own LLM key, run `make all`. It scrapes, downloads
    and extracts from scratch. No hidden datasets - every input is committed, every output is regenerable.
@@ -139,6 +148,10 @@ Three things make it different:
    asked, and run the identical extraction **with your own model** (Claude, Gemini, GPT, or a local model).
 3. **Grounded & cited.** Every product page traces back to the source PDF and cites page numbers. Quotes are
    verified against the raw text. If it isn't in the document, it isn't on the page.
+4. **Scoped.** A page is a contractual or pre-contractual document of a specific insurance product - nothing
+   else. Insurers' download pages mix in company statutes, fund reports and promo riders; those are refused at
+   three gates (a recorded `out_of_scope` marker in the sources, the extraction agent's own verdict, and a
+   CI-blocking check). See [CONTRIBUTING](CONTRIBUTING.md#scope-what-belongs-in-the-wiki).
 
 ---
 
@@ -210,8 +223,10 @@ wiki/be/…                    (the browsable, agent-readable knowledge base)
 Details: [`CONTRIBUTING.md`](CONTRIBUTING.md) (how to add a country / insurer / product) and
 [`extraction-agent/`](extraction-agent/) (the exact prompts).
 
-Every push runs the CI gates: wiki validation (frontmatter, wikilinks, citations) and build idempotence
-(rebuilding the committed wiki must produce a zero diff).
+Every push runs the CI gates: wiki validation (frontmatter, links with `--strict-links`, citations, the data
+layer against the schema and the scope rule), the pytest suite, build idempotence (rebuilding the committed
+wiki must produce a zero diff), and a dead-link check on the built site that gates the deploy. A monthly
+workflow opens an issue when the dataset's freshness slips.
 
 ---
 
